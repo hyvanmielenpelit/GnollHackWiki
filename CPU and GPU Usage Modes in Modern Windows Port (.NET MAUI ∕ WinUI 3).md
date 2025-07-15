@@ -1,7 +1,7 @@
 There are 4 possible modes how to use CPU and GPU for rendering GnollHack on Windows (WinUI 3), when you have both an integrated GPU and a dedicated GPU in your system. The mode used depends on two settings:
 
 1. In Windows 11, **Settings → System → Display → Graphics**
-    - The Steam version of **GnollHack** needs to be added there as a desktop app, please see [[Troubleshooting Gameplay Problems of Modern Windows Port (.NET MAUI WinUI 3)]].
+    - The Steam version of **GnollHack** needs to be added there as a desktop app, please see [[Selecting GPU for Modern Windows Port (Steam)]].
 2. **GPU Acceleration** in GnollHack settings
     - This can't be turned on in the Steam version of GnollHack.
 
