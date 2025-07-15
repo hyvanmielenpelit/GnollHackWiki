@@ -1,4 +1,5 @@
 ## Level 1 arcane spell
+
 - **Attributes:** Intelligence
 - **Mana cost:** 6.0
 - **Casting time:** 1 round
@@ -12,7 +13,11 @@
 - **Base write cost:** 30 charges
 - **Write cost:** From half to full base cost
 - **Components:** Verbal, Somatic, Material
+
 ## Material components - 15 castings
+
 1. any type of crossbow bolt or quarrel
+
 ## Description
+
 Shoots a bolt of force

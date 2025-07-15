@@ -1,4 +1,5 @@
 ## Level 10 enchantment spell
+
 - **Attributes:** Higher of intelligence and charisma
 - **Mana cost:** 150
 - **Casting time:** 1 round
@@ -13,8 +14,12 @@
 - **Base write cost:** 120 charges
 - **Write cost:** From half to full base cost
 - **Components:** Verbal, Material
+
 ## Material components - 3 castings
+
 1. an oracular toadstool
 2. 2 heaps of sporal powder
+
 ## Description
+
 Charms nearby monsters for a duration

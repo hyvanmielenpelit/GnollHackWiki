@@ -1,22 +1,16 @@
 ## Preparations
 
-
 ### Devices
-
 
 You need the following devices to follow these instructions:
 1. **Windows computer** — Windows 10 or later, 16 GB or 32 GB RAM, 512 GB or 1 TB SSD space.
 
-
 ### Software
-
 
 1. Install the latest Visual Studio version with up-to-date support for .NET MAUI 9.0 Preview 4.
 2. Clone this [GnollHack repository](https://github.com/hyvanmielenpelit/GnollHack) — [[Clone Repository in Visual Studio]].
 
-
 ## Build
-
 
 1. [[Install Tile Sets and FMOD Sound Banks]].
 2. [[Install Secrets File]].
@@ -30,18 +24,14 @@ You need the following devices to follow these instructions:
 8. Locate `GnollHackM.sln` in `win\win32\xpl\GnollHackM` directory and open it in Visual Studio.
 9. Rebuild the GnollHackM solution.
 
-
 ## Starting Debugging or Creating Archive
-
 
 1. [[Open GnollHackM Solution in Visual Studio]]. This is different from the normal GnollHack solution.
 2. Select the right solution configuration in the menu bar:
     - **Debugging** — Select **Debug**.
     - **Archiving** — Select **Release**.
 
-
 ## Debugging
-
 
 1. [[Rebuild Solution]].
 2. Hit the green **Start button** to start debugging.

@@ -5,5 +5,7 @@
 - **Charges:** Yes
 - **Maximum charges:** 15
 - **Recharging type:** Rechargeable normally as wand
+
 ## Description
+
 Identifies one item.

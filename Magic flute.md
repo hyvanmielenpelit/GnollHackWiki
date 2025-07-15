@@ -1,4 +1,5 @@
 ## Tool: Flute
+
 - **Weight:** 0.3 lbs
 - **Base value:** 36 gold
 - **Base material:** Wood
@@ -7,5 +8,7 @@
 - **Charges:** Yes
 - **Maximum charges:** 10
 - **Recharging type:** Rechargeable as musical instrument
+
 ## Description
+
 When improvised, playing puts nearby monsters to sleep.

@@ -5,5 +5,7 @@
 - **Charges:** Yes
 - **Maximum charges:** 8
 - **Recharging type:** Rechargeable normally as wand
+
 ## Description
+
 Does absolutely nothing.

@@ -1,6 +1,5 @@
 ## Commands Bound to Letters
 
-
 - Commands in *italic* are new commands in GnollHack that do not appear in NetHack.
 
 | Key | Key Command | Shift + Key | Shift + Key Command | Alt + Key | Alt + Key Command | Ctrl + Key | Ctrl + Key Command |
@@ -35,8 +34,8 @@
 - <sup>1</sup> Number of actions works like this: You first press `n`, then write the number of actions in numerals, and then choose the action. For example, `n20s` searches 20 times.
 
  
-## Other Commands
 
+## Other Commands
 
 - Commands in *italic* are new commands in GnollHack that do not appear in NetHack.
 

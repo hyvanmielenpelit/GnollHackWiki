@@ -1,4 +1,5 @@
 ## Tool: Long Club-Headed Weapon
+
 - **Weight:** 0.8 lbs
 - **Base value:** 50 gold
 - **Base material:** Iron

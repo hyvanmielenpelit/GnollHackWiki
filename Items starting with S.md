@@ -1,4 +1,5 @@
 ## S
+
 - [[Spellbook of sack]]
 - [[Spellbook of saddle]]
 - [[Spellbook of sapphire]]

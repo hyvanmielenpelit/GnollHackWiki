@@ -1,4 +1,5 @@
 ## Ranged Weapon: Hand Crossbow
+
 - **Weight:** 2.5 lbs
 - **Base value:** 50 gold
 - **Base material:** Wood

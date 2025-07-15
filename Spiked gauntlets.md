@@ -1,4 +1,5 @@
 ## Armor: Gloves, Melee Weapon
+
 - **Weight:** 1.9 lbs
 - **Base value:** 30 gold
 - **Base material:** Iron

@@ -6,7 +6,11 @@
 - **Charges:** Yes
 - **Maximum charges:** 8
 - **Recharging type:** Rechargeable normally as wand
+
 ## Item properties
+
 1. Polymorph resistant
+
 ## Description
+
 Polymorphs the target into another creature.

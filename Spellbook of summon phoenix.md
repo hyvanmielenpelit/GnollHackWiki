@@ -1,4 +1,5 @@
 ## Spellbook - Level 7 nature spell
+
 - **Weight:** 3.1 lbs
 - **Base value:** 228 gold
 - **Base material:** Paper
@@ -6,5 +7,7 @@
 - **Actual write cost:** From half to full base cost
 - **Skill:** Nature spell
 - **Level:** 7
+
 ## Description
+
 Summons a permanent phoenix

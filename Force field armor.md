@@ -1,4 +1,5 @@
 ## Armor: Suit of Armor
+
 - **Weight:** 0.0 lbs
 - **Base value:** 4 gold
 - **Base material:** Force field
@@ -9,7 +10,9 @@
 - **Enchantable:** Yes
 - **Safe enchantable level:** +3 or below
 - **Mythic status:** Cannot be mythic
+
 ## Item properties
+
 1. Fire resistant
 2. Cold resistant
 3. Lightning resistant

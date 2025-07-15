@@ -1,4 +1,5 @@
 ## Spellbook - Level 9 enchantment spell
+
 - **Weight:** 3.1 lbs
 - **Base value:** 320 gold
 - **Base material:** Paper
@@ -7,5 +8,7 @@
 - **Skill:** Enchantment spell
 - **Level:** 9
 - **Target MC adjustment:** -4
+
 ## Description
+
 Charms adjacent monsters permanently

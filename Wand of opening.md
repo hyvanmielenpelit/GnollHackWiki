@@ -6,5 +6,7 @@
 - **Charges:** Yes
 - **Maximum charges:** 8
 - **Recharging type:** Rechargeable normally as wand
+
 ## Description
+
 Opens the target door.

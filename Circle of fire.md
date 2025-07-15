@@ -1,4 +1,5 @@
 ## Level 5 arcane spell
+
 - **Attributes:** Intelligence
 - **Mana cost:** 20.0
 - **Casting time:** 1 round
@@ -12,8 +13,12 @@
 - **Base write cost:** 70 charges
 - **Write cost:** From half to full base cost
 - **Components:** Verbal, Somatic, Material
+
 ## Material components - 90 castings
+
 1. a pinch of sulfurous ash
 2. a heap of sporal powder
+
 ## Description
+
 Damages the monsters around you with fire

@@ -5,5 +5,7 @@
 - **Charges:** Yes
 - **Maximum charges:** 8
 - **Recharging type:** Rechargeable normally as wand
+
 ## Description
+
 Detects traps on the level.

@@ -8,5 +8,7 @@
 - **Charges:** Yes
 - **Maximum charges:** 8
 - **Recharging type:** Rechargeable normally as wand
+
 ## Description
+
 Shoots a sleeping ray that makes monsters on its way to fall a sleep.

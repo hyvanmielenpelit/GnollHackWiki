@@ -1,4 +1,5 @@
 ## Armor: Helmet
+
 - **Weight:** 3.1 lbs
 - **Base value:** 50 gold
 - **Base material:** Iron
@@ -9,5 +10,7 @@
 - **Enchantable:** Yes
 - **Safe enchantable level:** +3 or below
 - **Mythic status:** Cannot be mythic
+
 ## Conferred powers
+
 1. Telepathy when worn

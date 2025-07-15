@@ -1,4 +1,5 @@
 ## Level 4 necromancy spell
+
 - **Attributes:** Higher of wisdom and charisma
 - **Mana cost:** 30.0
 - **Casting time:** 1 round
@@ -12,7 +13,11 @@
 - **Base write cost:** 60 charges
 - **Write cost:** From half to full base cost
 - **Components:** Verbal, Material
+
 ## Material components - 6 castings
+
 1. a mandrake root
+
 ## Description
+
 Takes the control of target undead creature for a duration

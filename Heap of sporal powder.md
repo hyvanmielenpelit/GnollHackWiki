@@ -1,9 +1,12 @@
 ## Reagent
+
 - **Weight:** 0.1 lbs
 - **Base value:** 10 gold
 - **Nutritional value:** 1 rounds
 - **Base material:** Organic
+
 ## Component for the following spells
+
 1. [[Circle of fire]]
 2. [[Circle of frost]]
 3. [[Circle of lightning]]

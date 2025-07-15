@@ -1,4 +1,5 @@
 ## Spellbook - Level 7 arcane spell
+
 - **Weight:** 3.1 lbs
 - **Base value:** 228 gold
 - **Base material:** Paper
@@ -6,7 +7,11 @@
 - **Actual write cost:** From half to full base cost
 - **Skill:** Arcane spell
 - **Level:** 7
+
 ## Item properties
+
 1. Cold resistant
+
 ## Description
+
 Damages the monsters around you with cold

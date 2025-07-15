@@ -1,4 +1,5 @@
 ## Spellbook - Level 3 necromancy spell
+
 - **Weight:** 3.1 lbs
 - **Base value:** 92 gold
 - **Base material:** Paper
@@ -6,5 +7,7 @@
 - **Actual write cost:** From half to full base cost
 - **Skill:** Necromancy spell
 - **Level:** 3
+
 ## Description
+
 Summons 2d4 ghouls for a duration

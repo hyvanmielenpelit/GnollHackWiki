@@ -9,5 +9,7 @@
 - **Charges:** Yes
 - **Maximum charges:** 20
 - **Recharging type:** Rechargeable normally as wand
+
 ## Description
+
 Causes the target to slow down to two-thirds its normal speed.

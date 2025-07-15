@@ -1,4 +1,5 @@
 ## Armor: Bracers
+
 - **Weight:** 0.6 lbs
 - **Base value:** 300 gold
 - **Base material:** Leather

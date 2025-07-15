@@ -1,4 +1,5 @@
 ## Level 9 arcane spell
+
 - **Attributes:** Intelligence
 - **Mana cost:** 50.0
 - **Casting time:** 1 round
@@ -12,8 +13,12 @@
 - **Base write cost:** 110 charges
 - **Write cost:** From half to full base cost
 - **Components:** Verbal, Somatic, Material
+
 ## Material components - 80 castings
+
 1. 2 nuggets of iron ore
 2. a sapphire
+
 ## Description
+
 Shoots a great ray of cold

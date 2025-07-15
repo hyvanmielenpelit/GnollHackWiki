@@ -1,8 +1,11 @@
 ## Reagent
+
 - **Weight:** 0.1 lbs
 - **Base value:** 10 gold
 - **Base material:** Silk
+
 ## Component for the following spells
+
 1. [[Controlled level teleport]]
 2. [[Controlled teleport]]
 3. [[Create familiar]]

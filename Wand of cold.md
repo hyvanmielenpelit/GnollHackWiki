@@ -7,7 +7,11 @@
 - **Charges:** Yes
 - **Maximum charges:** 12
 - **Recharging type:** Rechargeable normally as wand
+
 ## Item properties
+
 1. Cold resistant
+
 ## Description
+
 Shoots a ray of cold.

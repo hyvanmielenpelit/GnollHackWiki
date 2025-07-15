@@ -1,4 +1,5 @@
 ## Ammunition: Arrow
+
 - **Weight:** 0.1 lbs
 - **Base value:** 4 gold
 - **Base material:** Steel
@@ -8,6 +9,8 @@
 - **To hit bonus:** +1
 - **Enchantable:** Yes
 - **Safe enchantable level:** +5 or below
+
 ## Component for the following spells
+
 1. [[Arrow of Diana]]
 2. [[Magic arrow]]

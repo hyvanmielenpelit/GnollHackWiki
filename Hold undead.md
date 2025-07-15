@@ -1,4 +1,5 @@
 ## Level 4 celestial spell
+
 - **Attributes:** Higher of wisdom and charisma
 - **Mana cost:** 30.0
 - **Casting time:** 1 round
@@ -12,8 +13,12 @@
 - **Base write cost:** 60 charges
 - **Write cost:** From half to full base cost
 - **Components:** Verbal, Material
+
 ## Material components - 8 castings
+
 1. a clove of garlic
 2. a thread of spider silk
+
 ## Description
+
 Paralyzes the target undead creature

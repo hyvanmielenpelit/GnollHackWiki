@@ -1,16 +1,12 @@
 ![signing-512](https://github.com/user-attachments/assets/d9f033a6-1437-4e31-8e25-3247e0388c1b)
 
-
 ## Overview
-
 
 These are the instructions how to install a **signed MSIX package**. You can't install it directly but you need to accept the signing certificate first.
 
 You need **administrator priviledges** on your computer to do this.
 
-
 ## Installing the Certificate
-
 
 If you haven't installed the GnollHack MSIX certificate, you need to first follow these steps to do so.
 
@@ -28,8 +24,6 @@ If you haven't installed the GnollHack MSIX certificate, you need to first follo
 10. The Certificate Import Wizard should say **"The import was successful"** if everything succeeded.
 11. You can now close all popups by clicking OK in each of them.
 
-
 ## Installing the MSIX package
-
 
 You can now double click the MSIX package and it should allow you to install GnollHack on Windows 10 and 11.

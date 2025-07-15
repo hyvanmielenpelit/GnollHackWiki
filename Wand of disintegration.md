@@ -6,7 +6,11 @@
 - **Charges:** Yes
 - **Maximum charges:** 5
 - **Recharging type:** Rechargeable normally as wand
+
 ## Item properties
+
 1. Disintegration resistant
+
 ## Description
+
 Shoots a disintegration ray that reduces monsters on its way to nothingness.

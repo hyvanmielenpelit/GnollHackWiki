@@ -1,4 +1,5 @@
 ## Level 4 movement spell
+
 - **Attributes:** Higher of intelligence and wisdom
 - **Mana cost:** 30.0
 - **Casting time:** 1 round
@@ -10,7 +11,11 @@
 - **Base write cost:** 60 charges
 - **Write cost:** From half to full base cost
 - **Components:** Verbal, Material
+
 ## Material components - 10 castings
+
 1. a topaz stone
+
 ## Description
+
 Grants the caster ability to walk through walls

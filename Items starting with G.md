@@ -1,5 +1,6 @@
 ## G
 
+
 - [[Gain ability]]
 - [[Gain constitution]]
 - [[Gain dexterity]]

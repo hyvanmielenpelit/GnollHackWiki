@@ -1,11 +1,8 @@
 ## Weapon Skill
 
-
 Increases to-hit, damage, and the chance of a critical strike of thrown weapons.
 
-
 ## Unskilled
-
 
 * To-hit bonus +0
 * Damage bonus +0
@@ -14,9 +11,7 @@ Increases to-hit, damage, and the chance of a critical strike of thrown weapons.
 * Extra -2 damage bonus to throwing weapons of any kind
 * Extra -1 skill level adjustment to critical strike
 
-
 ## Basic
-
 
 * 1 skill slot to advance
 * 20 training to advance
@@ -27,9 +22,7 @@ Increases to-hit, damage, and the chance of a critical strike of thrown weapons.
 * Extra +0 damage bonus to throwing weapons of any kind
 * Extra +0 skill level adjustment to critical strike
 
-
 ## Skilled
-
 
 * 2 skill slots to advance
 * 80 training to advance
@@ -40,9 +33,7 @@ Increases to-hit, damage, and the chance of a critical strike of thrown weapons.
 * Extra +2 damage bonus to throwing weapons of any kind
 * Extra +1 skill level adjustment to critical strike
 
-
 ## Expert
-
 
 * 3 skill slots to advance
 * 180 training to advance
@@ -53,9 +44,7 @@ Increases to-hit, damage, and the chance of a critical strike of thrown weapons.
 * Extra +4 damage bonus to throwing weapons of any kind
 * Extra +2 skill level adjustment to critical strike
 
-
 ## Master
-
 
 * 4 skill slots to advance
 * 320 training to advance
@@ -66,9 +55,7 @@ Increases to-hit, damage, and the chance of a critical strike of thrown weapons.
 * Extra +6 damage bonus to throwing weapons of any kind
 * Extra +3 skill level adjustment to critical strike
 
-
 ## Grand Master
-
 
 * 5 skill slots to advance
 * 500 training to advance

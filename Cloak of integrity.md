@@ -1,4 +1,5 @@
 ## Armor: Cloak
+
 - **Weight:** 0.6 lbs
 - **Base value:** 250 gold
 - **Base material:** Cloth
@@ -9,8 +10,12 @@
 - **Enchantable:** Yes
 - **Safe enchantable level:** +3 or below
 - **Mythic status:** Cannot be mythic
+
 ## Conferred powers
+
 1. Disintegration resistance when worn
+
 ## Item properties
+
 1. Disintegration resistant
 2. Fire resistant

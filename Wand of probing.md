@@ -7,5 +7,7 @@
 - **Charges:** Yes
 - **Maximum charges:** 40
 - **Recharging type:** Rechargeable normally as wand
+
 ## Description
+
 Displays the target's statistics.

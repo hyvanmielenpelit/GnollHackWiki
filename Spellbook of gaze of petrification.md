@@ -1,4 +1,5 @@
 ## Spellbook - Level 11 nature spell
+
 - **Weight:** 3.1 lbs
 - **Base value:** 428 gold
 - **Base material:** Paper
@@ -6,5 +7,7 @@
 - **Actual write cost:** From half to full base cost
 - **Skill:** Nature spell
 - **Level:** 11
+
 ## Description
+
 Petrifies the target instantly

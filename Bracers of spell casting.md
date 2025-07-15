@@ -1,4 +1,5 @@
 ## Armor: Bracers
+
 - **Weight:** 0.6 lbs
 - **Base value:** 300 gold
 - **Base material:** Leather
@@ -9,6 +10,8 @@
 - **Enchantable:** Yes
 - **Safe enchantable level:** +3 or below
 - **Mythic status:** Cannot be mythic
+
 ## Conferred powers
+
 1. Mana pool is increased by 10% when worn
 2. Grants +40% bonus to casting all spells when worn

@@ -1,8 +1,11 @@
 ## Reagent
+
 - **Weight:** 0.1 lbs
 - **Base value:** 10 gold
 - **Base material:** Stone
+
 ## Component for the following spells
+
 1. [[Animate fire]]
 2. [[Burning hands]]
 3. [[Circle of fire]]

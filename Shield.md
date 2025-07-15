@@ -1,4 +1,5 @@
 ## Minor abjuration cantrip
+
 - **Attributes:** Higher of intelligence and wisdom
 - **Mana cost:** 3.0
 - **Casting time:** 1 round
@@ -10,7 +11,11 @@
 - **Base write cost:** 10 charges
 - **Write cost:** From half to full base cost
 - **Components:** Verbal, Material
+
 ## Material components - 20 castings
+
 1. a nugget of iron ore
+
 ## Description
+
 Gives -6 bonus to AC and +2 to MC

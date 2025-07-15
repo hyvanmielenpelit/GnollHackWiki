@@ -8,7 +8,6 @@
 
 ![image](https://user-images.githubusercontent.com/16661034/236316491-9e0b1fbc-4152-424a-9d3f-6dc5da9583e9.png)
 
-
 # Description of Acronyms and Symbols
 
 ## Difficulty Level

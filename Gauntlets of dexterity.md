@@ -1,4 +1,5 @@
 ## Armor: Gloves, Melee Weapon
+
 - **Weight:** 0.6 lbs
 - **Base value:** 100 gold
 - **Base material:** Leather
@@ -11,5 +12,7 @@
 - **Enchantable:** Yes
 - **Safe enchantable level:** +3 or below
 - **Mythic status:** Cannot be mythic
+
 ## Conferred powers
+
 1. Grants +0 bonus to dexterity when worn

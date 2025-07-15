@@ -1,4 +1,5 @@
 ## Armor: Boots, Melee Weapon
+
 - **Weight:** 3.8 lbs
 - **Base value:** 20 gold
 - **Base material:** Iron

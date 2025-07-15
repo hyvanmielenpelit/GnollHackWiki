@@ -1,4 +1,5 @@
 ## Melee Weapon: Double-Headed Flail
+
 - **Weight:** 3.4 lbs
 - **Base value:** 500 gold
 - **Base material:** Iron

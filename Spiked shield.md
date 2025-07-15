@@ -1,4 +1,5 @@
 ## Armor: Shield, Melee Weapon
+
 - **Weight:** 8.1 lbs
 - **Base value:** 50 gold
 - **Base material:** Iron
@@ -11,5 +12,7 @@
 - **Spell casting penalty:** -180% (somatic spells only)
 - **Enchantable:** Yes
 - **Safe enchantable level:** +10 or below
+
 ## Item properties
+
 1. Is weapon when wielded

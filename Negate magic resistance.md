@@ -1,4 +1,5 @@
 ## Level 7 abjuration spell
+
 - **Attributes:** Higher of intelligence and wisdom
 - **Mana cost:** 60.0
 - **Casting time:** 1 round
@@ -11,7 +12,11 @@
 - **Write cost:** From half to full base cost
 - **Other:** Bypasses magic resistance for all monsters
 - **Components:** Verbal, Material
+
 ## Material components - 4 castings
+
 1. a nugget of orichalcum ore
+
 ## Description
+
 Cuts magic resistance of the target to 0% and gives -20 to ability saving throws

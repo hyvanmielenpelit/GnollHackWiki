@@ -1,4 +1,5 @@
 ## Level 8 celestial spell
+
 - **Attributes:** Higher of wisdom and charisma
 - **Mana cost:** 80.0
 - **Casting time:** 1 round
@@ -13,8 +14,12 @@
 - **Base write cost:** 100 charges
 - **Write cost:** From half to full base cost
 - **Components:** Verbal, Material
+
 ## Material components - 3 castings
+
 1. a noncursed nugget of silver ore
 2. a noncursed holy symbol as a catalyst
+
 ## Description
+
 Destroys the target demon

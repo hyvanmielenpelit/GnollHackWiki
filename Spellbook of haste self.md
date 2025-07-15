@@ -1,4 +1,5 @@
 ## Spellbook - Level 3 movement spell
+
 - **Weight:** 3.1 lbs
 - **Base value:** 92 gold
 - **Base material:** Paper
@@ -6,5 +7,7 @@
 - **Actual write cost:** From half to full base cost
 - **Skill:** Movement spell
 - **Level:** 3
+
 ## Description
+
 Increases the movement and attack speed of the caster

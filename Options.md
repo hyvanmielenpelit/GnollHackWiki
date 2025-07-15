@@ -1,38 +1,29 @@
 ## Accessing the Options File
 
-
 ### Modern Ports (Android, iOS, and Windows)
-
 
 You need to enable **Developer Mode** in the settings. Then **Options** will appear in the main menu.
 
-
 ### Linux
-
 
 The options file is located in your home folder (~) and is named `.gnollhackrc`.
 
-
 ### Linux Server (Hardfought, server.gnollhack.com)
-
 
 You use the server UI to edit the options file.
 
-
 ### Windows Legacy Ports
-
 
 The options file is in the same folder as the executable and is named `defaults.gnh`. It is a text file.
 
-
 ## Old Options from NetHack
-
 
 - [NetHack options on NetHack wiki](https://nethackwiki.com/wiki/Options)
 
-
 ## New Options in GnollHack
+
 ### Boolean Options
+
 - autostatuslines — Automatically adjust message lines and status lines in the curses interface.
 - autounlock — Automatically unlock a locked door or chest
 - baseacasbonus — Display base armor class as a bonus rather than a number starting at 10
@@ -74,8 +65,8 @@ The options file is in the same folder as the executable and is named `defaults.
 - tellexp — Report experience points gained
 - underline_peaceful — Underline peaceful monsters
 
-
 ### Compound Options
+
 - animation_interval — Animation frame interval in milliseconds
 - catbreed — The breed of your (first) cat (e.g., catbreed:white persian)
 - catgender — The gender of your (first) cat (e.g., catgender:female)

@@ -1,4 +1,5 @@
 ## Tool: Horn
+
 - **Weight:** 1.2 lbs
 - **Base value:** 100 gold
 - **Base material:** Bone
@@ -12,5 +13,7 @@
 - **Enchantable:** Yes
 - **Safe enchantable level:** +10 or below
 - **Mythic status:** Cannot be mythic
+
 ## Description
+
 Unicorn horn is known for its powers to cure ailments.

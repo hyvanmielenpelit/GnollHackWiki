@@ -1,4 +1,5 @@
 ## Ranged Weapon: Sling
+
 - **Weight:** 0.2 lbs
 - **Base value:** 20 gold
 - **Base material:** Leather
@@ -11,5 +12,7 @@
 - **Enchantable:** Yes
 - **Safe enchantable level:** +5 or below
 - **Mythic status:** Cannot be mythic
+
 ## Notable
+
 1. Adds the user's strength bonus to damage.

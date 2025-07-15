@@ -1,4 +1,5 @@
 ## Major enchantment cantrip
+
 - **Attributes:** Higher of intelligence and charisma
 - **Mana cost:** 4.0
 - **Casting time:** 1 round
@@ -11,7 +12,11 @@
 - **Base write cost:** 20 charges
 - **Write cost:** From half to full base cost
 - **Components:** Verbal, Material
+
 ## Material components - 30 castings
+
 1. a sprig of wolfsbane
+
 ## Description
+
 The caster can confuse monsters on hit

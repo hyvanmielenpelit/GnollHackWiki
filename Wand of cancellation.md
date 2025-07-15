@@ -8,10 +8,14 @@
 - **Charges:** Yes
 - **Maximum charges:** 8
 - **Recharging type:** Rechargeable normally as wand
+
 ## Item properties
+
 1. Disintegration resistant
 2. Lightning resistant
 3. Polymorph resistant
 4. Destroys magic bags if put in
+
 ## Description
+
 Prohibits the target from using magic or magical attacks.

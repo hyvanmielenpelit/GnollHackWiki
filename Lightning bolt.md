@@ -1,4 +1,5 @@
 ## Level 3 arcane spell
+
 - **Attributes:** Intelligence
 - **Mana cost:** 10.0
 - **Casting time:** 1 round
@@ -12,7 +13,11 @@
 - **Base write cost:** 50 charges
 - **Write cost:** From half to full base cost
 - **Components:** Verbal, Somatic, Material
+
 ## Material components - 50 castings
+
 1. a nugget of copper ore
+
 ## Description
+
 Shoots a ray of lightning

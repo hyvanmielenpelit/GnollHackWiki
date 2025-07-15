@@ -1,4 +1,5 @@
 ## Melee and Thrown Weapon: Dagger
+
 - **Weight:** 0.6 lbs
 - **Base value:** 4 gold
 - **Base material:** Iron
@@ -10,5 +11,7 @@
 - **To hit bonus:** +2
 - **Enchantable:** Yes
 - **Safe enchantable level:** +10 or below
+
 ## Component for the following spell
+
 1. [[Armageddon]] (catalyst, not cursed, death-enchanted)

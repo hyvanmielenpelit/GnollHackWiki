@@ -1,4 +1,5 @@
 ## Level 6 arcane spell
+
 - **Attributes:** Intelligence
 - **Mana cost:** 25.0
 - **Casting time:** 1 round
@@ -12,7 +13,11 @@
 - **Base write cost:** 80 charges
 - **Write cost:** From half to full base cost
 - **Components:** Verbal, Somatic, Material
+
 ## Material components - 60 castings
+
 1. a nugget of platinum ore
+
 ## Description
+
 Shoots a massive ray of magic missiles

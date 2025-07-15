@@ -1,4 +1,5 @@
 ## Level 6 conjuration spell
+
 - **Attributes:** Higher of intelligence and charisma
 - **Mana cost:** 100
 - **Casting time:** 1 round
@@ -8,8 +9,12 @@
 - **Base write cost:** 80 charges
 - **Write cost:** From half to full base cost
 - **Components:** Verbal, Somatic, Material
+
 ## Material components - 1 casting
+
 1. 2 diamonds
 2. 2 feathers
+
 ## Description
+
 Summons a permanent elder air elemental

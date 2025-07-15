@@ -1,4 +1,5 @@
 ## Thrown Weapon: Dart
+
 - **Weight:** 0.1 lbs
 - **Base value:** 2 gold
 - **Base material:** Iron
@@ -10,5 +11,7 @@
 - **To hit bonus:** +2
 - **Enchantable:** Yes
 - **Safe enchantable level:** +10 or below
+
 ## Component for the following spell
+
 1. [[Magic missile]]

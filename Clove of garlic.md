@@ -1,9 +1,12 @@
 ## Reagent
+
 - **Weight:** 0.1 lbs
 - **Base value:** 10 gold
 - **Nutritional value:** 40 rounds
 - **Base material:** Vegetable
+
 ## Component for the following spells
+
 1. [[Forbid summoning]]
 2. [[Hold undead]]
 3. [[Negate undeath]] (not cursed)

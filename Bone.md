@@ -1,8 +1,11 @@
 ## Reagent
+
 - **Weight:** 1.0 lb
 - **Base value:** 10 gold
 - **Base material:** Bone
+
 ## Component for the following spells
+
 1. [[Detect food]]
 2. [[Faithful hound]]
 3. [[Protection from acid]]

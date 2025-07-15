@@ -8,5 +8,7 @@
 - **Charges:** Yes
 - **Maximum charges:** 20
 - **Recharging type:** Rechargeable normally as wand
+
 ## Description
+
 Frightens and deals damage to a target undead creature.

@@ -1,8 +1,11 @@
 ## Reagent
+
 - **Weight:** 2.0 lbs
 - **Base value:** 10 gold
 - **Base material:** Bone
+
 ## Component for the following spells
+
 1. [[Create dracolich]]
 2. [[Create elder dracolich]]
 3. [[Deathspell]]

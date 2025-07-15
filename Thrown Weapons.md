@@ -6,9 +6,7 @@ These are mostly unchanged from NetHack.
 - [[Throwing axe]]
 - [[Aklys]] — Returns to hand after being thrown
 
-
 ## Thrown Weapon Modifiers
-
 
 1. Can get weapon quality modifiers
 2. Can be mythic or legendary

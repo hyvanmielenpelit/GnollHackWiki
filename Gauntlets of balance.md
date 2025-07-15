@@ -1,4 +1,5 @@
 ## Armor: Gloves, Melee Weapon
+
 - **Weight:** 0.6 lbs
 - **Base value:** 1000 gold
 - **Base material:** Leather
@@ -11,11 +12,15 @@
 - **Enchantable:** Yes
 - **Safe enchantable level:** +10 or below
 - **Mythic status:** Cannot be mythic
+
 ## Conferred powers
+
 1. Very fast speed when worn
 2. Paralysis resistance when worn
 3. Raises strength to 19 when worn
+
 ## Item properties
+
 1. Fire resistant
 2. Rot-resistant
 3. Polymorph resistant

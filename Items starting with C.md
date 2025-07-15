@@ -1,4 +1,5 @@
 ## C
+
 - [[C-ration]]
 - [[Call Bahamut]]
 - [[Call Demogorgon]]

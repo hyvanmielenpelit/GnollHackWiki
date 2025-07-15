@@ -1,4 +1,5 @@
 ## Level 3 celestial spell
+
 - **Attributes:** Higher of wisdom and charisma
 - **Mana cost:** 20.0
 - **Casting time:** 1 round
@@ -11,7 +12,11 @@
 - **Base write cost:** 50 charges
 - **Write cost:** From half to full base cost
 - **Components:** Verbal, Material
+
 ## Material components - 10 castings
+
 1. a clove of garlic
+
 ## Description
+
 Damages undead creatures and makes them flee

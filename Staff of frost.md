@@ -1,4 +1,5 @@
 ## Melee Weapon: Staff
+
 - **Weight:** 1.9 lbs
 - **Base value:** 1000 gold
 - **Base material:** Wood
@@ -11,8 +12,12 @@
 - **Enchantable:** Yes
 - **Safe enchantable level:** +15 or below
 - **Mythic status:** Cannot be mythic
+
 ## Conferred powers
+
 1. 75% cold resistance when wielded
 2. Grants +60% bonus to casting unrestricted school spells when wielded
+
 ## Item properties
+
 1. Cold resistant

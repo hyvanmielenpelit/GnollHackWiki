@@ -1,13 +1,10 @@
 ## Download Visual Studio 2022 Community
 
-
 - [Download Visual Studio 2022 Preview Installer](https://visualstudio.microsoft.com/vs/preview/)
 - Use **Visual Studio Installer** to install Visual Studio Community 2022 Preview
 - These installation instructions pertain to Visual Studio Community 2022 17.11.0 Preview 2.0 and later
 
-
 ## Workloads
-
 
 Install the following workloads:
 
@@ -18,9 +15,7 @@ Install the following workloads:
 5. Mobile development with C++
 6. Linux and embedded development with C++
 
-
 ## Individual components
-
 
 Install the following individual components:
 

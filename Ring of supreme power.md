@@ -1,8 +1,11 @@
 ## Magical Ring
+
 - **Weight:** 0.1 lbs
 - **Base value:** 5000 gold
 - **Base material:** Gold
+
 ## Conferred powers
+
 1. Invisibility when worn
 2. Clairvoyance when worn
 3. See invisible when worn
@@ -14,7 +17,9 @@
 9. Grants +3 bonus to charisma when worn
 10. Grants -3 bonus to armor class when worn
 11. Grants +1 bonus to magic cancellation when worn
+
 ## Item properties
+
 1. Indestructible
 2. Disintegration resistant
 3. Fire resistant

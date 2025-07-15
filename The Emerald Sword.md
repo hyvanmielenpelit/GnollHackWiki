@@ -1,6 +1,5 @@
 ## Melee Weapon: Two-handed sword - Artifact
 
-
 - **Weight:**                 5.6 lbs
 - **Base value:**             5000 gold
 - **Material:**               Gemstone
@@ -12,8 +11,8 @@
 - **Base damage - Large:**    6d6 (avg 21.0)
 - **Safe enchantable level:** +20 or below
 
-
 ## Artifact properties
+
 1. Alignment is neutral
 2. Artifact damage type is physical damage
 3. Artifact to-hit bonus is 1d5

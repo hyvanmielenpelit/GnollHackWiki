@@ -1,8 +1,11 @@
 ## Reagent
+
 - **Weight:** 0.1 lbs
 - **Base value:** 10 gold
 - **Base material:** Organic
+
 ## Component for the following spells
+
 1. [[Animate air]]
 2. [[Celestial storm]]
 3. [[Fire storm]]

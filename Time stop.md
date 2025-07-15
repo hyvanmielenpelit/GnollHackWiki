@@ -1,4 +1,5 @@
 ## Level 10 movement spell
+
 - **Attributes:** Higher of intelligence and wisdom
 - **Mana cost:** 150
 - **Casting time:** 1 round
@@ -9,7 +10,11 @@
 - **Base write cost:** 120 charges
 - **Write cost:** From half to full base cost
 - **Components:** Verbal, Material
+
 ## Material components - 4 castings
+
 1. a noncursed citrine stone
+
 ## Description
+
 Stops the flow of time, except for the caster

@@ -5,5 +5,7 @@
 - **Charges:** Yes
 - **Maximum charges:** 20
 - **Recharging type:** Rechargeable as a magic cube
+
 ## Description
+
 Allows the user to level teleport.

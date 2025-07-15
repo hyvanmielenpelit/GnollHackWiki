@@ -1,4 +1,5 @@
 ## Ordinary body armor
+
 - [[Banded mail]]
 - [[Chain mail]]
 - [[Field plate mail]]
@@ -18,8 +19,8 @@
 
 All ordinary body armor can be mythic and legendary.
 
-
 ## Dragon scale mails and dragon scales
+
 Dragon scale mails are changed from NetHack. They are heavier and incur a spell casting penalty, except for white dragon scale mails that are conductive of magic and incur no such penalty. Thus, except for the white variant, dragon scale mails are not a very good choice for a wizard. Dragon scale mails *cannot* be mythic or legendary.
 
 - [[Black dragon scale mail]]
@@ -44,16 +45,14 @@ Dragons sometimes drop dragon scales that can be crafted into dragon scale mails
 - [[White dragon scales]] — No spell casting penalty
 - [[Yellow dragon scales]] — No petrification resistance
 
-
 ## Mithril-coats
+
 - [[Dwarvish mithril-coat]]
 - [[Elven mithril-coat]]
 
 Mithril-coats can be mythic or legendary.
 
-
 ## Armor Quality
-
 
 Ordinary body armor and mithril-coats can be exceptional, elite, or celestial/primordial/infernal.
 

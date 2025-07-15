@@ -1,4 +1,5 @@
 ## Tool: Horn
+
 - **Weight:** 1.1 lbs
 - **Base value:** 50 gold
 - **Base material:** Bone

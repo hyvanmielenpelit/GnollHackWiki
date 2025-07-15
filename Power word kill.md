@@ -1,4 +1,5 @@
 ## Level 12 necromancy spell
+
 - **Attributes:** Higher of wisdom and charisma
 - **Mana cost:** 300
 - **Casting time:** 1 round
@@ -11,5 +12,7 @@
 - **Base write cost:** 140 charges
 - **Write cost:** From half to full base cost
 - **Components:** Verbal
+
 ## Description
+
 Kills the target

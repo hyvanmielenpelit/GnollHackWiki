@@ -1,4 +1,5 @@
 ## Level 6 enchantment spell
+
 - **Attributes:** Higher of intelligence and charisma
 - **Mana cost:** 50.0
 - **Casting time:** 1 round
@@ -12,8 +13,12 @@
 - **Base write cost:** 80 charges
 - **Write cost:** From half to full base cost
 - **Components:** Verbal, Material
+
 ## Material components - 8 castings
+
 1. a mandrake root
 2. a heap of sporal powder
+
 ## Description
+
 Causes nearby monsters fall asleep

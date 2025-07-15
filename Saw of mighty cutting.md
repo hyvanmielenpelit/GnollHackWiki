@@ -1,4 +1,5 @@
 ## Tool: Saw
+
 - **Weight:** 0.9 lbs
 - **Base value:** 50 gold
 - **Base material:** Adamantium
@@ -13,8 +14,12 @@
 - **Enchantable:** Yes
 - **Safe enchantable level:** +10 or below
 - **Mythic status:** Cannot be mythic
+
 ## Conferred powers
+
 1. Deals double damage on hit
 2. Double digging or cutting speed
+
 ## Permitted targets
+
 1. Monsters made of wood

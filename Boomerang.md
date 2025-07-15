@@ -1,4 +1,5 @@
 ## Thrown Weapon: Boomerang
+
 - **Weight:** 0.3 lbs
 - **Base value:** 20 gold
 - **Base material:** Wood
@@ -9,5 +10,7 @@
 - **Base damage - Large:** 1d9 (avg 5.0)
 - **Enchantable:** Yes
 - **Safe enchantable level:** +10 or below
+
 ## Item properties
+
 1. Returns to hand after throwing

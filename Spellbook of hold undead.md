@@ -1,4 +1,5 @@
 ## Spellbook - Level 4 celestial spell
+
 - **Weight:** 3.1 lbs
 - **Base value:** 120 gold
 - **Base material:** Paper
@@ -6,5 +7,7 @@
 - **Actual write cost:** From half to full base cost
 - **Skill:** Celestial spell
 - **Level:** 4
+
 ## Description
+
 Paralyzes the target undead creature

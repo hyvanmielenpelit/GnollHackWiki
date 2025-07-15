@@ -6,5 +6,7 @@
 - **Maximum charges:** 7
 - **Recharging type:** Rechargeable as crystal ball
 - **Cooldown time:** 25 rounds
+
 ## Description
+
 A magical orb that can be used to detect nearby monsters and items.

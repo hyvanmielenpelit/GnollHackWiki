@@ -1,4 +1,5 @@
 ## Level 3 arcane spell
+
 - **Attributes:** Intelligence
 - **Mana cost:** 10.0
 - **Casting time:** 1 round
@@ -12,8 +13,12 @@
 - **Base write cost:** 50 charges
 - **Write cost:** From half to full base cost
 - **Components:** Verbal, Somatic, Material
+
 ## Material components - 100 castings
+
 1. a pinch of sulfurous ash
 2. a piece of wood
+
 ## Description
+
 Shoots an exploding fireball

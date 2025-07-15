@@ -1,8 +1,6 @@
 ![code-contributions-512](https://github.com/user-attachments/assets/55a41d75-4779-481e-abcc-310c4e092e2c)
 
-
 ## Bug Fixes
-
 
 1. Confirm that the bug should be fixed with the dev team.
     - Please use [[Discord|Community]] for communication.
@@ -14,9 +12,7 @@
     - Windows (WinUI)
 5. Create a pull request.
 
-
 ## Features
-
 
 1. Discuss first with the dev team.
     - Please use [[Discord|Community]] for communication.

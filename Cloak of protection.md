@@ -1,4 +1,5 @@
 ## Armor: Cloak
+
 - **Weight:** 0.6 lbs
 - **Base value:** 250 gold
 - **Base material:** Cloth

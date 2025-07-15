@@ -1,4 +1,5 @@
 ## Level 2 arcane spell
+
 - **Attributes:** Intelligence
 - **Mana cost:** 8.0
 - **Casting time:** 1 round
@@ -12,7 +13,11 @@
 - **Base write cost:** 40 charges
 - **Write cost:** From half to full base cost
 - **Components:** Verbal, Somatic, Material
+
 ## Material components - 100 castings
+
 1. a pinch of sulfurous ash
+
 ## Description
+
 Shoots a bolt of fire

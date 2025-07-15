@@ -6,7 +6,9 @@
 - **Throws per round:** 1
 - **Base damage - Small:** 1d3 (avg 2.0)
 - **Base damage - Large:** 1d3 (avg 2.0)
+
 ## Component for the following spells
+
 1. [[Gaze of petrification]]
 2. [[Summon elder treant]]
 3. [[Summon owlbear patriarch]]

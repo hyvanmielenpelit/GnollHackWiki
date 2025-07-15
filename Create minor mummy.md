@@ -1,4 +1,5 @@
 ## Level 2 necromancy spell
+
 - **Attributes:** Higher of wisdom and charisma
 - **Mana cost:** 16.0
 - **Casting time:** 1 round
@@ -9,7 +10,11 @@
 - **Base write cost:** 40 charges
 - **Write cost:** From half to full base cost
 - **Components:** Verbal, Material
+
 ## Material components - 5 castings
+
 1. a thread of spider silk
+
 ## Description
+
 Makes a mummifiable non-giant corpse into a permanent mummy

@@ -1,4 +1,5 @@
 ## Spellbook - Level 3 arcane spell
+
 - **Weight:** 3.1 lbs
 - **Base value:** 92 gold
 - **Base material:** Paper
@@ -6,7 +7,11 @@
 - **Actual write cost:** From half to full base cost
 - **Skill:** Arcane spell
 - **Level:** 3
+
 ## Item properties
+
 1. Lightning resistant
+
 ## Description
+
 Causes the target to be jolted with electricity

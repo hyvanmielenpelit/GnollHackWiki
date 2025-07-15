@@ -1,4 +1,5 @@
 ## Armor: Robe
+
 - **Weight:** 1.6 lbs
 - **Base value:** 400 gold
 - **Base material:** Cloth
@@ -9,5 +10,7 @@
 - **Enchantable:** Yes
 - **Safe enchantable level:** +3 or below
 - **Mythic status:** Cannot be mythic
+
 ## Conferred powers
+
 1. Magic resistance when worn

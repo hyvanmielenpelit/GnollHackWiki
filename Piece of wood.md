@@ -1,8 +1,11 @@
 ## Reagent
+
 - **Weight:** 1.0 lb
 - **Base value:** 10 gold
 - **Base material:** Wood
+
 ## Component for the following spells
+
 1. [[Barkskin]]
 2. [[Create fruits]]
 3. [[Create wood golem]]

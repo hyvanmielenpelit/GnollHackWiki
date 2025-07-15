@@ -1,10 +1,13 @@
 ## Reagent
+
 - **Weight:** 0.1 lbs
 - **Base value:** 10 gold
 - **Nutritional value:** 20 rounds
 - **Comestible type:** Rotten
 - **Base material:** Organic
+
 ## Component for the following spells
+
 1. [[Call ghoul]]
 2. [[Create food]]
 3. [[Create giant mummy]]

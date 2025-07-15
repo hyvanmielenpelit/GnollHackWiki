@@ -1,4 +1,5 @@
 ## Minor arcane cantrip
+
 - **Attributes:** Intelligence
 - **Mana cost:** 2.0
 - **Casting time:** 1 round
@@ -12,7 +13,11 @@
 - **Base write cost:** 10 charges
 - **Write cost:** From half to full base cost
 - **Components:** Verbal, Somatic, Material
+
 ## Material components - 20 castings
+
 1. any type of arrow
+
 ## Description
+
 Shoots a magical arrow

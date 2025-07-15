@@ -8,7 +8,9 @@
 - **Base damage - Large:** 1d4 (avg 2.5)
 - **Enchantable:** Yes
 - **Safe enchantable level:** +5 or below
+
 ## Component for the following spells
+
 1. [[Animate earth]]
 2. [[Create stone golem]]
 3. [[Create water]]

@@ -1,6 +1,5 @@
 ## Armor: Gloves, Melee weapon - Artifact
 
-
 - **Weight:**                 0.6 lbs
 - **Base value:**             3500 gold
 - **Material:**               Leather
@@ -13,21 +12,21 @@
 - **Spell casting penalty:**  +0% (somatic spells only)
 - **Safe enchantable level:** +10 or below
 
-
 ## Conferred powers
+
 1. Very fast speed when worn
 2. Free action when worn
 3. Raises strength to 19 when worn
 
-
 ## Item properties
+
 1. Fire resistant
 2. Polymorph resistant
 3. Rot-resistant
 4. Is weapon when worn
 
-
 ## Artifact properties
+
 1. Alignment is unaligned
 2. Artifact is associated with monks
 3. Artifact damage type is physical damage
@@ -39,6 +38,6 @@
     * Effect duration is 1d50 + 150
     * Repowers over 1000 rounds
 
-
 ## Notes
+
 The Gauntlets of Yin and Yang is Monk's crowning gift.

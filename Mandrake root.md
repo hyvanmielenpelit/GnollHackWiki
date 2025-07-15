@@ -1,9 +1,12 @@
 ## Reagent
+
 - **Weight:** 0.2 lbs
 - **Base value:** 10 gold
 - **Nutritional value:** 40 rounds
 - **Base material:** Vegetable
+
 ## Component for the following spells
+
 1. [[Call Demogorgon]]
 2. [[Control undead]]
 3. [[Create dracolich]]

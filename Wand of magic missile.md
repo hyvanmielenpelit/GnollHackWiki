@@ -8,5 +8,7 @@
 - **Charges:** Yes
 - **Maximum charges:** 150
 - **Recharging type:** Rechargeable normally as wand
+
 ## Description
+
 Shoots a ray of magic missiles.

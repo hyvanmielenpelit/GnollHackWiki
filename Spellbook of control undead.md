@@ -1,4 +1,5 @@
 ## Spellbook - Level 4 necromancy spell
+
 - **Weight:** 3.1 lbs
 - **Base value:** 120 gold
 - **Base material:** Paper
@@ -6,5 +7,7 @@
 - **Actual write cost:** From half to full base cost
 - **Skill:** Necromancy spell
 - **Level:** 4
+
 ## Description
+
 Takes the control of target undead creature for a duration

@@ -1,4 +1,5 @@
 ## Tool: Shovel
+
 - **Weight:** 3.8 lbs
 - **Base value:** 100 gold
 - **Base material:** Iron
@@ -11,8 +12,12 @@
 - **Enchantable:** Yes
 - **Safe enchantable level:** +10 or below
 - **Mythic status:** Cannot be mythic
+
 ## Conferred powers
+
 1. Deals double damage on hit
 2. Double digging or cutting speed
+
 ## Permitted targets
+
 1. Monsters made of stone

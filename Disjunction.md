@@ -1,4 +1,5 @@
 ## Level 10 abjuration spell
+
 - **Attributes:** Higher of intelligence and wisdom
 - **Mana cost:** 300
 - **Casting time:** 1 round
@@ -11,7 +12,11 @@
 - **Write cost:** From half to full base cost
 - **Other:** Bypasses magic resistance for all monsters
 - **Components:** Verbal, Material
+
 ## Material components - 1 casting
+
 1. a nugget of orichalcum ore
+
 ## Description
+
 Prohibits the target from using magic or magical attacks

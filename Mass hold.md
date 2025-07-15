@@ -1,4 +1,5 @@
 ## Level 6 movement spell
+
 - **Attributes:** Higher of intelligence and wisdom
 - **Mana cost:** 50.0
 - **Casting time:** 1 round
@@ -13,9 +14,13 @@
 - **Base write cost:** 80 charges
 - **Write cost:** From half to full base cost
 - **Components:** Verbal, Material
+
 ## Material components - 6 castings
+
 1. a clump of bat guano
 2. a thread of spider silk
 3. a heap of sporal powder
+
 ## Description
+
 Paralyzes the targets within the area of effect

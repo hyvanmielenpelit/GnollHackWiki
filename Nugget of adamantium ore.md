@@ -5,7 +5,9 @@
 - **Hands to use:** Single-handed
 - **Base damage - Small:** 1d3 (avg 2.0)
 - **Base damage - Large:** 1d3 (avg 2.0)
+
 ## Component for the following spells
+
 1. [[Globe of invulnerability]] (not cursed)
 2. [[Protection from disintegration]]
 3. [[Stoneskin]]

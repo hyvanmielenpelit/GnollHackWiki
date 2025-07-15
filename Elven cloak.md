@@ -1,4 +1,5 @@
 ## Armor: Cloak
+
 - **Weight:** 0.6 lbs
 - **Base value:** 60 gold
 - **Base material:** Cloth
@@ -9,5 +10,7 @@
 - **Enchantable:** Yes
 - **Safe enchantable level:** +5 or below
 - **Mythic status:** Cannot be mythic
+
 ## Conferred powers
+
 1. Stealth when worn

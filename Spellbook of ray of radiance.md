@@ -1,4 +1,5 @@
 ## Spellbook - Level 7 celestial spell
+
 - **Weight:** 3.1 lbs
 - **Base value:** 228 gold
 - **Base material:** Paper
@@ -6,5 +7,7 @@
 - **Actual write cost:** From half to full base cost
 - **Skill:** Celestial spell
 - **Level:** 7
+
 ## Description
+
 Causes damage to demons, undead, lycanthropes, and light-vulnerable creatures

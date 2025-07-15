@@ -1,4 +1,5 @@
 ## Spellbook - Level 4 transmutation spell
+
 - **Weight:** 3.1 lbs
 - **Base value:** 120 gold
 - **Base material:** Paper
@@ -6,5 +7,7 @@
 - **Actual write cost:** From half to full base cost
 - **Skill:** Transmutation spell
 - **Level:** 4
+
 ## Description
+
 Creates a permanent glass golem

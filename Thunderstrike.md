@@ -1,4 +1,5 @@
 ## Level 8 arcane spell
+
 - **Attributes:** Intelligence
 - **Mana cost:** 40.0
 - **Casting time:** 1 round
@@ -12,8 +13,12 @@
 - **Base write cost:** 100 charges
 - **Write cost:** From half to full base cost
 - **Components:** Verbal, Somatic, Material
+
 ## Material components - 100 castings
+
 1. 2 nuggets of copper ore
 2. a turquoise stone
+
 ## Description
+
 Shoots a great ray of lightning

@@ -1,4 +1,5 @@
 ## Level 2 celestial spell
+
 - **Attributes:** Higher of wisdom and charisma
 - **Mana cost:** 8.0
 - **Casting time:** 1 round
@@ -12,7 +13,11 @@
 - **Base write cost:** 40 charges
 - **Write cost:** From half to full base cost
 - **Components:** Verbal, Material
+
 ## Material components - 60 castings
+
 1. a nugget of silver ore
+
 ## Description
+
 Causes the target demon, undead, or lycanthrope to suffer celestial damage

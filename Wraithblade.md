@@ -1,4 +1,5 @@
 ## Melee Weapon: Dagger
+
 - **Weight:** 0.6 lbs
 - **Base value:** 100 gold
 - **Base material:** Metal
@@ -11,5 +12,7 @@
 - **Enchantable:** Yes
 - **Safe enchantable level:** +10 or below
 - **Mythic status:** Cannot be mythic
+
 ## Conferred powers
+
 1. Reduces hit points permanently on hit

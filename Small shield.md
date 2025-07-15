@@ -1,4 +1,5 @@
 ## Armor: Shield
+
 - **Weight:** 5.0 lbs
 - **Base value:** 3 gold
 - **Base material:** Wood

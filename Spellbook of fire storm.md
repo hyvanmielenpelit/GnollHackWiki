@@ -1,4 +1,5 @@
 ## Spellbook - Level 6 arcane spell
+
 - **Weight:** 3.1 lbs
 - **Base value:** 188 gold
 - **Base material:** Paper
@@ -6,7 +7,11 @@
 - **Actual write cost:** From half to full base cost
 - **Skill:** Arcane spell
 - **Level:** 6
+
 ## Item properties
+
 1. Fire resistant
+
 ## Description
+
 Conjures a storm of fire

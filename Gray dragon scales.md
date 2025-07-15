@@ -1,4 +1,5 @@
 ## Armor: Suit of Armor
+
 - **Weight:** 34 lbs
 - **Base value:** 1500 gold
 - **Base material:** Dragonhide
@@ -8,5 +9,7 @@
 - **Enchantable:** Yes
 - **Safe enchantable level:** +3 or below
 - **Mythic status:** Cannot be mythic
+
 ## Conferred powers
+
 1. 50% magic missile resistance when worn

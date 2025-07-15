@@ -7,5 +7,7 @@
 - **Charges:** Yes
 - **Maximum charges:** 8
 - **Recharging type:** Rechargeable normally as wand
+
 ## Description
+
 Makes the target invisible.

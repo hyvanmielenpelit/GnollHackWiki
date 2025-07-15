@@ -1,4 +1,5 @@
 ## Level 7 arcane spell
+
 - **Attributes:** Intelligence
 - **Mana cost:** 30.0
 - **Casting time:** 1 round
@@ -12,8 +13,12 @@
 - **Base write cost:** 90 charges
 - **Write cost:** From half to full base cost
 - **Components:** Verbal, Somatic, Material
+
 ## Material components - 40 castings
+
 1. a nugget of copper ore
 2. a feather
+
 ## Description
+
 Conjures a storm of lightning

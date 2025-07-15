@@ -1,4 +1,5 @@
 ## O
+
 - [[Spellbook of object detection]]
 - [[Spellbook of obliterate]]
 - [[Spellbook of obsidian]]

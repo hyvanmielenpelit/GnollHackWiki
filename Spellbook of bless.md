@@ -1,4 +1,5 @@
 ## Spellbook - Level 3 clerical spell
+
 - **Weight:** 3.1 lbs
 - **Base value:** 92 gold
 - **Base material:** Paper
@@ -6,5 +7,7 @@
 - **Actual write cost:** From half to full base cost
 - **Skill:** Clerical spell
 - **Level:** 3
+
 ## Description
+
 Blesses one object

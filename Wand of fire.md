@@ -7,7 +7,11 @@
 - **Charges:** Yes
 - **Maximum charges:** 60
 - **Recharging type:** Rechargeable normally as wand
+
 ## Item properties
+
 1. Fire resistant
+
 ## Description
+
 Shoots a ray of fire.

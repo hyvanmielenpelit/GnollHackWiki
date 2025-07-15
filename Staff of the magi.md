@@ -1,4 +1,5 @@
 ## Melee Weapon: Staff
+
 - **Weight:** 1.9 lbs
 - **Base value:** 1500 gold
 - **Base material:** Wood
@@ -11,12 +12,18 @@
 - **Enchantable:** Yes
 - **Safe enchantable level:** +15 or below
 - **Mythic status:** Cannot be mythic
+
 ## Conferred powers
+
 1. Mana pool is increased by 50% when wielded
 2. Grants +120% bonus to casting unrestricted school spells when wielded
+
 ## Powers and extra damage are conferred only to
+
 1. Wizards
+
 ## Item properties
+
 1. Fire resistant
 2. Cold resistant
 3. Lightning resistant

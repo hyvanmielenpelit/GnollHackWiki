@@ -1,4 +1,5 @@
 ## Ranged Weapon: Crossbow
+
 - **Weight:** 6.2 lbs
 - **Base value:** 75 gold
 - **Base material:** Wood

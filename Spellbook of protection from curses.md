@@ -1,4 +1,5 @@
 ## Spellbook - Level 5 clerical spell
+
 - **Weight:** 3.1 lbs
 - **Base value:** 152 gold
 - **Base material:** Paper
@@ -6,7 +7,11 @@
 - **Actual write cost:** From half to full base cost
 - **Skill:** Clerical spell
 - **Level:** 5
+
 ## Item properties
+
 1. Cannot be cursed
+
 ## Description
+
 Items of the caster cannot be cursed

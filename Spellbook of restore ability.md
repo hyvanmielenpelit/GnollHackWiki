@@ -1,4 +1,5 @@
 ## Spellbook - Level 4 healing spell
+
 - **Weight:** 3.1 lbs
 - **Base value:** 120 gold
 - **Base material:** Paper
@@ -6,5 +7,7 @@
 - **Actual write cost:** From half to full base cost
 - **Skill:** Healing spell
 - **Level:** 4
+
 ## Description
+
 Restores lost ability points

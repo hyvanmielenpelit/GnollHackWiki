@@ -1,4 +1,5 @@
 ## Level 6 celestial spell
+
 - **Attributes:** Higher of wisdom and charisma
 - **Mana cost:** 60.0
 - **Casting time:** 1 round
@@ -12,5 +13,7 @@
 - **Base write cost:** 80 charges
 - **Write cost:** From half to full base cost
 - **Components:** Verbal
+
 ## Description
+
 Blinds the target

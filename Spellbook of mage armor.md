@@ -1,4 +1,5 @@
 ## Spellbook - Level 1 conjuration spell
+
 - **Weight:** 3.1 lbs
 - **Base value:** 48 gold
 - **Base material:** Paper
@@ -6,5 +7,7 @@
 - **Actual write cost:** From half to full base cost
 - **Skill:** Conjuration spell
 - **Level:** 1
+
 ## Description
+
 Summons a wizard-friendly magical armor

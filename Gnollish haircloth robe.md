@@ -1,4 +1,5 @@
 ## Armor: Robe
+
 - **Weight:** 1.9 lbs
 - **Base value:** 10 gold
 - **Base material:** Cloth

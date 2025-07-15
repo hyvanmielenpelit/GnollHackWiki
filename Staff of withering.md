@@ -1,4 +1,5 @@
 ## Melee Weapon: Staff
+
 - **Weight:** 1.9 lbs
 - **Base value:** 1500 gold
 - **Base material:** Wood
@@ -10,9 +11,13 @@
 - **Enchantable:** Yes
 - **Safe enchantable level:** +15 or below
 - **Mythic status:** Cannot be mythic
+
 ## Conferred powers
+
 1. Drain resistance when wielded
 2. Grants +100% bonus to casting unrestricted school spells when wielded
 3. Drains a level on hit (MC check applies)
+
 ## Item properties
+
 (None)

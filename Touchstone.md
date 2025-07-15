@@ -9,5 +9,7 @@
 - **Charges:** Yes
 - **Maximum charges:** 12
 - **Recharging type:** Rechargeable as normal tool
+
 ## Description
+
 A gray stone that can be applied to identify gems.

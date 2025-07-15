@@ -7,5 +7,7 @@
 - **Charges:** Yes
 - **Maximum charges:** 90
 - **Recharging type:** Rechargeable normally as wand
+
 ## Description
+
 Strikes at one target.

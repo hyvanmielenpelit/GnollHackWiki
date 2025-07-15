@@ -1,4 +1,5 @@
 ## Level 5 transmutation spell
+
 - **Attributes:** Higher of intelligence and wisdom
 - **Mana cost:** 40.0
 - **Casting time:** 1 round
@@ -10,7 +11,11 @@
 - **Base write cost:** 70 charges
 - **Write cost:** From half to full base cost
 - **Components:** Verbal, Somatic, Material
+
 ## Material components - 15 castings
+
 1. a nugget of adamantium ore
+
 ## Description
+
 Raises the caster's strength to 25

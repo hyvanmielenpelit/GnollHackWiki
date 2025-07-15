@@ -1,23 +1,16 @@
 ## Software Requirements
 
-
 ### Minimum Windows Version
-
 
 Windows 10 October 2018 Update (Version 1809, OS build 17763)
 
-
 ### Recommended Windows Version
-
 
 Windows 11
 
-
 ## Hardware Requirements
 
-
 ### Minimum Hardware Requirements
-
 
 - 8 GB RAM
 - 1 GB free disk space
@@ -25,9 +18,7 @@ Windows 11
 - Mouse or Touch Screen
 - Intel HD Graphics
 
-
 ### Recommended Hardware Requirements
-
 
 - 8 GB RAM
 - 1 GB free disk space

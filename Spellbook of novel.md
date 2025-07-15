@@ -1,4 +1,5 @@
 ## Spellbook
+
 - **Weight:** 0.0 lbs
 - **Base value:** 20 gold
 - **Base material:** Paper

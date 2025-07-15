@@ -1,4 +1,5 @@
 ## Magical Potion
+
 - **Weight:** 0.8 lbs
 - **Base value:** 300 gold
 - **Base material:** Glass
@@ -9,5 +10,7 @@
 - **Cures hallucination:** If not cursed
 - **Cures stun:** If not cursed
 - **Cures confusion:** If not cursed
+
 ## Description
+
 Restores a full thousand hit points.

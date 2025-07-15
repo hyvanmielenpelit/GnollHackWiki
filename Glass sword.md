@@ -1,4 +1,5 @@
 ## Melee Weapon: Long Sword
+
 - **Weight:** 1.2 lbs
 - **Base value:** 500 gold
 - **Base material:** Glass

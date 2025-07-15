@@ -8,7 +8,9 @@
 - **Base damage - Large:** 1d3 (avg 2.0)
 - **Enchantable:** Yes
 - **Safe enchantable level:** +5 or below
+
 ## Component for the following spells
+
 1. [[Barkskin]]
 2. [[Create clay golem]] (blessed)
 3. [[Divine strength]]

@@ -1,4 +1,5 @@
 ## Major healing cantrip
+
 - **Attributes:** Wisdom
 - **Mana cost:** 8.0
 - **Casting time:** 1 round
@@ -9,7 +10,11 @@
 - **Base write cost:** 20 charges
 - **Write cost:** From half to full base cost
 - **Components:** Verbal, Material
+
 ## Material components - 7 castings
+
 1. a ginseng root
+
 ## Description
+
 Cures blindness

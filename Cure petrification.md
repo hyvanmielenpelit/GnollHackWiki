@@ -1,4 +1,5 @@
 ## Level 4 healing spell
+
 - **Attributes:** Wisdom
 - **Mana cost:** 30.0
 - **Casting time:** 1 round
@@ -9,7 +10,11 @@
 - **Base write cost:** 60 charges
 - **Write cost:** From half to full base cost
 - **Components:** Verbal, Material
+
 ## Material components - 2 castings
+
 1. a ginseng root
+
 ## Description
+
 Cures petrification
