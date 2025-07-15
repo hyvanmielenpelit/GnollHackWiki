@@ -48,7 +48,7 @@ For some people, the loading doesn't finish after they click the Play Game butto
 
 ## More Information
 
-- [[System Requirements for Modern Windows Port|System Requirements for Modern Windows Port (.NET MAUI/WinUI 3)]]
+- [[System Requirements for Modern Windows Port|System Requirements for Modern Windows Port (.NET MAUI ∕ WinUI 3)]]
 - [[CPU and GPU Usage Modes in Modern Windows Port|CPU and GPU Usage Modes in Modern Windows Port (.NET MAUI/WinUI 3)]]
 - [[Known Issues in Modern Windows Port|Known Issues in Modern Windows Port (.NET MAUI/WinUI 3)]]
 - [[How Modern Windows Version Differs from Legacy Windows Version]]
