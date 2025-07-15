@@ -8,6 +8,7 @@
 - **Displays gameplay hints**
 - Starting stash contains 2 manuals
 
+
 ## Experienced
 - Combat difficulty 18%
     - Monsters deal 46% of normal damage
@@ -18,6 +19,7 @@
 - **Displays gameplay hints**
 - Starting stash contains 2 manuals
 
+
 ## Adept
 - Combat difficulty 31%
     - Monsters deal 59% of normal damage
@@ -26,6 +28,7 @@
 - Starts with a wand of probing
 - **Displays gameplay hints**
 - Starting stash contains 2 manuals
+
 
 ## Veteran
 - Combat difficulty 56%
@@ -36,17 +39,20 @@
 - **Displays gameplay hints**
 - Starting stash contains 2 manuals
 
+
 ## Expert
 - Combat difficulty 100%
     - Monsters deal normal damage
     - You deal normal damage
 - Starts with a scroll of identify
 
+
 ## Master
 - Combat difficulty 178%
     - Monsters deal 130% of normal damage
     - You deal 73% of normal damage
 - Starts with a scroll of identify
+
 
 ## Grand master
 - Combat difficulty 317%

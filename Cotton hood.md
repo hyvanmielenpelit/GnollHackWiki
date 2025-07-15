@@ -1,4 +1,5 @@
 ## Armor: Helmet
+
 - **Weight:** 0.2 lbs
 - **Base value:** 8 gold
 - **Base material:** Cotton

@@ -12,6 +12,7 @@
 - **Safe enchantable level:** +10 or below
 
 ## Artifact properties
+
 1. Alignment is lawful
 2. Artifact damage type is physical damage
 3. Artifact to-hit bonus is 1d5
@@ -23,4 +24,5 @@
 9. Searching when wielded
 
 ## Notes
+
 If you are a lawful character with an experience level of 5 or above, you can dip a normal long sword into a magic fountain (original NetHack fountain), and you have a 1/4 chance of being given the Excalibur by the Lady of the lake. The dipped long sword will turn into a rustproof +0 Excalibur.

@@ -1,4 +1,5 @@
 ## Level 44 magic-using undead floating sphere that shoots deadly rays from its eyestalks
+
 - **Hit dice:** 30
 - **Move:** 8"
 - **Armor class:** -4
@@ -13,9 +14,13 @@
 4. Eye stalk, deadly
 5. Bite, infected with terminal illness 3d4
 6. Spell casting, magic (as level 15 caster)
+
 ## Attribute scores
+
 St:12 Dx:6 Co:22 In:19 Wi:16 Ch:6
+
 ## Innate abilities
+
 1. Full cold resistance
 2. Sleep resistance
 3. Disintegration resistance
@@ -25,7 +30,9 @@ St:12 Dx:6 Co:22 In:19 Wi:16 Ch:6
 7. Regeneration
 8. Death resistance
 9. Levitation control
+
 ## Classifications
+
 1. Flying
 2. Breathless
 3. Handless
@@ -37,12 +44,18 @@ St:12 Dx:6 Co:22 In:19 Wi:16 Ch:6
 9. Infravision
 10. Speaking
 11. Wizard
+
 ## Notable
+
 1. Vulnerable to blessed weapons
 2. Does not eschew cursed items
 3. Eschews blessed items
 4. Does not eat
+
 ## Corpse properties
+
 1. Infected with terminal illness
+
 ## Picture
+
 ![Death gazer](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/death_gazer/death_gazer.png)

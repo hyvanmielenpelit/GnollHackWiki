@@ -8,6 +8,7 @@ In GnollHack, a weapon can have a quality modifier. The quality modifier increas
 For example, a normal long sword deals 1d8 damage to small creatures and 1d12 to large creatures, while an exceptional long sword deals 2d8 damage to small creatures and 2d12 to large creatures.
 
 ## Items with Weapon Quality Modifiers
+
 Most items that can be used as weapons in combat can have weapon quality modifiers. These are:
 - Melee weapons
 - Ranged weapons, including launchers, such as bows

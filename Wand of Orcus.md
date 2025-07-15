@@ -15,13 +15,16 @@
 - **Safe enchantable level:** +10 or below
 
 ## Conferred powers
+
 1. Slays the target on hit at 15% chance
 
 ## Item properties
+
 1. Indestructible
 2. Death-magically enchantable
 
 ## Artifact properties
+
 1. Alignment is chaotic
 2. Artifact damage type is life draining damage
 3. Artifact to-hit bonus is 1d5

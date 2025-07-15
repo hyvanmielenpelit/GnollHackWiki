@@ -1,4 +1,5 @@
 ## Armor: Boots
+
 - **Weight:** 0.6 lbs
 - **Base value:** 8 gold
 - **Base material:** Leather

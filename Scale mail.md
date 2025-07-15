@@ -1,4 +1,5 @@
 ## Armor: Suit of Armor
+
 - **Weight:** 31 lbs
 - **Base value:** 45 gold
 - **Base material:** Iron

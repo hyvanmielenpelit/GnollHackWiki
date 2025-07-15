@@ -1,4 +1,5 @@
 ## Melee Weapon: Tsurugi
+
 - **Weight:** 6.2 lbs
 - **Base value:** 500 gold
 - **Base material:** Steel

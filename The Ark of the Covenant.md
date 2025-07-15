@@ -5,10 +5,12 @@
 - **Material:**               Gold
 
 ## Item properties
+
 1. Disintegration resistant
 2. Cannot be cursed
 
 ## Artifact properties
+
 1. Alignment is lawful
 2. Magic resistance when carried
 3. Blessing of contents when invoked

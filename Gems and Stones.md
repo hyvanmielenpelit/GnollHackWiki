@@ -1,4 +1,5 @@
 ## Gems
+
 Gems are the same as in NetHack:
 - [[Dilithium crystal]]
 - [[Diamond]]
@@ -35,6 +36,7 @@ Gems are the same as in NetHack:
 - [[Worthless piece of violet glass]]
 
 ## Old Gray Stones
+
 - [[Luckstone]]
 - [[Loadstone]]
 - [[Touchstone]]
@@ -42,12 +44,14 @@ Gems are the same as in NetHack:
 - [[Rock]]
 
 ## New Gray Stones
+
 - [[Jinxstone]]
 - [[Prayerstone]]
 - [[Stone pebble]]
 - [[Clay pebble]]
 
 ## Ores
+
 - [[Nugget of iron ore]]
 - [[Nugget of copper ore]]
 - [[Nugget of silver ore]]

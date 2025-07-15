@@ -1,4 +1,5 @@
 ## Melee Weapon: Katana
+
 - **Weight:** 5.0 lbs
 - **Base value:** 80 gold
 - **Base material:** Steel

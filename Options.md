@@ -1,24 +1,35 @@
 ## Accessing the Options File
 
+
 ### Modern Ports (Android, iOS, and Windows)
+
 
 You need to enable **Developer Mode** in the settings. Then **Options** will appear in the main menu.
 
+
 ### Linux
+
 
 The options file is located in your home folder (~) and is named `.gnollhackrc`.
 
+
 ### Linux Server (Hardfought, server.gnollhack.com)
+
 
 You use the server UI to edit the options file.
 
+
 ### Windows Legacy Ports
+
 
 The options file is in the same folder as the executable and is named `defaults.gnh`. It is a text file.
 
+
 ## Old Options from NetHack
 
+
 - [NetHack options on NetHack wiki](https://nethackwiki.com/wiki/Options)
+
 
 ## New Options in GnollHack
 ### Boolean Options
@@ -62,6 +73,7 @@ The options file is in the same folder as the executable and is named `defaults.
 - takeoff_uses_all — The `takeoff` command uses `takeoffall` command rather than normal implementation
 - tellexp — Report experience points gained
 - underline_peaceful — Underline peaceful monsters
+
 
 ### Compound Options
 - animation_interval — Animation frame interval in milliseconds

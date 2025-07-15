@@ -15,9 +15,11 @@
 - **Safe enchantable level:** +10 or below
 
 ## Conferred powers
+
 1. Confers luck when wielded
 
 ## Artifact properties
+
 1. Alignment is unaligned
 2. Artifact damage type is physical damage
 3. Artifact to-hit bonus is 1d5

@@ -4,7 +4,9 @@
 
 If you register for a [GnollHack Account](https://account.gnollhack.com/), you can post your top scores to an online server, and also share [[Bones Files]] with other players.
 
+
 ## Setting up on Mobile
+
 
 1. Register an account on the [GnollHack Account](https://account.gnollhack.com/Identity/Account/Register) website.
 2. Go to the **Server Posting** section on the **Settings** page, and enter the registered **user name** and **password** to the text boxes there.

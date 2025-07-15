@@ -1,4 +1,5 @@
 # Status Bar Types
+
 ## Text (ASCII user interface)
 
 ![image](https://user-images.githubusercontent.com/16661034/236316192-79d5e1b0-f267-4b5b-b055-73dcfe3597bd.png)
@@ -9,7 +10,9 @@
 
 
 # Description of Acronyms and Symbols
+
 ## Difficulty Level
+
 ### Label
 
 - *(No label)*
@@ -17,6 +20,7 @@
 - First or second on the first row of the mobile user interface
 
 ### Values
+
 - **s** / ![image](https://user-images.githubusercontent.com/16661034/236141120-feac676e-d07a-4c8c-9351-5f228f959d3e.png) — [[Standard]]
 - **e** / ![image](https://user-images.githubusercontent.com/16661034/236141296-a5c2e356-9d9b-4ee5-a107-735e3f4704f5.png) — [[Experienced]]
 - **a** / ![image](https://user-images.githubusercontent.com/16661034/236141357-9d322ebc-e99b-4c66-9485-2153670bdd77.png) — [[Adept]]
@@ -26,6 +30,7 @@
 - **g** / ![image](https://user-images.githubusercontent.com/16661034/236141840-08620951-bada-4340-8091-06ebd40d4d3e.png) — [[Grand Master]]
 
 ## Gameplay Mode
+
 ### Label
 
 - *(No label)*
@@ -33,6 +38,7 @@
 - First on the first row of the mobile user interface
 
 ### Values
+
 - *(No letter)* / *(No image)* — [[Classic Mode]]
 - **C** / ![image](https://user-images.githubusercontent.com/16661034/236142344-00d24bda-62e2-4004-b5b2-0aee14768537.png) — [[Casual Mode]]
 - **R** / ![image](https://user-images.githubusercontent.com/16661034/236143039-0ecb3b85-e2c9-45f8-bd2f-3fa5d8ebb08d.png) — [[Casual-Classic Mode]]
@@ -70,80 +76,107 @@ The character's alignment.
 
 
 ## Dungeon Level
+
 ### Label
+
 - **Dlvl** / ![image](https://user-images.githubusercontent.com/16661034/236150250-1811347c-348e-4ae3-9311-e1fb8bf74dcb.png)
 
 ### Value
+
 - Current dungeon level depth
 
 ### Notes
+
 - On some special levels, the label can be changed to describe the current dungeon branch, such as "Home" in the class quest. In such a case, the value depicts the current depth of the current branch.
 
 
 ## Hit Points
+
 ### Label
+
 - **HP** in the ASCII
 - **Red orb** in the mobile user interface
 
 ### Value
+
 - Current Hit Points (Maximum Hit Points)
 
 ### Notes
+
 - You can turn on the showing of maximum hit point in the mobile user interface by clicking on the red orb.
 
 
 ## Mana Points
+
 ### Label
+
 - **MP** in the ASCII
 - **Blue orb** in the mobile user interface
 
 ### Value
+
 - Current Mana Points (Maximum Mana Points)
 
 ### Notes
+
 - You can turn on the showing of maximum mana point in the mobile user interface by clicking on the blue orb.
 
 
 ## Armor Class
+
 ### Label
+
 - **AC** / ![image](https://user-images.githubusercontent.com/16661034/236151988-c658715b-f764-4485-8138-8b36f10c7a85.png)
 
 ### Value
+
 - Current Armor Class
 
 ### Notes
+
 - Lower is better
 
 
 ## Magic Cancellation
+
 ### Label
+
 - **MC** / ![image](https://user-images.githubusercontent.com/16661034/236152330-4ba852c6-bbfe-4b4f-8a4f-4321e447414c.png)
 
 ### Value
+
 - Current Magic Cancellation Value / Percentage Chance of Success
 
 ### Notes
+
 - Higher is better
 - See [Magic Cancellation](https://github.com/hyvanmielenpelit/GnollHack/wiki/Resistances-and-Saving-Throws#4-magic-cancellation)
 
 
 ## Movement Speed
+
 ### Label
+
 - **MS** / ![image](https://user-images.githubusercontent.com/16661034/236152936-43322025-8d53-468e-afd9-780c6a11cd44.png)
 
 ### Value
+
 - Current Movement Speed
 
 ### Notes
+
 - 12 is normal speed
 - Higher is better
 
 
 ## Weapon Style
+
 ### Label
+
 - **W** / ![image](https://user-images.githubusercontent.com/16661034/236153325-aff633b2-46af-4751-bd60-f1fc900f1dd4.png)
 
 ### Hands
+
 There can be one or two values/icons. If there is only one value/icon, it means that you are holding just one weapon. If there are two values/icons separated by a slash, it means that you are holding two weapons, one in the right hand and one in the left hand.
 
 ### Icons
@@ -178,50 +211,67 @@ Windows and Linux versions of the game use letters and numbers to describe what 
 
 
 ## Experience Level
+
 ### Label
+
 - **XL** / ![image](https://user-images.githubusercontent.com/16661034/236156546-2549a4cd-5a46-4586-ae80-684c723c673b.png)
 
 ### Value
+
 - Current Experience Level / Current Experience Points
 - Experience points are not shown in the mobile status bar.
 
 ### Notes
+
 - You can disable the showing of current experience points in the options file.
 
 
 ## Gold Pieces
+
 ### Label
+
 - **$** / ![image](https://user-images.githubusercontent.com/16661034/236156962-8d36a851-11d9-44de-aa29-8f9c13f3c00f.png)
 
 ### Value
+
 - Gold pieces in the open inventory
 
 
 ## Current Turn
+
 ### Label
+
 - **T** / ![image](https://user-images.githubusercontent.com/16661034/236157260-d186b812-c719-4a43-8958-88a1ab2eeb8d.png)
 
 ### Value
+
 - Current turn
 
 ## Current Playtime
+
 ### Label
+
 - *(No label)*
 - Shown after the current turn in the ASCII user interface
 - Not shown in the mobile user interface
 
 ### Value
+
 - Current playtime is in the format `0d:0h:0m:0s`
 
 ## Score
+
 ### Label
+
 - **S** in the ASCII user interface
 - Not shown in the mobile user interface
 
 ### Value
+
 - Current score
 
 ### Notes
+
 - See [[scoring]].
 
 ## Condition Symbols

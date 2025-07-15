@@ -1,4 +1,5 @@
 ## Melee Weapon: Flail
+
 - **Weight:** 2.2 lbs
 - **Base value:** 4 gold
 - **Base material:** Iron

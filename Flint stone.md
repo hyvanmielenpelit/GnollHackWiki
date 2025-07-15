@@ -10,4 +10,5 @@
 - **Safe enchantable level:** +5 or below
 
 ## Description
+
 A gray stone that can be used as a projectile.

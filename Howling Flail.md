@@ -15,12 +15,15 @@
 - **Safe enchantable level:** +10 or below
 
 ## Extra damage is conferred only to
+
 1. Gnolls
 
 ## Item properties
+
 1. Indestructible
 
 ## Artifact properties
+
 1. Alignment is unaligned
 2. Artifact is associated with gnolls
 3. Artifact damage type is physical damage

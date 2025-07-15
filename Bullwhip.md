@@ -1,4 +1,5 @@
 ## Melee Weapon: Whip
+
 - **Weight:** 1.2 lbs
 - **Base value:** 4 gold
 - **Base material:** Leather

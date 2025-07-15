@@ -12,6 +12,7 @@
 - **Safe enchantable level:** +13 or below
 
 ## Artifact properties
+
 1. Alignment is lawful
 2. Artifact damage type is cold damage
 3. Artifact to-hit bonus is 1d5

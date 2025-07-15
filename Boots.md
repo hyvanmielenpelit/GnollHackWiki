@@ -1,4 +1,5 @@
 ## Simple Boots
+
 - Low boots
 - Iron shoes
 - Leather sandals
@@ -6,9 +7,11 @@
 - High boots
 
 ## Semi-Magical Boots
+
 - Elven boots — Grants stealth
 
 ## Magical Boots
+
 - Speed boots — Grants very fast speed
 - [[Galadhrim boots]]
 - Water walking boots — Grants water walking
@@ -18,6 +21,7 @@
 - Levitation boots — Grants levitation
 
 ## Weapon-Boots
+
 - [[Spiked boots]]
 - [[Silver shoes]]
 - [[Spiked silver boots]]

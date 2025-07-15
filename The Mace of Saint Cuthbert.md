@@ -14,23 +14,28 @@
 - **Mythic status:**          Legendary
 
 ## Conferred powers
+
 1. Causes lethal physical damage at chance equal to 100% less 5% per hit die
 
 ## Permitted targets
+
 1. Undead
 2. Demons
 
 ## Mythic powers - Hallowed and banishment
+
 1. Curse resistance
 2. Cannot be cursed
 3. Triple damage to demons
 4. Triple damage to undead
 
 ## Item properties
+
 1. Cannot be cursed
 2. Shines magical light when wielded
 
 ## Artifact properties
+
 1. Alignment is lawful
 2. Artifact is associated with priests
 3. Artifact damage type is physical damage

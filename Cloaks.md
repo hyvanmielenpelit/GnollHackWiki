@@ -1,4 +1,5 @@
 ## Non-Magical Cloaks
+
 - [[Elven cloak]]
 - [[Orcish cloak]]
 - [[Dwarvish cloak]]
@@ -7,6 +8,7 @@
 - [[Leather cloak]]
 
 ## Magical Cloaks
+
 - [[Cloak of protection]]
 - [[Cloak of invisibility]]
 - [[Cloak of magic resistance]]
@@ -14,4 +16,5 @@
 - [[Cloak of displacement]]
 
 ## Notes
+
 Cloaks cannot be mythic or legendary.

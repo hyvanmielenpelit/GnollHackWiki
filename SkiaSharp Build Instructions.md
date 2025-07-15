@@ -1,5 +1,7 @@
 ## 1. Prerequisites
+
 ### 1.1 Visual Studio
+
 You should have Visual Studio 2022 installed for GnollHack mobile version development.
 
 - [[Visual Studio Installation for Mobile Version Development]]
@@ -13,6 +15,7 @@ In addition to the workloads installed in the above instructions, you need to in
 Note that in the instructions below, when it says to open "PowerShell", you can either use Visual Studio's **Developer PowerShell** (View → Terminal) or you can start **Windows PowerShell** using the Windows Start button.
 
 ## 2. Clone Repository
+
 ### Using Visual Studio 2022
 
 1. Open Visual Studio 2022.
@@ -30,6 +33,7 @@ Note that in the instructions below, when it says to open "PowerShell", you can 
 This will also download git submodules.
 
 ## 3. Install Tools
+
 ### 3.1 Install dotnet cake
 
 1. Open PowerShell.

@@ -46,6 +46,7 @@ Also, please note that TTY does not support movement by arrow keys by default. I
 This will allow you to move with arrow keys, but has the disadvantage of requiring you to press ESC twice to register the ESC key.
 
 ## Options
+
 You should play GnollHack with at least 4 status lines. We recommend setting the following in your options file:
 
 `OPTIONS=autostatuslines,statuslines:4`

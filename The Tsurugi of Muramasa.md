@@ -12,6 +12,7 @@
 - **Safe enchantable level:** +15 or below
 
 ## Artifact properties
+
 1. Alignment is lawful
 2. Artifact is associated with samurai
 3. Artifact damage type is physical damage
@@ -22,4 +23,5 @@
 8. Confers luck when wielded
 
 ## Notes
+
 The Tsurugi of Muramasa is Samurai Quest Artifact.

@@ -1,4 +1,5 @@
 ## Old Rings
+
 - [[Ring of adornment]] — Grants +Enchantment to charisma
 - [[Ring of gain strength]] — +Enchantment to strength
 - [[Ring of gain dexterity]] — +Enchantment to dexterity
@@ -31,9 +32,11 @@
 - [[Ring of protection from shape changers]] — Reveals shapechangers and prevents them from polymorphing
 
 ## Changed Rings
+
 - [[The Ring of Conflict]] — Ring of conflict is now an artifact with charges
 
 ## New Rings
+
 - [[Ring of power]]
 - [[Ring of replenishment]]
 - [[Ring of the serpent god]]
@@ -43,4 +46,5 @@
 - [[Ring of X-ray vision]]
 
 ## Notes
+
 Rings can be enchanted with the *[[scroll of enchant accessory]]* or by an *artificer service*.

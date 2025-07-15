@@ -5,9 +5,11 @@
 - **Material:** Iron
 
 ## Conferred powers
+
 1. Grants +120% bonus to casting unrestricted school spells when worn
 
 ## Artifact properties
+
 1. Alignment is neutral
 2. Artifact is associated with wizards
 3. Magic resistance when worn
@@ -19,4 +21,5 @@
 8. Half spell damage when carried
 
 ## Notes
+
 The Eye of the Aethiopica is Wizard Quest Artifact.

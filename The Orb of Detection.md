@@ -8,6 +8,7 @@
 - **Cooldown time:**          25 rounds
 
 ## Artifact properties
+
 1. Alignment is lawful
 2. Artifact is associated with archaeologists
 3. Invisibility when invoked
@@ -16,4 +17,5 @@
 5. Magic resistance when carried
 
 ## Notes
+
 The Orb of Detection is Archaeologist Quest Artifact.

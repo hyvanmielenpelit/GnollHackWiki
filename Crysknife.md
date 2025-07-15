@@ -1,4 +1,5 @@
 ## Melee Weapon: Worm Tooth
+
 - **Weight:** 1.2 lbs
 - **Base value:** 100 gold
 - **Base material:** Tooth
@@ -10,5 +11,7 @@
 - **Enchantable:** Yes
 - **Safe enchantable level:** +10 or below
 - **Mythic status:** Cannot be mythic
+
 ## Item properties
+
 1. If blessed, shimmers when it is safe to pray

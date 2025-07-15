@@ -1,4 +1,5 @@
 ## Armor: Boots
+
 - **Weight:** 0.9 lbs
 - **Base value:** 50 gold
 - **Base material:** Leather
@@ -8,5 +9,7 @@
 - **Enchantable:** Yes
 - **Safe enchantable level:** +3 or below
 - **Mythic status:** Cannot be mythic
+
 ## Conferred powers
+
 1. Water walking when worn

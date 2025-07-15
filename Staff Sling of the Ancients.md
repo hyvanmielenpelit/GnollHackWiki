@@ -1,4 +1,5 @@
 ## Exact Name
+
 Staff-Sling of the Ancients *(with the dash)*
 
 ## Ranged Weapon: Sling - Artifact Staff-sling
@@ -18,6 +19,7 @@ Staff-Sling of the Ancients *(with the dash)*
 - **Mythic status:** Cannot be mythic
 
 ## Artifact properties
+
 1. Alignment is unaligned
 2. Artifact damage type is physical damage
 3. Artifact to-hit bonus is 1d5

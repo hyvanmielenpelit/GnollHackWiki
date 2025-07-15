@@ -1,12 +1,15 @@
 ![orc-race-512](https://github.com/hyvanmielenpelit/GnollHack/assets/16661034/7554387f-ab81-4898-901f-8fc2a1a32b38)
 
+
 ## Description
 Orcs start with poison resistance and do not suffer penalty for cannibalism. However, they have reduced mental attribute scores.
+
 
 ## Attribute Score Changes
 - -2 to Intelligence
 - -2 to Wisdom
 - -2 to Charisma
+
 
 ## Maximum Attribute Scores
 - **Strength:** 18/50
@@ -16,25 +19,35 @@ Orcs start with poison resistance and do not suffer penalty for cannibalism. How
 - **Wisdom:** 16
 - **Charisma:** 16
 
+
 ## Hit Points
+
 
 ### Starting Hit Points
 
+
 15
+
 
 ### Hit Points per Experience Level
 
+
 1d3 (avg. 2)
+
 
 
 ## Mana
 ### Starting Mana
 
+
 1
+
 
 ### Mana per Level
 
+
 1d2-1 (avg. 0.5)
+
 
 ## Racial Traits
 - Can practice cannibalism
@@ -43,8 +56,10 @@ Orcs start with poison resistance and do not suffer penalty for cannibalism. How
 - Infravision
 - Orcs, goblins, and ogres may be peaceful to you
 
+
 ## Allowed Alignments
 - [[Chaotic]]
+
 
 ## Character Classes
 - [[Barbarian role]]

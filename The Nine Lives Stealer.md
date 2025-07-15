@@ -15,11 +15,13 @@
 - **Safe enchantable level:** +10 or below
 
 ## Conferred powers
+
 1. Slays the target on hit
     * Active when invoked
     * Expends a charge on successful hit
 
 ## Artifact properties:
+
 1. Alignment is chaotic
 2. Artifact damage type is physical damage
 3. Artifact to-hit bonus is 1d5

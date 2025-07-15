@@ -1,4 +1,5 @@
 ## Level 17 seven-headed reptilian monster with fiery breath weapon
+
 - **Hit dice:** 12
 - **Move:** 9"
 - **Armor class:** 5
@@ -15,11 +16,17 @@
 6. Bite, physical 1d8
 7. Bite, physical 1d8
 8. Bite, physical 1d8
+
 ## Attribute scores
+
 St:18/** Dx:12 Co:24 In:2 Wi:2 Ch:1
+
 ## Innate abilities
+
 1. 50% fire resistance
+
 ## Classifications
+
 1. Handless
 2. Animal
 3. Thick hide
@@ -27,9 +34,15 @@ St:18/** Dx:12 Co:24 In:2 Wi:2 Ch:1
 5. Carnivore
 6. Vorpal vulnerable
 7. 7-headed
+
 ## Notable
+
 1. Eschews cursed items
+
 ## Corpse properties
+
 1. May confer 50% fire resistance
+
 ## Picture
-![Pyrohydra](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/pyrohydra/pyrohydra.png)
+
+![Pyrohydra](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/pyrohydra/pyrohydra.png?raw=true)

@@ -1,5 +1,6 @@
 ## Commands Bound to Letters
 
+
 - Commands in *italic* are new commands in GnollHack that do not appear in NetHack.
 
 | Key | Key Command | Shift + Key | Shift + Key Command | Alt + Key | Alt + Key Command | Ctrl + Key | Ctrl + Key Command |
@@ -35,6 +36,7 @@
 
  
 ## Other Commands
+
 
 - Commands in *italic* are new commands in GnollHack that do not appear in NetHack.
 

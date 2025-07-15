@@ -16,6 +16,7 @@
 - **Safe enchantable level:** +7 or below
 
 ## Artifact properties
+
 1. Alignment is unaligned
 2. Artifact is associated with gnolls
 3. Artifact damage type is physical damage

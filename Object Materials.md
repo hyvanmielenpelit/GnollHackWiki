@@ -3,6 +3,7 @@
 In GnollHack, certain weapons, tools, and pieces of armor can be generated with a material different from its normal material.
 
 ## Armor
+
 Most typical special materials give the following effects:
 - Dragonhide:
     - -2 AC and +1 MC for body armors
@@ -43,6 +44,7 @@ Most typical special materials give the following effects:
     - 5/4 added enchantability
 
 ## Weapons
+
 Most typical special materials give the following effects:
 - Steel:
     - Damage to small creatures: +1 to die size

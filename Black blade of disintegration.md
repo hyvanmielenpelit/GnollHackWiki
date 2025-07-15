@@ -1,4 +1,5 @@
 ## Melee Weapon: Two-Handed Sword
+
 - **Weight:** 0.0 lbs
 - **Base value:** 0 gold
 - **Base material:** Planar rift
@@ -10,7 +11,11 @@
 - **Enchantable:** Yes
 - **Safe enchantable level:** +15 or below
 - **Mythic status:** Cannot be mythic
+
 ## Conferred powers
+
 1. Disintegrates the target on hit (MC check applies)
+
 ## Item properties
+
 1. Disintegration resistant

@@ -15,14 +15,17 @@
 - **Safe enchantable level:** +27 or below
 
 ## Mythic powers - Cyclopean
+
 1. Triple base damage
 2. Increases maximum enchantable level by 50%
 
 ## Item properties
+
 1. Disintegration resistant
 2. Indestructible
 
 ## Artifact properties
+
 1. Alignment is unaligned
 2. Artifact damage type is physical damage
 3. Artifact to-hit bonus is 1d5

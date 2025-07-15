@@ -1,4 +1,5 @@
 ## Ammunition: Sling-Bullet
+
 - **Weight:** 0.1 lbs
 - **Base value:** 3 gold
 - **Base material:** Iron

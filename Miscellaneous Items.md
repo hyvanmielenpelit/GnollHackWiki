@@ -1,4 +1,5 @@
 ## Miscellaneous Item Slots
+
 You can wear up to *5 miscellaneous items*, but only 1 per miscellaneous magic item slot. The slots are:
 - Belt
 - Brooch
@@ -12,6 +13,7 @@ You can wear up to *5 miscellaneous items*, but only 1 per miscellaneous magic i
 - Wings
 
 ## Belts
+
 - [[Belt of change]]
 - [[Belt of dwarvenkind]]
 - [[Belt of fire giant strength]]
@@ -28,9 +30,11 @@ You can wear up to *5 miscellaneous items*, but only 1 per miscellaneous magic i
 - [[Brooch of haplessness]]
 
 ## Earrings
+
 - [[Golden earrings]]
 
 ## Eyeglasses
+
 - [[Eyeglasses of awkwardness]]
 - [[Eyeglasses of hallucination]]
 - [[Eyeglasses of see invisible]]
@@ -41,11 +45,13 @@ You can wear up to *5 miscellaneous items*, but only 1 per miscellaneous magic i
 - [[Sunglasses]]
 
 ## Headbands
+
 - [[Headband of intellect]]
 - [[Headband of martial prowess]]
 - [[Headband of cranial tightness]]
 
 ## Ioun Stones
+
 - [[Ioun stone of awareness]]
 - [[Ioun stone of charisma]]
 - [[Ioun stone of constitution]]
@@ -63,15 +69,20 @@ You can wear up to *5 miscellaneous items*, but only 1 per miscellaneous magic i
 - [[Ioun stone of wisdom]]
 
 ## Masks
+
 - [[Gnollish leather mask]]
 - [[Beak mask of sickness resistance]]
 
 ## Nose Rings
+
 - [[Nose ring of bull strength]]
 - [[Nose ring of bullheadedness]]
 - [[Nose ring of cerebral safeguarding]]
 
 ## Watch
+
 - [[Expensive watch]]
+
 ## Wings
+
 - [[Wings of flying]]

@@ -1,13 +1,17 @@
 ## 1. Preparations
 
+
 ### 1.1. Devices
+
 
 You need the following devices to follow these instructions:
 1. **Windows computer** — Windows 10 or later, 16 GB or 32 GB RAM, 512 GB or 1 TB SSD space.
 2. **Mac computer** — macOS 12 (Monterey) or later, M1 processor or better, 16 GB or more RAM, 512 GB or more SSD space.
 3. **iPhone or iPad** — iOS 15 or later, 3 GB or more RAM, 4 GB or more free storage space.
 
+
 ### 1.2. Software Installation and Configuration on Windows Computer
+
 
 On the Windows computer, do the following:
 
@@ -20,7 +24,9 @@ On the Windows computer, do the following:
 7. Restart Visual Studio 2022 and the computer.
 8. **NEW** — If you are using an old version of the repository, you may need to [[delete old directories]], because we have changed some paths.
 
+
 ### 1.3. Software Installation and Configuration on Mac Computer
+
 
 1. Install [Xcode](https://apps.apple.com/us/app/xcode/id497799835) 15.2 from App Store or [xcodereleases.com](https://xcodereleases.com/).
 2. Install [Visual Studio for Mac 2022](https://visualstudio.microsoft.com/vs/mac/).
@@ -29,9 +35,12 @@ On the Windows computer, do the following:
 5. [[Install vcremote for Static iOS Library Project]].
 6. [[Enroll for Apple Development Program (Mac)]].
 
+
 ### 1.4. Additional Configuration in Visual Studio on Windows
 
+
 #### 1.4.1. Enable C++ Mac Pairing (vcremote)
+
 
 In Visual Studio, go to **Options → Cross Platform → C++ → iOS → Pairing** and:
 
@@ -44,23 +53,31 @@ In Visual Studio, go to **Options → Cross Platform → C++ → iOS → Pairing
 
 ![image](https://user-images.githubusercontent.com/16661034/183250199-7fb14ef6-f581-4a1c-b24e-ecf669af3610.png)
 
+
 #### 1.4.2. Install PuTTY and PSCP and Create Download Scripts for Static iOS Library Project
+
 
 - [[Install PuTTY and PSCP and Create Download Scripts for Static iOS Library Project]]
 - Note that you need to create new Download Scripts and store them into the cache everytime your network environment changes.
 
+
 #### 1.4.3. Install Tile Sets, Sound Banks, and the Secrets File
+
 
 Some files are not directly in the repository, because they are too big or they contain nonpublic information.
 
 1. [[Install Tile Sets and FMOD Sound Banks]].
 2. [[Install Secrets File]].
 
+
 ### 1.5. Create Development Certificate and Profile
+
 
 You should use **Manual Provisioning** in the Xamarin iOS project, found in Project Properties page’s iOS Bundle Signing tab on the Windows computer.
 
+
 #### 1.5.1. Create Development Certificate
+
 
 In Visual Studio on the Windows computer,
 1. Go to **Certificates, Identifiers & Profiles**. **Create a new Device** by pressing + next to the **Certificates** title.
@@ -85,17 +102,23 @@ On the Windows computer,
 4. Click **Import Certificate** and select your .p12 file. Nothing is still showing up because of some bugs, but you now have the Developer Certificate installed. 
 5. The Provisioning Profile will be just copied to the right directory below.
 
+
 #### 1.5.2. Create Identifier
+
 
 In Visual Studio on Windows,
 - **Create a new Device** by pressing + next to the **Identifiers** title. This is the same as the BundleID for the game, e.g. `com.soundmindgames.GnollHack`, which can be set in Visual Studio 2022 in **Info.plist** in the Xamarin.iOS project's main directory.
 
+
 #### 1.5.3. Create Device
+
 
 In Visual Studio on Windows,
 - **Create a new Device** by pressing + next to the **Devices** title. You can get the **UDID** for a connected device to Mac from XCode from **Window → Devices and Simulators**.
 
+
 #### 1.5.4. Create Provisioning Profile on Mac
+
 
 This links four things together:
 
@@ -113,7 +136,9 @@ On the Mac computer,
 
 You do *not* need to change the file name. The profile should now appear to Visual Studio 2022 in **Manual Provisioning**.
 
+
 #### 1.5.5 Set Manual Provisioning for Xamarin iOS Project
+
 
 In Visual Studio on Windows,
 1. Go to **Project Properties** page’s iOS Bundle Signing tab.
@@ -124,15 +149,21 @@ In Visual Studio on Windows,
 
 ![image](https://user-images.githubusercontent.com/16661034/183247001-2c2a9905-775d-480c-b50f-5c45e068d60b.png)
 
+
 ### 1.6. Disable Virus Protection for Source, Build and Cache Folders
+
 
 Disable Virus Protection in the source, build and cache folders on both Windows and Mac. The virus protection often interferes with the building process by deleting intermediate files on the fly.
 
+
 ### 1.7. Clear Cache
+
 
 It is often useful to clear the Xamarin build cache on Mac at `~/Library/Caches/Xamarin/mtbs` by moving it to bin. Do this if you update the files with the same name such as static libraries.
 
+
 ## 2. Debugging
+
 
 On the Mac computer,
 
@@ -153,10 +184,13 @@ On the Windows computer,
 
 Note that C++ debugging does not work with the iOS project (but you get good stack traces, though). The Xamarin debugger works also with iOS projects. If you want to debug C++, you need to use the Android project.
 
+
 ## 3. Notes
 ### 3.1. Connecting Static Libraries to Xamarin
 
+
 #### 3.1.1. FMOD
+
 
 Include `UNITY_IPHONE` preprocessor definition in both Debug and Release configurations in Xamarin.iOS. You must open **Xamarin.iOS csproj file** and add there a line in the right property group (for debug configuration):
 
@@ -185,11 +219,15 @@ Otherwise, the iOS version does not work. It comes where this line is:
 The two files that need to be changed are in this folder: `win/win32/xam/GnollHackX/GnollHackX.FMOD`
 
 
+
 #### 3.1.2. Other Libraries
+
 
 Import other C/C++ libraries using **right-click on Xamarin.iOS Project → Add Native Reference → Add Static Native Library** menu command. They go to **Native References** folder. Then in **Properties** mark them as **Force Load**. The **GnollHack library** must be marked as **Is C++**, as it contain a bit of C++ code.
 
+
 ## 4. Uploading to App Store
+
 
 On Windows,
 1. Follow the instructions for debugging steps 1–7.

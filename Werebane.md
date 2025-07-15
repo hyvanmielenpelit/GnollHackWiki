@@ -14,10 +14,12 @@
 - **Mythic status:**          Mythic
 
 ## Mythic powers - Lycanthrope slaying
+
 1. Triple damage to lycanthropes
 2. Lycanthropy resistance
 
 ## Artifact properties
+
 1. Alignment is unaligned
 2. Artifact damage type is physical damage
 3. Artifact to-hit bonus is 1d5

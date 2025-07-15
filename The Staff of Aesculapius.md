@@ -12,6 +12,7 @@
 - **Safe enchantable level:** +15 or below
 
 ## Conferred powers
+
 1. Drain resistance when wielded
 2. Death resistance when wielded
 3. Regeneration when wielded
@@ -19,9 +20,11 @@
 5. Deals double damage on hit
 
 ## Permitted targets
+
 1. Undead
 
 ## Artifact properties
+
 1. Alignment is neutral
 2. Artifact is associated with healers
 3. Drain resistance when wielded
@@ -32,4 +35,5 @@
 7. Regeneration when wielded
 
 ## Notes
+
 The Staff of Aesculapius is Healer Quest Artifact.

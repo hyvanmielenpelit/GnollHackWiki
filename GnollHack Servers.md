@@ -3,12 +3,14 @@
 You can play the ASCII version of GnollHack on our proprietary public server through SSH:
 * `play@server.gnollhack.com` (Ohio, USA)
 
+
 ## Curses Interface
 We recommend that you activate also the **Curses interface**. Here are instructions for the following operating systems:
 
 - [[Windows|Activating Curses Interface on Public Servers]]
 - [[macOS|Activating Curses Interface on Public Servers for macOS Terminal]]
 - [[Linux|Activating Curses Interface on Public Servers for Linux Terminal]]
+
 
 ## Options
 You should play GnollHack with at least 4 status lines. If you are using the Curses interface, we recommend setting the following in your options file:
@@ -20,14 +22,19 @@ This will enable automatic adjustment of status lines for you, with a minimum of
 _The default GnollHack Curses Interface Options files have these settings set correctly._
 
 
+
 ## Unicode Support
+
 
 You can set `OPTIONS=symset:UnicodeGraphics` in the options file to enable Unicode support in GnollHack. You must use TTY interface for playing. Curses interface does not support Unicode at the moment. This allows you to use UTF-8 encoding in your terminal. This can be helpful when your terminal does not support CP437.
 
 
+
 ## Arrow key support for TTY
 
+
 If you want to use arrow keys while playing with TTY graphics (especially using UnicodeGraphics), you can set `OPTIONS=enablettyarrowkeys` in the options file or activate it through Options (O). This has a drawback that you need to press ESC twice to register the ESC key. Luckily, you need to do it seldom in GnollHack.
+
 
 
 ## Watching Games

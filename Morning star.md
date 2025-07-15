@@ -1,4 +1,5 @@
 ## Melee Weapon: Morning Star
+
 - **Weight:** 3.8 lbs
 - **Base value:** 10 gold
 - **Base material:** Iron

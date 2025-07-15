@@ -5,6 +5,7 @@
 - **Material:**               Plastic
 
 ## Artifact properties
+
 1. Alignment is neutral
 2. Artifact is associated with tourists
 3. Magic resistance when carried
@@ -15,4 +16,5 @@
 7. Raises charisma to 25 when carried
 
 ## Notes
+
 The Platinum Yendorian Express Card is Tourist Quest Artifact.

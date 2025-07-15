@@ -1,14 +1,19 @@
 ## Weapon Skill
 
+
 Increases to-hit, damage, and the chance of a critical strike of daggers.
 
+
 ## Unskilled
+
 
 * To-hit bonus -4
 * Damage bonus -2
 * Critical strike chance 0%
 
+
 ## Basic
+
 
 * 1 skill slot to advance
 * 20 training to advance
@@ -16,7 +21,9 @@ Increases to-hit, damage, and the chance of a critical strike of daggers.
 * Damage bonus +0
 * Critical strike chance 5%
 
+
 ## Skilled
+
 
 * 2 skill slots to advance
 * 80 training to advance
@@ -24,7 +31,9 @@ Increases to-hit, damage, and the chance of a critical strike of daggers.
 * Damage bonus +2
 * Critical strike chance 10%
 
+
 ## Expert
+
 
 * 3 skill slots to advance
 * 180 training to advance
@@ -32,7 +41,9 @@ Increases to-hit, damage, and the chance of a critical strike of daggers.
 * Damage bonus +4
 * Critical strike chance 20%
 
+
 ## Master
+
 
 * 4 skill slots to advance
 * 320 training to advance
@@ -40,7 +51,9 @@ Increases to-hit, damage, and the chance of a critical strike of daggers.
 * Damage bonus +6
 * Critical strike chance 35%
 
+
 ## Grand Master
+
 
 * 5 skill slots to advance
 * 500 training to advance

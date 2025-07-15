@@ -1,4 +1,5 @@
 ## Melee Weapon: Two-Handed Axe
+
 - **Weight:** 6.2 lbs
 - **Base value:** 40 gold
 - **Base material:** Iron

@@ -1,4 +1,5 @@
 ## Melee Weapon: Lance
+
 - **Weight:** 11 lbs
 - **Base value:** 10 gold
 - **Base material:** Iron

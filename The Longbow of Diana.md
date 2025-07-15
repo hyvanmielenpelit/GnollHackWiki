@@ -14,6 +14,7 @@
 - **Safe enchantable level:** +7 or below
 
 ## Artifact properties
+
 1. Alignment is chaotic
 2. Artifact is associated with rangers
 3. Artifact damage type is physical damage
@@ -26,4 +27,5 @@
 8. Telepathy when carried
 
 ## Notes
+
 The Longbow of Diana is Ranger Quest Artifact.

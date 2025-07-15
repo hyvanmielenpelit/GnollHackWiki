@@ -13,6 +13,7 @@
 - **Safe enchantable level:** +15 or below
 
 ## Artifact properties
+
 1. Alignment is neutral
 2. Artifact is associated with barbarians
 3. Artifact damage type is physical damage
@@ -21,4 +22,5 @@
 6. Hits also adjacent squares
 
 ## Notes
+
 - Cleaver's arc attack does not hit peaceful or tame monsters.

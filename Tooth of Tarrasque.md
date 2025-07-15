@@ -14,14 +14,17 @@
 - **Mythic status:** Legendary
 
 ## Mythic powers - Cyclopean and sharpness
+
 1. Triple base damage
 2. Increases enchantable level by 50%
 3. Has 35% chance of dealing damage equal to 15% of max HP
 
 ## Item properties
+
 1. Death-magically enchantable
 
 ## Artifact properties
+
 1. Alignment is unaligned
 2. Artifact damage type is physical damage
 3. Artifact to-hit bonus is 2d10

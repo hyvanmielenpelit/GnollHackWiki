@@ -1,5 +1,7 @@
 ## Manuals
+
 ### Randomly Generated
+
 - Wands 101
 - Armor 101
 - Weapons 101
@@ -21,6 +23,7 @@
 - Guide to Essential Resistances, Vol. II
 
 ### Found on Special Levels and with NPCs 
+
 - Guide to Dragon Scale Mails
 - Guide to Altars and Sacrifice
 - Secrets of Scare Monster
@@ -31,6 +34,7 @@
 - Manual of the Planes
 
 ## Catalogues 
+
 - Catalogue of Weapons
 - Catalogue of Armor
 - Catalogue of Rings

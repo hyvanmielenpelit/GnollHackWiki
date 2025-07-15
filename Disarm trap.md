@@ -1,7 +1,9 @@
 ## Miscellanous Skill
 
 ### Trap Types
+
 #### Simple traps
+
 * Arrow trap
 * Bear trap
 * Crossbow bolt trap
@@ -10,6 +12,7 @@
 * Squeaky board
 
 #### Complex traps
+
 * Chest trap
 * Falling rock trap
 * Land mine
@@ -18,17 +21,20 @@
 * Sleep gas trap
 
 #### Minor magical traps
+
 * Anti-magic trap
 * Level teleport trap
 * Statue trap
 * Teleport trap
 
 #### Major magical traps
+
 * Fire trap
 * Magic trap
 * Polymorph trap
 
 ### Training Given On Successful Disarming
+
 * Simple traps: 10
 * Complex traps: 20
 * Minor magical traps: 30
@@ -36,6 +42,7 @@
 
 
 ### Skill Levels
+
 #### Unskilled
 
 * Simple trap untrap chance 33%

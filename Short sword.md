@@ -1,4 +1,5 @@
 ## Melee Weapon: Short Sword
+
 - **Weight:** 2.8 lbs
 - **Base value:** 10 gold
 - **Base material:** Iron

@@ -1,12 +1,16 @@
 ![share-progress-512](https://github.com/user-attachments/assets/a32e4730-2a51-4895-9173-c6560b4a3939)
 
+
 ## Overview
+
 
 There are two sets of instructions:
 1. Normal case, where you post your progress to GnollHack Discord server.
 2. Special case, where you want to post your progress to a custom Discord server, for example, to your own Discord server.
 
+
 ## I. Normal Case: Share Progress to GnollHack Discord Server
+
 
 ***RECOMMENDED FOR MOST USERS! VERY EASY!***
 
@@ -17,13 +21,17 @@ Please follow these steps to send your progress to the `#player-log` channel on 
 3. Please ensure that **Webhook Link** is at **Default**.
     - If not, click the **Add button** and **delete all text** in the popup text box. Then, click OK.
 
+
 ## II. Special Case: Share Progress to Custom Discord Server and Channel
+
 
 ***ABSOLUTELY NOT NEEDED BY MOST USERS! HARD!***
 
 Please follow these steps to share your progress to a custom Discord server and channel.
 
+
 ### Discord Setup
+
 
 *You need to be Discord administrator to do this. The instructions are for the Discord desktop client.*
 
@@ -45,7 +53,9 @@ Please follow these steps to share your progress to a custom Discord server and 
 9. Paste the webhook URL from your clipboard to somewhere, where you can access it on the mobile device.
 
 
+
 ### GnollHack Setup
+
 
 1. Copy the webhook URL to the clipboard on the mobile device.
 2. Start **GnollHack**.

@@ -1,4 +1,5 @@
 ## Melee and Thrown Weapon: Dagger
+
 - **Weight:** 0.6 lbs
 - **Base value:** 4 gold
 - **Base material:** Metal

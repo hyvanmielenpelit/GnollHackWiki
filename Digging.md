@@ -9,6 +9,7 @@ Increases digging speed. Also increases to-hit, damage, and the chance of a crit
 * Damage bonus -2
 * Critical strike chance 0%
  
+
 ## Basic
 
 * 1 skill slot to advance
@@ -18,6 +19,7 @@ Increases digging speed. Also increases to-hit, damage, and the chance of a crit
 * Damage bonus +0
 * Critical strike chance 5%
  
+
 ## Skilled
 
 * 1 skill slot to advance
@@ -27,6 +29,7 @@ Increases digging speed. Also increases to-hit, damage, and the chance of a crit
 * Damage bonus +2
 * Critical strike chance 10%
  
+
 ## Expert
 
 * 2 skill slots to advance
@@ -36,6 +39,7 @@ Increases digging speed. Also increases to-hit, damage, and the chance of a crit
 * Damage bonus +4
 * Critical strike chance 20%
  
+
 ## Master
 
 * 2 skill slots to advance
@@ -45,6 +49,7 @@ Increases digging speed. Also increases to-hit, damage, and the chance of a crit
 * Damage bonus +6
 * Critical strike chance 35%
  
+
 ## Grand Master
 
 * 3 skill slots to advance

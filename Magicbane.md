@@ -13,6 +13,7 @@
 - **Safe enchantable level:** +10 or below
 
 ## Artifact properties
+
 1. Alignment is neutral
 2. Artifact is associated with wizards
 3. Artifact damage type is stunning damage
@@ -22,6 +23,7 @@
 7. Magic absorbing
 
 ## Magical Effects
+
 <html>
 <body>
 <!--StartFragment-->
@@ -40,4 +42,5 @@ Cancel monster | Cancels the attacked monster as if zapped with the spell or�
 Source: https://nethackwiki.com/wiki/Magicbane
 
 ## Notes
+
 - Magicbane absorbs 95% of incoming curses when wielded.

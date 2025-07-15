@@ -15,4 +15,5 @@
 - **Safe enchantable level:** +3 or below
 
 ## Item properties
+
 1. Is weapon when wielded

@@ -1,4 +1,5 @@
 ## Old Amulets
+
 - [[Amulet of ESP]] — Grants telepathy
 - [[Amulet of life saving]] — Prevents death, single-use
 - [[Amulet of strangulation]] — Strangles user to death
@@ -12,6 +13,7 @@
 - [[Amulet of Yendor]]
 
 ## New Amulets
+
 - [[Amulet versus undeath]]
 - [[Amulet versus petrification]]
 - [[Amulet of mana]]

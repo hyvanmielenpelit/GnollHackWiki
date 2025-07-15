@@ -14,9 +14,11 @@
 - **Mythic status:** Mythic
 
 ## Mythic powers - Elf slaying
+
 1. Triple damage to elves
 
 ## Artifact properties
+
 1. Alignment is chaotic
 2. Artifact is associated with orcs
 3. Artifact damage type is physical damage

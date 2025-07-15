@@ -1,9 +1,11 @@
 ## 1. Download Visual Studio 2022 Community
+
 - [Download Visual Studio Community](https://visualstudio.microsoft.com/vs/community/)
 
 ## 2. Run Installer
 
 ### Install Workloads
+
 Install the following workloads:
 
 1. Desktop development with C++

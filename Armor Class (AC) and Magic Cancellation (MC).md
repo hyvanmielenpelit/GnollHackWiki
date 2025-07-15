@@ -1,5 +1,6 @@
 ## Armor Class (AC)
 
+
 Armor Class (AC) is a value that determines how easy it is to hit the target.
 - AC starts at 10.
 - AC decreases when you get better armor. So, the lower the AC is, the better your Armor Class is.
@@ -9,7 +10,9 @@ Armor Class (AC) is a value that determines how easy it is to hit the target.
 
 For exact formulas involving AC, please visit the [Armor Class entry in the NetHack wiki](https://nethackwiki.com/wiki/Armor_class).
 
+
 ## Magic Cancellation (MC)
+
 
 Magic Cancellation (MC) determines how easy it is to inflict a certain magical or semi-magical effect on the target.
 - MC starts at 0.

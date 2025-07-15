@@ -1,4 +1,5 @@
 ## Old Potions
+
 - [[Potion of gain ability]]
 - [[Potion of restore ability]]
 - [[Potion of confusion]]
@@ -26,6 +27,7 @@
 - [[Potion of water]]
 
 ## New Potions
+
 - [[Potion of greater speed]]
 - [[Potion of lightning speed]]
 - [[Potion of magic resistance]]

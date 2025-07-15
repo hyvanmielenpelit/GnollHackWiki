@@ -1,11 +1,13 @@
 ![gnoll-wishing-4k-512](https://github.com/hyvanmielenpelit/GnollHack/assets/16661034/39a2000b-65ec-4544-95ae-0dd2da1d934d)
 
+
 ## Exceptional, Elite, Celestial/Primordial/Infernal Weapons
 - **Exceptional:** 100% chance to get
 - **Elite:** 80% chance to get, if you have positive luck
 - **Celestial/Primordial/Infernal:** 25% chance to get, if you have positive luck
 
 If the probability check fails, you will get a normal quality item instead.
+
 
 ## Exceptional, Elite, Celestial/Primordial/Infernal Armor
 - **Exceptional:** 50% chance to get, if you have positive luck
@@ -14,11 +16,13 @@ If the probability check fails, you will get a normal quality item instead.
 
 If the probability check fails, you will get a normal quality item instead.
 
+
 ## Exceptional and Elite Wands
 - **Exceptional:** 50% chance to get, if you have positive luck
 - **Elite:** 25% chance to get, if you have positive luck
 
 If the probability check fails, you will get a normal quality item instead.
+
 
 ## Mythic and Legendary Items
 - **Mythic item (one prefix or suffix power):** 100% chance to get, except for Elemental Protection, Last Alliance, Banishment, Witch-King's, Olympian, Jotunheimian, and Melnibonean qualities that have 33% chance if you have positive luck (otherwise 0%); if fails, no affix is gained.
@@ -26,7 +30,9 @@ If the probability check fails, you will get a normal quality item instead.
 
 If the legendary item's probability check fails, you will get a mythic item instead (with either a prefix or suffix power).
 
+
 ## Artifact Wishing
+
 
 The probability of getting an artifact through wishing depends on artifacts already generated in the game as follows:
 

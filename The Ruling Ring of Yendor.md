@@ -5,6 +5,7 @@
 - **Material:**               Gold
 
 ## Conferred powers
+
 1. Invisibility when worn
 2. Clairvoyance when worn
 3. See invisible when worn
@@ -18,6 +19,7 @@
 11. Grants +1 bonus to magic cancellation when worn
 
 ## Item properties
+
 1. Cold resistant
 2. Disintegration resistant
 3. Fire resistant
@@ -25,6 +27,7 @@
 5. Lightning resistant
 
 ## Artifact properties
+
 1. Alignment is unaligned
 2. Monsters can track the artifact
 3. Intelligent
@@ -32,6 +35,7 @@
 5. Confers bad luck when carried
 
 ## Notes
+
 While carrying the Ruling Ring of Yendor, there is a chance that a wraith-type monster is generated with a +25% higher than normal difficulty.
 
 May be carried by halflings.

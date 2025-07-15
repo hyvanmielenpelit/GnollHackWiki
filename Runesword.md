@@ -1,4 +1,5 @@
 ## Melee Weapon: Broadsword
+
 - **Weight:** 3.4 lbs
 - **Base value:** 300 gold
 - **Base material:** Metal

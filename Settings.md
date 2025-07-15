@@ -1,6 +1,7 @@
 **Android and iOS only.**
 
 ## Simple Command Layout
+
 - **Off:** Advanced Command Layout
     - Shows two rows of commands in the bottom of the game screen.
     - Shows extra commands in more commands.

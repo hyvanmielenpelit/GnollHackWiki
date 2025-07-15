@@ -53,6 +53,7 @@ On the Windows computer, do the following:
 
 
 ### Notes
+
 #### Note 1
 
 You need to have [Visual Studio 2019](https://visualstudio.microsoft.com/vs/older-downloads/) with the same workloads as Visual Studio 2022 installed that you may use the C++ debugger. Note that there's no **.NET Multi-platform App UI development** workload in VS 2019, but you must install the **Mobile development with .NET** workload instead. You do not actually need to start VS 2019, but it is enough to have it installed.

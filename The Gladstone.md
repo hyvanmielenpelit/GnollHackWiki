@@ -9,9 +9,11 @@
 - **Base damage - Large:**    1d3 (avg 2.0)
 
 ## Conferred powers
+
 1. Confers luck when carried
 
 ## Artifact properties
+
 1. Alignment is unaligned
 2. Artifact damage type is physical damage
 3. Artifact to-hit bonus is 1d5+20
@@ -21,4 +23,5 @@
     * Repowers over 300 rounds
 
 ## Notes
+
 Gladstone is found on the last level of Gnomish Mines, known as Mine's End.

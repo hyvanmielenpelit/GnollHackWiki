@@ -9,8 +9,10 @@
 - **Safe enchantable level:** +3 or below
 
 ## Conferred powers
+
 1. Magic resistance when worn
 
 ## Item properties
+
 1. Corrosion resistant
 2. Rust-proof

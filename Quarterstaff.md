@@ -1,4 +1,5 @@
 ## Melee Weapon: Staff
+
 - **Weight:** 1.9 lbs
 - **Base value:** 5 gold
 - **Base material:** Wood

@@ -1,9 +1,12 @@
 ## Old Comestibles
+
 ### Meat
+
 - [[Tripe ration]]
 - [[Egg]]
 
 ### Vegetables
+
 - [[Kelp frond]]
 - [[Eucalyptus leaf]]
 - [[Apple]]
@@ -13,6 +16,7 @@
 - [[Slime mold]] — Name can be changed in options
 
 ### People Food
+
 - [[Lump of royal jelly]]
 - [[Cream pie]]
 - [[Candy bar]]
@@ -26,7 +30,9 @@
 - [[Tin]]
 
 ## New Comestibles
+
 ### Vegetables
+
 - [[Handful of nuts]]
 - [[Cluster of dates]]
 - [[Melon]]
@@ -40,6 +46,7 @@
 - [[Phantomberry]]
 
 ### Mushrooms
+
 Mushrooms are mostly used as spell components and vegetable food.
 - [[Champignon]]
 - [[Penny bun]]

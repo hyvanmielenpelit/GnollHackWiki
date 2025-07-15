@@ -13,9 +13,11 @@
 - **Safe enchantable level:** +10 or below
 
 ## Item properties
+
 1. Indestructible
 
 ## Artifact properties
+
 1. Alignment is neutral
 2. Artifact is associated with valkyries
 3. Artifact damage type is electrical damage
@@ -23,5 +25,6 @@
 5. Artifact damage bonus is 1d20
 
 ## Notes
+
 - You can throw Mjollnir, if you have strength 18/** or more.
 - Mjollnir will return to your hand with a 100% chance, if you are a Valkyrie.

@@ -1,4 +1,5 @@
 ## Level 1 small subterranean humanoid
+
 - **Hit dice:** 1
 - **Move:** 6"
 - **Armor class:** 10
@@ -8,22 +9,34 @@
 - **Size:** Small
 - **Number of attacks:** 1
 1. By weapon, physical 1d6
+
 ## Attribute scores
+
 St:8 Dx:10 Co:12 In:6 Wi:5 Ch:5
+
 ## Innate abilities
+
 1. Poison resistance
+
 ## Classifications
+
 1. Humanoid
 2. Carnivore
 3. Herbivore
 4. Infravision
 5. Speaking
+
 ## Notable
+
 1. Does not eschew cursed items
 2. Zombifiable and mummifiable corpse
+
 ## Corpse properties
+
 1. Poisonous
 2. Zombifiable
 3. Mummifiable
+
 ## Picture
+
 ![Large kobold](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/large_kobold/large_kobold.png)

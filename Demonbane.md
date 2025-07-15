@@ -14,9 +14,11 @@
 - **Mythic status:**          Mythic
 
 ## Mythic powers - Demon slaying
+
 1. Triple damage to demons
 
 ## Artifact properties
+
 1. Alignment is lawful
 2. Artifact damage type is physical damage
 3. Artifact to-hit bonus is 1d5.

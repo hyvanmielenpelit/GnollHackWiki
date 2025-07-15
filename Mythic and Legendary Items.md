@@ -1,5 +1,6 @@
 ![female-gnoll-hero-4k-512](https://github.com/hyvanmielenpelit/GnollHack/assets/16661034/5315c75a-633a-4e83-ae9a-3cee2c3b5a47)
 
+
 ## Overview
 - **Mythic items** get *one* special prefix or suffix power.
 - **Legendary items** have *two* special powers: one prefix power and one suffix power.
@@ -10,6 +11,7 @@
   - Non-magical melee weapons
   - Non-magical thrown weapons
   - Non-magical ammunition
+
 
 ## Weapons
 ### Prefixes
@@ -24,6 +26,7 @@
 - **Stygian:** Drains a level
 - **Vampiric:** Restores 2d6 + enchantment bonus hit points on hit
 - **Witch-king's:** (W) Drains a level, confers +50% plus 5% per enchantment level to all spell casting, can be enchanted 50% more than normal
+
 
 ### Suffixes
 - **of banishment:** (W) Triple damage against undead and demons
@@ -45,6 +48,7 @@
 - **of troll slaying:** Triple damage against trolls, prevents troll revival
 - **of wounding:** Causes permanent damage equal to 1d4 + enchantment
 
+
 ## Armor
 ### Prefixes
 - **Asgardian:** +25% max hit points
@@ -59,6 +63,7 @@
 - **Stygian:** Death and drain resistance
 - **Witch-king's:** (W) +25% max hit points, +25% max mana, confers +50% plus 5% per enchantment level to all spell casting, and can be enchanted 50% more than normal
 
+
 ### Suffixes
 - **of cold resistance:** Cold immunity
 - **of elemental protection:** (W) Fire, cold, and shock immunity
@@ -69,6 +74,7 @@
 - **of providence:** Confers luck
 - **of shock resistance:** Shock immunity
 - **of sorcery:** Sets the spell casting penalty to 0% *(cannot appear with the Sorcerer's prefix on legendary items)*
+
 
 ## Notes
 - (W) indicates 33% of chance to obtain the affix when wished for if luck is nonnegative, and otherwise 0%.

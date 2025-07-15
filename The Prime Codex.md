@@ -5,9 +5,11 @@
 - **Material:**               Paper
 
 ## Item properties
+
 1. Indestructible
 
 ## Artifact properties
+
 1. Alignment is unaligned
 2. Level teleportation when invoked
     * Repowers over 40 rounds
@@ -16,4 +18,5 @@
 5. Teleport control when carried
 
 ## Notes
+
 The Prime Codex is a prize for defeating Primus.

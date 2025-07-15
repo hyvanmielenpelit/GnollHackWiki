@@ -1,4 +1,5 @@
 ## Armor: Helmet
+
 - **Weight:** 0.2 lbs
 - **Base value:** 100 gold
 - **Base material:** Silk
@@ -9,5 +10,7 @@
 - **Enchantable:** Yes
 - **Safe enchantable level:** +3 or below
 - **Mythic status:** Cannot be mythic
+
 ## Conferred powers
+
 1. Grants +1 bonus to charisma when worn

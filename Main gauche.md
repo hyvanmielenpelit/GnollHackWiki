@@ -1,4 +1,5 @@
 ## Melee Weapon: Dagger
+
 - **Weight:** 0.6 lbs
 - **Base value:** 4 gold
 - **Base material:** Iron
@@ -12,5 +13,7 @@
 - **Spell casting penalty:** +0% (somatic spells only)
 - **Enchantable:** Yes
 - **Safe enchantable level:** +10 or below
+
 ## Item properties
+
 1. Is armor when wielded

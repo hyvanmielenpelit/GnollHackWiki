@@ -7,9 +7,11 @@
 - **Recharging type:**        Rechargeable up to seven times
 
 ## Item properties
+
 1. Indestructible
 
 ## Artifact properties
+
 1. Alignment is unaligned
 2. Conflict when invoked
     * Effect duration is 2d10+140 rounds

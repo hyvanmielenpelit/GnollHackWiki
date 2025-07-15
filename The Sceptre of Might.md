@@ -14,6 +14,7 @@
 - **Safe enchantable level:** +10 or below
 
 ## Artifact properties
+
 1. Alignment is lawful
 2. Artifact is associated with cavepersons
 3. Artifact damage type is physical damage
@@ -27,4 +28,5 @@
 8. Intelligent
 
 ## Notes
+
 The Sceptre of Might is Caveman Quest Artifact.

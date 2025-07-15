@@ -9,10 +9,12 @@
 - **Safe enchantable level:** +3 or below
 
 ## Conferred powers
+
 1. Disintegration resistance when worn
 2. Protection from bisection when worn
 
 ## Item properties
+
 1. Corrosion resistant
 2. Disintegration resistant
 3. Indestructible

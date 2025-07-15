@@ -5,12 +5,15 @@
 - **Material:**               Iron
 
 ## Conferred powers
+
 1. Enhanced untrapping when carried
 
 ## Powers are conferred only to
+
 1. Rogues
 
 ## Artifact properties
+
 1. Alignment is chaotic
 2. Artifact is associated with rogues
 3. Untrapping when invoked
@@ -22,4 +25,5 @@
 8. Warning when carried
 
 ## Notes
+
 The Master Key of Thievery is Rogue Quest Artifact.

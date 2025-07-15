@@ -1,10 +1,12 @@
 ![gnoll-spell-casting-4k-512](https://github.com/hyvanmielenpelit/GnollHack/assets/16661034/7d1cdcde-d5b0-484f-9047-9e2fc1bfa3d9)
 
+
 ## Spell Levels
 Spells have 14 different levels:
 - Minor cantrip, denoted by the letter "c", equals to level -1
 - Major cantrip, denoted by the letter "C", equals to level 0
 - Levels 1–12
+
 
 ## Spell Schools
 Spells can belong to one of the following spell schools:
@@ -22,7 +24,9 @@ Spells can belong to one of the following spell schools:
 - **Necromancy** — Wis/Cha, non-somatic
 - **Transmutation** — Int/Wis/Cha (Any), somatic
 
+
 ### Attribute Bonus to Spell Casting Success Chance
+
 
 Spells in a particular spell school get a **bonus to the spell casting success chance** *(see below)* from one of the mental attributes:
 - Intelligence (Int)
@@ -31,8 +35,10 @@ Spells in a particular spell school get a **bonus to the spell casting success c
 
 Most spell schools use more than one attribute, and in that case they use the highest of the attributes. The attributes used by each spell school are listed above.
 
+
 ### Armor Penalty to Spell Casting
 If a spell has a **somatic component**, using heavy armor incurs a spell casting penalty. If a spell has a somatic component usually depends on which magic school the spell belongs to. This fact is listed in the above list of magic schools.
+
 
 ## Spell Casting Success Chance
 Each spell has a chance to cast it successfully. It depends on the following factors:
@@ -55,11 +61,13 @@ The whole spell casting success formula is as follows:
 + Item_Spell_Casting_Bonus
 ```
 
+
 ## Spell Components
 Spells can have 3 types of components:
 - **Verbal component** — Most spells require speaking magic words. If you are strangled or drowning, you cannot cast spells with a verbal component.
 - **Somatic component** — If a spell has a somatic component, you get penalty to spell casting success chance for wearing heavy armor. Usually, wizard spells have a somatic component while priest spells do not have it.
 - **Material component**  — Most spells require you to prepare (mix) them by using their material components. You do this by using the Mix command.
+
 
 ## Preparing/Mixing Spells
 Most spells have one or more material components. When you mix the spells, you get a **number of castings** for that spell.
@@ -68,6 +76,7 @@ You prepare spells by using the **Mix** command.
 
 You see the number of remaining castings in both Cast and Mix menu.
 
+
 ## Casting Spells
 You cast spells using the **Cast** command. Spells have:
 1. Mana Cost
@@ -75,6 +84,7 @@ You cast spells using the **Cast** command. Spells have:
 3. Casting Time
 4. Cooldown
 5. Number of castings *(from mixing, see above)*
+
 
 ### Mana Cost
 Spells cost **mana (energy)** to cast. The amount of current mana and your maximum mana amount are listed in the status bar (old versions of the game) or as a blue orb on the left side of the screen (mobile versions of the game).
@@ -88,11 +98,14 @@ You get [[maximum mana]] from:
 
 Mana regenerates over time at the rate of `Max_Mana/640` per turn. Energy regeneration from items doubles the rate.
 
+
 ### Casting Time
 Spells usually take 0 or 1 turns to cast. Most spells require 1 turn, but healing spells that restore lost hit points do not consume a turn to cast.
 
+
 ### Cooldown
 Spells can also have a cooldown, which prevents the spell being cast again before the cooldown has expired. For example, healing spells that restore lost hit points have a 2-turn cooldown.
+
 
 ## Learning spells
 You learn spells from:
@@ -107,12 +120,14 @@ When learning a spell from a spell book, the following rules apply:
 
 NPCs ask you for a fee, but you learn the spell with a 100% chance.
 
+
 ## Managing Spells
 Using the **Spell** menu, you can:
 - Reorder spells
 - Sort spells
 - Make shortcuts to spells, assigning them to the number keys (0–9)
 - Forget spells
+
 
 ## Notes
 - Spell books crumble to dust when read.

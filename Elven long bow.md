@@ -1,4 +1,5 @@
 ## Ranged Weapon: Long Bow
+
 - **Weight:** 2.5 lbs
 - **Base value:** 300 gold
 - **Base material:** Wood
@@ -11,5 +12,7 @@
 - **Enchantable:** Yes
 - **Safe enchantable level:** +10 or below
 - **Mythic status:** Cannot be mythic
+
 ## Notable
+
 1. Adds the user's strength bonus to damage.

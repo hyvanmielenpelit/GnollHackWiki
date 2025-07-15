@@ -1,4 +1,5 @@
 ## Melee Weapon: Spear
+
 - **Weight:** 1.9 lbs
 - **Base value:** 3 gold
 - **Base material:** Iron

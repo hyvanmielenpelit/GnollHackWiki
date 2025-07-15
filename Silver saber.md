@@ -1,4 +1,5 @@
 ## Melee Weapon: Saber
+
 - **Weight:** 3.4 lbs
 - **Base value:** 75 gold
 - **Base material:** Silver

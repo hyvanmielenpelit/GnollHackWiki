@@ -1,4 +1,5 @@
 ## Old Scrolls
+
 These scrolls appear also in NetHack.
 - [[Scroll of amnesia]]
 - [[Scroll of charging]]
@@ -23,6 +24,7 @@ These scrolls appear also in NetHack.
 - [[Scroll of teleportation]]
 
 ## New Scrolls
+
 - [[Scroll of conflict]]
 - [[Scroll of enchant accessory]]
 - [[Scroll of protect armor]]

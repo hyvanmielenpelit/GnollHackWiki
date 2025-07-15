@@ -1,4 +1,5 @@
 ## Melee Weapon: Club
+
 - **Weight:** 2.5 lbs
 - **Base value:** 3 gold
 - **Base material:** Wood

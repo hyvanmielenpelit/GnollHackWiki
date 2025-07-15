@@ -1,4 +1,5 @@
 ## Thrown Weapon: Spiked Club
+
 - **Weight:** 0.9 lbs
 - **Base value:** 4 gold
 - **Base material:** Iron

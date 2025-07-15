@@ -1,4 +1,5 @@
 ## Melee Weapon: Knife
+
 - **Weight:** 0.3 lbs
 - **Base value:** 6 gold
 - **Base material:** Steel

@@ -1,4 +1,5 @@
 ## Melee Weapon: Hose
+
 - **Weight:** 1.2 lbs
 - **Base value:** 3 gold
 - **Base material:** Plastic

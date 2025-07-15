@@ -1,4 +1,5 @@
 ## Armor: Shirt
+
 - **Weight:** 0.3 lbs
 - **Base value:** 2 gold
 - **Base material:** Cloth

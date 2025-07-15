@@ -1,4 +1,5 @@
 ## Simple Helms
+
 - Cotton hood
 - Dented pot
 - Dwarvish iron helm
@@ -16,9 +17,11 @@ Simple helms are mostly unchanged from NetHack, except that they may incur a spe
 - Metal helms: -30% spell casting penalty
 
 ## Non-Magical Helms
+
 - [[Royal crown]]
 
 ## Magical Helms
+
 - [[Crown of rulership]]
 - [[Helm of brilliance]]
 - [[Helm of opposite alignment]]

@@ -3,6 +3,7 @@
 Increases AC. Cannot be trained, but the skill levels are unlocked at certain levels.
 
 ## Unskilled
+
 * Armor class bonus +0
 
 ## Basic

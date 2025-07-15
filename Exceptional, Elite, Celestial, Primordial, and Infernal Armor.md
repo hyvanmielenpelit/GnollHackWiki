@@ -8,16 +8,19 @@ In GnollHack, a piece of armor can have a quality modifier. The quality modifier
 - [[Gloves]] — All gloves including magical gloves
 
 ## Body armor
+
 - **Exceptional:** -4 AC, +1 MC
 - **Elite:** -8 AC, +2 MC
 - **Celestial/Primordial/Infernal:** -12 AC, +4 MC but can be used only by lawful/neutral/chaotic beings, respectively.
 
 ## Shields
+
 - **Exceptional:** -3 AC, +1 MC
 - **Elite:** -6 AC, +2 MC
 - **Celestial/Primordial/Infernal:** -9 AC, +3 MC but can be used only by lawful/neutral/chaotic beings, respectively.
 
 ## Boots and Gloves
+
 - **Exceptional:** -2 AC
 - **Elite:** -4 AC, +1 MC
 - **Celestial/Primordial/Infernal:** -6 AC, +2 MC but can be used only by lawful/neutral/chaotic beings, respectively.

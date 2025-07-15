@@ -27,6 +27,7 @@ These wands appear also in NetHack.
 - [[Wand of death]]
 
 ## New Wands
+
 - [[Wand of ore detection]]
 - [[Wand of trap detection]]
 - [[Wand of town portal]]
@@ -45,6 +46,7 @@ An identified wand's charges are represented as X:Y in the game, where:
 For example, a 0:3 wand has not been recharged and it has 3 charges left.
 
 ## Notes
+
 - Some wands can be applied to an item  in the inventory to apply a magical effect onto it. Such wands are the following:
     - [[Wand of cancellation]]
     - [[Wand of cold]]

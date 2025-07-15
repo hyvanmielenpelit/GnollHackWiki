@@ -1,4 +1,5 @@
 ## Armor: Boots
+
 - **Weight:** 1.2 lbs
 - **Base value:** 8 gold
 - **Base material:** Leather
@@ -8,5 +9,7 @@
 - **Enchantable:** Yes
 - **Safe enchantable level:** +5 or below
 - **Mythic status:** Cannot be mythic
+
 ## Conferred powers
+
 1. Stealth when worn

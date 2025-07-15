@@ -5,6 +5,7 @@ Normally, playing GnollHack over SSH does not look as nice as playing GnollHack 
 If you use [PuTTY](https://www.putty.org/), you can configure it to show better IBM Graphics.
 
 ## 1. Configuring PuTTY
+
 You need to set Window → Translation → Remote Character Set to "CP437".
 
 ![Normal SSH](https://images.gnollhack.com/wiki/IBMGraphicsWithPuTTY/PuTTYWindowTranslation.png)
@@ -30,6 +31,7 @@ Instead of setting the IBMgraphics option everytime through Options 'O', you can
 You can find the option to edit the options file in the game menu after you have logged in.
 
 ## 3. It works
+
 Now it looks like this:
 
 ![Normal SSH](https://images.gnollhack.com/wiki/IBMGraphicsWithPuTTY/ServerOptions3.png)

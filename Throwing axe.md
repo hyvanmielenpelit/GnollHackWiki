@@ -1,4 +1,5 @@
 ## Melee and Thrown Weapon: Throwing Axe
+
 - **Weight:** 3.1 lbs
 - **Base value:** 8 gold
 - **Base material:** Iron

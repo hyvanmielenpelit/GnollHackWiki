@@ -8,6 +8,7 @@
 - **Cooldown time:**          25 rounds
 
 ## Artifact properties
+
 1. Alignment is neutral
 2. Artifact is associated with valkyries
 3. Level teleportation when invoked
@@ -19,4 +20,5 @@
 8. Confers luck when carried
 
 ## Notes
+
 The Orb of Fate is Valkyrie Quest Artifact.

@@ -10,16 +10,19 @@
 - **Mythic status:**          Mythic
 
 ## Conferred powers
+
 1. Grants +Enchantment bonus to intelligence when worn
 2. Grants +Enchantment bonus to wisdom when worn
 3. Grants +5% &times; Enchantment bonus to casting all spells when worn
 
 ## Mythic powers - Hallowed
+
 1. Curse resistance
 2. Cannot be cursed
 3. Counts as silver against silver-vulnerable monsters
 
 ## Artifact properties
+
 1. Alignment is lawful
 2. Artifact is associated with priests
 3. Full fire resistance when carried
@@ -30,4 +33,5 @@
 7. Half physical damage from undead and demons when worn
 
 ## Notes
+
 The Mitre of Holiness is Priest Quest Artifact.

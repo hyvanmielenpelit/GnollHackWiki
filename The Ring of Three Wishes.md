@@ -7,9 +7,11 @@
 - **Recharging type:**        Not rechargeable
 
 ## Item properties
+
 1. Indestructible
 
 ## Artifact properties
+
 1. Alignment is unaligned
 2. Wishing when invoked
     * Expends one charge

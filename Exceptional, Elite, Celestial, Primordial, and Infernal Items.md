@@ -10,6 +10,7 @@ In GnollHack, a weapon can have a quality modifier. The quality modifier increas
 For example, a normal long sword deals 1d8 damage to small creatures and 1d12 to large creatures, while an exceptional long sword deals 2d8 damage to small creatures and 2d12 to large creatures.
 
 ## Items with Weapon Quality Modifiers
+
 Most items that can be used as weapons in combat can have weapon quality modifiers. These are:
 - Melee weapons
 - Ranged weapons, including launchers, such as bows
@@ -34,16 +35,19 @@ In GnollHack, a piece of armor can have a quality modifier. The quality modifier
 - [[Gloves]] — All gloves including magical gloves
 
 ## Body armor
+
 - **Exceptional:** -4 AC, +1 MC
 - **Elite:** -8 AC, +2 MC
 - **Celestial/Primordial/Infernal:** -12 AC, +4 MC but can be used only by lawful/neutral/chaotic beings, respectively.
 
 ## Shields
+
 - **Exceptional:** -3 AC, +1 MC
 - **Elite:** -6 AC, +2 MC
 - **Celestial/Primordial/Infernal:** -9 AC, +3 MC but can be used only by lawful/neutral/chaotic beings, respectively.
 
 ## Boots and Gloves
+
 - **Exceptional:** -2 AC
 - **Elite:** -4 AC, +1 MC
 - **Celestial/Primordial/Infernal:** -6 AC, +2 MC but can be used only by lawful/neutral/chaotic beings, respectively.
@@ -57,6 +61,7 @@ In GnollHack, certain wands can have a quality modifier. The quality modifier in
 For example, a normal wand of fire deals 4d6 damage, while an exceptional wand of fire deals 8d6 damage.
 
 ## Wands with Quality Modifiers
+
 The following wands can have quality modifiers:
 - [[Wand of nothing]] (_does not do anything_)
 - [[Wand of striking]]

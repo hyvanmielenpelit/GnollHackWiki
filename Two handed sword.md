@@ -1,4 +1,5 @@
 ## Melee Weapon: Two-Handed Sword
+
 - **Weight:** 7.5 lbs
 - **Base value:** 50 gold
 - **Base material:** Iron

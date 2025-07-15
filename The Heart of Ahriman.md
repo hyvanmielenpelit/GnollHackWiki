@@ -9,9 +9,11 @@
 - **Base damage - Large:**    1d3 (avg 2.0)
 
 ## Conferred powers
+
 1. Confers luck when carried
 
 ## Artifact properties
+
 1. Alignment is neutral
 2. Artifact is associated with barbarians
 3. Artifact damage type is physical damage
@@ -23,4 +25,5 @@
 8. Stealth when carried
 
 ## Notes
+
 The Heart of Ahriman is Barbarian Quest Artifact.

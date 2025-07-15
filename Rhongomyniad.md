@@ -13,6 +13,7 @@
 - **Safe enchantable level:** +10 or below
 
 ## Artifact properties
+
 1. Alignment is lawful
 2. Artifact is associated with knights
 3. Artifact damage type is physical damage
@@ -22,4 +23,5 @@
 7. Curse resistance when carried
 
 ## Notes
+
 Rhongomyniad is a Knight crowning gift along with a tame ki-rin.

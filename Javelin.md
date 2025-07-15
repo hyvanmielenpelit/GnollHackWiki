@@ -1,4 +1,5 @@
 ## Thrown Weapon: Javelin
+
 - **Weight:** 1.2 lbs
 - **Base value:** 3 gold
 - **Base material:** Iron

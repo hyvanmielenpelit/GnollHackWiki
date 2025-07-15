@@ -5,9 +5,11 @@
 - **Material:**               Stone
 
 ## Conferred powers
+
 1. Grants +100% bonus to casting all spells when worn
 
 ## Artifact properties
+
 1. Alignment is chaotic
 2. Artifact is associated with wizards
 3. Summon demon when invoked

@@ -5,6 +5,7 @@
 - **Material:**               Glass
 
 ## Artifact properties
+
 1. Alignment is lawful
 2. Artifact is associated with knights
 3. Displacement when invoked
@@ -16,6 +17,7 @@
 7. Reflection when carried
 
 ## Notes
+
 The Magic Mirror of Merlin is Knight Quest Artifact.
 
 The Magic Mirror of Merlin *does not give double spell damage* in GnollHack. It was considered to be too powerful.

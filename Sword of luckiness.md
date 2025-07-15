@@ -1,4 +1,5 @@
 ## Melee Weapon: Broadsword
+
 - **Weight:** 3.4 lbs
 - **Base value:** 500 gold
 - **Base material:** Metal
@@ -12,5 +13,7 @@
 - **Enchantable:** Yes
 - **Safe enchantable level:** +10 or below
 - **Mythic status:** Cannot be mythic
+
 ## Conferred powers
+
 1. Confers luck when wielded

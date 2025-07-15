@@ -41,10 +41,13 @@
 - [[Flail]]
 - [[Bullwhip]] — Can be applied to disarm opponents
 
+
 ## Simple Melee Weapon Modifiers
+
 
 1. Can get weapon quality modifiers
 2. Can be mythic or legendary
+
 
 ## Notes on Simple Melee Weapons
 1. **Spears** can be applied to hit targets at 2 or more squares away (depending on the skill level, requires Basic or better skill). The range is *2, SQRT(5), SQRT(8) on Basic/Skilled/Expert*. They also work as a melee weapon.

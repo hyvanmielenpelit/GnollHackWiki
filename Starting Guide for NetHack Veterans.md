@@ -21,6 +21,7 @@ Some of the most important things to keep in mind:
   - '**p**': pick up items on the ground and put them directly into the bag.
 
 ## Difficulty
+
 GnollHack is more difficult than NetHack in the end game, and therefore we recommend that you start playing GnollHack somewhere between the **Experienced** and **Expert difficulties**.
 - **Experienced difficulty** allows you to play a relatively easy game while learning new mechanics. It can be a right difficulty for many.
 - **Adept difficulty** is probably a bit easier than NetHack, but new mechanics in GnollHack can require time to adjust to, which may increase the difficulty.
@@ -30,7 +31,9 @@ GnollHack is more difficult than NetHack in the end game, and therefore we recom
 If you are a NetHack veteran with many ascensions, we do not recommend starting with the **Standard difficulty**, because you will get lots of hints about things you already know. **Master** and **Grand Master difficulties**, on the other hand, require you to know GnollHack really well, or otherwise they can be overwhelming.
 
 ## Options
+
 ### Enable 4 Statuslines
+
 You should be playing GnollHack with **at least 4 status lines**. If you are using the curses interface, we recommend setting the following in your options file:
 
 `OPTIONS=autostatuslines,statuslines:4`

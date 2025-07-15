@@ -1,8 +1,10 @@
 ## Simple Gloves
+
 - Leather gloves
 - Silver gauntlets — 1d20 silver damage on hit
 
 ## Magical Gloves
+
 - [[Gauntlets of fumbling]]
 - [[Gloves of haste]]
 - [[Gloves of spell casting]]
@@ -10,6 +12,7 @@
 - [[Gauntlets of dexterity]]
 
 ## Weapon-Gloves
+
 - [[Spiked gauntlets]]
 - [[Spiked silver gauntlets]]
 

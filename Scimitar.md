@@ -1,4 +1,5 @@
 ## Melee Weapon: Scimitar
+
 - **Weight:** 3.8 lbs
 - **Base value:** 15 gold
 - **Base material:** Iron

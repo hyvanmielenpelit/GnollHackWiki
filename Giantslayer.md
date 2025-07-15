@@ -13,9 +13,11 @@
 - **Mythic status:**          Mythic
 
 ## Mythic powers - Giant slaying
+
 1. Triple damage to giants
 
 ## Artifact properties
+
 1. Alignment is unaligned
 2. Artifact damage type is physical damage
 3. Artifact to-hit bonus is 1d5

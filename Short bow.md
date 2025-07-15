@@ -1,4 +1,5 @@
 ## Ranged Weapon: Short Bow
+
 - **Weight:** 1.9 lbs
 - **Base value:** 30 gold
 - **Base material:** Wood
@@ -11,5 +12,7 @@
 - **Enchantable:** Yes
 - **Safe enchantable level:** +7 or below
 - **Mythic status:** Cannot be mythic
+
 ## Notable
+
 1. Adds the user's strength bonus to damage.

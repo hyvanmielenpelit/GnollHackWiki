@@ -1,4 +1,5 @@
 ## General
+
 * New MC system — MC ranges now from 0–25, giving you a chance to resist special attacks, such as level drain. MC from different items also stacks.
 * 7 Difficulty levels:
   * **Standard:** Combat difficulty 10% — Monsters deal 25% of normal damage and you deal 252% normal damage.
@@ -41,6 +42,7 @@
 * You can use containers even when you wield a cursed two-handed weapon.
 
 ## Player Character
+
 * Experience level cap increased to 50.
 * It requires only 1,000,000 experience points to reach level 30, compared to 100,000,000 in NetHack.
 * Characters can carry more than before.
@@ -48,6 +50,7 @@
 * Changes in Intelligence and Wisdom immediately reflect in your maximum mana.
 
 ## Monsters
+
 * Monsters have attributes like the player character (Strength, Dexterity, etc.).
 * Summon nasties monster spell has been heavily nerfed. Sorry liches.
 * Covetousness has been removed from monsters, except for Wizard of Yendor.
@@ -76,6 +79,7 @@
 
 
 ## Pets
+
 * Pets now have a pathing algorithm (the same as in travel). No more pets stuck on the other side of the map.
 * Pet hit points and other statistics are now shown on status lines 4-8.
 * You can command pets to stay put. Useful, when you do not want them to eat corpses.
@@ -90,12 +94,14 @@
 * Riding as a non-knight is easier. The pet loses tamedness slower.
 
 ## Shopkeepers, Priests, and the Oracle
+
 * Shopkeepers and the Oracle can identify items.
 * Priests can bless and curse items, and heal you for a fee.
 * Oracle can also provide enlightenment.
 * Shopkeepers have been trained to spot pets that try to steal items from their shops.
 
 ## Skills
+
 * Weapon skills have been combined, so that there are now 14 weapon skills instead of 28.
 * Weapon skills grant more bonuses than before.
 * Revised spell school skills.
@@ -105,12 +111,14 @@
 * The game shows when you have unused skill points in the status bar.
 
 ## Roles
+
 * Monk is heavily improved — He can even do martial art kicks using 'k'. The boots of kicking are now very useful for him.
 * Most roles have revised intrinsics per level.
 * Tourist starts with a +2 golf club, because he cannot throw darts in a melee range anymore.
 * All roles start with a bag. Rogues start with a bag of treasure hauling and wizards with a bag of wizardry. Other roles start with a normal bag or backpack.
 
 ## Items
+
 * Mythic affix item property system — Non-magical weapons and armor can be generated with special properties, such as demon slaying or fire resistance.
 * Weapon quality classes — Weapons can now be normal, exceptional, elite, or one of celestial, primordial, or infernal. Exceptional weapons cause double base damage, elite triple, and celestial, primordial, and infernal quadruple damage.
 * Elemental enchantment — Weapons can also be elemental enchanted much in the same way as they can be poisoned. Elemental enchantment may wear of during use.
@@ -144,6 +152,7 @@
 * You cannot choke on food that adds 50 or less nutrition.
 
 ## Dungeon
+
 * Your starting room has an altar of your god and your stash, which contains an axe (if you do not have a starting axe), 2 scrolls (one of which is a scroll of identify), and a random food item.
 * Garden rooms with lots of fruits — And you can dig (Ctrl-d) in them for roots and cut down trees for lumber.
 * Library rooms with spell casting monsters.
@@ -159,6 +168,7 @@
 * New dungeon branches
 
 ## Spells
+
 * 14 different spell levels: Minor cantrip, major cantrip, and levels 1–12.
 * Most spells have now a material component, which is required to mix (prepare) the spell.
 * Each mixing gives out a number of castings, ranging from 1–100 across spells.
@@ -178,6 +188,7 @@
 * Spellbooks are less dangerous to read – they do not paralyze you when the reading fails.
 
 ## Scoring
+
 * GnollHack has its own scoring system
 * You get score from:
   * Delving deeper into the dungeon

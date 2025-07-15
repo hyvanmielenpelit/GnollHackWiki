@@ -1,10 +1,13 @@
 ## Preparation
 
+
 1. Install Visual Studio — [[Visual Studio Installation for ASCII and Windows GUI Version Development]].
 2. Clone Repository — [[Clone Repository in Visual Studio]].
 3. **NEW** — If you are using an old version of the repository, you may need to [[delete old directories]], because we have changed some paths.
 
+
 ## Build
+
 
 1. [[Open GnollHack Solution in Visual Studio]].
 2. In Solution Explorer, right-click on GnollHack solution and select Properties at the end of the pop-up menu. This opens a window entitled "Solution 'GnollHack' Property Pages". In the list box on the left, select Configuration Properties > Configuration. A table of projects in the solution should appear. In Build column, untick **GnollHackW** from being built, unless you have the requisite tilemap and FMOD sound banks.
@@ -14,7 +17,9 @@
 6. Build GnollHack using **Rebuild Solution**.
 7. You should now be able to find **GnollHack.exe** at `bin\Debug\x64`. Double-click on it to play.
 
+
 ## Debugging
+
 
 After building the solution according to the above instructions (using the **Debug** solution configuration):
 

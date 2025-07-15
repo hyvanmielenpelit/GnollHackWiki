@@ -1,4 +1,5 @@
 ## B
+
 - [[Backpack]]
 - [[Bag of holding]]
 - [[Bag of infinite sling bullets]]

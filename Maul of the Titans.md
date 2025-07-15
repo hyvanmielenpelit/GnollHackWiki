@@ -1,5 +1,6 @@
 ## Melee Weapon: Club - Artifact Two-Handed Club
 
+
 - **Weight:**                 3.8 lbs
 - **Base value:**             2000 gold
 - **Material:**               Wood
@@ -12,9 +13,11 @@
 - **Safe enchantable level:** +22 or below
 - **Damaged by erosion:**     Yes
 
+
 ## Mythic powers - Cyclopean
 1. Triple base damage
 2. Increases maximum enchantable level by 50%
+
 
 ## Artifact properties
 1. Alignment is unaligned

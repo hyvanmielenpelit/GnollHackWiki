@@ -1,4 +1,5 @@
 ## Melee Weapon: Hammer
+
 - **Weight:** 3.1 lbs
 - **Base value:** 5 gold
 - **Base material:** Iron

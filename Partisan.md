@@ -1,4 +1,5 @@
 ## Melee Weapon: Polearm
+
 - **Weight:** 5.0 lbs
 - **Base value:** 10 gold
 - **Base material:** Iron

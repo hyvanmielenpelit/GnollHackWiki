@@ -1,4 +1,5 @@
 ## Melee Weapon: Worm Tooth
+
 - **Weight:** 1.2 lbs
 - **Base value:** 2 gold
 - **Base material:** Tooth
