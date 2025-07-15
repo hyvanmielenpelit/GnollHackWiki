@@ -1,0 +1,3 @@
+- Over 20 pieces of music by Eric Matyas, in common use in the Internet, https://soundimage.org/
+- Over 10 pieces of music by Avalkis, specifically composed for GnollHack, https://www.jukkaeronen.com/
+- 1 piece of music by Yolanda Mott, https://yolandamott.weebly.com/

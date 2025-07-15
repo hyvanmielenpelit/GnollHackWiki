@@ -1,0 +1,5 @@
+## Magical Ring
+- **Weight:** 0.1 lbs
+- **Base value:** 300 gold
+## Conferred powers
+1. Mana pool is increased by 50% when worn

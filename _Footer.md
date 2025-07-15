@@ -1,0 +1,1 @@
+&copy; 2020–2025 [Sound Mind Games](https://soundmindgames.org)

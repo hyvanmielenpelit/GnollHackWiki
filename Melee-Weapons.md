@@ -1,0 +1,2 @@
+- [[Simple Melee Weapons]] — These are mostly unchanged from NetHack and new ones don't have many special properties, except for 1d20 silver damage.
+- [[New Melee Weapons]] — New melee weapons in GnollHack.

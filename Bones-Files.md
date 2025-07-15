@@ -1,0 +1,1 @@
+Bones files are saved levels where an earlier dead character may have risen as a ghost.

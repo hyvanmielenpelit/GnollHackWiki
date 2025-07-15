@@ -1,0 +1,1 @@
+- Open **GnollHackM.sln** in `win\win32\xpl\GnollHackM` in Visual Studio.
