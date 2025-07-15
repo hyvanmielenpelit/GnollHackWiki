@@ -119,8 +119,8 @@ As of March 26, 2025, .NET MAUI mobile ports are fully functional but not yet de
 #### Windows / WinUI 3
 
 
-* [[System Requirements for Modern Windows Port (.NET MAUI/WinUI 3)]]
-* [[CPU and GPU Usage Modes in Modern Windows Port (.NET MAUI/WinUI 3)]]
+* [[System Requirements for Modern Windows Port (.NET MAUI ∕ WinUI 3)]]
+* [[CPU and GPU Usage Modes in Modern Windows Port (.NET MAUI ∕ WinUI 3)]]
 
 
 ## Articles
