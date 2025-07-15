@@ -55,12 +55,12 @@ No effect
 ### Potion Alchemy
 
 
-1. A [[potion of healing]] becomes a [[potion of extra energy]].
+1. A [[potion of healing]] becomes a [[potion of extra-energy]].
 2. A [[potion of extra-healing]] becomes a [[potion of greater energy]].
 3. A [[potion of greater healing]] becomes a [[potion of full energy]].
 4. A [[potion of full healing]] becomes a [[potion of full energy]].
 5. Any potion of energy — No change.
-6. A [[potion of speed]] becomes a [[potion of extra energy]].
+6. A [[potion of speed]] becomes a [[potion of extra-energy]].
 7. A [[potion of greater speed]] becomes a [[potion of greater energy]].
 8. A [[potion of lightning speed]] becomes a [[potion of full energy]].
 9. A [[potion of lesser rejuvenation]] becomes a [[potion of greater energy]].
