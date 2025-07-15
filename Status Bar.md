@@ -56,7 +56,6 @@ Attribute scores are shown in the status bar in the ASCII user interface.
 - **Wi** — [[Wisdom]]
 - **Ch** — [[Charisma]]
 
-
 ## [[Alignment|Alignments]]
 
 - Alignment is shown after the attribute scores in the ASCII user interface.
@@ -74,7 +73,6 @@ The character's alignment.
 - [[Neutral]]
 - [[Chaotic]]
 
-
 ## Dungeon Level
 
 ### Label
@@ -88,7 +86,6 @@ The character's alignment.
 ### Notes
 
 - On some special levels, the label can be changed to describe the current dungeon branch, such as "Home" in the class quest. In such a case, the value depicts the current depth of the current branch.
-
 
 ## Hit Points
 
@@ -105,7 +102,6 @@ The character's alignment.
 
 - You can turn on the showing of maximum hit point in the mobile user interface by clicking on the red orb.
 
-
 ## Mana Points
 
 ### Label
@@ -121,7 +117,6 @@ The character's alignment.
 
 - You can turn on the showing of maximum mana point in the mobile user interface by clicking on the blue orb.
 
-
 ## Armor Class
 
 ### Label
@@ -135,7 +130,6 @@ The character's alignment.
 ### Notes
 
 - Lower is better
-
 
 ## Magic Cancellation
 
@@ -152,7 +146,6 @@ The character's alignment.
 - Higher is better
 - See [Magic Cancellation](https://github.com/hyvanmielenpelit/GnollHack/wiki/Resistances-and-Saving-Throws#4-magic-cancellation)
 
-
 ## Movement Speed
 
 ### Label
@@ -167,7 +160,6 @@ The character's alignment.
 
 - 12 is normal speed
 - Higher is better
-
 
 ## Weapon Style
 
@@ -209,7 +201,6 @@ Windows and Linux versions of the game use letters and numbers to describe what 
 - **!** — Wielding a potion
 - **\*** — Wielding something else
 
-
 ## Experience Level
 
 ### Label
@@ -225,7 +216,6 @@ Windows and Linux versions of the game use letters and numbers to describe what 
 
 - You can disable the showing of current experience points in the options file.
 
-
 ## Gold Pieces
 
 ### Label
@@ -235,7 +225,6 @@ Windows and Linux versions of the game use letters and numbers to describe what 
 ### Value
 
 - Gold pieces in the open inventory
-
 
 ## Current Turn
 

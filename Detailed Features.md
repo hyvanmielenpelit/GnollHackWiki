@@ -77,7 +77,6 @@
 * High Priest class clerical spell casters can cast Touch of Death. Magic resistance does not help against it anymore. You need death resistance. So, please remember to acquire it before engaging combat with any high priest class monsters, such as Greater Mummy High Priest.
 * Death resistance is also required against Death's touch of death.
 
-
 ## Pets
 
 * Pets now have a pathing algorithm (the same as in travel). No more pets stuck on the other side of the map.

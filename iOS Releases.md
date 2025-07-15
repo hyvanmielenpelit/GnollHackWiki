@@ -21,14 +21,12 @@ If this page is missing the version you want to download, please [[contact us|Co
 - **Release date:** 18th November, 2023
 - **Download:** [GnollHackX.ipa](https://drive.google.com/file/d/16p0HzDCGCRP_NUkyOZs2HX5RGDKGYVg_/view?usp=sharing)
 
-
 ## Build 91
 
 - **GnollHack library version:** 4.1.3 Build 17
 - **iOS version number:** 1.35
 - **Release date:** 5th November, 2023
 - **Download:** [GnollHackX.ipa](https://drive.google.com/file/d/16inXWs9VGxPiz9R63ZxO4Sr6GfQHO-1D/view?usp=sharing)
-
 
 ## Build 80
 
@@ -37,14 +35,12 @@ If this page is missing the version you want to download, please [[contact us|Co
 - **Release date:** 2nd September, 2023
 - **Download:** [GnollHackX.ipa](https://drive.google.com/file/d/16J2-B0b6n3ADKOetvL7R8LrXrdmgH6AI/view?usp=sharing)
 
-
 ## Build 73
 
 - **GnollHack library version:** 4.1.3
 - **iOS version number:** 1.17
 - **Release date:** 2nd August, 2023
 - **Download:** [GnollHackX.ipa](https://drive.google.com/file/d/15fB8vPnZFhdUqSe5rS88WDgIvDIYMwaj/view?usp=sharing)
-
 
 ## Build 69
 
@@ -53,14 +49,12 @@ If this page is missing the version you want to download, please [[contact us|Co
 - **Release date:** 28th July, 2023
 - **Download:** [GnollHackX.ipa](https://drive.google.com/file/d/15Nb5QiUuq0lNALmSRMNQtu37O6TGMbGE/view?usp=sharing)
 
-
 ## Build 66
 
 - **GnollHack library version:** 4.1.2 Build 5
 - **iOS version number:** 1.11
 - **Release date:** 19th July, 2023
 - **Download:** [GnollHackX.ipa](https://drive.google.com/file/d/158LYNbS-jOfXKH3-mBZFUQaUskNO5BVl/view?usp=sharing)
-
 
 ## Build 65
 
@@ -69,14 +63,12 @@ If this page is missing the version you want to download, please [[contact us|Co
 - **Release date:** 8th July, 2023
 - **Download:** [GnollHackClient.ipa](https://drive.google.com/file/d/14cKJnEZASyfR0miokX1nwXF-4EHeKD9s/view?usp=sharing)
 
-
 ## Build 63
 
 - **GnollHack library version:** 4.1.2 Build 2
 - **iOS version number:** 1.8
 - **Release date:** 2nd July, 2023
 - **Download:** [GnollHackClient.ipa](https://drive.google.com/file/d/13SOwt1sQ9nYX9ZAr4UvGNwwDkGvRwSRa/view?usp=sharing)
-
 
 ## Build 60
 
@@ -85,7 +77,6 @@ If this page is missing the version you want to download, please [[contact us|Co
 - **Release date:** 24th May, 2023
 - **Download:** [GnollHackClient.ipa](https://drive.google.com/file/d/120awthECX09xO5HF6y9xnVSpnYgORnrg/view?usp=sharing)
 
-
 ## Build 57
 
 - **GnollHack Library Version:** 4.1.0 Build 43
@@ -93,20 +84,17 @@ If this page is missing the version you want to download, please [[contact us|Co
 - **Release date:** 30th April, 2023
 - **Download:** [GnollHackClient.ipa](https://drive.google.com/file/d/11enQ98cKxX-OG-aDl1CrMdrfSBZ4Av7y/view?usp=sharing)
 
-
 ## Build 56
 
 - **Name:** 4.1.0 Build 42
 - **Release date:** 14th April, 2023
 - **Download:** [GnollHackClient.ipa](https://drive.google.com/file/d/11B4l5MohkHpvsD4eubHG7K21Ak6lBFYS/view?usp=sharing)
 
-
 ## Build 53
 
 - **Name:** 4.1.0
 - **Release date:** 18th March, 2023
 - **Download:** [GnollHackClient.ipa](https://drive.google.com/file/d/103b9pO-4jlJCIeEVHpRaKktJhTSuGgS9/view?usp=sharing)
-
 
 ## Build 47
 

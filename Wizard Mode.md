@@ -20,7 +20,6 @@ Wizard Mode is a special debug mode, which meant to be used for testing.
 1. Activate **Developer Mode** in the settings.
 2. Activate **Wizard Mode** in the main screen.
 
-
 ### Desktop
 
 Start the game with `-D -u wizard` command line parameters. On Windows, you need to create a shortcut for this and add these command line parameters to the end of the "Target" property.

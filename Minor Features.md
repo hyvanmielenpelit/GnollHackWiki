@@ -72,7 +72,6 @@
 
 * Ring of Sustain Ability will protect from amnesia caused by mind flayers
 
-
 ## Monster Changes
 
 * Dragon hatchlings have a chance to drop dragon scales.
@@ -114,7 +113,6 @@ The fighter gains full strength bonus, when you are at least Basic in Martial Ar
 * **Expert** (3 skill slots to upgrade): +3 to hit, +3 to damage, 50% chance of a second strike
 * **Master** (4 skill slots to upgrade): +4 to hit, +4 to damage, 75% chance of a second strike
 * **Grand Master** (4 skill slots to upgrade): +5 to hit, +5 to damage, 100% chance of a second strike
-
 
 ## Options
 

@@ -20,7 +20,6 @@ When you log into the server again, you may see the game look like this:
 
 ![Game watching works with terminal-type string set to xterm-color](https://images.gnollhack.com/wiki/WatchingGames/putty-xterm-color-game-works.png)
 
-
 ## 3. All the characters on screen look wrong
 
 ![All the characters on screen look wrong](https://images.gnollhack.com/wiki/WatchingGames/watch-problem-2.png)
@@ -28,7 +27,6 @@ When you log into the server again, you may see the game look like this:
 The problem is that the player is using UTF-8 as the remote character set and you are using CP437. Just change your remote character set in Window → Translation to UTF-8:
 
 ![Solution to all the characters on screen look wrong](https://images.gnollhack.com/wiki/WatchingGames/watch-problem-2-solution.png)
-
 
 ## 4. Lines are not drawing correctly (= repeat characters do not work)
 

@@ -40,7 +40,6 @@
 * Minor magical traps: 30
 * Major magical traps: 40
 
-
 ### Skill Levels
 
 #### Unskilled
@@ -85,7 +84,6 @@
 * Complex trap untrap chance 100%
 * Minor magical trap untrap chance 100%
 * Major magical trap untrap chance 66%
-
 
 #### Grand Master
 

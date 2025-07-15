@@ -25,13 +25,11 @@ Finally, select 's' to set the defaults to ones that work with the `ssh` command
 
 ![Defaults Menu](https://images.gnollhack.com/wiki/Curses/interface2/curses-defaults-menu-red-ssh.png)
 
-
 ## 3. Everything Works
 
 Now, you can play the game and the arrow keys work for movement and everything looks pretty!
 
 ![It works on Linux](https://images.gnollhack.com/wiki/Curses/curses-linux-works.png)
-
 
 ## 4. Solving a Rendering Problem
 

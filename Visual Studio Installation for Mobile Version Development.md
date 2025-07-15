@@ -26,7 +26,6 @@ Click on **Installation details → .NET Multi-platform App UI development** on 
 
 ![image](https://user-images.githubusercontent.com/16661034/184302350-8a1e552e-5aad-4a55-91bf-58d4847c46db.png)
 
-
 ## Individual components
 
 Install the following individual components:

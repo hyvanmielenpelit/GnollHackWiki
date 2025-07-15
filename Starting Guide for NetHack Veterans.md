@@ -46,7 +46,6 @@ Normally, you save the game in GnollHack by pressing Alt–s. This is different 
 
 `BIND=S:save`
 
-
 ## Changed Command Keys
 
 - Save: Alt-s
@@ -56,7 +55,6 @@ Normally, you save the game in GnollHack by pressing Alt–s. This is different 
 - Chat: C
 
 You can use 'N' or Alt-n for naming objects and monsters, if you used 'C' for that before.
-
 
 ## New Command Keys
 
@@ -76,7 +74,6 @@ You can use 'N' or Alt-n for naming objects and monsters, if you used 'C' for th
 - You can use an item in your inventory by opening the inventory 'i' and then clicking its letter. It opens an action menu.
 - Exchange weapons 'x' is greatly improved. **It does not cost a turn to use** and can be used to switch to your alternate weapon. Combined with Alt-h (switch handedness) you can control if you switch both weapon and shield at the same time, or only the right-hand weapon.
 
-
 ## Improved Ranged Combat
 
 - You should remember to use ranged weapons more often than in NetHack. Bows and crossbows work very fine in GnollHack.
@@ -84,7 +81,6 @@ You can use 'N' or Alt-n for naming objects and monsters, if you used 'C' for th
 - You are supposed to use ranged weapons first, and then when the monsters gets into a melee range, change your weapons into melee weapons with 'x'.
 - Polearms are better, being able to hit 2 squares away in all directions at all skill levels.
 - Spears can hit 2 squares away with apply, but you need to be at least Basic in Spear to do so.
-
 
 ## Improved Spell Casting
 
@@ -135,14 +131,12 @@ You can use 'N' or Alt-n for naming objects and monsters, if you used 'C' for th
 - There's a new cursed gray stone named jinxstone. So you need to have a pet to identify all the cursed stones. Kicking is not enough.
 - Wands deal different amounts of damage. Particularly, a wand of cold deals 12d6.
 
-
 ## Shops
 
 - Pets cannot steal anymore from shops, but you gain more money, so just buy stuff!
 - You will find lots of expensive spell books on your journey. If you do not need them, when you find them, consider selling them and buying something useful for you.
 - Shopkeepers can identify items for you. General store keepers can identify all item types and shopkeepers in restricted-item-type shops can identify items types which they sell.
 - Smiths, geologists, and artificers can identify some item types as well. Additionally, geologist can buy gems and artificers can buy spellbooks.
-
 
 ## Monsters
 

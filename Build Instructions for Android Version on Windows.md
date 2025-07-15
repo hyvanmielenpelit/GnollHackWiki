@@ -51,7 +51,6 @@ On the Windows computer, do the following:
     - When you are about to start debugging, please ensure that the solution configuration is at `Android + Windows`. Visual Studio sometimes reverts it to `Any CPU` that is not what we want.
     - If the build succeeds but the deployment fails promptly in an error, please restart Visual Studio.
 
-
 ### Notes
 
 #### Note 1
@@ -75,13 +74,11 @@ Debug.MIExec handle SIGXCPU nostop noprint
 
 FMOD sounds do not work correctly while debugging or when running a debug build. To make them work normally, you need to enable **Streaming Banks to Memory** in GnollHack's settings. This will consume some 500 MB of RAM. FMOD sounds work fine in release builds, though.
 
-
 ## Troubleshooting Android Build Errors and Runtime Errors
 
 If you run into a strange compile time error or a runtime error, where the game does not find a Java wrapper class, you can see the following instructions:
 
 - [[Troubleshooting Android Build Errors and Runtime Errors]]
-
 
 ## Creating APK/AAB Archive Package
 
@@ -92,7 +89,6 @@ If you run into a strange compile time error or a runtime error, where the game 
 4. Select **Build → Archive** or right-click on the project and select **Archive**.
 
 This will create an unsigned APK/AAB package. 
-
 
 ## Preparations for Signing APK/AAB
 
@@ -110,7 +106,6 @@ This will create an unsigned APK/AAB package.
 ### 2. Download Java Development Kit for Windows
 
 - [Download JDK for Windows](https://www.oracle.com/java/technologies/javase-downloads.html)
-
 
 ## Signing APK/AAB
 
@@ -137,7 +132,6 @@ For example, our command is:
 When asked, please provide the password used to create the signing identity.
 
 The package is now signed and ready to be uploaded to Google Play Store.
-
 
 ## Uploading to Google Play Store
 

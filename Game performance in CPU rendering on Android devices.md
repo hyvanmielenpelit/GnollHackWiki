@@ -37,7 +37,6 @@ We have tested CPU rendering on the following Android devices:
 - **Display:** 1080 x 2400 pixels
 - **FPS:** 25 in the zoomed out mode, 45 in the zoomed in mode *(average but playable)*
 
-
 ## Tablets
 
 ### Samsung Galaxy Tab S8
