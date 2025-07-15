@@ -59,7 +59,7 @@
 * [[Orc]] / [[Hill Orc]] / [[Black Orc]] / [[Great Orc]] ⇒ [[Orc-Captain]]
 * [[Ogre]] ⇒ [[Ogre Lord]] ⇒ [[Ogre Overlord]] ⇒ [[Ogre King]]
 * [[Ogre Mage]] ⇒ [[Ogre Archmage]]
-* [[Elf]] / [[Woodland Elf]] / [[Green Elf]] / [[Grey Elf]] ⇒ [[Elf Lord]] ⇒ [[Elvenking]]
+* [[Elf]] / [[Woodland-Elf]] / [[Green-Elf]] / [[Grey-Elf]] ⇒ [[Elf-Lord]] ⇒ [[Elvenking]]
 * [[Quantum Mechanic]] ⇒ [[Elder Quantum Mechanic]]
 
 
