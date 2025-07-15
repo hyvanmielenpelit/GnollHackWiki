@@ -1,6 +1,6 @@
-# GnollHack
+# GnollHack Wiki
 
-An open-source [NetHack](https://www.nethack.org/) variant and remaster developed by [Sound Mind Games](https://soundmindgames.org), a non-profit association based in Finland.
+GnollHack is an open-source [NetHack](https://www.nethack.org/) variant and remaster developed by [Sound Mind Games](https://soundmindgames.org), a non-profit association based in Finland.
 
 ![gnoll-amulet-4k-v4-h512](https://github.com/hyvanmielenpelit/GnollHack/assets/16661034/19077f94-2911-4b82-9be7-b375dcb033ce)
 
