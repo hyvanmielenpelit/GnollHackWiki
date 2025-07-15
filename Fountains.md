@@ -89,8 +89,8 @@ Usually, dipping a potion into a fountain of power improves the power of the pot
 2. A [[potion of extra-healing]] becomes a [[potion of greater healing]].
 3. A [[potion of greater healing]] becomes a [[potion of full healing]].
 4. A [[potion of full healing]] — No effect.
-5. A [[potion of gain energy]] becomes a [[potion of extra energy]].
-6. A [[potion of extra energy]] becomes a [[potion of greater energy]].
+5. A [[potion of gain energy]] becomes a [[potion of extra-energy]].
+6. A [[potion of extra-energy]] becomes a [[potion of greater energy]].
 7. A [[potion of greater energy]] becomes a [[potion of full energy]].
 8. A [[potion of full energy]] — No effect.
 9. A [[potion of lesser rejuvenation]] becomes a [[potion of rejuvenation]].
