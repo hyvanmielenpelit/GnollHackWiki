@@ -1,24 +1,24 @@
-# Status Bar Types
+## Status Bar Types
 
-## Text (ASCII user interface)
+### Text (ASCII user interface)
 
 ![image](https://user-images.githubusercontent.com/16661034/236316192-79d5e1b0-f267-4b5b-b055-73dcfe3597bd.png)
 
-## Graphical (Mobile user interface)
+### Graphical (Mobile user interface)
 
 ![image](https://user-images.githubusercontent.com/16661034/236316491-9e0b1fbc-4152-424a-9d3f-6dc5da9583e9.png)
 
-# Description of Acronyms and Symbols
+## Description of Acronyms and Symbols
 
-## Difficulty Level
+### Difficulty Level
 
-### Label
+#### Label
 
 - *(No label)*
 - First or second on the third row of the ASCII user interface
 - First or second on the first row of the mobile user interface
 
-### Values
+#### Values
 
 - **s** / ![image](https://user-images.githubusercontent.com/16661034/236141120-feac676e-d07a-4c8c-9351-5f228f959d3e.png) — [[Standard]]
 - **e** / ![image](https://user-images.githubusercontent.com/16661034/236141296-a5c2e356-9d9b-4ee5-a107-735e3f4704f5.png) — [[Experienced]]
@@ -28,15 +28,15 @@
 - **m** / ![image](https://user-images.githubusercontent.com/16661034/236141467-9fa1f741-08b7-4f5a-b398-f9abbba8fb6a.png) — [[Master]]
 - **g** / ![image](https://user-images.githubusercontent.com/16661034/236141840-08620951-bada-4340-8091-06ebd40d4d3e.png) — [[Grand Master]]
 
-## Gameplay Mode
+### Gameplay Mode
 
-### Label
+#### Label
 
 - *(No label)*
 - First on the third row of the ASCII user interface
 - First on the first row of the mobile user interface
 
-### Values
+#### Values
 
 - *(No letter)* / *(No image)* — [[Classic Mode]]
 - **C** / ![image](https://user-images.githubusercontent.com/16661034/236142344-00d24bda-62e2-4004-b5b2-0aee14768537.png) — [[Casual Mode]]
@@ -44,7 +44,7 @@
 - **M** / ![image](https://user-images.githubusercontent.com/16661034/236143267-edc0673e-f306-4417-9b87-c908403e22be.png) — [[Modern Mode]]
 - **W** / ![image](https://user-images.githubusercontent.com/16661034/236143543-650531b2-a12b-4a44-b9ad-cb702d94ef38.png) — [[Wizard Mode]]
 
-## [[Attribute Scores]]
+### [[Attribute Scores]]
 
 Attribute scores are shown in the status bar in the ASCII user interface.
 
@@ -55,16 +55,16 @@ Attribute scores are shown in the status bar in the ASCII user interface.
 - **Wi** — [[Wisdom]]
 - **Ch** — [[Charisma]]
 
-## [[Alignment|Alignments]]
+### [[Alignment|Alignments]]
 
 - Alignment is shown after the attribute scores in the ASCII user interface.
 - Alignment is not shown in the mobile user interface.
 
-### Label
+#### Label
 
 *(No label)*
 
-### Values
+#### Values
 
 The character's alignment.
 
@@ -72,109 +72,109 @@ The character's alignment.
 - [[Neutral]]
 - [[Chaotic]]
 
-## Dungeon Level
+### Dungeon Level
 
-### Label
+#### Label
 
 - **Dlvl** / ![image](https://user-images.githubusercontent.com/16661034/236150250-1811347c-348e-4ae3-9311-e1fb8bf74dcb.png)
 
-### Value
+#### Value
 
 - Current dungeon level depth
 
-### Notes
+#### Notes
 
 - On some special levels, the label can be changed to describe the current dungeon branch, such as "Home" in the class quest. In such a case, the value depicts the current depth of the current branch.
 
-## Hit Points
+### Hit Points
 
-### Label
+#### Label
 
 - **HP** in the ASCII
 - **Red orb** in the mobile user interface
 
-### Value
+#### Value
 
 - Current Hit Points (Maximum Hit Points)
 
-### Notes
+#### Notes
 
 - You can turn on the showing of maximum hit point in the mobile user interface by clicking on the red orb.
 
-## Mana Points
+### Mana Points
 
-### Label
+#### Label
 
 - **MP** in the ASCII
 - **Blue orb** in the mobile user interface
 
-### Value
+#### Value
 
 - Current Mana Points (Maximum Mana Points)
 
-### Notes
+#### Notes
 
 - You can turn on the showing of maximum mana point in the mobile user interface by clicking on the blue orb.
 
-## Armor Class
+### Armor Class
 
-### Label
+#### Label
 
 - **AC** / ![image](https://user-images.githubusercontent.com/16661034/236151988-c658715b-f764-4485-8138-8b36f10c7a85.png)
 
-### Value
+#### Value
 
 - Current Armor Class
 
-### Notes
+#### Notes
 
 - Lower is better
 
-## Magic Cancellation
+### Magic Cancellation
 
-### Label
+#### Label
 
 - **MC** / ![image](https://user-images.githubusercontent.com/16661034/236152330-4ba852c6-bbfe-4b4f-8a4f-4321e447414c.png)
 
-### Value
+#### Value
 
 - Current Magic Cancellation Value / Percentage Chance of Success
 
-### Notes
+#### Notes
 
 - Higher is better
 - See [Magic Cancellation](https://github.com/hyvanmielenpelit/GnollHack/wiki/Resistances-and-Saving-Throws#4-magic-cancellation)
 
-## Movement Speed
+### Movement Speed
 
-### Label
+#### Label
 
 - **MS** / ![image](https://user-images.githubusercontent.com/16661034/236152936-43322025-8d53-468e-afd9-780c6a11cd44.png)
 
-### Value
+#### Value
 
 - Current Movement Speed
 
-### Notes
+#### Notes
 
 - 12 is normal speed
 - Higher is better
 
-## Weapon Style
+### Weapon Style
 
-### Label
+#### Label
 
 - **W** / ![image](https://user-images.githubusercontent.com/16661034/236153325-aff633b2-46af-4751-bd60-f1fc900f1dd4.png)
 
-### Hands
+#### Hands
 
 There can be one or two values/icons. If there is only one value/icon, it means that you are holding just one weapon. If there are two values/icons separated by a slash, it means that you are holding two weapons, one in the right hand and one in the left hand.
 
-### Icons
+#### Icons
 
 In the mobile UI, the game shows the inventory icons of the right-hand weapon and the left-hand weapon/shield in the weapon style.
 
-### Values
+#### Values
 
 Windows and Linux versions of the game use letters and numbers to describe what type of weapons/shields are equipped.
 
@@ -200,73 +200,73 @@ Windows and Linux versions of the game use letters and numbers to describe what 
 - **!** — Wielding a potion
 - **\*** — Wielding something else
 
-## Experience Level
+### Experience Level
 
-### Label
+#### Label
 
 - **XL** / ![image](https://user-images.githubusercontent.com/16661034/236156546-2549a4cd-5a46-4586-ae80-684c723c673b.png)
 
-### Value
+#### Value
 
 - Current Experience Level / Current Experience Points
 - Experience points are not shown in the mobile status bar.
 
-### Notes
+#### Notes
 
 - You can disable the showing of current experience points in the options file.
 
-## Gold Pieces
+### Gold Pieces
 
-### Label
+#### Label
 
 - **$** / ![image](https://user-images.githubusercontent.com/16661034/236156962-8d36a851-11d9-44de-aa29-8f9c13f3c00f.png)
 
-### Value
+#### Value
 
 - Gold pieces in the open inventory
 
-## Current Turn
+### Current Turn
 
-### Label
+#### Label
 
 - **T** / ![image](https://user-images.githubusercontent.com/16661034/236157260-d186b812-c719-4a43-8958-88a1ab2eeb8d.png)
 
-### Value
+#### Value
 
 - Current turn
 
-## Current Playtime
+### Current Playtime
 
-### Label
+#### Label
 
 - *(No label)*
 - Shown after the current turn in the ASCII user interface
 - Not shown in the mobile user interface
 
-### Value
+#### Value
 
 - Current playtime is in the format `0d:0h:0m:0s`
 
-## Score
+### Score
 
-### Label
+#### Label
 
 - **S** in the ASCII user interface
 - Not shown in the mobile user interface
 
-### Value
+#### Value
 
 - Current score
 
-### Notes
+#### Notes
 
 - See [[scoring]].
 
-## Condition Symbols
+### Condition Symbols
 
 Conditions are shown as symbols in the mobile user interface.
 
-### Encumbrance Levels
+#### Encumbrance Levels
 
 - ![image](https://user-images.githubusercontent.com/16661034/236161943-9cafc86c-9754-4454-b417-ecdf2e8c3da3.png) — Burdened
 - ![image](https://user-images.githubusercontent.com/16661034/236163024-eb4d4d0d-5983-4a7d-80a3-c596b7697d63.png) — Stressed
@@ -274,19 +274,19 @@ Conditions are shown as symbols in the mobile user interface.
 - ![image](https://user-images.githubusercontent.com/16661034/236162448-c1d5b3f1-cc97-42da-a39b-c3f81a36a851.png) — Overloaded
 - ![image](https://user-images.githubusercontent.com/16661034/236162514-b255c34a-8185-487f-a3b0-16367426d048.png) — Overtaxed
 
-### Satiety Levels
+#### Satiety Levels
 
 - ![image](https://user-images.githubusercontent.com/16661034/236162615-162ab9da-2325-4bfa-a946-ee2b9deed944.png) — Satiated
 - ![image](https://user-images.githubusercontent.com/16661034/236162267-c1e97f6e-4b64-4ed4-963f-1b6b86fc667d.png) — Hungry
 - ![image](https://user-images.githubusercontent.com/16661034/236163378-0849c3f0-2809-4a54-bb4e-32a1faaf6c79.png) — Weak
 - ![image](https://user-images.githubusercontent.com/16661034/236162213-bfc96aad-993f-47c8-9621-7c499a753cf3.png) — Fainting
 
-### HP Levels
+#### HP Levels
 
 - ![image](https://user-images.githubusercontent.com/16661034/236162360-172606f6-bc1a-4058-8723-42b29e066972.png) — HP at low level
 - ![image](https://user-images.githubusercontent.com/16661034/236162040-7e07f2e7-7997-40d9-85ac-de020cde969f.png) — HP at critical level
 
-### Other
+#### Other
 
 - ![image](https://user-images.githubusercontent.com/16661034/236163170-420d563c-93d0-417f-a2b5-888d73633e74.png) — Dual wielding
 - ![image](https://user-images.githubusercontent.com/16661034/236162733-d82532bf-ce74-42af-b2a4-d8854b2fbdb1.png) — Skill slot available

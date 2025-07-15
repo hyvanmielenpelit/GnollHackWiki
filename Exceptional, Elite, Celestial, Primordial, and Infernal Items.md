@@ -1,6 +1,6 @@
 ![male-gnoll-hero-4k-512](https://github.com/hyvanmielenpelit/GnollHack/assets/16661034/56a46cfe-a2c6-4382-a8af-ad74ef78771f)
 
-# Weapons
+## Weapons
 
 In GnollHack, a weapon can have a quality modifier. The quality modifier increases the weapon's base damage.
 - **Exceptional** weapons deal 2x base damage
@@ -9,7 +9,7 @@ In GnollHack, a weapon can have a quality modifier. The quality modifier increas
 
 For example, a normal long sword deals 1d8 damage to small creatures and 1d12 to large creatures, while an exceptional long sword deals 2d8 damage to small creatures and 2d12 to large creatures.
 
-## Items with Weapon Quality Modifiers
+### Items with Weapon Quality Modifiers
 
 Most items that can be used as weapons in combat can have weapon quality modifiers. These are:
 - Melee weapons
@@ -25,7 +25,7 @@ Most items that can be used as weapons in combat can have weapon quality modifie
 
 ![gnoll-elite-armor-4k-512](https://github.com/hyvanmielenpelit/GnollHack/assets/16661034/62b01d3a-ba63-4a2d-8420-b598b33a968e)
 
-# Armor
+## Armor
 
 In GnollHack, a piece of armor can have a quality modifier. The quality modifier gives bonus to the armor's AC and MC. The following armor can have quality modifiers:
 
@@ -34,25 +34,25 @@ In GnollHack, a piece of armor can have a quality modifier. The quality modifier
 - [[Boots]] — All boots including magical boots
 - [[Gloves]] — All gloves including magical gloves
 
-## Body armor
+### Body armor
 
 - **Exceptional:** -4 AC, +1 MC
 - **Elite:** -8 AC, +2 MC
 - **Celestial/Primordial/Infernal:** -12 AC, +4 MC but can be used only by lawful/neutral/chaotic beings, respectively.
 
-## Shields
+### Shields
 
 - **Exceptional:** -3 AC, +1 MC
 - **Elite:** -6 AC, +2 MC
 - **Celestial/Primordial/Infernal:** -9 AC, +3 MC but can be used only by lawful/neutral/chaotic beings, respectively.
 
-## Boots and Gloves
+### Boots and Gloves
 
 - **Exceptional:** -2 AC
 - **Elite:** -4 AC, +1 MC
 - **Celestial/Primordial/Infernal:** -6 AC, +2 MC but can be used only by lawful/neutral/chaotic beings, respectively.
 
-# Wands
+## Wands
 
 In GnollHack, certain wands can have a quality modifier. The quality modifier increases the wand's base damage.
 - **Exceptional** wands deal 2x base damage
@@ -60,7 +60,7 @@ In GnollHack, certain wands can have a quality modifier. The quality modifier in
 
 For example, a normal wand of fire deals 4d6 damage, while an exceptional wand of fire deals 8d6 damage.
 
-## Wands with Quality Modifiers
+### Wands with Quality Modifiers
 
 The following wands can have quality modifiers:
 - [[Wand of nothing]] (_does not do anything_)
