@@ -28,7 +28,7 @@ This the [same fountain as in NetHack](https://nethackwiki.com/wiki/Fountain). H
 ### Potion Alchemy
 When dipped into the fountain:
 1. A [[potion of gain energy]] becomes a [[potion of extra-healing]].
-2. A [[potion of extra energy]] becomes a [[potion of greater healing]].
+2. A [[potion of extra-energy]] becomes a [[potion of greater healing]].
 3. A [[potion of greater energy]] becomes a [[potion of full healing]].
 4. A [[potion of full energy]] becomes a [[potion of full healing]].
 5. Any potion of healing — No change.
