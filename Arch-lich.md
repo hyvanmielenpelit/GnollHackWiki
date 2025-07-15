@@ -47,4 +47,4 @@ St:18 Dx:13 Co:17 In:25 Wi:20 Ch:18
 
 ## Picture
 
-![Arch-lich](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/arch-lich/arch-lich.png)
+![Arch-lich](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/arch-lich/arch-lich.png?raw=true)
