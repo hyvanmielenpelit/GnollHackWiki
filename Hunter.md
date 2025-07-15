@@ -40,4 +40,4 @@ St:14 Dx:17 Co:13 In:10 Wi:10 Ch:9
 
 ## Picture
 
-![Hunter](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/hunter/hunter.png?raw=true) ![Hunter](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/hunter/hunter_female.png)
+![Hunter](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/hunter/hunter.png?raw=true) ![Hunter](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/hunter/hunter_female.png?raw=true)

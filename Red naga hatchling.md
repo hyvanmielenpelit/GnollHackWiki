@@ -40,4 +40,4 @@ St:18/31 Dx:15 Co:14 In:11 Wi:12 Ch:9
 
 ## Picture
 
-![Red naga hatchling](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/red_naga_hatchling/red_naga_hatchling.png)
+![Red naga hatchling](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/red_naga_hatchling/red_naga_hatchling.png?raw=true)

@@ -36,4 +36,4 @@ St:18 Dx:15 Co:15 In:9 Wi:8 Ch:8
 
 ## Picture
 
-![Plains centaur](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/plains_centaur/plains_centaur.png) ![Plains centauress](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/plains_centaur/plains_centaur_female.png)
+![Plains centaur](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/plains_centaur/plains_centaur.png?raw=true) ![Plains centauress](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/plains_centaur/plains_centaur_female.png?raw=true)

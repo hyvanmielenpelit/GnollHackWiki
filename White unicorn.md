@@ -35,4 +35,4 @@ St:18/** Dx:14 Co:19 In:10 Wi:15 Ch:18
 
 ## Picture
 
-![White unicorn](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/white_unicorn/white_unicorn.png)
+![White unicorn](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/white_unicorn/white_unicorn.png?raw=true)

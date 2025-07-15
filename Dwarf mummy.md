@@ -46,4 +46,4 @@ St:18 Dx:8 Co:14 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Dwarf mummy](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/dwarf_mummy/dwarf_mummy.png)
+![Dwarf mummy](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/dwarf_mummy/dwarf_mummy.png?raw=true)

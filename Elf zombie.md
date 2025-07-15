@@ -44,4 +44,4 @@ St:17 Dx:3 Co:14 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Elf zombie](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/elf_zombie/elf_zombie.png) ![Elf zombie](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/elf_zombie/elf_zombie_female.png)
+![Elf zombie](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/elf_zombie/elf_zombie.png?raw=true) ![Elf zombie](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/elf_zombie/elf_zombie_female.png?raw=true)

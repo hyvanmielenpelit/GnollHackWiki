@@ -40,4 +40,4 @@ St:1 Dx:7 Co:18 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Violet fungus](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/violet_fungus/violet_fungus.png)
+![Violet fungus](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/violet_fungus/violet_fungus.png?raw=true)

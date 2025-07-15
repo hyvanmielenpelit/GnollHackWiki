@@ -40,4 +40,4 @@ St:12 Dx:13 Co:14 In:12 Wi:15 Ch:10
 
 ## Picture
 
-![Gnoll warden](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/gnoll_warden/gnoll_warden.png) ![Gnoll warden](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/gnoll_warden/gnoll_warden_female.png)
+![Gnoll warden](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/gnoll_warden/gnoll_warden.png?raw=true) ![Gnoll warden](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/gnoll_warden/gnoll_warden_female.png?raw=true)

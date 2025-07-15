@@ -44,4 +44,4 @@ St:18 Dx:17 Co:17 In:18 Wi:15 Ch:19
 
 ## Picture
 
-![Elvenking](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/elvenking/elvenking.png?raw=true) ![Elvenqueen](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/elvenking/elvenking_female.png)
+![Elvenking](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/elvenking/elvenking.png?raw=true) ![Elvenqueen](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/elvenking/elvenking_female.png?raw=true)

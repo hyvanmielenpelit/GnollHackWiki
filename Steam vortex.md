@@ -44,4 +44,4 @@ St:18/51 Dx:9 Co:9 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Steam vortex](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/steam_vortex/steam_vortex.png)
+![Steam vortex](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/steam_vortex/steam_vortex.png?raw=true)

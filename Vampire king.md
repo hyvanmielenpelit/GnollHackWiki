@@ -50,4 +50,4 @@ St:20 Dx:15 Co:17 In:17 Wi:15 Ch:18
 
 ## Picture
 
-![Vampire king](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/vampire_king/vampire_king.png) ![Vampire queen](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/vampire_king/vampire_king_female.png)
+![Vampire king](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/vampire_king/vampire_king.png?raw=true) ![Vampire queen](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/vampire_king/vampire_king_female.png?raw=true)

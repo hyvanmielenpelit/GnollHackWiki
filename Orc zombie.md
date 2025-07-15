@@ -45,4 +45,4 @@ St:18 Dx:3 Co:13 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Orc zombie](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/orc_zombie/orc_zombie.png)
+![Orc zombie](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/orc_zombie/orc_zombie.png?raw=true)

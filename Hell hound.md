@@ -36,4 +36,4 @@ St:18 Dx:12 Co:18 In:3 Wi:3 Ch:3
 
 ## Picture
 
-![Hell hound](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/hell_hound/hell_hound.png)
+![Hell hound](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/hell_hound/hell_hound.png?raw=true)

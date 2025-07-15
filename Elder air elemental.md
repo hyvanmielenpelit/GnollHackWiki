@@ -44,4 +44,4 @@ St:19 Dx:14 Co:20 In:6 Wi:12 Ch:10
 
 ## Picture
 
-![Elder air elemental](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/elder_air_elemental/elder_air_elemental.png)
+![Elder air elemental](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/elder_air_elemental/elder_air_elemental.png?raw=true)

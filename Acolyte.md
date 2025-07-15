@@ -40,4 +40,4 @@ St:9 Dx:9 Co:9 In:15 Wi:15 Ch:9
 
 ## Picture
 
-![Acolyte](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/acolyte/acolyte.png?raw=true) ![Acolyte](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/acolyte/acolyte_female.png)
+![Acolyte](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/acolyte/acolyte.png?raw=true) ![Acolyte](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/acolyte/acolyte_female.png?raw=true)

@@ -44,4 +44,4 @@ St:12 Dx:15 Co:15 In:17 Wi:14 Ch:18
 
 ## Picture
 
-![Elf-lord](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/elf-lord/elf-lord.png?raw=true) ![Elf-lady](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/elf-lord/elf-lord_female.png)
+![Elf-lord](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/elf-lord/elf-lord.png?raw=true) ![Elf-lady](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/elf-lord/elf-lord_female.png?raw=true)

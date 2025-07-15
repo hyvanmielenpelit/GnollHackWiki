@@ -42,4 +42,4 @@ St:14 Dx:7 Co:12 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Gnome mummy](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/gnome_mummy/gnome_mummy.png)
+![Gnome mummy](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/gnome_mummy/gnome_mummy.png?raw=true)

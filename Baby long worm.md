@@ -35,4 +35,4 @@ St:15 Dx:7 Co:15 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Baby long worm](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/baby_long_worm/baby_long_worm.png)
+![Baby long worm](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/baby_long_worm/baby_long_worm.png?raw=true)

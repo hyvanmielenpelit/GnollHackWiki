@@ -47,4 +47,4 @@ St:22 Dx:10 Co:16 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Giant mummy](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/giant_mummy/giant_mummy.png)
+![Giant mummy](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/giant_mummy/giant_mummy.png?raw=true)

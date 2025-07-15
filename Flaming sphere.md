@@ -39,4 +39,4 @@ St:1 Dx:7 Co:14 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Flaming sphere](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/flaming_sphere/flaming_sphere.png)
+![Flaming sphere](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/flaming_sphere/flaming_sphere.png?raw=true)

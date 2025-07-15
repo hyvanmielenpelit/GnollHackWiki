@@ -44,4 +44,4 @@ St:19 Dx:13 Co:18 In:11 Wi:8 Ch:12
 
 ## Picture
 
-![Barbed devil](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/barbed_devil/barbed_devil.png)
+![Barbed devil](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/barbed_devil/barbed_devil.png?raw=true)

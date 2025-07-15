@@ -40,4 +40,4 @@ St:16 Dx:14 Co:15 In:13 Wi:18 Ch:16
 
 ## Picture
 
-![Gnoll supreme warden](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/gnoll_supreme_warden/gnoll_supreme_warden.png) ![Gnoll supreme warden](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/gnoll_supreme_warden/gnoll_supreme_warden_female.png)
+![Gnoll supreme warden](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/gnoll_supreme_warden/gnoll_supreme_warden.png?raw=true) ![Gnoll supreme warden](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/gnoll_supreme_warden/gnoll_supreme_warden_female.png?raw=true)

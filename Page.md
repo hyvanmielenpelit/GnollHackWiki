@@ -40,4 +40,4 @@ St:9 Dx:9 Co:9 In:15 Wi:15 Ch:9
 
 ## Picture
 
-![Page](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/page/page.png?raw=true) ![Page](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/page/page_female.png)
+![Page](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/page/page.png?raw=true) ![Page](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/page/page_female.png?raw=true)

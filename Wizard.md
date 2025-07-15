@@ -39,4 +39,4 @@ St:8 Dx:12 Co:9 In:18 Wi:11 Ch:11
 
 ## Picture
 
-![Wizard](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/wizard/wizard.png?raw=true) ![Wizard](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/wizard/wizard_female.png)
+![Wizard](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/wizard/wizard.png?raw=true) ![Wizard](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/wizard/wizard_female.png?raw=true)

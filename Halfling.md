@@ -36,4 +36,4 @@ St:7 Dx:9 Co:12 In:10 Wi:12 Ch:12
 
 ## Picture
 
-![Halfling](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/halfling/halfling.png?raw=true) ![Halfling](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/halfling/halfling_female.png)
+![Halfling](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/halfling/halfling.png?raw=true) ![Halfling](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/halfling/halfling_female.png?raw=true)

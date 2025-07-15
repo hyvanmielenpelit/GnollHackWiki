@@ -44,4 +44,4 @@ St:18 Dx:14 Co:18 In:6 Wi:2 Ch:1
 
 ## Picture
 
-![Air elemental](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/air_elemental/air_elemental.png)
+![Air elemental](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/air_elemental/air_elemental.png?raw=true)

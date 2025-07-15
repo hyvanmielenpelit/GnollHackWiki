@@ -37,4 +37,4 @@ St:7 Dx:9 Co:9 In:18 Wi:12 Ch:7
 
 ## Picture
 
-![Quantum mechanic](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/quantum_mechanic/quantum_mechanic.png) ![Quantum mechanic](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/quantum_mechanic/quantum_mechanic_female.png)
+![Quantum mechanic](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/quantum_mechanic/quantum_mechanic.png?raw=true) ![Quantum mechanic](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/quantum_mechanic/quantum_mechanic_female.png?raw=true)

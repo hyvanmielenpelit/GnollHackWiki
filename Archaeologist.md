@@ -40,4 +40,4 @@ St:9 Dx:9 Co:9 In:15 Wi:12 Ch:10
 
 ## Picture
 
-![Archaeologist](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/archaeologist/archaeologist.png?raw=true) ![Archaeologist](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/archaeologist/archaeologist_female.png)
+![Archaeologist](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/archaeologist/archaeologist.png?raw=true) ![Archaeologist](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/archaeologist/archaeologist_female.png?raw=true)

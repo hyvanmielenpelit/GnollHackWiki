@@ -42,4 +42,4 @@ St:18/** Dx:20 Co:18 In:16 Wi:15 Ch:16
 
 ## Picture
 
-![Master of Thieves](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/master_of_thieves/master_of_thieves.png)
+![Master of Thieves](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/master_of_thieves/master_of_thieves.png?raw=true)

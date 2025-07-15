@@ -42,4 +42,4 @@ St:12 Dx:7 Co:11 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Kobold mummy](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/kobold_mummy/kobold_mummy.png)
+![Kobold mummy](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/kobold_mummy/kobold_mummy.png?raw=true)

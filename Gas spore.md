@@ -38,4 +38,4 @@ St:1 Dx:7 Co:6 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Gas spore](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/gas_spore/gas_spore.png)
+![Gas spore](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/gas_spore/gas_spore.png?raw=true)

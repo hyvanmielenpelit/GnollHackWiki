@@ -44,4 +44,4 @@ St:22 Dx:15 Co:21 In:19 Wi:18 Ch:19
 
 ## Picture
 
-![Ancient white dragon](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/ancient_white_dragon/ancient_white_dragon.png)
+![Ancient white dragon](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/ancient_white_dragon/ancient_white_dragon.png?raw=true)

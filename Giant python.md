@@ -42,4 +42,4 @@ St:19 Dx:15 Co:19 In:2 Wi:2 Ch:1
 
 ## Picture
 
-![Giant python](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/giant_python/giant_python.png)
+![Giant python](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/giant_python/giant_python.png?raw=true)

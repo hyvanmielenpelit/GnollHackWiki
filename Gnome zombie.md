@@ -45,4 +45,4 @@ St:13 Dx:3 Co:12 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Gnome zombie](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/gnome_zombie/gnome_zombie.png) ![Gnome zombie](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/gnome_zombie/gnome_zombie_female.png)
+![Gnome zombie](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/gnome_zombie/gnome_zombie.png?raw=true) ![Gnome zombie](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/gnome_zombie/gnome_zombie_female.png?raw=true)

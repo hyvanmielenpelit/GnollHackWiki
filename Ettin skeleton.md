@@ -46,4 +46,4 @@ St:22 Dx:3 Co:15 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Ettin skeleton](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/ettin_skeleton/ettin_skeleton.png)
+![Ettin skeleton](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/ettin_skeleton/ettin_skeleton.png?raw=true)

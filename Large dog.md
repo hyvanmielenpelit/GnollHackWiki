@@ -34,4 +34,4 @@ St:16 Dx:14 Co:18 In:2 Wi:2 Ch:2
 
 ## Picture
 
-![Large dog](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/large_dog/large_dog.png)
+![Large dog](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/large_dog/large_dog.png?raw=true)

@@ -36,4 +36,4 @@ St:18/51 Dx:15 Co:16 In:9 Wi:8 Ch:8
 
 ## Picture
 
-![Forest centaur](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/forest_centaur/forest_centaur.png) ![Forest centauress](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/forest_centaur/forest_centaur_female.png)
+![Forest centaur](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/forest_centaur/forest_centaur.png?raw=true) ![Forest centauress](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/forest_centaur/forest_centaur_female.png?raw=true)

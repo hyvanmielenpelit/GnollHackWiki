@@ -35,4 +35,4 @@ St:18/** Dx:14 Co:19 In:10 Wi:15 Ch:18
 
 ## Picture
 
-![Black unicorn](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/black_unicorn/black_unicorn.png)
+![Black unicorn](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/black_unicorn/black_unicorn.png?raw=true)

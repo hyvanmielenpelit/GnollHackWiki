@@ -47,4 +47,4 @@ St:6 Dx:7 Co:15 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Gray ooze](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/gray_ooze/gray_ooze.png)
+![Gray ooze](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/gray_ooze/gray_ooze.png?raw=true)

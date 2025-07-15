@@ -36,4 +36,4 @@ St:9 Dx:9 Co:9 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Fire ant](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/fire_ant/fire_ant.png)
+![Fire ant](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/fire_ant/fire_ant.png?raw=true)

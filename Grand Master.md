@@ -47,4 +47,4 @@ St:18/** Dx:18 Co:18 In:18 Wi:18 Ch:18
 
 ## Picture
 
-![Grand Master](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/grand_master/grand_master.png)
+![Grand Master](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/grand_master/grand_master.png?raw=true)

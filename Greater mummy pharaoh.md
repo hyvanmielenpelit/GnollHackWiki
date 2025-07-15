@@ -45,4 +45,4 @@ St:21 Dx:16 Co:24 In:14 Wi:16 Ch:16
 
 ## Picture
 
-![Greater mummy pharaoh](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/greater_mummy_pharaoh/greater_mummy_pharaoh.png)
+![Greater mummy pharaoh](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/greater_mummy_pharaoh/greater_mummy_pharaoh.png?raw=true)

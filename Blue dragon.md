@@ -41,4 +41,4 @@ St:19 Dx:16 Co:16 In:19 Wi:16 Ch:18
 
 ## Picture
 
-![Blue dragon](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/blue_dragon/blue_dragon.png)
+![Blue dragon](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/blue_dragon/blue_dragon.png?raw=true)

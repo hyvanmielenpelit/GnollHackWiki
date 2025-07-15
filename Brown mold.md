@@ -40,4 +40,4 @@ St:1 Dx:7 Co:6 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Brown mold](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/brown_mold/brown_mold.png)
+![Brown mold](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/brown_mold/brown_mold.png?raw=true)

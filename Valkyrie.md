@@ -40,4 +40,4 @@ St:17 Dx:14 Co:15 In:10 Wi:11 Ch:11
 
 ## Picture
 
-![Valkyrie](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/valkyrie/valkyrie.png?raw=true) ![Valkyrie](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/valkyrie/valkyrie_female.png)
+![Valkyrie](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/valkyrie/valkyrie.png?raw=true) ![Valkyrie](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/valkyrie/valkyrie_female.png?raw=true)

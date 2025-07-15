@@ -41,4 +41,4 @@ St:15 Dx:7 Co:15 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Ochre jelly](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/ochre_jelly/ochre_jelly.png)
+![Ochre jelly](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/ochre_jelly/ochre_jelly.png?raw=true)

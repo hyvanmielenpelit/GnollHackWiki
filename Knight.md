@@ -40,4 +40,4 @@ St:18 Dx:14 Co:16 In:9 Wi:10 Ch:11
 
 ## Picture
 
-![Knight](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/knight/knight.png?raw=true) ![Knight](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/knight/knight_female.png)
+![Knight](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/knight/knight.png?raw=true) ![Knight](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/knight/knight_female.png?raw=true)

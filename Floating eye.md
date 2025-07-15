@@ -38,4 +38,4 @@ St:1 Dx:7 Co:16 In:15 Wi:1 Ch:1
 
 ## Picture
 
-![Floating eye](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/floating_eye/floating_eye.png)
+![Floating eye](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/floating_eye/floating_eye.png?raw=true)

@@ -38,4 +38,4 @@ St:25 Dx:7 Co:25 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Purple worm](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/purple_worm/purple_worm.png)
+![Purple worm](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/purple_worm/purple_worm.png?raw=true)

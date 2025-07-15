@@ -42,4 +42,4 @@ St:23 Dx:17 Co:20 In:19 Wi:16 Ch:18
 
 ## Picture
 
-![Silver dragon](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/silver_dragon/silver_dragon.png)
+![Silver dragon](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/silver_dragon/silver_dragon.png?raw=true)

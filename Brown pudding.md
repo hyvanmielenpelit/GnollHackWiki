@@ -47,4 +47,4 @@ St:9 Dx:7 Co:16 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Brown pudding](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/brown_pudding/brown_pudding.png)
+![Brown pudding](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/brown_pudding/brown_pudding.png?raw=true)

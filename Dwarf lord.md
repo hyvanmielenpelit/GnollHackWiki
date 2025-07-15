@@ -41,4 +41,4 @@ St:18 Dx:9 Co:18 In:9 Wi:9 Ch:11
 
 ## Picture
 
-![Dwarf lord](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/dwarf_lord/dwarf_lord.png) ![Dwarf lady](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/dwarf_lord/dwarf_lord_female.png)
+![Dwarf lord](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/dwarf_lord/dwarf_lord.png?raw=true) ![Dwarf lady](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/dwarf_lord/dwarf_lord_female.png?raw=true)

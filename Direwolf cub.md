@@ -34,4 +34,4 @@ St:10 Dx:14 Co:18 In:3 Wi:3 Ch:2
 
 ## Picture
 
-![Direwolf cub](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/direwolf_cub/direwolf_cub.png)
+![Direwolf cub](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/direwolf_cub/direwolf_cub.png?raw=true)

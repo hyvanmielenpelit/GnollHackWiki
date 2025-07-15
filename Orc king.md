@@ -41,4 +41,4 @@ St:18/** Dx:16 Co:19 In:12 Wi:12 Ch:17
 
 ## Picture
 
-![Orc king](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/orc_king/orc_king.png) ![Orc queen](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/orc_king/orc_king_female.png)
+![Orc king](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/orc_king/orc_king.png?raw=true) ![Orc queen](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/orc_king/orc_king_female.png?raw=true)

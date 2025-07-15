@@ -41,4 +41,4 @@ St:18/51 Dx:10 Co:19 In:10 Wi:11 Ch:14
 
 ## Picture
 
-![Dwarf king](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/dwarf_king/dwarf_king.png) ![Dwarf queen](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/dwarf_king/dwarf_king_female.png)
+![Dwarf king](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/dwarf_king/dwarf_king.png?raw=true) ![Dwarf queen](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/dwarf_king/dwarf_king_female.png?raw=true)

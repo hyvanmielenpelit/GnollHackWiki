@@ -39,4 +39,4 @@ St:16 Dx:15 Co:15 In:9 Wi:10 Ch:9
 
 ## Picture
 
-![Monk](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/monk/monk.png?raw=true) ![Monk](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/monk/monk_female.png)
+![Monk](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/monk/monk.png?raw=true) ![Monk](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/monk/monk_female.png?raw=true)

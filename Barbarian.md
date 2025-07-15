@@ -40,4 +40,4 @@ St:18 Dx:9 Co:16 In:7 Wi:10 Ch:7
 
 ## Picture
 
-![Barbarian](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/barbarian/barbarian.png?raw=true) ![Barbarian](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/barbarian/barbarian_female.png)
+![Barbarian](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/barbarian/barbarian.png?raw=true) ![Barbarian](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/barbarian/barbarian_female.png?raw=true)

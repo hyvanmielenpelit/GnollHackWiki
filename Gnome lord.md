@@ -40,4 +40,4 @@ St:9 Dx:11 Co:12 In:14 Wi:12 Ch:15
 
 ## Picture
 
-![Gnome lord](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/gnome_lord/gnome_lord.png) ![Gnome lady](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/gnome_lord/gnome_lord_female.png)
+![Gnome lord](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/gnome_lord/gnome_lord.png?raw=true) ![Gnome lady](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/gnome_lord/gnome_lord_female.png?raw=true)

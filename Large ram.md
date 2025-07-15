@@ -35,4 +35,4 @@ St:18 Dx:13 Co:16 In:2 Wi:1 Ch:2
 
 ## Picture
 
-![Large ram](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/large_ram/large_ram.png)
+![Large ram](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/large_ram/large_ram.png?raw=true)

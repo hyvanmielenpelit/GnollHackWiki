@@ -43,4 +43,4 @@ St:14 Dx:15 Co:15 In:20 Wi:16 Ch:10
 
 ## Picture
 
-![Tentacled one](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/tentacled_one/tentacled_one.png)
+![Tentacled one](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/tentacled_one/tentacled_one.png?raw=true)

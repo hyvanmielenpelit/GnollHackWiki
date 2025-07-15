@@ -39,4 +39,4 @@ St:18 Dx:9 Co:16 In:7 Wi:10 Ch:7
 
 ## Picture
 
-![Caveman](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/caveman/caveman.png?raw=true) ![Cavewoman](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/caveman/caveman_female.png)
+![Caveman](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/caveman/caveman.png?raw=true) ![Cavewoman](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/caveman/caveman_female.png?raw=true)

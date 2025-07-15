@@ -47,4 +47,4 @@ St:18 Dx:18 Co:18 In:15 Wi:18 Ch:18
 
 ## Picture
 
-![Arch Priest](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/arch_priest/arch_priest.png)
+![Arch Priest](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/arch_priest/arch_priest.png?raw=true)

@@ -39,4 +39,4 @@ St:12 Dx:14 Co:18 In:2 Wi:2 Ch:2
 
 ## Picture
 
-![Medium luggage](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/medium_luggage/medium_luggage.png)
+![Medium luggage](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/medium_luggage/medium_luggage.png?raw=true)

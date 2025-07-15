@@ -41,4 +41,4 @@ St:5 Dx:12 Co:7 In:17 Wi:12 Ch:13
 
 ## Picture
 
-![Gnomish wizard](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/gnomish_wizard/gnomish_wizard.png) ![Gnomish wizard](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/gnomish_wizard/gnomish_wizard_female.png)
+![Gnomish wizard](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/gnomish_wizard/gnomish_wizard.png?raw=true) ![Gnomish wizard](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/gnomish_wizard/gnomish_wizard_female.png?raw=true)

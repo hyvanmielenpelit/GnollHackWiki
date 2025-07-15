@@ -43,4 +43,4 @@ St:23 Dx:16 Co:20 In:19 Wi:16 Ch:18
 
 ## Picture
 
-![Yellow dragon](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/yellow_dragon/yellow_dragon.png)
+![Yellow dragon](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/yellow_dragon/yellow_dragon.png?raw=true)

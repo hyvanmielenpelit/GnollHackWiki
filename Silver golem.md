@@ -47,4 +47,4 @@ St:23 Dx:12 Co:23 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Silver golem](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/silver_golem/silver_golem.png)
+![Silver golem](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/silver_golem/silver_golem.png?raw=true)

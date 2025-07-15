@@ -46,4 +46,4 @@ St:21 Dx:21 Co:21 In:21 Wi:21 Ch:21
 
 ## Picture
 
-![Modron tertian](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/modron_tertian/modron_tertian.png)
+![Modron tertian](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/modron_tertian/modron_tertian.png?raw=true)

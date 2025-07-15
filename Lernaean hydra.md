@@ -52,4 +52,4 @@ St:18/** Dx:12 Co:25 In:2 Wi:2 Ch:1
 
 ## Picture
 
-![Lernaean hydra](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/lernaean_hydra/lernaean_hydra.png)
+![Lernaean hydra](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/lernaean_hydra/lernaean_hydra.png?raw=true)

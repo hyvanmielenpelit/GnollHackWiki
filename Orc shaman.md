@@ -41,4 +41,4 @@ St:12 Dx:13 Co:14 In:14 Wi:16 Ch:13
 
 ## Picture
 
-![Orc shaman](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/orc_shaman/orc_shaman.png) ![Orc shaman](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/orc_shaman/orc_shaman_female.png)
+![Orc shaman](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/orc_shaman/orc_shaman.png?raw=true) ![Orc shaman](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/orc_shaman/orc_shaman_female.png?raw=true)

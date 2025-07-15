@@ -38,4 +38,4 @@ St:1 Dx:7 Co:14 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Shocking sphere](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/shocking_sphere/shocking_sphere.png)
+![Shocking sphere](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/shocking_sphere/shocking_sphere.png?raw=true)

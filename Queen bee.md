@@ -38,4 +38,4 @@ St:3 Dx:18 Co:8 In:1 Wi:1 Ch:3
 
 ## Picture
 
-![Queen bee](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/queen_bee/queen_bee.png)
+![Queen bee](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/queen_bee/queen_bee.png?raw=true)

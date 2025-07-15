@@ -39,4 +39,4 @@ St:20 Dx:14 Co:18 In:8 Wi:8 Ch:9
 
 ## Picture
 
-![Hill giant](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/hill_giant/hill_giant.png) ![Hill giantess](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/hill_giant/hill_giant_female.png)
+![Hill giant](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/hill_giant/hill_giant.png?raw=true) ![Hill giantess](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/hill_giant/hill_giant_female.png?raw=true)

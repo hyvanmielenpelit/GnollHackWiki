@@ -52,4 +52,4 @@ St:24 Dx:18 Co:24 In:25 Wi:24 Ch:21
 
 ## Picture
 
-![Elder dracolich](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/elder_dracolich/elder_dracolich.png)
+![Elder dracolich](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/elder_dracolich/elder_dracolich.png?raw=true)

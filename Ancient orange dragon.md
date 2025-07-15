@@ -43,4 +43,4 @@ St:23 Dx:15 Co:21 In:19 Wi:18 Ch:19
 
 ## Picture
 
-![Ancient orange dragon](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/ancient_orange_dragon/ancient_orange_dragon.png)
+![Ancient orange dragon](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/ancient_orange_dragon/ancient_orange_dragon.png?raw=true)

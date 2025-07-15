@@ -39,4 +39,4 @@ St:18 Dx:14 Co:18 In:15 Wi:16 Ch:17
 
 ## Picture
 
-![Smith](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/smith/smith.png?raw=true) ![Smith](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/smith/smith_female.png)
+![Smith](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/smith/smith.png?raw=true) ![Smith](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/smith/smith_female.png?raw=true)

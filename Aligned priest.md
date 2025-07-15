@@ -43,4 +43,4 @@ St:13 Dx:9 Co:17 In:14 Wi:18 Ch:17
 
 ## Picture
 
-![Aligned priest](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/aligned_priest/aligned_priest.png) ![Aligned priestess](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/aligned_priest/aligned_priest_female.png)
+![Aligned priest](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/aligned_priest/aligned_priest.png?raw=true) ![Aligned priestess](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/aligned_priest/aligned_priest_female.png?raw=true)

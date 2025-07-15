@@ -46,4 +46,4 @@ St:18 Dx:8 Co:13 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Gnoll mummy](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/gnoll_mummy/gnoll_mummy.png)
+![Gnoll mummy](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/gnoll_mummy/gnoll_mummy.png?raw=true)

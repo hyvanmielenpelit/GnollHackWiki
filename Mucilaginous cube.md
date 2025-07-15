@@ -52,4 +52,4 @@ St:18 Dx:9 Co:25 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Mucilaginous cube](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/mucilaginous_cube/mucilaginous_cube.png)
+![Mucilaginous cube](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/mucilaginous_cube/mucilaginous_cube.png?raw=true)

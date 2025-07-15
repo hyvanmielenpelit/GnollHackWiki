@@ -53,4 +53,4 @@ St:18 Dx:18 Co:21 In:24 Wi:23 Ch:18
 
 ## Picture
 
-![Wizard of Yendor](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/wizard_of_yendor/wizard_of_yendor.png)
+![Wizard of Yendor](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/wizard_of_yendor/wizard_of_yendor.png?raw=true)

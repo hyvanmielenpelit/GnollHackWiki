@@ -36,4 +36,4 @@ St:18 Dx:7 Co:18 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Baby purple worm](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/baby_purple_worm/baby_purple_worm.png)
+![Baby purple worm](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/baby_purple_worm/baby_purple_worm.png?raw=true)

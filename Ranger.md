@@ -39,4 +39,4 @@ St:15 Dx:18 Co:15 In:9 Wi:11 Ch:9
 
 ## Picture
 
-![Ranger](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/ranger/ranger.png?raw=true) ![Ranger](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/ranger/ranger_female.png)
+![Ranger](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/ranger/ranger.png?raw=true) ![Ranger](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/ranger/ranger_female.png?raw=true)

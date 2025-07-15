@@ -37,4 +37,4 @@ St:15 Dx:15 Co:15 In:21 Wi:18 Ch:15
 
 ## Picture
 
-![Elder quantum mechanic](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/elder_quantum_mechanic/elder_quantum_mechanic.png) ![Elder quantum mechanic](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/elder_quantum_mechanic/elder_quantum_mechanic_female.png)
+![Elder quantum mechanic](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/elder_quantum_mechanic/elder_quantum_mechanic.png?raw=true) ![Elder quantum mechanic](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/elder_quantum_mechanic/elder_quantum_mechanic_female.png?raw=true)

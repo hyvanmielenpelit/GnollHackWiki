@@ -50,4 +50,4 @@ St:19 Dx:14 Co:16 In:16 Wi:14 Ch:17
 
 ## Picture
 
-![Vampire lord](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/vampire_lord/vampire_lord.png) ![Vampire lady](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/vampire_lord/vampire_lord_female.png)
+![Vampire lord](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/vampire_lord/vampire_lord.png?raw=true) ![Vampire lady](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/vampire_lord/vampire_lord_female.png?raw=true)

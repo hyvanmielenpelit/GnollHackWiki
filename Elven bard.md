@@ -43,4 +43,4 @@ St:11 Dx:16 Co:14 In:17 Wi:17 Ch:19
 
 ## Picture
 
-![Elven bard](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/elven_bard/elven_bard.png) ![Elven bard](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/elven_bard/elven_bard_female.png)
+![Elven bard](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/elven_bard/elven_bard.png?raw=true) ![Elven bard](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/elven_bard/elven_bard_female.png?raw=true)

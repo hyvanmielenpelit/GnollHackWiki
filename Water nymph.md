@@ -36,4 +36,4 @@ St:8 Dx:14 Co:9 In:12 Wi:13 Ch:17
 
 ## Picture
 
-![Water nymph](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/water_nymph/water_nymph.png)
+![Water nymph](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/water_nymph/water_nymph.png?raw=true)

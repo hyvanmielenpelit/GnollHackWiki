@@ -42,4 +42,4 @@ St:22 Dx:16 Co:20 In:19 Wi:16 Ch:18
 
 ## Picture
 
-![Orange dragon](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/orange_dragon/orange_dragon.png)
+![Orange dragon](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/orange_dragon/orange_dragon.png?raw=true)

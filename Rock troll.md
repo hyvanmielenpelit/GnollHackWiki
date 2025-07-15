@@ -40,4 +40,4 @@ St:18/51 Dx:12 Co:19 In:6 Wi:4 Ch:4
 
 ## Picture
 
-![Rock troll](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/rock_troll/rock_troll.png)
+![Rock troll](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/rock_troll/rock_troll.png?raw=true)

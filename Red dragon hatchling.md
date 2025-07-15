@@ -38,4 +38,4 @@ St:18 Dx:10 Co:18 In:14 Wi:14 Ch:9
 
 ## Picture
 
-![Red dragon hatchling](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/red_dragon_hatchling/red_dragon_hatchling.png)
+![Red dragon hatchling](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/red_dragon_hatchling/red_dragon_hatchling.png?raw=true)

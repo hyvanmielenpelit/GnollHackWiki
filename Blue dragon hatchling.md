@@ -36,4 +36,4 @@ St:14 Dx:14 Co:14 In:14 Wi:14 Ch:9
 
 ## Picture
 
-![Blue dragon hatchling](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/blue_dragon_hatchling/blue_dragon_hatchling.png)
+![Blue dragon hatchling](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/blue_dragon_hatchling/blue_dragon_hatchling.png?raw=true)

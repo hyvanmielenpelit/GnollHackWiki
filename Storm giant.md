@@ -40,4 +40,4 @@ St:24 Dx:16 Co:22 In:15 Wi:15 Ch:16
 
 ## Picture
 
-![Storm giant](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/storm_giant/storm_giant.png) ![Storm giantess](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/storm_giant/storm_giant_female.png)
+![Storm giant](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/storm_giant/storm_giant.png?raw=true) ![Storm giantess](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/storm_giant/storm_giant_female.png?raw=true)

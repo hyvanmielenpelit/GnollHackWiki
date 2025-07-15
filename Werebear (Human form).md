@@ -45,4 +45,4 @@ St:19 Dx:13 Co:18 In:10 Wi:10 Ch:9
 
 ## Picture
 
-![Werebear - Human form](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/human-werebear/human-werebear.png) ![Werebear - Human form](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/human-werebear/human-werebear_female.png)
+![Werebear - Human form](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/human-werebear/human-werebear.png?raw=true) ![Werebear - Human form](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/human-werebear/human-werebear_female.png?raw=true)

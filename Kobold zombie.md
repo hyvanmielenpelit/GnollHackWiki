@@ -41,4 +41,4 @@ St:12 Dx:3 Co:11 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Kobold zombie](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/kobold_zombie/kobold_zombie.png)
+![Kobold zombie](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/kobold_zombie/kobold_zombie.png?raw=true)

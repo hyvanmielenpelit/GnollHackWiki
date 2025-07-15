@@ -47,4 +47,4 @@ St:18/91 Dx:18 Co:20 In:15 Wi:12 Ch:14
 
 ## Picture
 
-![Flind](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/flind/flind.png?raw=true) ![Flind](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/flind/flind_female.png)
+![Flind](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/flind/flind.png?raw=true) ![Flind](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/flind/flind_female.png?raw=true)

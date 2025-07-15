@@ -42,4 +42,4 @@ St:18/** Dx:14 Co:18 In:2 Wi:2 Ch:1
 
 ## Picture
 
-![Boa constrictor](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/boa_constrictor/boa_constrictor.png)
+![Boa constrictor](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/boa_constrictor/boa_constrictor.png?raw=true)

@@ -41,4 +41,4 @@ St:18 Dx:12 Co:20 In:6 Wi:4 Ch:4
 
 ## Picture
 
-![Ice troll](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/ice_troll/ice_troll.png)
+![Ice troll](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/ice_troll/ice_troll.png?raw=true)

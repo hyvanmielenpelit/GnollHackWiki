@@ -47,4 +47,4 @@ St:15 Dx:7 Co:16 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Green slime](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/green_slime/green_slime.png)
+![Green slime](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/green_slime/green_slime.png?raw=true)

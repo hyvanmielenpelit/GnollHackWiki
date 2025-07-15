@@ -46,4 +46,4 @@ St:18/** Dx:19 Co:19 In:19 Wi:19 Ch:19
 
 ## Picture
 
-![Master Kaen](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/master_kaen/master_kaen.png)
+![Master Kaen](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/master_kaen/master_kaen.png?raw=true)

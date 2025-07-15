@@ -38,4 +38,4 @@ St:14 Dx:7 Co:15 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Leather golem](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/leather_golem/leather_golem.png)
+![Leather golem](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/leather_golem/leather_golem.png?raw=true)

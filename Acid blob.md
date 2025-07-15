@@ -42,4 +42,4 @@ St:1 Dx:7 Co:8 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Acid blob](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/acid_blob/acid_blob.png)
+![Acid blob](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/acid_blob/acid_blob.png?raw=true)

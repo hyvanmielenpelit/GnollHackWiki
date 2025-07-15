@@ -48,4 +48,4 @@ St:18/** Dx:18 Co:21 In:16 Wi:14 Ch:16
 
 ## Picture
 
-![Flind lord](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/flind_lord/flind_lord.png) ![Flind lady](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/flind_lord/flind_lord_female.png)
+![Flind lord](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/flind_lord/flind_lord.png?raw=true) ![Flind lady](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/flind_lord/flind_lord_female.png?raw=true)

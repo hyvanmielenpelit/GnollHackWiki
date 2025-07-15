@@ -36,4 +36,4 @@ St:15 Dx:12 Co:12 In:6 Wi:6 Ch:6
 
 ## Picture
 
-![Modron duodrone](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/modron_duodrone/modron_duodrone.png)
+![Modron duodrone](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/modron_duodrone/modron_duodrone.png?raw=true)

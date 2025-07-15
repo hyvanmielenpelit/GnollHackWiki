@@ -40,4 +40,4 @@ St:6 Dx:11 Co:11 In:12 Wi:13 Ch:7
 
 ## Picture
 
-![Kobold shaman](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/kobold_shaman/kobold_shaman.png)
+![Kobold shaman](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/kobold_shaman/kobold_shaman.png?raw=true)

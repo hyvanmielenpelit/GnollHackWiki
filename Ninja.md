@@ -40,4 +40,4 @@ St:17 Dx:18 Co:15 In:11 Wi:10 Ch:9
 
 ## Picture
 
-![Ninja](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/ninja/ninja.png?raw=true) ![Ninja](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/ninja/ninja_female.png)
+![Ninja](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/ninja/ninja.png?raw=true) ![Ninja](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/ninja/ninja_female.png?raw=true)

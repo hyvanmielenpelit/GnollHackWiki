@@ -39,4 +39,4 @@ St:18/76 Dx:16 Co:19 In:11 Wi:10 Ch:15
 
 ## Picture
 
-![Gnoll king](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/gnoll_king/gnoll_king.png) ![Gnoll queen](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/gnoll_king/gnoll_king_female.png)
+![Gnoll king](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/gnoll_king/gnoll_king.png?raw=true) ![Gnoll queen](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/gnoll_king/gnoll_king_female.png?raw=true)

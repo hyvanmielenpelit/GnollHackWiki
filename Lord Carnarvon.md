@@ -39,4 +39,4 @@ St:15 Dx:15 Co:17 In:18 Wi:18 Ch:18
 
 ## Picture
 
-![Lord Carnarvon](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/lord_carnarvon/lord_carnarvon.png)
+![Lord Carnarvon](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/lord_carnarvon/lord_carnarvon.png?raw=true)

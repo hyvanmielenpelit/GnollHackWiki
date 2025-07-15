@@ -42,4 +42,4 @@ St:19 Dx:12 Co:17 In:8 Wi:14 Ch:3
 
 ## Picture
 
-![Greater mummy](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/greater_mummy/greater_mummy.png)
+![Greater mummy](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/greater_mummy/greater_mummy.png?raw=true)

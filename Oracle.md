@@ -39,4 +39,4 @@ St:9 Dx:9 Co:18 In:20 Wi:20 Ch:18
 
 ## Picture
 
-![Oracle](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/oracle/oracle.png?raw=true) ![Oracle](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/oracle/oracle_female.png)
+![Oracle](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/oracle/oracle.png?raw=true) ![Oracle](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/oracle/oracle_female.png?raw=true)

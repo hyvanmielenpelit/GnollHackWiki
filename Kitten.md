@@ -34,4 +34,4 @@ St:6 Dx:17 Co:16 In:2 Wi:2 Ch:2
 
 ## Picture
 
-![Kitten](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/kitten/kitten.png?raw=true) ![Kitten](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/kitten/kitten_female.png)
+![Kitten](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/kitten/kitten.png?raw=true) ![Kitten](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/kitten/kitten_female.png?raw=true)

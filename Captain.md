@@ -40,4 +40,4 @@ St:18/91 Dx:15 Co:18 In:9 Wi:10 Ch:12
 
 ## Picture
 
-![Captain](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/captain/captain.png?raw=true) ![Captain](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/captain/captain_female.png)
+![Captain](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/captain/captain.png?raw=true) ![Captain](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/captain/captain_female.png?raw=true)

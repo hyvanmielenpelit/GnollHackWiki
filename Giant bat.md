@@ -36,4 +36,4 @@ St:7 Dx:16 Co:12 In:3 Wi:2 Ch:1
 
 ## Picture
 
-![Giant bat](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/giant_bat/giant_bat.png)
+![Giant bat](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/giant_bat/giant_bat.png?raw=true)

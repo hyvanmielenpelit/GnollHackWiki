@@ -40,4 +40,4 @@ St:12 Dx:10 Co:15 In:7 Wi:7 Ch:8
 
 ## Picture
 
-![Kobold lord](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/kobold_lord/kobold_lord.png) ![Kobold lady](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/kobold_lord/kobold_lord_female.png)
+![Kobold lord](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/kobold_lord/kobold_lord.png?raw=true) ![Kobold lady](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/kobold_lord/kobold_lord_female.png?raw=true)

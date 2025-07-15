@@ -39,4 +39,4 @@ St:18/31 Dx:12 Co:15 In:9 Wi:10 Ch:9
 
 ## Picture
 
-![Soldier](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/soldier/soldier.png?raw=true) ![Soldier](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/soldier/soldier_female.png)
+![Soldier](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/soldier/soldier.png?raw=true) ![Soldier](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/soldier/soldier_female.png?raw=true)

@@ -44,4 +44,4 @@ St:25 Dx:13 Co:21 In:19 Wi:18 Ch:19
 
 ## Picture
 
-![Ancient red dragon](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/ancient_red_dragon/ancient_red_dragon.png)
+![Ancient red dragon](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/ancient_red_dragon/ancient_red_dragon.png?raw=true)

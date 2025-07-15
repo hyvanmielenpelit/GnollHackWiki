@@ -41,4 +41,4 @@ St:18/** Dx:15 Co:18 In:11 Wi:10 Ch:16
 
 ## Picture
 
-![Goblin king](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/goblin_king/goblin_king.png)
+![Goblin king](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/goblin_king/goblin_king.png?raw=true)

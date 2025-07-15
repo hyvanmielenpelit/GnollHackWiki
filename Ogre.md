@@ -35,4 +35,4 @@ St:18/76 Dx:9 Co:20 In:8 Wi:7 Ch:5
 
 ## Picture
 
-![Ogre](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/ogre/ogre.png?raw=true) ![Ogress](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/ogre/ogre_female.png)
+![Ogre](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/ogre/ogre.png?raw=true) ![Ogress](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/ogre/ogre_female.png?raw=true)

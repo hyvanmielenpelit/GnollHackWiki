@@ -40,4 +40,4 @@ St:14 Dx:17 Co:13 In:10 Wi:10 Ch:9
 
 ## Picture
 
-![Thug](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/thug/thug.png?raw=true) ![Thug](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/thug/thug_female.png)
+![Thug](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/thug/thug.png?raw=true) ![Thug](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/thug/thug_female.png?raw=true)

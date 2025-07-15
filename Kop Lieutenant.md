@@ -37,4 +37,4 @@ St:18/31 Dx:12 Co:16 In:10 Wi:9 Ch:9
 
 ## Picture
 
-![Kop Lieutenant](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/kop_lieutenant/kop_lieutenant.png)
+![Kop Lieutenant](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/kop_lieutenant/kop_lieutenant.png?raw=true)

@@ -39,4 +39,4 @@ St:18/** Dx:15 Co:15 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Electric eel](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/electric_eel/electric_eel.png)
+![Electric eel](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/electric_eel/electric_eel.png?raw=true)

@@ -39,4 +39,4 @@ St:18/** Dx:14 Co:16 In:3 Wi:20 Ch:6
 
 ## Picture
 
-![Owlbear shaman](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/owlbear_shaman/owlbear_shaman.png)
+![Owlbear shaman](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/owlbear_shaman/owlbear_shaman.png?raw=true)

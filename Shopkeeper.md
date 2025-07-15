@@ -39,4 +39,4 @@ St:13 Dx:14 Co:18 In:15 Wi:16 Ch:17
 
 ## Picture
 
-![Shopkeeper](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/shopkeeper/shopkeeper.png?raw=true) ![Shopkeeper](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/shopkeeper/shopkeeper_female.png)
+![Shopkeeper](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/shopkeeper/shopkeeper.png?raw=true) ![Shopkeeper](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/shopkeeper/shopkeeper_female.png?raw=true)

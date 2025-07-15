@@ -34,4 +34,4 @@ St:10 Dx:17 Co:16 In:2 Wi:2 Ch:2
 
 ## Picture
 
-![Large cat](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/large_cat/large_cat.png)
+![Large cat](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/large_cat/large_cat.png?raw=true)

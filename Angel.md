@@ -47,4 +47,4 @@ St:20 Dx:16 Co:19 In:18 Wi:21 Ch:22
 
 ## Picture
 
-![Angel](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/angel/angel.png?raw=true) ![Angel](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/angel/angel_female.png)
+![Angel](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/angel/angel.png?raw=true) ![Angel](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/angel/angel_female.png?raw=true)

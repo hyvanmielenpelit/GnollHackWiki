@@ -44,4 +44,4 @@ St:24 Dx:15 Co:21 In:19 Wi:18 Ch:19
 
 ## Picture
 
-![Ancient yellow dragon](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/ancient_yellow_dragon/ancient_yellow_dragon.png)
+![Ancient yellow dragon](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/ancient_yellow_dragon/ancient_yellow_dragon.png?raw=true)

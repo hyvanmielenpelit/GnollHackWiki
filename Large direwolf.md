@@ -34,4 +34,4 @@ St:18/** Dx:14 Co:19 In:3 Wi:3 Ch:2
 
 ## Picture
 
-![Large direwolf](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/large_direwolf/large_direwolf.png)
+![Large direwolf](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/large_direwolf/large_direwolf.png?raw=true)

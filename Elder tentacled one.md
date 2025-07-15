@@ -45,4 +45,4 @@ St:17 Dx:18 Co:18 In:24 Wi:18 Ch:15
 
 ## Picture
 
-![Elder tentacled one](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/elder_tentacled_one/elder_tentacled_one.png)
+![Elder tentacled one](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/elder_tentacled_one/elder_tentacled_one.png?raw=true)

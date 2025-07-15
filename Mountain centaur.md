@@ -37,4 +37,4 @@ St:18/76 Dx:15 Co:17 In:9 Wi:8 Ch:8
 
 ## Picture
 
-![Mountain centaur](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/mountain_centaur/mountain_centaur.png) ![Mountain centauress](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/mountain_centaur/mountain_centaur_female.png)
+![Mountain centaur](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/mountain_centaur/mountain_centaur.png?raw=true) ![Mountain centauress](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/mountain_centaur/mountain_centaur_female.png?raw=true)

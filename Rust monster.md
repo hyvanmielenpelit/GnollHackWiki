@@ -38,4 +38,4 @@ St:9 Dx:12 Co:12 In:3 Wi:3 Ch:1
 
 ## Picture
 
-![Rust monster](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/rust_monster/rust_monster.png)
+![Rust monster](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/rust_monster/rust_monster.png?raw=true)

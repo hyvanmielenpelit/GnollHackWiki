@@ -39,4 +39,4 @@ St:18 Dx:7 Co:14 In:4 Wi:4 Ch:1
 
 ## Picture
 
-![Lurker above](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/lurker_above/lurker_above.png)
+![Lurker above](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/lurker_above/lurker_above.png?raw=true)

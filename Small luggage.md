@@ -39,4 +39,4 @@ St:8 Dx:14 Co:18 In:2 Wi:2 Ch:2
 
 ## Picture
 
-![Small luggage](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/small_luggage/small_luggage.png)
+![Small luggage](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/small_luggage/small_luggage.png?raw=true)

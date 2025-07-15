@@ -37,4 +37,4 @@ St:19 Dx:14 Co:19 In:3 Wi:21 Ch:12
 
 ## Picture
 
-![Owlbear patriarch](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/owlbear_patriarch/owlbear_patriarch.png)
+![Owlbear patriarch](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/owlbear_patriarch/owlbear_patriarch.png?raw=true)

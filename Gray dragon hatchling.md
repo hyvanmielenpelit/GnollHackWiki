@@ -37,4 +37,4 @@ St:18 Dx:14 Co:18 In:14 Wi:14 Ch:9
 
 ## Picture
 
-![Gray dragon hatchling](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/gray_dragon_hatchling/gray_dragon_hatchling.png)
+![Gray dragon hatchling](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/gray_dragon_hatchling/gray_dragon_hatchling.png?raw=true)

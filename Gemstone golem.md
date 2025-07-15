@@ -43,4 +43,4 @@ St:20 Dx:7 Co:24 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Gemstone golem](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/gemstone_golem/gemstone_golem.png)
+![Gemstone golem](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/gemstone_golem/gemstone_golem.png?raw=true)

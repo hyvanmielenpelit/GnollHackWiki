@@ -40,4 +40,4 @@ St:18/** Dx:7 Co:17 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Glass golem](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/glass_golem/glass_golem.png)
+![Glass golem](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/glass_golem/glass_golem.png?raw=true)

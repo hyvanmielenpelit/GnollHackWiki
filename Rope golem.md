@@ -40,4 +40,4 @@ St:10 Dx:7 Co:12 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Rope golem](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/rope_golem/rope_golem.png)
+![Rope golem](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/rope_golem/rope_golem.png?raw=true)

@@ -46,4 +46,4 @@ St:18 Dx:8 Co:13 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Orc mummy](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/orc_mummy/orc_mummy.png)
+![Orc mummy](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/orc_mummy/orc_mummy.png?raw=true)

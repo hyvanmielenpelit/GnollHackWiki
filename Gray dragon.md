@@ -42,4 +42,4 @@ St:23 Dx:16 Co:21 In:19 Wi:16 Ch:18
 
 ## Picture
 
-![Gray dragon](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/gray_dragon/gray_dragon.png)
+![Gray dragon](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/gray_dragon/gray_dragon.png?raw=true)

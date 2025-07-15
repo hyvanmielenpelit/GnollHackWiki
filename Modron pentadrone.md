@@ -39,4 +39,4 @@ St:18 Dx:15 Co:15 In:15 Wi:15 Ch:15
 
 ## Picture
 
-![Modron pentadrone](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/modron_pentadrone/modron_pentadrone.png)
+![Modron pentadrone](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/modron_pentadrone/modron_pentadrone.png?raw=true)

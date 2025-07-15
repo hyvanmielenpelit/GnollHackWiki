@@ -38,4 +38,4 @@ St:1 Dx:7 Co:14 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Freezing sphere](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/freezing_sphere/freezing_sphere.png)
+![Freezing sphere](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/freezing_sphere/freezing_sphere.png?raw=true)

@@ -36,4 +36,4 @@ St:1 Dx:15 Co:1 In:2 Wi:1 Ch:1
 
 ## Picture
 
-![Cave spider](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/cave_spider/cave_spider.png)
+![Cave spider](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/cave_spider/cave_spider.png?raw=true)

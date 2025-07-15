@@ -51,4 +51,4 @@ St:24 Dx:18 Co:20 In:19 Wi:20 Ch:20
 
 ## Picture
 
-![Gold dragon](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/gold_dragon/gold_dragon.png)
+![Gold dragon](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/gold_dragon/gold_dragon.png?raw=true)

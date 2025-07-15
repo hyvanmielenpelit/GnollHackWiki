@@ -40,4 +40,4 @@ St:1 Dx:7 Co:9 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Yellow mold](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/yellow_mold/yellow_mold.png)
+![Yellow mold](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/yellow_mold/yellow_mold.png?raw=true)

@@ -43,4 +43,4 @@ St:24 Dx:16 Co:21 In:19 Wi:16 Ch:18
 
 ## Picture
 
-![Black dragon](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/black_dragon/black_dragon.png)
+![Black dragon](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/black_dragon/black_dragon.png?raw=true)

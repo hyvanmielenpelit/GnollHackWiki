@@ -40,4 +40,4 @@ St:17 Dx:18 Co:15 In:11 Wi:10 Ch:9
 
 ## Picture
 
-![Roshi](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/roshi/roshi.png?raw=true) ![Roshi](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/roshi/roshi_female.png)
+![Roshi](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/roshi/roshi.png?raw=true) ![Roshi](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/roshi/roshi_female.png?raw=true)

@@ -35,4 +35,4 @@ St:7 Dx:13 Co:8 In:11 Wi:12 Ch:16
 
 ## Picture
 
-![Wood nymph](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/wood_nymph/wood_nymph.png)
+![Wood nymph](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/wood_nymph/wood_nymph.png?raw=true)

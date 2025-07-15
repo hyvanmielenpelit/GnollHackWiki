@@ -44,4 +44,4 @@ St:18 Dx:3 Co:14 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Human zombie](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/human_zombie/human_zombie.png) ![Human zombie](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/human_zombie/human_zombie_female.png)
+![Human zombie](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/human_zombie/human_zombie.png?raw=true) ![Human zombie](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/human_zombie/human_zombie_female.png?raw=true)

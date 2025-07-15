@@ -44,4 +44,4 @@ St:19 Dx:9 Co:22 In:11 Wi:9 Ch:1
 
 ## Picture
 
-![Gargantuan Mimic](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/gargantuan_mimic/gargantuan_mimic.png)
+![Gargantuan Mimic](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/gargantuan_mimic/gargantuan_mimic.png?raw=true)

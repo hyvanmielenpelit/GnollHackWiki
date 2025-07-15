@@ -36,4 +36,4 @@ St:18/** Dx:11 Co:22 In:9 Wi:8 Ch:13
 
 ## Picture
 
-![Ogre overlord](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/ogre_overlord/ogre_overlord.png) ![Ogre overlady](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/ogre_overlord/ogre_overlord_female.png)
+![Ogre overlord](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/ogre_overlord/ogre_overlord.png?raw=true) ![Ogre overlady](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/ogre_overlord/ogre_overlord_female.png?raw=true)

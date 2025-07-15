@@ -39,4 +39,4 @@ St:18/51 Dx:13 Co:16 In:9 Wi:10 Ch:10
 
 ## Picture
 
-![Sergeant](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/sergeant/sergeant.png?raw=true) ![Sergeant](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/sergeant/sergeant_female.png)
+![Sergeant](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/sergeant/sergeant.png?raw=true) ![Sergeant](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/sergeant/sergeant_female.png?raw=true)

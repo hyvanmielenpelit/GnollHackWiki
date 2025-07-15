@@ -45,4 +45,4 @@ St:18/** Dx:14 Co:18 In:14 Wi:11 Ch:13
 
 ## Picture
 
-![Horned devil](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/horned_devil/horned_devil.png)
+![Horned devil](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/horned_devil/horned_devil.png?raw=true)

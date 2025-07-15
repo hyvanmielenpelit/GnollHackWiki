@@ -39,4 +39,4 @@ St:9 Dx:9 Co:9 In:11 Wi:16 Ch:15
 
 ## Picture
 
-![Priest](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/priest/priest.png?raw=true) ![Priestess](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/priest/priest_female.png)
+![Priest](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/priest/priest.png?raw=true) ![Priestess](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/priest/priest_female.png?raw=true)

@@ -39,4 +39,4 @@ St:18/** Dx:12 Co:20 In:7 Wi:5 Ch:4
 
 ## Picture
 
-![War troll](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/war_troll/war_troll.png)
+![War troll](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/war_troll/war_troll.png?raw=true)

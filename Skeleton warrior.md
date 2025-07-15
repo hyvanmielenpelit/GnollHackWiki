@@ -46,4 +46,4 @@ St:18/51 Dx:12 Co:16 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Skeleton warrior](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/skeleton_warrior/skeleton_warrior.png)
+![Skeleton warrior](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/skeleton_warrior/skeleton_warrior.png?raw=true)

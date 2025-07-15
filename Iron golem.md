@@ -44,4 +44,4 @@ St:21 Dx:7 Co:21 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Iron golem](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/iron_golem/iron_golem.png)
+![Iron golem](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/iron_golem/iron_golem.png?raw=true)

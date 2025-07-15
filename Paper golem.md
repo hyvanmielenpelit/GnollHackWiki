@@ -39,4 +39,4 @@ St:10 Dx:7 Co:12 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Paper golem](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/paper_golem/paper_golem.png)
+![Paper golem](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/paper_golem/paper_golem.png?raw=true)

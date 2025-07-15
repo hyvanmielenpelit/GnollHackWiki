@@ -46,4 +46,4 @@ St:23 Dx:23 Co:23 In:25 Wi:25 Ch:25
 
 ## Picture
 
-![Modron Primus](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/modron_primus/modron_primus.png)
+![Modron Primus](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/modron_primus/modron_primus.png?raw=true)

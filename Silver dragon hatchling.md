@@ -37,4 +37,4 @@ St:18 Dx:14 Co:18 In:14 Wi:14 Ch:9
 
 ## Picture
 
-![Silver dragon hatchling](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/silver_dragon_hatchling/silver_dragon_hatchling.png)
+![Silver dragon hatchling](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/silver_dragon_hatchling/silver_dragon_hatchling.png?raw=true)

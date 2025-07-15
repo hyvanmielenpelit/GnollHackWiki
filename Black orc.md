@@ -39,4 +39,4 @@ St:18 Dx:14 Co:17 In:9 Wi:8 Ch:7
 
 ## Picture
 
-![Black orc](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/black_orc/black_orc.png) ![Black orc](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/black_orc/black_orc_female.png)
+![Black orc](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/black_orc/black_orc.png?raw=true) ![Black orc](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/black_orc/black_orc_female.png?raw=true)

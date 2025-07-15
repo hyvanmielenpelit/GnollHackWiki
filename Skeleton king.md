@@ -47,4 +47,4 @@ St:19 Dx:17 Co:20 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Skeleton king](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/skeleton_king/skeleton_king.png) ![Skeleton queen](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/skeleton_king/skeleton_king_female.png)
+![Skeleton king](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/skeleton_king/skeleton_king.png?raw=true) ![Skeleton queen](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/skeleton_king/skeleton_king_female.png?raw=true)

@@ -39,4 +39,4 @@ St:9 Dx:9 Co:9 In:10 Wi:16 Ch:12
 
 ## Picture
 
-![Healer](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/healer/healer.png?raw=true) ![Healer](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/healer/healer_female.png)
+![Healer](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/healer/healer.png?raw=true) ![Healer](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/healer/healer_female.png?raw=true)

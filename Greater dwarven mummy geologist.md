@@ -50,4 +50,4 @@ St:21 Dx:16 Co:24 In:14 Wi:16 Ch:16
 
 ## Picture
 
-![Greater dwarven mummy geologist](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/greater_dwarven_mummy_geologist/greater_dwarven_mummy_geologist.png)
+![Greater dwarven mummy geologist](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/greater_dwarven_mummy_geologist/greater_dwarven_mummy_geologist.png?raw=true)

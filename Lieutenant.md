@@ -40,4 +40,4 @@ St:18/76 Dx:14 Co:17 In:9 Wi:10 Ch:11
 
 ## Picture
 
-![Lieutenant](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/lieutenant/lieutenant.png?raw=true) ![Lieutenant](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/lieutenant/lieutenant_female.png)
+![Lieutenant](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/lieutenant/lieutenant.png?raw=true) ![Lieutenant](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/lieutenant/lieutenant_female.png?raw=true)

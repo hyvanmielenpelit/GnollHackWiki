@@ -40,4 +40,4 @@ St:9 Dx:18 Co:15 In:9 Wi:9 Ch:12
 
 ## Picture
 
-![Vampire bat](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/vampire_bat/vampire_bat.png)
+![Vampire bat](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/vampire_bat/vampire_bat.png?raw=true)

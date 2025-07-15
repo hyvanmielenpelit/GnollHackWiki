@@ -45,4 +45,4 @@ St:18/** Dx:14 Co:16 In:10 Wi:10 Ch:9
 
 ## Picture
 
-![Werewolf - Human form](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/human-werewolf/human-werewolf.png) ![Werewolf - Human form](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/human-werewolf/human-werewolf_female.png)
+![Werewolf - Human form](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/human-werewolf/human-werewolf.png?raw=true) ![Werewolf - Human form](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/human-werewolf/human-werewolf_female.png?raw=true)

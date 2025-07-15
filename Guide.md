@@ -40,4 +40,4 @@ St:15 Dx:15 Co:15 In:10 Wi:10 Ch:9
 
 ## Picture
 
-![Guide](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/guide/guide.png?raw=true) ![Guide](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/guide/guide_female.png)
+![Guide](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/guide/guide.png?raw=true) ![Guide](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/guide/guide_female.png?raw=true)

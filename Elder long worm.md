@@ -36,4 +36,4 @@ St:25 Dx:9 Co:25 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Elder long worm](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/elder_long_worm/elder_long_worm.png)
+![Elder long worm](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/elder_long_worm/elder_long_worm.png?raw=true)

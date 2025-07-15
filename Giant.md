@@ -39,4 +39,4 @@ St:19 Dx:8 Co:16 In:8 Wi:8 Ch:9
 
 ## Picture
 
-![Giant](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/giant/giant.png?raw=true) ![Giantess](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/giant/giant_female.png)
+![Giant](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/giant/giant.png?raw=true) ![Giantess](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/giant/giant_female.png?raw=true)

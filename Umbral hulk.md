@@ -36,4 +36,4 @@ St:18/** Dx:7 Co:15 In:5 Wi:5 Ch:3
 
 ## Picture
 
-![Umbral hulk](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/umbral_hulk/umbral_hulk.png)
+![Umbral hulk](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/umbral_hulk/umbral_hulk.png?raw=true)

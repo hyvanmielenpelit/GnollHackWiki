@@ -42,4 +42,4 @@ St:8 Dx:10 Co:8 In:11 Wi:10 Ch:11
 
 ## Picture
 
-![Elf](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/elf/elf.png?raw=true) ![Elf](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/elf/elf_female.png)
+![Elf](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/elf/elf.png?raw=true) ![Elf](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/elf/elf_female.png?raw=true)

@@ -42,4 +42,4 @@ St:15 Dx:17 Co:14 In:13 Wi:12 Ch:15
 
 ## Picture
 
-![Grey-elf](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/grey-elf/grey-elf.png?raw=true) ![Grey-elf](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/grey-elf/grey-elf_female.png)
+![Grey-elf](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/grey-elf/grey-elf.png?raw=true) ![Grey-elf](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/grey-elf/grey-elf_female.png?raw=true)

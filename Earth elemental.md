@@ -46,4 +46,4 @@ St:19 Dx:12 Co:18 In:6 Wi:2 Ch:1
 
 ## Picture
 
-![Earth elemental](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/earth_elemental/earth_elemental.png)
+![Earth elemental](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/earth_elemental/earth_elemental.png?raw=true)

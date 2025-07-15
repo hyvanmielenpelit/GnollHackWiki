@@ -58,4 +58,4 @@ St:12 Dx:6 Co:22 In:19 Wi:16 Ch:6
 
 ## Picture
 
-![Death gazer](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/death_gazer/death_gazer.png)
+![Death gazer](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/death_gazer/death_gazer.png?raw=true)

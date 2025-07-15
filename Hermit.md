@@ -39,4 +39,4 @@ St:15 Dx:15 Co:15 In:15 Wi:18 Ch:15
 
 ## Picture
 
-![Hermit](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/hermit/hermit.png?raw=true) ![Hermit](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/hermit/hermit_female.png)
+![Hermit](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/hermit/hermit.png?raw=true) ![Hermit](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/hermit/hermit_female.png?raw=true)

@@ -43,4 +43,4 @@ St:24 Dx:15 Co:22 In:19 Wi:18 Ch:19
 
 ## Picture
 
-![Ancient gray dragon](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/ancient_gray_dragon/ancient_gray_dragon.png)
+![Ancient gray dragon](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/ancient_gray_dragon/ancient_gray_dragon.png?raw=true)

@@ -42,4 +42,4 @@ St:18/** Dx:16 Co:17 In:15 Wi:17 Ch:14
 
 ## Picture
 
-![Black naga](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/black_naga/black_naga.png) ![Black naga](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/black_naga/black_naga_female.png)
+![Black naga](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/black_naga/black_naga.png?raw=true) ![Black naga](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/black_naga/black_naga_female.png?raw=true)

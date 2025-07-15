@@ -39,4 +39,4 @@ St:7 Dx:7 Co:18 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![White lichen](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/white_lichen/white_lichen.png)
+![White lichen](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/white_lichen/white_lichen.png?raw=true)

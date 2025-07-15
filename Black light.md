@@ -51,4 +51,4 @@ St:1 Dx:12 Co:14 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Black light](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/black_light/black_light.png)
+![Black light](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/black_light/black_light.png?raw=true)

@@ -38,4 +38,4 @@ St:10 Dx:10 Co:10 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Iron piercer](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/iron_piercer/iron_piercer.png)
+![Iron piercer](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/iron_piercer/iron_piercer.png?raw=true)

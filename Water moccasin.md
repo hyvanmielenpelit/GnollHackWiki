@@ -40,4 +40,4 @@ St:7 Dx:12 Co:7 In:2 Wi:2 Ch:1
 
 ## Picture
 
-![Water moccasin](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/water_moccasin/water_moccasin.png)
+![Water moccasin](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/water_moccasin/water_moccasin.png?raw=true)

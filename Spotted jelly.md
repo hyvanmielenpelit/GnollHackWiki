@@ -40,4 +40,4 @@ St:12 Dx:7 Co:12 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Spotted jelly](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/spotted_jelly/spotted_jelly.png)
+![Spotted jelly](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/spotted_jelly/spotted_jelly.png?raw=true)

@@ -58,4 +58,4 @@ St:18 Dx:18 Co:19 In:24 Wi:18 Ch:8
 
 ## Picture
 
-![Death flayer](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/death_flayer/death_flayer.png)
+![Death flayer](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/death_flayer/death_flayer.png?raw=true)

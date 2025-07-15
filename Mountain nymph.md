@@ -35,4 +35,4 @@ St:9 Dx:15 Co:10 In:13 Wi:14 Ch:18
 
 ## Picture
 
-![Mountain nymph](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/mountain_nymph/mountain_nymph.png)
+![Mountain nymph](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/mountain_nymph/mountain_nymph.png?raw=true)

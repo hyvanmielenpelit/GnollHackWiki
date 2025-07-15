@@ -36,4 +36,4 @@ St:18 Dx:19 Co:18 In:3 Wi:3 Ch:1
 
 ## Picture
 
-![Giant spider](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/giant_spider/giant_spider.png)
+![Giant spider](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/giant_spider/giant_spider.png?raw=true)

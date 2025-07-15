@@ -37,4 +37,4 @@ St:15 Dx:12 Co:14 In:10 Wi:9 Ch:9
 
 ## Picture
 
-![Keystone Kop](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/keystone_kop/keystone_kop.png)
+![Keystone Kop](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/keystone_kop/keystone_kop.png?raw=true)

@@ -37,4 +37,4 @@ St:20 Dx:14 Co:18 In:2 Wi:2 Ch:1
 
 ## Picture
 
-![Grizzly bear](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/grizzly_bear/grizzly_bear.png)
+![Grizzly bear](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/grizzly_bear/grizzly_bear.png?raw=true)

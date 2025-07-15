@@ -45,4 +45,4 @@ St:22 Dx:22 Co:22 In:23 Wi:23 Ch:23
 
 ## Picture
 
-![Modron secundus](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/modron_secundus/modron_secundus.png)
+![Modron secundus](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/modron_secundus/modron_secundus.png?raw=true)

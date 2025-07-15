@@ -37,4 +37,4 @@ St:16 Dx:13 Co:13 In:9 Wi:9 Ch:9
 
 ## Picture
 
-![Modron tridrone](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/modron_tridrone/modron_tridrone.png)
+![Modron tridrone](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/modron_tridrone/modron_tridrone.png?raw=true)

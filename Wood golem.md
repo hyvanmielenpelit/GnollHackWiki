@@ -40,4 +40,4 @@ St:16 Dx:7 Co:15 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Wood golem](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/wood_golem/wood_golem.png)
+![Wood golem](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/wood_golem/wood_golem.png?raw=true)

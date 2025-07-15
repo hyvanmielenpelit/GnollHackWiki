@@ -42,4 +42,4 @@ St:24 Dx:16 Co:21 In:19 Wi:18 Ch:19
 
 ## Picture
 
-![Ancient silver dragon](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/ancient_silver_dragon/ancient_silver_dragon.png)
+![Ancient silver dragon](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/ancient_silver_dragon/ancient_silver_dragon.png?raw=true)

@@ -39,4 +39,4 @@ St:6 Dx:9 Co:9 In:12 Wi:9 Ch:12
 
 ## Picture
 
-![Gnome](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/gnome/gnome.png?raw=true) ![Gnome](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/gnome/gnome_female.png)
+![Gnome](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/gnome/gnome.png?raw=true) ![Gnome](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/gnome/gnome_female.png?raw=true)

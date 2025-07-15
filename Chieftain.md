@@ -39,4 +39,4 @@ St:18 Dx:17 Co:18 In:14 Wi:15 Ch:15
 
 ## Picture
 
-![Chieftain](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/chieftain/chieftain.png?raw=true) ![Chieftain](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/chieftain/chieftain_female.png)
+![Chieftain](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/chieftain/chieftain.png?raw=true) ![Chieftain](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/chieftain/chieftain_female.png?raw=true)

@@ -52,4 +52,4 @@ St:25 Dx:17 Co:21 In:19 Wi:23 Ch:23
 
 ## Picture
 
-![Ancient gold dragon](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/ancient_gold_dragon/ancient_gold_dragon.png)
+![Ancient gold dragon](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/ancient_gold_dragon/ancient_gold_dragon.png?raw=true)

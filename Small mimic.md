@@ -42,4 +42,4 @@ St:12 Dx:9 Co:13 In:2 Wi:9 Ch:1
 
 ## Picture
 
-![Small mimic](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/small_mimic/small_mimic.png)
+![Small mimic](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/small_mimic/small_mimic.png?raw=true)

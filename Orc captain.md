@@ -40,4 +40,4 @@ St:18/** Dx:15 Co:18 In:10 Wi:9 Ch:12
 
 ## Picture
 
-![Orc-captain](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/orc-captain/orc-captain.png?raw=true) ![Orc-captain](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/orc-captain/orc-captain_female.png)
+![Orc-captain](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/orc-captain/orc-captain.png?raw=true) ![Orc-captain](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/orc-captain/orc-captain_female.png?raw=true)

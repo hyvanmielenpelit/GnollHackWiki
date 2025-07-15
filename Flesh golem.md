@@ -45,4 +45,4 @@ St:18/51 Dx:7 Co:16 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Flesh golem](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/flesh_golem/flesh_golem.png)
+![Flesh golem](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/flesh_golem/flesh_golem.png?raw=true)

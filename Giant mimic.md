@@ -44,4 +44,4 @@ St:18/** Dx:9 Co:19 In:8 Wi:9 Ch:1
 
 ## Picture
 
-![Giant mimic](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/giant_mimic/giant_mimic.png)
+![Giant mimic](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/giant_mimic/giant_mimic.png?raw=true)

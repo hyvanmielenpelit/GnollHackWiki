@@ -38,4 +38,4 @@ St:18 Dx:14 Co:18 In:14 Wi:14 Ch:9
 
 ## Picture
 
-![White dragon hatchling](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/white_dragon_hatchling/white_dragon_hatchling.png)
+![White dragon hatchling](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/white_dragon_hatchling/white_dragon_hatchling.png?raw=true)

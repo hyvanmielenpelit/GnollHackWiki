@@ -42,4 +42,4 @@ St:20 Dx:20 Co:20 In:12 Wi:9 Ch:11
 
 ## Picture
 
-![Bone devil](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/bone_devil/bone_devil.png)
+![Bone devil](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/bone_devil/bone_devil.png?raw=true)

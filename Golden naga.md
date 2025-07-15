@@ -40,4 +40,4 @@ St:19 Dx:16 Co:18 In:15 Wi:18 Ch:15
 
 ## Picture
 
-![Golden naga](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/golden_naga/golden_naga.png) ![Golden naga](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/golden_naga/golden_naga_female.png)
+![Golden naga](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/golden_naga/golden_naga.png?raw=true) ![Golden naga](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/golden_naga/golden_naga_female.png?raw=true)

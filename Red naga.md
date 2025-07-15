@@ -42,4 +42,4 @@ St:18/** Dx:16 Co:17 In:15 Wi:17 Ch:14
 
 ## Picture
 
-![Red naga](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/red_naga/red_naga.png) ![Red naga](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/red_naga/red_naga_female.png)
+![Red naga](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/red_naga/red_naga.png?raw=true) ![Red naga](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/red_naga/red_naga_female.png?raw=true)

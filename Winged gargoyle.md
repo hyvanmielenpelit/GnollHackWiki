@@ -41,4 +41,4 @@ St:19 Dx:16 Co:19 In:12 Wi:1 Ch:1
 
 ## Picture
 
-![Winged gargoyle](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/winged_gargoyle/winged_gargoyle.png)
+![Winged gargoyle](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/winged_gargoyle/winged_gargoyle.png?raw=true)

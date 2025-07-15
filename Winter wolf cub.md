@@ -35,4 +35,4 @@ St:6 Dx:9 Co:9 In:2 Wi:2 Ch:1
 
 ## Picture
 
-![Winter wolf cub](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/winter_wolf_cub/winter_wolf_cub.png)
+![Winter wolf cub](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/winter_wolf_cub/winter_wolf_cub.png?raw=true)

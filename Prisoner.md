@@ -38,4 +38,4 @@ St:9 Dx:9 Co:9 In:9 Wi:7 Ch:9
 
 ## Picture
 
-![Prisoner](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/prisoner/prisoner.png?raw=true) ![Prisoner](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/prisoner/prisoner_female.png)
+![Prisoner](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/prisoner/prisoner.png?raw=true) ![Prisoner](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/prisoner/prisoner_female.png?raw=true)

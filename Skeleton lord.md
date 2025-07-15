@@ -47,4 +47,4 @@ St:18/** Dx:14 Co:18 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Skeleton lord](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/skeleton_lord/skeleton_lord.png)
+![Skeleton lord](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/skeleton_lord/skeleton_lord.png?raw=true)

@@ -46,4 +46,4 @@ St:20 Dx:17 Co:20 In:14 Wi:11 Ch:12
 
 ## Picture
 
-![Ice devil](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/ice_devil/ice_devil.png)
+![Ice devil](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/ice_devil/ice_devil.png?raw=true)

@@ -48,4 +48,4 @@ St:19 Dx:19 Co:19 In:17 Wi:17 Ch:17
 
 ## Picture
 
-![Modron quinton](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/modron_quinton/modron_quinton.png)
+![Modron quinton](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/modron_quinton/modron_quinton.png?raw=true)

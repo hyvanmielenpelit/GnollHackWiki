@@ -43,4 +43,4 @@ St:18 Dx:8 Co:14 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Human mummy](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/human_mummy/human_mummy.png)
+![Human mummy](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/human_mummy/human_mummy.png?raw=true)

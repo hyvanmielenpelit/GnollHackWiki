@@ -52,4 +52,4 @@ St:23 Dx:22 Co:24 In:21 Wi:19 Ch:21
 
 ## Picture
 
-![Vlad the Impaler](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/vlad_the_impaler/vlad_the_impaler.png)
+![Vlad the Impaler](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/vlad_the_impaler/vlad_the_impaler.png?raw=true)

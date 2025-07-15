@@ -44,4 +44,4 @@ St:20 Dx:13 Co:20 In:6 Wi:12 Ch:10
 
 ## Picture
 
-![Elder water elemental](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/elder_water_elemental/elder_water_elemental.png)
+![Elder water elemental](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/elder_water_elemental/elder_water_elemental.png?raw=true)

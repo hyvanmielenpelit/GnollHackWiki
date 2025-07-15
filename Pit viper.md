@@ -42,4 +42,4 @@ St:9 Dx:12 Co:9 In:2 Wi:2 Ch:1
 
 ## Picture
 
-![Pit viper](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/pit_viper/pit_viper.png)
+![Pit viper](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/pit_viper/pit_viper.png?raw=true)

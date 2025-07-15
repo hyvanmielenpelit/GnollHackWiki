@@ -40,4 +40,4 @@ St:22 Dx:14 Co:20 In:7 Wi:7 Ch:8
 
 ## Picture
 
-![Frost giant](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/frost_giant/frost_giant.png) ![Frost giantess](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/frost_giant/frost_giant_female.png)
+![Frost giant](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/frost_giant/frost_giant.png?raw=true) ![Frost giantess](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/frost_giant/frost_giant_female.png?raw=true)

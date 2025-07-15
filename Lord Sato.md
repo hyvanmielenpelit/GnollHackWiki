@@ -40,4 +40,4 @@ St:18/** Dx:18 Co:18 In:18 Wi:18 Ch:18
 
 ## Picture
 
-![Lord Sato](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/lord_sato/lord_sato.png)
+![Lord Sato](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/lord_sato/lord_sato.png?raw=true)

@@ -35,4 +35,4 @@ St:9 Dx:9 Co:9 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Giant ant](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/giant_ant/giant_ant.png)
+![Giant ant](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/giant_ant/giant_ant.png?raw=true)

@@ -42,4 +42,4 @@ St:22 Dx:9 Co:22 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Gargantuan cockatrice](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/gargantuan_cockatrice/gargantuan_cockatrice.png)
+![Gargantuan cockatrice](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/gargantuan_cockatrice/gargantuan_cockatrice.png?raw=true)

@@ -54,4 +54,4 @@ St:21 Dx:17 Co:23 In:20 Wi:22 Ch:24
 
 ## Picture
 
-![Archon](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/archon/archon.png?raw=true) ![Archon](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/archon/archon_female.png)
+![Archon](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/archon/archon.png?raw=true) ![Archon](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/archon/archon_female.png?raw=true)

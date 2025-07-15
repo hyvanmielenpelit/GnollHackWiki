@@ -39,4 +39,4 @@ St:18/76 Dx:12 Co:21 In:16 Wi:12 Ch:10
 
 ## Picture
 
-![Ogre mage](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/ogre_mage/ogre_mage.png) ![Ogre mage](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/ogre_mage/ogre_mage_female.png)
+![Ogre mage](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/ogre_mage/ogre_mage.png?raw=true) ![Ogre mage](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/ogre_mage/ogre_mage_female.png?raw=true)

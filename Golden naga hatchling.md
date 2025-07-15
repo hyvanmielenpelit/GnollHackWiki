@@ -38,4 +38,4 @@ St:18/31 Dx:15 Co:14 In:11 Wi:12 Ch:9
 
 ## Picture
 
-![Golden naga hatchling](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/golden_naga_hatchling/golden_naga_hatchling.png)
+![Golden naga hatchling](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/golden_naga_hatchling/golden_naga_hatchling.png?raw=true)

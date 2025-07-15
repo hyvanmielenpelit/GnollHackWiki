@@ -44,4 +44,4 @@ St:23 Dx:15 Co:23 In:15 Wi:15 Ch:19
 
 ## Picture
 
-![Pit fiend](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/pit_fiend/pit_fiend.png)
+![Pit fiend](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/pit_fiend/pit_fiend.png?raw=true)

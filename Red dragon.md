@@ -43,4 +43,4 @@ St:24 Dx:14 Co:20 In:19 Wi:16 Ch:18
 
 ## Picture
 
-![Red dragon](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/red_dragon/red_dragon.png)
+![Red dragon](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/red_dragon/red_dragon.png?raw=true)

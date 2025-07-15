@@ -39,4 +39,4 @@ St:1 Dx:7 Co:12 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Green mold](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/green_mold/green_mold.png)
+![Green mold](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/green_mold/green_mold.png?raw=true)

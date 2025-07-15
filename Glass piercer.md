@@ -37,4 +37,4 @@ St:12 Dx:10 Co:12 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Glass piercer](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/glass_piercer/glass_piercer.png)
+![Glass piercer](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/glass_piercer/glass_piercer.png?raw=true)

@@ -39,4 +39,4 @@ St:15 Dx:15 Co:15 In:18 Wi:18 Ch:18
 
 ## Picture
 
-![Shaman Karnov](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/shaman_karnov/shaman_karnov.png)
+![Shaman Karnov](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/shaman_karnov/shaman_karnov.png?raw=true)

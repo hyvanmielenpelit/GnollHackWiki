@@ -40,4 +40,4 @@ St:18/76 Dx:14 Co:18 In:9 Wi:10 Ch:11
 
 ## Picture
 
-![Watch captain](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/watch_captain/watch_captain.png) ![Watch captain](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/watch_captain/watch_captain_female.png)
+![Watch captain](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/watch_captain/watch_captain.png?raw=true) ![Watch captain](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/watch_captain/watch_captain_female.png?raw=true)

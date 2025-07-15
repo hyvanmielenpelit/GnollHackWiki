@@ -48,4 +48,4 @@ St:19 Dx:14 Co:23 In:12 Wi:20 Ch:14
 
 ## Picture
 
-![Greater mummy high priest](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/greater_mummy_high_priest/greater_mummy_high_priest.png)
+![Greater mummy high priest](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/greater_mummy_high_priest/greater_mummy_high_priest.png?raw=true)

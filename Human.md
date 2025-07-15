@@ -38,4 +38,4 @@ St:9 Dx:9 Co:9 In:10 Wi:10 Ch:10
 
 ## Picture
 
-![Human](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/human/human.png?raw=true) ![Human](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/human/human_female.png)
+![Human](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/human/human.png?raw=true) ![Human](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/human/human_female.png?raw=true)

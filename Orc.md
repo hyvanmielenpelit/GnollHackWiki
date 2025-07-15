@@ -39,4 +39,4 @@ St:16 Dx:12 Co:15 In:8 Wi:7 Ch:7
 
 ## Picture
 
-![Orc](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/orc/orc.png?raw=true) ![Orc](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/orc/orc_female.png)
+![Orc](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/orc/orc.png?raw=true) ![Orc](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/orc/orc_female.png?raw=true)

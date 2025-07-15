@@ -38,4 +38,4 @@ St:8 Dx:10 Co:9 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Rock piercer](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/rock_piercer/rock_piercer.png)
+![Rock piercer](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/rock_piercer/rock_piercer.png?raw=true)

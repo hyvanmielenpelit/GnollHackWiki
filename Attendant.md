@@ -39,4 +39,4 @@ St:9 Dx:9 Co:9 In:15 Wi:15 Ch:9
 
 ## Picture
 
-![Attendant](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/attendant/attendant.png?raw=true) ![Attendant](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/attendant/attendant_female.png)
+![Attendant](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/attendant/attendant.png?raw=true) ![Attendant](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/attendant/attendant_female.png?raw=true)

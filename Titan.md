@@ -43,4 +43,4 @@ St:25 Dx:18 Co:24 In:19 Wi:19 Ch:24
 
 ## Picture
 
-![Titan](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/titan/titan.png?raw=true) ![Titan](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/titan/titan_female.png)
+![Titan](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/titan/titan.png?raw=true) ![Titan](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/titan/titan_female.png?raw=true)

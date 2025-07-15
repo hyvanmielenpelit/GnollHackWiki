@@ -36,4 +36,4 @@ St:12 Dx:10 Co:12 In:2 Wi:2 Ch:1
 
 ## Picture
 
-![Baby crocodile](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/baby_crocodile/baby_crocodile.png)
+![Baby crocodile](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/baby_crocodile/baby_crocodile.png?raw=true)

@@ -44,4 +44,4 @@ St:25 Dx:15 Co:22 In:19 Wi:18 Ch:19
 
 ## Picture
 
-![Ancient black dragon](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/ancient_black_dragon/ancient_black_dragon.png)
+![Ancient black dragon](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/ancient_black_dragon/ancient_black_dragon.png?raw=true)

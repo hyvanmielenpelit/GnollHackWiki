@@ -44,4 +44,4 @@ St:18 Dx:3 Co:14 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Gnoll zombie](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/gnoll_zombie/gnoll_zombie.png)
+![Gnoll zombie](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/gnoll_zombie/gnoll_zombie.png?raw=true)

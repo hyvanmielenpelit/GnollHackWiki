@@ -45,4 +45,4 @@ St:22 Dx:3 Co:16 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Giant zombie](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/giant_zombie/giant_zombie.png) ![Giant zombie](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/giant_zombie/giant_zombie_female.png)
+![Giant zombie](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/giant_zombie/giant_zombie.png?raw=true) ![Giant zombie](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/giant_zombie/giant_zombie_female.png?raw=true)

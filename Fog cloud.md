@@ -44,4 +44,4 @@ St:9 Dx:9 Co:9 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Fog cloud](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/fog_cloud/fog_cloud.png)
+![Fog cloud](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/fog_cloud/fog_cloud.png?raw=true)

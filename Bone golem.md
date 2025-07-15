@@ -40,4 +40,4 @@ St:18/91 Dx:7 Co:17 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Bone golem](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/bone_golem/bone_golem.png)
+![Bone golem](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/bone_golem/bone_golem.png?raw=true)

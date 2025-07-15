@@ -49,4 +49,4 @@ St:1 Dx:12 Co:14 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Yellow light](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/yellow_light/yellow_light.png)
+![Yellow light](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/yellow_light/yellow_light.png?raw=true)

@@ -45,4 +45,4 @@ St:19 Dx:14 Co:20 In:6 Wi:12 Ch:10
 
 ## Picture
 
-![Elder fire elemental](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/elder_fire_elemental/elder_fire_elemental.png)
+![Elder fire elemental](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/elder_fire_elemental/elder_fire_elemental.png?raw=true)

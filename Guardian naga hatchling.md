@@ -38,4 +38,4 @@ St:18/31 Dx:15 Co:14 In:11 Wi:12 Ch:9
 
 ## Picture
 
-![Guardian naga hatchling](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/guardian_naga_hatchling/guardian_naga_hatchling.png)
+![Guardian naga hatchling](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/guardian_naga_hatchling/guardian_naga_hatchling.png?raw=true)

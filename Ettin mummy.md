@@ -48,4 +48,4 @@ St:21 Dx:8 Co:15 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Ettin mummy](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/ettin_mummy/ettin_mummy.png)
+![Ettin mummy](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/ettin_mummy/ettin_mummy.png?raw=true)

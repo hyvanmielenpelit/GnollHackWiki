@@ -50,4 +50,4 @@ St:18/** Dx:14 Co:14 In:18 Wi:15 Ch:16
 
 ## Picture
 
-![Vampire mage](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/vampire_mage/vampire_mage.png) ![Vampire mage](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/vampire_mage/vampire_mage_female.png)
+![Vampire mage](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/vampire_mage/vampire_mage.png?raw=true) ![Vampire mage](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/vampire_mage/vampire_mage_female.png?raw=true)

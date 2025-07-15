@@ -40,4 +40,4 @@ St:1 Dx:7 Co:15 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Red mold](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/red_mold/red_mold.png)
+![Red mold](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/red_mold/red_mold.png?raw=true)

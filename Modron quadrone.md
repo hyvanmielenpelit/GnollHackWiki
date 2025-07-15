@@ -38,4 +38,4 @@ St:17 Dx:14 Co:14 In:12 Wi:12 Ch:12
 
 ## Picture
 
-![Modron quadrone](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/modron_quadrone/modron_quadrone.png)
+![Modron quadrone](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/modron_quadrone/modron_quadrone.png?raw=true)

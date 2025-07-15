@@ -47,4 +47,4 @@ St:20 Dx:9 Co:23 In:13 Wi:9 Ch:1
 
 ## Picture
 
-![Chaos mimic](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/chaos_mimic/chaos_mimic.png)
+![Chaos mimic](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/chaos_mimic/chaos_mimic.png?raw=true)

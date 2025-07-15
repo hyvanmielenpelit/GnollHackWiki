@@ -37,4 +37,4 @@ St:15 Dx:12 Co:14 In:9 Wi:8 Ch:7
 
 ## Picture
 
-![Gnoll](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/gnoll/gnoll.png?raw=true) ![Gnoll](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/gnoll/gnoll_female.png)
+![Gnoll](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/gnoll/gnoll.png?raw=true) ![Gnoll](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/gnoll/gnoll_female.png?raw=true)

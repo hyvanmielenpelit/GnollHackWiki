@@ -37,4 +37,4 @@ St:18 Dx:14 Co:18 In:14 Wi:14 Ch:9
 
 ## Picture
 
-![Orange dragon hatchling](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/orange_dragon_hatchling/orange_dragon_hatchling.png)
+![Orange dragon hatchling](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/orange_dragon_hatchling/orange_dragon_hatchling.png?raw=true)

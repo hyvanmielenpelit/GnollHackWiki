@@ -51,4 +51,4 @@ St:12 Dx:7 Co:20 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Gelatinous cube](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/gelatinous_cube/gelatinous_cube.png)
+![Gelatinous cube](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/gelatinous_cube/gelatinous_cube.png?raw=true)

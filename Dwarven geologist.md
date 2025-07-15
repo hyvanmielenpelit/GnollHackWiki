@@ -42,4 +42,4 @@ St:18 Dx:18 Co:18 In:14 Wi:18 Ch:14
 
 ## Picture
 
-![Dwarven geologist](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/dwarven_geologist/dwarven_geologist.png) ![Dwarven geologist](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/dwarven_geologist/dwarven_geologist_female.png)
+![Dwarven geologist](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/dwarven_geologist/dwarven_geologist.png?raw=true) ![Dwarven geologist](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/dwarven_geologist/dwarven_geologist_female.png?raw=true)

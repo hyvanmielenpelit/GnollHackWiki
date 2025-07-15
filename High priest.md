@@ -48,4 +48,4 @@ St:18 Dx:16 Co:18 In:16 Wi:19 Ch:20
 
 ## Picture
 
-![High priest](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/high_priest/high_priest.png) ![High priestess](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/high_priest/high_priest_female.png)
+![High priest](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/high_priest/high_priest.png?raw=true) ![High priestess](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/high_priest/high_priest_female.png?raw=true)

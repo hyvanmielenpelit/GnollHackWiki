@@ -39,4 +39,4 @@ St:18/31 Dx:12 Co:16 In:9 Wi:10 Ch:9
 
 ## Picture
 
-![Watchman](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/watchman/watchman.png?raw=true) ![Watchwoman](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/watchman/watchman_female.png)
+![Watchman](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/watchman/watchman.png?raw=true) ![Watchwoman](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/watchman/watchman_female.png?raw=true)

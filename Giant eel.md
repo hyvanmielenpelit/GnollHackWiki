@@ -39,4 +39,4 @@ St:18/** Dx:15 Co:15 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Giant eel](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/giant_eel/giant_eel.png)
+![Giant eel](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/giant_eel/giant_eel.png?raw=true)

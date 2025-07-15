@@ -39,4 +39,4 @@ St:8 Dx:10 Co:12 In:6 Wi:5 Ch:5
 
 ## Picture
 
-![Large kobold](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/large_kobold/large_kobold.png)
+![Large kobold](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/large_kobold/large_kobold.png?raw=true)

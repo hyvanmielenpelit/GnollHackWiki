@@ -39,4 +39,4 @@ St:9 Dx:9 Co:9 In:15 Wi:15 Ch:9
 
 ## Picture
 
-![Student](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/student/student.png?raw=true) ![Student](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/student/student_female.png)
+![Student](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/student/student.png?raw=true) ![Student](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/student/student_female.png?raw=true)

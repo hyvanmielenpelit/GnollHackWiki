@@ -36,4 +36,4 @@ St:6 Dx:9 Co:9 In:2 Wi:2 Ch:1
 
 ## Picture
 
-![Hell hound pup](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/hell_hound_pup/hell_hound_pup.png)
+![Hell hound pup](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/hell_hound_pup/hell_hound_pup.png?raw=true)

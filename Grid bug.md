@@ -34,4 +34,4 @@ St:1 Dx:7 Co:1 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Grid bug](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/grid_bug/grid_bug.png)
+![Grid bug](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/grid_bug/grid_bug.png?raw=true)

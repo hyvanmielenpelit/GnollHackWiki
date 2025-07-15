@@ -40,4 +40,4 @@ St:10 Dx:18 Co:10 In:10 Wi:9 Ch:9
 
 ## Picture
 
-![Rogue](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/rogue/rogue.png?raw=true) ![Rogue](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/rogue/rogue_female.png)
+![Rogue](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/rogue/rogue.png?raw=true) ![Rogue](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/rogue/rogue_female.png?raw=true)

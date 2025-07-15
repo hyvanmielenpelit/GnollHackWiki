@@ -43,4 +43,4 @@ St:21 Dx:16 Co:20 In:19 Wi:16 Ch:18
 
 ## Picture
 
-![White dragon](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/white_dragon/white_dragon.png)
+![White dragon](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/white_dragon/white_dragon.png?raw=true)

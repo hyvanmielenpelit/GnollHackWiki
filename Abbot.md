@@ -41,4 +41,4 @@ St:15 Dx:15 Co:15 In:16 Wi:16 Ch:16
 
 ## Picture
 
-![Abbot](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/abbot/abbot.png?raw=true) ![Abbess](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/abbot/abbot_female.png)
+![Abbot](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/abbot/abbot.png?raw=true) ![Abbess](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/abbot/abbot_female.png?raw=true)

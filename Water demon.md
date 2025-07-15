@@ -44,4 +44,4 @@ St:17 Dx:12 Co:14 In:12 Wi:9 Ch:9
 
 ## Picture
 
-![Water demon](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/water_demon/water_demon.png)
+![Water demon](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/water_demon/water_demon.png?raw=true)

@@ -41,4 +41,4 @@ St:22 Dx:16 Co:20 In:3 Wi:3 Ch:1
 
 ## Picture
 
-![Giant anaconda](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/giant_anaconda/giant_anaconda.png)
+![Giant anaconda](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/giant_anaconda/giant_anaconda.png?raw=true)

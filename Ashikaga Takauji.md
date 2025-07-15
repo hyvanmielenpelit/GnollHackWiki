@@ -42,4 +42,4 @@ St:18/** Dx:18 Co:18 In:18 Wi:18 Ch:15
 
 ## Picture
 
-![Ashikaga Takauji](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/ashikaga_takauji/ashikaga_takauji.png)
+![Ashikaga Takauji](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/ashikaga_takauji/ashikaga_takauji.png?raw=true)

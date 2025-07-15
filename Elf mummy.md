@@ -46,4 +46,4 @@ St:18 Dx:8 Co:14 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Elf mummy](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/elf_mummy/elf_mummy.png)
+![Elf mummy](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/elf_mummy/elf_mummy.png?raw=true)

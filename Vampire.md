@@ -49,4 +49,4 @@ St:18/** Dx:14 Co:15 In:15 Wi:13 Ch:16
 
 ## Picture
 
-![Vampire](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/vampire/vampire.png?raw=true) ![Vampire](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/vampire/vampire_female.png)
+![Vampire](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/vampire/vampire.png?raw=true) ![Vampire](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/vampire/vampire_female.png?raw=true)

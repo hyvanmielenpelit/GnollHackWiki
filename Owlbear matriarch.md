@@ -38,4 +38,4 @@ St:18/** Dx:14 Co:18 In:3 Wi:22 Ch:9
 
 ## Picture
 
-![Owlbear matriarch](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/owlbear_matriarch/owlbear_matriarch.png)
+![Owlbear matriarch](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/owlbear_matriarch/owlbear_matriarch.png?raw=true)

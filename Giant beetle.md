@@ -35,4 +35,4 @@ St:12 Dx:9 Co:12 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Giant beetle](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/giant_beetle/giant_beetle.png)
+![Giant beetle](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/giant_beetle/giant_beetle.png?raw=true)

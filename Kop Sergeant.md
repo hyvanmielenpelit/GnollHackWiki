@@ -37,4 +37,4 @@ St:18 Dx:12 Co:15 In:10 Wi:9 Ch:9
 
 ## Picture
 
-![Kop Sergeant](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/kop_sergeant/kop_sergeant.png)
+![Kop Sergeant](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/kop_sergeant/kop_sergeant.png?raw=true)

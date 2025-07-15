@@ -41,4 +41,4 @@ St:8 Dx:15 Co:12 In:10 Wi:11 Ch:11
 
 ## Picture
 
-![Nurse](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/nurse/nurse.png?raw=true) ![Nurse](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/nurse/nurse_female.png)
+![Nurse](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/nurse/nurse.png?raw=true) ![Nurse](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/nurse/nurse_female.png?raw=true)

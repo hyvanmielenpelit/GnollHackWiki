@@ -44,4 +44,4 @@ St:15 Dx:15 Co:15 In:16 Wi:13 Ch:18
 
 ## Picture
 
-![Incubus](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/incubus/incubus.png?raw=true) ![Succubus](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/incubus/incubus_female.png)
+![Incubus](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/incubus/incubus.png?raw=true) ![Succubus](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/incubus/incubus_female.png?raw=true)

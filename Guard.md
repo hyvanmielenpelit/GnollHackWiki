@@ -38,4 +38,4 @@ St:18/51 Dx:12 Co:16 In:9 Wi:10 Ch:9
 
 ## Picture
 
-![Guard](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/guard/guard.png?raw=true) ![Guard](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/guard/guard_female.png)
+![Guard](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/guard/guard.png?raw=true) ![Guard](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/guard/guard_female.png?raw=true)

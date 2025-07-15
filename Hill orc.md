@@ -39,4 +39,4 @@ St:17 Dx:13 Co:16 In:8 Wi:7 Ch:7
 
 ## Picture
 
-![Hill orc](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/hill_orc/hill_orc.png) ![Hill orc](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/hill_orc/hill_orc_female.png)
+![Hill orc](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/hill_orc/hill_orc.png?raw=true) ![Hill orc](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/hill_orc/hill_orc_female.png?raw=true)

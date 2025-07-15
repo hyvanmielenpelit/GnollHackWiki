@@ -36,4 +36,4 @@ St:1 Dx:18 Co:8 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Killer bee](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/killer_bee/killer_bee.png)
+![Killer bee](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/killer_bee/killer_bee.png?raw=true)

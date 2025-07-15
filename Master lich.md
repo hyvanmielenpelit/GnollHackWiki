@@ -45,4 +45,4 @@ St:17 Dx:11 Co:16 In:24 Wi:18 Ch:15
 
 ## Picture
 
-![Master lich](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/master_lich/master_lich.png)
+![Master lich](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/master_lich/master_lich.png?raw=true)

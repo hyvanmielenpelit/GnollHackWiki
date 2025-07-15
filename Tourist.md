@@ -40,4 +40,4 @@ St:8 Dx:14 Co:8 In:12 Wi:13 Ch:14
 
 ## Picture
 
-![Tourist](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/tourist/tourist.png?raw=true) ![Tourist](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/tourist/tourist_female.png)
+![Tourist](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/tourist/tourist.png?raw=true) ![Tourist](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/tourist/tourist_female.png?raw=true)

@@ -48,4 +48,4 @@ St:15 Dx:7 Co:17 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Black pudding](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/black_pudding/black_pudding.png)
+![Black pudding](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/black_pudding/black_pudding.png?raw=true)

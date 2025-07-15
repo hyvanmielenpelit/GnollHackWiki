@@ -41,4 +41,4 @@ St:12 Dx:7 Co:12 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Blue jelly](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/blue_jelly/blue_jelly.png)
+![Blue jelly](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/blue_jelly/blue_jelly.png?raw=true)

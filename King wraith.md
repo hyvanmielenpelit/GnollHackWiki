@@ -45,4 +45,4 @@ St:18 Dx:16 Co:18 In:14 Wi:10 Ch:5
 
 ## Picture
 
-![King wraith](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/king_wraith/king_wraith.png) ![Queen wraith](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/king_wraith/king_wraith_female.png)
+![King wraith](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/king_wraith/king_wraith.png?raw=true) ![Queen wraith](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/king_wraith/king_wraith_female.png?raw=true)

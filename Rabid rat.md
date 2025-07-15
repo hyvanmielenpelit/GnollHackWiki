@@ -34,4 +34,4 @@ St:3 Dx:9 Co:3 In:2 Wi:2 Ch:1
 
 ## Picture
 
-![Rabid rat](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/rabid_rat/rabid_rat.png)
+![Rabid rat](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/rabid_rat/rabid_rat.png?raw=true)

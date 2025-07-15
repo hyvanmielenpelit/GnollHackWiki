@@ -40,4 +40,4 @@ St:17 Dx:15 Co:17 In:9 Wi:9 Ch:10
 
 ## Picture
 
-![Samurai](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/samurai/samurai.png?raw=true) ![Samurai](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/samurai/samurai_female.png)
+![Samurai](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/samurai/samurai.png?raw=true) ![Samurai](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/samurai/samurai_female.png?raw=true)

@@ -36,4 +36,4 @@ St:18/95 Dx:10 Co:21 In:9 Wi:8 Ch:9
 
 ## Picture
 
-![Ogre lord](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/ogre_lord/ogre_lord.png) ![Ogre lady](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/ogre_lord/ogre_lord_female.png)
+![Ogre lord](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/ogre_lord/ogre_lord.png?raw=true) ![Ogre lady](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/ogre_lord/ogre_lord_female.png?raw=true)
