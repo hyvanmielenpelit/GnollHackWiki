@@ -97,6 +97,7 @@ GnollHack is an open-source game, based on NetHack's source code. This means tha
 
 - **[[Art Contribution Guidelines]]** — Read this if you want to contribute art to GnollHack
 - **[[Code Contribution Guidelines]]** — Read this if you want to contribute code to GnollHack
+- **[[Editing Wiki with Visual Studio Code]]** — How to edit GnollHack Wiki using Visual Studio Code
 
 ## Contact Us
 
