@@ -8,7 +8,7 @@
 
 - [Foam](https://marketplace.visualstudio.com/items?itemName=foam.foam-vscode)
 - [Markdown Preview Enhanced]( https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)
-- [Mark All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
+- [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
 
 ### Add Workspace Settings
 
