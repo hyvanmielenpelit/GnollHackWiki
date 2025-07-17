@@ -1,1 +1,0 @@
-# GnollHack Wiki
