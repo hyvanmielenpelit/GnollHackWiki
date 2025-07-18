@@ -12,7 +12,7 @@
 
 ### Add Workspace Settings
 
-1. **Open Workspace Settings (JSON)** by clicking **Shift+Ctrl+P** and searching for it.
+1. **Open Workspace Settings (JSON)** by clicking **Ctrl+Shift+P** and searching for it.
 2. Add the following configuration there (to upload files under `/upload/`):
     ```
     "markdown.copyFiles.destination": {
@@ -22,10 +22,10 @@
 
 ### Add User Settings (Optional)
 
-Click **Shift+Ctrl+P** and search for:
+Click **Ctrl+Shift+P** and search for:
 
-- **Markdown All in One: Toggle Code Span**, and click the gear icon and set its key binding to **Shift+Win+C**.
-- **Markdown All in One: Toggle Code Block**, and click the gear icon and set its key binding to **Alt+Win+C**.
+- **Markdown All in One: Toggle Code Span**, and click the gear icon and set its key binding to **Win+Shift+C**.
+- **Markdown All in One: Toggle Code Block**, and click the gear icon and set its key binding to **Win+Alt+C**.
 
 ## How-To-Do Guide
 
