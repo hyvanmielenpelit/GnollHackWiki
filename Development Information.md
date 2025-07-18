@@ -83,6 +83,7 @@ As of March 26, 2025, .NET MAUI mobile ports are fully functional but not yet de
 * [[Release Checklist]]
 * [[SkiaSharp Build Instructions]]
 * [[Installing MSIX Packages on Windows 10 and 11]]
+* [[Native Libraries]]
 
 ### .NET MAUI
 
