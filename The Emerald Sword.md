@@ -16,9 +16,8 @@
 1. Alignment is neutral
 2. Artifact damage type is physical damage
 3. Artifact to-hit bonus is 1d5
-4. Artifact deals double normal damage
+4. Artifact deals 1.50 times normal damage
 5. Monsters can track the artifact
 6. Angers demons on sight
 7. Reflection when wielded
-8. Raises wisdom to 25 when wielded
-9. Hallucination resistance when carried
+8. Hallucination resistance when carried
