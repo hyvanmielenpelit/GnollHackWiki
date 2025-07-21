@@ -94,3 +94,9 @@ You can create a new Markdown page by **holding Ctrl down while clicking a wiki 
 1. Commit changes using the Source Control view.
 2. Sync them.
 3. If you updated the GnollHack Wiki repository directly, it takes up to 5 minutes for the changes to appear online.
+
+## Problems
+
+### Gollum-Style Wiki Links With Alias Not Supported
+
+Gollum (the wiki software) expects **wiki links with an alias** to have the syntax of `[[Alias|Page Name]]` while the Foam extension uses the syntax of `[[Page Name|Alias]]`. Therefore, wiki links with an alias cannot be previewed correctly in Visual Studio Code.
