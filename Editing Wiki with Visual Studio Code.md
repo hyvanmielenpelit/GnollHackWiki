@@ -1,4 +1,4 @@
-## Installation
+## Visual Studio Code Installation
 
 ### Install Visual Studio Code
 
@@ -20,22 +20,68 @@
     }
     ```
 
-### Add User Settings (Optional)
+### Add User Settings
+
+1. **Open User Settings (JSON)** by clicking **Ctrl+Shift+P** and searching for it.
+2. Add the following setting to the file:
+    ```
+    "markdown.extension.preview.autoShowPreviewToSide": true
+    ```
+    It will open the Markdown preview to the side.
+
+### Add Shortcuts to User Settings (Optional)
 
 Click **Ctrl+Shift+P** and search for:
 
 - **Markdown All in One: Toggle Code Span**, and click the gear icon and set its key binding to **Win+Shift+C**.
 - **Markdown All in One: Toggle Code Block**, and click the gear icon and set its key binding to **Win+Alt+C**.
 
+## Accessing the Repository
+
+### Install Git
+
+1. [Download Git](https://git-scm.com/downloads). 
+2. Install Git.
+
+### Install GitHub Desktop (Optional)
+
+You can also install [GitHub Desktop](https://desktop.github.com/download/) for a GUI.
+
+### Cloning Repository
+
+*(Use these instructions if you have write rights to the GnollHack Wiki repository. They can be granted by Sound Mind Games admins.)*
+
+1. Open your terminal (e.g. PowerShell or bash).
+2. Go to the directory under which you want to clone GnollHack wiki, e.g. type `cd C:\repos`. If the directory does not exist, you must create it.
+3. Type `git clone https://github.com/hyvanmielenpelit/GnollHackWiki.git` and press Enter.
+4. GnollHack wiki should now install to the `GnollHackWiki` subdirectory.
+
+### Forking Repository and Making Pull Request
+
+*(Use these instructions if you **don't** have write rights to the GnollHack Wiki repository but you want to do a contribution.)*
+
+1. Go to the [GnollHackWiki repository](https://github.com/hyvanmielenpelit/GnollHackWiki) on GitHub.
+2. Fork the repository by clicking the **Fork badge**. <br />
+   <img src="uploads/Editing Wiki with Visual Studio Code/github-fork.png" alt="GitHub Fork" height="36" />
+3. [Clone the forked repository to the local machine](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
+4. Make changes and commit them.
+5. Push changes the forked repository.
+6. Make a pull request to the GnollHack Wiki repository from the forked repository on GitHub.
+
+You can read more about forking repositories and making pull requests in GitHub documentation: [Creating a pull request from a fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork).
+
 ## How-To-Do Guide
+
+### Quickly Open File by Searching
+
+1. Click **Ctrl+G**.
+2. Delete `:` in the prompt by pressing **backspace**.
+3. Start to write the page name to the prompt.
+4. Select the right page.
 
 ### Creating New Page from Wiki Link
 
 You can create a new Markdown page by **holding Ctrl down while clicking a wiki link** (e.g. `[[New Page]]`).
-
-### Open Preview Pane
-
-Click **Ctrl+Shift+V**.
 
 ### Add File or Image
 
@@ -48,22 +94,4 @@ Click **Ctrl+Shift+V**.
 
 1. Commit changes using the Source Control view.
 2. Sync them.
-3. It takes up to 5 minutes for them to appear online.
-
-## Forking GnollHack Wiki Repository and Making Pull Request
-
-If you have no write rights to the [GnollHack Wiki repository](https://github.com/hyvanmielenpelit/GnollHackWiki), before making changes you should:
-
-1. Fork the [GnollHack Wiki repository](https://github.com/hyvanmielenpelit/GnollHackWiki) on GitHub.
-2. [Install Git on the local machine](https://git-scm.com/downloads). 
-   - You can also install [GitHub Desktop](https://desktop.github.com/download/) for a GUI.
-3. [Clone the forked repository to the local machine](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
-4. Make changes and commit them.
-5. Push changes the forked repository.
-6. Make a pull request to the GnollHack Wiki repository from the forked repository on GitHub.
-
-### Additional Information
-
-You can read more about forking repositories and making pull requests in GitHub documentation:
-
-- [Creating a pull request from a fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork)
+3. If you updated the GnollHack Wiki repository directly, it takes up to 5 minutes for the changes to appear online.
