@@ -12,10 +12,11 @@ Most typical special materials give the following effects:
     - -1 AC for all armor types
 - Silver:
     - No effect, but special material against demons etc.
-- Crystal: 
+- Hard crystal: 
     - Reflection for body armors
     - 4/3 added enchantability
-    - 25% spell casting penalty reduction for body armors and 5% for other armor types
+    - 0.2x spell casting penalty multiplier
+    - Additional 30% spell casting penalty reduction for body armors
 - Gemstone: 
     - -4 AC for body armors
     - -3 AC for other armor types
@@ -33,7 +34,8 @@ Most typical special materials give the following effects:
     - -3 AC and +2 MC for body armors
     - -2 AC and +1 MC for other armor types
     - Bisection resistance for body armors
-    - 5% spell casting penalty reduction for body armors
+    - 0.9x spell casting penalty multiplier
+    - Additional 30% spell casting penalty reduction for body armors
     - Half normal weight
     - 4/3 added enchantability
 - Adamantium: 
