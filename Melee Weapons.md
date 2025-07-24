@@ -2,48 +2,48 @@
 
 These are mostly unchanged from NetHack and new ones don't have many special properties, except for 1d20 silver damage.
 
-- [[Spear]] — *See note 1 below*
-- [[Elven spear]] — *See note 1 below*
-- [[Orcish spear]] — *See note 1 below*
-- [[Dwarvish spear]] — *See note 1 below*
-- [[Trident]] — This is a spear, *see note 1 below*
-- [[Fork]] — This is a spear, *see note 1 below*, 1d20 silver damage
-- [[Dagger]] — *See note 2 below*
-- [[Elven dagger]] — *See note 2 below*
-- [[Orcish dagger]] — *See note 2 below*
-- [[Main-gauche]] — Left-hand dagger, *see note 2 below*
-- [[Athame]] — Dagger, can be used for engraving without dulling, can be thrown
-- [[Scalpel]] — Dagger, [[healer]] starting weapon
-- [[Knife]] – Dagger, *see note 2 below*
-- [[Stiletto]] – Dagger, *see note 2 below*
-- [[Worm tooth]] — Dagger, can be enchanted to crysknife, *see note 2 below*
-- [[Crysknife]] — Dagger, can be enchanted from worm tooth, does not revert back to worm tooth in GnollHack, *see note 2 below*
-- [[Axe]] – *See note 3 below*
-- [[Dwarvish axe]] – *See note 3 below*
-- [[Battle-axe]] – *See note 3 below*
-- [[Short sword]]
-- [[Elven short sword]]
-- [[Orcish short sword]]
-- [[Dwarvish short sword]]
-- [[Scimitar]]
-- [[Silver saber]] — 1d20 silver damage
-- [[Broadsword]]
-- [[Elven broadsword]]
-- [[Long sword]]
-- [[Two-handed sword]]
-- [[Katana]]
-- [[Lance]] — Lance use the *spear skill*, it can be applied to joust while riding
-- [[Dwarvish mattock]] — This is a two-handed pick-axe, it can be applied to cut rock
-- [[Pick-axe]] — Can be applied to cut rock
-- [[Mace]]
-- [[Morning star]] — Uses the *flail skill*
-- [[War hammer]]
-- [[Club]]
-- [[Two-handed club]]
-- [[Rubber hose]]
-- [[Quarterstaff]]
-- [[Flail]]
-- [[Bullwhip]] — Can be applied to disarm opponents
+- [[/Items/Spear]] — *See note 1 below*
+- [[/Items/Elven spear]] — *See note 1 below*
+- [[/Items/Orcish spear]] — *See note 1 below*
+- [[/Items/Dwarvish spear]] — *See note 1 below*
+- [[/Items/Trident]] — This is a spear, *see note 1 below*
+- [[/Items/Fork]] — This is a spear, *see note 1 below*, 1d20 silver damage
+- [[/Items/Dagger]] — *See note 2 below*
+- [[/Items/Elven dagger]] — *See note 2 below*
+- [[/Items/Orcish dagger]] — *See note 2 below*
+- [[/Items/Main-gauche]] — Left-hand dagger, *see note 2 below*
+- [[/Items/Athame]] — Dagger, can be used for engraving without dulling, can be thrown
+- [[/Items/Scalpel]] — Dagger, [[/Roles/healer]] starting weapon
+- [[/Items/Knife]] – Dagger, *see note 2 below*
+- [[/Items/Stiletto]] – Dagger, *see note 2 below*
+- [[/Items/Worm tooth]] — Dagger, can be enchanted to crysknife, *see note 2 below*
+- [[/Items/Crysknife]] — Dagger, can be enchanted from worm tooth, does not revert back to worm tooth in GnollHack, *see note 2 below*
+- [[/Items/Axe]] – *See note 3 below*
+- [[/Items/Dwarvish axe]] – *See note 3 below*
+- [[/Items/Battle-axe]] – *See note 3 below*
+- [[/Items/Short sword]]
+- [[/Items/Elven short sword]]
+- [[/Items/Orcish short sword]]
+- [[/Items/Dwarvish short sword]]
+- [[/Items/Scimitar]]
+- [[/Items/Silver saber]] — 1d20 silver damage
+- [[/Items/Broadsword]]
+- [[/Items/Elven broadsword]]
+- [[/Items/Long sword]]
+- [[/Items/Two-handed sword]]
+- [[/Items/Katana]]
+- [[/Items/Lance]] — Lance use the *spear skill*, it can be applied to joust while riding
+- [[/Items/Dwarvish mattock]] — This is a two-handed pick-axe, it can be applied to cut rock
+- [[/Items/Pick-axe]] — Can be applied to cut rock
+- [[/Items/Mace]]
+- [[/Items/Morning star]] — Uses the *flail skill*
+- [[/Items/War hammer]]
+- [[/Items/Club]]
+- [[/Items/Two-handed club]]
+- [[/Items/Rubber hose]]
+- [[/Items/Quarterstaff]]
+- [[/Items/Flail]]
+- [[/Items/Bullwhip]] — Can be applied to disarm opponents
 
 ### Simple Melee Weapon Modifiers
 
@@ -60,9 +60,9 @@ These are mostly unchanged from NetHack and new ones don't have many special pro
 
 ### Non-Magical Melee Weapons
 
-- [[Double-headed flail]]
-- [[Flindbar]]
-- [[Triple-headed flail]]
+- [[/Items/Double-headed flail]]
+- [[/Items/Flindbar]]
+- [[/Items/Triple-headed flail]]
 
 #### Non-Magical Melee Weapon Modifiers
 
@@ -71,16 +71,16 @@ These are mostly unchanged from NetHack and new ones don't have many special pro
 
 ### Magical Weapons
 
-- [[Glass sword]]
-- [[Staff of fire]]
-- [[Staff of frost]]
-- [[Staff of life]]
-- [[Staff of the magi]]
-- [[Staff of thunder and lightning]]
-- [[Staff of withering]]
-- [[Sword of holy vengeance]]
-- [[Sword of unholy desecration]]
-- [[Wraithblade]]
+- [[/Items/Glass sword]]
+- [[/Items/Staff of fire]]
+- [[/Items/Staff of frost]]
+- [[/Items/Staff of life]]
+- [[/Items/Staff of the magi]]
+- [[/Items/Staff of thunder and lightning]]
+- [[/Items/Staff of withering]]
+- [[/Items/Sword of holy vengeance]]
+- [[/Items/Sword of unholy desecration]]
+- [[/Items/Wraithblade]]
 
 #### Magical Melee Weapon Modifiers
 

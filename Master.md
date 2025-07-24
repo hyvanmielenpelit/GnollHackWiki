@@ -1,4 +1,0 @@
-- Monsters deal 130% of normal damage
-- You deal 73% of normal damage
-- A [[scroll of identify]] in the starting inventory
-- Lindisse, elven bard, has a 1/120 chance of appearing in the game on each dungeon level (beyond the first), unless there is a shop on the level

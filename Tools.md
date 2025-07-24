@@ -2,102 +2,102 @@
 
 ### Non-Magical Bags
 
-- [[Leather bag]]
-- [[Sack]]
-- [[Oilskin sack]] — Water-proof
-- [[Expensive handbag]]
-- [[Oriental silk sack]]
+- [[/Items/Leather bag]]
+- [[/Items/Sack]]
+- [[/Items/Oilskin sack]] — Water-proof
+- [[/Items/Expensive handbag]]
+- [[/Items/Oriental silk sack]]
 
 ### Magical Bags
 
-- [[Bag of holding]]
-- [[Bag of wizardry]]
-- [[Bag of treasure hauling]]
-- [[Bag of the glutton]]
+- [[/Items/Bag of holding]]
+- [[/Items/Bag of wizardry]]
+- [[/Items/Bag of treasure hauling]]
+- [[/Items/Bag of the glutton]]
 
 ### Non-Container Bags
 
-- [[Pouch of endless bolts]]
-- [[Bag of infinite sling bullets]]
-- [[Bag of tricks]]
-- [[Quiver of infinite arrows]]
+- [[/Items/Pouch of endless bolts]]
+- [[/Items/Bag of infinite sling bullets]]
+- [[/Items/Bag of tricks]]
+- [[/Items/Quiver of infinite arrows]]
 
 ## Lock Opening Tools
 
-- [[Skeleton key]]
-- [[Lock pick]]
-- [[Credit card]]
+- [[/Items/Skeleton key]]
+- [[/Items/Lock pick]]
+- [[/Items/Credit card]]
 
 ## Light Sources
 
-- [[Tallow candle]]
-- [[Wax candle]]
-- [[Magic candle]]
-- [[Brass lantern]]
-- [[Oil lamp]]
-- [[Magic lamp]]
-- [[Large five-branched candelabrum]]
+- [[/Items/Tallow candle]]
+- [[/Items/Wax candle]]
+- [[/Items/Magic candle]]
+- [[/Items/Brass lantern]]
+- [[/Items/Oil lamp]]
+- [[/Items/Magic lamp]]
+- [[/Items/Large five-branched candelabrum]]
 
 ## Jars and Cans
 
-- [[Can of grease]]
-- [[Jar of extra healing salve]]
-- [[Jar of greater healing salve]]
-- [[Jar of medicinal salve]]
-- [[Jar of prodigious healing salve]]
-- [[Jar of basilisk blood]]
+- [[/Items/Can of grease]]
+- [[/Items/Jar of extra healing salve]]
+- [[/Items/Jar of greater healing salve]]
+- [[/Items/Jar of medicinal salve]]
+- [[/Items/Jar of prodigious healing salve]]
+- [[/Items/Jar of basilisk blood]]
 
 ## Traps
 
-- [[Land mine]]
-- [[Beartrap]]
+- [[/Items/Land mine]]
+- [[/Items/Beartrap]]
 
 ## Instruments
 
-- [[Tin whistle]]
-- [[Magic whistle]]
-- [[Wooden flute]]
-- [[Magic flute]]
-- [[Brass horn]]
-- [[Tooled horn]]
-- [[Frost horn]]
-- [[Fire horn]]
-- [[Horn of chaos]]
-- [[Horn of plenty]]
-- [[Wooden harp]]
-- [[Magic harp]]
-- [[Bell]]
-- [[Bugle]]
-- [[Leather drum]]
-- [[Drum of earthquake]]
+- [[/Items/Tin whistle]]
+- [[/Items/Magic whistle]]
+- [[/Items/Wooden flute]]
+- [[/Items/Magic flute]]
+- [[/Items/Brass horn]]
+- [[/Items/Tooled horn]]
+- [[/Items/Frost horn]]
+- [[/Items/Fire horn]]
+- [[/Items/Horn of chaos]]
+- [[/Items/Horn of plenty]]
+- [[/Items/Wooden harp]]
+- [[/Items/Magic harp]]
+- [[/Items/Bell]]
+- [[/Items/Bugle]]
+- [[/Items/Leather drum]]
+- [[/Items/Drum of earthquake]]
 
 ## Digging and Cutting Tools
 
-- [[Pick-axe]]
-- [[Spade of colossal excavation]]
-- [[Saw of mighty cutting]]
+- [[/Items/Pick-axe]]
+- [[/Items/Spade of colossal excavation]]
+- [[/Items/Saw of mighty cutting]]
 
 ## Weapon Tools
 
-- [[Golf club]]
-- [[Grappling hook]]
+- [[/Items/Golf club]]
+- [[/Items/Grappling hook]]
 
 ## Healing Tools
 
-- [[Unicorn horn]]
+- [[/Items/Unicorn horn]]
 
 ## Other Tools
 
-- [[Expensive camera]]
-- [[Mirror]]
-- [[Holy symbol]]
-- [[Crystal ball]]
-- [[Blindfold]]
-- [[Towel]]
-- [[Saddle]]
-- [[Leash]]
-- [[Stethoscope]]
-- [[Tinning kit]]
-- [[Tin opener]]
-- [[Magic marker]]
-- [[Cubic gate]]
+- [[/Items/Expensive camera]]
+- [[/Items/Mirror]]
+- [[/Items/Holy symbol]]
+- [[/Items/Crystal ball]]
+- [[/Items/Blindfold]]
+- [[/Items/Towel]]
+- [[/Items/Saddle]]
+- [[/Items/Leash]]
+- [[/Items/Stethoscope]]
+- [[/Items/Tinning kit]]
+- [[/Items/Tin opener]]
+- [[/Items/Magic marker]]
+- [[/Items/Cubic gate]]

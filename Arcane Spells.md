@@ -1,60 +1,60 @@
 ## Minor Cantrip
 
-- [[Magic arrow]]
+- [[/Spells/Magic arrow]]
 
 ## Major Cantrip
 
-- [[Magic missile]]
+- [[/Spells/Magic missile]]
 
 ## Level 1
 
-- [[Force bolt]]
+- [[/Spells/Force bolt]]
 
 ## Level 2
 
-- [[Burning hands]]
-- [[Fire bolt]]
-- [[Magical implosion]]
+- [[/Spells/Burning hands]]
+- [[/Spells/Fire bolt]]
+- [[/Spells/Magical implosion]]
 
 ## Level 3
 
-- [[Fireball]]
-- [[Lightning bolt]]
-- [[Shocking touch]]
+- [[/Spells/Fireball]]
+- [[/Spells/Lightning bolt]]
+- [[/Spells/Shocking touch]]
 
 ## Level 4
 
-- [[Circle of magic]]
-- [[Freezing touch]]
+- [[/Spells/Circle of magic]]
+- [[/Spells/Freezing touch]]
 
 ## Level 5
 
-- [[Circle of fire]]
-- [[Cone of cold]]
-- [[Ice storm]]
+- [[/Spells/Circle of fire]]
+- [[/Spells/Cone of cold]]
+- [[/Spells/Ice storm]]
 
 ## Level 6
 
-- [[Circle of lightning]]
-- [[Fire storm]]
-- [[Greater magic missile]]
-- [[Incinerate]]
+- [[/Spells/Circle of lightning]]
+- [[/Spells/Fire storm]]
+- [[/Spells/Greater magic missile]]
+- [[/Spells/Incinerate]]
 
 ## Level 7
 
-- [[Circle of frost]]
-- [[Electrocute]]
-- [[Flame burst]]
-- [[Force strike]]
-- [[Thunderstorm]]
+- [[/Spells/Circle of frost]]
+- [[/Spells/Electrocute]]
+- [[/Spells/Flame burst]]
+- [[/Spells/Force strike]]
+- [[/Spells/Thunderstorm]]
 
 ## Level 8
 
-- [[Glacial grasp]]
-- [[Magic storm]]
-- [[Thunderstrike]]
+- [[/Spells/Glacial grasp]]
+- [[/Spells/Magic storm]]
+- [[/Spells/Thunderstrike]]
 
 ## Level 9
 
-- [[Greater frost ray]]
-- [[Meteor swarm]]
+- [[/Spells/Greater frost ray]]
+- [[/Spells/Meteor swarm]]

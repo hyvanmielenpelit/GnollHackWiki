@@ -1,9 +1,9 @@
 ## J
 
 
-- [[Jabberwock]]
-- [[Jackal]]
-- [[Jaguar]]
-- [[Jellyfish]]
-- [[Jubilex]]
-- [[Juggernaut]]
+- [[/Monsters/Jabberwock]]
+- [[/Monsters/Jackal]]
+- [[/Monsters/Jaguar]]
+- [[/Monsters/Jellyfish]]
+- [[/Monsters/Jubilex]]
+- [[/Monsters/Juggernaut]]

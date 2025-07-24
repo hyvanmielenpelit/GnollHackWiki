@@ -1,24 +1,24 @@
 ## Non-Magical Robes
 
-- [[Medieval robe]]
-- [[Wizard's robe]]
-- [[Clerical gown]]
-- [[Bathrobe]]
-- [[Tailored silk robe]]
-- [[Gnollish haircloth robe]]
-- [[Simple gown]]
-- [[Mummy wrapping]]
+- [[/Items/Medieval robe]]
+- [[/Items/Wizard's robe]]
+- [[/Items/Clerical gown]]
+- [[/Items/Bathrobe]]
+- [[/Items/Tailored silk robe]]
+- [[/Items/Gnollish haircloth robe]]
+- [[/Items/Simple gown]]
+- [[/Items/Mummy wrapping]]
 
 ## Magical Robes
 
-- [[Robe of protection]]
-- [[Robe of magic resistance]]
-- [[Gown of the archbishops]]
-- [[Robe of powerlessness]]
-- [[Robe of eyes]]
-- [[Robe of the archmagi]]
-- [[Robe of splendor]]
-- [[Robe of starry wisdom]]
+- [[/Items/Robe of protection]]
+- [[/Items/Robe of magic resistance]]
+- [[/Items/Gown of the archbishops]]
+- [[/Items/Robe of powerlessness]]
+- [[/Items/Robe of eyes]]
+- [[/Items/Robe of the archmagi]]
+- [[/Items/Robe of splendor]]
+- [[/Items/Robe of starry wisdom]]
 
 ## Notes
 

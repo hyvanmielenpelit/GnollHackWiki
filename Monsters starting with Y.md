@@ -1,10 +1,10 @@
 ## Y
 
 
-- [[Yacc]]
-- [[Yeenaghu]]
-- [[Yellow dragon]]
-- [[Yellow dragon hatchling]]
-- [[Yellow light]]
-- [[Yellow mold]]
-- [[Yeti]]
+- [[/Monsters/Yacc]]
+- [[/Monsters/Yeenaghu]]
+- [[/Monsters/Yellow dragon]]
+- [[/Monsters/Yellow dragon hatchling]]
+- [[/Monsters/Yellow light]]
+- [[/Monsters/Yellow mold]]
+- [[/Monsters/Yeti]]

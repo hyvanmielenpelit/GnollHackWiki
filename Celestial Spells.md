@@ -1,58 +1,58 @@
 ## Level 1
 
-- [[Summon celestial dove]]
+- [[/Spells/Summon celestial dove]]
 
 ## Level 2
 
-- [[Heavenly touch]]
+- [[/Spells/Heavenly touch]]
 
 ## Level 3
 
-- [[Summon celestial eagle]]
-- [[Sunlight beam]]
-- [[Turn undead]]
+- [[/Spells/Summon celestial eagle]]
+- [[/Spells/Sunlight beam]]
+- [[/Spells/Turn undead]]
 
 ## Level 4
 
-- [[Circle of sunlight]]
-- [[Heavenly serpent]]
-- [[Hold undead]]
+- [[/Spells/Circle of sunlight]]
+- [[/Spells/Heavenly serpent]]
+- [[/Spells/Hold undead]]
 
 ## Level 5
 
-- [[Celestial storm]]
+- [[/Spells/Celestial storm]]
 
 ## Level 6
 
-- [[Divine mount]]
-- [[Guardian angel]]
-- [[Power word blind]]
-- [[Touch of divinity]]
+- [[/Spells/Divine mount]]
+- [[/Spells/Guardian angel]]
+- [[/Spells/Power word blind]]
+- [[/Spells/Touch of divinity]]
 
 ## Level 7
 
-- [[Negate undeath]]
-- [[Ray of radiance]]
+- [[/Spells/Negate undeath]]
+- [[/Spells/Ray of radiance]]
 
 ## Level 8
 
-- [[Banish demon]]
-- [[Circle of radiance]]
-- [[Holy word]]
-- [[Summon archon]]
-- [[Summon gold dragon]]
+- [[/Spells/Banish demon]]
+- [[/Spells/Circle of radiance]]
+- [[/Spells/Holy word]]
+- [[/Spells/Summon archon]]
+- [[/Spells/Summon gold dragon]]
 
 ## Level 9
 
-- [[Obliterate]]
-- [[Wrath of god]]
+- [[/Spells/Obliterate]]
+- [[/Spells/Wrath of god]]
 
 ## Level 10
 
-- [[Divine intervention]]
-- [[Summon ancient gold dragon]]
+- [[/Spells/Divine intervention]]
+- [[/Spells/Summon ancient gold dragon]]
 
 ## Level 12
 
-- [[Call Bahamut]]
-- [[Heavenly army]]
+- [[/Spells/Call Bahamut]]
+- [[/Spells/Heavenly army]]

@@ -1,16 +1,16 @@
 ## Simple Helms
 
-- Cotton hood
-- Dented pot
-- Dwarvish iron helm
+- [[/Items/Cotton hood]]
+- [[/Items/Dented pot]]
+- [[/Items/Dwarvish helm]]
 - Elven leather helm
-- Fedora
-- Gnollish hood
-- Gnomish felt hat
-- Helmet
-- Leather hat
-- Orcish helm
-- Silk top hat
+- [[/Items/Fedora]]
+- [[/Items/Gnollish hood]]
+- [[/Items/Gnomish felt hat]]
+- [[/Items/Helmet]]
+- [[/Items/Leather hat]]
+- [[/Items/Orcish helm]]
+- [[/Items/Silk top hat]]
 
 Simple helms are mostly unchanged from NetHack, except that they may incur a spell casting penalty.
 - Leather helms: 0% spell casting penalty
@@ -18,12 +18,12 @@ Simple helms are mostly unchanged from NetHack, except that they may incur a spe
 
 ## Non-Magical Helms
 
-- [[Royal crown]]
+- [[/Items/Royal crown]]
 
 ## Magical Helms
 
-- [[Crown of rulership]]
-- [[Helm of brilliance]]
-- [[Helm of opposite alignment]]
-- [[Helm of telepathy]]
-- [[Tinfoil hat of mind shielding]]
+- [[/Items/Crown of rulership]]
+- [[/Items/Helm of brilliance]]
+- [[/Items/Helm of opposite alignment]]
+- [[/Items/Helm of telepathy]]
+- [[/Items/Tinfoil hat of mind shielding]]

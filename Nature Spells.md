@@ -1,68 +1,68 @@
 ## Minor Cantrip
 
-- [[Create wood golem]]
-- [[Stick to snake]]
-- [[Summon giant ant]]
+- [[/Spells/Create wood golem]]
+- [[/Spells/Stick to snake]]
+- [[/Spells/Summon giant ant]]
 
 ## Major Cantrip
 
-- [[Summon raven]]
+- [[/Spells/Summon raven]]
 
 ## Level 1
 
-- [[Stick to cobra]]
-- [[Summon direwolf]]
-- [[Summon winter wolf]]
+- [[/Spells/Stick to cobra]]
+- [[/Spells/Summon direwolf]]
+- [[/Spells/Summon winter wolf]]
 
 ## Level 2
 
-- [[Faithful hound]]
-- [[Stick to python]]
-- [[Summon soldier ant]]
-- [[Summon treant]]
+- [[/Spells/Faithful hound]]
+- [[/Spells/Stick to python]]
+- [[/Spells/Summon soldier ant]]
+- [[/Spells/Summon treant]]
 
 ## Level 3
 
-- [[Summon bison]]
-- [[Summon cockatrice]]
-- [[Summon giant spider]]
+- [[/Spells/Summon bison]]
+- [[/Spells/Summon cockatrice]]
+- [[/Spells/Summon giant spider]]
 
 ## Level 4
 
-- [[Barkskin]]
-- [[Summon gargantuan beetle]]
-- [[Summon owlbear]]
-- [[Summon pegasus]]
+- [[/Spells/Barkskin]]
+- [[/Spells/Summon gargantuan beetle]]
+- [[/Spells/Summon owlbear]]
+- [[/Spells/Summon pegasus]]
 
 ## Level 5
 
-- [[Summon grizzly bear]]
-- [[Summon phase spider]]
+- [[/Spells/Summon grizzly bear]]
+- [[/Spells/Summon phase spider]]
 
 ## Level 6
 
-- [[Arrow of Diana]]
-- [[Stick to boa]]
-- [[Summon giant cockatrice]]
-- [[Summon roc]]
+- [[/Spells/Arrow of Diana]]
+- [[/Spells/Stick to boa]]
+- [[/Spells/Summon giant cockatrice]]
+- [[/Spells/Summon roc]]
 
 ## Level 7
 
-- [[Stoneskin]]
-- [[Summon elder treant]]
-- [[Summon owlbear patriarch]]
-- [[Summon phoenix]]
+- [[/Spells/Stoneskin]]
+- [[/Spells/Summon elder treant]]
+- [[/Spells/Summon owlbear patriarch]]
+- [[/Spells/Summon phoenix]]
 
 ## Level 8
 
-- [[Stick to giant anaconda]]
-- [[Summon purple worm]]
+- [[/Spells/Stick to giant anaconda]]
+- [[/Spells/Summon purple worm]]
 
 ## Level 9
 
-- [[Power word stun]]
-- [[Summon gargantuan cockatrice]]
+- [[/Spells/Power word stun]]
+- [[/Spells/Summon gargantuan cockatrice]]
 
 ## Level 11
 
-- [[Gaze of petrification]]
+- [[/Spells/Gaze of petrification]]

@@ -9,7 +9,7 @@ The score determines how well your GnollHack run went. The scoring system in Gno
 In GnollHack, you get score from the following things:
 
 1. **Delving deeper into the dungeon** — The deepest level you have reached
-2. **Achievements** — Such as obtaining [[the Gladstone]] from Mines' End
+2. **Achievements** — Such as obtaining [[/Artifacts/the Gladstone]] from Mines' End
 3. **Small achievements** — Such as visiting a shop
 4. **Difficulty level** — The higher difficulty levels give out more score
 
@@ -25,10 +25,10 @@ The scoring system has been designed so that your current score can be shown at 
 
 Contrary to NetHack, you do not get score from:
 
-1. Artifacts — Unless you have [[Archaeologist role]].
-2. Amulets — Unless you have [[Caveman role]].
-3. Gold pieces — Unless you have [[Rogue role]].
-4. Gems — Unless you have [[Rogue role]].
+1. Artifacts — Unless you have [[/Roles/Archaeologist]].
+2. Amulets — Unless you have [[/Roles/Caveman]].
+3. Gold pieces — Unless you have [[/Roles/Rogue]].
+4. Gems — Unless you have [[/Roles/Rogue]].
 
 ## 2. Calculating Score
 
@@ -72,25 +72,25 @@ This means that you do not lose score from ascensions slower than 200000 turns a
 `Conduct_Score=`
 - If you did not ascend: 0
 - If you ascended, the sum of the following values:
-    - [[Foodless]]: 50
-    - [[Vegan]]: 10
-    - [[Vegetarian]]: 10
-    - [[Atheist]]: 15
-    - [[Pacifist]]: 60
-    - [[Never hit with a wielded weapon]]: 5
-    - [[Illiterate]]: 30
-    - [[Never polymorphed an object]]: 2
-    - [[Never change a form]]: 2
-    - [[Genocideless]]: 15
-    - [[Wishless]]: 15
-    - [[Artifact Wishless]]: 5
-    - [[Zen]]: 80
-    - [[Nudist]]: 60
-    - [[Elberethless]]: 10
-    - [[Conflictless]]: 15
-    - [[Boneless]]: 2
-    - [[Petless]]: 2
-    - Temporary alignment change: -20 *(e.g. [[Helm of Opposite Alignment]])*
+    - [[/Conducts/Foodless]]: 50
+    - [[/Conducts/Vegan]]: 10
+    - [[/Conducts/Vegetarian]]: 10
+    - [[/Conducts/Atheist]]: 15
+    - [[/Conducts/Pacifist]]: 60
+    - [[/Conducts/Never hit with a wielded weapon]]: 5
+    - [[/Conducts/Illiterate]]: 30
+    - [[/Conducts/Never polymorphed an object]]: 2
+    - [[/Conducts/Never change a form]]: 2
+    - [[/Conducts/Genocideless]]: 15
+    - [[/Conducts/Wishless]]: 15
+    - [[/Conducts/Artifact Wishless]]: 5
+    - [[/Conducts/Zen]]: 80
+    - [[/Conducts/Nudist]]: 60
+    - [[/Conducts/Elberethless]]: 10
+    - [[/Conducts/Conflictless]]: 15
+    - [[/Conducts/Boneless]]: 2
+    - [[/Conducts/Petless]]: 2
+    - Temporary alignment change: -20 *(e.g. [[/Items/Helm of Opposite Alignment]])*
     - Permanent alignment change: -20 *(conversion)*
 
 ### 2.4. Difficulty Multiplier
@@ -129,7 +129,7 @@ Until 2 deaths, **Modern_Multiplier** penalizes each character death by dividing
 - **If Number_of_Deaths ≤ 2:** `1 / (3 ^ (1 + Number_of_Deaths))`
 - **Else:** `1 / ((Number_of_Deaths - 1) * (3 ^ 3))`
 
-Only true deaths count here, so that life being saved by [[Amulet of Life Saving]] does not impact the score. The multiplier starts at 1/3 at 0 deaths, which is the scoring difference between classic and modern modes if the character survives without being killed.
+Only true deaths count here, so that life being saved by [[/Items/Amulet of Life Saving]] does not impact the score. The multiplier starts at 1/3 at 0 deaths, which is the scoring difference between classic and modern modes if the character survives without being killed.
 
 ### 2.6 Role-Specific Scores
 
@@ -147,7 +147,7 @@ Barbarian's role achievement is to find Stormbringer and Mournblade if chaotic, 
 
 #### 2.6.3 Caveman Amulet Score
 
-Caveman gains 70000 points for each [[Amulet of Life Saving]] and 15000 points for each non-prediscovered amulet carried in the inventory or in bags, or deposited in a sandalwood chest. Prediscovered amulets are Amulet of Life Saving and the amulet the caveman starts with.
+Caveman gains 70000 points for each [[/Items/Amulet of Life Saving]] and 15000 points for each non-prediscovered amulet carried in the inventory or in bags, or deposited in a sandalwood chest. Prediscovered amulets are Amulet of Life Saving and the amulet the caveman starts with.
 
 Caveman's role achievement is to attain the level of Grand Master in Bludgeoning Weapons (40000 points).
 

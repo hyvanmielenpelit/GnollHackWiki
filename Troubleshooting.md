@@ -31,9 +31,6 @@
 
 *(This may be caused by auto-update.)*
 
-- **Fix:** Downgrade your GnollHack installation.
-    - **Android:** [[Android Releases]]
-    - **iOS:** [[iOS Releases]]
 - **Pre-emptive fix:** To prevent this happening in the future, please disable **auto-update**.
     - **Android:** Go to **Google Play Store → GnollHack** and click **three dots in the right top corner** and disable **Enable auto udate**.
     - **iOS:** Go to **Settings → App Store** and disable **App Updates**.

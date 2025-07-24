@@ -1,44 +1,44 @@
 ## Minor Cantrip
 
-- [[Jumping]]
+- [[/Spells/Jumping]]
 
 ## Level 1
 
-- [[Slow monster]]
+- [[/Spells/Slow monster]]
 
 ## Level 2
 
-- [[Levitation]]
+- [[/Spells/Levitation]]
 
 ## Level 3
 
-- [[Haste self]]
-- [[Teleport self]]
-- [[Water walking]]
+- [[/Spells/Haste self]]
+- [[/Spells/Teleport self]]
+- [[/Spells/Water walking]]
 
 ## Level 4
 
-- [[Controlled teleport]]
-- [[Haste monster]]
-- [[Hold monster]]
-- [[Mass slow]]
-- [[Passwall]]
-- [[Teleport monster]]
+- [[/Spells/Controlled teleport]]
+- [[/Spells/Haste monster]]
+- [[/Spells/Hold monster]]
+- [[/Spells/Mass slow]]
+- [[/Spells/Passwall]]
+- [[/Spells/Teleport monster]]
 
 ## Level 5
 
-- [[Level teleport]]
+- [[/Spells/Level teleport]]
 
 ## Level 6
 
-- [[Circle of teleportation]]
-- [[Mass hold]]
+- [[/Spells/Circle of teleportation]]
+- [[/Spells/Mass hold]]
 
 ## Level 7
 
-- [[Controlled level teleport]]
-- [[Portal]]
+- [[/Spells/Controlled level teleport]]
+- [[/Spells/Portal]]
 
 ## Level 10
 
-- [[Time stop]]
+- [[/Spells/Time stop]]

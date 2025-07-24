@@ -1,15 +1,15 @@
 ## Normal Art Objects
 
 Art objects are potentially valuable decorative items and other similar items with no apparent use.
-- [[Banner]]
-- [[Painting]]
+- [[/Items/Banner]]
+- [[/Items/Painting]]
 
 ## Modronite Objects
 
-- [[Modronite sphere]]
-- [[Modronite monopole]]
-- [[Modronite tetrahedron]]
-- [[Modronite cube]]
-- [[Modronite octahedron]]
-- [[Modronite dodecahedron]]
-- [[Modronite icosahedron]]
+- [[/Items/Modronite sphere]]
+- [[/Items/Modronite monopole]]
+- [[/Items/Modronite tetrahedron]]
+- [[/Items/Modronite cube]]
+- [[/Items/Modronite octahedron]]
+- [[/Items/Modronite dodecahedron]]
+- [[/Items/Modronite icosahedron]]

@@ -1,12 +1,12 @@
 ## I
 
 
-- [[Ice devil]]
-- [[Ice troll]]
-- [[Ice vortex]]
-- [[Iguana]]
-- [[Imp]]
-- [[Incubus]]
-- [[Iron golem]]
-- [[Iron piercer]]
-- [[Ixoth]]
+- [[/Monsters/Ice devil]]
+- [[/Monsters/Ice troll]]
+- [[/Monsters/Ice vortex]]
+- [[/Monsters/Iguana]]
+- [[/Monsters/Imp]]
+- [[/Monsters/Incubus]]
+- [[/Monsters/Iron golem]]
+- [[/Monsters/Iron piercer]]
+- [[/Monsters/Ixoth]]
