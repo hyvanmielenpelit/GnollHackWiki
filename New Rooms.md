@@ -2,23 +2,23 @@
 
 ## Generic Rooms
 
-- [[/Rooms/Artificer]]
-- [[/Rooms/Dragon Lair]]
-- [[/Rooms/Dwarven Geologist]]
-- [[/Rooms/Garden]]
-- [[/Rooms/Library]]
-- [[/Rooms/Practice Hall]] — Lindisse, [[/Monsters/Elven Bard]] is found here.
-- [[/Rooms/Smithy]]
+- Artificer
+- Dragon Lair
+- Dwarven Geologist
+- Garden
+- Library
+- Practice Hall — Lindisse, [[/Monsters/Elven Bard]] is found here.
+- Smithy
 
 ## Shops
 
-- [[/Rooms/Reagent Shop]]
+- Reagent Shop
 
 ## Special Rooms
 
-- [[/Rooms/Deserted Shop]] — [[/Monsters/Gargantuan Mimic]] is found here.
+- Deserted Shop — [[/Monsters/Gargantuan Mimic]] is found here.
 
 ## Special Closets
 
-- [[/Rooms/Orc and the Pie]]
-- [[/Rooms/Orc Captain and the Pies]]
+- Orc and the Pie
+- Orc Captain and the Pies
