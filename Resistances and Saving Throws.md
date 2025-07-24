@@ -15,7 +15,7 @@ These resistances work similarly for players and monsters with small differences
 
 ## 1. Full Resistances
 
-- **Bisection Resistance** — Immunity to bisection attacks *(namely, [[The Tsurugi of Muramasa]])*
+- **Bisection Resistance** — Immunity to bisection attacks *(namely, [[/Artifacts/The Tsurugi of Muramasa]])*
 - **Charm Resistance** — Immunity to nymph stealing and seduction attacks
 - **Curse Resistance** — Immunity to cursing of items in the inventory
 - **Death Resistance** — Immunity to death attacks
@@ -84,22 +84,22 @@ They can be resisted as follows:
 - **Cancellation attacks against a player**, such as the gaze attack of a gazer, bypass magic resistance and have a 100% chance to work.
 
 Additionally, it is good to remember the following things about cancellation:
-- If you zap a [[wand of cancellation]] or cast a *cancellation spell* at yourself or at items, it will set items' beautitude to Uncursed, set the enchantment to +0, make most potions into water, blank scrolls and spellbooks, and set items' charges to 0.
-- Putting a [[wand of cancellation]] into a [[bag of holding]] will destroy the bag.
+- If you zap a [[/Items/wand of cancellation]] or cast a *cancellation spell* at yourself or at items, it will set items' beautitude to Uncursed, set the enchantment to +0, make most potions into water, blank scrolls and spellbooks, and set items' charges to 0.
+- Putting a [[/Items/wand of cancellation]] into a [[/Items/bag of holding]] will destroy the bag.
 
 ### Polymorph and Magic Resistance
 
 Magic resistance protects from:
-- [[Wand of polymorph]] zapped at monsters
+- [[/Items/Wand of polymorph]] zapped at monsters
 - Polymorph traps
-- [[Polymorph]] spell cast at monsters
-- Polymorph from being hit with a wielded [[potion of polymorph]]
+- [[/Spells/Polymorph]] spell cast at monsters
+- Polymorph from being hit with a wielded [[/Items/potion of polymorph]]
 
 Magic resistance does *not* protect you from:
-- Polymorph from [[ring of polymorph]]
-- [[Wand of polymorph]] zapped at yourself
-- [[Polymorph]] spell cast at yourself
-- Polymorph from drinking a [[potion of polymorph]]
+- Polymorph from [[/Items/ring of polymorph]]
+- [[/Items/Wand of polymorph]] zapped at yourself
+- [[/Spells/Polymorph]] spell cast at yourself
+- Polymorph from drinking a [[/Items/potion of polymorph]]
 
 ## 4. Magic Cancellation
 
@@ -153,7 +153,7 @@ When you enchant an armor, you get +1 MC for every +3 enchantment. Therefore, it
 
 ### Intelligence Drain Attacks
 
-Magic Cancellation does *not* protect you from the **intelligence drain attacks of tentacled ones**. Instead, you need a helmet to block 90% of these attacks. Additionally, you can wear a [[nose ring of cerebral safeguarding]] or a [[ring of sustain ability]] to become immune to the intelligence drain attacks.
+Magic Cancellation does *not* protect you from the **intelligence drain attacks of tentacled ones**. Instead, you need a helmet to block 90% of these attacks. Additionally, you can wear a [[/Items/nose ring of cerebral safeguarding]] or a [[/Items/ring of sustain ability]] to become immune to the intelligence drain attacks.
 
 Note that the intelligence drain attacks also cause *amnesia*, which makes you forget items' identification, spells, and the layout of dungeon levels.
 
@@ -167,7 +167,7 @@ Thus, a monster with Wisdom 10 has a 20% chance of resisting and a monster with 
 
 Spells cast with the Skilled or higher spell school skill incur a -15% penalty to the wisdom-based saving throw per skill level above Basic. A spell cast at an Unskilled skill level incurs a +15% bonus to the wisdom-based saving throw.
 
-Blessed items with mind-affecting effects, such a blessed [[scroll of taming]] or a blessed [[wand of sleep]], incur a -25% penalty to the wisdom-based saving throw. Similarly, cursed items with mind-affecting effects – if there is no separate cursed effect – such as is the case with a cursed [[wand of sleep]], incur a +25% bonus to the wisdom-based saving throw.
+Blessed items with mind-affecting effects, such a blessed [[/Items/scroll of taming]] or a blessed [[/Items/wand of sleep]], incur a -25% penalty to the wisdom-based saving throw. Similarly, cursed items with mind-affecting effects – if there is no separate cursed effect – such as is the case with a cursed [[/Items/wand of sleep]], incur a +25% bonus to the wisdom-based saving throw.
 
 ## 6. Constitution-Based Saving Throw
 
