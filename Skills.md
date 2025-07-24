@@ -6,7 +6,7 @@ Combat skills give different kinds of bonuses to combat.
 
 ### Full Cost Skills
 
-- [[/Skills//Skills/Dual wielding]]
+- [[/Skills/Dual wielding]]
 - [[/Skills/Thrown weapon]]
 - [[/Skills/Two-handed weapon]]
 - [[/Skills/Wand]]
