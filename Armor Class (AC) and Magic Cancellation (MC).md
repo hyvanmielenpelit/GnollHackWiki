@@ -16,4 +16,4 @@ Magic Cancellation (MC) determines how easy it is to inflict a certain magical o
 - MC increases when your resistance to these attacks improves. So, the higher the MC is, the better the resistance.
 - MC usually varies between 0 and 25.
 
-For more information about MC, please read the Magic Cancellation section in [[Resistances and Saving Throws#4. Magic Cancellation]].
+For more information about MC, please read the Magic Cancellation section in [[Resistances and Saving Throws#4-magic-cancellation]].
