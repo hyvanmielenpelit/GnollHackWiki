@@ -6,9 +6,9 @@ Strong melee warrior with poison resistance.
 
 ## Allowed Races
 
-- [[Races/Human]]
-- [[Races/Gnoll]]
-- [[Races/Orc]]
+- [[/Races/Human]]
+- [[/Races/Gnoll]]
+- [[/Races/Orc]]
 
 ## Allowed Genders
 
@@ -65,34 +65,34 @@ Starting skills / Maximum skill levels for Chaotic Human Barbarian.
 
 ### Combat Skills                                                
 
-* [[Skills/Bare-handed combat]]: Basic/Master
-* [[Skills/Dodge]]: Unskilled/Master
-* [[Skills/Dual wielding]]: Unskilled/Master
-* [[Skills/Shield]]: Unskilled/Expert
-* [[Skills/Two-handed weapon]]: Unskilled/Grand Master
+* [[/Skills/Bare-handed combat]]: Basic/Master
+* [[/Skills/Dodge]]: Unskilled/Master
+* [[/Skills/Dual wielding]]: Unskilled/Master
+* [[/Skills/Shield]]: Unskilled/Expert
+* [[/Skills/Two-handed weapon]]: Unskilled/Grand Master
 
 ### Weapon Skills                                                
 
-* [[Skills/Axe]]: Basic/Grand Master
-* [[Skills/Bludgeoning weapon]]: Unskilled/Master
-* [[Skills/Bow]]: Unskilled/Expert
-* [[Skills/Crossbow]]: Unskilled/Expert
-* [[Skills/Dagger]]: Unskilled/Master
-* [[Skills/Flail]]: Unskilled/Master
-* [[Skills/Quarterstaff]]: Unskilled/Expert
-* [[Skills/Sling]]: Unskilled/Expert
-* [[Skills/Sword]]: Basic/Grand Master
-* [[Skills/Thrown weapon]]: Unskilled/Expert
-* [[Skills/Thrusting weapon]]: Unskilled/Expert
+* [[/Skills/Axe]]: Basic/Grand Master
+* [[/Skills/Bludgeoning weapon]]: Unskilled/Master
+* [[/Skills/Bow]]: Unskilled/Expert
+* [[/Skills/Crossbow]]: Unskilled/Expert
+* [[/Skills/Dagger]]: Unskilled/Master
+* [[/Skills/Flail]]: Unskilled/Master
+* [[/Skills/Quarterstaff]]: Unskilled/Expert
+* [[/Skills/Sling]]: Unskilled/Expert
+* [[/Skills/Sword]]: Basic/Grand Master
+* [[/Skills/Thrown weapon]]: Unskilled/Expert
+* [[/Skills/Thrusting weapon]]: Unskilled/Expert
 
 ### Miscellaneous Skills                                            
 
-* [[Skills/Digging]]: Unskilled/Expert
-* [[Skills/Disarm trap]]: Unskilled/Skilled
-* [[Skills/Riding]]: Unskilled/Master
+* [[/Skills/Digging]]: Unskilled/Expert
+* [[/Skills/Disarm trap]]: Unskilled/Skilled
+* [[/Skills/Riding]]: Unskilled/Master
 
 ## Racial Adjustments
 
 ### Gnoll
 
-- [[Skills/Flail]]: Unskilled/Grand Master
+- [[/Skills/Flail]]: Unskilled/Grand Master

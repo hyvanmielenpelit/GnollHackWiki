@@ -1,4 +1,4 @@
 ## Z
 
 
-- [[Monsters/Zruty]]
+- [[/Monsters/Zruty]]

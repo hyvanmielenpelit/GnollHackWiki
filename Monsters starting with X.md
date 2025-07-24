@@ -1,5 +1,5 @@
 ## X
 
 
-- [[Monsters/Xan]]
-- [[Monsters/Xorn]]
+- [[/Monsters/Xan]]
+- [[/Monsters/Xorn]]

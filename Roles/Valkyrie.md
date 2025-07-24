@@ -6,8 +6,8 @@ Strong female melee warrior, who starts with cold resistance and stealth.
 
 ## Allowed Races
 
-- [[Races/Human]]
-- [[Races/Dwarf]]
+- [[/Races/Human]]
+- [[/Races/Dwarf]]
 
 ## Allowed Genders
 
@@ -66,32 +66,32 @@ Starting skills / Maximum skill levels for Lawful Human Valkyrie.
 
 ### Combat Skills 
 
-- [[Skills/Bare-handed combat]]: Basic/Grand Master
-- [[Skills/Dodge]]: Unskilled/Master
-- [[Skills/Dual wielding]]: Basic/Grand Master
-- [[Skills/Shield]]: Basic/Grand Master
-- [[Skills/Two-handed weapon]]: Unskilled/Master
-- [[Skills/Wand]]: Unskilled/Basic
+- [[/Skills/Bare-handed combat]]: Basic/Grand Master
+- [[/Skills/Dodge]]: Unskilled/Master
+- [[/Skills/Dual wielding]]: Basic/Grand Master
+- [[/Skills/Shield]]: Basic/Grand Master
+- [[/Skills/Two-handed weapon]]: Unskilled/Master
+- [[/Skills/Wand]]: Unskilled/Basic
 
 ### Weapon Skills 
 
-- [[Skills/Axe]]: Basic/Grand Master
-- [[Skills/Bludgeoning weapon]]: Basic/Grand Master
-- [[Skills/Bow]]: Unskilled/Expert 
-- [[Skills/Crossbow]]: Unskilled/Expert 
-- [[Skills/Dagger]]: Basic/Grand Master
-- [[Skills/Polearm]]: Unskilled/Master 
-- [[Skills/Sword]]: Basic/Grand Master
-- [[Skills/Thrown weapon]]: Unskilled/Expert 
-- [[Skills/Thrusting weapon]]: Basic/Master 
+- [[/Skills/Axe]]: Basic/Grand Master
+- [[/Skills/Bludgeoning weapon]]: Basic/Grand Master
+- [[/Skills/Bow]]: Unskilled/Expert 
+- [[/Skills/Crossbow]]: Unskilled/Expert 
+- [[/Skills/Dagger]]: Basic/Grand Master
+- [[/Skills/Polearm]]: Unskilled/Master 
+- [[/Skills/Sword]]: Basic/Grand Master
+- [[/Skills/Thrown weapon]]: Unskilled/Expert 
+- [[/Skills/Thrusting weapon]]: Basic/Master 
 
 ### Miscellaneous Skills 
 
-- [[Skills/Disarm trap]]: Unskilled/Skilled 
-- [[Skills/Riding]]: Unskilled/Expert
+- [[/Skills/Disarm trap]]: Unskilled/Skilled 
+- [[/Skills/Riding]]: Unskilled/Expert
 
 ## Racial Adjustments
 
 ### Dwarf
 
-- [[Skills/Digging]]: Unskilled/Grand Master
+- [[/Skills/Digging]]: Unskilled/Grand Master

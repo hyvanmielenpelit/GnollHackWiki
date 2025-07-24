@@ -6,9 +6,9 @@ Armored clerical spell caster, who automatically identifies the beautitude of it
 
 ## Allowed Races
 
-- [[Races/Human]]
-- [[Races/Elf]]
-- [[Races/Gnoll]]
+- [[/Races/Human]]
+- [[/Races/Elf]]
+- [[/Races/Gnoll]]
 
 ## Allowed Genders
 
@@ -76,29 +76,29 @@ Starting skills / Maximum skill levels for Human Priest.
 
 ### Combat Skills 
 
-* [[Skills/Bare-handed combat]]: Unskilled/Skilled
-* [[Skills/Dodge]]: Unskilled/Skilled
-* [[Skills/Shield]]: Basic/Master
-* [[Skills/Wand]]: Unskilled/Skilled 
+* [[/Skills/Bare-handed combat]]: Unskilled/Skilled
+* [[/Skills/Dodge]]: Unskilled/Skilled
+* [[/Skills/Shield]]: Basic/Master
+* [[/Skills/Wand]]: Unskilled/Skilled 
 
 ### Weapon Skills 
 
-* [[Skills/Bludgeoning weapon]]: Basic/Expert 
-* [[Skills/Flail]]: Unskilled/Expert 
-* [[Skills/Quarterstaff]]: Unskilled/Expert 
-* [[Skills/Sling]]: Unskilled/Expert 
-* [[Skills/Thrown weapon]]: Unskilled/Skilled 
+* [[/Skills/Bludgeoning weapon]]: Basic/Expert 
+* [[/Skills/Flail]]: Unskilled/Expert 
+* [[/Skills/Quarterstaff]]: Unskilled/Expert 
+* [[/Skills/Sling]]: Unskilled/Expert 
+* [[/Skills/Thrown weapon]]: Unskilled/Skilled 
 
 ### Spell Casting Skills 
 
-* [[Skills/Abjuration spell]]: Unskilled/Grand Master
-* [[Skills/Celestial spell]]: Basic/Grand Master *(lawful priest only)*
-* [[Skills/Clerical spell]]: Basic/Grand Master
-* [[Skills/Divination spell]]: Unskilled/Grand Master
-* [[Skills/Healing spell]]: Basic/Grand Master
-* [[Skills/Nature spell]]: Basic/Grand Master *(neutral priest only)*
-* [[Skills/Necromancy spell]]: Basic/Grand Master *(chaotic priest only)*
+* [[/Skills/Abjuration spell]]: Unskilled/Grand Master
+* [[/Skills/Celestial spell]]: Basic/Grand Master *(lawful priest only)*
+* [[/Skills/Clerical spell]]: Basic/Grand Master
+* [[/Skills/Divination spell]]: Unskilled/Grand Master
+* [[/Skills/Healing spell]]: Basic/Grand Master
+* [[/Skills/Nature spell]]: Basic/Grand Master *(neutral priest only)*
+* [[/Skills/Necromancy spell]]: Basic/Grand Master *(chaotic priest only)*
 
 ### Miscellaneous Skills
 
-* [[Skills/Riding]]: Unskilled/Skilled
+* [[/Skills/Riding]]: Unskilled/Skilled

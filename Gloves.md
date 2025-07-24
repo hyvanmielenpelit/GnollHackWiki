@@ -1,20 +1,20 @@
 ## Simple Gloves
 
-- [[Items/Leather gloves]]
+- [[/Items/Leather gloves]]
 - Silver gauntlets — 1d20 silver damage on hit
 
 ## Magical Gloves
 
-- [[Items/Gauntlets of fumbling]]
-- [[Items/Gloves of haste]]
-- [[Items/Gloves of spell casting]]
-- [[Items/Gauntlets of ogre power]] — Please note "ogre" in the name
-- [[Items/Gauntlets of dexterity]]
+- [[/Items/Gauntlets of fumbling]]
+- [[/Items/Gloves of haste]]
+- [[/Items/Gloves of spell casting]]
+- [[/Items/Gauntlets of ogre power]] — Please note "ogre" in the name
+- [[/Items/Gauntlets of dexterity]]
 
 ## Weapon-Gloves
 
-- [[Items/Spiked gauntlets]]
-- [[Items/Spiked silver gauntlets]]
+- [[/Items/Spiked gauntlets]]
+- [[/Items/Spiked silver gauntlets]]
 
 ## Armor Quality
 

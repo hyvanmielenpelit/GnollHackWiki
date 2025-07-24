@@ -53,7 +53,7 @@ Dwarves are sturdy, gaining bonus to physical attribute scores but having disadv
 
 ## Character Classes
 
-- [[Roles/Archaeologist]]
-- [[Roles/Caveman]]
-- [[Roles/Knight]]
-- [[Roles/Valkyrie]]
+- [[/Roles/Archaeologist]]
+- [[/Roles/Caveman]]
+- [[/Roles/Knight]]
+- [[/Roles/Valkyrie]]

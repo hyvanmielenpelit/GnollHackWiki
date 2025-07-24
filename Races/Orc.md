@@ -53,7 +53,7 @@ Orcs start with poison resistance and do not suffer penalty for cannibalism. How
 
 ## Character Classes
 
-- [[Roles/Barbarian]]
-- [[Roles/Ranger]]
-- [[Roles/Rogue]]
-- [[Roles/Wizard]]
+- [[/Roles/Barbarian]]
+- [[/Roles/Ranger]]
+- [[/Roles/Rogue]]
+- [[/Roles/Wizard]]

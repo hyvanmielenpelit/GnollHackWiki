@@ -6,7 +6,7 @@ Strong Japanese warrior adept at both melee and ranged combat. Some item names s
 
 ## Allowed Races
 
-- [[Races/Human]]
+- [[/Races/Human]]
 
 ## Allowed Genders
 
@@ -60,27 +60,27 @@ Starting skills / Maximum skill levels for Lawful Human Samurai.
 
 ### Combat Skills 
 
-- [[Skills/Bare-handed combat]]: Basic/Grand Master
-- [[Skills/Dodge]]: Unskilled/Master
-- [[Skills/Dual wielding]]: Unskilled/Grand Master
-- [[Skills/Martial arts]]: Unskilled/Skilled
-- [[Skills/Shield]]: Unskilled/Expert
-- [[Skills/Two-handed weapon]]: Unskilled/Grand Master
-- [[Skills/Wand]]: Unskilled/Basic
+- [[/Skills/Bare-handed combat]]: Basic/Grand Master
+- [[/Skills/Dodge]]: Unskilled/Master
+- [[/Skills/Dual wielding]]: Unskilled/Grand Master
+- [[/Skills/Martial arts]]: Unskilled/Skilled
+- [[/Skills/Shield]]: Unskilled/Expert
+- [[/Skills/Two-handed weapon]]: Unskilled/Grand Master
+- [[/Skills/Wand]]: Unskilled/Basic
 
 ### Weapon Skills 
 
-- [[Skills/Bow]]: Basic/Grand Master
-- [[Skills/Crossbow]]: Unskilled/Expert 
-- [[Skills/Dagger]]: Unskilled/Expert
-- [[Skills/Flail]]: Unskilled/Grand Master
-- [[Skills/Polearm]]: Basic/Grand Master
-- [[Skills/Quarterstaff]]: Basic/Grand Master
-- [[Skills/Sword]]: Basic/Grand Master
-- [[Skills/Thrown weapon]]: Basic/Expert
-- [[Skills/Thrusting weapon]]: Unskilled/Grand Master
+- [[/Skills/Bow]]: Basic/Grand Master
+- [[/Skills/Crossbow]]: Unskilled/Expert 
+- [[/Skills/Dagger]]: Unskilled/Expert
+- [[/Skills/Flail]]: Unskilled/Grand Master
+- [[/Skills/Polearm]]: Basic/Grand Master
+- [[/Skills/Quarterstaff]]: Basic/Grand Master
+- [[/Skills/Sword]]: Basic/Grand Master
+- [[/Skills/Thrown weapon]]: Basic/Expert
+- [[/Skills/Thrusting weapon]]: Unskilled/Grand Master
 
 ### Miscellaneous Skills 
 
-- [[Skills/Disarm trap]]: Unskilled/Basic 
-- [[Skills/Riding]]: Unskilled/Expert
+- [[/Skills/Disarm trap]]: Unskilled/Basic 
+- [[/Skills/Riding]]: Unskilled/Expert

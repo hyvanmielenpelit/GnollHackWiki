@@ -7,7 +7,7 @@ Versatile traveller that can specialize in almost every combat and magic skill.
 
 ## Allowed Races
 
-- [[Races/Human]]
+- [[/Races/Human]]
 
 ## Allowed Genders
 
@@ -69,43 +69,43 @@ Starting skills / Maximum skill levels for Neutral Human Tourist.
 
 ### Combat Skills 
 
-- [[Skills/Bare-handed combat]]: Unskilled/Expert
-- [[Skills/Dodge]]: Unskilled/Expert
-- [[Skills/Dual wielding]]: Unskilled/Expert
-- [[Skills/Shield]]: Unskilled/Expert
-- [[Skills/Two-handed weapon]]: Unskilled/Expert
-- [[Skills/Wand]]: Basic/Expert 
+- [[/Skills/Bare-handed combat]]: Unskilled/Expert
+- [[/Skills/Dodge]]: Unskilled/Expert
+- [[/Skills/Dual wielding]]: Unskilled/Expert
+- [[/Skills/Shield]]: Unskilled/Expert
+- [[/Skills/Two-handed weapon]]: Unskilled/Expert
+- [[/Skills/Wand]]: Basic/Expert 
 
 ### Weapon Skills 
 
-- [[Skills/Axe]]: Unskilled/Expert 
-- [[Skills/Bludgeoning weapon]]: Basic/Master 
-- [[Skills/Bow]]: Unskilled/Expert 
-- [[Skills/Crossbow]]: Unskilled/Expert 
-- [[Skills/Dagger]]: Unskilled/Expert 
-- [[Skills/Flail]]: Unskilled/Expert 
-- [[Skills/Polearm]]: Unskilled/Expert 
-- [[Skills/Quarterstaff]]: Unskilled/Expert 
-- [[Skills/Sling]]: Unskilled/Expert 
-- [[Skills/Sword]]: Unskilled/Expert 
-- [[Skills/Thrown weapon]]: Basic/Grand Master
-- [[Skills/Thrusting weapon]]: Unskilled/Expert 
-- [[Skills/Whip]]: Unskilled/Expert 
+- [[/Skills/Axe]]: Unskilled/Expert 
+- [[/Skills/Bludgeoning weapon]]: Basic/Master 
+- [[/Skills/Bow]]: Unskilled/Expert 
+- [[/Skills/Crossbow]]: Unskilled/Expert 
+- [[/Skills/Dagger]]: Unskilled/Expert 
+- [[/Skills/Flail]]: Unskilled/Expert 
+- [[/Skills/Polearm]]: Unskilled/Expert 
+- [[/Skills/Quarterstaff]]: Unskilled/Expert 
+- [[/Skills/Sling]]: Unskilled/Expert 
+- [[/Skills/Sword]]: Unskilled/Expert 
+- [[/Skills/Thrown weapon]]: Basic/Grand Master
+- [[/Skills/Thrusting weapon]]: Unskilled/Expert 
+- [[/Skills/Whip]]: Unskilled/Expert 
 
 ### Spell Casting Skills 
 
-- [[Skills/Abjuration spell]]: Unskilled/Expert 
-- [[Skills/Arcane spell]]: Unskilled/Expert 
-- [[Skills/Clerical spell]]: Unskilled/Expert 
-- [[Skills/Conjuration spell]]: Unskilled/Expert 
-- [[Skills/Divination spell]]: Unskilled/Master 
-- [[Skills/Enchantment spell]]: Unskilled/Expert 
-- [[Skills/Healing spell]]: Unskilled/Expert 
-- [[Skills/Movement spell]]: Unskilled/Grand Master
-- [[Skills/Transmutation spell]]: Unskilled/Expert 
+- [[/Skills/Abjuration spell]]: Unskilled/Expert 
+- [[/Skills/Arcane spell]]: Unskilled/Expert 
+- [[/Skills/Clerical spell]]: Unskilled/Expert 
+- [[/Skills/Conjuration spell]]: Unskilled/Expert 
+- [[/Skills/Divination spell]]: Unskilled/Master 
+- [[/Skills/Enchantment spell]]: Unskilled/Expert 
+- [[/Skills/Healing spell]]: Unskilled/Expert 
+- [[/Skills/Movement spell]]: Unskilled/Grand Master
+- [[/Skills/Transmutation spell]]: Unskilled/Expert 
 
 ### Miscellaneous Skills 
 
-- [[Skills/Digging]]: Unskilled/Expert 
-- [[Skills/Disarm trap]]: Unskilled/Expert
-- [[Skills/Riding]]: Unskilled/Expert
+- [[/Skills/Digging]]: Unskilled/Expert 
+- [[/Skills/Disarm trap]]: Unskilled/Expert
+- [[/Skills/Riding]]: Unskilled/Expert

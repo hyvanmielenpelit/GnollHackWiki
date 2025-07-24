@@ -9,5 +9,5 @@ Lawful is generally thought to be the good alignment. You suffer penalty for com
 
 ## Allowed Races
 
-- [[Races/Human]]
-- [[Races/Dwarf]]
+- [[/Races/Human]]
+- [[/Races/Dwarf]]

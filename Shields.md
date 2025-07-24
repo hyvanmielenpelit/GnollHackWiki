@@ -8,31 +8,31 @@ In GnollHack, shields give more AC bonus than in NetHack:
 
 ## Non-Magical Shields
 
-- [[Items/Small shield]]
-- [[Items/Elven shield]]
-- [[Items/Great orcish shield]]
-- [[Items/Orcish shield]]
-- [[Items/Large shield]]
-- [[Items/Dwarvish roundshield]]
+- [[/Items/Small shield]]
+- [[/Items/Elven shield]]
+- [[/Items/Great orcish shield]]
+- [[/Items/Orcish shield]]
+- [[/Items/Large shield]]
+- [[/Items/Dwarvish roundshield]]
 
 All non-magical shields can be mythic or legendary.
 
 ## Magical Shields
 
-- [[Items/Shield of reflection]]
+- [[/Items/Shield of reflection]]
 
 Magical shields *cannot* be mythic or legendary.
 
 ## Weapon-Shields
 
-- [[Items/Spiked shield]]
-- [[Items/Spiked silver shield]]
+- [[/Items/Spiked shield]]
+- [[/Items/Spiked silver shield]]
 
 Weapon-shields can be mythic or legendary.
 
 ## Armor Quality
 
-All shields, including the [[Items/shield of reflection]], can be exceptional, elite, or celestial/primordial/infernal.
+All shields, including the [[/Items/shield of reflection]], can be exceptional, elite, or celestial/primordial/infernal.
 
 - **Exceptional:** -3 AC, +1 MC
 - **Elite:** -6 AC, +2 MC

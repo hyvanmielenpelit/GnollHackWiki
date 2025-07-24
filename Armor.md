@@ -26,9 +26,9 @@ Bracers is a new wearable armor slot. It does not have any special properties.
 ## Weapon-Armor
 
 Some armor can also be used as weapons. These include:
-- Weapon shields — E.g. a [[Items/spiked shield]]
-- Gauntlets — E.g. [[Items/gauntlets of ogre power]]
-- Weapon boots — E.g. [[Items/spiked boots]]
+- Weapon shields — E.g. a [[/Items/spiked shield]]
+- Gauntlets — E.g. [[/Items/gauntlets of ogre power]]
+- Weapon boots — E.g. [[/Items/spiked boots]]
 
 These armor can get weapon quality modifiers. When they do, these modifiers also give bonus to AC and MC:
 - Exceptional — Double base damage, -1 AC

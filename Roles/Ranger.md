@@ -6,10 +6,10 @@ Potent archer, adept at ranged combat.
 
 ## Allowed Races
 
-- [[Races/Human]]
-- [[Races/Elf]]
-- [[Races/Gnoll]]
-- [[Races/Orc]]
+- [[/Races/Human]]
+- [[/Races/Elf]]
+- [[/Races/Gnoll]]
+- [[/Races/Orc]]
 
 ## Allowed Genders
 
@@ -66,38 +66,38 @@ Starting skills / Maximum skill levels for Neutral Human Ranger.
 
 ### Combat Skills 
 
-* [[Skills/Bare-handed combat]]: Unskilled/Skilled 
-* [[Skills/Dodge]]: Unskilled/Skilled
-* [[Skills/Wand]]: Unskilled/Skilled 
+* [[/Skills/Bare-handed combat]]: Unskilled/Skilled 
+* [[/Skills/Dodge]]: Unskilled/Skilled
+* [[/Skills/Wand]]: Unskilled/Skilled 
 
 ### Weapon Skills 
 
-* [[Skills/Axe]]: Unskilled/Expert 
-* [[Skills/Bow]]: Basic/Grand Master
-* [[Skills/Crossbow]]: Basic/Grand Master
-* [[Skills/Dagger]]: Basic/Expert 
-* [[Skills/Polearm]]: Unskilled/Skilled 
-* [[Skills/Quarterstaff]]: Unskilled/Skilled 
-* [[Skills/Sling]]: Unskilled/Expert 
-* [[Skills/Sword]]: Unskilled/Expert 
-* [[Skills/Thrown weapon]]: Unskilled/Grand Master
-* [[Skills/Thrusting weapon]]: Basic/Expert 
-* [[Skills/Whip]]: Unskilled/Basic 
+* [[/Skills/Axe]]: Unskilled/Expert 
+* [[/Skills/Bow]]: Basic/Grand Master
+* [[/Skills/Crossbow]]: Basic/Grand Master
+* [[/Skills/Dagger]]: Basic/Expert 
+* [[/Skills/Polearm]]: Unskilled/Skilled 
+* [[/Skills/Quarterstaff]]: Unskilled/Skilled 
+* [[/Skills/Sling]]: Unskilled/Expert 
+* [[/Skills/Sword]]: Unskilled/Expert 
+* [[/Skills/Thrown weapon]]: Unskilled/Grand Master
+* [[/Skills/Thrusting weapon]]: Basic/Expert 
+* [[/Skills/Whip]]: Unskilled/Basic 
 
 ### Spell Casting Skills 
 
-* [[Skills/Divination spell]]: Unskilled/Skilled
-* [[Skills/Healing spell]]: Unskilled/Skilled
-* [[Skills/Nature spell]]: Unskilled/Skilled
+* [[/Skills/Divination spell]]: Unskilled/Skilled
+* [[/Skills/Healing spell]]: Unskilled/Skilled
+* [[/Skills/Nature spell]]: Unskilled/Skilled
 
 ### Miscellaneous Skills
 
-* [[Skills/Digging]]: Unskilled/Basic 
-* [[Skills/Disarm trap]]: Basic/Master
-* [[Skills/Riding]]: Unskilled/Grand Master
+* [[/Skills/Digging]]: Unskilled/Basic 
+* [[/Skills/Disarm trap]]: Basic/Master
+* [[/Skills/Riding]]: Unskilled/Grand Master
 
 ## Racial Adjustments
 
 ### Gnoll
 
-- [[Skills/Flail]]: Unskilled/Expert
+- [[/Skills/Flail]]: Unskilled/Expert
