@@ -10,7 +10,7 @@ The wiki is built upon [Gollum wiki software](https://github.com/gollum/gollum).
 
 ## Contributing
 
-If you want to contribute to the wiki, please read these instructions: [[Editing Wiki with Visual Studio Code]]
+If you want to contribute to the wiki, please read these instructions: [Editing Wiki with Visual Studio Code](https://wiki.gnollhack.com/Editing%20Wiki%20with%20Visual%20Studio%20Code.md)
 
 Editing the wiki is more heavy-weight than that of normal wikis, since you need to install Git and Visual Studio Code and learn to make pull requests.
 
