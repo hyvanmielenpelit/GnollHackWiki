@@ -87,3 +87,24 @@ You can create a new Markdown page by **holding Ctrl down while clicking a wiki 
 1. Commit changes using the Source Control view.
 2. Sync them.
 3. If you updated the GnollHack Wiki repository directly, it takes up to 5 minutes for the changes to appear online.
+
+## Additional Information
+
+### Case-Insensitive Wikilinks
+
+Wikilinks are **case-insensitive**, so you can write `[[/Items/potion of healing]]` and it works like this:
+- [[/Items/potion of healing]]
+
+It links to [[/Items/Potion of healing.md]].
+  
+### Global Tag Lookup Disabled
+
+Global tag lookup is disabled, so you need to specify the exact path to the Markdown file.
+
+### No Need to Specify .md Extension for Markdown files
+
+Even though browser URLs in the wiki have the **.md extension**, you don't need to use it in wikilinks.
+
+### Wikilinks Relative to Current Document
+
+All wikilinks are **relative to the current document** and not to the root of the wiki (as in MediaWiki), making things a bit harder than necessary. However, just use `/` at the start of the wiki links to make them relative to the root. We have adopted a convention to always use it before subfolders, but you may need to use it when referring to files in the root folder, when the current document is in a subfolder.
