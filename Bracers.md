@@ -1,14 +1,14 @@
 ## Non-Magical Bracers
 
-- [[Leather bracers]]
+- [[Items/Leather bracers]]
 
 ## Magical Bracers
 
-- [[Bracers of defense]]
-- [[Bracers of archery]]
-- [[Bracers of spell casting]]
-- [[Bracers against magic missiles]]
-- [[Bracers of reflection]]
+- [[Items/Bracers of defense]]
+- [[Items/Bracers of archery]]
+- [[Items/Bracers of spell casting]]
+- [[Items/Bracers against magic missiles]]
+- [[Items/Bracers of reflection]]
 
 ## Notes
 

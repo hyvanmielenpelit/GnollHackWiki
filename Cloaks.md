@@ -1,19 +1,19 @@
 ## Non-Magical Cloaks
 
-- [[Elven cloak]]
-- [[Orcish cloak]]
-- [[Dwarvish cloak]]
-- [[Oilskin cloak]]
-- [[Alchemy smock]]
-- [[Leather cloak]]
+- [[Items/Elven cloak]]
+- [[Items/Orcish cloak]]
+- [[Items/Dwarvish cloak]]
+- [[Items/Oilskin cloak]]
+- [[Items/Alchemy smock]]
+- [[Items/Leather cloak]]
 
 ## Magical Cloaks
 
-- [[Cloak of protection]]
-- [[Cloak of invisibility]]
-- [[Cloak of magic resistance]]
-- [[Cloak of integrity]]
-- [[Cloak of displacement]]
+- [[Items/Cloak of protection]]
+- [[Items/Cloak of invisibility]]
+- [[Items/Cloak of magic resistance]]
+- [[Items/Cloak of integrity]]
+- [[Items/Cloak of displacement]]
 
 ## Notes
 

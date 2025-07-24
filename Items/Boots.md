@@ -1,30 +1,30 @@
 ## Simple Boots
 
-- Low boots
-- Iron shoes
-- Leather sandals
-- Cotton slippers
-- High boots
+- [[Items/Low boots]]
+- [[Items/Shoes]]
+- [[Items/Leather sandals]]
+- [[Items/Cotton slippers]]
+- [[Items/High boots]]
 
 ## Semi-Magical Boots
 
-- Elven boots — Grants stealth
+- [[Items/Elven boots]] — Grants stealth
 
 ## Magical Boots
 
-- Speed boots — Grants very fast speed
-- [[Galadhrim boots]]
-- Water walking boots — Grants water walking
-- [[Kicking boots]]
-- Jumping boots — Grants jumping
-- Fumble boots — Grants fumbling
-- Levitation boots — Grants levitation
+- [[Items/Speed boots]] — Grants very fast speed
+- [[Items/Galadhrim boots]]
+- [[Items/Water walking boots]] — Grants water walking
+- [[Items/Kicking boots]]
+- [[Items/Jumping boots]] — Grants jumping
+- [[Items/Fumble boots]] — Grants fumbling
+- [[Items/Levitation boots]] — Grants levitation
 
 ## Weapon-Boots
 
-- [[Spiked boots]]
-- [[Silver shoes]]
-- [[Spiked silver boots]]
+- [[Items/Spiked boots]]
+- [[Items/Silver shoes]]
+- [[Items/Spiked silver boots]]
 
 ## Armor Quality
 
