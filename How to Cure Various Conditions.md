@@ -17,7 +17,7 @@ You can contract mummy rot from mummies in the game. If their melee attack bypas
 
 When a [[/Monsters/cockatrice]] touches you and its attack bypasses your [[Magic Cancellation|Resistances and Saving Throws#4-magic-cancellation]], you will quickly turn to stone. You have exactly one turn time to cure the condition. It can be cured as follows:
 
-- Eat a [[/Monster/lizard]] corpse
+- Eat a [[/Monsters/lizard]] corpse
 - Eat a [[/Items/dragon fruit]]
 - Use a [[/Items/jar of basilisk blood]]
 - Pray _(if it is safe to pray)_
