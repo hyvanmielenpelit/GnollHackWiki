@@ -6,24 +6,24 @@ Combat skills give different kinds of bonuses to combat.
 
 ### Full Cost Skills
 
-- [[Dual wielding]]
-- [[Thrown weapon]]
-- [[Two-handed weapon]]
-- [[Wand|Wand (Skill)]]
+- [[/Skills//Skills/Dual wielding]]
+- [[/Skills/Thrown weapon]]
+- [[/Skills/Two-handed weapon]]
+- [[/Skills/Wand]]
 
 These skills cost 1/2/3/4/5 skill slots to advance on Unskilled/Basic/Skilled/Expert/Master skill levels.
 
 ### Half Cost Skills
 
-- [[Dodge]]
-- [[Shield|Shield (Skill)]]
+- [[/Skills/Dodge]]
+- [[/Skills/Shield]]
 
 These skills cost 1/1/2/2/3 skill slots to advance on Unskilled/Basic/Skilled/Expert/Master skill levels '.
 
 ### Martial Arts Skills
 
-- [[Bare-handed combat]] — Costs 1/1/1/2/2 skill slots to advance on Unskilled/Basic/Skilled/Expert/Master skill levels.
-- [[Martial arts]] — Costs 2/3/3/3/4 skill slots to advance on Unskilled/Basic/Skilled/Expert/Master skill levels.
+- [[/Skills/Bare-handed combat]] — Costs 1/1/1/2/2 skill slots to advance on Unskilled/Basic/Skilled/Expert/Master skill levels.
+- [[/Skills/Martial arts]] — Costs 2/3/3/3/4 skill slots to advance on Unskilled/Basic/Skilled/Expert/Master skill levels.
 
 You need to have Bare-handed combat at Grand Master level to advance Martial Arts.
 
@@ -31,18 +31,18 @@ You need to have Bare-handed combat at Grand Master level to advance Martial Art
 
 Weapon skills give bonuses to hit and to damage as well as increase the chance of a critical strike with a specific weapon type.
 
-- [[Axe|Axe (Skill)]]
-- [[Bludgeoning weapon]]
-- [[Bow|Bow (Skill)]]
-- [[Crossbow|Crossbow (Skill)]]
-- [[Dagger|Dagger (Skill)]]
-- [[Flail|Flail (Skill)]]
-- [[Polearm]]
-- [[Quarterstaff|Quarterstaff (Skill)]]
-- [[Sling|Sling (Skill)]]
-- [[Sword|Sword (Skill)]]
-- [[Thrusting weapon]]
-- [[Whip|Whip (Skill)]]
+- [[/Skills/Axe]]
+- [[/Skills/Bludgeoning weapon]]
+- [[/Skills/Bow]]
+- [[/Skills/Crossbow]]
+- [[/Skills/Dagger]]
+- [[/Skills/Flail]]
+- [[/Skills/Polearm]]
+- [[/Skills/Quarterstaff]]
+- [[/Skills/Sling]]
+- [[/Skills/Sword]]
+- [[/Skills/Thrusting weapon]]
+- [[/Skills/Whip]]
 
 ### Notes
 
@@ -52,18 +52,18 @@ Weapon skills give bonuses to hit and to damage as well as increase the chance o
 
 Spell casting skills increase the chance of successfully casting a spell of that school. Additionally, they reduce the mana cost and give penalties to saving throws.
 
-- [[Abjuration spell]]
-- [[Arcane spell]]
-- [[Celestial spell]]
-- [[Clerical spell]]
-- [[Conjuration spell]]
-- [[Divination spell]]
-- [[Enchantment spell]]
-- [[Healing spell]]
-- [[Movement spell]]
-- [[Nature spell]]
-- [[Necromancy spell]]
-- [[Transmutation spell]]
+- [[/Skills/Abjuration spell]]
+- [[/Skills/Arcane spell]]
+- [[/Skills/Celestial spell]]
+- [[/Skills/Clerical spell]]
+- [[/Skills/Conjuration spell]]
+- [[/Skills/Divination spell]]
+- [[/Skills/Enchantment spell]]
+- [[/Skills/Healing spell]]
+- [[/Skills/Movement spell]]
+- [[/Skills/Nature spell]]
+- [[/Skills/Necromancy spell]]
+- [[/Skills/Transmutation spell]]
 
 ### Notes
 
@@ -71,9 +71,9 @@ Spell casting skills increase the chance of successfully casting a spell of that
 
 ## Miscellaneous Skills
 
-- [[Digging]]
-- [[Disarm trap]]
-- [[Riding]]
+- [[/Skills/Digging]]
+- [[/Skills/Disarm trap]]
+- [[/Skills/Riding]]
 
 ### Notes
 
