@@ -6,8 +6,8 @@ Rich physician, adept at healing spells.
 
 ## Allowed Races
 
-- [[Human race]]
-- [[Gnoll race]]
+- [[Races/Human]]
+- [[Races/Gnoll]]
 
 ## Allowed Genders
 
@@ -63,26 +63,26 @@ Starting skills / Maximum skill levels for Neutral Human Healer.
 
 ### Combat Skills                                    
 
-* [[Bare handed combat]]:  Basic/Basic       
-* [[Dodge]]: Unskilled/Skilled
-* [[Wand|Wand (Skill)]]: Basic/Master
+* [[Skills/Bare-handed combat]]:  Basic/Basic       
+* [[Skills/Dodge]]: Unskilled/Skilled
+* [[Skills/Wand]]: Basic/Master
 
 ### Weapon Skills                                    
 
-* [[Bludgeoning weapon]]: Unskilled/Skilled
-* [[Dagger|Dagger (Skill)]]: Skilled/Grand Master
-* [[Quarterstaff|Quarterstaff (Skill)]]: Basic/Grand Master
-* [[Sling|Sling (Skill)]]: Unskilled/Skilled
-* [[Sword|Sword (Skill)]]: Unskilled/Skilled
-* [[Thrown weapon]]: Unskilled/Expert
+* [[Skills/Bludgeoning weapon]]: Unskilled/Skilled
+* [[Skills/Dagger]]: Skilled/Grand Master
+* [[Skills/Quarterstaff]]: Basic/Grand Master
+* [[Skills/Sling]]: Unskilled/Skilled
+* [[Skills/Sword]]: Unskilled/Skilled
+* [[Skills/Thrown weapon]]: Unskilled/Expert
 
 ### Spell Casting Skills                             
 
-* [[Abjuration spell]]: Basic/Grand Master
-* [[Divination spell]]: Basic/Grand Master
-* [[Enchantment spell]]: Basic/Grand Master
-* [[Healing spell]]: Skilled/Grand Master
+* [[Skills/Abjuration spell]]: Basic/Grand Master
+* [[Skills/Divination spell]]: Basic/Grand Master
+* [[Skills/Enchantment spell]]: Basic/Grand Master
+* [[Skills/Healing spell]]: Skilled/Grand Master
 
 ### Miscellaneous Skills                                
 
-* [[Disarm trap]]: Unskilled/Skilled
+* [[Skills/Disarm trap]]: Unskilled/Skilled

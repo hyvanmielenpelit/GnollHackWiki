@@ -6,8 +6,8 @@ Heavely armored melee warrior, adept at riding.
 
 ## Allowed Races
 
-- [[Human race]]
-- [[Dwarf race]]
+- [[Races/Human]]
+- [[Races/Dwarf]]
 
 ## Allowed Genders
 
@@ -70,38 +70,38 @@ Starting skills / Maximum skill levels for Lawful Human Knight.
 
 ### Combat Skills                                    
 
-* [[Bare handed combat]]: Basic/Expert
-* [[Dodge]]: Unskilled/Master
-* [[Shield|Shield (Skill)]]: Basic/Grand Master
-* [[Two-handed weapon]]: Unskilled/Grand Master
-* [[Wand|Wand (Skill)]]: Unskilled/Basic       
+* [[Skills/Bare-handed combat]]: Basic/Expert
+* [[Skills/Dodge]]: Unskilled/Master
+* [[Skills/Shield]]: Basic/Grand Master
+* [[Skills/Two-handed weapon]]: Unskilled/Grand Master
+* [[Skills/Wand]]: Unskilled/Basic       
 
 ### Weapon Skills                                    
 
-* [[Axe|Axe (Skill)]]: Unskilled/Master      
-* [[Bludgeoning weapon]]: Unskilled/Master      
-* [[Bow|Bow (Skill)]]: Unskilled/Expert      
-* [[Crossbow|Crossbow (Skill)]]: Unskilled/Expert      
-* [[Dagger|Dagger (Skill)]]: Unskilled/Expert
-* [[Flail|Flail (Skill)]]: Unskilled/Grand Master
-* [[Polearm]]: Unskilled/Grand Master
-* [[Sword|Sword (Skill)]]: Basic/Grand Master
-* [[Thrusting weapon]]: Basic/Grand Master
+* [[Skills/Axe]]: Unskilled/Master      
+* [[Skills/Bludgeoning weapon]]: Unskilled/Master      
+* [[Skills/Bow]]: Unskilled/Expert      
+* [[Skills/Crossbow]]: Unskilled/Expert      
+* [[Skills/Dagger]]: Unskilled/Expert
+* [[Skills/Flail]]: Unskilled/Grand Master
+* [[Skills/Polearm]]: Unskilled/Grand Master
+* [[Skills/Sword]]: Basic/Grand Master
+* [[Skills/Thrusting weapon]]: Basic/Grand Master
 
 ### Spell Casting Skills                             
 
-* [[Abjuration spell]]: Unskilled/Skilled     
-* [[Celestial spell]]: Unskilled/Skilled     
-* [[Clerical spell]]: Unskilled/Skilled     
-* [[Healing spell]]: Unskilled/Skilled     
+* [[Skills/Abjuration spell]]: Unskilled/Skilled     
+* [[Skills/Celestial spell]]: Unskilled/Skilled     
+* [[Skills/Clerical spell]]: Unskilled/Skilled     
+* [[Skills/Healing spell]]: Unskilled/Skilled     
 
 ### Miscellaneous Skills                                
 
-* [[Disarm trap]]: Unskilled/Basic       
-* [[Riding]]: Basic/Grand Master
+* [[Skills/Disarm trap]]: Unskilled/Basic       
+* [[Skills/Riding]]: Basic/Grand Master
 
 ## Racial Adjustments
 
 ### Dwarf
 
-- [[Digging]]: Unskilled/Grand Master
+- [[Skills/Digging]]: Unskilled/Grand Master

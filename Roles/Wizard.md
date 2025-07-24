@@ -6,9 +6,9 @@ Powerful spell caster who can specialize in many spell schools.
 
 ## Allowed Races
 
-- [[Human race]]
-- [[Elf race]]
-- [[Orc race]]
+- [[Races/Human]]
+- [[Races/Elf]]
+- [[Races/Orc]]
 
 ## Allowed Genders
 
@@ -61,28 +61,28 @@ Starting skills / Maximum skill levels for Chaotic Human Wizard.
 
 ### Combat Skills 
 
-- [[Bare handed combat]]: Unskilled/Basic 
-- [[Dodge]]: Unskilled/Expert
-- [[Wand|Wand (Skill)]]: Basic/Grand Master
+- [[Skills/Bare-handed combat]]: Unskilled/Basic 
+- [[Skills/Dodge]]: Unskilled/Expert
+- [[Skills/Wand]]: Basic/Grand Master
 
 ### Weapon Skills 
 
-- [[Dagger|Dagger (Skill)]]: Unskilled/Expert 
-- [[Quarterstaff|Quarterstaff (Skill)]]: Basic/Expert 
-- [[Sword|Sword (Skill)]]: Unskilled/Basic
-- [[Thrown weapon]]: Unskilled/Skilled 
+- [[Skills/Dagger]]: Unskilled/Expert 
+- [[Skills/Quarterstaff]]: Basic/Expert 
+- [[Skills/Sword]]: Unskilled/Basic
+- [[Skills/Thrown weapon]]: Unskilled/Skilled 
 
 ### Spell Casting Skills 
 
-- [[Abjuration spell]]: Unskilled/Expert
-- [[Arcane spell]]: Basic/Grand Master
-- [[Conjuration spell]]: Unskilled/Grand Master
-- [[Divination spell]]: Unskilled/Expert
-- [[Enchantment spell]]: Basic/Grand Master
-- [[Movement spell]]: Unskilled/Grand Master
-- [[Transmutation spell]]: Basic/Grand Master
+- [[Skills/Abjuration spell]]: Unskilled/Expert
+- [[Skills/Arcane spell]]: Basic/Grand Master
+- [[Skills/Conjuration spell]]: Unskilled/Grand Master
+- [[Skills/Divination spell]]: Unskilled/Expert
+- [[Skills/Enchantment spell]]: Basic/Grand Master
+- [[Skills/Movement spell]]: Unskilled/Grand Master
+- [[Skills/Transmutation spell]]: Basic/Grand Master
 
 ### Miscellaneous Skills
 
-- [[Disarm trap]]: Unskilled/Basic
-- [[Riding]]: Unskilled/Basic
+- [[Skills/Disarm trap]]: Unskilled/Basic
+- [[Skills/Riding]]: Unskilled/Basic

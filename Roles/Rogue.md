@@ -6,9 +6,9 @@ Versatile warrior, adept at melee and ranged combat and at disarming traps.
 
 ## Allowed Races
 
-- [[Human race]]
-- [[Gnoll race]]
-- [[Orc race]]
+- [[Races/Human]]
+- [[Races/Gnoll]]
+- [[Races/Orc]]
 
 ## Allowed Genders
 
@@ -61,36 +61,36 @@ Starting skills / Maximum skill levels for Chaotic Human Rogue.
 
 ### Combat Skills 
 
-- [[Bare handed combat]]: Unskilled/Master 
-- [[Dodge]]: Unskilled/Grand Master
-- [[Dual wielding]]: Unskilled/Master 
-- [[Shield|Shield (Skill)]]: Unskilled/Skilled
-- [[Wand|Wand (Skill)]]: Unskilled/Expert
+- [[Skills/Bare-handed combat]]: Unskilled/Master 
+- [[Skills/Dodge]]: Unskilled/Grand Master
+- [[Skills/Dual wielding]]: Unskilled/Master 
+- [[Skills/Shield]]: Unskilled/Skilled
+- [[Skills/Wand]]: Unskilled/Expert
 
 ### Weapon Skills 
 
-- [[Bludgeoning weapon]]: Unskilled/Expert 
-- [[Bow|Bow (Skill)]]: Unskilled/Master
-- [[Crossbow|Crossbow (Skill)]]: Basic/Master
-- [[Dagger|Dagger (Skill)]]: Basic/Grand Master
-- [[Flail|Flail (Skill)]]: Unskilled/Expert
-- [[Sling|Sling (Skill)]]: Unskilled/Master
-- [[Sword|Sword (Skill)]]: Basic/Master
-- [[Thrown weapon]]: Basic/Master
+- [[Skills/Bludgeoning weapon]]: Unskilled/Expert 
+- [[Skills/Bow]]: Unskilled/Master
+- [[Skills/Crossbow]]: Basic/Master
+- [[Skills/Dagger]]: Basic/Grand Master
+- [[Skills/Flail]]: Unskilled/Expert
+- [[Skills/Sling]]: Unskilled/Master
+- [[Skills/Sword]]: Basic/Master
+- [[Skills/Thrown weapon]]: Basic/Master
 
 ### Spell Casting Skills 
 
-- [[Divination spell]]: Unskilled/Skilled
-- [[Movement spell]]: Unskilled/Skilled
-- [[Transmutation spell]]: Unskilled/Skilled
+- [[Skills/Divination spell]]: Unskilled/Skilled
+- [[Skills/Movement spell]]: Unskilled/Skilled
+- [[Skills/Transmutation spell]]: Unskilled/Skilled
 
 ### Miscellaneous Skills 
 
-- [[Disarm trap]]: Basic/Grand Master
-- [[Riding]]: Unskilled/Skilled
+- [[Skills/Disarm trap]]: Basic/Grand Master
+- [[Skills/Riding]]: Unskilled/Skilled
 
 ## Racial Adjustments
 
 ### Gnoll
 
-- [[Flail|Flail (Skill)]]: Unskilled/Master
+- [[Skills/Flail]]: Unskilled/Master

@@ -6,8 +6,8 @@ Lightly equipped explorer. The archaeologist starts with a touchstone, which can
 
 ## Allowed Races
 
-- [[Human race]]
-- [[Dwarf race]]
+- [[Races/Human]]
+- [[Races/Dwarf]]
 
 ## Allowed Genders
 
@@ -61,38 +61,38 @@ Starting skills / Maximum skill levels for Lawful Human Archaeologist.
 
 ### Combat Skills                                     
 
-* [[Bare handed combat]]: Unskilled/Master
-* [[Dodge]]: Unskilled/Expert
-* [[Dual wielding]]: Unskilled/Master      
-* [[Wand|Wand (Skill)]]: Basic/Master      
+* [[Skills/Bare-handed combat]]: Unskilled/Master
+* [[Skills/Dodge]]: Unskilled/Expert
+* [[Skills/Dual wielding]]: Unskilled/Master      
+* [[Skills/Wand]]: Basic/Master      
 
 ### Weapon Skills                                     
 
-* [[Bludgeoning weapon]]: Unskilled/Master      
-* [[Crossbow|Crossbow (Skill)]]: Basic/Master      
-* [[Dagger|Dagger (Skill)]]: Unskilled/Master      
-* [[Quarterstaff|Quarterstaff (Skill)]]: Unskilled/Master      
-* [[Sling|Sling (Skill)]]: Unskilled/Master      
-* [[Sword|Sword (Skill)]]: Unskilled/Master      
-* [[Thrown weapon]]: Unskilled/Master
-* [[Whip|Whip (Skill)]]: Basic/Grand Master
+* [[Skills/Bludgeoning weapon]]: Unskilled/Master      
+* [[Skills/Crossbow]]: Basic/Master      
+* [[Skills/Dagger]]: Unskilled/Master      
+* [[Skills/Quarterstaff]]: Unskilled/Master      
+* [[Skills/Sling]]: Unskilled/Master      
+* [[Skills/Sword]]: Unskilled/Master      
+* [[Skills/Thrown weapon]]: Unskilled/Master
+* [[Skills/Whip]]: Basic/Grand Master
 
 ### Spell Casting Skills                              
 
-* [[Abjuration spell]]: Unskilled/Master      
-* [[Arcane spell]]: Unskilled/Expert      
-* [[Divination spell]]: Basic/Master      
-* [[Healing spell]]: Unskilled/Expert      
-* [[Necromancy spell]]: Unskilled/Master      
-* [[Transmutation spell]]: Unskilled/Master      
+* [[Skills/Abjuration spell]]: Unskilled/Master      
+* [[Skills/Arcane spell]]: Unskilled/Expert      
+* [[Skills/Divination spell]]: Basic/Master      
+* [[Skills/Healing spell]]: Unskilled/Expert      
+* [[Skills/Necromancy spell]]: Unskilled/Master      
+* [[Skills/Transmutation spell]]: Unskilled/Master      
 
 ### Miscellaneous Skills                                 
 
-* [[Digging]]: Basic/Grand Master
-* [[Disarm trap]]: Unskilled/Master
+* [[Skills/Digging]]: Basic/Grand Master
+* [[Skills/Disarm trap]]: Unskilled/Master
 
 ## Racial Adjustments
 
 ### Dwarf
 
-- [[Digging]]: Skilled/Grand Master
+- [[Skills/Digging]]: Skilled/Grand Master

@@ -9,7 +9,7 @@ The score determines how well your GnollHack run went. The scoring system in Gno
 In GnollHack, you get score from the following things:
 
 1. **Delving deeper into the dungeon** — The deepest level you have reached
-2. **Achievements** — Such as obtaining [[the Gladstone]] from Mines' End
+2. **Achievements** — Such as obtaining [[Artifacts/the Gladstone]] from Mines' End
 3. **Small achievements** — Such as visiting a shop
 4. **Difficulty level** — The higher difficulty levels give out more score
 
@@ -25,10 +25,10 @@ The scoring system has been designed so that your current score can be shown at 
 
 Contrary to NetHack, you do not get score from:
 
-1. Artifacts — Unless you have [[Archaeologist role]].
-2. Amulets — Unless you have [[Caveman role]].
-3. Gold pieces — Unless you have [[Rogue role]].
-4. Gems — Unless you have [[Rogue role]].
+1. Artifacts — Unless you have [[Roles/Archaeologist]].
+2. Amulets — Unless you have [[Roles/Caveman]].
+3. Gold pieces — Unless you have [[Roles/Rogue]].
+4. Gems — Unless you have [[Roles/Rogue]].
 
 ## 2. Calculating Score
 

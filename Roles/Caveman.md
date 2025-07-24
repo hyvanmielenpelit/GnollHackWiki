@@ -6,9 +6,9 @@ Strong warrior that starts with a club and a sling. The caveman has also a rando
 
 ## Allowed Races
 
-- [[Human race]]
-- [[Dwarf race]]
-- [[Gnoll race]]
+- [[Races/Human]]
+- [[Races/Dwarf]]
+- [[Races/Gnoll]]
 
 ## Allowed Genders
 
@@ -62,40 +62,40 @@ Starting skills / Maximum skill levels for Lawful Human Caveman.
 
 ### Combat Skills                                    
 
-* [[Bare handed combat]]: Basic/Master      
-* [[Dodge]]: Unskilled/Master
-* [[Shield|Shield (Skill)]]: Unskilled/Expert
-* [[Two-handed weapon]]: Unskilled/Grand Master
-* [[Wand|Wand (Skill)]]: Unskilled/Expert      
+* [[Skills/Bare-handed combat]]: Basic/Master      
+* [[Skills/Dodge]]: Unskilled/Master
+* [[Skills/Shield]]: Unskilled/Expert
+* [[Skills/Two-handed weapon]]: Unskilled/Grand Master
+* [[Skills/Wand]]: Unskilled/Expert      
 
 ### Weapon Skills                                    
 
-* [[Axe|Axe (Skill)]]: Unskilled/Expert      
-* [[Bludgeoning weapon]]: Skilled/Grand Master
-* [[Bow|Bow (Skill)]]: Unskilled/Skilled
-* [[Dagger|Dagger (Skill)]]: Unskilled/Expert      
-* [[Flail|Flail (Skill)]]: Unskilled/Grand Master
-* [[Polearm]]: Unskilled/Basic       
-* [[Quarterstaff|Quarterstaff (Skill)]]: Basic/Grand Master
-* [[Sling|Sling (Skill)]]: Basic/Grand Master
-* [[Thrown weapon]]: Basic/Master      
-* [[Thrusting weapon]]: Basic/Grand Master
+* [[Skills/Axe]]: Unskilled/Expert      
+* [[Skills/Bludgeoning weapon]]: Skilled/Grand Master
+* [[Skills/Bow]]: Unskilled/Skilled
+* [[Skills/Dagger]]: Unskilled/Expert      
+* [[Skills/Flail]]: Unskilled/Grand Master
+* [[Skills/Polearm]]: Unskilled/Basic       
+* [[Skills/Quarterstaff]]: Basic/Grand Master
+* [[Skills/Sling]]: Basic/Grand Master
+* [[Skills/Thrown weapon]]: Basic/Master      
+* [[Skills/Thrusting weapon]]: Basic/Grand Master
 
 ### Spell Casting Skills                             
 
-* [[Nature spell]]: Basic/Master
+* [[Skills/Nature spell]]: Basic/Master
 
 ### Miscellaneous Skills                                
 
-* [[Digging]]: Unskilled/Master
-* [[Disarm trap]]: Unskilled/Basic       
+* [[Skills/Digging]]: Unskilled/Master
+* [[Skills/Disarm trap]]: Unskilled/Basic       
 
 ## Racial Adjustments
 
 ### Dwarf
 
-- [[Digging]]: Basic/Grand Master
+- [[Skills/Digging]]: Basic/Grand Master
 
 ### Gnoll
 
-- [[Flail|Flail (Skill)]]: Unskilled/Grand Master
+- [[Skills/Flail]]: Unskilled/Grand Master

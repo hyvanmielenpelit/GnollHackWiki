@@ -62,6 +62,6 @@ Elves are highly intelligent but physically fragile race. This makes them excell
 
 ## Character Classes
 
-- [[Priest role]]
-- [[Ranger role]]
-- [[Wizard role]]
+- [[Roles/Priest]]
+- [[Roles/Ranger]]
+- [[Roles/Wizard]]

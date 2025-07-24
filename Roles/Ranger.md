@@ -6,10 +6,10 @@ Potent archer, adept at ranged combat.
 
 ## Allowed Races
 
-- [[Human race]]
-- [[Elf race]]
-- [[Gnoll race]]
-- [[Orc race]]
+- [[Races/Human]]
+- [[Races/Elf]]
+- [[Races/Gnoll]]
+- [[Races/Orc]]
 
 ## Allowed Genders
 
@@ -66,38 +66,38 @@ Starting skills / Maximum skill levels for Neutral Human Ranger.
 
 ### Combat Skills 
 
-* [[Bare handed combat]]: Unskilled/Skilled 
-* [[Dodge]]: Unskilled/Skilled
-* [[Wand|Wand (Skill)]]: Unskilled/Skilled 
+* [[Skills/Bare-handed combat]]: Unskilled/Skilled 
+* [[Skills/Dodge]]: Unskilled/Skilled
+* [[Skills/Wand]]: Unskilled/Skilled 
 
 ### Weapon Skills 
 
-* [[Axe|Axe (Skill)]]: Unskilled/Expert 
-* [[Bow|Bow (Skill)]]: Basic/Grand Master
-* [[Crossbow|Crossbow (Skill)]]: Basic/Grand Master
-* [[Dagger|Dagger (Skill)]]: Basic/Expert 
-* [[Polearm]]: Unskilled/Skilled 
-* [[Quarterstaff|Quarterstaff (Skill)]]: Unskilled/Skilled 
-* [[Sling|Sling (Skill)]]: Unskilled/Expert 
-* [[Sword|Sword (Skill)]]: Unskilled/Expert 
-* [[Thrown weapon]]: Unskilled/Grand Master
-* [[Thrusting weapon]]: Basic/Expert 
-* [[Whip|Whip (Skill)]]: Unskilled/Basic 
+* [[Skills/Axe]]: Unskilled/Expert 
+* [[Skills/Bow]]: Basic/Grand Master
+* [[Skills/Crossbow]]: Basic/Grand Master
+* [[Skills/Dagger]]: Basic/Expert 
+* [[Skills/Polearm]]: Unskilled/Skilled 
+* [[Skills/Quarterstaff]]: Unskilled/Skilled 
+* [[Skills/Sling]]: Unskilled/Expert 
+* [[Skills/Sword]]: Unskilled/Expert 
+* [[Skills/Thrown weapon]]: Unskilled/Grand Master
+* [[Skills/Thrusting weapon]]: Basic/Expert 
+* [[Skills/Whip]]: Unskilled/Basic 
 
 ### Spell Casting Skills 
 
-* [[Divination spell]]: Unskilled/Skilled
-* [[Healing spell]]: Unskilled/Skilled
-* [[Nature spell]]: Unskilled/Skilled
+* [[Skills/Divination spell]]: Unskilled/Skilled
+* [[Skills/Healing spell]]: Unskilled/Skilled
+* [[Skills/Nature spell]]: Unskilled/Skilled
 
 ### Miscellaneous Skills
 
-* [[Digging]]: Unskilled/Basic 
-* [[Disarm trap]]: Basic/Master
-* [[Riding]]: Unskilled/Grand Master
+* [[Skills/Digging]]: Unskilled/Basic 
+* [[Skills/Disarm trap]]: Basic/Master
+* [[Skills/Riding]]: Unskilled/Grand Master
 
 ## Racial Adjustments
 
 ### Gnoll
 
-- [[Flail|Flail (Skill)]]: Unskilled/Expert
+- [[Skills/Flail]]: Unskilled/Expert

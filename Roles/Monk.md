@@ -6,7 +6,7 @@ Martial artist, adept at several spells.
 
 ## Allowed Races
 
-- [[Human race]]
+- [[Races/Human]]
 
 ## Allowed Genders
 
@@ -89,25 +89,25 @@ Starting skills / Maximum skill levels for Neutral Human Monk.
 
 ### Combat Skills   
 
-* [[Bare handed combat]]: Expert/Grand Master
-* [[Dodge]]: Unskilled/Grand Master
-* [[Martial arts]]: Unskilled/Grand Master
-* [[Wand|Wand (Skill)]]: Unskilled/Skilled 
+* [[Skills/Bare-handed combat]]: Expert/Grand Master
+* [[Skills/Dodge]]: Unskilled/Grand Master
+* [[Skills/Martial arts]]: Unskilled/Grand Master
+* [[Skills/Wand]]: Unskilled/Skilled 
 
 ### Weapon Skills   
 
-* [[Quarterstaff|Quarterstaff (Skill)]]: Unskilled/Expert 
-* [[Sling|Sling (Skill)]]: Unskilled/Expert 
-* [[Thrown weapon]]: Unskilled/Expert 
+* [[Skills/Quarterstaff]]: Unskilled/Expert 
+* [[Skills/Sling]]: Unskilled/Expert 
+* [[Skills/Thrown weapon]]: Unskilled/Expert 
 
 ### Spell Casting Skills  
 
-* [[Abjuration spell]]: Basic/Grand Master
-* [[Clerical spell]]: Unskilled/Grand Master
-* [[Divination spell]]: Unskilled/Grand Master
-* [[Healing spell]]: Unskilled/Grand Master
-* [[Movement spell]]: Basic/Grand Master
+* [[Skills/Abjuration spell]]: Basic/Grand Master
+* [[Skills/Clerical spell]]: Unskilled/Grand Master
+* [[Skills/Divination spell]]: Unskilled/Grand Master
+* [[Skills/Healing spell]]: Unskilled/Grand Master
+* [[Skills/Movement spell]]: Basic/Grand Master
 
 ### Miscellaneous Skills
 
-* [[Disarm trap]]: Unskilled/Basic
+* [[Skills/Disarm trap]]: Unskilled/Basic
