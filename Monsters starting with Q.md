@@ -1,7 +1,7 @@
 ## Q
 
 
-- [[Quantum mechanic]]
-- [[Quasit]]
-- [[Queen bee]]
-- [[Quivering blob]]
+- [[Monsters/Quantum mechanic]]
+- [[Monsters/Quasit]]
+- [[Monsters/Queen bee]]
+- [[Monsters/Quivering blob]]

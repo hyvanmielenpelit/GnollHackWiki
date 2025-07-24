@@ -1,12 +1,12 @@
 ## N
 
 
-- [[Nalfeshnee]]
-- [[Nalzok]]
-- [[Neanderthal]]
-- [[Neferet the Green]]
-- [[Neo-otyugh]]
-- [[Newt]]
-- [[Ninja]]
-- [[Norn]]
-- [[Nurse]]
+- [[Monsters/Nalfeshnee]]
+- [[Monsters/Nalzok]]
+- [[Monsters/Neanderthal]]
+- [[Monsters/Neferet the Green]]
+- [[Monsters/Neo-otyugh]]
+- [[Monsters/Newt]]
+- [[Monsters/Ninja]]
+- [[Monsters/Norn]]
+- [[Monsters/Nurse]]
