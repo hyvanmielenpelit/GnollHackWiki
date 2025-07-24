@@ -1,57 +1,57 @@
 ## Major Cantrip
 
-- [[Confuse monster]]
+- [[/Spells/Confuse monster]]
 
 ## Level 1
 
-- [[Mirror image]]
+- [[/Spells/Mirror image]]
 
 ## Level 2
 
-- [[Fire-enchant item]]
+- [[/Spells/Fire-enchant item]]
 
 ## Level 3
 
-- [[Enchant armor]]
-- [[Fear]]
-- [[Lightning-enchant item]]
-- [[Protect armor]]
+- [[/Spells/Enchant armor]]
+- [[/Spells/Fear]]
+- [[/Spells/Lightning-enchant item]]
+- [[/Spells/Protect armor]]
 
 ## Level 4
 
-- [[Enchant weapon]]
-- [[Invisibility]]
-- [[Protect weapon]]
-- [[Sleep]]
+- [[/Spells/Enchant weapon]]
+- [[/Spells/Invisibility]]
+- [[/Spells/Protect weapon]]
+- [[/Spells/Sleep]]
 
 ## Level 5
 
-- [[Cold-enchant item]]
-- [[Mass fear]]
+- [[/Spells/Cold-enchant item]]
+- [[/Spells/Mass fear]]
 
 ## Level 6
 
-- [[Charm monster]]
-- [[Mass sleep]]
+- [[/Spells/Charm monster]]
+- [[/Spells/Mass sleep]]
 
 ## Level 7
 
-- [[Dominate monster]]
+- [[/Spells/Dominate monster]]
 
 ## Level 8
 
-- [[Death-enchant item]]
-- [[Sphere of charming]]
+- [[/Spells/Death-enchant item]]
+- [[/Spells/Sphere of charming]]
 
 ## Level 9
 
-- [[Mass conflict]]
-- [[Sphere of domination]]
+- [[/Spells/Mass conflict]]
+- [[/Spells/Sphere of domination]]
 
 ## Level 10
 
-- [[Mass charm]]
+- [[/Spells/Mass charm]]
 
 ## Level 11
 
-- [[Mass domination]]
+- [[/Spells/Mass domination]]

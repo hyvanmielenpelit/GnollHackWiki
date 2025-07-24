@@ -1,56 +1,56 @@
 ## Minor Cantrip
 
-- [[Shield]]
+- [[/Spells/Shield]]
 
 ## Major Cantrip
 
-- [[Protection from lycanthropy]]
+- [[/Spells/Protection from lycanthropy]]
 
 ## Level 1
 
-- [[Lower magic resistance]]
-- [[Protection from acid]]
-- [[Protection from poison]]
+- [[/Spells/Lower magic resistance]]
+- [[/Spells/Protection from acid]]
+- [[/Spells/Protection from poison]]
 
 ## Level 2
 
-- [[Protection from cold]]
-- [[Protection from fire]]
-- [[Protection from lightning]]
+- [[/Spells/Protection from cold]]
+- [[/Spells/Protection from fire]]
+- [[/Spells/Protection from lightning]]
 
 ## Level 3
 
-- [[Anti-magic shell]]
-- [[Diminish magic resistance]]
-- [[Protection from charm]]
-- [[Reflection]]
+- [[/Spells/Anti-magic shell]]
+- [[/Spells/Diminish magic resistance]]
+- [[/Spells/Protection from charm]]
+- [[/Spells/Reflection]]
 
 ## Level 4
 
-- [[Protection from death magic]]
-- [[Protection from life draining]]
-- [[Protection from sickness]]
+- [[/Spells/Protection from death magic]]
+- [[/Spells/Protection from life draining]]
+- [[/Spells/Protection from sickness]]
 
 ## Level 5
 
-- [[Abolish magic resistance]]
-- [[Protection from petrification]]
+- [[/Spells/Abolish magic resistance]]
+- [[/Spells/Protection from petrification]]
 
 ## Level 6
 
-- [[Forbid summoning]]
-- [[Silence]]
+- [[/Spells/Forbid summoning]]
+- [[/Spells/Silence]]
 
 ## Level 7
 
-- [[Cancellation]]
-- [[Negate magic resistance]]
-- [[Protection from disintegration]]
+- [[/Spells/Cancellation]]
+- [[/Spells/Negate magic resistance]]
+- [[/Spells/Protection from disintegration]]
 
 ## Level 9
 
-- [[Globe of invulnerability]]
+- [[/Spells/Globe of invulnerability]]
 
 ## Level 10
 
-- [[Disjunction]]
+- [[/Spells/Disjunction]]

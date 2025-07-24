@@ -1,33 +1,33 @@
 ## Minor Cantrip
 
-- [[Minor healing]]
+- [[/Spells/Minor healing]]
 
 ## Major Cantrip
 
-- [[Cure blindness]]
+- [[/Spells/Cure blindness]]
 
 ## Level 1
 
-- [[Healing]]
+- [[/Spells/Healing]]
 
 ## Level 3
 
-- [[Cure sickness]]
-- [[Extra healing]]
+- [[/Spells/Cure sickness]]
+- [[/Spells/Extra healing]]
 
 ## Level 4
 
-- [[Cure petrification]]
-- [[Restore ability]]
+- [[/Spells/Cure petrification]]
+- [[/Spells/Restore ability]]
 
 ## Level 5
 
-- [[Greater healing]]
+- [[/Spells/Greater healing]]
 
 ## Level 7
 
-- [[Prodigious healing]]
+- [[/Spells/Prodigious healing]]
 
 ## Level 9
 
-- [[Full healing]]
+- [[/Spells/Full healing]]

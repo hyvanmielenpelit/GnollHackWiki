@@ -1,46 +1,46 @@
 ## Minor Cantrip
 
-- [[Detect food]]
-- [[Minor consultation]]
-- [[Probe]]
+- [[/Spells/Detect food]]
+- [[/Spells/Minor consultation]]
+- [[/Spells/Probe]]
 
 ## Major Cantrip
 
-- [[Light]]
+- [[/Spells/Light]]
 
 ## Level 1
 
-- [[Detect blessedness]]
+- [[/Spells/Detect blessedness]]
 
 ## Level 2
 
-- [[Clairvoyance]]
-- [[Detect monsters]]
+- [[/Spells/Clairvoyance]]
+- [[/Spells/Detect monsters]]
 
 ## Level 3
 
-- [[Detect treasure]]
-- [[Detect unseen]]
-- [[Identify]]
+- [[/Spells/Detect treasure]]
+- [[/Spells/Detect unseen]]
+- [[/Spells/Identify]]
 
 ## Level 4
 
-- [[Major consultation]]
-- [[Warning]]
+- [[/Spells/Major consultation]]
+- [[/Spells/Warning]]
 
 ## Level 5
 
-- [[Telepathy]]
+- [[/Spells/Telepathy]]
 
 ## Level 6
 
-- [[Improved monster detection]]
-- [[Magic mapping]]
+- [[/Spells/Improved monster detection]]
+- [[/Spells/Magic mapping]]
 
 ## Level 7
 
-- [[Detect traps]]
+- [[/Spells/Detect traps]]
 
 ## Level 8
 
-- [[X-ray vision]]
+- [[/Spells/X-ray vision]]

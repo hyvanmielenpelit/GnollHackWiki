@@ -1,58 +1,58 @@
 ## Minor Cantrip
 
-- [[Summoning call]]
+- [[/Spells/Summoning call]]
 
 ## Level 1
 
-- [[Create familiar]]
-- [[Mage armor]]
+- [[/Spells/Create familiar]]
+- [[/Spells/Mage armor]]
 
 ## Level 2
 
-- [[Stinking cloud]]
+- [[/Spells/Stinking cloud]]
 
 ## Level 3
 
-- [[Animate water]]
+- [[/Spells/Animate water]]
 
 ## Level 4
 
-- [[Animate air]]
-- [[Animate earth]]
-- [[Create monster]]
+- [[/Spells/Animate air]]
+- [[/Spells/Animate earth]]
+- [[/Spells/Create monster]]
 
 ## Level 5
 
-- [[Animate fire]]
-- [[Greater animate water]]
+- [[/Spells/Animate fire]]
+- [[/Spells/Greater animate water]]
 
 ## Level 6
 
-- [[Greater animate air]]
-- [[Greater animate earth]]
-- [[Summon dragon]]
+- [[/Spells/Greater animate air]]
+- [[/Spells/Greater animate earth]]
+- [[/Spells/Summon dragon]]
 
 ## Level 7
 
-- [[Greater animate fire]]
+- [[/Spells/Greater animate fire]]
 
 ## Level 8
 
-- [[Summon ancient dragon]]
+- [[/Spells/Summon ancient dragon]]
 
 ## Level 9
 
-- [[Great Yendorian summoning]]
+- [[/Spells/Great Yendorian summoning]]
 
 ## Level 10
 
-- [[Call hierarch modron]]
-- [[Wish]]
+- [[/Spells/Call hierarch modron]]
+- [[/Spells/Wish]]
 
 ## Level 11
 
-- [[Black blade of disaster]]
+- [[/Spells/Black blade of disaster]]
 
 ## Level 12
 
-- [[Sphere of annihilation]]
+- [[/Spells/Sphere of annihilation]]

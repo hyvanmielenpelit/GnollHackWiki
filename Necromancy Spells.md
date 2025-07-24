@@ -1,64 +1,64 @@
 ## Major Cantrip
 
-- [[Raise minor zombie]]
+- [[/Spells/Raise minor zombie]]
 
 ## Level 1
 
-- [[Raise skeleton]]
+- [[/Spells/Raise skeleton]]
 
 ## Level 2
 
-- [[Create minor mummy]]
-- [[Raise giant skeleton]]
-- [[Raise giant zombie]]
-- [[Replenish undeath]]
+- [[/Spells/Create minor mummy]]
+- [[/Spells/Raise giant skeleton]]
+- [[/Spells/Raise giant zombie]]
+- [[/Spells/Replenish undeath]]
 
 ## Level 3
 
-- [[Call ghoul]]
-- [[Drain level]]
-- [[Raise skeleton warrior]]
+- [[/Spells/Call ghoul]]
+- [[/Spells/Drain level]]
+- [[/Spells/Raise skeleton warrior]]
 
 ## Level 4
 
-- [[Control undead]]
-- [[Greater undeath replenishment]]
-- [[Mass raise zombie]]
+- [[/Spells/Control undead]]
+- [[/Spells/Greater undeath replenishment]]
+- [[/Spells/Mass raise zombie]]
 
 ## Level 5
 
-- [[Create giant mummy]]
-- [[Raise skeleton lord]]
+- [[/Spells/Create giant mummy]]
+- [[/Spells/Raise skeleton lord]]
 
 ## Level 6
 
-- [[Summon demon]]
+- [[/Spells/Summon demon]]
 
 ## Level 7
 
-- [[Mass create mummy]]
-- [[Raise skeleton king]]
+- [[/Spells/Mass create mummy]]
+- [[/Spells/Raise skeleton king]]
 
 ## Level 8
 
-- [[Create dracolich]]
-- [[Touch of death]]
+- [[/Spells/Create dracolich]]
+- [[/Spells/Touch of death]]
 
 ## Level 9
 
-- [[Finger of death]]
+- [[/Spells/Finger of death]]
 
 ## Level 10
 
-- [[Call Demogorgon]]
-- [[Create elder dracolich]]
-- [[Deathspell]]
+- [[/Spells/Call Demogorgon]]
+- [[/Spells/Create elder dracolich]]
+- [[/Spells/Deathspell]]
 
 ## Level 11
 
-- [[Mass create dracolich]]
+- [[/Spells/Mass create dracolich]]
 
 ## Level 12
 
-- [[Armageddon]]
-- [[Power word kill]]
+- [[/Spells/Armageddon]]
+- [[/Spells/Power word kill]]

@@ -1,47 +1,47 @@
 ## Minor Cantrip
 
-- [[Commune]]
+- [[/Spells/Commune]]
 
 ## Major Cantrip
 
-- [[Protection]]
+- [[/Spells/Protection]]
 
 ## Level 1
 
-- [[Congregate]]
-- [[Create food]]
+- [[/Spells/Congregate]]
+- [[/Spells/Create food]]
 
 ## Level 2
 
-- [[Create fruits]]
-- [[Curse]]
+- [[/Spells/Create fruits]]
+- [[/Spells/Curse]]
 
 ## Level 3
 
-- [[Bless]]
-- [[Create water]]
-- [[Enlightenment]]
+- [[/Spells/Bless]]
+- [[/Spells/Create water]]
+- [[/Spells/Enlightenment]]
 
 ## Level 4
 
-- [[Create clay golem]]
+- [[/Spells/Create clay golem]]
 
 ## Level 5
 
-- [[Divine endurance]]
-- [[Divine strength]]
-- [[Flame strike]]
-- [[Protection from curses]]
-- [[Remove curse]]
+- [[/Spells/Divine endurance]]
+- [[/Spells/Divine strength]]
+- [[/Spells/Flame strike]]
+- [[/Spells/Protection from curses]]
+- [[/Spells/Remove curse]]
 
 ## Level 6
 
-- [[Resurrection]]
+- [[/Spells/Resurrection]]
 
 ## Level 7
 
-- [[Absolution]]
+- [[/Spells/Absolution]]
 
 ## Level 8
 
-- [[Prayer]]
+- [[/Spells/Prayer]]
