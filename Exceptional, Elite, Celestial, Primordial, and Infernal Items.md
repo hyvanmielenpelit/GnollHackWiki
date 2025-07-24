@@ -19,9 +19,9 @@ Most items that can be used as weapons in combat can have weapon quality modifie
 - Polearms
 - Spiked shields
 - Spiked gauntlets
-- Magical gauntlets, such as [[gauntlets of ogre power]]
+- Magical gauntlets, such as [[/Items/gauntlets of ogre power]]
 - Spiked boots
-- [[Kicking boots]]
+- [[/Items/Kicking boots]]
 
 ![gnoll-elite-armor-4k-512](https://github.com/hyvanmielenpelit/GnollHack/assets/16661034/62b01d3a-ba63-4a2d-8420-b598b33a968e)
 
@@ -63,9 +63,9 @@ For example, a normal wand of fire deals 4d6 damage, while an exceptional wand o
 ### Wands with Quality Modifiers
 
 The following wands can have quality modifiers:
-- [[Wand of nothing]] (_does not do anything_)
-- [[Wand of striking]]
-- [[Wand of magic missile]]
-- [[Wand of fire]]
-- [[Wand of cold]]
-- [[Wand of lightning]]
+- [[/Items/Wand of nothing]] (_does not do anything_)
+- [[/Items/Wand of striking]]
+- [[/Items/Wand of magic missile]]
+- [[/Items/Wand of fire]]
+- [[/Items/Wand of cold]]
+- [[/Items/Wand of lightning]]
