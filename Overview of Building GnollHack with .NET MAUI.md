@@ -8,13 +8,13 @@ GnollHackX is the Xamarin.Forms version of GnollHack.
 
 ### Prerequisites
 
-Check [appropriate build instructions](https://github.com/hyvanmielenpelit/GnollHack/wiki/Development-Information#xamarinforms) for prerequisites of building GnollHackX.
+Check [[appropriate build instructions|Development Information]] for prerequisites of building GnollHackX.
 
 ### Building
 
 1. Start **Visual Studio Community 2022**.
 2. Open `GnollHack.sln` that is located in the `win\win32\vs` directory.
-3. Build `GnollHackX`, which is the Xamarin.Forms version of GnollHack, using [appropriate build instructions](https://github.com/hyvanmielenpelit/GnollHack/wiki/Development-Information#xamarinforms). 
+3. Build `GnollHackX`, which is the Xamarin.Forms version of GnollHack, using [[appropriate build instructions|Development Information]]. 
 
 This builds the necessary native libraries required by the .NET MAUI versions of the game. You need to repeat this step whenever you change code in the native libraries.
 
@@ -32,7 +32,7 @@ GnollHackM is the .NET MAUI version of GnollHack.
 
 1. Start **Visual Studio Community 2022 *Preview***.
 2. Open `GnollHackM.sln` that is located in the `win\win32\xpl\GnollHackM` directory.
-3. Build `GnollHackM`, which is the .NET MAUI version of GnollHack, using [appropriate build instructions](https://github.com/hyvanmielenpelit/GnollHack/wiki/Development-Information#net-maui).
+3. Build `GnollHackM`, which is the .NET MAUI version of GnollHack, using [[appropriate build instructions|Development Information]].
 
 This builds the .NET MAUI version of the game. You need to repeat this step whenever you change things in XAML or the managed C# code.
 

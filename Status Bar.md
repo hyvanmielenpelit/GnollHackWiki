@@ -143,7 +143,7 @@ The character's alignment.
 #### Notes
 
 - Higher is better
-- See [Magic Cancellation](https://github.com/hyvanmielenpelit/GnollHack/wiki/Resistances-and-Saving-Throws#4-magic-cancellation)
+- See [[Magic Cancellation|Resistances and Saving Throws#4-magic-cancellation]]
 
 ### Movement Speed
 
