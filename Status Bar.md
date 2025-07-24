@@ -20,13 +20,13 @@
 
 #### Values
 
-- **s** / ![image](https://user-images.githubusercontent.com/16661034/236141120-feac676e-d07a-4c8c-9351-5f228f959d3e.png) — [[Standard]]
-- **e** / ![image](https://user-images.githubusercontent.com/16661034/236141296-a5c2e356-9d9b-4ee5-a107-735e3f4704f5.png) — [[Experienced]]
-- **a** / ![image](https://user-images.githubusercontent.com/16661034/236141357-9d322ebc-e99b-4c66-9485-2153670bdd77.png) — [[Adept]]
-- **v** / ![image](https://user-images.githubusercontent.com/16661034/236141794-77f9990b-b9b3-4794-8897-444d24a912ad.png) — [[Veteran]]
-- **x** / ![image](https://user-images.githubusercontent.com/16661034/236141628-fee7bca6-5380-457c-b03e-af65e7ef6b90.png) — [[Expert]]
-- **m** / ![image](https://user-images.githubusercontent.com/16661034/236141467-9fa1f741-08b7-4f5a-b398-f9abbba8fb6a.png) — [[Master]]
-- **g** / ![image](https://user-images.githubusercontent.com/16661034/236141840-08620951-bada-4340-8091-06ebd40d4d3e.png) — [[Grand Master]]
+- **s** / ![image](https://user-images.githubusercontent.com/16661034/236141120-feac676e-d07a-4c8c-9351-5f228f959d3e.png) — [[/Difficulties/Standard]]
+- **e** / ![image](https://user-images.githubusercontent.com/16661034/236141296-a5c2e356-9d9b-4ee5-a107-735e3f4704f5.png) — [[/Difficulties/Experienced]]
+- **a** / ![image](https://user-images.githubusercontent.com/16661034/236141357-9d322ebc-e99b-4c66-9485-2153670bdd77.png) — [[/Difficulties/Adept]]
+- **v** / ![image](https://user-images.githubusercontent.com/16661034/236141794-77f9990b-b9b3-4794-8897-444d24a912ad.png) — [[/Difficulties/Veteran]]
+- **x** / ![image](https://user-images.githubusercontent.com/16661034/236141628-fee7bca6-5380-457c-b03e-af65e7ef6b90.png) — [[/Difficulties/Expert]]
+- **m** / ![image](https://user-images.githubusercontent.com/16661034/236141467-9fa1f741-08b7-4f5a-b398-f9abbba8fb6a.png) — [[/Difficulties/Master]]
+- **g** / ![image](https://user-images.githubusercontent.com/16661034/236141840-08620951-bada-4340-8091-06ebd40d4d3e.png) — [[/Difficulties/Grand Master]]
 
 ### Gameplay Mode
 
