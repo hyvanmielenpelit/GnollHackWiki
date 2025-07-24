@@ -20,31 +20,30 @@ A crowned character receives the following intrinsics:
 
 ### Archaeologist
 
-[[The Holy Grail]]
+[[/Artifacts/The Holy Grail]]
 
 ### Knight
 
-[[Rhongomyniad]] and a tame saddled [[Ki-rin]] if lawful and [[Gorgon]] if chaotic.
+[[/Artifacts/Rhongomyniad]] and a tame saddled [[/Monsters/Ki-rin]] if lawful and [[/Monsters/Gorgon]] if chaotic.
 
 ### Monk
 
 
-[[The Gauntlets of Yin and Yang]]
+[[/Artifacts/The Gauntlets of Yin and Yang]]
 
 ### Priest
 
-[[Golden chest]] containing:
-* **Lawful**: [[Gown of the Archbishops]], a mace of banishment, [[Spellbook of Obliterate]],  [[Spellbook of Holy Word]], and one random high-level spellbook.
-* **Neutral**: [[Robe of Magic Resistance]], [[Staff of Life]], [[Bracers of Reflection]], [[Spellbook of Gaze of Petrification]], [[Spellbook of Stick to Boa]], and [[Spellbook of Summon Elder Treant]]
-* **Chaotic**: [[Robe of Magic Resistance]], a witch-king's mace, [[Ring of the Serpent God]], [[Spellbook of Finger of Death]], [[Spellbook of Create Dracolich]], and [[Spellbook of Greater Undeath Replenishment]].
+[[/Items/Golden chest]] containing:
+* **Lawful**: [[/Items/Gown of the Archbishops]], a mace of banishment, [[/Items/Spellbook of Obliterate]],  [[/Items/Spellbook of Holy Word]], and one random high-level spellbook.
+* **Neutral**: [[/Items/Robe of Magic Resistance]], [[/Items/Staff of Life]], [[/Items/Bracers of Reflection]], [[/Items/Spellbook of Gaze of Petrification]], [[/Items/Spellbook of Stick to Boa]], and [[/Items/Spellbook of Summon Elder Treant]]
+* **Chaotic**: [[/Items/Robe of Magic Resistance]], a witch-king's mace, [[/Items/Ring of the Serpent God]], [[/Items/Spellbook of Finger of Death]], [[/Items/Spellbook of Create Dracolich]], and [[/Items/Spellbook of Greater Undeath Replenishment]].
 
 ### Wizard
 
-[[Golden chest]] containing [[Robe of the Archmagi]], [[Staff of the Magi]], [[Magic Marker]], [[Spellbook of Greater Magic Missile]], [[Spellbook of Wish]] and one random high-level spellbook.
+[[/Items/Golden chest]] containing [[/Items/Robe of the Archmagi]], [[/Items/Staff of the Magi]], [[/Items/Magic Marker]], [[/Items/Spellbook of Greater Magic Missile]], [[/Items/Spellbook of Wish]] and one random high-level spellbook.
 
 ### All other roles
 
-* **Lawful**: [[The Katana of Masamune]], or a long sword in hand may become [[Excalibur]], or [[Sword of Holy Vengeance]].
-* **Neutral**: [[Vorpal Blade]]
-* **Chaotic**: [[Stormbringer]] or [[Mournblade]], or [[Howling Flail]] if the character is gnoll
-
+* **Lawful**: [[/Artifacts/The Katana of Masamune]], or a long sword in hand may become [[/Artifacts/Excalibur]], or [[/Items/Sword of Holy Vengeance]].
+* **Neutral**: [[/Artifacts/Vorpal Blade]]
+* **Chaotic**: [[/Artifacts/Stormbringer]] or [[/Artifacts/Mournblade]], or [[/Artifacts/Howling Flail]] if the character is gnoll.
