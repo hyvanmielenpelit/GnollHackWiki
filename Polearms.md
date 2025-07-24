@@ -3,19 +3,19 @@ Polearms can be applied to hit targets *SQRT(8)* squares away on all skill level
 ## Simple Polearms
 
 These polearms are mostly unchanged from NetHack.
-- [[Partisan]]
-- [[Ranseur]]
-- [[Spetum]]
-- [[Glaive]]
-- [[Halberd]]
-- [[Bardiche]]
-- [[Voulge]]
-- [[Fauchard]]
-- [[Guisarme]]
-- [[Bill-guisarme]]
-- [[Ancus]]
-- [[Lucern hammer]]
-- [[Bec de corbin]]
+- [[Items/Partisan]]
+- [[Items/Ranseur]]
+- [[Items/Spetum]]
+- [[Items/Glaive]]
+- [[Items/Halberd]]
+- [[Items/Bardiche]]
+- [[Items/Voulge]]
+- [[Items/Fauchard]]
+- [[Items/Guisarme]]
+- [[Items/Bill-guisarme]]
+- [[Items/Ancus]]
+- [[Items/Lucern hammer]]
+- [[Items/Bec de corbin]]
 
 ## Polearm Modifiers
 

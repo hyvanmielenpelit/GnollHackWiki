@@ -2,58 +2,58 @@
 
 ### Meat
 
-- [[Tripe ration]]
-- [[Egg]]
+- [[Items/Tripe ration]]
+- [[Items/Egg]]
 
 ### Vegetables
 
-- [[Kelp frond]]
-- [[Eucalyptus leaf]]
-- [[Apple]]
-- [[Orange]]
-- [[Pear]]
-- [[Carrot]]
-- [[Slime mold]] — Name can be changed in options
+- [[Items/Kelp frond]]
+- [[Items/Eucalyptus leaf]]
+- [[Items/Apple]]
+- [[Items/Orange]]
+- [[Items/Pear]]
+- [[Items/Carrot]]
+- [[Items/Fruit]] — Name can be changed in options, "slime mold" by default
 
 ### People Food
 
-- [[Lump of royal jelly]]
-- [[Cream pie]]
-- [[Candy bar]]
-- [[Fortune cookie]]
-- [[Pancake]]
-- [[Elven waybread]] — Previously known as lembas waver
-- [[Cram ration]]
-- [[Food ration]]
-- [[K-ration]]
-- [[C-ration]]
-- [[Tin]]
+- [[Items/Lump of royal jelly]]
+- [[Items/Cream pie]]
+- [[Items/Candy bar]]
+- [[Items/Fortune cookie]]
+- [[Items/Pancake]]
+- [[Items/Elven waybread]] — Previously known as lembas waver
+- [[Items/Cram ration]]
+- [[Items/Food ration]]
+- [[Items/K-ration]]
+- [[Items/C-ration]]
+- [[Items/Tin]]
 
 ## New Comestibles
 
 ### Vegetables
 
-- [[Handful of nuts]]
-- [[Cluster of dates]]
-- [[Melon]]
-- [[Handful of spinach leaves]]
-- [[Banana]]
-- [[Pomegranate]]
-- [[Avocado]]
-- [[Cloudberry]]
-- [[Fig]]
-- [[Dragon fruit]]
-- [[Phantomberry]]
+- [[Items/Handful of nuts]]
+- [[Items/Cluster of dates]]
+- [[Items/Melon]]
+- [[Items/Handful of spinach leaves]]
+- [[Items/Banana]]
+- [[Items/Pomegranate]]
+- [[Items/Avocado]]
+- [[Items/Cloudberry]]
+- [[Items/Fig]]
+- [[Items/Dragon fruit]]
+- [[Items/Phantomberry]]
 
 ### Mushrooms
 
 Mushrooms are mostly used as spell components and vegetable food.
-- [[Champignon]]
-- [[Penny bun]]
-- [[Chanterelle]]
-- [[Fly agaric]]
-- [[Death cap]]
-- [[Mana mushroom]]
-- [[Healing mushroom]]
-- [[Panther cap]]
-- [[Oracular toadstool]]
+- [[Items/Champignon]]
+- [[Items/Penny bun]]
+- [[Items/Chanterelle]]
+- [[Items/Fly agaric]]
+- [[Items/Death cap]]
+- [[Items/Mana mushroom]]
+- [[Items/Healing mushroom]]
+- [[Items/Panther cap]]
+- [[Items/Oracular toadstool]]
