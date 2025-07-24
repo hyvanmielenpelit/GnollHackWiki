@@ -16,7 +16,7 @@ Heavely armored melee warrior, adept at riding.
 
 ## Allowed Alignments
 
-- [[Lawful]]
+- [[/Lawful]]
 
 ## Class Traits
 

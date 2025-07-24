@@ -58,7 +58,7 @@ Elves are highly intelligent but physically fragile race. This makes them excell
 
 ## Allowed Alignments
 
-- [[Neutral]]
+- [[/Neutral]]
 
 ## Character Classes
 

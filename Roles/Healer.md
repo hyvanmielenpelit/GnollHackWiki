@@ -16,7 +16,7 @@ Rich physician, adept at healing spells.
 
 ## Allowed Alignments
 
-- [[Neutral]]
+- [[/Neutral]]
 
 ## Class Traits
 

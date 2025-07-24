@@ -15,8 +15,8 @@ Strong female melee warrior, who starts with cold resistance and stealth.
 
 ## Allowed Alignments
 
-- [[Lawful]]
-- [[Neutral]]
+- [[/Lawful]]
+- [[/Neutral]]
 
 ## Class Traits
 

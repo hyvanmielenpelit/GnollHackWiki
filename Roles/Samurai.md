@@ -15,7 +15,7 @@ Strong Japanese warrior adept at both melee and ranged combat. Some item names s
 
 ## Allowed Alignments
 
-- [[Lawful]]
+- [[/Lawful]]
 
 ## Class Traits
 

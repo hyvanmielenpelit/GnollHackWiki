@@ -49,7 +49,7 @@ Orcs start with poison resistance and do not suffer penalty for cannibalism. How
 
 ## Allowed Alignments
 
-- [[Chaotic]]
+- [[/Chaotic]]
 
 ## Character Classes
 

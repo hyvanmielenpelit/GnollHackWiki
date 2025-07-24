@@ -51,8 +51,8 @@ Gnolls are a versatile race who can smell the rottenness of food items. They are
 
 ## Allowed Alignments
 
-- [[Neutral]]
-- [[Chaotic]]
+- [[/Neutral]]
+- [[/Chaotic]]
 
 ## Character Classes
 

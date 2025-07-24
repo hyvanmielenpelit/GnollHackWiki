@@ -16,7 +16,7 @@ Versatile traveller that can specialize in almost every combat and magic skill.
 
 ## Allowed Alignments
 
-- [[Neutral]]
+- [[/Neutral]]
 
 ## Class Traits
 

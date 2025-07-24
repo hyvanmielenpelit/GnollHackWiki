@@ -49,7 +49,7 @@ Dwarves are sturdy, gaining bonus to physical attribute scores but having disadv
 
 ## Allowed Alignments
 
-- [[Lawful]]
+- [[/Lawful]]
 
 ## Character Classes
 

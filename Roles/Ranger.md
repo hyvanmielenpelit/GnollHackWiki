@@ -18,8 +18,8 @@ Potent archer, adept at ranged combat.
 
 ## Allowed Alignments
 
-- [[Neutral]]
-- [[Chaotic]]
+- [[/Neutral]]
+- [[/Chaotic]]
 
 ## Class Traits
 

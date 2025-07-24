@@ -17,8 +17,8 @@ Powerful spell caster who can specialize in many spell schools.
 
 ## Allowed Alignments
 
-- [[Neutral]]
-- [[Chaotic]]
+- [[/Neutral]]
+- [[/Chaotic]]
 
 ## Class Traits
 

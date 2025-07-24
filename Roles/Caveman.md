@@ -17,8 +17,8 @@ Strong warrior that starts with a club and a sling. The caveman has also a rando
 
 ## Allowed Alignments
 
-- [[Lawful]]
-- [[Neutral]]
+- [[/Lawful]]
+- [[/Neutral]]
 
 ## Class Traits
 

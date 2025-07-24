@@ -17,9 +17,9 @@ Armored clerical spell caster, who automatically identifies the beautitude of it
 
 ## Allowed Alignments
 
-- [[Lawful]]
-- [[Neutral]]
-- [[Chaotic]]
+- [[/Lawful]]
+- [[/Neutral]]
+- [[/Chaotic]]
 
 ## Class Traits
 

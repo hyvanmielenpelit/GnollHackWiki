@@ -16,8 +16,8 @@ Lightly equipped explorer. The archaeologist starts with a touchstone, which can
 
 ## Allowed Alignments
 
-- [[Lawful]]
-- [[Neutral]]
+- [[/Lawful]]
+- [[/Neutral]]
 
 ## Class Traits
 

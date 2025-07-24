@@ -15,9 +15,9 @@ Martial artist, adept at several spells.
 
 ## Allowed Alignments
 
-- [[Lawful]]
-- [[Neutral]]
-- [[Chaotic]]
+- [[/Lawful]]
+- [[/Neutral]]
+- [[/Chaotic]]
 
 ## Class Traits                                          
 

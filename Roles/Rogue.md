@@ -17,7 +17,7 @@ Versatile warrior, adept at melee and ranged combat and at disarming traps.
 
 ## Allowed Alignments
 
-- [[Chaotic]]
+- [[/Chaotic]]
 
 ## Class Traits
 

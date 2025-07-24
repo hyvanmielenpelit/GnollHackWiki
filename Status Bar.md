@@ -68,9 +68,9 @@ Attribute scores are shown in the status bar in the ASCII user interface.
 
 The character's alignment.
 
-- [[Lawful]]
-- [[Neutral]]
-- [[Chaotic]]
+- [[/Lawful]]
+- [[/Neutral]]
+- [[/Chaotic]]
 
 ### Dungeon Level
 

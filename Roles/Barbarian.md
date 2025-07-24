@@ -17,8 +17,8 @@ Strong melee warrior with poison resistance.
 
 ## Allowed Alignments
 
-- [[Neutral]]
-- [[Chaotic]]
+- [[/Neutral]]
+- [[/Chaotic]]
 
 ## Class Traits
 
