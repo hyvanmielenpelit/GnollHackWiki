@@ -10,7 +10,7 @@ You can contract mummy rot from mummies in the game. If their melee attack bypas
 - Pray _(if it is safe to pray)_
 - Apply a noncursed [[/Items/unicorn horn]]
 - Talk to a priest and ask for cure sickness
-- Quaff a blessed [[/Items/potion of healing]], or a blessed [[/Items/potion of extra healing]], or a noncursed [[/Items/potion of greater healing]], or a noncursed [[/Items/potion of full healing]]
+- Quaff a blessed [[/Items/potion of healing]], or a blessed [[/Items/potion of extra-healing]], or a noncursed [[/Items/potion of greater healing]], or a noncursed [[/Items/potion of full healing]]
 - Any other means that cures a disease in the game
 
 ## Stoning/Petrification
