@@ -24,15 +24,6 @@
     ```
 4. Remember to add commas (,) after appropriate settings.
 
-### Add User Settings
-
-1. **Open User Settings (JSON)** by clicking **Ctrl+Shift+P** and searching for it.
-2. Add the following setting to the file:
-    ```
-    "markdown.extension.preview.autoShowPreviewToSide": true
-    ```
-    It will open the Markdown preview to the side.
-
 ### Add Shortcuts to User Settings (Optional)
 
 Click **Ctrl+Shift+P** and search for:
