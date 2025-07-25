@@ -15,7 +15,7 @@
 2. Add the following configuration there (to upload files under `/upload/`):
     ```
     "markdown.copyFiles.destination": {
-        "/**/*": "uploads/${documentBaseName}/"
+        "/**/*": "/uploads/${documentRelativeDirName}/${documentBaseName}/"
     }
     ```
 3. Add the following configuration option to support Gollum-style alias links:
