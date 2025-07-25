@@ -99,6 +99,10 @@ Uploads, such as images, should be placed under `/uploads/`. If the document wit
 - `/uploads/Races/Dwarf/image.png` — An image in `Races/Dwarf`.
 - `/uploads/Home/image.png` — An image in `Home`.
 
+### Don't Put Anything Under /gollum/
+
+`/gollum/` folder is reserved for the Gollum wiki software functions. Please don't create that folder and don't put anything under it.
+
 ### Page Title Can Be Customized Using H1 Heading (#) in First Row
 
 Page titles can be customized using an H1 heading (single #) in the first row of a page.
