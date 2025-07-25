@@ -97,12 +97,26 @@ You should use subdirectories in the following case:
 
 ### Uploads Should Go Under /uploads/
 
-Uploads should be placed under `/uploads/`. If the document with an image is in a subdirectory, the subdirectory name should also be included in the path. This should be handled automatically by Visual Studio Code, when you have the right settings ([see above](#add-workspace-settings)).
+Uploads, such as images, should be placed under `/uploads/`. If the document with an upload is in a subdirectory, the subdirectory name should also be included in the path. This should be handled automatically by Visual Studio Code, when you have the right settings ([see above](#add-workspace-settings)).
 
 #### Example
 
 - `/uploads/Races/Dwarf/image.png` — An image in `Races/Dwarf`.
 - `/uploads/Home/image.png` — An image in `Home`.
+
+### Page Title Can Be Customized Using H1 Heading (#) in First Row
+
+Page titles can be customized using an H1 heading (single #) in the first row of a page.
+
+#### Example
+
+```
+# My Custom Page Title
+```
+
+### Use Only H2 (##) and Lower Headings
+
+Since the H1 heading (#) is reserved for customizing page titles, please use only H2 (##) and lower headings as section headings in a page.
 
 ## How-To-Do Guide
 
