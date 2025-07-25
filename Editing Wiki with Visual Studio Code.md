@@ -65,6 +65,43 @@ You can also install [GitHub Desktop](https://desktop.github.com/download/) for 
 
 You can read more about forking repositories and making pull requests in GitHub documentation: [Creating a pull request from a fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork).
 
+## Editing Conventions
+
+### Place Empty Row Around Headings
+
+- Please use an empty row before all headings, except in the very beginning of a file.
+- Please use an empty row after all headings.
+
+#### Example
+
+```
+# Heading1
+
+Some text
+
+## Heading2
+
+Some text
+```
+
+### Use Subdirectories When Necessary
+
+You should use subdirectories in the following case:
+
+1. Logical grouping of a large number of files.
+   - There's a soft limit of 1000 files per directory on GitHub, after which directory listings are cut short.
+2. To prevent naming conflicts.
+   - For example, to differentiate between [[/Monsters/Grand Master]] monster and [[/Difficulties/Grand Master]] difficulty.
+
+### Uploads Should Go Under /uploads/
+
+Uploads should be placed under `/uploads/`. If the document with an image is in a subdirectory, the subdirectory name should also be included in the path. This should be handled automatically by Visual Studio Code, when you have the right settings ([see above](#add-workspace-settings)).
+
+#### Example
+
+- `/uploads/Races/Dwarf/image.png` — An image in `Races/Dwarf`.
+- `/uploads/Home/image.png` — An image in `Home`.
+
 ## How-To-Do Guide
 
 ### Open Markdown Preview
@@ -101,7 +138,7 @@ It links to [[/Items/Potion of healing.md]].
 
 Global tag lookup is disabled, so you need to specify the exact path to the Markdown file.
 
-### No Need to Specify .md Extension for Markdown files
+### No Need to Specify .md Extension for Markdown Files
 
 Even though browser URLs in the wiki have the **.md extension**, you don't need to use it in wikilinks.
 
