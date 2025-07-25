@@ -33,7 +33,6 @@
 
 - <sup>1</sup> Number of actions works like this: You first press `n`, then write the number of actions in numerals, and then choose the action. For example, `n20s` searches 20 times.
 
- 
 
 ## Other Commands
 
@@ -57,3 +56,12 @@
 | ( | List tools |
 | ) | Show weapon |
 | = | Show worn rings |
+
+## Movement By Arrow Keys
+
+| Key | Direction | Ctrl + Key | Direction | Alt + Key | Direction |
+| :-: | :-------: | :--------: | :-------: | :-------: | :-------: |
+| ↑ | ↑ | Ctrl + ↑ | ↖ | Alt + ↑ | ↗ |
+| ↓ | ↓ | Ctrl + ↓ | ↙ | Alt + ↓ | ↘ |
+| ← | ← | Ctrl + ← | ↖ | Alt + ← | ↙ |
+| → | → | Ctrl + → | ↗ | Alt + → | ↘ |
