@@ -19,12 +19,7 @@
     }
     ```
 
-3. Add the following configuration option to support Gollum-style alias links:
-    ```
-    "foam.wikilinks.order": "alias-first"
-    ```
-
-4. Remember to add commas (,) after appropriate settings.
+3. Remember to add commas (,) after appropriate settings.
 
 ### Add Shortcuts to User Settings (Optional)
 
