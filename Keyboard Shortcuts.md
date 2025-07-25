@@ -65,3 +65,10 @@
 | ↓ | ↓ | Ctrl + ↓ | ↙ | Alt + ↓ | ↘ |
 | ← | ← | Ctrl + ← | ↖ | Alt + ← | ↙ |
 | → | → | Ctrl + → | ↗ | Alt + → | ↘ |
+
+## Movement by Number Pad
+
+While **Num Lock** is **on**, you can use the number pad for movement. 
+
+- 1–4, 6–9 for directions.
+- 5 in the middle enables run mode.
