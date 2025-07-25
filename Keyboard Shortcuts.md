@@ -61,10 +61,10 @@
 
 | Key | Direction | Ctrl + Key | Direction | Alt + Key | Direction |
 | :-: | :-------: | :--------: | :-------: | :-------: | :-------: |
-| ↑ | ↑ | Ctrl + ↑ | ↖ | Alt + ↑ | ↗ |
-| ↓ | ↓ | Ctrl + ↓ | ↙ | Alt + ↓ | ↘ |
-| ← | ← | Ctrl + ← | ↖ | Alt + ← | ↙ |
-| → | → | Ctrl + → | ↗ | Alt + → | ↘ |
+| ↑ | `↑` | Ctrl + ↑ | `↖` | Alt + ↑ | `↗` |
+| ↓ | `↓` | Ctrl + ↓ | `↙` | Alt + ↓ | `↘` |
+| ← | `←` | Ctrl + ← | `↖` | Alt + ← | `↙` |
+| → | `→` | Ctrl + → | `↗` | Alt + → | `↘` |
 
 ## Movement by Number Pad
 
