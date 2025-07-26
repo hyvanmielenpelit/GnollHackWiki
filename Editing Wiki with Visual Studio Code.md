@@ -94,7 +94,7 @@ You should use subdirectories in the following cases:
 
 Uploads, such as images, should be placed under `/uploads/`. If the document with an upload is in a subdirectory, the subdirectory name should also be included in the path. This should be handled automatically by Visual Studio Code, when you have the right settings ([see above](#add-workspace-settings)).
 
-#### Example
+#### Examples
 
 - `/uploads/Races/Dwarf/image.png` — An image in `Races/Dwarf`.
 - `/uploads/Home/image.png` — An image in `Home`.
