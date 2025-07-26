@@ -28,7 +28,6 @@ A crowned character receives the following intrinsics:
 
 ### Monk
 
-
 [[/Artifacts/The Gauntlets of Yin and Yang]]
 
 ### Priest
