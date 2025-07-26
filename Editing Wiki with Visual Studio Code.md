@@ -64,10 +64,10 @@ You can read more about forking repositories and making pull requests in GitHub 
 
 ## Editing Conventions
 
-### Place Empty Row Around Headings
+### Place Empty Line Around Headings
 
-- Please use an empty row before all headings, except in the very beginning of a file.
-- Please use an empty row after all headings.
+- Please use an empty line before all headings, except in the very beginning of a file.
+- Please use an empty line after all headings.
 
 #### Example
 
@@ -83,7 +83,7 @@ Some text
 
 ### Use Subdirectories When Necessary
 
-You should use subdirectories in the following case:
+You should use subdirectories in the following cases:
 
 1. Logical grouping of a large number of files.
    - There's a soft limit of 1000 files per directory on GitHub, after which directory listings are cut short.
@@ -103,9 +103,9 @@ Uploads, such as images, should be placed under `/uploads/`. If the document wit
 
 `/gollum/` folder is reserved for the Gollum wiki software functions. Please don't create that folder and don't put anything under it.
 
-### Page Title Can Be Customized Using H1 Heading (#) in First Row
+### Page Title Can Be Customized Using H1 Heading (#) in First Line
 
-Page titles can be customized using an H1 heading (single #) in the first row of a page.
+Page titles can be customized using an H1 heading (single #) in the first line of a page.
 
 #### Example
 
