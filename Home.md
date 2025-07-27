@@ -2,7 +2,7 @@
 
 GnollHack is an open-source [NetHack](https://www.nethack.org/) variant and remaster developed by [Sound Mind Games](https://soundmindgames.org), a non-profit association based in Finland.
 
-![gnoll-amulet-4k-v4-h512](https://github.com/hyvanmielenpelit/GnollHack/assets/16661034/19077f94-2911-4b82-9be7-b375dcb033ce)
+![GnollHack](/uploads/Home/gnollhack-q90.webp)
 
 ## Overview
 
@@ -63,7 +63,7 @@ GnollHack is an open-source game, based on NetHack's source code. This means tha
 
 ## Playing
 
-![DungeonsOfDoom-4k-rounded-512](https://github.com/hyvanmielenpelit/GnollHack/assets/16661034/202613eb-6f1a-474c-8783-f610402241b4)
+![Dungeons of Doom](/uploads/Home/dungeons-of-doom-q90.webp)
 
 - **[[Gameplay Information]]** — Everything from items to monsters
 - **[[Desktop-Only Features]]** — Have a look at the features that appear only on the desktop versions of GnollHack
