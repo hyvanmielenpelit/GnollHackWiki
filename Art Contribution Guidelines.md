@@ -1,4 +1,4 @@
-![art-contribution-512](https://github.com/user-attachments/assets/8ab944cc-13f7-4c6c-88bd-0dd38fca52bd)
+![Art Contribution Guidelines](/uploads/Art Contribution Guidelines/art-contribution-guidelines-q90.webp)
 
 ## Disclaimer
 
