@@ -1,4 +1,4 @@
-![Art Contribution Guidelines](/uploads/Art Contribution Guidelines/art-contribution-guidelines-q90.webp)
+![Art Contribution Guidelines](/uploads/Art%20Contribution%20Guidelines/art-contribution-guidelines-q90.webp)
 
 ## Disclaimer
 
