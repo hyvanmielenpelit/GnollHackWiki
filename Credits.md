@@ -1,4 +1,4 @@
-![gnoll-credits-4k-512](https://github.com/hyvanmielenpelit/GnollHack/assets/16661034/2d7c6b7e-9411-483a-a011-84aa3da09430)
+![Credits](/uploads/Credits/credits.png)
 
 ## Game Credits
 

@@ -1,4 +1,4 @@
-![gnoll-letter-4k-512](https://github.com/hyvanmielenpelit/GnollHack/assets/16661034/82e9ea5f-7ac3-4039-9009-883733cedcbf)
+![Contact information](/uploads/Contact%20Information/contact-information.webp)
 
 You can contact us as follows:
 

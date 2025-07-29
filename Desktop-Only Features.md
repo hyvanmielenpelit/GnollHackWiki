@@ -1,4 +1,4 @@
-![desktop-gnoll-4k-512](https://github.com/user-attachments/assets/da20e95a-698b-4bb8-a2ff-6d8aeba7d432)
+![Desktop only features](/uploads/Desktop-Only%20Features/desktop-only-features.webp)
 
 ## Keyboard Shortcut Support
 

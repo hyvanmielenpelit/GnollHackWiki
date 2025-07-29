@@ -1,4 +1,4 @@
-![crowning-512](https://github.com/hyvanmielenpelit/GnollHack/assets/16661034/7550dabd-d3c1-4af2-95f0-61a1b45b5ee2)
+![Crowning](/uploads/Crowning/crowning.webp)
 
 A character may be crowned by his or her god upon praying at an co-aligned altar, if the character is at least piously aligned and extremely lucky.
 

@@ -1,4 +1,4 @@
-![gnoll-developer-4k-512](https://github.com/hyvanmielenpelit/GnollHack/assets/16661034/4776b936-c013-47b4-8bee-636f9dc5120d)
+![Development information](/uploads/Development%20Information/development-information.webp)
 
 ## Overview
 
