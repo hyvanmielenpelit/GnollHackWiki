@@ -36,9 +36,9 @@ Change default user to root by typing `ubuntu2004 config --default-user root`.
 1. Open VS Code
 2. Open GnollHack remote location in WSL (opens automatically due to step 4, or if not, open from green toolbar box in left bottom corner):
 
-    ![image](https://user-images.githubusercontent.com/16661034/184309614-780605a1-1ddd-417b-8b47-306af9735dd1.png)
+    ![debugging-wsl-vscode-1](/uploads/Debugging%20Linux%20Version%20in%20WSL%20using%20Visual%20Studio%20Code/debugging-wsl-vscode-1.webp)
 
 3. This should install vs code server for root
 4. Install C/C++ Extension (for Debugging in VS Code) for root. The end result in Extensions window:
 
-    ![image](https://user-images.githubusercontent.com/16661034/184309762-08405f76-d200-4405-bb80-f12c01bd0733.png)
+    ![debugging-wsl-vscode-2](/uploads/Debugging%20Linux%20Version%20in%20WSL%20using%20Visual%20Studio%20Code/debugging-wsl-vscode-2.webp)

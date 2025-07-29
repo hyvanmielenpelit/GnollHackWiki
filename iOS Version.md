@@ -1,6 +1,6 @@
 ## Download
 
-<a href="https://apps.apple.com/app/gnollhack/id1626979951" style="height:80px;"><img alt="Download on the App Store" src="https://user-images.githubusercontent.com/16661034/226737460-9a57591a-9ca6-4a01-ae4e-14ed454c3d02.jpg" height="80" /></a>
+<a href="https://apps.apple.com/app/gnollhack/id1626979951">![Download on the App Store](/uploads/Download/app-store-q90.webp)</a><br />
 
 You can play the iOS version on Macs with M1 or later processor.
 

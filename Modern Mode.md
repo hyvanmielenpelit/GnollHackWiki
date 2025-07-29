@@ -5,4 +5,4 @@
 
 ## Abbreviation / Symbol in the Status Bar
 
-**M** / ![image](https://user-images.githubusercontent.com/16661034/236143267-edc0673e-f306-4417-9b87-c908403e22be.png)
+**M** / ![Modern mode](/uploads/Modern%20Mode/modern-mode.webp)

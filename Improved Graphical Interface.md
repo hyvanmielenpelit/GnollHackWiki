@@ -1,6 +1,6 @@
 ## Android Screenshot
 
-<img src="https://user-images.githubusercontent.com/16661034/190995159-74a7ff0a-626e-465a-bbae-115cda30bd78.png" height="740" />
+<img src="/uploads/Improved%20Graphical%20Interface/android-screenshot.webp" height="740" alt="Android screenshot" /><br />
 
 ## Features
 

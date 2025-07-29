@@ -42,7 +42,7 @@ In Visual Studio, go to **Options → Cross Platform → C++ → iOS → Pairing
 5. Set **Remote Root** to `/Users/[user-id-on-mac]/vcremote`, where `[user-id-on-mac]` is your user id on the Mac computer.
 6. Then, click **Pair**.
 
-![image](https://user-images.githubusercontent.com/16661034/183250199-7fb14ef6-f581-4a1c-b24e-ecf669af3610.png)
+![build-ios-windows-1](/uploads/Build%20Instructions%20for%20iOS%20Version%20on%20Windows/build-ios-windows-1.webp)
 
 #### 1.4.2. Install PuTTY and PSCP and Create Download Scripts for Static iOS Library Project
 
@@ -122,7 +122,7 @@ In Visual Studio on Windows,
 4. Select **Provisioning Profile** that matches the BundleID in Info.plist and that has been copied to **Xamarin/iOS/Provisioning/Profiles** folder in your AppData folder.
 5. Do this for both Debug and Release configurations.
 
-![image](https://user-images.githubusercontent.com/16661034/183247001-2c2a9905-775d-480c-b50f-5c45e068d60b.png)
+![build-ios-windows-2](/uploads/Build%20Instructions%20for%20iOS%20Version%20on%20Windows/build-ios-windows-2.webp)
 
 ### 1.6. Disable Virus Protection for Source, Build and Cache Folders
 
@@ -165,7 +165,7 @@ Include `UNITY_IPHONE` preprocessor definition in both Debug and Release configu
  
 **FMOD libraries** use **AudioToolbox** and **CoreAudio** frameworks. Write on the frameworks line: `AudioToolbox CoreAudio`:
  
-![image](https://user-images.githubusercontent.com/16661034/183247838-0b5e9509-f7d4-41ed-bd34-ee4f084f9536.png)
+![build-ios-windows-3](/uploads/Build%20Instructions%20for%20iOS%20Version%20on%20Windows/build-ios-windows-3.webp)
 
 Also, you should add the following lines to [fmod.cs](https://github.com/hyvanmielenpelit/GnollHack/blob/5d64ddb653363bf4e08380f3e6e2cb712e1211c7/win/win32/xam/GnollHackX/GnollHackX.FMOD/fmod.cs#L23) and [fmod_studio.cs](https://github.com/hyvanmielenpelit/GnollHack/blob/5d64ddb653363bf4e08380f3e6e2cb712e1211c7/win/win32/xam/GnollHackX/GnollHackX.FMOD/fmod_studio.cs#L18), if they are not there:
 
