@@ -27,94 +27,19 @@
 
 ## Encumbrance
 
-### Burdened
-
-#### Symbol
-
-![status_burdened](https://github.com/user-attachments/assets/17d028e7-89b0-4791-af81-e5db58fb3132)
-
-#### Effect
-
-The character moves at 3/4 speed.
-
-### Stressed
-
-#### Symbol
-
-![status_stressed](https://github.com/user-attachments/assets/10ec4b42-9977-4ce8-934c-2ce69c56cbc3)
-
-#### Effect
-
-The character will move at 1/2 speed.
-
-### Strained
-
-#### Symbol
-
-![status_strained](https://github.com/user-attachments/assets/e61c03ff-2de3-4322-87df-9d09f6583efd)
-
-#### Effect
-
-The character will move at 1/4 speed.
-
-### Overtaxed
-
-#### Symbol
-
-![status_overtaxed](https://github.com/user-attachments/assets/7c27b5db-ceec-4e4d-a7d7-e9b8547774b1)
-
-#### Effect
-
-The character will move at 1/8 speed.
-
-### Overloaded
-
-#### Symbol
-
-![status_overloaded](https://github.com/user-attachments/assets/b423639e-c10d-4e10-87f1-51876b2d9af0)
-
-#### Effect
-
-The character cannot move.
+| Condition | Symbol | Effect |
+| :-------- | :----: | :----- |
+| Burdened | ![burdened](/uploads/Conditions/burdened.webp) | The character moves at 3/4 speed. |
+| Stressed | ![stressed](/uploads/Conditions/stressed.webp) | The character will move at 1/2 speed. |
+| Strained | ![strained](/uploads/Conditions/strained.webp) | The character will move at 1/4 speed. |
+| Overtaxed | ![overtaxed](/uploads/Conditions/overtaxed.webp) | The character will move at 1/8 speed. |
+| Overloaded | ![overloaded](/uploads/Conditions/overloaded.webp) | The character cannot move. |
 
 ## Hunger Statuses
 
-### Hungry
-
-#### Symbol
-
-![status_hungry](https://github.com/user-attachments/assets/edc02c74-0581-4059-a54a-82bfc79f9508)
-
-#### Effect
-
-No effect.
-
-### Weak
-
-#### Symbol
-
-![status_weak](https://github.com/user-attachments/assets/8cf9475d-b999-457c-a397-5ca66ea63cfb)
-
-#### Effect
-
-The character's strength is decreased.
-
-### Fainting
-
-#### Symbol
-
-![status_faint](https://github.com/user-attachments/assets/e15c35ac-b806-4063-8e32-4e6b095d4c0c)
-
-#### Effect
-
-The character has a chance of temporary paralysis.
-
-### Satiated
-
-#### Symbol
-
-![status_satiated](https://github.com/user-attachments/assets/81d8f8d9-276a-4caa-a7ed-c872ca486014)
-
-#### Effect
-
-No effect.
+| Condition | Symbol | Effect |
+| :-------- | :----: | :----- |
+| Hungry | ![hungry](/uploads/Conditions/hungry.webp) | No effect. |
+| Weak | ![weak](/uploads/Conditions/weak.webp) | The character's strength is decreased. |
+| Fainting | ![fainting](/uploads/Conditions/fainting.webp) | The character has a chance of temporary paralysis. |
+| Satiated | ![satiated](/uploads/Conditions/satiated.webp) | No effect. |
