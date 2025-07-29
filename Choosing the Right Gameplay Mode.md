@@ -1,4 +1,4 @@
-![gameplay-mode-4k-512](https://github.com/hyvanmielenpelit/GnollHack/assets/16661034/dc6592a0-6844-4b95-8f81-09aed2f192c7)
+![Gameplay mode](/uploads/Choosing%20the%20Right%20Gameplay%20Mode/gameplay-mode.webp)
 
 *Modern Ports Only*
 

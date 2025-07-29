@@ -1,4 +1,4 @@
-![difficulty-levels-4k-512](https://github.com/hyvanmielenpelit/GnollHack/assets/16661034/edddbf49-03d1-4013-a57e-7dc697fba067)
+![Difficulty levels](/uploads/Choosing%20the%20Right%20Difficulty%20Level/difficulty-level.webp)
 
 ## Difficulty Levels
 

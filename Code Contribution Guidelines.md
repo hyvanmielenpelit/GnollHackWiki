@@ -1,4 +1,4 @@
-![code-contributions-512](https://github.com/user-attachments/assets/55a41d75-4779-481e-abcc-310c4e092e2c)
+![Code contribution guidelines](/uploads/Code%20Contribution%20Guidelines/code-contribution-guidelines.webp)
 
 ## Bug Fixes
 
