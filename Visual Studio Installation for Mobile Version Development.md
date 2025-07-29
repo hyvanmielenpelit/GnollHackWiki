@@ -24,7 +24,7 @@ Install the following workloads:
 
 Click on **Installation details → .NET Multi-platform App UI development** on the right hand side of the screen and make sure that **Optional → Xamarin** is checked.
 
-![image](https://user-images.githubusercontent.com/16661034/184302350-8a1e552e-5aad-4a55-91bf-58d4847c46db.png)
+![visual-studio-installation-for-mobile-development](/uploads/Visual%20Studio%20Installation%20for%20Mobile%20Version%20Development/visual-studio-installation-for-mobile-development.webp)
 
 ## Individual components
 

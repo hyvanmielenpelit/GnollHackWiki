@@ -5,4 +5,4 @@
 
 ## Abbreviation / Symbol in the Status Bar
 
-**C** / ![Casual mode](/uploads/Casual%20Mode/casual-mode.png)
+**C** / ![Casual mode](/uploads/Status%20Bar/casual-mode.webp)

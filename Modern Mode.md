@@ -5,4 +5,4 @@
 
 ## Abbreviation / Symbol in the Status Bar
 
-**M** / ![Modern mode](/uploads/Modern%20Mode/modern-mode.webp)
+**M** / ![Modern mode](/uploads/Status%20Bar/modern-mode.webp)

@@ -9,4 +9,4 @@ Reloadable Mode
 
 ## Abbreviation / Symbol in the Status Bar
 
-**R** / ![Casual-classic mode](/uploads/Casual-Classic%20Mode/casual-classic-mode.webp)
+**R** / ![Casual-classic mode](/uploads/Status%20Bar/casual-classic-mode.webp)

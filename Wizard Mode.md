@@ -11,7 +11,7 @@ Wizard Mode is a special debug mode, which meant to be used for testing.
 
 ## Abbreviation / Symbol in the Status Bar
 
-**W** / ![image](https://user-images.githubusercontent.com/16661034/236143543-650531b2-a12b-4a44-b9ad-cb702d94ef38.png)
+**W** / ![Wizard mode](/uploads/Status%20Bar/wizard-mode.webp)
 
 ## Activation
 
