@@ -2,11 +2,11 @@
 
 ### Text (ASCII user interface)
 
-![image](https://user-images.githubusercontent.com/16661034/236316192-79d5e1b0-f267-4b5b-b055-73dcfe3597bd.png)
+![status-bar-ascii](/uploads/Status%20Bar/status-bar-ascii.webp)
 
 ### Graphical (Mobile user interface)
 
-![image](https://user-images.githubusercontent.com/16661034/236316491-9e0b1fbc-4152-424a-9d3f-6dc5da9583e9.png)
+![status-bar-modern](/uploads/Status%20Bar/status-bar-modern.webp)
 
 ## Description of Acronyms and Symbols
 
