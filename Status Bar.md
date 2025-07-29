@@ -20,13 +20,13 @@
 
 #### Values
 
-- **s** / ![image](https://user-images.githubusercontent.com/16661034/236141120-feac676e-d07a-4c8c-9351-5f228f959d3e.png) — [[/Difficulties/Standard]]
-- **e** / ![image](https://user-images.githubusercontent.com/16661034/236141296-a5c2e356-9d9b-4ee5-a107-735e3f4704f5.png) — [[/Difficulties/Experienced]]
-- **a** / ![image](https://user-images.githubusercontent.com/16661034/236141357-9d322ebc-e99b-4c66-9485-2153670bdd77.png) — [[/Difficulties/Adept]]
-- **v** / ![image](https://user-images.githubusercontent.com/16661034/236141794-77f9990b-b9b3-4794-8897-444d24a912ad.png) — [[/Difficulties/Veteran]]
-- **x** / ![image](https://user-images.githubusercontent.com/16661034/236141628-fee7bca6-5380-457c-b03e-af65e7ef6b90.png) — [[/Difficulties/Expert]]
-- **m** / ![image](https://user-images.githubusercontent.com/16661034/236141467-9fa1f741-08b7-4f5a-b398-f9abbba8fb6a.png) — [[/Difficulties/Master]]
-- **g** / ![image](https://user-images.githubusercontent.com/16661034/236141840-08620951-bada-4340-8091-06ebd40d4d3e.png) — [[/Difficulties/Grand Master]]
+- **s** / ![difficulty-standard](/uploads/Status%20Bar/difficulty-standard.webp) — [[/Difficulties/Standard]]
+- **e** / ![difficulty-experienced](/uploads/Status%20Bar/difficulty-experienced.webp) — [[/Difficulties/Experienced]]
+- **a** / ![difficulty-adept](/uploads/Status%20Bar/difficulty-adept.webp) — [[/Difficulties/Adept]]
+- **v** / ![difficulty-veteran](/uploads/Status%20Bar/difficulty-veteran.webp) — [[/Difficulties/Veteran]]
+- **x** / ![difficulty-expert](/uploads/Status%20Bar/difficulty-expert.webp) — [[/Difficulties/Expert]]
+- **m** / ![difficulty-master](/uploads/Status%20Bar/difficulty-master.webp) — [[/Difficulties/Master]]
+- **g** / ![diffiuculty-grand-master](/uploads/Status%20Bar/diffiuculty-grand-master.webp) — [[/Difficulties/Grand Master]]
 
 ### Gameplay Mode
 
@@ -39,10 +39,10 @@
 #### Values
 
 - *(No letter)* / *(No image)* — [[Classic Mode]]
-- **C** / ![image](https://user-images.githubusercontent.com/16661034/236142344-00d24bda-62e2-4004-b5b2-0aee14768537.png) — [[Casual Mode]]
-- **R** / ![image](https://user-images.githubusercontent.com/16661034/236143039-0ecb3b85-e2c9-45f8-bd2f-3fa5d8ebb08d.png) — [[Casual-Classic Mode]]
-- **M** / ![image](https://user-images.githubusercontent.com/16661034/236143267-edc0673e-f306-4417-9b87-c908403e22be.png) — [[Modern Mode]]
-- **W** / ![image](https://user-images.githubusercontent.com/16661034/236143543-650531b2-a12b-4a44-b9ad-cb702d94ef38.png) — [[Wizard Mode]]
+- **C** / ![casual-mode](/uploads/Status%20Bar/casual-mode.webp) — [[Casual Mode]]
+- **R** / ![casual-classic-mode](/uploads/Status%20Bar/casual-classic-mode.webp) — [[Casual-Classic Mode]]
+- **M** / ![modern-mode](/uploads/Status%20Bar/modern-mode.webp) — [[Modern Mode]]
+- **W** / ![wizard-mode](/uploads/Status%20Bar/wizard-mode.webp) — [[Wizard Mode]]
 
 ### [[Attribute Scores]]
 
@@ -76,7 +76,7 @@ The character's alignment.
 
 #### Label
 
-- **Dlvl** / ![image](https://user-images.githubusercontent.com/16661034/236150250-1811347c-348e-4ae3-9311-e1fb8bf74dcb.png)
+- **Dlvl** / ![dungeon-level](/uploads/Status%20Bar/dungeon-level.webp)
 
 #### Value
 
@@ -120,7 +120,7 @@ The character's alignment.
 
 #### Label
 
-- **AC** / ![image](https://user-images.githubusercontent.com/16661034/236151988-c658715b-f764-4485-8138-8b36f10c7a85.png)
+- **AC** / ![armor-class](/uploads/Status%20Bar/armor-class.webp)
 
 #### Value
 
@@ -134,7 +134,7 @@ The character's alignment.
 
 #### Label
 
-- **MC** / ![image](https://user-images.githubusercontent.com/16661034/236152330-4ba852c6-bbfe-4b4f-8a4f-4321e447414c.png)
+- **MC** / ![magic-cancellation](/uploads/Status%20Bar/magic-cancellation.webp)
 
 #### Value
 
@@ -149,7 +149,7 @@ The character's alignment.
 
 #### Label
 
-- **MS** / ![image](https://user-images.githubusercontent.com/16661034/236152936-43322025-8d53-468e-afd9-780c6a11cd44.png)
+- **MS** / ![movement-speed](/uploads/Status%20Bar/movement-speed.webp)
 
 #### Value
 
@@ -164,7 +164,7 @@ The character's alignment.
 
 #### Label
 
-- **W** / ![image](https://user-images.githubusercontent.com/16661034/236153325-aff633b2-46af-4751-bd60-f1fc900f1dd4.png)
+- **W** / ![weapon-style](/uploads/Status%20Bar/weapon-style.webp)
 
 #### Hands
 
@@ -204,7 +204,7 @@ Windows and Linux versions of the game use letters and numbers to describe what 
 
 #### Label
 
-- **XL** / ![image](https://user-images.githubusercontent.com/16661034/236156546-2549a4cd-5a46-4586-ae80-684c723c673b.png)
+- **XL** / ![experience-level](/uploads/Status%20Bar/experience-level.webp)
 
 #### Value
 
@@ -219,7 +219,7 @@ Windows and Linux versions of the game use letters and numbers to describe what 
 
 #### Label
 
-- **$** / ![image](https://user-images.githubusercontent.com/16661034/236156962-8d36a851-11d9-44de-aa29-8f9c13f3c00f.png)
+- **$** / ![gold](/uploads/Status%20Bar/gold.webp)
 
 #### Value
 
@@ -229,7 +229,7 @@ Windows and Linux versions of the game use letters and numbers to describe what 
 
 #### Label
 
-- **T** / ![image](https://user-images.githubusercontent.com/16661034/236157260-d186b812-c719-4a43-8958-88a1ab2eeb8d.png)
+- **T** / ![turn](/uploads/Status%20Bar/turn.webp)
 
 #### Value
 
@@ -268,27 +268,27 @@ Conditions are shown as symbols in the mobile user interface.
 
 #### Encumbrance Levels
 
-- ![image](https://user-images.githubusercontent.com/16661034/236161943-9cafc86c-9754-4454-b417-ecdf2e8c3da3.png) — Burdened
-- ![image](https://user-images.githubusercontent.com/16661034/236163024-eb4d4d0d-5983-4a7d-80a3-c596b7697d63.png) — Stressed
-- ![image](https://user-images.githubusercontent.com/16661034/236162925-2d08bbf0-998e-4280-8824-c78a98d5d8e0.png) — Strained
-- ![image](https://user-images.githubusercontent.com/16661034/236162448-c1d5b3f1-cc97-42da-a39b-c3f81a36a851.png) — Overloaded
-- ![image](https://user-images.githubusercontent.com/16661034/236162514-b255c34a-8185-487f-a3b0-16367426d048.png) — Overtaxed
+- ![burdened](/uploads/Conditions/burdened.webp) — Burdened
+- ![stressed](/uploads/Conditions/stressed.webp) — Stressed
+- ![strained](/uploads/Conditions/strained.webp) — Strained
+- ![overloaded](/uploads/Conditions/overloaded.webp) — Overloaded
+- ![overtaxed](/uploads/Conditions/overtaxed.webp) — Overtaxed
 
 #### Satiety Levels
 
-- ![image](https://user-images.githubusercontent.com/16661034/236162615-162ab9da-2325-4bfa-a946-ee2b9deed944.png) — Satiated
-- ![image](https://user-images.githubusercontent.com/16661034/236162267-c1e97f6e-4b64-4ed4-963f-1b6b86fc667d.png) — Hungry
-- ![image](https://user-images.githubusercontent.com/16661034/236163378-0849c3f0-2809-4a54-bb4e-32a1faaf6c79.png) — Weak
-- ![image](https://user-images.githubusercontent.com/16661034/236162213-bfc96aad-993f-47c8-9621-7c499a753cf3.png) — Fainting
+- ![satiated](/uploads/Conditions/satiated.webp) — Satiated
+- ![hungry](/uploads/Conditions/hungry.webp) — Hungry
+- ![weak](/uploads/Conditions/weak.webp) — Weak
+- ![fainting](/uploads/Conditions/fainting.webp) — Fainting
 
 #### HP Levels
 
-- ![image](https://user-images.githubusercontent.com/16661034/236162360-172606f6-bc1a-4058-8723-42b29e066972.png) — HP at low level
-- ![image](https://user-images.githubusercontent.com/16661034/236162040-7e07f2e7-7997-40d9-85ac-de020cde969f.png) — HP at critical level
+- ![low-hp](/uploads/Status%20Bar/low-hp.webp) — HP at low level
+- ![critical-hp](/uploads/Status%20Bar/critical-hp.webp) — HP at critical level
 
 #### Other
 
-- ![image](https://user-images.githubusercontent.com/16661034/236163170-420d563c-93d0-417f-a2b5-888d73633e74.png) — Dual wielding
-- ![image](https://user-images.githubusercontent.com/16661034/236162733-d82532bf-ce74-42af-b2a4-d8854b2fbdb1.png) — Skill slot available
-- ![image](https://user-images.githubusercontent.com/16661034/236162817-710bc242-01fa-4136-843f-e2f5d7a9e46b.png) — Special ability is on cooldown
-- ![image](https://user-images.githubusercontent.com/16661034/236163299-bfecbf47-59d1-460e-9276-0a3c5e033768.png) — Stuck or grabbed
+- ![dual-wielding](/uploads/Status%20Bar/dual-wielding.webp) — Dual wielding
+- ![skill-slot](/uploads/Status%20Bar/skill-slot.webp) — Skill slot available
+- ![special-ability-cooldown](/uploads/Status%20Bar/special-ability-cooldown.webp) — Special ability is on cooldown
+- ![grabbed](/uploads/Conditions/grabbed.webp) — Stuck or grabbed
