@@ -84,8 +84,15 @@ Uploads, such as images, should be placed under `/uploads/`. If the document wit
 
 #### Examples
 
-- `/uploads/Races/Dwarf/image.png` — An image in `Races/Dwarf`.
-- `/uploads/Home/image.png` — An image in `Home`.
+- `/uploads/Races/Dwarf/image.webp` — An image in `Races/Dwarf`.
+- `/uploads/Home/image.webp` — An image in `Home`.
+
+### Use Only WebP Files as Images
+
+Please use **WebP** encoded at **90 quality** as the image file format. Many image editing software support WebP.
+
+- Adobe Photoshop has native WebP support since February 2022.
+- For earlier versions of Adobe Photoshop and Adobe Photoshop Elements, you can download [WebPShop plugin](https://github.com/webmproject/WebPShop).
 
 ### Page Title Can Be Customized Using H1 Heading (#) in First Line
 
