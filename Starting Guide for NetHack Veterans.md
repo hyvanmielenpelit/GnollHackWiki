@@ -1,4 +1,4 @@
-![gnoll-advanced-gnollhack-4k-512-v2](https://github.com/hyvanmielenpelit/GnollHack/assets/16661034/f4bdcc0f-efba-46ee-8825-987370bd1683)
+![starting-guide-for-nethack-veterans](/uploads/Starting%20Guide%20for%20NetHack%20Veterans/starting-guide-for-nethack-veterans.webp)
 
 GnollHack works in many ways differently than NetHack and therefore you might need to adjust your gameplay habits accordingly.
 

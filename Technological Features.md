@@ -1,4 +1,4 @@
-![technological-features-512](https://github.com/user-attachments/assets/f88e109a-571a-47c0-96df-5444046fde79)
+![techological-features](/uploads/Technological%20Features/techological-features.webp)
 
 ## GnollHack Client Software
 

@@ -1,4 +1,4 @@
-![gnoll-crystal-ball-4k-512](https://github.com/hyvanmielenpelit/GnollHack/assets/16661034/8d5b7790-2a74-4cbf-8185-6b4158ced305)
+![troubleshooting](/uploads/Troubleshooting/troubleshooting.webp)
 
 ## Android & iOS Problems
 
@@ -47,7 +47,7 @@
 
 ### 5. Game screen is messed up
 
-![android-messed-up-gpu](https://github.com/user-attachments/assets/d1590c12-f8e5-46b3-bea3-d45b1e9de4ea)
+![troubleshooting-screenshot-1](/uploads/Troubleshooting/troubleshooting-screenshot-1.webp)
 
 #### Reason: Your phone's GPU is incompatible with Skia, our graphics rendering engine
 

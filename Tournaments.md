@@ -1,4 +1,4 @@
-![tournament-512](https://github.com/hyvanmielenpelit/GnollHack/assets/16661034/3a60bb83-fca3-49bd-949a-d1a52799349a)
+![tournaments](/uploads/Tournaments/tournaments.webp)
 
 ## Instructions for Participating in Tournaments
 

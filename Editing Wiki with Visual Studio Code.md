@@ -42,7 +42,7 @@ You can also install [GitHub Desktop](https://desktop.github.com/download/) for 
 
 1. Go to the [GnollHackWiki repository](https://github.com/hyvanmielenpelit/GnollHackWiki) on GitHub.
 2. Fork the repository by clicking the **Fork badge**. <br />
-   <img src="uploads/Editing Wiki with Visual Studio Code/github-fork.png" alt="GitHub Fork" height="36" />
+   <img src="/uploads/Editing Wiki with Visual Studio Code/github-fork.webp" alt="GitHub Fork" height="36" />
 3. [Clone the forked repository to the local machine](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
 4. Make changes and commit them.
 5. Push changes the forked repository.

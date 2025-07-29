@@ -1,4 +1,4 @@
-![gnoll-wishing-4k-512](https://github.com/hyvanmielenpelit/GnollHack/assets/16661034/39a2000b-65ec-4544-95ae-0dd2da1d934d)
+![wishing-guide](/uploads/Wishing%20Guide/wishing-guide.webp)
 
 ## Exceptional, Elite, Celestial/Primordial/Infernal Weapons
 

@@ -1,4 +1,4 @@
-![gnoll-guide-tour-4k-512](https://github.com/hyvanmielenpelit/GnollHack/assets/16661034/4a8a5932-1afa-424e-b39f-fba464c10272)
+![tutorials](/uploads/Tutorials/tutorials.webp)
 
 These tutorials pertain to the _legacy ports_ of the game, that is, the **text-based (ASCII) version** and the **Legacy Windows GUI version** of GnollHack. Some information in them, though, is relevant to the _modern ports_ of the game.
 

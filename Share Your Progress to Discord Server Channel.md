@@ -1,4 +1,4 @@
-![share-progress-512](https://github.com/user-attachments/assets/a32e4730-2a51-4895-9173-c6560b4a3939)
+![share-your-progress](/uploads/Share%20Your%20Progress%20to%20Discord%20Server%20Channel/share-your-progress.webp)
 
 ## Overview
 
@@ -29,19 +29,19 @@ Please follow these steps to share your progress to a custom Discord server and 
 
 1. Start Discord and select the channel you want to post the game status.
 2. Click the gear icon to **edit the channel**.
-    - ![image](https://github.com/hyvanmielenpelit/GnollHack/assets/16661034/462af642-353b-4d04-8302-4dcc3eda9f0d)
+    - ![share-your-progress-2](/uploads/Share%20Your%20Progress%20to%20Discord%20Server%20Channel/share-your-progress-2.webp)
 3. Select Integrations.
-    - ![image](https://github.com/hyvanmielenpelit/GnollHack/assets/16661034/cd299aa4-d84e-4704-a5e4-9237c09d9c42)
+    - ![share-your-progress-3](/uploads/Share%20Your%20Progress%20to%20Discord%20Server%20Channel/share-your-progress-3.webp)
 4. Select Webhooks.
-    - ![image](https://github.com/hyvanmielenpelit/GnollHack/assets/16661034/73f9e65c-20e8-4099-9102-a695a99c0943)
+    - ![share-your-progress-4](/uploads/Share%20Your%20Progress%20to%20Discord%20Server%20Channel/share-your-progress-4.webp)
 5. Select New Webhook.
-    - ![image](https://github.com/hyvanmielenpelit/GnollHack/assets/16661034/ac9c9a93-902b-4920-a953-f52bd927d9fc)
+    - ![share-your-progress-5](/uploads/Share%20Your%20Progress%20to%20Discord%20Server%20Channel/share-your-progress-5.webp)
 6. Select the created webhook.
-    - ![image](https://github.com/hyvanmielenpelit/GnollHack/assets/16661034/20031f00-53f5-4299-beae-0ae6a49c674f)
+    - ![share-your-progress-6](/uploads/Share%20Your%20Progress%20to%20Discord%20Server%20Channel/share-your-progress-6.webp)
 7. Change the name of the webhook and click **Copy Webhook URL**.
-    - ![image](https://github.com/hyvanmielenpelit/GnollHack/assets/16661034/6698c5ab-e12f-4e49-85c1-baa084b1a565)
+    - ![share-your-progress-7](/uploads/Share%20Your%20Progress%20to%20Discord%20Server%20Channel/share-your-progress-7.webp)
 8. Save changes.
-    - ![image](https://github.com/hyvanmielenpelit/GnollHack/assets/16661034/24176430-a912-4505-8bba-63c426bb50a3)
+    - ![share-your-progress-8](/uploads/Share%20Your%20Progress%20to%20Discord%20Server%20Channel/share-your-progress-8.webp)
 9. Paste the webhook URL from your clipboard to somewhere, where you can access it on the mobile device.
 
 ### GnollHack Setup

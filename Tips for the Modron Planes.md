@@ -1,4 +1,4 @@
-![modron-primus-4k-artwork-512](https://github.com/hyvanmielenpelit/GnollHack/assets/16661034/788a2f14-3250-438e-9b53-ac31eef5c162)
+![modron-planes](/uploads/Tips%20for%20the%20Modron%20Planes/modron-planes.webp)
 
 The Modron planes can be pretty tough in GnollHack, but the rewards are great. Here are some tips how to complete the Modron planes.
 

@@ -1,4 +1,4 @@
-![gnoll-spell-casting-4k-512](https://github.com/hyvanmielenpelit/GnollHack/assets/16661034/7d1cdcde-d5b0-484f-9047-9e2fc1bfa3d9)
+![spell-casting](/uploads/Spell%20Casting/spell-casting.webp)
 
 ## Spell Levels
 

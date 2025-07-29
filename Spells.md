@@ -1,4 +1,4 @@
-![spells-4k-512](https://github.com/hyvanmielenpelit/GnollHack/assets/16661034/1cecbf3c-4640-4833-8b3e-3313d2fd66a2)
+![Spells](/uploads/Spells/spells.webp)
 
 ## Spell Schools
 

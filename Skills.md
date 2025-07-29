@@ -1,4 +1,4 @@
-![gnoll-skills-4k-512](https://github.com/hyvanmielenpelit/GnollHack/assets/16661034/a9a400b4-ff5e-4d3c-ba36-25d9977f25d8)
+![skills](/uploads/Skills/skills.webp)
 
 ## Combat Skills
 
