@@ -1,4 +1,4 @@
-![elf-race-512](https://github.com/hyvanmielenpelit/GnollHack/assets/16661034/be4c2299-60a7-44fd-8006-3669f6cee578)
+![Elf](/uploads/Races/Elf/elf.webp)
 
 ## Description
 

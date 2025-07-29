@@ -1,4 +1,4 @@
-![human-race](https://github.com/hyvanmielenpelit/GnollHack/assets/16661034/5c6e88db-3221-4f48-ad6a-78c9c9e1b1fe)
+![Human](/uploads/Races/Human/human.webp)
 
 ## Description
 

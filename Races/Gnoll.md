@@ -1,4 +1,4 @@
-![gnoll-race-512](https://github.com/hyvanmielenpelit/GnollHack/assets/16661034/e551dd66-863b-4720-9701-f52c2f0c6e53)
+![Gnoll](/uploads/Races/Gnoll/gnoll.webp)
 
 ## Description
 

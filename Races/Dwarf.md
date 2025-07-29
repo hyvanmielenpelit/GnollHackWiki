@@ -1,4 +1,4 @@
-![dwarf-race-512](https://github.com/hyvanmielenpelit/GnollHack/assets/16661034/96169f64-7cd2-4b22-ad66-547fc79bc00e)
+![Dwarf](/uploads/Races/Dwarf/dwarf.webp)
 
 ## Description
 

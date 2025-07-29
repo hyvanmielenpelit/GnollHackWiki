@@ -1,4 +1,4 @@
-![orc-race-512](https://github.com/hyvanmielenpelit/GnollHack/assets/16661034/7554387f-ab81-4898-901f-8fc2a1a32b38)
+![Orc](/uploads/Races/Orc/orc.webp)
 
 ## Description
 
