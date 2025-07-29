@@ -1,4 +1,4 @@
-![gnoll-attributes-4k-512](https://github.com/hyvanmielenpelit/GnollHack/assets/16661034/8c313fef-f442-43d4-b1a8-8f057129eaf6)
+![Attribute Scores](/uploads/Attribute%20Scores/attribute-scores-q90.webp)
 
 - [[Strength]] — Bonus to hit, bonus to damage, increases carrying capacity
 - [[Dexterity]] — Bonus to hit, bonus to AC
@@ -6,4 +6,3 @@
 - [[Intelligence]] — Increases casting success of certain spells, increases maximum mana
 - [[Wisdom]] — Increases casting success of certain spells, increases maximum mana
 - [[Charisma]] — Increases casting success of certain spells, reduces shop and service prices
-

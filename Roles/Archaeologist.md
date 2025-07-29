@@ -1,4 +1,4 @@
-![archaeologist-512](https://github.com/hyvanmielenpelit/GnollHack/assets/16661034/0e5673b3-43ab-4b75-b010-f81c81d11db2)
+![Archaeologist](/uploads/Roles/Archaeologist/archaeologist.webp)
 
 ## Description
 

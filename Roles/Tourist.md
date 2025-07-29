@@ -1,5 +1,4 @@
-<!--![tourist-and-medusa-512](https://github.com/hyvanmielenpelit/GnollHack/assets/16661034/e84cdac3-2739-4cf7-a9a1-5822c979d579)-->
-![hawaiian_shirt_tourist_genZ_brainrot](https://github.com/user-attachments/assets/a7d52638-4914-4cf5-9999-b978abc4203d)
+![Tourist](/uploads/Roles/Tourist/tourist.webp)
 
 ## Description
 

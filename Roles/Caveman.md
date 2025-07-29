@@ -1,4 +1,4 @@
-![cavewoman512-v2](https://github.com/hyvanmielenpelit/GnollHack/assets/16661034/ac1ce86f-ff9d-494e-85b3-7401087d5c41)
+![Cavewoman](/uploads/Roles/Caveman/caveman.webp)
 
 ## Description
 

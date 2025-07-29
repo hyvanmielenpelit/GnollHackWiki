@@ -1,4 +1,4 @@
-![female-elven-wizard-512](https://github.com/hyvanmielenpelit/GnollHack/assets/16661034/27b4f84a-e3dc-42b0-869e-2b8296242b61)
+![Wizard](/uploads/Roles/Wizard/wizard.webp)
 
 ## Description
 

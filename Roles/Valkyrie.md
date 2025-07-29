@@ -1,4 +1,4 @@
-![valkyrie-512](https://github.com/hyvanmielenpelit/GnollHack/assets/16661034/8239e546-a09e-4979-a98b-09015492047c)
+![Valkyrie](/uploads/Roles/Valkyrie/valkyrie.webp)
 
 ## Description
 

@@ -1,4 +1,4 @@
-![bones-512](https://github.com/user-attachments/assets/872f6103-e9a4-4e93-8656-ca04263100fd)
+![bones-sharing-q90](/uploads/Bones%20Sharing/bones-sharing-q90.webp)
 
 ## Enabling Bones Sharing
 

@@ -1,4 +1,4 @@
-![barbarian-512](https://github.com/hyvanmielenpelit/GnollHack/assets/16661034/815de5d7-1cbe-4a94-afc0-ce311e4f151f)
+![Barbarian](/uploads/Roles/Barbarian/barbarian.webp)
 
 ## Description
 

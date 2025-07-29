@@ -1,4 +1,4 @@
-![ranger-512](https://github.com/hyvanmielenpelit/GnollHack/assets/16661034/dac012e9-5fae-4456-bef1-5c4f5ca77d18)
+![ranger](/uploads/Roles/Ranger/ranger.webp)
 
 ## Description
 

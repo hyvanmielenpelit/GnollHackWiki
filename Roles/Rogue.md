@@ -1,4 +1,4 @@
-![female-gnoll-rogue-512](https://github.com/hyvanmielenpelit/GnollHack/assets/16661034/d4238f58-e6f6-431a-8023-9f3ea9da849f)
+![Rogue](/uploads/Roles/Rogue/rogue.webp)
 
 ## Description
 

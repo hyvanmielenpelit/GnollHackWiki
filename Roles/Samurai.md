@@ -1,4 +1,4 @@
-![samurai2-512](https://github.com/hyvanmielenpelit/GnollHack/assets/16661034/a71f7fef-a75c-43f1-80eb-afc6b36bb776)
+![Samurai](/uploads/Roles/Samurai/samurai.webp)
 
 ## Description
 

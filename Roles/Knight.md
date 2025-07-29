@@ -1,4 +1,4 @@
-![female-knight-unicorn-512](https://github.com/hyvanmielenpelit/GnollHack/assets/16661034/b9daa498-8fca-4e99-8962-61f73c898db8)
+![Knight](/uploads/Roles/Knight/knight.webp)
 
 ## Description
 

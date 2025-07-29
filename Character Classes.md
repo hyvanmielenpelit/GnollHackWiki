@@ -1,4 +1,4 @@
-![gnoll-classes-512](https://github.com/hyvanmielenpelit/GnollHack/assets/16661034/303f6ae2-a20b-47fb-86ca-3cf3a8331948)
+![Character Classes](/uploads/Character%20Classes/character-classes-q90.webp)
 
 In GnollHack, you can choose one of the following 13 character classes:
 

@@ -1,4 +1,4 @@
-![monk-512](https://github.com/hyvanmielenpelit/GnollHack/assets/16661034/675a9363-bd29-4cbb-a373-404891c93e73)
+![Monk](/uploads/Roles/Monk/monk.webp)
 
 ## Description
 

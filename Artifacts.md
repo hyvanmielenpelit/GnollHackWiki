@@ -1,4 +1,4 @@
-![artifacts-female-angel-4k-512](https://github.com/hyvanmielenpelit/GnollHack/assets/16661034/f6bdc6fd-e442-4e83-816d-b15354b66366)
+![Artifacts](/uploads/Artifacts/artifacts-q90.webp)
 
 ## Artifact Categories
 

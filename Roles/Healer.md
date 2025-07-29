@@ -1,4 +1,4 @@
-![gnoll-doctor](https://github.com/hyvanmielenpelit/GnollHack/assets/16661034/885ccb70-9c0d-4da9-a1fb-ca8dc4d2750a)
+![Healer](/uploads/Roles/Healer/healer.webp)
 
 ## Description
 

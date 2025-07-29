@@ -1,4 +1,4 @@
-![gnoll-dual-wielding-4k-512](https://github.com/hyvanmielenpelit/GnollHack/assets/16661034/f09ffc8f-90be-4d94-8158-5efb7b5c204a)
+![Dual wielding](/uploads/Changing%20Between%20Two%20Sets%20of%20Weapon%20and%20Shield/dual-wielding-q90.webp)
 
 You have two sets of right hand and left hand items that you can ready. A usual setup is to have a melee weapon and a shield in one set and a ranged weapon in the second set.
 

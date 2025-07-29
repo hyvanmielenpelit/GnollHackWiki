@@ -1,4 +1,4 @@
-![priest-512](https://github.com/hyvanmielenpelit/GnollHack/assets/16661034/0b95635a-1776-46bd-870b-bc08549f49f8)
+![Priest](/uploads/Roles/Priest/priest.webp)
 
 ## Description
 
