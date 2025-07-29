@@ -1,4 +1,4 @@
-![signing-512](https://github.com/user-attachments/assets/d9f033a6-1437-4e31-8e25-3247e0388c1b)
+![installing-msix-packages](/uploads/Installing%20MSIX%20Packages%20on%20Windows%2010%20and%2011/installing-msix-packages.webp)
 
 ## Overview
 

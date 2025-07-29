@@ -1,4 +1,4 @@
-![male-gnoll-hero-4k-512](https://github.com/hyvanmielenpelit/GnollHack/assets/16661034/56a46cfe-a2c6-4382-a8af-ad74ef78771f)
+![exceptional-items-1](/uploads/Exceptional,%20Elite,%20Celestial,%20Primordial,%20and%20Infernal%20Items/exceptional-items-1.webp)
 
 ## Weapons
 
@@ -23,7 +23,7 @@ Most items that can be used as weapons in combat can have weapon quality modifie
 - Spiked boots
 - [[/Items/Kicking boots]]
 
-![gnoll-elite-armor-4k-512](https://github.com/hyvanmielenpelit/GnollHack/assets/16661034/62b01d3a-ba63-4a2d-8420-b598b33a968e)
+![exceptional-items-2](/uploads/Exceptional,%20Elite,%20Celestial,%20Primordial,%20and%20Infernal%20Items/exceptional-items-2.webp)
 
 ## Armor
 

@@ -1,4 +1,4 @@
-![junethack-512](https://github.com/hyvanmielenpelit/GnollHack/assets/16661034/5fba0101-7944-4159-be74-50bca816501e)
+![junethack](/uploads/JunetHack/junethack.webp)
 
 ## Setup and Registration Instructions
 

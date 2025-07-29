@@ -1,4 +1,4 @@
-![gnoll-mummy-4k-512](https://github.com/hyvanmielenpelit/GnollHack/assets/16661034/0f262e3f-5a78-4148-b1f2-2384b09f1424)
+![how-to-cure](/uploads/How%20to%20Cure%20Various%20Conditions/how-to-cure.webp)
 
 ## Mummy Rot
 

@@ -1,4 +1,4 @@
-![fountain-4k-512](https://github.com/hyvanmielenpelit/GnollHack/assets/16661034/ca2e6033-2431-4387-94ab-2b25b3693163)
+![fountains](/uploads/Fountains/fountains.png)
 
 ## Overview
 

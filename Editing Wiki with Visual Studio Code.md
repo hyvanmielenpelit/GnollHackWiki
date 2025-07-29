@@ -9,18 +9,6 @@
 - [Foam for Gollum](https://marketplace.visualstudio.com/items?itemName=Hyvnmielenpelitry.foam-vscode-gollum)
 - [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
 
-### Add Workspace Settings
-
-1. **Open Workspace Settings (JSON)** by clicking **Ctrl+Shift+P** and searching for it.
-2. Add the following configuration there (to upload files under `/upload/`):
-    ```
-    "markdown.copyFiles.destination": {
-        "/**/*": "/uploads/${documentRelativeDirName}/${documentBaseName}/"
-    }
-    ```
-
-3. Remember to add commas (,) after appropriate settings.
-
 ### Add Shortcuts to User Settings (Optional)
 
 Click **Ctrl+Shift+P** and search for:

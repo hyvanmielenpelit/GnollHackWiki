@@ -1,4 +1,4 @@
-![gnollhack-servers-4k-512](https://github.com/hyvanmielenpelit/GnollHack/assets/16661034/b2a33e50-656f-4ef8-baf4-faeb58c203b2)
+![gnollhack-servers](/uploads/GnollHack%20Servers/gnollhack-servers.webp)
 
 You can play the ASCII version of GnollHack on our proprietary public server through SSH:
 * `play@server.gnollhack.com` (Ohio, USA)

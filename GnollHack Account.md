@@ -1,4 +1,4 @@
-![gnoll-account-4k-512](https://github.com/hyvanmielenpelit/GnollHack/assets/16661034/971adc2b-cc6c-4af3-a0b2-f76014b7e071)
+![gnollhack-account](/uploads/GnollHack%20Account/gnollhack-account.webp)
 
 *Modern Ports Only*
 

@@ -1,4 +1,4 @@
-![gnoll-items-4k-512](https://github.com/hyvanmielenpelit/GnollHack/assets/16661034/05492703-bf3b-4751-a1d9-e11af0c407b2)
+![items](/uploads/Items/items.webp)
 
 You will find here the items that are new or changed in GnollHack. Also items that have new stats will be listed.
 

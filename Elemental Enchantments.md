@@ -1,4 +1,4 @@
-![storm-giant-512](https://github.com/user-attachments/assets/15e4664b-6c88-4a47-a1fe-1f7962a02594)
+![elemental-enchantments](/uploads/Elemental%20Enchantments/elemental-enchantments.webp)
 
 There are four types of elemental enchantments in GnollHack:
 

@@ -1,4 +1,4 @@
-![hardfought-4k-512](https://github.com/hyvanmielenpelit/GnollHack/assets/16661034/99ab0b48-31db-44d7-8b0a-7b28864af4ed)
+![hardfought-servers](/uploads/Hardfought%20Servers/hardfought-servers.webp)
 
 GnollHack is also available on Hardfought servers. You can play there over SSH:
 * **North America:** nethack@hardfought.org (port 22)

@@ -1,4 +1,4 @@
-![gnoll-features-4k-512](https://github.com/hyvanmielenpelit/GnollHack/assets/16661034/289f0acf-abb1-473e-9da5-c5bddde33aee)
+![features](/uploads/Features/features.webp)
 
 * **[[Improved Graphical Interface]]** — Large 64x96 tiles with many advanced features. Monsters can be up to 192x192 pixels in size. The game has over 23000 tiles.
 * **[[Animations]]** — All characters have attack and kick animations, and spellcasters have also spell casting animations. Spell effects and traps have been animated.
