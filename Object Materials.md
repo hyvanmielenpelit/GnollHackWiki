@@ -1,4 +1,4 @@
-![elf-dragon-512](https://github.com/hyvanmielenpelit/GnollHack/assets/16661034/34be9d20-b4c2-4f94-967a-5c486f9a6a88)
+![object-materials](/uploads/Object%20Materials/object-materials.webp)
 
 In GnollHack, certain weapons, tools, and pieces of armor can be generated with a material different from its normal material.
 

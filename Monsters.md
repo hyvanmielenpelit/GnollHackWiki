@@ -1,4 +1,4 @@
-![monsters-4k-512](https://github.com/hyvanmielenpelit/GnollHack/assets/16661034/56927496-c9d8-4df3-8f5a-36913ee2b535)
+![monsters](/uploads/Monsters/monsters.webp)
 
 - [[Monsters starting with A]]
 - [[Monsters starting with B]]

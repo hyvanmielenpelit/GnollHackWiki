@@ -1,4 +1,4 @@
-![three-dogs](https://github.com/user-attachments/assets/5563b1ce-49d2-48e9-9410-cd8e61035619)
+![monsters-that-grow-up](/uploads/Monsters%20that%20Grow%20Up/monsters-that-grow-up.webp)
 
 ## All Pets and Certain Canines
 

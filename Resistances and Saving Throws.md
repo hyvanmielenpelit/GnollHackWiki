@@ -1,4 +1,4 @@
-![gnoll-resistances-4k-512](https://github.com/hyvanmielenpelit/GnollHack/assets/16661034/0817ad8b-2d2e-48bc-a77f-ff439f88164d)
+![resistances-and-saving-throws](/uploads/Resistances%20and%20Saving%20Throws/resistances-and-saving-throws.webp)
 
 ## Overview
 

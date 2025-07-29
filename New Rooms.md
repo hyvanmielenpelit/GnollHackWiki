@@ -1,4 +1,4 @@
-![garden-room-4k-512](https://github.com/hyvanmielenpelit/GnollHack/assets/16661034/878136ea-3ea8-4783-a9b5-5843d5707419)
+![new-rooms](/uploads/New%20Rooms/new-rooms.webp)
 
 ## Generic Rooms
 

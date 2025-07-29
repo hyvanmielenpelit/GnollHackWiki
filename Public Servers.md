@@ -1,4 +1,4 @@
-![public-servers-4k-512](https://github.com/hyvanmielenpelit/GnollHack/assets/16661034/c0097657-93c9-45e8-b117-9eb9fcdf96fd)
+![public-servers](/uploads/Public%20Servers/public-servers.webp)
 
 You can play the text version of GnollHack on public servers over SSH. Two types of servers are available:
 * [[GnollHack Servers]] — We have proprietary GnollHack servers for a streamlined online play experience.

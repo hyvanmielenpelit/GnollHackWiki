@@ -1,4 +1,4 @@
-![gnoll-maximum-mana-4k-512](https://github.com/hyvanmielenpelit/GnollHack/assets/16661034/3d72400d-821e-4e82-b5ad-76cbac54a04d)
+![maximum-mana](/uploads/Maximum%20Mana/maximum-mana.webp)
 
 The maximum mana is calculated as follows:
 

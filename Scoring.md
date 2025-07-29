@@ -1,4 +1,4 @@
-![gnoll-loot-4k-512](https://github.com/hyvanmielenpelit/GnollHack/assets/16661034/ac830e66-6142-4509-8a50-872edab8c381)
+![scoring](/uploads/Scoring/scoring.webp)
 
 ## 1. Overview
 

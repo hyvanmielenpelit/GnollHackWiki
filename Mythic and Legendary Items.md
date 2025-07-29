@@ -1,4 +1,4 @@
-![female-gnoll-hero-4k-512](https://github.com/hyvanmielenpelit/GnollHack/assets/16661034/5315c75a-633a-4e83-ae9a-3cee2c3b5a47)
+![mythic-items](/uploads/Mythic%20and%20Legendary%20Items/mythic-items.webp)
 
 ## Overview
 
