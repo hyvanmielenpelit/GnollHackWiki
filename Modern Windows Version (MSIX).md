@@ -1,6 +1,6 @@
 ## Download
 
-<p><a href="https://github.com/hyvanmielenpelit/GnollHack/releases"><img src="https://github.com/user-attachments/assets/ca2218dd-3c82-41f1-907a-4d2006a46b00" height="80" /></a></p>
+<a href="https://github.com/hyvanmielenpelit/GnollHack/releases">![Get release on GitHub](/uploads/Download/github-q90.webp)</a><br />
 
 - The MSIX package has a **.msix extension**.
 - Install the game using these instructions: [[Installing MSIX Packages on Windows 10 and 11]]

@@ -1,6 +1,6 @@
 ## Download
 
-<p><a href="https://store.steampowered.com/app/3558190/GnollHack/?utm_source=wiki"><img src="https://github.com/user-attachments/assets/43b417d6-b2aa-42f4-87d1-be223924c51e" height="80" /></a></p>
+<a href="https://store.steampowered.com/app/3558190/GnollHack/?utm_source=wiki">![Available on Steam](/uploads/Download/steam-q90.webp)</a><br />
 
 ## Auto-Update Can't Be Disabled
 

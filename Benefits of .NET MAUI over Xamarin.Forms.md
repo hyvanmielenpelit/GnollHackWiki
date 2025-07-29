@@ -1,4 +1,4 @@
-<img alt="Female Gnoll Programmer" src="https://github.com/user-attachments/assets/803bdc08-16e2-46f7-962e-65ff06a9e40b" />
+![Benefits of .NET MAUI over Xamarin.Forms](/uploads/Benefits%20of%20/benefits-of-net-maui.webp)
 
 ## Additional Platforms
 

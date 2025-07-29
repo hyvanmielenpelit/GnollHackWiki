@@ -1,6 +1,6 @@
 ## Download
 
-<p><a href="https://github.com/hyvanmielenpelit/GnollHack/releases"><img src="https://github.com/user-attachments/assets/ca2218dd-3c82-41f1-907a-4d2006a46b00" height="80" /></a></p>
+<a href="https://github.com/hyvanmielenpelit/GnollHack/releases">![Get release on GitHub](/uploads/Download/github-q90.webp)</a><br />
 
 - You need to download **the ZIP file** and extract it.
 - **GnollHack.exe** is the ASCII version of the game. It has no sounds.
