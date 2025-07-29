@@ -1,4 +1,4 @@
-![gnoll-treasure-chest-4k-512](https://github.com/hyvanmielenpelit/GnollHack/assets/16661034/d6b524cc-90fb-4951-8408-0ae3fb7671cf)
+![gameplay-information-q90](/uploads/Gameplay%20Information/gameplay-information-q90.webp)
 
 ## Starting the Game
 
