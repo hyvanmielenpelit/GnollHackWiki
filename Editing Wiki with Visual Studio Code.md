@@ -80,7 +80,7 @@ You should use subdirectories in the following cases:
 
 ### Uploads Should Go Under /uploads/
 
-Uploads, such as images, should be placed under `/uploads/`. If the document with an upload is in a subdirectory, the subdirectory name should also be included in the path. This should be handled automatically by Visual Studio Code, when you have the Foam for Gollum extension installed with the the default settings.
+Uploads, such as images, should be placed under `/uploads/`. If the document with an upload is in a subdirectory, the subdirectory name should also be included in the path. This should be handled automatically by Visual Studio Code, when you have the Foam for Gollum extension installed with the default settings.
 
 #### Examples
 
@@ -158,4 +158,4 @@ Even though browser URLs in the wiki have the **.md extension**, you don't need 
 
 ### Wikilinks Relative to Current Document
 
-All wikilinks are **relative to the current document** and not to the root of the wiki (as in MediaWiki), making things a bit harder than necessary. However, just use `/` at the start of the wiki links to make them relative to the root. We have adopted a convention to always use it before subfolders, but you may need to use it when referring to files in the root folder, when the current document is in a subfolder.
+All wikilinks are **relative to the current document directory** and not to the root directory of the wiki (as in MediaWiki), making things a bit harder than necessary. However, you can just use `/` at the start of wikilinks to make them relative to the root directory. We have adopted a convention to always use it before subdirectories, but you may need to use it when referring to a file in the root directory, when the current document is in a subdirectory.
