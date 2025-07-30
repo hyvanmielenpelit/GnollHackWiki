@@ -1,3 +1,5 @@
+![weapons](/uploads/Weapons/weapons.webp)
+
 ## Weapon Categories
 
 - [[Melee Weapons]]
