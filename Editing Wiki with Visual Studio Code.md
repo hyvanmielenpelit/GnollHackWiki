@@ -80,7 +80,7 @@ You should use subdirectories in the following cases:
 
 ### Uploads Should Go Under /uploads/
 
-Uploads, such as images, should be placed under `/uploads/`. If the document with an upload is in a subdirectory, the subdirectory name should also be included in the path. This should be handled automatically by Visual Studio Code, when you have the right settings ([see above](#add-workspace-settings)).
+Uploads, such as images, should be placed under `/uploads/`. If the document with an upload is in a subdirectory, the subdirectory name should also be included in the path. This should be handled automatically by Visual Studio Code, when you have the Foam for Gollum extension installed with the the default settings.
 
 #### Examples
 
