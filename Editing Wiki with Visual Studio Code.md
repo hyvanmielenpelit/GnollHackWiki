@@ -156,6 +156,6 @@ Global tag lookup is disabled, so you need to specify the exact path to the Mark
 
 Even though browser URLs in the wiki have the **.md extension**, you don't need to use it in wikilinks.
 
-### Wikilinks Relative to Current Document
+### Wikilinks Relative to Current Document Directory
 
 All wikilinks are **relative to the current document directory** and not to the root directory of the wiki (as in MediaWiki), making things a bit harder than necessary. However, you can just use `/` at the start of wikilinks to make them relative to the root directory. We have adopted a convention to always use it before subdirectories, but you may need to use it when referring to a file in the root directory, when the current document is in a subdirectory.
