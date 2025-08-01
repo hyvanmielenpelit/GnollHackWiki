@@ -3,7 +3,7 @@
 This Privacy Policy pertains to the following ports of GnollHack:
 - Android port, available on the Google Play Store
 - iOS port, available on the Apple App Store
-- Modern Windows port, available on the Microsoft Store
+- Modern Windows port, available on Steam and on GitHub
 
 ## Collection of Data
 
