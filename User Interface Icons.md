@@ -6,4 +6,4 @@
 
 [[/uploads/User%20Interface%20Icons/stone-autocenter-off.png|alt=stone-autocenter-off, height=64px]]
 
-[[/uploads/User%20Interface%20Icons/stone-autocenter-on.png|alt=stone-autocenter-on, width=64px, height=64px]]
+[[/uploads/User Interface Icons/stone-autocenter-on.png|alt=stone-autocenter-on, width=64px, height=64px]]
