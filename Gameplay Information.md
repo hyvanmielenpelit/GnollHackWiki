@@ -10,6 +10,7 @@
 ## User Interface
 
 * [[Status Bar]] — Learn about what different acronyms and symbols mean in the status bar.
+* [[User Interface Icons]] — Learn about what different icons in the interface mean.
 
 ## Character Stats
 
