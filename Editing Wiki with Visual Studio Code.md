@@ -180,7 +180,7 @@ Applying settings this way is useful when you have repositories using different 
 
 #### Image Templates
 
-Based on the `"foam.file-dropdown.image-template-format"` setting, the custom file dropdown provider will generate the following templates.
+Based on the `"foam.fileDropdown.imageTemplateFormat"` setting, the custom file dropdown provider will generate the following templates.
 
 | Syntax | Setting Value | Template |
 | :----- | :------------ | :------- |
@@ -192,7 +192,7 @@ The default setting is `"markdown"`.
 
 #### File Templates
 
-Based on the `"foam.file-dropdown.file-template-format"` setting, the custom file dropdown provider will generate the following templates.
+Based on the `"foam.fileDropdown.fileTemplateFormat"` setting, the custom file dropdown provider will generate the following templates.
 
 | Syntax | Setting Value | Template |
 | :----- | :------------ | :------- |
