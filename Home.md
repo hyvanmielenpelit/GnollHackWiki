@@ -8,7 +8,7 @@ GnollHack is an open-source [NetHack](https://www.nethack.org/) variant and rema
 
 ### Traditional Roguelike
 
-GnollHack is a traditional roguelike at its core, which means that it is based on the game design of [Rogue](https://en.wikipedia.org/wiki/Rogue_(video_game)). In this respect, GnollHack has the following features:
+GnollHack is a traditional roguelike, being based on the game design of [Rogue](https://en.wikipedia.org/wiki/Rogue_(video_game)). Thus, GnollHack features:
 
 - Turn-based gameplay
 - Grid-based movement
@@ -21,7 +21,7 @@ GnollHack is a traditional roguelike at its core, which means that it is based o
 
 GnollHack is also a true [NetHack](https://en.wikipedia.org/wiki/NetHack) variant that retains most of its mechanics, complexity, and spirit, while adding new features. GnollHack is aimed at making NetHack more beginner-friendly while at the same time trying to keep the game interesting for veterans, especially in the late game. In this regard, GnollHack introduces:
 
-- Difficulty Levels
+- Difficulty levels
 - In-game item and monster information
 - In-game hints and quest and gameplay guidance
 - Removal of unnecessary instant death situations
@@ -30,13 +30,13 @@ GnollHack is also a true [NetHack](https://en.wikipedia.org/wiki/NetHack) varian
 
 ### NetHack Remaster
 
-Furthermore, GnollHack can also be viewed as a NetHack remaster, adding the following modern features:
+GnollHack can also be viewed as a NetHack remaster, adding the following modern features:
 
 - Graphics
 - Animations
 - Sounds
 - Music
-- Voice Overs
+- Voice overs
 - Cross-platform support: Android, iOS, macOS, and Windows
     - macOS can run the iOS version *(Macs with an M1 or later processor)*
 - Mobile touch-based UI on Android and iOS
