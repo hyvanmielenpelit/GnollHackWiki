@@ -72,3 +72,32 @@ While **Num Lock** is **on**, you can use the number pad for movement.
 
 - 1–4, 6–9 for directions.
 - 5 in the middle enables run mode.
+
+## Vi-Keys
+
+You can activate vi-keys in one of the following ways:
+
+- In [[settings]], **enable** **Default Vi-Keys** and ensure that **number_pad** is not set in [[options]].
+- In [[settings]], keep **Default Vi-Keys** **disabled** and set **number_pad:0** in [[options]].
+
+When you have vi-keys enabled, you can use the following keys for movement:
+
+<table>
+<tbody>
+<tr><td><code>y</code></td><td><code>k</code></td><td><code>u</code></td></tr>
+<tr><td><code>h</code></td><td>&nbsp;</td><td><code>l</code></td></tr>
+<tr><td><code>b</code></td><td><code>j</code></td><td><code>n</code></td></tr>
+</tbody>
+</table>
+
+### Alternate Key Bindings When Vi-Keys Are Enabled
+
+| Normal Key | Command | Alternate Key |
+| :--------: | :------ | :-----------: |
+| b | Take items out of **b**ag in inventory | Alt-F |
+| B | Put items into **B**ag in inventory | Alt-E |
+| Ctrl-b | Break | Alt-B |
+| k | Kick | Ctrl-d |
+| Ctrl-`l` | Light | Alt-`I` |
+| y | Take loot out of container on floor (**y**ank) | Alt-D |
+| Y | Put loot into container on floor (**Y**ank) | Alt-C |
