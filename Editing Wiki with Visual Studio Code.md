@@ -193,6 +193,6 @@ Based on the `"foam.file-dropdown.file-template-format"` setting, the custom fil
 | :----- | :------------ | :------- |
 | Markdown | `"markdown"` | <code>!&#91;Text&#93;&#40;/path/file.pdf&#41;</code> |
 | HTML | `"html"` | <code>&lt;a href="/path/file.pdf"/&gt;Text&lt;/a&gt;</code> |
-| Gollum | `"gollum"` | <code>&#91;&#8203;&#91;/path/file.pdf&#124;alt=Text&#93;&#8203;&#93;</code> |
+| Gollum | `"gollum"` | <code>&#91;&#8203;&#91;/path/file.pdf&#93;&#8203;&#93;</code> |
 
 The default setting is `"markdown"`.
