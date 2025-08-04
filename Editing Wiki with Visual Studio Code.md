@@ -171,7 +171,12 @@ All wikilinks are **relative to the current document directory** and not to the 
 
 ### Changing Image and File Dropdown Templates
 
-Gollum supports three syntaxes for image and file links. When you drop a file or image into a Markdown document, Visual Studio Code will create a template based on the chosen syntax. You can set the syntaxes, for example, in workspace settings, and then they are  specific to a repository.
+Gollum supports three syntaxes for image and file links. When you drop a file or image into a Markdown document while having the custom file dropdown provider enabled, Visual Studio Code will create a template based on the chosen syntax. You can set your preferred syntax in:
+
+- **User settings:** The settings will be global to all your repositories.
+- **Workspace settings:** The settings will be specific to a repository.
+
+Applying settings this way is useful when you have repositories using different syntaxes and conventions and your preferred settings vary across repositories. 
 
 #### Image Templates
 
