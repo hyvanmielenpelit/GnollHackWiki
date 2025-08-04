@@ -94,6 +94,15 @@ Please use **WebP** encoded at **90 quality** as the image file format. Many ima
 - Adobe Photoshop has native WebP support since February 2022.
 - For earlier versions of Adobe Photoshop and Adobe Photoshop Elements, you can download [WebPShop plugin](https://github.com/webmproject/WebPShop).
 
+#### WebP Batch Conversion
+
+You can use an online service to convert your images to WebP in one batch:
+
+1. Go to [To WebP website](https://towebp.io/) with your browser.
+2. First, *before adding files*, set **Quality** to **90** and **Size** to whatever scaling factor you want to use for your images.
+3. Click **Add Files** and select all files you want to convert.
+4. Click **Download All** to download all images in WebP format in a ZIP file. 
+
 ### Page Title Can Be Customized Using H1 Heading (#) in First Line
 
 Page titles can be customized using an H1 heading (single #) in the first line of a page.
@@ -159,3 +168,31 @@ Even though browser URLs in the wiki have the **.md extension**, you don't need 
 ### Wikilinks Relative to Current Document Directory
 
 All wikilinks are **relative to the current document directory** and not to the root directory of the wiki (as in MediaWiki), making things a bit harder than necessary. However, you can just use `/` at the start of wikilinks to make them relative to the root directory. We have adopted a convention to always use it before subdirectories, but you may need to use it when referring to a file in the root directory, when the current document is in a subdirectory.
+
+### Changing Image and File Dropdown Templates
+
+Gollum supports three syntaxes for image and file links. When you drop a file or image into a Markdown document, Visual Studio Code will create a template based on the chosen syntax. You can set the syntaxes, for example, in workspace settings, and then they are  specific to a repository.
+
+#### Image Templates
+
+Based on the `"foam.file-dropdown.image-template-format"` setting, the custom file dropdown provider will generate the following templates.
+
+| Syntax | Setting Value | Template |
+| :----- | :------------ | :------- |
+| Markdown | `"markdown"` | <code>!&#91;Text&#93;&#40;/path/image.webp&#41;</code> |
+| HTML | `"html"` | <code>&lt;img src="/path/image.webp" alt="Text" width="Width" height="Height" /&gt;</code> |
+| Gollum | `"gollum"` | <code>&#91;&#8203;&#91;/path/image.webp&#124;alt=Text, width=Width, height=Height&#93;&#8203;&#93;</code> |
+
+The default setting is `"markdown"`.
+
+#### File Templates
+
+Based on the `"foam.file-dropdown.file-template-format"` setting, the custom file dropdown provider will generate the following templates.
+
+| Syntax | Setting Value | Template |
+| :----- | :------------ | :------- |
+| Markdown | `"markdown"` | <code>!&#91;Text&#93;&#40;/path/file.pdf&#41;</code> |
+| HTML | `"html"` | <code>&lt;a href="/path/file.pdf"/&gt;Text&lt;/&gt;</code> |
+| Gollum | `"gollum"` | <code>&#91;&#8203;&#91;/path/file.pdf&#124;alt=Text&#93;&#8203;&#93;</code> |
+
+The default setting is `"markdown"`.
