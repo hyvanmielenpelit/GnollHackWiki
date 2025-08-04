@@ -297,3 +297,8 @@ If **Use Single Dumplog** is **On**, this setting does the following:
 - **On:** The game opens a **HTML dumplog** in the top scores screen. _(Default)_
 
 If **Use Single Dumplog** is **Off**, this setting does nothing.
+
+### Default Vi-Keys
+
+- **Off**: The default setting for the `number_pad` option is `2` *(=use numbers for movement)*.
+- **On**: The default setting for the `number_pad` option is `0` *(=use vi-keys for movement)*.
