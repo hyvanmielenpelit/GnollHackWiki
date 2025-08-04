@@ -1,4 +1,6 @@
-**Android and iOS only.**
+## Modern Port Settings
+
+These settings pertain to GnollHack's **modern ports** only.
 
 ## Simple Command Layout
 
