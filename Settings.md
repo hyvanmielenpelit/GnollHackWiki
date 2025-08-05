@@ -289,8 +289,8 @@ _Default: On_
 
 Determines the algorithm for scaling menu images.
 
-- **Off:** Nearest neighbour (faster)
-- **On:** Bilinear interpolation (slower) _(Default)_
+- **Off:** Nearest neighbour (faster but worse quality)
+- **On:** Bilinear interpolation (slower but better quality) _(Default)_
 
 ### Highlighted Menu Keys
 Determines the coloring of hotkeys of menu items.
@@ -302,21 +302,21 @@ Determines the coloring of hotkeys of menu items.
 
 Determines the format in which die throws in the game are displayed.
 
-- **Off:** XdY format where X is the number of dice and Y is the number of sides in the dice (e.g., 2d6)
+- **Off:** XdY format where X is the number of dice and Y is the number of sides in the dice (e.g., 2d6 for two six-sided dice)
 - **On:** A-B format where A is the lowest possible result and B is the highest possible result (e.g., 2-12) _(Default)_
 
 ## Behavior
 
 ### Empty Wish is Nothing
 
-Determines what happens if the wish in the game is left blacnk. Keep on to preserve wishless conduct from unexpected wishes.
+Determines what happens if the wish in the game is left blank. Keep on to preserve wishless conduct from unexpected wishes.
 
 - **Off:** A random item is received
 - **On:** Nothing is received _(Default)_
 
 ### Character Click Action
 
-Clicking or tapping on the player character executes an action appropriate for the location, e.g., descending the stairs if standing at a stairway downwards.
+Clicking or tapping on the player character executes an action appropriate to the location, e.g., descending the stairs if standing at a stairway downwards.
 
 _Default: Off_
 
@@ -365,7 +365,7 @@ This section enables you to specify which commands are displayed in the command 
 
 ### Post Game Progress
 
-Posts updates of new events of you journey to a selected channel on a Discord Server.
+Posts updates of new events of your journey to a selected channel on a Discord Server.
 
 _Default: Off_
 
@@ -379,7 +379,7 @@ _Default: player-log channel on the GnollHack Discord server_
 
 ### Account
 
-Enables you to access and specify the GnollHack Server address
+Enables you to access and specify the GnollHack Server web address.
 
 _Default: account.gnollhack.com_
 
@@ -393,7 +393,7 @@ Your password on the GnollHack server.
 
 ### Posting
 
-Enables you to specify the connection string to access and post information to the GnollHack Server.
+Enables you to specify the connection string for posting information to the GnollHack Server.
 
 _Default: a connection string to account.gnollhack.com_
 
@@ -426,7 +426,7 @@ A comma or space separated list of user names on the GnollHack server.
 
 ### Record Game
 
-Determines whether the game save a replay recording of your game.
+Determines whether the game records a replay of your game.
 
 _Default: Off_
 
