@@ -97,7 +97,13 @@ When you have vi-keys enabled, you can use the following keys for movement:
 | b | Take items out of **b**ag in inventory | Alt-F |
 | B | Put items into **B**ag in inventory | Alt-E |
 | Ctrl-b | Break | Alt-B |
+| j | Jump | Alt-j |
 | k | Kick | Ctrl-d |
+| `l` | Loot | Alt-`l` |
 | Ctrl-`l` | Light | Alt-`I` |
+| n | Number of actions | *Automatic*<sup>1</sup>  |
+| u | Untrap | Alt-u |
 | y | Take loot out of container on floor (**y**ank) | Alt-D |
 | Y | Put loot into container on floor (**Y**ank) | Alt-C |
+
+- <sup>1</sup> When you press a number key, the game automatically assumes that it's the number of actions command.
