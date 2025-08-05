@@ -1,8 +1,8 @@
 ## Modern Port Settings
 
-These settings pertain to GnollHack's **modern ports** only.
+These settings relate to GnollHack's **modern ports** only.
 
-## Graphics Settings
+## General Settings
 
 ### GPU Acceleration
 
@@ -17,6 +17,20 @@ Note that GPU acceleration can cause crashes on some systems.
 - **Tiles:** Shows the game in 2D tile graphics. _(Default)_
 - **ASCII:** Shows the game in ASCII graphics, i.e. in text.
 
+### Map FPS
+
+Determines the max refresh rate of the game. This can be used to save battery or to make the game smoother.
+
+Options range from 20 FPS to 80 FPS.
+
+_Default: 60_
+
+### Screen Scale
+
+Custom scale to make UI componenets larger or smaller than normal.
+
+_Default: 100%_
+
 ### Cursor Style
 
 _ASCII graphics only_
@@ -26,22 +40,71 @@ Determines the way how the player character is identified in the game.
 - **Green Block** _(Default)_
 - **Blinking Underline**
 
-### Map FPS
+### Hide Navigation
 
-Determines the max refresh rate of the game. This can be used to save battery or to make the game smoother.
+_Android only_
 
-Options range from 20 FPS to 120 FPS.
+Determines whether to hide the operating system navigation buttons in the bottom of the screen. 
 
-_Default: 60_
+_Default: On_
 
-## General Settings
+### Hide Status Bar
+
+_iOS only_
+
+Determines if the top status bar of the operating system is hidden.
+
+_Default: On_
+
+### Show Battery
+
+Displays a battery icon in the status bar indicating the current battery level.
+
+_Default: Off_
+
+### Show FPS
+
+Displays a frames-per-second icon in the status bar indicating the current refresh rate of the game.
+
+_Default: Off_
+
+### Show Zoom
+
+Displays a zoom icon in the status bar indicating the current zoom level of the map.
+
+_Default: Off_
 
 ### Silent Mode
 
 - **Off:** The game plays game sounds and music. _(Default)_
 - **On:** Game sounds and music are not played.
 
-## Button Settings
+### Dark Mode
+
+- **Off:** Light mode: Menu and text window backgrounds are beige and texts are black. _(Default)_
+- **On:** Dark mode: Menu and text window backgrounds are black and texts are white.
+
+### Tournament Mode
+
+Toggles several other settings to values required by tournaments like Junethack. Also forces on Classic game mode.
+
+_Default: Off_
+
+## Adventuring Settings
+
+### Starting and Gifted Pets
+
+Determines whether the player starts with a pet and gets new pets in certain special situations. Turn off if you are attempting a petless conduct.
+
+_Default: On_
+
+### Allow Ghost Levels
+
+Determines if the game uses so called bones files of dead characters.
+
+_Default: On_
+
+## Interface Settings
 
 ### Simple Command Layout
 
@@ -72,7 +135,7 @@ _Default: Off_
 
 ### Ignore Stopping Button
 
-Displays the ignore stopping toggle button in the top-right corner of the map. This button can be used to toggle the ignore stopping option on and off. Ignore stopping determines whether travelling is stopped by items and engravings.
+Displays the ignore stopping toggle button in the top-right corner of the map. This button can be used to toggle the ignore stopping option on and off. Ignore stopping determines whether travelling is stopped by items, doors, or engravings.
 
 _Default: Off_
 
@@ -82,41 +145,40 @@ Determines whether Stats and Equipment buttons are shown on the left and right s
 
 _Default: Off on mobile, On on desktop_
 
-## Interface Settings
+### Classic Status Bar
 
-### Messages
+- **Off:** Shows the modern graphical game status bar in the game. _(Default)_
+- **On:** Shows the game status bar in text in the NetHack style.
 
-Determines the number of messages shown in the bottom left corner of the screen.
+### Desktop Status Bar
 
-Options range from 1 to 50. 
+Displays ability scores and other extra information on the status bar.
 
-_Default: 5_
+_Default: Off on mobile, On on desktop_
 
-#### Show All
+### Show Score
 
-Toggle for showing all messages. The same as tapping the message area in the game screen.
+Displays the game score on the status bar.
 
-### Hide Navigation
+_Default: Off_
 
-_Android only_
+### Show XP
 
-Determines whether to hide the operating system navigation buttons in the bottom of the screen. 
+Displays experience points on the status bar.
 
-_Default: On_
+_Default: Off_
 
-### Hide Status Bar
+### Right-aligned on 2nd row
 
-_iOS only_
+Moves the display location of score, experience points and gold to the 2nd status bar row.
 
-Determines if the top status bar of the operating system is hidden.
+_Default: Off_
 
-_Default: On_
+### Show Status Screen
 
-### Default Auto-Center
+Toggle for showing the status screen. The same as tapping the middle area of the status bar at the top of the screen.
 
-Determines if the Auto-Center button in the game screen is enabled by default.
-
-_Default: On_
+_Default: Off_
 
 ### Grid
 
@@ -130,14 +192,17 @@ Determines if the game shows hit point bars under the player character, NPCs, pe
 
 _Default: Off_
 
-### Classic Status Bar
+### Player Mark
 
-- **Off:** Shows the modern graphical game status bar in the game. _(Default)_
-- **On:** Shows the game status bar in text in the NetHack style.
+Determines if a green targeting icon is displayed above the player character. 
 
-### Show Status Screen
+_Default: Off_
 
-Toggle for showing the status screen. The same as tapping the middle area of the status bar at the top of the screen.
+### Targeting
+
+Determines if a red targeting icon is displayed above hostile monsters. 
+
+_Default: Off_
 
 ### Show Pets
 
@@ -171,17 +236,17 @@ Determines if maximum mana is shown under the current mana in the mana orb.
 
 _Default: Off_
 
-### Player Mark
+### Messages
 
-Determines if a green targeting icon is displayed above the player character. 
+Determines the number of messages shown in the bottom left corner of the screen.
 
-_Default: Off_
+Options range from 1 to 50. 
 
-### Targeting
+_Default: 5_
 
-Determines if a red targeting icon is displayed above hostile monsters. 
+#### Show All
 
-_Default: Off_
+Toggle for showing all messages. The same as tapping the message area in the game screen.
 
 ### Walk Arrows
 
@@ -202,7 +267,92 @@ Determines if the game draws wall end graphics. Can be disabled to save processo
 
 _Default: On_
 
-## Volume Settings
+### Breathing Animations
+
+Determines if the game shows the breathing animations of various creatures.
+
+_Default: On_
+
+### Default Auto-Center
+
+Determines if the Auto-Center button in the game screen is enabled by default.
+
+_Default: On_
+
+### Menu Fade Effects
+
+Determines whether the texts in the menu and text pages fade in and out when opening and closing the page.
+
+_Default: On_
+
+### Improved Menu Images
+
+Determines the algorithm for scaling menu images.
+
+- **Off:** Nearest neighbour (faster)
+- **On:** Bilinear interpolation (slower) _(Default)_
+
+### Highlighted Menu Keys
+Determines the coloring of hotkeys of menu items.
+
+- **Off:** Grayed _(Default on mobile)_
+- **On:** Black/white in light/dark mode  _(Default on desktop)_
+
+### Show Dice As Ranges
+
+Determines the format in which die throws in the game are displayed.
+
+- **Off:** XdY format where X is the number of dice and Y is the number of sides in the dice (e.g., 2d6)
+- **On:** A-B format where A is the lowest possible result and B is the highest possible result (e.g., 2-12) _(Default)_
+
+## Behavior
+
+### Empty Wish is Nothing
+
+Determines what happens if the wish in the game is left blacnk. Keep on to preserve wishless conduct from unexpected wishes.
+
+- **Off:** A random item is received
+- **On:** Nothing is received _(Default)_
+
+### Character Click Action
+
+Clicking or tapping on the player character executes an action appropriate for the location, e.g., descending the stairs if standing at a stairway downwards.
+
+_Default: Off_
+
+### OK on Double Click
+
+Double-clicking a menu item also presses OK button automatically in menus.
+
+_Default: Off_
+
+### Traditional Get Position
+
+When asked to select a location, the location is selected by moving around a tile-based game cursor using arrow icons or keyboard, rather than clicking a location on the map.
+
+_Default: Off_
+
+### Auto-Dig
+
+Automatically dig a clicked or tapped wall when wielding a digging tool.
+
+Mirrors the *autodig* option in the game.
+
+_Default: On_
+
+### Ignore Stopping
+
+Travelling does not stop at items, doors, or engravings.
+
+Mirrors the *ignore_stopping* option in the game.
+
+_Default: Off_
+
+## Bar Commands
+
+This section enables you to specify which commands are displayed in the command bar.
+
+## Volume
 
 - Master Volume — Changes the volume of all sounds and music
 - Music Volume — Changes the volume of music
@@ -210,6 +360,93 @@ _Default: On_
 - Dialogue Volume — Changes the volume of voice overs
 - Effects Volume — Changes the volume of sound effects
 - Interface Volume — Changes the volume of interface sounds, such as button clicks
+
+## Forum Posting
+
+### Post Game Progress
+
+Posts updates of new events of you journey to a selected channel on a Discord Server.
+
+_Default: Off_
+
+### Webhook Link
+
+Enables you to specify the webhook link to the channel on a Discord server to where your game progress is posted.
+
+_Default: player-log channel on the GnollHack Discord server_
+
+## Server Posting
+
+### Account
+
+Enables you to access and specify the GnollHack Server address
+
+_Default: account.gnollhack.com_
+
+### User Name
+
+Your user name on the GnollHack server.
+
+### Password
+
+Your password on the GnollHack server.
+
+### Posting
+
+Enables you to specify the connection string to access and post information to the GnollHack Server.
+
+_Default: a connection string to account.gnollhack.com_
+
+### Post Top Scores
+
+Posts your score to the GnollHack Server when your game has ended.
+
+_Default: Off_
+
+### Share Bones Files
+
+Determines whether bones files containing information on the level where your character has died is posted to the server. Other players can consequently meet the character's ghost in their own games. Also, you receive other peoples' bones files, and can encounter their dead characters' ghosts if Allow Ghost Levels setting is on.
+
+_Default: Off_
+
+### Use Blacklist
+
+Determines whether to use blacklist or whitelist in blocking unwanted users' bones files.
+
+_Default: Off_
+
+### Whitelist/Blacklist
+
+A comma or space separated list of user names on the GnollHack server.
+
+- **Whitelist:** List of allowed user names.
+- **Blacklist:** List of blocked user names.
+
+## Replays
+
+### Record Game
+
+Determines whether the game save a replay recording of your game.
+
+_Default: Off_
+
+### Show Recording
+
+Determines whether a red dot appears on the status bar to indicate that game recording is on.
+
+_Default: On_
+
+### Auto-Upload to Cloud
+
+Determines whether the saved replay is automatically uploaded to an Azure cloud storage.
+
+_Default: Off_
+
+### Cloud Storage
+
+Enables you to specify the connection string an Azure cloud storage to where your game recording is uploaded.
+
+_Default: GnollHack Azure Cloud Storage_
 
 ## System Settings
 
@@ -228,15 +465,21 @@ Debug information is written in the app log.
 
 _Default: Off_
 
-### Show Memory
+### Low-Level Logging
 
-Shows the current managed memory usage on the game screen.
+Extensive logging of various low-level events. Can clog the app log quickly.
 
 _Default: Off_
 
-### Show FPS
+### Debug Post Channel
 
-Shows the current FPS on the game screen.
+Use an alternative post channel instead of the one specified under Post Game Progress.
+
+_Default: Off_
+
+### Show Memory
+
+Shows the current managed memory usage on the game screen.
 
 _Default: Off_
 
@@ -260,27 +503,15 @@ Determines if streaming banks are copied to the disk.
 - **Off:** Streaming sound banks are streamed from inside the AAB file (or wherever it is unpacked). This uses less storage space. _(Default)_
 - **On:** Streaming sound banks are copied to the storage and streamed from there. This uses consideraebly more storage space, since streaming banks are large in size.
 
-### Allow Ghost Levels
+### Longer Message History
 
-Determines if the game uses so called bones files of dead characters.
-
-_Default: On_
-
-### Post Game Status
-
-If enabled, the game will send live reports to a Discord server channel about important events in a game.
+The game will show over 16000 last messages instead of 250 last messages. For performance reasons, the setting will automatically switch off upon adding new messages or restarting the game. Also, a search bar appears.
 
 _Default: Off_
 
-### Webhook Link
+### Hide Message History
 
-The link used to send the game status updates. If empty, status updates are sent to the **player-log** channel of the GnollHack Discord server.
-
-_Default: Empty_
-
-### Post Diagnostic Data
-
-If enabled, diagnostic data about the game is sent to a private channel of the GnollHack Discord server.
+The game will not show latest messages at all. Could be used to take cleaner screenshots, for example.
 
 _Default: Off_
 
@@ -298,7 +529,49 @@ If **Use Single Dumplog** is **On**, this setting does the following:
 
 If **Use Single Dumplog** is **Off**, this setting does nothing.
 
+### GZip Replay Compression
+
+- **Off:** Zip format is used.
+- **On:** GZip format is used. _(Default)_
+
+### Platform Render Loop
+
+- **Off:** .NET MAUI animation system is used to create the game render loop.
+- **On:** A platform-specific render loop linking the game refresh rate to the display refresh rate is used. _(Default)_
+
+### GL Only on Map
+
+- **Off:** Skia GL rendering is used on map, menu pages, text pages, and more commands page. _(Default)_
+- **On:** Skia GL rendering is used on only on map. Other pages use Skia's CPU-based rendering.
+
+### Mipmapping On Map
+
+Toggles whether mipmapping is used in map rendering. Mostly obsolete.
+
+_Default: Off_
+
+### Adjust Rectangles
+
+Toggles whether the game adjusts tile rectangles to prevent Skia from drawing non-existing lines between tiles.
+
+_Default: On_
+
 ### Default Vi-Keys
 
-- **Off**: The default setting for the `number_pad` option is `2` *(=use numbers for movement)*.
+- **Off**: The default setting for the `number_pad` option is `2` *(=use numbers for movement)*. _(Default)_
 - **On**: The default setting for the `number_pad` option is `0` *(=use vi-keys for movement)*.
+
+### On Switching Apps
+
+Determines what happens when the player switches away from GnollHack to another app.
+
+- **Save Game**: The game is automatically saved, and restored when the player returns. This results in closing various input, menu and text pages, so the game state may not be exactly where the player left it. A notable case is in the middle of wishing for an item, where the game makes a checkpoint instead prior to wishing. _(Default)_
+- **Checkpoint**: The game creates a checkpoint, so if the app is terminated later without saving, the game recovers to the checkpoint but a crash is recorded. However, if the player returns to the game before it is terminated in the background, the game state will be exactly where he/she left it. It also works in the middle of wishing, where this is default special behavior.
+
+### Map GPU Cache
+
+Determines the cache size for Skia GPU rendering for the map. If the game is slow in GPU rendering, you can try to increase the cache, but large numbers can lead to the app running out of memory.
+
+### Menu GPU Cache
+
+Determines the cache size for Skia GPU rendering for the menu, text, and more commands pages.
