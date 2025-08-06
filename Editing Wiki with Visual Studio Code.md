@@ -1,5 +1,7 @@
 ## Visual Studio Code Installation
 
+![visual-studio-code-128](/uploads/Editing%20Wiki%20with%20Visual%20Studio%20Code/visual-studio-code-128.webp)
+
 ### Install Visual Studio Code
 
 [Download Visual Studio Code](https://code.visualstudio.com/)
@@ -17,6 +19,8 @@ Click **Ctrl+Shift+P** and search for:
 - **Markdown All in One: Toggle Code Block**, and click the gear icon and set its key binding to **Win+Alt+C**.
 
 ## Accessing the Repository
+
+![gnollhack-wiki-256](/uploads/Editing%20Wiki%20with%20Visual%20Studio%20Code/gnollhack-wiki-256.webp)
 
 ### Install Git
 
@@ -51,6 +55,8 @@ You can also install [GitHub Desktop](https://desktop.github.com/download/) for 
 You can read more about forking repositories and making pull requests in GitHub documentation: [Creating a pull request from a fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork).
 
 ## Editing Conventions
+
+![female-gnoll-quill-pen-512-q85](/uploads/Editing%20Wiki%20with%20Visual%20Studio%20Code/female-gnoll-quill-pen-512-q85.webp)
 
 ### Place Empty Line Around Headings
 
@@ -103,6 +109,10 @@ You can use an online service to convert your images to WebP in one batch:
 3. Click **Add Files** and select all files you want to convert.
 4. Click **Download All** to download all images in WebP format in a ZIP file. 
 
+### Image Size of Illustrative Images
+
+Please use **512x512 pixel resolution** for illustrative images and use **12.5 pixel rounded corners** (you need to do rounded corners in an image editing software). Please try to keep **their size under 100 KB**. If it goes over 100 KB, you can try to reduce their image quality to 85.
+
 ### Page Title Can Be Customized Using H1 Heading (#) in First Line
 
 Page titles can be customized using an H1 heading (single #) in the first line of a page.
@@ -127,6 +137,8 @@ Since the H1 heading (#) is reserved for customizing page titles, please use onl
 
 ## How-To-Do Guide
 
+![how-to-do-guide-512-q85](/uploads/Editing%20Wiki%20with%20Visual%20Studio%20Code/how-to-do-guide-512-q85.webp)
+
 ### Open Markdown Preview
 
 Press **Ctrl+Shift+V**.
@@ -149,6 +161,8 @@ You can create a new Markdown page by **holding Ctrl down while clicking a wiki 
 3. If you updated the GnollHack Wiki repository directly, it takes up to 5 minutes for the changes to appear online.
 
 ## Additional Information
+
+![female-gnoll-book-512-q85](/uploads/Editing%20Wiki%20with%20Visual%20Studio%20Code/female-gnoll-book-512-q85.webp)
 
 ### Case-Insensitive Wikilinks
 
