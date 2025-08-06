@@ -1,5 +1,7 @@
 # GnollHack Wiki
 
+![gnollhack-wiki-256](/uploads/Editing%20Wiki%20with%20Visual%20Studio%20Code/gnollhack-wiki-256.webp)
+
 GnollHack wiki contains the official information about [GnollHack](https://gnollhack.com/), a remastered and enhanced version of [NetHack](https://nethack.org).
 
 GnollHack wiki can be accessed at [https://wiki.gnollhack.com/](https://wiki.gnollhack.com/).
