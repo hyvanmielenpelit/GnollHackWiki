@@ -6,7 +6,7 @@ GnollHack wiki contains the official information about [GnollHack](https://gnoll
 
 GnollHack wiki can be accessed at [https://wiki.gnollhack.com/](https://wiki.gnollhack.com/).
 
-This repository contains the source code for the documentation. It's basically a bunch of [Markdown](https://www.markdownguide.org/) files and images, using GitHub/Gollum-style syntax. You can learn more about the syntax in [Gollum wiki](https://github.com/gollum/gollum/wiki). Most importantly, wikilinks with an alias follow the convention `[[Alias|Page Name]]` instead of `[[Page Name|Alias]]` syntax of MediaWiki.
+This repository contains the content files of GnollHack wiki. It's basically a bunch of [Markdown](https://www.markdownguide.org/) files and images, using GitHub/Gollum-style syntax. You can learn more about the syntax in [Gollum wiki](https://github.com/gollum/gollum/wiki). Most importantly, wikilinks with an alias follow the convention `[[Alias|Page Name]]` instead of `[[Page Name|Alias]]` syntax of MediaWiki.
 
 The wiki is built upon [Gollum wiki software](https://github.com/gollum/gollum).
 
