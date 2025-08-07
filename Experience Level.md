@@ -11,6 +11,8 @@ Each experience level gives you:
 - Additional **mana** based on your [[character class|character classes]], [[race|races]], [[intelligence]], and [[wisdom]].
 - Additional **abilities** based on your [[character class|character classes]] and [[race|races]].
 
+The maximum experience level in GnollHack is 50.
+
 ## Experience Points
 
 You gain **experience points** from killing monsters. More difficult monsters give out more experience points than less difficult ones. When you reach a certain number of experience points, you level up to a new experience level.
