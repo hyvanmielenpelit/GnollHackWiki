@@ -105,7 +105,7 @@ Please use **WebP** encoded at **85 quality** as the image file format. Many ima
 You can use an online service to convert your images to WebP in one batch:
 
 1. Go to [To WebP website](https://towebp.io/) with your browser.
-2. First, *before adding files*, set **Quality** to **90** and **Size** to whatever scaling factor you want to use for your images.
+2. First, *before adding files*, set **Quality** to **85** and **Size** to whatever scaling factor you want to use for your images.
 3. Click **Add Files** and select all files you want to convert.
 4. Click **Download All** to download all images in WebP format in a ZIP file. 
 
