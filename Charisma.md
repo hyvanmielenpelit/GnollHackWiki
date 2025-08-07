@@ -1,4 +1,10 @@
-Charisma gives you discount in shop prices and service fees. It also increases the chance of success to cast certain [[spells]]. Each point of charisma gives +15% casting success to the following spell schools:
+## Overview
+
+Charisma gives you discount in shop prices and service fees.
+
+## Charisma-Based Spell Schools
+
+It also increases the chance of success to cast certain [[spells]]. Each point of charisma gives +15% casting success to the following spell schools:
 
 - [[Celestial spells]]
 - [[Clerical spells]]

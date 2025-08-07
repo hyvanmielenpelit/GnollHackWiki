@@ -1,4 +1,10 @@
-Intelligence raises your [[maximum mana]] and the chance of success to cast certain [[spells]]. Each point of intelligence gives +15% casting success to the following spell schools:
+## Overview
+
+Intelligence raises your [[maximum mana]] and the chance of success to cast certain [[spells]].
+
+## Intelligence-Based Spell Schools
+
+Each point of intelligence gives +15% casting success to the following spell schools:
 
 - [[Abjuration spells]]
 - [[Arcane spells]]
