@@ -95,7 +95,7 @@ Uploads, such as images, should be placed under `/uploads/`. If the document wit
 
 ### Use Only WebP Files as Images
 
-Please use **WebP** encoded at **90 quality** as the image file format. Many image editing software support WebP.
+Please use **WebP** encoded at **85 quality** as the image file format. Many image editing software support WebP.
 
 - Adobe Photoshop has native WebP support since February 2022.
 - For earlier versions of Adobe Photoshop and Adobe Photoshop Elements, you can download [WebPShop plugin](https://github.com/webmproject/WebPShop).
@@ -111,7 +111,7 @@ You can use an online service to convert your images to WebP in one batch:
 
 ### Image Size of Illustrative Images
 
-Please use **512x512 pixel resolution** for illustrative images and use **12.5 pixel rounded corners** (you need to do rounded corners in an image editing software). Please try to keep **their size under 100 KB**. If it goes over 100 KB, you can try to reduce their image quality to 85.
+Please use **512x512 pixel resolution** for illustrative images and use **12.5 pixel rounded corners** (you need to do rounded corners in an image editing software). Please try to keep **their size under 100 KB**. If it goes over 100 KB, you can try to reduce their image quality to 80.
 
 ### Page Title Can Be Customized Using H1 Heading (#) in First Line
 
