@@ -1,30 +1,46 @@
+## Overview
+
+Strength increases:
+
+- Chance to hit with melee attacks
+- Damage of melee attacks
+
+Strength also adds half its damage bonus to ranged attacks with bows.
+
+Strength also increases your [[carrying capacity|Encumbrance]].
+
 ## Effect
 
-1. -1 to hit, -2 damage
-2. -1 to hit, -1 damage
-3. +0 to hit, -1 damage
-4. +0 to hit, +0 damage
-5. +0 to hit, +0 damage
-6. +0 to hit, +0 damage
-7. +0 to hit, +1 damage
-8. +0 to hit, +1 damage
-9. +0 to hit, +2 damage
-10. +1 to hit, +2 damage
-11. +1 to hit, +3 damage
-12. +1 to hit, +3 damage
-13. +2 to hit, +4 damage
-14. +2 to hit, +4 damage
-15. +2 to hit, +5 damage
-16. +3 to hit, +5 damage
-17. +3 to hit, +6 damage
-18. +3 to hit, +6 damage
+| Strength | Bonus<br />To Hit | Bonus<br />To Damage |
+| :------: | :----: | :-------: |
+| 1 | -1 | -2 |
+| 2 | -1 | -1 |
+| 3 | +0 | -1 |
+| 4 | +0 | +0 |
+| 5 | +0 | +0 |
+| 6 | +0 | +0 |
+| 7 | +0 | +1 |
+| 8 | +0 | +1 |
+| 9 | +0 | +2 |
+| 10 | +1 | +2 |
+| 11 | +1 | +3 |
+| 12 | +1 | +3 |
+| 13 | +2 | +4 |
+| 14 | +2 | +4 |
+| 15 | +2 | +5 |
+| 16 | +3 | +5 |
+| 17 | +3 | +6 |
+| 18 | +3 | +6 |
+| 18/01–18/100<sup>1</sup> | +3–4<sup>2</sup> | +6–8<sup>3</sup> |
+| 19 | +5 | +9 |
+| 20 | +5 | +10 |
+| 21 | +6 | +11 |
+| 22 | +6 | +12 |
+| 23 | +7 | +13 |
+| 24 | +7 | +14 |
+| 25 | +8 | +15 |
 
-*18/01–18/100:* +3–4 to hit, +6–8 damage *(Note that 18/100 is sometimes referred to as 18/\*\* in the game)*
-
-19. +5 to hit, +9 damage
-20. +5 to hit, +10 to damage
-21. +6 to hit, +11 to damage
-22. +6 to hit, +12 to damage
-23. +7 to hit, +13 to damage
-24. +7 to hit, +14 to damage
-25. +8 to hit, +15 to damage
+- <sup>1</sup> Note that 18/100 is sometimes referred to as 18/\*\* in the game.
+- <sup>2</sup> The game adds 1 to hit, if a 1d100 roll is equal to or less than the percentile number.
+- <sup>3</sup> The game adds 1d2 to damage, if a 1d100 roll is equal to or less than the percentile number.
+ 
