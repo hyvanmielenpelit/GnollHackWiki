@@ -1,27 +1,39 @@
+## Overview
+
+Dexterity:
+
+- Increases the chance to hit with melee and ranged weapons
+- Decreases your [[Armor Class (AC)|Armor Class (AC) and Magic Cancellation (MC)]]
+- Increases your chance to hit monsters with thrown potions.
+
+Lower AC is better.
+
 ## Effect
 
-1. -3 to hit, +3 to AC
-2. -3 to hit, +3 to AC
-3. -3 to hit, +2 to AC
-4. -2 to hit, +2 to AC
-5. -2 to hit, +1 to AC
-6. -1 to hit, +1 to AC
-7. -1 to hit, -0 to AC
-8. +0 to hit, -0 to AC
-9. +0 to hit, -0 to AC
-10. +0 to hit, -1 to AC
-11. +1 to hit, -1 to AC
-12. +1 to hit, -2 to AC
-13. +2 to hit, -2 to AC
-14. +2 to hit, -3 to AC
-15. +3 to hit, -3 to AC
-16. +3 to hit, -4 to AC
-17. +4 to hit, -4 to AC
-18. +4 to hit, -5 to AC
-19. +5 to hit, -5 to AC
-20. +5 to hit, -6 to AC
-21. +6 to hit, -6 to AC
-22. +6 to hit, -7 to AC
-23. +7 to hit, -7 to AC
-24. +7 to hit, -8 to AC
-25. +8 to hit, -8 to AC
+| Dexterity | Bonus<br />To Hit | Bonus<br />To AC |
+| :-------: | :---------------: | :--------------------------: |
+| 1 | -3 | +3 |
+| 2 | -3 | +3 |
+| 3 | -3 | +2 |
+| 4 | -2 | +2 |
+| 5 | -2 | +1 |
+| 6 | -1 | +1 |
+| 7 | -1 | -0 |
+| 8 | +0 | -0 |
+| 9 | +0 | -0 |
+| 10 | +0 | -1 |
+| 11 | +1 | -1 |
+| 12 | +1 | -2 |
+| 13 | +2 | -2 |
+| 14 | +2 | -3 |
+| 15 | +3 | -3 |
+| 16 | +3 | -4 |
+| 17 | +4 | -4 |
+| 18 | +4 | -5 |
+| 19 | +5 | -5 |
+| 20 | +5 | -6 |
+| 21 | +6 | -6 |
+| 22 | +6 | -7 |
+| 23 | +7 | -7 |
+| 24 | +7 | -8 |
+| 25 | +8 | -8 |
