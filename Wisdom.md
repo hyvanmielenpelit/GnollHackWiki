@@ -8,7 +8,7 @@ Also, wisdom is used for some saving throws for resisting spells.
 
 ## Wisdom-Based Spell Schools
 
- Each point of wisdom gives +15% casting success to the following spell schools:
+Each point of wisdom gives +15% casting success to the following spell schools:
 
 - [[Abjuration spells]]
 - [[Celestial spells]]
