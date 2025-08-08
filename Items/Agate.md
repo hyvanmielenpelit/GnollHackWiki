@@ -9,5 +9,5 @@
 
 ## Component for the following spells
 
-1. [[Create gemstone golem]]
-2. [[Protect armor]]
+1. [[/Spells/Create gemstone golem]]
+2. [[/Spells/Protect armor]]

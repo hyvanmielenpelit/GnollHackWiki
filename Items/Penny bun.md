@@ -7,7 +7,7 @@
 
 ## Component for the following spell
 
-1. [[Summon pegasus]]
+1. [[/Spells/Summon pegasus]]
 
 ## Description
 

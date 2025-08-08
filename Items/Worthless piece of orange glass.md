@@ -9,4 +9,4 @@
 
 ## Component for the following spell
 
-1. [[Create glass golem]]
+1. [[/Spells/Create glass golem]]

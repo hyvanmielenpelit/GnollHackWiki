@@ -8,7 +8,7 @@
 
 ## Component for the following spells
 
-1. [[Create gold golem]]
-2. [[Detect treasure]]
-3. [[Summon ancient gold dragon]] (not cursed)
-4. [[Summon gold dragon]] (not cursed)
+1. [[/Spells/Create gold golem]]
+2. [[/Spells/Detect treasure]]
+3. [[/Spells/Summon ancient gold dragon]] (not cursed)
+4. [[/Spells/Summon gold dragon]] (not cursed)

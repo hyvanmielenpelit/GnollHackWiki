@@ -9,6 +9,6 @@
 
 ## Component for the following spells
 
-1. [[Glacial grasp]]
-2. [[Greater frost ray]]
-3. [[Wish]] (not cursed)
+1. [[/Spells/Glacial grasp]]
+2. [[/Spells/Greater frost ray]]
+3. [[/Spells/Wish]] (not cursed)

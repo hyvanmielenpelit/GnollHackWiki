@@ -9,6 +9,6 @@
 
 ## Component for the following spells
 
-1. [[Enlightenment]]
-2. [[Passwall]]
-3. [[Prayer]] (not cursed)
+1. [[/Spells/Enlightenment]]
+2. [[/Spells/Passwall]]
+3. [[/Spells/Prayer]] (not cursed)

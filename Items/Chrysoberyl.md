@@ -9,5 +9,5 @@
 
 ## Component for the following spells
 
-1. [[Create gemstone golem]]
-2. [[Detect traps]]
+1. [[/Spells/Create gemstone golem]]
+2. [[/Spells/Detect traps]]

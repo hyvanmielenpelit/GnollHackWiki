@@ -11,6 +11,6 @@
 
 ## Component for the following spells
 
-1. [[Barkskin]]
-2. [[Create clay golem]] (blessed)
-3. [[Divine strength]]
+1. [[/Spells/Barkskin]]
+2. [[/Spells/Create clay golem]] (blessed)
+3. [[/Spells/Divine strength]]

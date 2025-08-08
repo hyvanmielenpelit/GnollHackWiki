@@ -8,7 +8,7 @@
 
 ## Component for the following spell
 
-1. [[Stone to flesh]]
+1. [[/Spells/Stone to flesh]]
 
 ## Description
 

@@ -9,9 +9,9 @@
 
 ## Component for the following spells
 
-1. [[Circle of teleportation]]
-2. [[Controlled teleport]]
-3. [[Create glass golem]]
-4. [[Portal]]
-5. [[Teleport monster]]
-6. [[Teleport self]]
+1. [[/Spells/Circle of teleportation]]
+2. [[/Spells/Controlled teleport]]
+3. [[/Spells/Create glass golem]]
+4. [[/Spells/Portal]]
+5. [[/Spells/Teleport monster]]
+6. [[/Spells/Teleport self]]

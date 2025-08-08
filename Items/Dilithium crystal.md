@@ -9,4 +9,4 @@
 
 ## Component for the following spell
 
-1. [[Call hierarch modron]]
+1. [[/Spells/Call hierarch modron]]

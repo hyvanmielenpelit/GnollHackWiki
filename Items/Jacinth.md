@@ -9,4 +9,4 @@
 
 ## Component for the following spell
 
-1. [[Magic mapping]]
+1. [[/Spells/Magic mapping]]

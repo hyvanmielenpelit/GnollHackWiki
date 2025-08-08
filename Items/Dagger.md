@@ -14,4 +14,4 @@
 
 ## Component for the following spell
 
-1. [[Armageddon]] (catalyst, not cursed, death-enchanted)
+1. [[/Spells/Armageddon]] (catalyst, not cursed, death-enchanted)

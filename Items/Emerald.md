@@ -9,7 +9,7 @@
 
 ## Component for the following spells
 
-1. [[Gaze of petrification]]
-2. [[Summon elder treant]]
-3. [[Summon owlbear patriarch]]
-4. [[Wish]] (not cursed)
+1. [[/Spells/Gaze of petrification]]
+2. [[/Spells/Summon elder treant]]
+3. [[/Spells/Summon owlbear patriarch]]
+4. [[/Spells/Wish]] (not cursed)

@@ -6,4 +6,4 @@
 
 ## Component for the following spell
 
-1. [[Create paper golem]]
+1. [[/Spells/Create paper golem]]

@@ -9,8 +9,8 @@
 
 ## Component for the following spells
 
-1. [[Animate water]]
-2. [[Greater animate water]]
+1. [[/Spells/Animate water]]
+2. [[/Spells/Greater animate water]]
 
 ## Description
 

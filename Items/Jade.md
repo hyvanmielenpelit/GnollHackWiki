@@ -9,4 +9,4 @@
 
 ## Component for the following spell
 
-1. [[Identify]]
+1. [[/Spells/Identify]]

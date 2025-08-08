@@ -12,5 +12,5 @@
 
 ## Component for the following spells
 
-1. [[Arrow of Diana]]
-2. [[Magic arrow]]
+1. [[/Spells/Arrow of Diana]]
+2. [[/Spells/Magic arrow]]

@@ -9,9 +9,9 @@
 
 ## Component for the following spells
 
-1. [[Divine mount]] (not cursed)
-2. [[Flame burst]]
-3. [[Greater animate fire]]
-4. [[Incinerate]]
-5. [[Summon phoenix]] (not cursed)
-6. [[Wish]] (not cursed)
+1. [[/Spells/Divine mount]] (not cursed)
+2. [[/Spells/Flame burst]]
+3. [[/Spells/Greater animate fire]]
+4. [[/Spells/Incinerate]]
+5. [[/Spells/Summon phoenix]] (not cursed)
+6. [[/Spells/Wish]] (not cursed)

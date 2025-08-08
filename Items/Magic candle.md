@@ -6,7 +6,7 @@
 
 ## Component for the following spell
 
-1. [[Light]]
+1. [[/Spells/Light]]
 
 ## Description
 

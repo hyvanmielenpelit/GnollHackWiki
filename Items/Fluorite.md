@@ -9,4 +9,4 @@
 
 ## Component for the following spell
 
-1. [[Protect weapon]]
+1. [[/Spells/Protect weapon]]

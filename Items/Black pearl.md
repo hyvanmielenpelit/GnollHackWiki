@@ -9,8 +9,8 @@
 
 ## Component for the following spells
 
-1. [[Armageddon]] (not cursed)
-2. [[Black blade of disaster]] (not cursed)
-3. [[Disintegrate]] (not cursed)
-4. [[Obliterate]]
-5. [[Sphere of annihilation]] (not cursed)
+1. [[/Spells/Armageddon]] (not cursed)
+2. [[/Spells/Black blade of disaster]] (not cursed)
+3. [[/Spells/Disintegrate]] (not cursed)
+4. [[/Spells/Obliterate]]
+5. [[/Spells/Sphere of annihilation]] (not cursed)

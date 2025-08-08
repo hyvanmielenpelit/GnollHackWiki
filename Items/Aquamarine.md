@@ -9,5 +9,5 @@
 
 ## Component for the following spells
 
-1. [[Greater animate water]]
-2. [[Lower water]]
+1. [[/Spells/Greater animate water]]
+2. [[/Spells/Lower water]]

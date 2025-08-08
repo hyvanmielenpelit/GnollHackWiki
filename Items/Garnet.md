@@ -9,4 +9,4 @@
 
 ## Component for the following spell
 
-1. [[Enchant weapon]]
+1. [[/Spells/Enchant weapon]]

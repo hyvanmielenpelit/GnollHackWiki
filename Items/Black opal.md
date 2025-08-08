@@ -9,9 +9,9 @@
 
 ## Component for the following spells
 
-1. [[Call Demogorgon]]
-2. [[Create dracolich]]
-3. [[Create elder dracolich]]
-4. [[Mass create dracolich]]
-5. [[Raise skeleton king]]
-6. [[Summon demon]]
+1. [[/Spells/Call Demogorgon]]
+2. [[/Spells/Create dracolich]]
+3. [[/Spells/Create elder dracolich]]
+4. [[/Spells/Mass create dracolich]]
+5. [[/Spells/Raise skeleton king]]
+6. [[/Spells/Summon demon]]

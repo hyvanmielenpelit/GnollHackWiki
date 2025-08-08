@@ -9,10 +9,10 @@
 
 ## Component for the following spells
 
-1. [[Banish demon]] (not cursed)
-2. [[Celestial storm]]
-3. [[Circle of radiance]]
-4. [[Circle of sunlight]]
-5. [[Create silver golem]]
-6. [[Heavenly touch]]
-7. [[Sunlight beam]]
+1. [[/Spells/Banish demon]] (not cursed)
+2. [[/Spells/Celestial storm]]
+3. [[/Spells/Circle of radiance]]
+4. [[/Spells/Circle of sunlight]]
+5. [[/Spells/Create silver golem]]
+6. [[/Spells/Heavenly touch]]
+7. [[/Spells/Sunlight beam]]

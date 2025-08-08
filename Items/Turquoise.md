@@ -9,8 +9,8 @@
 
 ## Component for the following spells
 
-1. [[Controlled level teleport]]
-2. [[Electrocute]]
-3. [[Level teleport]]
-4. [[Portal]]
-5. [[Thunderstrike]]
+1. [[/Spells/Controlled level teleport]]
+2. [[/Spells/Electrocute]]
+3. [[/Spells/Level teleport]]
+4. [[/Spells/Portal]]
+5. [[/Spells/Thunderstrike]]

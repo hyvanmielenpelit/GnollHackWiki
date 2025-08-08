@@ -7,9 +7,9 @@
 
 ## Component for the following spells
 
-1. [[Call Demogorgon]] (ape, cursed)
-2. [[Call ghoul]]
-3. [[Flesh to stone]] (chickatrice)
-4. [[Gaze of petrification]] (chickatrice)
-5. [[Polymorph]] (chameleon)
-6. [[Touch of petrification]] (chickatrice)
+1. [[/Spells/Call Demogorgon]] (ape, cursed)
+2. [[/Spells/Call ghoul]]
+3. [[/Spells/Flesh to stone]] (chickatrice)
+4. [[/Spells/Gaze of petrification]] (chickatrice)
+5. [[/Spells/Polymorph]] (chameleon)
+6. [[/Spells/Touch of petrification]] (chickatrice)

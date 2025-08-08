@@ -9,10 +9,10 @@
 
 ## Component for the following spells
 
-1. [[Bless]] (not cursed)
-2. [[Divine intervention]] (not cursed)
-3. [[Guardian angel]] (not cursed)
-4. [[Heavenly army]] (not cursed)
-5. [[Heavenly serpent]] (not cursed)
-6. [[Remove curse]] (not cursed)
-7. [[Summon archon]] (not cursed)
+1. [[/Spells/Bless]] (not cursed)
+2. [[/Spells/Divine intervention]] (not cursed)
+3. [[/Spells/Guardian angel]] (not cursed)
+4. [[/Spells/Heavenly army]] (not cursed)
+5. [[/Spells/Heavenly serpent]] (not cursed)
+6. [[/Spells/Remove curse]] (not cursed)
+7. [[/Spells/Summon archon]] (not cursed)

@@ -9,8 +9,8 @@
 
 ## Component for the following spells
 
-1. [[Confuse monster]]
-2. [[Dominate monster]]
-3. [[Mass conflict]]
-4. [[Mass domination]]
-5. [[Sphere of domination]]
+1. [[/Spells/Confuse monster]]
+2. [[/Spells/Dominate monster]]
+3. [[/Spells/Mass conflict]]
+4. [[/Spells/Mass domination]]
+5. [[/Spells/Sphere of domination]]

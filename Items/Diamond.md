@@ -9,9 +9,9 @@
 
 ## Component for the following spells
 
-1. [[Call Bahamut]] (not cursed)
-2. [[Divine endurance]] (not cursed)
-3. [[Greater animate air]]
-4. [[Summon ancient gold dragon]] (not cursed)
-5. [[Summon gold dragon]] (not cursed)
-6. [[Wish]] (not cursed)
+1. [[/Spells/Call Bahamut]] (not cursed)
+2. [[/Spells/Divine endurance]] (not cursed)
+3. [[/Spells/Greater animate air]]
+4. [[/Spells/Summon ancient gold dragon]] (not cursed)
+5. [[/Spells/Summon gold dragon]] (not cursed)
+6. [[/Spells/Wish]] (not cursed)

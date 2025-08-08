@@ -14,4 +14,4 @@
 
 ## Component for the following spell
 
-1. [[Magic missile]]
+1. [[/Spells/Magic missile]]

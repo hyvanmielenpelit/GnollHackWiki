@@ -9,5 +9,5 @@
 
 ## Component for the following spells
 
-1. [[Commune]]
-2. [[Create glass golem]]
+1. [[/Spells/Commune]]
+2. [[/Spells/Create glass golem]]

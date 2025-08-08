@@ -9,6 +9,6 @@
 
 ## Component for the following spells
 
-1. [[Black blade of disaster]] (not cursed)
-2. [[Curse]]
-3. [[Sphere of annihilation]] (not cursed)
+1. [[/Spells/Black blade of disaster]] (not cursed)
+2. [[/Spells/Curse]]
+3. [[/Spells/Sphere of annihilation]] (not cursed)

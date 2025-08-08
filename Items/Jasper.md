@@ -9,4 +9,4 @@
 
 ## Component for the following spell
 
-1. [[Enchant armor]]
+1. [[/Spells/Enchant armor]]

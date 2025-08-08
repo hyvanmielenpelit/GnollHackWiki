@@ -8,9 +8,9 @@
 
 ## Component for the following spells
 
-1. [[Call Bahamut]] (not cursed)
-2. [[Circle of magic]]
-3. [[Force strike]]
-4. [[Greater magic missile]]
-5. [[Magic storm]]
-6. [[Magical implosion]]
+1. [[/Spells/Call Bahamut]] (not cursed)
+2. [[/Spells/Circle of magic]]
+3. [[/Spells/Force strike]]
+4. [[/Spells/Greater magic missile]]
+5. [[/Spells/Magic storm]]
+6. [[/Spells/Magical implosion]]

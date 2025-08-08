@@ -8,8 +8,8 @@
 
 ## Component for the following spells
 
-1. [[Globe of invulnerability]] (not cursed)
-2. [[Protection from disintegration]]
-3. [[Stoneskin]]
-4. [[Summon grizzly bear]]
-5. [[Titan strength]]
+1. [[/Spells/Globe of invulnerability]] (not cursed)
+2. [[/Spells/Protection from disintegration]]
+3. [[/Spells/Stoneskin]]
+4. [[/Spells/Summon grizzly bear]]
+5. [[/Spells/Titan strength]]

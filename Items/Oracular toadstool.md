@@ -8,13 +8,13 @@
 
 ## Component for the following spells
 
-1. [[Charm monster]]
-2. [[Dominate monster]]
-3. [[Mass charm]]
-4. [[Mass domination]]
-5. [[Sphere of charming]]
-6. [[Sphere of domination]]
-7. [[Summon purple worm]]
+1. [[/Spells/Charm monster]]
+2. [[/Spells/Dominate monster]]
+3. [[/Spells/Mass charm]]
+4. [[/Spells/Mass domination]]
+5. [[/Spells/Sphere of charming]]
+6. [[/Spells/Sphere of domination]]
+7. [[/Spells/Summon purple worm]]
 
 ## Description
 

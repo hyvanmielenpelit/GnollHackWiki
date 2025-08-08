@@ -6,13 +6,13 @@
 
 ## Component for the following spells
 
-1. [[Detect food]]
-2. [[Faithful hound]]
-3. [[Protection from acid]]
-4. [[Raise giant skeleton]]
-5. [[Raise minor zombie]]
-6. [[Raise skeleton]]
-7. [[Raise skeleton lord]]
-8. [[Raise skeleton warrior]]
-9. [[Summon direwolf]]
-10. [[Summon grizzly bear]]
+1. [[/Spells/Detect food]]
+2. [[/Spells/Faithful hound]]
+3. [[/Spells/Protection from acid]]
+4. [[/Spells/Raise giant skeleton]]
+5. [[/Spells/Raise minor zombie]]
+6. [[/Spells/Raise skeleton]]
+7. [[/Spells/Raise skeleton lord]]
+8. [[/Spells/Raise skeleton warrior]]
+9. [[/Spells/Summon direwolf]]
+10. [[/Spells/Summon grizzly bear]]

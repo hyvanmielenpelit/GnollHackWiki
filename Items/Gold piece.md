@@ -5,4 +5,4 @@
 
 ## Component for the following spell
 
-1. [[Probe]]
+1. [[/Spells/Probe]]

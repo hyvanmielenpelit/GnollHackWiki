@@ -7,7 +7,7 @@
 
 ## Component for the following spell
 
-1. [[Summon bison]]
+1. [[/Spells/Summon bison]]
 
 ## Description
 

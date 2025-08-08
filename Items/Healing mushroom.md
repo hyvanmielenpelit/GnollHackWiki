@@ -8,9 +8,9 @@
 
 ## Component for the following spells
 
-1. [[Full healing]]
-2. [[Greater healing]]
-3. [[Prodigious healing]]
+1. [[/Spells/Full healing]]
+2. [[/Spells/Greater healing]]
+3. [[/Spells/Prodigious healing]]
 
 ## Description
 

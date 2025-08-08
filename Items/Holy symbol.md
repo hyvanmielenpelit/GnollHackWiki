@@ -12,17 +12,17 @@
 
 ## Component for the following spells
 
-1. [[Banish demon]] (catalyst, not cursed)
-2. [[Bless]] (catalyst, not cursed)
-3. [[Celestial storm]] (catalyst, not cursed)
-4. [[Circle of radiance]] (catalyst)
-5. [[Circle of sunlight]] (catalyst)
-6. [[Curse]] (catalyst)
-7. [[Negate undeath]] (catalyst, not cursed)
-8. [[Ray of radiance]] (catalyst)
-9. [[Resurrection]] (catalyst, not cursed)
-10. [[Sunlight beam]] (catalyst)
-11. [[Wrath of god]] (catalyst, not cursed)
+1. [[/Spells/Banish demon]] (catalyst, not cursed)
+2. [[/Spells/Bless]] (catalyst, not cursed)
+3. [[/Spells/Celestial storm]] (catalyst, not cursed)
+4. [[/Spells/Circle of radiance]] (catalyst)
+5. [[/Spells/Circle of sunlight]] (catalyst)
+6. [[/Spells/Curse]] (catalyst)
+7. [[/Spells/Negate undeath]] (catalyst, not cursed)
+8. [[/Spells/Ray of radiance]] (catalyst)
+9. [[/Spells/Resurrection]] (catalyst, not cursed)
+10. [[/Spells/Sunlight beam]] (catalyst)
+11. [[/Spells/Wrath of god]] (catalyst, not cursed)
 
 ## Description
 

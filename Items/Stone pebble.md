@@ -11,12 +11,12 @@
 
 ## Component for the following spells
 
-1. [[Animate earth]]
-2. [[Create stone golem]]
-3. [[Create water]]
-4. [[Greater animate earth]]
-5. [[Meteor swarm]]
-6. [[Stoneskin]]
-7. [[Summon cockatrice]]
-8. [[Summon gargantuan cockatrice]]
-9. [[Summon giant cockatrice]]
+1. [[/Spells/Animate earth]]
+2. [[/Spells/Create stone golem]]
+3. [[/Spells/Create water]]
+4. [[/Spells/Greater animate earth]]
+5. [[/Spells/Meteor swarm]]
+6. [[/Spells/Stoneskin]]
+7. [[/Spells/Summon cockatrice]]
+8. [[/Spells/Summon gargantuan cockatrice]]
+9. [[/Spells/Summon giant cockatrice]]

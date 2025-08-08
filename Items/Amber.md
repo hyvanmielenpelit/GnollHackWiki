@@ -9,7 +9,7 @@
 
 ## Component for the following spells
 
-1. [[Create monster]]
-2. [[Great Yendorian summoning]]
-3. [[Stick to giant anaconda]]
-4. [[X-ray vision]]
+1. [[/Spells/Create monster]]
+2. [[/Spells/Great Yendorian summoning]]
+3. [[/Spells/Stick to giant anaconda]]
+4. [[/Spells/X-ray vision]]

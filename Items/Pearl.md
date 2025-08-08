@@ -9,5 +9,5 @@
 
 ## Component for the following spells
 
-1. [[Divine intervention]] (not cursed)
-2. [[Water breathing]]
+1. [[/Spells/Divine intervention]] (not cursed)
+2. [[/Spells/Water breathing]]

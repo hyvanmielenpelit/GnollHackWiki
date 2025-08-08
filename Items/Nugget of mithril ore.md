@@ -8,9 +8,9 @@
 
 ## Component for the following spells
 
-1. [[Ray of radiance]]
-2. [[Summon ancient dragon]]
-3. [[Summon dragon]]
-4. [[Summon phase spider]]
-5. [[Touch of divinity]]
-6. [[Wrath of god]]
+1. [[/Spells/Ray of radiance]]
+2. [[/Spells/Summon ancient dragon]]
+3. [[/Spells/Summon dragon]]
+4. [[/Spells/Summon phase spider]]
+5. [[/Spells/Touch of divinity]]
+6. [[/Spells/Wrath of god]]

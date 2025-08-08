@@ -11,5 +11,5 @@
 
 ## Component for the following spells
 
-1. [[Force bolt]]
-2. [[Force strike]]
+1. [[/Spells/Force bolt]]
+2. [[/Spells/Force strike]]

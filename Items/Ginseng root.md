@@ -7,13 +7,13 @@
 
 ## Component for the following spells
 
-1. [[Cure blindness]]
-2. [[Cure petrification]]
-3. [[Cure sickness]]
-4. [[Extra healing]]
-5. [[Full healing]]
-6. [[Healing]]
-7. [[Minor healing]]
-8. [[Prodigious healing]]
-9. [[Protection from sickness]]
-10. [[Resurrection]] (not cursed)
+1. [[/Spells/Cure blindness]]
+2. [[/Spells/Cure petrification]]
+3. [[/Spells/Cure sickness]]
+4. [[/Spells/Extra healing]]
+5. [[/Spells/Full healing]]
+6. [[/Spells/Healing]]
+7. [[/Spells/Minor healing]]
+8. [[/Spells/Prodigious healing]]
+9. [[/Spells/Protection from sickness]]
+10. [[/Spells/Resurrection]] (not cursed)

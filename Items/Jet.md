@@ -9,7 +9,7 @@
 
 ## Component for the following spells
 
-1. [[Greater animate earth]]
-2. [[Raise skeleton lord]]
-3. [[Summon gargantuan cockatrice]]
-4. [[Summon giant cockatrice]]
+1. [[/Spells/Greater animate earth]]
+2. [[/Spells/Raise skeleton lord]]
+3. [[/Spells/Summon gargantuan cockatrice]]
+4. [[/Spells/Summon giant cockatrice]]

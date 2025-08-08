@@ -8,7 +8,7 @@
 
 ## Component for the following spell
 
-1. [[Telepathy]]
+1. [[/Spells/Telepathy]]
 
 ## Description
 

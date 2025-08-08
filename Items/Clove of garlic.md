@@ -7,13 +7,13 @@
 
 ## Component for the following spells
 
-1. [[Forbid summoning]]
-2. [[Hold undead]]
-3. [[Negate undeath]] (not cursed)
-4. [[Protection from curses]] (not cursed)
-5. [[Protection from life draining]]
-6. [[Protection from lycanthropy]]
-7. [[Protection from poison]]
-8. [[Restore ability]]
-9. [[Resurrection]] (not cursed)
-10. [[Turn undead]]
+1. [[/Spells/Forbid summoning]]
+2. [[/Spells/Hold undead]]
+3. [[/Spells/Negate undeath]] (not cursed)
+4. [[/Spells/Protection from curses]] (not cursed)
+5. [[/Spells/Protection from life draining]]
+6. [[/Spells/Protection from lycanthropy]]
+7. [[/Spells/Protection from poison]]
+8. [[/Spells/Restore ability]]
+9. [[/Spells/Resurrection]] (not cursed)
+10. [[/Spells/Turn undead]]

@@ -8,10 +8,10 @@
 
 ## Component for the following spells
 
-1. [[Circle of lightning]]
-2. [[Electrocute]]
-3. [[Lightning bolt]]
-4. [[Lightning-enchant item]]
-5. [[Shocking touch]]
-6. [[Thunderstorm]]
-7. [[Thunderstrike]]
+1. [[/Spells/Circle of lightning]]
+2. [[/Spells/Electrocute]]
+3. [[/Spells/Lightning bolt]]
+4. [[/Spells/Lightning-enchant item]]
+5. [[/Spells/Shocking touch]]
+6. [[/Spells/Thunderstorm]]
+7. [[/Spells/Thunderstrike]]

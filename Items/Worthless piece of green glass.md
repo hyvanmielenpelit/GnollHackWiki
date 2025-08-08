@@ -9,5 +9,5 @@
 
 ## Component for the following spells
 
-1. [[Create glass golem]]
-2. [[Detect blessedness]]
+1. [[/Spells/Create glass golem]]
+2. [[/Spells/Detect blessedness]]

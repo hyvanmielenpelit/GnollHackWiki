@@ -9,6 +9,6 @@
 
 ## Component for the following spells
 
-1. [[Create glass golem]]
-2. [[Mirror image]]
-3. [[Reflection]]
+1. [[/Spells/Create glass golem]]
+2. [[/Spells/Mirror image]]
+3. [[/Spells/Reflection]]

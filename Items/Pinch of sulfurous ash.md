@@ -6,16 +6,16 @@
 
 ## Component for the following spells
 
-1. [[Animate fire]]
-2. [[Burning hands]]
-3. [[Circle of fire]]
-4. [[Fire bolt]]
-5. [[Fire storm]]
-6. [[Fire-enchant item]]
-7. [[Fireball]]
-8. [[Flame burst]]
-9. [[Flame strike]]
-10. [[Greater animate fire]]
-11. [[Incinerate]]
-12. [[Meteor swarm]]
-13. [[Summon phoenix]] (not cursed)
+1. [[/Spells/Animate fire]]
+2. [[/Spells/Burning hands]]
+3. [[/Spells/Circle of fire]]
+4. [[/Spells/Fire bolt]]
+5. [[/Spells/Fire storm]]
+6. [[/Spells/Fire-enchant item]]
+7. [[/Spells/Fireball]]
+8. [[/Spells/Flame burst]]
+9. [[/Spells/Flame strike]]
+10. [[/Spells/Greater animate fire]]
+11. [[/Spells/Incinerate]]
+12. [[/Spells/Meteor swarm]]
+13. [[/Spells/Summon phoenix]] (not cursed)

@@ -9,5 +9,5 @@
 
 ## Component for the following spells
 
-1. [[Absolution]] (not cursed)
-2. [[Time stop]] (not cursed)
+1. [[/Spells/Absolution]] (not cursed)
+2. [[/Spells/Time stop]] (not cursed)

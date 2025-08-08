@@ -8,11 +8,11 @@
 
 ## Component for the following spells
 
-1. [[Armageddon]] (not cursed)
-2. [[Death-enchant item]]
-3. [[Deathspell]]
-4. [[Finger of death]]
-5. [[Touch of death]]
+1. [[/Spells/Armageddon]] (not cursed)
+2. [[/Spells/Death-enchant item]]
+3. [[/Spells/Deathspell]]
+4. [[/Spells/Finger of death]]
+5. [[/Spells/Touch of death]]
 
 ## Description
 
