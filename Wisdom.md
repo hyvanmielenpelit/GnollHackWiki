@@ -4,7 +4,7 @@
 
 Wisdom raises your [[maximum mana]] and the chance of success to cast certain [[spells]].
 
-Also, wisdom is used for some saving throws for resisting spells.
+Also, wisdom is used in certain [[saving throws|Resistances and Saving Throws#5-wisdom-based-saving-throw]] for resisting some spells and effects.
 
 ## Wisdom-Based Spell Schools
 

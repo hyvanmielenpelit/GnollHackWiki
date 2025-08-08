@@ -6,6 +6,8 @@ Constitution increases your **hit points**.
 
 It also increases your [[carrying capacity|Encumbrance]].
 
+Constitution is also used in certain [[saving throws|Resistances and Saving Throws#6-constitution-based-saving-throw]] for resisting some spells.
+
 ## Effect
 
 | Constitution | Bonus<br/>Hit Points<br />Per Level |
