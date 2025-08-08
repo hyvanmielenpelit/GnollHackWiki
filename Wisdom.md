@@ -1,3 +1,5 @@
+![wisdom](/uploads/Wisdom/wisdom.webp)
+
 ## Overview
 
 Wisdom raises your [[maximum mana]] and the chance of success to cast certain [[spells]].

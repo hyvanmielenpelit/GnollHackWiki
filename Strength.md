@@ -1,3 +1,5 @@
+![strength](/uploads/Strength/strength.webp)
+
 ## Overview
 
 Strength increases:

@@ -1,3 +1,5 @@
+![charisma](/uploads/Charisma/charisma.webp)
+
 ## Overview
 
 Charisma gives you discount in shop prices and service fees.

@@ -1,3 +1,5 @@
+![intelligence](/uploads/Intelligence/intelligence.webp)
+
 ## Overview
 
 Intelligence raises your [[maximum mana]] and the chance of success to cast certain [[spells]].
