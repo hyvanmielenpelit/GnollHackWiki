@@ -1,3 +1,5 @@
+![settings](/uploads/Settings/settings.webp)
+
 ## Modern Port Settings
 
 These settings relate to GnollHack's **modern ports** only.

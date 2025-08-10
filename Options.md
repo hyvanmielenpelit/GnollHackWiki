@@ -1,3 +1,5 @@
+![options](/uploads/Options/options.webp)
+
 ## Accessing the Options File
 
 ### Modern Ports (Android, iOS, and Windows)
