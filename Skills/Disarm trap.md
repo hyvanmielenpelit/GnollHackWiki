@@ -45,10 +45,10 @@
 
 | Trap Level | Training |
 | :--------- | :------: |
-| Simple traps | 10 |
-| Complex traps | 20 |
-| Minor magical traps | 30 |
-| Major magical traps | 40 |
+| Simple trap | 10 |
+| Complex trap | 20 |
+| Minor magical trap | 30 |
+| Major magical trap | 40 |
 
 ### Skill Levels
 
