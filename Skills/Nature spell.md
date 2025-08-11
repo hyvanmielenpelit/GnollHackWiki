@@ -4,59 +4,11 @@ Increases the spell casting success and reduces the mana cost of nature spells. 
 
 Nature spells are non-somatic. They do not get spell casting penalty from wearing heavy armor.
 
-## Unskilled
-
-* Spell success bonus +0%
-* Spell success from level +0.25% per level
-* Spell cost discount +10%
-* Saving throw modifier +3
-
-## Basic
-
-* 1 skill slot to advance
-* 20 training to advance
-* Always advanceable at level 3
-* Spell success bonus +80%
-* Spell success from level +0.5% per level
-* Spell cost discount +0%
-* Saving throw modifier +0
-
-## Skilled
-
-* 2 skill slots to advance
-* 80 training to advance
-* Always advanceable at level 7
-* Spell success bonus +160%
-* Spell success from level +0.75% per level
-* Spell cost discount -10%
-* Saving throw modifier -3
-
-## Expert
-
-* 3 skill slots to advance
-* 180 training to advance
-* Always advanceable at level 13
-* Spell success bonus +240%
-* Spell success from level +1.0% per level
-* Spell cost discount -20%
-* Saving throw modifier -6
-
-## Master
-
-* 4 skill slots to advance
-* 320 training to advance
-* Always advanceable at level 21
-* Spell success bonus +320%
-* Spell success from level +1.25% per level
-* Spell cost discount -30%
-* Saving throw modifier -9
-
-## Grand Master
-
-* 5 skill slots to advance
-* 500 training to advance
-* Always advanceable at level 31
-* Spell success bonus +400%
-* Spell success from level +1.5% per level
-* Spell cost discount -40%
-* Saving throw modifier -12
+| Skill Level | Skill Slots to Advance | Training to Advance | Always Advanceable at Experience Level | Spell Success Bonus | Spell Success Bonus / Experience Level | Spell Cost Discount | Saving Throw Modifier |
+| :---------- | :--------------------: | :-----------------: | :-------------------------: | :-----------------: | :--------------------------------------: | :-----------------: | :-------------------: |
+| **Unskilled** | | | | +0% | +0.25% | +10% | +3 |
+| **Basic** | 1 | 20 | 3 | +100% | +0.50% | +0% | +0 |
+| **Skilled** | 1 | 80 | 7 | +200% | +0.75% | -10% | -3 |
+| **Expert** | 2 | 180 | 13 | +300% | +1.00% | -20% | -6 |
+| **Master** | 2 | 320 | 21 | +400% | +1.25% | -30% | -9 |
+| **Grand Master** | 3 | 500 | 31 | +500% | +1.50% | -40% | -12 |
