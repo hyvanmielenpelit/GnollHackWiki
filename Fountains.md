@@ -1,4 +1,4 @@
-![fountains](/uploads/Fountains/fountains.png)
+![Fountains](/uploads/Fountains/fountains.webp)
 
 ## Overview
 

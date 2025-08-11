@@ -1,4 +1,4 @@
-![Credits](/uploads/Credits/credits.png)
+![Credits](/uploads/Credits/credits.webp)
 
 ## Game Credits
 
