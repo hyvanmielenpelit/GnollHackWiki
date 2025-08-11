@@ -22,7 +22,7 @@ Additionally, the celestial spell skill can always be advanced to a next level a
 | Skill Level | When Starts at Unskilled | When Starts at Basic | When Starts at Skilled | 
 | :---------- | :----------------------: | :------------------: | :--------------------: |
 | **Basic** | 3 | | |
-| **Skilled** | 7 | 4 |
+| **Skilled** | 7 | 4 | |
 | **Expert** | 13 | 9 | 5 |
 | **Master** | 21 | 16 | 11 |
 | **Grand Master** | 31 | 25 | 19 |
