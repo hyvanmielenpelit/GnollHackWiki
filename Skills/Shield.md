@@ -2,65 +2,13 @@
 
 Increases AC and MC when wielding a shield. Also increases to-hit, damage, and the chance of a critical strike of a weapon shield.
 
-## Unskilled
+| Skill Level | Skill Slots to Advance | Training to Advance | Armor Class Bonus<sup>1</sup> | Magic Cancellation Bonus | To-Hit Bonus | Damage Bonus | Critical Strike Chance |
+| :---------- | :--------------------: | :-----------------: | :---------------: | :----------------------: | :----------: | :----------: | :--------------------: |
+| **Unskilled** | | | -0 | +0 | -4 | -2 | 0% |
+| **Basic** | 1 | 20 | -5 | +1 | 0 | 0 | 5% |
+| **Skilled** | 1 | 80 | -10 | +2 | +4 | +2 | 10% |
+| **Expert** | 2 | 180 | -15 | +3 | +8 | +4 | 20% |
+| **Master** | 2 | 320 | -20 | +4 | +12 | +6 | 35% |
+| **Grand Master** | 3 | 500 | -25 | +5 | +16 | +8 | 50% |
 
-* Armor class bonus +0
-* Magic cancellation bonus +0
-* To-hit bonus -4
-* Damage bonus -2
-* Critical strike chance 0%
-
-## Basic
-
-* 1 skill slot to advance
-* 20 training to advance
-* Always advanceable at level 3
-* Armor class bonus -5
-* Magic cancellation bonus +1
-* To-hit bonus +0
-* Damage bonus +0
-* Critical strike chance 5%
-
-## Skilled
-
-* 1 skill slot to advance
-* 80 training to advance
-* Always advanceable at level 7
-* Armor class bonus -10
-* Magic cancellation bonus +2
-* To-hit bonus +4
-* Damage bonus +2
-* Critical strike chance 10%
-
-## Expert
-
-* 2 skill slots to advance
-* 180 training to advance
-* Always advanceable at level 13
-* Armor class bonus -15
-* Magic cancellation bonus +3
-* To-hit bonus +8
-* Damage bonus +4
-* Critical strike chance 20%
-
-## Master
-
-* 2 skill slots to advance
-* 320 training to advance
-* Always advanceable at level 16
-* Armor class bonus -20
-* Magic cancellation bonus +4
-* To-hit bonus +12
-* Damage bonus +6
-* Critical strike chance 35%
-
-## Grand Master
-
-* 3 skill slots to advance
-* 500 training to advance
-* Always advanceable at level 25
-* Armor class bonus -25
-* Magic cancellation bonus +5
-* To-hit bonus +16
-* Damage bonus +8
-* Critical strike chance 50%
+- <sup>1</sup> Lower AC bonus is better.
