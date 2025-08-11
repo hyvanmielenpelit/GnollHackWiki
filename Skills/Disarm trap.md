@@ -4,8 +4,8 @@
 
 #### Simple traps
 
-| Trap Type | Item Granted on Disarm |
-| :-------- | :--------------------- |
+| Trap | Item Granted on Disarm |
+| :--- | :--------------------- |
 | Arrow trap | [[/Items/Arrow]] |
 | Bear trap | [[/Items/Beartrap]] |
 | Crossbow bolt trap | [[/Items/Crossbow bolt]] |
@@ -15,8 +15,8 @@
 
 #### Complex traps
 
-| Trap Type | Item Granted on Disarm |
-| :-------- | :--------------------- |
+| Trap | Item Granted on Disarm |
+| :--- | :--------------------- |
 | Chest trap | |
 | Falling rock trap | [[/Items/Rock]] |
 | Land mine | [[/Items/Land mine]] |
@@ -26,8 +26,8 @@
 
 #### Minor magical traps
 
-| Trap Type | Item Granted on Disarm |
-| :-------- | :--------------------- |
+| Trap | Item Granted on Disarm |
+| :--- | :--------------------- |
 | Anti-magic trap | [[/Items/Potion of magic resistance]] |
 | Level teleport trap | [[/Items/Cubic gate]] |
 | Statue trap | |
@@ -35,8 +35,8 @@
 
 #### Major magical traps
 
-| Trap Type | Item Granted on Disarm |
-| :-------- | :--------------------- |
+| Trap | Item Granted on Disarm |
+| :--- | :--------------------- |
 | Fire trap | [[/Items/Wand of fire]] |
 | Magic trap | [[/Items/Wand of create monster]] |
 | Polymorph trap | [[/Items/Wand of polymorph]] |
