@@ -185,6 +185,12 @@ You can create a new Markdown page by **holding Ctrl down while clicking a wiki 
 3. Drop the file into a Markdown file.
 4. It should automatically upload it and create an appropriate tag for it.
 
+### Add Unknown Word to Dictionary
+
+1. Click the word with blue wavy underlining.
+2. Click the yellow light bulb (quick fix) that appears on the left side of the line.
+3. Choose **Add 'word' to dictionary** in the dropdown.
+
 ### Publish Changes
 
 1. Commit changes using the Source Control view.
