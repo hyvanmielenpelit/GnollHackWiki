@@ -4,12 +4,43 @@
 
 ### Install Visual Studio Code
 
-[Download Visual Studio Code](https://code.visualstudio.com/)
+- [Download Visual Studio Code](https://code.visualstudio.com/)
 
 ### Install Visual Studio Code Extensions
 
-- [Foam for Gollum](https://marketplace.visualstudio.com/items?itemName=Hyvnmielenpelitry.foam-vscode-gollum)
+#### 1. Foam for Gollum
+
+##### Download
+
+- [Foam for Gollum](https://marketplace.visualstudio.com/items?itemName=Hyvnmielenpelitry.foam-vscode-gollum) 
+
+##### Features
+
+- **Gollum-style wikilinks** — `[[Alias|Page Name#section-heading]]`
+- **Custom file dropdown provider** — Places files and images automatically under a Gollum-style uploads folder
+- **Auto-completion** — Auto-completes page names and section headings
+
+#### 2. Markdown All in One
+
+##### Download
+
 - [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
+
+##### Features
+
+- Markdown keyboard shortcuts
+- Math support in the preview pane
+- And many more...
+
+#### 3. LTeX+
+
+##### Download
+
+- [LTeX+](https://marketplace.visualstudio.com/items?itemName=ltex-plus.vscode-ltex-plus)
+
+##### Features
+
+- English-language spell checking in Markdown documents
 
 ### Add Shortcuts to User Settings (Optional)
 
