@@ -187,8 +187,8 @@ You can create a new Markdown page by **holding Ctrl down while clicking a wiki 
 
 ### Add Unknown Word to Dictionary
 
-1. Click the word with blue wavy underlining.
-2. Click the yellow light bulb (quick fix) that appears on the left side of the line.
+1. Click a word with blue wavy underlining.
+2. Click the yellow light bulb (quick fix) that appears near the left side of the line.
 3. Choose **Add 'word' to dictionary** in the dropdown.
 
 ### Publish Changes
