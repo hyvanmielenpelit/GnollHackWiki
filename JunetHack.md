@@ -1,4 +1,4 @@
-![Junethack](/uploads/Junethack/junethack.webp)
+
 
 ## Setup and Registration Instructions
 
