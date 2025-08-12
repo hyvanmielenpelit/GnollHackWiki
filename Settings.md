@@ -88,9 +88,11 @@ _Default: Off_
 
 ### Tournament Mode
 
-Toggles several other settings to values required by tournaments like Junethack. Also forces on Classic game mode.
+Toggles several other settings to values required by tournaments like [[Junethack]]. Also forces on [[Classic game mode|Classic Mode]].
 
 _Default: Off_
+
+More info about [[tournament mode]].
 
 ## Adventuring Settings
 
