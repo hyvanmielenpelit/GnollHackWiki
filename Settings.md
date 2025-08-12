@@ -6,21 +6,91 @@ These settings relate to GnollHack's **modern ports** only.
 
 ## General Settings
 
-| Setting | Description | Values | Default | Notes |
-| :------ | :---------- | :----- | :-----: | :---- |
-| **GPU Acceleration** | Enables and disables GPU acceleration of the game. | <table><tbody><tr><td>**On**<td>Enables GPU acceleration of the game.<td></tr><tr><td>**Off**<td>The game uses CPU for rendering graphics.<td></tr></tbody></table> | On | GPU acceleration can cause crashes on some systems. |
-| **Graphics Style** | Determines if the game uses tile graphics or ASCII to draw the game. | <table><tbody><tr><td>**Tiles**<td>Shows the game in 2D tile graphics<td></tr><tr><td>**ASCII**<td>Shows the game in ASCII graphics, i.e. in text<td></tr></tbody></table> | Tiles | |
-| **Map FPS** | Determines the max refresh rate of the game. | Options range from 20 FPS to 80 FPS. | 60 FPS | This can be used to save battery or to make the game smoother. |
-| **Screen Scale** | Custom scale to make UI componenets larger or smaller than normal. | 50% – 500% | 100% | |
-| **Cursor Style** | Determines the way how the player character is identified in the game. | <table><tbody><tr><td>**Green Block**<td>Shows the cursor as a green block.<td></tr><tr><td>**Blinking Underline**<td>Shows the cursor as a blinking underline.<td></tr></tbody></table> | Green Block | _ASCII graphics only_ |
-| **Hide Navigation** | Determines whether to hide the operating system navigation buttons in the bottom of the screen. | <table><tbody><tr><td>**On**<td>Does not show the navigation bar in the bottom of the screen.<td></tr><tr><td>**Off**<td>Shows the navigation bar in the bottom of the screen.<td></tr></tbody></table> | On | _Android only_ |
-| **Hide Status Bar** | Determines if the top status bar of the operating system is hidden. | <table><tbody><tr><td>**On**<td>Does not show the status bar in the top of the screen.<td></tr><tr><td>**Off**<td>Shows the status bar in the top of the screen.<td></tr></tbody></table> | On | _iOS only_ |
-| **Show Battery** | Displays a battery icon in the status bar indicating the current battery level. | <table><tbody><tr><td>**On**<td>Shows the current battery level indicator.<td></tr><tr><td>**Off**<td>Does not show the current battery level indicator.<td></tr></tbody></table> | Off | |
-| **Show FPS** | Displays a frames-per-second icon in the status bar indicating the current refresh rate of the game. | <table><tbody><tr><td>**On**<td>Shows the FPS indicator.<td></tr><tr><td>**Off**<td>Does not show the FPS indicator.<td></tr></tbody></table> | Off | |
-| **Show Zoom** | Displays a zoom icon in the status bar indicating the current zoom level of the map. | <table><tbody><tr><td>**On**<td>Shows the zoom level.<td></tr><tr><td>**Off**<td>Does not show the zoom level.<td></tr></tbody></table> | Off | |
-| **Silent Mode** | Enables and disables the silent mode. | <table><tbody><tr><td>**On**<td>Game sounds and music are not played.<td></tr><tr><td>**Off**<td>The game plays game sounds and music.<td></tr></tbody></table> | Off | |
-| **Dark Mode** | Switches between **light mode** and **dark mode**. | <table><tbody><tr><td>**On**<td>**Dark mode:** Menu and text window backgrounds are black and texts are white.<td></tr><tr><td>**Off**<td>**Light mode:** Menu and text window backgrounds are beige and texts are black.<td></tr></tbody></table> | Off | |
-| **Tournament Mode** | Toggles several other settings to values required by tournaments like [[JunetHack]]. Also forces on [[Classic game mode\|Classic Mode]]. | <table><tbody><tr><td>**On**<td>Forces on tournament settings, regardless of their original values.<td></tr><tr><td>**Off**<td>Does not force on any settings.</td></tr></tbody></table> | Off | |
+### GPU Acceleration
+
+Enables and disables the GPU acceleration of the game. If disabled, the game uses CPU for rendering graphics.
+
+_Default: On_
+
+Note that GPU acceleration can cause crashes on some systems.
+
+### Graphics Style
+
+- **Tiles:** Shows the game in 2D tile graphics. _(Default)_
+- **ASCII:** Shows the game in ASCII graphics, i.e. in text.
+
+### Map FPS
+
+Determines the max refresh rate of the game. This can be used to save battery or to make the game smoother.
+
+Options range from 20 FPS to 80 FPS.
+
+_Default: 60_
+
+### Screen Scale
+
+Custom scale to make UI componenets larger or smaller than normal.
+
+_Default: 100%_
+
+### Cursor Style
+
+_ASCII graphics only_
+
+Determines the way how the player character is identified in the game.
+
+- **Green Block** _(Default)_
+- **Blinking Underline**
+
+### Hide Navigation
+
+_Android only_
+
+Determines whether to hide the operating system navigation buttons in the bottom of the screen. 
+
+_Default: On_
+
+### Hide Status Bar
+
+_iOS only_
+
+Determines if the top status bar of the operating system is hidden.
+
+_Default: On_
+
+### Show Battery
+
+Displays a battery icon in the status bar indicating the current battery level.
+
+_Default: Off_
+
+### Show FPS
+
+Displays a frames-per-second icon in the status bar indicating the current refresh rate of the game.
+
+_Default: Off_
+
+### Show Zoom
+
+Displays a zoom icon in the status bar indicating the current zoom level of the map.
+
+_Default: Off_
+
+### Silent Mode
+
+- **Off:** The game plays game sounds and music. _(Default)_
+- **On:** Game sounds and music are not played.
+
+### Dark Mode
+
+- **Off:** Light mode: Menu and text window backgrounds are beige and texts are black. _(Default)_
+- **On:** Dark mode: Menu and text window backgrounds are black and texts are white.
+
+### Tournament Mode
+
+Toggles several other settings to values required by tournaments like Junethack. Also forces on Classic game mode.
+
+_Default: Off_
 
 ## Adventuring Settings
 
