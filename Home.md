@@ -68,9 +68,10 @@ GnollHack is an open-source game, based on NetHack's source code. This means tha
 - **[[Gameplay Information]]** — Everything from items to monsters
 - **[[Desktop-Only Features]]** — Have a look at the features that appear only on the desktop versions of GnollHack
 
-## Settings
+## Game Configuration
 
-- **[[Game Configuration]]** — Everything about settings and options
+* **[[Settings]]** — GnollHack's modern ports have settings, which can be used to configure the game
+* **[[Options]]** — You can configure GnollHack via a NetHack-style Options file
 
 ## Online Sharing
 
