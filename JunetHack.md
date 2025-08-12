@@ -1,22 +1,22 @@
-![junethack](/uploads/JunetHack/junethack.webp)
+![Junethack](/uploads/Junethack/junethack.webp)
 
 ## Setup and Registration Instructions
 
-To participate in [JunetHack](https://junethack.net/) using the **modern ports of GnollHack**, you need to do the following:
+To participate in [Junethack](https://junethack.net/) using the **modern ports of GnollHack**, you need to do the following:
 
-### 1. JunetHack Website
+### 1. Junethack Website
 
-- Register a **JunetHack username** at https://junethack.net/register
+- Register a **Junethack username** at [https://junethack.net/register](https://junethack.net/register)
 
 ### 2. GnollHack Account Website
 
-- Register a **GnollHack account** at https://account.gnollhack.com/Identity/Account/Register
-- Enter **JunetHack username** to your profile at https://account.gnollhack.com/Identity/Account/Manage/JunetHack
+- Register a **GnollHack account** at [https://account.gnollhack.com/Identity/Account/Register](https://account.gnollhack.com/Identity/Account/Register)
+- Enter **Junethack username** to your profile at [https://account.gnollhack.com/Identity/Account/Manage/JunetHack](https://account.gnollhack.com/Identity/Account/Manage/JunetHack)
 
-### 3. JunetHack Website (Second Time)
+### 3. Junethack Website (Second Time)
 
-- Login to JunetHack at https://junethack.net/login
-- You should be redirected to your profile page at https://junethack.net/home
+- Login to Junethack at [https://junethack.net/login](https://junethack.net/login)
+- You should be redirected to your profile page at [https://junethack.net/home](https://junethack.net/home)
 
 #### Under Manage Your Accounts
 
@@ -51,4 +51,4 @@ Please use the latest version of the game. Otherwise, your games might not be co
 
 ### Remarks
 
-- You do **not** need to enter a comment line with your JunetHack username into your options file (`#junethack username`) but instead you register your JunetHack username in the GnollHack Account website as described in the step 2. 
+- You do **not** need to enter a comment line with your Junethack username into your options file (`#junethack username`) but instead you register your Junethack username in the GnollHack Account website as described in the step 2. 
