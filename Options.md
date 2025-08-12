@@ -28,7 +28,7 @@ The options file is in the same folder as the executable and is named `defaults.
 
 | Option | Description |
 | :----- | :---------- |
-| **autostatuslines** | Automatically adjust message lines and status lines in the curses interface. |
+| **autostatuslines** | Automatically adjust message lines and status lines in the curses interface |
 | **autounlock** | Automatically unlock a locked door or chest |
 | **baseacasbonus** | Display base armor class as a bonus rather than a number starting at 10 |
 | **blinking_cursor_on_tiles** | Display a blinking cursor when using tiles |
