@@ -34,42 +34,42 @@ Contrary to NetHack, you do not get score from:
 
 The score is calculated as follows:
 
-`Score = Base_Score * Ascension_Multiplier * Difficulty_Multiplier * Modern_Multiplier`
+$Score = BaseScore \times AscensionMultiplier \times DifficultyMultiplier \times ModernMultiplier$
 
 ### 2.1. Base Score
 
-`Base_Score = (Deepest_Dungeon_Level - 1) * 1000 + Achievements_Count * 50000 + Small_Achievements_Count * 5000 + Conduct_Score * 10000 + min(Role_Max_Score, Role_Achievement_Score + Role_Specific_Score)`
+$BaseScore = (DeepestDungeonLevel - 1) \times 1000 + AchievementsCount \times 50000 + SmallAchievementsCount \times 5000 + ConductScore \times 10000 + min(RoleMaxScore, RoleAchievementScore + RoleSpecificScore)$
 
-- `Deepest_Dungeon_Level` is the max dungeon depth the character has reached
-- `Achievements_Count` is the number of achievements
-- `Small_Achievements_Count` is the number of small achievements
-- `Conduct_Score` is the sum of conduct values *(see below)*
-- `Role_Max_Score` is `600000` *(worth 12 achievements)*
-- `Role_Achievement_Score` is the score gained from completing the role's optional quest
-- `Role_Specific_Score` is the score earned via a role-specific mechanic *(see below)*
+- $DeepestDungeonLevel$ is the max dungeon depth the character has reached
+- $AchievementsCount$ is the number of achievements
+- $SmallAchievementsCount$ is the number of small achievements
+- $ConductScore$ is the sum of conduct values *(see below)*
+- $RoleMaxScore$ is $600000$ *(worth 12 achievements)*
+- $RoleAchievementScore$ is the score gained from completing the role's optional quest
+- $RoleSpecificScore$ is the score earned via a role-specific mechanic *(see below)*
 
 ### 2.2. Ascension Multiplier
 
-`Ascension_Multiplier=`
-- **If ascension failed:** 1
-- **If ascension succeeded:** `4 * Turn_Count_Multiplier` *(capped at maximum of 16 and minimum of 2)*
+$AscensionMultiplier=$
+- **If ascension failed:** $1$
+- **If ascension succeeded:** $4 \times TurnCountMultiplier$ *(capped at maximum of 16 and minimum of 2)*
 
 #### 2.2.1. Turn Count Multiplier
 
-`Turn_Count_Multiplier = √(50000) / √(Turn_Count)`
+$TurnCountMultiplier = {50000\over\sqrt{TurnCount}}$
 
-- `Turn_Count` = The turn when you ascended.
+- $TurnCount$ = The turn when you ascended.
 
 Turn Count Multiplier is 1, if you ascended on turn 50000. It is capped at 4 and 0.5.
 
 - Minimum turn count multiplier is 0.5 at 200000 turns.
 - Maximum turn count multiplier is 4 at 3125 turns.
 
-This means that you do not lose score from ascensions slower than 200000 turns and you do not gain score from ascensions faster than 3125 turns.
+This means that you do not lose score from ascensions slower than 200000 turns, and you do not gain score from ascensions faster than 3125 turns.
 
 ### 2.3. Conduct Score
 
-`Conduct_Score=`
+$ConductScore=$
 - If you did not ascend: 0
 - If you ascended, the sum of the following values:
     - [[/Conducts/Foodless]]: 50
@@ -95,13 +95,13 @@ This means that you do not lose score from ascensions slower than 200000 turns a
 
 ### 2.4. Difficulty Multiplier
 
-`Difficulty_Multiplier = 10 ^ (1/4) ^ Difficulty_Level ^ 2`
+$DifficultyMultiplier = 10^{\frac14^{\text{DifficultyLevel}^2}}$
 
-or more consicely
+or more concisely
 
-`Difficulty_Multiplier = √(10) ^ Difficulty_Level`
+$DifficultyMultiplier = (\sqrt{10})^\text{DifficultyLevel}$
 
-- Difficulty_Level is:
+- $DifficultyLevel$ is:
     - Standard: -4
     - Experienced: -3
     - Adept: -2
@@ -110,26 +110,26 @@ or more consicely
     - Master: 1
     - Grand Master: 2
 
-Note that `10 ^ (1/4) = 1.7783`, which comes from the monster damage multiplier of `1.3` per difficulty level and the monster hit point multiplier of `1.7783 / 1.3 = 1.3679` per difficulty level. We have chosen to use this total multiplier to get nicely rounded scores for non-ascensions on Standard, Adept, Expert, and Grand Master difficulties.
+Note that $10^\frac14 = 1.7783$, which comes from the monster damage multiplier of $1.3$ per difficulty level and the monster hit point multiplier of ${1.7783\over1.3} = 1.3679$ per difficulty level. We have chosen to use this total multiplier to get nicely rounded scores for non-ascensions on Standard, Adept, Expert, and Grand Master difficulties.
 
-**Difficulty_Multiplier** is the following on different difficulties:
-- **Standard:** 0.01 *(=1/100)*
-- **Experienced:** 0.03162 *(=10^(-3/2))*
-- **Adept:** 0.1 *(=1/10)*
-- **Veteran:** 0.3162 *(=1/√(10))*
+$DifficultyMultiplier$ is the following on different difficulties:
+- **Standard:** 0.01 $(=1/100)$
+- **Experienced:** 0.03162 $(=10^{-{3\over2}})$
+- **Adept:** 0.1 $(=1/10)$
+- **Veteran:** 0.3162 $(={1\over{\sqrt{10}}})$
 - **Expert:** 1.0
-- **Master:** 3.162 *(=√(10))*
+- **Master:** 3.162 $(=\sqrt{10})$
 - **Grand Master:** 10.0
 
 ### 2.5 Modern Mode Multiplier
 
-Until 2 deaths, **Modern_Multiplier** penalizes each character death by dividing the score by 3. Beyond 2 deaths, it becomes linear so that 3rd death divides the score further by 2, and 4th by 3 (instead of 2), 5th by 4 (instead of 3), and so on.
+Until 2 deaths, $ModernMultiplier$ penalizes each character death by dividing the score by 3. Beyond 2 deaths, it becomes linear so that 3rd death divides the score further by 2, and 4th by 3 (instead of 2), 5th by 4 (instead of 3), and so on.
 
-`Modern_Multiplier =`
-- **If Number_of_Deaths ≤ 2:** `1 / (3 ^ (1 + Number_of_Deaths))`
-- **Else:** `1 / ((Number_of_Deaths - 1) * (3 ^ 3))`
+$ModernMultiplier =$
+- **If Number_of_Deaths ≤ 2:** ${1\over{3^{(1 + NumberOfDeaths)}}}$
+- **Else:** ${1\over{(NumberOfDeaths - 1) \times 3^3}}$
 
-Only true deaths count here, so that life being saved by [[/Items/Amulet of Life Saving]] does not impact the score. The multiplier starts at 1/3 at 0 deaths, which is the scoring difference between classic and modern modes if the character survives without being killed.
+Only true deaths count here, so that life being saved by [[/Items/Amulet of Life Saving]] does not impact the score. The multiplier starts at $\frac13$ at 0 deaths, which is the scoring difference between classic and modern modes if the character survives without being killed.
 
 ### 2.6 Role-Specific Scores
 
@@ -155,7 +155,7 @@ Caveman's role achievement is to attain the level of Grand Master in Bludgeoning
 
 Healer gains score for each new spell learnt in unrestricted schools as follows:
 
-`Healer_Spell_Score = For each new spell in unrestricted schools, 2000 * (Spell_Level + 2)`
+$HealerSpellScore =$ For each new spell in unrestricted schools, $2000 \times (SpellLevel + 2)$
 
 Healer's role achievement is to successfully cast a healing or abjuration spell of level 9 or higher (50000 points).
 
@@ -163,11 +163,11 @@ Healer's role achievement is to successfully cast a healing or abjuration spell 
 
 A lawful Knight gains score for each slain demon, devil, or chaotic dragon, including imps, as follows:
 
-```
-Knight_Slaying_Score = For each slain demon, devil, or chaotic dragon:
-  If Unique: 200 * (Monster_Difficulty_Level + 1)
-  Else: 50 * (Monster_Difficulty_Level + 1)
-```
+$KnightSlayingScore =$
+- For each slain demon, devil, or chaotic dragon:
+    - If Unique: $200 \times (MonsterDifficultyLevel + 1)$
+    - Else: $50 \times (MonsterDifficultyLevel + 1)$
+
 
 A chaotic Knight gains score for each slain angel and lawful dragon in the same way. A neutral Knight gains extra score from slaying undead creatures.
 
@@ -183,7 +183,7 @@ Monk's role achievement is to attain the level of Grand Master in Martial Arts (
 
 Priest gains score for each new spell learnt in unrestricted schools as follows:
 
-`Priest_Spell_Score = For each new spell in unrestricted schools, 1500 * (Spell_Level + 2)`
+$PriestSpellScore =$ For each new spell in unrestricted schools, $1500 \times (SpellLevel + 2)$
 
 Priest's role achievement is to successfully cast a spell of level 10 or higher (50000 points).
 
@@ -209,13 +209,13 @@ Samurai's role achievement is to find both Katana of Masamune and the Kusanagi (
 
 Tourist gains score from taking selfies (with his/her camera) together with different monster types as follows:
 
-`Tourist_Selfie_Score = For each monster type, 100 * (Monster_Difficulty_Level + 1)`
+$TouristSelfieScore =$ For each monster type, $100 \times (MonsterDifficultyLevel + 1)$
 
 Tourist's role achievement is to take a selfie with Demogorgon (50000 points).
 
 #### 2.6.12 Valkyrie Item Score
 
-Valkyrie gains 60000 points for each  celestial / primordial / infernal item (based on the Valkyrie's alignment) carried in the inventory or in bags, or deposited in a sandalwood chest, except for ammo for which 1000 points are gained.
+Valkyrie gains 60000 points for each celestial / primordial / infernal item (based on the Valkyrie's alignment) carried in the inventory or in bags, or deposited in a sandalwood chest, except for ammo for which 1000 points are gained.
 
 Valkyrie's role achievement is to attain the level of Grand Master in Dual Wielding (40000 points).
 
@@ -223,6 +223,6 @@ Valkyrie's role achievement is to attain the level of Grand Master in Dual Wield
 
 Wizard gains score for each new spell learnt in unrestricted schools as follows:
 
-`Wizard_Spell_Score = For each new spell in unrestricted schools, 1000 * (Spell_Level + 2)`
+$WizardSpellScore =$ For each new spell in unrestricted schools, $1000 \times (SpellLevel + 2)$
 
 Wizard's role achievement is to successfully cast a spell of level 10 or higher (50000 points).
