@@ -4,7 +4,13 @@
 
 ![visual-studio-code-128](/uploads/Editing%20Wiki%20with%20Visual%20Studio%20Code/visual-studio-code-128.webp)
 
-- [Download Visual Studio Code](https://code.visualstudio.com/)
+#### Download
+
+- [Visual Studio Code](https://code.visualstudio.com/)
+
+#### Description
+
+Visual Studio Code is a light-weight but powerful code editor from Microsoft.
 
 ### Install Visual Studio Code Extensions
 
