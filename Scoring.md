@@ -38,7 +38,15 @@ $Score = BaseScore \times AscensionMultiplier \times DifficultyMultiplier \times
 
 ### 2.1. Base Score
 
-$BaseScore = (DeepestDungeonLevel - 1) \times 1000 + AchievementsCount \times 50000 + SmallAchievementsCount \times 5000 + ConductScore \times 10000 + min(RoleMaxScore, RoleAchievementScore + RoleSpecificScore)$
+$$
+\begin{aligned}
+BaseScore & = (DeepestDungeonLevel - 1) \times 1000\\
+& + AchievementsCount \times 50000\\
+& + SmallAchievementsCount \times 5000\\
+& + ConductScore \times 10000\\
+& + min(RoleMaxScore, RoleAchievementScore + RoleSpecificScore)  
+\end{aligned}
+$$
 
 - $DeepestDungeonLevel$ is the max dungeon depth the character has reached
 - $AchievementsCount$ is the number of achievements
