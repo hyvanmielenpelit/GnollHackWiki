@@ -222,7 +222,7 @@ It links to [[/Items/Potion of healing.md]].
 
 ### Case-Insensitive File Names
 
-Note that file names are **case-insensitive**. Once you have committed a file into the wiki repository, you can't change its casing, which means you can't change the casing of the page title. In the case you have wrongly cased a file name, we recommend that you use an H1 heading to specify the right casing for the page title.
+File names in the wiki Git repository are **case-insensitive**. Once you have committed a file into the wiki repository, you can't change its casing, which means you can't change the casing of the page title. In the case you have wrongly cased a file name, we recommend that you use an H1 heading to specify the right casing for the page title.
 
 ### Global Tag Lookup Disabled
 
