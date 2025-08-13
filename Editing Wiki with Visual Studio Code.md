@@ -1,14 +1,16 @@
 ## Visual Studio Code Installation
 
-![visual-studio-code-128](/uploads/Editing%20Wiki%20with%20Visual%20Studio%20Code/visual-studio-code-128.webp)
-
 ### Install Visual Studio Code
+
+![visual-studio-code-128](/uploads/Editing%20Wiki%20with%20Visual%20Studio%20Code/visual-studio-code-128.webp)
 
 - [Download Visual Studio Code](https://code.visualstudio.com/)
 
 ### Install Visual Studio Code Extensions
 
 #### 1. Foam for Gollum
+
+![foam-for-gollum-128](/uploads/Editing%20Wiki%20with%20Visual%20Studio%20Code/foam-for-gollum-128.webp)
 
 ##### Download
 
@@ -22,6 +24,8 @@
 
 #### 2. Markdown All in One
 
+![markdown-all-in-one-v2](/uploads/Editing%20Wiki%20with%20Visual%20Studio%20Code/markdown-all-in-one-v2.webp)
+
 ##### Download
 
 - [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
@@ -33,6 +37,8 @@
 - And many more...
 
 #### 3. LTeX+
+
+![ltex-plus-v2](/uploads/Editing%20Wiki%20with%20Visual%20Studio%20Code/ltex-plus-v2.webp)
 
 ##### Download
 
