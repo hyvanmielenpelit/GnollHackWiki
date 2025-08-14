@@ -103,7 +103,7 @@ $ConductScore=$
 
 ### 2.4. Difficulty Multiplier
 
-$DifficultyMultiplier = 10^{\frac14^{\text{DifficultyLevel}^2}}$
+$DifficultyMultiplier = ((10^\frac14)^\text{DifficultyLevel})^2$
 
 or more concisely
 
