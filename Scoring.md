@@ -121,13 +121,16 @@ $DifficultyMultiplier = (\sqrt{10})^\text{DifficultyLevel}$
 Note that $10^\frac14 = 1.7783$, which comes from the monster damage multiplier of $1.3$ per difficulty level and the monster hit point multiplier of ${1.7783\over1.3} = 1.3679$ per difficulty level. We have chosen to use this total multiplier to get nicely rounded scores for non-ascensions on Standard, Adept, Expert, and Grand Master difficulties.
 
 $DifficultyMultiplier$ is the following on different difficulties:
-- **Standard:** 0.01 $(=1/100)$
-- **Experienced:** 0.03162 $(=10^{-{3\over2}})$
-- **Adept:** 0.1 $(=1/10)$
-- **Veteran:** 0.3162 $(={1\over{\sqrt{10}}})$
-- **Expert:** 1.0
-- **Master:** 3.162 $(=\sqrt{10})$
-- **Grand Master:** 10.0
+
+| Difficulty | Difficulty<br />Multiplier | Formula |
+| :--------- | :------------------------- | :------ |
+| **Standard** | 0.01 | $10^{-2} = {1\over100}$ |
+| **Experienced** | 0.03162 | $10^{-{3\over2}}$ |
+| **Adept** | 0.1 | $10^{-1} = {1\over10}$ |
+| **Veteran** | 0.3162 | $10^{-\frac12} = {1\over{\sqrt{10}}}$ |
+| **Expert** | 1.0 | $10^0$ |
+| **Master** | 3.162 | $10^\frac12 = \sqrt{10}$ |
+| **Grand Master** | 10.0 | $10^1$ |
 
 ### 2.5 Modern Mode Multiplier
 
