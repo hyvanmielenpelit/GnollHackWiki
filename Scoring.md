@@ -103,20 +103,23 @@ $ConductScore=$
 
 ### 2.4. Difficulty Multiplier
 
-$DifficultyMultiplier = ((10^\frac14)^\text{DifficultyLevel})^2$
+$DifficultyMultiplier = ((10^\frac14)^{DifficultyLevel})^2$
 
 or more concisely
 
-$DifficultyMultiplier = (\sqrt{10})^\text{DifficultyLevel}$
+$DifficultyMultiplier = (\sqrt{10})^{DifficultyLevel}$
 
-- $DifficultyLevel$ is:
-    - Standard: -4
-    - Experienced: -3
-    - Adept: -2
-    - Veteran: -1
-    - Expert: 0
-    - Master: 1
-    - Grand Master: 2
+$DifficultyLevel$ is:
+
+| Difficulty | Difficulty<br />Level<br />Value |
+| :--------- | :------------------------------: |
+| **Standard** | -4 |
+| **Experienced** | -3 |
+| **Adept** | -2 |
+| **Veteran** | -1 |
+| **Expert** | 0 |
+| **Master** | 1 |
+| **Grand Master** | 2 |
 
 Note that $10^\frac14 = 1.7783$, which comes from the monster damage multiplier of $1.3$ per difficulty level and the monster hit point multiplier of ${1.7783\over1.3} = 1.3679$ per difficulty level. We have chosen to use this total multiplier to get nicely rounded scores for non-ascensions on Standard, Adept, Expert, and Grand Master difficulties.
 
