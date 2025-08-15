@@ -141,7 +141,7 @@ $DifficultyMultiplier$ is the following on different difficulties:
 | **Master** | 3.162 | $10^\frac12 = \sqrt{10}$ |
 | **Grand Master** | 10.0 | $10^1$ |
 
-### 2.5 Modern Mode Multiplier
+### 2.5. Modern Mode Multiplier
 
 Until 2 deaths, $ModernMultiplier$ penalizes each character death by dividing the score by 3. Beyond 2 deaths, it becomes linear so that 3rd death divides the score further by 2, and 4th by 3 (instead of 2), 5th by 4 (instead of 3), and so on.
 
@@ -151,27 +151,27 @@ $ModernMultiplier =$
 
 Only true deaths count here, so that life being saved by [[/Items/Amulet of Life Saving]] does not impact the score. The multiplier starts at $\frac13$ at 0 deaths, which is the scoring difference between classic and modern modes if the character survives without being killed.
 
-### 2.6 Role-Specific Scores
+### 2.6. Role-Specific Scores
 
-#### 2.6.1 Archaeologist Artifact Score
+#### 2.6.1. Archaeologist Artifact Score
 
 Archaeologist gains 30000 points for each artifact, 15000 points for each historic statue, and 10 times the gold piece value of each art object, which are carried in the inventory or in bags, or deposited in a sandalwood chest.
 
 Archaeologist's role achievement is to find and defeat Amonket, Ruler of Greater Mummies (60000 points).
 
-#### 2.6.2 Barbarian Melee Weapon Score
+#### 2.6.2. Barbarian Melee Weapon Score
 
 Barbarian gains 30000 points for each melee weapon of artifact or legendary quality carried in the inventory or in bags, or deposited in a sandalwood chest.
 
 Barbarian's role achievement is to find Stormbringer and Mournblade if chaotic, and Vorpal Blade and Cleaver otherwise (60000 points).
 
-#### 2.6.3 Caveman Amulet Score
+#### 2.6.3. Caveman Amulet Score
 
 Caveman gains 70000 points for each [[/Items/Amulet of Life Saving]] and 15000 points for each non-prediscovered amulet carried in the inventory or in bags, or deposited in a sandalwood chest. Prediscovered amulets are Amulet of Life Saving and the amulet the caveman starts with.
 
 Caveman's role achievement is to attain the level of Grand Master in Bludgeoning Weapons (40000 points).
 
-#### 2.6.4 Healer Spell Score
+#### 2.6.4. Healer Spell Score
 
 Healer gains score for each new spell learnt in unrestricted schools as follows:
 
@@ -179,7 +179,7 @@ $HealerSpellScore =$ For each new spell in unrestricted schools, $2000 \times (S
 
 Healer's role achievement is to successfully cast a healing or abjuration spell of level 9 or higher (50000 points).
 
-#### 2.6.5 Knight Slaying Score
+#### 2.6.5. Knight Slaying Score
 
 A lawful Knight gains score for each slain demon, devil, or chaotic dragon, including imps, as follows:
 
@@ -193,13 +193,13 @@ A chaotic Knight gains score for each slain angel and lawful dragon in the same 
 
 Knight's role achievement is to find and defeat Asmodeus, Ruler of Nine Hells (50000 points).
 
-#### 2.6.6 Monk Extra Conduct Score
+#### 2.6.6. Monk Extra Conduct Score
 
 Monk gains 50% extra score from all conducts.
 
 Monk's role achievement is to attain the level of Grand Master in Martial Arts (60000 points).
 
-#### 2.6.7 Priest Spell Score
+#### 2.6.7. Priest Spell Score
 
 Priest gains score for each new spell learnt in unrestricted schools as follows:
 
@@ -207,25 +207,25 @@ $PriestSpellScore =$ For each new spell in unrestricted schools, $1500 \times (S
 
 Priest's role achievement is to successfully cast a spell of level 10 or higher (50000 points).
 
-#### 2.6.8 Ranger Ranged Weapon Score
+#### 2.6.8. Ranger Ranged Weapon Score
 
 Ranger gains 40000 points for each ranged weapon of at least artifact, elite, or mythic quality carried in the inventory or in bags, or deposited in a sandalwood chest, and 2000 for each such ammo.
 
 Ranger's role achievement is to attain the level of Grand Master in Bow or Crossbow (40000 points).
 
-#### 2.6.9 Rogue Loot Score
+#### 2.6.9. Rogue Loot Score
 
 Rogue gains score equal to the gold piece value of all gold, gems, and art objects carried in the inventory or in bags, or deposited in a sandalwood chest.
 
 Rogue's role achievement is find and defeat Croesus (50000 points).
 
-#### 2.6.10 Samurai Item Score
+#### 2.6.10. Samurai Item Score
 
 Samurai gains 50000 points for each Japanese item of at least artifact, exceptional, or mythic quality carried in the inventory or in bags, or deposited in a sandalwood chest, except for ammo for which 1500 points are gained.
 
 Samurai's role achievement is to find both Katana of Masamune and the Kusanagi (100000 points).
 
-#### 2.6.11 Tourist Selfie Score
+#### 2.6.11. Tourist Selfie Score
 
 Tourist gains score from taking selfies (with his/her camera) together with different monster types as follows:
 
@@ -233,13 +233,13 @@ $TouristSelfieScore =$ For each monster type, $100 \times (MonsterDifficultyLeve
 
 Tourist's role achievement is to take a selfie with Demogorgon (50000 points).
 
-#### 2.6.12 Valkyrie Item Score
+#### 2.6.12. Valkyrie Item Score
 
 Valkyrie gains 60000 points for each celestial / primordial / infernal item (based on the Valkyrie's alignment) carried in the inventory or in bags, or deposited in a sandalwood chest, except for ammo for which 1000 points are gained.
 
 Valkyrie's role achievement is to attain the level of Grand Master in Dual Wielding (40000 points).
 
-#### 2.6.13 Wizard Spell Score
+#### 2.6.13. Wizard Spell Score
 
 Wizard gains score for each new spell learnt in unrestricted schools as follows:
 
