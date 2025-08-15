@@ -44,7 +44,7 @@ BaseScore & = (DeepestDungeonLevel - 1) \times 1000\\
 & + AchievementsCount \times 50000\\
 & + SmallAchievementsCount \times 5000\\
 & + ConductScore \times 10000\\
-& + min(RoleMaxScore, RoleAchievementScore + RoleSpecificScore)  
+& + RoleScore
 \end{aligned}
 $$
 
@@ -52,9 +52,10 @@ $$
 - $AchievementsCount$ is the number of achievements
 - $SmallAchievementsCount$ is the number of small achievements
 - $ConductScore$ is the sum of conduct values *(see below)*
-- $RoleMaxScore$ is $600000$ *(worth 12 achievements)*
-- $RoleAchievementScore$ is the score gained from completing the role's optional quest
-- $RoleSpecificScore$ is the score earned via a role-specific mechanic *(see below)*
+- $RoleScore = min(RoleMaxScore, RoleAchievementScore + RoleSpecificScore)$
+    - $RoleMaxScore$ is $600000$ *(worth 12 achievements)*
+    - $RoleAchievementScore$ is the score gained from completing the role's optional quest
+    - $RoleSpecificScore$ is the score earned via a role-specific mechanic *(see below)*
 
 ### 2.2. Ascension Multiplier
 
