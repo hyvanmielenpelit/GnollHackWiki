@@ -51,14 +51,14 @@ $$
 - $MaxDungeonLevel$ is the maximum dungeon depth the character has reached
 - $AchievementCount$ is the number of achievements
 - $SmallAchievementCount$ is the number of small achievements
-- $ConductScore$ is the sum of conduct values *([[see below|#23-conduct-score]])*
+- $ConductScore$ is the sum of conduct values *([[see below|#2-3-conduct-score]])*
 
 #### 2.1.1. Role Score
 
 $RoleScore = RoleAchievementScore + RoleSpecificScore$
 
 - $RoleAchievementScore$ is the score gained from completing the role's optional quest
-- $RoleSpecificScore$ is the score earned via a role-specific mechanic *([[see below|#26-role-specific-scores]])*
+- $RoleSpecificScore$ is the score earned via a role-specific mechanic *([[see below|#2-6-role-specific-scores]])*
 
 $RoleScore$ is capped at 600000 *(worth 12 achievements)*.
 
