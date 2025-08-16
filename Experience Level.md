@@ -74,6 +74,14 @@ You gain **experience points** from killing monsters. More difficult monsters gi
 
 ## Experience Points Gained From Killing Monster By Monster Difficulty
 
+### Formula
+
+$ExperiencePoints = 1 + MonsterDifficultyLevel^2$
+
+Then, some rounding is applied to the result.
+
+### Table
+
 | Monster<br />Difficulty<br />Level | Experience<br />Points |
 | :--------------------------------: | :--------------------: |
 | 0 | 1 |
