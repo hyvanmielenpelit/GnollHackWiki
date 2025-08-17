@@ -7,7 +7,8 @@
 
 ## Wiki Credits
 
-* Artwork in the wiki by [Image Creator from Microsoft Designer](https://www.bing.com/images/create), edited by Tommi Gustafsson
-    * We are committed to using AI generated images only for content that would not otherwise be done at all
-    * We do not replace work of real artists with AI generated content
-* T-shirt graphics in the [[/Roles/Tourist]] page illustration by Dinosaur Nerd.  
+### Artwork
+
+* Illustrative artwork in the wiki is created with [Bing Image Creator](https://www.bing.com/images/create), prompted and edited by **Tommi Gustafsson**.
+    - Please see our [[AI Usage Policy]].
+* T-shirt graphics in the [[/Roles/Tourist]] page illustration by **Dinosaur Nerd**. 
