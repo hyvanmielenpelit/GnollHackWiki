@@ -14,7 +14,7 @@
 
 ## Integrated GPU Used by Default
 
-- Be default, GnollHack uses the integrated GPU to render its graphics.
+- By default, GnollHack uses the integrated GPU to render its graphics.
 - You can activate the dedicated GPU in Windows' Settings → System → Display → Graphics. Please see [[Selecting GPU for Modern Windows Port (MSIX)]] how to do it.
 
 ## Recommended Graphics Settings
