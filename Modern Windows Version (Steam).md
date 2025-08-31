@@ -43,7 +43,33 @@ In the case of multiple GPUs, in **System → Display → Graphics**, please add
 
 ### Problem: Loading Doesn't Finish
 
-For some people, the loading doesn't finish after they click the Play Game button. If you encounter this problem, you need to install the game using an MSIX package. For some reason, your system is incompatible with the _unpackaged_ Steam version.
+For some people, the loading doesn't finish after they click the Play Game button. They are stuck on "Done Loading" phase.
+
+#### Solution 1: Change Current System Locale for Non-Unicode Programs to English (United States)
+
+If you have a non-English Windows, you can try to change **Control Panel → Region → Administrative → Change system locale** to **English (United States)**.
+
+Here are step-by-step instructions how to do it:
+
+1. Open **Control Panel**.
+2. Click **Clock and Region**.<br />
+    ![change-locale-1](/uploads/Modern%20Windows%20Version%20(Steam)/change-locale-1.webp)
+
+3. Click **Region**.<br />
+    ![change-locale-2](/uploads/Modern%20Windows%20Version%20(Steam)/change-locale-2.webp)
+
+4. Select the **Administrative** tab and click **Change system locale**.<br />
+    ![change-locale-3](/uploads/Modern%20Windows%20Version%20(Steam)/change-locale-3.webp)
+
+5. Select **English (United States)** as current system locale.<br />
+    ![change-locale-4](/uploads/Modern%20Windows%20Version%20(Steam)/change-locale-4.webp)
+
+6. Click OK to accept everything.
+
+#### Solution 2: Install Game from MSIX Package
+
+You can install the game using an MSIX package. For some reason, your system is incompatible with the _unpackaged_ Steam version.
+
 - For more information, please see [[Modern Windows Version (MSIX)]].
 
 ## More Information
@@ -52,4 +78,4 @@ For some people, the loading doesn't finish after they click the Play Game butto
 - [[CPU and GPU Usage Modes in Modern Windows Port|CPU and GPU Usage Modes in Modern Windows Port (.NET MAUI ∕ WinUI 3)]]
 - [[Known Issues in Modern Windows Port|Known Issues in Modern Windows Port (.NET MAUI ∕ WinUI 3)]]
 - [[How Modern Windows Version Differs from Legacy Windows Version]]
-- [[Hotkey Support in Modern Windows Port]] 
+- [[Hotkey Support in Modern Windows Port]]
