@@ -53,9 +53,10 @@ Most typical special materials give the following effects:
     - Damage to large creatures: +1 to die size
 - Silver:
     - Special material against demons etc. (1d20 silver damage)
-- Crystal:
-    - Damage to small creatures: +3 to die size
-    - Damage to large creatures: +2 to die size
+- Hard crystal:
+    - Damage to small creatures: +1 to damage and +1 to die size
+    - Damage to large creatures: +1 to damage and +1 to die size
+    - 4/3 added enchantability
     - +5 digging effort
 - Gemstone:
     - Damage to small creatures: +2 to damage and +2 to die size
@@ -63,13 +64,13 @@ Most typical special materials give the following effects:
     - 4/3 added enchantability
     - +10 digging effort
 - Mithril: 
-    - Damage to small creatures: +3 to die size
-    - Damage to large creatures: +3 to die size
+    - Damage to small creatures: +2 to die size
+    - Damage to large creatures: +2 to die size
     - Half normal weight
     - 4/3 added enchantability
     - +15 digging effort
 - Adamantium: 
-    - Damage to small creatures: +6 to die size
-    - Damage to large creatures: +6 to die size
+    - Damage to small creatures: +1 to damage and +3 to die size
+    - Damage to large creatures: +1 to damage and +3 to die size
     - 5/4 added enchantability
     - +20 digging effort
