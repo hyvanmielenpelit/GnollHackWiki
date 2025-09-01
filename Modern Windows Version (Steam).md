@@ -43,7 +43,7 @@ In the case of multiple GPUs, in **System → Display → Graphics**, please add
 
 ### Problem: Loading Doesn't Finish
 
-For some people, the loading doesn't finish after they click the Play Game button. They are stuck on "Done Loading" phase.
+For some people, the loading doesn't finish after they click the Play Game button. They are stuck in "Done Loading" phase.
 
 #### Solution 1: Change Current System Locale for Non-Unicode Programs to English (United States)
 
