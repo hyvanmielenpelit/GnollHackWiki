@@ -37,7 +37,7 @@ You can't disable auto-update in Steam, but if your saved games become invalid, 
 
 In the case of multiple GPUs, in **System → Display → Graphics**, please add:
 
-- **Desktop App (`C:\Program Files (x86)\Steam\steamapps\common\GnollHack\GnollHackM.exe`) → GPU Preference:** High Performance — Used the dedicated GPU.
+- **Desktop App (`C:\Program Files (x86)\Steam\steamapps\common\GnollHack\GnollHackM.exe`) → GPU Preference:** **High Performance** — Uses the dedicated GPU.
 
 ## Troubleshooting
 
