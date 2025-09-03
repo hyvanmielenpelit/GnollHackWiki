@@ -58,13 +58,11 @@ Here are step-by-step instructions how to do it:
 3. Click **Region**.<br />
     ![change-locale-2](/uploads/Modern%20Windows%20Version%20(Steam)/change-locale-2.webp)
 
-4. Select the **Administrative** tab and click **Change system locale**.<br />
+4. Select the **Administrative** tab and, in the **Language for non-Unicode programs** section, click **Change system locale**.<br />
     ![change-locale-3](/uploads/Modern%20Windows%20Version%20(Steam)/change-locale-3.webp)
 
-5. Select **English (United States)** as current system locale.<br />
+5. Select **English (United States)** as the current system locale. Then, click OK.<br />
     ![change-locale-4](/uploads/Modern%20Windows%20Version%20(Steam)/change-locale-4.webp)
-
-6. Click OK to accept everything.
 
 #### Solution 2: Install Game from MSIX Package
 
