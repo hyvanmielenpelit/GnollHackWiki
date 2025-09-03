@@ -26,5 +26,5 @@
 
 ### Contact
 
-* [[Community]]
+* [[Communities]]
 * [[Contact Information]]

@@ -102,7 +102,7 @@ GnollHack is an open-source game, based on NetHack's source code. This means tha
 
 ## Contact Us
 
-- **[[Community]]** — GnollHack Discord server
+- **[[Communities]]** — Communities related to GnollHack
 - **[[Contact Information]]**
 
 ## Legal Information
