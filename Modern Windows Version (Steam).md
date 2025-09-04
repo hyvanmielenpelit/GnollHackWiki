@@ -41,11 +41,11 @@ In the case of multiple GPUs, in **System → Display → Graphics**, please add
 
 ## Troubleshooting
 
-### Problem: Loading Doesn't Finish
+### ⚠️ Problem: Loading Doesn't Finish
 
 For some people, the loading doesn't finish after they click the Play Game button. They are stuck in "Done Loading" phase.
 
-#### Solution 1: Change Current System Locale for Non-Unicode Programs to English (United States)
+#### ✅ Solution 1: Change Current System Locale for Non-Unicode Programs to English (United States)
 
 If you have a non-English Windows, you can try to change **Control Panel → Region → Administrative → Change system locale** to **English (United States)**.
 
@@ -64,7 +64,7 @@ Here are step-by-step instructions how to do it:
 5. Select **English (United States)** as the current system locale. Then, click OK.<br />
     ![change-locale-4](/uploads/Modern%20Windows%20Version%20(Steam)/change-locale-4.webp)
 
-#### Solution 2: Install Game from MSIX Package
+#### ✅ Solution 2: Install Game from MSIX Package
 
 You can install the game using an MSIX package. For some reason, your system is incompatible with the _unpackaged_ Steam version.
 
