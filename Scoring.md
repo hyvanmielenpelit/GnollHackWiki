@@ -70,7 +70,7 @@ $AscensionMultiplier=$
 
 #### 2.2.1. Turn Count Multiplier
 
-$TurnCountMultiplier = {50000\over\sqrt{TurnCount}}$
+$TurnCountMultiplier = \sqrt{50000\over{TurnCount}}$
 
 - $TurnCount$ = The turn when you ascended.
 
