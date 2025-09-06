@@ -1,4 +1,4 @@
-![Community](/uploads/Community/community.webp)
+![Community](/uploads/Communities/community.webp)
 
 ## GnollHack Communities
 
