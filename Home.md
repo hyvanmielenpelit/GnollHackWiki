@@ -24,9 +24,9 @@ GnollHack is also a true [NetHack](https://en.wikipedia.org/wiki/NetHack) varian
 - Difficulty levels
 - In-game item and monster information
 - In-game hints and quest and gameplay guidance
-- Removal of unnecessary instant death situations
-- Large number of new late game monsters
-- Interesting late game items
+- Removal of unnecessary instant-death situations
+- Large number of new late-game monsters
+- Interesting late-game items
 
 ### NetHack Remaster
 
