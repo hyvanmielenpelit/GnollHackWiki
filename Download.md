@@ -22,14 +22,22 @@ You can play the iOS version on Macs with M1 or later processor.
 
 ℹ️ [[More Information on Modern Windows Version (Steam) | Modern Windows Version (Steam)]]
 
-### MSIX Package in GitHub Releases
+### GitHub Releases
 
 <a href="https://github.com/hyvanmielenpelit/GnollHack/releases">![Get release on GitHub](/uploads/Download/github-q90.webp)</a>
+
+#### MSIX Package
 
 - **Download the MSIX file.**
 - Install the game using these instructions: [[Installing MSIX Packages on Windows 10 and 11]]
 
 ℹ️ [[More Information on Modern Windows Version (MSIX) | Modern Windows Version (MSIX)]]
+
+#### ZIP File
+
+- **Download the ZIP file starting with Hyvnmielenpelit.**
+
+ℹ️ [[More Information on Modern Windows Version (ZIP) | Modern Windows Version (ZIP)]]
 
 ## Legacy Windows
 
@@ -37,7 +45,7 @@ You can play the iOS version on Macs with M1 or later processor.
 
 <a href="https://github.com/hyvanmielenpelit/GnollHack/releases">![Get release on GitHub](/uploads/Download/github-q90.webp)</a>
 
-- **Download the ZIP file.**
+- **Download the ZIP file starting with GnollHack.**
 
 ℹ️ [[More Information on Legacy Windows Version|Legacy Windows Version]]
 
