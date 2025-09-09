@@ -9,35 +9,10 @@ You can't disable auto-update in Steam, but if your saved games become invalid, 
 2. Go to the Betas tab.
 3. Select a compatible version of GnollHack there.
 
-## Integrated GPU Used by Default
-
-- By default, GnollHack uses the integrated GPU to render its graphics.
-- You can activate the dedicated GPU in **Windows' Settings → System → Display → Graphics**. Please see [[Selecting GPU for Modern Windows Port (Steam)]] how to do it.
-
 ## Steam Platform Features
 
 - **Save File Synchronization** — Sync your saved games across multiple PCs.
 - **Revert to Old Version** — You can revert to an old version using the Betas tab in the GnollHack properties in Steam *(see above)*.
-
-## Recommended Graphics Settings
-
-### GnollHack Settings
-
-- **GPU Acceleration:** On
-- **Map FPS:** 60
-- **Screen Resolution:** Recommended (Default) — _Maximum Resolution @ Maximum Refresh Rate_
-- **Screen Scale:** Default
-- **Platform Render Loop:** On
-
-#### Notes
-
-- Screen resolution and refresh rate can only be adjusted in the full-screen mode.
-
-### Windows Settings
-
-In the case of multiple GPUs, in **System → Display → Graphics**, please add:
-
-- **Desktop App (`C:\Program Files (x86)\Steam\steamapps\common\GnollHack\GnollHackM.exe`) → GPU Preference:** **High Performance** — Uses the dedicated GPU.
 
 ## Troubleshooting
 
@@ -70,10 +45,8 @@ You can install the game using an MSIX package. For some reason, your system is 
 
 - For more information, please see [[Modern Windows Version (MSIX)]].
 
-## More Information
+#### ✅ Solution 3: Copy Working Files from ZIP File
 
-- [[System Requirements for Modern Windows Port|System Requirements for Modern Windows Port (.NET MAUI ∕ WinUI 3)]]
-- [[CPU and GPU Usage Modes in Modern Windows Port|CPU and GPU Usage Modes in Modern Windows Port (.NET MAUI ∕ WinUI 3)]]
-- [[Known Issues in Modern Windows Port|Known Issues in Modern Windows Port (.NET MAUI ∕ WinUI 3)]]
-- [[How Modern Windows Version Differs from Legacy Windows Version]]
-- [[Hotkey Support in Modern Windows Port]]
+If Solutions 1 and 2 don't work for you, we have provided a ZIP file in GitHub releases that you may also try.
+
+- For more information, please see [[Modern Windows Version (ZIP)]].
