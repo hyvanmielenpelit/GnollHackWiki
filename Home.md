@@ -36,7 +36,7 @@ GnollHack can also be viewed as a NetHack remaster, adding the following modern 
 - Animations
 - Sounds
 - Music
-- Voice overs
+- Voiceovers
 - Cross-platform support: Android, iOS, macOS, and Windows
     - macOS can run the iOS version *(Macs with an M1 or later processor)*
 - Mobile touch-based UI on Android and iOS
@@ -68,7 +68,7 @@ GnollHack is developed by [Sound Mind Games](https://soundmindgames.org), a nonp
 ![Dungeons of Doom](/uploads/Home/dungeons-of-doom-q90.webp)
 
 - **[[Gameplay Information]]** — Everything from items to monsters
-- **[[Desktop-Only Features]]** — Have a look at the features that appear only on the desktop versions of GnollHack
+- **[[Desktop-Only Features]]** — Take a look at the features that appear only on the desktop versions of GnollHack
 
 ## Game Configuration
 
@@ -78,7 +78,7 @@ GnollHack is developed by [Sound Mind Games](https://soundmindgames.org), a nonp
 ## Online Sharing
 
 - **[[Share Your Progress to Discord Server Channel]]** — Modern clients can share your progress to Discord
-- **[[GnollHack Account]]** — GnollHack Account supports top score recording, bones sharing, JunetHack, and NetHack Scoreboard *(modern ports only)*
+- **[[GnollHack Account]]** — GnollHack Account supports top score recording, bones sharing, Junethack, and NetHack Scoreboard *(modern ports only)*
 - **[[Bones Sharing]]** — You can share your dead characters with others *(modern ports only)*
 - **[[Save File Tracking]]** — Modern Windows version requires that your save files are tracked online to make them eligible for server posting
 
