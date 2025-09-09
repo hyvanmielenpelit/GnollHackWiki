@@ -4,8 +4,7 @@
 
 * [[Android Version]]
 * [[iOS Version]] — Works on macOS
-* [[Modern Windows Version (Steam)]]
-* [[Modern Windows Version (MSIX)]]
+* [[Modern Windows Version]]
 * [[Legacy Windows Version]]
 
 ### [[Gameplay Information]]
