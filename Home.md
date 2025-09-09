@@ -1,8 +1,8 @@
 # GnollHack Wiki
 
-GnollHack is an open-source [NetHack](https://www.nethack.org/) variant and remaster developed by [Sound Mind Games](https://soundmindgames.org), a non-profit association based in Finland.
-
 ![GnollHack](/uploads/Home/gnollhack-q90.webp)
+
+GnollHack is a modern take on the legendary [NetHack](https://www.nethack.org/) — the deepest traditional roguelike ever made. Experience the same intricate gameplay, emergent interactions, and brutal challenge, now brought to life with full graphics, sounds, and voiceovers. Playable on PC, mobile, and controller, GnollHack makes the roguelike classic more immersive and accessible than ever — without losing the hardcore depth veterans love.
 
 ## Overview
 
@@ -49,6 +49,8 @@ GnollHack can also be viewed as a NetHack remaster, adding the following modern 
 GnollHack is an open-source game, based on NetHack's source code. This means that you can fork it.
 - GnollHack's code is licensed under NetHack General Public License.
 - GnollHack's graphics and sounds are licensed under Creative Commons Attribution-NonCommercial 4.0 International Public License.
+
+GnollHack is developed by [Sound Mind Games](https://soundmindgames.org), a nonprofit organization based in Finland, working in the fields of gaming and mental health.
 
 ## Getting Started
 
