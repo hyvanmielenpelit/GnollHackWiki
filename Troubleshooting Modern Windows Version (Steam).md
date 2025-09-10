@@ -1,0 +1,35 @@
+
+## ⚠️ Problem: Loading Doesn't Finish
+
+The loading doesn't finish after you click the **Play Game** button, and you are stuck in the "**Done loading**" phase.
+
+### ✅ Solution 1: Change Current System Locale for Non-Unicode Programs to English (United States)
+
+If you have a non-English Windows, you can try to change **Control Panel → Region → Administrative → Change system locale** to **English (United States)**.
+
+Here are step-by-step instructions how to do it:
+
+1. Open **Control Panel**.
+2. Click **Clock and Region**.<br />
+    ![change-locale-1](/uploads/Modern%20Windows%20Version%20(Steam)/change-locale-1.webp)
+
+3. Click **Region**.<br />
+    ![change-locale-2](/uploads/Modern%20Windows%20Version%20(Steam)/change-locale-2.webp)
+
+4. Select the **Administrative** tab and, in the **Language for non-Unicode programs** section, click **Change system locale**.<br />
+    ![change-locale-3](/uploads/Modern%20Windows%20Version%20(Steam)/change-locale-3.webp)
+
+5. Select **English (United States)** as the current system locale. Then, click OK.<br />
+    ![change-locale-4](/uploads/Modern%20Windows%20Version%20(Steam)/change-locale-4.webp)
+
+### ✅ Solution 2: Install Game from MSIX Package
+
+You can install the game using an MSIX package. For some reason, your system is incompatible with the _unpackaged_ Steam version.
+
+- For more information, please see [[Modern Windows Version#msix-installer]].
+
+### ✅ Solution 3: Copy Working Files from ZIP File
+
+If solutions 1 and 2 don't work for you, we have provided a ZIP file in GitHub releases that you may also try.
+
+- For more information, please see [[Modern Windows Version#zip-file]].
