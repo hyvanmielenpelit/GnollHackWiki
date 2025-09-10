@@ -2,6 +2,10 @@
 
 GnollHack's modern Windows version has the following download options:
 
+- **Steam** — Recommended download option.
+- **MSIX installer** — You can try this if the Steam version doesn't work for you.
+- **ZIP file** — You can try this if the MSIX installer doesn't work for you.
+
 ### 1.1. Steam
 
 <a href="https://store.steampowered.com/app/3558190/GnollHack/?utm_source=wiki">![Available on Steam](/uploads/Download/steam-q90.webp)</a><br />
