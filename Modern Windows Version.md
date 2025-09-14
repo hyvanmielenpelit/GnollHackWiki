@@ -30,7 +30,7 @@ Click 🛠️ [[Troubleshooting Modern Windows Version (Steam)]] 🛠️ for tro
 
 <a href="https://github.com/hyvanmielenpelit/GnollHack/releases">![Get release on GitHub](/uploads/Download/github-q90.webp)</a><br />
 
-- The MSIX package has a **.msix extension**.
+- The MSIX package has the **.msix extension**.
 - Install the game using these instructions: [[Installing MSIX Packages on Windows 10 and 11]]
     - You need admin rights to do so.
 - The icon of GnollHack installed using the MSIX package will have a blue background.
@@ -39,7 +39,7 @@ Click 🛠️ [[Troubleshooting Modern Windows Version (Steam)]] 🛠️ for tro
 
 <a href="https://github.com/hyvanmielenpelit/GnollHack/releases">![Get release on GitHub](/uploads/Download/github-q90.webp)</a><br />
 
-- The ZIP file has a **.zip extension** and starts with **Hyvnmielenpelitry.889864DD5340.NoStore**.
+- The ZIP file has the **.zip extension** and starts with **Hyvnmielenpelitry.889864DD5340.NoStore**.
 - The ZIP file essentially contains the files installed by the MSIX package under `C:\Program Files\WindowsApps`.
 
 #### 1.3.1. Installation
