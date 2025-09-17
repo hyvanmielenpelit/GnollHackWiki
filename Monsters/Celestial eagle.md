@@ -1,17 +1,39 @@
-## Level 3 celestial spell
+## Level 8 large shining white eagle with sharp claws
 
-- **Attributes:** Higher of wisdom and charisma
-- **Mana cost:** 40.0
-- **Casting time:** 1 round
-- **Cooldown:** None
-- **Targeting:** None
-- **Train chance:** 100%
-- **Components:** Verbal, Material
+- **Hit dice:** 8
+- **Move:** 20"
+- **Armor class:** 4
+- **Magic cancellation:** 0 (0%)
+- **Magic resistance:** 0%
+- **Alignment:** Neutral
+- **Size:** Medium-sized
+- **Number of attacks:** 2
+1. Bite, physical 1d8
+2. Claw, physical 1d8
 
-## Material components - 1 casting
+## Attribute scores
 
-1. a noncursed feather
+St:14 Dx:16 Co:12 In:3 Wi:8 Ch:1
 
-## Description
+## Innate abilities
 
-Summons a permanent celestial eagle
+(None)
+
+## Classifications
+
+1. Flying
+2. Handless
+3. Animal
+4. Carnivore
+5. Angelic being
+6. Bird or bird-like monster
+
+## Notable
+
+1. Vulnerable to cursed weapons
+2. Eschews cursed items
+3. Does not eat
+
+## Picture
+
+![Celestial eagle](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/celestial_eagle/celestial_eagle.png?raw=true)

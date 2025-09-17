@@ -1,17 +1,39 @@
-## Level 1 celestial spell
+## Level 6 small shining white bird with sharp claws
 
-- **Attributes:** Higher of wisdom and charisma
-- **Mana cost:** 24.0
-- **Casting time:** 1 round
-- **Cooldown:** None
-- **Targeting:** None
-- **Train chance:** 100%
-- **Components:** Verbal, Material
+- **Hit dice:** 4
+- **Move:** 20"
+- **Armor class:** 6
+- **Magic cancellation:** 0 (0%)
+- **Magic resistance:** 0%
+- **Alignment:** Neutral
+- **Size:** Small
+- **Number of attacks:** 2
+1. Bite, physical 1d6
+2. Claw, physical 1d6
 
-## Material components - 2 castings
+## Attribute scores
 
-1. a noncursed feather
+St:7 Dx:16 Co:12 In:3 Wi:4 Ch:1
 
-## Description
+## Innate abilities
 
-Summons a permanent celestial dove
+(None)
+
+## Classifications
+
+1. Flying
+2. Handless
+3. Animal
+4. Carnivore
+5. Angelic being
+6. Bird or bird-like monster
+
+## Notable
+
+1. Vulnerable to cursed weapons
+2. Eschews cursed items
+3. Does not eat
+
+## Picture
+
+![Celestial dove](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/celestial_dove/celestial_dove.png?raw=true)
