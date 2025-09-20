@@ -35,3 +35,9 @@ Here are step-by-step instructions how to do it:
 You can install the game using an MSIX package. For some reason, your system is incompatible with the _unpackaged_ Steam version.
 
 - For more information, please see the [[MSIX installer download option|Modern Windows Version#1-2-msix-installer]].
+
+### ✅ Solution 4: Copy Working Files from ZIP File
+
+If solutions 1–3 don't work for you, we have provided a ZIP file in GitHub releases that you may also try.
+
+- For more information, please see the [[zip file download option|Modern Windows Version#1-3-zip-file]].
