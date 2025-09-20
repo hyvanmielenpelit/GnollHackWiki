@@ -10,28 +10,19 @@ GnollHack's modern Windows version has the following download options:
 
 <a href="https://store.steampowered.com/app/3558190/GnollHack/?utm_source=wiki">![Available on Steam](/uploads/Download/steam-q90.webp)</a><br />
 
-#### 1.1.2. Packaged Beta
-
-If GnollHack is stuck in the loading screen, in the **Done loading phase**, please try the **packaged** beta instead. 
-
-1. Go to your **library** in the **Steam client**.
-2. **Right-click GnollHack** and select **Properties...**.
-3. Go to the **Betas** tab.
-4. In the dropdown list, select **packaged** as the beta.
-
-#### 1.1.3. Auto-Update Can't Be Disabled
+#### 1.1.1. Auto-Update Can't Be Disabled
 
 You can't disable auto-update in Steam, but if your saved games become invalid, you can revert to a compatible version of GnollHack as follows:
 1. Go to GnollHack Properties in Steam.
 2. Go to the Betas tab.
 3. Select a compatible version of GnollHack there.
 
-#### 1.1.4. Steam Platform Features
+#### 1.1.2. Steam Platform Features
 
 - **Save File Synchronization** — Sync your saved games across multiple PCs.
 - **Revert to Old Version** — You can revert to an old version using the Betas tab in the GnollHack properties in Steam *(see above)*.
 
-#### 1.1.5. Troubleshooting
+#### 1.1.3. Troubleshooting
 
 Click 🛠️ [[Troubleshooting Modern Windows Version (Steam)]] 🛠️ for troubleshooting information.
 
