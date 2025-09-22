@@ -1,55 +1,21 @@
-## Steam Version
+## Data File Locations by Game Version
 
-### Main Game
+On Windows, the game stores data files to the following locations depending on the game version:
 
-`C:\Users\[UserName]\AppData\Local\Hyvän mielen pelit ry\Hyvnmielenpelitry.889864DD5340.Steam\Data`
+| Game Version | Data File Location |
+| :----------- | :------------------|
+| Steam | `%LOCALAPPDATA%\Hyvän mielen pelit ry\Hyvnmielenpelitry.889864DD5340.Steam\Data` |
+| Steam Playtest | `%LOCALAPPDATA%\Hyvän mielen pelit ry\Hyvnmielenpelitry.889864DD5340.Playtest\Data` |
+| MSIX (GitHub) | `%LOCALAPPDATA%\Packages\Hyvnmielenpelitry.889864DD5340.NoStore_[id]\LocalState` |
 
-- `[UserName]` is your user name, such as `JohnDoe`.
+## Random ID in MSIX Package
 
-You can quickly access this location by:
+Note that if you have installed the game with the MSIX package, you need to check what `[id]` is by visiting `%LOCALAPPDATA%\Packages` first. It's a random ID, such as `xg5r138e1vwac`.
 
-1. Press `Win+R`.
-2. Type `%LOCALAPPDATA%\Hyvän mielen pelit ry\Hyvnmielenpelitry.889864DD5340.Steam\Data` in the text box.
-3. Press enter.
+## Quick Access to Data File Location
 
-### Playtest Version
-
-`C:\Users\[UserName]\AppData\Local\Hyvän mielen pelit ry\Hyvnmielenpelitry.889864DD5340.Playtest\Data`
-
-- `[UserName]` is your user name, such as `JohnDoe`.
-
-You can quickly access this location by:
+You can quickly access the data file location by:
 
 1. Press `Win+R`.
-2. Type `%LOCALAPPDATA%\Hyvän mielen pelit ry\Hyvnmielenpelitry.889864DD5340.Playtest\Data` in the text box.
-3. Press enter.
-
-## MSIX Version (From GitHub Releases)
-
-`C:\Users\[UserName]\AppData\Local\Packages\Hyvnmielenpelitry.889864DD5340.NoStore_[id]\LocalState`
-
-- `[UserName]` is your user name, such as `JohnDoe`.
-- `[id]` is a random id, such as `xg5r138e1vwac`.
-
-You can quickly access this location by:
-
-1. Press `Win+R`.
-2. Type `%LOCALAPPDATA%\Packages\Hyvnmielenpelitry.889864DD5340.NoStore_[id]\LocalState` in the text box.
-3. Press enter.
-
-You just need to check what the `[id]` is the first time you do this.
-
-## Microsoft Store Version
-
-`C:\Users\[UserName]\AppData\Local\Packages\Hyvnmielenpelitry.889864DD5340_[id]\LocalState`
-
-- `[UserName]` is your user name, such as `JohnDoe`.
-- `[id]` is a random id, such as `xg5r138e1vwac`.
-
-You can quickly access this location by:
-
-1. Press `Win+R`.
-2. Type `%LOCALAPPDATA%\Packages\Hyvnmielenpelitry.889864DD5340_[id]\LocalState` in the text box.
-3. Press enter.
-
-You just need to check what the `[id]` is the first time you do this.
+2. Type or copy-paste the data file location in the text box.
+3. Press Enter.
