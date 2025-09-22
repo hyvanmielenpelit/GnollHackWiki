@@ -6,7 +6,6 @@ Increases to-hit, damage, and the chance of a critical strike of thrown weapons.
 
 | Skill Level | Skill Slots to Advance | Training to Advance |
 | :---------- | :--------------------: | :-----------------: |
-| **Unskilled** | | |
 | **Basic** | 1 | 20 |
 | **Skilled** | 2 | 80 |
 | **Expert** | 3 | 180 |
