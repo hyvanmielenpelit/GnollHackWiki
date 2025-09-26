@@ -1,3 +1,5 @@
+![alchemy](/uploads/Alchemy/alchemy.webp)
+
 ## Overview
 
 In GnollHack, you can mix potions and other items with each other. You do this with the **Dip** command. Sometimes it's important which item you dip into the other one. Below are the alchemy recipes listed by the item you dip. **Item 2** in the tables is the item into which you dip the first item. **Result** is the resulting item from mixing the two selected items. In the case of [[/Items/Unicorn horn]] and other similar items, the dipped item is not consumed in the alchemy process.
