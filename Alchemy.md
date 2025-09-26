@@ -110,7 +110,8 @@ In GnollHack, you can mix potions and other items with each other. You do this w
 
 | Item 2 | Result |
 | :----- | :----- |
-|[[/Items/Potion of gain energy]] or [[/Items/Potion of extra-energy]] or [[/Items/Potion of greater speed]] | [[/Items/Potion of greater speed]] | or [[/Items/Potion of greater energy]] or [[/Items/Potion of full energy]] or [[/Items/Potion of gain level]] or [[/Items/Potion of lightning speed]] | [[/Items/Potion of lightning speed]] |
+| [[/Items/Potion of gain energy]] or [[/Items/Potion of extra-energy]] or [[/Items/Potion of greater speed]] | [[/Items/Potion of greater speed]] |
+| [[/Items/Potion of greater energy]] or [[/Items/Potion of full energy]] or [[/Items/Potion of gain level]] or [[/Items/Potion of lightning speed]] | [[/Items/Potion of lightning speed]] |
 
 ### [[/Items/Potion of greater speed]]
 
