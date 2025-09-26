@@ -1,6 +1,6 @@
 ## Overview
 
-In GnollHack, you can mix potions and other items with each other. You do this with the **Dip** command. Sometimes it's important which item you dip into the other one. Below are the alchemy recipes listed by the item you dip. **Item 2** in the tables is the item into which you dip the first item. **Result** is the resulting item from mixing the two selected items.
+In GnollHack, you can mix potions and other items with each other. You do this with the **Dip** command. Sometimes it's important which item you dip into the other one. Below are the alchemy recipes listed by the item you dip. **Item 2** in the tables is the item into which you dip the first item. **Result** is the resulting item from mixing the two selected items. In the case of [[/Items/Unicorn horn]] and other similar items, the dipped item is not consumed in the alchemy process.
 
 ## Potions
 
@@ -248,6 +248,8 @@ In GnollHack, you can mix potions and other items with each other. You do this w
 
 ### [[/Items/Unicorn horn]]
 
+The unicorn horn is *not* consumed in the alchemy process. It also doesn't lose a charge.
+
 | Item 2 | Result |
 | :----- | :----- |
 | [[/Items/Potion of sickness]] | [[/Items/Potion of fruit juice]] |
@@ -256,6 +258,8 @@ In GnollHack, you can mix potions and other items with each other. You do this w
 ## Gems
 
 ### [[/Items/Amethyst]]
+
+The amethyst is *not* consumed in the alchemy process.
 
 | Item 2 | Result |
 | :----- | :----- |
