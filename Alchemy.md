@@ -72,7 +72,7 @@ In GnollHack, you can mix potions and other items with each other. You do this w
 | [[/Items/Potion of greater speed]] or [[/Items/Potion of lightning speed]] | [[/Items/Potion of greater rejuvenation]] |
 | [[/Items/Potion of gain level]] or [[/Items/Potion of restore ability]] | [[/Items/Potion of gain ability]] |
 
-### [[/Items/Potion of lesser rejuvenation]]
+### [[/Items/Potion of rejuvenation]]
 
 | Item 2 | Result |
 | :----- | :----- |
@@ -80,7 +80,8 @@ In GnollHack, you can mix potions and other items with each other. You do this w
 | [[/Items/Potion of gain energy]] or [[/Items/Potion of extra-energy]] or [[/Items/Potion of rejuvenation]] or [[/Items/Potion of regeneration]] or [[/Items/Potion of greater regeneration]] or [[/Items/Potion of greater energy]] or [[/Items/Potion of full energy]] or [[/Items/Potion of greater rejuvenation]] | [[/Items/Potion of greater rejuvenation]] |
 | [[/Items/Potion of healing]] or [[/Items/Jar of extra healing salve]] or [[/Items/Potion of extra-healing]] | [[/Items/Potion of regeneration]] |
 | [[/Items/Jar of greater healing salve]] or [[/Items/Potion of greater healing]] or [[/Items/Jar of prodigious healing salve]] or [[/Artifacts/The Holy Grail]] or [[/Items/Potion of full healing]] | [[/Items/Potion of greater regeneration]] |
-| [[/Items/Potion of speed]] or [[/Items/Potion of greater speed]] or [[/Items/Potion of lightning speed]]| [[/Items/Potion of greater rejuvenation]] | or [[/Items/Potion of gain level]] or [[/Items/Potion of restore ability]] | [[/Items/Potion of gain ability]] |
+| [[/Items/Potion of speed]] or [[/Items/Potion of greater speed]] or [[/Items/Potion of lightning speed]] | [[/Items/Potion of greater rejuvenation]]
+| [[/Items/Potion of gain level]] or [[/Items/Potion of restore ability]] | [[/Items/Potion of gain ability]] |
 
 ### [[/Items/Potion of greater rejuvenation]]
 
