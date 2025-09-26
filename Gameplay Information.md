@@ -57,6 +57,7 @@
 
 ## Advanced Topics
 
+* [[Alchemy]] — Recipes for mixing potions and other items with each other.
 * [[Crowning]] — Gifts obtained from crowning by your god.
 * [[Resistances and Saving Throws]] — Learn about how resistances and saving throws work in GnollHack.
 * [[Scoring]] — Learn about the scoring system in GnollHack.
