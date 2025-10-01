@@ -8,4 +8,4 @@
 ## Conferred powers
 
 1. Adornment when worn
-2. Grants +0 bonus to charisma when worn
+2. Grants +enchantment bonus to charisma when worn

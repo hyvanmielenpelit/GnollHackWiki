@@ -8,7 +8,7 @@
 
 ## Conferred powers
 
-1. Grants +0 bonus to wisdom when worn
+1. Grants +enchantment bonus to wisdom when worn
 
 ## Item properties
 

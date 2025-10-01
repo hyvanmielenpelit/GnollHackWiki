@@ -7,9 +7,9 @@
 
 ## Conferred powers
 
-1. Grants +0 bonus to strength when worn
-2. Grants +0 bonus to dexterity when worn
-3. Grants +0 bonus to constitution when worn
-4. Grants +0 bonus to intelligence when worn
-5. Grants +0 bonus to wisdom when worn
-6. Grants +0 bonus to charisma when worn
+1. Grants +enchantment bonus to strength when worn
+2. Grants +enchantment bonus to dexterity when worn
+3. Grants +enchantment bonus to constitution when worn
+4. Grants +enchantment bonus to intelligence when worn
+5. Grants +enchantment bonus to wisdom when worn
+6. Grants +enchantment bonus to charisma when worn

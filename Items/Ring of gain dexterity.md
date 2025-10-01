@@ -7,4 +7,4 @@
 
 ## Conferred powers
 
-1. Grants +0 bonus to dexterity when worn
+1. Grants +enchantment bonus to dexterity when worn

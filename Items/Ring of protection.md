@@ -8,5 +8,5 @@
 
 ## Conferred powers
 
-1. Grants +0 bonus to armor class when worn
-2. Grants +0 bonus to magic cancellation when worn
+1. Grants +enchantment bonus to armor class when worn
+2. Grants +enchantment bonus to magic cancellation when worn
