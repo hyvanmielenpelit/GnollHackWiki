@@ -4,41 +4,23 @@
 
 Elves are highly intelligent but physically fragile race. This makes them excellent spell casters.
 
-## Attribute Score Changes
+## Attribute Scores
 
-- -2 to Strength
-- -2 to Constitution
-- +2 to Intelligence
-- +2 to Wisdom
+| Attribute Score | Modifier | Maximum |
+| :-------------- | :------: | :-----: |
+| Strength | -2 | 18 |
+| Dexterity | +0 | 18 |
+| Constitution | -2 | 16 |
+| Intelligence | +2 | 20 |
+| Wisdom | +2 | 20 |
+| Charisma | +0 | 18 |
 
-## Maximum Attribute Scores
+## Hit Points and Mana
 
-- **Strength:** 18
-- **Dexterity:** 18
-- **Constitution:** 16
-- **Intelligence:** 20
-- **Wisdom:** 20
-- **Charisma:** 18
-
-## Hit Points
-
-### Starting Hit Points
-
-10
-
-### Hit Points per Experience Level
-
-1
-
-## Mana
-
-### Starting Mana
-
-1d12 (avg. 6.5)
-
-### Mana per Level
-
-2
+| Stat | Starting Value | Increase Per Level |
+| :--- | :------------: | :----------------: |
+| Hit points | 10 | +1 |
+| Mana | 1d12 (avg. 6.5) | +2 |
 
 ## Racial Traits
 

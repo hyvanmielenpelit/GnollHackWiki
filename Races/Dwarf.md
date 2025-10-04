@@ -4,42 +4,23 @@
 
 Dwarves are sturdy, gaining bonus to physical attribute scores but having disadvantage at mental attributes. This makes them excellent combatants in character classes that focus on physical combat.
 
-## Attribute Score Changes
+## Attribute Scores
 
-- +2 to Dexterity
-- +2 to Constitution
-- -2 to Intelligence
-- -2 to Wisdom
-- -2 to Charisma
+| Attribute Score | Modifier | Maximum |
+| :-------------- | :------: | :-----: |
+| Strength | +0 | 18/** |
+| Dexterity | +2 | 20 |
+| Constitution | +2 | 20 |
+| Intelligence | -2 | 16 |
+| Wisdom | -2 | 16 |
+| Charisma | -2 | 16 |
 
-## Maximum Attribute Scores
+## Hit Points and Mana
 
-- **Strength:** 18/**
-- **Dexterity:** 20
-- **Constitution:** 20
-- **Intelligence:** 16
-- **Wisdom:** 16
-- **Charisma:** 16
-
-## Hit Points
-
-### Starting Hit Points
-
-17
-
-### Hit Points per Experience Level
-
-1d3 (avg. 2)
-
-## Mana
-
-### Starting Mana
-
-0
-
-### Mana per Level
-
-0
+| Stat | Starting Value | Increase Per Level |
+| :--- | :------------: | :----------------: |
+| Hit points | 17 | +1d3 (avg. +2) |
+| Mana | 0 | +0 |
 
 ## Racial Traits
 

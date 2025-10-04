@@ -4,40 +4,23 @@
 
 Orcs start with poison resistance and do not suffer penalty for cannibalism. However, they have reduced mental attribute scores.
 
-## Attribute Score Changes
+## Attribute Scores
 
-- -2 to Intelligence
-- -2 to Wisdom
-- -2 to Charisma
+| Attribute Score | Modifier | Maximum |
+| :-------------- | :------: | :-----: |
+| Strength | +0 | 18/50 |
+| Dexterity | +0 | 18 |
+| Constitution | +0 | 18 |
+| Intelligence | -2 | 16 |
+| Wisdom | -2 | 16 |
+| Charisma | -2 | 16 |
 
-## Maximum Attribute Scores
+## Hit Points and Mana
 
-- **Strength:** 18/50
-- **Dexterity:** 18
-- **Constitution:** 18
-- **Intelligence:** 16
-- **Wisdom:** 16
-- **Charisma:** 16
-
-## Hit Points
-
-### Starting Hit Points
-
-15
-
-### Hit Points per Experience Level
-
-1d3 (avg. 2)
-
-## Mana
-
-### Starting Mana
-
-1
-
-### Mana per Level
-
-1d2-1 (avg. 0.5)
+| Stat | Starting Value | Increase Per Level |
+| :--- | :------------: | :----------------: |
+| Hit points | 15 | +1d3 (avg. +2) |
+| Mana | 1 | +1d2-1 (avg. +0.5) |
 
 ## Racial Traits
 

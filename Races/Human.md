@@ -4,31 +4,20 @@
 
 Humans do not have any special abilities, but they can be of any character class and of any alignment.
 
-## Maximum Attribute Scores
+## Attribute Scores
 
-- **Strength:** 18/**
-- **Dexterity:** 18
-- **Constitution:** 18
-- **Intelligence:** 18
-- **Wisdom:** 18
-- **Charisma:** 18
+| Attribute Score | Modifier | Maximum |
+| :-------------- | :------: | :-----: |
+| Strength | +0 | 18/** |
+| Dexterity | +0 | 18 |
+| Constitution | +0 | 18 |
+| Intelligence | +0 | 18 |
+| Wisdom | +0 | 18 |
+| Charisma | +0 | 18 |
 
-## Hit Points
+## Hit Points and Mana
 
-### Starting Hit Points
-
-12
-
-### Hit Points per Experience Level
-
-1d2 (avg. 1.5)
-
-## Mana
-
-### Starting Mana
-
-1d4 (avg. 2.5)
-
-### Mana per Level
-
-1
+| Stat | Starting Value | Increase Per Level |
+| :--- | :------------: | :----------------: |
+| Hit points | 12 | +1d2 (avg. +1.5) |
+| Mana | 1d4 (avg. 2.5) | +1 |
