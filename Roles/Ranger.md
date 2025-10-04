@@ -26,39 +26,20 @@ Potent archer, adept at ranged combat.
 - Gains extra score from ranged weapons of at least artifact, elite, or mythic quality
 - Special achievement is to attain the level of Grand Master in Bows or Crossbows
 
-## Intrinsics
+## Intrinsic Abilities
 
-### Level 1
+| Level | Intrinsic Abilities |
+| :---: | :--------- |
+| 1 | Searching |
+| 7 | Stealth |
+| 15 | See invisible |
 
-- Searching
+## Hit Points and Mana
 
-### Level 7
-
-- Stealth
-
-### Level 15
-
-- See invisible
-
-## Hit Points
-
-### Starting Hit Points
-
-13
-
-### Hit Points per Experience Level
-
-1d9 (avg. 5)
-
-## Mana
-
-### Starting Mana
-
-1d6 (avg. 3.5)
-
-### Mana per Level
-
-1d3 (avg. 2.0)
+| Stat | Starting Value | Increase Per Level |
+| :--- | :------------: | :----------------: |
+| Hit points | 13 | +1d9 (avg. +5) |
+| Mana | 1d6 (avg. 3.5) | +1d3 (avg. +2) |
 
 ## Skills
 

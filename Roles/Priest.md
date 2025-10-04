@@ -28,47 +28,22 @@ Armored clerical spell caster, who automatically identifies the beautitude of it
 3. Gains extra score from learnt spells of unrestricted schools
 4. Special achievement is to successfully cast a spell of level 10 or higher
 
-## Intrinsics
+## Intrinsic Abilities
 
-### Level 7
+| Level | Intrinsic Abilities |
+| :---: | :--------- |
+| 7 | Warning of undead |
+| 10 | Warning of demons |
+| 13 | Warning of angels |
+| 16 | Curse resistance |
+| 19 | Death resistance |
 
-- Warning of undead
+## Hit Points and Mana
 
-### Level 10
-
-- Warning of demons
-
-### Level 13
-
-- Warning of angels
-
-### Level 16
-
-- Curse resistance
-
-### Level 19
-
-- Death resistance
-
-## Hit Points
-
-### Starting Hit Points
-
-12
-
-### Hit Points per Experience Level
-
-1d7 (avg. 4)
-
-## Mana
-
-### Starting Mana
-
-2d6 (avg. 7.0)
-
-### Mana per Level
-
-1d6 (avg. 3.5)
+| Stat | Starting Value | Increase Per Level |
+| :--- | :------------: | :----------------: |
+| Hit points | 12 | +1d7 (avg. +4) |
+| Mana | 2d6 (avg. 7) | +1d6 (avg. +3.5) |
 
 ## Skills
 

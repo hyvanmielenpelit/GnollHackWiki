@@ -25,35 +25,19 @@ Powerful spell caster who can specialize in many spell schools.
 - Gains extra score from learnt spells of unrestricted schools
 - Special achievement is to successfully cast a spell of level 10 or higher
 
-## Intrinsics
+## Intrinsic Abilities
 
-### Level 14
+| Level | Intrinsic Abilities |
+| :---: | :--------- |
+| 14 | Enhanced vision |
+| 19 | Teleport control |
 
-- Enhanced vision
+## Hit Points and Mana
 
-### Level 19
-
-- Teleport control
-
-## Hit Points
-
-### Starting Hit Points
-
-10
-
-### Hit Points per Experience Level
-
-1d6 (avg. 3.5)
-
-## Mana
-
-### Starting Mana
-
-2d8 (avg. 9.0)
-
-### Mana per Level
-
-1d8 (avg. 4.5)
+| Stat | Starting Value | Increase Per Level |
+| :--- | :------------: | :----------------: |
+| Hit points | 10 | +1d6 (avg. +3.5) |
+| Mana | 2d8 (avg. 9) | +1d8 (avg. +4.5) |
 
 ## Skills
 

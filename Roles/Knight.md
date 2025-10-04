@@ -26,43 +26,21 @@ Heavely armored melee warrior, adept at riding.
 - Gains extra score from slaying demons, devils, and chaotic dragons
 - Special achievement is to defeat Asmodeus, Ruler of Nine Hells
 
-## Intrinsics
+## Intrinsic Abilities
 
-### Level 7
+| Level | Intrinsic Abilities |
+| :---: | :--------- |
+| 7 | Speed |
+| 11 | Warning of undead |
+| 14 | Warning of demons |
+| 19 | Curse resistance |
 
-- Speed
+## Hit Points and Mana
 
-### Level 11
-
-- Warning of undead
-
-### Level 14
-
-- Warning of demons
-
-### Level 19
-
-- Curse resistance
-
-## Hit Points
-
-### Starting Hit Points
-
-15
-
-### Hit Points per Experience Level
-
-1d11 (avg. 6)
-
-## Mana
-
-### Starting Mana
-
-1d6 (avg. 3.5)
-
-### Mana per Level
-
-1d3 (avg. 2.0)
+| Stat | Starting Value | Increase Per Level |
+| :--- | :------------: | :----------------: |
+| Hit points | 15 | +1d11 (avg. +6) |
+| Mana | 1d6 (avg. 3.5) | +1d3 (avg. +2) |
 
 ## Skills
 

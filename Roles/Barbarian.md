@@ -25,39 +25,20 @@ Strong melee warrior with poison resistance.
 - Gains extra score from melee weapons of artifact or legendary quality
 - Special achievement is to find Stormbringer and Mournblade (Chaotic) or Vorpal Blade and Cleaver (Neutral)
 
-## Intrinsics
+## Intrinsic Abilities
 
-### Level 1
+| Level | Intrinsic Abilities |
+| :---: | :--------- |
+| 1 | Poison resistance |
+| 7 | Speed |
+| 14 | Stealth |
 
-- Poison resistance
+## Hit Points and Mana
 
-### Level 7
-
-- Speed
-
-### Level 14
-
-- Stealth
-
-## Hit Points
-
-### Starting Hit Points
-
-17
-
-### Hit Points per Experience Level
-
-1d12 (avg. 6.5)
-
-## Mana
-
-### Starting Mana
-
-1d2-1 (avg. 0.5)
-
-### Mana per Level
-
-1
+| Stat | Starting Value | Increase Per Level |
+| :--- | :------------: | :----------------: |
+| Hit points | 17 | +1d12 (avg. +6.5) |
+| Mana | 1d2-1 (avg. 0.5) | +1 |
 
 ## Skills
 

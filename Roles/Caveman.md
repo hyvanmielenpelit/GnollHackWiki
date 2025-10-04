@@ -26,35 +26,19 @@ Strong warrior that starts with a club and a sling. The caveman has also a rando
 - Gains extra score from amulets of life saving
 - Special achievement is to attain the level of Grand Master in Bludgeoning Weapons
 
-## Intrinsics
+## Intrinsic Abilities
 
-### Level 7
+| Level | Intrinsic Abilities |
+| :---: | :--------- |
+| 7 | Speed |
+| 15 | Warning |
 
-- Speed
+## Hit Points and Mana
 
-### Level 15
-
-- Warning
-
-## Hit Points
-
-### Starting Hit Points
-
-16
-
-### Hit Points per Experience Level
-
-1d12 (avg. 6.5)
-
-## Mana
-
-### Starting Mana
-
-1d8-1 (avg. 3.5)
-
-### Mana per Level
-
-1d5-1 (avg. 2)
+| Stat | Starting Value | Increase Per Level |
+| :--- | :------------: | :----------------: |
+| Hit points | 16 | +1d12 (avg. +6.5) |
+| Mana | 1d8-1 (avg. 3.5) | +1d5-1 (avg. +2) |
 
 ## Skills
 

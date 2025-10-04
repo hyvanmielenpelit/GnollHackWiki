@@ -24,36 +24,19 @@ Lightly equipped explorer. The archaeologist starts with a touchstone, which can
 - Gains extra score from artifacts
 - Special achievement is to defeat Amonket, Ruler of Greater Mummies
 
-## Intrinsics
+## Intrinsic Abilities
 
-### Level 1
+| Level | Intrinsic Abilities |
+| :---: | :--------- |
+| 1 | Stealth, Speed |
+| 10 | Searching |
 
-- Stealth
-- Speed
+## Hit Points and Mana
 
-### Level 10
-
-- Searching
-
-## Hit Points
-
-### Starting Hit Points
-
-11
-
-### Hit Points per Experience Level
-
-1d8 (avg. 4.5)
-
-## Mana
-
-### Starting Mana
-
-1d8 (avg. 4.5)
-
-### Mana per Level
-
-1d4 (avg. 2.5)
+| Stat | Starting Value | Increase Per Level |
+| :--- | :------------: | :----------------: |
+| Hit points | 11 | +1d8 (avg. +4.5) |
+| Mana | 1d8 (avg. 4.5) | +1d4 (avg. +2.5) |
 
 ## Skills
 

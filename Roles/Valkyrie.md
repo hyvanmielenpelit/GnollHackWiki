@@ -25,40 +25,20 @@ Strong female melee warrior, who starts with cold resistance and stealth.
 - Gains extra score from celestial, primordial, or infernal items based on alignment
 - Special achievement is to attain the level of Grand Master in Dual Wielding
 
-## Intrinsics
+## Intrinsic Abilities
 
-### Level 1
+| Level | Intrinsic Abilities |
+| :---: | :--------- |
+| 1 | Stealth, 50% cold resistance |
+| 7 | Speed |
+| 15 | 50% shock resistance |
 
-- Stealth
-- 50% cold resistance
+## Hit Points and Mana
 
-### Level 7
-
-- Speed
-
-### Level 15
-
-- 50% shock resistance
-
-## Hit Points
-
-### Starting Hit Points
-
-14
-
-### Hit Points per Experience Level
-
-1d10 (avg. 5.5)
-
-## Mana
-
-### Starting Mana
-
-1d2-1 (avg. 0.5)
-
-### Mana per Level
-
-1
+| Stat | Starting Value | Increase Per Level |
+| :--- | :------------: | :----------------: |
+| Hit points | 14 | +1d10 (avg. +5.5) |
+| Mana | 1d2-1 (avg. 0.5) | +1 |
 
 ## Skills
 

@@ -24,35 +24,19 @@ Strong Japanese warrior adept at both melee and ranged combat. Some item names s
 - Gains extra score from Japanese items of at least artifact, exceptional, or mythic quality
 - Special achievement is to find the Kusanagi and Katana of Masamune
 
-## Intrinsics
+## Intrinsic Abilities
 
-### Level 1
+| Level | Intrinsic Abilities |
+| :---: | :--------- |
+| 1 | Speed |
+| 15 | Stealth |
 
-- Speed
+## Hit Points and Mana
 
-### Level 15
-
-- Stealth
-
-## Hit Points
-
-### Starting Hit Points
-
-13
-
-### Hit Points per Experience Level
-
-1d9 (avg. 5)
-
-## Mana
-
-### Starting Mana
-
-1
-
-### Mana per Level
-
-1
+| Stat | Starting Value | Increase Per Level |
+| :--- | :------------: | :----------------: |
+| Hit points | 13 | +1d9 (avg. +5) |
+| Mana | 1 | +1 |
 
 ## Skills
 

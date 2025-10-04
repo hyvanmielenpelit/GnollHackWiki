@@ -28,60 +28,25 @@ Martial artist, adept at several spells.
 5. Gains 50% extra score from all conducts
 6. Special achievement is to attain the level of Grand Master in Martial Arts
 
-## Intrinsics
+## Intrinsic Abilities
 
-### Level 1
+| Level | Intrinsic Abilities |
+| :---: | :--------- |
+| 1 | Sleep resistance, Speed |
+| 4 | Half slower digestion |
+| 7 | Poison resistance |
+| 10 | Jumping |
+| 16 | Stealth |
+| 22 | Searching |
+| 28 | Warning |
+| 34 | Teleport control |
 
-- Sleep resistance
-- Fast speed
+## Hit Points and Mana
 
-### Level 4
-
-- Half slower digestion
-
-### Level 7
-
-- Poison resistance
-
-### Level 10
-
-- Jumping
-
-### Level 16
-
-- Stealth
-
-### Level 22 
-
-- Searching
-
-### Level 28
-
-- Warning
-
-### Level 34
-
-- Teleport Control
-
-## Hit Points
-
-### Starting Hit Points
-
-12
-
-### Hit Points per Experience Level
-
-1d8 (avg. 4.5)
-
-## Mana
-
-### Starting Mana
-
-1d10 (avg. 5.5)
-
-### Mana per Level
-
-1d5 (avg. 3.0)
+| Stat | Starting Value | Increase Per Level |
+| :--- | :------------: | :----------------: |
+| Hit points | 12 | +1d8 (avg. +3.5) |
+| Mana | 1d10 (avg. 5.5) | +1d5 (avg. +3) |
 
 ## Skills
 

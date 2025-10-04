@@ -24,43 +24,21 @@ Versatile traveller that can specialize in almost every combat and magic skill.
 - Gains extra score by taking selfies with different types of monsters
 - Special achievement is to take a selfie with Demogorgon
 
-## Intrinsics
+## Intrinsic Abilities
 
-### Level 9
+| Level | Intrinsic Abilities |
+| :---: | :--------- |
+| 9 | Searching |
+| 14 | Sickness resistance |
+| 19 | Poison resistance |
+| 24 | See invisible |
 
-- Searching
+## Hit Points and Mana
 
-### Level 14
-
-- Sickness resistance
-
-### Level 19
-
-- Poison resistance
-
-### Level 24
-
-- See invisible
-
-## Hit Points
-
-### Starting Hit Points
-
-12
-
-### Hit Points per Experience Level
-
-1d6 (avg. 3.5)
-
-## Mana
-
-### Starting Mana
-
-1d8 (avg. 4.5)
-
-### Mana per Level
-
-1d4 (avg. 2.5)
+| Stat | Starting Value | Increase Per Level |
+| :--- | :------------: | :----------------: |
+| Hit points | 12 | +1d6 (avg. +3.5) |
+| Mana | 1d8 (avg. 4.5) | +1d4 (avg. +2.5) |
 
 ## Skills
 

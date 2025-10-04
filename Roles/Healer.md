@@ -23,39 +23,20 @@ Rich physician, adept at healing spells.
 - Gains extra score from learnt spells of unrestricted schools
 - Special achievement is to successfully cast a healing or abjuration spell of level 9 or higher
 
-## Intrinsics
+## Intrinsic Abilities
 
-### Level 1
+| Level | Intrinsic Abilities |
+| :---: | :--------- |
+| 1 | Poison resistance |
+| 7 | Lycanthropy resistance |
+| 14 | Sickness resistance |
 
-* Poison resistance
+## Hit Points and Mana
 
-### Level 7
-
-* Lycanthropy resistance
-
-### Level 14
-
-* Sickness resistance
-
-## Hit Points
-
-### Starting Hit Points
-
-11
-
-### Hit Points per Experience Level
-
-1d7 (avg. 4)
-
-## Mana
-
-### Starting Mana
-
-2d6 (avg. 7.0)
-
-### Mana per Level
-
-1d6 (avg. 3.5)
+| Stat | Starting Value | Increase Per Level |
+| :--- | :------------: | :----------------: |
+| Hit points | 11 | +1d7 (avg. +4) |
+| Mana | 2d6 (avg. 7) | +1d6 (avg. +3.5) |
 
 ## Skills
 

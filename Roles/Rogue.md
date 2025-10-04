@@ -25,35 +25,19 @@ Versatile warrior, adept at melee and ranged combat and at disarming traps.
 - Gains extra score from gold and gems
 - Special achievement is to defeat Croesus
 
-## Intrinsics
+## Intrinsic Abilities
 
-### Level 1
+| Level | Intrinsic Abilities |
+| :---: | :--------- |
+| 1 | Stealth |
+| 10 | Searching |
 
-- Stealth
+## Hit Points and Mana
 
-### Level 10
-
-- Searching
-
-## Hit Points
-
-### Starting Hit Points
-
-10
-
-### Hit Points per Experience Level
-
-1d8 (avg. 4.5)
-
-## Mana
-
-### Starting Mana
-
-1d6 (avg. 3.5)
-
-### Mana per Level
-
-1d3 (avg. 2.0)
+| Stat | Starting Value | Increase Per Level |
+| :--- | :------------: | :----------------: |
+| Hit points | 10 | +1d8 (avg. +4.5) |
+| Mana | 1d6 (avg. 3.5) | +1d3 (avg. +2) |
 
 ## Skills
 
