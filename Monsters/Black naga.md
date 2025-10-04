@@ -37,7 +37,7 @@ St:18/** Dx:16 Co:17 In:15 Wi:17 Ch:14
 ## Corpse properties
 
 1. Acidic
-2. May confer wisdom
+2. May confer wisdom (11%)
 3. May confer poison resistance
 
 ## Picture

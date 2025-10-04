@@ -39,7 +39,7 @@ St:25 Dx:14 Co:25 In:10 Wi:8 Ch:7
 
 1. Zombifiable
 2. Mummifiable
-3. May confer strength
+3. May confer strength (50%)
 
 ## Picture
 

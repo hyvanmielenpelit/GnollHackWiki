@@ -56,7 +56,7 @@ St:25 Dx:18 Co:25 In:3 Wi:3 Ch:1
 
 1. Reviving corpse
 2. Poisonous
-3. May confer constitution
+3. May confer constitution (30%)
 
 ## Picture
 

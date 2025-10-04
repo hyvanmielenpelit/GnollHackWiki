@@ -31,7 +31,7 @@ St:7 Dx:13 Co:8 In:11 Wi:12 Ch:16
 
 ## Corpse properties
 
-1. May confer charisma
+1. May confer charisma (25%)
 
 ## Picture
 

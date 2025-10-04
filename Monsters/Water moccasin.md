@@ -35,7 +35,7 @@ St:7 Dx:12 Co:7 In:2 Wi:2 Ch:1
 ## Corpse properties
 
 1. Poisonous
-2. May confer dexterity
+2. May confer dexterity (10%)
 3. May confer poison resistance
 
 ## Picture

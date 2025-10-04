@@ -33,7 +33,7 @@ St:19 Dx:12 Co:23 In:9 Wi:8 Ch:15
 
 ## Corpse properties
 
-1. May confer constitution
+1. May confer constitution (25%)
 
 ## Picture
 

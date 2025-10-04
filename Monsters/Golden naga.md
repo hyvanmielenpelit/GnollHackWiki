@@ -35,7 +35,7 @@ St:19 Dx:16 Co:18 In:15 Wi:18 Ch:15
 
 ## Corpse properties
 
-1. May confer wisdom
+1. May confer wisdom (18%)
 2. May confer poison resistance
 
 ## Picture

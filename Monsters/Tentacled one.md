@@ -39,7 +39,7 @@ St:14 Dx:15 Co:15 In:20 Wi:16 Ch:10
 
 ## Corpse properties
 
-1. May confer intelligence
+1. May confer intelligence (25%)
 
 ## Picture
 

@@ -52,7 +52,7 @@ St:18 Dx:18 Co:19 In:24 Wi:18 Ch:8
 ## Corpse properties
 
 1. Infected with terminal illness
-2. May confer intelligence
+2. May confer intelligence (25%)
 3. May confer 50% fire resistance
 4. May confer 50% cold resistance
 

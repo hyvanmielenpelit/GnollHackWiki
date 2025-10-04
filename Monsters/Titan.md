@@ -35,11 +35,11 @@ St:25 Dx:18 Co:24 In:19 Wi:19 Ch:24
 
 ## Corpse properties
 
-1. May confer strength
-2. May confer constitution
-3. May confer intelligence
-4. May confer wisdom
-5. May confer charisma
+1. May confer strength (50%)
+2. May confer constitution (50%)
+3. May confer intelligence (50%)
+4. May confer wisdom (50%)
+5. May confer charisma (50%)
 
 ## Picture
 

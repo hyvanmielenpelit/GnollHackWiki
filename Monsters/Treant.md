@@ -32,7 +32,7 @@ St:18 Dx:9 Co:18 In:12 Wi:18 Ch:16
 
 ## Corpse properties
 
-1. May confer wisdom
+1. May confer wisdom (7%)
 
 ## Picture
 

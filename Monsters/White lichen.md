@@ -35,7 +35,7 @@ St:7 Dx:7 Co:18 In:1 Wi:1 Ch:1
 ## Corpse properties
 
 1. Non-rotting corpse
-2. May confer intelligence
+2. May confer intelligence (2%)
 
 ## Picture
 

@@ -37,7 +37,7 @@ St:18 Dx:12 Co:15 In:2 Wi:2 Ch:1
 
 ## Corpse properties
 
-1. May confer dexterity
+1. May confer dexterity (10%)
 
 ## Picture
 
