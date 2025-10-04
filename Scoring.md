@@ -25,10 +25,10 @@ The scoring system has been designed so that your current score can be shown at 
 
 Contrary to NetHack, you do not get score from:
 
-1. Artifacts — Unless you have [[/Roles/Archaeologist]].
-2. Amulets — Unless you have [[/Roles/Caveman]].
-3. Gold pieces — Unless you have [[/Roles/Rogue]].
-4. Gems — Unless you have [[/Roles/Rogue]].
+1. Artifacts — Unless you are [[/Roles/Archaeologist]].
+2. Amulets — Unless you are [[/Roles/Caveman]].
+3. Gold pieces — Unless you are [[/Roles/Rogue]].
+4. Gems — Unless you are [[/Roles/Rogue]].
 
 ## 2. Calculating Score
 
