@@ -16,9 +16,9 @@
 4. Enlightenment when invoked
     * Repowers over 40 rounds
 5. Intelligent
-6. X-ray vision when worn
+6. Extended X-ray vision when worn
 7. Blocks blindness when worn
 
 ## Notes
 
-The Eyes of the Overworld is Monk Quest Artifact.
+The Eyes of the Overworld is Monk Quest Artifact. Extended X-ray vision confers a distance of 6 instead of normal 4.
