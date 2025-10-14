@@ -16,6 +16,16 @@
 
 ## Debugging
 
+### Debugging Properties
+
+You need to set a few debugging properties in **GnollHack → Properties**:
+
+- In **Debugging**:
+    - **Working Directory** should be `$(BinDir)`.
+    - If you want to debug in [[Wizard Mode]], you should set **Command Arguments** to `-D -u wizard`.
+
+### Start Debugging
+
 After building the solution according to the above instructions (using the **Debug** solution configuration):
 
 1. Set **GnollHack** as **startup project**.
