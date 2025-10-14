@@ -13,21 +13,22 @@ GnollHack can be built for several platforms using either a Linux or Windows dev
 
 ## Supported Platforms
 
-| Platform | Technology | CPU Architectures | Executable | Emulator Support<sup>1</sup> |  Status |
-|:---------|:-----------|:------------------|:-----------|:-----------------------------|:--------|
-| Android | Xamarin.Forms | Arm64 | N/A | Yes, but may have odd behavior or crash | Legacy |
-| **Android** | **.NET MAUI** | **Arm64, x64<sup>2</sup>** | **N/A** | **Yes, but may have odd behavior or crash** | **Current** | 
-| iOS | Xamarin.Forms | Arm64 | N/A | Yes, but may have odd behavior or crash | Legacy |
-| **iOS** | **.NET MAUI** | **Arm64** | **N/A** | **Yes, but may have odd behavior or crash** | **Current** |
-| Windows | ASCII | x64 | GnollHack.exe | Yes | Legacy | 
-| Windows | ComCtl32 Controls | x64 | GnollHackW.exe | Yes | Legacy | 
-| **Windows** | **.NET MAUI** | **x64, (Arm64<sup>3</sup>)** | **GnollHackM.exe** | **No<sup>4</sup>** | **Current** |
-| **Linux** | **ASCII** | **x64** | **gnollhack** | **N/A** | **Current** |
+| Platform | Technology | CPU Architectures | Solution | Projects | Emulator Support<sup>1</sup> |  Status |
+|:---------|:-----------|:------------------|:---------|:---------|:-----------------------------|:--------|
+| Android | Xamarin.Forms | Arm64 | GnollHack | GnollHackX, GnollHackX.Android | Yes, but may have odd behavior or crash | Legacy |
+| **Android** | **.NET MAUI** | **Arm64, x64<sup>2</sup>** | **GnollHackM** | **GnollHackM** | **Yes, but may have odd behavior or crash** | **Current** | 
+| iOS | Xamarin.Forms | Arm64 | GnollHack | GnollHackX, GnollHackX.iOS | Yes, but may have odd behavior or crash | Legacy |
+| **iOS** | **.NET MAUI** | **Arm64** | **GnollHackM** | **GnollHackM** | **Yes, but may have odd behavior or crash** | **Current** |
+| Windows | ASCII | x64 | GnollHack | GnollHack | Yes | Legacy | 
+| Windows | ComCtl32 Controls | x64 | GnollHack | GnollHackW | Yes | Legacy | 
+| **Windows** | **.NET MAUI** | **x64, (Arm64<sup>3</sup>)** | **GnollHackM** | **GnollHackM** | **No<sup>4</sup>** | **Current** |
+| **Linux** | **ASCII** | **x64** | **N/A<sup>5</sup>** | **N/A<sup>5</sup>** | **N/A** | **Current** |
 
 - <sup>1</sup> Emulator support refers to the fact that if the port is supported by popular cross-operating-system emulators.
 - <sup>2</sup> Android x64 binaries are used by Android emulators running on a Windows machine with an x64 CPU, such as Google Games for PC emulator.
 - <sup>3</sup> .NET MAUI supports Arm64 on Windows but we have not built Arm64 binaries, because we do not have a Windows test device with an Arm64 CPU.
 - <sup>4</sup> GnollHack's modern Windows port (.NET MAUI) doesn't run on Wine or Proton, because they don't have support for running WinUI 3 apps.
+- <sup>5</sup> The Linux version is built on Linux as described in [[Build Instructions for ASCII Version on Linux]].
 
 ### Other Platforms
 
