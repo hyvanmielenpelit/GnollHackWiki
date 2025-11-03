@@ -5,6 +5,7 @@
 GnollHack can be built for several platforms using either a Linux or Windows development machine.
 
 * [[Repository Structure]]
+* [[Related Repositories]]
 * [[Overview of Building GnollHack with .NET MAUI]] — Please read this first before building anything with .NET MAUI.
 * [[Troubleshooting Building GnollHack with .NET MAUI]]
 * [[Instructions for Developing GnollHackM Project (.NET MAUI)]]
