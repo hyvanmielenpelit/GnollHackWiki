@@ -11,4 +11,4 @@
 
 ## Description
 
-Edible mushroom
+Edible mushroom. Cures teleportitis.

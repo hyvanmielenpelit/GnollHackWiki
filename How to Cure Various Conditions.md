@@ -61,3 +61,7 @@ Note that once the stoning process has started putting on an item that protects 
 ## Polymorph (Pet)
 
 - You can cancel your pet with a [[/Items/wand of cancellation]] to return it to its normal form.
+
+## Teleporitis
+
+If you acquire teleportitis (random teleporting around) from a [[/Monsters/Leprechaun]], you can cure it by eating a [[/Items/Chanterelle]].
