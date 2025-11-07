@@ -64,4 +64,4 @@ Note that once the stoning process has started putting on an item that protects 
 
 ## Teleportitis
 
-If you acquire teleportitis (random teleporting around) from a [[/Monsters/Leprechaun]], you can cure it by eating a [[/Items/Chanterelle]].
+If you acquire teleportitis (random teleporting around) from a [[/Monsters/Leprechaun]] or a [[/Monsters/Tengu]], you can cure it by eating a [[/Items/Chanterelle]].
