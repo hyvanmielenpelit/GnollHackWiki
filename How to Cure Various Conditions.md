@@ -62,6 +62,6 @@ Note that once the stoning process has started putting on an item that protects 
 
 - You can cancel your pet with a [[/Items/wand of cancellation]] to return it to its normal form.
 
-## Teleporitis
+## Teleportitis
 
 If you acquire teleportitis (random teleporting around) from a [[/Monsters/Leprechaun]], you can cure it by eating a [[/Items/Chanterelle]].
