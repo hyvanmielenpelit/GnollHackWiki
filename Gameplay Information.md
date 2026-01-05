@@ -21,6 +21,7 @@
 * [[Encumbrance]] — Learn about the encumbrance system in GnollHack.
 * [[Armor Class (AC) and Magic Cancellation (MC)]] — Learn about how AC and MC work in GnollHack.
 * [[Equipment Slots]] — Learn about which slots you have available for equipping items.
+* [[Equipment Screen]] — GnollHack has an *equipment screen* behind a **flip button** in the **inventory screen**.
 
 ## Items
 
