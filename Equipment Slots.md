@@ -8,9 +8,9 @@ There are 22 equipment slots in GnollHack. Every equipment slot has an icon, whi
 | **Left Swap Weapon**<sup>1, 3</sup> | ![inventory-icon-swapweapon-left](/uploads/Equipment%20Slots/inventory-icon-swapweapon-left.webp) | Secondary off-hand weapon, shield, any item<sup>4</sup> |
 | **Quiver** | ![inventory-icon-quiver](/uploads/Equipment%20Slots/inventory-icon-quiver.webp) | Arrows, bolts, and sling stones |
 | **Amulet** | ![inventory-icon-amulet](/uploads/Equipment%20Slots/inventory-icon-amulet.webp) | |
-| **Suit** | ![inventory-icon-suit](/uploads/Equipment%20Slots/inventory-icon-suit.webp) | Worn over a shirt. Its AC and MC don't stack with a robe's. |
+| **Suit** | ![inventory-icon-suit](/uploads/Equipment%20Slots/inventory-icon-suit.webp) | Worn over a shirt. Its AC and MC don't stack with those of a robe. |
 | **Cloak** | ![inventory-icon-cloak](/uploads/Equipment%20Slots/inventory-icon-cloak.webp) | Worn over a shirt, a suit, and a robe. |
-| **Robe** | ![inventory-icon-robe](/uploads/Equipment%20Slots/inventory-icon-robe.webp) | Worn over a shirt and a suit. Its AC and MC don't stack with a suit's. |
+| **Robe** | ![inventory-icon-robe](/uploads/Equipment%20Slots/inventory-icon-robe.webp) | Worn over a shirt and a suit. Its AC and MC don't stack with those of a suit. |
 | **Shirt** | ![inventory-icon-shirt](/uploads/Equipment%20Slots/inventory-icon-shirt.webp) | |
 | **Helmet** | ![inventory-icon-helmet](/uploads/Equipment%20Slots/inventory-icon-helmet.webp) | |
 | **Gloves** | ![inventory-icon-gloves](/uploads/Equipment%20Slots/inventory-icon-gloves.webp) | Worn over both rings. |
