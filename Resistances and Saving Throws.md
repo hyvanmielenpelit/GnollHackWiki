@@ -117,8 +117,8 @@ Magic Cancellation protects you from *magical or semi-magical touch attacks*. Yo
 
 The Magic Cancellation formula is the following:
 
-| MC | Success Chance |
-|:--:|:--------------:|
+| MC | Chance to Resist |
+|:--:|:------:|
 | 0 | 0% |
 | 1 | 10% |
 | 2 | 20% |
