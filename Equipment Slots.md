@@ -1,4 +1,4 @@
-There are 22 equipment slots in GnollHack.
+There are 22 equipment slots in GnollHack. Every equipment slot has an icon, which is visible in the inventory on the right-hand side of every item row, when the item is equipped. You can also find the icons in the [[Equipment Screen]]. 
 
 | Equipment Slot | Icon | Description |
 | :------------- | ---- | :---------- |
