@@ -24,7 +24,7 @@ There are 22 equipment slots in GnollHack.
 - <sup>1</sup> Two-handed weapons require both hand slots to use.
 - <sup>2</sup> Main weapon slots are usually used for melee weapons.
 - <sup>3</sup> Swap weapon slots are usually used for ranged weapons, such as bows.
-- <sup>4</sup> You can wield almost any item. For example, you can wield a potion, to smash it onto a monster.
+- <sup>4</sup> You can wield almost any item. For example, you can wield a potion to smash it onto a monster.
 - <sup>5</sup> Miscellaneous item slots are:
     - Belt
     - Brooch
