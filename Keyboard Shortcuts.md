@@ -34,6 +34,17 @@
 - <sup>1</sup> Number of actions works like this: You first press `n`, then write the number of actions in numerals, and then choose the action. For example, `n20s` searches 20 times.
 
 
+## Double Modifier Commands Bound to Letters
+
+- Commands in *italic* are new commands in GnollHack that do not appear in NetHack.
+
+| Shift + Alt + Key | Shift + Alt + Key Command |
+| :---------------: | :------------------------ |
+| *Alt-P* | *Apply Wielded Polearm*<sup>1</sup> |
+
+- <sup>1</sup> The polearm can also be a swap weapon.
+
+
 ## Other Commands
 
 - Commands in *italic* are new commands in GnollHack that do not appear in NetHack.
