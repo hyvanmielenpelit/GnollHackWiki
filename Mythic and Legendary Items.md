@@ -30,11 +30,11 @@
 
 ### Suffixes
 
-- **of banishment:** (W) Triple damage against undead and demons
+- **of banishment:** (W) Triple damage against undead and demons *(bludgeoning weapons only)*
 - **of cockatrice slaying:** Triple damage against cockatrices, petrification resistance
 - **of defense:** Enchantment provides AC and MC bonus
 - **of demon slaying:** Triple damage against demons
-- **of disruption:** Triple damage against undead
+- **of disruption:** Triple damage against undead *(bludgeoning weapons only)*
 - **of dragon slaying:** Triple damage against dragons
 - **of free action:** Confers free action
 - **of giant slaying:** Triple damage against giants
@@ -43,11 +43,11 @@
 - **of ogre slaying:** Triple damage against ogres
 - **of reach:** Has extended range *(polearms, spears, and lances only)*
 - **of returning:** Returns to hand after being thrown *(thrown weapons only)*
-- **of sharpness:** Has 15% chance of dealing damage equal to 15% of max HP
+- **of sharpness:** Has 15% chance of dealing damage equal to 15% of max HP *(slashing weapons only)*
 - **of speed:** Very fast speed
 - **of the Last Alliance:** (W) Triple damage against orcs, ogres, giants, and trolls, and prevents troll revival
 - **of troll slaying:** Triple damage against trolls, prevents troll revival
-- **of wounding:** Causes permanent damage equal to 1d4 + enchantment
+- **of wounding:** Causes permanent damage equal to 1d4 + enchantment *(slashing and piercing weapons only)*
 
 ## Armor
 

@@ -5,7 +5,7 @@
 | Key | Key Command | Shift + Key | Shift + Key Command | Alt + Key | Alt + Key Command | Ctrl + Key | Ctrl + Key Command |
 | :-: | :------ | :-: | :---------- | :-: | :--------- | :-: | :-------- |
 | a | Apply | *A* | *Abilities (status screen)* | Alt-a | Adjust | Ctrl-a | Repeat |
-| *b* | *Take items out of **b**ag in inventory* | *B* | *Put items into **B**ag in inventory* | Alt-b |  | *Ctrl-b* | *Break* |
+| *b* | *Take items out of **b**ag in inventory* | *B* | *Put items into **B**ag in inventory* | Alt-b | *Toggle hitpoint bars* _(legacy GUI only)_ | *Ctrl-b* | *Break* |
 | c | Close door | C | Chat | Alt-c | Commands menu | Ctrl-c |  |
 | d | Drop | D | Drop multiple | Alt-d | Dip | Ctrl-d | Kick |
 | e | Eat | E | Engrave | Alt-e | Wipe face | Ctrl-e | Detect _(wizard mode only)_ |
@@ -16,19 +16,19 @@
 | j | Jump | J |  | Alt-j | Jump | Ctrl-j |  |
 | k | Kick | K |  | *Alt-k* | *Vanquished creatures* | Ctrl-k |  |
 | l | Loot | L | Look | Alt-l | Loot | *Ctrl-l* | *Light/Snuff out* |
-| m | Move mode — Rush | M | Move mode — Run | Alt-m | Use monster ability | Ctrl-m |  |
+| m | Move mode — Rush | M | Move mode — Run | Alt-m | Genesis _(wizard mode only)_ | Ctrl-m |  |
 | n | Number of actions<sup>1</sup> | N | Name | Alt-n | Name | Ctrl-n | Annotate dungeon level |
 | o | Open door | O | Options | Alt-o | Offer sacrifice | Ctrl-o | Dungeon overview |
-| p | Pay bill | P | Put on | Alt-p | Pray | Ctrl-p |  |
+| p | Pay bill | P | Put on | Alt-p | Pray | Ctrl-p | Previous message |
 | q | Drink (quaff) | Q | Quiver | Alt-q | Quit | Ctrl-q |  |
 | r | Read | R | Remove | Alt-r | Rub | Ctrl-r | Redraw screen |
 | s | Search | S | Skills | Alt-s | Save | Ctrl-s | Sit |
 | t | Throw | T | Take off | Alt-t | Take off many | Ctrl-t | Teleport |
 | u | Untrap | U |  | Alt-u | Untrap | Ctrl-u |  |
 | v | Version info | V | Game history info | Alt-v | GnollHack library info | Ctrl-v | Level teleport _(wizard mode only)_ |
-| w | Wield weapon | W | Wear armor | Alt-w | | Ctrl-w | Wish _(wizard mode only)_ |
+| w | Wield weapon | W | Wear armor | Alt-w | *Wear many* | Ctrl-w | Wish _(wizard mode only)_ |
 | x | Swap weapons | *X* | *Mix spells* | *Alt-x* | *Examine* | *Ctrl-x* | *Dual weapon mode* |
-| *y* | *Take loot out of container on floor (**y**ank)* | *Y* | *Put loot into container on floor (**Y**ank)* | Alt-y |  | *Ctrl-y* | *Yell for pets* |
+| *y* | *Take loot out of container on floor (**y**ank)* | *Y* | *Put loot into container on floor (**Y**ank)* | Alt-y | *Yell for pets* | *Ctrl-y* | *Yell for pets* |
 | z | Zap wand | Z | Cast spell | *Alt-z* | *View spell* | Ctrl-z |  |
 
 - <sup>1</sup> Number of actions works like this: You first press `n`, then write the number of actions in numerals, and then choose the action. For example, `n20s` searches 20 times.
@@ -40,7 +40,9 @@
 
 | Shift + Alt + Key | Shift + Alt + Key Command |
 | :---------------: | :------------------------ |
+| *Alt-M* | *Use monster ability* |
 | *Alt-P* | *Apply Wielded Polearm*<sup>1</sup> |
+| *Alt-W* | *Wield a previously wielded weapon* |
 
 - <sup>1</sup> The polearm can also be a swap weapon.
 
