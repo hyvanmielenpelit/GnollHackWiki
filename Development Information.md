@@ -28,6 +28,12 @@ GnollHack can be built for several platforms using either a Linux or Windows dev
 - <sup>4</sup> May have odd behavior or crash.
 - <sup>5</sup> GnollHack's modern Windows port (.NET MAUI) doesn't run on Wine or Proton, because they don't have support for running WinUI 3 apps.
 
+#### Support for Other Platforms
+
+- Support for **macOS** using **.NET MAUI / Mac Catalyst** or **Avalonia UI** is coming in the future, but it may take a while.
+- **Linux** support for the modern client is coming in the future using **Avalonia UI**, but the technology is not ready yet, so we need to wait.
+- At the moment, we don't plan to support _gaming consoles_ or _controllers_, such as Steam Deck.
+
 ### Legacy Clients
 
 | Platform | Technology | CPU Arch | Solution | Projects | Emulator Support<sup>1</sup> |
@@ -42,12 +48,6 @@ GnollHack can be built for several platforms using either a Linux or Windows dev
 - <sup>2</sup> The Linux version is built on Linux as described in [[Build Instructions for ASCII Version on Linux]].
 - <sup>3</sup> May have odd behavior or crash.
   
-### Support for Other Platforms
-
-- Support for **macOS** using **.NET MAUI / Mac Catalyst** or **Avalonia UI** is coming in the future, but it may take a while.
-- **Linux** support for the modern client is coming in the future using **Avalonia UI**, but the technology is not ready yet, so we need to wait.
-- At the moment, we don't plan to support _gaming consoles_ or _controllers_, such as Steam Deck.
-
 ## Easy Build Repository
 
 * [GnollHackMAUIEasyBuild Repository](https://github.com/hyvanmielenpelit/GnollHackMAUIEasyBuild) — Build GnollHack's modern ports (.NET MAUI) with ease. This repository exists only for bug reporting purposes. If you are building GnollHack, you should always use the main GnollHack repository.
