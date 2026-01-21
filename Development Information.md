@@ -50,7 +50,7 @@ GnollHack can be built for several platforms using either a Linux or Windows dev
 
 ## Easy Build Repository
 
-* [GnollHackMAUIEasyBuild Repository](https://github.com/hyvanmielenpelit/GnollHackMAUIEasyBuild) — Build GnollHack's modern ports (.NET MAUI) with ease
+* [GnollHackMAUIEasyBuild Repository](https://github.com/hyvanmielenpelit/GnollHackMAUIEasyBuild) — Build GnollHack's modern ports (.NET MAUI) with ease. This repository exists only for bug reporting purposes. If you are building GnollHack, you should always use the main GnollHack repository.
 
 ## Windows Development Machine
 
