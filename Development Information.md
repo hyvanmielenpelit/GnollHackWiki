@@ -14,29 +14,39 @@ GnollHack can be built for several platforms using either a Linux or Windows dev
 
 ## Supported Platforms
 
-| Platform | Technology | CPU Arch | Solution | Projects | Emulator Support<sup>1</sup> |  Status |
-|:---------|:-----------|:------------------|:---------|:---------|:-----------------------------|:--------|
-| Android | Xamarin.Forms | Arm64 | GnollHack | GnollHackX, GnollHackX.Android | Yes<sup>6</sup> | Legacy |
-| **Android** | **.NET MAUI** | **Arm64, x64<sup>2</sup>** | **GnollHackM** | **GnollHackM** | **Yes<sup>6</sup>** | **Current** | 
-| iOS | Xamarin.Forms | Arm64 | GnollHack | GnollHackX, GnollHackX.iOS | Yes<sup>6</sup> | Legacy |
-| **iOS** | **.NET MAUI** | **Arm64** | **GnollHackM** | **GnollHackM** | **Yes<sup>6</sup>** | **Current** |
-| Windows | ASCII | x64 | GnollHack | GnollHack | Yes | Legacy | 
-| Windows | ComCtl32 Controls | x64 | GnollHack | GnollHackW | Yes | Legacy | 
-| **Windows** | **.NET MAUI** | **x64, (Arm64<sup>3</sup>)** | **GnollHackM** | **GnollHackM** | **No<sup>4</sup>** | **Current** |
-| **Linux** | **ASCII** | **x64** | **N/A<sup>5</sup>** | **N/A<sup>5</sup>** | **N/A** | **Current** |
+### Modern Client
+
+| Platform | Technology | CPU Arch | Solution | Projects | Emulator Support<sup>1</sup> |
+|:---------|:-----------|:---------|:---------|:---------|:----------------------------:|
+| Android | .NET MAUI | Arm64, x64<sup>2</sup> | GnollHackM | GnollHackM | Yes<sup>4</sup> |
+| iOS | .NET MAUI | Arm64 | GnollHackM | GnollHackM | Yes<sup>4</sup> |
+| Windows | .NET MAUI | x64, (Arm64<sup>3</sup>) | GnollHackM | GnollHackM | No<sup>5</sup> |
 
 - <sup>1</sup> Emulator support refers to the fact that if the port is supported by popular cross-operating-system emulators.
 - <sup>2</sup> Android x64 binaries are used by Android emulators running on a Windows machine with an x64 CPU, such as Google Games for PC emulator.
 - <sup>3</sup> .NET MAUI supports Arm64 on Windows but we have not built Arm64 binaries, because we do not have a Windows test device with an Arm64 CPU.
-- <sup>4</sup> GnollHack's modern Windows port (.NET MAUI) doesn't run on Wine or Proton, because they don't have support for running WinUI 3 apps.
-- <sup>5</sup> The Linux version is built on Linux as described in [[Build Instructions for ASCII Version on Linux]].
-- <sup>6</sup> May have odd behavior or crash.
+- <sup>4</sup> May have odd behavior or crash.
+- <sup>5</sup> GnollHack's modern Windows port (.NET MAUI) doesn't run on Wine or Proton, because they don't have support for running WinUI 3 apps.
 
-### Other Platforms
+### Legacy Clients
 
-- Support for **macOS** using **.NET MAUI / Mac Catalyst** is coming in the future, but it may take a while.
-- We don't plan to port our modern GUI to **Linux**, because .NET MAUI doesn't support Linux.
-- We don't plan to support _gaming consoles_ or _controllers_, such as Steam Deck.
+| Platform | Technology | CPU Arch | Solution | Projects | Emulator Support<sup>1</sup> |
+|:---------|:-----------|:---------|:---------|:---------|:----------------------------:|
+| Android | Xamarin.Forms | Arm64 | GnollHack | GnollHackX, GnollHackX.Android | Yes<sup>3</sup> |
+| iOS | Xamarin.Forms | Arm64 | GnollHack | GnollHackX, GnollHackX.iOS | Yes<sup>3</sup> |
+| Windows | ASCII | x64 | GnollHack | GnollHack | Yes |
+| Windows | ComCtl32 Controls | x64 | GnollHack | GnollHackW | Yes |
+| Linux | ASCII | x64 | N/A<sup>2</sup> | N/A<sup>2</sup> | N/A |
+
+- <sup>1</sup> Emulator support refers to the fact that if the port is supported by popular cross-operating-system emulators.
+- <sup>2</sup> The Linux version is built on Linux as described in [[Build Instructions for ASCII Version on Linux]].
+- <sup>3</sup> May have odd behavior or crash.
+  
+### Support for Other Platforms
+
+- Support for **macOS** using **.NET MAUI / Mac Catalyst** or **Avalonia UI** is coming in the future, but it may take a while.
+- **Linux** support for the modern client is coming in the future using **Avalonia UI**, but the technology is not ready yet, so we need to wait.
+- At the moment, we don't plan to support _gaming consoles_ or _controllers_, such as Steam Deck.
 
 ## Easy Build Repository
 
