@@ -38,3 +38,9 @@
 1. AI generated 3D models will not be used in the game.
 2. AI generated 3D models may be used in non-game content, such as advertising.
 3. 3D artists *can* use AI to help their work, but it is not required.
+
+## AI Code
+
+1. AI is used as a coding helping tool by programmers.
+2. AI may also be used for profiling insights, enhanced debugging workflows, and similar tasks.
+3. AI is integrated in our development environments and development tools.
