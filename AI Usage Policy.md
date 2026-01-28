@@ -9,7 +9,7 @@
 ## AI Text
 
 1. AI generated text will not be used in the game.
-2. AI generated text can be used in non-game content, such as in advertising.
+2. AI generated text can be used in non-game content, such as advertising.
 3. Marketeers *can* use AI to help their work, but it is not required.
 
 ## AI Voices
