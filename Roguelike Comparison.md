@@ -1,4 +1,4 @@
-Please see the table below for the comparison of:
+Please see the table below for a comparison of:
 - [NetHack](https://www.nethack.org/)
 - [GnollHack](https://gnollhack.com/)
 - [Pathos](https://pathos.azurewebsites.net/)
