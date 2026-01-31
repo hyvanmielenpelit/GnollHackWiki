@@ -4,4 +4,4 @@ Please see the table below for a comparison of:
 - [Pathos](https://pathos.azurewebsites.net/)
 - [Shattered Pixel Dungeon](https://shatteredpixel.com/)
 
-![Roguelikes comparison](/uploads/Roguelike%20Comparison/roguelikes-comparison-v4.webp)
+![Roguelikes comparison](/uploads/Roguelike%20Comparison/roguelikes-comparison-v5.webp)
