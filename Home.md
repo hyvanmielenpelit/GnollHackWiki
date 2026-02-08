@@ -19,8 +19,6 @@ GnollHack is a traditional roguelike, being based on the game design of [Rogue](
 - A great number of different game mechanics
 - High fantasy world
 
-You can see how GnollHack compares to NetHack, Pathos, and Shattered Pixel Dungeon [[here|Roguelike Comparison]].
-
 ### NetHack Variant
 
 GnollHack is also a true [NetHack](https://en.wikipedia.org/wiki/NetHack) variant that retains most of its mechanics, complexity, and spirit, while adding new features. GnollHack is aimed at making NetHack more beginner-friendly while at the same time trying to keep the game interesting for veterans, especially in the late game. In this regard, GnollHack introduces:
@@ -55,6 +53,10 @@ GnollHack is an open-source game, based on NetHack's source code. This means tha
 - GnollHack's graphics and sounds are licensed under Creative Commons Attribution-NonCommercial 4.0 International Public License.
 
 GnollHack is developed by [Sound Mind Games](https://soundmindgames.org), a nonprofit organization based in Finland, working in the fields of gaming and mental health.
+
+## Comparison to Other Games
+
+- **[[Roguelike Comparison]]** — Find out how GnollHack compares to *NetHack*, *Pathos*, and *Shattered Pixel Dungeon*
 
 ## Getting Started
 
