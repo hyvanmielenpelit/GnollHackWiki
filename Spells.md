@@ -2,21 +2,20 @@
 
 ## Spell Schools
 
-* [[Abjuration Spells]] — Int/Wis, Non-somatic
-* [[Arcane Spells]] — Int, Somatic
-* [[Celestial Spells]] — Wis/Cha, Non-somatic
-* [[Clerical Spells]] — Wis/Cha, Non-somatic
-* [[Conjuration Spells]] — Int/Cha, Somatic
-* [[Divination Spells]] — Int/Wis/Cha (Any), Non-somatic
-* [[Enchantment Spells]] — Int/Cha, Non-Somatic
-* [[Healing Spells]] — Wis, Non-somatic
-* [[Movement Spells]] — Int/Wis, Somatic
-* [[Nature Spells]] — Wis/Cha, Non-Somatic
-* [[Necromancy Spells]] — Wis/Cha, Non-somatic
-* [[Transmutation Spells]] — Int/Wis/Cha (Any), Somatic
+| Spell School | Spell Casting Stat | Are Spells Somatic?<sup>1</sup> |
+| :----------- | :----------------: | :-----------------------------: |
+| [[Abjuration Spells]] | Int/Wis | No |
+| [[Arcane Spells]] | Int | Yes |
+| [[Celestial Spells]] | Wis/Cha | No |
+| [[Clerical Spells]] | Wis/Cha | No |
+| [[Conjuration Spells]] | Int/Cha | Yes |
+| [[Divination Spells]] | Int/Wis/Cha (Any) | No |
+| [[Enchantment Spells]] | Int/Cha | No |
+| [[Healing Spells]] | Wis | No |
+| [[Movement Spells]] | Int/Wis | Yes |
+| [[Nature Spells]] | Wis/Cha | No |
+| [[Necromancy Spells]] | Wis/Cha | No |
+| [[Transmutation Spells]] | Int/Wis/Cha (Any)| Yes |
 
-## Schools by Somatic
-
-* 8 non-somatic schools (can use armor while casting spells)
-* 4 somatic schools (armor hinders casting spells)
+- <sup>1</sup> Casting of *somatic spells* is hindered by armor
 
