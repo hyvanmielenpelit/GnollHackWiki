@@ -79,12 +79,36 @@
 | ← | `←` | Ctrl + ← | `↖` | Alt + ← | `↙` |
 | → | `→` | Ctrl + → | `↗` | Alt + → | `↘` |
 
+Please see the table below for how the keys map by direction:
+
+<table>
+<tbody>
+<tr><td><center><code>Ctrl + ↑</code><br /><code>Ctrl + ←</code></center></td><td><code>↑</code></td><td><center><code>Alt + ↑</code><br /><code>Ctrl + →</code></center></td></tr>
+<tr><td><center><code>←</code></center></td><td>&nbsp;</td><td><center><code>→</code></center></td></tr>
+<tr><td><center><code>Ctrl + ↓</code><br /><code>Alt + ←</code></center></td><td><code>↓</code></td><td><center><code>Alt + ↓</code><br /><code>Alt + →</code></center></td></tr>
+</tbody>
+</table>
+
+
 ## Movement by Number Pad
 
 While **Num Lock** is **on**, you can use the number pad for movement. 
 
 - 1–4, 6–9 for directions.
 - 5 in the middle enables run mode.
+
+## Regular Number Keys
+
+The directions work also without a number pad with regular number keys:
+
+<table>
+<tbody>
+<tr><td><code>7</code></td><td><code>8</code></td><td><code>9</code></td></tr>
+<tr><td><code>4</code></td><td><code>5</code></td><td><code>6</code></td></tr>
+<tr><td><code>1</code></td><td><code>2</code></td><td><code>3</code></td></tr>
+</tbody>
+</table>
+
 
 ## Vi-Keys
 
