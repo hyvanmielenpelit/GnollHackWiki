@@ -95,7 +95,7 @@ Please see the table below for how the keys map by direction:
 While **Num Lock** is **on**, you can use the number pad for movement. 
 
 - 1–4, 6–9 for directions.
-- 5 in the middle enables run mode.
+- 5 in the middle enables the run mode.
 
 ## Movement by Regular Number Keys
 
@@ -108,6 +108,8 @@ The directions work also without a number pad with regular number keys:
 <tr><td><code>1</code></td><td><code>2</code></td><td><code>3</code></td></tr>
 </tbody>
 </table>
+
+5 in the middle enables the run mode.
 
 
 ## Vi-Keys
