@@ -67,7 +67,6 @@ GnollHack is developed by [Sound Mind Games](https://soundmindgames.org), a nonp
 - **[[Tutorials]]** _(for legacy ports)_
 - **[[Choosing the Right Gameplay Mode]]** *(modern ports only)*
 - **[[Choosing the Right Difficulty Level]]**
-- **[[Keyboard Shortcuts]]**
 
 ## Playing
 
@@ -75,6 +74,7 @@ GnollHack is developed by [Sound Mind Games](https://soundmindgames.org), a nonp
 
 - **[[Gameplay Information]]** — Everything from items to monsters
 - **[[Desktop-Only Features]]** — Take a look at the features that appear only on the desktop versions of GnollHack
+- **[[Keyboard Shortcuts]]** — GnollHack supports NetHack-style keyboard shortcuts, which are especially useful when playing with a physical keyboard 
 
 ## Game Configuration
 
