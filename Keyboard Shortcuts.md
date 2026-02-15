@@ -97,7 +97,7 @@ While **Num Lock** is **on**, you can use the number pad for movement.
 - 1–4, 6–9 for directions.
 - 5 in the middle enables run mode.
 
-## Regular Number Keys
+## Movement by Regular Number Keys
 
 The directions work also without a number pad with regular number keys:
 
