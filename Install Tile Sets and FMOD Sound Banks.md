@@ -2,9 +2,11 @@
 
 ### Overview
 
-Tile sets are two large PNG files:
+Tile sets are three large PNG files:
+
 - gnollhack_64x96_transparent_32bits.png
 - gnollhack_64x96_transparent_32bits-2.png
+- gnollhack_64x96_transparent_32bits-3.png
 
 ### Building
 
