@@ -1,14 +1,7 @@
 ## General
 
 * New MC system — MC ranges now from 0–25, giving you a chance to resist special attacks, such as level drain. MC from different items also stacks.
-* 7 Difficulty levels:
-  * **Standard:** Combat difficulty 10% — Monsters deal 25% of normal damage and you deal 252% normal damage.
-  * **Experienced:** Combat difficulty 18% — Monsters deal 35% of normal damage and you deal 200% normal damage.
-  * **Adept:** Combat difficulty 31% — Monsters deal 50% of normal damage and you deal 159% normal damage.
-  * **Veteran:** Combat difficulty 56% — Monsters deal 71% of normal damage and you deal 126% of normal damage.
-  * **Expert:** Combat difficulty 100% — Monsters and you deal normal damage. _(This is the same difficulty as in NetHack.)_
-  * **Master:** Combat difficulty 178% — Monsters deal 141% of normal damage and you deal 79% of normal damage.
-  * **Grand master:** Combat difficulty 317% — Monsters deal 200% of normal damage and you deal 63% of normal damage.
+* 7 [[Difficulty levels]]
 * The chosen difficulty will show in the status bar before the dungeon level as a letter:
   * **Standard**: s
   * **Experienced**: e
