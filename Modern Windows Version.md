@@ -4,7 +4,6 @@ GnollHack's modern Windows version has the following download options:
 
 - **Steam** — Recommended download option.
 - **MSIX installer** — You can try this if the Steam version doesn't work for you.
-- **ZIP file** — You can try this if the MSIX installer doesn't work for you.
 
 ### 1.1. Steam
 
@@ -34,19 +33,7 @@ Click 🛠️ [[Troubleshooting Modern Windows Version (Steam)]] 🛠️ for tro
 - Install the game using these instructions: [[Installing MSIX Packages on Windows 10 and 11]]
     - You need admin rights to do so.
 - The icon of GnollHack installed using the MSIX package will have a blue background.
-
-### 1.3. ZIP File
-
-<a href="https://github.com/hyvanmielenpelit/GnollHack/releases">![Get release on GitHub](/uploads/Download/github-q90.webp)</a><br />
-
-- The ZIP file has the **.zip extension** and starts with **Hyvnmielenpelitry.889864DD5340.NoStore**.
-- The ZIP file essentially contains the files installed by the MSIX package under `C:\Program Files\WindowsApps`.
-
-#### 1.3.1. Installation
-
-1. Download the aforementioned ZIP file.
-2. Extract the files to a folder.
-3. Click **GnollHackM.exe** to play.
+- The MSIX version of the game *doesn't* have auto-update. You update it manually by installing a newer version.
 
 ## 2. Integrated GPU Used by Default
 
