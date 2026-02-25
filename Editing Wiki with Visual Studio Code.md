@@ -158,17 +158,18 @@ To WebP supports **almost all image formats, including JPG and PNG**.
 3. Click **Add Files** and select all files you want to convert.
 4. Click **Download All** to download all images in WebP format in a ZIP file. 
 
-##### Alternative 2: Bulk JPG to WebP Converter
+##### Alternative 2: jgpgtowebp.net
 
-The Bulk JPG to WebP Converter supports **JPG only**.
+jgpgtowebp.net supports **almost all image formats, including JPG and PNG**, but it supports converting only one image format to WebP per batch.
 
-1. Go to the [Bulk JPG to WebP Converter website](https://jpgtowebp.net/) with your browser.
-2. Select your files.
-3. Click **Show Advanced Options**.
-4. Set **Manual Quality Control** to **85**.
-5. If you want to resize your images, enable **Resize Images** and set **Max Width (px)** and **Max Height (px)** to limit the size of your images.
-6. Click **Convert**.
-7. Click **Download All as ZIP**.
+1. Go to the [jgpgtowebp.net website](https://jpgtowebp.net/) with your browser.
+2. Select the appropriate converter (JPG or PNG to WebP) in the menu bar. (Less common image formats are behind the menu button.)
+3. Select your files.
+4. Click **Show Advanced Options**.
+5. Set **Manual Quality Control** to **85**.
+6. If you want to resize your images, enable **Resize Images** and set **Max Width (px)** and **Max Height (px)** to limit the size of your images.
+7. Click **Convert**.
+8. Click **Download All as ZIP**.
 
 ### Image Size of Illustrative Images
 
