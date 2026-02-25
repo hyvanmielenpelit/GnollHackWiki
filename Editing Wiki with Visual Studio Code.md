@@ -147,7 +147,7 @@ If your image has *flat colors* and is *encoded in a lossless format, such as PN
 
 #### WebP Batch Conversion
 
-You can use an online service to convert your images to WebP in one batch.
+You can use an online service to convert your images to WebP in one batch. Both of the services listed below use your web browser's client side logic to convert images to WebP, which means that no server is involved in the conversion process. The server only provides the web page and client side scripts.
 
 ##### Alternative 1: To WebP
 
