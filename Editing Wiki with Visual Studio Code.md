@@ -143,7 +143,7 @@ Please use **WebP** encoded at **85 quality** as the image file format. Many ima
 - Adobe Photoshop has native WebP support since February 2022.
 - For earlier versions of Adobe Photoshop and Adobe Photoshop Elements, you can download [WebPShop plugin](https://github.com/webmproject/WebPShop).
 
-If your image has *flat colors* and is *encoded in a lossless format, such as PNG,* — which is usually the case with screenshots — you can re-encode your image to WebP at **100 quality** to keep them **lossless**. However, this behavior needs to be implemented separately in your WebP conversion tool because the normal 100% quality encoding is *not* lossless. For example, the WebPShop plugin does this. A losslessly encoded image can be smaller than one encoded with 85% quality (lossy encoding), when the image has flat colors.
+If your image has *flat colors* and is *encoded in a lossless format, such as PNG,* — which is usually the case with screenshots — you can re-encode your image to WebP at **100 quality** to keep them **lossless**. However, this behavior needs to be implemented separately in your WebP conversion tool because the normal 100 quality encoding is *not* lossless. For example, the WebPShop plugin does this. A losslessly encoded image can be smaller than one encoded with 85 quality (lossy encoding), when the image has flat colors.
 
 #### WebP Batch Conversion
 
