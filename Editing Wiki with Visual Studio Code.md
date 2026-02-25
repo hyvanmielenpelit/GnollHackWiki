@@ -143,14 +143,32 @@ Please use **WebP** encoded at **85 quality** as the image file format. Many ima
 - Adobe Photoshop has native WebP support since February 2022.
 - For earlier versions of Adobe Photoshop and Adobe Photoshop Elements, you can download [WebPShop plugin](https://github.com/webmproject/WebPShop).
 
+If your image has *flat colors* and is *encoded in a lossless format, such as PNG,* — which is usually the case with screenshots — you can re-encode your image to WebP at **100 quality** to keep them **lossless**. However, this behavior needs to be implemented separately in your WebP conversion tool because the normal 100% quality encoding is *not* lossless. For example, the WebPShop plugin does this. A losslessly encoded image can be smaller than one encoded with 85% quality (lossy encoding), when the image has flat colors.
+
 #### WebP Batch Conversion
 
-You can use an online service to convert your images to WebP in one batch:
+You can use an online service to convert your images to WebP in one batch.
 
-1. Go to [To WebP website](https://towebp.io/) with your browser.
+##### Alternative 1: To WebP
+
+To WebP supports **almost all image formats, including JPG and PNG**.
+
+1. Go to the [To WebP website](https://towebp.io/) with your browser.
 2. First, *before adding files*, set **Quality** to **85** and **Size** to whatever scaling factor you want to use for your images.
 3. Click **Add Files** and select all files you want to convert.
 4. Click **Download All** to download all images in WebP format in a ZIP file. 
+
+##### Alternative 2: Bulk JPG to WebP Converter
+
+The Bulk JPG to WebP Converter supports **JPG only**.
+
+1. Go to the [Bulk JPG to WebP Converter website](https://jpgtowebp.net/) with your browser.
+2. Select your files.
+3. Click **Show Advanced Options**.
+4. Set **Manual Quality Control** to **85**.
+5. If you want to resize your images, enable **Resize Images** and set **Max Width (px)** and **Max Height (px)** to limit the size of your images.
+6. Click **Convert**.
+7. Click **Download All as ZIP**.
 
 ### Image Size of Illustrative Images
 
