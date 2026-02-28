@@ -8,6 +8,7 @@
 
 * [[GnollHack Android App Privacy Policy]]
 * [[GnollHack iOS App Privacy Policy]]
+* [[GnollHack Steam App Privacy Policy]]
 
 ## GnollHack Account
 
