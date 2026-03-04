@@ -11,7 +11,7 @@ Increases to-hit, damage, and the chance of a critical strike of thrusting weapo
 | **Master** | 4 | 320 | +12 | +6 | 35% | $\sqrt{8}$ |
 | **Grand Master** | 5 | 500 | +16 | +8 | 50% | $\sqrt{8}$ |
 
-## Thrusting Range Diagram
+## Thrusting Range Diagrams
 
 ### By Range
 
