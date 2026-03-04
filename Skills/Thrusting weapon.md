@@ -15,10 +15,10 @@ Increases to-hit, damage, and the chance of a critical strike of thrusting weapo
 
 <table>
 <tbody>
-<tr><td><center>$\sqrt{8}$</center></td><td><center>$\sqrt{5}$</center></td><td><center>2</center></td><td><center>$\sqrt{5}$</center></td><td><center>$\sqrt{8}$</center></td></tr>
-<tr><td><center>$\sqrt{5}$</center></td><td><center>$\sqrt{2}$</center></td><td><center>1</center></td><td><center>$\sqrt{2}$</center></td><td><center>$\sqrt{5}$</center></td></tr>
-<tr><td><center>2</center></td><td><center>1</center></td><td><center>You</center></td><td><center>1</center></td><td><center>2</center></td></tr>
-<tr><td><center>$\sqrt{5}$</center></td><td><center>$\sqrt{2}$</center></td><td><center>1</center></td><td><center>$\sqrt{2}$</center></td><td><center>$\sqrt{5}$</center></td></tr>
-<tr><td><center>$\sqrt{8}$</center></td><td><center>$\sqrt{5}$</center></td><td><center>2</center></td><td><center>$\sqrt{5}$</center></td><td><center>$\sqrt{8}$</center></td></tr>
+<tr><td><center>$\sqrt{8}$</center></td><td><center>$\sqrt{5}$</center></td><td><center>$2$</center></td><td><center>$\sqrt{5}$</center></td><td><center>$\sqrt{8}$</center></td></tr>
+<tr><td><center>$\sqrt{5}$</center></td><td><center>$\sqrt{2}$</center></td><td><center>$1$</center></td><td><center>$\sqrt{2}$</center></td><td><center>$\sqrt{5}$</center></td></tr>
+<tr><td><center>$2$</center></td><td><center>$1$</center></td><td><center>$0$</center></td><td><center>$1$</center></td><td><center>$2$</center></td></tr>
+<tr><td><center>$\sqrt{5}$</center></td><td><center>$\sqrt{2}$</center></td><td><center>$1$</center></td><td><center>$\sqrt{2}$</center></td><td><center>$\sqrt{5}$</center></td></tr>
+<tr><td><center>$\sqrt{8}$</center></td><td><center>$\sqrt{5}$</center></td><td><center>$2$</center></td><td><center>$\sqrt{5}$</center></td><td><center>$\sqrt{8}$</center></td></tr>
 </tbody>
 </table>
