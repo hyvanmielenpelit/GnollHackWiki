@@ -13,6 +13,8 @@ Increases to-hit, damage, and the chance of a critical strike of thrusting weapo
 
 ## Thrusting Range Diagram
 
+### By Range
+
 <table>
 <tbody>
 <tr><td><center>$\sqrt{8}$</center></td><td><center>$\sqrt{5}$</center></td><td><center>$2$</center></td><td><center>$\sqrt{5}$</center></td><td><center>$\sqrt{8}$</center></td></tr>
@@ -20,5 +22,17 @@ Increases to-hit, damage, and the chance of a critical strike of thrusting weapo
 <tr><td><center>$2$</center></td><td><center>—</center></td><td><center>You</center></td><td><center>—</center></td><td><center>$2$</center></td></tr>
 <tr><td><center>$\sqrt{5}$</center></td><td><center>—</center></td><td><center>—</center></td><td><center>—</center></td><td><center>$\sqrt{5}$</center></td></tr>
 <tr><td><center>$\sqrt{8}$</center></td><td><center>$\sqrt{5}$</center></td><td><center>$2$</center></td><td><center>$\sqrt{5}$</center></td><td><center>$\sqrt{8}$</center></td></tr>
+</tbody>
+</table>
+
+### By Minimum Skill Level
+
+<table>
+<tbody>
+<tr><td><center>Expert</center></td><td><center>Skilled</center></td><td><center>Basic</center></td><td><center>Skilled</center></td><td><center>Expert</center></td></tr>
+<tr><td><center>Skilled</center></td><td><center>—</center></td><td><center>—</center></td><td><center>—</center></td><td><center>Skilled</center></td></tr>
+<tr><td><center>Basic</center></td><td><center>—</center></td><td><center>You</center></td><td><center>—</center></td><td><center>Basic</center></td></tr>
+<tr><td><center>Skilled</center></td><td><center>—</center></td><td><center>—</center></td><td><center>—</center></td><td><center>Skilled</center></td></tr>
+<tr><td><center>Expert</center></td><td><center>Skilled</center></td><td><center>Basic</center></td><td><center>Skilled</center></td><td><center>Expert</center></td></tr>
 </tbody>
 </table>
