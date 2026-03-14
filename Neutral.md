@@ -9,6 +9,6 @@ Neutral characters are usually related to nature and the balance of the world.
 
 ## Allowed Races
 
-- [[Human]]
-- [[Elf]]
-- [[Gnoll]]
+- [[/Races/Human]]
+- [[/Races/Elf]]
+- [[/Races/Gnoll]]

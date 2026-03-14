@@ -9,6 +9,6 @@ Chaotic is generally thought to be the evil alignment. You do not suffer penalty
 
 ## Allowed Races
 
-- [[Human]]
-- [[Gnoll]]
-- [[Orc]]
+- [[/Races/Human]]
+- [[/Races/Gnoll]]
+- [[/Races/Orc]]
