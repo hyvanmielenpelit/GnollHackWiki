@@ -2,8 +2,8 @@
 
 GnollHack has the following races:
 
-- [[/Races/Human]] — Versatile race with no special abilities
-- [[/Races/Dwarf]] — Sturdy race with bonus to physical attributes
-- [[/Races/Elf]] — Fragile race adept at spell casting
-- [[/Races/Gnoll]] — Versatile race that can smell rotten food
-- [[/Races/Orc]] — Chaotic race that has poison resistance and can practice cannibalism
+- [[/Races/Human]] — Versatile with no special qualities
+- [[/Races/Dwarf]] — Sturdy and resilient
+- [[/Races/Elf]] — Adept at spell casting but fragile
+- [[/Races/Gnoll]] — Keen smell and taste for tripe
+- [[/Races/Orc]] — Chaotic and immune to poison
