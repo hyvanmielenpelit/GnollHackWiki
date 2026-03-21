@@ -6,7 +6,7 @@
 
 GnollHack is the modern evolution of the legendary [NetHack](https://www.nethack.org/) — one of the deepest and most iconic roguelikes ever created. It takes the limitless depth, emergent gameplay, and unforgiving challenge fans love, and elevates them with a fully modern presentation. Experience the dungeon like never before with animated graphics, rich sound effects, music, and voiceovers, all seamlessly available on both mobile and desktop.
 
-Whether you're a curious newcomer or a seasoned NetHack veteran, GnollHack delivers a definitive modern NetHack experience — deeper, more immersive, and more accessible than ever before.
+Whether you're a curious newcomer or a seasoned NetHack veteran, GnollHack delivers the definitive modern NetHack experience — deeper, more immersive, and more accessible than ever before.
 
 ## Overview
 
