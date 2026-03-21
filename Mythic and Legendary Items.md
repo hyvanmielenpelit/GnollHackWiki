@@ -17,19 +17,19 @@
 
 ### Prefixes
 
-| Prefix | Effect |
-| :----- | :----- |
-| Asgardian | Confers +5 + enchantment bonus to hit and +2d8 + enchantment bonus to damage |
-| Cyclopean | Triple base damage and can be enchanted 50% more than normal |
-| Hallowed | Cannot be cursed, counts as silver against silver-vulnerable monsters (+1d20 damage) |
-| Hyperborean | Confers +50% plus 5% per enchantment level to all spell casting, can be enchanted 50% more than normal |
-| Jotunheimian | (W) Drains a level, triple base damage and can be enchanted 50% more than normal |
-| Melnibonean | (W) Restores 2d6 + enchantment bonus hit points on hit, confers +5 + enchantment bonus to hit and +2d8 + enchantment bonus to  damage, and can be enchanted 50% more than normal |
-| Olympian | (W) Triple base damage and can be enchanted 50% more than normal, cannot be cursed, counts as silver against silver-vulnerable monsters (+1d20 damage) |
-| Radiant | Acts as a light source |
-| Stygian | Drains a level |
-| Vampiric | Restores 2d6 + enchantment bonus hit points on hit |
-| Witch-king's | (W) Drains a level, confers +50% plus 5% per enchantment level to all spell casting, can be enchanted 50% more than normal |
+| Prefix | Effect | Item Types |
+| :----- | :----- | :--------: |
+| Asgardian | Confers +5 + enchantment bonus to hit and +2d8 + enchantment bonus to damage | All |
+| Cyclopean | Triple base damage and can be enchanted 50% more than normal | All |
+| Hallowed | Cannot be cursed, counts as silver against silver-vulnerable monsters (+1d20 damage) | All |
+| Hyperborean | Confers +50% plus 5% per enchantment level to all spell casting, can be enchanted 50% more than normal | All |
+| Jotunheimian | (W) Drains a level, triple base damage and can be enchanted 50% more than normal | All |
+| Melnibonean | (W) Restores 2d6 + enchantment bonus hit points on hit, confers +5 + enchantment bonus to hit and +2d8 + enchantment bonus to  damage, and can be enchanted 50% more than normal | All |
+| Olympian | (W) Triple base damage and can be enchanted 50% more than normal, cannot be cursed, counts as silver against silver-vulnerable monsters (+1d20 damage) | All |
+| Radiant | Acts as a light source | All |
+| Stygian | Drains a level | All |
+| Vampiric | Restores 2d6 + enchantment bonus hit points on hit | All |
+| Witch-king's | (W) Drains a level, confers +50% plus 5% per enchantment level to all spell casting, can be enchanted 50% more than normal | All |
 
 ### Suffixes
 
