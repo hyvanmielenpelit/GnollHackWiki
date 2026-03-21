@@ -39,7 +39,3 @@ In kicking, the armor quality also multiplies the base damage:
 - **Exceptional:** Double base damage
 - **Elite:** Triple base damage
 - **Celestial/Primordial/Infernal:** Quadruple base damage, but can be used only by lawful/neutral/chaotic beings.
-
-## Notes
-
-Boots *cannot* be mythic or legendary.
