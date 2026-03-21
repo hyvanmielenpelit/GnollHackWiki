@@ -22,16 +22,18 @@ Some of the most important things to keep in mind:
 
 ## Difficulty
 
-GnollHack is more difficult than NetHack in the end game, and therefore we recommend that you start playing GnollHack somewhere between the **Experienced** and **Expert difficulties**.
+GnollHack is more difficult than NetHack in the end game, and therefore we recommend that you start playing GnollHack somewhere between the [[/Difficulties/Experienced]] and [[/Difficulties/Expert]] difficulties.
 
-- **Experienced difficulty** allows you to play a relatively easy game while learning new mechanics. It can be a right difficulty for many.
-- **Adept difficulty** is probably a bit easier than NetHack, but new mechanics in GnollHack can require time to adjust to, which may increase the difficulty.
-- **Veteran difficulty** will probably feel somewhat like NetHack but can be more difficult, if you do not utilize the new mechanics well.
-- **Expert difficulty** will probably feel more intense than NetHack.
+- [[/Difficulties/Experienced]] difficulty allows you to play a relatively easy game while learning new mechanics. It can be a right difficulty for many.
+- [[/Difficulties/Adept]] difficulty is probably a bit easier than NetHack, but new mechanics in GnollHack can require time to adjust to, which may increase the difficulty.
+- [[/Difficulties/Veteran]] difficulty will probably feel somewhat like NetHack but can be more difficult, if you do not utilize the new mechanics well.
+- [[/Difficulties/Expert]] difficulty will probably feel more intense than NetHack.
 
-If you are a NetHack veteran with many ascensions, we do not recommend starting with the **Standard difficulty**, because you will get lots of hints about things you already know. **Master** and **Grand Master difficulties**, on the other hand, require you to know GnollHack really well, or otherwise they can be overwhelming.
+If you are a NetHack veteran with many ascensions, we do not recommend starting with the [[/Difficulties/Standard]] difficulty, because you will get lots of hints about things you already know. [[/Difficulties/Master]] and [[/Difficulties/Grand Master]] difficulties, on the other hand, require you to know GnollHack really well, or otherwise they can be overwhelming.
 
-## Options
+If you want your games recorded on [NetHack Scoreboard](https://nethackscoreboard.org/), you need to play on [[/Difficulties/Expert]] difficulty or higher, using the **Classic mode**.
+
+## Options *(Linux ASCII version only)*
 
 ### Enable 4 Status Lines
 
