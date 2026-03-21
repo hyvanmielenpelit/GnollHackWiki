@@ -33,26 +33,26 @@
 
 ### Suffixes
 
-| Suffix | Effect | Item Types | Notes |
-| :----- | :----- | :--------: | :---- |
-| of banishment | (W) Triple damage against undead and demons | Bludgeoning weapons | |
-| of cockatrice slaying | Triple damage against cockatrices, petrification resistance | All | |
-| of defense | Enchantment provides AC and MC bonus | All | |
-| of demon slaying | Triple damage against demons | All | |
-| of disruption | Triple damage against undead | Bludgeoning weapons | |
-| of dragon slaying | Triple damage against dragons | All | |
-| of free action | Confers free action | All | |
-| of giant slaying | Triple damage against giants | All | |
-| of providence | Confers luck | All | |
-| of lycanthrope slaying | Triple damage against lycanthropes, lycanthropy resistance | All | |
-| of ogre slaying | Triple damage against ogres | All | |
-| of reach | Has extended range | Polearms, spears, and lances | |
-| of returning | Returns to hand after being thrown | Thrown weapons | |
-| of sharpness | Has 15% chance of dealing damage equal to 15% of max HP | Slashing weapons | |
-| of speed | Very fast speed  | All | |
-| of the Last Alliance | (W) Triple damage against orcs, ogres, giants, and trolls, and prevents troll revival | All | |
-| of troll slaying | Triple damage against trolls, prevents troll revival | All | |
-| of wounding | Causes permanent damage equal to 1d4 + enchantment | Slashing and piercing weapons | |
+| Suffix | Effect | Item Types |
+| :----- | :----- | :--------: |
+| of banishment | (W) Triple damage against undead and demons | Bludgeoning weapons |
+| of cockatrice slaying | Triple damage against cockatrices, petrification resistance | All |
+| of defense | Enchantment provides AC and MC bonus | All |
+| of demon slaying | Triple damage against demons | All |
+| of disruption | Triple damage against undead | Bludgeoning weapons |
+| of dragon slaying | Triple damage against dragons | All |
+| of free action | Confers free action | All |
+| of giant slaying | Triple damage against giants | All |
+| of providence | Confers luck | All |
+| of lycanthrope slaying | Triple damage against lycanthropes, lycanthropy resistance | All |
+| of ogre slaying | Triple damage against ogres | All |
+| of reach | Has extended range | Polearms, spears, and lances |
+| of returning | Returns to hand after being thrown | Thrown weapons |
+| of sharpness | Has 15% chance of dealing damage equal to 15% of max HP | Slashing weapons |
+| of speed | Very fast speed  | All |
+| of the Last Alliance | (W) Triple damage against orcs, ogres, giants, and trolls, and prevents troll revival | All |
+| of troll slaying | Triple damage against trolls, prevents troll revival | All |
+| of wounding | Causes permanent damage equal to 1d4 + enchantment | Slashing and piercing weapons |
 
 ## Armor
 
