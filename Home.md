@@ -67,7 +67,7 @@ GnollHack is developed by [Sound Mind Games](https://soundmindgames.org), a nonp
 - **[[Emulator Support]]** — Learn about which emulators support GnollHack
 - **[[Save Game Compatibility]]** — Check which patches are compatible with each other
 - **[[Troubleshooting]]** — How to solve various technical problems
-- **[[Tutorials]]** _(for legacy ports)_
+- **[[Tutorials]]**
 - **[[Choosing the Right Gameplay Mode]]** *(modern ports only)*
 - **[[Choosing the Right Difficulty Level]]**
 
