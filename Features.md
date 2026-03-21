@@ -6,6 +6,8 @@
 * **[[Music]]** — Over 35 pieces of music, including over 10 original ones, specifically composed for GnollHack.
 * **[[Voiceovers]]** — Voiceovers for various game characters and relevant game events. The game features 97 voice actors in 110 roles and over 5000 voiceover lines.
 * **[[Gameplay Improvements]]** — New magic system, new wearable slots, new mythic property system for items (prefixes and suffixes), new weapon quality classes, all item commands accessible from the inventory menu, in-game information for items and monsters, new status lines showing pet information, and a huge number of quality-of-life improvements, such as a pet pathing algorithm.
-* **[[Platform Support]]** — Android, iOS, Windows, and Linux.
+* **[[Platform Support]]**
+    - **Graphical UI:** Android, iOS, macOS, and Windows
+    - **ASCII UI only:** Linux
 
 See [[Detailed Features]] for more information. You may also want to read [[How GnollHack differs from NetHack]].
