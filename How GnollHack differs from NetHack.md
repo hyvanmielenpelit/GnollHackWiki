@@ -16,7 +16,7 @@
 * GnollHack has [[difficulty levels]] and [[game modes|Choosing the Right Gameplay Mode]] appropriate for beginning players.
 * You can use money on several useful services. In NetHack, there are little uses for money, except for the donation in the temple.
 * There are plenty of identification items and services available, which means that you can identify your items easily. In NetHack, players often have to resort to price-id'ing or hope that a blessed [[/Items/scroll of identify]] identifies the whole inventory by chance.
-* There are fewer insta-deaths in the game compared to NetHack. Many insta-death have become delayed insta-deaths, which allow you to react to the situation for several turns.
+* There are fewer insta-death situations in the game compared to NetHack. Many insta-death situations have become *delayed insta-death situations*, which allow you to react to the situation for several turns.
 * You have plenty of information about item statistics inside the game.
 * Magic is resource-based.
 * Ranged combat works better.
