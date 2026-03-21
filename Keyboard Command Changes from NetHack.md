@@ -1,4 +1,4 @@
-GnollHack uses mostly the same keys as NetHack. Please refer to the in-game documentation for exact information. On this page, there is a summary of changes from NetHack to GnollHack.
+GnollHack uses mostly the same keys as NetHack.
 
 ## Basic Movement
 
@@ -23,12 +23,10 @@ If you lack a number pad on your keyboard, you can use the following keys for mo
 * **Northeast**: 9
 * **Run**: 'Shift + Direction' or '5 + Direction' or 'g + Direction' or 'G + Direction'
 
-## NetHack Commands
+## GnollHack Keyboard Commands List
 
-Here's a list of basic NetHack commands by key: [NetHack Commands by Key](https://nethackwiki.com/wiki/Commands_(by_key))
-
-Most of them are valid for GnollHack as well, except for what is reported below.
-
+- [[Keyboard Shortcuts]]
+ 
 ## Command Keys Changed in GnollHack
 
 * **Chat**: C
@@ -58,7 +56,7 @@ Most of them are valid for GnollHack as well, except for what is reported below.
 
 ## New Item/Inventory Menu Commands
 
-* **' (apostrophe)**: The same as '$' (use this if you cannot type '$' on your keyboard).
+* **' (apostrophe)**: The same as `$` (use this if you cannot type `$` on your keyboard).
 * **8**: Select/unselect all miscellaneous items
 * **9**: Select/unselect all reagents
 * **# + number**: Number of items to select. You can use this if you want to select 8 or 9 items in the items list and not to select all miscellaneous items or reagents.
