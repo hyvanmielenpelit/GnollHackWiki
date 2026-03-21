@@ -11,71 +11,81 @@
   - Non-magical melee weapons
   - Non-magical thrown weapons
   - Non-magical ammunition
+  - Non-magical boots
 
 ## Weapons
 
 ### Prefixes
 
-- **Asgardian:** Confers +5 + enchantment bonus to hit and +2d8 + enchantment bonus to damage
-- **Cyclopean:** Triple base damage and can be enchanted 50% more than normal
-- **Hallowed:** Cannot be cursed, counts as silver against silver-vulnerable monsters (+1d20 damage)
-- **Hyperborean:** Confers +50% plus 5% per enchantment level to all spell casting, can be enchanted 50% more than normal
-- **Jotunheimian:** (W) Drains a level, triple base damage and can be enchanted 50% more than normal
-- **Melnibonean:** (W) Restores 2d6 + enchantment bonus hit points on hit, confers +5 + enchantment bonus to hit and +2d8 + enchantment bonus to  damage, and can be enchanted 50% more than normal
-- **Olympian:** (W) Triple base damage and can be enchanted 50% more than normal, cannot be cursed, counts as silver against silver-vulnerable monsters (+1d20 damage)
-- **Radiant:** Acts as a light source
-- **Stygian:** Drains a level
-- **Vampiric:** Restores 2d6 + enchantment bonus hit points on hit
-- **Witch-king's:** (W) Drains a level, confers +50% plus 5% per enchantment level to all spell casting, can be enchanted 50% more than normal
+| Prefix | Effect |
+| :----- | :----- |
+| Asgardian | Confers +5 + enchantment bonus to hit and +2d8 + enchantment bonus to damage |
+| Cyclopean | Triple base damage and can be enchanted 50% more than normal |
+| Hallowed | Cannot be cursed, counts as silver against silver-vulnerable monsters (+1d20 damage) |
+| Hyperborean | Confers +50% plus 5% per enchantment level to all spell casting, can be enchanted 50% more than normal |
+| Jotunheimian | (W) Drains a level, triple base damage and can be enchanted 50% more than normal |
+| Melnibonean | (W) Restores 2d6 + enchantment bonus hit points on hit, confers +5 + enchantment bonus to hit and +2d8 + enchantment bonus to  damage, and can be enchanted 50% more than normal |
+| Olympian | (W) Triple base damage and can be enchanted 50% more than normal, cannot be cursed, counts as silver against silver-vulnerable monsters (+1d20 damage) |
+| Radiant | Acts as a light source |
+| Stygian | Drains a level |
+| Vampiric | Restores 2d6 + enchantment bonus hit points on hit |
+| Witch-king's | (W) Drains a level, confers +50% plus 5% per enchantment level to all spell casting, can be enchanted 50% more than normal |
 
 ### Suffixes
 
-- **of banishment:** (W) Triple damage against undead and demons *(bludgeoning weapons only)*
-- **of cockatrice slaying:** Triple damage against cockatrices, petrification resistance
-- **of defense:** Enchantment provides AC and MC bonus
-- **of demon slaying:** Triple damage against demons
-- **of disruption:** Triple damage against undead *(bludgeoning weapons only)*
-- **of dragon slaying:** Triple damage against dragons
-- **of free action:** Confers free action
-- **of giant slaying:** Triple damage against giants
-- **of providence:** Confers luck
-- **of lycanthrope slaying:** Triple damage against lycanthropes, lycanthropy resistance
-- **of ogre slaying:** Triple damage against ogres
-- **of reach:** Has extended range *(polearms, spears, and lances only)*
-- **of returning:** Returns to hand after being thrown *(thrown weapons only)*
-- **of sharpness:** Has 15% chance of dealing damage equal to 15% of max HP *(slashing weapons only)*
-- **of speed:** Very fast speed
-- **of the Last Alliance:** (W) Triple damage against orcs, ogres, giants, and trolls, and prevents troll revival
-- **of troll slaying:** Triple damage against trolls, prevents troll revival
-- **of wounding:** Causes permanent damage equal to 1d4 + enchantment *(slashing and piercing weapons only)*
+| Suffix | Effect | Item Types | Notes |
+| :----- | :----- | :--------: | :---- |
+| of banishment | (W) Triple damage against undead and demons | Bludgeoning weapons | |
+| of cockatrice slaying | Triple damage against cockatrices, petrification resistance | All | |
+| of defense | Enchantment provides AC and MC bonus | All | |
+| of demon slaying | Triple damage against demons | All | |
+| of disruption | Triple damage against undead | Bludgeoning weapons | |
+| of dragon slaying | Triple damage against dragons | All | |
+| of free action | Confers free action | All | |
+| of giant slaying | Triple damage against giants | All | |
+| of providence | Confers luck | All | |
+| of lycanthrope slaying | Triple damage against lycanthropes, lycanthropy resistance | All | |
+| of ogre slaying | Triple damage against ogres | All | |
+| of reach | Has extended range | Polearms, spears, and lances | |
+| of returning | Returns to hand after being thrown | Thrown weapons | |
+| of sharpness | Has 15% chance of dealing damage equal to 15% of max HP | Slashing weapons | |
+| of speed | Very fast speed  | All | |
+| of the Last Alliance | (W) Triple damage against orcs, ogres, giants, and trolls, and prevents troll revival | All | |
+| of troll slaying | Triple damage against trolls, prevents troll revival | All | |
+| of wounding | Causes permanent damage equal to 1d4 + enchantment | Slashing and piercing weapons | |
 
 ## Armor
 
 ### Prefixes
 
-- **Asgardian:** +25% max hit points
-- **Atlantean:** Mana regeneration
-- **Cimmerian:** Constitution 18 + Enchantment bonus *(Body armor only)*
-- **Elysian:** Hit point regeneration
-- **Hallowed:** Curse resistance, cannot be cursed, counts as silver against silver-vulnerable monsters
-- **Herculean:** Strength 18/** + Enchantment bonus *(Body armor only)*
-- **Hyperborean:** +25% max mana, confers +50% plus 5% per enchantment level to all spell casting, and can be enchanted 50% more than normal
-- **Melnibonean:** (W) Mana regeneration, hit point regeneration, and can be enchanted 50% more than normal
-- **Sorcerer's:** Sets the spell casting penalty to 0% *(cannot appear with the of sorcery suffix on legendary items)*
-- **Stygian:** Death and drain resistance
-- **Witch-king's:** (W) +25% max hit points, +25% max mana, confers +50% plus 5% per enchantment level to all spell casting, and can be enchanted 50% more than normal
+| Prefix | Effect | Item Types | Notes |
+| :----- | :----- | :--------: | :---- |
+| Asgardian | +25% max hit points | All | |
+| Atlantean | Mana regeneration | All | |
+| Cimmerian | Constitution 18 + Enchantment bonus | Body armor | |
+| Elysian | Hit point regeneration | All | |
+| Hallowed | Curse resistance, cannot be cursed, counts as silver against silver-vulnerable monsters | All | |
+| Herculean | Strength 18/** + Enchantment bonus | Body armor | |
+| Hyperborean | +25% max mana, confers +50% plus 5% per enchantment level to all spell casting, and can be enchanted 50% more than normal | All | |
+| Melnibonean | (W) Mana regeneration, hit point regeneration, and can be enchanted 50% more than normal | All | |
+| Sorcerer's | Sets the spell casting penalty to 0% | All | Cannot appear with the of sorcery suffix on legendary items |
+| Stygian | Death and drain resistance | All | |
+| Witch-king's | (W) +25% max hit points, +25% max mana, confers +50% plus 5% per enchantment level to all spell casting, and can be enchanted 50% more than normal | All | |
 
 ### Suffixes
 
-- **of cold resistance:** Cold immunity
-- **of elemental protection:** (W) Fire, cold, and shock immunity
-- **of eyes:** Searching and see invisible
-- **of fire resistance:** Fire immunity
-- **of free action:** Confers free action
-- **of lightness:** 1/8 weight
-- **of providence:** Confers luck
-- **of shock resistance:** Shock immunity
-- **of sorcery:** Sets the spell casting penalty to 0% *(cannot appear with the Sorcerer's prefix on legendary items)*
+| Suffix | Effect | Item Types | Notes |
+| :----- | :----- | :--------: | :---- |
+| of cold resistance | Cold immunity | All | |
+| of elemental protection | (W) Fire, cold, and shock immunity | All | |
+| of eyes | Searching and see invisible | All except boots | |
+| of fire resistance | Fire immunity | All | |
+| of free action | Confers free action | All | |
+| of lightness | 1/8 weight | All | |
+| of providence | Confers luck | All | |
+| of shock resistance | Shock immunity | All | |
+| of sorcery | Sets the spell casting penalty to 0% | All | Cannot appear with the Sorcerer's prefix on legendary items |
+| of stealth | Stealth | Boots | |
 
 ## Notes
 
