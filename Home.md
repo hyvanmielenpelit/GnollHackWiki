@@ -59,6 +59,7 @@ GnollHack is developed by [Sound Mind Games](https://soundmindgames.org), a nonp
 ## Comparison to Other Games
 
 - **[[Roguelike Comparison]]** — Find out how GnollHack compares to *NetHack*, *Pathos*, and *Shattered Pixel Dungeon*
+- **[[How GnollHack differs from NetHack]]** — A short article on how the development work put into GnollHack has improved the game
 
 ## Getting Started
 
