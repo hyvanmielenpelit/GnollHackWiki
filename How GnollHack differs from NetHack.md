@@ -4,10 +4,6 @@
 - GnollHack has [[real 2D animations|Animations]]. NetHack has no animations.
 - GnollHack has [[sound effects|Advanced Sound System]], [[music|Music]], and [[voiceovers]]. NetHack has no sounds.
 
-#### Android screenshot
-
-<img src="/uploads/Improved%20Graphical%20Interface/android-screenshot.webp" height="740" alt="Android screenshot" /><br />
-
 ## Gameplay
 
 * There are more items found in the dungeon.
@@ -28,3 +24,7 @@ Please also see [[Roguelike Comparison]] for the comparison of *NetHack*, *Gnoll
 ## Preserving the Spirit of NetHack
 
 GnollHack preserves most NetHack mechanics to keep the game familiar to NetHack veterans. GnollHack aims to *extend* the NetHack experience with new additions while keeping the core of the game intact. It also aims to *modernize* NetHack without losing the depth of the original.
+
+## Android Screenshot
+
+<img src="/uploads/Improved%20Graphical%20Interface/android-screenshot.webp" height="740" alt="Android screenshot" /><br />
