@@ -41,11 +41,11 @@
 | of defense | Enchantment provides AC and MC bonus | All |
 | of demon slaying | Triple damage against demons | All except normal gloves |
 | of disruption | Triple damage against undead | Bludgeoning weapons |
-| of dragon slaying | Triple damage against dragons | All |
+| of dragon slaying | Triple damage against dragons | All except normal gloves |
 | of free action | Confers free action | All |
 | of giant slaying | Triple damage against giants | All except normal gloves |
 | of providence | Confers luck | All |
-| of lycanthrope slaying | Triple damage against lycanthropes, lycanthropy resistance | All |
+| of lycanthrope slaying | Triple damage against lycanthropes, lycanthropy resistance | All except normal gloves |
 | of ogre slaying | Triple damage against ogres | All except normal gloves |
 | of reach | Has extended range | Polearms, spears, and lances |
 | of returning | Returns to hand after being thrown | Thrown weapons |

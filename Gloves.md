@@ -32,4 +32,5 @@ In bare-handed combat, the armor quality also multiplies the base damage of gaun
 
 ## Notes
 
-Gloves *cannot* be mythic or legendary.
+- Non-magical gauntlets *can* be mythic and legendary.
+- Other gloves *cannot* be mythic or legendary, mainly [[/Items/Leather gloves]].
