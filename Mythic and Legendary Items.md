@@ -27,7 +27,7 @@
 | Jotunheimian | (W) Drains a level, triple base damage and can be enchanted 50% more than normal | All |
 | Melnibonean | (W) Restores 2d6 + enchantment bonus hit points on hit, confers +5 + enchantment bonus to hit and +2d8 + enchantment bonus to  damage, and can be enchanted 50% more than normal | All |
 | Olympian | (W) Triple base damage and can be enchanted 50% more than normal, cannot be cursed, counts as silver against silver-vulnerable monsters (+1d20 damage) | All |
-| Radiant | Acts as a light source | All |
+| Radiant | Acts as a light source | All except weapon-armor |
 | Stygian | Drains a level | All |
 | Vampiric | Restores 2d6 + enchantment bonus hit points on hit | All |
 | Witch-king's | (W) Drains a level, confers +50% plus 5% per enchantment level to all spell casting, can be enchanted 50% more than normal | All |
