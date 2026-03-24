@@ -12,6 +12,7 @@
   - Non-magical thrown weapons
   - Non-magical ammunition
   - Non-magical boots
+  - Non-magical gauntlets — Can have both weapon and armor affixes
 
 ## Weapons
 
@@ -36,23 +37,23 @@
 | Suffix | Effect | Item Types |
 | :----- | :----- | :--------: |
 | of banishment | (W) Triple damage against undead and demons | Bludgeoning weapons |
-| of cockatrice slaying | Triple damage against cockatrices, petrification resistance | All |
+| of cockatrice slaying | Triple damage against cockatrices, petrification resistance | All except normal gloves |
 | of defense | Enchantment provides AC and MC bonus | All |
-| of demon slaying | Triple damage against demons | All |
+| of demon slaying | Triple damage against demons | All except normal gloves |
 | of disruption | Triple damage against undead | Bludgeoning weapons |
 | of dragon slaying | Triple damage against dragons | All |
 | of free action | Confers free action | All |
-| of giant slaying | Triple damage against giants | All |
+| of giant slaying | Triple damage against giants | All except normal gloves |
 | of providence | Confers luck | All |
 | of lycanthrope slaying | Triple damage against lycanthropes, lycanthropy resistance | All |
-| of ogre slaying | Triple damage against ogres | All |
+| of ogre slaying | Triple damage against ogres | All except normal gloves |
 | of reach | Has extended range | Polearms, spears, and lances |
 | of returning | Returns to hand after being thrown | Thrown weapons |
 | of sharpness | Has 15% chance of dealing damage equal to 15% of max HP | Slashing weapons |
 | of speed | Very fast speed  | All |
-| of the Last Alliance | (W) Triple damage against orcs, ogres, giants, and trolls, and prevents troll revival | All |
-| of troll slaying | Triple damage against trolls, prevents troll revival | All |
-| of wounding | Causes permanent damage equal to 1d4 + enchantment | Slashing and piercing weapons |
+| of the Last Alliance | (W) Triple damage against orcs, ogres, giants, and trolls, and prevents troll revival | All except normal gloves |
+| of troll slaying | Triple damage against trolls, prevents troll revival | All except normal gloves |
+| of wounding | Causes permanent damage equal to 1d4 + enchantment | Slashing and piercing weapons, spiked gloves |
 
 ## Armor
 
@@ -78,7 +79,7 @@
 | :----- | :----- | :--------: | :---- |
 | of cold resistance | Cold immunity | All | |
 | of elemental protection | (W) Fire, cold, and shock immunity | All | |
-| of eyes | Searching and see invisible | All except boots | |
+| of eyes | Searching and see invisible | All except boots and gloves | |
 | of fire resistance | Fire immunity | All | |
 | of free action | Confers free action | All | |
 | of lightness | 1/8 weight | All | |
