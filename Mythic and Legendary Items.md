@@ -38,7 +38,7 @@
 | :----- | :----- | :--------: |
 | of banishment | (W) Triple damage against undead and demons | Bludgeoning weapons |
 | of cockatrice slaying | Triple damage against cockatrices, petrification resistance | All except normal gloves |
-| of defense | Enchantment provides AC and MC bonus | All |
+| of defense | Enchantment provides AC and MC bonus | All except weapon-armor |
 | of demon slaying | Triple damage against demons | All except normal gloves |
 | of disruption | Triple damage against undead | Bludgeoning weapons |
 | of dragon slaying | Triple damage against dragons | All except normal gloves |
