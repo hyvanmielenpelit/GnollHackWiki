@@ -25,6 +25,12 @@ Please also see [[Roguelike Comparison]] for the comparison of *NetHack*, *Gnoll
 
 GnollHack preserves most NetHack mechanics to keep the game familiar to NetHack veterans. GnollHack aims to *extend* the NetHack experience with new additions while keeping the core of the game intact. It also aims to *modernize* NetHack without losing the depth of the original.
 
-## Android Screenshot
+## Screenshot Comparison
+
+### GnollHack Android Screenshot
 
 <img src="/uploads/Improved%20Graphical%20Interface/android-screenshot.webp" height="740" alt="Android screenshot" /><br />
+
+### NetHack Screenshot — Traditional ASCII Interface
+
+![NetHack ASCII Screenshot](/uploads/How%20GnollHack%20differs%20from%20NetHack/Nethack.png)
