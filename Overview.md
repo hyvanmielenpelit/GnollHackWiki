@@ -36,10 +36,6 @@ GnollHack can also be viewed as a NetHack remaster, adding the following modern 
     - Windows supports touch, mouse, and keyboard
     - macOS supports mouse only *(keyboard support coming in the future)*
 
-## As Modern Introduction to NetHack
-
-GnollHack is best understood **not as a modern RPG** but as a **modernized version of NetHack** that makes the classic experience more approachable for today’s players. NetHack offers minimal guidance and leaves much for the player to learn through exploration, and its ASCII interface and keyboard controls can be challenging for modern players to adopt at first. GnollHack *preserves the core mechanics and depth of NetHack* while presenting them in a modern package, making it an **ideal introduction to NetHack** for modern gamers.
-
 ## Open Source
 
 GnollHack is an open-source game, based on NetHack's source code. This means that you can fork it.
