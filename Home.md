@@ -50,9 +50,7 @@ GnollHack can also be viewed as a NetHack remaster, adding the following modern 
 
 ### Bridge Between Modern Games And NetHack
 
-GnollHack is best understood *not as a modern RPG*, but as a *modernized version of NetHack* that makes the experience more approachable for today’s players. NetHack is built on an older design philosophy centered around discovery, experimentation, and long-term mastery. It offers minimal onboarding and leaves much for the player to learn through exploration, while its ASCII interface and keyboard-driven controls can be challenging for modern players to adopt at first.
-
-GnollHack *preserves the core mechanics and depth of NetHack* while presenting them in a *more accessible way*, making it an **ideal introduction to NetHack**.
+GnollHack is best understood **not as a modern RPG**, but as a **modernized version of NetHack** that makes the classic experience more approachable for today’s players. NetHack offers minimal guidance and leaves much for the player to learn through exploration, and its ASCII interface and keyboard controls can be challenging for modern players to adopt at first. GnollHack *preserves the core mechanics and depth of NetHack* while presenting them in a modern package, making it an **ideal introduction to NetHack** for modern gamers.
 
 ### Open Source
 
