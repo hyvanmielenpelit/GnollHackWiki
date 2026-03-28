@@ -27,9 +27,6 @@ GnollHack is best understood:
 ## Getting Started
 
 - **[[Download]]** — Downloading GnollHack and installation instructions
-- **[[Emulator Support]]** — Learn about which emulators support GnollHack
-- **[[Save Game Compatibility]]** — Check which patches are compatible with each other
-- **[[Troubleshooting]]** — How to solve various technical problems
 - **[[Tutorials]]**
 - **[[Choosing the Right Gameplay Mode]]** *(modern ports only)*
 - **[[Choosing the Right Difficulty Level]]**
@@ -57,6 +54,9 @@ GnollHack is best understood:
 ## Additional Information
 
 - **[[Features]]** — Main features of GnollHack
+- **[[Troubleshooting]]** — How to solve various technical problems
+- **[[Emulator Support]]** — Learn about which emulators support GnollHack
+- **[[Save Game Compatibility]]** — Check which patches are compatible with each other
 - **[[Public Servers]]** — How to play GnollHack online *(ASCII version only)*
 - **[[Tournaments]]** — How to participate in tournaments *(modern ports only)*
 - **[[Game Quirks]]** — Some non-obvious quirks how the game may work surprisingly
