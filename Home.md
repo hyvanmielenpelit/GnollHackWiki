@@ -10,8 +10,8 @@ Whether you're a curious newcomer or a seasoned NetHack veteran, GnollHack deliv
 
 GnollHack is best understood:
 
-- ❌ Not as a modern RPG.
-- ✅ But as a **modernized version of NetHack** that makes the classic experience more approachable for today’s players.
+- ✅ As a **modernized version of NetHack** that makes the classic experience more approachable for today’s players.
+- ❌ Not as a fully modern role-playing game competing with AAA titles.
 
 GnollHack *preserves the core mechanics and depth of NetHack* while presenting them in a modern package, making it an **ideal introduction to NetHack** for modern gamers.
 
