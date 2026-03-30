@@ -36,8 +36,8 @@
 
 ## Player Character
 
-* Experience level cap increased to 50.
-* It requires only 1,000,000 experience points to reach level 30, compared to 100,000,000 in NetHack.
+* [[Experience level]] cap increased to 50.
+* It requires only 204,000 experience points to reach level 30, compared to 100,000,000 in NetHack.
 * Characters can carry more than before.
 * Changes in Constitution immediately reflect in your maximum hit points.
 * Changes in Intelligence and Wisdom immediately reflect in your maximum mana.
@@ -46,16 +46,16 @@
 
 * Monsters have attributes like the player character (Strength, Dexterity, etc.).
 * Summon nasties monster spell has been heavily nerfed. Sorry liches.
-* Covetousness has been removed from monsters, except for Wizard of Yendor.
-* The covetousness of the Wizard of Yendor has been nerfed so that he does no regenerate hit points so fast. He also cannot steal quest artifacts anymore. He steals only the Amulet of Yendor.
+* Covetousness has been removed from monsters, except for [[/Monsters/Wizard of Yendor]].
+* The covetousness of the [[/Monsters/Wizard of Yendor]] has been nerfed so that he does no regenerate hit points so fast. He also cannot steal quest artifacts anymore. He steals only the [[/Items/Amulet of Yendor]].
 * Monsters are more intelligent than before and can use more different kinds of items.
 * Cockatrice is more dangerous, petrifying you on a successful hit, if it passes MC.
 * Cockatrice corpse is less dangerous, needing to pass MC to petrify a monster.
 * Most monsters with a special attack are more dangerous, since MC% is usually lower in GnollHack than in vanilla NetHack.
 * All monsters except wraiths generate a corpse 100% of time.
-* Couatls, mariliths, and constrictor snakes have now a strangling attack, which kills you in 6 turns.
+* [[Couatls|/Monsters/Couatl]], [[mariliths|/Monsters/Marilith]], and constrictor snakes have now a strangling attack, which kills you in 6 turns.
 * Drowning attack is not instadeath anymore.
-* Purple worms do not instakill pets and monsters anymore.
+* [[Purple worms|/Monsters/Purple Worm]] do not instakill pets and monsters anymore.
 * Monster difficulty level is now mathematically feasible, calculated based on `SQRT(damage_per_turn * effective_hit_points)`. The real formula is more complex.
 * Undead and mindless monsters do not flee from battle and are immune to fear.
 * Killing monsters gives out experience of about `1 + monster_difficulty_level ^ 2`. This means that a difficulty level 10 monster gives out about 100 XP and a difficulty level 100 monster gives out about 10,000 XP. 
@@ -66,9 +66,9 @@
 * Some letter changes. Gnomes are now in 'g', lesser undead in 'z', and greater undead in 'Z'. Zruty is now in 'Y'.
 * New monster class Gnoll 'G'. Includes Gnolls and Flinds.
 * For copyright reasons, there are now tentacled ones, gazers, and underworld hulks instead of mind flayers, beholders, and umber hulks.
-* Mage spell casters cannot cast Touch of Death anymore. This includes Wizard of Yendor.
-* High Priest class clerical spell casters can cast Touch of Death. Magic resistance does not help against it anymore. You need death resistance. So, please remember to acquire it before engaging combat with any high priest class monsters, such as Greater Mummy High Priest.
-* Death resistance is also required against Death's touch of death.
+* Mage spell casters cannot cast Touch of Death anymore. This includes [[/Monsters/Wizard of Yendor]].
+* High Priest class clerical spell casters can cast Touch of Death. Magic resistance does not help against it anymore. You need death resistance. So, please remember to acquire it before engaging combat with any high priest class monsters, such as [[/Monsters/Greater Mummy High Priest]].
+* Death resistance is also required against [[/Monsters/Death]]'s touch of death.
 
 ## Pets
 
@@ -84,6 +84,7 @@
 * You can see pet hit points by using '/'.
 * Better messaging when the pet is hungry.
 * Riding as a non-knight is easier. The pet loses tamedness slower.
+* You can hire some peaceful monsters for a fee.
 
 ## Shopkeepers, Priests, and the Oracle
 
@@ -97,22 +98,22 @@
 * Weapon skills have been combined, so that there are now 14 weapon skills instead of 28.
 * Weapon skills grant more bonuses than before.
 * Revised spell school skills.
-* There is now a Disarm Traps skill, which you can improve.
+* There is now a [[/Skills/Disarm Trap]] skill, which you can improve.
 * Untrapping traps grants items. Magical traps usually give out wands.
-* Martial arts is now a prestige skill that you can improve after you have reached Expert in Bare Handed Combat. It requires 2, 3, 3, 4, and 4 skill point slots at Basic, Skilled, Expert, Master, and Grand Master levels, respectively.
+* [[/Skills/Martial arts]] is now a prestige skill that you can improve after you have reached Expert in [[/Skills/Bare-Handed Combat]]. It requires 2, 3, 3, 4, and 4 skill point slots at Basic, Skilled, Expert, Master, and Grand Master levels, respectively.
 * The game shows when you have unused skill points in the status bar.
 
 ## Roles
 
-* Monk is heavily improved — He can even do martial art kicks using 'k'. The boots of kicking are now very useful for him.
+* [[/Roles/Monk]] is heavily improved — He can even do martial art kicks using 'k'. The boots of kicking are now very useful for him.
 * Most roles have revised intrinsics per level.
-* Tourist starts with a +2 golf club, because he cannot throw darts in a melee range anymore.
-* All roles start with a bag. Rogues start with a bag of treasure hauling and wizards with a bag of wizardry. Other roles start with a normal bag or backpack.
+* [[/Roles/Tourist]] starts with a +2 golf club, because he cannot throw darts in a melee range anymore.
+* All roles start with a bag. [[Rogues|/Roles/Rogue]] start with a [[/Items/bag of treasure hauling]] and [[wizards|/Roles/Wizard]] with a [[/Items/bag of wizardry]]. Other roles start with a normal bag or backpack.
 
 ## Items
 
-* Mythic affix item property system — Non-magical weapons and armor can be generated with special properties, such as demon slaying or fire resistance.
-* Weapon quality classes — Weapons can now be normal, exceptional, elite, or one of celestial, primordial, or infernal. Exceptional weapons cause double base damage, elite triple, and celestial, primordial, and infernal quadruple damage.
+* [[Mythic affix item property system|Mythic and Legendary Items]] — Non-magical weapons and armor can be generated with special properties, such as demon slaying or fire resistance.
+* [[Weapon quality classes|Exceptional, Elite, Celestial, Primordial, and Infernal Items]] — Weapons can now be normal, exceptional, elite, or one of celestial, primordial, or infernal. Exceptional weapons cause double base damage, elite triple, and celestial, primordial, and infernal quadruple damage.
 * Elemental enchantment — Weapons can also be elemental enchanted much in the same way as they can be poisoned. Elemental enchantment may wear of during use.
 * New item slot 'Robe' — You can wear Robe over your armor and under your cloak. It does not stack with your armor, but the game will pick the AC of the body armor or the robe, whichever is better. Likewise for MC.
 * You can fire-enchant, lightning-enchant, and cold-enchant items to do more damage on hit. They work similarly to poison.
@@ -131,14 +132,14 @@
 * You can move items directly from a container to another.
 * Unicorn horns have charges and cannot cure attribute point damage. However, they work now 100% of time. An uncursed unicorn horn always cures 1 condition and a blessed one 2 conditions.
 * Conflict has been nerfed so that items with conflict are no longer permanent but have charges.
-  * Ring of Conflict is now an artifact with charges
-  * There's a new item: scroll of conflict (single-use conflict)
-  * There's a new horn: horn of chaos that gives conflict as a debuff to nearby monsters
+  * [[/Artifacts/The Ring of Conflict]] is now an artifact with charges
+  * There's a new item: [[/Items/scroll of conflict]] (single-use conflict)
+  * There's a new horn: [[/Items/horn of chaos]] that gives conflict as a debuff to nearby monsters
 * Magic resistance has been nerfed.
   * It does not give immunity to death attacks; there are separate items that give death resistance such as amulet vs death magic and ring of protection from undeath.
   * It does not give shielding from magic missiles and striking; there are separate items that give magic missile resistance, such has bracers of magic missile resistance.
   * It does not reduce elemental damage to half.
-* Wand of Polymorph has been nerfed. A blessed/uncursed/cursed wand of polymorph can now affect 7/4/1 items per use.
+* [[/Items/Wand of polymorph]] has been nerfed. A blessed/uncursed/cursed wand of polymorph can now affect 7/4/1 items per use.
 * You can search for traps in a chest by standing in the same square where the chest is and pressing search 's'.
 * You can use items even if you have a cursed two-handed weapon.
 * You cannot choke on food that adds 50 or less nutrition.
@@ -167,8 +168,8 @@
 * Spells can also have a cooldown, which needs to pass before the spell can be cast again.
 * Spells use an attribute to cast the spell: Intelligence, Wisdom, Charisma, or any combination of them.
 * New spell casting chance system
-  * +80% per magic school level
-  * -60% per spell level
+  * +100% per magic school level
+  * -50% per spell level
   * `+` spell casting bonus from items (such as magical staves and other magical items) — they do not work on restricted schools
   * `-` spell casting penalty from armor (somatic spells only)
   * +15% per stat point (INT, WIS or CHA)
