@@ -182,7 +182,7 @@
 
 ## Scoring
 
-* GnollHack has its own scoring system
+* GnollHack has its own [[scoring system|Scoring]]
 * You get score from:
   * Delving deeper into the dungeon
   * Achievements
