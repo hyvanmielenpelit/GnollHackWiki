@@ -8,12 +8,7 @@ GnollHack is modern evolution of the legendary [NetHack](https://www.nethack.org
 
 Whether you're a curious newcomer or a seasoned NetHack veteran, GnollHack delivers the definitive modern NetHack experience — deeper, more immersive, and more accessible than ever before.
 
-GnollHack is best understood:
-
-- ✅ As a **modernized version of NetHack** that makes the classic experience more approachable for today’s players.
-- ❌ Not as a fully modern role-playing game competing with AAA titles.
-
-GnollHack *preserves the core mechanics and depth of NetHack* while presenting them in a modern package, making it an **ideal introduction to NetHack** for modern gamers.
+GnollHack is best understood as a modernized version of NetHack that makes the classic experience more approachable for today’s players. It preserves the core mechanics and depth of NetHack while presenting them in a modern package, making it an ideal introduction to NetHack for modern gamers.
 
 ## Introduction
 
