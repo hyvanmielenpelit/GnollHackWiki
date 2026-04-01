@@ -8,7 +8,6 @@
 - **Range:** 50'
 - **Radius:** 5'
 - **Damage:** 8d8+8
-- **Duration:** 1d8 rounds
 - **Train chance:** 100%
 - **Base write cost:** 70 charges
 - **Write cost:** From half to full base cost
