@@ -20,7 +20,8 @@ A crowned character receives the following intrinsics:
 
 ### Archaeologist
 
-[[/Artifacts/The Holy Grail]]
+- Sickness resistance
+- [[/Artifacts/The Holy Grail]]
 
 ### Knight
 
