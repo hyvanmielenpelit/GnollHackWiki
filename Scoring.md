@@ -155,7 +155,7 @@ Only true deaths count here, so that life being saved by [[/Items/Amulet of Life
 
 #### 2.6.1. Archaeologist Artifact Score
 
-Archaeologist gains 30000 points for each artifact, 15000 points for each historic statue, and 10 times the gold piece value of each art object, which are carried in the inventory or in bags, or deposited in a sandalwood chest.
+Archaeologist gains 30000 points for each artifact and historic statue, 5000 points for each mummy wrapping, 120000 points for each sarcophagus, and 60 times the gold piece value of each art object, which are carried in the inventory or in bags, or deposited in a sandalwood chest.
 
 Archaeologist's role achievement is to find and defeat Amonket, Ruler of Greater Mummies (60000 points).
 
@@ -229,9 +229,9 @@ Samurai's role achievement is to find both Katana of Masamune and the Kusanagi (
 
 Tourist gains score from taking selfies (with his/her camera) together with different monster types as follows:
 
-$TouristSelfieScore =$ For each monster type, $100 \times (MonsterDifficultyLevel + 1)$
+$TouristSelfieScore =$ For each monster type, $200 \times (MonsterDifficultyLevel + 1)$
 
-Tourist's role achievement is to take a selfie with Demogorgon (50000 points).
+Tourist's role achievement is to take a selfie with Demogorgon (100000 points).
 
 #### 2.6.12. Valkyrie Item Score
 
