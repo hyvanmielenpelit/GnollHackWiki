@@ -28,7 +28,7 @@ In some animations, Bella can be seen using a tablet — called iPaw — or a sm
 - [ChatGPT](https://chatgpt.com/) — Text AI
     - Script generation and dialogue refining
 
-### Editing Tools
+### Editing Software
 
 - [DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve) — Professional video editing software
 
