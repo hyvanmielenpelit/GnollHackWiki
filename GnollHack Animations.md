@@ -22,7 +22,7 @@ In some animations, Bella can be seen using a tablet — called iPaw — or a sm
     - Video generation: Google Veo 3.1 Fast
     - Image generation: Nano Banana 2
 - [Suno AI](https://suno.com/) — Music AI
-    - Background music generation
+    - Background music generation: Suno v5
 - [Google Gemini Pro](https://gemini.google.com/) — Text AI
     - Script generation and dialogue refining
 - [ChatGPT](https://chatgpt.com/) — Text AI
