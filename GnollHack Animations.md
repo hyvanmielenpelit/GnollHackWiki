@@ -19,7 +19,7 @@ In some animations, Bella can be seen using a tablet — called iPaw — or a sm
 ### AI Tools
 
 - [Google Flow](https://labs.google/flow/about) — Video and image AI for film-making
-    - Video generation: Google Veo 3.1 Fast
+    - Video generation: Veo 3.1 Fast
     - Image generation: Nano Banana 2
 - [Suno AI](https://suno.com/) — Music AI
     - Background music generation: Suno v5
