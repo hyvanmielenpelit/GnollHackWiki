@@ -69,6 +69,10 @@ GnollHack is best understood as a modernized version of NetHack that makes the c
 - **[[Code Contribution Guidelines]]** — Read this if you want to contribute code to GnollHack
 - **[[Editing Wiki with Visual Studio Code]]** — How to edit GnollHack Wiki using Visual Studio Code
 
+## Additional Material
+
+- **[[GnollHack Animations]]** – GnollHack-themed short-form 2D-animations
+
 ## Contact Us
 
 - **[[Communities]]** — Communities related to GnollHack
