@@ -13,3 +13,26 @@ While many Bella animations take place in the Dungeons of Doom, several of them 
 ### Bella's Devices
 
 In some animations, Bella can be seen using a tablet — called iPaw — or a smartphone — called iPwn — manufactured by Paw Technologies Inc., a multinational technology conglomerate owned by a group of wealthy gnolls.
+
+## Production Technology
+
+### AI Tools
+
+- [Google Flow](https://labs.google/flow/about) — Video and image AI for film-making
+    - Video generation: Google Veo 3.1 Fast
+    - Image generation: Nano Banana 2
+- [Suno AI](https://suno.com/) — Music AI
+    - Background music generation
+- [Google Gemini Pro](https://gemini.google.com/) — Text AI
+    - Script generation and dialogue refining
+- [ChatGPT](https://chatgpt.com/) — Text AI
+    - Script generation and dialogue refining
+
+### Editing Tools
+
+- [DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve) — Professional video editing software
+
+### Plugins
+
+- [iZotope RX](https://www.izotope.com/en/products/rx) — Audio repair, mainly mouth de-clicker and voice de-noise
+- [iZotope Nectar](https://www.izotope.com/en/products/nectar) — Vocal production, mainly for voice effects
