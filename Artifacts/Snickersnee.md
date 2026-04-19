@@ -17,4 +17,4 @@
 1. Alignment is lawful
 2. Artifact is associated with samurai
 3. Artifact damage type is physical damage
-4. Artifact deals double normal damage
+4. Artifact deals 1.50 times normal damage
