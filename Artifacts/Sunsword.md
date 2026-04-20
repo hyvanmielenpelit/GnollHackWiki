@@ -16,7 +16,7 @@
 1. Alignment is lawful
 2. Artifact damage type is physical damage
 3. Artifact to-hit bonus is 1d5
-4. Artifact deals triple normal damage
+4. Artifact deals 1.50 times normal damage
 5. Flash resistance when wielded
 6. Angers demons on sight
 7. Attack bonus applies to undead and demons

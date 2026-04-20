@@ -19,7 +19,7 @@
 2. Artifact is associated with cavepersons
 3. Artifact damage type is physical damage
 4. Artifact to-hit bonus is 1d5
-5. Artifact deals double normal damage
+5. Artifact deals 1.25 times normal damage
 6. Magic resistance when wielded
 7. Conflict when invoked
     * Effect duration is 2d10+140 rounds

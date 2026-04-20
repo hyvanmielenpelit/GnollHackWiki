@@ -16,5 +16,5 @@
 1. Alignment is unaligned
 2. Artifact damage type is fire damage
 3. Artifact to-hit bonus is 1d5
-4. Artifact deals double normal damage
+4. Artifact deals 1.75 times normal damage
 5. Full fire resistance when wielded
