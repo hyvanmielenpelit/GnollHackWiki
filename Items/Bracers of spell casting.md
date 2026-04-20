@@ -14,4 +14,4 @@
 ## Conferred powers
 
 1. Mana pool is increased by 10% when worn
-2. Grants +40% bonus to casting all spells when worn
+2. Grants +80% bonus to casting all spells when worn

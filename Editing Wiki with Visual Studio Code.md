@@ -28,21 +28,7 @@ Visual Studio Code is a light-weight but powerful code editor from Microsoft.
 - **Custom file dropdown provider** — Places files and images automatically under a Gollum-style uploads folder
 - **Auto-completion** — Auto-completes page names and section headings
 
-#### 2. Markdown All in One
-
-![markdown-all-in-one-v2](/uploads/Editing%20Wiki%20with%20Visual%20Studio%20Code/markdown-all-in-one-v2.webp)
-
-##### Download
-
-- [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
-
-##### Features
-
-- Markdown keyboard shortcuts
-- Math support in the preview pane
-- And many more...
-
-#### 3. LTeX+
+#### 2. LTeX+
 
 ![ltex-plus-v2](/uploads/Editing%20Wiki%20with%20Visual%20Studio%20Code/ltex-plus-v2.webp)
 
@@ -53,13 +39,6 @@ Visual Studio Code is a light-weight but powerful code editor from Microsoft.
 ##### Features
 
 - English-language spell checking in Markdown documents
-
-### Add Shortcuts to User Settings (Optional)
-
-Click **Ctrl+Shift+P** and search for:
-
-- **Markdown All in One: Toggle Code Span**, and click the gear icon and set its key binding to **Win+Shift+C**.
-- **Markdown All in One: Toggle Code Block**, and click the gear icon and set its key binding to **Win+Alt+C**.
 
 ## Accessing the Repository
 
