@@ -1,4 +1,4 @@
-## Melee Weapon: Runed Scepter - Quest Artifact
+## Melee Weapon: Runed Sceptre - Quest Artifact
 
 - **Weight:**                 3.8 lbs
 - **Base value:**             2500 gold
