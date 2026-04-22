@@ -72,6 +72,7 @@ GnollHack is best understood as a modernized version of NetHack that makes the c
 ## Additional Material
 
 - **[[GnollHack Animations]]** — GnollHack-themed animated short films in short-form
+- **[[GnollHack Universe Videos]] — Photorealistic short films in short-form
 
 ## Contact Us
 
