@@ -25,12 +25,16 @@ Please also see [[Roguelike Comparison]] for the comparison of *NetHack*, *Gnoll
 
 GnollHack preserves most NetHack mechanics to keep the game familiar to NetHack veterans. GnollHack aims to *extend* the NetHack experience with new additions while keeping the core of the game intact. It also aims to *modernize* NetHack without losing the depth of the original.
 
-## Screenshot Comparison
+## Graphical User Interface (GUI) Comparison
 
-### GnollHack Android Screenshot
+### NetHack
 
-<img src="/uploads/Improved%20Graphical%20Interface/android-screenshot.webp" height="740" alt="Android screenshot" /><br />
+NetHack's GUI with the Nevanda tileset on Windows:
 
-### NetHack Screenshot — Traditional ASCII Interface
+![Nethack with Nevanda tileset](/uploads/How%20GnollHack%20differs%20from%20NetHack/nethack-nevanda.png)
 
-![NetHack ASCII Screenshot](/uploads/How%20GnollHack%20differs%20from%20NetHack/Nethack.png)
+### GnollHack
+
+GnollHack's GUI on Windows:
+
+![GnollHack on Windows](/uploads/How%20GnollHack%20differs%20from%20NetHack/gnollhack-windows.png)
