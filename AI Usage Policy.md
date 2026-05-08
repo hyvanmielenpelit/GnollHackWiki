@@ -15,8 +15,7 @@
 ## AI Voices
 
 1. AI voices will not be used in the game.
-2. AI voices will not be used in non-game content in general.
-3. AI voices may be used in non-game content, if the voicing would otherwise not be done at all, but this should be a rare occassion.
+2. AI voices may be used in non-game content, such as advertising.
 
 ## AI Music
 
