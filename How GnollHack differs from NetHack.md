@@ -25,6 +25,14 @@ Please also see [[Roguelike Comparison]] for the comparison of *NetHack*, *Gnoll
 
 GnollHack preserves most NetHack mechanics to keep the game familiar to NetHack veterans. GnollHack aims to *extend* the NetHack experience with new additions while keeping the core of the game intact. It also aims to *modernize* NetHack without losing the depth of the original.
 
+## GnollHack Development Key Figures
+
+- More than 10000 code commits since July 2019, when GnollHack was forked from NetHack 3.6.2
+- More than 23000 graphical tiles, hand drawn by real artists
+- More than 100 high-definition user interface icons, drawn by a real artist
+- More than 5000 voiceover lines, voiced by real voice actors
+- 14 pieces of original background music, composed by a real composer
+
 ## Graphical User Interface (GUI) Comparison
 
 ### NetHack
