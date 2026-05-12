@@ -28,10 +28,10 @@ GnollHack preserves most NetHack mechanics to keep the game familiar to NetHack 
 ## GnollHack Development Key Figures
 
 - More than 10000 code commits since July 2019, when GnollHack was forked from NetHack 3.6.2
-- More than 23000 graphical tiles, drawn by real artists
-- More than 100 high-definition user interface icons, drawn by a real artist
+- More than 23000 graphical tiles, drawn by real artists specifically for GnollHack
+- More than 100 high-definition user interface icons, drawn by a real artist specifically for GnollHack
 - More than 5000 voiceover lines, voiced by real voice actors
-- 14 pieces of original background music, composed by a real composer
+- 14 pieces of original background music, composed by a real composer specifically for GnollHack
 
 ## Graphical User Interface (GUI) Comparison
 
