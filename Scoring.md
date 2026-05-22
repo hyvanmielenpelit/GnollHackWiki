@@ -215,7 +215,7 @@ Ranger's role achievement is to attain the level of Grand Master in Bow or Cross
 
 #### 2.6.9. Rogue Loot Score
 
-Rogue gains score equal to the gold piece value of all gold, gems, and art objects carried in the inventory or in bags, or deposited in a sandalwood chest.
+Rogue gains score equal to 5 times the gold piece value of all gold, gems, and art objects carried in the inventory or in bags, or deposited in a sandalwood chest.
 
 Rogue's role achievement is find and defeat Croesus (50000 points).
 

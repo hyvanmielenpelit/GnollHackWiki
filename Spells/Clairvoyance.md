@@ -16,4 +16,4 @@
 
 ## Description
 
-Grants clairvoyance
+Maps and reveals an area of 19x11 squares around the caster
