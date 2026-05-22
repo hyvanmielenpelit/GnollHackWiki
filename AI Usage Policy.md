@@ -43,3 +43,4 @@
 1. AI is used as a coding helping tool by programmers.
 2. AI may also be used for profiling insights, enhanced debugging workflows, and similar tasks.
 3. AI is integrated in our development environments and tools.
+4. Currently, no code has been written by an AI agent. All code has been written by real programmers.
