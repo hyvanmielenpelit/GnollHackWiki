@@ -1,37 +1,36 @@
 ## AI Images
 
-1. AI images will not be used in the game.
-2. AI images may be used in non-game content. This includes but is not limited to:
-    - Illustrative wiki images
-    - Stock graphics not related to the game
+1. AI generated images aren't used in the game.
+2. AI generated images may be used in non-game content. This includes but isn't limited to:
+    - Illustrative images in the wiki
+    - Advertising
 
 ## AI Text
 
-1. AI generated text will not be used in the game.
-2. AI generated text can be used in non-game content, such as advertising.
+1. AI generated text isn't used in the game.
+2. AI generated text may be used in non-game content, such as in advertising.
 
 ## AI Voices
 
-1. AI voices will not be used in the game.
-2. AI voices may be used in non-game content, such as advertising.
+1. AI generated voices aren't used in the game.
+2. AI generated voices may be used in non-game content, such as in advertising.
 
 ## AI Music
 
-1. AI generated music will not be used in the game.
-2. AI generated music may be used in non-game content, such as advertising.
+1. AI generated music isn't used in the game.
+2. AI generated music may be used in non-game content, such as in advertising.
 
 ## AI Videos
 
-1. AI videos will not be used in the game.
-2. AI videos may be used in non-game content. This includes but is not limited to:
-    - Illustrative videos in advertising
+1. AI generated videos aren't used in the game.
+2. AI generated videos may be used in non-game content, such as in advertising.
 
 ## AI 3D Models
 
 *Note that GnollHack is a 2D game and there are no 3D artists working on the project.*
 
-1. AI generated 3D models will not be used in the game.
-2. AI generated 3D models may be used in non-game content, such as advertising.
+1. AI generated 3D models aren't used in the game.
+2. AI generated 3D models may be used in non-game content, such as in advertising.
 
 ## AI Code
 
