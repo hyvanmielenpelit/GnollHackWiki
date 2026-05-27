@@ -27,8 +27,6 @@
 
 ## AI 3D Models
 
-*Note that GnollHack is a 2D game and there are no 3D artists working on the project.*
-
 1. AI generated 3D models aren't used in the game.
 2. AI generated 3D models may be used in non-game content, such as in advertising.
 
