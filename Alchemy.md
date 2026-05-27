@@ -241,10 +241,13 @@ In GnollHack, you can mix potions and other items with each other. You do this w
 
 | Item 2 | Result |
 | :----- | :----- |
-| [[/Items/Potion of levitation]] | $\frac{2}{3}$: [[/Items/Potion of gain level]], $\frac{1}{3}$: Nothing happens |
+| [[/Items/Potion of levitation]] | $\frac{2}{3}$: [[/Items/Potion of gain level]], $\frac{1}{3}$: Generic effect |
 | [[/Items/Potion of fruit juice]] | [[/Items/Potion of elven herbal brew]] |
 | [[/Items/Potion of elven herbal brew]] | [[/Items/Potion of confusion]] |
 
+### Generic Effect
+
+If no mixture type is determined from the tables, then the potion may become [[/Items/Potion of water]], [[/Items/Potion of poison]], [[/Items/Potion of sickness]], or a random potion, each with a 1/8 chance, and has a 1/2 chance of evaporating.
 
 ## Tools
 
