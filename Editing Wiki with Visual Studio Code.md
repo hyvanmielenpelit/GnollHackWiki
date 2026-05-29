@@ -40,6 +40,37 @@ Visual Studio Code is a light-weight but powerful code editor from Microsoft.
 
 - English-language spell checking in Markdown documents
 
+### Custom Keyboard Shortcuts
+
+Open the command palette with **Ctrl+Shift+P** and type `Preferences: Open Keyboard Shortcuts (JSON)` and select it with Enter. Add the following code to the opened `keybindings.json` file (remember to add commas wherever necessary):
+
+```
+   {
+      "key": "ctrl+i",
+      "command": "editor.action.insertSnippet",
+      "when": "editorTextFocus && editorLangId == 'markdown'",
+      "args": {
+         "snippet": "*${1:$TM_SELECTED_TEXT}*"
+      }
+   },
+   {
+      "key": "ctrl+b",
+      "command": "editor.action.insertSnippet",
+      "when": "editorTextFocus && editorLangId == 'markdown'",
+      "args": {
+         "snippet": "**${1:$TM_SELECTED_TEXT}**"
+      }
+   }
+```
+
+Then, save the file.
+
+It will add the following keyboard shortcuts to Markdown documents:
+
+- **Ctrl+i**: Italic
+- **Ctrl+b**: Bold
+
+
 ## Accessing the Repository
 
 ![gnollhack-wiki-256](/uploads/Editing%20Wiki%20with%20Visual%20Studio%20Code/gnollhack-wiki-256.webp)
