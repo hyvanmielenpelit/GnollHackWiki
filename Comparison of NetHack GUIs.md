@@ -6,4 +6,4 @@ This is a feature comparison of the following graphical user interfaces for NetH
 
 The situation on 30 May 2026 is the following:
 
-![Comparison of NetHack GUIs](/uploads/Comparison%20of%20NetHack%20GUIs/gui-comparison-v6.webp)
+![Comparison of NetHack GUIs](/uploads/Comparison%20of%20NetHack%20GUIs/gui-comparison-v7.webp)
