@@ -9,6 +9,14 @@
 
 ### Artwork
 
-* Illustrative artwork in the wiki is created with [Bing Image Creator](https://www.bing.com/images/create), prompted and edited by **Tommi Gustafsson**.
-    - Please see our [[AI Usage Policy]].
-* T-shirt graphics in the [[/Roles/Tourist]] page illustration by **Dinosaur Nerd**. 
+#### Illustrative Artwork on Wiki
+
+- The majority of the artwork has been made with [Bing Image Creator](https://www.bing.com/images/create), using the **Dall-E** AI model.
+- The game box art on the [[Home|Home]] page has been made with **Nano Banana 2**.
+- All artwork has been prompted and edited by **Tommi Gustafsson**.
+
+Please see our [[AI Usage Policy]].
+
+#### Other Credits
+
+- T-shirt graphics on the [[/Roles/Tourist]] page illustration has been made by **Dinosaur Nerd**. 
