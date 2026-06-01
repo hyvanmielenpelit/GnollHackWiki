@@ -9,7 +9,7 @@ This page contains a comparison of:
 
 The situation on 1 February 2026 is the following:
 
-![Roguelikes comparison table](/uploads/Roguelike%20Comparison/roguelikes-comparison-v9.webp)
+![Roguelikes comparison table](/uploads/Roguelike%20Comparison/roguelikes-comparison-v10.webp)
 
 ## Screenshots
 

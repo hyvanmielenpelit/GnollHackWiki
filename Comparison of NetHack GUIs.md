@@ -4,7 +4,7 @@ This is a comparison of the following graphical user interfaces for NetHack:
 - [NetHack 3D by JamesIV4](https://github.com/JamesIV4/nethack-3d)
 - [GnollHack](https://gnollhack.com/)
 
-## GUI Feature Comparison Table
+## Feature Comparison
 
 The situation of GUI features and capabilities on 1 June 2026 is the following:
 
