@@ -1,6 +1,6 @@
 # GnollHack Wiki
 
-![GnollHack](/uploads/Home/gnollhack-q90.webp)
+![GnollHack Box Art](/uploads/Home/gnollhack-game-box-v2-h512.webp)
 
 <small>*Disclaimer: GnollHack doesn't use AI art in the game. It's only used in the wiki as illustrations. Please see our [[AI Usage Policy]].*</small>
 
