@@ -15,6 +15,14 @@ The situation on 1 February 2026 is the following:
 
 ### NetHack
 
+#### NetHack's Traditional ASCII UI
+
+A screenshot of NetHack's traditional ASCII (text-based) UI:
+
+![NetHack ASCII UI](/uploads/Roguelike%20Comparison/nethack-ascii-screenshot.webp)
+
+#### NetHack Windows GUI
+
 A screenshot of NetHack Windows GUI with the Nevanda tileset (32x32-pixel tiles):
 
 ![Nethack Windows GUI with Nevanda Tileset](/uploads/Roguelike%20Comparison/nethack-nevanda-q85.webp)
