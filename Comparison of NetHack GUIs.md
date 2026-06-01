@@ -20,7 +20,7 @@ NetHack's Windows GUI looks like this with the **Nevanda tileset** (it's one of 
 
 ### NetHack 3D (by JamesIV4)
 
-NetHack 3D looks like this in the top-down overview mode:
+NetHack 3D looks like this in the top-down overview mode, using the **Nevanda tileset** (its tiles are 32x32 pixels in size):
 
 ![Screenshot of NetHack 3D](/uploads/Comparison%20of%20NetHack%20GUIs/nethack3d-ss-q85.webp)
 
