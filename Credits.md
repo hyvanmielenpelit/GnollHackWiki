@@ -19,4 +19,4 @@ Please see our [[AI Usage Policy]].
 
 #### Other Credits
 
-- T-shirt graphics on the [[/Roles/Tourist]] page illustration has been made by **Dinosaur Nerd**. 
+- T-shirt graphics in the illustration on the [[/Roles/Tourist]] page has been made by **Dinosaur Nerd**. 
