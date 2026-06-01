@@ -33,7 +33,7 @@ GnollHack preserves most NetHack mechanics to keep the game familiar to NetHack 
 - More than 5000 voiceover lines, voiced by real voice actors
 - 14 pieces of original background music, composed by a real composer specifically for GnollHack
 
-## Graphical User Interface (GUI) Comparison
+## User Interface Screenshots
 
 ### NetHack
 
