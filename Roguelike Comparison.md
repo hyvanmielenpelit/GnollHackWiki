@@ -29,18 +29,18 @@ A screenshot of NetHack Windows GUI with the Nevanda tileset (32x32-pixel tiles)
 
 ### GnollHack
 
-A screenshot of GnollHack's modern Windows client.
+A screenshot of GnollHack's modern Windows client:
 
 ![Gnollhack Modern Windows Client](/uploads/Roguelike%20Comparison/gnollhack-windows-q85.webp)
 
 ### Pathos
 
-A screenshot of Pathos on Windows.
+A screenshot of Pathos on Windows:
 
 ![Pathos on Windows](/uploads/Roguelike%20Comparison/pathos-windows-screenshot-q85.webp)
 
 ### Shattered Pixel Dungeon
 
-A screenshot of Shattered Pixel Dungeon on Windows.
+A screenshot of Shattered Pixel Dungeon on Windows:
 
 ![Shattered Pixel Dungeon on Windows](/uploads/Roguelike%20Comparison/spd-windows-screenshot-q85.webp)
