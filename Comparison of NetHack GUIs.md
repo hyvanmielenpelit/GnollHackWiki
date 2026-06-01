@@ -10,6 +10,8 @@ The situation of GUI features and capabilities on 1 June 2026 is the following:
 
 ![Comparison of NetHack GUIs](/uploads/Comparison%20of%20NetHack%20GUIs/gui-comparison-v8.webp)
 
+- "Over 23000 base tiles" means that GnollHack has over $23000 \times 64 \times 96$ pixels of custom tile graphics. That's over 138,368,000 pixels, which means *over 16 full 4K screens* of custom tile graphics. Some of these graphics are auto-generated, such as statue graphics, by our custom Tile Set Compiler. Animations also take up a lot of space.
+
 ## Screenshots
 
 ### NetHack Windows GUI
