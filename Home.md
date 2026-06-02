@@ -27,7 +27,7 @@ GnollHack is best understood as a modernized version of NetHack that makes the c
 
 ## Playing
 
-![Dungeons of Doom](/uploads/Home/dungeons-of-doom-q90.webp)
+![Welcome to the Dungeons of Doom](/uploads/Home/descending-q85.webp)
 
 - **[[Gameplay Information]]** — Everything from items to monsters
 - **[[Desktop-Only Features]]** — Take a look at the features that appear only on the desktop versions of GnollHack
