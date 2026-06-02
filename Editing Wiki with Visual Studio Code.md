@@ -181,9 +181,27 @@ jpgtowebp.net supports **almost all image formats, including JPG and PNG**, but 
 7. Click **Convert**.
 8. Click **Download All as ZIP**.
 
-### Image Size of Illustrative Images
+### Illustrative Images
 
-Please use **512x512 pixel resolution** for illustrative images and use **12.5 pixel rounded corners** (you need to do rounded corners in an image editing software). Please try to keep **their size under 100 KB**. If it goes over 100 KB, you can try to reduce their image quality to 80.
+#### Pixel Size
+
+Please use the following pixel sizes for illustrative images:
+
+- **Square image:** 512x512 pixels
+- **Horizontal image**: Width 512 pixels
+- **Vertical image**: Height 512 pixels
+
+#### Rounded Corners
+
+If an image has sharp corners, please create **12-pixel rounded corners** in an image editing software. *(The wiki doesn't support rounding corners using the CSS border-radius property.)*
+
+#### Transparent Background
+
+Ensure that every image has a **transparent background** (not white).
+
+#### File Size
+
+Please try to keep the **file size** of every image **under 100 KB**. If it goes over 100 KB, you can try to reduce the image quality to 80.
 
 ### Page Title Can Be Customized Using H1 Heading (#) in First Line
 
