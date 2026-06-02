@@ -2,7 +2,7 @@
 
 ![GnollHack Box Art](/uploads/Home/gnollhack-game-box-v2-h512.webp)
 
-<small>*Disclaimer: GnollHack doesn't use AI art in the game. It's only used in the wiki as illustrations. Please see our [[AI Usage Policy]].*</small>
+<small>*Disclaimer: GnollHack doesn't use AI art in the game. It's only used on the wiki as illustrations. Please see our [[AI Usage Policy]].*</small>
 
 GnollHack is modern evolution of the legendary [NetHack](https://www.nethack.org/) — one of the deepest and greatest roguelikes ever created. It takes the limitless depth and emergent gameplay of the original and elevates them with a modern UI, animated tile graphics, sound effects, music, and voiceovers. Whether you're a curious newcomer or a seasoned NetHack veteran, GnollHack delivers the definitive modern NetHack experience — freely available on both mobile and desktop.
 
@@ -28,6 +28,8 @@ GnollHack is best understood as a modernized version of NetHack that makes the c
 ## Playing
 
 ![Welcome to the Dungeons of Doom](/uploads/Home/descending-q85.webp)
+
+<small>*Disclaimer: Illustrations on the wiki don't reflect actual gameplay.*</small>
 
 - **[[Gameplay Information]]** — Everything from items to monsters
 - **[[Desktop-Only Features]]** — Take a look at the features that appear only on the desktop versions of GnollHack
