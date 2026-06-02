@@ -12,7 +12,7 @@
 #### Illustrative Artwork on Wiki
 
 - The majority of the artwork has been made with [Bing Image Creator](https://www.bing.com/images/create), using the **Dall-E** AI model.
-- The game box art on the [[Home|Home]] page has been made with **Nano Banana 2**.
+- The game box art on the [[Home|Home]] page and some other newer artwork has been made with **Nano Banana 2**.
 - All artwork has been prompted and edited by **Tommi Gustafsson**.
 
 Please see our [[AI Usage Policy]].
