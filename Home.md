@@ -28,7 +28,7 @@ GnollHack is best understood as a modernized version of NetHack that makes the c
 
 ## Playing
 
-![Welcome to the Dungeons of Doom](/uploads/Home/descending-q85.webp)
+![Welcome to the Dungeons of Doom](/uploads/Home/descending-v2-q85.webp)
 
 <small>*Disclaimer: Illustrations on the wiki don't reflect actual gameplay.*</small>
 
