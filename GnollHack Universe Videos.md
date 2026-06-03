@@ -1,4 +1,4 @@
-![gnoll-and-the-dragon](/uploads/GnollHack%20Universe%20Videos/gnoll-and-the-dragon.png)
+![gnoll-and-the-dragon](/uploads/GnollHack%20Universe%20Videos/gnoll-and-the-dragon-q85.webp)
 
 We have produced GnollHack-themed photorealistic short films in short-form (9:16 vertical videos) for the social media.
 

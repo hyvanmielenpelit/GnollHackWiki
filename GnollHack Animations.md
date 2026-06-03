@@ -2,7 +2,7 @@ We have produced GnollHack-themed 2D-animations in short-form (9:16 vertical vid
 
 ## GnollHack Animations with Bella
 
-![Bella and Sir Max](/uploads/GnollHack%20Animations/Bella-and-Sir-Max-h512.png)
+![Bella and Sir Max](/uploads/GnollHack%20Animations/Bella-and-Sir-Max-h512-q85.webp)
 
 **Bella**, the gnoll adventuress, and her dog Welsh springer spaniel **Sir Max** appear in the following short-form animations:
 
