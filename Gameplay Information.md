@@ -1,4 +1,4 @@
-![Gameplay Information](/uploads/Gameplay%20Information/gameplay-information-q85.webp)
+![Gameplay Information](/uploads/Gameplay%20Information/gameplay-information-v2-q85.webp)
 
 ## Starting the Game
 
