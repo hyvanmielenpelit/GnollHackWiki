@@ -24,17 +24,19 @@ GnollHack is also a true [NetHack](https://en.wikipedia.org/wiki/NetHack) varian
 
 GnollHack can also be viewed as a NetHack remaster, adding the following modern features:
 
-- Graphics
-- Animations
-- Sounds
-- Music
-- Voiceovers
-- Cross-platform support: Android, iOS, macOS, and Windows
+- **Graphics and animations** — Over 23000 64x96-pixel base tiles
+- **Sounds** — Over 1100 sound effects
+- **Music** — 37 music tracks
+- **Voiceovers** — 97 voice actors and over 5000 voiceover lines
+- **Cross-platform support** — Android, iOS, macOS, and Windows
     - macOS can run the iOS version *(Macs with an M1 or later processor)*
-- Mobile touch-based UI on Android and iOS
-- Modern UI for desktop, adapted from the mobile UI
-    - Windows supports touch, mouse, and keyboard
-    - macOS supports mouse only *(keyboard support coming in the future)*
+- **Modern UI**
+    - Mobile touch-based UI on Android and iOS
+    - Modern UI for desktop, adapted from the mobile UI
+        - Windows supports touch, mouse, and keyboard
+        - macOS supports mouse only *(keyboard support coming in the future)*
+
+All graphics, sounds, music, and voiceovers have been made by *real people* — nothing has been generated with AI.
 
 ## Open Source
 
