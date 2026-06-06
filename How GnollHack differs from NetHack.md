@@ -17,10 +17,6 @@
 * Magic is resource-based.
 * Ranged combat works better.
 
-## Roguelike Comparison
-
-Please also see [[Roguelike Comparison]] for the comparison of *NetHack*, *GnollHack*, *Pathos*, and *Shattered Pixel Dungeon*.
-
 ## Preserving the Spirit of NetHack
 
 GnollHack preserves most NetHack mechanics to keep the game familiar to NetHack veterans. GnollHack aims to *extend* the NetHack experience with new additions while keeping the core of the game intact. It also aims to *modernize* NetHack without losing the depth of the original.
@@ -32,6 +28,11 @@ GnollHack preserves most NetHack mechanics to keep the game familiar to NetHack 
 - More than 100 high-definition user interface icons, drawn by a real artist specifically for GnollHack
 - More than 5000 voiceover lines, voiced by real voice actors
 - 14 pieces of original background music, composed by a real composer specifically for GnollHack
+
+## Comparisons
+
+- **[[Roguelike Comparison]]** — A comparison of *NetHack*, *GnollHack*, *Pathos*, and *Shattered Pixel Dungeon*.
+- **[[Comparison of NetHack GUIs]]** — A comparison of *NetHack Windows GUI*, *NetHack 3D*, and *GnollHack*.
 
 ## User Interface Screenshots
 
