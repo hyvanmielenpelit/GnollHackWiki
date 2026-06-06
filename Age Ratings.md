@@ -1,8 +1,8 @@
 | Region | Logo | Ages | 
 | :----- | :--: | :--: |
 | Australia | ![PG – Australia](/uploads/Age%20Ratings/PG-Australia.webp) | 15+<br /><small>*(Under 15 with parental guidance)*</small> |
-| Brazil | ![All Ages – Brazil](/uploads/Age%20Ratings/AllAges-Brazil.webp) | All | General Audiences |
-| Europe, except Germany | <img alt="PEGI 7+" src="/uploads/Age%20Ratings/PEGI_7.webp" height="64" /> | 7+ |
+| Brazil | ![All Ages – Brazil](/uploads/Age%20Ratings/AllAges-Brazil.webp) | All |
+| Europe<br /><small>*(except Germany)*</small> | <img alt="PEGI 7+" src="/uploads/Age%20Ratings/PEGI_7.webp" height="64" /> | 7+ |
 | Germany | ![12-Germany](/uploads/Age%20Ratings/12-Germany.webp) | 12+ |
 | Indonesia | ![IGRS_13](/uploads/Age%20Ratings/IGRS_13.webp) | 13+ |
 | North America | <img alt="ESRB Everyone 10+" src="/uploads/Age%20Ratings/ESRB_Everyone_10.webp" height="73" /> | 10+ |
