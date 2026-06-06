@@ -46,7 +46,7 @@ GnollHack preserves most NetHack mechanics to keep the game familiar to NetHack 
 
 NetHack's GUI with the Nevanda tileset on Windows:
 
-![Nethack with Nevanda tileset](/uploads/How%20GnollHack%20differs%20from%20NetHack/nethack-nevanda-q85.webp)
+![NetHack with Nevanda Tileset](/uploads/How%20GnollHack%20differs%20from%20NetHack/nethack-nevanda-q85.webp)
 
 ### GnollHack
 
