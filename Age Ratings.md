@@ -1,3 +1,5 @@
+GnollHack's age ratings are the following, depending on the region:
+
 | Region | Logo | Ages | 
 | :----- | :--: | :--: |
 | Australia | ![PG – Australia](/uploads/Age%20Ratings/PG-Australia.webp) | 15+<br /><small>*(Under 15 with parental guidance)*</small> |
