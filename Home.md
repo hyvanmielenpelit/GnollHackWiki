@@ -17,7 +17,8 @@ GnollHack is best understood as a modernized version of NetHack that makes the c
 
 - **[[Roguelike Comparison]]** — Find out how GnollHack compares to *NetHack*, *Pathos*, and *Shattered Pixel Dungeon*
 - **[[How GnollHack differs from NetHack]]** — A short article on how the development work put into GnollHack has improved the game
-- **[[Comparison of NetHack GUIs]]** — A feature comparison of *NetHack Windows GUI*, *NetHack 3D*, and *GnollHack*. 
+- **[[Comparison of NetHack GUIs]]** — A feature comparison of *NetHack Windows GUI*, *NetHack 3D*, and *GnollHack* 
+- **[[Age Ratings]]** — GnollHack's age ratings in various regions
 
 ## Getting Started
 
