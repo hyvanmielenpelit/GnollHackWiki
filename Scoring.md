@@ -185,13 +185,13 @@ A lawful Knight gains score for each slain demon, devil, or chaotic dragon, incl
 
 $KnightSlayingScore =$
 - For each slain demon, devil, or chaotic dragon:
-    - If Unique: $200 \times (MonsterDifficultyLevel + 1)$
-    - Else: $50 \times (MonsterDifficultyLevel + 1)$
+    - If Unique: $750 \times (MonsterDifficultyLevel + 1)$
+    - Else: $100 \times (MonsterDifficultyLevel + 1)$
 
 
 A chaotic Knight gains score for each slain angel and lawful dragon in the same way. A neutral Knight gains extra score from slaying undead creatures.
 
-Knight's role achievement is to find and defeat Asmodeus, Ruler of Nine Hells (50000 points).
+Knight's role achievement is to find and defeat Asmodeus, Ruler of Nine Hells (60000 points).
 
 #### 2.6.6. Monk Extra Conduct Score
 
