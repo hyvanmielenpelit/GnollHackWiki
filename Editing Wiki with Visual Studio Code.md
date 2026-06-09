@@ -8,7 +8,7 @@ To get an optimal wiki editing experience, you need to install [Visual Studio Co
 
 ### Gollum-Style Wiki Tag Syntax
 
-[Gollum](https://github.com/gollum/gollum) is a wiki software used by the GnollHack wiki. It has its own proprietary wiki tag syntax, which differs from that used by [MediaWiki](https://github.com/wikimedia/mediawiki) (used by [Wikipedia](https://www.wikipedia.org/)). Please see the [Foam for Gollum](https://marketplace.visualstudio.com/items?itemName=Hyvnmielenpelitry.foam-vscode-gollum) Visual Studio Code extension description for the most important details. The [Gollum wiki](https://github.com/gollum/gollum/wiki#tags) has also a pretty technical description of supported tags.
+[Gollum](https://github.com/gollum/gollum) is the wiki software used by the GnollHack wiki. It has its own proprietary wiki tag syntax, which differs from that used by [MediaWiki](https://github.com/wikimedia/mediawiki) (which is used by, e.g. [Wikipedia](https://www.wikipedia.org/)). Please see the [Foam for Gollum](https://marketplace.visualstudio.com/items?itemName=Hyvnmielenpelitry.foam-vscode-gollum) Visual Studio Code extension's description for the most important details. The [Gollum wiki](https://github.com/gollum/gollum/wiki#tags) has also a pretty technical description of supported tags.
 
 ## Visual Studio Code Installation
 
