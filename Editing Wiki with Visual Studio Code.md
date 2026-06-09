@@ -1,3 +1,9 @@
+## Overview
+
+The GnollHack wiki can't be edited directly on the web. Instead, you need to update the [GnollHackWiki](https://github.com/hyvanmielenpelit/GnollHackWiki) git repository on GitHub. Wiki pages are text files in the [Markdown](https://www.markdownguide.org/) format. Once the repository has been updated, the changes will sync to the web once every 5 minutes. There's no separate build step involved. If you don't have rights to update the GnollHackWiki GitHub repository, you need to fork the repository on GitHub and make a pull request. But usually it's easier just to ask someone with editing rights to update the repository instead.
+
+To get an optimal wiki editing experience, you need to install [Visual Studio Code](https://code.visualstudio.com/) and some of its extensions. These will help you to update wiki pages and upload images with great efficiency.
+
 ## Visual Studio Code Installation
 
 ### Install Visual Studio Code
