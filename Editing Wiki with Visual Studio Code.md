@@ -1,6 +1,6 @@
 ## Overview
 
-The GnollHack wiki can't be edited directly on the web. Instead, you need to update the [GnollHackWiki](https://github.com/hyvanmielenpelit/GnollHackWiki) git repository on GitHub. Wiki pages are text files in the [Markdown](https://www.markdownguide.org/) format, which has been extended with a [Gollum-style wiki tag syntax](#gollum-style-wiki-tag-syntax), particularly wiki links, which link pages to each other. 
+The GnollHack wiki can't be edited directly on the web. Instead, you need to update the [GnollHackWiki](https://github.com/hyvanmielenpelit/GnollHackWiki) git repository on GitHub. Wiki pages are text files in the [Markdown](https://www.markdownguide.org/) format, which has been extended with a [Gollum-style wiki tag syntax](#gollum-style-wiki-tag-syntax), particularly wikilinks, which link pages to each other. 
 
 Once the repository has been updated, the changes will sync to the web once every 5 minutes. There's no separate build step involved. If you don't have rights to update the GnollHackWiki GitHub repository, you need to fork the repository on GitHub and make a pull request. But usually it's easier just to ask someone with editing rights to update the repository instead.
 
@@ -245,9 +245,9 @@ Since the H1 heading (#) is reserved for customizing page titles, please use onl
 
 Press **Ctrl+Shift+V**.
 
-### Creating New Page from Wiki Link
+### Creating New Page from Wikilink
 
-You can create a new Markdown page by **holding Ctrl down while clicking a wiki link** (e.g. `[[New Page]]`).
+You can create a new Markdown page by **holding Ctrl down while clicking a wikilink** (e.g. `[[New Page]]`).
 
 ### Add File or Image
 
