@@ -1,4 +1,4 @@
-![Visual Studio Code Screenshot](/uploads/Editing%20Wiki%20with%20Visual%20Studio%20Code/visual-studio-code-screenshot-q85.webp)
+![Visual Studio Code Screenshot](/uploads/Editing%20Wiki%20with%20Visual%20Studio%20Code/visual-studio-code-screenshot-v2-q85.webp)
 
 ## Overview
 
