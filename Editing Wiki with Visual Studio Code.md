@@ -1,3 +1,5 @@
+![Visual Studio Code Screenshot](/uploads/Editing%20Wiki%20with%20Visual%20Studio%20Code/visual-studio-code-screenshot-q85.webp)
+
 ## Overview
 
 The GnollHack wiki can't be edited directly on the web. Instead, you need to update the [GnollHackWiki](https://github.com/hyvanmielenpelit/GnollHackWiki) git repository on GitHub. Wiki pages are text files in the [Markdown](https://www.markdownguide.org/) format, which has been extended with a [Gollum-style wiki tag syntax](#gollum-style-wiki-tag-syntax), particularly wikilinks, which link pages to each other. 
