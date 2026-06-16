@@ -19,6 +19,7 @@
 * [[Experience Level]] — Learn about experience levels in GnollHack.
 * [[Conditions]] — Learn what different conditions that are displayed in the status bar mean.
 * [[Encumbrance]] — Learn about the encumbrance system in GnollHack.
+* [[Hit Point and Mana Regeneration Rates]] — Learn how fast hit points and mana regenerate.
 
 ## Equipment
 
