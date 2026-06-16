@@ -1,4 +1,4 @@
-![Tutorials](/uploads/Tutorials/tutorials.webp)
+![Tutorials](/uploads/Tutorials/tutorials-q85.webp)
 
 ## General Tutorials
 
