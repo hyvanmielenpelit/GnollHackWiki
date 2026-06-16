@@ -1,13 +1,13 @@
 ## Hit Point Regeneration Rate
 
-The HP regeneration rate depends on the character's maximum hit points and active regeneration effects (HP regeneration state). If the character contracts **mummy rot**, it will drastically stop or decrease hit point regeneration, even killing the character over time.
+The hit point regeneration rate depends on a character's **maximum hit points** and **active HP regeneration effects** (HP regeneration state). If a character contracts **mummy rot**, it will drastically stop or decrease hit point regeneration, even killing the character over time.
 
 Different HP regeneration effects don't stack. The game will always use the best one.
 
 | HP Regeneration State | Hit Points Regenerated per Turn | With Mummy Rot |
-| :----------------- | :------------------------------ | :----------------------------- |
+| :-------------------- | :-----------------------------: | :------------: |
 | Default | $\text{Maximum Hit Points}/320$ | $-1\times\text{Maximum Hit Points}/960$ |
-| Regeneration | $\text{Maximum Hit Points}/160$ | 0 |
+| Regeneration | $\text{Maximum Hit Points}/160$ | $0$ |
 | Rapid Regeneration | $\text{Maximum Hit Points}/80$ | $+1$ |
 | Rapider Regeneration | $\text{Maximum Hit Points}/40$ | $+2$ |
 | Rapidest Regeneration | $\text{Maximum Hit Points}/20$ | $+3$ |
@@ -16,12 +16,12 @@ Different HP regeneration effects don't stack. The game will always use the best
 
 ## Mana Regeneration Rate
 
-The mana regeneration rate depends on the character's maximum mana and active energy/mana regeneration effects (mana regeneration state).
+The mana regeneration rate depends on a character's **maximum mana** and **active energy/mana regeneration effects** (mana regeneration state).
 
 Different mana regeneration effects don't stack. The game will always use the best one.
 
 | Mana Regeneration State | Mana Regenerated per Turn |
-| :----------------- | :------------------------ |
+| :---------------------- | :-----------------------: |
 | Default | $\text{Maximum Mana}/240$ |
 | Energy Regeneration | $\text{Maximum Mana}/120$ |
 | Rapid Energy Regeneration | $\text{Maximum Mana}/60$ |
