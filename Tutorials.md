@@ -1,7 +1,8 @@
-![tutorials](/uploads/Tutorials/tutorials.webp)
+![Tutorials](/uploads/Tutorials/tutorials.webp)
 
 ## General Tutorials
 
+* [[Compact Beginner's Guide (PDF)|/uploads/Tutorials/GnollHack_Mobile_Guide_v2.pdf]] — A short, colorful, mobile-friendly introduction to GnollHack for modern gamers.
 * [[Starting Guide for Beginners]] — Familiarize yourself with the basics of GnollHack.
 * [[Starting Guide for NetHack Veterans]] — How to play GnollHack, if you already know NetHack.
 
