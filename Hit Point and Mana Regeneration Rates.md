@@ -1,6 +1,6 @@
 ## Hit Point Regeneration Rate
 
-The hit point regeneration rate depends on a character's **maximum hit points** and **active HP regeneration effects** (HP regeneration state). If a character contracts **mummy rot**, it will drastically stop or decrease hit point regeneration, even killing the character over time.
+The hit point regeneration rate depends on a character's **maximum hit points** and **active HP regeneration effects** (HP regeneration state). If a character contracts **mummy rot**, it will stop or drastically decrease hit point regeneration, even killing the character over time.
 
 Different HP regeneration effects don't stack. The game will always use the best one.
 
