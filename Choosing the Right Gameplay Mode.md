@@ -1,4 +1,4 @@
-![Gameplay mode](/uploads/Choosing%20the%20Right%20Gameplay%20Mode/gameplay-mode.webp)
+![Gameplay Mode](/uploads/Choosing%20the%20Right%20Gameplay%20Mode/gameplay-mode-q85.webp)
 
 *Modern Ports Only*
 
