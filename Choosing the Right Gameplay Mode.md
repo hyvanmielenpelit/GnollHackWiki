@@ -21,3 +21,22 @@ Thus, there are **four different gameplay modes** in the modern version of the g
 | [[Casual-Classic Mode]]<br /><small>*(Reloadable Mode)*</small> | R | On | On |
 
 Additionally, one can also activate **[[Wizard Mode]] (W)** for debugging purposes.
+
+## Beginner Recommendation
+
+If you are completely new to GnollHack and NetHack, it's recommended that you start playing the game in one of the following modes:
+
+| Mode | Permanent Death | Saved Game Loading |
+| :--- | :-------------: | :----------------: |
+| [[Casual Mode]] | No<sup>1</sup> | Multiple times |
+| [[Modern Mode]] | No<sup>1</sup> | Only once |
+
+- <sup>1</sup> The character resurrects at the starting altar upon death.
+
+## Recommendation for NetHack Veterans
+
+If you are a seasoned NetHack veteran, it's recommended that you start playing the game in the follow mode:
+
+| Mode | Permanent Death | Saved Game Loading |
+| :--- | :-------------: | :----------------: |
+| [[Classic Mode]] | Yes | Only once |
