@@ -16,6 +16,13 @@ You can identify a fountain by dipping a potion into it. A fountain of healing, 
 
 This the [same fountain as in NetHack](https://nethackwiki.com/wiki/Fountain). However, some of the worse effects can happen only on lower dungeon levels.
 
+In NetHack, there are two variations of the fountain: **Magic Fountain** and **Non-Magic Fountain**. They map to GnollHack fountains as follows:
+
+| NetHack Fountain Name | GnollHack Fountain Name | Chance |
+| :--------------- | :----------------- | :----: |
+| Magic Fountain | Blessed Magic Fountain | 1 in 7 |
+| Non-Magic Fountain | (Normal) Magic Fountain | 6 in 7 |
+
 ## Fountain of Healing
 
 ### Drinking
