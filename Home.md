@@ -24,7 +24,7 @@ GnollHack is best understood as a modernized version of NetHack that makes the c
 
 - **[[Download]]** — Downloading GnollHack and installation instructions
 - **[[Tutorials]]**
-- **[[Choosing the Right Gameplay Mode]]** *(modern ports only)*
+- **[[Choosing the Right Gameplay Mode]]** *(modern versions only)*
 - **[[Choosing the Right Difficulty Level]]**
 
 ## Playing
@@ -45,8 +45,8 @@ GnollHack is best understood as a modernized version of NetHack that makes the c
 ## Online Sharing
 
 - **[[Share Your Progress to Discord Server Channel]]** — Modern clients can share your progress to Discord
-- **[[GnollHack Account]]** — GnollHack Account supports top score recording, bones sharing, Junethack, and NetHack Scoreboard *(modern ports only)*
-- **[[Bones Sharing]]** — You can share your dead characters with others *(modern ports only)*
+- **[[GnollHack Account]]** — GnollHack Account supports top score recording, bones sharing, Junethack, and NetHack Scoreboard *(modern versions only)*
+- **[[Bones Sharing]]** — You can share your dead characters with others *(modern versions only)*
 - **[[Save File Tracking]]** — Modern Windows version requires that your save files are tracked online to make them eligible for server posting
 
 ## Additional Information
@@ -56,7 +56,7 @@ GnollHack is best understood as a modernized version of NetHack that makes the c
 - **[[Emulator Support]]** — Learn about which emulators support GnollHack
 - **[[Save Game Compatibility]]** — Check which patches are compatible with each other
 - **[[Public Servers]]** — How to play GnollHack online *(ASCII version only)*
-- **[[Tournaments]]** — How to participate in tournaments *(modern ports only)*
+- **[[Tournaments]]** — How to participate in tournaments *(modern versions only)*
 - **[[Game Quirks]]** — Some non-obvious quirks how the game may work surprisingly
 - **[[Version Identifier Letters]]** — Find out what letters are used to describe different versions of GnollHack
 - **[[Credits]]**
