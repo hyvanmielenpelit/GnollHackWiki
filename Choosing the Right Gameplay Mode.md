@@ -12,17 +12,11 @@ There are two toggles in the mobile user interface that control in what mode you
 
 Thus, there are four different gameplay modes in the mobile version of the game. They are named as follows:
 
-1. **[[Modern Mode]] (M)** 
-    - **Classic Mode toggle:** Off
-    - **Casual Mode toggle:** Off
-2. **[[Classic Mode]]**
-    - **Classic Mode toggle:** On
-    - **Casual Mode toggle:** Off
-3. **[[Casual Mode]] (C)**
-    - **Classic Mode toggle:** Off
-    - **Casual Mode toggle:** On
-4. **[[Casual-Classic Mode]] (or Reloadable Mode) (R)**
-    - **Classic Mode toggle:** On
-    - **Casual Mode toggle:** On
+| Mode | Letter | Classic Mode Toggle | Casual Mode Toggle |
+| :--- | :----: |:------------------: | :----------------: |
+| [[Modern Mode]] | M | Off | Off |
+| [[Classic Mode]] | – | On | Off |
+| [[Casual Mode]] | C | Off | On |
+| [[Casual-Classic Mode]]<br /><small>*(Reloadable Mode)*</small> | R | On | On |
 
 Additionally, one can also activate **[[Wizard Mode]] (W)** for debugging purposes.
