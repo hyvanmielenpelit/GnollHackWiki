@@ -1,4 +1,4 @@
-![starting-guide-for-nethack-veterans](/uploads/Starting%20Guide%20for%20NetHack%20Veterans/starting-guide-for-nethack-veterans.webp)
+![Starting Guide for NetHack Veterans](/uploads/Starting%20Guide%20for%20NetHack%20Veterans/starting-guide-for-nethack-veterans-q85.webp)
 
 GnollHack works in many ways differently than NetHack, and therefore you might need to adjust your gameplay habits accordingly.
 
