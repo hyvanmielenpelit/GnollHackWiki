@@ -1,6 +1,6 @@
 ![Gameplay Mode](/uploads/Choosing%20the%20Right%20Gameplay%20Mode/gameplay-mode-q85.webp)
 
-*Modern Ports Only*
+*Modern Versions Only*
 
 There are two toggles in the modern user interface that control in what mode you will play your game:
 
@@ -11,9 +11,9 @@ There are two toggles in the modern user interface that control in what mode you
     - **Off:** Saved games are deleted upon loading *(cannot load saved games multiple times)*
     - **On:** Saved games are *not* deleted upon loading *(can load saved games multiple times)*
 
-Thus, there are **four different gameplay modes** in the modern version of the game. They are named as follows:
+Thus, there are **four different gameplay modes** in the modern version of the game:
 
-| Mode | Letter | Classic Mode Toggle | Casual Mode Toggle |
+| Name | Letter | Classic Mode Toggle | Casual Mode Toggle |
 | :--- | :----: |:------------------: | :----------------: |
 | [[Modern Mode]] | M | Off | Off |
 | [[Classic Mode]] | – | On | Off |
