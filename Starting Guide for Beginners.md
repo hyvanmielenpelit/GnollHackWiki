@@ -1,4 +1,4 @@
-![starting-guide-for-beginners](/uploads/Starting%20Guide%20for%20Beginners/starting-guide-for-beginners.webp)
+![Starting Guide for Beginners](/uploads/Starting%20Guide%20for%20Beginners/starting-guide-for-beginners-q85.webp)
 
 GnollHack, like NetHack, is a dungeon-exploration role-playing-game, where you descend to the bottom of the dungeon, gathering items, experience, and new skills while doing so. Your goal is to complete the main quest — to retrieve the Amulet of Yendor from the sanctuary of Moloch and return it to your god. On the way, you will meet many dangerous monsters, such as the Medusa whose mere gaze will turn you to stone, traps, and puzzles, until you have achieved your goal.
 
