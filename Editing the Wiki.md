@@ -12,7 +12,7 @@ To get an optimal wiki editing experience, you need to install [Visual Studio Co
 
 [Gollum](https://github.com/gollum/gollum) is the wiki software used by the GnollHack wiki. It has its own proprietary wiki tag syntax, which differs from that used by [MediaWiki](https://github.com/wikimedia/mediawiki) (which is used by, e.g. [Wikipedia](https://www.wikipedia.org/)). Please see the [Foam for Gollum](https://marketplace.visualstudio.com/items?itemName=Hyvnmielenpelitry.foam-vscode-gollum) Visual Studio Code extension's description for the most important details. The [Gollum wiki](https://github.com/gollum/gollum/wiki#tags) has also a pretty technical description of supported tags.
 
-## IDE Installation
+## Editing Software
 
 You have two options for the wiki editing software:
 
@@ -27,25 +27,17 @@ Additionally, you need to install the following extensions for working with Mark
     - Auto-completion — Auto-completes page names and section headings
 2. **LTeX+** — English-language spell checking in Markdown documents
 
-### Visual Studio Code
+### Visual Studio Code Installation
 
 ![Visual Studio Code](/uploads/Editing%20Wiki%20with%20Visual%20Studio%20Code/visual-studio-code-128.webp)
-
-Visual Studio Code is a light-weight but powerful code editor from Microsoft.
-
-#### Installation
 
 1. [Download and Install Visual Studio Code](https://code.visualstudio.com/)
 2. [Install Foam for Gollum Extension](https://marketplace.visualstudio.com/items?itemName=Hyvnmielenpelitry.foam-vscode-gollum)
 3. [Install LTeX+ Extension](https://marketplace.visualstudio.com/items?itemName=ltex-plus.vscode-ltex-plus)
 
-### Antigravity IDE
+### Antigravity IDE Installation
 
 ![Antigravity IDE](/uploads/Editing%20the%20Wiki/antigravity-ide-128-q85.webp)
-
-Antigravity IDE is Google's AI-agent-first integrated development environment. It's a fork of Visual Studio Code.
-
-#### Installation
 
 1. [Download and Install Antigravity IDE](https://antigravity.google/product/antigravity-ide)
 2. [Install Foam for Gollum Extension](https://open-vsx.org/extension/Hyvnmielenpelitry/foam-vscode-gollum)
