@@ -28,7 +28,7 @@ Visual Studio Code is a light-weight but powerful code editor from Microsoft.
 #### Installation
 
 1. [Download and Install Visual Studio Code](https://code.visualstudio.com/)
-2. [Install Foam for Gollum Extension](https://marketplace.visualstudio.com/items?itemName=Hyvnmielenpelitry.foam-vscode-gollum) — 
+2. [Install Foam for Gollum Extension](https://marketplace.visualstudio.com/items?itemName=Hyvnmielenpelitry.foam-vscode-gollum)
     - Gollum-style wikilinks — `[[Alias|Page Name#section-heading]]`
     - Custom file dropdown provider — Places files and images automatically under a Gollum-style uploads folder
     - Auto-completion — Auto-completes page names and section headings
@@ -39,12 +39,12 @@ Visual Studio Code is a light-weight but powerful code editor from Microsoft.
 
 ![Antigravity IDE](/uploads/Editing%20the%20Wiki/antigravity-ide-128-q85.webp)
 
-Antigravity IDE is Google's agent-first integrated development environment. It's a fork of Visual Studio Code.
+Antigravity IDE is Google's AI-agent-first integrated development environment. It's a fork of Visual Studio Code.
 
 #### Installation
 
 1. [Download and Install Visual Studio Code](https://code.visualstudio.com/)
-2. [Install Foam for Gollum Extension](https://marketplace.visualstudio.com/items?itemName=Hyvnmielenpelitry.foam-vscode-gollum) — 
+2. [Install Foam for Gollum Extension](https://marketplace.visualstudio.com/items?itemName=Hyvnmielenpelitry.foam-vscode-gollum)
     - Gollum-style wikilinks — `[[Alias|Page Name#section-heading]]`
     - ⚠️ Custom file dropdown provider — Places files and images automatically under a Gollum-style uploads folder *(doesn't work at the moment)*
     - Auto-completion — Auto-completes page names and section headings
