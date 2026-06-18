@@ -34,7 +34,6 @@ Visual Studio Code is a light-weight but powerful code editor from Microsoft.
     - Auto-completion — Auto-completes page names and section headings
 3. [Install LTeX+ Extension](https://marketplace.visualstudio.com/items?itemName=ltex-plus.vscode-ltex-plus) — English-language spell checking in Markdown documents
 
-
 ### Google Antigravity IDE
 
 ![Antigravity IDE](/uploads/Editing%20the%20Wiki/antigravity-ide-128-q85.webp)
