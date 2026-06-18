@@ -19,6 +19,14 @@ You have two options for the wiki editing software:
 1. **Visual Studio Code** — Microsoft's lightweight but powerful code editor *(Recommended)*
 2. **Google Antigravity IDE** — Google's AI-agent-first IDE
 
+You need to installl the following extensions:
+
+1. **Foam for Gollum**
+    - Gollum-style wikilinks — `[[Alias|Page Name#section-heading]]`
+    - Custom file dropdown provider — Places files and images automatically under a Gollum-style uploads folder
+    - Auto-completion — Auto-completes page names and section headings
+2. **LTeX+** — English-language spell checking in Markdown documents
+
 ### Visual Studio Code
 
 ![Visual Studio Code](/uploads/Editing%20Wiki%20with%20Visual%20Studio%20Code/visual-studio-code-128.webp)
@@ -29,10 +37,7 @@ Visual Studio Code is a light-weight but powerful code editor from Microsoft.
 
 1. [Download and Install Visual Studio Code](https://code.visualstudio.com/)
 2. [Install Foam for Gollum Extension](https://marketplace.visualstudio.com/items?itemName=Hyvnmielenpelitry.foam-vscode-gollum)
-    - Gollum-style wikilinks — `[[Alias|Page Name#section-heading]]`
-    - Custom file dropdown provider — Places files and images automatically under a Gollum-style uploads folder
-    - Auto-completion — Auto-completes page names and section headings
-3. [Install LTeX+ Extension](https://marketplace.visualstudio.com/items?itemName=ltex-plus.vscode-ltex-plus) — English-language spell checking in Markdown documents
+3. [Install LTeX+ Extension](https://marketplace.visualstudio.com/items?itemName=ltex-plus.vscode-ltex-plus)
 
 ### Google Antigravity IDE
 
@@ -44,10 +49,8 @@ Antigravity IDE is Google's AI-agent-first integrated development environment. I
 
 1. [Download and Install Antigravity IDE](https://antigravity.google/product/antigravity-ide)
 2. [Install Foam for Gollum Extension](https://open-vsx.org/extension/Hyvnmielenpelitry/foam-vscode-gollum)
-    - Gollum-style wikilinks — `[[Alias|Page Name#section-heading]]`
-    - ⚠️ Custom file dropdown provider — Places files and images automatically under a Gollum-style uploads folder *(doesn't work at the moment)*
-    - Auto-completion — Auto-completes page names and section headings
-3. [Install LTeX+ Extension](https://open-vsx.org/extension/ltex-plus/vscode-ltex-plus) — English-language spell checking in Markdown documents
+    - ⚠️ The extension's *custom file dropdown provider* **doesn't work** in Antigravity IDE at the moment!
+3. [Install LTeX+ Extension](https://open-vsx.org/extension/ltex-plus/vscode-ltex-plus)
 
 ### Custom Keyboard Shortcuts
 
