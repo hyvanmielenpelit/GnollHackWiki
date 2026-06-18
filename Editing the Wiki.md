@@ -6,53 +6,49 @@ The GnollHack wiki can't be edited directly on the web. Instead, you need to upd
 
 Once the repository has been updated, the changes will sync to the web once every 5 minutes. There's no separate build step involved. If you don't have rights to update the GnollHackWiki GitHub repository, you need to fork the repository on GitHub and make a pull request. But usually it's easier just to ask someone with editing rights to update the repository instead.
 
-To get an optimal wiki editing experience, you need to install [Visual Studio Code](https://code.visualstudio.com/) and some of its extensions. These will help you to update wiki pages and upload images with great efficiency.
+To get an optimal wiki editing experience, you need to install [Visual Studio Code](https://code.visualstudio.com/) or [Google Antigravity IDE](https://antigravity.google/product/antigravity-ide) and some of their extensions. These will help you to update wiki pages and upload images with great efficiency.
 
 ### Gollum-Style Wiki Tag Syntax
 
 [Gollum](https://github.com/gollum/gollum) is the wiki software used by the GnollHack wiki. It has its own proprietary wiki tag syntax, which differs from that used by [MediaWiki](https://github.com/wikimedia/mediawiki) (which is used by, e.g. [Wikipedia](https://www.wikipedia.org/)). Please see the [Foam for Gollum](https://marketplace.visualstudio.com/items?itemName=Hyvnmielenpelitry.foam-vscode-gollum) Visual Studio Code extension's description for the most important details. The [Gollum wiki](https://github.com/gollum/gollum/wiki#tags) has also a pretty technical description of supported tags.
 
-## Visual Studio Code Installation
+## IDE Installation
 
-### Install Visual Studio Code
+You have two options for the wiki editing software:
 
-![visual-studio-code-128](/uploads/Editing%20Wiki%20with%20Visual%20Studio%20Code/visual-studio-code-128.webp)
+1. **Visual Studio Code** — Microsoft's lightweight but powerful code editor *(Recommended)*
+2. **Google Antigravity IDE** — Google's AI-agent-first IDE
 
-#### Download
+### Visual Studio Code
 
-- [Visual Studio Code](https://code.visualstudio.com/)
-
-#### Description
+![Visual Studio Code](/uploads/Editing%20Wiki%20with%20Visual%20Studio%20Code/visual-studio-code-128.webp)
 
 Visual Studio Code is a light-weight but powerful code editor from Microsoft.
 
-### Install Visual Studio Code Extensions
+#### Installation
 
-#### 1. Foam for Gollum
+1. [Download and Install Visual Studio Code](https://code.visualstudio.com/)
+2. [Install Foam for Gollum Extension](https://marketplace.visualstudio.com/items?itemName=Hyvnmielenpelitry.foam-vscode-gollum) — 
+    - Gollum-style wikilinks — `[[Alias|Page Name#section-heading]]`
+    - Custom file dropdown provider — Places files and images automatically under a Gollum-style uploads folder
+    - Auto-completion — Auto-completes page names and section headings
+3. [Install LTeX+ Extension](https://marketplace.visualstudio.com/items?itemName=ltex-plus.vscode-ltex-plus) — English-language spell checking in Markdown documents
 
-![foam-for-gollum-128](/uploads/Editing%20Wiki%20with%20Visual%20Studio%20Code/foam-for-gollum-128.webp)
 
-##### Download
+### Google Antigravity IDE
 
-- [Foam for Gollum](https://marketplace.visualstudio.com/items?itemName=Hyvnmielenpelitry.foam-vscode-gollum) 
+![Antigravity IDE](/uploads/Editing%20the%20Wiki/antigravity-ide-128-q85.webp)
 
-##### Features
+Antigravity IDE is Google's agent-first integrated development environment. It's a fork of Visual Studio Code.
 
-- **Gollum-style wikilinks** — `[[Alias|Page Name#section-heading]]`
-- **Custom file dropdown provider** — Places files and images automatically under a Gollum-style uploads folder
-- **Auto-completion** — Auto-completes page names and section headings
+#### Installation
 
-#### 2. LTeX+
-
-![ltex-plus-v2](/uploads/Editing%20Wiki%20with%20Visual%20Studio%20Code/ltex-plus-v2.webp)
-
-##### Download
-
-- [LTeX+](https://marketplace.visualstudio.com/items?itemName=ltex-plus.vscode-ltex-plus)
-
-##### Features
-
-- English-language spell checking in Markdown documents
+1. [Download and Install Visual Studio Code](https://code.visualstudio.com/)
+2. [Install Foam for Gollum Extension](https://marketplace.visualstudio.com/items?itemName=Hyvnmielenpelitry.foam-vscode-gollum) — 
+    - Gollum-style wikilinks — `[[Alias|Page Name#section-heading]]`
+    - ⚠️ Custom file dropdown provider — Places files and images automatically under a Gollum-style uploads folder *(doesn't work at the moment)*
+    - Auto-completion — Auto-completes page names and section headings
+3. [Install LTeX+ Extension](https://marketplace.visualstudio.com/items?itemName=ltex-plus.vscode-ltex-plus) — English-language spell checking in Markdown documents
 
 ### Custom Keyboard Shortcuts
 
