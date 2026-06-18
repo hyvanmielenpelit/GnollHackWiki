@@ -42,7 +42,7 @@ Antigravity IDE is Google's AI-agent-first integrated development environment. I
 
 #### Installation
 
-1. [Download and Install Visual Studio Code](https://code.visualstudio.com/)
+1. [Download and Install Google Antigravity IDE](https://antigravity.google/product/antigravity-ide)
 2. [Install Foam for Gollum Extension](https://open-vsx.org/extension/Hyvnmielenpelitry/foam-vscode-gollum)
     - Gollum-style wikilinks — `[[Alias|Page Name#section-heading]]`
     - ⚠️ Custom file dropdown provider — Places files and images automatically under a Gollum-style uploads folder *(doesn't work at the moment)*
