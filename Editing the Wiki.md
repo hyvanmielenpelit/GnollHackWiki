@@ -6,7 +6,7 @@ The GnollHack wiki can't be edited directly on the web. Instead, you need to upd
 
 Once the repository has been updated, the changes will sync to the web once every 5 minutes. There's no separate build step involved. If you don't have rights to update the GnollHackWiki GitHub repository, you need to fork the repository on GitHub and make a pull request. But usually it's easier just to ask someone with editing rights to update the repository instead.
 
-To get an optimal wiki editing experience, you need to install [Visual Studio Code](https://code.visualstudio.com/) or [Google Antigravity IDE](https://antigravity.google/product/antigravity-ide) and some of their extensions. These will help you to update wiki pages and upload images with great efficiency.
+To get an optimal wiki editing experience, you need to install [Visual Studio Code](https://code.visualstudio.com/) or [Antigravity IDE](https://antigravity.google/product/antigravity-ide) and some of their extensions. These will help you to update wiki pages and upload images with great efficiency.
 
 ### Gollum-Style Wiki Tag Syntax
 
@@ -39,7 +39,7 @@ Visual Studio Code is a light-weight but powerful code editor from Microsoft.
 2. [Install Foam for Gollum Extension](https://marketplace.visualstudio.com/items?itemName=Hyvnmielenpelitry.foam-vscode-gollum)
 3. [Install LTeX+ Extension](https://marketplace.visualstudio.com/items?itemName=ltex-plus.vscode-ltex-plus)
 
-### Google Antigravity IDE
+### Antigravity IDE
 
 ![Antigravity IDE](/uploads/Editing%20the%20Wiki/antigravity-ide-128-q85.webp)
 
