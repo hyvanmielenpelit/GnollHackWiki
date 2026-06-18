@@ -17,7 +17,7 @@ To get an optimal wiki editing experience, you need to install [Visual Studio Co
 You have two options for the wiki editing software:
 
 1. **Visual Studio Code** — Microsoft's lightweight but powerful code editor *(Recommended)*
-2. **Google Antigravity IDE** — Google's AI-agent-first IDE
+2. **Antigravity IDE** — Google's AI-agent-first IDE
 
 Additionally, you need to install the following extensions for working with Markdown documents with Gollum-style wiki tags:
 
