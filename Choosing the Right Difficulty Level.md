@@ -1,4 +1,4 @@
-![Difficulty levels](/uploads/Choosing%20the%20Right%20Difficulty%20Level/difficulty-level.webp)
+![Choosing the Right Difficulty Level](/uploads/Choosing%20the%20Right%20Difficulty%20Level/difficulty-q85.webp)
 
 ## Difficulty Levels
 
