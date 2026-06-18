@@ -43,11 +43,11 @@ Antigravity IDE is Google's AI-agent-first integrated development environment. I
 #### Installation
 
 1. [Download and Install Visual Studio Code](https://code.visualstudio.com/)
-2. [Install Foam for Gollum Extension](https://marketplace.visualstudio.com/items?itemName=Hyvnmielenpelitry.foam-vscode-gollum)
+2. [Install Foam for Gollum Extension](https://open-vsx.org/extension/Hyvnmielenpelitry/foam-vscode-gollum)
     - Gollum-style wikilinks — `[[Alias|Page Name#section-heading]]`
     - ⚠️ Custom file dropdown provider — Places files and images automatically under a Gollum-style uploads folder *(doesn't work at the moment)*
     - Auto-completion — Auto-completes page names and section headings
-3. [Install LTeX+ Extension](https://marketplace.visualstudio.com/items?itemName=ltex-plus.vscode-ltex-plus) — English-language spell checking in Markdown documents
+3. [Install LTeX+ Extension](https://open-vsx.org/extension/ltex-plus/vscode-ltex-plus) — English-language spell checking in Markdown documents
 
 ### Custom Keyboard Shortcuts
 
