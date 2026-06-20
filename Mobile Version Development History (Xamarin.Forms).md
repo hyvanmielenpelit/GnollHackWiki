@@ -1,4 +1,4 @@
-*This article describes the early years of GnollHack's modern client, which was first released on Android and iOS.*
+*This article describes the story of the early development years of GnollHack's modern client, which was first released on Android and iOS.*
 
 ## Technologies
 
