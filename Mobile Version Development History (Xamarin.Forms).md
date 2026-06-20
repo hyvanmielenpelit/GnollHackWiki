@@ -1,6 +1,8 @@
+*This article describes the early years of GnollHack's modern client, which was first released on Android and iOS.*
+
 ## Technologies
 
-**GnollHack Android** and **GnollHack iOS** are built with the following technologies:
+**GnollHack Android** and **GnollHack iOS** were built with the following technologies:
 
 - **[Xamarin.Forms](https://dotnet.microsoft.com/en-us/apps/xamarin/xamarin-forms)** — UI library and cross-platform development framework.
 - **[SkiaSharp](https://docs.microsoft.com/en-us/xamarin/xamarin-forms/user-interface/graphics/skiasharp/)** — Game rendering with the Skia graphics library using C#.
@@ -8,11 +10,11 @@
 - **[Windows Subsystem for Linux (WSL)](https://docs.microsoft.com/en-us/windows/wsl/about)** — Used to build assets for Google Play Store as well as some other minor tasks.
 - **[TileSetCompiler](https://github.com/hyvanmielenpelit/TileSetCompiler)** — Compiles the GnollHack tileset from individual PNG files.
 
-There's no separate game engine used for GnollHack, but the drawing is done with SkiaSharp, which runs on top of Xamarin.Forms.
+There were no separate game engine used for GnollHack, but the drawing was done with SkiaSharp, which was runnning on top of Xamarin.Forms.
 
 ## IDEs
 
-- **[Visual Studio Community 2026](https://visualstudio.microsoft.com/vs/community/)** — Used for development for all platforms.
+- **[Visual Studio Community](https://visualstudio.microsoft.com/vs/community/)** — Used for development for all platforms.
 - **[Xcode](https://developer.apple.com/xcode/)** — Used for iOS development on a paired Mac.
 - **[Visual Studio Code](https://code.visualstudio.com/)** — Used for some minor editing.
 
@@ -31,7 +33,7 @@ GnollHack is tested on real devices during development:
 - iPad
 - iPhone
 
-They are connected to the computer through a USB cable.
+They were connected to the computer through a USB cable.
 
 ## History
 
