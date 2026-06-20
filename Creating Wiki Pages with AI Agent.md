@@ -5,7 +5,7 @@ You can leverage the **[Antigravity App](https://antigravity.google/product/anti
 ## Local Repository Setup
 
 Ensure you have the following repositories cloned locally on your computer:
-- [`GnollHackWiki`](https://github.com/hyvanmielenpelit/GnollHackWiki) (This repository, for creating and editing pages)
+- [`GnollHackWiki`](https://github.com/hyvanmielenpelit/GnollHackWiki) (The wiki content file repository, for creating and editing pages)
 - [`GnollHack`](https://github.com/hyvanmielenpelit/GnollHack) (For researching game mechanics, stats, and source code)
 - [`GnollHackTileSet`](https://github.com/hyvanmielenpelit/GnollHackTileSet) (For finding illustrative images and sprite assets)
 - [`GnollHackSoundSet`](https://github.com/hyvanmielenpelit/GnollHackSoundSet) (For referencing sound effects and voiceovers)
