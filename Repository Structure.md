@@ -2,8 +2,7 @@
 
 This document outlines the organization of the GnollHack repository, including its build solutions, component projects, and directory layout.
 
-> [!IMPORTANT]
-> The Visual Studio 2026 IDE is used for compiling all versions of GnollHack on Windows. 
+> 📢 **Important:** The Visual Studio 2026 IDE is used for compiling all versions of GnollHack on Windows.
 
 ---
 
@@ -81,5 +80,4 @@ GnollHack/ (Root)
             └── libshare/        # C native bridge code connecting C engine and C# frontend.
 ```
 
-> [!CAUTION]
-> The `binary/` directory is **not** the build output directory. Build outputs are generated under the `bin/$(Configuration)/$(Platform)/` folder.
+> 🛑 **Caution:** The `binary/` directory is **not** the build output directory. Build outputs are generated under the `bin/$(Configuration)/$(Platform)/` folder.
