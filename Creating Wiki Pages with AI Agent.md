@@ -28,7 +28,7 @@ This is the default and recommended model for most tasks because of its speed an
   - *Recommendation*: Best for straightforward tasks such as formatting existing text, fixing typos, or creating simple pages where the information is already well-known or centralized in a single file.
   - *Technical Details*: Generates output with minimal internal chain-of-thought. It is the fastest option but may struggle with complex cross-referencing or multi-step logic.
 - **Medium Reasoning**:
-  - *Recommendation*: Ideal for standard coding tasks, moderate research, or synthesizing information from a couple of files.
+  - *Recommendation*: Ideal for standard tasks, moderate research, or synthesizing information from a couple of files.
   - *Technical Details*: Allocates a moderate compute budget for internal planning and verification. It balances speed and accuracy but might occasionally hallucinate on highly complex, undocumented code mechanics.
 - **High Reasoning**: 
   - *Recommendation*: Recommended for complex tasks where the AI needs to piece together information from multiple sources. For example, documenting a new monster by reading its C source code in `GnollHack`, locating its corresponding image in `GnollHackTileSet`, check for sound events in `GnollHackSoundSet`, and synthesizing it all into a correctly formatted `GnollHackWiki` markdown page.
