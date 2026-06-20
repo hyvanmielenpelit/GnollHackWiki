@@ -1,4 +1,4 @@
-![Benefits of .NET MAUI over Xamarin.Forms](/uploads/Benefits%20of%20/benefits-of-net-maui.webp)
+![Benefits of .NET MAUI over Xamarin.Forms](/uploads/Benefits%20of%20NET%20MAUI%20Over%20Xamarin%20Forms/benefits-of-net-maui.webp)
 
 ## Additional Platforms
 
