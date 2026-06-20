@@ -77,8 +77,6 @@ GnollHack can be built for several platforms using either a Linux or Windows dev
 
 #### .NET MAUI (Current Mobile Ports)
 
-As of March 26, 2025, .NET MAUI mobile ports are fully functional but not yet deployed to the stores.
-
 * [[Build Instructions for Android Version on Windows (.NET MAUI)]]
 * [[Build Instructions for iOS Version on Windows (.NET MAUI)]]
 
