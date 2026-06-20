@@ -74,7 +74,7 @@ The table below summarizes support for the modern client. Note that emulator per
 
 These articles provide historical context and technical background. They are easy to digest and highly recommended for developers wanting to understand the choices behind our architecture.
 
-* [[Mobile Version Development]] — The history of mobile versions of GnollHack.
+* [[Mobile Version Development History (Xamarin.Forms)]] — The history of the early versions of the mobile clients of GnollHack.
 * [[Benefits of .NET MAUI over Xamarin.Forms]] — Explains the single-project benefits and performance gains of modernizing the UI.
 * [[Release Checklist]]
 * [[SkiaSharp Build Instructions]] — Describes custom SkiaSharp compilations (primarily for reference).
