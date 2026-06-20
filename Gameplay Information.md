@@ -11,6 +11,7 @@
 
 * [[Status Bar]] — Learn about what different acronyms and symbols mean in the status bar.
 * [[User Interface Icons]] — Learn about what different icons in the interface mean.
+* [[Monster Status Symbols]] — Learn what the different status icons attached to monsters mean.
 
 ## Character Stats
 
