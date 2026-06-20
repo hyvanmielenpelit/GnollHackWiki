@@ -55,14 +55,6 @@ On the Windows computer, do the following:
 
 #### Note 1
 
-You need to have [Visual Studio 2019](https://visualstudio.microsoft.com/vs/older-downloads/) with the same workloads as Visual Studio 2022 installed that you may use the C++ debugger. Note that there's no **.NET Multi-platform App UI development** workload in VS 2019, but you must install the **Mobile development with .NET** workload instead. You do not actually need to start VS 2019, but it is enough to have it installed.
-
-This bug is reported [here](https://developercommunity.visualstudio.com/t/XamarinForms-Android-C-debugger-does/10132674) and [here](https://developercommunity.visualstudio.com/t/Xamarin-Android-NDK-missing-registry-key/10044363).
-
-This bug should be fixed in Visual Studio 17.7.
-
-#### Note 2
-
 If the C++ debugger crashes with `SIGPWR`, you need to stop the debugging process in an early breakpoint and write the following in the **Command Window**:
 
 ```
@@ -70,7 +62,7 @@ Debug.MIExec handle SIGPWR nostop noprint
 Debug.MIExec handle SIGXCPU nostop noprint
 ```
 
-#### Note 3
+#### Note 2
 
 FMOD sounds do not work correctly while debugging or when running a debug build. To make them work normally, you need to enable **Streaming Banks to Memory** in GnollHack's settings. This will consume some 500 MB of RAM. FMOD sounds work fine in release builds, though.
 

@@ -7,7 +7,7 @@ You need the following devices to follow these instructions:
 
 ### Software
 
-1. Install the latest Visual Studio version with up-to-date support for .NET MAUI 9.0 Preview 4.
+1. Install the latest Visual Studio version with up-to-date support for .NET MAUI 10.0.
 2. Clone this [GnollHack repository](https://github.com/hyvanmielenpelit/GnollHack) — [[Clone Repository in Visual Studio]].
 
 ## Build

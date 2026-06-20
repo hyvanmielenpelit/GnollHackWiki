@@ -2,7 +2,7 @@
 
 ### 1.1 Visual Studio
 
-You should have Visual Studio 2022 installed for GnollHack mobile version development.
+You should have Visual Studio 2026 installed for GnollHack mobile version development.
 
 - [[Visual Studio Installation for Mobile Version Development]]
 
@@ -16,9 +16,9 @@ Note that in the instructions below, when it says to open "PowerShell", you can 
 
 ## 2. Clone Repository
 
-### Using Visual Studio 2022
+### Using Visual Studio 2026
 
-1. Open Visual Studio 2022.
+1. Open Visual Studio 2026.
 2. Use **Clone Repository** to clone `https://github.com/mono/SkiaSharp.git`. You can clone the repository to `C:\repos\mono\SkiaSharp`.
 3. Open **Developer PowerShell** (View → Terminal).
 4. You should be automatically in `C:\repos\mono\SkiaSharp` (repository root directory).

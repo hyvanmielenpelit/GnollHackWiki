@@ -12,7 +12,7 @@ Check [[appropriate build instructions|Development Information]] for prerequisit
 
 ### Building
 
-1. Start **Visual Studio Community 2022**.
+1. Start **Visual Studio Community 2026**.
 2. Open `GnollHack.sln` that is located in the `win\win32\vs` directory.
 3. Build `GnollHackX`, which is the Xamarin.Forms version of GnollHack, using [[appropriate build instructions|Development Information]]. 
 
@@ -24,13 +24,13 @@ GnollHackM is the .NET MAUI version of GnollHack.
 
 ### Prerequisites
 
-- Install .NET SDK 9.0.7 from https://dotnet.microsoft.com/en-us/download/dotnet/9.0
-- Install .NET MAUI 9.0 workload using `dotnet workload install maui` in PowerShell
-- [[Install Visual Studio 2022 Preview for .NET MAUI Development]]
+- Install .NET SDK 10.0 from https://dotnet.microsoft.com/en-us/download/dotnet/10.0
+- Install .NET MAUI 10.0 workload using `dotnet workload install maui` in PowerShell
+- [[Install Visual Studio 2026 for .NET MAUI Development]]
 
 ### Building
 
-1. Start **Visual Studio Community 2022 *Preview***.
+1. Start **Visual Studio Community 2026**.
 2. Open `GnollHackM.sln` that is located in the `win\win32\xpl\GnollHackM` directory.
 3. Build `GnollHackM`, which is the .NET MAUI version of GnollHack, using [[appropriate build instructions|Development Information]].
 

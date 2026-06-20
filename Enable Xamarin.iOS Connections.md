@@ -2,4 +2,4 @@ On the Mac computer, go to **System Preferences → Sharing** and enable **Remot
 
 https://docs.microsoft.com/en-us/xamarin/ios/get-started/installation/windows/connecting-to-mac/
 
-In Visual Studio 2022, click on **Pair to Mac** toolbar button, and select Add Mac, unless the connection is directly established.
+In Visual Studio 2026, click on **Pair to Mac** toolbar button, and select Add Mac, unless the connection is directly established.

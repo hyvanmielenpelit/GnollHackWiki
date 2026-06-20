@@ -31,7 +31,7 @@ After building the solution according to the above instructions (using the **Deb
 
 ## Troubleshooting
 
-If the game reports `clang_rt.asan_dynamic-x86_64.dll was not found` when starting in the Debug mode, you need to add `C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64` to **PATH** in your **system environmental variables**:
+If the game reports `clang_rt.asan_dynamic-x86_64.dll was not found` when starting in the Debug mode, you need to add `C:\Program Files\Microsoft Visual Studio\2026\Community\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64` to **PATH** in your **system environmental variables**:
 
 - Please see [[Add New Path to PATH Environment Variable on Windows]] for how to do it.
 - Please also check that the path exists on the disk and that the MSVC version number is the same on your system.

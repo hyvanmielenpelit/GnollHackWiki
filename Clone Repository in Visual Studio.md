@@ -10,7 +10,7 @@ You can do it as follows:
 3. Enter `C:\hmp\GnollHack` as **path**.
 4. Click "Clone" to download the sources from GitHub.
 
-Note that previously we recommended to have a slightly longer path, but starting from Visual Studio 17.6.5 the path needs to be really short.
+Note that previously we recommended to have a slightly longer path, but starting from Visual Studio 2026 the path needs to be really short.
 
 ## Windows Long Path Support
 

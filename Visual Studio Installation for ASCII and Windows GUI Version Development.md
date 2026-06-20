@@ -1,4 +1,4 @@
-## 1. Download Visual Studio 2022 Community
+## 1. Download Visual Studio 2026 Community
 
 - [Download Visual Studio Community](https://visualstudio.microsoft.com/vs/community/)
 
@@ -14,6 +14,5 @@ Install the following workloads:
 
 Install the following individual components:
 
-1. MSVC v141 - VS 2017 C++ x64/x86 build tools (v14.16)
-2. MSVC v142 - VS 2019 C++ x64/x86 build tools (v14.129-16.11)
-3. C++ AddressSanitizer
+1. MSVC v143 - VS 2022 C++ x64/x86 build tools (Latest)
+2. C++ AddressSanitizer

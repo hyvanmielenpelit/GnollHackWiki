@@ -14,15 +14,23 @@ Try building on the command line:
 
 ### 2.1 Build Project Only
 
-In the Developer PowerShell, type:
+In the Developer PowerShell, type for Windows:
 
-`dotnet build .\GnollHackM.csproj -f:net9.0-windows10.0.19041.0 -c:Debug --no-incremental`
+`dotnet build .\GnollHackM.csproj -f:net10.0-windows10.0.19041.0 -c:Debug --no-incremental`
+
+For Android:
+
+`dotnet build .\GnollHackM.csproj -f:net10.0-android -c:Debug --no-incremental`
+
+For iOS:
+
+`dotnet build .\GnollHackM.csproj -f:net10.0-ios -c:Debug --no-incremental`
 
 ### 2.2 Build Solution
 
 In the Developer PowerShell, type:
 
-`dotnet build .\GnollHackM.sln -f:net9.0-windows10.0.19041.0 -c:Debug --no-incremental`
+`dotnet build .\GnollHackM.sln -f:net10.0-windows10.0.19041.0 -c:Debug --no-incremental`
 
 ### Parameter Descriptions
 

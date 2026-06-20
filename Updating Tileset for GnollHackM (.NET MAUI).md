@@ -52,4 +52,4 @@
 
 ## 4. Rebuild GnollHackM Solution
 
-- Using Visual Studio 2022 Preview, rebuild the GnollHackM solution.
+- Using Visual Studio 2026, rebuild the GnollHackM solution.

@@ -1,180 +1,85 @@
-## Platform Support on Windows using Visual Studio
+# Repository Structure
 
-GnollHack is compiled on Windows using Visual Studio. The Visual Studio solution is used to compile the following versions of GnollHack:
+This document outlines the organization of the GnollHack repository, including its build solutions, component projects, and directory layout.
 
-- Windows/ASCII *(Windows console)*
-- Windows/GUI *(ComCtl32)*
-- Android/Xamarin.Forms
-- iOS/Xamarin.Forms
-- Android/.NET MAUI
-- iOS/.NET MAUI
-- Windows/.NET MAUI
+> [!IMPORTANT]
+> The Visual Studio 2026 IDE is used for compiling all versions of GnollHack on Windows. 
+
+---
 
 ## Solutions
 
-### GnollHack Solution
+| Solution | Path | Description |
+| :--- | :--- | :--- |
+| **GnollHack.sln** | `win\win32\vs\GnollHack.sln` | Main C core solution, containing build utilities, compilers, ASCII/GUI Windows frontends, and Xamarin platform projects. |
+| **GnollHackM.sln** | `win\win32\xpl\GnollHackM\GnollHackM.sln` | Modern .NET MAUI solution targeting Android, iOS, and Windows (WinUI 3). |
 
-The Visual Studio 2022 solution `GnollHack.sln` is found under `win\win32\vs`.
+---
 
-#### Projects
+## GnollHack.sln Projects
 
-The solution contains the following projects:
+| Project | Target / Platform | Description |
+| :--- | :--- | :--- |
+| **dgncomp** | Windows | Dungeon compiler for compiling custom dungeon layouts on Windows. |
+| **dgncompdroid** | Android / iOS | Dungeon compiler for mobile platforms (compiled via Linux C compiler). |
+| **dlb** | Windows | Data librarian / archiver. Packages level descriptions and game data into the read-only `nhdat` archive. |
+| **dlbdroid** | Android / iOS | Data librarian for mobile platforms (compiled via Linux C compiler). |
+| **GnollHack** | Windows (Console) | The classic ASCII version of GnollHack running as a Win32 console application. |
+| **gnollhackdroid** | Android C Library | The C game engine core compiled into a native Android library (`.so`). |
+| **gnollhackios** | iOS C Library | The C game engine core compiled into a native iOS static library (`.a`). |
+| **gnollhackwin** | Windows C Library | The C game engine core compiled into a dynamic library (`.dll`) for the .NET MAUI Windows port. |
+| **GnollHackW** | Windows (GUI) | Graphical Win32 version of GnollHack using native `ComCtl32` controls. |
+| **GnollHackX** | Shared C# | Legacy Xamarin.Forms common library containing shared frontend logic. |
+| **GnollHackX.Android** | Android (Xamarin) | Main project for the legacy Xamarin.Android frontend. |
+| **GnollHackX.Android.Bindings** | Android (Xamarin) | C# bindings project wrapping FMOD native audio library for Android. |
+| **GnollHackX.iOS** | iOS (Xamarin) | Main project for the legacy Xamarin.iOS frontend. |
+| **levcomp** | Windows | Special level description compiler. |
+| **levcompdroid** | Android / iOS | Special level description compiler for mobile platforms (compiled via Linux C compiler). |
+| **makedefs** | Windows | Miscellaneous build-time code generator and database builder. |
+| **makedefsdroid** | Android / iOS | Miscellaneous build-time generator for mobile platforms (compiled via Linux C compiler). |
+| **nh340key** / **nhdefkey** / **nhraykey** | Windows | Keyboard input handlers for curses interface. |
+| **PDCurses** | Windows Console | Public domain curses library used for console rendering on Windows. |
+| **recover** | Windows | Game crash recovery utility. |
+| **SourceFileTimeStamper** | C# Console | Utility tool for updating source file timestamps. |
 
-##### dgncomp
+---
 
-- Dungeon compiler for Windows
+## GnollHackM.sln (.NET MAUI) Projects
 
-##### dgncompdroid
+| Project | Target / Platform | Description |
+| :--- | :--- | :--- |
+| **GnollHackM** | .NET 10.0 MAUI | Core cross-platform app project targeting Android, iOS, and Windows (WinUI 3). |
+| **gnollhackwin** | Windows C Library | Native C game engine core library (`.dll`) used by the Windows WinUI 3 build. |
 
-- Dungeon compiler for Android and iOS
-- Linux C project
+---
 
-##### dlb
-- GnollHack data librarian
-- File archiving tool in the spirit of tar. It is used to maintain the archive files from which GnollHack reads special level files and other read-only information.
-- For Windows
+## Directory Layout
 
-##### dlbdroid
+```
+GnollHack/ (Root)
+├── bin/                 # Compiled binaries and build output for Windows.
+├── binary/              # Configuration folder (NOT the build output folder).
+├── dat/                 # Game data files, dungeon compile targets (.des files).
+├── DEVEL/               # Development documentation and coding style guides.
+├── doc/                 # Manual pages and user guides.
+├── include/             # C core engine header files (.h).
+├── src/                 # C core engine source files (.c, .cpp).
+├── sys/                 # Operating system-specific bootstrap files.
+├── tools/               # Output directories for helper tools on Windows.
+├── util/                # Source code for build utilities (makedefs, levcomp, etc.).
+└── win/                 # Frontend and UI implementation source files.
+    └── win32/           # Windows-specific files, FMOD libraries, and solutions.
+        ├── bank/        # FMOD sound banks (not tracked in Git repository).
+        ├── fmod/        # FMOD library wrappers and headers for Windows.
+        ├── vs/          # Visual Studio 2026 files (contains GnollHack.sln).
+        └── xpl/         # Cross-platform frontend implementations.
+            ├── GnollHackM/      # .NET MAUI solution & project folders.
+            ├── GnollHackX/      # Legacy Xamarin solution & project folders.
+            ├── gnollhackdroid/  # C core wrapper project for Android.
+            ├── gnollhackios/    # C core wrapper project for iOS.
+            ├── gnollhackwin/    # C core wrapper project for WinUI 3.
+            └── libshare/        # C native bridge code connecting C engine and C# frontend.
+```
 
-- dlb for Android and iOS
-- Linux C project
-
-##### GnollHack
-
-- ASCII version of GnollHack on Windows
-- Win32 console application
-
-##### gnollhackdroid
-
-- GnollHack C library for Android
-- Compiles into a .so file
-
-##### gnollhackios
-
-- GnollHack C library for iOS
-- Compiles into a .a file
-
-##### gnollhackwin
-
-- GnollHack C library for .NET MAUI Windows (WinUI 3)
-- Compiles into a .dll file
-
-##### GnollHackW
-
-- Graphical version of GnollHack on Windows
-- Win32 project using ComCtl32 controls
-- See https://learn.microsoft.com/en-us/windows/win32/controls/window-controls
-
-##### GnollHackX
-
-- Xamarin.Forms common project (for Android and iOS)
-
-##### GnollHackX.Android
-
-- Xamarin.Forms / Xamarin.Android project (main project for Android)
-
-##### GnollHackX.Android.Bindings
-
-- Xamarin.Forms / Xamarin.Android Bindings project (for FMOD on Android)
-
-##### GnollHackX.iOS
-
-- Xamarin.Forms / Xamarin.iOS project (main project for iOS)
-
-##### levcomp
-
-- Special level compiler for Windows
-
-##### levcompdroid
-
-- Special level compiler for Android and iOS
-- Linux C project
-
-##### makedefs
-
-- GnollHack miscellaneous build-time functions
-- For Windows
-
-##### makedefsdroid
-
-- GnollHack miscellaneous build-time functions
-- For Android and iOS
-- Linux C project
-
-##### nh340key
-
-- Keyboard input handler
-
-##### nhdefkey
-
-- Keyboard input handler
-
-##### nhraykey
-
-- Keyboard input handler
-
-##### PDCurses
-
-- PDCurses is a public domain curses library for DOS, OS/2, Windows console, X11, and SDL, implementing most of the functions available in X/Open and System V R4 curses.
-- See https://pdcurses.org/
-
-##### recover
-
-- Crash recovery utility
-
-##### SourceFileTimeStamper
-
-- C# project for time stamping source files
-- C# console application
-
-### GnollHackM — .NET MAUI Solution
-
-The Visual Studio 2022 Preview solution `GnollHackM.sln` is found under `win\win32\vs\xpl\GnollHackM`.
-
-#### Projects
-
-##### GnollHackM
-
-- .NET MAUI project for all platforms (Android, iOS, macOS, Windows)
-
-##### gnollhackwin
-
-- GnollHack C library project for .NET MAUI Windows (WinUI 3)
-- The same project as the one that is part of GnollHack Solution (GnollHack.sln)
-
-## Folders
-
-Root
-- bin — Output files for GnollHack Windows
-- binary
-- dat — Data files
-- DEVEL
-- doc — Manuals
-- include — .h files
-- src — Source .c and .cpp files
-- sys — Operating system specific files
-- tools — Output files for tools on Windows
-- util — Source files for utilities
-- win — Source files for windowing systems
-   - win32 — Source files for Windows
-       - bank — FMOD sound banks *(not included in the repository)*
-       - dll — GnollHack C library for Windows *(unused)*
-       - fmod — FMOD libraries and wrapper files for Windows
-       - vs — Visual Studio related files
-       - xpl — Source files for Android and iOS ports
-           - GnollHackX — Xamarin.Forms solution folder
-               - GnollHackX — Xamarin.Forms common project
-               - GnollHackX.Android — Xamarin.Android project
-               - GnollHackX.Android.Bindings — Xamarin.Android bindings project for FMOD Android
-               - GnollHackX.Android.GooglePlay — Tools and files needed for publishing GnollHack to Google Play
-               - GnollHackX.Common — Common source files shared by for GnollHackX.Android and GnollHack.iOS
-               - GnollHackX.FMOD — FMOD libraries, wrapper files, and common source files for Android and iOS
-               - GnollHackX.iOS — Xamarin.iOS project
-           - gnollhackdroid — GnollHack C library for Android
-           - gnollhackios – GnollHack C library for iOS
-           - libshare — GnollHack C library files shared by gnollhackdroid and gnollhackios
-           - SourceFileTimeStamper — Console C# project, [see above](#sourcefiletimestamper).
-           - GnollHackM — .NET MAUI solution and project folder
-               - GnollHackM.sln — .NET MAUI solution
-               - GnollHackM.csproj — .NET MAUI project for all platforms
-           - gnollhackwin — GnollHack C library for .NET MAUI Windows (WinUI 3)
+> [!CAUTION]
+> The `binary/` directory is **not** the build output directory. Build outputs are generated under the `bin/$(Configuration)/$(Platform)/` folder.

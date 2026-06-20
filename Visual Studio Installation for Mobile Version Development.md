@@ -1,13 +1,13 @@
-## Download Visual Studio 2022 Community
+## Download Visual Studio 2026 Community
 
 - [Download Visual Studio](https://visualstudio.microsoft.com/vs/community/)
-- These installation instructions pertain to Visual Studio 2022 Community 17.3.2 and later
+- These installation instructions pertain to Visual Studio 2026 Community 18.7.1 and later
 
 ### Last Known Working Version
 
-If you run into problems building GnollHack, it might be that there's some problem with the Visual Studio version you are using. The last known working version ***(this info might be old)*** is **Visual Studio 2022 Community 17.6.5**. You can install it from [here](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-history). You need to download the Enterprise version installer, close the first window, and then select Visual Studio Community.
+If you run into problems building GnollHack, it might be that there's some problem with the Visual Studio version you are using. The last known working version ***(this info might be old)*** is **Visual Studio 2026 Community 18.7.1**. You can install it from [here](https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes). You need to download the Enterprise version installer, close the first window, and then select Visual Studio Community.
 
-You can also install this version side-by-side with your normal Visual Studio installation in the case you need the latest version of Visual Studio for some other tasks. The instructions for side-by-side installation can be found [here](https://learn.microsoft.com/en-us/visualstudio/install/install-visual-studio-versions-side-by-side?view=vs-2022).
+You can also install this version side-by-side with your normal Visual Studio installation in the case you need the latest version of Visual Studio for some other tasks. The instructions for side-by-side installation can be found [here](https://learn.microsoft.com/en-us/visualstudio/install/install-visual-studio-versions-side-by-side?view=vs-2026).
 
 ## Workloads
 
@@ -32,5 +32,5 @@ Install the following individual components:
 
 1. Windows 10 SDK 10.0.19041.0
 2. Windows 11 SDK 10.0.22621
-3. .NET Core 3.1 Runtime (LTS)
-4. C++ iOS development tools *(under Development activities)*
+3. C++ iOS development tools *(under Development activities)*
+4. MSVC v143 - VS 2022 C++ x64/x86 build tools

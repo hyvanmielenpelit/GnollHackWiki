@@ -4,8 +4,8 @@
 
 You need the following devices to follow these instructions:
 1. **Windows computer** — Windows 10 or later, 16 GB or 32 GB RAM, 512 GB or 1 TB SSD space.
-2. **Mac computer** — macOS 12 (Monterey) or later, M1 processor or better, 16 GB or more RAM, 512 GB or more SSD space.
-3. **iPhone or iPad** — iOS 15 or later, 3 GB or more RAM, 4 GB or more free storage space.
+2. **Mac computer** — macOS 26 (Tahoe) or later, M1 processor or better, 16 GB or more RAM, 512 GB or more SSD space.
+3. **iPhone or iPad** — iOS 26.5 or later, 3 GB or more RAM, 4 GB or more free storage space.
 
 ### 1.2. Software Installation and Configuration on Windows Computer
 
@@ -17,17 +17,16 @@ On the Windows computer, do the following:
 4. [[Configure Visual Studio for Mobile Version Development]]
 5. Create `C:\Xamarin\iOSArchive` in File Explorer and set **Archives Location** to it in **Visual Studio → Tools → Options → Xamarin → iOS Settings**.
 6. In Windows, browse for environmental variables. Change both `TEMP` to `C:\Temp` and `TMP` to `C:\Temp`. Create the `C:\Temp` directory.
-7. Restart Visual Studio 2022 and the computer.
+7. Restart Visual Studio 2026 and the computer.
 8. **NEW** — If you are using an old version of the repository, you may need to [[delete old directories]], because we have changed some paths.
 
 ### 1.3. Software Installation and Configuration on Mac Computer
 
-1. Install [Xcode](https://apps.apple.com/us/app/xcode/id497799835) 15.2 from App Store or [xcodereleases.com](https://xcodereleases.com/).
-2. Install [Visual Studio for Mac 2022](https://visualstudio.microsoft.com/vs/mac/).
-3. [[Install Bison and Flex on Mac]].
-4. [[Enable Xamarin.iOS Connections]].
-5. [[Install vcremote for Static iOS Library Project]].
-6. [[Enroll for Apple Development Program (Mac)]].
+1. Install [Xcode](https://apps.apple.com/us/app/xcode/id497799835) 26.5 from App Store or [xcodereleases.com](https://xcodereleases.com/).
+2. [[Install Bison and Flex on Mac]].
+3. [[Enable Xamarin.iOS Connections]].
+4. [[Install vcremote for Static iOS Library Project]].
+5. [[Enroll for Apple Development Program (Mac)]].
 
 ### 1.4. Additional Configuration in Visual Studio on Windows
 
@@ -79,7 +78,7 @@ In Xcode on the Mac computer,
 3. Right-click on the certificate and **Export** it to create a **.p12** file into the `Development` directory.
 
 On the Windows computer,
-1. Copy the .p12 file to Windows and import it to Visual Studio 2022 using **Tools → Xamarin → Apple Accounts**.
+1. Copy the .p12 file to Windows and import it to Visual Studio 2026 using **Tools → Xamarin → Apple Accounts**.
 2. Select first to **Add to add your apple developer account**.
 3. Then select it, and press **View Details**. (Nothing is showing up because of some bugs.)
 4. Click **Import Certificate** and select your .p12 file. Nothing is still showing up because of some bugs, but you now have the Developer Certificate installed. 
@@ -88,7 +87,7 @@ On the Windows computer,
 #### 1.5.2. Create Identifier
 
 In Visual Studio on Windows,
-- **Create a new Device** by pressing + next to the **Identifiers** title. This is the same as the BundleID for the game, e.g. `com.soundmindgames.GnollHack`, which can be set in Visual Studio 2022 in **Info.plist** in the Xamarin.iOS project's main directory.
+- **Create a new Device** by pressing + next to the **Identifiers** title. This is the same as the BundleID for the game, e.g. `com.soundmindgames.GnollHack`, which can be set in Visual Studio 2026 in **Info.plist** in the Xamarin.iOS project's main directory.
 
 #### 1.5.3. Create Device
 
@@ -111,7 +110,7 @@ On the Mac computer,
 `C:\Users\[loginname]\AppData\Local\Xamarin\iOS\Provisioning\Profiles`
     - where `[loginname]` is your login name on Windows
 
-You do *not* need to change the file name. The profile should now appear to Visual Studio 2022 in **Manual Provisioning**.
+You do *not* need to change the file name. The profile should now appear to Visual Studio 2026 in **Manual Provisioning**.
 
 #### 1.5.5 Set Manual Provisioning for Xamarin iOS Project
 
@@ -195,7 +194,7 @@ On Windows,
 1. Follow the instructions for debugging steps 1–7.
 2. Select **Release** as your solution configuration in the menu bar.
 3. **Rebuild solution**.
-4. Create an archive on Visual Studio 2022 using **right-click on the GnollHackX.iOS project** and select **Archive…**
+4. Create an archive on Visual Studio 2026 using **right-click on the GnollHackX.iOS project** and select **Archive…**
 5. Wait until the Archive process completes.
 
 On Mac,

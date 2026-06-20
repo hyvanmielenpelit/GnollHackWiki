@@ -12,8 +12,7 @@ There's no separate game engine used for GnollHack, but the drawing is done with
 
 ## IDEs
 
-- **[Visual Studio Community 2022](https://visualstudio.microsoft.com/vs/community/)** — Used for development for all platforms.
-- **[Visual Studio for Mac 2022](https://visualstudio.microsoft.com/vs/mac/)** — Used for iOS development on a paired Mac.
+- **[Visual Studio Community 2026](https://visualstudio.microsoft.com/vs/community/)** — Used for development for all platforms.
 - **[Xcode](https://developer.apple.com/xcode/)** — Used for iOS development on a paired Mac.
 - **[Visual Studio Code](https://code.visualstudio.com/)** — Used for some minor editing.
 
@@ -93,7 +92,7 @@ We had to draw about 100 UI button graphics (256 x 256 PNGs) for GnollHack, whic
 
 ### Getting Things Ready
 
-It took us quite exactly *one year* to create the completely new touch-based UI, including drawing all UI graphics. We first launched the Android version on April 30, 2022. After doing some hot fixes to the Android version, we started looking at the iOS version on May 21, 2022. However, the iOS development started truly on May 24, 2022 after Visual Studio for Mac 2022 launched on the previous day. The iOS version was ready on June 6, 2022. So, it took us only *about 2 weeks* to create the iOS version, after the Android version was ready, thanks to Xamarin.
+It took us quite exactly *one year* to create the completely new touch-based UI, including drawing all UI graphics. We first launched the Android version on April 30, 2022. After doing some hot fixes to the Android version, we started looking at the iOS version on May 21, 2022. However, the iOS development started truly on May 24, 2022 after the required development tools launched on the previous day. The iOS version was ready on June 6, 2022. So, it took us only *about 2 weeks* to create the iOS version, after the Android version was ready, thanks to Xamarin.
 
 ### Full Release
 
