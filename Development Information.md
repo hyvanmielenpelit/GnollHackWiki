@@ -9,8 +9,6 @@ Here is a quick directory of key design and structure documentation:
 * [[Repository Structure]] — ℹ️ **Easy to digest:** Visualizes how C core and C# MAUI code interact.
 * [[Related Repositories]] — ℹ️ **Easy to digest:** List of dependencies and sub-repositories.
 
----
-
 ## Modern Client Development (.NET MAUI)
 
 This is the primary technology stack for GnollHack development. It compiles a single C# codebase targeting mobile and desktop platforms.
@@ -50,8 +48,6 @@ Detailed, step-by-step guides for compiling the modern application:
 * [[Steam Version Publishing Checklist]] — ⚠️ **Complex:** Covers codesigning, packaging, and Steamworks integration.
 * [[Installing MSIX Packages on Windows 10 and 11]] — **Easy:** For testing local builds outside of Steam.
 
----
-
 ## Modern Client Supported Platforms
 
 The table below summarizes support for the modern client. Note that emulator performance varies, and platform support is subject to CPU architecture availability.
@@ -74,8 +70,6 @@ The table below summarizes support for the modern client. Note that emulator per
 - **Linux** support for the modern client is planned using **Avalonia UI**, pending maturity of the technology stack.
 - At the moment, we do not plan to support *gaming consoles* or *controllers* (such as Steam Deck).
 
----
-
 ## Articles & Background Reading
 
 These articles provide historical context and technical background. They are easy to digest and highly recommended for developers wanting to understand the choices behind our architecture.
@@ -86,8 +80,6 @@ These articles provide historical context and technical background. They are eas
 * [[SkiaSharp Build Instructions]] — Describes custom SkiaSharp compilations (primarily for reference).
 * [[Native Libraries]]
 * [[Debugging Linux Version in WSL using Visual Studio Code]]
-
----
 
 ## Legacy Clients (Obsolete)
 

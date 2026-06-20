@@ -33,6 +33,7 @@ When editing or creating pages for the GnollHack Wiki, follow these conventions 
 
 ## 4. Restrictions
 - **Reserved Folders**: Do NOT create, modify, or put anything in the `/gollum/` or `/.gollum/` directories. These are strictly reserved for wiki software functions and website files.
+- **Horizontal Lines**: Do NOT use horizontal lines (e.g., `---` or `***`) anywhere in the wiki. They are not needed in the markdown documents.
 - **Markdown Flavor**: The wiki uses Gollum-style markdown, not GitHub Flavored Markdown. It does NOT support GitHub-style alerts (e.g., `> [!IMPORTANT]`, `> [!NOTE]`). Use standard markdown blockquotes with bold text and colored unicode icons as the best alternatives:
   - Note: `> ℹ️ **Note:** This is a note.`
   - Tip: `> 💡 **Tip:** This is a tip.`
