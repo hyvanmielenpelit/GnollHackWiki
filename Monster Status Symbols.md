@@ -7,7 +7,7 @@ In GnollHack, monsters may have small status symbols attached to their sprites i
 The following status symbols can appear on any eligible monster (hostile, peaceful, or tame).
 
 | Name | Icon | Meaning |
-| :--- | :--- | :--- |
+| :--- | :--: | :--- |
 | **Bounty** | ![bounty](/uploads/Monster%20Status%20Symbols/status_bounty.webp) | The monster is the target of a bounty quest (active for Knights). |
 | **Detected** | ![detectmark](/uploads/Monster%20Status%20Symbols/status_detectmark.webp) | The monster has been detected (e.g., via telepathy, warning, or detect monsters) but might not be in your direct line of sight. |
 | **Eating** | ![eating](/uploads/Monster%20Status%20Symbols/status2_eating.webp) | The monster is busy eating something on the ground. |
@@ -25,7 +25,7 @@ The following status symbols can appear on any eligible monster (hostile, peacef
 The following status symbols are exclusive to your tame pets and help you monitor their health, hunger, and status.
 
 | Name | Icon | Meaning |
-| :--- | :--- | :--- |
+| :--- | :--: | :--- |
 | **Tame (Pet)** | ![petmark](/uploads/Monster%20Status%20Symbols/status_petmark.webp) | The monster is tame and acts as your loyal pet. |
 | **Critical HP** | ![critical-hp](/uploads/Monster%20Status%20Symbols/status_critical-hp.webp) | The pet's health is critically low (at or below 25% of its maximum HP). |
 | **Hungry** | ![hungry](/uploads/Monster%20Status%20Symbols/status_hungry.webp) | The pet is hungry and needs to be fed. |
