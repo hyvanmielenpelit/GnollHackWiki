@@ -27,7 +27,7 @@ The following status symbols are exclusive to your tame pets and help you monito
 | Name | Icon | Meaning |
 | :--- | :--: | :--- |
 | **Tame (Pet)** | ![petmark](/uploads/Monster%20Status%20Symbols/status_petmark.webp) | The monster is tame and acts as your loyal pet. |
-| **Cooldown** | ![cooldown](/uploads/Monster%20Status%20Symbols/status_spec-used.webp) | The monster has used its special ability, and it is on cooldown. |
+| **Cooldown** | ![cooldown](/uploads/Monster%20Status%20Symbols/status_spec-used.webp) | The pet has used its special ability, and it is on cooldown. |
 | **Critical HP** | ![critical-hp](/uploads/Monster%20Status%20Symbols/status_critical-hp.webp) | The pet's health is critically low (at or below 25% of its maximum HP). |
 | **Hungry** | ![hungry](/uploads/Monster%20Status%20Symbols/status_hungry.webp) | The pet is hungry and needs to be fed. |
 | **Inventory** | ![inventory](/uploads/Monster%20Status%20Symbols/status_inventory.webp) | The pet is carrying items in its inventory. |
