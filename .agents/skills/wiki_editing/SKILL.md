@@ -23,8 +23,9 @@ When editing or creating pages for the GnollHack Wiki, follow these conventions 
 ## 3. Images and Uploads
 - **Upload Directory**: All images must be placed under the `/uploads/` directory. Match the subdirectory structure of the document (e.g., an image for `/Races/Dwarf.md` goes to `/uploads/Races/Dwarf/image.webp`).
 - **Format**: Use **WebP** format exclusively.
-  - Lossy images: 85 quality.
-  - Lossless/Flat colors (e.g., screenshots): 100 quality.
+  - **85 quality** is used by default, and almost always for bigger images, such as 512x512-pixel AI-generated illustrations.
+  - **100 quality** (lossless) is used only for small icons (32x32 or smaller) and for images with flat colors, such as Excel screenshots (for example, comparison pages may have such images). They can be very big in resolution (pixels) but compress to a very small file size when encoded losslessly. Even though there's no strict maximum file size for such images, their file size is still often under 100KB anyways.
+  - If a WEBP file is larger than 100KB, tell the user the used quality setting and ask him to suggest what to do (accept the large size, lower encoding quality, provide a custom WEBP file).
 - **Styling for Illustrative Images** (these rules apply *only* to illustrative images, which are usually generated with AI): 
   - File size should be under 100 KB.
   - Transparent backgrounds (no white backgrounds).
