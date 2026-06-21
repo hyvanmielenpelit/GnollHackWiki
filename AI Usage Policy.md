@@ -32,10 +32,10 @@
 
 ## AI Code
 
-1. AI, including AI agents, may be used to generate game code by programmers.
-2. AI may also be used to generate metadata, such as documentation.
-3. AI generated game code and metadata are reviewed by programmers to ensure that they are correct.
+1. Programmers may use generative AI, including AI agents, to generate code.
+2. Programmers may use generative AI, including AI agents, to generate metadata, such as documentation.
+3. Programmers review the AI generated code and metadata to ensure that they are correct.
 
 ## AI Programming
 
-1. AI, including AI agents, can be used to enhance programming workflows and tasks.
+1. Programmers may use AI, including AI agents, to complete programming workflows and tasks more efficiently.
