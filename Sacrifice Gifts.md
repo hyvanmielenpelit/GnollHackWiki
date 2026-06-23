@@ -34,16 +34,13 @@ The object will appear at your feet. A sacrifice gift has several advantageous p
 
 Only certain role and alignment combinations have a **guaranteed first sacrifice gift**—a specific artifact that their god will always prioritize giving them first, provided it hasn't already been generated elsewhere:
 
-* **Barbarian** (Neutral only): [[/Artifacts/Cleaver]]
-* **Samurai** (Lawful only): [[/Artifacts/Snickersnee]]
-* **Valkyrie** (Neutral only): [[/Artifacts/Mjollnir]]
-* **Wizard** (Neutral only): [[/Artifacts/Magicbane]]
-
-> ℹ️ **Note:** Other classes (like Priests, Healers, or Rogues) or characters of different alignments (like Lawful Valkyries or Chaotic Barbarians) do not have a guaranteed first gift. Instead, their first gift will be selected randomly from the pool of eligible artifacts matching their alignment.
->
-> Additionally, some famous class artifacts like [[/Artifacts/Excalibur]], [[/Artifacts/The Gauntlets of Yin and Yang]], or Quest Artifacts cannot be obtained through sacrificing as they are restricted from random generation.
+* **Barbarian**: [[/Artifacts/Cleaver]]
+* **Samurai**: [[/Artifacts/Snickersnee]]
+* **Valkyrie**: [[/Artifacts/Mjollnir]]
+* **Wizard**: [[/Artifacts/Magicbane]]
 
 ### Monk Weapon Restriction
+
 Monks are dedicated to unarmed combat. As a result, their god **will never gift them weapon artifacts**. Monks only receive non-weapon artifacts (like rings, robes, or lenses). 
 
 Because there are no randomly generatable neutral non-weapon artifacts in the game, **Neutral Monks will always receive a replacement item** (see below) for their first sacrifice gift.
@@ -52,7 +49,7 @@ Because there are no randomly generatable neutral non-weapon artifacts in the ga
 
 If you do not have a guaranteed first gift, or if you have already received your guaranteed first gift, your god will select a random artifact from the pool of eligible artifacts. 
 
-On your **first gift**, only artifacts matching your alignment can be selected. From your **second gift onwards**, your god can also gift unaligned (neutral alignment `A_NONE`) artifacts.
+On your **first gift**, only artifacts matching your alignment can be selected. From your **second gift onwards**, your god can also gift **unaligned artifacts**.
 
 Also note that your god will never gift you an item belonging to a race hostile to yours (e.g., Elves cannot receive Orcish weapons like [[/Artifacts/Grimtooth]], and Orcs cannot receive Elven weapons like [[/Artifacts/Orcrist]] or [[/Artifacts/Sting]]).
 
