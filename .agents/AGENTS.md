@@ -10,3 +10,6 @@ When modifying or creating wiki pages, always refer to the `wiki_editing` skill 
 - **Images**: All images go under `/uploads/`, mirroring the page's directory path. The format must be WebP.
 - **Horizontal Lines**: Do not use horizontal lines (e.g., `---` or `***`) anywhere in the wiki. They are not needed in Markdown documents.
 - **Reserved Folders**: Do not modify the `/gollum/` or `/.gollum/` directories.
+- **Mathematical Formulas (KaTeX)**: Use KaTeX notation only for complex mathematical formulas, and prefer plain text for simple expressions. All KaTeX formulas must start with `$$` and end with `$$`. For example: `$$P = \frac{1}{10 + 2 \times G \times A}$$`.
+
+

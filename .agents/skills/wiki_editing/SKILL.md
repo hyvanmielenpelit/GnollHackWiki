@@ -42,3 +42,13 @@ When editing or creating pages for the GnollHack Wiki, follow these conventions 
   - Important: `> 📢 **Important:** This is important.`
   - Warning: `> ⚠️ **Warning:** This is a warning.`
   - Caution: `> 🛑 **Caution:** This is caution.`
+
+## 5. Mathematical Formulas (KaTeX)
+- **Prefer Plain Text for Simple Formulas**: For simple mathematical expressions or basic requirements (e.g., `Level >= 3` or `Luck >= 0`), format them as plain text. Do not use KaTeX for simple expressions.
+- **Use KaTeX Only for Complex Formulas**: Use KaTeX notation only for complex mathematical formulas, fraction-based equations, or multi-variable calculations.
+- **Delimiters**: All KaTeX formulas must start with `$$` and end with `$$`.
+- **Example**:
+  - Complex formula in KaTeX: `$$P = \frac{1}{10 + 2 \times G \times A}$$`
+  - Simple formula in plain text: `Luck >= 0` or `1 in 10`
+
+
