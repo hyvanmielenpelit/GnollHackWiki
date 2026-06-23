@@ -30,12 +30,15 @@
 1. AI-generated 3D models are not used in the game.
 2. AI-generated 3D models may be used in non-game content, such as in advertising.
 
-## AI Code
-
-1. Programmers may use generative AI, including AI agents, to generate code.
-2. Programmers may use generative AI, including AI agents, to generate metadata, such as documentation.
-3. Programmers must review the AI-generated code and metadata to ensure that they are correct.
-
 ## AI Programming
 
-1. Programmers may use AI, including AI agents, to complete programming workflows and tasks more efficiently.
+1. Programmers may use generative AI, including AI agents, to generate code.
+2. Programmers must review the AI-generated code to ensure that it is correct.
+3. Programmers may use AI, including AI agents, to complete programming workflows and tasks more efficiently.
+
+## AI Documentation
+
+1. Programmers may use generative AI, including AI agents, to generate documentation.
+2. Programmers may use generative AI to generate documentation in the game code files.
+3. Programmers may use generative AI to generate pages in the GnollHack wiki.
+4. Programmers must review the AI-generated documentation to ensure that it is correct.
