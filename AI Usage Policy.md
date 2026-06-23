@@ -1,3 +1,5 @@
+![AI Usage Policy](/uploads/AI%20Usage%20Policy/ai-usage-policy-q85.webp)
+
 ## AI Images
 
 1. AI-generated images are not used in the game.
