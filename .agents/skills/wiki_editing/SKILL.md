@@ -13,6 +13,7 @@ When editing or creating pages for the GnollHack Wiki, follow these conventions 
 - **Spacing**: Always place an empty line before and after all headings (except before the `H1` at the very beginning of the file).
 - **Subdirectories**: Group files into subdirectories (e.g., `/Monsters/`, `/Items/`) to prevent naming conflicts and organize content.
 - **Ingress**: If an article has an ingress, it must be styled as a block quote (`>`) starting with a `👉` emoji, followed by bold text (e.g., `> 👉 **This is the ingress.**`).
+- **Lists**: Use a dash (`-`) for Markdown lists instead of an asterisk (`*`) by default.
 
 ## 2. Wikilinks (Gollum Syntax)
 - **Syntax**: Use Gollum-style wikilinks: `[[Alias|Page Name#section-heading]]` or `[[Page Name]]`.
