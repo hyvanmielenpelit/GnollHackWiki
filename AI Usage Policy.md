@@ -1,36 +1,19 @@
 ![AI Usage Policy](/uploads/AI%20Usage%20Policy/ai-usage-policy-q85.webp)
 
-## AI Images
+> 👉 **This policy outlines the rules and guidelines for using generative artificial intelligence (AI) in the development of GnollHack, covering game assets, programming code, and documentation.**
 
-1. AI-generated images are not used in the game.
-2. AI-generated images may be used in non-game content. This includes but is not limited to:
-    - Illustrative images in the wiki
-    - Advertising
+## Generative AI Content Usage
 
-## AI Text
+| AI Content Type | Use Allowed in Game | Use Allowed in Non-Game Content<sup>1</sup> |
+| :--- | :---: | :---: |
+| Image | No | Yes |
+| Text | No | Yes |
+| Voice | No | Yes |
+| Music | No | Yes |
+| Video | No | Yes |
+| 3D Model | No | Yes |
 
-1. AI-generated text is not used in the game.
-2. AI-generated text may be used in non-game content, such as in advertising.
-
-## AI Voices
-
-1. AI-generated voices are not used in the game.
-2. AI-generated voices may be used in non-game content, such as in advertising.
-
-## AI Music
-
-1. AI-generated music is not used in the game.
-2. AI-generated music may be used in non-game content, such as in advertising.
-
-## AI Videos
-
-1. AI-generated videos are not used in the game.
-2. AI-generated videos may be used in non-game content, such as in advertising.
-
-## AI 3D Models
-
-1. AI-generated 3D models are not used in the game.
-2. AI-generated 3D models may be used in non-game content, such as in advertising.
+- <sup>1</sup> This includes, but is not limited to, advertisement and the wiki.
 
 ## AI Programming
 
