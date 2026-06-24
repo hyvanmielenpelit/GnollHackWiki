@@ -12,7 +12,11 @@ Not every sacrifice yields a gift. To have a chance of receiving one, you must m
 
 If these conditions are met, the chance of receiving a gift is based on the following formula:
 
-$\dfrac{1}{10 + (2 × \text{Number of previous gifts} × \text{Total number of artifacts generated in the game})}$
+$\cfrac{1}{10 + (2 × \text{Gifts} × \text{Artifacts})}$
+
+where
+- $\text{Gifts}$ is the number of previous gifts.
+- $\text{Artifacts}$ is the total number of artifacts generated in the game.
 
 This means your first gift is relatively easy to obtain (a 1 in 10 chance), but subsequent gifts become progressively rarer, especially as more artifacts are generated in the game.
 
