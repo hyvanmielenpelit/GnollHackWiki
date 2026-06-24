@@ -8,7 +8,11 @@ To be crowned by their deity, a character must satisfy the following absolute pr
 
 * **Maximum Alignment**: The character's alignment record must be exactly **20** (Pious status).
 * **Not Yet Crowned**: Crowning is a one-time event per character.
-* **High Luck**: Luck must be at least **+10** (or **+6** if the player already possesses all other intrinsic divine gifts: Telepathy, Speed, Stealth, and maximum divine protection).
+* **High Luck**: Luck must be at least **+10** (or **+6** if the player already possesses all other intrinsic divine gifts: Telepathy, Speed, Stealth, and maximum divine protection). The game determines the favor received by generating a random number according to the formula:
+  
+  $$ \text{Result} = \text{random}\left(0, \lfloor \frac{\text{Luck} + 6}{2} \rfloor - 1\right) $$
+  
+  If the result is 7 or 8 (or 5 if all other gifts are maxed), the character is crowned.
 
 ### Crowning Chances
 
