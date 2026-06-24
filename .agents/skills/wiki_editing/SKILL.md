@@ -16,7 +16,7 @@ When editing or creating pages for the GnollHack Wiki, follow these conventions 
 
 ## 2. Wikilinks (Gollum Syntax)
 - **Syntax**: Use Gollum-style wikilinks: `[[Alias|Page Name#section-heading]]` or `[[Page Name]]`.
-- **Paths**: Wikilinks inside Markdown files located in subdirectories must start with a slash (`/`) (e.g., `[[/Items/potion of healing]]`). Wikilinks inside Markdown files located in the root directory must not start with a slash (`/`) (e.g., `[[Home]]`). It does not matter which page the wikilink refers to.
+- **Paths**: All wikilinks pointing to a page in a subfolder (e.g., `[[/Items/potion of healing]]`, `[[/Artifacts/Vorpal Blade]]`) must start with a slash (`/`), regardless of whether the source file is located in the root directory or in a subdirectory. If a link points to a page in the root directory (e.g., `[[Home]]`), it should not start with a slash.
 - **File Extensions**: Do not include the `.md` extension in wikilinks.
 - **Case-Insensitivity**: Wikilinks and file names are case-insensitive.
 
