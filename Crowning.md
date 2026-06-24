@@ -4,13 +4,54 @@
 
 ## Crowning Requirements
 
-To be crowned by their deity, a character must satisfy the following conditions during prayer:
+To be crowned by their deity, a character must satisfy the following absolute prerequisites during prayer:
 
-* **Maximum Alignment**: The character's alignment record must be at the maximum value of 20.
-* **High Luck**: The character must have high positive Luck. The game rolls `rn2((Luck + 6) >> 1)` to determine the favor received:
-  * A result of 7 or 8 triggers crowning, which requires a Luck of at least **+10**.
-  * A result of 5 can also trigger crowning if the player already possesses all other intrinsic gifts (Telepathy, Speed, Stealth, and maximum divine protection), which can occur with a Luck of at least **+6**.
-* **Altar (Highly Recommended)**: The prayer is typically performed at a co-aligned altar. Although crowning is technically possible without an altar (if the character has no troubles, their alignment record is at least 14, and Luck is high enough), praying without an altar caps the prayer's value, making the crowning check much harder to satisfy and very risky.
+* **Maximum Alignment**: The character's alignment record must be exactly **20** (Pious status).
+* **Not Yet Crowned**: Crowning is a one-time event per character.
+* **High Luck**: Luck must be at least **+10** (or **+6** if the player already possesses all other intrinsic divine gifts: Telepathy, Speed, Stealth, and maximum divine protection).
+
+### Crowning Chances
+
+The probability of being crowned depends heavily on whether the character has any **troubles** (such as being hungry, low on health, or afflicted with status conditions) when praying. 
+
+#### Scenario 1: Character has NO troubles
+
+If the character prays while completely healthy and unburdened by problems, they bypass the deity's troubleshooting logic entirely. In this scenario, **an altar is not required**, and the character has the highest possible chance of being crowned:
+
+| Luck | Base Chance | Chance (All Gifts Maxed)* |
+| :--: | :---------: | :-----------------------: |
+| **+13** | 22.2% | 33.3% |
+| **+12** | 22.2% | 33.3% |
+| **+11** | 12.5% | 25.0% |
+| **+10** | 12.5% | 25.0% |
+| **+9** | 0% | 14.3% |
+| **+8** | 0% | 14.3% |
+| **+7** | 0% | 16.7% |
+| **+6** | 0% | 16.7% |
+| **≤ +5** | 0% | 0% |
+
+*\* The character already possesses intrinsic Telepathy, Speed, Stealth, and maximum divine protection.*
+> ℹ️ **Note:** The mathematical drop in probability at Luck +8 and +9 is an intentional quirk of the game's internal random number generator logic for crowning.
+
+#### Scenario 2: Character HAS troubles
+
+If the character has troubles (e.g., they are wounded or hungry), praying will typically just fix those troubles. To have a chance at crowning while having troubles, **the character must be on a co-aligned altar**. Praying without an altar when in trouble has a **0%** chance of crowning.
+
+Being on an altar inside a temple (a **shrine**) slightly increases the odds over a non-temple altar.
+
+| Luck | Base Chance (Altar) | Base Chance (Shrine) | Chance (All Gifts Maxed)* (Altar) | Chance (All Gifts Maxed)* (Shrine) |
+| :--: | :-----------------: | :------------------: | :-------------------------------: | :--------------------: |
+| **+13** | 16.7% | 17.0% | 25.0% | 25.5% |
+| **+12** | 16.3% | 16.7% | 24.4% | 25.0% |
+| **+11** | 8.9% | 9.2% | 17.9% | 18.3% |
+| **+10** | 8.7% | 8.9% | 17.3% | 17.9% |
+| **+9** | 0% | 0% | 9.5% | 9.9% |
+| **+8** | 0% | 0% | 9.1% | 9.5% |
+| **+7** | 0% | 0% | 10.0% | 10.6% |
+| **+6** | 0% | 0% | 9.3% | 10.0% |
+| **≤ +5** | 0% | 0% | 0% | 0% |
+
+*\* The character already possesses intrinsic Telepathy, Speed, Stealth, and maximum divine protection.*
 
 ## Intrinsics Granted
 
