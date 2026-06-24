@@ -54,12 +54,12 @@ Crowned characters receive a special title depending on their alignment:
   * Otherwise, if [[/Artifacts/The Katana of Masamune]] does not exist yet, they are gifted it.
   * Otherwise, if the character is wielding a non-artifact long sword with a base value of less than 2000, it is transformed into [[/Artifacts/Excalibur]] (provided it does not exist yet).
   * Otherwise, they are gifted a blessed, erodeproof, +2 to +5 Celestial silver long sword (or standard long sword if the character's race is silver-hating) with a fire enchantment and a random mythic prefix and suffix.
-  * Unrestricts the Short Sword / Long Sword skill.
+  * Unrestricts the [[/Skills/Sword]] skill.
 * **Neutral**:
   * If the character is wielding [[/Artifacts/Vorpal Blade]], it is blessed and its enchantment is increased by +1 to +3.
   * Otherwise, if [[/Artifacts/Vorpal Blade]] does not exist yet, they are gifted it.
   * Otherwise, they are gifted a blessed, erodeproof, +2 to +5 Primordial long sword with a random mythic prefix and suffix.
-  * Unrestricts the Short Sword / Long Sword skill.
+  * Unrestricts the [[/Skills/Sword]] skill.
 * **Chaotic**:
   * If the character is wielding their chaotic crowning gift artifact, it is blessed and its enchantment is increased by +1 to +3.
   * Otherwise, they are gifted their chaotic crowning gift artifact (if it does not exist yet). The gift is:
@@ -67,14 +67,14 @@ Crowned characters receive a special title depending on their alignment:
     * [[/Artifacts/Stormbringer]] for non-Gnolls (or if [[/Artifacts/Howling Flail]] already exists), and it does not exist yet.
     * [[/Artifacts/Mournblade]] if [[/Artifacts/Stormbringer]] already exists.
   * Otherwise, if the chosen artifact already exists, they are gifted a blessed, erodeproof, +2 to +5 Infernal long sword with a random mythic prefix and suffix.
-  * Unrestricts the relevant weapon skill (Flail or Short Sword / Long Sword) and Two-Weapon Combat (`P_DUAL_WEAPON_COMBAT`) if the gift is Stormbringer or Mournblade.
+  * Unrestricts the relevant weapon skill ([[/Skills/Flail]] or [[/Skills/Sword]]) and [[/Skills/Dual wielding]] if the gift is Stormbringer or Mournblade.
 
 ### Knight
 
 * **Lawful**:
   * [[/Artifacts/Rhongomyniad]] (if it does not exist yet).
   * If [[/Artifacts/Rhongomyniad]] already exists, [[/Artifacts/The Holy Grail]] (if it does not exist yet).
-  * Unrestricts the Thrusting Weapon skill.
+  * Unrestricts the [[/Skills/Thrusting weapon]] skill.
   * Gifted a tame, saddled [[/Monsters/Ki-rin]] (if pets are allowed).
 * **Neutral**:
   * Gifted a tame, saddled [[/Monsters/Roc]] (if pets are allowed).
@@ -104,7 +104,7 @@ Gifted a tame [[/Monsters/Giant Luggage]] (summoned in a puff of smoke, if pets 
 * Blessed [[/Items/Speed boots]] (or [[/Items/Gloves of haste]] if they already carry speed boots; if they carry either, they are blessed, enchanted by +1 to +3, and upgraded to Elite quality).
 * Blessed [[/Items/Wings of flying]] (if not carrying them; otherwise blessed).
 * Blessed [[/Items/Robe of eyes]] (if they got fewer than 3 of the above items in the luggage due to already carrying them).
-* 20 blessed, erodeproof, lightning-enchanted [[/Items/Dart|darts]] (+3 to +5) of alignment-themed quality (Celestial for Lawful, Primordial for Neutral, Infernal for Chaotic, Elite otherwise).
+* 20 blessed, erodeproof, lightning-enchanted [[darts|/Items/Dart]] (+3 to +5) of alignment-themed quality (Celestial for Lawful, Primordial for Neutral, Infernal for Chaotic, Elite otherwise).
 
 ### Valkyrie
 
@@ -113,7 +113,7 @@ Gifted a blessed, erodeproof, +2 to +5 weapon (a Dwarvish Axe if they are a Dwar
 * **Lawful**: Celestial quality, silver material (for long sword, if not silver-hating) or mithril (for Dwarvish axe), fire-enchanted, with mythic prefix *Asgardian* and suffix *Giant Slaying*.
 * **Neutral**: Primordial quality, lightning-enchanted, with mythic prefix *Asgardian* and suffix *Giant Slaying*.
 * **Chaotic**: Infernal quality, cold-enchanted, with mythic prefix *Jotunheimian*.
-* Unrestricts Axe skill (if dwarf) or Short Sword / Long Sword skill (if non-dwarf).
+* Unrestricts [[/Skills/Axe]] skill (if dwarf) or [[/Skills/Sword]] skill (if non-dwarf).
 * Gifted a tame, saddled [[/Monsters/Pegasus]] (if pets are allowed).
 
 ### Wizard
