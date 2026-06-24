@@ -4,14 +4,16 @@ The hit point regeneration rate depends on a character's **maximum hit points** 
 
 Different HP regeneration effects don't stack. The game will always use the best one.
 
-| HP Regeneration State | Hit Points Regenerated per Turn | With Mummy Rot |
-| :-------------------- | :-----------------------------: | :------------: |
-| Default | $\text{Maximum Hit Points}/320$ | $-1\times\text{Maximum Hit Points}/960$ |
-| Regeneration | $\text{Maximum Hit Points}/160$ | $0$ |
-| Rapid Regeneration | $\text{Maximum Hit Points}/80$ | $+1$ |
-| Rapider Regeneration | $\text{Maximum Hit Points}/40$ | $+2$ |
-| Rapidest Regeneration | $\text{Maximum Hit Points}/20$ | $+3$ |
-| Divine Regeneration | $\text{Maximum Hit Points}/10$ | $+4$ |
+> ℹ️ **Note:** The game determines your regeneration rate by first calculating how many turns it will take to heal to full health (**Turns to Full**). Your exact hit points regenerated per turn is then calculated as `Maximum Hit Points / Turns to Full`. Because the "Turns to Full" calculation rounds down (integer division), the exact regeneration rate fluctuates slightly as your maximum hit points increase, and provides a much higher baseline rate at low hit points than a simple fraction would suggest.
+
+| HP Regeneration State | Turns to Full Health | Approx. HP Regenerated per Turn | With Mummy Rot |
+| :-------------------- | :------------------: | :-----------------------------: | :------------: |
+| Default | $320$ | $\text{Max HP} / 320$ | $-\text{Max HP} / 960$ |
+| Regeneration | $\max(1, \min(\lfloor\text{Max HP}\rfloor, 160))$ | $\approx \max(1, \text{Max HP}/160)$ | $0$ |
+| Rapid Regeneration | $\max(1, \min(\lfloor\text{Max HP}/2\rfloor, 80))$ | $\approx \max(2, \text{Max HP}/80)$ | $+1$ |
+| Rapider Regeneration | $\max(1, \min(\lfloor\text{Max HP}/4\rfloor, 40))$ | $\approx \max(4, \text{Max HP}/40)$ | $+2$ |
+| Rapidest Regeneration | $\max(1, \min(\lfloor\text{Max HP}/8\rfloor, 20))$ | $\approx \max(8, \text{Max HP}/20)$ | $+3$ |
+| Divine Regeneration | $\max(1, \min(\lfloor\text{Max HP}/16\rfloor, 10))$ | $\approx \max(16, \text{Max HP}/10)$ | $+4$ |
 
 
 ## Mana Regeneration Rate
@@ -20,10 +22,12 @@ The mana regeneration rate depends on a character's **maximum mana** and **activ
 
 Different mana regeneration effects don't stack. The game will always use the best one.
 
-| Mana Regeneration State | Mana Regenerated per Turn |
-| :---------------------- | :-----------------------: |
-| Default | $\text{Maximum Mana}/240$ |
-| Energy Regeneration | $\text{Maximum Mana}/120$ |
-| Rapid Energy Regeneration | $\text{Maximum Mana}/60$ |
-| Rapider Energy Regeneration | $\text{Maximum Mana}/30$ |
-| Rapidest Energy Regeneration | $\text{Maximum Mana}/15$ |
+> ℹ️ **Note:** Similar to hit points, the game calculates a **Turns to Full Mana** value using integer division.
+
+| Mana Regeneration State | Turns to Full Mana | Approx. Mana Regenerated per Turn |
+| :---------------------- | :----------------: | :-------------------------------: |
+| Default | $240$ | $\text{Max Mana} / 240$ |
+| Energy Regeneration | $\max(1, \min(\lfloor 2 \times \text{Max Mana}/3 \rfloor, 120))$ | $\approx \max(1.5, \text{Max Mana}/120)$ |
+| Rapid Energy Regeneration | $\max(1, \min(\lfloor\text{Max Mana}/3\rfloor, 60))$ | $\approx \max(3, \text{Max Mana}/60)$ |
+| Rapider Energy Regeneration | $\max(1, \min(\lfloor\text{Max Mana}/6\rfloor, 30))$ | $\approx \max(6, \text{Max Mana}/30)$ |
+| Rapidest Energy Regeneration | $\max(1, \min(\lfloor\text{Max Mana}/12\rfloor, 15))$ | $\approx \max(12, \text{Max Mana}/15)$ |
