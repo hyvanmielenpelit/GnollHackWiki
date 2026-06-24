@@ -6,8 +6,8 @@
 
 | AI Content Type | Use Allowed in Game | Use Allowed in Stores<sup>1</sup> | Use Allowed in Non-Game Content<sup>2</sup> |
 | :--- | :---: | :---: | :---: |
-| Image | ❌ | ✅<sup>3</sup> | ✅ |
-| Text | ❌ | ✅<sup>4</sup> | ✅ |
+| Image | ❌ | ❌<sup>3</sup> / ✅<sup>4</sup> | ✅ |
+| Text | ❌ | ✅<sup>5</sup> | ✅ |
 | Voice | ❌ | ❌ | ✅ |
 | Music | ❌ | ❌ | ✅ |
 | Video | ❌ | ❌ | ✅ |
@@ -15,8 +15,9 @@
 
 - <sup>1</sup> This includes store page assets and other assets in the store.
 - <sup>2</sup> This includes, but is not limited to, advertisement and the wiki.
-- <sup>3</sup> This includes event graphics but not store page graphics.
-- <sup>4</sup> Texts in stores are usually a mix of AI-generated and human-generated text.
+- <sup>3</sup> Store page assets.
+- <sup>4</sup> Other assets, such as event graphics.
+- <sup>5</sup> Texts in stores are usually a mix of AI-generated and human-generated text.
 
 ## AI Programming
 
