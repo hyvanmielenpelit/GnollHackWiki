@@ -13,7 +13,7 @@
 | Video | ❌ | ❌ | ✅ |
 | 3D Model | ❌ | ❌ | ✅ |
 
-- <sup>1</sup> This includes store page assets and other assets in the store.
+- <sup>1</sup> This includes store page assets and other assets in stores, such as Google Play Store.
 - <sup>2</sup> This includes, but is not limited to, advertisement and the wiki.
 - <sup>3</sup> Store page assets.
 - <sup>4</sup> Other assets, such as event graphics.
