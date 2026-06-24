@@ -31,7 +31,7 @@ If the character prays while completely healthy and unburdened by problems, they
 | **≤ +5** | 0% | 0% |
 
 *\* The character already possesses intrinsic Telepathy, Speed, Stealth, and maximum divine protection.*
-> ℹ️ **Note:** The mathematical drop in probability at Luck +8 and +9 is an intentional quirk of the game's internal random number generator logic for crowning.
+> ℹ️ **Note:** The probability of crowning with all gifts maxed paradoxically **drops** when your Luck increases from +7 to +8 (from 16.7% down to 14.3%). This is a quirk of the game's internal random number generator logic.
 
 #### Scenario 2: Character HAS troubles
 
@@ -52,6 +52,7 @@ Being on an altar inside a temple (a **shrine**) slightly increases the odds ove
 | **≤ +5** | 0% | 0% | 0% | 0% |
 
 *\* The character already possesses intrinsic Telepathy, Speed, Stealth, and maximum divine protection.*
+> ℹ️ **Note:** The probability of crowning with all gifts maxed paradoxically **drops** when your Luck increases from +7 to +8 (e.g., from 10.6% down to 9.5% on a shrine). This is a quirk of the game's internal random number generator logic.
 
 ## Intrinsics Granted
 
