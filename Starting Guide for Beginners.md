@@ -68,6 +68,8 @@ If you are new to GnollHack, these essential tips will help you survive the earl
 - 🚪 **Use Doors Wisely:** If you are low on health, find a room, close the door, and rest (`.` key) until you recover.
 - 🔍 **Explore Fully:** Try to explore the entire level and find all items before descending to the next floor. 
 - ⚠️ **Beware of Cursed Items:** Never equip an item you haven't identified unless you are prepared to be permanently stuck with a cursed item. 
+- ⚖️ **Watch Your Weight (Encumbrance):** Carrying too many items will make you Burdened, Stressed, or Strained. This slows you down significantly, making you an easy target for fast monsters. Drop heavy items you don't need in a safe spot, such as a chest.
+- ✍️ **Engraving "Elbereth":** You can use the Engrave command (keyboard shortcut: `E`) to write the word `Elbereth` on the floor. Many monsters are frightened by this word and will refuse to attack you in melee while you stand on it. You can write in the dust using your fingers, or use a hard item for a more permanent engraving.
 
 ## 🕹️ Commands in Modern UI
 
@@ -112,16 +114,6 @@ You can throw items to 8 basic directions. The throwing distance is listed in th
 - **Throwing:** Use the Throw command (`t`) to throw a weapon from your inventory.
 - **Accuracy:** Throwing weapons at melee range gives a large to-hit penalty.
 - **Autopickup:** You automatically pick up thrown weapons by default.
-
-### Polearms
-
-Polearms can hit 2 squares away (one square is 5'x5'). This is a safe way to kill monsters with dangerous melee attacks, like sea creatures.
-
-- Use the Polearm command or Apply (`a`) the polearm to attack two squares away.
-
-### Two-Weapon Fighting
-
-You can strike with both hands by using the **2-Weapon** command (`Ctrl-x`). A yellow '2Weap' sign will appear. In this mode, you suffer a significant penalty to hit and damage unless your skill in [[/Skills/Dual wielding]] is high.
 
 ## 🍗 Eating
 
@@ -214,7 +206,7 @@ You can **Pray** (`Alt-p`) to your god for help in emergencies (low health, sick
 
 ### Altars
 
-Altars are extremely useful and can belong to any alignment. There is always an altar of your alignment on dungeon level 1.
+Altars are extremely useful and can belong to any alignment. There is always an altar of your alignment in the starting room on dungeon level 1.
 
 - **Identify Blessedness of Items:** Drop items on any altar to check their blessed/uncursed/cursed status.
 - **Sacrificing:** Offer (`Alt-o`) fresh monster corpses on an altar of *your* alignment to please your god. This can increase your luck or gift you powerful **Artifact** weapons. A [[/Items/wand of create monster]] is very useful here.
