@@ -15,7 +15,7 @@ The modern version of GnollHack has two modes for permadeath:
 
 ## 🌟 Difficulty
 
-We recommend that you start playing GnollHack using the [[Standard difficulty|/Difficulties/Standard]].
+We recommend that you start playing GnollHack using the **[[Standard difficulty|/Difficulties/Standard]]**.
 
 ## 🛡️ Classes (Roles)
 
@@ -23,19 +23,19 @@ GnollHack features the same classes as NetHack. They are often called _roles_.
 
 | Class | Combat Style | Alignment | Description |
 | :---- | :----------- | :-------- | :---------- |
-| **Archaeologist** | Miscellaneous | Lawful, Neutral | A lightly armored explorer, who starts with a pick-axe and a touchstone. Often considered difficult to play. |
-| **Barbarian** | Melee | Neutral, Chaotic | A strong melee warrior, who starts with poison resistance. |
-| **Caveman** | Melee | Lawful, Neutral | A strong melee warrior that uses basic weapons, such as clubs and slings. He can practice cannibalism without divine punishment. |
-| **Healer** | Spell-Caster | Neutral | A lightly equipped physician, who starts with lots of money, healing spells, healing items, and a wand of sleep. |
-| **Knight** | Melee | Lawful | A heavily armored warrior, who is able to ride on his horse and use a lance for jousting his enemies. Follows a special conduct of honor. |
-| **Monk** | Miscellaneous | Any | A martial artist with movement spells. Cannot wear body armor or a shield and is restricted to vegetarian food. Gains resistances as they level up. |
-| **Priest** | Spell-Caster | Any | An armored zealot skilled in clerical and healing spells. Can naturally identify an item's blessed/uncursed/cursed status on inspection. A lawful Priest can cast [[Celestial spells]], neutral Priest [[Nature spells]], and chaotic Priest [[Necromancy spells]]. |
-| **Ranger** | Ranged | Neutral, Chaotic | A lightly armored archer, who is adept at ranged combat, searching, and disarming traps. |
-| **Rogue** | Melee & Ranged | Chaotic | A lightly armored and cunning thug skilled at both melee and ranged combat, poison, and disarming traps. Can backstab fleeing monsters. |
-| **Samurai** | Melee & Ranged | Lawful | A strong melee warrior, who is also adept at ranged combat. [Some item names show up in Japanese](https://nethackwiki.com/wiki/Samurai#Japanese_names_for_items). |
-| **Tourist** | Miscellaneous | Neutral | A lightly equipped wanderer starting with darts, a golf bat, and an expensive camera. Usually considered a hard class. |
-| **Valkyrie** | Melee | Lawful, Neutral | A strong female melee warrior, who starts with cold resistance and stealth. |
-| **Wizard** | Spell-Caster | Neutral, Chaotic | A mighty spell-caster proficient in arcane and enchantment spells. Starts with a considerable amount of magic items and spells. |
+| **[[/Roles/Archaeologist]]** | Miscellaneous | Lawful, Neutral | A lightly armored explorer, who starts with a pick-axe and a touchstone. Often considered difficult to play. |
+| **[[/Roles/Barbarian]]** | Melee | Neutral, Chaotic | A strong melee warrior, who starts with poison resistance. |
+| **[[/Roles/Caveman]]** | Melee | Lawful, Neutral | A strong melee warrior that uses basic weapons, such as clubs and slings. He can practice cannibalism without divine punishment. |
+| **[[/Roles/Healer]]** | Spell-Caster | Neutral | A lightly equipped physician, who starts with lots of money, healing spells, healing items, and a wand of sleep. |
+| **[[/Roles/Knight]]** | Melee | Lawful | A heavily armored warrior, who is able to ride on his horse and use a lance for jousting his enemies. Follows a special conduct of honor. |
+| **[[/Roles/Monk]]** | Miscellaneous | Any | A martial artist with movement spells. Cannot wear body armor or a shield and is restricted to vegetarian food. Gains resistances as they level up. |
+| **[[/Roles/Priest]]** | Spell-Caster | Any | An armored zealot skilled in clerical and healing spells. Can naturally identify an item's blessed/uncursed/cursed status on inspection. A lawful Priest can cast [[Celestial spells]], a neutral Priest [[Nature spells]], and a chaotic Priest [[Necromancy spells]]. |
+| **[[/Roles/Ranger]]** | Ranged | Neutral, Chaotic | A lightly armored archer, who is adept at ranged combat, searching, and disarming traps. |
+| **[[/Roles/Rogue]]** | Melee & Ranged | Chaotic | A lightly armored and cunning thug skilled at both melee and ranged combat, poison, and disarming traps. Can backstab fleeing monsters. |
+| **[[/Roles/Samurai]]** | Melee & Ranged | Lawful | A strong melee warrior, who is also adept at ranged combat. [Some item names show up in Japanese](https://nethackwiki.com/wiki/Samurai#Japanese_names_for_items). |
+| **[[/Roles/Tourist]]** | Miscellaneous | Neutral | A lightly equipped wanderer starting with darts, a golf bat, and an expensive camera. Usually considered a hard class. |
+| **[[/Roles/Valkyrie]]** | Melee | Lawful, Neutral | A strong female melee warrior, who starts with cold resistance and stealth. |
+| **[[/Roles/Wizard]]** | Spell-Caster | Neutral, Chaotic | A mighty spell-caster proficient in arcane and enchantment spells. Starts with a considerable amount of magic items and spells. |
 
 ## 🧑 Races
 
@@ -43,11 +43,11 @@ GnollHack features 5 races with different attributes and special abilities.
 
 | Race | Playable Classes | Max Attributes | Alignment | Special Abilities |
 | :--- | :--------------- | :------------- | :-------- | :---------------- |
-| **Human** | Any | All: 18 (Str 18/100) | Any | None. |
-| **Dwarf** | Archaeologist, Caveman, Knight, Valkyrie | Dex: 20, Con: 20, Int: 16, Wis: 16, Cha: 16 | Lawful | Infravision. Most dwarves are peaceful. |
-| **Elf** | Priest, Ranger, Wizard | Con: 16, Int: 20, Wis: 20 | Neutral | Infravision. Most elves are peaceful. |
-| **Gnoll** | Barbarian, Caveman, Healer, Priest, Rogue, Ranger | Dex: 19, Con: 19, Int: 16, Wis: 16, Cha: 16 | Neutral, Chaotic | Smell rotten food, triple nutrition from tripe, immune to lycanthropy. Most gnolls and dwarves are peaceful. |
-| **Orc** | Barbarian, Ranger, Rogue, Wizard | Str: 18/50, Int: 16, Wis: 16, Cha: 16 | Chaotic | Poison resistance, infravision, unpunished cannibalism. Most orcs are peaceful. |
+| **[[/Races/Human]]** | Any | All: 18 (Str 18/100) | Any | None. |
+| **[[/Races/Dwarf]]** | Archaeologist, Caveman, Knight, Valkyrie | Dex: 20, Con: 20, Int: 16, Wis: 16, Cha: 16 | Lawful | Infravision. Most dwarves are peaceful. |
+| **[[/Races/Elf]]** | Priest, Ranger, Wizard | Con: 16, Int: 20, Wis: 20 | Neutral | Infravision. Most elves are peaceful. |
+| **[[/Races/Gnoll]]** | Barbarian, Caveman, Healer, Priest, Rogue, Ranger | Dex: 19, Con: 19, Int: 16, Wis: 16, Cha: 16 | Neutral, Chaotic | Smell rotten food, triple nutrition from tripe, immune to lycanthropy. Most gnolls and dwarves are peaceful. |
+| **[[/Races/Orc]]** | Barbarian, Ranger, Rogue, Wizard | Str: 18/50, Int: 16, Wis: 16, Cha: 16 | Chaotic | Poison resistance, infravision, unpunished cannibalism. Most orcs are peaceful. |
 
 ## ⚖️ Alignment
 
@@ -55,9 +55,9 @@ GnollHack has 3 alignments to choose from. Not all alignments are available to a
 
 | Alignment | Conduct Rules | Peaceful Monsters |
 | :-------- | :------------ | :---------------- |
-| **Lawful** | Cannot murder peaceful humans or use poisoned weapons. Penalties for "evil" actions like genociding. | Angelic beings, dwarves, titans. |
-| **Neutral** | Cannot murder peaceful humans. | Gnomes, some animals. |
-| **Chaotic** | Mostly no penalties for committing "evil" actions. | Some chaotic monsters, like orcs. |
+| **[[Lawful]]** | Cannot murder peaceful humans or use poisoned weapons. Penalties for "evil" actions like genociding. | Angelic beings, dwarves, titans. |
+| **[[Neutral]]** | Cannot murder peaceful humans. | Gnomes, some animals. |
+| **[[Chaotic]]** | Mostly no penalties for committing "evil" actions. | Some chaotic monsters, like orcs. |
 
 ## 🎒 Essential Survival Tips for Beginners
 
