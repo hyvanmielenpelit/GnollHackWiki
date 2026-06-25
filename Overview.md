@@ -6,6 +6,7 @@ GnollHack is a traditional roguelike, being based on the game design of [Rogue](
 - Grid-based movement
 - Procedural generation of dungeons and items
 - Permadeath _(classic mode only)_
+- No meta-progression between runs
 - A great number of different game mechanics
 - High fantasy world
 
