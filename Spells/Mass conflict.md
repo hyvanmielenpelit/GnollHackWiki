@@ -22,4 +22,4 @@
 
 ## Description
 
-Causes all monsters to attach each other on the level
+Causes all monsters to attack each other on the caster's dungeon level
