@@ -2,7 +2,7 @@
 
 You can leverage the **[Antigravity App](https://antigravity.google/product/antigravity-2)** powered by Gemini models to automatically research, draft, and format wiki pages. By providing the AI agent access to all related repositories, it can cross-reference code, graphics, and audio to create accurate and comprehensive documentation.
 
-> ℹ️ **Note:** You probably need a paid Google One AI subscription to use AI agents. You can subscribe via the [Google One AI plan subscription page](https://one.google.com/about/google-ai-plans/).
+> ℹ️ **Note:** You probably need a paid Google One AI subscription to use AI agents. You can subscribe via the [Google One AI plan subscription page](https://one.google.com/about/google-ai-plans/). *Google AI Pro* or a better plan is required to access the *Gemini 3.1 Pro* AI model, which is the recommended model to create wiki pages. For extensive AI agent usage, we recommend the *Google AI Ultra* plan.
 
 ## Local Repository Setup
 
