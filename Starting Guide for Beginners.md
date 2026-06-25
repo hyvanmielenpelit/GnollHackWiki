@@ -216,7 +216,7 @@ You can **Pray** (`Alt-p`) to your god for help in emergencies (low health, sick
 
 Altars are extremely useful and can belong to any alignment. There is always an altar of your alignment on dungeon level 1.
 
-- **Identify Items:** Drop items on any altar to check their blessed/uncursed/cursed status.
+- **Identify Blessedness of Items:** Drop items on any altar to check their blessed/uncursed/cursed status.
 - **Sacrificing:** Offer (`Alt-o`) fresh monster corpses on an altar of *your* alignment to please your god. This can increase your luck or gift you powerful **Artifact** weapons. A [[/Items/wand of create monster]] is very useful here.
-- **Converting Altars:** If an altar is the wrong alignment, sacrificing on it might convert it to your god. The chance to convert an altar is 50% at level 4 and about 70–85% at high levels.
-- **Holy Water:** Drop uncursed [[/Items/potion of water]] on your altar and pray. They will become holy water. You can dip (`Alt-d`) items into holy water to bless them or remove curses.
+- **Converting Altars:** If an altar is the wrong alignment, sacrificing on it might convert it to your god. The chance to convert an altar is 50% at experience level 4 and about 70–85% at higher experience levels.
+- **Holy Water:** Drop uncursed [[potions of water|/Items/potion of water]] on your altar and pray. They will become holy water. You can dip (`Alt-d`) items into holy water to bless them or remove curses.
