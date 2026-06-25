@@ -121,6 +121,21 @@ Many items have been rebalanced or entirely changed.
   - Conflict has been nerfed: it is no longer a permanent extrinsic. Items granting conflict now consume charges.
   - Some mushrooms are poisonous. Eat them with caution!
 
+### Starting Items
+
+GnollHack changes the initial inventory of almost every role to make the early game more dynamic and balanced:
+
+- **Everyone Gets a Container:** Every single role now starts with some kind of container (e.g., a sack, backpack, or leather bag). 
+- **Specialized Bags:** [[Rogues|/Roles/Rogue]] begin with a [[/Items/bag of treasure hauling]] (vital because gold has significant weight in GnollHack), and [[Wizards|/Roles/Wizard]] start with a [[/Items/bag of wizardry]].
+- **Guaranteed Scroll of Identify:** Everyone is guaranteed to start with at least one [[/Items/scroll of identify]]. Their number depends on the [[difficulty level|Difficulty Levels]].
+- **Melee for Tourists:** [[Tourists|/Roles/Tourist]] now start with an enchanted [[/Items/golf club]]! This is necessary because throwing darts at enemies in melee range now incurs a heavy to-hit penalty.
+- **Elemental Weapons:** Some classes begin with elemental enchanted weapons (e.g., Valkyries start with a cold-enchanted dagger, and Archaeologists start with lightning-enchanted crossbow bolts).
+- **New Role Items:** 
+  - Archaeologists start with a [[/Items/hand crossbow]] instead of a boomerang.
+  - Healers get new healing salves and a [[/Items/beak mask of sickness resistance]].
+  - Cavemen start with a [[/Items/prayerstone]].
+- **Racial Gear Swaps:** If you play as the new [[Gnoll|/Races/Gnoll]] race, your starting swords and maces are swapped out for flails, bows for crossbows, and standard armor for specialized gnollish gear.
+
 ## Shops and Economy
 
 - **No Shop Stealing:** Pets can no longer steal from shops. However, you naturally acquire more money during your run, so just buy the items you need!
@@ -130,10 +145,6 @@ Many items have been rebalanced or entirely changed.
   - Specialized shopkeepers can identify the item types they sell.
   - Smiths, Geologists, and Artificers can also identify certain item types.
   - Geologists will buy gems, and Artificers will buy spellbooks.
-
-## Starting Items
-
-You are guaranteed to start with at least one [[/Items/scroll of identify]].
 
 ## Dungeon and Monster Changes
 
