@@ -29,7 +29,7 @@ GnollHack features the same classes as NetHack. They are often called _roles_.
 | **Healer** | Spell-Caster | Neutral | A lightly equipped physician, who starts with lots of money, healing spells, healing items, and a wand of sleep. |
 | **Knight** | Melee | Lawful | A heavily armored warrior, who is able to ride on his horse and use a lance for jousting his enemies. Follows a special conduct of honor. |
 | **Monk** | Miscellaneous | Any | A martial artist with movement spells. Cannot wear body armor or a shield and is restricted to vegetarian food. Gains resistances as they level up. |
-| **Priest** | Spell-Caster | Any | An armored zealot skilled in clerical and healing spells. Can naturally identify an item's blessed/uncursed/cursed status on inspection. |
+| **Priest** | Spell-Caster | Any | An armored zealot skilled in clerical and healing spells. Can naturally identify an item's blessed/uncursed/cursed status on inspection. A lawful Priest can cast [[Celestial spells]], neutral Priest [[Nature spells]], and chaotic Priest [[Necromancy spells]]. |
 | **Ranger** | Ranged | Neutral, Chaotic | A lightly armored archer, who is adept at ranged combat, searching, and disarming traps. |
 | **Rogue** | Melee & Ranged | Chaotic | A lightly armored and cunning thug skilled at both melee and ranged combat, poison, and disarming traps. Can backstab fleeing monsters. |
 | **Samurai** | Melee & Ranged | Lawful | A strong melee warrior, who is also adept at ranged combat. [Some item names show up in Japanese](https://nethackwiki.com/wiki/Samurai#Japanese_names_for_items). |
