@@ -34,9 +34,9 @@ This model is recommended for simple bulk operations. It generates output with m
 
 This model is recommended for complex tasks when image conversion to WebP is required (or other advanced tool use).
 
-#### Image Conversion with FFmpeg
+## Image Conversion with FFmpeg
 
-The wiki requires all images to be in WebP format. The Gemini 3.5 Flash (Medium) AI agent can automatically convert image assets to WebP using terminal commands if **FFmpeg** is installed on your computer. 
+The wiki requires all images to be in WebP format. Both Gemini 3.5 Flash reasoning levels (Low and Medium) can automatically convert image assets to WebP using terminal commands if **FFmpeg** is installed on your computer. 
 
 If you do not have it installed, you can [download FFmpeg here](https://ffmpeg.org/download.html) and ensure it is added to your system's PATH.
 
