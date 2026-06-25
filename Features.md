@@ -1,13 +1,51 @@
-![features](/uploads/Features/features.webp)
+![Features](/uploads/Features/features-q85.webp)
 
-* **[[Improved Graphical Interface]]** — Large 64x96 tiles with many advanced features. Monsters can be up to 192x192 pixels in size. The game has over 23000 tiles.
-* **[[Animations]]** — All characters have attack and kick animations, and spellcasters have also spell casting animations. Spell effects and traps have been animated.
-* **[[Advanced Sound System]]** — Over 1100 game sounds that are played using [FMOD](https://www.fmod.com/) and an internal sound set system.
-* **[[Music]]** — Over 35 pieces of music, including over 10 original ones, specifically composed for GnollHack.
-* **[[Voiceovers]]** — Voiceovers for various game characters and relevant game events. The game features 97 voice actors in 110 roles and over 5000 voiceover lines.
-* **[[Gameplay Improvements]]** — New magic system, new wearable slots, new mythic property system for items (prefixes and suffixes), new weapon quality classes, all item commands accessible from the inventory menu, in-game information for items and monsters, new status lines showing pet information, and a huge number of quality-of-life improvements, such as a pet pathing algorithm.
-* **[[Platform Support]]**
-    - **Graphical UI:** Android, iOS, macOS, and Windows
-    - **ASCII UI only:** Linux
+> 👉 **GnollHack brings a wealth of modern features to the classic NetHack formula, significantly enhancing both the presentation and gameplay.**
 
-See [[Detailed Features]] for more information. You may also want to read [[How GnollHack differs from NetHack]].
+## [[Improved Graphical Interface]]
+
+- Large 64x96 tiles featuring many advanced capabilities.
+- Monsters can be up to 192x192 pixels in size.
+- The game boasts over 23,000 tiles, offering a rich visual experience.
+
+## [[Animations]]
+
+- All characters have attack and kick animations.
+- Spellcasters also feature spell casting animations.
+- Spell effects, explosions, rays, and traps have been fully animated.
+
+## [[Advanced Sound System]]
+
+- Over 1,100 game sounds powered by [FMOD](https://www.fmod.com/) and aninternal sound set system.
+
+## [[Music]]
+
+- An atmospheric soundtrack featuring over 35 pieces of music, including more than 10 original compositions specifically created for GnollHack.
+
+## [[Voiceovers]]
+
+- Engaging voiceovers for various game characters and relevant events.
+- 97 voice actors across 110 roles.
+- Over 5,000 recorded voiceover lines.
+
+## [[Gameplay Improvements]]
+
+A vast array of enhancements including:
+- A new magic system
+- Additional wearable slots
+- A mythic property system for items (prefixes and suffixes)
+- New weapon quality classes
+- All item commands accessible directly from the inventory menu
+- In-game information for items and monsters
+- Detailed status lines for pet information
+- Numerous quality-of-life improvements, such as an advanced pet pathing algorithm
+
+## [[Platform Support]]
+
+- Modern Graphical UI: Available on Android, iOS, macOS, and Windows.
+- ASCII UI only: Available on Linux.
+
+## More Information
+
+- See [[Detailed Features]] for more comprehensive information on everything the game offers.
+- You may also want to read about [[How GnollHack differs from NetHack]].
