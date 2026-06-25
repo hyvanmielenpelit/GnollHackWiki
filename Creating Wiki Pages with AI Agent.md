@@ -20,35 +20,23 @@ Ensure you have the following repositories cloned locally on your computer:
 
 The Antigravity App allows you to select between different models and reasoning levels. You should choose the appropriate combination based on the complexity of the wiki page you are creating:
 
-### Gemini 3.5 Flash
+### Gemini 3.1 Pro (High)
 
-This is the default and recommended model for most tasks because of its speed and efficiency. It supports three distinct reasoning levels:
+This is the recommended model for most tasks. It utilizes a large compute budget for extensive chain-of-thought, self-correction, and exploring multiple paths before generating the final output. It is highly capable of complex tasks where the AI needs to piece together information from multiple sources. For example, documenting a new monster by reading its C source code in `GnollHack`, locating its corresponding image in `GnollHackTileSet`, checking for sound events in `GnollHackSoundSet`, and synthesizing it all into a correctly formatted `GnollHackWiki` markdown page.
 
-- **Low Reasoning**: 
-  - *Recommendation*: Best for straightforward tasks such as formatting existing text, fixing typos, or creating simple pages where the information is already well-known or centralized in a single file.
-  - *Technical Details*: Generates output with minimal internal chain-of-thought. It is the fastest option but may struggle with complex cross-referencing or multi-step logic.
-- **Medium Reasoning**:
-  - *Recommendation*: Ideal for standard tasks, moderate research, or synthesizing information from a couple of files.
-  - *Technical Details*: Allocates a moderate compute budget for internal planning and verification. It balances speed and accuracy but might occasionally hallucinate on highly complex, undocumented code mechanics.
-- **High Reasoning**: 
-  - *Recommendation*: Recommended for complex tasks where the AI needs to piece together information from multiple sources. For example, documenting a new monster by reading its C source code in `GnollHack`, locating its corresponding image in `GnollHackTileSet`, check for sound events in `GnollHackSoundSet`, and synthesizing it all into a correctly formatted `GnollHackWiki` markdown page.
-  - *Technical Details*: Utilizes a large compute budget for extensive chain-of-thought, self-correction, and exploring multiple paths before generating the final output. It is slower and consumes more tokens, so it should be reserved for demanding tasks.
+You should also use Gemini 3.1 Pro (High) to write `SKILL.md` files for AI tasks, if such a file for the specific task is not already present in the repository.
+
+### Gemini 3.5 Flash (Low)
+
+This model is recommended for simple bulk operations. It generates output with minimal internal chain-of-thought, making it the fastest option for straightforward tasks such as formatting existing text, fixing typos, or creating simple pages.
+
+### Gemini 3.5 Flash (Medium)
+
+This model is recommended for complex tasks when image conversion to WebP is required (or other advanced tool use).
 
 #### Image Conversion with FFmpeg
 
-The wiki requires all images to be in WebP format. Gemini 3.5 Flash can automatically convert image assets to WebP using terminal commands if **FFmpeg** is installed on your computer. 
+The wiki requires all images to be in WebP format. The Gemini 3.5 Flash (Medium) AI agent can automatically convert image assets to WebP using terminal commands if **FFmpeg** is installed on your computer. 
 
 If you do not have it installed, you can [download FFmpeg here](https://ffmpeg.org/download.html) and ensure it is added to your system's PATH.
 
-### Gemini 3.1 Pro
-
-Use **Gemini 3.1 Pro** in special cases where maximum reasoning capability is required over speed. 
-- **Low Reasoning**: Can be used when Gemini 3.5 Flash struggles with nuanced formatting rules or when parsing extremely dense code files that require deeper comprehension without full multi-step reasoning.
-- **High Reasoning**: Recommended for the most demanding, architectural-level tasks. Use this when the agent needs to completely refactor complex wiki structures, cross-reference and synthesize massive amounts of contradictory or undocumented C code logic, or when Gemini 3.5 Flash (High) repeatedly fails to synthesize the correct mechanics for very complicated game systems.
-
-## Typical Workflow
-
-1. **Prompt the Agent**: Ask the Antigravity App to create a specific page. For instance: *"Create a wiki page for the new monster 'Displacer Beast'. Research its stats in the GnollHack repo, find its image in the GnollHackTileSet repo, and place the correctly formatted page in the wiki repository."*
-2. **Review the Plan**: If the task is complex, the agent will present an implementation plan. Review and approve it.
-3. **Verify the Output**: Once the agent finishes, check the generated markdown file to ensure the layout, images, and wikilinks follow the editing conventions.
-4. **Publish**: Commit and push your changes to GitHub.
