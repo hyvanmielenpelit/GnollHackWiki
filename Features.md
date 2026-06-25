@@ -16,7 +16,7 @@
 
 ## [[Advanced Sound System]]
 
-- Over 1,100 game sounds powered by [FMOD](https://www.fmod.com/) and aninternal sound set system.
+- Over 1,100 game sounds powered by [FMOD](https://www.fmod.com/) and an internal sound set system.
 
 ## [[Music]]
 
