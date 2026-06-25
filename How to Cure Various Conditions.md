@@ -65,3 +65,41 @@ Note that once the stoning process has started putting on an item that protects 
 ## Teleportitis
 
 If you acquire teleportitis (random teleporting around) from a [[/Monsters/Leprechaun]] or a [[/Monsters/Tengu]], you can cure it by eating a [[/Items/Chanterelle]].
+
+## Attribute Loss
+
+If you have had your attribute scores, such as [[strength]] drained, you can restore the loss as follows:
+
+- Drink a blessed [[/Items/potion of restore ability]] to regain all attribute scores.
+- Drink an uncursed [[/Items/potion of restore ability]] to regain all losses in *one* random attribute score.
+- Cast a [[/Spells/restore ability]] spell at yourself to regain all losses in *one* random attribute score.
+- Eat a blessed [[/Items/cloudberry]] to regain all attribute scores.
+- Eat an uncursed [[/Items/cloudberry]] to regain all losses in *one* random attribute score.
+
+## Experience Level Loss
+
+If you have had your experience level drained, you can restore the loss as follows:
+
+- Drink a blessed [[/Items/potion of restore ability]] to regain all lost experience levels.
+- Drink an uncursed [[/Items/potion of restore ability]] to regain *one* lost experience level.
+- Eat a blessed [[/Items/cloudberry]] to regain all lost experience levels.
+- Eat an uncursed [[/Items/cloudberry]] to regain *one* lost experience level.
+- Drink a blessed [[Items/potion of full healing]] to regain *one* lost experience level.
+
+## Maximum Hit Point Loss
+
+If you have lost maximum hit points to, e.g. [[/Items/Wraithblade]], you can regain them as follows:
+
+- Drink a blessed [[/Items/potion of restore ability]] to regain all lost maximum hit points.
+- Drink an uncursed [[/Items/potion of restore ability]] to regain 4 lost maximum hit points.
+- Eat a blessed [[/Items/cloudberry]] to regain all lost maximum hit points.
+- Eat an uncursed [[/Items/cloudberry]] to regain 4 lost maximum hit points.
+
+## Maximum Mana Loss
+
+If you have lost maximum mana, you can regain it as follows:
+
+- Drink a blessed [[/Items/potion of restore ability]] to regain all lost maximum mana.
+- Drink an uncursed [[/Items/potion of restore ability]] to regain 4 points of lost maximum mana.
+- Eat a blessed [[/Items/cloudberry]] to regain all lost maximum mana.
+- Eat an uncursed [[/Items/cloudberry]] to regain 4 points of lost maximum mana.
