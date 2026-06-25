@@ -164,15 +164,45 @@ Spells range in levels from minor cantrip (c), major cantrip (C), to levels 1–
 
 ## 📈 Skills
 
-You gain **1 skill slot** every time you level up. You can spend them by pressing `S`. You must first train a skill by successfully hitting with a weapon or casting a spell before you can level it up.
+You gain **1 skill slot** every time you level up. You can spend them by clicking the Skill icon (`S`). You must first train a skill by successfully hitting with a weapon or casting a spell before you can level it up. **However, magic school skills are an exception:** they have a minimum experience level requirement when they can be increased, meaning you do not necessarily need to train them by casting spells—attaining a certain experience level is enough.
 
-| Skill Level | Cost to Upgrade | Benefit |
+There are 6 levels of proficiency for skills: **Unskilled**, **Basic**, **Skilled**, **Expert**, **Master**, and **Grand Master**. Note that not all classes can reach the maximum level in every skill.
+
+When advancing a skill, the cost in skill slots varies depending on the type of skill being upgraded. The benefits of higher skill levels generally include improved hit/damage bonuses for weapons, and a +100% cast chance with lower mana cost for magic schools per level (removing penalties at Basic).
+
+### Normal Weapons, Dual-Weapon, Two-Handed, and Wands
+
+| Advancement | Cost |
+|---|---|
+| **Unskilled → Basic** | 1 slot |
+| **Basic → Skilled** | 2 slots |
+| **Skilled → Expert** | 3 slots |
+| **Expert → Master** | 4 slots |
+| **Master → Grand Master** | 5 slots |
+
+### Magic School Skills, Dodge, Shield, Digging, Riding, and Disarm Trap
+
+| Advancement | Cost |
+|---|---|
+| **Unskilled → Basic** | 1 slot |
+| **Basic → Skilled** | 1 slot |
+| **Skilled → Expert** | 2 slots |
+| **Expert → Master** | 2 slots |
+| **Master → Grand Master** | 3 slots |
+
+### Bare-Handed Combat and Martial Arts
+
+Bare-handed combat and martial arts have their own specialized slot costs:
+
+| Advancement | Bare-Handed Cost | Martial Arts Cost |
 |---|---|---|
-| **Unskilled → Basic** | 1 slot | Allows spell casting; removes weapon penalties. |
-| **Basic → Skilled** | 2 slots | Magic: +100% cast chance, lower mana cost. Weapons: +Hit/Damage. |
-| **Skilled → Expert** | 3 slots | Maximum bonuses for both magic and weapons. |
+| **Unskilled → Basic** | 1 slot | 2 slots |
+| **Basic → Skilled** | 1 slot | 3 slots |
+| **Skilled → Expert** | 1 slot | 3 slots |
+| **Expert → Master** | 2 slots | 3 slots |
+| **Master → Grand Master** | 2 slots | 4 slots |
 
-When you can spend skill slots, a green skill icon or "Skill" text will appear on your screen.
+When you have enough trained experience and available skill slots, a green skill icon or a green "Skill" text will appear on your screen to notify you.
 
 ## 🙏 Praying and Altars
 
