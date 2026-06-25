@@ -67,53 +67,13 @@ If you are new to GnollHack, these essential tips will help you survive the earl
 - 🐌 **Take Your Time:** GnollHack is a turn-based game. Nothing happens until you make a move. If you are in a dangerous situation, stop and think about your options, inventory, and spells.
 - 🚪 **Use Doors Wisely:** If you are low on health, find a room, close the door, and rest (`.` key) until you recover.
 - 🔍 **Explore Fully:** Try to explore the entire level and find all items before descending to the next floor. 
-- ⚠️ **Beware of Cursed Items:** Never equip an item you haven't identified unless you are prepared to be permanently stuck with a cursed item.
+- ⚠️ **Beware of Cursed Items:** Never equip an item you haven't identified unless you are prepared to be permanently stuck with a cursed item. 
 
 ## 🕹️ Commands in Modern UI
 
 You can find some of the available commands in the bottom command row. There's also a More Commands icon, which opens a command launcher. GnollHack has plenty of commands available, so don't be overwhelmed by them but learn them at a steady pace.
 
 > 💡 **Tip:** You can control the number of available commands through the **Simple Command Layout** option in the settings. If you disable it, you will get more commands than in the simple mode.
-
-## ⌨️ Keyboard Shortcuts
-
-GnollHack can be played using keyboard shortcuts on desktop. If you are playing on mobile, you can skip this section.
-
-### Basic Commands
-
-| Key | Command | Key | Command |
-|:---:|---|:---:|---|
-| `Alt-s` | Save the game | `o` / `c` | Open / Close a door |
-| `Alt-q` | Quit the game | `k` | Kick (doors, chests, enemies) |
-| `/` | What is (identify map symbol) | `O` | Options |
-| `?` | Help | `C` | Chat |
-| `A` | Abilities and stats | `<` / `>` | Go up / Go down stairs |
-| `Alt-c` | Commands menu | `n + [num] + [cmd]` | Repeat action (e.g. `n 20 s` to search 20 times) |
-| `Enter` | Next message | `.` | Wait one turn |
-| `Ctrl-p` | Previous messages | `Ctrl-y` | Yell for pets to come |
-| `s` | Search (find traps/doors) | | |
-
-### Basic Movement
-
-You normally use the **number pad** for movement. If your keyboard lacks a number pad, you can use the **arrow keys** for cardinal movement and the following keys for diagonal movement:
-
-- **1**: Southwest
-- **3**: Southeast
-- **7**: Northwest
-- **9**: Northeast
-
-### Item Basics
-
-| Key | Action | Key | Action |
-|:---:|---|:---:|---|
-| `i` | Check inventory | `x` | Change between readied weapon/armor sets |
-| `w` | Wield weapons | `l` | Open a container |
-| `W` | Wear armors | `a` | Apply an item |
-| `T` / `Alt-t` | Take off armor | `r` | Read a scroll or a spellbook |
-| `P` | Put on items (rings, amulets) | `z` | Zap a wand |
-| `R` | Remove items (rings, amulets) | `q` | Quaff a potion |
-| `,` | Pick up items | `p` | Buy items at a shop |
-| `d` / `D` | Drop item / Drop multiple items | `Alt-x` | Check item stats |
 
 ## 👕 Armor Class and Magic Cancellation
 
@@ -161,7 +121,7 @@ Polearms can hit 2 squares away (one square is 5'x5'). This is a safe way to kil
 
 ### Two-Weapon Fighting
 
-You can strike with both hands by using the 2-Weapon command (`Ctrl-x`). A yellow '2Weap' sign will appear. In this mode, you suffer a significant penalty to hit and damage unless your skill in two-weapon fighting is high.
+You can strike with both hands by using the **2-Weapon** command (`Ctrl-x`). A yellow '2Weap' sign will appear. In this mode, you suffer a significant penalty to hit and damage unless your skill in [[/Skills/Dual wielding]] is high.
 
 ## 🍗 Eating
 
@@ -171,13 +131,13 @@ You become hungry over time. You should eat the corpses of monsters you slay (un
 
 | 🟢 Safe / Beneficial | 🔴 Dangerous / Harmful |
 |---|---|
-| Normal animals (jackals, rats). | **Cockatrices:** Do not eat or touch without gloves (instant petrification). |
-| Fruits (good vegetarian food). | **Zombies & Mummies:** Always rotten. |
-| Mushrooms (some are safe, others poisonous). | **Bats:** Makes you stunned. |
-| **Acidic corpses:** Safe, but you lose a few HP. | **Teleporting monsters:** Gives teleportitis (except Nymphs). |
-| **Wraith corpses:** Grants an experience level! | **Shapeshifters:** Makes you polymorph. |
-| **Floating Eye / Panther Cap:** Grants blind telepathy. | **Your own race:** Unless you are a Caveman or Orc (cannibalism). |
-| **Lizard corpses:** Cures petrification, never rots. | |
+| **Normal animals:** Jackals, rats | **Cockatrices:** Do not eat or touch without gloves (instant petrification) |
+| **Fruits:** Good vegetarian food | **Zombies & Mummies:** Always rotten |
+| **Mushrooms:** Some are safe, ⚠️ others poisonous | **Bats:** Makes you stunned |
+| **Acidic corpses:** Safe, but you lose a few HP | **Teleporting monsters:** Gives teleportitis (except Nymphs) |
+| **Wraith corpses:** Grants an experience level | **Shapeshifters:** Makes you polymorph |
+| **Floating Eye / Panther Cap:** Grants blind telepathy | **Your own race:** Unless you are a Caveman or Orc (cannibalism) |
+| **Lizard corpses:** Cures petrification, never rots | |
 
 > ⚠️ **Warning:** Do not eat when you are overly satisfied. You might choke and die!
 > 
@@ -189,7 +149,7 @@ Spells in GnollHack require a material component. You must first **Mix** the spe
 
 Spell success depends on your experience level, the spell's level, your magic school skill, your attributes (Int/Wis/Cha), and the armor you wear (heavy armor penalizes casting).
 
-### Spell Commands
+### Spell Commands and Their Keyboard Shortcuts
 
 | Key | Action |
 |:---:|---|
