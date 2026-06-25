@@ -78,7 +78,10 @@ The way your character grows and casts spells has seen a major overhaul.
 
 - **No Exercise Training:** The attribute training system from NetHack has been removed. You gain abilities and stats by eating corpses (e.g., Ogres grant Constitution, Nymphs grant Charisma and no longer give teleportitis).
 - **Fruit Bonuses:** Some fruits, such as [[bananas|/Items/banana]], grant attribute points. Use Examine Items (`Alt-x`) to check what different fruits do.
+- **Level Cap and Scaling:** The experience level cap has been increased to 50. It also requires significantly less XP to level up (e.g., reaching level 30 takes only 204,000 XP compared to NetHack's 100 million).
+- **Stat-Driven Combat and AC:** Your Dexterity directly contributes to your Armor Class. Generally, both players and monsters have higher HP, deal more damage, and reach higher AC values than in traditional NetHack.
 - **Immediate Stat Scaling:** Changes in attributes reflect immediately in your Hit Points and Mana Points. Finding a Constitution-boosting item instantly increases your maximum HP.
+- **Faster Regeneration:** Hit Points and Mana regenerate much faster than in NetHack.
 
 ### Spell Casting
 
@@ -99,7 +102,7 @@ The way your character grows and casts spells has seen a major overhaul.
 
 Many items have been rebalanced or entirely changed. 
 
-- **Armor and MC:** Items now provide Magic Cancellation (MC), which is used to resist special attacks. Unlike modern NetHack, MC from different items **stacks** in GnollHack.
+- **Armor and MC:** Magic Cancellation (MC) is completely overhauled. It now ranges from 0–25 instead of 0–3, and MC from different items **stacks**. Because of this broader scale, most special attacks from monsters are more dangerous until you can build up your MC.
 - **Armor Spell Penalties:** Items also grant a spell casting penalty (or sometimes a bonus). Heavier armor typically applies a larger penalty. For example, Dragon Scale Mail is heavier and incurs a spell casting penalty, making it less suitable for Wizards. Instead, [[/Items/Crystal plate mail]] now grants reflection and is an excellent body armor choice for a Wizard.
 - **Robes:** Robes occupy a new, separate item slot. They do not stack AC/MC with body armor (the game uses the best value), but you can wear both to benefit from their magical properties (e.g., wearing a [[/Items/Robe of Magic Resistance]] over [[/Items/Silver Dragon Scale Mail]]).
 - **Death Resistance Extrinsics:** Since Magic Resistance no longer blocks death spells, you can acquire extrinsic Death Resistance from items like the [[/Items/gown of the archbishops]], [[/Items/ring of protection from undeath]], or an [[/Items/amulet versus undeath]].
@@ -128,10 +131,17 @@ Many items have been rebalanced or entirely changed.
   - Smiths, Geologists, and Artificers can also identify certain item types.
   - Geologists will buy gems, and Artificers will buy spellbooks.
 
+## Starting Items
+
+You are guaranteed to start with at least one [[/Items/scroll of identify]].
+
 ## Dungeon and Monster Changes
 
 ### Dungeon Features
 
+- **Starting Room Stash:** Your starting room now always contains a co-aligned altar and a stash (a magic chest). The stash contains 2 to 3 random items.
+- **More Loot:** The overall number of items generated in the dungeon has been greatly increased.
+- **Shorter Dungeons:** The Dungeons of Doom is slightly shorter. More importantly, Gehennom is shorter and features **no mazes** except on special levels!
 - **Fountains:** There are now several types of fountains. Test a fountain's type by dipping a potion into it to see what happens.
 - **Sinks:** Sinks can be used to dilute potions.
 - **Traps:** Disarming traps yields items. Disarming magical traps usually yields wands.
@@ -143,7 +153,24 @@ Many items have been rebalanced or entirely changed.
 - **Wizards and Liches:** High-level mage casters (like the [[/Monsters/Wizard of Yendor]]) can no longer cast the Touch of Death, so you do not need Death Resistance for them.
 - **Covetousness Removed:** Covetousness (teleporting to you to steal artifacts and teleporting to the stairs to heal) has been removed from all monsters *except* the Wizard of Yendor and high-level liches. Boss monsters are generally easier in this regard, but they often have new abilities and more HP to compensate.
 - **Cockatrice Corpses Nerfed:** When you wield and hit an enemy with a [[/Monsters/Cockatrice]] corpse, the petrification effect must now pass the monster's MC to take effect.
+- **Fearless Undead:** Undead and mindless monsters will never flee from battle and are completely immune to fear.
+- **Summon Nasties Nerfed:** The dreaded "summon nasties" monster spell has been heavily nerfed.
+- **Faster Scaling:** Higher level monsters appear quicker as you delve deeper compared to NetHack.
 - **Hire Mercenaries:** You can hire peaceful monsters to join your party. High Charisma makes this a highly effective way to acquire powerful allies.
+
+## Pets and Companions
+
+- **Improved Pet Pathing:** Pets now use an advanced pathfinding algorithm (the same used for travel). They will no longer get permanently stuck on the other side of the map!
+- **Pet Commands:** You can give items directly to your pets and command them to equip, undress, or drop them. You can also command them to stay put (useful to prevent them from eating specific corpses).
+- **Aggressive Pets:** Pets will actively attack high-level monsters, making them more useful but also putting them at greater risk of dying.
+- **Pet Status Visibility:** Your pet's HP and other statistics are clearly visible on the status lines.
+
+## Scoring Changes
+
+The scoring system has been completely redesigned.
+
+- **No Hoarding for Score:** Unlike NetHack, you do **not** gain any score from hoarding gold, gems, artifacts, or amulets.
+- **How to Score:** Your score is primarily based on delving deeper into the dungeon, completing achievements, your chosen difficulty, and (if you ascend) your conducts and turn count (lower is better).
 
 ## Options *(Linux ASCII version only)*
 

@@ -146,7 +146,7 @@
 
 ## Dungeon
 
-* Your starting room has an altar of your god and your stash, which contains an axe (if you do not have a starting axe), 2 scrolls (one of which is a scroll of identify), and a random food item.
+* Your starting room has an altar of your god and your stash, which contains 2 to 3 random items.
 * Garden rooms with lots of fruits — And you can dig (Ctrl-d) in them for roots and cut down trees for lumber.
 * Library rooms with spell casting monsters.
 * Dragon lairs with dragons – even ancient ones.
