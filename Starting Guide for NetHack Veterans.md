@@ -1,150 +1,164 @@
 ![Starting Guide for NetHack Veterans](/uploads/Starting%20Guide%20for%20NetHack%20Veterans/starting-guide-for-nethack-veterans-q85.webp)
 
-GnollHack works in many ways differently than NetHack, and therefore you might need to adjust your gameplay habits accordingly.
+> 👉 **GnollHack introduces major enhancements to NetHack 3.6.2, including modern graphics, full audio, an overhauled UI, and significant gameplay rebalances. If you are an experienced NetHack player transitioning to GnollHack, this guide highlights the crucial mechanical, interface, and strategic changes you need to know to survive and thrive.**
+
+GnollHack plays differently than traditional NetHack, requiring veterans to adjust their well-established gameplay habits.
 
 ## General Advice
 
-Some of the most important things to keep in mind:
+Keep these crucial paradigm shifts in mind as you start your journey:
 
-- Meleeing may not be the best fighting option anymore. Please mind using ranged combat and spell casting.
-- Chat with your pet, different NPCs, and peaceful monsters.
-- Shopkeepers and the oracle can identify items for you for a fee.
-- Peaceful priests can bless and curse items for a fee.
-- Do not spend your gold only on divine protection. Use it also for identification, blessing items, and buying items in the shops.
-- Sell expensive but useless items such as spellbooks, if you are a non-spell casting class. You can use low-level spells, though.
-- Learn what new items do. Do not ignore them. They may be crucial for your survival. Use Alt-x to view them, or use 'i' + item letter.
-- Remember to get death resistance against some insta-death attacks. Magic resistance won't protect you from these anymore.
-- You can wear a body armor, a robe, and a cloak at the same time.
-- You can dual-wield artifacts.
-- Learn to use new container commands, such as:
-  - '**d**': drop items from the bag directly onto the ground.
-  - '**p**': pick up items on the ground and put them directly into the bag.
+- **Ranged Combat is King:** Meleeing may not always be the best fighting option. Embrace ranged combat and spell casting.
+- **Interact with the World:** Chat with your pet, different NPCs, and peaceful monsters using Chat (`C`).
+- **Use NPCs for Services:** 
+  - Shopkeepers and the Oracle can identify items for you for a fee.
+  - Peaceful priests can bless and curse items for a fee.
+- **Spend Your Gold:** Do not hoard gold just for divine protection. Use it for identification, blessing items, and buying useful gear in shops. Gold is heavy in GnollHack unless you find a [[/Items/bag of treasure hauling]], so spend it!
+- **Sell Useless Items:** If you are a non-spellcasting class, sell expensive but useless items like spellbooks to shops to fund your other purchases. You can still use low-level spells, though.
+- **Examine Everything:** Learn what new items do instead of ignoring them. Many old, previously useless items have been significantly buffed! Use Examine Items (`Alt-x`) or press Inventory (`i`) then the item letter to view detailed descriptions. They may be crucial for your survival.
+- **Layer Your Armor:** You can wear body armor, a robe, and a cloak all at the same time.
+- **Dual-Wield Artifacts:** You are now allowed to dual-wield artifacts for devastating combinations.
+
+> ⚠️ **Warning:** Remember to acquire **Death Resistance** against insta-death attacks. Magic Resistance alone will **not** protect you from these anymore!
 
 ## Difficulty
 
-GnollHack is more difficult than NetHack in the end game, and therefore we recommend that you start playing GnollHack somewhere between the [[/Difficulties/Experienced]] and [[/Difficulties/Expert]] difficulties.
+We recommend starting between the [[/Difficulties/Adept]] and [[/Difficulties/Expert]] difficulties.
 
-- [[/Difficulties/Experienced]] difficulty allows you to play a relatively easy game while learning new mechanics. It can be a right difficulty for many.
-- [[/Difficulties/Adept]] difficulty is probably a bit easier than NetHack, but new mechanics in GnollHack can require time to adjust to, which may increase the difficulty.
-- [[/Difficulties/Veteran]] difficulty will probably feel somewhat like NetHack but can be more difficult, if you do not utilize the new mechanics well.
-- [[/Difficulties/Expert]] difficulty will probably feel more intense than NetHack.
+| Difficulty | Description | Recommendation for Veterans |
+| :--- | :--- | :--- |
+| [[/Difficulties/Standard]] | Very easy, provides many hints. | Not recommended; you already know the basics. |
+| [[/Difficulties/Experienced]] | Very easy. | Not recommended; you already know the basics. |
+| [[/Difficulties/Adept]] | Much easier than NetHack. | 💡 **Recommended starting point.** Good while you are learning new mechanics. |
+| [[/Difficulties/Veteran]] | Easier than NetHack. | 💡 **Recommended starting point.** Good while you are learning new mechanics. |
+| [[/Difficulties/Expert]] | Slightly easier than NetHack. | 💡 **Recommended starting point.** Required for [NetHack Scoreboard](https://nethackscoreboard.org/) (Classic mode). |
+| [[/Difficulties/Master]] | Overwhelming if you don't know GnollHack well. | For experienced GnollHack players. |
+| [[/Difficulties/Grand Master]] | The ultimate challenge. | For true GnollHack masters. |
 
-If you are a NetHack veteran with many ascensions, we do not recommend starting with the [[/Difficulties/Standard]] difficulty, because you will get lots of hints about things you already know. [[/Difficulties/Master]] and [[/Difficulties/Grand Master]] difficulties, on the other hand, require you to know GnollHack really well, or otherwise they can be overwhelming.
+GnollHack's late game is more difficult than NetHack's.
 
-If you want your games recorded on [NetHack Scoreboard](https://nethackscoreboard.org/), you need to play on the [[/Difficulties/Expert]] difficulty or higher, using the **Classic mode**.
+## Modern Interface & Command Keys
+
+GnollHack features a modern, accessible interface compared to traditional NetHack, including action menus and quick-looting mechanics.
+
+### Action Menus and Quick Looting
+
+- **Action Menus:** You can interact with an item in your inventory by opening the Inventory (`i`) and then clicking or pressing its letter. This opens a context-sensitive action menu.
+- **Quick Container Actions:** You can manage bags efficiently, whether they are on the ground, in a chest, or in another bag:
+  - Use Apply (`a`) on a bag, then press Drop (`d`) to drop items from the bag directly onto the ground.
+  - Use Apply (`a`) on a bag, then press Pick up (`p`) to pick up items from the ground directly into the bag.
+
+### Important Command Changes
+
+> ℹ️ **Note:** The Exchange weapons (`x`) command is greatly improved: **it does not cost a turn to use!** Combined with Switch handedness (`Alt-h`), you can control whether you switch both weapon and shield, or only the right-hand weapon.
+
+| Command | Type | Description |
+| :--- | :--- | :--- |
+| Examine Items (`Alt-x`) | New | Shows detailed stats and effects of an item. |
+| Save Game (`Alt-s`) | Changed | Moved from `S`. |
+| Enhance Skills (`S`) | Changed | Replaces the NetHack save key. |
+| Take off many (`Alt-t`) | Changed | Replaces the old shortcut. |
+| Two-weapon combat (`Ctrl-x`) | Changed | Toggle dual-wielding. |
+| Chat (`C`) | Changed | Talk to NPCs. Use Name (`N` or `Alt-n`) for naming. |
+| Mix/Prepare spells (`X`) | New | Prepare spells using material components. |
+| Spell descriptions (`Alt-z`) | New | View details about your spells. |
+| Manage spells (`+`) | New | Open the spell management menu. |
+| Abilities (`A`) | New | View abilities gained from corpses or items. |
+| Character details (`Alt-y`) | New | View detailed stats, including alignment. |
+| Switch handedness (`Alt-h`) | New | Toggle left/right handedness for equipping. |
+| Dig (`Ctrl-g`) | New | Quick command for digging. |
+| Commands menu (`Alt-c`) | New | Open the extended commands menu. |
+| Yell for pets (`Y`) | New | Call your pets to your location. |
+
+## Character Progression & Magic
+
+The way your character grows and casts spells has seen a major overhaul.
+
+### Attributes and Abilities
+
+- **No Exercise Training:** The attribute training system from NetHack has been removed. You gain abilities and stats by eating corpses (e.g., Ogres grant Constitution, Nymphs grant Charisma and no longer give teleportitis).
+- **Fruit Bonuses:** Some fruits, such as [[bananas|/Items/banana]], grant attribute points. Use Examine Items (`Alt-x`) to check what different fruits do.
+- **Immediate Stat Scaling:** Changes in attributes reflect immediately in your Hit Points and Mana Points. Finding a Constitution-boosting item instantly increases your maximum HP.
+
+### Spell Casting
+
+- **More Spells:** GnollHack features a wider variety of spells.
+- **Material Components:** Most spells must be prepared using Mix (`X`) with material components. Each preparation gives you a set number of castings for that spell.
+- **Armor Penalties:** Spells with a somatic component suffer penalties from armor use. Generally, Priests can cast spells while wearing armor, but Wizards cannot.
+
+## Ranged Combat Enhancements
+
+> 💡 **Tip:** You are encouraged to use ranged weapons first, and then swap to melee weapons (using the 0-turn Exchange weapons (`x`) command) when monsters close the gap!
+
+- **Viable Archery:** Bows and crossbows are highly effective and viable primary weapons.
+- **No Melee Firing:** You cannot hit enemies with fired missiles or thrown weapons if they are in melee range.
+- **Reach Weapons:** Polearms are significantly better, able to hit enemies 2 squares away in **all** directions, regardless of your skill level. Spears can also hit 2 squares away (via the apply command), provided you have at least "Basic" skill in Spears.
+- **Durable Missiles:** Missiles (like arrows) break very rarely. Uncursed missiles have only a 5% chance to break, and blessed missiles do not break at all!
+
+## Items and Equipment
+
+Many items have been rebalanced or entirely changed. 
+
+- **Armor and MC:** Items now provide Magic Cancellation (MC), which is used to resist special attacks. Unlike modern NetHack, MC from different items **stacks** in GnollHack.
+- **Armor Spell Penalties:** Items also grant a spell casting penalty (or sometimes a bonus). Heavier armor typically applies a larger penalty. For example, Dragon Scale Mail is heavier and incurs a spell casting penalty, making it less suitable for Wizards. Instead, [[/Items/Crystal plate mail]] now grants reflection and is an excellent body armor choice for a Wizard.
+- **Robes:** Robes occupy a new, separate item slot. They do not stack AC/MC with body armor (the game uses the best value), but you can wear both to benefit from their magical properties (e.g., wearing a [[/Items/Robe of Magic Resistance]] over [[/Items/Silver Dragon Scale Mail]]).
+- **Death Resistance Extrinsics:** Since Magic Resistance no longer blocks death spells, you can acquire extrinsic Death Resistance from items like the [[/Items/gown of the archbishops]], [[/Items/ring of protection from undeath]], or an [[/Items/amulet versus undeath]].
+- **Identifying Items:**
+  - A blessed [[/Items/scroll of identify]] can no longer identify your entire inventory.
+  - The [[/Items/Touchstone]] works to identify gems even when uncursed.
+- **Cursed Stones:** There is a new cursed gray stone called the [[/Items/jinxstone]]. Kicking is no longer enough to identify all stones; you need a pet to be safe.
+- **Wand Damage:** Wands deal specific amounts of damage (e.g., a [[/Items/wand of cold]] deals `12d6` damage). You can also apply wands on items using Apply (`a`).
+- **Artifact Changes:**
+  - [[/Artifacts/Cleaver]] is safer: its arc attack no longer hits peaceful or tame monsters.
+  - [[/Artifacts/Stormbringer]] will not hit tame creatures.
+  - [[/Artifacts/Excalibur]] can only be obtained from magic fountains (the original NetHack fountains).
+- **Other Item Changes:**
+  - Figurines have been removed from the game.
+  - [[Unicorn horns|/Items/unicorn horn]] now have charges, but they have a 100% chance to work when used.
+  - Conflict has been nerfed: it is no longer a permanent extrinsic. Items granting conflict now consume charges.
+  - Some mushrooms are poisonous. Eat them with caution!
+
+## Shops and Economy
+
+- **No Shop Stealing:** Pets can no longer steal from shops. However, you naturally acquire more money during your run, so just buy the items you need!
+- **Sell Spellbooks:** You will find many expensive spellbooks on your journey. If you do not need them, sell them and buy something useful.
+- **NPC Appraisers:** Different vendors can identify items for you:
+  - General storekeepers can identify all item types.
+  - Specialized shopkeepers can identify the item types they sell.
+  - Smiths, Geologists, and Artificers can also identify certain item types.
+  - Geologists will buy gems, and Artificers will buy spellbooks.
+
+## Dungeon and Monster Changes
+
+### Dungeon Features
+
+- **Fountains:** There are now several types of fountains. Test a fountain's type by dipping a potion into it to see what happens.
+- **Sinks:** Sinks can be used to dilute potions.
+- **Traps:** Disarming traps yields items. Disarming magical traps usually yields wands.
+- **The 'Gilthoniel' Rune:** You can engrave a new rune word, `Gilthoniel`, to protect your items. Monsters cannot pick up items or loot containers located on squares protected by this rune.
+
+### Monsters
+
+- **The Touch of Death:** High-level priests (like the High Priest in the Sanctum) can cast the Touch of Death. **You need Death Resistance** to survive this; Magic Resistance is no longer enough!
+- **Wizards and Liches:** High-level mage casters (like the [[/Monsters/Wizard of Yendor]]) can no longer cast the Touch of Death, so you do not need Death Resistance for them.
+- **Covetousness Removed:** Covetousness (teleporting to you to steal artifacts and teleporting to the stairs to heal) has been removed from all monsters *except* the Wizard of Yendor and high-level liches. Boss monsters are generally easier in this regard, but they often have new abilities and more HP to compensate.
+- **Cockatrice Corpses Nerfed:** When you wield and hit an enemy with a [[/Monsters/Cockatrice]] corpse, the petrification effect must now pass the monster's MC to take effect.
+- **Hire Mercenaries:** You can hire peaceful monsters to join your party. High Charisma makes this a highly effective way to acquire powerful allies.
 
 ## Options *(Linux ASCII version only)*
 
+If you are using the Linux curses interface (instead of the modern GUI), we recommend adjusting these settings in your options file:
+
 ### Enable 4 Status Lines
 
-You should be playing GnollHack with **at least 4 status lines**. If you are using the curses interface, we recommend setting the following in your options file:
+You should play GnollHack with **at least 4 status lines** to see all relevant information. Add this to your options file:
 
 `OPTIONS=autostatuslines,statuslines:4`
 
-This will enable automatic adjustment of status lines for you, with a minimum of 4 status lines.
+This enables automatic adjustment with a minimum of 4 lines.
 
 ### Rebind the Save Key *(Optional)*
 
-Normally, you save the game in GnollHack by pressing Alt–s. This is different from NetHack, because we increased the importance of skills in the game and wanted to bind the **enhance** menu to S (as in *s*kills). If you are not fond of this change, you can rebind the save key to S by adding the following line to your options file:
+If you strongly prefer the original NetHack save key and don't mind rebinding the Enhance menu, you can add:
 
 `BIND=S:save`
-
-## Changed Command Keys
-
-- Save: Alt-s
-- Enhance: S
-- Take off many: Alt-t
-- Two weapon fighting: Ctrl-x
-- Chat: C
-
-You can use 'N' or Alt-n for naming objects and monsters, if you used 'C' for that before.
-
-## New Command Keys
-
-- Examine items: Alt-x
-- Mix (prepare) spells: X
-- Spell descriptions: Alt-z
-- Manage spells: +
-- Abilities: A
-- Character description (including alignment): Alt-y
-- Switch handedness: Alt-h
-- Dig: Ctrl-g
-- Commands menu: Alt-c
-- Yell for pets to come: Y
-
-## New Command Behaviors
-
-- You can use an item in your inventory by opening the inventory 'i' and then clicking its letter. It opens an action menu.
-- Exchange weapons 'x' is greatly improved. **It does not cost a turn to use** and can be used to switch to your alternate weapon. Combined with Alt-h (switch handedness) you can control if you switch both weapon and shield at the same time, or only the right-hand weapon.
-
-## Improved Ranged Combat
-
-- You should remember to use ranged weapons more often than in NetHack. Bows and crossbows work very fine in GnollHack.
-- You cannot hit with fired missiles or thrown weapons in a melee range.
-- You are supposed to use ranged weapons first, and then when the monsters get into a melee range, change your weapons into melee weapons with 'x'.
-- Polearms are better, being able to hit 2 squares away in all directions at all skill levels.
-- Spears can hit 2 squares away with apply, but you need to be at least Basic in Spear to do so.
-
-## Improved Spell Casting
-
-- There are more spells in GnollHack than in NetHack.
-- Most spells need to be prepared with material components. Each preparation gives a number of castings for that spell.
-- Spells with a somatic component suffer penalties from armor use.
-- Generally, a priest can cast spells with armor on but a wizard cannot.
-- You usually need at least Basic skill in a magic school to cast spells of that school. It's useless to learn spells of schools that are restricted to you.
-
-## Player Character
-
-- Changes in attributes reflect immediately in Hit Points and Mana Points. This means that if you find an item that increases your Constitution, you will immediately gain extra hit points.
-- Attribute training system has been removed. You gain abilities by eating corpses in a similar way as you ate giants in NetHack to gain strength. Ogres give constitution, nymphs charisma (and no teleportitis), and so on. Also, some fruits, such as banana, give attribute points, so please be sure to check what fruits do with Alt-x.
-
-## Changed Dungeon Behaviours
-
-- Fountains can be several types now. You should test the fountain type by dipping a potion into it and see what happens.
-- Sinks can be used to dilute potions.
-- Disarming traps yields items. Disarming magical traps yields magical items, usually wands.
-- You can engrave a new rune word 'Gilthoniel' to protect your items. Monsters cannot pick up items or loot containers in squares protected by this rune word.
-
-## Items
-
-- You can put items directly to your bag, no matter whether they are on the ground, in a chest, or in another bag in your inventory. You can also drop items directly from your bag onto the ground. Use these features to speed up your gameplay. For example:
-  - use apply bag 'a' and then 'd' to drop items directly from the bag
-  - use apply bag 'a' and then 'p' to pick up items from the ground and put them directly into the bag
-- Magic resistance does not give death resistance anymore. A good way to acquire extrinsic death resistance is, for example, by wearing a [[/Items/gown of the archbishops]], [[/Items/ring of protection from undeath]], or an [[/Items/amulet versus undeath]].
-- Some mushrooms are poisonous. Be careful when you eat them.
-- Please sure to learn what new items do. Use Alt-x for examining them, or use 'i' + item letter.
-- Items now also give MC, which is used to resist special attacks. MC from different items stacks.
-- Items give also a spell casting penalty (or sometimes bonus). Heavier armor may give more penalty than light armor.
-- Many old useless items have been buffed. Check what they do with Alt-x.
-- [[/Items/Touchstone]] works even when uncursed to identify gems.
-- Robes are a new item slot, which does not stack with the body armor. The game will choose the one with better AC and MC. However, you can wear both to utilize their magical properties, such as reflection.
-- You can dual-wield artifacts.
-- Dragon scale mails incur a penalty on spell casting and are heavier than before, so they do not suit for a wizard very well.
-- [[/Items/Crystal plate mail]] gives now reflection and is suitable as a body armor for the wizard.
-- Figurines have been removed from the game.
-- Missiles, such as arrows, break very rarely. Uncursed missiles break at a 5% chance and blessed missiles do not break at all.
-- [[/Artifacts/Cleaver]] is safer to use. Its arc attack does not hit peaceful and tame monsters.
-- [[/Artifacts/Excalibur]] can be obtained only from magic fountains (original NetHack fountains).
-- [[/Artifacts/Stormbringer]] does not hit tame creatures.
-- Conflict has been nerfed so that it does not come as a permanent extrinsic but items with conflict have now charges.
-- Unicorn horns have now charges, but have 100% chance to work.
-- You can apply wands on items using 'a'.
-- Gold is heavy in GnollHack unless you find a bag of treasure hauling.
-- A blessed [[/Items/scroll of identify]] can no longer identify the whole inventory.
-- There's a new cursed gray stone named [[/Items/jinxstone]]. So you need to have a pet to identify all the cursed stones. Kicking is not enough.
-- Wands deal different amounts of damage. Particularly, a wand of cold deals 12d6.
-
-## Shops
-
-- Pets cannot steal anymore from shops, but you gain more money, so just buy stuff!
-- You will find lots of expensive spell books on your journey. If you do not need them, when you find them, consider selling them and buying something useful for you.
-- Shopkeepers can identify items for you. General storekeepers can identify all item types and shopkeepers in restricted-item-type shops can identify items types which they sell.
-- Smiths, geologists, and artificers can identify some item types as well. Additionally, geologist can buy gems and artificers can buy spellbooks.
-
-## Monsters
-
-- High level priests, such as the high priest in the sanctum, can cast the Touch of Death. Remember that Magic Resistance does not protect you from this spell anymore. You need Death Resistance for it, which you can get from some items.
-- High level mage casters, such as [[/Monsters/Wizard of Yendor]], cannot cast Touch of Death anymore. So you do not need Death Resistance against them.
-- [[/Monsters/Cockatrice]] corpse has been nerfed so that when you hit with it, it needs to pass MC to take effect.
-- Covetousness has been removed from all monsters except [[/Monsters/Wizard of Yendor]] and high-level liches, and therefore many boss monsters are easier than before. However, they may have new abilities and more hit points than before to make up the loss.
-- You can hire peaceful monsters to your party. Especially, if you have high charisma, this can be a good way to acquire a powerful pet.
