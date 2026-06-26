@@ -4,6 +4,19 @@
 
 GnollHack plays differently than traditional NetHack, requiring veterans to adjust their well-established gameplay habits.
 
+## Why Play GnollHack?
+
+If you are a NetHack veteran, you might be wondering why you should play GnollHack over vanilla NetHack or other popular variants. Here are the main highlights that make GnollHack a unique experience:
+
+- **A True Modern Port:** GnollHack is not just a gameplay mod; it is a complete technological modernization. It features high-resolution graphics, animations, an overhauled multi-layered tile engine, a modern graphical user interface (GUI) optimized for both desktop and mobile devices, and a full musical score, along with thousands of sound effects and voiceovers.
+- **Respect for Your Time:** The pacing and quality of life are vastly improved. The leveling curve is faster, and the dungeons are shorter. Notably, Gehennom has **no mazes** except on special levels! Tedious mechanics, such as constant searching or stealing from shops, have been replaced with a stronger economy and more action-oriented gameplay. Hit points and mana also regenerate much faster.
+- **Improved Combat:** Combat requires more tactical thinking. Ranged combat has been significantly buffed to be a viable primary choice, but you can no longer fire missiles at enemies in melee range. You are encouraged to swap between ranged and melee weapons (which no longer costs a turn) as enemies close the gap.
+- **More Viable Builds:** Many underused items and mechanics have been made viable or even essential. For example, you can dual-wield artifacts and wear robes over body armor. Magic Cancellation (MC) works differently, and Magic Resistance no longer blocks death effects (you need Death Resistance!), which makes gear choices much more interesting.
+
+**What should you try first?**
+
+We recommend trying out a spellcasting class like a [[/Roles/Wizard]] or a hybrid like an [[/Roles/Archaeologist]] (who now starts with a [[/Items/hand crossbow]]!) to experience the new spell system and ranged combat mechanics. Alternatively, try out the new [[/Races/Gnoll]] race to see their specialized starting gear.
+
 ## General Advice
 
 Keep these crucial paradigm shifts in mind as you start your journey:
