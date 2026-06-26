@@ -1,4 +1,4 @@
-![Diluted Potions](/uploads/Items/Diluted%20Potions/diluted-potions-q85.webp)
+![Diluted Potions](/uploads/Diluted%20Potions/diluted-potions-q85.webp)
 
 > 👉 **A diluted potion is a weaker version of a standard potion, often resulting from dipping a potion into water. Diluted potions generally have a 50% chance of failing or producing reduced effects, and provide half the nutrition of regular potions.**
 
