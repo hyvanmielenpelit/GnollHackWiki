@@ -14,6 +14,7 @@ If you are a NetHack veteran, you might be wondering why you should play GnollHa
 - **More Viable Builds:** Many underused items and mechanics have been made viable or even essential. For example, you can dual-wield artifacts and wear robes over body armor. Magic Cancellation (MC) works differently, and Magic Resistance no longer blocks death effects (you need Death Resistance!), which makes gear choices much more interesting.
 - **Expanded Equipment Slots:** GnollHack gives you 22 equipment slots to customize your character. In addition to the classics, you can now equip [[Bracers]], wear [[Robes]] over your body armor, and equip up to 5 [[Miscellaneous Items]] simultaneously (such as belts, earrings, eyeglasses, or wings).
 - **In-Game Item Information:** You can now use the Examine items to view exact item stats, damage formulas, and magical effects directly within the game.
+- **Vastly Increased Loot:** You will encounter vastly increased options in loot, such as powerful [[Mythic and Legendary Items]].
 
 **What should you try first?**
 
