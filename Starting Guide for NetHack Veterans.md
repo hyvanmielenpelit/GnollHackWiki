@@ -2,8 +2,6 @@
 
 > 👉 **GnollHack introduces major enhancements to NetHack 3.6.2, including modern graphics, full audio, an overhauled UI, and significant gameplay rebalances. If you are an experienced NetHack player transitioning to GnollHack, this guide highlights the crucial mechanical, interface, and strategic changes you need to know to survive and thrive.**
 
-GnollHack plays differently than traditional NetHack, requiring veterans to adjust their well-established gameplay habits.
-
 ## Why Play GnollHack?
 
 If you are a NetHack veteran, you might be wondering why you should play GnollHack over vanilla NetHack or other popular variants. Here are the main highlights that make GnollHack a unique experience:
