@@ -35,6 +35,14 @@ Keep these crucial paradigm shifts in mind as you start your journey:
 
 > ⚠️ **Warning:** Remember to acquire **Death Resistance** against insta-death attacks. Magic Resistance alone will **not** protect you from these anymore!
 
+## Gameplay Mode
+
+GnollHack offers several [[gameplay modes|Choosing the Right Gameplay Mode]] in its modern interface. By default, the game may start in [[Modern Mode]], where your character resurrects at the starting altar upon dying.
+
+For a traditional NetHack experience with permanent death, you should select **[[Classic Mode]]**. You can enable this by toggling **Classic Mode** to **On** and leaving **Casual Mode** as **Off** when creating a new character.
+
+> ℹ️ **Note:** [[Classic Mode]] is required for your scores to be recorded on the [NetHack Scoreboard](https://nethackscoreboard.org/).
+
 ## Difficulty
 
 We recommend starting between the [[/Difficulties/Adept]] and [[/Difficulties/Expert]] difficulties.
