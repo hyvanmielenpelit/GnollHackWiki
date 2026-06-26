@@ -4,7 +4,7 @@
 
 ## Overview
 
-In GnollHack, a potion can acquire the `diluted` property, which represents it being watered down. This makes its effects significantly less potent and reliable. You can often identify a diluted potion through unique flavor text when quaffing or tasting, such as it being described as "watered down," "reconstituted," or tasting "particularly light."
+In GnollHack, a potion can acquire the `diluted` property, which represents it being watered down. This makes its effects significantly less potent and reliable.
 
 ## Effects of Dilution
 
@@ -14,12 +14,6 @@ When you use or interact with a diluted potion, several mechanics are altered co
 - **Halved Nutrition**: When consumed, a diluted potion provides exactly half the satiety (nutrition) of its undiluted counterpart.
 - **Speed Potion Downgrade**: The effect of speed potions is stepped down by one tier. For example, quaffing a diluted potion of lightning speed grants the same buff as an undiluted potion of greater speed.
 - **Safer Herbal Drinks**: Quaffing a diluted herbal drink will refresh you without causing confusion, whereas an undiluted herbal drink typically confuses the player.
-
-## Monster Interactions
-
-Monsters are also affected when they use diluted potions:
-
-- **Halved Mana Recovery**: When monsters quaff mana or energy potions, a diluted potion restores exactly half the amount of magic or cleric energy compared to a regular potion.
 
 ## Other Uses
 
