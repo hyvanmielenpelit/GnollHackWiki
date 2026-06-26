@@ -4,7 +4,7 @@
 
 ## Generative AI Content Usage
 
-| AI Content Type | Use Allowed in Game | Use Allowed in Stores<sup>1</sup> | Use Allowed in Non-Game Content<sup>2</sup> |
+| AI Content Type | Use Allowed in Game | Use Allowed in Stores<sup>1</sup> | Use Allowed in Other Contexts<sup>2</sup> |
 | :--- | :---: | :---: | :---: |
 | Image | ❌ | ❌<sup>3</sup> / ✅<sup>4</sup> | ✅ |
 | Text | ❌ | ✅<sup>5</sup> | ✅ |
