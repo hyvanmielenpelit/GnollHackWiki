@@ -13,4 +13,7 @@ When modifying or creating wiki pages, always refer to the `wiki_editing` skill 
 - **Reserved Folders**: Do not modify the `/gollum/` or `/.gollum/` directories.
 - **Mathematical Formulas (KaTeX)**: Use KaTeX notation only for complex mathematical formulas, and prefer plain text for simple expressions. All KaTeX formulas must start with `$` and end with `$`. For example: `$P = \frac{1}{10 + 2 \times G \times A}$`.
 
+## Text Restoration
 
+- **Do NOT restore text that has been deleted by the user**, unless explicitly requested by the user.
+- This applies especially when the user requests you to do something else that is not related to the deleted text. Always respect the user's manual edits and deletions.
