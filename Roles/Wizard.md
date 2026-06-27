@@ -36,7 +36,7 @@ Powerful spell caster who can specialize in many spell schools.
 
 | Stat | Starting Value | Increase Per Level |
 | :--- | :------------: | :----------------: |
-| Hit points | 10 | +1d6 (avg. +3.5) |
+| Hit points | 10 | +1d6+1 (avg. +4.5) |
 | Mana | 2d8 (avg. 9) | +1d8 (avg. +4.5) |
 
 ## Skills

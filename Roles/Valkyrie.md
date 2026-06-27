@@ -37,7 +37,7 @@ Strong female melee warrior, who starts with cold resistance and stealth.
 
 | Stat | Starting Value | Increase Per Level |
 | :--- | :------------: | :----------------: |
-| Hit points | 14 | +1d10 (avg. +5.5) |
+| Hit points | 14 | +1d10+1 (avg. +6.5) |
 | Mana | 1d2-1 (avg. 0.5) | +1 |
 
 ## Skills

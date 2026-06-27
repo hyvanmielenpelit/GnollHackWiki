@@ -37,7 +37,7 @@ Strong melee warrior with poison resistance.
 
 | Stat | Starting Value | Increase Per Level |
 | :--- | :------------: | :----------------: |
-| Hit points | 17 | +1d12 (avg. +6.5) |
+| Hit points | 17 | +1d12+1 (avg. +7.5) |
 | Mana | 1d2-1 (avg. 0.5) | +1 |
 
 ## Skills

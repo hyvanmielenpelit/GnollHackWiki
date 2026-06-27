@@ -42,7 +42,7 @@ Armored clerical spell caster, who automatically identifies the beautitude of it
 
 | Stat | Starting Value | Increase Per Level |
 | :--- | :------------: | :----------------: |
-| Hit points | 12 | +1d7 (avg. +4) |
+| Hit points | 12 | +1d7+1 (avg. +5) |
 | Mana | 2d6 (avg. 7) | +1d6 (avg. +3.5) |
 
 ## Skills

@@ -37,7 +37,7 @@ Strong warrior that starts with a club and a sling. The caveman has also a rando
 
 | Stat | Starting Value | Increase Per Level |
 | :--- | :------------: | :----------------: |
-| Hit points | 16 | +1d12 (avg. +6.5) |
+| Hit points | 16 | +1d12+1 (avg. +7.5) |
 | Mana | 1d8-1 (avg. 3.5) | +1d5-1 (avg. +2) |
 
 ## Skills

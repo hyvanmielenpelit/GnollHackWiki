@@ -35,7 +35,7 @@ Strong Japanese warrior adept at both melee and ranged combat. Some item names s
 
 | Stat | Starting Value | Increase Per Level |
 | :--- | :------------: | :----------------: |
-| Hit points | 13 | +1d9 (avg. +5) |
+| Hit points | 13 | +1d9+1 (avg. +6) |
 | Mana | 1 | +1 |
 
 ## Skills

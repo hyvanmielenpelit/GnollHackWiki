@@ -19,7 +19,7 @@ Gnolls are a versatile race who can smell the rottenness of food items. They are
 
 | Stat | Starting Value | Increase Per Level |
 | :--- | :------------: | :----------------: |
-| Hit points | 13 | +1d3 (avg. +2) |
+| Hit points | 13 | +1d3+1 (avg. +3) |
 | Mana | 1 | +1d2-1 (avg. +0.5) |
 
 ## Race Traits
