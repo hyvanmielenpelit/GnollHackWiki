@@ -1,6 +1,7 @@
 ## Simple Gloves
 
 - [[/Items/Leather gloves]]
+- [[/Items/Gauntlets]]
 - Silver gauntlets — 1d20 silver damage on hit
 
 ## Magical Gloves

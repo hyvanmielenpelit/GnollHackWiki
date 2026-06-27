@@ -13,7 +13,7 @@
 - [[/Items/Orange]]
 - [[/Items/Pear]]
 - [[/Items/Carrot]]
-- [[/Items/Fruit]] — Name can be changed in options, "slime mold" by default
+- [[/Items/Slime mold]] — Name can be changed in options, "slime mold" by default
 
 ### People Food
 

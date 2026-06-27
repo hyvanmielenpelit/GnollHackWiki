@@ -2,7 +2,7 @@
 
 - **Weight:** 0.1 lbs
 - **Base value:** 300 gold
-- **Base material:** Stone
+- **Base material:** Mineral
 
 ## Conferred powers
 

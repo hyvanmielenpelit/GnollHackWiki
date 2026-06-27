@@ -2,7 +2,7 @@
 
 - **Weight:** 150 lbs
 - **Base value:** 36 gold
-- **Base material:** Stone
+- **Base material:** Mineral
 
 ## Item properties
 

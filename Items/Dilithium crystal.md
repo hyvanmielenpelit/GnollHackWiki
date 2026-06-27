@@ -1,7 +1,7 @@
 ## Rock
 - **Weight:** 0.1 lbs
 - **Base value:** 2250 gold
-- **Base material:** Hard crystal
+- **Base material:** Gemstone crystal
 - **Ammunition for:** Weapons using sling skill
 - **Throws per round:** 1
 - **Base damage - Small:** 1d3 (avg 2.0)

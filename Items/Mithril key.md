@@ -1,7 +1,7 @@
 ## Tool
 
 - **Weight:** 0.1 lbs
-- **Base value:** 10 gold
+- **Base value:** 500 gold
 - **Base material:** Mithril
 
 ## Item properties

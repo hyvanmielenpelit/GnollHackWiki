@@ -2,7 +2,7 @@
 
 - **Weight:** 0.3 lbs
 - **Base value:** 1 gold
-- **Base material:** Stone
+- **Base material:** Mineral
 - **Ammunition for:** Weapons using sling skill
 - **Throws per round:** 1
 - **Base damage - Small:** 1d8 (avg 4.5)

@@ -1,7 +1,7 @@
 ## Tool
 
 - **Weight:** 0.1 lbs
-- **Base value:** 10 gold
+- **Base value:** 300 gold
 - **Base material:** Gold
 
 ## Item properties
