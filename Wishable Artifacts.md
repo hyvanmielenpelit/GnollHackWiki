@@ -10,15 +10,15 @@
 * [[/Artifacts/Grimtooth]]
 * [[/Artifacts/Howling Flail]]
 * [[/Artifacts/Magicbane]]
-* [[/Artifacts/Mattock of the Titans]]
-* [[/Artifacts/Maul of the Titans]]
+* [[/Artifacts/The Mattock of the Titans]]
+* [[/Artifacts/The Maul of the Titans]]
 * [[/Artifacts/Mjollnir]]
 * [[/Artifacts/Mournblade]] — Twin blade to Stormbringer
 * [[/Artifacts/Ogresmasher]]
 * [[/Artifacts/Orcrist]]
 * [[/Artifacts/Rhongomyniad]] — Knight crowning gift along with a tame ki-rin.
 * [[/Artifacts/Snickersnee]]
-* [[/Artifacts/Staff-Sling of the Ancients]]
+* [[/Artifacts/The Staff-Sling of the Ancients]]
 * [[/Artifacts/Sting]]
 * [[/Artifacts/Stormbringer]] — It does not have bloodlust.
 * [[/Artifacts/Sunsword]]

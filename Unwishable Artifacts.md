@@ -5,4 +5,4 @@
 * [[/Artifacts/Ruby Rod of Asmodeus]] — Carried by Asmodeus.
 * [[/Artifacts/Triple-Headed Flail of Yeenaghu]] — Carried by Yeenaghu.
 * [[/Artifacts/Wand of Orcus]] — Replaces the wand of death that Orcus normally has. Can be invoked for a death ray.
-* [[/Artifacts/Tooth of Tarrasque]] — Dropped by Tarrasque first time it is defeated.
+* [[/Artifacts/The Tooth of Tarrasque]] — Dropped by Tarrasque first time it is defeated.

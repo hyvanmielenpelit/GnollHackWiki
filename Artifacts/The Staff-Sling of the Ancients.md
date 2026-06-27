@@ -1,7 +1,3 @@
-## Exact Name
-
-Staff-Sling of the Ancients *(with the dash)*
-
 ## Ranged Weapon: Sling - Artifact Staff-sling
 
 - **Weight:** 1.9 lbs

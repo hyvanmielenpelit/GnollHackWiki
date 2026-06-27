@@ -1,7 +1,7 @@
 ## Melee Weapon: Pick-Axe - Artifact Dwarvish Mattock
 
 - **Weight:**                 7.5 lbs
-- **Base value:**             3000 gold
+- **Base value:**             8000 gold
 - **Material:**               Adamantium
 - **Skill:**                  Digging
 - **Hands to use:**           Two-handed

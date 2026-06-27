@@ -103,9 +103,9 @@ Here are the eligible artifacts that can be obtained via sacrifice:
 * [[/Artifacts/The Ring of Three Wishes]] (Ring)
 * [[/Artifacts/The Ring of Conflict]] (Ring)
 * [[/Artifacts/The Rod of Disjunction]] (Wand)
-* [[/Artifacts/Staff-Sling of the Ancients]] (Staff-sling)
-* [[/Artifacts/Mattock of the Titans]] (Dwarvish mattock)
-* [[/Artifacts/Maul of the Titans]] (Two-handed club)
+* [[/Artifacts/The Staff-Sling of the Ancients]] (Staff-sling)
+* [[/Artifacts/The Mattock of the Titans]] (Dwarvish mattock)
+* [[/Artifacts/The Maul of the Titans]] (Two-handed club)
 
 ## Replacement Items
 

@@ -1,7 +1,7 @@
 ## Melee Weapon: Club - Artifact Two-Handed Club
 
 - **Weight:**                 3.8 lbs
-- **Base value:**             2000 gold
+- **Base value:**             8000 gold
 - **Material:**               Wood
 - **Skill:**                  Bludgeoning weapon
 - **Hands to use:**           Two-handed
