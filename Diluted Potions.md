@@ -10,6 +10,7 @@ In GnollHack, a potion can acquire the `diluted` property, which represents it b
 
 When you quaff any diluted potion, the following general rules apply compared to an undiluted potion:
 
+- **Unreliable Effects:** For a wide variety of magical effects (including healing, stat gains, levitation, and more), there is a 50% chance that a diluted potion's primary effect will either be completely negated or noticeably reduced.
 - **Halved Healing and Damage**: The primary effect magnitude (such as the amount of hit points healed or damage taken) is reduced by half.
 - **Halved Duration**: Any temporary status effects (such as levitation, blindness, invisibility, or confusion) will last for only half the normal duration.
 - **Halved Nutrition**: A diluted potion provides exactly half the satiety (nutrition) of its undiluted counterpart.
@@ -36,3 +37,4 @@ Beyond the general reductions, dilution alters the specific behavior of many pot
 ## Other Uses
 
 - **Dipping in Water**: Dipping an already diluted potion into water or a fountain usually washes it out completely, turning it into a [[/Items/potion of water]]. Dipping a standard potion into water usually makes it diluted.
+- **Refilling Lamps:** If you use a diluted potion of oil to refill a light source, it provides significantly less fuel to the lamp than an undiluted potion.
