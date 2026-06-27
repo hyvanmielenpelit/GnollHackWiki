@@ -5,7 +5,7 @@
 - **Base material:** Iron
 - **Skill:** Thrusting weapon
 - **Hands to use:** Single-handed
-- **Base damage - Small:** 1d2+1 (avg 2.5)
+- **Base damage - Small:** 1d2 (avg 1.5)
 - **Base damage - Large:** 1 (avg 1.0)
 - **Enchantable:** Yes
 - **Safe enchantable level:** +10 or below

@@ -6,7 +6,7 @@
 - **Skill:** Flail
 - **Hands to use:** Two-handed
 - **Attacks per round:** 1+1/2 per skill level after basic in melee
-- **Base damage - Small:** 1d6 (avg 3.5)
+- **Base damage - Small:** 1d6+1 (avg 4.5)
 - **Base damage - Large:** 2d4 (avg 5.0)
 - **To hit bonus:** -2
 - **Enchantable:** Yes
