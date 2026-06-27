@@ -1,3 +1,5 @@
+![NetHack Variants](/uploads/Comparison%20to%20Other%20NetHack%20Variants/nethack-variants-q85.webp)
+
 > 👉 **NetHack is a classic, famously challenging roguelike game. While GnollHack is designed as an approachable entry point for beginners and modern gamers to experience the genre, other popular versions (known as variants) like [EvilHack](https://nethackwiki.com/wiki/EvilHack), [UnNetHack](https://nethackwiki.com/wiki/UnNetHack), and [dNetHack](https://nethackwiki.com/wiki/DNetHack) target veteran players seeking even greater complexity. This document compares their differing design philosophies.**
 
 ## Target Audiences
