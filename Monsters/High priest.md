@@ -1,6 +1,6 @@
 ## Level 40 powerful clerical human spellcaster
 
-- **Hit dice:** 25
+- **Hit dice:** 50
 - **Move:** 18"
 - **Armor class:** 7
 - **Magic cancellation:** 10 (75%)

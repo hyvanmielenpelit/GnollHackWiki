@@ -1,7 +1,7 @@
 ## Level 58 powerful spell-casting human undead with life-draining attack
 
 - **Hit dice:** 45
-- **Move:** 26"
+- **Move:** 21"
 - **Armor class:** -9
 - **Magic cancellation:** 23 (97%)
 - **Magic resistance:** 80%

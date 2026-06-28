@@ -1,7 +1,7 @@
 ## Level 25 powerful evil sorcerer capable of casting spells
 
-- **Hit dice:** 15
-- **Move:** 20"
+- **Hit dice:** 20
+- **Move:** 24"
 - **Armor class:** 0
 - **Magic cancellation:** 15 (88%)
 - **Magic resistance:** 80%
@@ -15,7 +15,7 @@
 
 ## Attribute scores
 
-St:17 Dx:17 Co:18 In:22 Wi:17 Ch:19
+St:17 Dx:22 Co:25 In:25 Wi:20 Ch:22
 
 ## Innate abilities
 

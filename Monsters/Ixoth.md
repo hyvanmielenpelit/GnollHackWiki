@@ -1,8 +1,8 @@
 ## Level 30 powerful red dragon with fire-resistant scales and fiery breath weapon
 
-- **Hit dice:** 22
-- **Move:** 15"
-- **Armor class:** -1
+- **Hit dice:** 30
+- **Move:** 18"
+- **Armor class:** -9
 - **Magic cancellation:** 15 (88%)
 - **Magic resistance:** 20%
 - **Alignment:** Chaotic

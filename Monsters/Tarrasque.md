@@ -1,7 +1,7 @@
 ## Level 60 colossal magical beast with regeneration, reflecting carapace, and teeth as sharp as sword of sharpness
 
-- **Hit dice:** 60
-- **Move:** 12"
+- **Hit dice:** 100
+- **Move:** 18"
 - **Armor class:** -15
 - **Magic cancellation:** 30 (99%)
 - **Magic resistance:** 0%

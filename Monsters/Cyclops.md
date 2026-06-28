@@ -1,6 +1,6 @@
 ## Level 40 powerful giant capable of causing massive damage
 
-- **Hit dice:** 18
+- **Hit dice:** 25
 - **Move:** 18"
 - **Armor class:** 0
 - **Magic cancellation:** 15 (88%)

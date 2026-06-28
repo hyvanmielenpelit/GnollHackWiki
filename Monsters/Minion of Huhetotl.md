@@ -1,6 +1,6 @@
 ## Level 28 powerful demon capable of casting spells
 
-- **Hit dice:** 16
+- **Hit dice:** 25
 - **Move:** 20"
 - **Armor class:** -2
 - **Magic cancellation:** 15 (88%)
@@ -15,7 +15,7 @@
 
 ## Attribute scores
 
-St:20 Dx:15 Co:18 In:18 Wi:18 Ch:13
+St:20 Dx:15 Co:25 In:18 Wi:18 Ch:13
 
 ## Innate abilities
 

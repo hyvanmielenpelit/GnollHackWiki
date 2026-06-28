@@ -1,6 +1,6 @@
 ## Level 30 powerful demon capable of casting spells
 
-- **Hit dice:** 16
+- **Hit dice:** 25
 - **Move:** 20"
 - **Armor class:** -2
 - **Magic cancellation:** 15 (88%)
@@ -15,7 +15,7 @@
 
 ## Attribute scores
 
-St:19 Dx:16 Co:19 In:18 Wi:16 Ch:16
+St:19 Dx:20 Co:25 In:18 Wi:16 Ch:16
 
 ## Innate abilities
 

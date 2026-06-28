@@ -1,10 +1,10 @@
 ## Level 7 human or elf
 
-- **Hit dice:** 10
-- **Move:** 12"
-- **Armor class:** 10
+- **Hit dice:** 20
+- **Move:** 28"
+- **Armor class:** 0
 - **Magic cancellation:** 0 (0%)
-- **Magic resistance:** 1%
+- **Magic resistance:** 30%
 - **Alignment:** Chaotic
 - **Size:** Medium-sized
 - **Number of attacks:** 2
@@ -13,7 +13,7 @@
 
 ## Attribute scores
 
-St:10 Dx:18 Co:10 In:10 Wi:9 Ch:9
+St:18/** Dx:25 Co:22 In:18 Wi:18 Ch:18
 
 ## Innate abilities
 

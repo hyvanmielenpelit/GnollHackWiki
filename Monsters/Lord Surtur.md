@@ -1,7 +1,7 @@
 ## Level 20 powerful fire giant with fire resistance
 
-- **Hit dice:** 15
-- **Move:** 18"
+- **Hit dice:** 25
+- **Move:** 20"
 - **Armor class:** 2
 - **Magic cancellation:** 15 (88%)
 - **Magic resistance:** 50%
@@ -14,7 +14,7 @@
 
 ## Attribute scores
 
-St:23 Dx:15 Co:23 In:12 Wi:10 Ch:14
+St:23 Dx:15 Co:25 In:12 Wi:10 Ch:14
 
 ## Innate abilities
 

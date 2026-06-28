@@ -2,7 +2,7 @@
 
 - **Hit dice:** 2
 - **Move:** 12"
-- **Armor class:** 6
+- **Armor class:** 10
 - **Magic cancellation:** 0 (0%)
 - **Magic resistance:** 10%
 - **Alignment:** Chaotic
@@ -12,7 +12,7 @@
 
 ## Attribute scores
 
-St:9 Dx:10 Co:9 In:8 Wi:8 Ch:7
+St:12 Dx:9 Co:12 In:10 Wi:10 Ch:7
 
 ## Innate abilities
 

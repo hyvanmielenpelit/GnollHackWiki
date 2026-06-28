@@ -1,7 +1,7 @@
 ## Level 17 powerful evil wizard capable of casting spells
 
-- **Hit dice:** 16
-- **Move:** 20"
+- **Hit dice:** 20
+- **Move:** 24"
 - **Armor class:** 0
 - **Magic cancellation:** 15 (88%)
 - **Magic resistance:** 10%
@@ -15,7 +15,7 @@
 
 ## Attribute scores
 
-St:15 Dx:15 Co:18 In:23 Wi:18 Ch:17
+St:17 Dx:22 Co:24 In:25 Wi:18 Ch:18
 
 ## Innate abilities
 

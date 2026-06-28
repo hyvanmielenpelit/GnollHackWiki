@@ -2,7 +2,7 @@
 
 - **Hit dice:** 33
 - **Move:** 12"
-- **Armor class:** -13
+- **Armor class:** -15
 - **Magic cancellation:** 18 (92%)
 - **Magic resistance:** 80%
 - **Alignment:** Lawful

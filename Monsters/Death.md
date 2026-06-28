@@ -1,6 +1,6 @@
 ## Level 55 personification of death
 
-- **Hit dice:** 40
+- **Hit dice:** 60
 - **Move:** 12"
 - **Armor class:** -5
 - **Magic cancellation:** 25 (99%)
@@ -13,7 +13,7 @@
 
 ## Attribute scores
 
-St:18/** Dx:10 Co:10 In:19 Wi:19 Ch:1
+St:18/** Dx:10 Co:25 In:19 Wi:19 Ch:1
 
 ## Innate abilities
 

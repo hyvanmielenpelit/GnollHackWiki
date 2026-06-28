@@ -1,7 +1,7 @@
 ## Level 17 powerful human assassin with a poison weapon attack
 
-- **Hit dice:** 15
-- **Move:** 20"
+- **Hit dice:** 20
+- **Move:** 28"
 - **Armor class:** 0
 - **Magic cancellation:** 15 (88%)
 - **Magic resistance:** 30%
@@ -14,7 +14,7 @@
 
 ## Attribute scores
 
-St:18/** Dx:22 Co:18 In:18 Wi:18 Ch:18
+St:18/** Dx:25 Co:22 In:18 Wi:18 Ch:18
 
 ## Innate abilities
 

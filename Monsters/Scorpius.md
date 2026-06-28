@@ -1,8 +1,8 @@
 ## Level 17 powerful scorpion with a diseasing sting
 
-- **Hit dice:** 15
-- **Move:** 20"
-- **Armor class:** -1
+- **Hit dice:** 25
+- **Move:** 26"
+- **Armor class:** -8
 - **Magic cancellation:** 15 (88%)
 - **Magic resistance:** 0%
 - **Alignment:** Chaotic
@@ -14,7 +14,7 @@
 
 ## Attribute scores
 
-St:18/** Dx:20 Co:22 In:18 Wi:18 Ch:15
+St:18/** Dx:20 Co:24 In:18 Wi:18 Ch:15
 
 ## Innate abilities
 

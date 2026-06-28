@@ -1,6 +1,6 @@
 ## Level 20 unique human or elf
 
-- **Hit dice:** 15
+- **Hit dice:** 20
 - **Move:** 20"
 - **Armor class:** 0
 - **Magic cancellation:** 15 (88%)

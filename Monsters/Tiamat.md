@@ -1,6 +1,6 @@
 ## Level 40 powerful 5-headed spell-casting dragon with reflecting scales and multiple breath weapons and resistances
 
-- **Hit dice:** 24
+- **Hit dice:** 25
 - **Move:** 15"
 - **Armor class:** 0
 - **Magic cancellation:** 15 (88%)

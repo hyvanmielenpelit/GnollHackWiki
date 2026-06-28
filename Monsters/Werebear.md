@@ -1,8 +1,8 @@
 ## Level 21 lycanthrope capable of summoning grizzly bears and of grabbing opponents
 
 - **Hit dice:** 8
-- **Move:** 15"
-- **Armor class:** 4
+- **Move:** 12"
+- **Armor class:** 10
 - **Magic cancellation:** 6 (55%)
 - **Magic resistance:** 30%
 - **Alignment:** Chaotic
@@ -14,7 +14,7 @@
 
 ## Attribute scores
 
-St:20 Dx:14 Co:18 In:2 Wi:2 Ch:1
+St:19 Dx:13 Co:18 In:10 Wi:10 Ch:9
 
 ## Innate abilities
 
