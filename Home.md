@@ -84,6 +84,7 @@ GnollHack is best understood as a modernized version of NetHack that makes the c
 
 - **[[Communities]]** — Communities related to GnollHack
 - **[[Contact Information]]**
+- **[[Developer]]** — About Sound Mind Games (Hyvän mielen pelit ry)
 
 ## Legal Information
 

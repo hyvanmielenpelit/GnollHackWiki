@@ -47,4 +47,4 @@ GnollHack is an open-source game, based on NetHack's source code. This means tha
 - GnollHack's code is licensed under NetHack General Public License.
 - GnollHack's graphics and sounds are licensed under Creative Commons Attribution-NonCommercial 4.0 International Public License.
 
-GnollHack is developed by [Sound Mind Games](https://soundmindgames.org), a nonprofit organization based in Finland, working in the fields of gaming and mental health.
+GnollHack is developed by [[Sound Mind Games|Developer]], a nonprofit organization based in Finland, working in the fields of gaming and mental health.
