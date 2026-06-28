@@ -53,9 +53,12 @@ The `siz` argument is formatted as `SIZ(cwt, cnutrit, msound, msize, heads, ligh
 ### 6. Base Attributes: `STATS()` Macro
 The `stats` argument is formatted as `STATS(str, dex, con, intl, wis, cha)`.
 - Ensure base stats align with any specific mentions in the wiki.
-- **Strength Macros**: When evaluating the `str` stat, pay attention to the `STR18(x)` and `STR19(x)` macros:
-  - `STR18(x)` equals `18 + x`. It represents AD&D-style 18/xx percentile strengths (e.g., `STR18(100)` equals `118` and displays on the wiki as `18/**` or `18/100`).
-  - `STR19(x)` equals `100 + x`. It represents linear strength values from 19 to 25. For example, `STR19(25)` equals `125` and displays directly as `25`.
+- **Strength Evaluation**: The `str` stat in `STATS()` may contain integer values, mathematical expressions, or macros. Pay close attention to the following calculation rules:
+  - **Raw Values (1-18)**: Displayed exactly as they are on the wiki (e.g., `18`).
+  - **Expressions (`18 + X`)**: If you see an expression like `18 + 31`, it represents an AD&D-style percentile strength and is displayed as `18/31` on the wiki.
+  - **Values between 19 and 118**: Any evaluated number between 19 and 118 represents a percentile strength and is displayed as `18/X`, where `X` is the value minus 18 (e.g., `49` becomes `18/31`).
+  - **`STR18(x)` Macro**: Equals `18 + x`. It represents percentile strengths. For example, `STR18(100)` equals `118` and displays as `18/**` or `18/100`. Note that `STR18(0)` or `STR18(00)` are written simply as `18` and not `18/0`.
+  - **`STR19(x)` Macro**: Equals `100 + x`. It represents linear strength values from 19 to 25. For example, `STR19(25)` equals `125` and displays directly as `25`.
 
 ### 7. Resistances & Conveys (`mr1`, `mr2`, `mc1`)
 - **`mr1` / `mr2`**: Monster resistances (`MR_FIRE`, `MR_COLD`, `MR_POISON`, etc.).
