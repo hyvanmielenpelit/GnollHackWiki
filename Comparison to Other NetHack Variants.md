@@ -25,10 +25,8 @@ The variants take fundamentally different approaches to visual presentation and 
 
 ## 3. Loot Systems and Simulation Mechanics
 
-The mechanics of the games reflect their intended audiences, with GnollHack favoring intuitive systems and the other variants favoring deep simulation.
-
-* **GnollHack:** Introduces an ARPG-style loot system with randomized [[prefixes and suffixes|Weapon Quality Modifiers]]. It adds new [[equipment slots]], such as Robe, Bracers, and Miscellaneous Items, so players have a vastly increased number of viable equipment setups. It also expands the utility of gold, allowing players to pay NPCs to, for example, identify unknown items.
-* **EvilHack, UnNetHack, and dNetHack:** These variants introduce complex simulation mechanics that require deeper system knowledge. They might introduce object materials with specific vulnerabilities, replace standard survival mechanics with intricate new systems, or heavily randomize dungeon generation to ensure veteran players cannot rely on memorized strategies.
+* **GnollHack:** Introduces an ARPG-style loot system with randomized [[prefixes and suffixes|Mythic and Legendary Items]] and damage-boosting [[weapon quality modifiers]], such as exceptional and elite. It adds new [[equipment slots]], such as Robe, Bracers, and Miscellaneous Items, so players have a vastly increased number of viable equipment setups. It also expands the utility of gold, allowing players to pay NPCs to, for example, identify unknown items.
+* **EvilHack, UnNetHack, and dNetHack:** These variants introduce complex mechanics that require deeper system knowledge. They might introduce object materials with specific vulnerabilities, replace standard survival mechanics with intricate new systems to ensure veteran players cannot rely on memorized strategies.
 
 ## Summary
 
