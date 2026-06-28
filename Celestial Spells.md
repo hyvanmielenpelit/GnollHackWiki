@@ -1,3 +1,17 @@
+> 👉 **Celestial spells consist of holy magic that summons divine allies (like angels and dragons), cures undead, casts radiant light and sunlight beams, and invokes divine intervention.**
+
+## Spell School Stats
+
+- **Casting Stat:** Wisdom or Charisma
+- **Somatic:** No
+
+## Allowed Classes
+
+- [[/Roles/Knight]]
+- [[/Roles/Priest]] *(lawful only)*
+
+## Spells in School
+
 | Spell | Level |
 | :--- | :--- |
 | [[/Spells/Summon celestial dove]] | Level 1 |

@@ -1,3 +1,17 @@
+> 👉 **Conjuration spells focus on summoning magic to create familiars, animate elements (water, air, earth, fire), conjure monsters, and invoke powerful effects like wish.**
+
+## Spell School Stats
+
+- **Casting Stat:** Intelligence or Charisma
+- **Somatic:** Yes
+
+## Allowed Classes
+
+- [[/Roles/Tourist]]
+- [[/Roles/Wizard]]
+
+## Spells in School
+
 | Spell | Level |
 | :--- | :--- |
 | [[/Spells/Summoning call]] | Minor Cantrip |

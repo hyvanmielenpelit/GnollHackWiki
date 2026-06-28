@@ -1,3 +1,19 @@
+> 👉 **Clerical spells include divine prayers that provide blessings, create food and water, grant divine endurance and strength, remove curses, and resurrect the dead.**
+
+## Spell School Stats
+
+- **Casting Stat:** Wisdom or Charisma
+- **Somatic:** No
+
+## Allowed Classes
+
+- [[/Roles/Knight]]
+- [[/Roles/Monk]]
+- [[/Roles/Priest]]
+- [[/Roles/Tourist]]
+
+## Spells in School
+
 | Spell | Level |
 | :--- | :--- |
 | [[/Spells/Commune]] | Minor Cantrip |

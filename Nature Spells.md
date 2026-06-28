@@ -1,3 +1,18 @@
+> 👉 **Nature spells focus on summoning natural beasts and wilderness creatures, creating wood golems, and granting protective buffs like barkskin and stoneskin.**
+
+## Spell School Stats
+
+- **Casting Stat:** Wisdom or Charisma
+- **Somatic:** No
+
+## Allowed Classes
+
+- [[/Roles/Caveman]]
+- [[/Roles/Priest]] *(neutral only)*
+- [[/Roles/Ranger]]
+
+## Spells in School
+
 | Spell | Level |
 | :--- | :--- |
 | [[/Spells/Create wood golem]] | Minor Cantrip |

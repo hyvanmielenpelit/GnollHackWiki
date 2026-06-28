@@ -1,3 +1,18 @@
+> 👉 **Arcane spells focus on offensive elemental and force magic, including magic missiles, fireballs, lightning bolts, and cold-based attacks like ice storms.**
+
+## Spell School Stats
+
+- **Casting Stat:** Intelligence
+- **Somatic:** Yes
+
+## Allowed Classes
+
+- [[/Roles/Archaeologist]]
+- [[/Roles/Tourist]]
+- [[/Roles/Wizard]]
+
+## Spells in School
+
 | Spell | Level |
 | :--- | :--- |
 | [[/Spells/Magic arrow]] | Minor Cantrip |

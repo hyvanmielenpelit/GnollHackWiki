@@ -1,3 +1,22 @@
+> 👉 **Abjuration spells provide protection against elements and conditions (such as acid, fire, poison, and petrification), create anti-magic shells, and modify or cancel magic resistance.**
+
+## Spell School Stats
+
+- **Casting Stat:** Intelligence or Wisdom
+- **Somatic:** No
+
+## Allowed Classes
+
+- [[/Roles/Archaeologist]]
+- [[/Roles/Healer]]
+- [[/Roles/Knight]]
+- [[/Roles/Monk]]
+- [[/Roles/Priest]]
+- [[/Roles/Tourist]]
+- [[/Roles/Wizard]]
+
+## Spells in School
+
 | Spell | Level |
 | :--- | :--- |
 | [[/Spells/Shield]] | Minor Cantrip |

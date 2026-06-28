@@ -1,3 +1,17 @@
+> 👉 **Necromancy spells deal with undead and necrotic forces, featuring magic that raises zombies and skeletons, summons demons, drains levels, and inflicts death.**
+
+## Spell School Stats
+
+- **Casting Stat:** Wisdom or Charisma
+- **Somatic:** No
+
+## Allowed Classes
+
+- [[/Roles/Archaeologist]]
+- [[/Roles/Priest]] *(chaotic only)*
+
+## Spells in School
+
 | Spell | Level |
 | :--- | :--- |
 | [[/Spells/Raise minor zombie]] | Major Cantrip |

@@ -1,3 +1,22 @@
+> 👉 **Healing spells restore hit points and cure negative conditions like blindness, sickness, and petrification.**
+
+## Spell School Stats
+
+- **Casting Stat:** Wisdom
+- **Somatic:** No
+
+## Allowed Classes
+
+- [[/Roles/Archaeologist]]
+- [[/Roles/Healer]]
+- [[/Roles/Knight]]
+- [[/Roles/Monk]]
+- [[/Roles/Priest]]
+- [[/Roles/Ranger]]
+- [[/Roles/Tourist]]
+
+## Spells in School
+
 | Spell | Level |
 | :--- | :--- |
 | [[/Spells/Minor healing]] | Minor Cantrip |

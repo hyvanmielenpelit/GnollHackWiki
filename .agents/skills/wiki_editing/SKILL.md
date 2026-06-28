@@ -55,4 +55,7 @@ When editing or creating pages for the GnollHack Wiki, follow these conventions 
   - Complex formula in KaTeX: `$P = \frac{1}{10 + 2 \times G \times A}$`
   - Simple formula in plain text: `Luck >= 0` or `1 in 10`
 
+## 6. Spelling
+- **Archaeologist**: Always prefer the spelling "Archaeologist" (with the 'a' in the middle) instead of "Archeologist". This applies to all references in the wiki and the game.
+
 

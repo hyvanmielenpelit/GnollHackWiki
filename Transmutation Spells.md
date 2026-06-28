@@ -1,3 +1,19 @@
+> 👉 **Transmutation spells physically alter reality and objects, such as polymorphing, disintegrating, turning flesh to stone, digging, opening locks, and creating various golems.**
+
+## Spell School Stats
+
+- **Casting Stat:** Intelligence, Wisdom, or Charisma (Any)
+- **Somatic:** Yes
+
+## Allowed Classes
+
+- [[/Roles/Archaeologist]]
+- [[/Roles/Rogue]]
+- [[/Roles/Tourist]]
+- [[/Roles/Wizard]]
+
+## Spells in School
+
 | Spell | Level |
 | :--- | :--- |
 | [[/Spells/Create paper golem]] | Minor Cantrip |

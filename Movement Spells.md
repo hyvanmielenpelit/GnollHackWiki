@@ -1,3 +1,19 @@
+> 👉 **Movement spells manipulate space and speed, such as jumping, levitation, hasting or slowing monsters, and teleporting the caster or others.**
+
+## Spell School Stats
+
+- **Casting Stat:** Intelligence or Wisdom
+- **Somatic:** Yes
+
+## Allowed Classes
+
+- [[/Roles/Monk]]
+- [[/Roles/Rogue]]
+- [[/Roles/Tourist]]
+- [[/Roles/Wizard]]
+
+## Spells in School
+
 | Spell | Level |
 | :--- | :--- |
 | [[/Spells/Jumping]] | Minor Cantrip |

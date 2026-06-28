@@ -1,3 +1,18 @@
+> 👉 **Enchantment spells alter the state of enemies and objects, including charming, confusing, and dominating monsters, as well as enchanting and protecting weapons and armor.**
+
+## Spell School Stats
+
+- **Casting Stat:** Intelligence or Charisma
+- **Somatic:** No
+
+## Allowed Classes
+
+- [[/Roles/Healer]]
+- [[/Roles/Tourist]]
+- [[/Roles/Wizard]]
+
+## Spells in School
+
 | Spell | Level |
 | :--- | :--- |
 | [[/Spells/Confuse monster]] | Major Cantrip |
