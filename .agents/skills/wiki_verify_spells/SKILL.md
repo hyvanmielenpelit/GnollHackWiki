@@ -9,6 +9,7 @@ When verifying spells and spellbooks on the GnollHackWiki against the GnollHack 
 
 ## Important Rules
 - **NEVER compare item weights.** Do not check or update `oc_weight` or the weight listed on the wiki.
+- **Mana cost is always an integer.** Never add `.0` to the end of an integer.
 - **Pay attention to which kind of data is present in `struct objclass` and the `SPELL` macro.** 
 
 ## Data Sources
