@@ -1,7 +1,7 @@
 ## Level 1 clerical spell
 
 - **Attributes:** Wisdom
-- **Mana cost:** 12.0
+- **Mana cost:** 4.0
 - **Casting time:** 1 round
 - **Cooldown:** None
 - **Targeting:** None

@@ -1,7 +1,7 @@
 ## Level 1 divination spell
 
 - **Attributes:** Higher of intelligence, wisdom, and charisma
-- **Mana cost:** 12.0
+- **Mana cost:** 4.0
 - **Casting time:** 1 round
 - **Cooldown:** None
 - **Targeting:** None
