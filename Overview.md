@@ -1,3 +1,5 @@
+![Overview](/uploads/Overview/overview-q85.webp)
+
 ## Traditional Roguelike
 
 GnollHack is a traditional roguelike, being based on the game design of [Rogue](https://en.wikipedia.org/wiki/Rogue_(video_game)). Thus, GnollHack features:
