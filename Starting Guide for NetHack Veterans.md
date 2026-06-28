@@ -49,13 +49,13 @@ We recommend starting between the [[/Difficulties/Adept]] and [[/Difficulties/Ex
 
 | Difficulty | Description | Recommended starting point? | 
 | :--------- | :---------- | :-------------------------- | 
-| [[/Difficulties/Standard]] | Very easy, provides many hints. | ❌ No, too easy. |
-| [[/Difficulties/Experienced]] | Very easy. | ❌ No, too easy. |
-| [[/Difficulties/Adept]] | Much easier than NetHack. | ✅ Yes, good while you are learning new mechanics. |
-| [[/Difficulties/Veteran]] | Easier than NetHack. | ✅ Yes, good while you are learning new mechanics. |
-| [[/Difficulties/Expert]] | Slightly easier than NetHack. | ✅ Yes, required for [NetHack Scoreboard](https://nethackscoreboard.org/) along with [[Classic mode]]. |
-| [[/Difficulties/Master]] | Harder than NetHack. | ❌ No, too hard. |
-| [[/Difficulties/Grand Master]] | Very hard. | ❌ No, too hard. |
+| [[/Difficulties/Standard]] | Very easy, provides many hints | ❌ No, too easy. |
+| [[/Difficulties/Experienced]] | Very easy | ❌ No, too easy. |
+| [[/Difficulties/Adept]] | Much easier than NetHack | ✅ Yes, good while you are learning new mechanics. |
+| [[/Difficulties/Veteran]] | Easier than NetHack | ✅ Yes, good while you are learning new mechanics. |
+| [[/Difficulties/Expert]] | Slightly easier than NetHack | ✅ Yes, required for [NetHack Scoreboard](https://nethackscoreboard.org/) along with the [[Classic mode]]. |
+| [[/Difficulties/Master]] | Harder than NetHack | ❌ No, too hard. |
+| [[/Difficulties/Grand Master]] | Very hard | ❌ No, too hard. |
 
 GnollHack's late game is more difficult than NetHack's.
 
