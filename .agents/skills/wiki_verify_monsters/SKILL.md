@@ -53,6 +53,9 @@ The `siz` argument is formatted as `SIZ(cwt, cnutrit, msound, msize, heads, ligh
 ### 6. Base Attributes: `STATS()` Macro
 The `stats` argument is formatted as `STATS(str, dex, con, intl, wis, cha)`.
 - Ensure base stats align with any specific mentions in the wiki.
+- **Strength Macros**: When evaluating the `str` stat, pay attention to the `STR18(x)` and `STR19(x)` macros:
+  - `STR18(x)` equals `18 + x`. It represents AD&D-style 18/xx percentile strengths (e.g., `STR18(100)` equals `118` and displays on the wiki as `18/**` or `18/100`).
+  - `STR19(x)` equals `100 + x`. It represents linear strength values from 19 to 25. For example, `STR19(25)` equals `125` and displays directly as `25`.
 
 ### 7. Resistances & Conveys (`mr1`, `mr2`, `mc1`)
 - **`mr1` / `mr2`**: Monster resistances (`MR_FIRE`, `MR_COLD`, `MR_POISON`, etc.).

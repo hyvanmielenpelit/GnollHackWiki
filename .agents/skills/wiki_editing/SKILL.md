@@ -58,4 +58,7 @@ When editing or creating pages for the GnollHack Wiki, follow these conventions 
 ## 6. Spelling
 - **Archaeologist**: Always prefer the spelling "Archaeologist" (with the 'a' in the middle) instead of "Archeologist". This applies to all references in the wiki and the game.
 
-
+## 7. Game Stats Conventions
+- **Strength Values**: When writing or verifying strength values that exceed 18, convert the C macros correctly:
+  - Values using `STR18(x)` (e.g., `STR18(100)`) should be formatted as `18/xx` (e.g., `18/100`).
+  - Values using `STR19(x)` (e.g., `STR19(25)`) should be formatted strictly as `x` (e.g., `25`). Do not write `125` or `19/25`.
