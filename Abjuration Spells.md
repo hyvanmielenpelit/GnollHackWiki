@@ -1,56 +1,26 @@
-## Minor Cantrip
-
-- [[/Spells/Shield]]
-
-## Major Cantrip
-
-- [[/Spells/Protection from lycanthropy]]
-
-## Level 1
-
-- [[/Spells/Lower magic resistance]]
-- [[/Spells/Protection from acid]]
-- [[/Spells/Protection from poison]]
-
-## Level 2
-
-- [[/Spells/Protection from cold]]
-- [[/Spells/Protection from fire]]
-- [[/Spells/Protection from lightning]]
-
-## Level 3
-
-- [[/Spells/Anti-magic shell]]
-- [[/Spells/Diminish magic resistance]]
-- [[/Spells/Protection from charm]]
-- [[/Spells/Reflection]]
-
-## Level 4
-
-- [[/Spells/Protection from death magic]]
-- [[/Spells/Protection from life draining]]
-- [[/Spells/Protection from sickness]]
-
-## Level 5
-
-- [[/Spells/Abolish magic resistance]]
-- [[/Spells/Protection from petrification]]
-
-## Level 6
-
-- [[/Spells/Forbid summoning]]
-- [[/Spells/Silence]]
-
-## Level 7
-
-- [[/Spells/Cancellation]]
-- [[/Spells/Negate magic resistance]]
-- [[/Spells/Protection from disintegration]]
-
-## Level 9
-
-- [[/Spells/Globe of invulnerability]]
-
-## Level 10
-
-- [[/Spells/Disjunction]]
+| Spell | Level |
+| :--- | :--- |
+| [[/Spells/Shield]] | Minor Cantrip |
+| [[/Spells/Protection from lycanthropy]] | Major Cantrip |
+| [[/Spells/Lower magic resistance]] | Level 1 |
+| [[/Spells/Protection from acid]] | Level 1 |
+| [[/Spells/Protection from poison]] | Level 1 |
+| [[/Spells/Protection from cold]] | Level 2 |
+| [[/Spells/Protection from fire]] | Level 2 |
+| [[/Spells/Protection from lightning]] | Level 2 |
+| [[/Spells/Anti-magic shell]] | Level 3 |
+| [[/Spells/Diminish magic resistance]] | Level 3 |
+| [[/Spells/Protection from charm]] | Level 3 |
+| [[/Spells/Reflection]] | Level 3 |
+| [[/Spells/Protection from death magic]] | Level 4 |
+| [[/Spells/Protection from life draining]] | Level 4 |
+| [[/Spells/Protection from sickness]] | Level 4 |
+| [[/Spells/Abolish magic resistance]] | Level 5 |
+| [[/Spells/Protection from petrification]] | Level 5 |
+| [[/Spells/Forbid summoning]] | Level 6 |
+| [[/Spells/Silence]] | Level 6 |
+| [[/Spells/Cancellation]] | Level 7 |
+| [[/Spells/Negate magic resistance]] | Level 7 |
+| [[/Spells/Protection from disintegration]] | Level 7 |
+| [[/Spells/Globe of invulnerability]] | Level 9 |
+| [[/Spells/Disjunction]] | Level 10 |

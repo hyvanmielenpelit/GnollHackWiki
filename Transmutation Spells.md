@@ -1,47 +1,20 @@
-## Minor Cantrip
-
-- [[/Spells/Create paper golem]]
-- [[/Spells/Knock]]
-- [[/Spells/Wizard lock]]
-
-## Level 1
-
-- [[/Spells/Create gold golem]]
-
-## Level 2
-
-- [[/Spells/Dig]]
-
-## Level 3
-
-- [[/Spells/Stone to flesh]]
-- [[/Spells/Water breathing]]
-
-## Level 4
-
-- [[/Spells/Create glass golem]]
-- [[/Spells/Create stone golem]]
-
-## Level 5
-
-- [[/Spells/Create gemstone golem]]
-- [[/Spells/Lower water]]
-- [[/Spells/Titan strength]]
-
-## Level 6
-
-- [[/Spells/Create iron golem]]
-- [[/Spells/Polymorph]]
-
-## Level 8
-
-- [[/Spells/Touch of petrification]]
-
-## Level 9
-
-- [[/Spells/Create silver golem]]
-- [[/Spells/Flesh to stone]]
-
-## Level 10
-
-- [[/Spells/Disintegrate]]
+| Spell | Level |
+| :--- | :--- |
+| [[/Spells/Create paper golem]] | Minor Cantrip |
+| [[/Spells/Knock]] | Minor Cantrip |
+| [[/Spells/Wizard lock]] | Minor Cantrip |
+| [[/Spells/Create gold golem]] | Level 1 |
+| [[/Spells/Dig]] | Level 2 |
+| [[/Spells/Stone to flesh]] | Level 3 |
+| [[/Spells/Water breathing]] | Level 3 |
+| [[/Spells/Create glass golem]] | Level 4 |
+| [[/Spells/Create stone golem]] | Level 4 |
+| [[/Spells/Create gemstone golem]] | Level 5 |
+| [[/Spells/Lower water]] | Level 5 |
+| [[/Spells/Titan strength]] | Level 5 |
+| [[/Spells/Create iron golem]] | Level 6 |
+| [[/Spells/Polymorph]] | Level 6 |
+| [[/Spells/Touch of petrification]] | Level 8 |
+| [[/Spells/Create silver golem]] | Level 9 |
+| [[/Spells/Flesh to stone]] | Level 9 |
+| [[/Spells/Disintegrate]] | Level 10 |

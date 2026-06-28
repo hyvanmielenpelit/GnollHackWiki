@@ -1,57 +1,24 @@
-## Major Cantrip
-
-- [[/Spells/Confuse monster]]
-
-## Level 1
-
-- [[/Spells/Mirror image]]
-
-## Level 2
-
-- [[/Spells/Fire-enchant item]]
-
-## Level 3
-
-- [[/Spells/Enchant armor]]
-- [[/Spells/Fear]]
-- [[/Spells/Lightning-enchant item]]
-- [[/Spells/Protect armor]]
-
-## Level 4
-
-- [[/Spells/Enchant weapon]]
-- [[/Spells/Invisibility]]
-- [[/Spells/Protect weapon]]
-- [[/Spells/Sleep]]
-
-## Level 5
-
-- [[/Spells/Cold-enchant item]]
-- [[/Spells/Mass fear]]
-
-## Level 6
-
-- [[/Spells/Charm monster]]
-- [[/Spells/Mass sleep]]
-
-## Level 7
-
-- [[/Spells/Dominate monster]]
-
-## Level 8
-
-- [[/Spells/Death-enchant item]]
-- [[/Spells/Sphere of charming]]
-
-## Level 9
-
-- [[/Spells/Mass conflict]]
-- [[/Spells/Sphere of domination]]
-
-## Level 10
-
-- [[/Spells/Mass charm]]
-
-## Level 11
-
-- [[/Spells/Mass domination]]
+| Spell | Level |
+| :--- | :--- |
+| [[/Spells/Confuse monster]] | Major Cantrip |
+| [[/Spells/Mirror image]] | Level 1 |
+| [[/Spells/Fire-enchant item]] | Level 2 |
+| [[/Spells/Enchant armor]] | Level 3 |
+| [[/Spells/Fear]] | Level 3 |
+| [[/Spells/Lightning-enchant item]] | Level 3 |
+| [[/Spells/Protect armor]] | Level 3 |
+| [[/Spells/Enchant weapon]] | Level 4 |
+| [[/Spells/Invisibility]] | Level 4 |
+| [[/Spells/Protect weapon]] | Level 4 |
+| [[/Spells/Sleep]] | Level 4 |
+| [[/Spells/Cold-enchant item]] | Level 5 |
+| [[/Spells/Mass fear]] | Level 5 |
+| [[/Spells/Charm monster]] | Level 6 |
+| [[/Spells/Mass sleep]] | Level 6 |
+| [[/Spells/Dominate monster]] | Level 7 |
+| [[/Spells/Death-enchant item]] | Level 8 |
+| [[/Spells/Sphere of charming]] | Level 8 |
+| [[/Spells/Mass conflict]] | Level 9 |
+| [[/Spells/Sphere of domination]] | Level 9 |
+| [[/Spells/Mass charm]] | Level 10 |
+| [[/Spells/Mass domination]] | Level 11 |

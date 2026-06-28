@@ -1,64 +1,28 @@
-## Major Cantrip
-
-- [[/Spells/Raise minor zombie]]
-
-## Level 1
-
-- [[/Spells/Raise skeleton]]
-
-## Level 2
-
-- [[/Spells/Create minor mummy]]
-- [[/Spells/Raise giant skeleton]]
-- [[/Spells/Raise giant zombie]]
-- [[/Spells/Replenish undeath]]
-
-## Level 3
-
-- [[/Spells/Call ghoul]]
-- [[/Spells/Drain level]]
-- [[/Spells/Raise skeleton warrior]]
-
-## Level 4
-
-- [[/Spells/Control undead]]
-- [[/Spells/Greater undeath replenishment]]
-- [[/Spells/Mass raise zombie]]
-
-## Level 5
-
-- [[/Spells/Create giant mummy]]
-- [[/Spells/Raise skeleton lord]]
-
-## Level 6
-
-- [[/Spells/Summon demon]]
-
-## Level 7
-
-- [[/Spells/Mass create mummy]]
-- [[/Spells/Raise skeleton king]]
-
-## Level 8
-
-- [[/Spells/Create dracolich]]
-- [[/Spells/Touch of death]]
-
-## Level 9
-
-- [[/Spells/Finger of death]]
-
-## Level 10
-
-- [[/Spells/Call Demogorgon]]
-- [[/Spells/Create elder dracolich]]
-- [[/Spells/Deathspell]]
-
-## Level 11
-
-- [[/Spells/Mass create dracolich]]
-
-## Level 12
-
-- [[/Spells/Armageddon]]
-- [[/Spells/Power word kill]]
+| Spell | Level |
+| :--- | :--- |
+| [[/Spells/Raise minor zombie]] | Major Cantrip |
+| [[/Spells/Raise skeleton]] | Level 1 |
+| [[/Spells/Create minor mummy]] | Level 2 |
+| [[/Spells/Raise giant skeleton]] | Level 2 |
+| [[/Spells/Raise giant zombie]] | Level 2 |
+| [[/Spells/Replenish undeath]] | Level 2 |
+| [[/Spells/Call ghoul]] | Level 3 |
+| [[/Spells/Drain level]] | Level 3 |
+| [[/Spells/Raise skeleton warrior]] | Level 3 |
+| [[/Spells/Control undead]] | Level 4 |
+| [[/Spells/Greater undeath replenishment]] | Level 4 |
+| [[/Spells/Mass raise zombie]] | Level 4 |
+| [[/Spells/Create giant mummy]] | Level 5 |
+| [[/Spells/Raise skeleton lord]] | Level 5 |
+| [[/Spells/Summon demon]] | Level 6 |
+| [[/Spells/Mass create mummy]] | Level 7 |
+| [[/Spells/Raise skeleton king]] | Level 7 |
+| [[/Spells/Create dracolich]] | Level 8 |
+| [[/Spells/Touch of death]] | Level 8 |
+| [[/Spells/Finger of death]] | Level 9 |
+| [[/Spells/Call Demogorgon]] | Level 10 |
+| [[/Spells/Create elder dracolich]] | Level 10 |
+| [[/Spells/Deathspell]] | Level 10 |
+| [[/Spells/Mass create dracolich]] | Level 11 |
+| [[/Spells/Armageddon]] | Level 12 |
+| [[/Spells/Power word kill]] | Level 12 |

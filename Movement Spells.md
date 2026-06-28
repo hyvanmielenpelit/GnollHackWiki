@@ -1,44 +1,20 @@
-## Minor Cantrip
-
-- [[/Spells/Jumping]]
-
-## Level 1
-
-- [[/Spells/Slow monster]]
-
-## Level 2
-
-- [[/Spells/Levitation]]
-
-## Level 3
-
-- [[/Spells/Haste self]]
-- [[/Spells/Teleport self]]
-- [[/Spells/Water walking]]
-
-## Level 4
-
-- [[/Spells/Controlled teleport]]
-- [[/Spells/Haste monster]]
-- [[/Spells/Hold monster]]
-- [[/Spells/Mass slow]]
-- [[/Spells/Passwall]]
-- [[/Spells/Teleport monster]]
-
-## Level 5
-
-- [[/Spells/Level teleport]]
-
-## Level 6
-
-- [[/Spells/Circle of teleportation]]
-- [[/Spells/Mass hold]]
-
-## Level 7
-
-- [[/Spells/Controlled level teleport]]
-- [[/Spells/Portal]]
-
-## Level 10
-
-- [[/Spells/Time stop]]
+| Spell | Level |
+| :--- | :--- |
+| [[/Spells/Jumping]] | Minor Cantrip |
+| [[/Spells/Slow monster]] | Level 1 |
+| [[/Spells/Levitation]] | Level 2 |
+| [[/Spells/Haste self]] | Level 3 |
+| [[/Spells/Teleport self]] | Level 3 |
+| [[/Spells/Water walking]] | Level 3 |
+| [[/Spells/Controlled teleport]] | Level 4 |
+| [[/Spells/Haste monster]] | Level 4 |
+| [[/Spells/Hold monster]] | Level 4 |
+| [[/Spells/Mass slow]] | Level 4 |
+| [[/Spells/Passwall]] | Level 4 |
+| [[/Spells/Teleport monster]] | Level 4 |
+| [[/Spells/Level teleport]] | Level 5 |
+| [[/Spells/Circle of teleportation]] | Level 6 |
+| [[/Spells/Mass hold]] | Level 6 |
+| [[/Spells/Controlled level teleport]] | Level 7 |
+| [[/Spells/Portal]] | Level 7 |
+| [[/Spells/Time stop]] | Level 10 |
