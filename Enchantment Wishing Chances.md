@@ -10,9 +10,9 @@ When a wish is made, the game rolls two independent random enchantment values ba
 
 If you ask for an enchantment that is higher than both rolls, the wish fails and yields a +0 item. 
 
-## Non-Hell Wishing Odds
+## Non-Gehennom Wishing Odds
 
-Outside of Gehennom (Hell), the random number generator heavily favors low enchantments. It uses a formula that increments the enchantment with a 1-in-3 chance per step. Because of this, asking for anything higher than +2 is extremely risky.
+Outside of Gehennom, the random number generator heavily favors low enchantments. It uses a formula that increments the enchantment with a 1-in-3 chance per step. Because of this, asking for anything higher than +2 is extremely risky.
 
 ### General Armor
 This includes items like Dragon Scale Mail, Iron Shoes, and single-handed launchers. These items have a hard cap of +3. Wishing for +4 or +5 is mathematically impossible and will always fail.
@@ -58,14 +58,15 @@ Magical rings do not use the heavily skewed generation formula. Instead, they ro
 | **+4** | 76.00% |
 | **+5** | 57.33% |
 
-## Wishing in Gehennom (Hell)
+## Wishing in Gehennom
 
-When you make a wish while located in Gehennom (Hell), the game uses much more favorable random generation distributions for weapons and most body armor. The generator switches to a 50/50 coin flip increment rather than a 1-in-3 chance, massively boosting the odds for higher enchantments.
+When you make a wish while located in Gehennom, the game uses much more favorable random generation distributions for weapons and most body armor. The generator switches to a 50/50 coin flip increment rather than a 1-in-3 chance, massively boosting the odds for higher enchantments.
 
-> ℹ️ **Note:** Magical Rings are completely unaffected by being in Hell, and retain the exact same odds as the Non-Hell table above.
+> ℹ️ **Note:** Magical Rings are completely unaffected by being in Gehennom, and retain the exact same odds as the Non-Gehennom table above.
 
-### General Armor in Hell
-In Hell, general armor uses a slightly higher limit, meaning you can now theoretically get a +4 (but not +5). The odds match the non-Hell single-handed weapons table.
+### General Armor in Gehennom
+
+In Gehennom, general armor uses a slightly higher limit, meaning you can now theoretically get a +4 (but not +5). The odds match the non-Gehennom single-handed weapons table.
 
 | Wished Enchantment | Chance of Success |
 | :----------------: | :---------------: |
@@ -75,8 +76,9 @@ In Hell, general armor uses a slightly higher limit, meaning you can now theoret
 | **+4** | 4.30% |
 | **+5** | 0.00% |
 
-### Weapons & Specialty Armor in Hell
-All melee weapons, thrown weapons, elven armor, and leather body armor benefit significantly from the 50/50 generation formula in Hell. Because their maximum limits in Hell are all +5 or higher, they all share the exact same favorable odds for wishes between +1 and +5.
+### Weapons & Specialty Armor in Gehennom
+
+All melee weapons, thrown weapons, elven armor, and leather body armor benefit significantly from the 50/50 generation formula in Gehennom. Because their maximum limits in Gehennom are all +5 or higher, they all share the exact same favorable odds for wishes between +1 and +5.
 
 | Wished Enchantment | Chance of Success |
 | :----------------: | :---------------: |
@@ -89,7 +91,7 @@ All melee weapons, thrown weapons, elven armor, and leather body armor benefit s
 ## Summary
 
 Because of the skewed probability distributions:
-- Wishing for anything higher than +2 on armor or 1H weapons outside of Hell is overwhelmingly likely to fail (yield +0). 
+- Wishing for anything higher than +2 on armor or 1H weapons outside of Gehennom is overwhelmingly likely to fail (yield +0). 
 - If you want a guaranteed enchantment on your weapons or armor via a wish, the safest bet is **+1** (100% success rate). 
-- If you are willing to gamble, **+2** works about a third of the time outside of Hell, or slightly more than half the time in Hell. 
+- If you are willing to gamble, **+2** works about a third of the time outside of Gehennom, or slightly more than half the time in Gehennom. 
 - Wishing for +3 or higher is largely a waste of a wish unless you are wishing for a ring, or are specifically wishing for a weapon while inside Gehennom.
