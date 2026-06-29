@@ -43,4 +43,4 @@ The probability of getting an artifact through wishing depends on artifacts alre
 
 ## More Information
 
-- [[Enchantment Wishing Chances]]
+- [[Enchantment Wishing Chances]] — Learn about success chances when wishing for item enchantments
