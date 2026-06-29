@@ -12,5 +12,4 @@
 
 When you sponsor Sound Mind Games, you aren't just supporting the creation of amazing games — you are championing mental wellbeing and helping extraordinary creators build successful futures.
 
-- [Sponsor Us](https://hyvanmielenpelit.fi/tule-mukaan/pienkannatusjaseneksi/in-english) (In English)
-
+- [Sponsor Us](https://hyvanmielenpelit.fi/tule-mukaan/pienkannatusjaseneksi/in-english) (In English, links to the relevant page on the Sound Mind Games website)
