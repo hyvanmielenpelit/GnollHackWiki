@@ -49,4 +49,15 @@ The approximate hostility chances for your **second** summon are detailed below:
 | Normal                | 0             | ~66.7%                       |
 | Negative              | < 0           | 80.0%                        |
 
-> ⚠️ **Warning:** For your third summon and beyond, the hostility chance rapidly approaches 100%, even for extremely pious characters.
+The approximate hostility chances for your **third** summon are:
+
+| Alignment Record Rank | Minimum Value | Approximate Hostility Chance |
+| --------------------- | ------------- | ---------------------------- |
+| Pious                 | 20            | ~18.8%                       |
+| Devout                | 14            | 25.0%                        |
+| Fervent               | 9             | 37.5%                        |
+| Strident              | 4             | 75.0%                        |
+| Normal                | 0             | 75.0%                        |
+| Negative              | < 0           | ~85.7%                       |
+
+> ⚠️ **Warning:** For your fourth summon and beyond, the hostility chance rapidly approaches 100%, even for extremely pious characters.
