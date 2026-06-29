@@ -18,7 +18,7 @@ Combining these, the total chances of **evaporation** are:
 ## Weapons
 
 | Weapon Type | First Failure | Subsequent Failures |
-| :--- | :--- | :--- |
+| :---------- | :-----------: | :-----------------: |
 | **Normal Weapons** | 66.7% | 66.7% |
 | **Artifact Weapons** | 16.7% | 33.3% |
 | **Orichalcum Weapons** | 0% | 22.2% |
@@ -28,7 +28,7 @@ Combining these, the total chances of **evaporation** are:
 ### Normal Armor
 
 | Current Enchantment Level | Safe Limit +3 | Safe Limit +4 | Safe Limit +5 | Safe Limit +6 | Safe Limit +7 |
-| :--- | :--- | :--- | :--- | :--- | :--- |
+| :-----------------------: | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: |
 | **+4** | 75.0% | – | – | – | – |
 | **+5** | 80.0% | 80.0% | – | – | – |
 | **+6** | 83.3% | 83.3% | 83.3% | – | – |
@@ -45,7 +45,7 @@ Combining these, the total chances of **evaporation** are:
 #### First Failure
 
 | Current Enchantment Level | Safe Limit +3 | Safe Limit +4 | Safe Limit +5 | Safe Limit +6 | Safe Limit +7 |
-| :--- | :--- | :--- | :--- | :--- | :--- |
+| :-----------------------: | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: |
 | **+4** | 18.8% | – | – | – | – |
 | **+5** | 20.0% | 20.0% | – | – | – |
 | **+6** | 20.8% | 20.8% | 20.8% | – | – |
@@ -60,7 +60,7 @@ Combining these, the total chances of **evaporation** are:
 #### Subsequent Failures
 
 | Current Enchantment Level | Safe Limit +3 | Safe Limit +4 | Safe Limit +5 | Safe Limit +6 | Safe Limit +7 |
-| :--- | :--- | :--- | :--- | :--- | :--- |
+| :-----------------------: | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: |
 | **+4** | 37.5% | – | – | – | – |
 | **+5** | 40.0% | 40.0% | – | – | – |
 | **+6** | 41.7% | 41.7% | 41.7% | – | – |
@@ -81,7 +81,7 @@ Combining these, the total chances of **evaporation** are:
 #### Subsequent Failures
 
 | Current Enchantment Level | Safe Limit +3 | Safe Limit +4 | Safe Limit +5 | Safe Limit +6 | Safe Limit +7 |
-| :--- | :--- | :--- | :--- | :--- | :--- |
+| :-----------------------: | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: |
 | **+4** | 25.0% | – | – | – | – |
 | **+5** | 26.7% | 26.7% | – | – | – |
 | **+6** | 27.8% | 27.8% | 27.8% | – | – |
