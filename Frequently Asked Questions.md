@@ -4,6 +4,4 @@
 
 It's the level where you can enchant the item *one more time* safely.
 
-However, even if you enchant an item above its safe enchantable limit, it may not be destroyed. The section below describes the details.
-
-For more details, see [[Item Evaporation Chances]].
+However, even if you enchant an item above its safe enchantable limit, it may not be destroyed. For more details, see [[Item Evaporation Chances]].
