@@ -40,3 +40,7 @@ The probability of getting an artifact through wishing depends on artifacts alre
 | Generated artifacts | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
 | :---------------------- | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: |
 | Chance | 100% | 100% | 100% | 67% | 50% | 40% | 33% | 29% |
+
+## More Information
+
+- [[Enchantment Wishing Chances]]
