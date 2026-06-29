@@ -11,7 +11,7 @@ Sacrificing a member of your own race is considered a severe offense in GnollHac
 If you perform a same-race sacrifice on a Lawful or Neutral altar, the gods will immediately intervene to punish you. No demon lord is summoned in this scenario. 
 
 The consequences are severe:
-- The altar is instantly desecrated and permanently converted into a Chaotic altar.
+- The altar is instantly desecrated and converted into a Chaotic altar.
 - Any attending priest becomes hostile.
 - Your god becomes incredibly angry, typically triggering divine punishment.
 - You suffer major penalties to your alignment, luck, and wisdom.
