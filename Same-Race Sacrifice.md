@@ -28,36 +28,21 @@ If your character is **Lawful** or **Neutral**, the summoned Chaotic demon lord 
 
 ### Chaotic Characters
 
-If you are a **Chaotic** character, the Chaotic demon lord may be appeased by your sacrifice. The chance of the demon lord being peaceful depends on your alignment record and how many demon lords you have already summoned via altars.
+#### First Demon Lord Summon
 
-#### First Summon
+If you are a **Chaotic** character, the Chaotic demon lord may be appeased by your sacrifice. The chance of the demon lord being peaceful depends on your alignment record and how many demon lords you have already summoned via altars. The first time you successfully summon a demon lord this way, it is *guaranteed to be peaceful* (0% chance of being hostile).
 
-The first time you successfully summon a demon lord this way, it is *guaranteed to be peaceful* (0% chance of being hostile).
-
-#### Subsequent Summons
+#### Subsequent Demon Lord Summons
 
 If you continue to perform same-race sacrifices to summon additional demon lords, they will become increasingly agitated. The chance that subsequent demon lords will be hostile increases significantly, scaling with your alignment record. 
 
-The approximate hostility chances for your **second** summon are detailed below:
+The approximate hostility chances for your subsequent demon lord summons are detailed below:
 
-| Alignment Record Rank | Minimum Value | Approximate Hostility Chance |
-| --------------------- | ------------- | ---------------------------- |
-| Pious                 | 20            | ~13.3%                       |
-| Devout                | 14            | ~16.7%                       |
-| Fervent               | 9             | ~22.2%                       |
-| Strident              | 4             | ~33.3%                       |
-| Normal                | 0             | ~66.7%                       |
-| Negative              | < 0           | 80.0%                        |
-
-The approximate hostility chances for your **third** summon are:
-
-| Alignment Record Rank | Minimum Value | Approximate Hostility Chance |
-| --------------------- | ------------- | ---------------------------- |
-| Pious                 | 20            | ~18.8%                       |
-| Devout                | 14            | 25.0%                        |
-| Fervent               | 9             | 37.5%                        |
-| Strident              | 4             | 75.0%                        |
-| Normal                | 0             | 75.0%                        |
-| Negative              | < 0           | ~85.7%                       |
-
-> ⚠️ **Warning:** For your fourth summon and beyond, the hostility chance rapidly approaches 100%, even for extremely pious characters.
+| Alignment Record Rank | 2nd | 3rd | 4th | 5th |
+| --------------------- | :-: | :-: | :-: | :-: |
+| Pious (20)            | ~13.3% | ~18.8% | ~26.7% | ~41.7% |
+| Devout (14)           | ~16.7% | 25.0%  | 40.0%  | ~83.3% |
+| Fervent (9)           | ~22.2% | 37.5%  | 80.0%  | ~83.3% |
+| Strident (4)          | ~33.3% | 75.0%  | 80.0%  | ~83.3% |
+| Normal (0)            | ~66.7% | 75.0%  | 80.0%  | ~83.3% |
+| Negative (< 0)        | 80.0%  | ~85.7% | ~88.9% | ~90.9% |
