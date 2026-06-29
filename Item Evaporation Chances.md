@@ -17,13 +17,11 @@ Combining these, the total chances of **evaporation** are:
 
 ## Weapons
 
-- **Normal Weapons:** 66.7% (2/3)
-- **Artifact Weapons**
-  - First Failure: 16.7% (1/6)
-  - Subsequent Failures: 33.3% (1/3)
-- **Orichalcum Weapons**
-  - First Failure: 0%
-  - Subsequent Failures: 22.2% (2/9)
+| Weapon Type | First Failure | Subsequent Failures |
+| :--- | :--- | :--- |
+| **Normal Weapons** | 66.7% | 66.7% |
+| **Artifact Weapons** | 16.7% | 33.3% |
+| **Orichalcum Weapons** | 0% | 22.2% |
 
 ## Armor
 
@@ -42,7 +40,6 @@ Combining these, the total chances of **evaporation** are:
 | **+12** | 91.7% | 91.7% | 91.7% | 91.7% | 91.7% |
 | **+13** | 92.3% | 92.3% | 92.3% | 92.3% | 92.3% |
 
-
 ### Artifact Armor
 
 #### First Failure
@@ -60,7 +57,6 @@ Combining these, the total chances of **evaporation** are:
 | **+12** | 22.9% | 22.9% | 22.9% | 22.9% | 22.9% |
 | **+13** | 23.1% | 23.1% | 23.1% | 23.1% | 23.1% |
 
-
 #### Subsequent Failures
 
 | Current Enchantment Level | Safe Limit +3 | Safe Limit +4 | Safe Limit +5 | Safe Limit +6 | Safe Limit +7 |
@@ -75,7 +71,6 @@ Combining these, the total chances of **evaporation** are:
 | **+11** | 45.5% | 45.5% | 45.5% | 45.5% | 45.5% |
 | **+12** | 45.8% | 45.8% | 45.8% | 45.8% | 45.8% |
 | **+13** | 46.2% | 46.2% | 46.2% | 46.2% | 46.2% |
-
 
 ### Orichalcum Armor
 
@@ -97,4 +92,3 @@ Combining these, the total chances of **evaporation** are:
 | **+11** | 30.3% | 30.3% | 30.3% | 30.3% | 30.3% |
 | **+12** | 30.6% | 30.6% | 30.6% | 30.6% | 30.6% |
 | **+13** | 30.8% | 30.8% | 30.8% | 30.8% | 30.8% |
-
