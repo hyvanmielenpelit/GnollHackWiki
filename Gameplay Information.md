@@ -53,6 +53,10 @@
 * [[Fountains]] — Learn about new fountain types in GnollHack.
 * [[New Rooms]] — New dungeon rooms in GnollHack.
 
+### Altars
+
+* [[Same-Race Sacrifice]] — Detailed information on same-race sacrifices
+
 ## Frequently Asked Questions
 
 * [[Frequently Asked Questions]] — A list of the most commonly asked questions.
