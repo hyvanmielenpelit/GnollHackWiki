@@ -1,0 +1,5 @@
+## How Does Safe Enchantable Level Exactly Work?
+
+> If an item has a Safe Enchantable Level of +3, does it mean that one can enchant it *one more time* when the enchantment is at +3, or does it mean that one needs to *stop at +3*?
+
+It's the level where you can enchant the item *one more time*.

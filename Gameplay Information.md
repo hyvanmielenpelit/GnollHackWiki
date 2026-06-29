@@ -55,6 +55,7 @@
 
 ## Frequently Asked Questions
 
+* [[Frequently Asked Questions]] — A list of the most commonly asked questions.
 * [[How to Cure Various Conditions]] — For example, mummy rot and stoning.
 * [[Changing Between Two Sets of Weapon and Shield]] — Using Swap Weapons and Handedness commands.
 
