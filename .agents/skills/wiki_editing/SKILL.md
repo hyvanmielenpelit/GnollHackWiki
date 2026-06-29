@@ -57,6 +57,7 @@ When editing or creating pages for the GnollHack Wiki, follow these conventions 
 
 ## 6. Spelling
 - **Archaeologist**: Always prefer the spelling "Archaeologist" (with the 'a' in the middle) instead of "Archeologist". This applies to all references in the wiki and the game.
+- **Gehennom**: Always use the term "Gehennom" and never "Hell".
 
 ## 7. Game Stats Conventions
 - **Strength Values**: When writing or verifying strength values that exceed 18, convert the C macros correctly:
