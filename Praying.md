@@ -35,6 +35,17 @@ Because the *maximum possible multiplier increases as your character levels up*,
 | **Priest** | 175 | ~17 to ~1,750 turns | ~8 to ~3,500 turns |
 | **Other Roles** | 350 | ~35 to ~3,500 turns | ~17 to ~7,000 turns |
 
+**95% Chance Safe Thresholds (by Level):**
+Because the extreme multipliers in the `rnz()` function only trigger rarely (under 5% of the time), the 95th percentile of your resulting prayer timeout is actually unaffected by your character level. In 95% of successful prayers, your timeout will be less than or equal to the following number of turns, regardless of level:
+
+| Experience Level | Priest | Other Roles |
+| :--- | :--- | :--- |
+| **1** | 614 | 1229 |
+| **2–49** | 614 | 1229 |
+| **50** | 614 | 1229 |
+
+> 💡 **Tip:** Because the exact timeout is hidden and highly variable, the only guaranteed way to know if your cooldown has safely elapsed is to check it by applying a blessed [[/Items/holy symbol]] or a blessed [[/Items/prayerstone]].
+
 ### Unsafe Conditions
 
 Even if your timeout has elapsed, praying under the following conditions is considered unsafe and will result in a negative outcome:
