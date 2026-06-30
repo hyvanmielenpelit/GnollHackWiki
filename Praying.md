@@ -6,11 +6,33 @@
 
 You can pray to your god at any time using the Pray (`Alt-p`) command. When you pray, the outcome heavily depends on your current situation, your alignment record, your luck, and how recently you last prayed. If done correctly, praying can save you from certain death; if done carelessly, it can anger your god and result in severe penalties.
 
-## When is it Safe to Pray?
+## When is it Safe to Pray? — Prayer Timeout
 
-The primary factor determining if a prayer is safe is your **Prayer Timeout**. Every time you pray successfully, your prayer timeout is set to approximately 175 turns for Priests or 350 turns for other roles. This timeout acts as a hidden cooldown counter that decreases by 1 every game turn. Your current "Troubles" determine how low this timeout counter needs to drop before it is safe to pray again. 
+The primary factor determining if a prayer is safe is your **Prayer Timeout**. This timeout acts as a hidden cooldown counter that decreases by 1 every game turn.
 
-For example, if your timeout is set to 350, you only need to wait 150 turns for it to drop to 200 before you can safely pray to fix a **Major Trouble**. However, you would have to wait the full 350 turns for the timeout to reach 0 to safely pray when you have **No Trouble**.
+### Initial Value
+
+At the start of the game, your character begins with an initial prayer timeout of:
+
+| Role | Initial Prayer Timeout |
+| :--- | :--------------------: |
+| Priests | 150 turns |
+| Other roles | 300 turns |
+
+### Value after a Prayer 
+
+Every time you pray successfully, your prayer timeout is set to a randomized value using the following base values:
+
+| Role | Base Value |
+| :--- | :--------------------: |
+| Priests | 175 turns |
+| Other roles | 350 turns |
+
+Actual values are detailed in the [Prayer Timeout Randomization](#prayer-timeout-randomization) and [95% Chance Safe Thresholds](#95-chance-safe-thresholds) sections below.
+
+### Troubles
+
+ Your current "Troubles" determine how low this timeout counter needs to drop before it is safe to pray again. For example, if your timeout is set to 350, you only need to wait 150 turns for it to drop to 200 before you can safely pray to fix a **Major Trouble**. However, you would have to wait the full 350 turns for the timeout to reach 0 to safely pray when you have **No Trouble**.
 
 | Trouble Level | Condition | Safe Timeout Threshold |
 | :--- | :--- | :--- |
@@ -28,7 +50,7 @@ The `rnz()` function scales the base value up or down randomly. It has a 50% cha
 
 The *maximum possible multiplier increases as your character levels up*, and therefore the possible range of your prayer timeout becomes much wider at higher levels.
 
-#### 95% Chance Safe Thresholds
+### 95% Chance Safe Thresholds
 
 Because the extreme multipliers in the `rnz()` function only trigger rarely (under 5% of the time), the 95th percentile of your resulting prayer timeout is actually unaffected by your character level. In 95% of successful prayers, your timeout will be less than or equal to the following number of turns, regardless of level:
 
