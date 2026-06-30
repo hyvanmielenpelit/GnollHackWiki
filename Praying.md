@@ -18,33 +18,23 @@ For example, if your timeout is set to 350, you only need to wait 150 turns for 
 
 > ℹ️ **Note:** If you have killed the Wizard of Yendor or have been [[crowned|Crowning]], your prayer timeout is penalized with massive increases (approximately +500 for Priests or +1000 for other roles, per violation), making it much harder to pray safely.
 
-> 💡 **Tip:** You can know whether it is currently safe to pray when a blessed [[/Items/holy symbol]] or a blessed [[/Items/prayerstone]] is shimmering.
-
 ### Prayer Timeout Randomization
 
 The timeout numbers mentioned throughout this page (like 175 and 350) are **base values**. The game applies a highly randomized function called `rnz()` to these base values to determine the actual timeout. 
 
 The `rnz()` function scales the base value up or down randomly. It has a 50% chance to multiply the base value and a 50% chance to divide it, using a randomly generated multiplier. 
 
-Because the *maximum possible multiplier increases as your character levels up*, the possible range of your prayer timeout becomes much wider at higher levels. This means even a Priest could randomly receive a timeout much larger than 200 after a successful prayer, making their next prayer unsafe despite having a Major Trouble.
+The *maximum possible multiplier increases as your character levels up*, and therefore the possible range of your prayer timeout becomes much wider at higher levels.
 
-**Estimated Timeout Ranges by Role and Level:**
+#### 95% Chance Safe Thresholds (by Level)
 
-| Role | Base Value | Range (XL 1-14) | Range (XL 30) |
-| :--- | :--- | :--- | :--- |
-| **Priest** | 175 | ~17 to ~1,750 turns | ~8 to ~3,500 turns |
-| **Other Roles** | 350 | ~35 to ~3,500 turns | ~17 to ~7,000 turns |
-
-**95% Chance Safe Thresholds (by Level):**
 Because the extreme multipliers in the `rnz()` function only trigger rarely (under 5% of the time), the 95th percentile of your resulting prayer timeout is actually unaffected by your character level. In 95% of successful prayers, your timeout will be less than or equal to the following number of turns, regardless of level:
 
 | Experience Level | Priest | Other Roles |
-| :--- | :--- | :--- |
-| **1** | 614 | 1229 |
-| **2–49** | 614 | 1229 |
-| **50** | 614 | 1229 |
+| :--: | :--: | :--: |
+| **1–50** | 614 | 1229 |
 
-> 💡 **Tip:** Because the exact timeout is hidden and highly variable, the only guaranteed way to know if your cooldown has safely elapsed is to check it by applying a blessed [[/Items/holy symbol]] or a blessed [[/Items/prayerstone]].
+> 💡 **Tip:** You can know whether it is currently safe to pray when a blessed [[/Items/holy symbol]] or a blessed [[/Items/prayerstone]] is shimmering.
 
 ### Unsafe Conditions
 
