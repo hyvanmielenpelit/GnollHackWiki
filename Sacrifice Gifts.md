@@ -1,3 +1,5 @@
+![Sacrifice Gifts](/uploads/Sacrifice%20Gifts/sacrifice-gifts-q85.webp)
+
 > 👉 **A sacrifice gift is a reward from your god for offering a fresh, acceptable corpse at an altar.**
 
 In GnollHack, gods occasionally reward their followers with special items when they are particularly pleased with a sacrifice. These items are typically powerful artifacts or, in some cases, high-quality utility and power items as replacement rewards.
