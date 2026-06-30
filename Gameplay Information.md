@@ -53,8 +53,10 @@
 * [[Fountains]] — Learn about new fountain types in GnollHack.
 * [[New Rooms]] — New dungeon rooms in GnollHack.
 
-### Altars
+## Religion
 
+* [[Crowning]] — Gifts obtained from crowning by your god.
+* [[Sacrifice Gifts]] — Learn about what gifts a god can give you if you sacrifice a corpse on an altar.
 * [[Same-Race Sacrifice]] — Detailed information on same-race sacrifices
 
 ## Frequently Asked Questions
@@ -70,10 +72,8 @@
 ## Advanced Topics
 
 * [[Alchemy]] — Recipes for mixing potions and other items with each other.
-* [[Crowning]] — Gifts obtained from crowning by your god.
 * [[Diluted Potions]] — Learn what effects dilution has on potions.
 * [[Item Evaporation Chances]] — The chances of an item to be destroyed when over-enchanting it.
 * [[Resistances and Saving Throws]] — Learn about how resistances and saving throws work in GnollHack.
-* [[Sacrifice Gifts]] — Learn about what gifts a god can give you if you sacrifice a corpse on an altar.
 * [[Scoring]] — Learn about the scoring system in GnollHack.
 * [[Wishing Guide]] — Wishing rules for new items in GnollHack.
