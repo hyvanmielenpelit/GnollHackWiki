@@ -91,7 +91,7 @@ Your god will then decide how many troubles to fix based on a random roll tied t
 **Trouble Fixing Actions:**
 
 | Action Level | Result |
-| :--- | :--- |
+| :----------: | :----- |
 | **1** | Fixes your worst trouble once. |
 | **2** | Fixes your worst trouble up to 10 times. |
 | **3** | Fixes your worst trouble once, then does Action Level 2. |
@@ -107,7 +107,7 @@ A "special favor" is granted by your god. It occurs when you achieve an Action L
 The favor granted is determined by rolling a random number between `0` and `(Luck + 6) / 2`. The possible outcomes are:
 
 | Roll | Effect |
-| :--- | :--- |
+| :--: | :----- |
 | **1** | Repairs and uncurses or blesses your wielded weapon. |
 | **2** | Increases your max HP by 5 (or restores a drained level), heals you to full HP, cures blindness and hunger, and resets negative Luck to 0. |
 | **3** | Provides a hint for the Castle tune (if applicable), then grants the effects of Roll #2. |
