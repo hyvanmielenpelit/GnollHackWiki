@@ -120,7 +120,7 @@ If you pray when it is unsafe, you will suffer the following consequences:
 - **Too Soon / Too Naughty**: Your prayer fails. Your prayer timeout is increased by approximately 125 for Priests or 250 for others, your god becomes upset, and your Luck decreases by 3. If you pray on a wrong altar, the altar may curse any [[water|/Items/potion of water]] or [[holy symbols|/Items/holy symbol]] on it.
 - **Wrong Altar**: The altar may curse [[water|/Items/potion of water]] and [[holy symbols|/Items/holy symbol]] placed upon it. If so, you incur the same penalties as praying "Too Soon".
 
-### Good Prayer Outcomes
+### Positive Outcomes
 
 If you pray safely, your god will be pleased. If you pray while standing on your own altar, your god will bless any [[holy symbols|/Items/holy symbol]] or [[prayerstones|/Items/prayerstone]] you are carrying, as well as any [[water|/Items/potion of water]] or [[holy symbols|/Items/holy symbol]] placed on the altar.
 
