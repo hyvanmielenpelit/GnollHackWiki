@@ -26,7 +26,7 @@ The `rnz()` function scales the base value up or down randomly. It has a 50% cha
 
 The *maximum possible multiplier increases as your character levels up*, and therefore the possible range of your prayer timeout becomes much wider at higher levels.
 
-#### 95% Chance Safe Thresholds (by Level)
+#### 95% Chance Safe Thresholds
 
 Because the extreme multipliers in the `rnz()` function only trigger rarely (under 5% of the time), the 95th percentile of your resulting prayer timeout is actually unaffected by your character level. In 95% of successful prayers, your timeout will be less than or equal to the following number of turns, regardless of level:
 
