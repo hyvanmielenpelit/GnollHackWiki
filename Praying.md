@@ -6,9 +6,9 @@ You can pray to your god at any time using the Pray (`Alt-p`) command. When you 
 
 ## When is it Safe to Pray?
 
-The primary factor determining if a prayer is safe is your **Prayer Timeout**. Every time you pray successfully, your prayer timeout increases (by 175 turns for Priests and 350 turns for other roles). This timeout acts as a cooldown period. Your current "Troubles" determine how low this timeout needs to be before it is safe to pray again.
+The primary factor determining if a prayer is safe is your **Prayer Timeout**. Every time you pray successfully, your prayer timeout is set to approximately 175 turns for Priests or 350 turns for other roles. This timeout acts as a hidden cooldown counter that decreases by 1 every game turn. Your current "Troubles" determine how low this timeout counter needs to drop before it is safe to pray again. 
 
-> 💡 **Tip:** You can know whether it is currently safe to pray when a blessed [[/Items/holy symbol]] or a blessed [[/Items/prayerstone]] is shimmering.
+For example, if your timeout is set to 350, you only need to wait 150 turns for it to drop to 200 before you can safely pray to fix a **Major Trouble**. However, you would have to wait the full 350 turns for the timeout to reach 0 to safely pray when you have **No Trouble**.
 
 | Trouble Level | Condition | Safe Timeout Threshold |
 | :--- | :--- | :--- |
@@ -16,7 +16,24 @@ The primary factor determining if a prayer is safe is your **Prayer Timeout**. E
 | **Minor Trouble** | You are facing a severe but non-lethal issue. | Timeout $\le$ 100 |
 | **No Trouble** | You are not in any immediate danger. | Timeout $\le$ 0 |
 
-> ℹ️ **Note:** If you have killed the Wizard of Yendor or have been [[crowned|Crowning]], your prayer timeout is penalized with massive increases (+500 or +1000 turns respectively), making it much harder to pray safely.
+> ℹ️ **Note:** If you have killed the Wizard of Yendor or have been [[crowned|Crowning]], your prayer timeout is penalized with massive increases (approximately +500 for Priests or +1000 for other roles, per violation), making it much harder to pray safely.
+
+> 💡 **Tip:** You can know whether it is currently safe to pray when a blessed [[/Items/holy symbol]] or a blessed [[/Items/prayerstone]] is shimmering.
+
+### Prayer Timeout Randomization
+
+The timeout numbers mentioned throughout this page (like 175 and 350) are **base values**. The game applies a highly randomized function called `rnz()` to these base values to determine the actual timeout. 
+
+The `rnz()` function scales the base value up or down randomly. It has a 50% chance to multiply the base value and a 50% chance to divide it, using a randomly generated multiplier. 
+
+Because the maximum possible multiplier increases as your character levels up, the possible range of your prayer timeout becomes much wider at higher levels. This means even a Priest could randomly receive a timeout much larger than 200 after a successful prayer, making their next prayer unsafe despite having a Major Trouble.
+
+**Estimated Timeout Ranges by Role and Level:**
+
+| Role | Base Value | Range (Level 1-14) | Range (Level 30) |
+| :--- | :--- | :--- | :--- |
+| **Priest** | 175 | ~17 to ~1,750 turns | ~8 to ~3,500 turns |
+| **Other Roles** | 350 | ~35 to ~3,500 turns | ~17 to ~7,000 turns |
 
 ### Unsafe Conditions
 
@@ -79,7 +96,7 @@ If you pray when it is unsafe, you will suffer the following consequences:
 
 - **Vile Creature**: You are forcefully rehumanized and take 1d20 damage.
 - **Gehennom**: Your god states they cannot help you. If your Alignment Record is 0 or less, your god will become angry.
-- **Too Soon / Too Naughty**: Your prayer fails. Your prayer timeout is increased by 125 (Priests) or 250 (others), your god becomes upset, and your Luck decreases by 3. If you pray on a wrong altar, the altar may curse any [[water|/Items/potion of water]] or [[holy symbols|/Items/holy symbol]] on it.
+- **Too Soon / Too Naughty**: Your prayer fails. Your prayer timeout is increased by approximately 125 for Priests or 250 for others, your god becomes upset, and your Luck decreases by 3. If you pray on a wrong altar, the altar may curse any [[water|/Items/potion of water]] or [[holy symbols|/Items/holy symbol]] on it.
 - **Wrong Altar**: The altar may curse [[water|/Items/potion of water]] and [[holy symbols|/Items/holy symbol]] placed upon it. If so, you incur the same penalties as praying "Too Soon".
 
 ### Good Prayer Outcomes
