@@ -48,9 +48,9 @@ The game categorizes your problems into Major and Minor troubles. When your god 
 | **Lycanthrope** | You have contracted lycanthropy. |
 | **Collapsing** | You are severely overencumbered and losing strength. |
 | **Stuck in Wall** | You are phased or stuck inside a solid wall. |
-| **Cursed Eyeglasses** | You are wearing cursed eyeglasses of hallucination. |
-| **Cursed Levitation** | You are wearing cursed levitation boots or rings. |
-| **Unusable Hands** | Your hands are stuck (e.g., wielded a cursed two-handed weapon). |
+| **Cursed Eyeglasses** | You are wearing cursed [[/Items/eyeglasses of hallucination]]. |
+| **Cursed Levitation** | You are wearing cursed [[/Items/levitation boots]] or a cursed [[/Items/ring of levitation]]. |
+| **Unusable Hands** | Your hands are stuck. |
 | **Cursed Blindfold** | You are wearing a cursed blindfold. |
 
 ### Minor Troubles
@@ -77,14 +77,14 @@ The game categorizes your problems into Major and Minor troubles. When your god 
 
 If you pray when it is unsafe, you will suffer the following consequences:
 
-- **Vile Creature**: You are forcefully rehumanized, take 1d20 damage, and your constitution is exercised negatively.
+- **Vile Creature**: You are forcefully rehumanized and take 1d20 damage.
 - **Gehennom**: Your god states they cannot help you. If your Alignment Record is 0 or less, your god will become angry.
-- **Too Soon / Too Naughty**: Your prayer fails. Your prayer timeout is increased by 125 (Priests) or 250 (others), your god becomes upset, and your Luck decreases by 3. If you pray on a wrong altar, the altar may curse any water or holy symbols on it.
-- **Wrong Altar**: The altar may curse water and holy symbols placed upon it. If so, you incur the same penalties as praying "Too Soon".
+- **Too Soon / Too Naughty**: Your prayer fails. Your prayer timeout is increased by 125 (Priests) or 250 (others), your god becomes upset, and your Luck decreases by 3. If you pray on a wrong altar, the altar may curse any [[water|/Items/potion of water]] or [[holy symbols|/Items/holy symbol]] on it.
+- **Wrong Altar**: The altar may curse [[water|/Items/potion of water]] and [[holy symbols|/Items/holy symbol]] placed upon it. If so, you incur the same penalties as praying "Too Soon".
 
 ### Good Prayer Outcomes
 
-If you pray safely, your god will be pleased. If you pray while standing on your own altar, your god will bless any holy symbols or prayerstones you are carrying, as well as any water or holy symbols placed on the altar.
+If you pray safely, your god will be pleased. If you pray while standing on your own altar, your god will bless any [[holy symbols|/Items/holy symbol]] or [[prayerstones|/Items/prayerstone]] you are carrying, as well as any [[water|/Items/potion of water]] or [[holy symbols|/Items/holy symbol]] placed on the altar.
 
 Your god will then decide how many troubles to fix based on a random roll tied to your Luck and whether you are standing on an altar.
 
@@ -96,13 +96,13 @@ Your god will then decide how many troubles to fix based on a random roll tied t
 | **2** | Fixes your worst trouble up to 10 times. |
 | **3** | Fixes your worst trouble once, then does Action Level 2. |
 | **4** | Fixes your worst trouble until all troubles are completely gone. |
-| **5** | Fixes all troubles entirely and grants a **Pat on the Head**. |
+| **5** | Fixes all troubles entirely and grants a **Special Favor**. |
 
 > 💡 **Tip:** If you are not on an altar, the maximum Action Level you can achieve is 3. If your Alignment Record is below 4 (Strident), the maximum Action Level is 1.
 
-### Special Favors (Pat on the Head)
+### Special Favors
 
-A "Pat on the Head" is a special favor granted by your god. It occurs when you achieve an Action Level of 5, or if you pray with absolutely no troubles while maintaining an Alignment Record of at least 14 (Devout).
+A "special favor" is granted by your god. It occurs when you achieve an Action Level of 5, or if you pray with absolutely no troubles while maintaining an Alignment Record of at least 14 (Devout).
 
 The favor granted is determined by rolling a random number between `0` and `(Luck + 6) / 2`. The possible outcomes are:
 
