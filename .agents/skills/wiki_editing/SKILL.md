@@ -58,8 +58,13 @@ When editing or creating pages for the GnollHack Wiki, follow these conventions 
 ## 6. Spelling
 - **Archaeologist**: Always prefer the spelling "Archaeologist" (with the 'a' in the middle) instead of "Archeologist". This applies to all references in the wiki and the game.
 - **Gehennom**: Always use the term "Gehennom" and never "Hell".
+- **The Hand of Elbereth**: Never use the term "the Hand of Elbereth" in a generic sense when referring to crowning (unrelated to the character's alignment). Only use "the Hand of Elbereth" when specifically referring to the crowning title for Lawful characters. For generic cases, simply use "crowning" or "crowned".
 
 ## 7. Game Stats Conventions
 - **Strength Values**: When writing or verifying strength values that exceed 18, convert the C macros correctly:
   - Values using `STR18(x)` (e.g., `STR18(100)`) should be formatted as `18/xx` (e.g., `18/100`).
   - Values using `STR19(x)` (e.g., `STR19(25)`) should be formatted strictly as `x` (e.g., `25`). Do not write `125` or `19/25`.
+
+## 8. Game Commands and Keyboard Shortcuts
+- **Game Commands**: Always mention a game command by its name with a capital letter, followed by its keyboard shortcut in parentheses formatted as code. Example: Pray (`Alt-p`). Do not mention an extended command (e.g., `#pray`) for a game command if there is a keyboard shortcut available for it.
+- **Keyboard Shortcuts Casing**: Pay strict attention to the casing of letters in keyboard shortcuts. A lowercase letter implies the key pressed normally (e.g., `Alt-p`), whereas an uppercase letter implies holding down the Shift key (e.g., `Alt-P` would be equivalent to `Alt-Shift-p`).
