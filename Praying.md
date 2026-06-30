@@ -37,7 +37,7 @@ The game categorizes your problems into Major and Minor troubles. When your god 
 | :--- | :--- |
 | **Stoned** | You are turning into stone. |
 | **Slimed** | You are turning into green slime. |
-| **Strangled** | You are wearing an amulet of strangulation. |
+| **Strangled** | You are wearing an [[/Items/amulet of strangulation]]. |
 | **Lava** | You are trapped in lava. |
 | **Sick** | You have a terminal illness or food poisoning. |
 | **Food Poisoned** | You are suffering from severe food poisoning. |
@@ -51,18 +51,18 @@ The game categorizes your problems into Major and Minor troubles. When your god 
 | **Cursed Eyeglasses** | You are wearing cursed [[/Items/eyeglasses of hallucination]]. |
 | **Cursed Levitation** | You are wearing cursed [[/Items/levitation boots]] or a cursed [[/Items/ring of levitation]]. |
 | **Unusable Hands** | Your hands are stuck. |
-| **Cursed Blindfold** | You are wearing a cursed blindfold. |
+| **Cursed Blindfold** | You are wearing a cursed [[/Items/blindfold]]. |
 
 ### Minor Troubles
 
 | Trouble | Description |
 | :--- | :--- |
-| **Punished** | You have a heavy iron ball chained to you. |
+| **Punished** | You have a [[/Items/heavy iron ball]] chained to you. |
 | **Teleportitis** | You suffer from uncontrollable teleportation. |
 | **Fumbling** | You are wearing fumbling gear. |
-| **Laughing** | You are wearing a shirt of uncontrollable laughter. |
+| **Laughing** | You are wearing a [[/Items/shirt of uncontrollable laughter]]. |
 | **Cursed Items** | You are wearing or wielding cursed items. |
-| **Saddle** | You are stuck on a cursed saddle. |
+| **Saddle** | You are stuck on a cursed [[/Items/saddle]]. |
 | **Blind** | You are blinded or deafened. |
 | **Poisoned** | Your attributes have been drained by poison. |
 | **Wounded Legs** | Your legs are wounded. |
@@ -113,5 +113,5 @@ The favor granted is determined by rolling a random number between `0` and `(Luc
 | **3** | Provides a hint for the Castle tune (if applicable), then grants the effects of Roll #2. |
 | **4** | Uncurses all cursed items in your inventory. |
 | **5** | Grants intrinsic Telepathy, Speed, Stealth, or Protection. |
-| **6** | Grants a Spellbook (preferring unknown spells). |
+| **6** | Grants a spellbook (preferring unknown spells). |
 | **7 or 8** | Crowns you. This requires an Alignment Record of at least 20 (Pious). See the [[Crowning]] wiki page for detailed information on the mechanics and artifacts granted. |
