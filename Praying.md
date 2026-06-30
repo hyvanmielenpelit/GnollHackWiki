@@ -44,15 +44,11 @@ Actual values are detailed in the [Prayer Timeout Randomization](#prayer-timeout
 
 ### Prayer Timeout Randomization
 
-The timeout numbers mentioned throughout this page (like 175 and 350) are **base values**. The game applies a highly randomized function called `rnz()` to these base values to determine the actual timeout. 
-
-The `rnz()` function scales the base value up or down randomly. It has a 50% chance to multiply the base value and a 50% chance to divide it, using a randomly generated multiplier. 
-
-The *maximum possible multiplier increases as your character levels up*, and therefore the possible range of your prayer timeout becomes much wider at higher levels.
+The prayer timeout **base values** are applied to a highly randomized function called `rnz()` to determine the actual timeout. The `rnz()` function scales the base value up or down randomly. It has a 50% chance to multiply the base value and a 50% chance to divide it, using a randomly generated multiplier. The *maximum possible multiplier increases as your character levels up*, and therefore the possible range of your prayer timeout becomes wider at higher levels.
 
 ### 95% Chance Safe Thresholds
 
-Because the extreme multipliers in the `rnz()` function only trigger rarely (under 5% of the time), the 95th percentile of your resulting prayer timeout is actually unaffected by your character level. In 95% of successful prayers, your timeout will be less than or equal to the following number of turns, regardless of level:
+However, because the extreme multipliers in the `rnz()` function only trigger rarely (under 5% of the time), the 95th percentile of your resulting prayer timeout is actually unaffected by your character level. In 95% of successful prayers, your timeout will be less than or equal to the following number of turns, regardless of your character's experience level:
 
 | Experience Level | Priest | Other Roles |
 | :--: | :--: | :--: |
