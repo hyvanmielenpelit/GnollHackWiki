@@ -1,3 +1,5 @@
+![Praying](/uploads/Praying/praying-q85.webp)
+
 > 👉 **Praying is an essential mechanic in GnollHack that allows you to call upon your god for help, healing, or special favors when you are in trouble. However, praying too often or when your god is angry can have severe consequences.**
 
 ## Introduction
