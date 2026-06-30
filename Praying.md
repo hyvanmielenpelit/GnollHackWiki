@@ -26,11 +26,11 @@ The timeout numbers mentioned throughout this page (like 175 and 350) are **base
 
 The `rnz()` function scales the base value up or down randomly. It has a 50% chance to multiply the base value and a 50% chance to divide it, using a randomly generated multiplier. 
 
-Because the maximum possible multiplier increases as your character levels up, the possible range of your prayer timeout becomes much wider at higher levels. This means even a Priest could randomly receive a timeout much larger than 200 after a successful prayer, making their next prayer unsafe despite having a Major Trouble.
+Because the *maximum possible multiplier increases as your character levels up*, the possible range of your prayer timeout becomes much wider at higher levels. This means even a Priest could randomly receive a timeout much larger than 200 after a successful prayer, making their next prayer unsafe despite having a Major Trouble.
 
 **Estimated Timeout Ranges by Role and Level:**
 
-| Role | Base Value | Range (Level 1-14) | Range (Level 30) |
+| Role | Base Value | Range (XL 1-14) | Range (XL 30) |
 | :--- | :--- | :--- | :--- |
 | **Priest** | 175 | ~17 to ~1,750 turns | ~8 to ~3,500 turns |
 | **Other Roles** | 350 | ~35 to ~3,500 turns | ~17 to ~7,000 turns |
