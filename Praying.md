@@ -44,7 +44,7 @@ Actual values are detailed in the [Prayer Timeout Randomization](#prayer-timeout
 
 ### Prayer Timeout Randomization
 
-The prayer timeout **base values** are applied to a highly randomized function called `rnz()` to determine the actual timeout. The `rnz()` function scales the base value up or down randomly. It has a 50% chance to multiply the base value and a 50% chance to divide it, using a randomly generated multiplier. The *maximum possible multiplier increases as your character levels up*, and therefore the possible range of your prayer timeout becomes wider at higher levels.
+The prayer timeout **base values** are applied to a highly randomized function called `rnz()` to determine the actual timeout. The `rnz()` function scales the base value up or down randomly. It has a 50% chance to multiply the base value and a 50% chance to divide it, using a randomly generated multiplier. The maximum possible multiplier increases as your character levels up, and therefore the possible range of your prayer timeout becomes wider at higher levels.
 
 ### 95% Chance Safe Thresholds
 
