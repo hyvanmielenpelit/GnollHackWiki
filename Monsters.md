@@ -56,7 +56,7 @@
 | `Y` | [[/Monsters/Ape- and bear-like creatures]] |
 | `Z` | [[/Monsters/Mummies and other greater undead]] |
 | `@` | [[/Monsters/Humans and elves]] |
-| ` ` | [[/Monsters/Ghosts]] |
+| ` ` | [[/Monsters/Ghosts]] |
 | `'` | [[/Monsters/Golems]] |
 | `&` | [[/Monsters/Major demons and devils]] |
 | `;` | [[/Monsters/Sea monsters]] |
