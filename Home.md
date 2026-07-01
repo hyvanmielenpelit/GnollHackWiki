@@ -24,7 +24,7 @@ GnollHack is best understood as a modernized version of NetHack that makes the c
 ## 🏁 Getting Started
 
 - **[[Download]]** — Downloading GnollHack and installation instructions
-- **[[Tutorials]]**
+- **[[Tutorials]]** — Learn to play GnollHack
 - **[[Choosing the Right Gameplay Mode]]** *(modern versions only)*
 - **[[Choosing the Right Difficulty Level]]**
 
