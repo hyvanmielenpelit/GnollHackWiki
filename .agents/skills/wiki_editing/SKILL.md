@@ -10,7 +10,7 @@ When editing or creating pages for the GnollHack Wiki, follow these conventions 
 ## 1. File and Heading Structure
 - **Page Titles**: The wiki automatically uses the filename (without `.md`) as the page title. Never start a page with an `H1` (`#`) or `H2` (`##`) heading that is identical to the page's name (the filename without extension). In such cases, omit the heading completely, as it is implied and provided to the page from the filename. Use a single `H1` heading (`#`) on the very first line ONLY if you need a custom title that differs from the filename (e.g., incorrect filename casing or special pages like the home page). In most cases, an H1 is not needed.
 - **Section Headings**: Use only `H2` (`##`) and lower for all other section headings.
-- **Spacing**: Always place an empty line before and after all headings (except before the `H1` at the very beginning of the file).
+- **Spacing**: Always place an empty line before and after all headings (except before the `H1` at the very beginning of the file). This explicitly includes `H2` (`##`) and `H3` (`###`) headings, which must have an empty line above and below them.
 - **Subdirectories**: Group files into subdirectories (e.g., `/Monsters/`, `/Items/`) to prevent naming conflicts and organize content.
 - **Ingress**: If an article has an ingress, it must be styled as a block quote (`>`) starting with a `👉` emoji, followed by bold text (e.g., `> 👉 **This is the ingress.**`).
 - **Lists**: Use a dash (`-`) for Markdown lists instead of an asterisk (`*`) by default.
