@@ -15,7 +15,7 @@ The dungeon in GnollHack is not just a single straight line down; it features se
 | **The Quest** | A unique branch tailored to your character's class. The entrance is a magic portal located between dungeon levels 11 and 16. You must be at least experience level 14 to enter it. |
 | **Gehennom** | The late-game hellish branch of the dungeon. Unlike NetHack, GnollHack has removed the tedious mazes from Gehennom, making it much more enjoyable and fast-paced to explore. |
 
-### NPCs
+### 👤 NPCs
 
 You will encounter various specialized NPCs who can identify items or buy your unwanted gear.
 
@@ -30,7 +30,7 @@ You will encounter various specialized NPCs who can identify items or buy your u
 | **Smith** | Provides many useful services and can identify weapons and armor for a fee. |
 
 
-## Hiring Mercenaries
+## 🤝 Hiring Mercenaries
 
 You can interact with peaceful monsters (using the Chat `C` command) and **hire them as mercenaries**. You must pay them gold, but having heavily armed soldiers fighting alongside you makes the early and mid-game significantly easier.
 
