@@ -51,6 +51,8 @@ The [[Starting Guide for Beginners]] advises you to rely on your pet, but to sur
 | **[[/Monsters/Ghast]]** | Terminal disease (sickness). Their attacks can cause a fatal illness that will quickly kill you if not treated. | **Cure sickness immediately.** Have a noncursed [[/Items/Unicorn horn]], [[/Items/Fig]], or [[/Items/Jar of medicinal salve]] ready, or know the [[/Spells/Cure sickness]] spell. Kill them from a distance. |
 | **[[/Monsters/Nymphs]]** | Item theft. | They will steal your items and teleport away. Kill them with ranged attacks before they get close. |
 
+> ℹ️ **Tip:** Paralysis is extremely dangerous throughout the entire game, not just in the early levels. It is highly recommended to obtain Free Action (paralysis resistance) as early as possible to avert deaths related to being paralyzed.
+
 ## 🧬 Key Intrinsics and Resistances
 
 As you descend deeper, monsters will begin using magical, elemental, and status-inflicting attacks. Obtaining key resistances and intrinsics is vital for survival.
