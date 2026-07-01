@@ -44,23 +44,29 @@ You can interact with peaceful monsters (using the `C` Chat command) and **hire 
 
 As you descend deeper, monsters will begin using magical, elemental, and status-inflicting attacks. Obtaining key resistances and intrinsics is vital for survival.
 
-- **Poison Resistance**: Protects against poison darts, traps, and poisonous monster attacks or corpses (e.g., kobolds).
-- **Sleep Resistance**: Prevents being put to sleep by wands, traps, or sleep-inducing monsters.
-- **Free Action**: Grants complete immunity to paralysis attacks, which would otherwise leave you helpless.
-- **Death Resistance**: Essential for surviving late-game insta-death attacks (such as the Finger of Death spell or wands of death). Note that Magic Resistance does *not* protect against death attacks in GnollHack.
-- **Magic Resistance (MR)**: Protects you from polymorph traps, anti-magic traps, and most monster spells.
-- **Reflection**: Bounces ray attacks (like dragon breath and wands) back at the caster.
+| Intrinsic / Resistance | Effect / Protection |
+|:---|:---|
+| **Poison Resistance** | Protects against poison darts, traps, and poisonous monster attacks or corpses (e.g., kobolds). |
+| **Sleep Resistance** | Prevents being put to sleep by wands, traps, or sleep-inducing monsters. |
+| **Free Action** | Grants complete immunity to paralysis attacks, which would otherwise leave you helpless. |
+| **Death Resistance** | Essential for surviving late-game insta-death attacks (such as the Finger of Death spell or wands of death). Note that Magic Resistance does *not* protect against death attacks. |
+| **Magic Resistance (MR)** | Protects you from polymorph traps, anti-magic traps, and most monster spells. |
+| **Reflection** | Bounces ray attacks (like dragon breath and wands) back at the caster. |
 
 For a full breakdown of how to obtain these and how they function, see [[Resistances and Saving Throws]].
-
 
 ## 💎 Item Quality and Tier Upgrades
 
 Weapons, armor, and wands in GnollHack can possess quality modifiers that drastically improve their performance:
 
-- **Exceptional**: Weapons deal 2x base damage; body armor grants -4 AC and +1 MC; wands deal 2x base damage.
-- **Elite**: Weapons deal 3x base damage; body armor grants -8 AC and +2 MC; wands deal 3x base damage.
-- **Celestial / Primordial / Infernal**: Alignment-restricted (Lawful/Neutral/Chaotic). Weapons deal 4x base damage; body armor grants -12 AC and +4 MC.
+| Quality Tier | Weapons | Body Armor | Wands | Alignment & Restrictions |
+|:---|:---|:---|:---|:---|
+| **Exceptional** | 2x base damage | -4 AC, +1 MC | 2x base damage | None |
+| **Elite** | 3x base damage | -8 AC, +2 MC | 3x base damage | None |
+| **Celestial / Primordial / Infernal** | 4x base damage | -12 AC, +4 MC | — | Lawful / Neutral / Chaotic only |
+
+> ℹ️ **Note:** Other armor pieces (shields, boots, gloves) also receive AC and MC scaling based on their quality.
+
 
 You can visit a **Smith** NPC to repair damaged gear, rustproof items, and upgrade weapon and armor quality for a gold fee. For more details, see [[Exceptional, Elite, Celestial, Primordial, and Infernal Items]].
 
@@ -69,9 +75,11 @@ You can visit a **Smith** NPC to repair damaged gear, rustproof items, and upgra
 
 The deeper dungeon holds many debilitating status conditions. Knowing how to cure them instantly can save your run:
 
-- **Mummy Rot / Sickness**: Cured by eating a [[/Items/Fig]], using a [[/Items/Jar of medicinal salve]], applying a noncursed [[/Items/Unicorn horn]], or casting a [[/Spells/Cure sickness]] spell.
-- **Stoning / Petrification**: You only have one turn to react when stoning starts. Immediately eat a [[/Monsters/Lizard]] corpse or a [[/Items/Dragon fruit]], or use a [[/Items/Jar of basilisk blood]]. Always keep a lizard corpse or dragon fruit in your open inventory.
-- **Lycanthropy**: Cured by eating a [[/Items/Sprig of wolfsbane]] (which is poisonous, so ensure you have poison resistance), drinking holy water, or praying.
-- **Intelligence Drain**: Mind flayers and other tentacled enemies drain intelligence and cause amnesia. Wear a helmet to block 90% of these attacks, or wear a [[/Items/Ring of sustain ability]] for immunity. Restore lost attributes with a [[/Items/Potion of restore ability]] or a [[/Items/Cloudberry]].
+| Status Condition | Cure / Mitigation |
+|:---|:---|
+| **Mummy Rot / Sickness** | Eat a [[/Items/Fig]], use a [[/Items/Jar of medicinal salve]], apply a noncursed [[/Items/Unicorn horn]], or cast a [[/Spells/Cure sickness]] spell. |
+| **Stoning / Petrification** | **Act in 1 turn:** Eat a [[/Monsters/Lizard]] corpse or a [[/Items/Dragon fruit]], or use a [[/Items/Jar of basilisk blood]]. Always keep one in open inventory! |
+| **Lycanthropy** | Eat a [[/Items/Sprig of wolfsbane]] (requires poison resistance), drink holy water, or pray. |
+| **Intelligence Drain** | **Prevent:** Wear a helmet (blocks 90% of attacks), a [[/Items/Nose ring of cerebral safeguarding]], or a [[/Items/Ring of sustain ability]]. **Restore:** Drink a [[/Items/Potion of restore ability]] or eat a [[/Items/Cloudberry]]. |
 
 For more detailed strategies, read [[How to Cure Various Conditions]].
