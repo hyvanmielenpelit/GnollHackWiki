@@ -8,12 +8,12 @@ GnollHack is modern evolution of the legendary [NetHack](https://www.nethack.org
 
 GnollHack is best understood as a modernized version of NetHack that makes the classic experience more approachable for today’s players. It preserves the core mechanics and depth of NetHack while presenting them in a modern package, making it an ideal introduction to NetHack for modern gamers.
 
-## Introduction
+## ℹ️ Introduction
 
 - **[[Overview]]** — Main introduction to GnollHack
 - **[[Screenshots]]** — GnollHack screenshots from various platforms 
 
-## Comparison to Other Games
+## ⚖️ Comparison to Other Games
 
 - **[[Roguelike Comparison]]** — Find out how GnollHack compares to *NetHack*, *Pathos*, and *Shattered Pixel Dungeon*
 - **[[How GnollHack differs from NetHack]]** — A short article on how the development work put into GnollHack has improved the game
@@ -21,14 +21,14 @@ GnollHack is best understood as a modernized version of NetHack that makes the c
 - **[[Comparison to Other NetHack Variants]]** — Learn how the design philosophy of GnollHack differs from that of other NetHack variants
 - **[[Age Ratings]]** — GnollHack's age ratings in various regions
 
-## Getting Started
+## 🏁 Getting Started
 
 - **[[Download]]** — Downloading GnollHack and installation instructions
 - **[[Tutorials]]**
 - **[[Choosing the Right Gameplay Mode]]** *(modern versions only)*
 - **[[Choosing the Right Difficulty Level]]**
 
-## Playing
+## 🕹️ Playing
 
 ![Welcome to the Dungeons of Doom](/uploads/Home/descending-v2-q85.webp)
 
@@ -38,19 +38,19 @@ GnollHack is best understood as a modernized version of NetHack that makes the c
 - **[[Desktop-Only Features]]** — Take a look at the features that appear only on the desktop versions of GnollHack
 - **[[Keyboard Shortcuts]]** — GnollHack supports NetHack-style keyboard shortcuts, which are especially useful when playing with a physical keyboard 
 
-## Game Configuration
+## ⚙️ Game Configuration
 
-* **[[Settings]]** — GnollHack's modern ports have settings, which can be used to configure the game
-* **[[Options]]** — You can configure GnollHack via a NetHack-style Options file
+- **[[Settings]]** — GnollHack's modern ports have settings, which can be used to configure the game
+- **[[Options]]** — You can configure GnollHack via a NetHack-style Options file
 
-## Online Sharing
+## 🔗 Online Sharing
 
 - **[[Share Your Progress to Discord Server Channel]]** — Modern clients can share your progress to Discord
 - **[[GnollHack Account]]** — GnollHack Account supports top score recording, bones sharing, Junethack, and NetHack Scoreboard *(modern versions only)*
 - **[[Bones Sharing]]** — You can share your dead characters with others *(modern versions only)*
 - **[[Save File Tracking]]** — Modern Windows version requires that your save files are tracked online to make them eligible for server posting
 
-## Additional Information
+## 💡 Additional Information
 
 - **[[Features]]** — Main features of GnollHack
 - **[[Troubleshooting]]** — How to solve various technical problems
@@ -62,12 +62,12 @@ GnollHack is best understood as a modernized version of NetHack that makes the c
 - **[[Version Identifier Letters]]** — Find out what letters are used to describe different versions of GnollHack
 - **[[Credits]]**
 
-## Development
+## 🛠️ Development
 
 - **[[Development Information]]** — Build instructions and similar information
 - **[[Technological Features]]** — Major features of GnollHack from the development technology perspective
 
-## Contributions
+## 🤝 Contributions
 
 - **[[Art Contribution Guidelines]]** — Read this if you want to contribute art to GnollHack
 - **[[Code Contribution Guidelines]]** — Read this if you want to contribute code to GnollHack
@@ -75,18 +75,18 @@ GnollHack is best understood as a modernized version of NetHack that makes the c
 - **[[Creating Wiki Pages with AI Agent]]** — How to use Antigravity App and Gemini models to automatically create wiki pages
 
 
-## Additional Material
+## 🎬 Additional Material
 
 - **[[GnollHack Animations]]** — GnollHack-themed animated short films in short-form
 - **[[GnollHack Universe Videos]]** — GnollHack-themed photorealistic short films in short-form
 
-## Contact Us
+## 🗣️ Contact Us
 
 - **[[Communities]]** — Communities related to GnollHack
 - **[[Contact Information]]**
 - **[[Developer]]** — About Sound Mind Games (Hyvän mielen pelit ry)
 
-## Legal Information
+## 📄 Legal Information
 
 - **[[Privacy Policy]]**
 - **[[Terms and Conditions]]**
