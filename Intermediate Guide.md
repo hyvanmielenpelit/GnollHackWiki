@@ -1,8 +1,8 @@
-> 👉 **Welcome to the Intermediate Guide. This guide builds upon the basics from the [[Starting Guide for Beginners]] to help you survive the deeper dungeon. You will learn about the dungeon, the economy, and how to survive dangerous early-game monsters.**
+> 👉 **Welcome to the Intermediate Guide. This guide builds upon the basics from the [[Starting Guide for Beginners]] to help you survive the deeper dungeon.**
 
 ## 🗺️ Dungeon Progression & Branches
 
-The dungeon in GnollHack is not just a single straight line down; it features several branching paths. Knowing where to go and when to avoid certain areas is crucial for survival.
+The dungeon in GnollHack is not just a single straight line down; it features several branching paths.
 
 | Branch / Area | Description & Strategy |
 |:---|:---|
@@ -11,14 +11,6 @@ The dungeon in GnollHack is not just a single straight line down; it features se
 | **Minetown** | A guaranteed town level within the Gnomish Mines, featuring multiple shops and a temple with a priest. It is an excellent place to identify items and buy gear. |
 | **The Quest** | A unique branch tailored to your character's class. The entrance is a magic portal located between dungeon levels 11 and 16. You must be at least experience level 14 to enter it. |
 | **Gehennom** | The late-game hellish branch of the dungeon. Unlike NetHack, GnollHack has removed the tedious mazes from Gehennom, making it much more enjoyable and fast-paced to explore. |
-
-## 🏪 Shops and Economy
-
-GnollHack features a robust economy. Unlike traditional NetHack, **pets can no longer steal from shops**. However, gold is more plentiful, and you are expected to buy and sell items properly.
-
-### Managing Your Wealth
-
-Gold has significant weight in GnollHack. Carrying thousands of gold pieces will quickly leave you Burdened or Stressed, which can be fatal in combat. You should store your gold in a stash or find a [[/Items/bag of treasure hauling]], which reduces the weight of gold to a fraction of its normal amount. (Rogues start with one!)
 
 ### NPC Appraisers
 
@@ -40,8 +32,6 @@ You will encounter various specialized NPCs who can identify items or buy your u
 You can interact with peaceful monsters (using the `C` Chat command) and **hire them as mercenaries**. You must pay them gold, but having heavily armed soldiers fighting alongside you makes the early and mid-game significantly easier.
 
 ## ⚠️ Dangerous Early-Game Monsters
-
-Many monsters in the early game have special attacks that will instantly end your run if you are not prepared.
 
 | Monster | Danger | Survival Strategy |
 |:---|:---|:---|
