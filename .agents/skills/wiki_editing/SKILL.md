@@ -72,3 +72,102 @@ When editing or creating pages for the GnollHack Wiki, follow these conventions 
 ## 8. Game Commands and Keyboard Shortcuts
 - **Game Commands**: Always mention a game command by its name with a capital letter, followed by its keyboard shortcut in parentheses formatted as code. Example: Pray (`Alt-p`). Do not mention an extended command (e.g., `#pray`) for a game command if there is a keyboard shortcut available for it.
 - **Keyboard Shortcuts Casing**: Pay strict attention to the casing of letters in keyboard shortcuts. A lowercase letter implies the key pressed normally (e.g., `Alt-p`), whereas an uppercase letter implies holding down the Shift key (e.g., `Alt-P` would be equivalent to `Alt-Shift-p`).
+
+## 9. Recommended Unicode Icons
+
+When editing or creating headings for pages, always use appropriate Unicode icons/emojis immediately after the heading markers (`## ` or `### `) to maintain a rich, consistent visual aesthetic across the wiki. Use this verified list as a guide:
+
+- **General Guides & Meta Info**:
+  - General Info / Overview: `ℹ️`
+  - Starting Guide / Beginner Info: `🏁`
+  - Intermediate Guide: `⛰️`
+  - Advanced Guide / Strategy: `🏆`
+  - Difficulty Levels: `🌟`
+  - Gameplay Modes: `🕹️`
+  - Settings / Options: `⚙️`
+  - Help / FAQ: `❓`
+  - Platforms / Installation (Android, iOS, Windows, macOS, Linux, Steam): `💻` or `📱` or `🖥️`
+  - Developer Workflows / Build Instructions / Code Contributions: `🛠️` or `🧑‍💻`
+  - Release / Build Checklists: `📋` or `✅`
+  - Legal Pages / Privacy & Cookie Policies: `📄` or `🔒`
+  - Scores / Tournaments: `🏆` or `🎖️` or `💯`
+- **Character Attributes & Core Stats**:
+  - Core Attributes (General): `💪` or `🧬`
+  - Strength: `💪`
+  - Dexterity: `🎯` or `🤸`
+  - Constitution / Health: `🔋` or `🪵`
+  - Intelligence: `🧠`
+  - Wisdom: `📖` or `🦉`
+  - Charisma: `✨` or `👑`
+  - Experience / Level: `📈` or `🌟`
+  - Hit Points (HP) / Health: `❤️`
+  - Mana (MP) / Spell Power: `🔮` or `💙`
+  - Alignments (General): `⚖️`
+  - Lawful / Halo / Deities: `⚖️` or `😇`
+  - Neutral / Balance: `😐` or `☯️`
+  - Chaotic / Chaos: `😈` or `🔥` or `🌀`
+- **Dungeon Exploration & Gameplay**:
+  - Dungeon Branches / Paths (General): `🗺️` or `🧭`
+  - Gnomish Mines: `⛏️`
+  - Sokoban / Puzzles: `🧩`
+  - Portals / The Quest: `🌀`
+  - Gehennom: `🔥` or `😈`
+  - Towns / Shops / Merchants: `🏪` or `🏛️`
+  - Altars / Temples / Sacrifice / Praying: `⛪` or `🕯️` or `🛐` or `🩸`
+  - Fountains: `⛲`
+  - Traps / Hazards: `🕳️` or `🕸️` or `⚠️`
+  - Movement / Travel: `🚶` or `🏃` or `👟`
+  - Encumbrance / Carrying Capacity: `🎒` or `🏋️`
+  - Companion / Pets / Canines / Felines: `🐾` or `🐶` or `🐱`
+  - Mercenaries / Hirelings: `🤝` or `💂` or `💰`
+- **Combat & Monsters**:
+  - Combat (General) / Melee: `⚔️` or `🗡️`
+  - Ranged / Ammunition / Bows / Throwing: `🏹` or `🎯`
+  - Monsters / Enemies / Bestiary (General): `👹` or `🐉` or `💀` or `👾`
+  - Bosses / Unique Monsters / Nemesis: `👑` or `😈` or `💀`
+  - Growing Up (Monsters/Pets): `🐣` or `🌱` or `📈`
+- **Equipment & Wearables**:
+  - Wearable Items / Equipment Screen: `👕` or `🛡️` or `🎒`
+  - Body Armor / Shirts / Robes / Uniforms: `👕` or `🥋` or `🧥`
+  - Shields: `🛡️`
+  - Helms / Headwear: `🪖`
+  - Cloaks / Capes: `🧥`
+  - Gloves / Gauntlets: `🧤`
+  - Boots / Shoes / Footwear: `🥾`
+  - Bracers: `💪`
+  - Rings: `💍`
+  - Amulets: `📿` or `🧿`
+  - Quality Tiers (Exceptional, Elite, Celestial, etc.): `💎`
+- **Items & Consumables**:
+  - Item Identification: `🔍` or `👁️`
+  - Food / Comestibles: `🍏` or `🥩` or `🍞`
+  - Potions / Alchemy: `🧪` or `⚗️`
+  - Diluted Potions: `🧪` or `💧`
+  - Evaporation / Destruction: `💨` or `💥`
+  - Scrolls: `📜`
+  - Wands: `🪄`
+  - Spellbooks / Books: `📕` or `📖`
+  - Tools / Miscellaneous Items: `🛠️` or `🧰`
+  - Gems / Precious Stones / Touchstones: `💎` or `🪨`
+  - Artifacts / Special Gifts: `✨` or `👑`
+  - Wishing / Genies: `🧞` or `✨`
+- **Magic & Spells**:
+  - Spellcasting / Magic Systems: `🔮` or `🧙`
+  - Spells (General): `✨` or `⚡`
+  - Healing / Divine / Recovery: `🩹` or `❤️` or `➕`
+  - Offensive / Conjuration Spells: `💥` or `🔥` or `⚡`
+  - Utility / Divination / Transmutation Spells: `👁️` or `🧪` or `🌀`
+- **Status Conditions & Hazards**:
+  - Status Conditions (General): `🩹` or `🤒`
+  - Sickness / Mummy Rot: `🤢` or `🤒`
+  - Petrification / Stone: `🗿` or `🪨`
+  - Lycanthropy: `🐺`
+  - Curses / Negative Effects: `💀` or `🖤` or `❌`
+  - Blessings / Holy / Uncursed: `⭐` or `💛` or `👼`
+  - Blindness: `🙈` or `🕶️`
+  - Stun / Confusion: `🌀` or `💫`
+  - Hallucination: `🌈` or `🍄`
+  - Bones Files / Player Graves / Death: `🪦` or `💀`
+- **Audio & Sound**:
+  - Soundtracks / Music / Audio Systems: `🎵` or `🔊` or `🎹`
+  - Voiceovers / Dialogue: `🗣️` or `🎙️`
