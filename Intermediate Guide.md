@@ -54,11 +54,11 @@ The [[Starting Guide for Beginners]] advises you to rely on your pet, but to sur
 
 > ℹ️ **Tip:** Paralysis is extremely dangerous throughout the entire game, not just in the early levels. It is highly recommended to obtain Free Action (paralysis resistance) as early as possible to avert deaths related to being paralyzed.
 
-## 🧬 Key Intrinsics and Resistances
+## 🧬 Key Resistances
 
-As you descend deeper, monsters will begin using magical, elemental, and status-inflicting attacks. Obtaining key resistances and intrinsics is vital for survival.
+As you descend deeper, obtaining key resistances is vital for survival.
 
-| Intrinsic / Resistance | Effect / Protection |
+| Resistance | Effect / Protection |
 |:---|:---|
 | **Poison Resistance** | Protects against poison darts, traps, and poisonous monster attacks or corpses (e.g., kobolds). |
 | **Sleep Resistance** | Prevents being put to sleep by wands, traps, or sleep-inducing monsters. |
