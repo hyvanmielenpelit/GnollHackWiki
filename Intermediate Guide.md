@@ -1,4 +1,4 @@
-> 👉 **Welcome to the Intermediate Guide. This guide builds upon the basics from the [[Starting Guide for Beginners]] to help you survive the deeper dungeon. You will learn about early-game routing, the economy, advanced item identification, pet management, and how to survive the most dangerous monsters.**
+> 👉 **Welcome to the Intermediate Guide. This guide builds upon the basics from the [[Starting Guide for Beginners]] to help you survive the deeper dungeon. You will learn about the dungeon, the economy, and how to survive dangerous early-game monsters.**
 
 ## 🗺️ Dungeon Progression & Branches
 
