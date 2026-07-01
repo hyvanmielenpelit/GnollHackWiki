@@ -2,7 +2,7 @@
 
 > 👉 **GnollHack introduces major enhancements to NetHack 3.6.2, including modern graphics, full audio, an overhauled UI, and significant gameplay rebalances. If you are an experienced NetHack player transitioning to GnollHack, this guide highlights the crucial mechanical, interface, and strategic changes you need to know to survive and thrive.**
 
-## Why Play GnollHack?
+## ❓ Why Play GnollHack?
 
 If you are a NetHack veteran, you might be wondering why you should play GnollHack over vanilla NetHack or other popular variants. Here are the main highlights that make GnollHack a unique experience:
 
@@ -18,7 +18,7 @@ If you are a NetHack veteran, you might be wondering why you should play GnollHa
 
 We recommend trying out a spellcasting class like a [[/Roles/Wizard]] or a hybrid like an [[/Roles/Archaeologist]] (who now starts with a [[/Items/hand crossbow]]!) to experience the new spell system and ranged combat mechanics. Alternatively, try out the new [[/Races/Gnoll]] race to see their specialized starting gear.
 
-## General Advice
+## 💡 General Advice
 
 Keep these crucial paradigm shifts in mind as you start your journey:
 
@@ -35,7 +35,7 @@ Keep these crucial paradigm shifts in mind as you start your journey:
 
 > ⚠️ **Warning:** Remember to acquire **Death Resistance** against insta-death attacks. Magic Resistance alone will **not** protect you from these anymore!
 
-## Gameplay Mode
+## 🕹️ Gameplay Mode
 
 GnollHack offers several [[gameplay modes|Choosing the Right Gameplay Mode]] in its modern interface. By default, the game may start in [[Modern Mode]], where your character resurrects at the starting altar upon dying.
 
@@ -43,7 +43,7 @@ For a traditional NetHack experience with permanent death, you should select **[
 
 > ℹ️ **Note:** [[Classic Mode]] is required for your scores to be recorded on the [NetHack Scoreboard](https://nethackscoreboard.org/).
 
-## Difficulty
+## 🌟 Difficulty
 
 We recommend starting between the [[/Difficulties/Adept]] and [[/Difficulties/Expert]] difficulties.
 
@@ -59,18 +59,18 @@ We recommend starting between the [[/Difficulties/Adept]] and [[/Difficulties/Ex
 
 GnollHack's late game is more difficult than NetHack's.
 
-## Modern Interface & Command Keys
+## 📱 Modern Interface & Command Keys
 
 GnollHack features a modern, accessible interface compared to traditional NetHack, including action menus and quick-looting mechanics.
 
-### Action Menus and Quick Looting
+### 🎒 Action Menus and Quick Looting
 
 - **Action Menus:** You can interact with an item in your inventory by opening the Inventory (`i`) and then clicking or pressing its letter. This opens a context-sensitive action menu.
 - **Quick Container Actions:** You can manage bags efficiently, whether they are on the ground, in a chest, or in another bag:
   - Use Apply (`a`) on a bag, then press Drop (`d`) to drop items from the bag directly onto the ground.
   - Use Apply (`a`) on a bag, then press Pick up (`p`) to pick up items from the ground directly into the bag.
 
-### Important Command Changes
+### ⌨️ Important Command Changes
 
 > ℹ️ **Note:** The Exchange weapons (`x`) command is greatly improved: **it does not cost a turn to use!** Combined with Switch handedness (`Alt-h`), you can control whether you switch both weapon and shield, or only the right-hand weapon.
 
@@ -92,11 +92,11 @@ GnollHack features a modern, accessible interface compared to traditional NetHac
 | Commands menu (`Alt-c`) | New | Open the extended commands menu. |
 | Yell for pets (`Y`) | New | Call your pets to your location. |
 
-## Character Progression & Magic
+## 💪 Character Progression & Magic
 
 The way your character grows and casts spells has seen a major overhaul.
 
-### Attributes and Abilities
+### 🧬 Attributes and Abilities
 
 - **No Exercise Training:** The attribute training system from NetHack has been removed. You gain abilities and stats by eating corpses (e.g., Ogres grant Constitution, Nymphs grant Charisma and no longer give teleportitis).
 - **Fruit Bonuses:** Some fruits, such as [[bananas|/Items/banana]], grant attribute points. Use Examine Items (`Alt-x`) to check what different fruits do.
@@ -105,13 +105,13 @@ The way your character grows and casts spells has seen a major overhaul.
 - **Immediate Stat Scaling:** Changes in attributes reflect immediately in your Hit Points and Mana Points. Finding a Constitution-boosting item instantly increases your maximum HP.
 - **Faster Regeneration:** Hit Points and Mana regenerate much faster than in NetHack.
 
-### Spell Casting
+### 🔮 Spell Casting
 
 - **More Spells:** GnollHack features a wider variety of spells.
 - **Material Components:** Most spells must be prepared using Mix (`X`) with material components. Each preparation gives you a set number of castings for that spell.
 - **Armor Penalties:** Spells with a somatic component suffer penalties from armor use. Generally, Priests can cast spells while wearing armor, but Wizards cannot.
 
-## Ranged Combat Enhancements
+## 🏹 Ranged Combat Enhancements
 
 > 💡 **Tip:** You are encouraged to use ranged weapons first, and then swap to melee weapons (using the 0-turn Exchange weapons (`x`) command) when monsters close the gap!
 
@@ -120,7 +120,7 @@ The way your character grows and casts spells has seen a major overhaul.
 - **Reach Weapons:** Polearms are significantly better, able to hit enemies 2 squares away in **all** directions, regardless of your skill level. Spears can also hit 2 squares away (via the apply command), provided you have at least "Basic" skill in Spears.
 - **Durable Missiles:** Missiles (like arrows) break very rarely. Uncursed missiles have only a 5% chance to break, and blessed missiles do not break at all!
 
-## Items and Equipment
+## 🎒 Items and Equipment
 
 Many items have been rebalanced or entirely changed. 
 
@@ -143,7 +143,7 @@ Many items have been rebalanced or entirely changed.
   - Conflict has been nerfed: it is no longer a permanent extrinsic. Items granting conflict now consume charges.
   - Some mushrooms are poisonous. Eat them with caution!
 
-### Starting Items
+### 🏁 Starting Items
 
 GnollHack changes the initial inventory of almost every role to make the early game more dynamic and balanced:
 
@@ -158,7 +158,7 @@ GnollHack changes the initial inventory of almost every role to make the early g
   - Cavemen start with a [[/Items/prayerstone]].
 - **Racial Gear Swaps:** If you play as the new [[Gnoll|/Races/Gnoll]] race, your starting swords and maces are swapped out for flails, bows for crossbows, and standard armor for specialized gnollish gear.
 
-## Shops and Economy
+## 🏪 Shops and Economy
 
 - **No Shop Stealing:** Pets can no longer steal from shops. However, you naturally acquire more money during your run, so just buy the items you need!
 - **Sell Spellbooks:** You will find many expensive spellbooks on your journey. If you do not need them, sell them and buy something useful.
@@ -168,9 +168,9 @@ GnollHack changes the initial inventory of almost every role to make the early g
   - Smiths, Geologists, and Artificers can also identify certain item types.
   - Geologists will buy gems, and Artificers will buy spellbooks.
 
-## Dungeon and Monster Changes
+## 👹 Dungeon and Monster Changes
 
-### Dungeon Features
+### 🗺️ Dungeon Features
 
 - **Starting Room Stash:** Your starting room now always contains a co-aligned altar and a stash (a magic chest). The stash contains 2 to 3 random items.
 - **More Loot:** The overall number of items generated in the dungeon has been greatly increased.
@@ -180,7 +180,7 @@ GnollHack changes the initial inventory of almost every role to make the early g
 - **Traps:** Disarming traps yields items. Disarming magical traps usually yields wands.
 - **The 'Gilthoniel' Rune:** You can engrave a new rune word, `Gilthoniel`, to protect your items. Monsters cannot pick up items or loot containers located on squares protected by this rune.
 
-### Monsters
+### 👹 Monsters
 
 - **The Touch of Death:** High-level priests (like the High Priest in the Sanctum) can cast the Touch of Death. **You need Death Resistance** to survive this; Magic Resistance is no longer enough!
 - **Wizards and Liches:** High-level mage casters (like the [[/Monsters/Wizard of Yendor]]) can no longer cast the Touch of Death, so you do not need Death Resistance for them.
@@ -191,25 +191,25 @@ GnollHack changes the initial inventory of almost every role to make the early g
 - **Faster Scaling:** Higher level monsters appear quicker as you delve deeper compared to NetHack.
 - **Hire Mercenaries:** You can hire peaceful monsters to join your party. High Charisma makes this a highly effective way to acquire powerful allies.
 
-## Pets and Companions
+## 🐾 Pets and Companions
 
 - **Improved Pet Pathing:** Pets now use an advanced pathfinding algorithm (the same used for travel). They will no longer get permanently stuck on the other side of the map!
 - **Pet Commands:** You can give items directly to your pets and command them to equip, undress, or drop them. You can also command them to stay put (useful to prevent them from eating specific corpses).
 - **Aggressive Pets:** Pets will actively attack high-level monsters, making them more useful but also putting them at greater risk of dying.
 - **Pet Status Visibility:** Your pet's HP and other statistics are clearly visible on the status lines.
 
-## Scoring Changes
+## 🏆 Scoring Changes
 
 The scoring system has been completely redesigned.
 
 - **No Hoarding for Score:** Unlike NetHack, you do **not** gain any score from hoarding gold, gems, artifacts, or amulets.
 - **How to Score:** Your score is primarily based on delving deeper into the dungeon, completing achievements, your chosen difficulty, and (if you ascend) your conducts and turn count (lower is better).
 
-## Options *(Linux ASCII version only)*
+## ⚙️ Options *(Linux ASCII version only)*
 
 If you are using the Linux curses interface (instead of the modern GUI), we recommend adjusting these settings in your options file:
 
-### Enable 4 Status Lines
+### 🖥️ Enable 4 Status Lines
 
 You should play GnollHack with **at least 4 status lines** to see all relevant information. Add this to your options file:
 
@@ -217,7 +217,7 @@ You should play GnollHack with **at least 4 status lines** to see all relevant i
 
 This enables automatic adjustment with a minimum of 4 lines.
 
-### Rebind the Save Key *(Optional)*
+### ⌨️ Rebind the Save Key *(Optional)*
 
 If you strongly prefer the original NetHack save key and don't mind rebinding the Enhance menu, you can add:
 

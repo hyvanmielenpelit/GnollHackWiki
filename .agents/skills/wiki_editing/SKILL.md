@@ -151,6 +151,7 @@ When editing or creating headings for pages, always use appropriate Unicode icon
   - Tools / Miscellaneous Items: `🛠️` or `🧰`
   - Gems / Precious Stones / Touchstones: `💎` or `🪨`
   - Artifacts / Special Gifts: `✨` or `👑`
+  - Starting Items: `🏁`
   - Wishing / Genies: `🧞` or `✨`
 - **Magic & Spells**:
   - Spellcasting / Magic Systems: `🔮` or `🧙`
@@ -191,6 +192,7 @@ When formatting inline content, tables, lists, or callouts, use appropriate Unic
   - Keyboard Shortcuts / Keys / Commands: `⌨️`
   - Mouse Clicks / Gestures / Actions: `🖱️`
   - Menus / Settings / Command Rows: `⚙️` or `🕹️` or `📱`
+  - Status Lines / Display Layout: `🖥️`
   - External Links / Link References: `🔗`
 
 - **Game Statuses & Indicators**:
