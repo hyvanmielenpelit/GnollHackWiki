@@ -6,7 +6,7 @@
 
 The dungeon in GnollHack is not just a single straight line down; it features several branching paths.
 
-| Dungeon Branch | Entrance Found In | Description |
+| Dungeon Branch / Area | Area / Entrance Found In | Description |
 |:---|:---|:---|
 | **Dungeons of Doom** | The starting branch | The main dungeon branch. You start on level 1 and must descend to find the [[/Items/Amulet of Yendor]]. Stick to this path initially. The deeper you go, the harder the monsters become. |
 | **The Gnomish Mines** | Dungeons of Doom (levels 2-4) | A mostly unlit cavernous branch populated primarily by gnomes and dwarves. |
