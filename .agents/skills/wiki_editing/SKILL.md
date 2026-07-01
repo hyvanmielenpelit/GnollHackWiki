@@ -171,3 +171,49 @@ When editing or creating headings for pages, always use appropriate Unicode icon
 - **Audio & Sound**:
   - Soundtracks / Music / Audio Systems: `🎵` or `🔊` or `🎹`
   - Voiceovers / Dialogue: `🗣️` or `🎙️`
+
+## 10. Recommended Unicode Icons for Other Uses
+
+When formatting inline content, tables, lists, or callouts, use appropriate Unicode icons/emojis to maintain readability and visual distinction:
+
+- **Alerts & Callouts** (for blockquotes `>`):
+  - Note: `ℹ️` (`> ℹ️ **Note:** ...`)
+  - Tip: `💡` (`> 💡 **Tip:** ...`)
+  - Important: `📢` (`> 📢 **Important:** ...`)
+  - Warning: `⚠️` (`> ⚠️ **Warning:** ...`)
+  - Caution: `🛑` (`> 🛑 **Caution:** ...`)
+
+- **Document Structure**:
+  - Ingress: `👉` (`> 👉 **Welcome...**` at the top of a page)
+
+- **User Interface & Interaction Controls**:
+  - Keyboard Shortcuts / Keys / Commands: `⌨️`
+  - Mouse Clicks / Gestures / Actions: `🖱️`
+  - Menus / Settings / Command Rows: `⚙️` or `🕹️` or `📱`
+  - External Links / Link References: `🔗`
+
+- **Game Statuses & Indicators**:
+  - Active / Classic Mode / Enabled / Yes: `🟢` or `✅`
+  - Warning / Classic-Casual Mode / Inactive: `🟡` or `😐`
+  - Permadeath Mode / Disabled / Dead / No: `🔴` or `❌`
+  - Allowed / Available: `✅`
+  - Prohibited / Restricted: `❌`
+
+- **Inline Item & Ability Modifiers**:
+  - Blessed / Holy / Amber altar flash: `⭐` or `💛` or `👼`
+  - Cursed / Cursed / Black altar flash: `💀` or `🖤` or `😈`
+  - Uncursed / Neutral / No altar flash: `⚪`
+  - Intrinsic Properties: `🧬`
+  - Extrinsic Properties (Equipment-granted): `👕` or `🛡️` or `💍`
+  - Upgraded Quality (Exceptional, Elite, etc.): `💎`
+
+- **In-Text Alignment, Gender, & Role Modifiers**:
+  - Lawful: `⚖️` or `😇`
+  - Neutral: `😐` or `☯️`
+  - Chaotic: `😈` or `🔥` or `🌀`
+  - Male: `♂️`
+  - Female: `♀️`
+
+- **Economy & Value**:
+  - Gold / Price / Cost / Shop purchases: `🪙` or `💰`
+
