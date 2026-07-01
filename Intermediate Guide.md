@@ -1,6 +1,6 @@
 > 👉 **Welcome to the Intermediate Guide. This guide builds upon the basics from the [[Starting Guide for Beginners]] to help you survive the deeper dungeon.**
 
-## 🗺️ Dungeon Progression & Branches
+## 🗺️ Dungeon Branches
 
 The dungeon in GnollHack is not just a single straight line down; it features several branching paths.
 
@@ -13,7 +13,7 @@ The dungeon in GnollHack is not just a single straight line down; it features se
 | **The Quest** | A unique branch tailored to your character's class. The entrance is a magic portal located between dungeon levels 11 and 16. You must be at least experience level 14 to enter it. |
 | **Gehennom** | The late-game hellish branch of the dungeon. Unlike NetHack, GnollHack has removed the tedious mazes from Gehennom, making it much more enjoyable and fast-paced to explore. |
 
-### NPC Appraisers
+### NPCs
 
 You will encounter various specialized NPCs who can identify items or buy your unwanted gear.
 
@@ -39,3 +39,39 @@ You can interact with peaceful monsters (using the `C` Chat command) and **hire 
 | **[[/Monsters/Cockatrice]]** | Instant death (petrification) upon physical contact. | **Never touch them bare-handed.** Wear gloves before hitting them in melee. Do not eat their corpses. If you fall into a pit while carrying a cockatrice corpse, you will turn to stone and die. |
 | **[[/Monsters/Floating eye]]** | Passive paralysis. If you hit them in melee, you will be paralyzed for many turns while other monsters kill you. | **Use ranged combat.** Shoot them with arrows, darts, or spells. Alternatively, apply a blindfold before hitting them (you cannot be paralyzed if you cannot see them). |
 | **[[/Monsters/Nymphs]] & [[/Monsters/Leprechaun]]** | Item and gold theft. | They will steal your items/gold and teleport away. Kill them with ranged attacks before they get close. If you eat a Leprechaun corpse, you may get teleportitis! |
+
+## 🧬 Key Intrinsics and Resistances
+
+As you descend deeper, monsters will begin using magical, elemental, and status-inflicting attacks. Obtaining key resistances and intrinsics is vital for survival.
+
+- **Poison Resistance**: Protects against poison darts, traps, and poisonous monster attacks or corpses (e.g., kobolds).
+- **Sleep Resistance**: Prevents being put to sleep by wands, traps, or sleep-inducing monsters.
+- **Free Action**: Grants complete immunity to paralysis attacks, which would otherwise leave you helpless.
+- **Death Resistance**: Essential for surviving late-game insta-death attacks (such as the Finger of Death spell or wands of death). Note that Magic Resistance does *not* protect against death attacks in GnollHack.
+- **Magic Resistance (MR)**: Protects you from polymorph traps, anti-magic traps, and most monster spells.
+- **Reflection**: Bounces ray attacks (like dragon breath and wands) back at the caster.
+
+For a full breakdown of how to obtain these and how they function, see [[Resistances and Saving Throws]].
+
+
+## 💎 Item Quality and Tier Upgrades
+
+Weapons, armor, and wands in GnollHack can possess quality modifiers that drastically improve their performance:
+
+- **Exceptional**: Weapons deal 2x base damage; body armor grants -4 AC and +1 MC; wands deal 2x base damage.
+- **Elite**: Weapons deal 3x base damage; body armor grants -8 AC and +2 MC; wands deal 3x base damage.
+- **Celestial / Primordial / Infernal**: Alignment-restricted (Lawful/Neutral/Chaotic). Weapons deal 4x base damage; body armor grants -12 AC and +4 MC.
+
+You can visit a **Smith** NPC to repair damaged gear, rustproof items, and upgrade weapon and armor quality for a gold fee. For more details, see [[Exceptional, Elite, Celestial, Primordial, and Infernal Items]].
+
+
+## 🩹 Status Conditions & Curing Strategies
+
+The deeper dungeon holds many debilitating status conditions. Knowing how to cure them instantly can save your run:
+
+- **Mummy Rot / Sickness**: Cured by eating a [[/Items/Fig]], using a [[/Items/Jar of medicinal salve]], applying a noncursed [[/Items/Unicorn horn]], or casting a [[/Spells/Cure sickness]] spell.
+- **Stoning / Petrification**: You only have one turn to react when stoning starts. Immediately eat a [[/Monsters/Lizard]] corpse or a [[/Items/Dragon fruit]], or use a [[/Items/Jar of basilisk blood]]. Always keep a lizard corpse or dragon fruit in your open inventory.
+- **Lycanthropy**: Cured by eating a [[/Items/Sprig of wolfsbane]] (which is poisonous, so ensure you have poison resistance), drinking holy water, or praying.
+- **Intelligence Drain**: Mind flayers and other tentacled enemies drain intelligence and cause amnesia. Wear a helmet to block 90% of these attacks, or wear a [[/Items/Ring of sustain ability]] for immunity. Restore lost attributes with a [[/Items/Potion of restore ability]] or a [[/Items/Cloudberry]].
+
+For more detailed strategies, read [[How to Cure Various Conditions]].
