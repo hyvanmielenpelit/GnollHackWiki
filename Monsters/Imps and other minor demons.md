@@ -1,0 +1,6 @@
+- [[/Monsters/Manes]]
+- [[/Monsters/Lemure]]
+- [[/Monsters/Homunculus]]
+- [[/Monsters/Imp]]
+- [[/Monsters/Quasit]]
+- [[/Monsters/Tengu]]

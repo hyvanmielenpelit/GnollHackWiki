@@ -1,0 +1,2 @@
+- [[/Monsters/Yellow light]]
+- [[/Monsters/Black light]]

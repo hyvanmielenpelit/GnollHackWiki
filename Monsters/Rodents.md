@@ -1,0 +1,6 @@
+- [[/Monsters/Sewer rat]]
+- [[/Monsters/Giant rat]]
+- [[/Monsters/Woodchuck]]
+- [[/Monsters/Rabid rat]]
+- [[/Monsters/Rock mole]]
+- [[/Monsters/Wererat]]

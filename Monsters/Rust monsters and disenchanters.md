@@ -1,0 +1,2 @@
+- [[/Monsters/Rust monster]]
+- [[/Monsters/Disenchanter]]

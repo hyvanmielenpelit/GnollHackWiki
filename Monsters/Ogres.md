@@ -1,0 +1,6 @@
+- [[/Monsters/Ogre]]
+- [[/Monsters/Ogre lord]]
+- [[/Monsters/Ogre overlord]]
+- [[/Monsters/Ogre mage]]
+- [[/Monsters/Ogre king]]
+- [[/Monsters/Ogre archmage]]

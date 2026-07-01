@@ -1,0 +1,2 @@
+- [[/Monsters/Ghost]]
+- [[/Monsters/Shade]]

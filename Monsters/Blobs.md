@@ -1,0 +1,4 @@
+- [[/Monsters/Quivering blob]]
+- [[/Monsters/Acid blob]]
+- [[/Monsters/Gelatinous cube]]
+- [[/Monsters/Mucilaginous cube]]
