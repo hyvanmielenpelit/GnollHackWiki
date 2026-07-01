@@ -58,16 +58,19 @@ The [[Starting Guide for Beginners]] advises you to rely on your pet, but to sur
 
 As you descend deeper, obtaining key resistances is vital for survival.
 
-| Resistance | Effect / Protection |
-|:---|:---|
-| **Poison Resistance** | Protects against poison darts, traps, and poisonous monster attacks or corpses (e.g., kobolds). |
-| **Sleep Resistance** | Prevents being put to sleep by wands, traps, or sleep-inducing monsters. |
-| **Free Action** | Grants complete immunity to paralysis attacks, which would otherwise leave you helpless. |
-| **Death Resistance** | Essential for surviving late-game insta-death attacks (such as the Finger of Death spell or wands of death). Note that Magic Resistance does *not* protect against death attacks. |
-| **Magic Resistance (MR)** | Protects you from polymorph traps, anti-magic traps, and most monster spells. |
-| **Reflection** | Bounces ray attacks (like dragon breath and wands) back at the caster. |
+| Resistance | Effect | How to Gain As Intrinsic<sup>1</sup> | How to Gain As Extrinsic<sup>2</sup> |
+|:---|:---|:---|:---|
+| **Poison Resistance** | Protects against poison darts, traps, and poisonous monster attacks or corpses (e.g., kobolds). | Starting as certain races/roles (e.g., [[/Races/Orc]], [[/Roles/Barbarian]], [[/Roles/Healer]]), or gaining levels in specific roles. | [[/Items/Amulet versus poison]], [[/Items/Ring of poison resistance]], or [[/Items/Green dragon scale mail]]. |
+| **Sleep Resistance** | Prevents being put to sleep by wands or traps. | Eating corpses (e.g., [[/Monsters/Elf]], [[/Monsters/Orange dragon]]), starting as a [[/Roles/Monk]], or gaining levels as an [[/Races/Elf]]. | [[/Items/Orange dragon scale mail]]. |
+| **Free Action** | Grants complete immunity to paralysis attacks, which would otherwise leave you helpless. | Gaining levels as an [[/Races/Elf]]. | [[/Items/Ring of free action]], or [[/Items/Orange dragon scale mail]]. |
+| **Death Resistance** | Essential for surviving late-game insta-death attacks (such as the Finger of Death spell or a [[/Items/wand of death]]). | Gaining levels as a [[/Roles/Priest]]. | [[/Items/Ring of protection from undeath]], [[/Items/Amulet versus undeath]], [[/Items/Gown of the archbishops]], or [[/Items/Black dragon scale mail]]. |
+| **Magic Resistance** | Protects you from polymorph traps and most monster spells. *Note that Magic Resistance does *not* protect against death attacks.* | ❌ | [[/Items/Cloak of magic resistance]], [[/Items/Gray dragon scale mail]], or certain artifacts. |
+| **Reflection** | Bounces ray attacks (like dragon breath and wands) back at the caster. | ❌ | [[/Items/Amulet of reflection]], [[/Items/Shield of reflection]], or [[/Items/Silver dragon scale mail]]. |
 
-For a full breakdown of how to obtain these and how they function, see [[Resistances and Saving Throws]].
+- <sup>1</sup> *Intrinsic* is an innate ability that doesn't come from an item.
+- <sup>2</sup> *Extrinsic* is an ability granted by an item.
+
+For a full breakdown of resistances, see [[Resistances and Saving Throws]].
 
 ## 💎 Item Quality and Tier Upgrades
 
