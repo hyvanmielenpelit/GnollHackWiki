@@ -1,3 +1,5 @@
+![Intermediate Guide](/uploads/Intermediate%20Guide/intermediate-guide-q85.webp)
+
 > 👉 **Welcome to the Intermediate Guide. This guide builds upon the basics from the [[Starting Guide for Beginners]] to help you survive the deeper dungeon.**
 
 ## 🗺️ Dungeon Branches
