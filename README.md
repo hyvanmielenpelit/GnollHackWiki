@@ -2,9 +2,9 @@
 
 ![gnollhack-wiki-256](/uploads/Editing%20Wiki%20with%20Visual%20Studio%20Code/gnollhack-wiki-256.webp)
 
-GnollHack wiki contains the official information about [GnollHack](https://gnollhack.com/), a modern roguelike RPG built upon the codebase of [NetHack](https://nethack.org).
+The GnollHack wiki contains the official information about [GnollHack](https://gnollhack.com/), a modern roguelike RPG built upon the codebase of [NetHack](https://nethack.org).
 
-GnollHack wiki can be accessed at [https://wiki.gnollhack.com/](https://wiki.gnollhack.com/).
+The GnollHack wiki can be accessed at [https://wiki.gnollhack.com/](https://wiki.gnollhack.com/).
 
 This repository contains the content files of GnollHack wiki, which are basically several images and [Markdown](https://www.markdownguide.org/) files using a Gollum-style wikilink syntax. You can learn more about the syntax in [Gollum wiki](https://github.com/gollum/gollum/wiki). Most importantly, wikilinks with an alias follow the convention `[[Alias|Page Name]]` instead of `[[Page Name|Alias]]` syntax of MediaWiki.
 
