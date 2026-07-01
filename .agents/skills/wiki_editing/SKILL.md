@@ -58,6 +58,7 @@ When editing or creating pages for the GnollHack Wiki, follow these conventions 
 ## 6. Spelling
 - **Archaeologist**: Always prefer the spelling "Archaeologist" (with the 'a' in the middle) instead of "Archeologist". This applies to all references in the wiki and the game.
 - **Gehennom**: Always use the term "Gehennom" and never "Hell".
+- **Leucrotta**: Always spell the monster name as "Leucrotta" (with a 'u') and never "Leocrotta" (which is the NetHack spelling).
 - **The Hand of Elbereth**: Never use the term "the Hand of Elbereth" in a generic sense when referring to crowning (unrelated to the character's alignment). Only use "the Hand of Elbereth" when specifically referring to the crowning title for Lawful characters. For generic cases, simply use "crowning" or "crowned".
 - **Special Favor**: Always use the term "special favor" on the wiki instead of the internal C code term "pat on the head".
 
