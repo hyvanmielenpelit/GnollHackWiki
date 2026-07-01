@@ -6,15 +6,15 @@ The GnollHack wiki contains the official information about [GnollHack](https://g
 
 The GnollHack wiki can be accessed at [https://wiki.gnollhack.com/](https://wiki.gnollhack.com/).
 
-This repository contains the content files of GnollHack wiki, which are basically several images and [Markdown](https://www.markdownguide.org/) files using a Gollum-style wikilink syntax. You can learn more about the syntax in [Gollum wiki](https://github.com/gollum/gollum/wiki). Most importantly, wikilinks with an alias follow the convention `[[Alias|Page Name]]` instead of `[[Page Name|Alias]]` syntax of MediaWiki.
+This repository contains the content files of the GnollHack wiki, which are basically several images and [Markdown](https://www.markdownguide.org/) files using a Gollum-style wikilink syntax. You can learn more about the syntax in the [Gollum wiki](https://github.com/gollum/gollum/wiki). Most importantly, wikilinks with an alias follow the convention `[[Alias|Page Name]]` instead of the `[[Page Name|Alias]]` syntax of MediaWiki.
 
-The wiki is built upon [Gollum wiki software](https://github.com/gollum/gollum).
+The wiki is built upon the [Gollum wiki software](https://github.com/gollum/gollum).
 
 ## Contributing
 
 If you want to contribute to the wiki, please read these instructions: [Editing the Wiki](https://wiki.gnollhack.com/Editing%20the%20Wiki.md)
 
-Editing the wiki is more heavy-weight than that of normal wikis, since you need to install Git and Visual Studio Code and learn to make pull requests.
+Editing the wiki is more heavy-weight than editing normal wikis, since you need to install Git and Visual Studio Code and learn to make pull requests.
 
 To make editing easier, we have our own **Visual Studio Code extension** called **Foam for Gollum**. It's available on:
 
