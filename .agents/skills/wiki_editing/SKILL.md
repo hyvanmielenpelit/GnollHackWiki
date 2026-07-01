@@ -24,7 +24,7 @@ When editing or creating pages for the GnollHack Wiki, follow these conventions 
 - **Dashes and Spaces**: In the latest version of Gollum, dashes (`-`) in Markdown filenames represent literal dashes, unlike GitHub wikis where they represent spaces. A space in a filename denotes a space (and is represented as `%20` in URLs). Therefore, when linking to a page with a dash in its filename, **keep the dash in the wikilink**; do not replace it with a space.
 - **Capitalization**: If you must capitalize a letter in the wikilink text (for example, capitalizing the first letter to start a sentence), do it by capitalizing the letter in the filename portion of the wikilink (the part after the subdirectory, if present). For example, use `[[/Items/Potion of healing]]` instead of `[[Potion of healing|/Items/potion of healing]]`.
 - **Monster Categories**: When referring to a monster class/category (such as Nymph), make a wikilink to a plural monster category page (e.g., `[[/Monsters/Nymphs]]`). If a singular category name is needed in the text, use a wikilink with an alias: `[[Nymph|/Monsters/Nymphs]]`.
-- **Aliases in Tables**: If a wikilink with an alias is required inside a Markdown table, a backslash is needed before the pipe (e.g., `[[Nymph\|/Monsters/Nymphs]]`).
+- **Aliases in Tables**: Avoid wikilinks with aliases inside a Markdown table.
 
 ## 3. Images and Uploads
 - **Upload Directory**: All images must be placed under the `/uploads/` directory. Match the subdirectory structure of the document (e.g., an image for `/Races/Dwarf.md` goes to `/uploads/Races/Dwarf/image.webp`).
