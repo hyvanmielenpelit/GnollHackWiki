@@ -1,6 +1,3 @@
-## L
-
-
 - [[/Monsters/Large cat]]
 - [[/Monsters/Large direwolf]]
 - [[/Monsters/Large dog]]

@@ -1,6 +1,3 @@
-## F
-
-
 - [[/Monsters/Famine]]
 - [[/Monsters/Fire ant]]
 - [[/Monsters/Fire elemental]]

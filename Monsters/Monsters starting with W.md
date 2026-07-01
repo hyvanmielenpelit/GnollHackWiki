@@ -1,6 +1,3 @@
-## W
-
-
 - [[/Monsters/War troll]]
 - [[/Monsters/Warg]]
 - [[/Monsters/Warhorse]]

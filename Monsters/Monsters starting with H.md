@@ -1,6 +1,3 @@
-## H
-
-
 - [[/Monsters/Halfling]]
 - [[/Monsters/Harpy]]
 - [[/Monsters/Healer]]

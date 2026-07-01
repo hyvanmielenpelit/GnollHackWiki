@@ -1,6 +1,3 @@
-## A
-
-
 - [[/Monsters/Abbot]]
 - [[/Monsters/Acid blob]]
 - [[/Monsters/Acolyte]]

@@ -1,6 +1,3 @@
-## K
-
-
 - [[/Monsters/Keystone Kop]]
 - [[/Monsters/Ki-rin]]
 - [[/Monsters/Killer bee]]

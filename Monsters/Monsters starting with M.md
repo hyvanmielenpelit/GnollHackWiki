@@ -1,6 +1,3 @@
-## M
-
-
 - [[/Monsters/Mail daemon]]
 - [[/Monsters/Manes]]
 - [[/Monsters/Marilith]]

@@ -1,6 +1,3 @@
-## R
-
-
 - [[/Monsters/Rabid rat]]
 - [[/Monsters/Ram]]
 - [[/Monsters/Ranger]]

@@ -1,6 +1,3 @@
-## C
-
-
 - [[/Monsters/Captain]]
 - [[/Monsters/Carnivorous ape]]
 - [[/Monsters/Cave spider]]

@@ -1,6 +1,3 @@
-## P
-
-
 - [[/Monsters/Page]]
 - [[/Monsters/Panther]]
 - [[/Monsters/Paper golem]]

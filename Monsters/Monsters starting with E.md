@@ -1,6 +1,3 @@
-## E
-
-
 - [[/Monsters/Earth elemental]]
 - [[/Monsters/Elder air elemental]]
 - [[/Monsters/Elder dracolich]]

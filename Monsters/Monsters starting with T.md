@@ -1,6 +1,3 @@
-## T
-
-
 - [[/Monsters/Tarrasque]]
 - [[/Monsters/Tengu]]
 - [[/Monsters/Tentacled one]]

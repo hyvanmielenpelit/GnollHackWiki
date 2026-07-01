@@ -1,6 +1,3 @@
-## S
-
-
 - [[/Monsters/Salamander]]
 - [[/Monsters/Samurai]]
 - [[/Monsters/Sandestin]]

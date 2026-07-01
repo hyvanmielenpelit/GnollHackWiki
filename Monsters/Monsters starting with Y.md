@@ -1,6 +1,3 @@
-## Y
-
-
 - [[/Monsters/Yacc]]
 - [[/Monsters/Yeenaghu]]
 - [[/Monsters/Yellow dragon]]

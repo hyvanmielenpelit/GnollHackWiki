@@ -1,6 +1,3 @@
-## J
-
-
 - [[/Monsters/Jabberwock]]
 - [[/Monsters/Jackal]]
 - [[/Monsters/Jaguar]]

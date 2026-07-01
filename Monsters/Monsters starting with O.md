@@ -1,6 +1,3 @@
-## O
-
-
 - [[/Monsters/Ochre jelly]]
 - [[/Monsters/Ogre]]
 - [[/Monsters/Ogre archmage]]

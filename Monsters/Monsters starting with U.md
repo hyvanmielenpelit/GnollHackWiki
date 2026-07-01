@@ -1,4 +1,1 @@
-## U
-
-
 - [[/Monsters/Umbral hulk]]

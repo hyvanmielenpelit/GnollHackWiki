@@ -1,6 +1,3 @@
-## D
-
-
 - [[/Monsters/Dark One]]
 - [[/Monsters/Death]]
 - [[/Monsters/Death flayer]]

@@ -1,6 +1,3 @@
-## I
-
-
 - [[/Monsters/Ice devil]]
 - [[/Monsters/Ice troll]]
 - [[/Monsters/Ice vortex]]

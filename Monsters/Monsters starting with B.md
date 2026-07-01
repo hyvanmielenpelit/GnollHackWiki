@@ -1,6 +1,3 @@
-## B
-
-
 - [[/Monsters/Baalzebub]]
 - [[/Monsters/Baby crocodile]]
 - [[/Monsters/Baby long worm]]

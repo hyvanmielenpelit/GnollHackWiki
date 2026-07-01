@@ -1,6 +1,3 @@
-## G
-
-
 - [[/Monsters/Gargantuan beetle]]
 - [[/Monsters/Gargantuan cockatrice]]
 - [[/Monsters/Gargantuan Mimic]]

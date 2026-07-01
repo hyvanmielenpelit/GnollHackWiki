@@ -1,6 +1,3 @@
-## V
-
-
 - [[/Monsters/Valkyrie]]
 - [[/Monsters/Vampire]]
 - [[/Monsters/Vampire bat]]
