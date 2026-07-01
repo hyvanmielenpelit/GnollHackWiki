@@ -30,7 +30,16 @@ You will encounter various specialized NPCs who can identify items or buy your u
 
 ## Hiring Mercenaries
 
-You can interact with peaceful monsters (using the `C` Chat command) and **hire them as mercenaries**. You must pay them gold, but having heavily armed soldiers fighting alongside you makes the early and mid-game significantly easier.
+You can interact with peaceful monsters (using the Chat `C` command) and **hire them as mercenaries**. You must pay them gold, but having heavily armed soldiers fighting alongside you makes the early and mid-game significantly easier.
+
+## 🐾 Pet Management
+
+The [[Starting Guide for Beginners]] advises you to rely on your pet, but to survive the mid-game, you need to actively manage and grow them into powerful companions.
+
+- **Feeding and Starvation:** Pets have a hunger timer. If they go too long without eating, they become confused and weakened and will eventually die of starvation.
+- **Equipping Pets:** Intelligent pets with hands can wield weapons and wear armor. You can equip them using the Chat `C` command.
+- **Gaining Resistances:** Just like you, pets can gain intrinsic resistances (like fire, cold, shock, or poison resistance) by eating the right monster corpses. Strategic feeding can make your pet incredibly resilient.
+- **Calling Them Back:** If your pet wanders off, use the Yell (`Y`) command to call them back to your location.
 
 ## ⚠️ Dangerous Early-Game Monsters
 
