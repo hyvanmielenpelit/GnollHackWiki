@@ -9,6 +9,7 @@ The dungeon in GnollHack is not just a single straight line down; it features se
 | **Dungeons of Doom** | The main dungeon branch. You start on level 1 and must descend to find the Amulet of Yendor. Stick to this path initially. The deeper you go, the harder the monsters become. |
 | **The Gnomish Mines** | A branch typically found between dungeon levels 2 and 4. |
 | **Minetown** | A guaranteed town level within the Gnomish Mines, featuring multiple shops and a temple with a priest. It is an excellent place to identify items and buy gear. |
+| **Sokoban** | A puzzle branch where you must push boulders into pits to advance. Completing it yields a valuable reward (a [[/Items/Bag of holding]] or an [[/Items/Amulet of reflection]]). |
 | **The Quest** | A unique branch tailored to your character's class. The entrance is a magic portal located between dungeon levels 11 and 16. You must be at least experience level 14 to enter it. |
 | **Gehennom** | The late-game hellish branch of the dungeon. Unlike NetHack, GnollHack has removed the tedious mazes from Gehennom, making it much more enjoyable and fast-paced to explore. |
 
