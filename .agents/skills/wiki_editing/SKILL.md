@@ -81,6 +81,7 @@ When editing or creating headings for pages, always use appropriate Unicode icon
   - General Info / Overview: `ℹ️`
   - Starting Guide / Beginner Info: `🏁`
   - Intermediate Guide: `⛰️`
+  - NetHack Veterans / Experienced Players: `🎖️`
   - Advanced Guide / Strategy: `🏆`
   - Difficulty Levels: `🌟`
   - Gameplay Modes: `🕹️`

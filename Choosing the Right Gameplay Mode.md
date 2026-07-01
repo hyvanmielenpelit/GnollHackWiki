@@ -22,7 +22,7 @@ Thus, there are **four different gameplay modes** in the modern version of the g
 
 Additionally, one can also activate **[[Wizard Mode]] (W)** for debugging purposes.
 
-## Beginner Recommendation
+## 🏁 Beginner Recommendation
 
 If you are completely new to GnollHack and NetHack, it's recommended that you start playing the game in one of the following modes:
 
@@ -33,7 +33,7 @@ If you are completely new to GnollHack and NetHack, it's recommended that you st
 
 - <sup>1</sup> The character resurrects at the starting altar upon death.
 
-## Recommendation for NetHack Veterans
+## 🏆 Recommendation for NetHack Veterans
 
 If you are a seasoned NetHack veteran, it's recommended that you start playing the game in the follow mode:
 
