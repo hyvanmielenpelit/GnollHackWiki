@@ -2,7 +2,7 @@
 
 ## Monster Categories
 
-| Symbol | Category Name |
+| Symbol<sup>1</sup> | Category Name |
 | :---: | --- |
 | `a` | [[/Monsters/Ants and other insects]] |
 | `b` | [[/Monsters/Blobs]] |
@@ -64,6 +64,8 @@
 | `#` | [[/Monsters/Treants]] |
 | `~` | [[/Monsters/Long worm tails]] |
 | `]` | [[/Monsters/Mimics]] |
+
+- <sup>1</sup> This is the traditional monster category symbol in the legacy ASCII versions of the game. In modern versions, it is mostly used in a blessed genocide, which lets you choose a monster category to wipe out.
 
 ## Alphabetical Listing
 
