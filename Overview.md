@@ -1,6 +1,6 @@
 ![Overview](/uploads/Overview/overview-q85.webp)
 
-## Traditional Roguelike
+## 🕹️ Traditional Roguelike
 
 GnollHack is a traditional roguelike, being based on the game design of [Rogue](https://en.wikipedia.org/wiki/Rogue_(video_game)). Thus, GnollHack features:
 
@@ -12,7 +12,7 @@ GnollHack is a traditional roguelike, being based on the game design of [Rogue](
 - A great number of different game mechanics
 - High fantasy world
 
-## NetHack Variant
+## 🧬 NetHack Variant
 
 GnollHack is also a true [NetHack](https://en.wikipedia.org/wiki/NetHack) variant that retains most of its mechanics, complexity, and spirit, while adding new features. GnollHack is aimed at making NetHack more beginner-friendly while at the same time trying to keep the game interesting for veterans, especially in the late game. In this regard, GnollHack introduces:
 
@@ -23,7 +23,7 @@ GnollHack is also a true [NetHack](https://en.wikipedia.org/wiki/NetHack) varian
 - Large number of new late-game monsters
 - Interesting late-game items
 
-## NetHack Remaster
+## 🖥️ NetHack Remaster
 
 GnollHack can also be viewed as a NetHack remaster, adding the following modern features:
 
@@ -41,7 +41,7 @@ GnollHack can also be viewed as a NetHack remaster, adding the following modern 
 
 All graphics, sounds, music, and voiceovers have been made by *real people* — nothing has been generated with AI.
 
-## Open Source
+## 🧑‍💻 Open Source
 
 GnollHack is an open-source game, based on NetHack's source code. This means that you can fork it.
 - GnollHack's code is licensed under NetHack General Public License.
