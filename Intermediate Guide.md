@@ -47,7 +47,9 @@ The [[Starting Guide for Beginners]] advises you to rely on your pet, but to sur
 |:---|:---|:---|
 | **[[/Monsters/Cockatrice]]** | Instant death (petrification) upon physical contact. | **Never touch them bare-handed.** Wear gloves before hitting them in melee. Do not eat their corpses. If you fall into a pit while carrying a cockatrice corpse, you will turn to stone and die. |
 | **[[/Monsters/Floating eye]]** | Passive paralysis. If you hit them in melee, you will be paralyzed for many turns while other monsters kill you. | **Use ranged combat.** Shoot them with arrows, darts, or spells. Alternatively, apply a blindfold before hitting them (you cannot be paralyzed if you cannot see them). |
-| **[[/Monsters/Nymphs]] & [[/Monsters/Leprechaun]]** | Item and gold theft. | They will steal your items/gold and teleport away. Kill them with ranged attacks before they get close. If you eat a Leprechaun corpse, you may get teleportitis! |
+| **[[/Monsters/Gelatinous cube]]** | Paralyzing attacks and passive paralysis. If you hit them in melee or they hit you, you will be paralyzed for many turns. | **Use ranged combat.** Keep your distance and use ranged weapons or attack wands. |
+| **[[/Monsters/Ghast]]** | Terminal disease (sickness). Their attacks can cause a fatal illness that will quickly kill you if not treated. | **Cure sickness immediately.** Have a noncursed [[/Items/Unicorn horn]], [[/Items/Fig]], or [[/Items/Jar of medicinal salve]] ready, or know the [[/Spells/Cure sickness]] spell. Kill them from a distance. |
+| **[[/Monsters/Nymphs]]** | Item theft. | They will steal your items and teleport away. Kill them with ranged attacks before they get close. |
 
 ## 🧬 Key Intrinsics and Resistances
 
