@@ -80,7 +80,6 @@ When editing or creating headings for pages, always use appropriate Unicode icon
 - **General Guides & Meta Info**:
   - General Info / Overview: `ℹ️`
   - Starting Guide / Beginner Info: `🏁`
-  - Intermediate Guide: `⛰️`
   - NetHack Veterans / Experienced Players: `🎖️`
   - Advanced Guide / Strategy: `🏆`
   - Difficulty Levels: `🌟`
