@@ -36,7 +36,7 @@ Poisonous natural attacks can use one of three damage types, which determines th
 
 ## 🪤 Traps
 
-When triggering traps laced with poison, such as poisoned [[dart|/Items/Dart]] traps, poisoned needles, or falling into a spiked pit with poisoned spikes:
+When triggering traps laced with poison, such as poisoned [[dart|/Items/Dart]] traps or poisoned needles, or when falling into a spiked pit with poisoned spikes:
 
 - **Without Resistance:** You suffer **2-12 HP** (`2d6`) of poison damage. You also have a **10% chance** to lose **1 point of Constitution** (from poisoned darts and needles) or **1 point of Strength** (from spiked pits).
 - **With Resistance:** The poison has no effect on you, though you still take the physical damage from the trap (e.g., the dart hitting you or falling on the spikes).
@@ -57,9 +57,9 @@ When drinking from a fountain that has been tainted with poison:
 
 ## 🧪 Potion of Poison
 
-[[/Items/Potion of poison]] has a dangerous effect when quaffed or when they shatter and release vapors:
+A [[/Items/Potion of poison]] has a dangerous effect when quaffed or when it shatters and releases vapors:
 
-- **Without Resistance:** Quaffing one causes you to take immediate poison damage and randomly lose a stat point (e.g., strength, dexterity). The stat loss can be 1-12 points depending on the potion's BUC status. If one shatters near you, the vapors cause you to lose up to 5 HP (though this vapor damage won't drop your HP below 1).
+- **Without Resistance:** Quaffing one causes you to take immediate poison damage and lose points from a random stat (e.g., strength, dexterity). The stat loss can be 1-12 points depending on the potion's BUC status. If one shatters near you, the vapors cause you to lose up to 5 HP (though this vapor damage won't drop your HP below 1).
 - **With Resistance:** You are completely immune to the damage and stat loss when quaffing ("However, you are unaffected by the poison.") and take no damage from shattered potions.
 - **Note:** Quaffing a potion of poison cures hallucination and lycanthropy regardless of whether you have poison resistance or not!
 
