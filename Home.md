@@ -4,7 +4,7 @@
 
 <small>*Disclaimer: GnollHack doesn't use AI art in the game. It's only used on the wiki as illustrations. Please see our [[AI Usage Policy]].*</small>
 
-> 👉 **GnollHack is a modern evolution of the legendary [NetHack](https://www.nethack.org/) — one of the deepest and greatest roguelikes ever created.** It takes the limitless depth and emergent gameplay of the original and elevates them with a modern UI, animated tile graphics, sound effects, music, and voiceovers. Whether you're a curious newcomer or a seasoned NetHack veteran, GnollHack delivers the definitive modern NetHack experience — freely available on both mobile and desktop.
+GnollHack is a modern evolution of the legendary [NetHack](https://www.nethack.org/) — one of the deepest and greatest roguelikes ever created. It takes the limitless depth and emergent gameplay of the original and elevates them with a modern UI, animated tile graphics, sound effects, music, and voiceovers. Whether you're a curious newcomer or a seasoned NetHack veteran, GnollHack delivers the definitive modern NetHack experience — freely available on both mobile and desktop.
 
 GnollHack is best understood as a modernized version of NetHack that makes the classic experience more approachable for today’s players. It preserves the core mechanics and depth of NetHack while presenting them in a modern package, making it an ideal introduction to NetHack for modern gamers.
 
