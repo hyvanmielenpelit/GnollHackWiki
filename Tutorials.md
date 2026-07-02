@@ -10,6 +10,6 @@ These guides are for people who are new to GnollHack and NetHack.
 
 ## 🎖️ For NetHack Veterans
 
-This guide is for people, who know NetHack, but are new to GnollHack.
+This guide is for people who know NetHack but are new to GnollHack.
 
-- [[Starting Guide for NetHack Veterans]] — How to play GnollHack, if you already know NetHack.
+- [[Starting Guide for NetHack Veterans]] — How to play GnollHack if you already know NetHack.
