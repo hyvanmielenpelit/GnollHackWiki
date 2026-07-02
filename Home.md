@@ -29,11 +29,11 @@ GnollHack is best understood as a modernized version of NetHack that makes the c
 - **[[Choosing the Right Gameplay Mode]]** *(modern versions only)*
 - **[[Choosing the Right Difficulty Level]]**
 
-## 🕹️ Playing
-
 ![Welcome to the Dungeons of Doom](/uploads/Home/descending-v2-q85.webp)
 
 <small>*Disclaimer: Illustrations on the wiki don't reflect actual gameplay.*</small>
+
+## 🕹️ Playing
 
 - **[[Gameplay Information]]** — Everything from items to monsters
 - **[[Desktop-Only Features]]** — Take a look at the features that appear only on the desktop versions of GnollHack
