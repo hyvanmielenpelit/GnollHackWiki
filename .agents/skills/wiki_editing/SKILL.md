@@ -230,3 +230,9 @@ When linking to or categorizing different types of articles (for instance, in li
 - **Troubleshooting and FAQ** (solving common problems): `❓` or `🔧`
 - **Project Management and Checklists** (release steps, to-dos): `📋` or `✅`
 - **Legal and Policy** (privacy policies, licenses): `📄` or `⚖️`
+
+## 12. Footnotes
+
+- Footnotes should use an ordinal numbering system starting from 1. 
+- These numbers are included as superscripts with the HTML `<sup>` tag. For example, `<sup>1</sup>`. 
+- The footnotes are listed below the table or text in an unordered list with the number in superscript like this: `- <sup>1</sup> Footnote description.`

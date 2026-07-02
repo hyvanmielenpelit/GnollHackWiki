@@ -62,35 +62,39 @@
 
 ### Prefixes
 
-| Prefix | Effect | Item Types | Notes |
-| :----- | :----- | :--------: | :---- |
-| Asgardian | +25% max hit points | All | |
-| Atlantean | Mana regeneration | All | |
-| Cimmerian | Constitution 18 + Enchantment bonus | Body armor | |
-| Elysian | Hit point regeneration | All | |
-| Hallowed | Curse resistance, cannot be cursed, counts as silver against silver-vulnerable monsters | All except infernal, primordial, and demonic items | |
-| Herculean | Strength 18/** + Enchantment bonus | Body armor | |
-| Hyperborean | +25% max mana, confers +50% plus 5% per enchantment level to all spell casting, and can be enchanted 50% more than normal | All | |
-| Melnibonean | (W) Mana regeneration, hit point regeneration, confers +50% plus 5% per enchantment level to all spell casting, and can be enchanted 50% more than normal | All | |
-| Sorcerer's | Sets the spell casting penalty to 0% | All | Cannot appear with the of sorcery suffix on legendary items, nor on items with a low spell casting penalty |
-| Stygian | Death and drain resistance | All | |
-| Witch-king's | (W) +25% max hit points, +25% max mana, confers +50% plus 5% per enchantment level to all spell casting, and can be enchanted 50% more than normal | All | |
+| Prefix | Effect | Item Types |
+| :----- | :----- | :--------: |
+| Asgardian | +25% max hit points | All |
+| Atlantean | Mana regeneration | All |
+| Cimmerian | Constitution 18 + Enchantment bonus | Body armor |
+| Elysian | Hit point regeneration | All |
+| Hallowed | Curse resistance, cannot be cursed, counts as silver against silver-vulnerable monsters | All except infernal, primordial, and demonic items |
+| Herculean | Strength 18/** + Enchantment bonus | Body armor |
+| Hyperborean | +25% max mana, confers +50% plus 5% per enchantment level to all spell casting, and can be enchanted 50% more than normal | All |
+| Melnibonean | (W) Mana regeneration, hit point regeneration, confers +50% plus 5% per enchantment level to all spell casting, and can be enchanted 50% more than normal | All |
+| Sorcerer's<sup>1</sup> | Sets the spell casting penalty to 0% | All |
+| Stygian | Death and drain resistance | All |
+| Witch-king's | (W) +25% max hit points, +25% max mana, confers +50% plus 5% per enchantment level to all spell casting, and can be enchanted 50% more than normal | All |
+
+- <sup>1</sup> Cannot appear with the *of sorcery* suffix on legendary items, nor on items with a low spell casting penalty.
 
 ### Suffixes
 
-| Suffix | Effect | Item Types | Notes |
-| :----- | :----- | :--------: | :---- |
-| of caution | Confers warning | Helmets | |
-| of cold resistance | Cold immunity | All | |
-| of elemental protection | (W) Fire, cold, and shock immunity | All | |
-| of eyes | Searching and see invisible | All except boots and gloves | |
-| of fire resistance | Fire immunity | All | |
-| of free action | Confers free action | All | |
-| of lightness | 1/8 weight | All | |
-| of providence | Confers luck | All | |
-| of shock resistance | Shock immunity | All | |
-| of sorcery | Sets the spell casting penalty to 0% | All | Cannot appear with the Sorcerer's prefix on legendary items, nor on items with a low spell casting penalty |
-| of stealth | Stealth | Boots | |
+| Suffix | Effect | Item Types |
+| :----- | :----- | :--------: |
+| of caution | Confers warning | Helmets |
+| of cold resistance | Cold immunity | All |
+| of elemental protection | (W) Fire, cold, and shock immunity | All |
+| of eyes | Searching and see invisible | All except boots and gloves |
+| of fire resistance | Fire immunity | All |
+| of free action | Confers free action | All |
+| of lightness | 1/8 weight | All |
+| of providence | Confers luck | All |
+| of shock resistance | Shock immunity | All |
+| of sorcery<sup>1</sup> | Sets the spell casting penalty to 0% | All |
+| of stealth | Stealth | Boots |
+
+- <sup>1</sup> Cannot appear with the *Sorcerer's* prefix on legendary items, nor on items with a low spell casting penalty.
 
 ## Notes
 
