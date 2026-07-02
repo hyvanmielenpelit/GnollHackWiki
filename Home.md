@@ -24,7 +24,7 @@ GnollHack is best understood as a modernized version of NetHack that makes the c
 
 ## 🏁 Getting Started
 
-- **[[Download]]** — Downloading GnollHack and installation instructions
+- **[[Download]]** — Download and installation instructions for GnollHack
 - **[[Tutorials]]** — Learn to play GnollHack
 - **[[Choosing the Right Gameplay Mode]]** *(modern versions only)*
 - **[[Choosing the Right Difficulty Level]]**
@@ -47,9 +47,9 @@ GnollHack is best understood as a modernized version of NetHack that makes the c
 ## 🔗 Online Sharing
 
 - **[[Share Your Progress to Discord Server Channel]]** — Modern clients can share your progress to Discord
-- **[[GnollHack Account]]** — GnollHack Account supports top score recording, bones sharing, Junethack, and NetHack Scoreboard *(modern versions only)*
+- **[[GnollHack Account]]** — The GnollHack Account server supports top score recording, bones sharing, Junethack, and the NetHack Scoreboard *(modern versions only)*
 - **[[Bones Sharing]]** — You can share your dead characters with others *(modern versions only)*
-- **[[Save File Tracking]]** — Modern Windows version requires that your save files are tracked online to make them eligible for server posting
+- **[[Save File Tracking]]** — The modern Windows version requires your save files to be tracked online to make them eligible for server posting
 
 ## 💡 Additional Information
 
@@ -59,7 +59,7 @@ GnollHack is best understood as a modernized version of NetHack that makes the c
 - **[[Save Game Compatibility]]** — Check which patches are compatible with each other
 - **[[Public Servers]]** — How to play GnollHack online *(ASCII version only)*
 - **[[Tournaments]]** — How to participate in tournaments *(modern versions only)*
-- **[[Game Quirks]]** — Some non-obvious quirks how the game may work surprisingly
+- **[[Game Quirks]]** — Some non-obvious quirks where the game may behave in surprising ways
 - **[[Version Identifier Letters]]** — Find out what letters are used to describe different versions of GnollHack
 - **[[Credits]]**
 
@@ -76,13 +76,13 @@ GnollHack is best understood as a modernized version of NetHack that makes the c
 ## 📝 Wiki Development
 
 - **[[Editing the Wiki]]** — How to edit the GnollHack Wiki
-- **[[Creating Wiki Pages with AI Agent]]** — How to use Antigravity App and Gemini models to automatically create wiki pages
+- **[[Creating Wiki Pages with AI Agent]]** — How to use the Antigravity App and Gemini models to automatically create wiki pages
 
 
 ## 🎬 Additional Material
 
-- **[[GnollHack Animations]]** — GnollHack-themed animated short films in short-form
-- **[[GnollHack Universe Videos]]** — GnollHack-themed photorealistic short films in short-form
+- **[[GnollHack Animations]]** — GnollHack-themed animated YouTube Shorts
+- **[[GnollHack Universe Videos]]** — GnollHack-themed photorealistic YouTube Shorts
 
 ## 🗣️ Contact Us
 
