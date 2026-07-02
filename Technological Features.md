@@ -36,4 +36,4 @@ GnollHack integrates a native C library based on [NetHack](https://www.nethack.o
 
 ### ⚡ Multi-Threaded
 
-GnollHack runs on two or three threads depending on the operating system. This allows GnollHack to run at high performance but requires us to implement several thread-safety features.
+GnollHack runs on two or three threads depending on the operating system (not counting FMOD threads). This allows GnollHack to run at high performance but requires us to implement several thread-safety features.
