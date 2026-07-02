@@ -30,6 +30,8 @@ We use generative AI to *assist* our development, especially to help us complete
 
 ## AI Documentation
 
+We use generative AI to create accurate documentation quickly. It is also used to check the grammar in documentation.
+
 1. Programmers may use generative AI, including AI agents, to generate documentation.
 2. Programmers may use generative AI to generate documentation in the game code files.
 3. Programmers may use generative AI to generate pages in the GnollHack wiki.
