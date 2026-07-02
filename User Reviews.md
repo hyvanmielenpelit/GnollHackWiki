@@ -1,5 +1,7 @@
 ## Google Play Store
 
+![Google Play Logo](/uploads/User%20Reviews/Google-Play-Logo.webp)
+
 This is a curated list of reviews of the **Android version of GnollHack** from the Google Play Store.
 
 ### ⭐⭐⭐⭐⭐ (9 June, 2025)
