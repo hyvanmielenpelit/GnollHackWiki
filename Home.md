@@ -71,6 +71,9 @@ GnollHack is best understood as a modernized version of NetHack that makes the c
 
 - **[[Art Contribution Guidelines]]** — Read this if you want to contribute art to GnollHack
 - **[[Code Contribution Guidelines]]** — Read this if you want to contribute code to GnollHack
+
+## 📝 Wiki Development
+
 - **[[Editing the Wiki]]** — How to edit the GnollHack Wiki
 - **[[Creating Wiki Pages with AI Agent]]** — How to use Antigravity App and Gemini models to automatically create wiki pages
 
