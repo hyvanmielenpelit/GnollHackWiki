@@ -12,7 +12,7 @@ GnollHack is not just another application; it is a profound technical achievemen
 - **High-Performance Multi-Threading:** To maintain high frame rates while executing complex game logic, GnollHack implements a sophisticated multi-threaded architecture. The native C game loop is completely decoupled from the MAUI UI and the hardware-accelerated Skia rendering threads, showcasing advanced synchronization and thread-safety patterns in .NET.
 - **Ecosystem Integration:** By integrating SkiaSharp for GPU-accelerated 2D rendering and FMOD for professional-grade audio middleware, GnollHack exemplifies how smoothly .NET MAUI can orchestrate industry-standard native libraries to deliver a rich multimedia experience.
 
-## Technologies Behind GnollHack.
+## Technologies Behind GnollHack
 
 ### UI Framework: .NET MAUI
 
@@ -29,17 +29,17 @@ GnollHack is one of the very few games developed with **.NET MAUI**, which is pr
 - https://github.com/mono/SkiaSharp
 - https://skia.org/
 
-GnollHack utilizes highly effective **SkiaSharp**, which is built upon Google's **Skia** graphics drawing engine, to draw its graphics in a fast and battery-efficient way. SkiaSharp offers a developer-friendly API to draw bitmaps, shapes, and text on a canvas, which can be GPU accelerated.
+GnollHack utilizes the highly effective **SkiaSharp**, which is built upon Google's **Skia** graphics drawing engine, to draw its graphics in a fast and battery-efficient way. SkiaSharp offers a developer-friendly API to draw bitmaps, shapes, and text on a canvas, which can be GPU accelerated.
 
 ### Sound Middleware: FMOD
 
 - https://www.fmod.com/
 
-GnollHack integrates **FMOD** — a commercial cross-platform audio library — on all platforms as a sound middleware, which is a major technological advance, exemplifying that FMOD can be integrated with .NET MAUI for playing sounds and music.
+GnollHack integrates **FMOD** — a commercial cross-platform audio library — on all platforms as sound middleware, which is a major technological advancement, exemplifying that FMOD can be integrated with .NET MAUI for playing sounds and music.
 
 ### Native C Code Integration
 
-GnollHack integrates a native C library based on NetHack's source code to the modern frameworks. This native C library integration works on all supported platforms.
+GnollHack integrates a native C library based on NetHack's source code into modern frameworks. This native C library integration works on all supported platforms.
 
 ### Multi-Threaded
 
