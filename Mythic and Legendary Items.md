@@ -39,7 +39,7 @@
 | :----- | :----- | :--------: |
 | of banishment | (W) Triple damage against undead and demons | Bludgeoning weapons except infernal, primordial, and demonic items |
 | of cockatrice slaying | Triple damage against cockatrices, petrification resistance | All except boots and bludgeoning gauntlets |
-| of defense | Enchantment provides AC and MC bonus | All except weapon-armor |
+| of defense | Enchantment provides AC and MC bonus | All except weapon-armor, thrown weapons, and ammunition |
 | of demon slaying | Triple damage against demons | All except infernal, primordial, demonic items, boots, and bludgeoning gauntlets |
 | of disruption | Triple damage against undead | Bludgeoning weapons except infernal, primordial, and demonic items |
 | of dragon slaying | Triple damage against dragons | All except boots and bludgeoning gauntlets |
