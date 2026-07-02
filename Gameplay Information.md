@@ -75,6 +75,7 @@
 - [[Alchemy]] — Recipes for mixing potions and other items with each other.
 - [[Diluted Potions]] — Learn what effects dilution has on potions.
 - [[Item Evaporation Chances]] — The chances of an item to be destroyed when over-enchanting it.
+- [[Poisoning Effects]] — Learn about poison and poison resistance.
 - [[Resistances and Saving Throws]] — Learn about how resistances and saving throws work in GnollHack.
 - [[Scoring]] — Learn about the scoring system in GnollHack.
 - [[Wishing Guide]] — Wishing rules for new items in GnollHack.
