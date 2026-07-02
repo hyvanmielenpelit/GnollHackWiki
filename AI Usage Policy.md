@@ -2,7 +2,7 @@
 
 > 👉 **This policy outlines the rules and guidelines for using generative artificial intelligence (AI) in the development of GnollHack, covering game assets, programming code, and documentation.**
 
-## Generative AI Assets
+## 🎨 Generative AI Assets
 
 > ℹ️ This section explains the details how we use assets created with a generative AI in GnollHack-related contexts.
 
@@ -22,7 +22,7 @@
 - <sup>5</sup> Text in stores is usually a mix of AI-generated and human-generated text.
 - <sup>6</sup> AI may be used to check the grammar of English text, for example.
 
-## AI Programming
+## 💻 AI Programming
 
 > ℹ️ We use generative AI to *assist* our development, especially to help us complete complex programming tasks.
 
@@ -30,11 +30,16 @@
 2. Programmers must review the AI-generated code to ensure that it is correct.
 3. Programmers may use generative AI, including AI agents, to complete programming workflows and tasks more efficiently.
 
-## AI Documentation
+## 📚 AI Documentation
 
-> ℹ️ We use generative AI to create accurate documentation quickly. It is also used to check the grammar of documentation.
+> ℹ️ We use generative AI to create accurate documentation quickly.
 
-1. Programmers may use generative AI, including AI agents, to generate documentation.
-2. Programmers may use generative AI to generate documentation in the game code files.
-3. Programmers may use generative AI to generate pages in the GnollHack Wiki.
-4. Programmers must review the AI-generated documentation to ensure that it is correct.
+Generative AI, including AI agents, may be used to:
+
+1. Generate documentation (e.g. document the game code and create pages in the GnollHack Wiki)
+2. Verify that documentation is correct (i.e. compare documentation with the game code)
+3. Check and correct the grammar of documentation
+4. Apply styling to documentation
+5. Organize documentation
+
+Programmers (or other people who are familiar with the game mechanics and the game code) *must review* the AI-generated documentation to ensure that it is correct.
