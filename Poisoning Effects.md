@@ -15,15 +15,21 @@ When eating items, corpses, or even objects (e.g., when polymorphed into a metal
 
 When a monster strikes you with a poisonous natural attack (such as a bite or sting) or uses a poisoned weapon against you:
 
-- **Natural Attacks (Bite, Sting):**
-  - Poisonous natural attacks can use one of three damage types, which determines the stat they drain: **Strength** (`AD_DRST`), **Dexterity** (`AD_DRDX`), or **Constitution** (`AD_DRCO`).
-  - **Without Resistance:** You are poisoned. You take **6-15 HP** of poison damage, and have a **5% to 15% chance** (depending on the monster's level: 5% for levels 1-2, 10% for levels 3-5, 15% for levels 6+) to lose **1-3 points** of the specific stat tied to the attack's damage type. In certain scenarios, the poison can trigger a "deadly poison" strike, inflicting massive damage ([see below](#deadly-poison-mechanics)).
-  - **With Resistance:** The poison is fully neutralized ("The poison doesn't seem to affect you."). You only take the standard physical damage from the attack itself.
-- **Thrown Poisoned Weapons (Arrows, Darts):**
-  - **Without Resistance:** You take **2-12 HP** (`2d6`) of poison damage and have a **10% chance** to lose **1 point of Strength**. Thrown weapons actually *never* trigger the massive deadly poison strike (contrary to some beliefs!).
-  - **With Resistance:** The poison is fully neutralized.
-- **Melee Attacks with Poisoned Weapons (e.g., Orcish Dagger):**
-  - Due to a long-standing quirk inherited from NetHack, if a monster hits you in **melee** with a poisoned weapon, the poison actually **does not trigger**. You only take the standard physical damage of the weapon, regardless of whether you have poison resistance or not.
+### 🐍 Natural Attacks (Bite, Sting)
+
+Poisonous natural attacks can use one of three damage types, which determines the stat they drain: **Strength** (`AD_DRST`), **Dexterity** (`AD_DRDX`), or **Constitution** (`AD_DRCO`).
+
+- **Without Resistance:** You are poisoned. You take **6-15 HP** of poison damage, and have a **5% to 15% chance** (depending on the monster's level: 5% for levels 1-2, 10% for levels 3-5, 15% for levels 6+) to lose **1-3 points** of the specific stat tied to the attack's damage type. If the attacking monster is level 9 or higher, there is a **10% chance** the poison will trigger a "deadly poison" strike, inflicting massive damage ([see below](#deadly-poison-mechanics)).
+- **With Resistance:** The poison is fully neutralized ("The poison doesn't seem to affect you."). You only take the standard physical damage from the attack itself.
+
+### 🏹 Thrown Poisoned Weapons (Arrows, Darts)
+
+- **Without Resistance:** You take **2-12 HP** (`2d6`) of poison damage and have a **10% chance** to lose **1 point of Strength**. Thrown weapons actually *never* trigger the massive deadly poison strike (contrary to some beliefs!).
+- **With Resistance:** The poison is fully neutralized.
+
+### 🗡️ Melee Attacks with Poisoned Weapons (e.g., Orcish Dagger)
+
+Due to a long-standing quirk inherited from NetHack, if a monster hits you in **melee** with a poisoned weapon, the poison actually **does not trigger**. You only take the standard physical damage of the weapon, regardless of whether you have poison resistance or not.
 
 ## 🪤 Traps
 
