@@ -1,3 +1,5 @@
+![Poisoning Effects](/uploads/Poisoning%20Effects/poisoning-effects-q85.webp)
+
 > 👉 **This page provides a comprehensive list of all poisoning effects in GnollHack, detailing what happens when a character has poison resistance versus when they lack it.**
 
 ## 🍎 Consuming Poisonous Food, Corpses, and Objects
@@ -29,7 +31,8 @@ Poisonous natural attacks can use one of three damage types, which determines th
 
 ### 🗡️ Melee Attacks with Poisoned Weapons (e.g., Orcish Dagger)
 
-Due to a long-standing quirk inherited from NetHack, if a monster hits you in **melee** with a poisoned weapon, the poison actually **does not trigger**. You only take the standard physical damage of the weapon, regardless of whether you have poison resistance or not.
+- **Without Resistance:** You take **2-12 HP** (`2d6`) of poison damage and have a **10% chance** to lose **1 point of Strength**. Like thrown weapons, melee attacks with poisoned weapons *never* trigger the massive deadly poison strike.
+- **With Resistance:** The poison is fully neutralized.
 
 ## 🪤 Traps
 
