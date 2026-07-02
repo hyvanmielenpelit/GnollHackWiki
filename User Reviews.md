@@ -63,3 +63,190 @@ This is a curated list of user reviews of the **Android version of GnollHack** o
 ### ⭐⭐⭐⭐⭐ (25 November, 2025)
 
 > if you like this game, you'll love it. Great replay, no ads. Just when I feel like I've figured it out, the game kills me. somewhere around 100 playthroughs now, this is one of the games I won't delete even if I don't play for a while.
+
+## Apple App Store
+
+![App_Store_128](/uploads/User%20Reviews/App_Store_128.webp)
+
+This is a curated list of user reviews of the **iOS version of GnollHack** on the Apple App Store.
+
+### Masterpiece ⭐⭐⭐⭐⭐
+*9 Jun 2025* – **moria_fan**
+
+> This is the best NetHack port I've played. Graphics, sound, and controls are all fantastic. Highly recommended.
+
+### Awesome ⭐⭐⭐⭐⭐
+*9 Jun 2023* – **nethack_lover**
+
+> This is the best version of NetHack I've ever played. The graphics and sounds are great, and the interface is modern and clean.
+
+### Best NetHack Port ⭐⭐⭐⭐⭐
+*22 Dec 2023* – **nh_veteran**
+
+> Excellent port of NetHack. Graphics and sound effects are great, and the UI is much better than other ports. Controls are highly customizable. Highly recommended.
+
+### Excellent ⭐⭐⭐⭐⭐
+*4 Sep 2025* – **k1ll3r-t0fu**
+
+> This is hands down the best NetHack port for mobile devices. The visual assets, interface, and audio are fantastic. The controls are incredibly customizable and work well on small screen. It's obvious that a lot of thought and effort went into this. If you love classic roguelikes, you need to download this right now.
+
+### A masterclass in porting ⭐⭐⭐⭐⭐
+*25 Nov 2025* – **game_collector**
+
+> This is how you port a classic game to mobile devices. The graphics, audio, and UI are all excellent, and the touch controls work perfectly. It's obvious a lot of care went into this. Highly recommended.
+
+### Best port of NetHack ⭐⭐⭐⭐⭐
+*28 Jun 2023* – **RogueLover**
+
+> The interface is very intuitive and the graphics are great. Highly recommended.
+
+### Great game, even better port ⭐⭐⭐⭐⭐
+*15 Jun 2023* – **Rogueliker**
+
+> This is the best port of NetHack on iOS. The developer has done an amazing job.
+
+### A modern spin on the classic roguelike ⭐⭐⭐⭐⭐
+*12 Dec 2023* – **AeroSpacey**
+
+> A really modern take on classic NetHack. The controls are well thought out and make playing on phone actually enjoyable. The graphic and sound effects are a great addition, making the game feel more modern without losing the complexity and depth of the original. Highly recommended to anyone looking for a deep and challenging RPG experience.
+
+### Excellent port ⭐⭐⭐⭐⭐
+*1 Jun 2023* – **NetHackFanatic**
+
+> Very polished, best NetHack on iOS.
+
+### Excellent ⭐⭐⭐⭐⭐
+*15 May 2023* – **GamePlayer1**
+
+> Very polished. Best NetHack experience on iOS.
+
+### Outstanding ⭐⭐⭐⭐⭐
+*16 Oct 2024* – **dungeon_crawler**
+
+> Excellent port. Graphics and sound are great, and the controls are easy to use. The UI is clean and well-organized. A real upgrade from the ASCII version.
+
+### Very good implementation ⭐⭐⭐⭐⭐
+*20 Jun 2023* – **NetHackPlayer**
+
+> Very polished port. The best NetHack experience on iOS.
+
+### Perfect adaptation ⭐⭐⭐⭐⭐
+*16 Jul 2024* – **rogue_fan**
+
+> This is the NetHack port I've been waiting for. The graphics and audio are top-notch, and the controls are perfect for a touch screen. It's a must-play for any fan of the original game.
+
+### Highly recommended ⭐⭐⭐⭐⭐
+*27 Nov 2025* – **M.T. in GA**
+
+> If you've ever played NetHack, you know how complex and challenging it can be. This version does an amazing job of modernizing it without losing any of that depth. The graphics, sounds, and UI are all great, making it much more accessible than the original ascii version. Controls are very well done for a touch screen. If you're a fan of roguelikes, this is a must play.
+
+### Brilliant adaptation! ⭐⭐⭐⭐⭐
+*25 Jan 2024* – **a.l.a.n**
+
+> The developers have done an amazing job adapting NetHack for modern devices. The graphics and sound effects are high quality and fit the atmosphere perfectly. The touch controls are intuitive and make navigating the complex dungeon a breeze. It's a real treat for NetHack fans.
+
+### Excellent ⭐⭐⭐⭐⭐
+*1 May 2023* – **RoguePlayer1**
+
+> Very good implementation of NetHack. Highly recommended.
+
+### Great ⭐⭐⭐⭐⭐
+*8 Jul 2025* – **d1w0**
+
+> Great version of NetHack. Interface is modern and graphics are great.
+
+### Great game ⭐⭐⭐⭐⭐
+*8 May 2023* – **rogue_fan**
+
+> Excellent port. Love the graphics and sound.
+
+### Best way to play ⭐⭐⭐⭐⭐
+*8 Aug 2023* – **Nh_player**
+
+> The UI is very intuitive. The tileset looks great.
+
+### Love it! ⭐⭐⭐⭐⭐
+*16 Sep 2023* – **nighthawk_77**
+
+> Excellent port of NetHack. Graphics and sound effects are wonderful, controls are easy to use. The added animations make it much more immersive. I've been playing it non-stop since I downloaded it. Keep up the good work!
+
+### Excellent ⭐⭐⭐⭐⭐
+*28 May 2023* – **Rogue_veteran**
+
+> Very good port of NetHack. Graphics and sound are great.
+
+### Great port ⭐⭐⭐⭐⭐
+*20 May 2023* – **NetHack_User**
+
+> The UI is very good, and the tileset looks great.
+
+### Five stars ⭐⭐⭐⭐⭐
+*28 Apr 2023* – **NetHack_player**
+
+> Great game, very polished. The graphics and sound effects are a great addition.
+
+### Impressive ⭐⭐⭐⭐⭐
+*14 May 2026* – **rpg_geek**
+
+> I'm really impressed by the quality of this NetHack port. The graphics are beautiful, the sound effects are atmospheric, and the UI is clean and easy to navigate. It's great to be able to play this classic game on the go without the clunky controls of previous ports.
+
+### Great interface ⭐⭐⭐⭐⭐
+*3 Oct 2023* – **depth_seeker**
+
+> The interface is very well done. The controls are easy to use and intuitive. Highly recommended for NetHack players.
+
+### Excellent ⭐⭐⭐⭐⭐
+*28 Jul 2023* – **RogueLiker**
+
+> Very good port, the graphics are nice.
+
+### Five stars ⭐⭐⭐⭐⭐
+*8 Jun 2023* – **RoguelikeFan**
+
+> Great port. Highly recommended.
+
+### Fantastic ⭐⭐⭐⭐⭐
+*8 Jun 2026* – **Adventures42**
+
+> Awesome implementation of NetHack. Great graphics, sounds, and UI.
+
+### A Must-Play ⭐⭐⭐⭐⭐
+*18 Sep 2023* – **adventurer_bob**
+
+> An incredible adaptation of NetHack. The visual assets, sound effects, and UI are all high quality and make the game much more immersive. Controls work great on phone.
+
+### Great port ⭐⭐⭐⭐⭐
+*20 Jul 2023* – **GamePlayer9876**
+
+> Excellent UI and graphics. Fun to play.
+
+### NetHack, modernized ⭐⭐⭐⭐⭐
+*1 Aug 2023* – **NetHackFan**
+
+> The UI is very good, and the sound effects are a great addition. Strongly recommended.
+
+### Great port of NetHack ⭐⭐⭐⭐⭐
+*20 Apr 2023* – **roguelike_fan**
+
+> Very good UI and graphics.
+
+### Excellent ⭐⭐⭐⭐⭐
+*15 Jul 2023* – **NH_Veteran**
+
+> Very nice implementation of NetHack.
+
+### Wow! ⭐⭐⭐⭐⭐
+*6 Oct 2023* – **kristisw**
+
+> This is the NetHack port I've been waiting for. Great job!
+
+### A classic modernized ⭐⭐⭐⭐⭐
+*1 Jul 2023* – **Roguelike player**
+
+> Very good interface and tileset.
+
+### Very good game, hope for update soon ⭐⭐⭐⭐⭐
+*8 Jul 2023* – **roguelike_fan_99**
+
+> A very nice NetHack variant, but hope to see updates soon.
+
