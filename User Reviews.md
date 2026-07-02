@@ -1,8 +1,8 @@
 ## Google Play Store
 
-> 👉 This is a curated list of GnollHack Android reviews from the Google Play Store.
+> 👉 This is a curated list of reviews of the **Android version of GnollHack** from the Google Play Store.
 
-| Rating | Date | Review Text |
+| Rating | Date | Review |
 |---|---|---|
 | ⭐⭐⭐⭐⭐ | 9 June, 2025 | I don't have the words... this reboot of an old classic is flawless. It's the best version of the old Moria from the 80s I've ever played, with tons of added goodies and mechanics. I only wish there was more! More levels and NPCs! More artifacts and items! But that's straight greed. This Nethack spinoff is a straight up masterpiece. 11/10, best mobile game of all time. 🔥🙌 |
 | ⭐⭐⭐⭐⭐ | 22 December, 2023 | Amazing adaptation of the OG granddaddy of roguelikes, the classic Nethack. But with an actual good control scheme for mobile and nice visuals and sound. Hands down the best "port" of nethack I've seen. Better than even Vulture on PC & gurr's mobile port. Accessibility features baked in like the npc at the entrance and streamlined HUD make it way more approachable for new players. A real upgrade for a game notorious for its complexity. Amazing work 10/10. I might actually finish a run now |
