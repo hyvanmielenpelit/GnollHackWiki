@@ -222,3 +222,8 @@ This enables automatic adjustment with a minimum of 4 lines.
 If you strongly prefer the original NetHack save key and don't mind rebinding the Enhance menu, you can add:
 
 `BIND=S:save`
+
+## Additional Reading
+
+* [[Keyboard Command Changes from NetHack]] — See this guide for the basic keyboard command information as well as to familiarize yourself with what commands are different from NetHack. Good for pros and beginners alike.
+* [[Advanced Keyboard Features]]
