@@ -85,6 +85,61 @@ This is a curated list of user reviews of the **Android version of GnollHack** o
 
 This is a curated list of user reviews of the **iOS version of GnollHack** on the Apple App Store.
 
+### Highly recommended ⭐⭐⭐⭐⭐
+*27 Nov 2025* – **M.T. in GA**
+
+> If you've ever played NetHack, you know how complex and challenging it can be. This version does an amazing job of modernizing it without losing any of that depth. The graphics, sounds, and UI are all great, making it much more accessible than the original ascii version. Controls are very well done for a touch screen. If you're a fan of roguelikes, this is a must play.
+
+### A modern spin on the classic roguelike ⭐⭐⭐⭐⭐
+*12 Dec 2023* – **AeroSpacey**
+
+> A really modern take on classic NetHack. The controls are well thought out and make playing on phone actually enjoyable. The graphic and sound effects are a great addition, making the game feel more modern without losing the complexity and depth of the original. Highly recommended to anyone looking for a deep and challenging RPG experience.
+
+### Excellent ⭐⭐⭐⭐⭐
+*4 Sep 2025* – **k1ll3r-t0fu**
+
+> This is hands down the best NetHack port for mobile devices. The visual assets, interface, and audio are fantastic. The controls are incredibly customizable and work well on small screen. It's obvious that a lot of thought and effort went into this. If you love classic roguelikes, you need to download this right now.
+
+### Brilliant adaptation! ⭐⭐⭐⭐⭐
+*25 Jan 2024* – **a.l.a.n**
+
+> The developers have done an amazing job adapting NetHack for modern devices. The graphics and sound effects are high quality and fit the atmosphere perfectly. The touch controls are intuitive and make navigating the complex dungeon a breeze. It's a real treat for NetHack fans.
+
+### Impressive ⭐⭐⭐⭐⭐
+*14 May 2026* – **rpg_geek**
+
+> I'm really impressed by the quality of this NetHack port. The graphics are beautiful, the sound effects are atmospheric, and the UI is clean and easy to navigate. It's great to be able to play this classic game on the go without the clunky controls of previous ports.
+
+### Love it! ⭐⭐⭐⭐⭐
+*16 Sep 2023* – **nighthawk_77**
+
+> Excellent port of NetHack. Graphics and sound effects are wonderful, controls are easy to use. The added animations make it much more immersive. I've been playing it non-stop since I downloaded it. Keep up the good work!
+
+### A masterclass in porting ⭐⭐⭐⭐⭐
+*25 Nov 2025* – **game_collector**
+
+> This is how you port a classic game to mobile devices. The graphics, audio, and UI are all excellent, and the touch controls work perfectly. It's obvious a lot of care went into this. Highly recommended.
+
+### A Must-Play ⭐⭐⭐⭐⭐
+*18 Sep 2023* – **adventurer_bob**
+
+> An incredible adaptation of NetHack. The visual assets, sound effects, and UI are all high quality and make the game much more immersive. Controls work great on phone.
+
+### Perfect adaptation ⭐⭐⭐⭐⭐
+*16 Jul 2024* – **rogue_fan**
+
+> This is the NetHack port I've been waiting for. The graphics and audio are top-notch, and the controls are perfect for a touch screen. It's a must-play for any fan of the original game.
+
+### Best NetHack Port ⭐⭐⭐⭐⭐
+*22 Dec 2023* – **nh_veteran**
+
+> Excellent port of NetHack. Graphics and sound effects are great, and the UI is much better than other ports. Controls are highly customizable. Highly recommended.
+
+### Outstanding ⭐⭐⭐⭐⭐
+*16 Oct 2024* – **dungeon_crawler**
+
+> Excellent port. Graphics and sound are great, and the controls are easy to use. The UI is clean and well-organized. A real upgrade from the ASCII version.
+
 ### Masterpiece ⭐⭐⭐⭐⭐
 *9 Jun 2025* – **moria_fan**
 
@@ -95,56 +150,6 @@ This is a curated list of user reviews of the **iOS version of GnollHack** on th
 
 > This is the best version of NetHack I've ever played. The graphics and sounds are great, and the interface is modern and clean.
 
-### Best NetHack Port ⭐⭐⭐⭐⭐
-*22 Dec 2023* – **nh_veteran**
-
-> Excellent port of NetHack. Graphics and sound effects are great, and the UI is much better than other ports. Controls are highly customizable. Highly recommended.
-
-### Excellent ⭐⭐⭐⭐⭐
-*4 Sep 2025* – **k1ll3r-t0fu**
-
-> This is hands down the best NetHack port for mobile devices. The visual assets, interface, and audio are fantastic. The controls are incredibly customizable and work well on small screen. It's obvious that a lot of thought and effort went into this. If you love classic roguelikes, you need to download this right now.
-
-### A masterclass in porting ⭐⭐⭐⭐⭐
-*25 Nov 2025* – **game_collector**
-
-> This is how you port a classic game to mobile devices. The graphics, audio, and UI are all excellent, and the touch controls work perfectly. It's obvious a lot of care went into this. Highly recommended.
-
-### A modern spin on the classic roguelike ⭐⭐⭐⭐⭐
-*12 Dec 2023* – **AeroSpacey**
-
-> A really modern take on classic NetHack. The controls are well thought out and make playing on phone actually enjoyable. The graphic and sound effects are a great addition, making the game feel more modern without losing the complexity and depth of the original. Highly recommended to anyone looking for a deep and challenging RPG experience.
-
-### Outstanding ⭐⭐⭐⭐⭐
-*16 Oct 2024* – **dungeon_crawler**
-
-> Excellent port. Graphics and sound are great, and the controls are easy to use. The UI is clean and well-organized. A real upgrade from the ASCII version.
-
-### Perfect adaptation ⭐⭐⭐⭐⭐
-*16 Jul 2024* – **rogue_fan**
-
-> This is the NetHack port I've been waiting for. The graphics and audio are top-notch, and the controls are perfect for a touch screen. It's a must-play for any fan of the original game.
-
-### Highly recommended ⭐⭐⭐⭐⭐
-*27 Nov 2025* – **M.T. in GA**
-
-> If you've ever played NetHack, you know how complex and challenging it can be. This version does an amazing job of modernizing it without losing any of that depth. The graphics, sounds, and UI are all great, making it much more accessible than the original ascii version. Controls are very well done for a touch screen. If you're a fan of roguelikes, this is a must play.
-
-### Brilliant adaptation! ⭐⭐⭐⭐⭐
-*25 Jan 2024* – **a.l.a.n**
-
-> The developers have done an amazing job adapting NetHack for modern devices. The graphics and sound effects are high quality and fit the atmosphere perfectly. The touch controls are intuitive and make navigating the complex dungeon a breeze. It's a real treat for NetHack fans.
-
-### Love it! ⭐⭐⭐⭐⭐
-*16 Sep 2023* – **nighthawk_77**
-
-> Excellent port of NetHack. Graphics and sound effects are wonderful, controls are easy to use. The added animations make it much more immersive. I've been playing it non-stop since I downloaded it. Keep up the good work!
-
-### Impressive ⭐⭐⭐⭐⭐
-*14 May 2026* – **rpg_geek**
-
-> I'm really impressed by the quality of this NetHack port. The graphics are beautiful, the sound effects are atmospheric, and the UI is clean and easy to navigate. It's great to be able to play this classic game on the go without the clunky controls of previous ports.
-
 ### Great interface ⭐⭐⭐⭐⭐
 *3 Oct 2023* – **depth_seeker**
 
@@ -154,8 +159,3 @@ This is a curated list of user reviews of the **iOS version of GnollHack** on th
 *8 Jun 2026* – **Adventures42**
 
 > Awesome implementation of NetHack. Great graphics, sounds, and UI.
-
-### A Must-Play ⭐⭐⭐⭐⭐
-*18 Sep 2023* – **adventurer_bob**
-
-> An incredible adaptation of NetHack. The visual assets, sound effects, and UI are all high quality and make the game much more immersive. Controls work great on phone.
