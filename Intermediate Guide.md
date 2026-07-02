@@ -54,7 +54,7 @@ The [[Starting Guide for Beginners]] advises you to rely on your pet, but to sur
 | **[[/Monsters/Ghoul]]** | Paralyzing attacks. Their melee attacks can paralyze you for several turns. | **Use ranged combat.** Keep your distance and kill them before they can get into melee range. |
 | **[[/Monsters/Nymphs]]** | Item theft. | They will steal your items and teleport away. Kill them with ranged attacks before they get close. |
 
-> ℹ️ **Tip:** Paralysis is extremely dangerous throughout the entire game, not just in the early levels. It is highly recommended to obtain Free Action (paralysis resistance) as early as possible to avert deaths related to being paralyzed.
+> 💡 **Tip:** Paralysis is extremely dangerous throughout the entire game, not just in the early levels. It is highly recommended to obtain Free Action (paralysis resistance) as early as possible to avert deaths related to being paralyzed.
 
 ## 🧬 Key Resistances
 
