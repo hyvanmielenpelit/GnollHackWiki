@@ -2,9 +2,11 @@
 
 > 👉 **This policy outlines the rules and guidelines for using generative artificial intelligence (AI) in the development of GnollHack, covering game assets, programming code, and documentation.**
 
-## Generative AI Content Usage
+## Generative AI Assets
 
-| AI Content Type | Use Allowed in Game | Use Allowed in Stores<sup>1</sup> | Use Allowed in Other Contexts<sup>2</sup> |
+> ℹ️ This section explains the details how we use assets created with a generative AI in GnollHack-related contexts.
+
+| AI Asset Type | Use Allowed in Game | Use Allowed in Stores<sup>1</sup> | Use Allowed in Other Contexts<sup>2</sup> |
 | :--- | :---: | :---: | :---: |
 | Image | ❌ | ❌<sup>3</sup> / ✅<sup>4</sup> | ✅ |
 | Text | ❌ | ✅<sup>5, 6</sup> | ✅<sup>6</sup> |
@@ -22,7 +24,7 @@
 
 ## AI Programming
 
-We use generative AI to *assist* our development, especially to help us complete complex programming tasks.
+> ℹ️ We use generative AI to *assist* our development, especially to help us complete complex programming tasks.
 
 1. Programmers may use generative AI, including AI agents, to generate code.
 2. Programmers must review the AI-generated code to ensure that it is correct.
@@ -30,7 +32,7 @@ We use generative AI to *assist* our development, especially to help us complete
 
 ## AI Documentation
 
-We use generative AI to create accurate documentation quickly. It is also used to check the grammar of documentation.
+> ℹ️ We use generative AI to create accurate documentation quickly. It is also used to check the grammar of documentation.
 
 1. Programmers may use generative AI, including AI agents, to generate documentation.
 2. Programmers may use generative AI to generate documentation in the game code files.
