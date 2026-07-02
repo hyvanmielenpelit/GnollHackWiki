@@ -1,4 +1,4 @@
-![techological-features](/uploads/Technological%20Features/techological-features.webp)
+![Engineering Achievements](/uploads/Technological%20Features/engineering-achievements-q85.webp)
 
 > 👉 **GnollHack is an ambitious open-source project that bridges the gap between decades-old legacy C code and modern cross-platform development paradigms, serving as a rare and powerful showcase of [.NET MAUI](https://github.com/dotnet/maui)'s capabilities in game development.**
 
@@ -18,17 +18,17 @@ GnollHack is not just another application; it is a profound technical achievemen
 
 _(Originally Xamarin.Forms)_
 
-GnollHack is one of the very few games developed with **[.NET MAUI](https://github.com/dotnet/maui)**, which is primarily a cross-platform app creation framework. GnollHack extends the boundaries of .NET MAUI by implementing a fully fledged 2D game. .NET MAUI allows GnollHack to run on Android, iOS, Windows, and macOS.
+GnollHack is one of the very few games developed with [.NET MAUI](https://github.com/dotnet/maui), which is primarily a cross-platform app creation framework. GnollHack extends the boundaries of .NET MAUI by implementing a fully fledged 2D game. .NET MAUI allows GnollHack to run on Android, iOS, Windows, and macOS.
 
 .NET MAUI allows us to quickly and effectively develop a complex UI for GnollHack, using a multitude of premade controls, such as text entries, multiline text boxes, in-game web views, and dynamically sizing layouts.
 
 ### Graphics Drawing Engine: SkiaSharp
 
-GnollHack utilizes the highly effective **[SkiaSharp](https://github.com/mono/SkiaSharp)**, which is built upon Google's **[Skia](https://skia.org/)** graphics drawing engine, to draw its graphics in a fast and battery-efficient way. SkiaSharp offers a developer-friendly API to draw bitmaps, shapes, and text on a canvas, which can be GPU accelerated.
+GnollHack utilizes the highly effective [SkiaSharp](https://github.com/mono/SkiaSharp), which is built upon Google's [Skia](https://skia.org/) graphics drawing engine, to draw its graphics in a fast and battery-efficient way. SkiaSharp offers a developer-friendly API to draw bitmaps, shapes, and text on a canvas, which can be GPU accelerated.
 
 ### Sound Middleware: FMOD
 
-GnollHack integrates **[FMOD](https://www.fmod.com/)** — a commercial cross-platform audio library — on all platforms as sound middleware, which is a major technological advancement, exemplifying that FMOD can be integrated with .NET MAUI for playing sounds and music.
+GnollHack integrates [FMOD](https://www.fmod.com/) — a commercial cross-platform audio library — on all platforms as sound middleware, which is a major technological advancement, exemplifying that FMOD can be integrated with .NET MAUI for playing sounds and music.
 
 ### Native C Code Integration
 
