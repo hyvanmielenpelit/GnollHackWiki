@@ -4,7 +4,7 @@
 
 ## 🎨 Generative AI Assets
 
-> ℹ️ This section explains the details how we use assets created with a generative AI in GnollHack-related contexts.
+> ℹ️ This section explains the details of how we use assets created with generative AI in GnollHack-related contexts.
 
 | AI Asset Type | Use Allowed in Game | Use Allowed in Stores<sup>1</sup> | Use Allowed in Other Contexts<sup>2</sup> |
 | :--- | :---: | :---: | :---: |
@@ -36,8 +36,8 @@
 
 Generative AI, including AI agents, may be used to:
 
-1. Generate documentation (e.g. document the game code and create pages in the GnollHack Wiki)
-2. Verify that documentation is correct (i.e. compare documentation with the game code)
+1. Generate documentation (e.g., document the game code and create pages in the GnollHack Wiki)
+2. Verify that documentation is correct (i.e., compare documentation with the game code)
 3. Check and correct the grammar of documentation
 4. Apply styling to documentation
 5. Organize documentation
