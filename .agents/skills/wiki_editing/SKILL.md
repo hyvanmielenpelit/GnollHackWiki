@@ -219,3 +219,14 @@ When formatting inline content, tables, lists, or callouts, use appropriate Unic
 - **Economy & Value**:
   - Gold / Price / Cost / Shop purchases: `🪙` or `💰`
 
+## 11. Recommended Unicode Icons for Article Types
+
+When linking to or categorizing different types of articles (for instance, in lists or tables of contents), use the following Unicode icons to indicate the nature of the article. **Note:** These icons do not necessarily need to be inserted before each individual article link; they can instead be applied only to the overarching section heading for that group of articles.
+
+- **Technological Background Articles** (explaining architecture, history, and technical choices): `🏗️` or `🧠` or `💡`
+- **Tutorials and Guides** (step-by-step instructions for gameplay): `🎓` or `🏁`
+- **Reference and Data** (raw data, game mechanics, item tables): `📊` or `📖`
+- **Build Instructions** (compiling and setting up the game): `🛠️` or `🧑‍💻`
+- **Troubleshooting and FAQ** (solving common problems): `❓` or `🔧`
+- **Project Management and Checklists** (release steps, to-dos): `📋` or `✅`
+- **Legal and Policy** (privacy policies, licenses): `📄` or `⚖️`
