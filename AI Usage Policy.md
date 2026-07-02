@@ -24,7 +24,7 @@
 
 ## 💻 AI Programming
 
-> ℹ️ We use generative AI to *assist* our development, especially to help us complete complex programming tasks.
+> ℹ️ We use generative AI to *assist* our development, especially to help us complete complex or tedious programming tasks.
 
 1. Programmers may use generative AI, including AI agents, to generate code.
 2. Programmers must review the AI-generated code to ensure that it is correct.
