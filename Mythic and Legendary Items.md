@@ -8,6 +8,7 @@
   - Non-magical helms
   - Non-magical shields
   - Non-magical body armor
+  - Non-magical shirts
   - Non-magical melee weapons
   - Non-magical thrown weapons
   - Non-magical ammunition
