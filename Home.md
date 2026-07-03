@@ -37,7 +37,7 @@ GnollHack is best understood as a modernized version of NetHack that makes the c
 
 ### 📖 General Information
 
-The Gameplay Information page is a *central hub for all GnollHack game content*.
+The Gameplay Information page is the *central hub for all GnollHack game content*.
 
 - **[[Gameplay Information]]** — A comprehensive guide to game mechanics, including character creation, UI, stats, equipment, items, spells, monsters, religion, and advanced topics
 
