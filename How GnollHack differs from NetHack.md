@@ -12,7 +12,7 @@ While NetHack relies on classic ASCII graphics and operates entirely without sou
 
 ## 🔮 A Reimagined Magic System
 
-NetHack uses a simple spell retention system where spells are eventually forgotten. In contrast, GnollHack introduces a deep, tactical, resource-based magic system utilizing mana, reagents, and cooldowns across hundreds of new spells.
+NetHack uses a simple spell retention system where spells are eventually forgotten. In contrast, GnollHack introduces a deep, tactical, resource-based magic system utilizing mana, reagents, and cooldowns for hundreds of new spells.
 
 | Feature | NetHack | GnollHack |
 |---------|---------|-----------|
@@ -54,10 +54,10 @@ GnollHack preserves most NetHack mechanics to keep the game familiar to NetHack 
 
 ## 📈 GnollHack Development Key Figures
 
-- More than 10000 code commits since July 2019, when GnollHack was forked from NetHack 3.6.2
-- More than 23000 graphical tiles, drawn by real artists specifically for GnollHack
+- More than 10,000 code commits since July 2019, when GnollHack was forked from NetHack 3.6.2
+- More than 23,000 graphical tiles, drawn by real artists specifically for GnollHack
 - More than 100 high-definition user interface icons, drawn by a real artist specifically for GnollHack
-- More than 5000 voiceover lines, voiced by real voice actors
+- More than 5,000 voiceover lines, voiced by real voice actors
 - 14 pieces of original background music, composed by a real composer specifically for GnollHack
 
 ## 📷 User Interface Screenshots
