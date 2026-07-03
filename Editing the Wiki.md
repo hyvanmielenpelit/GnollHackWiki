@@ -210,7 +210,7 @@ Page titles can be customized using an H1 heading (single #) in the first line o
 # My Custom Page Title
 ```
 
-> ⚠️ **Warning:** File names in the wiki Git repository are **case-insensitive**. Once you have committed a file to the wiki repository, you can't change its casing, which means you can't change the casing of a page title by editing a file name. If you have incorrectly cased a file name, it is recommended that you use an **H1 heading (#)** in the first line of the page to specify the right casing for the page title.
+> 💡 **Tip:** File names in the wiki Git repository are **case-insensitive**. Once you have committed a file to the wiki repository, you can't change its casing, which means you can't change the casing of a page title by editing a file name. If you have incorrectly cased a file name, it is recommended that you use an **H1 heading (#)** in the first line of the page to specify the right casing for the page title.
 
 ### 🔽 Use Only H2 (##) and Lower Headings
 
