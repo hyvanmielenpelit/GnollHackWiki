@@ -4,13 +4,13 @@
 
 The GnollHack wiki can't be edited directly on the web. Instead, you need to update the [GnollHackWiki](https://github.com/hyvanmielenpelit/GnollHackWiki) git repository on GitHub. Wiki pages are text files in the [Markdown](https://www.markdownguide.org/) format, which has been extended with a [Gollum-style wiki tag syntax](#gollum-style-wiki-tag-syntax), particularly wikilinks, which link pages to each other. 
 
-Once the repository has been updated, the changes will sync to the web once every 5 minutes. There's no separate build step involved. If you don't have rights to update the GnollHackWiki GitHub repository, you need to fork the repository on GitHub and make a pull request. But usually it's easier just to ask someone with editing rights to update the repository instead.
+Once the repository has been updated, the changes will sync to the web once every 5 minutes. There's no separate build step involved. If you don't have rights to update the GnollHackWiki GitHub repository, you need to fork the repository on GitHub and make a pull request. However, it is usually easier just to ask someone with editing rights to update the repository instead.
 
-To get an optimal wiki editing experience, you need to install [Visual Studio Code](https://code.visualstudio.com/) or [Antigravity IDE](https://antigravity.google/product/antigravity-ide) and some of their extensions. These will help you to update wiki pages and upload images with great efficiency.
+To get an optimal wiki editing experience, you need to install [Visual Studio Code](https://code.visualstudio.com/) or [Antigravity IDE](https://antigravity.google/product/antigravity-ide) and some of their extensions. These will help you update wiki pages and upload images with great efficiency.
 
 ### Gollum-Style Wiki Tag Syntax
 
-[Gollum](https://github.com/gollum/gollum) is the wiki software used by the GnollHack wiki. It has its own proprietary wiki tag syntax, which differs from that used by [MediaWiki](https://github.com/wikimedia/mediawiki) (which is used by, e.g. [Wikipedia](https://www.wikipedia.org/)). Please see the [Foam for Gollum](https://marketplace.visualstudio.com/items?itemName=Hyvnmielenpelitry.foam-vscode-gollum) Visual Studio Code extension's description for the most important details. The [Gollum wiki](https://github.com/gollum/gollum/wiki#tags) has also a pretty technical description of supported tags.
+[Gollum](https://github.com/gollum/gollum) is the wiki software used by the GnollHack wiki. It has its own proprietary wiki tag syntax, which differs from that used by [MediaWiki](https://github.com/wikimedia/mediawiki) (which is used by, e.g. [Wikipedia](https://www.wikipedia.org/)). Please see the [Foam for Gollum](https://marketplace.visualstudio.com/items?itemName=Hyvnmielenpelitry.foam-vscode-gollum) Visual Studio Code extension's description for the most important details. The [Gollum wiki](https://github.com/gollum/gollum/wiki#tags) also has a technical description of the supported tags.
 
 ## Editing Software
 
@@ -88,7 +88,7 @@ It will add the following keyboard shortcuts to Markdown documents:
 
 You can also install [GitHub Desktop](https://desktop.github.com/download/) for a GUI.
 
-### Cloning Repository
+### Cloning the Repository
 
 *(Use these instructions if you have write rights to the GnollHack Wiki repository. They can be granted by Sound Mind Games admins.)*
 
@@ -97,16 +97,16 @@ You can also install [GitHub Desktop](https://desktop.github.com/download/) for 
 3. Type `git clone https://github.com/hyvanmielenpelit/GnollHackWiki.git` and press Enter.
 4. GnollHack wiki should now install to the `GnollHackWiki` subdirectory.
 
-### Forking Repository and Making Pull Request
+### Forking the Repository and Making a Pull Request
 
-*(Use these instructions if you **don't** have write rights to the GnollHack Wiki repository but you want to do a contribution.)*
+*(Use these instructions if you **don't** have write rights to the GnollHack Wiki repository but you want to make a contribution.)*
 
 1. Go to the [GnollHackWiki repository](https://github.com/hyvanmielenpelit/GnollHackWiki) on GitHub.
 2. Fork the repository by clicking the **Fork badge**. <br />
    <img src="/uploads/Editing Wiki with Visual Studio Code/github-fork.webp" alt="GitHub Fork" height="36" />
 3. [Clone the forked repository to the local machine](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
 4. Make changes and commit them.
-5. Push changes the forked repository.
+5. Push changes to the forked repository.
 6. Make a pull request to the GnollHack Wiki repository from the forked repository on GitHub.
 
 You can read more about forking repositories and making pull requests in GitHub documentation: [Creating a pull request from a fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork).
@@ -143,7 +143,7 @@ You should use subdirectories in the following cases:
 
 ### Uploads Should Go Under /uploads/
 
-Uploads, such as images, should be placed under `/uploads/`. If the document with an upload is in a subdirectory, the subdirectory name should also be included in the path. This should be handled automatically by Visual Studio Code, when you have the Foam for Gollum extension installed with the default settings.
+Uploads, such as images, should be placed under `/uploads/`. If the document with an upload is in a subdirectory, the subdirectory name should also be included in the path. This should be handled automatically by Visual Studio Code when you have the Foam for Gollum extension installed with the default settings.
 
 #### Examples
 
@@ -154,10 +154,10 @@ Uploads, such as images, should be placed under `/uploads/`. If the document wit
 
 Please use **WebP** encoded at **85 quality** as the image file format. Many image editing software support WebP.
 
-- Adobe Photoshop has native WebP support since February 2022.
+- Adobe Photoshop has had native WebP support since February 2022.
 - For earlier versions of Adobe Photoshop and Adobe Photoshop Elements, you can download [WebPShop plugin](https://github.com/webmproject/WebPShop).
 
-If your image has *flat colors* and is *encoded in a lossless format, such as PNG,* — which is usually the case with screenshots — you can re-encode your image to WebP at **100 quality** to keep them **lossless**. However, this behavior needs to be implemented separately in your WebP conversion tool because the normal 100 quality encoding is *not* lossless. For example, the WebPShop plugin does this. A losslessly encoded image can be smaller than one encoded with 85 quality (lossy encoding), when the image has flat colors.
+If your image has *flat colors* and is *encoded in a lossless format, such as PNG,* — which is usually the case with screenshots — you can re-encode your image to WebP at **100 quality** to keep it **lossless**. However, this behavior needs to be implemented separately in your WebP conversion tool because the normal 100 quality encoding is *not* lossless. For example, the WebPShop plugin does this. A losslessly encoded image can be smaller than one encoded with 85 quality (lossy encoding) when the image has flat colors.
 
 #### WebP Batch Conversion
 
@@ -223,7 +223,7 @@ Since the H1 heading (#) is reserved for customizing page titles, please use onl
 
 ### Don't Put Anything Under /gollum/
 
-`/gollum/` folder is reserved for the Gollum wiki software functions. Please don't create that folder and don't put anything under it.
+The `/gollum/` folder is reserved for the Gollum wiki software functions. Please don't create that folder and don't put anything under it.
 
 ### /.gollum/ Folder Is Reserved for Website Files
 
@@ -273,7 +273,7 @@ It links to [[/Items/Potion of healing.md]].
 
 ### Case-Insensitive File Names
 
-File names in the wiki Git repository are **case-insensitive**. Once you have committed a file to the wiki repository, you can't change its casing, which means you can't change the casing of a page title by editing a file name. In the case you have wrongly cased a file name, it is recommended that you use an **H1 heading (#)** in the first line of the page to specify the right casing for the page title.
+File names in the wiki Git repository are **case-insensitive**. Once you have committed a file to the wiki repository, you can't change its casing, which means you can't change the casing of a page title by editing a file name. If you have incorrectly cased a file name, it is recommended that you use an **H1 heading (#)** in the first line of the page to specify the right casing for the page title.
 
 ### Global Tag Lookup Disabled
 
