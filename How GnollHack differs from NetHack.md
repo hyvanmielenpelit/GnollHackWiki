@@ -8,7 +8,8 @@ While NetHack relies on classic ASCII graphics and operates entirely without sou
 |---------|---------|-----------|
 | **Graphics** | 🖥️ ASCII or basic tiles | ✨ Modern GUI across platforms with real 2D [[animations]] |
 | **Audio** | ❌ No sound | 🔊 Immersive sound effects, a full [[music]] soundtrack, and [[voiceovers]] |
-| **Information** | ❓ Relies on external spoilers | 🔍 Detailed in-game stats for items and monsters, plus 8 status lines |
+| **Inventory Actions** | ⌨️ Memorize specific keys (`q` to quaff, `r` to read) | 🖱️ All common item actions are accessible by selecting the item in the inventory |
+| **Information** | ❓ Relies on external spoilers, hides damage numbers | 🔍 Detailed in-game stats, exact damage/XP messaging, and up to 8 status lines |
 
 ## 🔮 A Reimagined Magic System
 
@@ -37,15 +38,16 @@ NetHack is fundamentally a game of scarcity with rigid combat rules and immediat
 | **Encounters** | 💀 Out-of-depth monsters (e.g., early soldier ant swarms) | ⚖️ Scaled encounter system ensures balanced difficulty |
 | **Lethality** | ☠️ Immediate insta-deaths | ⏳ Many insta-deaths are delayed, allowing precious turns to react |
 
-## 🎓 Accessibility and Economy
+## 🎓 Characters, Accessibility, and Economy
 
-NetHack presents a single, unforgiving difficulty curve where gold has little use. GnollHack caters to all skill levels with varied difficulties and gives money real value for purchasing crucial services from NPCs.
+NetHack features standard fantasy races and a single, unforgiving difficulty curve where gold has little use. GnollHack introduces the playable Gnoll race, caters to all skill levels with varied difficulties, and gives money real value for purchasing services.
 
 | Feature | NetHack | GnollHack |
 |---------|---------|-----------|
+| **Playable Races** | 🧔 Includes Gnomes | 🐺 Replaces Gnomes with the new [[/Races/Gnoll]] race, featuring unique starting items and traits |
 | **Difficulty Options**| 📈 Single, steep difficulty curve | 🌟 7 [[difficulty levels]] and varying gameplay modes |
 | **Economy** | ❌ Money has very few uses | 💰 Spend gold on item identification, healing from priests, and bribing guards |
-| **Identification** | ❓ Tedious blind-testing and price-ID | 🔍 Plentiful identification items and NPC services |
+| **Identification** | ❓ Tedious blind-testing and price-ID | 🔍 Plentiful identification items (like the new [[/Items/wand of identify]]) and NPC services |
 | **Companions** | 🐾 Pets often get stuck on the map | 🧠 Intelligent pathing and a robust chat system to talk to NPCs and monsters |
 
 ## 🛡️ Preserving the Spirit of NetHack
