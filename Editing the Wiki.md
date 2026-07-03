@@ -214,6 +214,20 @@ Page titles can be customized using an H1 heading (single #) in the first line o
 
 Since the H1 heading (#) is reserved for customizing page titles, please use only H2 (##) and lower headings as section headings in a page.
 
+## Wikilinks
+
+Wikilinks link wiki pages to each other. They are page names in double brackets: `[[Page Name]]`. When a wikilink has an alias, it comes first, separated by a pipe from the page name: `[[Alias|Page Name]]`
+
+> ℹ️ **Note:** **Global tag lookup is disabled**, so you need to specify *the exact path* to the Markdown file in a wikilink.
+
+> ℹ️ **Note:** Even though browser URLs in the wiki have the **.md extension**, *you don't need to use it in wikilinks*.
+
+> ℹ️ **Note:** All wikilinks are **relative to the current document directory** and not to the root directory of the wiki (as in MediaWiki), making things a bit harder than necessary. However, *you can just use `/` at the start of wikilinks to make them relative to the root directory*. We have adopted **a convention to always use it before subdirectories**, but you may need to use it when referring to a file in the root directory, when the current document is in a subdirectory.
+
+> ℹ️ **Note:** Wikilinks are **case-insensitive**, so you can write `[[/Items/potion of healing]]`, and it works like this: [[/Items/potion of healing]] — It links to [[/Items/Potion of healing.md]].
+
+> ⚠️ **Warning:** File names in the wiki Git repository are **case-insensitive**. Once you have committed a file to the wiki repository, you can't change its casing, which means you can't change the casing of a page title by editing a file name. If you have incorrectly cased a file name, it is recommended that you use an **H1 heading (#)** in the first line of the page to specify the right casing for the page title.
+
 ## 🛠️ How-To-Do Guide
 
 | Action | Instructions |
@@ -224,30 +238,7 @@ Since the H1 heading (#) is reserved for customizing page titles, please use onl
 | **📖 Add Word to Dictionary**| Click the underlined word, click the yellow light bulb (quick fix), and select **Add 'word' to dictionary**. |
 | **🚀 Publish Changes** | Commit your changes in the Source Control view and sync them. *(Updates take up to 5 minutes to appear online.)* |
 
-## ℹ️ Additional Information
-
-### 🔗 Case-Insensitive Wikilinks
-
-Wikilinks are **case-insensitive**, so you can write `[[/Items/potion of healing]]` and it works like this:
-- [[/Items/potion of healing]]
-
-It links to [[/Items/Potion of healing.md]].
-
-### 📄 Case-Insensitive File Names
-
-File names in the wiki Git repository are **case-insensitive**.
-
-> ⚠️ **Warning:** Once you have committed a file to the wiki repository, you can't change its casing, which means you can't change the casing of a page title by editing a file name. If you have incorrectly cased a file name, it is recommended that you use an **H1 heading (#)** in the first line of the page to specify the right casing for the page title.
-
-### ℹ️ Notes
-
-> ℹ️ **Note:** **Global tag lookup is disabled**, so you need to specify *the exact path* to the Markdown file.
-
-> ℹ️ **Note:** Even though browser URLs in the wiki have the **.md extension**, *you don't need to use it in wikilinks*.
-
-> ℹ️ **Note:** All wikilinks are **relative to the current document directory** and not to the root directory of the wiki (as in MediaWiki), making things a bit harder than necessary. However, *you can just use `/` at the start of wikilinks to make them relative to the root directory*. We have adopted **a convention to always use it before subdirectories**, but you may need to use it when referring to a file in the root directory, when the current document is in a subdirectory.
-
-### ⚙️ Changing Image and File Dropdown Templates
+## ⚙️ Changing Image and File Dropdown Templates
 
 Gollum supports three syntaxes for image and file links. When you drop a file or image into a Markdown document while having the custom file dropdown provider enabled, Visual Studio Code will create a template based on the chosen syntax. You can set your preferred syntax in:
 
@@ -256,7 +247,7 @@ Gollum supports three syntaxes for image and file links. When you drop a file or
 
 Applying settings this way is useful when you have repositories using different syntaxes and conventions and your preferred settings vary across repositories. 
 
-#### 🖼️ Image Templates
+### 🖼️ Image Templates
 
 Based on the `"foam.fileDropdown.imageTemplateFormat"` setting, the custom file dropdown provider will generate the following templates.
 
@@ -268,7 +259,7 @@ Based on the `"foam.fileDropdown.imageTemplateFormat"` setting, the custom file 
 
 The default setting is `"markdown"`.
 
-#### 📄 File Templates
+### 📄 File Templates
 
 Based on the `"foam.fileDropdown.fileTemplateFormat"` setting, the custom file dropdown provider will generate the following templates.
 
