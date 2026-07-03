@@ -1,21 +1,44 @@
-## 📱 User Interface
+> 👉 **Welcome to GnollHack!** If you are looking for a modern, accessible, yet deeply tactical version of NetHack, you are in the right place. GnollHack preserves the core spirit of the original while completely reimagining its graphics, sound, and key gameplay systems to create an engaging experience for both beginners and veterans.
 
-- GnollHack has a [[modern graphical user interface|Improved Graphical Interface]] on [[Android|Android Version]], [[iOS, macOS|iOS Version]], and [[Windows|Modern Windows Version]].
-- GnollHack has [[real 2D animations|Animations]]. NetHack has no animations.
-- GnollHack has [[sound effects|Advanced Sound System]], [[music|Music]], and [[voiceovers]]. NetHack has no sounds.
+## 📱 Presentation and UI
 
-## 🕹️ Gameplay
+| Feature | NetHack | GnollHack |
+|---------|---------|-----------|
+| **Graphics** | 🖥️ ASCII or basic tiles | ✨ Modern GUI across platforms with real 2D [[animations]] |
+| **Audio** | ❌ No sound | 🔊 Immersive sound effects, a full [[music]] soundtrack, and [[voiceovers]] |
+| **Information** | ❓ Relies on external spoilers | 🔍 Detailed in-game stats for items and monsters, plus 8 status lines |
 
-- There are more items found in the dungeon.
-- GnollHack is easy in the start and hard in the end, while NetHack usually is hard in the start and easy in the end.
-- GnollHack is more a game of plenty, where you have many items and options. You have far more options for the ascension kit. You can also carry more in GnollHack.
-- GnollHack has [[difficulty levels]] and [[game modes|Choosing the Right Gameplay Mode]] appropriate for beginning players.
-- You can use money on several useful services. In NetHack, there are little uses for money, except for the donation in the temple.
-- There are plenty of identification items and services available, which means that you can identify your items easily. In NetHack, players often have to resort to price-id'ing or hope that a blessed [[/Items/scroll of identify]] identifies the whole inventory by chance.
-- There are fewer insta-death situations in the game compared to NetHack. Many insta-death situations have become *delayed insta-death situations*, which allow you to react to the situation for several turns.
-- You have plenty of information about item statistics inside the game.
-- Magic is resource-based.
-- Ranged combat works better.
+## 🔮 A Reimagined Magic System
+
+| Feature | NetHack | GnollHack |
+|---------|---------|-----------|
+| **Core System** | 🧠 Spell retention (forget spells over time) | 🔮 Resource-based system |
+| **Spell Variety** | 📜 ~40 standard spells | ✨ Over 200 new spells across 12 distinct spell schools |
+| **Preparation** | 📖 Read book to memorize | 🧪 Use the Mix command with material components (reagents) |
+| **Casting Depth** | 🎲 Simple chance to cast | ⏱️ Features casting times, tactical cooldowns, and somatic armor penalties |
+| **Learning Spells**| 📕 Read spellbooks | 🧑‍🏫 Read spellbooks or pay Priest and Artificer NPCs |
+| **Management** | 📋 Basic listing | ⌨️ Sort, reorder, and assign numeric shortcuts (0–9) |
+
+## ⚔️ Combat and Items
+
+| Feature | NetHack | GnollHack |
+|---------|---------|-----------|
+| **Ranged Combat** | ❌ Swapping weapons costs a turn; launchers don't add damage | 🏹 Instant weapon swapping; launchers add their damage to the missile |
+| **Melee Variety** | 🗡️ Standard dual-wielding | ⚔️ Dual-wield artifacts, spiked shields, and main-gauches |
+| **Skill System** | 📈 Basic progression | 🏆 Increased cap to Grand Master; weapon skills increase critical hit chance |
+| **Equipment Slots**| 👕 Standard armor and accessories | 🧥 Added slots for [[robes]], [[bracers]], and miscellaneous magic items |
+| **Item Qualities** | 🗡️ Standard weapons and armor | 💎 Mythic affixes, elemental enchantments, and elite/celestial tiers |
+| **Encounters** | 💀 Out-of-depth monsters (e.g., early soldier ant swarms) | ⚖️ Scaled encounter system ensures balanced difficulty |
+| **Lethality** | ☠️ Immediate insta-deaths | ⏳ Many insta-deaths are delayed, allowing precious turns to react |
+
+## 🎓 Accessibility and Economy
+
+| Feature | NetHack | GnollHack |
+|---------|---------|-----------|
+| **Difficulty Options**| 📈 Single, steep difficulty curve | 🌟 7 [[difficulty levels]] and varying gameplay modes |
+| **Economy** | ❌ Money has very few uses | 💰 Spend gold on item identification, healing from priests, and bribing guards |
+| **Identification** | ❓ Tedious blind-testing and price-ID | 🔍 Plentiful identification items and NPC services |
+| **Companions** | 🐾 Pets often get stuck on the map | 🧠 Intelligent pathing and a robust chat system to talk to NPCs and monsters |
 
 ## 🛡️ Preserving the Spirit of NetHack
 
@@ -28,11 +51,6 @@ GnollHack preserves most NetHack mechanics to keep the game familiar to NetHack 
 - More than 100 high-definition user interface icons, drawn by a real artist specifically for GnollHack
 - More than 5000 voiceover lines, voiced by real voice actors
 - 14 pieces of original background music, composed by a real composer specifically for GnollHack
-
-## ⚖️ Comparisons
-
-- **[[Roguelike Comparison]]** — A comparison of *NetHack*, *GnollHack*, *Pathos*, and *Shattered Pixel Dungeon*.
-- **[[Comparison of NetHack GUIs]]** — A comparison of *NetHack Windows GUI*, *NetHack 3D*, and *GnollHack*.
 
 ## 📷 User Interface Screenshots
 
@@ -53,3 +71,8 @@ NetHack's GUI with the Nevanda tileset on Windows:
 GnollHack's GUI on Windows:
 
 ![GnollHack on Windows](/uploads/How%20GnollHack%20differs%20from%20NetHack/gnollhack-windows-q85.webp)
+
+## ⚖️ Comparisons
+
+- **[[Roguelike Comparison]]** — A comparison of *NetHack*, *GnollHack*, *Pathos*, and *Shattered Pixel Dungeon*.
+- **[[Comparison of NetHack GUIs]]** — A comparison of *NetHack Windows GUI*, *NetHack 3D*, and *GnollHack*.
