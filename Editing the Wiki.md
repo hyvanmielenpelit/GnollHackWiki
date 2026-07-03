@@ -210,6 +210,8 @@ Page titles can be customized using an H1 heading (single #) in the first line o
 # My Custom Page Title
 ```
 
+> ⚠️ **Warning:** File names in the wiki Git repository are **case-insensitive**. Once you have committed a file to the wiki repository, you can't change its casing, which means you can't change the casing of a page title by editing a file name. If you have incorrectly cased a file name, it is recommended that you use an **H1 heading (#)** in the first line of the page to specify the right casing for the page title.
+
 ### 🔽 Use Only H2 (##) and Lower Headings
 
 Since the H1 heading (#) is reserved for customizing page titles, please use only H2 (##) and lower headings as section headings in a page.
@@ -225,8 +227,6 @@ Wikilinks link wiki pages to each other. They are page names in double brackets:
 > ℹ️ **Note:** All wikilinks are **relative to the current document directory** and not to the root directory of the wiki (as in MediaWiki), making things a bit harder than necessary. However, *you can just use `/` at the start of wikilinks to make them relative to the root directory*. We have adopted **a convention to always use it before subdirectories**, but you may need to use it when referring to a file in the root directory, when the current document is in a subdirectory.
 
 > ℹ️ **Note:** Wikilinks are **case-insensitive**, so you can write `[[/Items/potion of healing]]`, and it works like this: [[/Items/potion of healing]] — It links to [[/Items/Potion of healing.md]].
-
-> ⚠️ **Warning:** File names in the wiki Git repository are **case-insensitive**. Once you have committed a file to the wiki repository, you can't change its casing, which means you can't change the casing of a page title by editing a file name. If you have incorrectly cased a file name, it is recommended that you use an **H1 heading (#)** in the first line of the page to specify the right casing for the page title.
 
 ## 🛠️ How-To-Do Guide
 
