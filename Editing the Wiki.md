@@ -1,18 +1,20 @@
 ![Visual Studio Code Screenshot](/uploads/Editing%20Wiki%20with%20Visual%20Studio%20Code/visual-studio-code-screenshot-v2-q85.webp)
 
-## Overview
+## 📖 Overview
 
 The GnollHack wiki can't be edited directly on the web. Instead, you need to update the [GnollHackWiki](https://github.com/hyvanmielenpelit/GnollHackWiki) git repository on GitHub. Wiki pages are text files in the [Markdown](https://www.markdownguide.org/) format, which has been extended with a [Gollum-style wiki tag syntax](#gollum-style-wiki-tag-syntax), particularly wikilinks, which link pages to each other. 
 
-Once the repository has been updated, the changes will sync to the web once every 5 minutes. There's no separate build step involved. If you don't have rights to update the GnollHackWiki GitHub repository, you need to fork the repository on GitHub and make a pull request. However, it is usually easier just to ask someone with editing rights to update the repository instead.
+Once the repository has been updated, the changes will sync to the web once every 5 minutes. There's no separate build step involved.
+
+> 💡 **Tip:** If you don't have rights to update the GnollHackWiki GitHub repository, you need to fork the repository on GitHub and make a pull request. However, it is usually easier just to ask someone with editing rights to update the repository instead.
 
 To get an optimal wiki editing experience, you need to install [Visual Studio Code](https://code.visualstudio.com/) or [Antigravity IDE](https://antigravity.google/product/antigravity-ide) and some of their extensions. These will help you update wiki pages and upload images with great efficiency.
 
-### Gollum-Style Wiki Tag Syntax
+### 🏷️ Gollum-Style Wiki Tag Syntax
 
 [Gollum](https://github.com/gollum/gollum) is the wiki software used by the GnollHack wiki. It has its own proprietary wiki tag syntax, which differs from that used by [MediaWiki](https://github.com/wikimedia/mediawiki) (which is used by, e.g. [Wikipedia](https://www.wikipedia.org/)). Please see the [Foam for Gollum](https://marketplace.visualstudio.com/items?itemName=Hyvnmielenpelitry.foam-vscode-gollum) Visual Studio Code extension's description for the most important details. The [Gollum wiki](https://github.com/gollum/gollum/wiki#tags) also has a technical description of the supported tags.
 
-## Editing Software
+## 💻 Editing Software
 
 You have two options for the wiki editing software:
 
@@ -27,7 +29,7 @@ Additionally, you need to install the following extensions for working with Mark
     - Auto-completion — Auto-completes page names and section headings
 2. **LTeX+** — English-language spell checking in Markdown documents
 
-### Visual Studio Code Installation
+### 📥 Visual Studio Code Installation
 
 ![Visual Studio Code](/uploads/Editing%20Wiki%20with%20Visual%20Studio%20Code/visual-studio-code-128.webp)
 
@@ -35,7 +37,7 @@ Additionally, you need to install the following extensions for working with Mark
 2. [Install Foam for Gollum Extension](https://marketplace.visualstudio.com/items?itemName=Hyvnmielenpelitry.foam-vscode-gollum)
 3. [Install LTeX+ Extension](https://marketplace.visualstudio.com/items?itemName=ltex-plus.vscode-ltex-plus)
 
-### Antigravity IDE Installation
+### 🤖 Antigravity IDE Installation
 
 ![Antigravity IDE](/uploads/Editing%20the%20Wiki/antigravity-ide-128-q85.webp)
 
@@ -44,7 +46,7 @@ Additionally, you need to install the following extensions for working with Mark
     - ⚠️ The extension's *custom file dropdown provider* **doesn't work** in Antigravity IDE at the moment!
 3. [Install LTeX+ Extension](https://open-vsx.org/extension/ltex-plus/vscode-ltex-plus)
 
-### Custom Keyboard Shortcuts
+### ⌨️ Custom Keyboard Shortcuts
 
 Open the command palette with **Ctrl+Shift+P** and type `Preferences: Open Keyboard Shortcuts (JSON)` and select it with Enter. Add the following code to the opened `keybindings.json` file (remember to add commas wherever necessary):
 
@@ -75,31 +77,31 @@ It will add the following keyboard shortcuts to Markdown documents:
 - **Ctrl+b**: Bold
 
 
-## Accessing the Repository
+## 🌐 Accessing the Repository
 
 ![gnollhack-wiki-256](/uploads/Editing%20Wiki%20with%20Visual%20Studio%20Code/gnollhack-wiki-256.webp)
 
-### Install Git
+### 📥 Install Git
 
 1. [Download Git](https://git-scm.com/downloads). 
 2. Install Git.
 
-### Install GitHub Desktop (Optional)
+### 🖥️ Install GitHub Desktop (Optional)
 
 You can also install [GitHub Desktop](https://desktop.github.com/download/) for a GUI.
 
-### Cloning the Repository
+### 👯 Cloning the Repository
 
-*(Use these instructions if you have write rights to the GnollHack Wiki repository. They can be granted by Sound Mind Games admins.)*
+> ℹ️ **Note:** Use these instructions if you have write rights to the GnollHack Wiki repository. They can be granted by Sound Mind Games admins.
 
 1. Open your terminal (e.g. PowerShell or bash).
 2. Go to the directory under which you want to clone GnollHack wiki, e.g. type `cd C:\repos`. If the directory does not exist, you must create it.
 3. Type `git clone https://github.com/hyvanmielenpelit/GnollHackWiki.git` and press Enter.
 4. GnollHack wiki should now install to the `GnollHackWiki` subdirectory.
 
-### Forking the Repository and Making a Pull Request
+### 🍴 Forking the Repository and Making a Pull Request
 
-*(Use these instructions if you **don't** have write rights to the GnollHack Wiki repository but you want to make a contribution.)*
+> ℹ️ **Note:** Use these instructions if you **don't** have write rights to the GnollHack Wiki repository but you want to make a contribution.
 
 1. Go to the [GnollHackWiki repository](https://github.com/hyvanmielenpelit/GnollHackWiki) on GitHub.
 2. Fork the repository by clicking the **Fork badge**. <br />
@@ -111,16 +113,14 @@ You can also install [GitHub Desktop](https://desktop.github.com/download/) for 
 
 You can read more about forking repositories and making pull requests in GitHub documentation: [Creating a pull request from a fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork).
 
-## Editing Conventions
+## 📜 Editing Conventions
 
-![female-gnoll-quill-pen-512-q85](/uploads/Editing%20Wiki%20with%20Visual%20Studio%20Code/female-gnoll-quill-pen-512-q85.webp)
-
-### Place Empty Line Around Headings
+### ↨ Place Empty Line Around Headings
 
 - Please use an empty line before all headings, except in the very beginning of a file.
 - Please use an empty line after all headings.
 
-#### Example
+#### 💡 Example
 
 ```
 # Heading1
@@ -132,38 +132,42 @@ Some text
 Some text
 ```
 
-### Use Subdirectories When Necessary
+### 📁 Use Subdirectories When Necessary
 
 You should use subdirectories in the following cases:
 
 1. Logical grouping of a large number of files.
-   - There's a soft limit of 1000 files per directory on GitHub, after which directory listings are cut short.
+   - ⚠️ There's a soft limit of 1000 files per directory on GitHub, after which directory listings are cut short.
 2. To prevent naming conflicts.
    - For example, to differentiate between [[/Monsters/Grand Master]] monster and [[/Difficulties/Grand Master]] difficulty.
 
-### Uploads Should Go Under /uploads/
+> ⚠️ **Warning:** The `/gollum/` folder is reserved for the Gollum wiki software functions. Please don't create that folder and don't put anything under it.
+
+> ⚠️ **Warning:** `/.gollum/` (note the dot `.` in the folder name) is reserved for website specific files that are not related to wiki pages. Please place all files that are related to the wiki website development under it. However, if you are only adding content to the wiki, you should not touch the files under `/.gollum/`.
+
+### ⬆️ Uploads Should Go Under /uploads/
 
 Uploads, such as images, should be placed under `/uploads/`. If the document with an upload is in a subdirectory, the subdirectory name should also be included in the path. This should be handled automatically by Visual Studio Code when you have the Foam for Gollum extension installed with the default settings.
 
-#### Examples
+#### 💡 Examples
 
 - `/uploads/Races/Dwarf/image.webp` — An image in `Races/Dwarf`.
 - `/uploads/Home/image.webp` — An image in `Home`.
 
-### Use Only WebP Files as Images
+### 🖼️ Use Only WebP Files as Images
 
 Please use **WebP** encoded at **85 quality** as the image file format. Many image editing software support WebP.
 
 - Adobe Photoshop has had native WebP support since February 2022.
 - For earlier versions of Adobe Photoshop and Adobe Photoshop Elements, you can download [WebPShop plugin](https://github.com/webmproject/WebPShop).
 
-If your image has *flat colors* and is *encoded in a lossless format, such as PNG,* — which is usually the case with screenshots — you can re-encode your image to WebP at **100 quality** to keep it **lossless**. However, this behavior needs to be implemented separately in your WebP conversion tool because the normal 100 quality encoding is *not* lossless. For example, the WebPShop plugin does this. A losslessly encoded image can be smaller than one encoded with 85 quality (lossy encoding) when the image has flat colors.
+> 💡 **Tip:** If your image has *flat colors* and is *encoded in a lossless format, such as PNG,* — which is usually the case with screenshots — you can re-encode your image to WebP at **100 quality** to keep it **lossless**. However, this behavior needs to be implemented separately in your WebP conversion tool because the normal 100 quality encoding is *not* lossless. For example, the WebPShop plugin does this. A losslessly encoded image can be smaller than one encoded with 85 quality (lossy encoding) when the image has flat colors.
 
-#### WebP Batch Conversion
+#### 🔄 WebP Batch Conversion
 
 You can use an online service to convert your images to WebP in one batch. Both of the services listed below use your web browser's client side logic to convert images to WebP, which means that no server is involved in the conversion process. The server only provides the web page and client side scripts.
 
-##### Alternative 1: To WebP
+##### 1️⃣ Alternative 1: To WebP
 
 To WebP supports **almost all image formats, including JPG and PNG**.
 
@@ -172,7 +176,7 @@ To WebP supports **almost all image formats, including JPG and PNG**.
 3. Click **Add Files** and select all files you want to convert.
 4. Click **Download All** to download all images in WebP format in a ZIP file. 
 
-##### Alternative 2: jpgtowebp.net
+##### 2️⃣ Alternative 2: jpgtowebp.net
 
 jpgtowebp.net supports **almost all image formats, including JPG and PNG**, but it supports converting only one image format to WebP per batch.
 
@@ -185,9 +189,9 @@ jpgtowebp.net supports **almost all image formats, including JPG and PNG**, but 
 7. Click **Convert**.
 8. Click **Download All as ZIP**.
 
-### Illustrative Images
+### 🖼️ Illustrative Images
 
-#### Pixel Size
+#### 📏 Pixel Size
 
 Please use the following pixel sizes for illustrative images:
 
@@ -195,99 +199,87 @@ Please use the following pixel sizes for illustrative images:
 - **Horizontal image**: Width 512 pixels
 - **Vertical image**: Height 512 pixels
 
-#### Rounded Corners
+#### ⭕ Rounded Corners
 
-If an image has sharp corners, please create **12-pixel rounded corners** in an image editing software. *(The wiki doesn't support rounding corners using the CSS border-radius property.)*
+If an image has sharp corners, please create **12-pixel rounded corners** in an image editing software.
 
-#### Transparent Background
+> ℹ️ **Note:** The wiki doesn't support rounding corners using the CSS `border-radius` property.
+
+#### 🏁 Transparent Background
 
 Ensure that every image has a **transparent background** (not white).
 
-#### File Size
+#### ⚖️ File Size
 
 Please try to keep the **file size** of every image **under 100 KB**. If it goes over 100 KB, you can try to reduce the image quality to 80.
 
-### Page Title Can Be Customized Using H1 Heading (#) in First Line
+### 🏷️ Page Title Can Be Customized Using H1 Heading (#) in First Line
 
 Page titles can be customized using an H1 heading (single #) in the first line of a page.
 
-#### Example
+#### 💡 Example
 
 ```
 # My Custom Page Title
 ```
 
-### Use Only H2 (##) and Lower Headings
+### 🔽 Use Only H2 (##) and Lower Headings
 
 Since the H1 heading (#) is reserved for customizing page titles, please use only H2 (##) and lower headings as section headings in a page.
 
-### Don't Put Anything Under /gollum/
+## 🛠️ How-To-Do Guide
 
-The `/gollum/` folder is reserved for the Gollum wiki software functions. Please don't create that folder and don't put anything under it.
-
-### /.gollum/ Folder Is Reserved for Website Files
-
-`/.gollum/` (note the dot `.` in the folder name) is reserved for website specific files that are not related to wiki pages. Please place all files that are related to the wiki website development under it. However, if you are only adding content to the wiki, you should not touch the files under `/.gollum/`.
-
-## How-To-Do Guide
-
-![how-to-do-guide-512-q85](/uploads/Editing%20Wiki%20with%20Visual%20Studio%20Code/how-to-do-guide-512-q85.webp)
-
-### Open Markdown Preview
+### 👁️ Open Markdown Preview
 
 Press **Ctrl+Shift+V**.
 
-### Creating New Page from Wikilink
+### ➕ Creating New Page from Wikilink
 
 You can create a new Markdown page by **holding Ctrl down while clicking a wikilink** (e.g. `[[New Page]]`).
 
-### Add File or Image
+### 🖼️ Add File or Image
 
 1. Start dragging a file or an image in File Explorer.
 2. Before dropping hold **Shift** down.
 3. Drop the file into a Markdown file.
 4. It should automatically upload it and create an appropriate tag for it.
 
-### Add Unknown Word to Dictionary
+### 📖 Add Unknown Word to Dictionary
 
 1. Click a word with blue wavy underlining.
 2. Click the yellow light bulb (quick fix) that appears near the left side of the line.
 3. Choose **Add 'word' to dictionary** in the dropdown.
 
-### Publish Changes
+### 🚀 Publish Changes
 
 1. Commit changes using the Source Control view.
 2. Sync them.
 3. If you updated the GnollHack Wiki repository directly, it takes up to 5 minutes for the changes to appear online.
 
-## Additional Information
+## ℹ️ Additional Information
 
-![female-gnoll-book-512-q85](/uploads/Editing%20Wiki%20with%20Visual%20Studio%20Code/female-gnoll-book-512-q85.webp)
-
-### Case-Insensitive Wikilinks
+### 🔗 Case-Insensitive Wikilinks
 
 Wikilinks are **case-insensitive**, so you can write `[[/Items/potion of healing]]` and it works like this:
 - [[/Items/potion of healing]]
 
 It links to [[/Items/Potion of healing.md]].
 
-### Case-Insensitive File Names
+### 📄 Case-Insensitive File Names
 
-File names in the wiki Git repository are **case-insensitive**. Once you have committed a file to the wiki repository, you can't change its casing, which means you can't change the casing of a page title by editing a file name. If you have incorrectly cased a file name, it is recommended that you use an **H1 heading (#)** in the first line of the page to specify the right casing for the page title.
+File names in the wiki Git repository are **case-insensitive**.
 
-### Global Tag Lookup Disabled
+> ⚠️ **Warning:** Once you have committed a file to the wiki repository, you can't change its casing, which means you can't change the casing of a page title by editing a file name. If you have incorrectly cased a file name, it is recommended that you use an **H1 heading (#)** in the first line of the page to specify the right casing for the page title.
 
-Global tag lookup is disabled, so you need to specify the exact path to the Markdown file.
+### ℹ️ Notes
 
-### No Need to Specify .md Extension for Markdown Files
+> ℹ️ **Note:** **Global tag lookup is disabled**, so you need to specify *the exact path* to the Markdown file.
 
-Even though browser URLs in the wiki have the **.md extension**, you don't need to use it in wikilinks.
+> ℹ️ **Note:** Even though browser URLs in the wiki have the **.md extension**, *you don't need to use it in wikilinks*.
 
-### Wikilinks Relative to Current Document Directory
+> ℹ️ **Note:** All wikilinks are **relative to the current document directory** and not to the root directory of the wiki (as in MediaWiki), making things a bit harder than necessary. However, *you can just use `/` at the start of wikilinks to make them relative to the root directory*. We have adopted **a convention to always use it before subdirectories**, but you may need to use it when referring to a file in the root directory, when the current document is in a subdirectory.
 
-All wikilinks are **relative to the current document directory** and not to the root directory of the wiki (as in MediaWiki), making things a bit harder than necessary. However, you can just use `/` at the start of wikilinks to make them relative to the root directory. We have adopted a convention to always use it before subdirectories, but you may need to use it when referring to a file in the root directory, when the current document is in a subdirectory.
-
-### Changing Image and File Dropdown Templates
+### ⚙️ Changing Image and File Dropdown Templates
 
 Gollum supports three syntaxes for image and file links. When you drop a file or image into a Markdown document while having the custom file dropdown provider enabled, Visual Studio Code will create a template based on the chosen syntax. You can set your preferred syntax in:
 
@@ -296,7 +288,7 @@ Gollum supports three syntaxes for image and file links. When you drop a file or
 
 Applying settings this way is useful when you have repositories using different syntaxes and conventions and your preferred settings vary across repositories. 
 
-#### Image Templates
+#### 🖼️ Image Templates
 
 Based on the `"foam.fileDropdown.imageTemplateFormat"` setting, the custom file dropdown provider will generate the following templates.
 
@@ -308,7 +300,7 @@ Based on the `"foam.fileDropdown.imageTemplateFormat"` setting, the custom file 
 
 The default setting is `"markdown"`.
 
-#### File Templates
+#### 📄 File Templates
 
 Based on the `"foam.fileDropdown.fileTemplateFormat"` setting, the custom file dropdown provider will generate the following templates.
 
