@@ -193,9 +193,9 @@ Follow these guidelines when creating or formatting images for the wiki:
 
 | Property | Requirement | Notes |
 | :--- | :--- | :--- |
-| **Pixel Size (Square)** | 512x512 pixels | |
-| **Pixel Size (Horizontal)** | 512 pixels wide | Height can vary. |
-| **Pixel Size (Vertical)** | 512 pixels high | Width can vary. |
+| **Square Image: Pixel Size** | 512x512 pixels | |
+| **Horizontal Image: Pixel Size** | 512 pixels wide | Height can vary. |
+| **Vertical Image: Pixel Size** | 512 pixels high | Width can vary. |
 | **Rounded Corners** | 12-pixel radius | ℹ️ *Note: The wiki doesn't support the CSS `border-radius` property, so this must be done in an image editor.* |
 | **Background** | Transparent | Do not use solid backgrounds like white. |
 | **File Size** | < 100 KB | If the file goes over 100 KB, try reducing image quality to 80. |
