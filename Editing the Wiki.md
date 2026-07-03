@@ -16,18 +16,14 @@ To get an optimal wiki editing experience, you need to install [Visual Studio Co
 
 ## 💻 Editing Software
 
-You have two options for the wiki editing software:
+You have two options for the wiki editing software, along with a couple of recommended extensions:
 
-1. **Visual Studio Code** — Microsoft's lightweight but powerful code editor *(Recommended)*
-2. **Antigravity IDE** — Google's AI-agent-first IDE
-
-Additionally, you need to install the following extensions for working with Markdown documents with Gollum-style wiki tags:
-
-1. **Foam for Gollum**
-    - Gollum-style wikilinks — `[[Alias|Page Name#section-heading]]`
-    - Custom file dropdown provider — Places files and images automatically under a Gollum-style uploads folder
-    - Auto-completion — Auto-completes page names and section headings
-2. **LTeX+** — English-language spell checking in Markdown documents
+| Software / Extension | Category | Description |
+| :--- | :--- | :--- |
+| **Visual Studio Code** | IDE | Microsoft's lightweight but powerful code editor *(Recommended)*. |
+| **Antigravity IDE** | IDE | Google's AI-agent-first IDE. |
+| **Foam for Gollum** | Extension | Provides Gollum-style wikilink support, auto-completion, and automatic file placement for uploads. |
+| **LTeX+** | Extension | Provides English-language spell checking in Markdown documents. |
 
 ### 📥 Visual Studio Code Installation
 
@@ -73,8 +69,10 @@ Then, save the file.
 
 It will add the following keyboard shortcuts to Markdown documents:
 
-- **Ctrl+i**: Italic
-- **Ctrl+b**: Bold
+| Shortcut | Action |
+| :--- | :--- |
+| **Ctrl+I** | Italic |
+| **Ctrl+B** | Bold |
 
 
 ## 🌐 Accessing the Repository
@@ -191,27 +189,16 @@ jpgtowebp.net supports **almost all image formats, including JPG and PNG**, but 
 
 ### 🖼️ Illustrative Images
 
-#### 📏 Pixel Size
+Follow these guidelines when creating or formatting images for the wiki:
 
-Please use the following pixel sizes for illustrative images:
-
-- **Square image:** 512x512 pixels
-- **Horizontal image**: Width 512 pixels
-- **Vertical image**: Height 512 pixels
-
-#### ⭕ Rounded Corners
-
-If an image has sharp corners, please create **12-pixel rounded corners** in an image editing software.
-
-> ℹ️ **Note:** The wiki doesn't support rounding corners using the CSS `border-radius` property.
-
-#### 🏁 Transparent Background
-
-Ensure that every image has a **transparent background** (not white).
-
-#### ⚖️ File Size
-
-Please try to keep the **file size** of every image **under 100 KB**. If it goes over 100 KB, you can try to reduce the image quality to 80.
+| Property | Requirement | Notes |
+| :--- | :--- | :--- |
+| **Pixel Size (Square)** | 512x512 pixels | |
+| **Pixel Size (Horizontal)** | 512 pixels wide | Height can vary. |
+| **Pixel Size (Vertical)** | 512 pixels high | Width can vary. |
+| **Rounded Corners** | 12-pixel radius | ℹ️ *Note: The wiki doesn't support the CSS `border-radius` property, so this must be done in an image editor.* |
+| **Background** | Transparent | Do not use solid backgrounds like white. |
+| **File Size** | < 100 KB | If the file goes over 100 KB, try reducing image quality to 80. |
 
 ### 🏷️ Page Title Can Be Customized Using H1 Heading (#) in First Line
 
@@ -229,32 +216,13 @@ Since the H1 heading (#) is reserved for customizing page titles, please use onl
 
 ## 🛠️ How-To-Do Guide
 
-### 👁️ Open Markdown Preview
-
-Press **Ctrl+Shift+V**.
-
-### ➕ Creating New Page from Wikilink
-
-You can create a new Markdown page by **holding Ctrl down while clicking a wikilink** (e.g. `[[New Page]]`).
-
-### 🖼️ Add File or Image
-
-1. Start dragging a file or an image in File Explorer.
-2. Before dropping hold **Shift** down.
-3. Drop the file into a Markdown file.
-4. It should automatically upload it and create an appropriate tag for it.
-
-### 📖 Add Unknown Word to Dictionary
-
-1. Click a word with blue wavy underlining.
-2. Click the yellow light bulb (quick fix) that appears near the left side of the line.
-3. Choose **Add 'word' to dictionary** in the dropdown.
-
-### 🚀 Publish Changes
-
-1. Commit changes using the Source Control view.
-2. Sync them.
-3. If you updated the GnollHack Wiki repository directly, it takes up to 5 minutes for the changes to appear online.
+| Action | Instructions |
+| :--- | :--- |
+| **👁️ Open Markdown Preview** | Press **Ctrl+Shift+V**. |
+| **➕ Create New Page** | Hold **Ctrl** down while clicking a wikilink (e.g., `[[New Page]]`). |
+| **🖼️ Add File or Image** | Drag a file from File Explorer, hold **Shift**, and drop it into a Markdown document to automatically upload and tag it. |
+| **📖 Add Word to Dictionary**| Click the underlined word, click the yellow light bulb (quick fix), and select **Add 'word' to dictionary**. |
+| **🚀 Publish Changes** | Commit your changes in the Source Control view and sync them. *(Updates take up to 5 minutes to appear online.)* |
 
 ## ℹ️ Additional Information
 
