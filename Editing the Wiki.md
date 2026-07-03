@@ -27,15 +27,11 @@ You have two options for the wiki editing software, along with a couple of recom
 
 ### 📥 Visual Studio Code Installation
 
-![Visual Studio Code](/uploads/Editing%20Wiki%20with%20Visual%20Studio%20Code/visual-studio-code-128.webp)
-
 1. [Download and Install Visual Studio Code](https://code.visualstudio.com/)
 2. [Install Foam for Gollum Extension](https://marketplace.visualstudio.com/items?itemName=Hyvnmielenpelitry.foam-vscode-gollum)
 3. [Install LTeX+ Extension](https://marketplace.visualstudio.com/items?itemName=ltex-plus.vscode-ltex-plus)
 
 ### 🤖 Antigravity IDE Installation
-
-![Antigravity IDE](/uploads/Editing%20the%20Wiki/antigravity-ide-128-q85.webp)
 
 1. [Download and Install Antigravity IDE](https://antigravity.google/product/antigravity-ide)
 2. [Install Foam for Gollum Extension](https://open-vsx.org/extension/Hyvnmielenpelitry/foam-vscode-gollum)
@@ -79,14 +75,10 @@ It will add the following keyboard shortcuts to Markdown documents:
 
 ![gnollhack-wiki-256](/uploads/Editing%20Wiki%20with%20Visual%20Studio%20Code/gnollhack-wiki-256.webp)
 
-### 📥 Install Git
+### 📥 Git Software Installation
 
-1. [Download Git](https://git-scm.com/downloads). 
-2. Install Git.
-
-### 🖥️ Install GitHub Desktop (Optional)
-
-You can also install [GitHub Desktop](https://desktop.github.com/download/) for a GUI.
+- [Download and Install Git](https://git-scm.com/downloads). 
+- You can also install [GitHub Desktop](https://desktop.github.com/download/) for a GUI *(optional)*.
 
 ### 👯 Cloning the Repository
 
