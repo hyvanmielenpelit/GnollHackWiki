@@ -2,6 +2,8 @@
 
 ## 📱 Presentation and UI
 
+While NetHack relies on classic ASCII graphics and operates entirely without sound, GnollHack brings the dungeon to life with modern graphics, animations, and a full soundtrack.
+
 | Feature | NetHack | GnollHack |
 |---------|---------|-----------|
 | **Graphics** | 🖥️ ASCII or basic tiles | ✨ Modern GUI across platforms with real 2D [[animations]] |
@@ -9,6 +11,8 @@
 | **Information** | ❓ Relies on external spoilers | 🔍 Detailed in-game stats for items and monsters, plus 8 status lines |
 
 ## 🔮 A Reimagined Magic System
+
+NetHack uses a simple spell retention system where spells are eventually forgotten. In contrast, GnollHack introduces a deep, tactical, resource-based magic system utilizing mana, reagents, and cooldowns across hundreds of new spells.
 
 | Feature | NetHack | GnollHack |
 |---------|---------|-----------|
@@ -21,17 +25,21 @@
 
 ## ⚔️ Combat and Items
 
+NetHack is fundamentally a game of scarcity with rigid combat rules and immediate insta-deaths. GnollHack expands this into a "game of plenty" featuring instant weapon swapping, powerful mythic items, and balanced encounters that give you a fair chance to react.
+
 | Feature | NetHack | GnollHack |
 |---------|---------|-----------|
 | **Ranged Combat** | ❌ Swapping weapons costs a turn; launchers don't add damage | 🏹 Instant weapon swapping; launchers add their damage to the missile |
 | **Melee Variety** | 🗡️ Standard dual-wielding | ⚔️ Dual-wield artifacts, spiked shields, and main-gauches |
 | **Skill System** | 📈 Basic progression | 🏆 Increased cap to Grand Master; weapon skills increase critical hit chance |
 | **Equipment Slots**| 👕 Standard armor and accessories | 🧥 Added slots for [[robes]], [[bracers]], and miscellaneous magic items |
-| **Item Qualities** | 🗡️ Standard weapons and armor | 💎 Mythic affixes, elemental enchantments, and elite/celestial tiers |
+| **Item Qualities** | 🗡️ Standard weapons and armor | 💎 Mythic affixes, elemental enchantments, and exceptional/elite tiers |
 | **Encounters** | 💀 Out-of-depth monsters (e.g., early soldier ant swarms) | ⚖️ Scaled encounter system ensures balanced difficulty |
 | **Lethality** | ☠️ Immediate insta-deaths | ⏳ Many insta-deaths are delayed, allowing precious turns to react |
 
 ## 🎓 Accessibility and Economy
+
+NetHack presents a single, unforgiving difficulty curve where gold has little use. GnollHack caters to all skill levels with varied difficulties and gives money real value for purchasing crucial services from NPCs.
 
 | Feature | NetHack | GnollHack |
 |---------|---------|-----------|
