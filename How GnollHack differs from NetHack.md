@@ -1,4 +1,6 @@
-> 👉 **Welcome to GnollHack!** If you are looking for a modern, accessible, yet deeply tactical version of NetHack, you are in the right place. GnollHack preserves the core spirit of the original while completely reimagining its graphics, sound, and key gameplay systems to create an engaging experience for both beginners and veterans.
+> 👉 **GnollHack is a modern, accessible, yet deeply tactical version of NetHack. It preserves the core spirit of the original while completely reimagining its graphics, sound, and certain gameplay systems to create an engaging experience for both beginners and veterans alike.**
+
+This page contains a detailed comparison of the main differences of GnollHack and NetHack.
 
 ## 📱 Presentation and UI
 
