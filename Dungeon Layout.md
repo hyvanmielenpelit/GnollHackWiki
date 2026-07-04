@@ -59,3 +59,53 @@ Special levels are distinct, single levels that appear within the branches above
 | **[[/Dungeon/Moloch's Sanctum]]** | 18–21 | The lowest level of Gehennom, housing the [[/Items/Amulet of Yendor]] and the [[/Monsters/High Priest]] of Moloch. |
 
 > ℹ️ **Note:** For more in-depth strategies, maps, and specific monster spawns, click on the links for each individual branch or special level.
+
+## Dungeon Placement Dependencies 🗺️
+
+In GnollHack, the exact levels where many branches and special levels appear are not entirely random. Instead, their locations are dynamically calculated relative to the placement of other key locations. This creates a chain of dependencies that guarantees a logical flow to the dungeon.
+
+### The Oracle as the Key Anchor 🔮
+
+**[[/Dungeon/Delphi]]** (the Oracle's level) is one of the most critical anchor points in the early game. Its placement directly determines the locations of several other major features in the Dungeons of Doom:
+- **[[/Dungeon/Sokoban]]**: The stairs leading up to Sokoban are always generated exactly 1 level below Delphi.
+- **[[/Dungeon/The Quest]]**: The magic portal to your role-specific quest is always placed 6 or 7 levels below Delphi.
+- **[[/Dungeon/Treasure Island]]**: This special water-filled level is always generated 9 or 10 levels below Delphi.
+
+Because Delphi can appear anywhere from level 5 to 7, these connected locations will shift deeper or shallower in tandem with it.
+
+### Fixed-Range Placements 🏰
+
+Some notable features in the Dungeons of Doom do not depend on other anchor points, but are instead confined to their own fixed depth ranges:
+- **[[/Dungeon/Big Room]]**: Always generated between levels 10 and 13.
+- **[[/Dungeon/Fort Ludios]]**: The portal to this hidden fortress is always placed within a vault between levels 12 and 21.
+
+### The Bottom of the Main Dungeon 🧭
+
+The final levels of the Dungeons of Doom are anchored to the bottom of the branch, which spans 24 to 25 levels, creating a fixed sequence:
+- **[[/Dungeon/Underground Castle]]**: Always placed on the very last level of the Dungeons of Doom.
+- **[[/Dungeon/Minotaur Maze]]**: Always generated exactly 1 level above the Underground Castle.
+- **[[/Dungeon/Medusa's Island]]**: Always generated exactly 2 levels above the Underground Castle.
+- **[[/Dungeon/Gehennom]]**: The entrance to the underworld is directly connected to the Underground Castle. The first level of Gehennom ([[/Dungeon/Valley of the Dead]]) immediately follows the Castle.
+
+### The Gnomish Mines ⛏️
+
+- **[[/Dungeon/The Large Circular Dungeon]]**: The portal to this high-tech branch is anchored to **[[/Dungeon/Mine Town]]**. It will always be found 1 or 2 levels deeper into the mines than Mine Town itself.
+
+### Gehennom 🔥
+
+Locations in Gehennom are placed using a mix of absolute level ranges and relative positioning to the bottom. Gehennom spans between 18 and 20 levels in total:
+
+**Anchored to the Top of Gehennom:**
+- **[[/Dungeon/Valley of the Dead]]**: Always generated on the very first level of Gehennom (level 1).
+- **[[/Dungeon/Dis]]**: Always generated exactly 1 level below the Valley of the Dead (level 2).
+- **[[/Dungeon/Plane of the Modron]]**: The portal is always generated on level 3 or 4 of Gehennom.
+- **[[/Dungeon/Maladomini]]** and **[[/Dungeon/Jubilex's Realm]]**: Always generated between levels 4 and 8 of Gehennom.
+- **[[/Dungeon/Orcus Town]]**: Always generated between levels 5 and 15 of Gehennom.
+- **[[/Dungeon/Hellish Pastures]]**: The portal is always generated between levels 8 and 13 of Gehennom.
+- **[[/Dungeon/Vlad's Tower]]**: The stairs up to Vlad's Tower are always generated between levels 9 and 13 of Gehennom.
+- **[[/Dungeon/Wizard's Tower]]**: The three levels of the Wizard's Tower are strictly chained together. The Top Level is generated between levels 10 and 11 of Gehennom. The Middle Level is always exactly 1 level below the Top Level, and the Bottom Level is exactly 2 levels below the Top Level.
+
+**Anchored to the Bottom of Gehennom:**
+- **[[/Dungeon/Moloch's Sanctum]]**: Always placed on the very last level of Gehennom.
+- **Fake Wizard's Towers**: The two fake towers are generated between 3 and 6 levels above the bottom of Gehennom.
+- **[[/Dungeon/Lair of Tarrasque]]** and **[[/Dungeon/Yeenaghu's Domain]]**: Anchored to the bottom to guarantee they appear late in the game, generated between 3 and 9 levels above the bottom of Gehennom.
