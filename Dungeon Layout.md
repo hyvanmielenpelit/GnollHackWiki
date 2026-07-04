@@ -89,7 +89,10 @@ The final levels of the Dungeons of Doom are anchored to the bottom of the branc
 
 ### The Gnomish Mines ⛏️
 
-- **[[/Dungeon/The Large Circular Dungeon]]**: The portal to this high-tech branch is anchored to **[[/Dungeon/Mine Town]]**. It will always be found 1 or 2 levels deeper into the mines than Mine Town itself.
+The Gnomish Mines branch off early in the Dungeons of Doom (between levels 2 and 5). Within the mines themselves, locations are placed relative to the branch's own structure:
+- **[[/Dungeon/Mine Town]]**: Always generated on the 3rd or 4th level of the Gnomish Mines branch.
+- **[[/Dungeon/The Large Circular Dungeon]]**: The portal to this high-tech branch is anchored to **[[/Dungeon/Mine Town]]**. It will always be found exactly 1 or 2 levels deeper into the mines than Mine Town itself.
+- **[[/Dungeon/Mines' End]]**: Anchored to the very bottom, it is always placed on the final level of the Gnomish Mines (the branch spans 8 or 9 levels in total).
 
 ### Gehennom 🔥
 
