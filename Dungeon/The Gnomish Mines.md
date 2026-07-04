@@ -4,16 +4,14 @@
 
 It extends downward, culminating in [[/Dungeon/Mines' End]].
 
-## Characteristics
+## Characteristics ⛏️
+
 - **Layout:** Irregular cavernous open spaces, rather than standard rooms and corridors. This makes it difficult to funnel enemies into chokepoints.
-- **Lighting:** Completely dark, except for [[/Dungeon/Mine Town]]. A light source (such as a lamp, magic marker, or spell) is highly recommended.
-- **Inhabitants:** Teeming with [[gnomes|/Monsters/Gnome]], [[dwarves|/Monsters/Dwarf]], hobbits, and their various pets (like ponies and dogs). While [[dwarves|/Monsters/Dwarf]] are usually peaceful to dwarven characters, [[gnomes|/Monsters/Gnome]] are hostile to most except gnomish characters.
-- **Traps:** Filled with polymorph traps, falling rock traps, and dart traps.
+- **Lighting:** May be lighted or dark.
+- **Inhabitants:** [[Gnomes|/Monsters/Gnome]] and [[dwarves|/Monsters/Dwarf]].
 
-## Special Levels
-- **[[/Dungeon/Mine Town]]**: A guaranteed mid-point level featuring a temple with an [[aligned priest|/Monsters/Aligned priest]], a lighting store, a general store, and heavily armed watchmen. It also contains the portal to [[/Dungeon/The Large Circular Dungeon]].
-- **[[/Dungeon/Mines' End]]**: The bottom-most level of the branch. It contains a guaranteed [[/Items/Luckstone]], crucial for maximizing your chances of success throughout the game, as well as significant gem deposits and a guaranteed alignment-specific artifact depending on generation.
+## Special Levels 🗺️
 
-
-
-
+- **[[/Dungeon/Mine Town]]**: A guaranteed mid-point level featuring a temple with an [[aligned priest|/Monsters/Aligned priest]], a lighting store, a general store, and heavily armed watchmen.
+- **[[/Dungeon/The Large Circular Dungeon]]**: The portal to this challenging branch is found 1 or 2 levels *below* the [[/Dungeon/Mine Town]].
+- **[[/Dungeon/Mines' End]]**: The bottom-most level of the branch. It contains a [[/Artifacts/The Gladstone]], an artifact [[/Items/luckstone]].

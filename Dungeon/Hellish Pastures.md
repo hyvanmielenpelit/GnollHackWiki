@@ -4,12 +4,17 @@
 
 Hellish Pastures (also known as the cow level) introduces a highly dangerous but rewarding diversion.
 
-## Characteristics
-- **Layout:** A Hellish, open pasture environment, sharply contrasting with the tight mazes of the rest of Gehennom.
-- **Inhabitants:** The level is swarming with demonic bovines, [[minotaurs|/Monsters/Minotaur]], and other cow-like monstrosities. 
-- **The Barn from Hell:** The central structure of the level, housing the most dangerous enemies and the best loot.
+## Characteristics 🐄
 
-## Special Qualities
+- **Layout:** An open hellish pasture.
+- **Inhabitants:** The level is swarming with [[hell bovines|/Monsters/Hell bovine]], [[minotaurs|/Monsters/Minotaur]], [[bison|/Monsters/Bison]], and other cow-like monstrosities. 
+
+## [[/Monsters/Yacc]] 😈
+
+The boss of this level is [[/Monsters/Yacc]], a powerful demon. He is guarding a chest containing highly valuable loot, which typically includes a [[wand of disintegration|/Items/Wand of disintegration]] or a [[magic lamp|/Items/Magic lamp]], along with stat-gain potions and a high-quality weapon.
+
+## Special Qualities ⚠️
+
 While it may seem like a joke, the Hellish Pastures is incredibly dangerous. The enemies here hit extremely hard and can quickly trample an unprepared adventurer.
 
 

@@ -4,12 +4,12 @@
 
 It is the domain of demon lords, powerful undead, and the dreaded [[/Monsters/Wizard of Yendor]].
 
-## Characteristics
-- **Layout:** The vast majority of Gehennom consists of winding, repetitive maze levels carved from solid rock. The walls cannot be modified by regular pick-axes (though they can be destroyed by wands of digging). 
-- **Environment:** There is no natural light. Fire traps and lava are omnipresent. Fire resistance is practically mandatory for survival.
-- **Teleportation:** Teleportation is heavily restricted in Gehennom. You can teleport to escape danger, but you cannot use level teleportation to quickly ascend or descend, except on a few specific levels.
+## Characteristics 🔥
 
-## Special Levels and Branches
+- **Environment:** There is no natural light. Fire traps and lava are omnipresent. Fire resistance is practically mandatory for survival.
+
+## Special Levels and Branches 🗺️
+
 Gehennom is home to numerous unique locations and challenges:
 - **[[/Dungeon/Valley of the Dead]]**: The very first level of Gehennom, packed with graves, undead, and a temple to Moloch.
 - **Demon Lairs**: You will encounter the domains of several demon lords, including [[/Dungeon/Dis]], [[/Dungeon/Maladomini]], [[/Dungeon/Jubilex's Realm]], [[/Dungeon/Orcus Town]], [[/Dungeon/Lair of Tarrasque]], and [[/Dungeon/Yeenaghu's Domain]].
