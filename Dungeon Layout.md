@@ -10,18 +10,30 @@ The dungeon in GnollHack consists of a main sequence of levels known as the [[/D
 
 Branches are multi-level sub-dungeons that diverge from the main path. They often feature unique tilesets, specific enemy types, and special rules.
 
-| Branch | Branches From | Description |
-| :--- | :--- | :--- |
-| **[[/Dungeon/The Gnomish Mines]]** | Dungeons of Doom (Levels 2–4) | A cavern system filled with gnomes and dwarves. Contains special levels like [[/Dungeon/Mine Town]]. |
-| **[[/Dungeon/Sokoban]]** | Dungeons of Doom (Levels 6–8) | A puzzle branch where you must push boulders into pits. |
-| **[[/Dungeon/The Quest]]** | Dungeons of Doom (Levels 11–14) | A role-specific quest branch. *Message: "You receive a faint telepathic message from..." (followed by a message from your Quest Leader).* |
-| **[[/Dungeon/Fort Ludios]]** | Dungeons of Doom (Levels 12–20) | A hidden fortress guarded by soldiers and [[/Monsters/Croesus]]. The portal is found in a vault. |
-| **[[/Dungeon/Gehennom]]** | Dungeons of Doom (Levels 24–25) | The fiery underworld. It is the second major half of the game, filled with demons. |
-| **[[/Dungeon/Vlad's Tower]]** | Gehennom (Levels 9–13) | A dark, undead-filled tower containing the [[/Artifacts/Candelabrum of Invocation]]. |
-| **[[/Dungeon/Plane of the Modron]]** | Gehennom (Levels 3–4) | A geometric plane inhabited by Modrons. New in GnollHack. |
-| **[[/Dungeon/Hellish Pastures]]** | Gehennom (Levels 8–13) | A hidden cow level filled with demonic bovines. New in GnollHack. |
-| **[[/Dungeon/The Large Circular Dungeon]]** | Gnomish Mines (Levels 4–6) | A high-tech dungeon involving quantum mechanics, accessible via a portal located below the [[/Dungeon/Mine Town]]. New in GnollHack. |
-| **[[/Dungeon/The Elemental Planes]]** | Level 1 (Post-Sanctum) | The endgame sequence containing the Planes of Earth, Air, Fire, Water, and the Astral Plane. |
+### The Dungeons of Doom
+
+| Branch | Level Range | Description |
+| :----- | :---------: | :---------- |
+| **[[/Dungeon/The Gnomish Mines]]** | 2–4 | A cavern system filled with gnomes and dwarves. Contains special levels like [[/Dungeon/Mine Town]]. |
+| **[[/Dungeon/Sokoban]]** | 6–8 | A puzzle branch where you must push boulders into pits. |
+| **[[/Dungeon/The Quest]]** | 11–14 | A role-specific quest branch. *Message: "You receive a faint telepathic message from..." (followed by a message from your Quest Leader).* |
+| **[[/Dungeon/Fort Ludios]]** | 12–20 | A hidden fortress guarded by soldiers and [[/Monsters/Croesus]]. The portal is found in a vault. |
+| **[[/Dungeon/Gehennom]]** | 24–25 | The fiery underworld. It is the second major half of the game, filled with demons. |
+| **[[/Dungeon/The Elemental Planes]]** | 1 | Accessed by ascending the staircase up on the dungeon level 1 after acquiring the [[/Items/Amulet of Yendor]]. It leads to the endgame featuring the Planes of Earth, Air, Fire, Water, and the Astral Plane. |
+
+### The Gnomish Mines
+
+| Branch | Level Range | Description |
+| :----- | :---------: | :---------- |
+| **[[/Dungeon/The Large Circular Dungeon]]** | 4–6 | A high-tech dungeon involving quantum mechanics, accessible via a portal located below the [[/Dungeon/Mine Town]]. New in GnollHack. |
+
+### Gehennom
+
+| Branch | Level Range | Description |
+| :----- | :---------: | :---------- |
+| **[[/Dungeon/Plane of the Modron]]** | 3–4 | A geometric plane inhabited by Modrons. New in GnollHack. |
+| **[[/Dungeon/Hellish Pastures]]** | 8–13 | A hidden cow level filled with demonic bovines. New in GnollHack. |
+| **[[/Dungeon/Vlad's Tower]]** | 9–13 | A dark, undead-filled tower containing the [[/Artifacts/Candelabrum of Invocation]]. |
 
 ## Special Levels
 
