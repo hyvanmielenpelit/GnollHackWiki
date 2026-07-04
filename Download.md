@@ -22,15 +22,6 @@ Multiple download options available. Please click the link below for more inform
 
 ℹ️ [[More Information on Modern Windows Version|Modern Windows Version]]
 
-## Legacy Windows
+## Additional Downloads
 
-<a href="https://github.com/hyvanmielenpelit/GnollHack/releases">![Get release on GitHub](/uploads/Download/github-q90.webp)</a>
-
-- **Download the ZIP file starting with GnollHack.**
-
-ℹ️ [[More Information on Legacy Windows Version|Legacy Windows Version]]
-
-## Linux
-
-- There's no graphical Linux desktop client.
-- However, you can play the ASCII version on [[public servers]] over SSH.
+- [[Legacy Windows Version]] — Available on GitHub
