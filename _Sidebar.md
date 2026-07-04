@@ -22,6 +22,7 @@
 * [[Artifacts]]
 * [[Spells]]
 * [[Monsters]]
+* [[Dungeon Layout]]
 
 ### Development
 
