@@ -13,7 +13,7 @@ Branches are multi-level sub-dungeons that diverge from the main path. They ofte
 | :--- | :--- | :--- |
 | **[[/Dungeon/The Gnomish Mines]]** | Dungeons of Doom (Levels 2–5) | A chaotic, unlit cavern system filled with gnomes and dwarves. Contains special levels like [[/Dungeon/Mine Town]]. |
 | **[[/Dungeon/Sokoban]]** | Dungeons of Doom (Levels 6–9) | A puzzle branch where you must push boulders into pits without using traditional magic or breaking walls. |
-| **[[/Dungeon/The Quest]]** | Dungeons of Doom (Levels 11–16) | A role-specific quest branch. You must be level 14 to enter the portal. *Message: "You feel an almost forgotten tug..."* |
+| **[[/Dungeon/The Quest]]** | Dungeons of Doom (Levels 11–16) | A role-specific quest branch. *Message: "You receive a faint telepathic message from..." (followed by a message from your Quest Leader).* |
 | **[[/Dungeon/Fort Ludios]]** | Dungeons of Doom (Levels 12–21) | A hidden fortress guarded by soldiers and [[/Monsters/Croesus]]. The portal is usually found in a vault. *Message: "You hear someone counting money."* |
 | **[[/Dungeon/Gehennom]]** | Dungeons of Doom (Levels 24–26) | The fiery, maze-like underworld. It is the second major half of the game, filled with demons, undead, and the [[/Monsters/Wizard of Yendor]]. |
 | **[[/Dungeon/Vlad's Tower]]** | Gehennom (Levels 9–14) | A dark, undead-filled tower containing the [[/Artifacts/Candelabrum of Invocation]]. |
