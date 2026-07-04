@@ -1,6 +1,6 @@
 > 👉 **[[/Monsters/Jubilex]]'s Realm is a disgusting, swampy lair filled with acidic ooze and the Faceless Lord himself.**
 
-**Location:** Located between levels 4 and 9 of [[/Dungeon/Gehennom]].
+**Location:** Located between levels 4 and 8 of [[/Dungeon/Gehennom]].
 
 Found within the sprawling mazes of the underworld, [[/Monsters/Jubilex]]'s Realm is a unique special level that contrasts with the fiery theme of the rest of Gehennom.
 

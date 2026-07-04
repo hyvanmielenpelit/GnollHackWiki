@@ -1,6 +1,6 @@
 > 👉 **[[/Monsters/Orcus]] Town is a ruined, demonic reflection of a settlement, ruled by the demon lord [[/Monsters/Orcus]].**
 
-**Location:** Located between levels 5 and 16 of [[/Dungeon/Gehennom]].
+**Location:** Located between levels 5 and 15 of [[/Dungeon/Gehennom]].
 
 Orcus Town is the only recognizable "town" in the underworld.
 

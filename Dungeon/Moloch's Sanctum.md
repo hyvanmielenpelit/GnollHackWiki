@@ -1,6 +1,6 @@
 > 👉 **Moloch's Sanctum is the deepest, most dangerous level of Gehennom, housing the Amulet of Yendor.**
 
-**Location:** The bottom-most level of [[/Dungeon/Gehennom]] (typically Gehennom level 18 to 21).
+**Location:** The bottom-most level of [[/Dungeon/Gehennom]] (typically Gehennom level 18–20).
 
 It cannot be accessed by normal stairs; the only way to enter is by performing the Invocation ritual on the vibrating square.
 

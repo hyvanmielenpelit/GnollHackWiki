@@ -1,6 +1,6 @@
 > 👉 **Delphi is a special level in the early Dungeons of Doom, serving as the home of the [[/Monsters/Oracle]].**
 
-**Location:** Located between levels 5 and 8 of [[/Dungeon/The Dungeons of Doom]].
+**Location:** Located between levels 5 and 7 of [[/Dungeon/The Dungeons of Doom]].
 
 Delphi is a guaranteed level with a partially fixed central room, but otherwise randomly generated rooms and corridors.
 

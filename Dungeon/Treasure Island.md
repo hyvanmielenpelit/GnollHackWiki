@@ -1,6 +1,6 @@
 > 👉 **Treasure Island is a water-heavy, treasure-filled special level unique to GnollHack.**
 
-**Location:** Located between levels 14 and 19 of [[/Dungeon/The Dungeons of Doom]].
+**Location:** Located between levels 14 and 17 of [[/Dungeon/The Dungeons of Doom]].
 
 The Treasure Island offers great rewards for those capable of navigating its dangers.
 

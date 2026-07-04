@@ -1,6 +1,6 @@
 > 👉 **The Wizard's Tower is a heavily fortified, multi-level structure in Gehennom housing the [[/Monsters/Wizard of Yendor]] and the [[/Artifacts/Book of the Dead]].**
 
-**Location:** The base of the tower is located between levels 10 and 12 of [[/Dungeon/Gehennom]]. The tower consists of 3 levels extending upwards.
+**Location:** The base of the tower is located between levels 12 and 13 of [[/Dungeon/Gehennom]]. The tower consists of 3 levels extending upwards.
 
 It cannot be accessed by normal stairs from the outside.
 

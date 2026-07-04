@@ -1,6 +1,6 @@
 > 👉 **Gehennom is the fiery, unforgiving underworld that makes up the second half of the game. It is a grueling test of endurance, resistance, and navigation.**
 
-**Location:** Begins immediately below the [[/Dungeon/Underground Castle]] (which is at level 23 to 25). Gehennom spans 18 to 21 levels.
+**Location:** Begins immediately below the [[/Dungeon/Underground Castle]] (which is at level 24–25). Gehennom spans 18–20 levels.
 
 It is the domain of demon lords, powerful undead, and the dreaded [[/Monsters/Wizard of Yendor]].
 

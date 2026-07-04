@@ -1,6 +1,6 @@
 > 👉 **The Minotaur Maze is a confusing, highly lethal labyrinth located near the bottom of the Dungeons of Doom, New in GnollHack.**
 
-**Location:** Located 2 levels above the bottom of [[/Dungeon/The Dungeons of Doom]] (typically levels 22 to 24).
+**Location:** Located 2 levels above the bottom of [[/Dungeon/The Dungeons of Doom]] (typically levels 23–24).
 
 Situated just above the [[/Dungeon/Underground Castle]], the Minotaur Maze is designed to drain the player's resources before the mid-game finale.
 

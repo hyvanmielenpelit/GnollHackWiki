@@ -1,6 +1,6 @@
 > 👉 **The Dungeons of Doom is the primary dungeon branch in GnollHack, serving as the central spine from which all other branches diverge.**
 
-**Location:** Levels 1 to 24-26.
+**Location:** Levels 1 to 24–25.
 
 It extends from the surface all the way down to the [[/Dungeon/Underground Castle]]. It is the standard area where players spend the beginning and middle portions of the game before descending into [[/Dungeon/Gehennom]].
 
@@ -17,7 +17,7 @@ The Dungeons of Doom connects to almost every major branch in the early and mid-
 - **[[/Dungeon/Big Room]]**: A special single-room level found between levels 10 and 12.
 - **[[/Dungeon/The Quest]]**: The home portal for your class quest, found between levels 11 and 14.
 - **[[/Dungeon/Fort Ludios]]**: Reached via a magic portal hidden in a vault between levels 12 and 20.
-- **[[/Dungeon/Treasure Island]]**: A water-themed treasure level located between levels 14 and 16.
+- **[[/Dungeon/Treasure Island]]**: A water-themed treasure level located between levels 14 and 17.
 
 As you approach the bottom, you'll encounter [[/Dungeon/Medusa's Island]], the [[/Dungeon/Minotaur Maze]], and finally the [[/Dungeon/Underground Castle]], which acts as the gatekeeper to Gehennom.
 

@@ -1,6 +1,6 @@
 > 👉 **The Plane of the Modron is a strange, geometric realm governed by absolute order, unique to GnollHack.**
 
-**Location:** Accessible via a magic portal located between levels 3 and 5 of [[/Dungeon/Gehennom]]. The branch consists of 5 levels.
+**Location:** Accessible via a magic portal located between levels 3 and 4 of [[/Dungeon/Gehennom]]. The branch consists of 5 levels.
 
 The Plane of the Modron introduces a highly structured, mechanical environment.
 

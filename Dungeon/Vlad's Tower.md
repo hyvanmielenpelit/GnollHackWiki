@@ -1,6 +1,6 @@
 > 👉 **Vlad's Tower is the dark, heavily guarded lair of Vlad the Impaler, housing the [[/Artifacts/Candelabrum of Invocation]].**
 
-**Location:** Branches *upwards* from [[/Dungeon/Gehennom]], between levels 9 and 14 of Gehennom. The tower is 3 levels deep.
+**Location:** Branches *upwards* from [[/Dungeon/Gehennom]], between levels 9 and 13 of Gehennom. The tower is 3 levels deep.
 
 The tower itself consists of three levels.
 

@@ -1,6 +1,6 @@
 > 👉 **[[/Monsters/Yeenaghu]]'s Domain is the ruined, savage realm of the demon lord of [[gnolls|/Monsters/Gnoll]], exclusive to GnollHack.**
 
-**Location:** Located between 2 and 9 levels above the bottom of [[/Dungeon/Gehennom]] (typically Gehennom levels 9 to 19).
+**Location:** Located between 2 and 8 levels above the bottom of [[/Dungeon/Gehennom]] (typically Gehennom levels 10–18).
 
 Yeenaghu's Domain is a unique special level that serves as a thematic cornerstone of GnollHack.
 

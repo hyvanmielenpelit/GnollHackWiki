@@ -1,6 +1,6 @@
 > 👉 **The Lair of [[/Monsters/Tarrasque]] is an incredibly dangerous special level located deep in Gehennom, unique to GnollHack.**
 
-**Location:** Located between 2 and 9 levels above the bottom of [[/Dungeon/Gehennom]] (typically Gehennom levels 9 to 19).
+**Location:** Located between 2 and 8 levels above the bottom of [[/Dungeon/Gehennom]] (typically Gehennom levels 10–18).
 
 This lair houses one of the most fearsome monsters in the game: the legendary [[/Monsters/Tarrasque]].
 

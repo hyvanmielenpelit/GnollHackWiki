@@ -1,6 +1,6 @@
 > 👉 **Hellish Pastures is a bizarre, hidden domain of demonic bovines, exclusive to GnollHack.**
 
-**Location:** Accessible via a magic portal located between levels 8 and 14 of [[/Dungeon/Gehennom]]. Consists of a single level.
+**Location:** Accessible via a magic portal located between levels 8 and 13 of [[/Dungeon/Gehennom]]. Consists of a single level.
 
 Hellish Pastures (also known as the cow level) introduces a highly dangerous but rewarding diversion.
 
