@@ -19,6 +19,10 @@
 
 All ordinary body armor can be mythic and legendary.
 
+## Materials
+
+Ordinary body armor is typically generated from iron, but some items (like elven, dwarvish, and orcish variants) may use specific materials based on their origins. Mithril-coats are made of mithril. Dragon scale mails are made from dragon hide. Materials affect weight, color, and certain interactions in the game.
+
 ## Dragon scale mails and dragon scales
 
 Dragon scale mails are changed from NetHack. They are heavier and incur a spell casting penalty, except for white dragon scale mails that are conductive of magic and incur no such penalty. Thus, except for the white variant, dragon scale mails are not a very good choice for a wizard. Dragon scale mails *cannot* be mythic or legendary.

@@ -26,9 +26,12 @@ Magical shields *cannot* be mythic or legendary.
 ## Weapon-Shields
 
 - [[/Items/Spiked shield]]
-- [[/Items/Spiked silver shield]]
 
 Weapon-shields can be mythic or legendary.
+
+## Materials
+
+Most shields are made from iron or wood, but some, like small shields and spiked shields, can be generated from various materials including silver, adamantium, and mithril. Material affects weight, color, and interactions (e.g., silver weapon-shields deal extra damage to silver-hating monsters when used offensively).
 
 ## Armor Quality
 

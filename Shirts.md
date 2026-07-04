@@ -12,3 +12,7 @@ Simple shirts *can* be mythic or legendary. They do not give AC, but may give sm
 - [[/Items/Shirt of sound mindedness]]
 
 Magical shirts *cannot* be mythic or legendary.
+
+## Materials
+
+Unlike other types of armor, shirts are typically always generated from cloth as their base material.

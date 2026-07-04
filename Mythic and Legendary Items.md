@@ -53,10 +53,10 @@
 | of reach | Has extended range | Polearms, spears, and lances |
 | of returning | Returns to hand after being thrown | Thrown weapons |
 | of sharpness | Has 35% chance of dealing damage equal to 15% of max HP | Slashing weapons |
-| of speed | Very fast speed | Melee weapons, boots, and gloves |
+| of speed | Very fast speed | Melee weapons, boots, and gauntlets |
 | of the Last Alliance | (W) Triple damage against orcs, ogres, giants, and trolls, and prevents troll revival | All except orcish items, boots, and bludgeoning gauntlets |
 | of troll slaying | Triple damage against trolls, prevents troll revival | All except boots and bludgeoning gauntlets |
-| of wounding | Causes permanent damage equal to 1d4 + enchantment | Slashing and piercing weapons, spiked gloves |
+| of wounding | Causes permanent damage equal to 1d4 + enchantment | Slashing and piercing weapons, spiked gauntlets |
 
 ## Armor
 

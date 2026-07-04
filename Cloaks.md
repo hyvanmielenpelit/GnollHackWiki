@@ -18,3 +18,7 @@
 ## Notes
 
 Cloaks cannot be mythic or legendary.
+
+## Materials
+
+Most cloaks are generated from cloth or leather, but some racial cloaks, such as the elven, orcish, and dwarvish cloaks, have a chance of being crafted from dragon hide. Materials affect weight, color, and interactions in the game.

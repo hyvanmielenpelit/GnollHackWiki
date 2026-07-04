@@ -11,6 +11,10 @@ GnollHack has 9 wearable armor slots:
 - [[Shields]]
 - [[Shirts]]
 
+## Materials
+
+Most armor can be generated from various object materials, such as iron, mithril, adamantium, or dragon hide. The material of an armor piece affects its weight, color, and properties. For example, silver items deal extra damage to silver-hating monsters. Certain armor types, like dragon scale mails or alchemy smocks, always use their specific base material.
+
 ## New Armor Slots
 
 ### Robe

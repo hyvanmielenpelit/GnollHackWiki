@@ -23,8 +23,10 @@
 ## Weapon-Boots
 
 - [[/Items/Spiked boots]]
-- [[/Items/Silver shoes]]
-- [[/Items/Spiked silver boots]]
+
+## Materials
+
+Most boots are made from leather, but some, like shoes and spiked boots, can be generated from various materials including silver, steel, and mithril. Material affects weight, color, and interactions (e.g., silver weapon-boots deal extra damage to silver-hating monsters when kicking).
 
 ## Armor Quality
 
