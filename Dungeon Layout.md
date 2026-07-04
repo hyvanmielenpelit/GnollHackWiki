@@ -2,15 +2,13 @@
 
 The dungeon in GnollHack consists of a main sequence of levels known as the [[/Dungeon/The Dungeons of Doom]], which extends from the surface down to the gateway of [[/Dungeon/Gehennom]]. Along the way, brave adventurers will discover numerous **branches** and **special levels**.
 
-## The Main Dungeon
+Branches are multi-level sub-dungeons that diverge from the main path. They often feature unique tilesets, specific enemy types, and special rules. Special levels are distinct, single levels that appear within the branches above. They usually have a fixed layout or guaranteed features.
 
-**[[/Dungeon/The Dungeons of Doom]]** — The primary trunk of the game, spanning 24 to 25 levels.
+## The Dungeons of Doom
 
-## Dungeon Branches
+**[[/Dungeon/The Dungeons of Doom]]** is the primary trunk of the game, spanning 24 to 25 levels.
 
-Branches are multi-level sub-dungeons that diverge from the main path. They often feature unique tilesets, specific enemy types, and special rules.
-
-### The Dungeons of Doom
+### Dungeon Branches
 
 | Branch | Level Range | Description |
 | :----- | :---------: | :---------- |
@@ -21,25 +19,7 @@ Branches are multi-level sub-dungeons that diverge from the main path. They ofte
 | **[[/Dungeon/Gehennom]]** | 24–25 | The fiery underworld. It is the second major half of the game, filled with demons. |
 | **[[/Dungeon/The Elemental Planes]]** | 1 | Accessed by ascending the staircase up on the dungeon level 1 after acquiring the [[/Items/Amulet of Yendor]]. It leads to the endgame featuring the Planes of Earth, Air, Fire, Water, and the Astral Plane. |
 
-### The Gnomish Mines
-
-| Branch | Level Range | Description |
-| :----- | :---------: | :---------- |
-| **[[/Dungeon/The Large Circular Dungeon]]** | 4–6 | A high-tech dungeon involving quantum mechanics, accessible via a portal located below the [[/Dungeon/Mine Town]]. New in GnollHack. |
-
-### Gehennom
-
-| Branch | Level Range | Description |
-| :----- | :---------: | :---------- |
-| **[[/Dungeon/Plane of the Modron]]** | 3–4 | A geometric plane inhabited by Modrons. New in GnollHack. |
-| **[[/Dungeon/Hellish Pastures]]** | 8–13 | A hidden cow level filled with demonic bovines. New in GnollHack. |
-| **[[/Dungeon/Vlad's Tower]]** | 9–13 | A dark, undead-filled tower containing the [[/Artifacts/Candelabrum of Invocation]]. |
-
-## Special Levels
-
-Special levels are distinct, single levels that appear within the branches above. They usually have a fixed layout or guaranteed features.
-
-### The Dungeons of Doom
+### Special Levels
 
 | Special Level | Level Range | Description |
 | :------------ | :---------: | :---------- |
@@ -50,14 +30,32 @@ Special levels are distinct, single levels that appear within the branches above
 | **[[/Dungeon/Minotaur Maze]]** | 23–24 | A maze-like level with a [[/Monsters/minotaur]]. Redesigned in GnollHack. |
 | **[[/Dungeon/Underground Castle]]** | 24–25 | The heavily fortified gateway to Gehennom, containing a [[/Items/wand of wishing]]. |
 
-### The Gnomish Mines
+## The Gnomish Mines
+
+### Dungeon Branches
+
+| Branch | Level Range | Description |
+| :----- | :---------: | :---------- |
+| **[[/Dungeon/The Large Circular Dungeon]]** | 4–6 | A high-tech dungeon involving quantum mechanics, accessible via a portal located below the [[/Dungeon/Mine Town]]. New in GnollHack. |
+
+### Special Levels
 
 | Special Level | Level Range | Description |
 | :------------ | :---------: | :---------- |
 | **[[/Dungeon/Mine Town]]** | 3–4 | A bustling subterranean town with shops, a temple, and guards. |
 | **[[/Dungeon/Mines' End]]** | 8–9 | The deepest part of the mines, containing the [[/Artifacts/The Gladstone]]. |
 
-### Gehennom
+## Gehennom
+
+### Dungeon Branches
+
+| Branch | Level Range | Description |
+| :----- | :---------: | :---------- |
+| **[[/Dungeon/Plane of the Modron]]** | 3–4 | A geometric plane inhabited by Modrons. New in GnollHack. |
+| **[[/Dungeon/Hellish Pastures]]** | 8–13 | A hidden cow level filled with demonic bovines. New in GnollHack. |
+| **[[/Dungeon/Vlad's Tower]]** | 9–13 | A dark, undead-filled tower containing the [[/Artifacts/Candelabrum of Invocation]]. |
+
+### Special Levels
 
 | Special Level | Level Range | Description |
 | :------------ | :---------: | :---------- |
