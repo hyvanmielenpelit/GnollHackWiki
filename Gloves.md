@@ -1,21 +1,33 @@
-## Simple Gloves
+## Soft Gloves
+
+### Non-Magical Gloves
 
 - [[/Items/Leather gloves]]
-- [[/Items/Gauntlets]]
-- Silver gauntlets — 1d20 silver damage on hit
 
-## Magical Gloves
+### Magical Gloves
 
-- [[/Items/Gauntlets of fumbling]]
 - [[/Items/Gloves of haste]]
 - [[/Items/Gloves of spell casting]]
+
+## Gauntlets
+
+All gauntlets function as "weapon-gloves" in bare-handed combat, allowing the wearer to deal damage with them and use the [[/Skills/Bare-handed combat]] skill.
+
+### Non-Magical Gauntlets
+
+- [[/Items/Gauntlets]]
+- [[/Items/Spiked gauntlets]]
+
+
+### Magical Gauntlets
+
+- [[/Items/Gauntlets of fumbling]]
 - [[/Items/Gauntlets of ogre power]] — Please note "ogre" in the name
 - [[/Items/Gauntlets of dexterity]]
 
-## Weapon-Gloves
+## Materials
 
-- [[/Items/Spiked gauntlets]]
-- [[/Items/Spiked silver gauntlets]]
+Non-magical gauntlets can generate in a variety of materials. [[/Items/Gauntlets]] (base material: leather) and [[/Items/Spiked gauntlets]] (base material: iron) can also generate made of adamantium, mithril, or silver. Gauntlets made of silver deal a 1d20 bonus damage against silver-hating monsters.
 
 ## Armor Quality
 
@@ -31,7 +43,6 @@ In bare-handed combat, the armor quality also multiplies the base damage of gaun
 - **Elite:** Triple base damage
 - **Celestial/Primordial/Infernal:** Quadruple base damage, but can be used only by lawful/neutral/chaotic beings.
 
-## Notes
+## Mythic Affixes
 
-- Non-magical gauntlets *can* be mythic and legendary.
-- Other gloves *cannot* be mythic or legendary, mainly [[/Items/Leather gloves]].
+No gloves or gauntlets can ever be mythic.
