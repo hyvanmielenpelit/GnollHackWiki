@@ -1,0 +1,31 @@
+# Barbarian Quest
+
+> 👉 **The Barbarian Quest is a branch of [[/Dungeon/The Quest]] specifically designed for the Barbarian role.**
+
+## Overview 🌍
+
+The Quest branch for the Barbarian consists of 5 levels. You must navigate through these levels to defeat your Nemesis and recover your role's quest artifact.
+
+- **Leader:** [[/Monsters/Pelias]] (found on the Home level)
+- **Nemesis:** [[/Monsters/Thoth Amon]] (found on the Goal level)
+- **Artifact:** [[/Artifacts/The Heart of Ahriman]]
+- **Common Enemies:** [[ogres|/Monsters/Ogre]] and [[trolls|/Monsters/Troll]]
+
+## Level Structure 🗺️
+
+The Quest is divided into several specific levels:
+
+### 1. Home Level
+The starting point of the Quest. Here you will find [[/Monsters/Pelias]] and friendly Quest Guardians. You must receive permission from [[/Monsters/Pelias]] before proceeding deeper. The walls and floors are undiggable, and teleportation is restricted.
+
+### 2. Upper Filler Level
+An intermediate level filled with [[ogres|/Monsters/Ogre]] and [[trolls|/Monsters/Troll]] and other monsters.
+
+### 3. Locate Level
+A specific midpoint level. Upon entering, you will receive messages indicating that you are getting closer to [[/Monsters/Thoth Amon]].
+
+### 4. Lower Filler Level
+An additional randomly generated level before the final confrontation.
+
+### 5. Goal Level
+The bottom-most level of the branch. Here you will face [[/Monsters/Thoth Amon]]. Upon defeating him, you can claim [[/Artifacts/The Heart of Ahriman]] and the [[/Artifacts/Bell of Opening]].
