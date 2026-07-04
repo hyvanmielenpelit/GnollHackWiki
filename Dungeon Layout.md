@@ -10,7 +10,7 @@ The dungeon in GnollHack consists of a main sequence of levels known as the [[/D
 
 Branches are multi-level sub-dungeons that diverge from the main path. They often feature unique tilesets, specific enemy types, and special rules.
 
-| Branch | Branched From | Description |
+| Branch | Branches From | Description |
 | :--- | :--- | :--- |
 | **[[/Dungeon/The Gnomish Mines]]** | Dungeons of Doom (Levels 2–4) | A cavern system filled with gnomes and dwarves. Contains special levels like [[/Dungeon/Mine Town]]. |
 | **[[/Dungeon/Sokoban]]** | Dungeons of Doom (Levels 6–8) | A puzzle branch where you must push boulders into pits. |
