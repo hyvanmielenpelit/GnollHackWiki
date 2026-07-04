@@ -6,13 +6,9 @@ Found within the sprawling mazes of the underworld, [[/Monsters/Jubilex]]'s Real
 
 ## Characteristics
 - **Layout:** A swampy, disgusting lair filled with pools of water and acidic sludge.
-- **Inhabitants:** Oozes, [[jellies|/Monsters/Jelly]], and [[puddings|/Monsters/Pudding]] abound, all immune to many standard forms of attack and capable of corroding your gear.
+- **Inhabitants:** Oozes, jellies, and puddings abound, all immune to many standard forms of attack and capable of corroding your gear.
 
 ## [[/Monsters/Jubilex]]
-[[/Monsters/Jubilex]] is the faceless lord of [[oozes|/Monsters/Ooze]]. 
-- Unlike [[/Monsters/Dispater]] or [[/Monsters/Baalzebub]], [[/Monsters/Jubilex]] does not summon [[demons|/Monsters/Demon]].
+[[/Monsters/Jubilex]] is the faceless lord of oozes. 
+- Unlike [[/Monsters/Dispater]] or [[/Monsters/Baalzebub]], [[/Monsters/Jubilex]] does not summon demons.
 - He can engulf the player, causing massive damage and illness. 
-
-
-
-

@@ -10,7 +10,7 @@ It consists of 4 levels, each presenting a room filled with [[boulders|/Items/Bo
   - You cannot dig through walls or floors.
   - Teleportation (both self and monsters) is disabled.
   - Jumping or levitating over pits without filling them incurs heavy luck penalties.
-  - Breaking [[boulders|/Items/Boulder]] or squeezing past them by shrinking is strictly penalized and often renders the puzzle unsolvable.
+  - Breaking [[boulders|/Items/Boulder]] or squeezing past them by shrinking is penalized.
 - **Monsters:** High density of randomly generated monsters, often including sleeping ones. Because of the strict no-teleport and no-digging rules, combat must be handled carefully.
 
 ## The Puzzles
@@ -18,11 +18,7 @@ Each level requires you to push [[boulders|/Items/Boulder]] one at a time into s
 
 ## Loot and Rewards
 The primary reason to complete Sokoban is the guaranteed reward at the very top (the 4th level). After solving the final puzzle and defeating the guardian monsters, you will find either:
-- A **[[/Items/Bag of holding]]** (highly coveted for inventory management)
-- An **[[/Items/Amulet of reflection]]** (crucial for surviving late-game spellcasters and [[dragons|/Monsters/Dragon]])
+- A **[[/Items/bag of holding]]** (highly coveted for inventory management)
+- An **[[/Items/amulet of reflection]]** (crucial for surviving late-game spellcasters and dragons)
 
 Additionally, the branch provides a massive amount of food (often generated as giant meat rings, cram rations, and lembas wafers), making it a popular destination for starving characters.
-
-
-
-

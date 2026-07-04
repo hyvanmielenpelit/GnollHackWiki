@@ -10,7 +10,7 @@
 - **Traps:** The entrance is heavily trapped, and the moat contains dangerous aquatic monsters like [[/Monsters/Kraken]] or [[giant eels|/Monsters/Giant eel]] if you fall in.
 
 ## [[/Monsters/Croesus]]
-[[/Monsters/Croesus]] is a formidable opponent. He is heavily armored and uses a dual-wielding attack. Defeating him yields a massive pile of [[/Items/Gold]], [[gems|/Items/Gem]], and valuable equipment.
+[[/Monsters/Croesus]] is a formidable opponent. He is heavily armored and uses a dual-wielding attack. Defeating him yields a massive pile of gold, gems, and valuable equipment.
 
 
 

@@ -25,7 +25,8 @@ When editing or creating pages for the GnollHack Wiki, follow these conventions 
 - **Capitalization**: Wikilinks should follow standard English grammar capitalization rules for the surrounding sentence, regardless of the actual filename's capitalization (since Gollum links are case-insensitive).
   - Start item names (and other link text) with a lowercase letter when they appear in the middle of a sentence. For example, use `[[/Items/potion of healing]]`.
   - If you must capitalize a letter (e.g., starting a sentence), capitalize the letter directly in the filename portion of the wikilink (the part after the subdirectory, if present). For example, use `[[/Items/Potion of healing]]` instead of `[[Potion of healing|/Items/potion of healing]]`.
-- **Monster Categories**: When referring to a monster class/category (such as Nymph), make a wikilink to a plural monster category page (e.g., `[[/Monsters/Nymphs]]`). If a singular category name is needed in the text, use a wikilink with an alias: `[[Nymph|/Monsters/Nymphs]]`.
+- **Monster Categories & Valid Links**: Do not create wikilinks to non-existing pages. Always verify that a target page actually exists before linking it. This is especially important for generic monster categories (like "centaurs", "dragons", "vampires") which often do not have dedicated pages. Let them be plain text. If a category page DOES exist (such as Nymphs), make a wikilink to the plural monster category page (e.g., `[[/Monsters/Nymphs]]`).
+- **Gold**: Do not create wikilinks for "gold" (e.g. `[[/Items/Gold]]`). Always leave it as plain text.
 - **Aliases in Tables**: Avoid wikilinks with aliases inside a Markdown table.
 
 ## 3. Images and Uploads

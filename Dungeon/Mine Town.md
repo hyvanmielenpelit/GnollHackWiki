@@ -10,7 +10,7 @@ Mine Town is a guaranteed special level.
 - **Inhabitants:** Heavily patrolled by peaceful [[town watchmen|/Monsters/Watchman]] and a [[/Monsters/Watch captain]]. The cavern surrounding the town is filled with standard Mines enemies ([[gnomes|/Monsters/Gnome]] and [[dwarves|/Monsters/Dwarf]]).
 - **Amenities:** 
   - A guaranteed Temple with an [[aligned priest|/Monsters/Aligned priest]] (useful for buying protection and identifying BUC status of items).
-  - A lighting store (sells [[lamps|/Items/Oil lamp]] and [[candles|/Items/Candle]]).
+  - A lighting store (sells [[lamps|/Items/Oil lamp]] and candles).
   - A general store (or sometimes a specialized store like a bookstore or delicatessen).
 
 

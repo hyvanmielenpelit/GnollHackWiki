@@ -6,9 +6,5 @@ Treasure Island offers great rewards for those capable of navigating its aquatic
 
 ## Characteristics
 - **Layout:** An island (or series of islands) surrounded by deep water. 
-- **Inhabitants:** Defended by aquatic monsters, [[pirates|/Monsters/Pirate]], and amphibious creatures. 
-- **Loot:** The level is dotted with [[chests|/Items/Chest]] and large piles of [[/Items/Gold]] and [[gems|/Items/Gem]], making it a lucrative stop for adventurers in need of cash or random items.
-
-
-
-
+- **Inhabitants:** Defended by aquatic monsters, pirates, and amphibious creatures. 
+- **Loot:** The level is dotted with [[chests|/Items/Chest]] and large piles of gold and gems, making it a lucrative stop for adventurers in need of cash or random items.
