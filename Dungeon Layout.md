@@ -1,9 +1,10 @@
+![Dungeon Layout](/uploads/Dungeon%20Layout/dungeon-layout-q85.webp)
+
 The dungeon in GnollHack consists of a main sequence of levels known as the [[/Dungeon/The Dungeons of Doom]], which extends from the surface down to the gateway of [[/Dungeon/Gehennom]]. Along the way, brave adventurers will discover numerous **branches** and **special levels**.
 
 ## The Main Dungeon
 
-### [[/Dungeon/The Dungeons of Doom]]
-The Dungeons of Doom is the primary trunk of the game, spanning 24 to 25 levels. The deeper you go, the more dangerous the monsters become. All other early and mid-game branches and special levels are connected directly to the Dungeons of Doom. 
+**[[/Dungeon/The Dungeons of Doom]]** — The primary trunk of the game, spanning 24 to 25 levels.
 
 ## Dungeon Branches
 
