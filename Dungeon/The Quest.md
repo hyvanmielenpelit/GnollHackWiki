@@ -9,7 +9,7 @@
 To step through the portal and enter the Quest, you must meet three strict conditions:
 
 1. **Experience Level 14:** You must be at least level 14. If you are lower, the Quest Leader will turn you away.
-2. **Alignment:** Your alignment record must be positive.
+2. **Alignment:** Your alignment record must be non-negative. You must still follow your original alignment and must not have converted to a different one.
 3. **Approval:** You must visit your Quest Leader on the Home level and receive their blessing.
 
 ## Characteristics 🌍
@@ -45,5 +45,5 @@ At the bottom of the branch, you must defeat your role's Nemesis, which is a pow
 
 Upon defeating the Nemesis, you are rewarded with:
 
-- **Your Role's Quest Artifact:** An powerful, unique item.
+- **Your Role's Quest Artifact:** A powerful, unique item.
 - **The [[/Artifacts/Bell of Opening]]:** One of the three invocation items required to enter [[/Dungeon/Moloch's Sanctum]] and complete the game.
