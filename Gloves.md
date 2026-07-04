@@ -45,4 +45,6 @@ In bare-handed combat, the armor quality also multiplies the base damage of gaun
 
 ## Mythic Affixes
 
-No gloves or gauntlets can ever be mythic.
+Soft gloves (such as [[/Items/Leather gloves]]) and inherently magical gauntlets (such as [[/Items/Gauntlets of ogre power]]) cannot be mythic.
+
+However, non-magical gauntlets ([[/Items/Gauntlets]] and [[/Items/Spiked gauntlets]]) can generate with mythic affixes.
