@@ -4,7 +4,7 @@
 
 ## Overview 🌍
 
-The Quest branch for the Rogue consists of 5 levels. You must navigate through these levels to defeat your Nemesis and recover your role's quest artifact.
+The Quest branch for the Rogue consists of 5 or 6 levels. You must navigate through these levels to defeat your Nemesis and recover your role's quest artifact.
 
 - **Leader:** The [[Master of Thieves|/Monsters/Master of Thieves]] (found on the Home level)
 - **Nemesis:** The [[Master Assassin|/Monsters/Master Assassin]] (found on the Goal level)
@@ -24,8 +24,8 @@ An intermediate level filled with [[leprechauns|/Monsters/Leprechaun]] and [[gua
 ### 3. Locate Level
 A specific midpoint level. Upon entering, you will receive messages indicating that you are getting closer to The [[Master Assassin|/Monsters/Master Assassin]].
 
-### 4. Lower Filler Level
-An additional randomly generated level before the final confrontation.
+### 4. Lower Filler Level(s)
+One or two additional randomly generated levels before the final confrontation. (There is one lower filler level if the Quest is 5 levels deep, and two if it is 6 levels deep.)
 
-### 5. Goal Level
+### 5. Goal Level (Level 5 or 6)
 The bottom-most level of the branch. Here you will face The [[Master Assassin|/Monsters/Master Assassin]]. Upon defeating him, you can claim [[/Artifacts/The Master Key of Thievery]] and the [[/Artifacts/Bell of Opening]].

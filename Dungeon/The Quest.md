@@ -1,6 +1,6 @@
 > 👉 **The Quest is a role-specific branch where the player returns to their homeland to defeat their nemesis, retrieve their class artifact, and earn the [[/Artifacts/Bell of Opening]].**
 
-**Location:** Branches from [[/Dungeon/The Dungeons of Doom]] via a magic portal between levels 11 and 16. The branch is 5 levels deep.
+**Location:** Branches from [[/Dungeon/The Dungeons of Doom]] via a magic portal between levels 11 and 16. The branch is 5 or 6 levels deep.
 
 *Message upon entering the portal level: "You receive a faint telepathic message from..." (followed by a message from your Quest Leader).*
 
@@ -14,10 +14,9 @@ To step through the portal and enter the Quest, you must meet three strict condi
 
 ## Characteristics 🌍
 
-The Quest consists of 5 levels, entirely tailored to your character's class. 
-
+The Quest consists of 5 or 6 levels, entirely tailored to your character's class. 
 - **Home Level:** The starting point, featuring your Quest Leader, friendly guards, and usually a temple.
-- **Upper/Lower Filler Levels:** Intermediate levels filled with role-specific monsters.
+- **Upper/Lower Filler Levels:** Intermediate levels filled with role-specific monsters. (If the Quest is 6 levels deep, an extra Lower Filler level is generated between the Locate and Goal levels.)
 - **Locate Level:** A specific midpoint level where the flavor text indicates you are getting closer to your Nemesis.
 - **Goal Level:** The bottom-most level, housing your Nemesis.
 
