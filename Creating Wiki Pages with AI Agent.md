@@ -60,8 +60,10 @@ If you do not have it installed, you can [download FFmpeg here](https://ffmpeg.o
 
 ### 🔍 Researching and Creating a New Page
 
-*   **Recommended Model:** Gemini 3.5 Flash (Medium)
-*   **Reasoning:** Complex task requiring searching code, synthesizing information from multiple repositories, and generating new formatted content. Requires a WebP conversion.
+*   **Recommended Model:**
+    * Gemini 3.5 Flash (Medium) if WebP conversion is required
+    * Gemini 3.1 Pro (High) otherwise
+*   **Reasoning:** Complex task requiring searching code, synthesizing information from multiple repositories, and generating new formatted content. Requires WebP conversion.
 
 > 💡 **Example Prompt:** Research the 'Archon' monster in the GnollHack codebase. Create a new wiki page for it under `/Monsters/`, following the wiki conventions. Find its image in the GnollHackTileSet repository, ensure it is in WebP format, and embed it correctly.
 
