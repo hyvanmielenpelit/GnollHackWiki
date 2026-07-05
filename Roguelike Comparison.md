@@ -1,6 +1,6 @@
 > 👉 **This page provides a comparison between NetHack, GnollHack, Pathos, and Shattered Pixel Dungeon, highlighting their features, target audiences, and user interfaces.**
 
-## Overview
+## 📖 Overview
 
 | Game | Description | Audience |
 |------|-------------|----------|
@@ -9,41 +9,41 @@
 | **[Pathos](https://pathos.azurewebsites.net/)** | A streamlined adaptation of the NetHack ruleset, coded from scratch for modern devices. It simplifies the user interface and inventory management while preserving the challenging core mechanics with standard graphical tiles and smooth touch controls. | Midcore players looking for an accessible entry point to classic roguelike mechanics on mobile or PC. |
 | **[Shattered Pixel Dungeon](https://shatteredpixel.com/)** | A highly polished, standalone roguelike originating from the Brogue lineage. It features streamlined gameplay, distinct hero classes with customizable skill trees, and charming pixel-art graphics. | Midcore-to-casual players looking for a visually appealing, intuitive, and engaging roguelike experience with a balanced difficulty curve. |
 
-## Feature Comparison
+## 📊 Feature Comparison
 
 The situation on 1 February 2026 is the following:
 
 ![Roguelikes comparison table](/uploads/Roguelike%20Comparison/roguelikes-comparison-v10.webp)
 
-## Screenshots
+## 🖼️ Screenshots
 
-### NetHack
+### 🏛️ NetHack
 
-#### NetHack's Traditional ASCII UI
+#### ⌨️ NetHack's Traditional ASCII UI
 
 A screenshot of NetHack's traditional ASCII (text-based) UI:
 
 ![NetHack ASCII UI](/uploads/Roguelike%20Comparison/nethack-ascii-screenshot.webp)
 
-#### NetHack Windows GUI
+#### 🖥️ NetHack Windows GUI
 
 A screenshot of NetHack Windows GUI with the Nevanda tileset (32x32-pixel tiles):
 
 ![Nethack Windows GUI with Nevanda Tileset](/uploads/Roguelike%20Comparison/nethack-nevanda-q85.webp)
 
-### GnollHack
+### 🐺 GnollHack
 
 A screenshot of GnollHack's modern Windows client:
 
 ![Gnollhack Modern Windows Client](/uploads/Roguelike%20Comparison/gnollhack-windows-q85.webp)
 
-### Pathos
+### ⚔️ Pathos
 
 A screenshot of Pathos on Windows:
 
 ![Pathos on Windows](/uploads/Roguelike%20Comparison/pathos-windows-screenshot-q85.webp)
 
-### Shattered Pixel Dungeon
+### 💎 Shattered Pixel Dungeon
 
 A screenshot of Shattered Pixel Dungeon on Windows:
 
