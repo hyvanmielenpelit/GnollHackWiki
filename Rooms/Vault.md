@@ -6,4 +6,4 @@ A Vault is a specialized 2x2 room hidden within the walls of the dungeon. It con
 
 ## 🗺️ Generation
 
-Vaults are generated independently from other special rooms and can appear on almost any level in the Dungeons of Doom. Because they have no doors or connecting corridors, you must find other ways to enter them.
+Vaults are generated independently from other special rooms and can appear on almost any level in the [[/Dungeon/Dungeons of Doom]]. Because they have no doors or connecting corridors, you must find other ways to enter them.
