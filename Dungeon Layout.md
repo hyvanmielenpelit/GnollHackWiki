@@ -1,8 +1,8 @@
 ![Dungeon Layout](/uploads/Dungeon%20Layout/dungeon-layout-q85.webp)
 
-The dungeon in GnollHack consists of a main sequence of levels known as the [[/Dungeon/Dungeons of Doom]], which extends from the surface down to the gateway of [[/Dungeon/Gehennom]]. Along the way, brave adventurers will discover numerous **branches** and **special levels**.
+The dungeon in GnollHack consists of a main sequence of levels known as the [[/Dungeon/Dungeons of Doom]], which extends from the surface down to the gateway of [[/Dungeon/Gehennom]]. Along the way, brave adventurers will discover numerous *branches* and *special levels*.
 
-Branches are multi-level sub-dungeons that diverge from the main path. They often feature unique tilesets, specific enemy types, and special rules. Special levels are distinct, single levels that appear within the branches above. They usually have a fixed layout or guaranteed features.
+**Branches** are multi-level sub-dungeons that diverge from the main path. They often feature unique tilesets, specific enemy types, and special rules. **Special levels** are distinct, single levels that appear within the branches. They usually have a fixed layout and guaranteed features.
 
 The **level range** listed for each branch or special level indicates the possible dungeon levels (depths) within the parent branch where the entrance to the branch or the special level itself can appear. For example, a level range of 2–4 means it will generate on either level 2, 3, or 4 of its parent branch.
 
