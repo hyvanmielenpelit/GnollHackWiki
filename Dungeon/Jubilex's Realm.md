@@ -9,7 +9,7 @@ Found within the sprawling mazes of the underworld, [[/Monsters/Jubilex]]'s Real
 - **Inhabitants:** Oozes, jellies, and puddings.
 - **Flora:** The level is uniquely dotted with various types of edible and poisonous mushrooms and berries, as well as buried mandrake roots.
 
-## 😈 [[/Monsters/Jubilex]]
+## 🦠 [[/Monsters/Jubilex]]
 [[/Monsters/Jubilex]] is the faceless lord of oozes. 
 - He does not summon demons.
 - He can engulf the player, causing massive damage and illness.
