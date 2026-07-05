@@ -13,5 +13,5 @@ It extends downward, culminating in [[/Dungeon/Mines' End]].
 ## 🚩 Special Levels
 
 - **[[/Dungeon/Mine Town]]**: A guaranteed mid-point level featuring a temple with an [[aligned priest|/Monsters/Aligned priest]], a lighting store, a general store, and heavily armed watchmen.
-- **[[/Dungeon/Large Circular Dungeon]]**: The portal to this challenging branch is found 1 or 2 levels *below* the [[/Dungeon/Mine Town]].
+- **[[/Dungeon/Large Circular Dungeon]]**: The portal to this challenging branch is found 1 or 2 levels *below* [[/Dungeon/Mine Town]].
 - **[[/Dungeon/Mines' End]]**: The bottom-most level of the branch. It contains a [[/Artifacts/The Gladstone]], an artifact [[/Items/luckstone]].

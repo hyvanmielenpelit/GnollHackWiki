@@ -38,7 +38,7 @@ The **level range** listed for each branch or special level indicates the possib
 
 | Branch | Level Range | Description |
 | :----- | :---------: | :---------- |
-| **[[/Dungeon/Large Circular Dungeon]]** | 4–6 | A high-tech dungeon involving quantum mechanics, accessible via a portal located below the [[/Dungeon/Mine Town]]. New in GnollHack. |
+| **[[/Dungeon/Large Circular Dungeon]]** | 4–6 | A high-tech dungeon involving quantum mechanics, accessible via a portal located below [[/Dungeon/Mine Town]]. New in GnollHack. |
 
 ### 🚩 Special Levels
 
