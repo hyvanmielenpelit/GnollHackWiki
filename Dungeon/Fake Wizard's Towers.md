@@ -2,14 +2,8 @@
 
 **Location:** Both towers are generated between levels 13 and 18 of [[/Dungeon/Gehennom]] (specifically, between 2 and 5 levels above the bottom of Gehennom). 
 
-## 🚪 Entry
+## ℹ️ Characteristics
 
 Both fake towers appear from the outside as small structures surrounded by a moat. There is no way to tell which of the two towers is which from the outside. 
 
 One of the two towers contains a magic portal that transports you directly to the bottom level of the true [[/Dungeon/Wizard's Tower]]. The other tower contains a randomly generated amulet. 
-
-## ℹ️ Characteristics
-
-Both towers share the exact same physical characteristics:
-
-- **Layout:** A very small room surrounded by a moat and solid rock walls. 
