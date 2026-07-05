@@ -17,7 +17,7 @@ Branches are multi-level sub-dungeons that diverge from the main path. They ofte
 | **[[/Dungeon/The Quest]]** | 11–14 | A role-specific quest branch. *Message: "You receive a faint telepathic message from..." (followed by a message from your Quest Leader).* |
 | **[[/Dungeon/Fort Ludios]]** | 12–20 | A hidden fortress guarded by soldiers and [[/Monsters/Croesus]]. The portal is found in a vault. |
 | **[[/Dungeon/Gehennom]]** | 24–25 | The fiery underworld. It is the second major half of the game, filled with demons. |
-| **[[/Dungeon/The Elemental Planes]]** | 1 | Accessed by ascending the staircase up on the dungeon level 1 after acquiring the [[/Items/Amulet of Yendor]]. It leads to the endgame featuring the Planes of Earth, Air, Fire, Water, and the Astral Plane. |
+| **[[/Dungeon/The Elemental Planes]]** | 1 | Accessed by ascending the staircase up on  dungeon level 1 after acquiring the [[/Items/Amulet of Yendor]]. It leads to the endgame featuring the Planes of Earth, Air, Fire, Water, and the Astral Plane. |
 
 ### 🚩 Special Levels
 
