@@ -1,8 +1,12 @@
-> 👉 **Rooms are a ubiquitous feature of the Dungeons of Doom in GnollHack. A room is typically a rectangular area separated by walls and paved with floor terrain, though some can be irregularly shaped.**
+> 👉 **Rooms are a the main feature of the Dungeons of Doom. This page lists the various room types that can appear in GnollHack.**
 
-## Standard Rooms
+## Standard Room
 
 - [[/Rooms/Ordinary Room]]
+
+## Shops
+
+- [[/Rooms/Shop]] — Lists all shop types.
 
 ## Special Rooms
 
@@ -20,12 +24,6 @@
 - [[/Rooms/Throne Room]]
 - [[/Rooms/Vault]]
 - [[/Rooms/Zoo]]
-
-## Shops
-
-- [[/Rooms/Shop]]
-- [[/Rooms/Reagent Shop]]
-- [[/Rooms/Deserted Shop]]
 
 ## NPC Rooms
 
