@@ -1,6 +1,6 @@
-> 👉 **Mine Town is a bustling underground settlement in the Gnomish Mines, offering shops and a temple to early-game characters.**
+> 👉 **Mine Town is a bustling underground settlement in the [[/Dungeon/Gnomish Mines]], offering shops and a temple to early-game characters.**
 
-**Location:** Located between levels 3 and 4 of [[/Dungeon/The Gnomish Mines]] (absolute depth 4–7).
+**Location:** Located between levels 3 and 4 of the [[/Dungeon/Gnomish Mines]] (absolute depth 4–7).
 
 Mine Town is a guaranteed special level. 
 *Message: You know you have entered Mine Town if you hear the sound of a cash register, or the presence of [[town watchmen|/Monsters/Watchman]].*

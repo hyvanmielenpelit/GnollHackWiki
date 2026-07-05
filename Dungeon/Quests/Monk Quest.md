@@ -1,6 +1,6 @@
 # Monk Quest
 
-> 👉 **The Monk Quest is a branch of [[/Dungeon/The Quest]] specifically designed for the Monk role.**
+> 👉 **The Monk Quest is a branch of [[/Dungeon/Quest]] specifically designed for the Monk role.**
 
 ## 🌍 Overview
 

@@ -1,6 +1,6 @@
 # Caveman Quest
 
-> 👉 **The Caveman Quest is a branch of [[/Dungeon/The Quest]] specifically designed for the Caveman (or Cavewoman) role.**
+> 👉 **The Caveman Quest is a branch of [[/Dungeon/Quest]] specifically designed for the Caveman (or Cavewoman) role.**
 
 ## 🌍 Overview
 

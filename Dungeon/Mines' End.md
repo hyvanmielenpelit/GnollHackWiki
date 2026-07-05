@@ -1,6 +1,6 @@
-> 👉 **Mines' End is the final, bottom-most level of the Gnomish Mines, housing significant treasure and the Gladstone.**
+> 👉 **Mines' End is the final, bottom-most level of the [[/Dungeon/Gnomish Mines]], housing significant treasure and the Gladstone.**
 
-**Location:** Located at the very bottom of [[/Dungeon/The Gnomish Mines]] (level 8–9 of the branch, absolute depth 9–12).
+**Location:** Located at the very bottom of the [[/Dungeon/Gnomish Mines]] (level 8–9 of the branch, absolute depth 9–12).
 
 Once you reach it, there are no stairs leading further down.
 

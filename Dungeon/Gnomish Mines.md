@@ -1,6 +1,6 @@
 > 👉 **The Gnomish Mines is an early-game branch inhabited primarily by [[gnomes|/Monsters/Gnome]] and [[dwarves|/Monsters/Dwarf]], offering excellent loot but significant danger for low-level adventurers.**
 
-**Location:** Branches from [[/Dungeon/The Dungeons of Doom]] between levels 2 and 4. The branch itself is 8 to 9 levels deep.
+**Location:** Branches from [[/Dungeon/Dungeons of Doom]] between levels 2 and 4. The branch itself is 8 to 9 levels deep.
 
 It extends downward, culminating in [[/Dungeon/Mines' End]].
 
@@ -13,5 +13,5 @@ It extends downward, culminating in [[/Dungeon/Mines' End]].
 ## 🚩 Special Levels
 
 - **[[/Dungeon/Mine Town]]**: A guaranteed mid-point level featuring a temple with an [[aligned priest|/Monsters/Aligned priest]], a lighting store, a general store, and heavily armed watchmen.
-- **[[/Dungeon/The Large Circular Dungeon]]**: The portal to this challenging branch is found 1 or 2 levels *below* the [[/Dungeon/Mine Town]].
+- **[[/Dungeon/Large Circular Dungeon]]**: The portal to this challenging branch is found 1 or 2 levels *below* the [[/Dungeon/Mine Town]].
 - **[[/Dungeon/Mines' End]]**: The bottom-most level of the branch. It contains a [[/Artifacts/The Gladstone]], an artifact [[/Items/luckstone]].

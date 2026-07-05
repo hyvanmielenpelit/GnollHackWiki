@@ -1,6 +1,6 @@
 # Rogue Quest
 
-> 👉 **The Rogue Quest is a branch of [[/Dungeon/The Quest]] specifically designed for the Rogue role.**
+> 👉 **The Rogue Quest is a branch of [[/Dungeon/Quest]] specifically designed for the Rogue role.**
 
 ## 🌍 Overview
 

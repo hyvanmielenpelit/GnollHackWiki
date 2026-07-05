@@ -1,6 +1,6 @@
 # Samurai Quest
 
-> 👉 **The Samurai Quest is a branch of [[/Dungeon/The Quest]] specifically designed for the Samurai role.**
+> 👉 **The Samurai Quest is a branch of [[/Dungeon/Quest]] specifically designed for the Samurai role.**
 
 ## 🌍 Overview
 

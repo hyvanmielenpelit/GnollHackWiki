@@ -1,6 +1,6 @@
 > 👉 **[[/Monsters/Medusa]]'s Island is a dangerous, water-logged cavern housing the deadly gorgon, [[/Monsters/Medusa]].**
 
-**Location:** Located 3 levels above the bottom of [[/Dungeon/The Dungeons of Doom]] (typically levels 22–23).
+**Location:** Located 3 levels above the bottom of [[/Dungeon/Dungeons of Doom]] (typically levels 22–23).
 
 [[/Monsters/Medusa]]'s Island is a guaranteed encounter. 
 *Message upon entering the level: "You hear the splashing of a naiad."*

@@ -1,6 +1,6 @@
 # Priest Quest
 
-> 👉 **The Priest Quest is a branch of [[/Dungeon/The Quest]] specifically designed for the Priest role.**
+> 👉 **The Priest Quest is a branch of [[/Dungeon/Quest]] specifically designed for the Priest role.**
 
 ## 🌍 Overview
 

@@ -1,6 +1,6 @@
 > 👉 **The Underground Castle is a heavily fortified military installation that guards the entrance to Gehennom and houses the legendary [[/Items/wand of wishing]].**
 
-**Location:** Located at the bottom of [[/Dungeon/The Dungeons of Doom]] (typically levels 24–25).
+**Location:** Located at the bottom of the [[/Dungeon/Dungeons of Doom]] (typically levels 24–25).
 
 The Underground Castle is the major mid-game milestone.
 

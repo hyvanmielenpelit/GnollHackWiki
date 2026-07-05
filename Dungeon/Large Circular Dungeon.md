@@ -1,6 +1,6 @@
-> 👉 **The Large Circular Dungeon is a high-tech, quantum-themed branch accessible from the Gnomish Mines, exclusive to GnollHack.**
+> 👉 **The Large Circular Dungeon is a high-tech, quantum-themed branch accessible from [[/Dungeon/Gnomish Mines]], exclusive to GnollHack.**
 
-**Location:** Accessible via a magic portal located 1 to 2 levels below [[/Dungeon/Mine Town]] (between levels 4 and 6 of the Gnomish Mines, or absolute depth 5–9). The branch consists of 2 levels.
+**Location:** Accessible via a magic portal located 1 to 2 levels below [[/Dungeon/Mine Town]] (between levels 4 and 6 of [[/Dungeon/Gnomish Mines]], or absolute depth 5–9). The branch consists of 2 levels.
 
 It features unique mechanics and dangerous futuristic enemies.
 

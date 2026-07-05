@@ -1,6 +1,6 @@
 > 👉 **Sokoban is a unique puzzle branch where traditional digging, teleportation, and wall-breaking are strictly prohibited. It rewards clever movement and planning.**
 
-**Location:** Branches upwards from the level immediately below [[/Dungeon/Delphi]] (between levels 6 and 8 of The Dungeons of Doom). The branch is 4 levels deep.
+**Location:** Branches upwards from the level immediately below [[/Dungeon/Delphi]] (between levels 6 and 8 of the [[/Dungeon/Dungeons of Doom]]). The branch is 4 levels deep.
 
 It consists of 4 levels, each presenting a room filled with [[boulders|/Items/Boulder]] and pits.
 

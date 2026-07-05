@@ -11,11 +11,11 @@ It extends from the surface all the way down to the [[/Dungeon/Underground Castl
 
 ## 🔗 Key Features & Connections
 The Dungeons of Doom connects to almost every major branch in the early and mid-game:
-- **[[/Dungeon/The Gnomish Mines]]**: Branches off between levels 2 and 4.
+- **[[/Dungeon/Gnomish Mines]]**: Branches off between levels 2 and 4.
 - **[[/Dungeon/Delphi]]**: A special level housing the [[/Monsters/Oracle]], located between levels 5 and 7.
 - **[[/Dungeon/Sokoban]]**: Reached by ascending stairs found immediately below Delphi.
 - **[[/Dungeon/Big Room]]**: A special single-room level found between levels 10 and 12.
-- **[[/Dungeon/The Quest]]**: The home portal for your class quest, found between levels 11 and 14.
+- **[[/Dungeon/Quest]]**: The home portal for your class quest, found between levels 11 and 14.
 - **[[/Dungeon/Fort Ludios]]**: Reached via a magic portal hidden in a vault between levels 12 and 20.
 - **[[/Dungeon/Treasure Island]]**: A water-themed treasure level located between levels 14 and 17.
 

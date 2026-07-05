@@ -1,6 +1,6 @@
 # Healer Quest
 
-> 👉 **The Healer Quest is a branch of [[/Dungeon/The Quest]] specifically designed for the Healer role.**
+> 👉 **The Healer Quest is a branch of [[/Dungeon/Quest]] specifically designed for the Healer role.**
 
 ## 🌍 Overview
 

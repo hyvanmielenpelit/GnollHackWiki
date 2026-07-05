@@ -1,6 +1,6 @@
 > 👉 **The Big Room is a notorious, massive level known for its high danger and lack of cover.**
 
-**Location:** Located between levels 10 and 12 of [[/Dungeon/The Dungeons of Doom]].
+**Location:** Located between levels 10 and 12 of [[/Dungeon/Dungeons of Doom]].
 
 The Big Room often appears as a single, giant room that takes up almost the entire map, but in GnollHack it can have several different layouts.
 

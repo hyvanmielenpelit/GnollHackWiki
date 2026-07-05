@@ -1,6 +1,6 @@
 # Tourist Quest
 
-> 👉 **The Tourist Quest is a branch of [[/Dungeon/The Quest]] specifically designed for the Tourist role.**
+> 👉 **The Tourist Quest is a branch of [[/Dungeon/Quest]] specifically designed for the Tourist role.**
 
 ## 🌍 Overview
 
