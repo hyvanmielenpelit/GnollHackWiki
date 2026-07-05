@@ -10,15 +10,17 @@ Shops are very common special rooms and can be generated randomly in the [[/Dung
 
 There are many different types of shops, each specializing in different types of items, though some are general stores that sell a bit of everything:
 
-- Armor shop
-- Scroll shop
-- Potion shop
-- Weapon shop
-- Food shop
-- Ring shop
-- Wand shop
-- Tool shop
-- Book shop
-- Candle shop
-- [[/Rooms/Reagent shop]]
-- Health food stores
+- [[/Rooms/Shops/General store]]
+- [[/Rooms/Shops/Used armor dealership]]
+- [[/Rooms/Shops/Second-hand bookstore]]
+- [[/Rooms/Shops/Liquor emporium]]
+- [[/Rooms/Shops/Antique weapons outlet]]
+- [[/Rooms/Shops/Delicatessen]]
+- [[/Rooms/Shops/Jewelers]]
+- [[/Rooms/Shops/Quality apparel and accessories]]
+- [[/Rooms/Shops/Hardware store]]
+- [[/Rooms/Shops/Rare books]]
+- [[/Rooms/Shops/Lighting store]]
+- [[/Rooms/Shops/Quality reagents and components]]
+- [[/Rooms/Shops/Health food store]]
+- [[/Rooms/Shops/Deserted shop]]
