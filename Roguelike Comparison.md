@@ -1,6 +1,6 @@
-## Overview
+> 👉 **This page provides a comparison between NetHack, GnollHack, Pathos, and Shattered Pixel Dungeon, highlighting their features, target audiences, and user interfaces.**
 
-This page contains a comparison of:
+## Overview
 
 | Game | Description | Audience |
 |------|-------------|----------|
