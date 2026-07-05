@@ -51,8 +51,8 @@
 ## 🗺️ Dungeon
 
 - [[Dungeon Layout]] — The layout of the dungeon, including branches and special levels.
+- [[Rooms]] — Details about various dungeon rooms.
 - [[Fountains]] — Learn about new fountain types in GnollHack.
-- [[New Rooms]] — New dungeon rooms in GnollHack.
 
 ## ⛪ Religion
 
