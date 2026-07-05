@@ -2,7 +2,7 @@
 
 ## ℹ️ Description
 
-A Beehive is a highly specialized room containing only [[killer bees|/Monsters/Killer bee]], the occasional [[queen bee|/Monsters/Queen bee]], and multiple [[lumps of royal jelly|/Items/Lump of royal jelly]] on the floor. Beehives are notoriously dangerous for early-game characters due to the bees' speed, swarming behavior, and poisonous stingers.
+A Beehive is a highly specialized room containing only [[killer bees|/Monsters/Killer bee]], the occasional [[queen bee|/Monsters/Queen bee]], and multiple [[lumps of royal jelly|/Items/Lump of royal jelly]] on the floor.
 
 ## 🗺️ Generation
 

@@ -2,7 +2,7 @@
 
 ## ℹ️ Description
 
-A Garden is a unique GnollHack-specific special room designed as an indoor courtyard or arboretum. It is filled with trees and herbs, providing a natural respite from the dark dungeon. The garden is tended by [[garden gnomes|/Monsters/Gnome]], who can sometimes be found posing as statues.
+A Garden is a unique GnollHack-specific special room designed as an indoor courtyard or arboretum. It is filled with trees and herbs, providing a natural respite from the dark dungeon. The garden is tended by [[garden gnomes|/Monsters/Gnome]], who can be found posing as statues.
 
 ## 🗺️ Generation
 

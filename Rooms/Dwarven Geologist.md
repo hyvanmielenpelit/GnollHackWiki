@@ -2,7 +2,7 @@
 
 ## ℹ️ Description
 
-A Dwarven Geologist room is a GnollHack-specific NPC room. It serves as the study or workspace for a [[Dwarven Geologist|/Monsters/Dwarven geologist]], an NPC who specializes in gems, stones, and earth sciences.
+A Dwarven Geologist room is a GnollHack-specific NPC room. It serves as the study or workspace for a [[Dwarven Geologist|/Monsters/Dwarven geologist]], an NPC who specializes in gems and stones.
 
 ## 🗺️ Generation
 

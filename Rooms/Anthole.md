@@ -2,7 +2,7 @@
 
 ## ℹ️ Description
 
-An Anthole is a swarming special room completely filled with insectoid monsters, primarily focusing on different types of ants (like [[giant ants|/Monsters/Giant ant]], [[soldier ants|/Monsters/Soldier ant]], and [[fire ants|/Monsters/Fire ant]]). The sheer number and speed of the ants can easily overwhelm an unprepared character.
+An Anthole is a swarming special room completely filled with insectoid monsters, primarily focusing on different types of ants (like [[giant ants|/Monsters/Giant ant]], [[soldier ants|/Monsters/Soldier ant]], and [[fire ants|/Monsters/Fire ant]]).
 
 ## 🗺️ Generation
 

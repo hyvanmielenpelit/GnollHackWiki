@@ -2,7 +2,7 @@
 
 ## ℹ️ Description
 
-A Cockatrice Nest is arguably one of the most dangerous special rooms in the game. It is filled with creatures from the cockatrice family, including [[cockatrices|/Monsters/Cockatrice]], [[chickatrices|/Monsters/Chickatrice]], and [[pyrolisks|/Monsters/Pyrolisk]]. The extreme danger comes from the fact that touching a [[cockatrice|/Monsters/Cockatrice]] or [[chickatrice|/Monsters/Chickatrice]] with bare skin, or being attacked by one, can instantly turn you to stone.
+A Cockatrice Nest is arguably one of the most dangerous special rooms in the game. It is filled with creatures from the cockatrice family, including [[cockatrices|/Monsters/Cockatrice]], [[chickatrices|/Monsters/Chickatrice]], and [[pyrolisks|/Monsters/Pyrolisk]]. The extreme danger comes from the fact that touching a [[cockatrice|/Monsters/Cockatrice]] or [[chickatrice|/Monsters/Chickatrice]] with bare skin, or being attacked by one, can turn you to stone.
 
 ## 🗺️ Generation
 
