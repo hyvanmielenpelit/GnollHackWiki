@@ -6,7 +6,7 @@ Branches are multi-level sub-dungeons that diverge from the main path. They ofte
 
 ## ⚔️ The Dungeons of Doom
 
-**[[/Dungeon/Dungeons of Doom]]** is the primary trunk of the game, spanning 24 to 25 levels.
+**[[/Dungeon/Dungeons of Doom]]** — The primary dungeon of the game, spanning 24 to 25 levels.
 
 ### 🔀 Dungeon Branches
 
