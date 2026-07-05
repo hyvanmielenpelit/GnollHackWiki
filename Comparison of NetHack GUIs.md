@@ -1,8 +1,12 @@
-This is a comparison of the following graphical user interfaces for NetHack:
+> 👉 **This page compares different graphical user interfaces for NetHack, including the official Windows GUI, NetHack 3D, and GnollHack.**
 
-- [NetHack Windows GUI](https://nethack.org/)
-- [NetHack 3D by JamesIV4](https://github.com/JamesIV4/nethack-3d)
-- [GnollHack](https://gnollhack.com/)
+## Overview
+
+| GUI | Description |
+|---|---|
+| [NetHack Windows GUI](https://nethack.org/) | The official graphical interface for Windows that comes with standard NetHack. It offers a classic 2D tile-based experience. |
+| [NetHack 3D by JamesIV4](https://github.com/JamesIV4/nethack-3d) | A third-party graphical interface that renders the game in a 3D environment with a top-down or first-person perspective. |
+| [GnollHack](https://gnollhack.com/) | A modern NetHack variant and client featuring a highly advanced interface with high-resolution graphics, animations, and sound. |
 
 ## Feature Comparison
 
