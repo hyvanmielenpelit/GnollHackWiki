@@ -29,7 +29,7 @@ _Default: 60_
 
 ### Screen Scale
 
-Custom scale to make UI componenets larger or smaller than normal.
+Custom scale to make UI components larger or smaller than normal.
 
 _Default: 100%_
 
@@ -505,7 +505,7 @@ Determines if streaming sound banks are loaded to memory.
 Determines if streaming banks are copied to the disk.
 
 - **Off:** Streaming sound banks are streamed from inside the AAB file (or wherever it is unpacked). This uses less storage space. _(Default)_
-- **On:** Streaming sound banks are copied to the storage and streamed from there. This uses consideraebly more storage space, since streaming banks are large in size.
+- **On:** Streaming sound banks are copied to the storage and streamed from there. This uses considerably more storage space, since streaming banks are large in size.
 
 ### Longer Message History
 
