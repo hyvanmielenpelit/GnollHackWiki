@@ -10,6 +10,6 @@ One of the two towers contains a magic portal that transports you directly to th
 
 ## ℹ️ Characteristics
 
-Both towers share the exact same physical characteristics and inhabitants:
+Both towers share the exact same physical characteristics:
 
 - **Layout:** A very small room surrounded by a moat and solid rock walls. 
