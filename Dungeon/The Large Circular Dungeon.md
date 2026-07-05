@@ -4,7 +4,7 @@
 
 It features unique mechanics and dangerous futuristic enemies.
 
-## ⚛️ Characteristics
+## ℹ️ Characteristics
 
 - **Levels:** Consists of two levels: the Quantum Tunnel (level 1) and the Quantum Core (level 2).
 - **Layout:** The dungeon is highly structured and heavily utilizes circular motifs, contrasting sharply with the medieval fantasy setting of the rest of the game.

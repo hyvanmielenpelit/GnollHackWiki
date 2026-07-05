@@ -4,7 +4,7 @@
 
 It consists of 4 levels, each presenting a room filled with [[boulders|/Items/Boulder]] and pits.
 
-## 🧩 Characteristics
+## ℹ️ Characteristics
 - **Layout:** Fixed puzzle layouts where the player must push [[boulders|/Items/Boulder]] into pits to create a path forward.
 - **Restrictions:** 
   - You cannot dig through walls or floors.

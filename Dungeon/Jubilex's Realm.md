@@ -4,7 +4,7 @@
 
 Found within the sprawling mazes of the underworld, [[/Monsters/Jubilex]]'s Realm is a unique special level that contrasts with the fiery theme of the rest of Gehennom.
 
-## 🐸 Characteristics
+## ℹ️ Characteristics
 - **Layout:** A swampy, unlit lair filled with pools of water and acidic sludge.
 - **Inhabitants:** Oozes, jellies, and puddings.
 - **Flora:** The level is uniquely dotted with various types of edible and poisonous mushrooms and berries, as well as buried mandrake roots.

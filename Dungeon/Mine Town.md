@@ -5,7 +5,7 @@
 Mine Town is a guaranteed special level. 
 *Message: You know you have entered Mine Town if you hear the sound of a cash register, or the presence of [[town watchmen|/Monsters/Watchman]].*
 
-## 🏘️ Characteristics
+## ℹ️ Characteristics
 - **Layout:** A large open cavern containing several enclosed buildings with wooden doors. The town is fully lit, and there are 7 different map variants (including "Frontier Town", "Bazaar", and others).
 - **Inhabitants:** Usually heavily patrolled by peaceful [[town watchmen|/Monsters/Watchman]] and a [[/Monsters/Watch captain]]. The cavern surrounding the town is filled with standard Mines enemies ([[gnomes|/Monsters/Gnome]] and [[dwarves|/Monsters/Dwarf]]).
 - **Amenities:** 

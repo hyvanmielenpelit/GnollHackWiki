@@ -2,7 +2,7 @@
 
 **Location:** Dis is located exactly on level 2 of [[/Dungeon/Gehennom]].
 
-## 🏰 Characteristics
+## ℹ️ Characteristics
 
 Dis is explicitly known as "A hellish castle". Unlike the standard mazes of Gehennom, Dis features a fixed layout representing a heavily fortified demonic stronghold.
 

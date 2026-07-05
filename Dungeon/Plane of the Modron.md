@@ -4,7 +4,7 @@
 
 The Plane of the Modron introduces a highly structured, mechanical environment.
 
-## ⚙️ Characteristics
+## ℹ️ Characteristics
 
 - **Layout:** The plane consists of 5 rigidly geometric levels. Progression requires solving lock puzzles using specialized `magic keys` and `geometric keys` dropped by high-ranking Modrons. The walls are often decorated with spherical or triangular modron plaques.
 - **Inhabitants:** Populated by Modrons—mechanical, geometric beings of pure law and order. The hierarchy scales with each level, starting from monodrones and quintons on the first level up to the most powerful forms at the bottom.

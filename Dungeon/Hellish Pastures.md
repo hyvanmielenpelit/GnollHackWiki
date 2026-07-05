@@ -4,7 +4,7 @@
 
 Hellish Pastures (also known as the cow level) introduces a highly dangerous but rewarding diversion.
 
-## 🐄 Characteristics
+## ℹ️ Characteristics
 
 - **Layout:** An open hellish pasture.
 - **Inhabitants:** The level is swarming with [[hell bovines|/Monsters/Hell bovine]], [[minotaurs|/Monsters/Minotaur]], [[bison|/Monsters/Bison]], and other cow-like monstrosities. 

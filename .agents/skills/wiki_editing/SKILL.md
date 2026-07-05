@@ -112,6 +112,7 @@ When editing or creating headings for pages, always use appropriate Unicode icon
 - **Dungeon Exploration & Gameplay**:
   - Dungeon Branches / Paths (General): `🔀` or `🗺️` or `🧭`
   - Special Levels: `🚩`
+  - Characteristics: `ℹ️`
   - Gnomish Mines: `⛏️`
   - Sokoban / Puzzles: `🧩`
   - Portals / The Quest: `🌀`

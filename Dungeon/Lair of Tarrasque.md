@@ -4,7 +4,7 @@
 
 This lair houses one of the most fearsome monsters in the game: the legendary [[/Monsters/Tarrasque]].
 
-## 🦖 Characteristics
+## ℹ️ Characteristics
 - **Layout:** A massive, unlit cavern that uses the cavernous Gehennom tileset. The area is littered with bones, human skulls, pinches of sulfurous ash, death cap mushrooms, and fresh corpses.
 - **Inhabitants:** Besides the Tarrasque, the cavern is guarded by major demons including a [[balor|/Monsters/Balor]], [[marilith|/Monsters/Marilith]], [[nalfeshnee|/Monsters/Nalfeshnee]], and [[glabrezu|/Monsters/Glabrezu]], along with numerous lesser demons like [[manes|/Monsters/Manes]], [[hell hounds|/Monsters/Hell hound]], and [[hell bats|/Monsters/Hell bat]].
 

@@ -12,7 +12,7 @@ To step through the portal and enter the Quest, you must meet three strict condi
 2. **Alignment:** Your alignment record must be non-negative. You must still follow your original alignment and must not have converted to a different one.
 3. **Approval:** You must visit your Quest Leader on the Home level and receive their blessing.
 
-## 🌍 Characteristics
+## ℹ️ Characteristics
 
 The Quest consists of 5 or 6 levels, entirely tailored to your character's class. 
 - **Home Level:** The starting point, featuring your Quest Leader, friendly guards, and usually a temple.

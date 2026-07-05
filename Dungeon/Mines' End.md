@@ -4,7 +4,7 @@
 
 Once you reach it, there are no stairs leading further down.
 
-## ⛏️ Characteristics
+## ℹ️ Characteristics
 - **Layout:** Mines' End comes in exactly 3 different variants: the Wine Cellar, the Catacombs (also known as the Vampire level), and the Mimic level. 
 - **Inhabitants:** The level is heavily guarded by powerful monsters relative to the early game, including mind flayers, [[vampires|/Monsters/Vampire]], or large numbers of mimics depending on the variant.
 - **Traps:** Often heavily trapped, particularly with polymorph traps.

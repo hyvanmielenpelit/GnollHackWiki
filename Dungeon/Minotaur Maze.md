@@ -4,7 +4,7 @@
 
 Situated just above the [[/Dungeon/Underground Castle]], the Minotaur Maze is designed to drain the player's resources before the mid-game finale.
 
-## 🐂 Characteristics
+## ℹ️ Characteristics
 - **Layout:** A dense, sprawling maze with no standard rooms. The walls are solid rock. Hidden within the maze are two specific structures: the Minotaur's Lair and a locked NPC room.
 - **Inhabitants:** As the name suggests, the level contains a [[/Monsters/minotaur]].
 

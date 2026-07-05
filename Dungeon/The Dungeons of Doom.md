@@ -4,7 +4,7 @@
 
 It extends from the surface all the way down to the [[/Dungeon/Underground Castle]]. It is the standard area where players spend the beginning and middle portions of the game before descending into [[/Dungeon/Gehennom]].
 
-## ⚔️ Characteristics
+## ℹ️ Characteristics
 - **Layout:** Varies heavily. Most levels are standard "room and corridor" generation, though occasionally you will find maze-like levels, swamp levels, or heavily forested areas.
 - **Lighting:** Upper levels are typically fully lit, but as you descend below level 10, unlit rooms become increasingly common.
 - **Stairs:** There is exactly one upstairs leading toward the surface and one downstairs leading deeper, except on levels where other branches attach.

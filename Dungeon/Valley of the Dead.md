@@ -4,7 +4,7 @@
 
 Located immediately below the [[/Dungeon/Underground Castle]], you cannot enter Gehennom without passing through it.
 
-## 💀 Characteristics
+## ℹ️ Characteristics
 
 - **Layout:** A massive, open valley filled with dozens of graves, three distinct morgues, and a central temple dedicated to Moloch.
 - **Inhabitants:** The valley is swarming with undead: [[liches|/Monsters/Lich]], [[vampires|/Monsters/Vampire]], [[ghosts|/Monsters/Ghost]], wraiths, and zombies. In GnollHack, a fearsome [[/Monsters/dracolich]] also makes its lair here.

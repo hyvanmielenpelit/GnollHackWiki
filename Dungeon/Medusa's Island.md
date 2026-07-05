@@ -5,7 +5,7 @@
 [[/Monsters/Medusa]]'s Island is a guaranteed encounter. 
 *Message upon entering the level: "You hear the splashing of a naiad."*
 
-## 🏝️ Characteristics
+## ℹ️ Characteristics
 - **Layout:** The level has four distinct map variants:
   - **Variant 1 & 2:** A small starting island and a larger main island across a body of water.
   - **Variant 3:** A sprawling archipelago of tiny islands covered in trees and swarming with ravens.

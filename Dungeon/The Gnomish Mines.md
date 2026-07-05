@@ -4,13 +4,13 @@
 
 It extends downward, culminating in [[/Dungeon/Mines' End]].
 
-## ⛏️ Characteristics
+## ℹ️ Characteristics
 
 - **Layout:** Irregular cavernous open spaces, rather than standard rooms and corridors. This makes it difficult to funnel enemies into chokepoints.
 - **Lighting:** May be lighted or dark.
 - **Inhabitants:** [[Gnomes|/Monsters/Gnome]] and [[dwarves|/Monsters/Dwarf]].
 
-## 🗺️ Special Levels
+## 🚩 Special Levels
 
 - **[[/Dungeon/Mine Town]]**: A guaranteed mid-point level featuring a temple with an [[aligned priest|/Monsters/Aligned priest]], a lighting store, a general store, and heavily armed watchmen.
 - **[[/Dungeon/The Large Circular Dungeon]]**: The portal to this challenging branch is found 1 or 2 levels *below* the [[/Dungeon/Mine Town]].
