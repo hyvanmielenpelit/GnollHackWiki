@@ -69,7 +69,7 @@ Branches are multi-level sub-dungeons that diverge from the main path. They ofte
 | **[[/Dungeon/Yeenaghu's Domain]]** | 10–18 | The realm of the demon lord of gnolls. New in GnollHack. |
 | **[[/Dungeon/Moloch's Sanctum]]** | 18–20 | The lowest level of Gehennom, housing the [[/Items/Amulet of Yendor]] and the [[/Monsters/High Priest]] of Moloch. |
 
-## 🗺️ Dungeon Placement Dependencies
+## 🔗 Dungeon Placement Dependencies
 
 In GnollHack, the exact levels where many branches and special levels appear are not entirely random. Instead, their locations are dynamically calculated relative to the placement of other key locations. This creates a chain of dependencies that guarantees a logical flow to the dungeon.
 
