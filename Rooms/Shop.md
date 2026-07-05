@@ -21,9 +21,3 @@ There are many different types of shops, each specializing in different types of
 - Candle shops
 - [[/Rooms/Reagent Shop|Reagent shops]]
 - Health food stores
-
-## 🏆 Strategy
-
-- **Price ID:** You can identify items by dropping them in a shop and seeing how much the shopkeeper offers for them, or by checking the price of items on the floor. This is a crucial early game strategy for identifying valuable items like scrolls and potions without using them.
-- **Pets:** Pets can safely pick up unpaid items in a shop and bring them outside without angering the shopkeeper. This is a powerful, though sometimes tedious, way to acquire items when you are low on gold.
-- **Angering the Shopkeeper:** Shopkeepers are incredibly dangerous. Never attack them or steal from them unless you are extremely well-prepared. An angry shopkeeper will relentlessly hunt you down.

@@ -2,7 +2,7 @@
 
 ## ℹ️ Description
 
-A Dragon Lair is a highly dangerous but extremely rewarding GnollHack-specific special room. The room serves as the nesting ground for dragons of a specific color, containing adult dragons, their hatchlings, or even an ancient dragon. The floor is often littered with gems and dragon fruit.
+A Dragon Lair is a highly dangerous but extremely rewarding GnollHack-specific special room. The room serves as the nesting ground for dragons of a specific color, containing adult dragons, their hatchlings, or even an ancient dragon. The floor is often littered with gems and [[dragon fruit|/Items/Dragon fruit]].
 
 ## 🗺️ Generation
 
@@ -10,10 +10,4 @@ Dragon Lairs can be generated randomly as a special room. The lair is populated 
 - One extremely powerful Ancient Dragon.
 - 1 to 2 Adult Dragons alongside 1 to 5 Hatchlings.
 
-The room also generates a vast amount of treasure. Ancient dragons hoard 5 to 10 gems and 1 to 6 other items. Adult dragons guard 0 to 5 gems and up to 3 items, while hatchlings have 0 to 2 gems. Dragon fruit can also be found growing in the lair.
-
-## 🏆 Strategy
-
-- **Preparation:** A dragon lair is a late-game challenge. You must have reflection or the appropriate elemental resistance matching the dragons' color before attempting to clear the room, as their breath weapons can easily instantly kill you.
-- **Isolating Enemies:** Do not fight multiple dragons at once in the open. Retreat to a corridor and fight them one by one.
-- **Looting:** The primary reward for clearing a dragon lair is the massive hoard of gems (including true gems), which can be sold for an immense amount of gold or kept for a high final score. The dragon scales and dragon fruit are also highly valuable.
+The room also generates a vast amount of treasure. Ancient dragons hoard 5 to 10 gems and 1 to 6 other items. Adult dragons guard 0 to 5 gems and up to 3 items, while hatchlings have 0 to 2 gems. [[Dragon fruit|/Items/Dragon fruit]] can also be found growing in the lair.
