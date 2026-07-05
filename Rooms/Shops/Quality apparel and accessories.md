@@ -2,7 +2,7 @@
  
 ## ℹ️ Description
  
-A Quality apparel and accessories shop is a specialized [[/Rooms/shop]] that offers magical evocables and specialized clothing. The [[/Monsters/shopkeeper]] mostly sells wands (70%) and miscellaneous tools (15%), alongside a specific selection of apparel such as leather gloves, elven cloaks, and various magical robes (e.g., wizard's robe, robe of protection, gloves of spell casting).
+A Quality apparel and accessories shop is a specialized [[/Rooms/shop]] that offers magical evocables and specialized clothing. The [[/Monsters/shopkeeper]] mostly sells wands (70%) and miscellaneous tools (15%), alongside a specific selection of apparel such as [[leather gloves|/Items/Leather gloves]], [[elven cloaks|/Items/Elven cloak]], and various magical robes (e.g., [[wizard's robe|/Items/Wizard's robe]], [[robe of protection|/Items/Robe of protection]], [[gloves of spell casting|/Items/Gloves of spell casting]]).
  
 ## 🗺️ Generation
  

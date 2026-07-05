@@ -2,7 +2,7 @@
  
 ## ℹ️ Description
  
-A Second-hand bookstore is a specialized [[/Rooms/shop]] that focuses on magical parchment. The [[/Monsters/shopkeeper]] primarily offers a wide assortment of scrolls (about 85% of the inventory), along with a smaller selection of spellbooks (10%) and the occasional bookshelf (5%).
+A Second-hand bookstore is a specialized [[/Rooms/shop]] that focuses on magical parchment. The [[/Monsters/shopkeeper]] primarily offers a wide assortment of scrolls (about 85% of the inventory), along with a smaller selection of spellbooks (10%) and the occasional [[/Items/bookshelf]] (5%).
  
 ## 🗺️ Generation
  

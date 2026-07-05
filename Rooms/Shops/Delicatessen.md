@@ -2,7 +2,7 @@
  
 ## ℹ️ Description
  
-A Delicatessen is a specialized [[/Rooms/shop]] that focuses on keeping adventurers fed. The [[/Monsters/shopkeeper]] stocks mostly food items (80%), along with a few beverages like fruit juice and water, a handful of potions (2%), and occasionally utility items like an ice box or a bag of the glutton.
+A Delicatessen is a specialized [[/Rooms/shop]] that focuses on keeping adventurers fed. The [[/Monsters/shopkeeper]] stocks mostly food items (80%), along with a few beverages like [[fruit juice|/Items/Potion of fruit juice]] and [[water|/Items/Potion of water]], a handful of potions (2%), and occasionally utility items like an [[ice box|/Items/Ice box]] or a [[bag of the glutton|/Items/Bag of the glutton]].
  
 ## 🗺️ Generation
  
