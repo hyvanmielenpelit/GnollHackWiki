@@ -13,4 +13,4 @@ Orcus Town is the only recognizable "town" in the underworld.
 
 - [[/Monsters/Orcus]] spawns with the artifact **[[/Artifacts/Wand of Orcus]]**. 
 - He holds an ornamental key to a trapped, locked chest containing a massive amount of gold and high-quality loot (including a chance for an artifact).
-- He can also summon throngs of undead and cast powerful spells.
+- He possesses a poisonous sting, can cast powerful spells, and can summon throngs of undead and other demons.

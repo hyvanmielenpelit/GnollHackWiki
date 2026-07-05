@@ -10,4 +10,4 @@ Yeenaghu's Domain is a unique special level that serves as a thematic cornerston
 
 ## 🐺 [[/Monsters/Yeenaghu]]
 
-The Demon Lord of Gnolls resides in the stronghold. He is a brutal melee combatant who attacks with relentless ferocity. Defeating him yields a special ornamental key.
+The Demon Lord of Gnolls resides in the stronghold. He is highly dangerous, capable of paralyzing and confusing attacks, shooting magic missiles, and summoning ghouls, gnolls, and other demons.

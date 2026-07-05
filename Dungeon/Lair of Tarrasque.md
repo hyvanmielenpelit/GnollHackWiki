@@ -9,4 +9,4 @@ This lair houses one of the most fearsome monsters in the game: the legendary [[
 - **Inhabitants:** Besides the Tarrasque, the cavern is guarded by major demons including a [[balor|/Monsters/Balor]], [[marilith|/Monsters/Marilith]], [[nalfeshnee|/Monsters/Nalfeshnee]], and [[glabrezu|/Monsters/Glabrezu]], along with numerous lesser demons like [[manes|/Monsters/Manes]], [[hell hounds|/Monsters/Hell hound]], and [[hell bats|/Monsters/Hell bat]].
 
 ## 🦖 The [[/Monsters/Tarrasque]]
-An ancient, nearly indestructible behemoth. It hits with devastating physical attacks, resists most forms of magic, and regenerates health at an alarming rate.
+An ancient, nearly indestructible behemoth. It possesses a reflecting carapace, attacks with teeth as sharp as a sword of sharpness, resists most forms of magic, regenerates health at an alarming rate, and has the terrifying ability to revive from the dead.
