@@ -1,4 +1,4 @@
-> 👉 **Rooms are a the main feature of the Dungeons of Doom. This page lists the various room types that can appear in GnollHack.**
+> 👉 **Rooms are the main feature of the Dungeons of Doom. This page lists the various room types that can appear in GnollHack.**
 
 ## Standard Room
 
