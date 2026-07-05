@@ -84,7 +84,7 @@ They can be resisted as follows:
 - **Cancellation attacks against a player**, such as the gaze attack of a gazer, bypass magic resistance and have a 100% chance to work.
 
 Additionally, it is good to remember the following things about cancellation:
-- If you zap a [[/Items/wand of cancellation]] or cast a *cancellation spell* at yourself or at items, it will set items' beautitude to Uncursed, set the enchantment to +0, make most potions into water, blank scrolls and spellbooks, and set items' charges to 0.
+- If you zap a [[/Items/wand of cancellation]] or cast a *cancellation spell* at yourself or at items, it will set items' beatitude to Uncursed, set the enchantment to +0, make most potions into water, blank scrolls and spellbooks, and set items' charges to 0.
 - Putting a [[/Items/wand of cancellation]] into a [[/Items/bag of holding]] will destroy the bag.
 
 ### Polymorph and Magic Resistance

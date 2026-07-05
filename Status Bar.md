@@ -26,7 +26,7 @@
 - **v** / ![difficulty-veteran](/uploads/Status%20Bar/difficulty-veteran.webp) — [[/Difficulties/Veteran]]
 - **x** / ![difficulty-expert](/uploads/Status%20Bar/difficulty-expert.webp) — [[/Difficulties/Expert]]
 - **m** / ![difficulty-master](/uploads/Status%20Bar/difficulty-master.webp) — [[/Difficulties/Master]]
-- **g** / ![diffiuculty-grand-master](/uploads/Status%20Bar/diffiuculty-grand-master.webp) — [[/Difficulties/Grand Master]]
+- **g** / ![difficulty-grand-master](/uploads/Status%20Bar/difficulty-grand-master.webp) — [[/Difficulties/Grand Master]]
 
 ### Gameplay Mode
 

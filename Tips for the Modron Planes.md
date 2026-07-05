@@ -27,7 +27,7 @@ It is also possible to engage several hierarchical Modrons while a single [[/Ite
 
 ## 4. Use Wand of Cancellation
 
-[[/Items/Wand of cancellation]] works on all Modrons except Primus. You can use it to disable spell casting on all hierarcical modrons except Primus.
+[[/Items/Wand of cancellation]] works on all Modrons except Primus. You can use it to disable spell casting on all hierarchical modrons except Primus.
 
 ## 5. Use Potions of Greater/Lightning Speed and Potions of Heroism/Super Heroism
 
