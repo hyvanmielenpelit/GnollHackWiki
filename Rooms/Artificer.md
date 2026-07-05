@@ -2,7 +2,7 @@
 
 ## ℹ️ Description
 
-An Artificer room is a GnollHack-specific NPC room. It serves as the workshop for an Artificer, a non-player character skilled in magical engineering and crafting.
+An Artificer room is a GnollHack-specific NPC room. It serves as the workshop for an Artificer, a non-player character skilled in magical engineering and crafting. The Artificer is generated as a level 37 [[/Monsters/Archmage]].
 
 ## 🗺️ Generation
 

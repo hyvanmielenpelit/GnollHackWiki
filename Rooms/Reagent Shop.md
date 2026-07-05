@@ -1,8 +1,8 @@
-> 👉 **A Reagent Shop is a specialized store that sells alchemy reagents.**
+> 👉 **A Reagent Shop is a specialized store that primarily sells reagents and gems.**
 
 ## ℹ️ Description
 
-A Reagent Shop is a GnollHack-specific shop type. Unlike a general store or a potion shop, it specializes in selling ingredients used in [[alchemy|Alchemy]]. The shopkeeper offers a variety of raw materials that players can use to brew potions or craft items.
+A Reagent Shop is a GnollHack-specific shop type. Unlike a general store, it specializes in selling reagents (a unique GnollHack item class that includes things like [[cloves of garlic|/Items/Clove of garlic]], [[sprigs of wolfsbane|/Items/Sprig of wolfsbane]], [[bones|/Items/Bone]], and [[feathers|/Items/Feather]]) as well as gems. The [[/Monsters/shopkeeper]] offers a variety of these curiosities.
 
 ## 🗺️ Generation
 

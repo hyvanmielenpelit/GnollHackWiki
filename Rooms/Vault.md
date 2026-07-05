@@ -1,4 +1,4 @@
-> 👉 **A Vault is a small, hidden room completely filled with gold and guarded by a vault guard.**
+> 👉 **A Vault is a small, hidden room completely filled with gold and guarded by a [[vault guard|/Monsters/Guard]].**
 
 ## ℹ️ Description
 
