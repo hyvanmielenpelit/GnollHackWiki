@@ -110,7 +110,8 @@ When editing or creating headings for pages, always use appropriate Unicode icon
   - Neutral / Balance: `😐` or `☯️`
   - Chaotic / Chaos: `😈` or `🔥` or `🌀`
 - **Dungeon Exploration & Gameplay**:
-  - Dungeon Branches / Paths (General): `🗺️` or `🧭`
+  - Dungeon Branches / Paths (General): `🔀` or `🗺️` or `🧭`
+  - Special Levels: `🚩`
   - Gnomish Mines: `⛏️`
   - Sokoban / Puzzles: `🧩`
   - Portals / The Quest: `🌀`

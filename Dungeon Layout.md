@@ -8,7 +8,7 @@ Branches are multi-level sub-dungeons that diverge from the main path. They ofte
 
 **[[/Dungeon/The Dungeons of Doom]]** is the primary trunk of the game, spanning 24 to 25 levels.
 
-### 🌿 Dungeon Branches
+### 🔀 Dungeon Branches
 
 | Branch | Level Range | Description |
 | :----- | :---------: | :---------- |
@@ -19,7 +19,7 @@ Branches are multi-level sub-dungeons that diverge from the main path. They ofte
 | **[[/Dungeon/Gehennom]]** | 24–25 | The fiery underworld. It is the second major half of the game, filled with demons. |
 | **[[/Dungeon/The Elemental Planes]]** | 1 | Accessed by ascending the staircase up on the dungeon level 1 after acquiring the [[/Items/Amulet of Yendor]]. It leads to the endgame featuring the Planes of Earth, Air, Fire, Water, and the Astral Plane. |
 
-### 📍 Special Levels
+### 🚩 Special Levels
 
 | Special Level | Level Range | Description |
 | :------------ | :---------: | :---------- |
@@ -32,13 +32,13 @@ Branches are multi-level sub-dungeons that diverge from the main path. They ofte
 
 ## ⛏️ The Gnomish Mines
 
-### 🌿 Dungeon Branches
+### 🔀 Dungeon Branches
 
 | Branch | Level Range | Description |
 | :----- | :---------: | :---------- |
 | **[[/Dungeon/The Large Circular Dungeon]]** | 4–6 | A high-tech dungeon involving quantum mechanics, accessible via a portal located below the [[/Dungeon/Mine Town]]. New in GnollHack. |
 
-### 📍 Special Levels
+### 🚩 Special Levels
 
 | Special Level | Level Range | Description |
 | :------------ | :---------: | :---------- |
@@ -47,7 +47,7 @@ Branches are multi-level sub-dungeons that diverge from the main path. They ofte
 
 ## 🔥 Gehennom
 
-### 🌿 Dungeon Branches
+### 🔀 Dungeon Branches
 
 | Branch | Level Range | Description |
 | :----- | :---------: | :---------- |
@@ -55,7 +55,7 @@ Branches are multi-level sub-dungeons that diverge from the main path. They ofte
 | **[[/Dungeon/Hellish Pastures]]** | 8–13 | A hidden cow level filled with demonic bovines. New in GnollHack. |
 | **[[/Dungeon/Vlad's Tower]]** | 9–13 | A dark, undead-filled tower containing the [[/Artifacts/Candelabrum of Invocation]]. |
 
-### 📍 Special Levels
+### 🚩 Special Levels
 
 | Special Level | Level Range | Description |
 | :------------ | :---------: | :---------- |
