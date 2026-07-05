@@ -6,7 +6,7 @@ Orcus Town is the only recognizable "town" in the underworld.
 
 ## ℹ️ Characteristics
 - **Layout:** Uses the undead tileset with cobblestone walkways. The level features ruined buildings (with boulders marking collapsed walls), an unaligned Temple to Moloch, a morgue, and abandoned shops. It is littered with coffins and sarcophagi.
-- **Inhabitants:** Instead of peaceful watchmen and [[shopkeepers|/Monsters/Shopkeeper]], the town is filled with undead (like [[shades|/Monsters/Shade]], and vampires, demons, and the powerful demon lord [[/Monsters/Orcus]].
+- **Inhabitants:** Instead of peaceful watchmen and [[shopkeepers|/Monsters/Shopkeeper]], the town is filled with undead (like [[shades|/Monsters/Shade]], vampires, demons, and the powerful demon lord [[/Monsters/Orcus]]).
 - **Amenities:** There are two NPC rooms where you can find an artificer (along with a [[magic chest|/Items/Magic chest]]) and a geologist.
 
 ## 🐐 [[/Monsters/Orcus]]

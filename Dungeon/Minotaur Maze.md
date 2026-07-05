@@ -10,7 +10,7 @@ Situated just above the [[/Dungeon/Underground Castle]], the Minotaur Maze is de
 
 ## 🗝️ The Minotaur's Lair
 
-On the left side of the maze is the Minotaur's Lair, housing a trapped and locked chest, whic contains a large amount of gold, a chance for an artifact, and a crucial [[magic key|/Items/Magic key]].
+On the left side of the maze is the Minotaur's Lair, housing a trapped and locked chest, which contains a large amount of gold, a chance for an artifact, and a crucial [[magic key|/Items/Magic key]].
 
 ## ⛏️ The Geologist
 

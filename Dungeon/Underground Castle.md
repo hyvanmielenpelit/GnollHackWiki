@@ -14,7 +14,7 @@ The Underground Castle is the major mid-game milestone.
 
 ## 🚪 Entrance
 
-The moat is filled with dangerous aquatic monsters. The safest way into the castle is through the drawbridge or levitating to the back entrace.
+The moat is filled with dangerous aquatic monsters. The safest way into the castle is through the drawbridge or levitating to the back entrance.
 
 ### 🌉 The Drawbridge
 
