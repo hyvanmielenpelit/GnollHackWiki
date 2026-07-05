@@ -4,6 +4,8 @@ The dungeon in GnollHack consists of a main sequence of levels known as the [[/D
 
 Branches are multi-level sub-dungeons that diverge from the main path. They often feature unique tilesets, specific enemy types, and special rules. Special levels are distinct, single levels that appear within the branches above. They usually have a fixed layout or guaranteed features.
 
+The **level range** listed for each branch or special level indicates the possible dungeon levels (depths) within the parent branch where the entrance to the branch or the special level itself can appear. For example, a level range of 2–4 means it will generate on either level 2, 3, or 4 of its parent branch.
+
 ## ⚔️ The Dungeons of Doom
 
 **[[/Dungeon/Dungeons of Doom]]** — The primary dungeon of the game, spanning 24 to 25 levels.
