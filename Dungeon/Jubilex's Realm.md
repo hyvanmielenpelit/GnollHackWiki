@@ -4,12 +4,12 @@
 
 Found within the sprawling mazes of the underworld, [[/Monsters/Jubilex]]'s Realm is a unique special level that contrasts with the fiery theme of the rest of Gehennom.
 
-## Characteristics 🐸
+## 🐸 Characteristics
 - **Layout:** A swampy, unlit lair filled with pools of water and acidic sludge.
 - **Inhabitants:** Oozes, jellies, and puddings.
 - **Flora:** The level is uniquely dotted with various types of edible and poisonous mushrooms and berries, as well as buried mandrake roots.
 
-## [[/Monsters/Jubilex]] 😈
+## 😈 [[/Monsters/Jubilex]]
 [[/Monsters/Jubilex]] is the faceless lord of oozes. 
 - He does not summon demons.
 - He can engulf the player, causing massive damage and illness.

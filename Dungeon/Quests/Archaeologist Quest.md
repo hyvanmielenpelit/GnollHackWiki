@@ -2,7 +2,7 @@
 
 > 👉 **The Archaeologist Quest is a branch of [[/Dungeon/The Quest]] specifically designed for the Archaeologist role.**
 
-## Overview 🌍
+## 🌍 Overview
 
 The Quest branch for the Archaeologist consists of 5 or 6 levels. You must navigate through these levels to defeat your Nemesis and recover your role's quest artifact.
 
@@ -11,7 +11,7 @@ The Quest branch for the Archaeologist consists of 5 or 6 levels. You must navig
 - **Artifact:** [[/Artifacts/The Orb of Detection]]
 - **Common Enemies:** [[human mummies|/Monsters/Human mummy]]
 
-## Level Structure 🗺️
+## 🗺️ Level Structure
 
 The Quest is divided into several specific levels:
 

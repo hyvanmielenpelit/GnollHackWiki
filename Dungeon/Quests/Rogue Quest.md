@@ -2,7 +2,7 @@
 
 > 👉 **The Rogue Quest is a branch of [[/Dungeon/The Quest]] specifically designed for the Rogue role.**
 
-## Overview 🌍
+## 🌍 Overview
 
 The Quest branch for the Rogue consists of 5 or 6 levels. You must navigate through these levels to defeat your Nemesis and recover your role's quest artifact.
 
@@ -11,7 +11,7 @@ The Quest branch for the Rogue consists of 5 or 6 levels. You must navigate thro
 - **Artifact:** [[/Artifacts/The Master Key of Thievery]]
 - **Common Enemies:** [[leprechauns|/Monsters/Leprechaun]] and [[guardian nagas|/Monsters/Guardian naga]]
 
-## Level Structure 🗺️
+## 🗺️ Level Structure
 
 The Quest is divided into several specific levels:
 

@@ -4,7 +4,7 @@
 
 It consists of 4 levels, each presenting a room filled with [[boulders|/Items/Boulder]] and pits.
 
-## Characteristics
+## 🧩 Characteristics
 - **Layout:** Fixed puzzle layouts where the player must push [[boulders|/Items/Boulder]] into pits to create a path forward.
 - **Restrictions:** 
   - You cannot dig through walls or floors.
@@ -13,10 +13,10 @@ It consists of 4 levels, each presenting a room filled with [[boulders|/Items/Bo
   - Breaking [[boulders|/Items/Boulder]] or squeezing past them by shrinking is penalized.
 - **Monsters:** High density of randomly generated monsters, often including sleeping ones. Because of the strict no-teleport and no-digging rules, combat must be handled carefully.
 
-## The Puzzles
+## 🪨 The Puzzles
 Each level requires you to push [[boulders|/Items/Boulder]] one at a time into specific pits. Once a pit is filled, it becomes a safe floor tile. If a boulder gets stuck against a wall or another boulder, the puzzle may become unsolvable. 
 
-## Loot and Rewards
+## 🏆 Loot and Rewards
 The primary reason to complete Sokoban is the guaranteed reward at the very top (the 4th level). After solving the final puzzle and defeating the guardian monsters, you will find either:
 - A **[[/Items/bag of holding]]** (highly coveted for inventory management)
 - An **[[/Items/amulet of reflection]]** (crucial for surviving late-game spellcasters and dragons)

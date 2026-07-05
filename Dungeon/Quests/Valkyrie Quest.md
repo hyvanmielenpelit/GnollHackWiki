@@ -2,7 +2,7 @@
 
 > 👉 **The Valkyrie Quest is a branch of [[/Dungeon/The Quest]] specifically designed for the Valkyrie role.**
 
-## Overview 🌍
+## 🌍 Overview
 
 The Quest branch for the Valkyrie consists of 5 or 6 levels. You must navigate through these levels to defeat your Nemesis and recover your role's quest artifact.
 
@@ -11,7 +11,7 @@ The Quest branch for the Valkyrie consists of 5 or 6 levels. You must navigate t
 - **Artifact:** [[/Artifacts/The Orb of Fate]]
 - **Common Enemies:** [[fire ants|/Monsters/Fire ant]] and [[fire giants|/Monsters/Fire giant]]
 
-## Level Structure 🗺️
+## 🗺️ Level Structure
 
 The Quest is divided into several specific levels:
 

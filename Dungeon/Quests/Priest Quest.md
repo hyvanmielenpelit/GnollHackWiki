@@ -2,7 +2,7 @@
 
 > 👉 **The Priest Quest is a branch of [[/Dungeon/The Quest]] specifically designed for the Priest role.**
 
-## Overview 🌍
+## 🌍 Overview
 
 The Quest branch for the Priest consists of 5 or 6 levels. You must navigate through these levels to defeat your Nemesis and recover your role's quest artifact.
 
@@ -11,7 +11,7 @@ The Quest branch for the Priest consists of 5 or 6 levels. You must navigate thr
 - **Artifact:** [[/Artifacts/The Mitre of Holiness]]
 - **Common Enemies:** [[human zombies|/Monsters/Human zombie]] and [[wraiths|/Monsters/Wraith]]
 
-## Level Structure 🗺️
+## 🗺️ Level Structure
 
 The Quest is divided into several specific levels:
 

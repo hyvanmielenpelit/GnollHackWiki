@@ -2,7 +2,7 @@
 
 > 👉 **The Samurai Quest is a branch of [[/Dungeon/The Quest]] specifically designed for the Samurai role.**
 
-## Overview 🌍
+## 🌍 Overview
 
 The Quest branch for the Samurai consists of 5 or 6 levels. You must navigate through these levels to defeat your Nemesis and recover your role's quest artifact.
 
@@ -11,7 +11,7 @@ The Quest branch for the Samurai consists of 5 or 6 levels. You must navigate th
 - **Artifact:** [[/Artifacts/The Tsurugi of Muramasa]]
 - **Common Enemies:** [[wolves|/Monsters/Wolf]] and [[stalkers|/Monsters/Stalker]]
 
-## Level Structure 🗺️
+## 🗺️ Level Structure
 
 The Quest is divided into several specific levels:
 

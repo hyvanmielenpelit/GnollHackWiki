@@ -2,7 +2,7 @@
 
 **Location:** Dis is located exactly on level 2 of [[/Dungeon/Gehennom]].
 
-## Characteristics 🏰
+## 🏰 Characteristics
 
 Dis is explicitly known as "A hellish castle". Unlike the standard mazes of Gehennom, Dis features a fixed layout representing a heavily fortified demonic stronghold.
 
@@ -14,13 +14,13 @@ Dis is explicitly known as "A hellish castle". Unlike the standard mazes of Gehe
   - **Reagent Rooms:** Small and large storage rooms containing various gems and rocks.
 - **Traps:** The fortress is heavily trapped, featuring spiked pits, fire traps, sleep gas, anti-magic traps, and magic traps.
 
-## Inhabitants 👹
+## 👹 Inhabitants
 
 The fortress is heavily guarded by the denizens of hell:
 - Numerous devils patrol the level, including horned devils, pit fiends, and erinys.
 - Liches are also known to spawn within the castle walls.
 
-## [[/Monsters/Dispater]] 😈
+## 😈 [[/Monsters/Dispater]]
 
 [[/Monsters/Dispater]], the Archduke of Gehennom, is the level boss. He is a powerful arch-devil capable of casting spells and summoning other devils.
 

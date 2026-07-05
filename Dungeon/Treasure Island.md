@@ -4,7 +4,7 @@
 
 The Treasure Island offers great rewards for those capable of navigating its dangers.
 
-## Characteristics 🏝️
+## 🏝️ Characteristics
 
 - **Layout:** An island (or series of islands) surrounded by deep water. The central island holds a buried treasure chest marked by a classic "X" engraving.
 - **Inhabitants:** Defended by aquatic monsters, as well as specific guards like a sleeping [[roper|/Monsters/Roper]], several [[shriekers|/Monsters/Shrieker]], and an [[/Monsters/ochre jelly]].

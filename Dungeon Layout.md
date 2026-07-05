@@ -4,11 +4,11 @@ The dungeon in GnollHack consists of a main sequence of levels known as the [[/D
 
 Branches are multi-level sub-dungeons that diverge from the main path. They often feature unique tilesets, specific enemy types, and special rules. Special levels are distinct, single levels that appear within the branches above. They usually have a fixed layout or guaranteed features.
 
-## The Dungeons of Doom
+## ⚔️ The Dungeons of Doom
 
 **[[/Dungeon/The Dungeons of Doom]]** is the primary trunk of the game, spanning 24 to 25 levels.
 
-### Dungeon Branches
+### 🌿 Dungeon Branches
 
 | Branch | Level Range | Description |
 | :----- | :---------: | :---------- |
@@ -19,7 +19,7 @@ Branches are multi-level sub-dungeons that diverge from the main path. They ofte
 | **[[/Dungeon/Gehennom]]** | 24–25 | The fiery underworld. It is the second major half of the game, filled with demons. |
 | **[[/Dungeon/The Elemental Planes]]** | 1 | Accessed by ascending the staircase up on the dungeon level 1 after acquiring the [[/Items/Amulet of Yendor]]. It leads to the endgame featuring the Planes of Earth, Air, Fire, Water, and the Astral Plane. |
 
-### Special Levels
+### 📍 Special Levels
 
 | Special Level | Level Range | Description |
 | :------------ | :---------: | :---------- |
@@ -30,24 +30,24 @@ Branches are multi-level sub-dungeons that diverge from the main path. They ofte
 | **[[/Dungeon/Minotaur Maze]]** | 23–24 | A maze-like level with a [[/Monsters/minotaur]]. Redesigned in GnollHack. |
 | **[[/Dungeon/Underground Castle]]** | 24–25 | The heavily fortified gateway to Gehennom, containing a [[/Items/wand of wishing]]. |
 
-## The Gnomish Mines
+## ⛏️ The Gnomish Mines
 
-### Dungeon Branches
+### 🌿 Dungeon Branches
 
 | Branch | Level Range | Description |
 | :----- | :---------: | :---------- |
 | **[[/Dungeon/The Large Circular Dungeon]]** | 4–6 | A high-tech dungeon involving quantum mechanics, accessible via a portal located below the [[/Dungeon/Mine Town]]. New in GnollHack. |
 
-### Special Levels
+### 📍 Special Levels
 
 | Special Level | Level Range | Description |
 | :------------ | :---------: | :---------- |
 | **[[/Dungeon/Mine Town]]** | 3–4 | A bustling subterranean town with shops, a temple, and guards. |
 | **[[/Dungeon/Mines' End]]** | 8–9 | The deepest part of the mines, containing the [[/Artifacts/The Gladstone]]. |
 
-## Gehennom
+## 🔥 Gehennom
 
-### Dungeon Branches
+### 🌿 Dungeon Branches
 
 | Branch | Level Range | Description |
 | :----- | :---------: | :---------- |
@@ -55,7 +55,7 @@ Branches are multi-level sub-dungeons that diverge from the main path. They ofte
 | **[[/Dungeon/Hellish Pastures]]** | 8–13 | A hidden cow level filled with demonic bovines. New in GnollHack. |
 | **[[/Dungeon/Vlad's Tower]]** | 9–13 | A dark, undead-filled tower containing the [[/Artifacts/Candelabrum of Invocation]]. |
 
-### Special Levels
+### 📍 Special Levels
 
 | Special Level | Level Range | Description |
 | :------------ | :---------: | :---------- |
@@ -69,11 +69,11 @@ Branches are multi-level sub-dungeons that diverge from the main path. They ofte
 | **[[/Dungeon/Yeenaghu's Domain]]** | 10–18 | The realm of the demon lord of gnolls. New in GnollHack. |
 | **[[/Dungeon/Moloch's Sanctum]]** | 18–20 | The lowest level of Gehennom, housing the [[/Items/Amulet of Yendor]] and the [[/Monsters/High Priest]] of Moloch. |
 
-## Dungeon Placement Dependencies 🗺️
+## 🗺️ Dungeon Placement Dependencies
 
 In GnollHack, the exact levels where many branches and special levels appear are not entirely random. Instead, their locations are dynamically calculated relative to the placement of other key locations. This creates a chain of dependencies that guarantees a logical flow to the dungeon.
 
-### The Oracle as the Key Anchor 🔮
+### 🔮 The Oracle as the Key Anchor
 
 **[[/Dungeon/Delphi]]** (the Oracle's level) is one of the most critical anchor points in the early game. Its placement directly determines the locations of several other major features in the Dungeons of Doom:
 - **[[/Dungeon/Sokoban]]**: The stairs leading up to Sokoban are always generated exactly 1 level below Delphi.
@@ -82,13 +82,13 @@ In GnollHack, the exact levels where many branches and special levels appear are
 
 Because Delphi can appear anywhere from level 5 to 7, these connected locations will shift deeper or shallower in tandem with it.
 
-### Fixed-Range Placements 🏰
+### 🏰 Fixed-Range Placements
 
 Some notable features in the Dungeons of Doom do not depend on other anchor points, but are instead confined to their own fixed depth ranges:
 - **[[/Dungeon/Big Room]]**: Always generated between levels 10 and 12.
 - **[[/Dungeon/Fort Ludios]]**: The portal to this hidden fortress is always placed within a vault between levels 12 and 20.
 
-### The Bottom of the Main Dungeon 🧭
+### 🧭 The Bottom of the Main Dungeon
 
 The final levels of the Dungeons of Doom are anchored to the bottom of the branch, which spans 24 to 25 levels, creating a fixed sequence:
 - **[[/Dungeon/Underground Castle]]**: Always placed on the very last level of the Dungeons of Doom.
@@ -96,14 +96,14 @@ The final levels of the Dungeons of Doom are anchored to the bottom of the branc
 - **[[/Dungeon/Medusa's Island]]**: Always generated exactly 2 levels above the Underground Castle.
 - **[[/Dungeon/Gehennom]]**: The entrance to the underworld is directly connected to the Underground Castle. The first level of Gehennom ([[/Dungeon/Valley of the Dead]]) immediately follows the Castle.
 
-### The Gnomish Mines ⛏️
+### ⛏️ The Gnomish Mines
 
 The Gnomish Mines branch off early in the Dungeons of Doom (between levels 2 and 4). Within the mines themselves, locations are placed relative to the branch's own structure:
 - **[[/Dungeon/Mine Town]]**: Always generated on the 3rd or 4th level of the Gnomish Mines branch.
 - **[[/Dungeon/The Large Circular Dungeon]]**: The portal to this high-tech branch is anchored to **[[/Dungeon/Mine Town]]**. It will always be found exactly 1 or 2 levels deeper into the mines than Mine Town itself.
 - **[[/Dungeon/Mines' End]]**: Anchored to the very bottom, it is always placed on the final level of the Gnomish Mines (the branch spans 8 or 9 levels in total).
 
-### Gehennom 🔥
+### 🔥 Gehennom
 
 Locations in Gehennom are placed using a mix of absolute level ranges and relative positioning to the bottom. Gehennom spans between 18 and 20 levels in total:
 

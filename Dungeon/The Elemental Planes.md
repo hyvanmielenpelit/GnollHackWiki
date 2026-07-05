@@ -4,7 +4,7 @@
 
 After securing the Amulet of Yendor from [[/Dungeon/Moloch's Sanctum]] and performing the invocation, players must ascend back up through the dungeon to level 1 and take the staircase up.
 
-## The Sequence 🪜
+## 🪜 The Sequence
 The player must traverse five distinct planes in strict order:
 
 1. **Plane of Earth:** Solid rock. You must dig your way out while fighting earth elementals.
@@ -13,7 +13,7 @@ The player must traverse five distinct planes in strict order:
 4. **Plane of Water:** You are submerged in an ocean.
 5. **The Astral Plane:** The final challenge.
 
-## The Astral Plane 🌌
+## 🌌 The Astral Plane
 
 To win the game, you must find the high altar belonging to your god and offer the [[/Items/Amulet of Yendor]]. 
 - There are three altars (Lawful, Neutral, Chaotic), but only one belongs to your god.

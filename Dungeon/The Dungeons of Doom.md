@@ -4,12 +4,12 @@
 
 It extends from the surface all the way down to the [[/Dungeon/Underground Castle]]. It is the standard area where players spend the beginning and middle portions of the game before descending into [[/Dungeon/Gehennom]].
 
-## Characteristics ⚔️
+## ⚔️ Characteristics
 - **Layout:** Varies heavily. Most levels are standard "room and corridor" generation, though occasionally you will find maze-like levels, swamp levels, or heavily forested areas.
 - **Lighting:** Upper levels are typically fully lit, but as you descend below level 10, unlit rooms become increasingly common.
 - **Stairs:** There is exactly one upstairs leading toward the surface and one downstairs leading deeper, except on levels where other branches attach.
 
-## Key Features & Connections 🔗
+## 🔗 Key Features & Connections
 The Dungeons of Doom connects to almost every major branch in the early and mid-game:
 - **[[/Dungeon/The Gnomish Mines]]**: Branches off between levels 2 and 4.
 - **[[/Dungeon/Delphi]]**: A special level housing the [[/Monsters/Oracle]], located between levels 5 and 7.
