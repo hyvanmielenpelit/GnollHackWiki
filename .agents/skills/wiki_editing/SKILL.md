@@ -81,7 +81,8 @@ When editing or creating pages for the GnollHack Wiki, follow these conventions 
 When editing or creating headings for pages, always use appropriate Unicode icons/emojis immediately after the heading markers (`## ` or `### `) to maintain a rich, consistent visual aesthetic across the wiki. Use this verified list as a guide:
 
 - **General Guides & Meta Info**:
-  - General Info / Overview: `ℹ️`
+  - General Info / Overview (General articles): `📖` or `ℹ️`
+  - Quest / Geographic / World Overview: `🌍`
   - Starting Guide / Beginner Info: `🏁`
   - NetHack Veterans / Experienced Players: `🎖️`
   - Advanced Guide / Strategy: `🏆`
@@ -110,17 +111,24 @@ When editing or creating headings for pages, always use appropriate Unicode icon
   - Neutral / Balance: `😐` or `☯️`
   - Chaotic / Chaos: `😈` or `🔥` or `🌀`
 - **Dungeon Exploration & Gameplay**:
-  - Dungeon Branches / Paths (General): `🔀` or `🗺️` or `🧭`
+  - Level / Map Structure: `🗺️`
+  - Dungeon Branches: `🔀`
+  - Directions / Navigation: `🧭`
   - Special Levels: `🚩`
   - Characteristics: `ℹ️`
+  - Entrance / Entry: `🚪`
+  - Drawbridge: `🌉`
   - Gnomish Mines: `⛏️`
-  - Sokoban / Puzzles: `🧩`
+  - Sokoban / Puzzles: `🧩` or `🪨`
   - Portals / The Quest: `🌀`
+  - Requirements / Entry Requirements: `📜` or `🕯️`
+  - Astral Plane: `🌌`
+  - Plane Sequence: `🪜`
   - Gehennom: `🔥` or `😈`
   - Towns / Shops / Merchants: `🏪` or `🏛️`
   - Altars / Temples / Sacrifice / Praying: `⛪` or `🕯️` or `🛐` or `🩸`
   - Fountains: `⛲`
-  - Traps / Hazards: `🕳️` or `🕸️` or `⚠️`
+  - Traps / Hazards: `🪤` or `🕳️` or `🕸️` or `⚠️`
   - Movement / Travel: `🚶` or `🏃` or `👟`
   - Encumbrance / Carrying Capacity: `🎒` or `🏋️`
   - Companion / Pets / Canines / Felines: `🐾` or `🐶` or `🐱`
@@ -129,7 +137,20 @@ When editing or creating headings for pages, always use appropriate Unicode icon
   - Combat (General) / Melee: `⚔️` or `🗡️`
   - Ranged / Ammunition / Bows / Throwing: `🏹` or `🎯`
   - Monsters / Enemies / Bestiary (General): `👹` or `🐉` or `💀` or `👾`
-  - Bosses / Unique Monsters / Nemesis: `👑` or `😈` or `💀`
+  - Bosses / Nemesis (General): `👑` or `😈` or `💀`
+  - Specific Major Bosses:
+    - The Wizard of Yendor: `🧙‍♂️`
+    - Vlad the Impaler: `🧛`
+    - Medusa: `🐍`
+    - Orcus: `🐐`
+    - Baalzebub: `🪰`
+    - Dispater, Yacc: `😈`
+    - Jubilex: `🦠`
+    - Yeenaghu: `🐺`
+    - Croesus: `👑`
+    - Tarrasque: `🦖`
+    - Modron Primus: `👁️` or `🤖`
+  - NPCs (Non-Player Characters): `👤`
   - Growing Up (Monsters/Pets): `🐣` or `🌱` or `📈`
 - **Equipment & Wearables**:
   - Wearable Items / Equipment Screen: `👕` or `🛡️` or `🎒`
@@ -146,6 +167,7 @@ When editing or creating headings for pages, always use appropriate Unicode icon
 - **Items & Consumables**:
   - Item Identification: `🔍` or `👁️`
   - Food / Comestibles: `🍏` or `🥩` or `🍞`
+  - Eating / Nutrition / Consuming Food: `🍗` or `🍎`
   - Potions / Alchemy: `🧪` or `⚗️`
   - Diluted Potions: `🧪` or `💧`
   - Evaporation / Destruction: `💨` or `💥`
@@ -166,6 +188,7 @@ When editing or creating headings for pages, always use appropriate Unicode icon
 - **Status Conditions & Hazards**:
   - Status Conditions (General): `🩹` or `🤒`
   - Sickness / Mummy Rot: `🤢` or `🤒`
+  - Poison / Poisoning / Deadly Venom: `☠️` or `🤢`
   - Petrification / Stone: `🗿` or `🪨`
   - Lycanthropy: `🐺`
   - Curses / Negative Effects: `💀` or `🖤` or `❌`
