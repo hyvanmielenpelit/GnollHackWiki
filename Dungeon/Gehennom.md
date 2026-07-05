@@ -15,6 +15,7 @@ Gehennom is home to numerous unique locations and challenges:
 - **Demon Lairs**: You will encounter the domains of several demon lords, including [[/Dungeon/Dis]], [[/Dungeon/Maladomini]], [[/Dungeon/Jubilex's Realm]], [[/Dungeon/Orcus Town]], [[/Dungeon/Lair of Tarrasque]], and [[/Dungeon/Yeenaghu's Domain]].
 - **[[/Dungeon/Vlad's Tower]]**: Branches upwards from the middle of Gehennom.
 - **[[/Dungeon/Wizard's Tower]]**: A heavily guarded structure where the [[/Monsters/Wizard of Yendor]] waits with the [[/Artifacts/Book of the Dead]].
+- **[[/Dungeon/Fake Wizard's Towers]]**: Two decoy towers, one of which contains the portal to the true [[/Dungeon/Wizard's Tower]].
 - **[[/Dungeon/Plane of the Modron]]** & **[[/Dungeon/Hellish Pastures]]**: Unique GnollHack branches accessible via portals in Gehennom.
 - **The Vibrating Square:** A hidden, unremarkable-looking square on the lowest regular level of Gehennom. You must find it to perform the Invocation.
 - **[[/Dungeon/Moloch's Sanctum]]**: The final level of Gehennom, accessed only after performing the Invocation on the vibrating square.

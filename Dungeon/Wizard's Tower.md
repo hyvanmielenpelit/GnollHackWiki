@@ -1,16 +1,20 @@
 > 👉 **The Wizard's Tower is a heavily fortified, multi-level structure in Gehennom housing the [[/Monsters/Wizard of Yendor]] and the [[/Artifacts/Book of the Dead]].**
 
-**Location:** The base of the tower is located between levels 12 and 13 of [[/Dungeon/Gehennom]]. The tower consists of 3 levels extending upwards.
+**Location:** The Wizard's Tower consists of three separate levels extending upwards. These levels are strictly chained together:
+- The **Top Level** is generated between levels 10 and 11 of [[/Dungeon/Gehennom]]. 
+- The **Middle Level** is always exactly 1 level below the Top Level.
+- The **Bottom Level** (the base of the tower) is exactly 2 levels below the Top Level, placing it between levels 12 and 13 of Gehennom.
 
-It cannot be accessed by normal stairs from the outside.
+> ℹ️ **Note for Beginners:** As you descend through Gehennom, you will encounter the exterior of the Wizard's Tower on three consecutive floors before you can actually enter it. On each of these floors, you will find a large, inaccessible square structure in the middle of the map. You cannot access the tower from these floors by normal stairs, digging, or secret doors. The actual entrance is surprisingly located *further down* in Gehennom, hidden inside a completely different level.
 
 ## 🚪 Entry
 
-To enter the Wizard's Tower, you must find a magic portal inside a small "tower" on a specific level of Gehennom. It's *below* the bottom level of the Wizard's Tower. There are two such "small tower levels" in Gehennom, one of which contains the portal to the Wizard's Tower. Once you have found this portal, it will transport you to the bottom level of the Wizard's Tower.
+To enter the Wizard's Tower, you must find a magic portal located deep within Gehennom, below the bottom level of the tower itself. 
+
+This portal is hidden inside one of two [[/Dungeon/Fake Wizard's Towers]]. These decoy structures appear identical from the outside, but only one contains the portal that will transport you to the bottom level of the true Wizard's Tower.
 
 ## ℹ️ Characteristics
 
-- **Layout:** Three small levels surrounded by an impassable moat and solid rock walls.
 - **The Book of the Dead:** On the top level sits the [[/Monsters/Wizard of Yendor]]. Upon his defeat, he will drop the [[/Artifacts/Book of the Dead]], the final item required to enter [[/Dungeon/Moloch's Sanctum]].
 
 ## 🧙‍♂️ The Wizard of Yendor

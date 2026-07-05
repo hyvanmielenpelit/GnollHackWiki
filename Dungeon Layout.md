@@ -65,6 +65,7 @@ Branches are multi-level sub-dungeons that diverge from the main path. They ofte
 | **[[/Dungeon/Jubilex's Realm]]** | 4–8 | A disgusting, swampy lair filled with acidic ooze and the Faceless Lord. |
 | **[[/Dungeon/Orcus Town]]** | 5–15 | A ruined, demonic reflection of a town ruled by [[/Monsters/Orcus]]. |
 | **[[/Dungeon/Wizard's Tower]]** | 10–13 | A three-level tower holding the [[/Monsters/Wizard of Yendor]] and the [[/Artifacts/Book of the Dead]]. |
+| **[[/Dungeon/Fake Wizard's Towers]]** | 13–18 | Two decoy towers, one of which contains the portal to the true [[/Dungeon/Wizard's Tower]]. |
 | **[[/Dungeon/Lair of Tarrasque]]** | 10–18 | The lair of the fearsome [[/Monsters/Tarrasque]]. New in GnollHack. |
 | **[[/Dungeon/Yeenaghu's Domain]]** | 10–18 | The realm of the demon lord of gnolls. New in GnollHack. |
 | **[[/Dungeon/Moloch's Sanctum]]** | 18–20 | The lowest level of Gehennom, housing the [[/Items/Amulet of Yendor]] and the [[/Monsters/High Priest]] of Moloch. |
@@ -119,5 +120,5 @@ Locations in Gehennom are placed using a mix of absolute level ranges and relati
 
 **Anchored to the Bottom of Gehennom:**
 - **[[/Dungeon/Moloch's Sanctum]]**: Always placed on the very last level of Gehennom.
-- **Fake Wizard's Towers**: The two fake towers are generated between 2 and 5 levels above the bottom of Gehennom.
+- **[[/Dungeon/Fake Wizard's Towers]]**: The two fake towers are generated between 2 and 5 levels above the bottom of Gehennom.
 - **[[/Dungeon/Lair of Tarrasque]]** and **[[/Dungeon/Yeenaghu's Domain]]**: Anchored to the bottom to guarantee they appear late in the game, generated between 2 and 8 levels above the bottom of Gehennom.
