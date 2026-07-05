@@ -2,11 +2,11 @@
 
 **Location:** Branches from [[/Dungeon/The Dungeons of Doom]] via a magic portal between levels 11 and 14. The branch is 5 or 6 levels deep.
 
-*Message upon entering the portal level: "You receive a faint telepathic message from..." (followed by a message from your Quest Leader).*
+**Message upon entering the portal level in the Dungeons of Doom:** *"You receive a faint telepathic message from..." (followed by a message from your Quest Leader).*
 
-## 📜 Entry Requirements
+## 📜 Second Level Entry Requirements
 
-To step through the portal and enter the Quest, you must meet three strict conditions:
+To enter the second level of the Quest, you must meet three conditions:
 
 1. **Experience Level 14:** You must be at least level 14. If you are lower, the Quest Leader will turn you away.
 2. **Alignment:** Your alignment record must be non-negative. You must still follow your original alignment and must not have converted to a different one.
