@@ -6,7 +6,7 @@ It cannot be accessed by normal stairs; the only way to enter is by performing t
 
 ## 🕯️ Entry Requirements
 To access the Sanctum, you must possess three unique items:
-1. The **[[/Artifacts/Bell of Opening]]** (from [[/Dungeon/Quest]])
+1. The **[[/Artifacts/Bell of Opening]]** (from the [[/Dungeon/Quest]])
 2. The **[[/Artifacts/Candelabrum of Invocation]]** (from [[/Dungeon/Vlad's Tower]])
 3. The **[[/Artifacts/Book of the Dead]]** (from the [[/Dungeon/Wizard's Tower]])
 

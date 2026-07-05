@@ -1,6 +1,6 @@
 # Knight Quest
 
-> 👉 **The Knight Quest is a branch of [[/Dungeon/Quest]] specifically designed for the Knight role.**
+> 👉 **The Knight Quest is a branch of the [[/Dungeon/Quest]] specifically designed for the Knight role.**
 
 ## 🌍 Overview
 

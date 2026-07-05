@@ -1,6 +1,6 @@
 > 👉 **The Quest is a role-specific branch where the player returns to their homeland to defeat their nemesis, retrieve their class artifact, and earn the [[/Artifacts/Bell of Opening]].**
 
-**Location:** Branches from [[/Dungeon/Dungeons of Doom]] via a magic portal between levels 11 and 14. The branch is 5 or 6 levels deep.
+**Location:** Branches from the [[/Dungeon/Dungeons of Doom]] via a magic portal between levels 11 and 14. The branch is 5 or 6 levels deep.
 
 **Message upon entering the portal level in the Dungeons of Doom:** *"You receive a faint telepathic message from..." (followed by a message from your Quest Leader).*
 

@@ -59,7 +59,7 @@ Branches are multi-level sub-dungeons that diverge from the main path. They ofte
 
 | Special Level | Level Range | Description |
 | :------------ | :---------: | :---------- |
-| **[[/Dungeon/Valley of the Dead]]** | 1 | A sprawling graveyard that transitions the player from [[/Dungeon/Dungeons of Doom]] to Gehennom. |
+| **[[/Dungeon/Valley of the Dead]]** | 1 | A sprawling graveyard that transitions the player from the [[/Dungeon/Dungeons of Doom]] to Gehennom. |
 | **[[/Dungeon/Dis]]** | 2 | The iron city ruled by [[/Monsters/Dispater]]. |
 | **[[/Dungeon/Maladomini]]** | 4–8 | The corrupted domain of [[/Monsters/Baalzebub]], Lord of the Flies. |
 | **[[/Dungeon/Jubilex's Realm]]** | 4–8 | A disgusting, swampy lair filled with acidic ooze and the Faceless Lord. |
@@ -76,7 +76,7 @@ In GnollHack, the exact levels where many branches and special levels appear are
 
 ### 🔮 The Oracle as the Key Anchor
 
-**[[/Dungeon/Delphi]]** (the Oracle's level) is one of the most critical anchor points in the early game. Its placement directly determines the locations of several other major features in [[/Dungeon/Dungeons of Doom]]:
+**[[/Dungeon/Delphi]]** (the Oracle's level) is one of the most critical anchor points in the early game. Its placement directly determines the locations of several other major features in the [[/Dungeon/Dungeons of Doom]]:
 - **[[/Dungeon/Sokoban]]**: The stairs leading up to Sokoban are always generated exactly 1 level below Delphi.
 - **[[/Dungeon/Quest]]**: The magic portal to your role-specific quest is always placed 6 or 7 levels below Delphi.
 - **[[/Dungeon/Treasure Island]]**: This special water-filled level is always generated 9 or 10 levels below Delphi.
@@ -85,24 +85,24 @@ Because Delphi can appear anywhere from level 5 to 7, these connected locations 
 
 ### 🏰 Fixed-Range Placements
 
-Some notable features in [[/Dungeon/Dungeons of Doom]] do not depend on other anchor points, but are instead confined to their own fixed depth ranges:
+Some notable features in the [[/Dungeon/Dungeons of Doom]] do not depend on other anchor points, but are instead confined to their own fixed depth ranges:
 - **[[/Dungeon/Big Room]]**: Always generated between levels 10 and 12.
 - **[[/Dungeon/Fort Ludios]]**: The portal to this hidden fortress is always placed within a vault between levels 12 and 20.
 
 ### 🧭 The Bottom of the Main Dungeon
 
-The final levels of [[/Dungeon/Dungeons of Doom]] are anchored to the bottom of the branch, which spans 24 to 25 levels, creating a fixed sequence:
-- **[[/Dungeon/Underground Castle]]**: Always placed on the very last level of [[/Dungeon/Dungeons of Doom]].
+The final levels of the [[/Dungeon/Dungeons of Doom]] are anchored to the bottom of the branch, which spans 24 to 25 levels, creating a fixed sequence:
+- **[[/Dungeon/Underground Castle]]**: Always placed on the very last level of the [[/Dungeon/Dungeons of Doom]].
 - **[[/Dungeon/Minotaur Maze]]**: Always generated exactly 1 level above the Underground Castle.
 - **[[/Dungeon/Medusa's Island]]**: Always generated exactly 2 levels above the Underground Castle.
 - **[[/Dungeon/Gehennom]]**: The entrance to the underworld is directly connected to the Underground Castle. The first level of Gehennom ([[/Dungeon/Valley of the Dead]]) immediately follows the Castle.
 
 ### ⛏️ The Gnomish Mines
 
-The [[/Dungeon/Gnomish Mines]] branch off early in [[/Dungeon/Dungeons of Doom]] (between levels 2 and 4). Within the mines themselves, locations are placed relative to the branch's own structure:
+The [[/Dungeon/Gnomish Mines]] branch off early in the [[/Dungeon/Dungeons of Doom]] (between levels 2 and 4). Within the mines themselves, locations are placed relative to the branch's own structure:
 - **[[/Dungeon/Mine Town]]**: Always generated on the 3rd or 4th level of the Gnomish Mines branch.
 - **[[/Dungeon/Large Circular Dungeon]]**: The portal to this high-tech branch is anchored to **[[/Dungeon/Mine Town]]**. It will always be found exactly 1 or 2 levels deeper into the mines than Mine Town itself.
-- **[[/Dungeon/Mines' End]]**: Anchored to the very bottom, it is always placed on the final level of [[/Dungeon/Gnomish Mines]] (the branch spans 8 or 9 levels in total).
+- **[[/Dungeon/Mines' End]]**: Anchored to the very bottom, it is always placed on the final level of the [[/Dungeon/Gnomish Mines]] (the branch spans 8 or 9 levels in total).
 
 ### 🔥 Gehennom
 

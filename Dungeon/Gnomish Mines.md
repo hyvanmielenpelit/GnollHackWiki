@@ -1,6 +1,6 @@
 > 👉 **The Gnomish Mines is an early-game branch inhabited primarily by [[gnomes|/Monsters/Gnome]] and [[dwarves|/Monsters/Dwarf]], offering excellent loot but significant danger for low-level adventurers.**
 
-**Location:** Branches from [[/Dungeon/Dungeons of Doom]] between levels 2 and 4. The branch itself is 8 to 9 levels deep.
+**Location:** Branches from the [[/Dungeon/Dungeons of Doom]] between levels 2 and 4. The branch itself is 8 to 9 levels deep.
 
 It extends downward, culminating in [[/Dungeon/Mines' End]].
 

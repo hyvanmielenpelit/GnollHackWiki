@@ -1,6 +1,6 @@
 # Archaeologist Quest
 
-> 👉 **The Archaeologist Quest is a branch of [[/Dungeon/Quest]] specifically designed for the Archaeologist role.**
+> 👉 **The Archaeologist Quest is a branch of the [[/Dungeon/Quest]] specifically designed for the Archaeologist role.**
 
 ## 🌍 Overview
 

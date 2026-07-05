@@ -1,6 +1,6 @@
 > 👉 **Fort Ludios is a hidden, highly guarded stronghold belonging to [[/Monsters/Croesus]], the richest being in the dungeon.**
 
-**Location:** Accessible via a magic portal located in a vault between levels 12 and 20 of [[/Dungeon/Dungeons of Doom]]. The branch consists of a single level.
+**Location:** Accessible via a magic portal located in a vault between levels 12 and 20 of the [[/Dungeon/Dungeons of Doom]]. The branch consists of a single level.
 
 There is no direct message for the portal itself, but the presence of a vault is required.
 

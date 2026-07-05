@@ -1,6 +1,6 @@
 # Valkyrie Quest
 
-> 👉 **The Valkyrie Quest is a branch of [[/Dungeon/Quest]] specifically designed for the Valkyrie role.**
+> 👉 **The Valkyrie Quest is a branch of the [[/Dungeon/Quest]] specifically designed for the Valkyrie role.**
 
 ## 🌍 Overview
 
