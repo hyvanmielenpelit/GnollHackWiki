@@ -9,7 +9,7 @@
 To enter the second level of the Quest, you must meet three conditions:
 
 1. **Experience Level 14:** You must be at least level 14. If you are lower, the Quest Leader will turn you away.
-2. **Alignment:** Your alignment record must be non-negative. You must still follow your original alignment and must not have converted to a different one.
+2. **Alignment:** You must still follow your original alignment (e.g., you must not be wearing a helm of opposite alignment) and must not have permanently converted to a different one.
 3. **Approval:** You must visit your Quest Leader on the Home level and receive their blessing.
 
 ## ℹ️ Characteristics
