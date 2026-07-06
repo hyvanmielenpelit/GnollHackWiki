@@ -210,7 +210,7 @@ OPTIONS=pickup_types:characters
 | **animation_interval** | *(varies)* | `25` | Configures the animation speed (delay in milliseconds between frames) for map movements and spell effects. | ASCII, Curses, Legacy Windows GUI |
 | **extmenu** | `true` / `false` | `false` | If enabled, displays a visual selection menu when entering extended commands (`#`) rather than requiring manual text entry. | ASCII, Curses |
 | **ignintr** | `true` / `false` | `false` | Prevents standard OS keyboard interrupts (like `Ctrl+C`) from immediately terminating the game process. | ASCII, Curses |
-| **mail** | `true` / `false` | `true` | Enables the in-game mail daemon character to deliver real-world system mail notifications as scroll items. | ASCII |
+| **mail** | `true` / `false` | `true` | Enables the in-game mail daemon character to deliver real-world system mail notifications as scroll items. | ASCII, Curses |
 | **menu_deselect_all** | *(varies)* | *(varies)* | Binds a keyboard shortcut to deselect all checked items in a menu. | ASCII, Curses, Legacy Windows GUI |
 | **menu_deselect_page** | *(varies)* | *(varies)* | Binds a keyboard shortcut to deselect all checked items on the currently visible menu page. | ASCII, Curses, Legacy Windows GUI |
 | **menu_first_page** | *(varies)* | *(varies)* | Binds a keyboard shortcut to jump immediately to the first page of a multi-page menu. | ASCII, Curses, Legacy Windows GUI |
