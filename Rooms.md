@@ -33,5 +33,5 @@
 
 ## Closets
 
-- [[/Rooms/Orc and the Pie]] — A tiny, hidden closet containing a single orc guarding a cream pie.
-- [[/Rooms/Orc Captain and the Pies]] — A tiny, hidden closet containing an orc-captain guarding multiple cream pies.
+- [[/Rooms/Orc and the Pie]] — A closet containing a single orc guarding a cream pie.
+- [[/Rooms/Orc Captain and the Pies]] — A closet containing an orc-captain guarding multiple cream pies.
