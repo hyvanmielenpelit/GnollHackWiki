@@ -11,7 +11,7 @@
 
 - [[/Rooms/Anthole]] — Infested with various types of ants and other insects.
 - [[/Rooms/Armory]] — A military-themed room containing [[weapon racks|/Items/Weapon rack]], [[chests|/Items/Chest]], and potentially an [[artifact weapon|Artifacts]].
-- [[/Rooms/Barracks]] — A military-themed room filled with soldiers and [[weapons|Weapons]].
+- [[/Rooms/Barracks]] — A military-themed room filled with soldiers and [[weapons]].
 - [[/Rooms/Beehive]] — Filled with killer bees and large quantities of [[royal jelly|/Items/Lump of royal jelly]].
 - [[/Rooms/Cockatrice Nest]] — A lethal room filled entirely with cockatrices.
 - [[/Rooms/Dragon Lair]] — A room filled with dragons, hatchlings, and precious [[gems|Gems and Stones]].

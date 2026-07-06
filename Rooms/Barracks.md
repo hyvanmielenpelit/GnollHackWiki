@@ -2,10 +2,10 @@
 
 ## ℹ️ Description
 
-A Barracks is a special room that houses an entire garrison of [[soldiers|/Monsters/Soldier]], ranging from standard foot [[soldiers|/Monsters/Soldier]] to [[sergeants|/Monsters/Sergeant]], [[lieutenants|/Monsters/Lieutenant]], and [[captains|/Monsters/Captain]]. The room is usually filled with [[weapons|Weapons]], [[armor|Armor]], and sometimes [[chests|/Items/Chest]].
+A Barracks is a special room that houses an entire garrison of [[soldiers|/Monsters/Soldier]], ranging from standard foot [[soldiers|/Monsters/Soldier]] to [[sergeants|/Monsters/Sergeant]], [[lieutenants|/Monsters/Lieutenant]], and [[captains|/Monsters/Captain]]. The room is usually filled with [[/weapons]], [[/armor]], and sometimes [[chests|/Items/Chest]].
 
 ## 🗺️ Generation
 
 Barracks have a 1 in 6 chance of generating on eligible levels starting from dungeon level 13, provided that soldiers have not been genocided or made extinct. 
 
-The room is populated with a variety of military personnel generated asleep. Unlike many other special rooms, barracks contain a vast assortment of military gear scattered on the floor, including [[swords|/Melee Weapons]], [[shields|/Shields]], [[armor|/Armor]], [[polearms|/Polearms]], and [[food rations|/Items/Food ration]]. They also feature a [[chest|/Items/Chest]] container representing the garrison's payroll and loot.
+The room is populated with a variety of military personnel generated asleep. Unlike many other special rooms, barracks contain a vast assortment of military gear scattered on the floor, including [[swords|/Melee Weapons]], [[/shields]], [[/armor]], [[/polearms]], and [[food rations|/Items/Food ration]]. They also feature a [[/Items/chest]] container representing the garrison's payroll and loot.

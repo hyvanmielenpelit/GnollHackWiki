@@ -11,7 +11,7 @@ Smithies can generate randomly as a special room on Dungeons of Doom level 2 and
 ## 🛠️ Services
 
 The blacksmith in the Smithy is friendly and offers metallic crafting services:
-- **Forge Gear:** Forge metallic [[weapons|/Weapons]], [[armor|/Armor]], or ammo (such as [[sling-bullets|/Items/Sling-bullet]]) from metal [[nuggets|/Gems and Stones]] and [[ores|/Gems and Stones]].
-- **Repair Gear:** Repair damaged metallic [[weapons|/Weapons]] and [[armor|/Armor]].
-- **Upgrade Gear:** Upgrade metallic [[weapons|/Weapons]] and [[armor|/Armor]].
+- **Forge Gear:** Forge metallic [[/weapons]], [[/armor]], or ammo (such as [[sling-bullets|/Items/Sling-bullet]]) from metal [[nuggets|/Gems and Stones]] and [[ores|/Gems and Stones]].
+- **Repair Gear:** Repair damaged metallic [[/weapons]] and [[/armor]].
+- **Upgrade Gear:** Upgrade metallic [[/weapons]] and [[/armor]].
 
