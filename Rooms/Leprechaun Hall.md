@@ -6,6 +6,6 @@ A Leprechaun Hall is a dangerous but potentially rewarding special room. It is f
 
 ## 🗺️ Generation
 
-Leprechaun Halls have a 1 in 8 chance of generating on eligible levels in the Dungeons of Doom, provided that [[leprechauns|/Monsters/Leprechaun]] have not been genocided or made extinct.
+Leprechaun Halls have a 1 in 8 chance of generating on eligible levels in the Dungeons of Doom, provided that leprechauns have not been genocided or made extinct.
 
-When generated, the room will be packed with sleeping [[leprechauns|/Monsters/Leprechaun]], and each [[/Monsters/leprechaun]] will typically have a significant amount of gold beneath them.
+When generated, the room will be packed with sleeping leprechauns, and each leprechaun will typically have a significant amount of gold beneath them.
