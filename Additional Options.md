@@ -1,3 +1,5 @@
+![Additional Options](/uploads/Additional%20Options/additional-options-q85.webp)
+
 > 👉 **This page details advanced configuration settings available in the GnollHack options file, explaining their functionality, syntax, and compatibility with the modern graphical client.**
 
 For instructions on how to locate and modify the options file, see [[Accessing Options File]]. For general options, see [[Options]].
