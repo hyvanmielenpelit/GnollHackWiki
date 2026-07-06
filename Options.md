@@ -31,7 +31,6 @@
 | **fullscreen** | `true` / `false` | `false` | Toggle fullscreen |
 | **fullstatuslineorder** | `true` / `false` | `true` | Use full status line order |
 | **guicolor** | `true` / `false` | `true` | Use color for UI |
-| **here_window_size** | *(varies)* | `20` | Number of rows in the here window |
 | **herewindow** | `true` / `false` | `true` | Show here window |
 | **hicolor** | *(varies)* | *(varies)* | Same as palette, only order is reversed |
 | **hilite_pet** | `true` / `false` | `false` | Use highlight for pets |
@@ -73,7 +72,7 @@
 | **preferred_screen_scale** | *(varies)* | *(varies)* | Preferred screen scale |
 | **preload_tiles** | `true` / `false` | `true` | Preload tiles |
 | **roguesymset** | *(varies)* | *(varies)* | Load a set of rogue display symbols from the symbols file |
-| **runmode** | *(varies)* | *(varies)* | Display frequency when running or travelling |
+| **runmode** | *(varies)* | *(varies)* | Display frequency when `running' or `travelling' |
 | **scroll_amount** | *(varies)* | *(varies)* | Amount to scroll map when scroll_margin is reached |
 | **scroll_margin** | *(varies)* | *(varies)* | Scroll map when this far from the edge |
 | **show_buff_timer** | `true` / `false` | `false` | Show buff timer on tiles |
@@ -99,10 +98,7 @@
 | **splash_screen** | `true` / `false` | `true` | Show splash screen |
 | **status_updates** | `true` / `false` | `true` | Allow the status lines to update |
 | **statushilites** | *(varies)* | *(varies)* | Highlight control |
-| **statuslines** | *(varies)* | *(varies)* | 2 to 8 lines for status display |
 | **symset** | *(varies)* | *(varies)* | Load a set of display symbols from the symbols file |
-| **term_cols** | *(varies)* | *(varies)* | Number of columns |
-| **term_rows** | *(varies)* | *(varies)* | Number of rows |
 | **tile_file** | *(varies)* | *(varies)* | Name of tile file |
 | **tile_height** | *(varies)* | *(varies)* | Height of tiles |
 | **tile_width** | *(varies)* | *(varies)* | Width of tiles |
@@ -115,7 +111,6 @@
 | **video** | *(varies)* | *(varies)* | Method of video updating |
 | **whatis_coord** | *(varies)* | *(varies)* | Show coordinates when auto-describing cursor position |
 | **whatis_menu** | `true` / `false` | `false` | Show menu when getting a map location |
-| **windowborders** | *(varies)* | *(varies)* | 0 (off), 1 (on), 2 (auto) |
 | **windowchain** | *(varies)* | *(varies)* | Window processor to use |
 | **windowcolors** | *(varies)* | *(varies)* | The foreground/background colors of windows |
 | **windowtype** | *(varies)* | *(varies)* | Windowing system to use |
@@ -287,9 +282,8 @@
 | Option Name | Values | Default | Description |
 | :---------- | :----: | :-----: | :---------- |
 | **ascii_map** | `true` / `false` | `false` | Show map as text |
-| **autostatuslines** | `true` / `false` | `false` | Adjust the number of status lines automatically |
 | **classic_colors** | `true` / `false` | `false` | Use classic colors for boulders and floor symbols |
-| **classic_statue_symbol** | `true` / `false` | `false` | Use classic symbol for statues |
+| **classic_statue_symbol** | `true` / `false` | `false` | Use classic symbol \'`\' for statues |
 | **color** | `true` / `false` | `true` | Use color in map |
 | **eight_bit_tty** | `true` / `false` | `false` | Send 8-bit characters directly to terminal |
 | **enablettyarrowkeys** | `true` / `false` | `false` | Enable tty arrow keys |
@@ -302,6 +296,20 @@
 | **videoshades** | *(varies)* | *(varies)* | Gray shades to map to black/gray/white |
 | **vt_tiledata** | `true` / `false` | `false` | Use VT codes for tiles |
 
+## 🖥️ Curses Interface
+
+> ℹ️ **Note:** These options are specific to the curses terminal interface. They are generally not applicable to the modern GUI versions of GnollHack.
+
+| Option Name | Values | Default | Description |
+| :---------- | :----: | :-----: | :---------- |
+| **autostatuslines** | `true` / `false` | `false` | Adjust the number of status lines automatically |
+| **cursesgraphics** | *(varies)* | *(varies)* | Load curses display symbols |
+| **here_window_size** | *(varies)* | `20` | Number of rows in the here window |
+| **statuslines** | *(varies)* | *(varies)* | 2 to 8 lines for status display |
+| **term_cols** | *(varies)* | *(varies)* | Number of columns |
+| **term_rows** | *(varies)* | *(varies)* | Number of rows |
+| **windowborders** | *(varies)* | *(varies)* | 0 (off), 1 (on), 2 (auto) |
+
 ## 🗑️ Obsolete
 
 > ⚠️ **Warning:** These options are completely obsolete. They are listed here only for completeness's sake.
@@ -312,5 +320,5 @@
 | **IBMgraphics** | *(varies)* | *(varies)* | Load IBMGraphics display symbols |
 | **Macgraphics** | *(varies)* | *(varies)* | Load MACGraphics display symbols |
 | **boulder** | *(varies)* | *(varies)* | Deprecated (use S_boulder in sym file instead) |
-| **cursesgraphics** | *(varies)* | *(varies)* | Load curses display symbols |
-| **large_font** | `true` / `false` | `false` | Use large font |
+| **large_font** | `true` / `false` | `false` | Obsolete: use large font |
+
