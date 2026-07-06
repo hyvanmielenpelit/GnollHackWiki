@@ -302,7 +302,7 @@
 
 ## 🗑️ Obsolete
 
-> ⚠️ **Warning:** These options are obsolete, deprecated, or only used by legacy versions of the game.
+> ⚠️ **Warning:** These options are obsolete or deprecated.
 
 | Option Name | Values | Default | Description |
 | :---------- | :----: | :-----: | :---------- |
