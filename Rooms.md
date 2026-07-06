@@ -5,7 +5,7 @@
 ## Common Rooms
 
 - [[/Rooms/Ordinary Room]] — The most common type of room found in the [[/Dungeon/Dungeons of Doom]].
-- [[/Rooms/Shop]] — Learn about shop types in GnollHack.
+- [[/Rooms/Shops]] — Learn about shop types in GnollHack.
 
 ## Special Rooms
 

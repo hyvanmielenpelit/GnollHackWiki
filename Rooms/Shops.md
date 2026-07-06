@@ -1,8 +1,10 @@
-> 👉 **A Shop is a special room where a [[/Monsters/shopkeeper]] sells goods to the player character.**
+> 👉 **A shop is a special room where a [[/Monsters/shopkeeper]] sells goods to the player character.**
 
 ## ℹ️ Description
 
-A shop is a specialized room filled with items for sale. A [[/Monsters/shopkeeper]] stands near the entrance, ensuring you pay for anything you take out of the room. Shops provide a reliable way to purchase much-needed equipment, identify unknown items through price testing, and sell your unwanted loot for gold.
+A shop is a specialized room filled with items for sale. A [[/Monsters/shopkeeper]] stands near the entrance, ensuring you pay for anything you take out of the room. Shops provide a reliable way to purchase much-needed equipment, identify unknown items for a fee, and sell your unwanted loot for gold.
+
+The price of identification services in specialized shops is half to that of a General Store, but the shopkeeper identifies only item types they sell.
 
 ## 🗺️ Generation
 
