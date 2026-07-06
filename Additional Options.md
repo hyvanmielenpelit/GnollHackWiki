@@ -4,11 +4,9 @@ For instructions on how to locate and modify the options file, see [[Accessing O
 
 ## ⚙️ Fully-Supported in Modern Versions
 
-These settings are parsed by the C game engine and are fully operational in the .NET MAUI graphical client, affecting game logic, menus, message logs, and controls.
-
 ### 🎨 MENUCOLOR
 
-The `MENUCOLOR` configuration allows you to colorize specific lines in menus and inventory screens based on regular expression matches. The C core evaluates these rules and passes the color attributes to the graphical interface, which renders the styled text.
+The `MENUCOLOR` configuration allows you to colorize specific lines in menus and inventory screens based on regular expression matches.
 
 **Syntax:**
 
@@ -111,7 +109,7 @@ The supported actions are:
 
 ### 🎒 AUTOPICKUP_EXCEPTION
 
-The `AUTOPICKUP_EXCEPTION` configuration defines custom inclusion and exclusion rules for picking up items automatically. These exceptions are processed by the C core and override the generic `pickup_types` settings.
+The `AUTOPICKUP_EXCEPTION` configuration defines custom inclusion and exclusion rules for picking up items automatically. These exceptions override the generic `pickup_types` settings.
 
 **Syntax:**
 
@@ -163,7 +161,7 @@ BINDINGS=key:command
 
 ## 🖥️ Only Supported in ASCII Mode in Modern Version
 
-The modern graphical client renders map items as tiles (sprites) by default, ignoring custom characters. However, these settings are fully utilized when the game is switched to **ASCII mode** (`GHGraphicsStyle.ASCII`) via the in-game settings. They are also used in targeting overlays (e.g. `playerMark` or `monsterTargeting`).
+These settings are fully utilized when a modern version of the game is switched to **ASCII mode** via the in-game settings.
 
 ### 🧱 SYMBOLS
 
