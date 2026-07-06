@@ -200,7 +200,7 @@
 | **altmeta** | `true` / `false` | `true` | Treat 'ESC c' as M-c |
 | **ascii_map** | `true` / `false` | `false` | Show map as text |
 | **classic_colors** | `true` / `false` | `false` | Use classic colors for boulders and floor symbols |
-| **classic_statue_symbol** | `true` / `false` | `false` | Use classic symbol \'`\' for statues |
+| **classic_statue_symbol** | `true` / `false` | `false` | Use classic symbol for statues |
 | **color** | `true` / `false` | `true` | Use color in map |
 | **dungeon** | *(varies)* | *(varies)* | The symbols to use in drawing the dungeon map |
 | **effects** | *(varies)* | *(varies)* | The symbols to use in drawing special effects |
