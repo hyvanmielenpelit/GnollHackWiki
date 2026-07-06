@@ -46,7 +46,7 @@
 | :---------- | :----: | :-----: | :---------- |
 | **autodescribe** | `true` / `false` | `true` | Automatically shows descriptions of terrain, features, and monsters in the status bar as you hover your cursor over them. |
 | **autodig** | `true` / `false` | `true` | Automatically attempts to dig through solid rock or walls when moving into them if you are wielding a suitable digging tool (like a pick-axe or mattock). |
-| **autokick** | `true` / `false` | `true` | Automatically attempts to kick open a closed, locked, or stuck door when you walk into it. |
+| **autokick** | `true` / `false` | `true` | Automatically attempts to kick open closed doors or force locked chests/containers when walking into or looting them (Android port only). |
 | **autoopen** | `true` / `false` | `true` | Automatically opens a closed, unlocked door when you walk into it, saving a manual input turn. |
 | **autopickup** | `true` / `false` | `false` | Automatically picks up items on the ground when walking over them if they match the categories configured in `pickup_types`. |
 | **autoquiver** | `true` / `false` | `false` | Automatically fills an empty ammunition quiver with suitable projectiles from your inventory when firing a ranged weapon. |
@@ -57,13 +57,13 @@
 | **bones** | `true` / `false` | `true` | Allows loading "bones" files (the layout, items, and ghosts of deceased characters from previous runs) when entering a dungeon level. |
 | **checkpoint** | `true` / `false` | `true` | Saves the game state automatically after changing dungeon levels to protect progress in case of a crash. |
 | **confirm** | `true` / `false` | `true` | Prompts for confirmation before you attack a peaceful or friendly monster, preventing accidental hostile acts. |
-| **disclose** | `iavgco` options | `ni na nv ng nc no` | Configures what game information (inventory, attributes, vanquished monsters, genocided species, conduct, dungeon overview) is revealed upon game over. Prefix category with `+`/`-` or append `?`. |
+| **disclose** | `iavgco` options | `ni na nv ng nc no` | Configures what game information (inventory `i`, attributes `a`, vanquished monsters `v`, genocided species `g`, conduct `c`, dungeon overview `o`) is revealed upon game over. Prefix each category letter with `+` (always disclose), `-` (never disclose), `y` (prompt, default yes), `n` (prompt, default no), or `?` (prompt, default special). |
 | **displace_peaceful** | `true` / `false` | `true` | Automatically swaps places with a peaceful monster or pet when walking into them instead of blocking movement or attacking. |
 | **dumplog** | `true` / `false` | `false` | Generates a complete text log summarizing character statistics, inventory, and recent events in your game folder upon death or ascension. |
 | **exchange_prompt** | `true` / `false` | `true` | Prompts for confirmation when equipping items that would require removing currently worn gear (e.g. swapping rings or armor). |
 | **fixinv** | `true` / `false` | `true` | Keeps inventory slot letters assigned to items constant, even if items in preceding slots are dropped or consumed. |
 | **force_hint** | `true` / `false` | `false` | Forces the game to show tutorial tips and hints regardless of other settings. Enabled by default in Casual and Modern modes. |
-| **force_invmenu** | `true` / `false` | `true` | Displays a visual menu of valid items when executing commands that require inventory selection, rather than prompting for a raw keyboard letter. |
+| **force_invmenu** | `true` / `false` | `true` (Mobile) / `false` (Desktop) | Displays a visual menu of valid items when executing commands that require inventory selection, rather than prompting for a raw keyboard letter. |
 | **goldX** | `true` / `false` | `false` | Categorizes gold as "uncursed gold pieces" or "unknown gold pieces" instead of just "gold" in your inventory menu. |
 | **ignore_stopping** | `true` / `false` | `false` | Prevents automated pathfinding travel from stopping when your character passes over items, closed doors, or engravings. |
 | **knapsack_prompt** | `true` / `false` | `true` | Prompts for a specific action (like dropping or stashing) when picking up an item while carrying a full inventory. |
@@ -183,7 +183,7 @@
 | **menu_search** | *(varies)* | *(varies)* | Binds a keyboard shortcut to perform a text search within active menus. |
 | **menu_select_all** | *(varies)* | *(varies)* | Binds a keyboard shortcut to check/select all items in the current menu list. |
 | **menu_select_page** | *(varies)* | *(varies)* | Binds a keyboard shortcut to check/select all items on the current menu page. |
-| **menucolors** | `true` / `false` | `true` | Enables colored text highlighting (such as coloring blessed items green and cursed items red) inside menus. |
+| **menucolors** | `true` / `false` | `true` (Mobile) / `false` (Desktop) | Enables colored text highlighting (such as coloring blessed items green and cursed items red) inside menus. |
 | **menustyle** | `traditional` / `combination` / `full` / `partial` | `full` | Selects the user interface style for multi-item selection menus: `traditional` (pure character prompts), `combination` (text lists with quick letters), `full` (standard checkbox menus), `partial` (simple listing). |
 | **msg_window** | `single` / `combination` / `full` / `reversed` | `full` (TTY) / `reversed` (Curses) | Configures how message history lists are aligned and updated on screen: `single` (single line top window), `combination` (in-line text log), `full` (popup full-page text), `reversed` (reverse chronological history). |
 | **partydetails** | `true` / `false` | `false` | If enabled, lists detailed statistics (level, exact HP, status effects) for all current pets in the status window. |
@@ -230,7 +230,7 @@
 | **traps** | *(varies)* | *(varies)* | Defines the character symbol assignments used to draw active and discovered traps on the map. |
 | **underline_peaceful** | `true` / `false` | `true` | Renders peaceful or neutral monsters with an underline character to distinguish them from hostile targets. |
 | **use_darkgray** | `true` / `false` | `true` | Uses bold black / dark gray instead of dark blue for low-visibility dungeon walls and unlit areas. |
-| **use_inverse** | `true` / `false` | `true` | Renders monsters detected via telepathy or detection spells in inverse video color. |
+| **use_inverse** | `true` / `false` | `true` (Windows/Android) / `false` (other) | Renders monsters detected via telepathy or detection spells in inverse video color. |
 | **video** | *(varies)* | *(varies)* | Configures video update routines and window scaling methods for terminal display optimization. |
 | **videocolors** | *(varies)* | *(varies)* | Configures raw color mapping values for the internal console rendering loop. |
 | **videoshades** | *(varies)* | *(varies)* | Configures the mapping of gray shades to black/gray/white for monochrome terminal displays. |
