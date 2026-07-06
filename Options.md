@@ -138,10 +138,6 @@
 | **dogname** | *(varies)* | *(none)* | The name of your (first) dog (e.g., dogname:Fang) |
 | **horsegender** | *(varies)* | *(none)* | The gender of your (first) horse (e.g., horsegender:female) |
 | **horsename** | *(varies)* | *(none)* | The name of your (first) horse (e.g., horsename:Silver) |
-| **partydetails** | `true` / `false` | `false` | Give detailed information for each pet |
-| **partylinecolor** | `true` / `false` | `true` | Use colors for pet statistics |
-| **partymultiline** | `true` / `false` | `false` | Print statistics of each pet on a separate status line |
-| **petattr** | *(varies)* | *(varies)* | Attributes for highlighting pets |
 | **pets_not_gifted** | `true` / `false` | `false` | You receive no gifted pets |
 | **pettype** | *(varies)* | *(varies)* | Your preferred initial pet type |
 | **ramgender** | *(varies)* | *(none)* | The gender of your (first) ram (e.g., ramgender:male) |
@@ -219,6 +215,7 @@
 | **msg_window** | *(varies)* | *(varies)* | The type of message window required |
 | **null** | `true` / `false` | `true` | Allow nulls to be sent to terminal |
 | **objects** | *(varies)* | *(varies)* | The symbols to use for objects |
+| **petattr** | *(varies)* | *(varies)* | Attributes for highlighting pets |
 | **show_decorations** | `true` / `false` | `true` | Show decorations via colors in ASCII mode |
 | **silent** | `true` / `false` | `true` | Don't use terminal bell |
 | **standout** | `true` / `false` | `false` | Use standout for --more-- |
@@ -322,6 +319,9 @@
 | **mail** | `true` / `false` | `true` | Enable the mail daemon |
 | **menu_objsyms** | `true` / `false` | `false` | Show object symbols in menus |
 | **page_wait** | `true` / `false` | `true` | Page wait on Mac |
+| **partydetails** | `true` / `false` | `false` | Give detailed information for each pet |
+| **partylinecolor** | `true` / `false` | `true` | Use colors for pet statistics |
+| **partymultiline** | `true` / `false` | `false` | Print statistics of each pet on a separate status line |
 | **preload_tiles** | `true` / `false` | `true` | Preload tiles |
 | **rawio** | `true` / `false` | `false` | Allow use to raw I/O |
 | **roguesymset** | *(varies)* | *(varies)* | Load a set of rogue display symbols from the symbols file |
