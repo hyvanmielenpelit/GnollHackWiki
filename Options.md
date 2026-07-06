@@ -9,7 +9,7 @@
 ## 🖥️ User Interface & Display
 
 | Option Name | Values | Default | Description |
-| :--- | :--- | :--- | :--- |
+| :---------- | :----: | :-----: | :---------- |
 | **align_message** | *(varies)* | `top` | Message window alignment |
 | **align_status** | *(varies)* | `top` | Status window alignment |
 | **animation_interval** | *(varies)* | `20` | Animation frame interval in milliseconds |
@@ -127,7 +127,7 @@
 ## ⚙️ Gameplay & Mechanics
 
 | Option Name | Values | Default | Description |
-| :--- | :--- | :--- | :--- |
+| :---------- | :----: | :-----: | :---------- |
 | **asksavedisk** | `true` / `false` | `false` | Prompt for saving to a disk |
 | **autodescribe** | `true` / `false` | `true` | Describe terrain under cursor |
 | **autodig** | `true` / `false` | `true` | Dig if moving and wielding a digging tool |
@@ -197,7 +197,7 @@
 ## 🖱️ Controls & Input
 
 | Option Name | Values | Default | Description |
-| :--- | :--- | :--- | :--- |
+| :---------- | :----: | :-----: | :---------- |
 | **BIOS** | `true` / `false` | `false` | Use IBM ROM BIOS calls |
 | **altkeyhandler** | *(varies)* | *(varies)* | Alternate key handler |
 | **altmeta** | `true` / `false` | `true` | Treat 'ESC c' as M-c |
@@ -228,7 +228,7 @@
 ## 🐾 Pets & Companions
 
 | Option Name | Values | Default | Description |
-| :--- | :--- | :--- | :--- |
+| :---------- | :----: | :-----: | :---------- |
 | **catbreed** | *(varies)* | *(none)* | The breed of your (first) cat (e.g., catbreed:white persian) |
 | **catgender** | *(varies)* | *(none)* | The gender of your (first) cat (e.g., catgender:female) |
 | **catname** | *(varies)* | *(none)* | The name of your (first) cat (e.g., catname:Tabby) |
@@ -253,7 +253,7 @@
 ## 🔊 Audio & Sound
 
 | Option Name | Values | Default | Description |
-| :--- | :--- | :--- | :--- |
+| :---------- | :----: | :-----: | :---------- |
 | **acoustics** | `true` / `false` | `true` | Can your character hear anything |
 | **shield_effect_length** | *(varies)* | `20` | Shield effect length |
 | **sound_volume_ambient** | *(varies)* | `20` | Ambient volume |
@@ -268,7 +268,7 @@
 ## 🧬 Character & Roleplay
 
 | Option Name | Values | Default | Description |
-| :--- | :--- | :--- | :--- |
+| :---------- | :----: | :-----: | :---------- |
 | **align** | *(varies)* | *(varies)* | Your starting alignment (lawful, neutral, or chaotic) |
 | **blind** | `true` / `false` | `false` | Your character is permanently blind |
 | **female** | `true` / `false` | `false` | Is your character female |
@@ -285,7 +285,7 @@
 > ℹ️ **Note:** These options pertain to the legacy ASCII version of the game. They are not used by the modern versions of GnollHack.
 
 | Option Name | Values | Default | Description |
-| :--- | :--- | :--- | :--- |
+| :---------- | :----: | :-----: | :---------- |
 | **ascii_map** | `true` / `false` | `false` | Show map as text |
 | **autostatuslines** | `true` / `false` | `false` | Adjust the number of status lines automatically |
 | **classic_colors** | `true` / `false` | `false` | Use classic colors for boulders and floor symbols |
@@ -307,7 +307,7 @@
 > ⚠️ **Warning:** These options are completely obsolete. They are listed here only for completeness's sake.
 
 | Option Name | Values | Default | Description |
-| :--- | :--- | :--- | :--- |
+| :---------- | :----: | :-----: | :---------- |
 | **DECgraphics** | *(varies)* | *(varies)* | Load DECGraphics display symbols |
 | **IBMgraphics** | *(varies)* | *(varies)* | Load IBMGraphics display symbols |
 | **Macgraphics** | *(varies)* | *(varies)* | Load MACGraphics display symbols |
