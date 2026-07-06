@@ -10,17 +10,12 @@
 
 | Option Name | Values | Default | Description |
 | :---------- | :----: | :-----: | :---------- |
-| **animation_interval** | *(varies)* | `20` | Animation frame interval in milliseconds |
-| **blinking_cursor_on_tiles** | `true` / `false` | `false` | Display a blinking cursor when using tiles |
 | **crawl_interval** | *(varies)* | `15` | Crawl movement interval in milliseconds |
 | **dark_room** | `true` / `false` | `true` | Show floor outside line of sight differently |
 | **detailed_weights** | `true` / `false` | `false` | Show object weights using more accurate units |
-| **fast_map** | `true` / `false` | `true` | Use optimized, less flexible map display |
 | **fullscreen** | `true` / `false` | `false` | Toggle fullscreen |
 | **fullstatuslineorder** | `true` / `false` | `true` | Use full status line order |
-| **guicolor** | `true` / `false` | `true` | Use color for UI |
 | **herewindow** | `true` / `false` | `true` | Show here window |
-| **hicolor** | *(varies)* | *(varies)* | Same as palette, only order is reversed |
 | **hilite_pet** | `true` / `false` | `false` | Use highlight for pets |
 | **hilite_pile** | `true` / `false` | `false` | Highlight piles of items |
 | **hitpointbar** | `true` / `false` | `false` | Show colored bar for hit points |
@@ -38,12 +33,10 @@
 | **menu_invert_page** | *(varies)* | *(varies)* | Invert all items on this page of a menu |
 | **menu_last_page** | *(varies)* | *(varies)* | Jump to the last page in a menu |
 | **menu_next_page** | *(varies)* | *(varies)* | Goto the next menu page |
-| **menu_objsyms** | `true` / `false` | `false` | Show object symbols in menus |
 | **menu_previous_page** | *(varies)* | *(varies)* | Goto the previous menu page |
 | **menu_search** | *(varies)* | *(varies)* | Search for a menu item |
 | **menu_select_all** | *(varies)* | *(varies)* | Select all items in a menu |
 | **menu_select_page** | *(varies)* | *(varies)* | Select all items on this page of a menu |
-| **menu_tab_sep** | `true` / `false` | `false` | Menu formatting |
 | **menucolors** | `true` / `false` | `true` | Use colors in menus |
 | **menustyle** | *(varies)* | *(varies)* | User interface for object selection |
 | **move_interval** | *(varies)* | `15` | Normal movement interval in milliseconds |
@@ -53,20 +46,11 @@
 | **palette** | *(varies)* | *(varies)* | Palette |
 | **perm_invent** | `true` / `false` | `false` | Show permanent inventory window |
 | **popup_dialog** | `true` / `false` | `false` | Use popup dialog |
-| **preferred_screen_scale** | *(varies)* | *(varies)* | Preferred screen scale |
-| **preload_tiles** | `true` / `false` | `true` | Preload tiles |
-| **roguesymset** | *(varies)* | *(varies)* | Load a set of rogue display symbols from the symbols file |
 | **runmode** | *(varies)* | *(varies)* | Display frequency when `running' or `travelling' |
-| **scroll_amount** | *(varies)* | *(varies)* | Amount to scroll map when scroll_margin is reached |
 | **scroll_margin** | *(varies)* | *(varies)* | Scroll map when this far from the edge |
-| **show_buff_timer** | `true` / `false` | `false` | Show buff timer on tiles |
 | **show_comparison_stats** | `true` / `false` | `true` | Show comparison statistics for items when picking them up |
 | **show_damage_formula** | `true` / `false` | `false` | Show damage formula in examine |
 | **show_dice_as_ranges** | `true` / `false` | `true` | Show dice as ranges (e.g., 2-12 instead of 2d6) |
-| **show_grid** | `true` / `false` | `false` | Show grid between tiles |
-| **show_tile_mon_hp_bar** | `true` / `false` | `false` | Show monster hit points on tiles |
-| **show_tile_pet_hp_bar** | `true` / `false` | `false` | Show pet hit points on tiles |
-| **show_tile_u_hp_bar** | `true` / `false` | `false` | Show player hit points on tiles |
 | **show_weapon_style** | `true` / `false` | `true` | Show used weapon type in status line |
 | **show_weight_summary** | `true` / `false` | `true` | Show total weight at the end of inventory |
 | **showexp** | `true` / `false` | `true` | Show experience points in status line |
@@ -86,10 +70,8 @@
 | **tile_file** | *(varies)* | *(varies)* | Name of tile file |
 | **tile_height** | *(varies)* | *(varies)* | Height of tiles |
 | **tile_width** | *(varies)* | *(varies)* | Width of tiles |
-| **tiled_map** | `true` / `false` | `true` | Tiled map |
 | **time** | `true` / `false` | `false` | Display game turns in status line |
 | **tombstone** | `true` / `false` | `true` | Show tombstone when your character dies |
-| **toptenwin** | `true` / `false` | `false` | Show top scores in window |
 | **use_inverse** | `true` / `false` | `true` | Display detected monsters in inverse |
 | **vary_msgcount** | *(varies)* | *(varies)* | Show more old messages at a time |
 | **video** | *(varies)* | *(varies)* | Method of video updating |
@@ -98,7 +80,6 @@
 | **wiz_mstatusline** | `true` / `false` | `false` | Enable extended monster status line in wizard mode |
 | **wizweight** | `true` / `false` | `false` | Show weights in inventory in wizard mode |
 | **worn_shows_equipment** | `true` / `false` | `true` | Worn items shows equipment screen |
-| **wraptext** | `true` / `false` | `false` | Wrap text |
 
 ## ⚙️ Gameplay & Mechanics
 
@@ -294,7 +275,9 @@
 | **align_status** | *(varies)* | `top` | Status window alignment |
 | **autostatuslines** | `true` / `false` | `false` | Adjust the number of status lines automatically |
 | **cursesgraphics** | *(varies)* | *(varies)* | Load curses display symbols |
+| **guicolor** | `true` / `false` | `true` | Use color for UI |
 | **here_window_size** | *(varies)* | `20` | Number of rows in the here window |
+| **hicolor** | *(varies)* | *(varies)* | Same as palette, only order is reversed |
 | **statuslines** | *(varies)* | *(varies)* | 2 to 8 lines for status display |
 | **term_cols** | *(varies)* | *(varies)* | Number of columns |
 | **term_rows** | *(varies)* | *(varies)* | Number of rows |
@@ -307,6 +290,7 @@
 
 | Option Name | Values | Default | Description |
 | :---------- | :----: | :-----: | :---------- |
+| **blinking_cursor_on_tiles** | `true` / `false` | `false` | Display a blinking cursor when using tiles |
 | **font_map** | *(varies)* | *(varies)* | The font to use in the map window |
 | **font_menu** | *(varies)* | *(varies)* | The font to use in menus |
 | **font_message** | *(varies)* | *(varies)* | The font to use in the message window |
@@ -317,6 +301,15 @@
 | **font_status** | *(varies)* | *(varies)* | The font to use in status window |
 | **font_text** | *(varies)* | *(varies)* | The font to use in text windows |
 | **map_mode** | *(varies)* | *(varies)* | Map display mode under Windows |
+| **menu_tab_sep** | `true` / `false` | `false` | Menu formatting |
+| **preferred_screen_scale** | *(varies)* | *(varies)* | Preferred screen scale |
+| **scroll_amount** | *(varies)* | *(varies)* | Amount to scroll map when scroll_margin is reached |
+| **show_buff_timer** | `true` / `false` | `false` | Show buff timer on tiles |
+| **show_grid** | `true` / `false` | `false` | Show grid between tiles |
+| **show_tile_mon_hp_bar** | `true` / `false` | `false` | Show monster hit points on tiles |
+| **show_tile_pet_hp_bar** | `true` / `false` | `false` | Show pet hit points on tiles |
+| **show_tile_u_hp_bar** | `true` / `false` | `false` | Show player hit points on tiles |
+| **toptenwin** | `true` / `false` | `false` | Show top scores in window |
 
 ## 🗑️ Obsolete
 
@@ -324,8 +317,15 @@
 
 | Option Name | Values | Default | Description |
 | :---------- | :----: | :-----: | :---------- |
+| **animation_interval** | *(varies)* | `20` | Animation frame interval in milliseconds |
 | **boulder** | *(varies)* | *(varies)* | Deprecated (use S_boulder in sym file instead) |
+| **fast_map** | `true` / `false` | `true` | Use optimized, less flexible map display |
 | **font_size_map** | *(varies)* | *(varies)* | The size of the map font |
 | **large_font** | `true` / `false` | `false` | Obsolete: use large font |
+| **menu_objsyms** | `true` / `false` | `false` | Show object symbols in menus |
 | **page_wait** | `true` / `false` | `true` | Page wait on Mac |
+| **preload_tiles** | `true` / `false` | `true` | Preload tiles |
+| **roguesymset** | *(varies)* | *(varies)* | Load a set of rogue display symbols from the symbols file |
+| **tiled_map** | `true` / `false` | `true` | Tiled map |
+| **wraptext** | `true` / `false` | `false` | Wrap text |
 
