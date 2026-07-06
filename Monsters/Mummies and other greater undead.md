@@ -1,15 +1,17 @@
-- [[/Monsters/Kobold mummy]]
-- [[/Monsters/Gnome mummy]]
-- [[/Monsters/Dwarf mummy]]
-- [[/Monsters/Orc mummy]]
-- [[/Monsters/Gnoll mummy]]
-- [[/Monsters/Elf mummy]]
-- [[/Monsters/Human mummy]]
-- [[/Monsters/Ettin mummy]]
-- [[/Monsters/Giant mummy]]
-- [[/Monsters/Greater mummy]]
-- [[/Monsters/Greater mummy priest]]
-- [[/Monsters/Greater mummy high priest]]
-- [[/Monsters/Greater mummy pharaoh]]
-- [[/Monsters/Greater dwarven mummy geologist]]
-- [[/Monsters/Amonket]]
+| Monster | Genocidable |
+| :--- | :---: |
+| [[/Monsters/Kobold mummy]] | ✅ |
+| [[/Monsters/Gnome mummy]] | ✅ |
+| [[/Monsters/Dwarf mummy]] | ✅ |
+| [[/Monsters/Orc mummy]] | ✅ |
+| [[/Monsters/Gnoll mummy]] | ✅ |
+| [[/Monsters/Elf mummy]] | ✅ |
+| [[/Monsters/Human mummy]] | ✅ |
+| [[/Monsters/Ettin mummy]] | ✅ |
+| [[/Monsters/Giant mummy]] | ✅ |
+| [[/Monsters/Greater mummy]] | ✅ |
+| [[/Monsters/Greater mummy priest]] | ✅ |
+| [[/Monsters/Greater mummy high priest]] | ✅ |
+| [[/Monsters/Greater mummy pharaoh]] | ✅ |
+| [[/Monsters/Greater dwarven mummy geologist]] | ✅ |
+| [[/Monsters/Amonket]] | ❌ |

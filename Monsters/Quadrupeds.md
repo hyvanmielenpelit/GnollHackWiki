@@ -1,9 +1,11 @@
-- [[/Monsters/Rothe]]
-- [[/Monsters/Wumpus]]
-- [[/Monsters/Bison]]
-- [[/Monsters/Titanothere]]
-- [[/Monsters/Oliphant]]
-- [[/Monsters/Leucrotta]]
-- [[/Monsters/Baluchitherium]]
-- [[/Monsters/Gorgon]]
-- [[/Monsters/Mastodon]]
+| Monster | Genocidable |
+| :--- | :---: |
+| [[/Monsters/Rothe]] | ✅ |
+| [[/Monsters/Wumpus]] | ✅ |
+| [[/Monsters/Bison]] | ✅ |
+| [[/Monsters/Titanothere]] | ✅ |
+| [[/Monsters/Oliphant]] | ✅ |
+| [[/Monsters/Leucrotta]] | ✅ |
+| [[/Monsters/Baluchitherium]] | ✅ |
+| [[/Monsters/Gorgon]] | ✅ |
+| [[/Monsters/Mastodon]] | ✅ |

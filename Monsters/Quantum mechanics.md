@@ -1,2 +1,4 @@
-- [[/Monsters/Quantum mechanic]]
-- [[/Monsters/Elder quantum mechanic]]
+| Monster | Genocidable |
+| :--- | :---: |
+| [[/Monsters/Quantum mechanic]] | ✅ |
+| [[/Monsters/Elder quantum mechanic]] | ✅ |

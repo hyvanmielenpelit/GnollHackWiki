@@ -1,2 +1,4 @@
-- [[/Monsters/Yellow light]]
-- [[/Monsters/Black light]]
+| Monster | Genocidable |
+| :--- | :---: |
+| [[/Monsters/Yellow light]] | ✅ |
+| [[/Monsters/Black light]] | ✅ |

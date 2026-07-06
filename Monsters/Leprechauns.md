@@ -1,1 +1,3 @@
-- [[/Monsters/Leprechaun]]
+| Monster | Genocidable |
+| :--- | :---: |
+| [[/Monsters/Leprechaun]] | ✅ |

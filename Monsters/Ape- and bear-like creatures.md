@@ -1,12 +1,14 @@
-- [[/Monsters/Monkey]]
-- [[/Monsters/Ape]]
-- [[/Monsters/Yeti]]
-- [[/Monsters/Carnivorous ape]]
-- [[/Monsters/Zruty]]
-- [[/Monsters/Sasquatch]]
-- [[/Monsters/Owlbear]]
-- [[/Monsters/Grizzly bear]]
-- [[/Monsters/Owlbear shaman]]
-- [[/Monsters/Werebear]]
-- [[/Monsters/Owlbear matriarch]]
-- [[/Monsters/Owlbear patriarch]]
+| Monster | Genocidable |
+| :--- | :---: |
+| [[/Monsters/Monkey]] | ✅ |
+| [[/Monsters/Ape]] | ✅ |
+| [[/Monsters/Yeti]] | ✅ |
+| [[/Monsters/Carnivorous ape]] | ✅ |
+| [[/Monsters/Zruty]] | ✅ |
+| [[/Monsters/Sasquatch]] | ✅ |
+| [[/Monsters/Owlbear]] | ✅ |
+| [[/Monsters/Grizzly bear]] | ✅ |
+| [[/Monsters/Owlbear shaman]] | ✅ |
+| [[/Monsters/Werebear]] | ❌ |
+| [[/Monsters/Owlbear matriarch]] | ✅ |
+| [[/Monsters/Owlbear patriarch]] | ✅ |

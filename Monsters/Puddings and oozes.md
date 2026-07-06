@@ -1,4 +1,6 @@
-- [[/Monsters/Gray ooze]]
-- [[/Monsters/Brown pudding]]
-- [[/Monsters/Green slime]]
-- [[/Monsters/Black pudding]]
+| Monster | Genocidable |
+| :--- | :---: |
+| [[/Monsters/Gray ooze]] | ✅ |
+| [[/Monsters/Brown pudding]] | ✅ |
+| [[/Monsters/Green slime]] | ✅ |
+| [[/Monsters/Black pudding]] | ✅ |

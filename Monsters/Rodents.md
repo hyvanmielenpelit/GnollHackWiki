@@ -1,6 +1,8 @@
-- [[/Monsters/Sewer rat]]
-- [[/Monsters/Giant rat]]
-- [[/Monsters/Woodchuck]]
-- [[/Monsters/Rabid rat]]
-- [[/Monsters/Rock mole]]
-- [[/Monsters/Wererat]]
+| Monster | Genocidable |
+| :--- | :---: |
+| [[/Monsters/Sewer rat]] | ✅ |
+| [[/Monsters/Giant rat]] | ✅ |
+| [[/Monsters/Woodchuck]] | ✅ |
+| [[/Monsters/Rabid rat]] | ✅ |
+| [[/Monsters/Rock mole]] | ✅ |
+| [[/Monsters/Wererat]] | ❌ |

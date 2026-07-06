@@ -1,5 +1,7 @@
-- [[/Monsters/Wraith]]
-- [[/Monsters/Barrow wight]]
-- [[/Monsters/Spectre]]
-- [[/Monsters/King wraith]]
-- [[/Monsters/Wraithlord]]
+| Monster | Genocidable |
+| :--- | :---: |
+| [[/Monsters/Wraith]] | ✅ |
+| [[/Monsters/Barrow wight]] | ✅ |
+| [[/Monsters/Spectre]] | ✅ |
+| [[/Monsters/King wraith]] | ✅ |
+| [[/Monsters/Wraithlord]] | ✅ |

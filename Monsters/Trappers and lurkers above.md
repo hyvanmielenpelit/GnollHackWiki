@@ -1,2 +1,4 @@
-- [[/Monsters/Lurker above]]
-- [[/Monsters/Trapper]]
+| Monster | Genocidable |
+| :--- | :---: |
+| [[/Monsters/Lurker above]] | ✅ |
+| [[/Monsters/Trapper]] | ✅ |

@@ -1,2 +1,4 @@
-- [[/Monsters/Grid bug]]
-- [[/Monsters/Xan]]
+| Monster | Genocidable |
+| :--- | :---: |
+| [[/Monsters/Grid bug]] | ✅ |
+| [[/Monsters/Xan]] | ✅ |

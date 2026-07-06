@@ -1,7 +1,9 @@
-- [[/Monsters/Kitten]]
-- [[/Monsters/Housecat]]
-- [[/Monsters/Large cat]]
-- [[/Monsters/Lynx]]
-- [[/Monsters/Jaguar]]
-- [[/Monsters/Panther]]
-- [[/Monsters/Tiger]]
+| Monster | Genocidable |
+| :--- | :---: |
+| [[/Monsters/Kitten]] | ✅ |
+| [[/Monsters/Housecat]] | ✅ |
+| [[/Monsters/Large cat]] | ✅ |
+| [[/Monsters/Lynx]] | ✅ |
+| [[/Monsters/Jaguar]] | ✅ |
+| [[/Monsters/Panther]] | ✅ |
+| [[/Monsters/Tiger]] | ✅ |

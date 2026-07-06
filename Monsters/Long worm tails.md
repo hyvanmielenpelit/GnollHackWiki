@@ -1,2 +1,4 @@
-- [[/Monsters/Long worm tail]]
-- [[/Monsters/Elder long worm tail]]
+| Monster | Genocidable |
+| :--- | :---: |
+| [[/Monsters/Long worm tail]] | ❌ |
+| [[/Monsters/Elder long worm tail]] | ❌ |

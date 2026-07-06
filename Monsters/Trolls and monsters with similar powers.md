@@ -1,7 +1,9 @@
-- [[/Monsters/Troll]]
-- [[/Monsters/Rock troll]]
-- [[/Monsters/Water troll]]
-- [[/Monsters/War troll]]
-- [[/Monsters/Thoul]]
-- [[/Monsters/Ice troll]]
-- [[/Monsters/Tarrasque]]
+| Monster | Genocidable |
+| :--- | :---: |
+| [[/Monsters/Troll]] | ✅ |
+| [[/Monsters/Rock troll]] | ✅ |
+| [[/Monsters/Water troll]] | ✅ |
+| [[/Monsters/War troll]] | ✅ |
+| [[/Monsters/Thoul]] | ✅ |
+| [[/Monsters/Ice troll]] | ✅ |
+| [[/Monsters/Tarrasque]] | ❌ |

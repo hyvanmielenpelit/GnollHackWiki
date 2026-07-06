@@ -1,34 +1,36 @@
-- [[/Monsters/Gray dragon hatchling]]
-- [[/Monsters/Silver dragon hatchling]]
-- [[/Monsters/Red dragon hatchling]]
-- [[/Monsters/White dragon hatchling]]
-- [[/Monsters/Orange dragon hatchling]]
-- [[/Monsters/Black dragon hatchling]]
-- [[/Monsters/Blue dragon hatchling]]
-- [[/Monsters/Green dragon hatchling]]
-- [[/Monsters/Yellow dragon hatchling]]
-- [[/Monsters/Gray dragon]]
-- [[/Monsters/Silver dragon]]
-- [[/Monsters/Red dragon]]
-- [[/Monsters/White dragon]]
-- [[/Monsters/Orange dragon]]
-- [[/Monsters/Black dragon]]
-- [[/Monsters/Blue dragon]]
-- [[/Monsters/Green dragon]]
-- [[/Monsters/Yellow dragon]]
-- [[/Monsters/Ancient gray dragon]]
-- [[/Monsters/Ancient silver dragon]]
-- [[/Monsters/Ancient red dragon]]
-- [[/Monsters/Ancient white dragon]]
-- [[/Monsters/Ancient orange dragon]]
-- [[/Monsters/Ancient black dragon]]
-- [[/Monsters/Ancient blue dragon]]
-- [[/Monsters/Ancient green dragon]]
-- [[/Monsters/Ancient yellow dragon]]
-- [[/Monsters/Dracolich]]
-- [[/Monsters/Elder dracolich]]
-- [[/Monsters/Gold dragon]]
-- [[/Monsters/Ancient gold dragon]]
-- [[/Monsters/Bahamut]]
-- [[/Monsters/Tiamat]]
-- [[/Monsters/Ixoth]]
+| Monster | Genocidable |
+| :--- | :---: |
+| [[/Monsters/Gray dragon hatchling]] | ✅ |
+| [[/Monsters/Silver dragon hatchling]] | ✅ |
+| [[/Monsters/Red dragon hatchling]] | ✅ |
+| [[/Monsters/White dragon hatchling]] | ✅ |
+| [[/Monsters/Orange dragon hatchling]] | ✅ |
+| [[/Monsters/Black dragon hatchling]] | ✅ |
+| [[/Monsters/Blue dragon hatchling]] | ✅ |
+| [[/Monsters/Green dragon hatchling]] | ✅ |
+| [[/Monsters/Yellow dragon hatchling]] | ✅ |
+| [[/Monsters/Gray dragon]] | ✅ |
+| [[/Monsters/Silver dragon]] | ✅ |
+| [[/Monsters/Red dragon]] | ✅ |
+| [[/Monsters/White dragon]] | ✅ |
+| [[/Monsters/Orange dragon]] | ✅ |
+| [[/Monsters/Black dragon]] | ✅ |
+| [[/Monsters/Blue dragon]] | ✅ |
+| [[/Monsters/Green dragon]] | ✅ |
+| [[/Monsters/Yellow dragon]] | ✅ |
+| [[/Monsters/Ancient gray dragon]] | ✅ |
+| [[/Monsters/Ancient silver dragon]] | ✅ |
+| [[/Monsters/Ancient red dragon]] | ✅ |
+| [[/Monsters/Ancient white dragon]] | ✅ |
+| [[/Monsters/Ancient orange dragon]] | ✅ |
+| [[/Monsters/Ancient black dragon]] | ✅ |
+| [[/Monsters/Ancient blue dragon]] | ✅ |
+| [[/Monsters/Ancient green dragon]] | ✅ |
+| [[/Monsters/Ancient yellow dragon]] | ✅ |
+| [[/Monsters/Dracolich]] | ✅ |
+| [[/Monsters/Elder dracolich]] | ✅ |
+| [[/Monsters/Gold dragon]] | ❌ |
+| [[/Monsters/Ancient gold dragon]] | ❌ |
+| [[/Monsters/Bahamut]] | ❌ |
+| [[/Monsters/Tiamat]] | ❌ |
+| [[/Monsters/Ixoth]] | ❌ |

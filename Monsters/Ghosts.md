@@ -1,2 +1,4 @@
-- [[/Monsters/Ghost]]
-- [[/Monsters/Shade]]
+| Monster | Genocidable |
+| :--- | :---: |
+| [[/Monsters/Ghost]] | ❌ |
+| [[/Monsters/Shade]] | ❌ |

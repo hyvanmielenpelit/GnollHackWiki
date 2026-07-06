@@ -1,21 +1,23 @@
-- [[/Monsters/Jackal]]
-- [[/Monsters/Fox]]
-- [[/Monsters/Coyote]]
-- [[/Monsters/Winter wolf cub]]
-- [[/Monsters/Dingo]]
-- [[/Monsters/Little dog]]
-- [[/Monsters/Werejackal]]
-- [[/Monsters/Direwolf cub]]
-- [[/Monsters/Hell hound pup]]
-- [[/Monsters/Dog]]
-- [[/Monsters/Hyena]]
-- [[/Monsters/Wolf]]
-- [[/Monsters/Large dog]]
-- [[/Monsters/Direwolf]]
-- [[/Monsters/Winter wolf]]
-- [[/Monsters/Werewolf]]
-- [[/Monsters/Warg]]
-- [[/Monsters/Large direwolf]]
-- [[/Monsters/Hell hound]]
-- [[/Monsters/Shoosuva]]
-- [[/Monsters/Cerberus]]
+| Monster | Genocidable |
+| :--- | :---: |
+| [[/Monsters/Jackal]] | ✅ |
+| [[/Monsters/Fox]] | ✅ |
+| [[/Monsters/Coyote]] | ✅ |
+| [[/Monsters/Winter wolf cub]] | ✅ |
+| [[/Monsters/Dingo]] | ✅ |
+| [[/Monsters/Little dog]] | ✅ |
+| [[/Monsters/Werejackal]] | ❌ |
+| [[/Monsters/Direwolf cub]] | ✅ |
+| [[/Monsters/Hell hound pup]] | ✅ |
+| [[/Monsters/Dog]] | ✅ |
+| [[/Monsters/Hyena]] | ✅ |
+| [[/Monsters/Wolf]] | ✅ |
+| [[/Monsters/Large dog]] | ✅ |
+| [[/Monsters/Direwolf]] | ✅ |
+| [[/Monsters/Winter wolf]] | ✅ |
+| [[/Monsters/Werewolf]] | ❌ |
+| [[/Monsters/Warg]] | ✅ |
+| [[/Monsters/Large direwolf]] | ✅ |
+| [[/Monsters/Hell hound]] | ✅ |
+| [[/Monsters/Shoosuva]] | ✅ |
+| [[/Monsters/Cerberus]] | ❌ |

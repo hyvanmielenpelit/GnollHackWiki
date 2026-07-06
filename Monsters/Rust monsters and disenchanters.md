@@ -1,2 +1,4 @@
-- [[/Monsters/Rust monster]]
-- [[/Monsters/Disenchanter]]
+| Monster | Genocidable |
+| :--- | :---: |
+| [[/Monsters/Rust monster]] | ✅ |
+| [[/Monsters/Disenchanter]] | ✅ |

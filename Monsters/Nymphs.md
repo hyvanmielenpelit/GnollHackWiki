@@ -1,4 +1,6 @@
-- [[/Monsters/Wood nymph]]
-- [[/Monsters/Water nymph]]
-- [[/Monsters/Mountain nymph]]
-- [[/Monsters/Harpy]]
+| Monster | Genocidable |
+| :--- | :---: |
+| [[/Monsters/Wood nymph]] | ✅ |
+| [[/Monsters/Water nymph]] | ✅ |
+| [[/Monsters/Mountain nymph]] | ✅ |
+| [[/Monsters/Harpy]] | ✅ |

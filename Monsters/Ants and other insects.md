@@ -1,7 +1,9 @@
-- [[/Monsters/Giant ant]]
-- [[/Monsters/Giant beetle]]
-- [[/Monsters/Fire ant]]
-- [[/Monsters/Killer bee]]
-- [[/Monsters/Queen bee]]
-- [[/Monsters/Soldier ant]]
-- [[/Monsters/Gargantuan beetle]]
+| Monster | Genocidable |
+| :--- | :---: |
+| [[/Monsters/Giant ant]] | ✅ |
+| [[/Monsters/Giant beetle]] | ✅ |
+| [[/Monsters/Fire ant]] | ✅ |
+| [[/Monsters/Killer bee]] | ✅ |
+| [[/Monsters/Queen bee]] | ✅ |
+| [[/Monsters/Soldier ant]] | ✅ |
+| [[/Monsters/Gargantuan beetle]] | ✅ |

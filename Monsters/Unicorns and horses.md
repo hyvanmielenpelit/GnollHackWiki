@@ -1,10 +1,12 @@
-- [[/Monsters/Ram]]
-- [[/Monsters/Pony]]
-- [[/Monsters/Pegasus]]
-- [[/Monsters/Horse]]
-- [[/Monsters/Large ram]]
-- [[/Monsters/White unicorn]]
-- [[/Monsters/Gray unicorn]]
-- [[/Monsters/Black unicorn]]
-- [[/Monsters/Warhorse]]
-- [[/Monsters/Warram]]
+| Monster | Genocidable |
+| :--- | :---: |
+| [[/Monsters/Ram]] | ✅ |
+| [[/Monsters/Pony]] | ✅ |
+| [[/Monsters/Pegasus]] | ✅ |
+| [[/Monsters/Horse]] | ✅ |
+| [[/Monsters/Large ram]] | ✅ |
+| [[/Monsters/White unicorn]] | ✅ |
+| [[/Monsters/Gray unicorn]] | ✅ |
+| [[/Monsters/Black unicorn]] | ✅ |
+| [[/Monsters/Warhorse]] | ✅ |
+| [[/Monsters/Warram]] | ✅ |

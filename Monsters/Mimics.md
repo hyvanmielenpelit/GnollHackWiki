@@ -1,9 +1,11 @@
-- [[/Monsters/Small mimic]]
-- [[/Monsters/Small luggage]]
-- [[/Monsters/Medium luggage]]
-- [[/Monsters/Large luggage]]
-- [[/Monsters/Large mimic]]
-- [[/Monsters/Giant mimic]]
-- [[/Monsters/Gargantuan Mimic]]
-- [[/Monsters/Giant luggage]]
-- [[/Monsters/Chaos mimic]]
+| Monster | Genocidable |
+| :--- | :---: |
+| [[/Monsters/Small mimic]] | ✅ |
+| [[/Monsters/Small luggage]] | ❌ |
+| [[/Monsters/Medium luggage]] | ❌ |
+| [[/Monsters/Large luggage]] | ❌ |
+| [[/Monsters/Large mimic]] | ✅ |
+| [[/Monsters/Giant mimic]] | ✅ |
+| [[/Monsters/Gargantuan Mimic]] | ❌ |
+| [[/Monsters/Giant luggage]] | ❌ |
+| [[/Monsters/Chaos mimic]] | ✅ |

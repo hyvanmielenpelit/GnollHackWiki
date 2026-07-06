@@ -1,6 +1,8 @@
-- [[/Monsters/Dust vortex]]
-- [[/Monsters/Fog cloud]]
-- [[/Monsters/Ice vortex]]
-- [[/Monsters/Steam vortex]]
-- [[/Monsters/Fire vortex]]
-- [[/Monsters/Energy vortex]]
+| Monster | Genocidable |
+| :--- | :---: |
+| [[/Monsters/Dust vortex]] | ✅ |
+| [[/Monsters/Fog cloud]] | ✅ |
+| [[/Monsters/Ice vortex]] | ✅ |
+| [[/Monsters/Steam vortex]] | ✅ |
+| [[/Monsters/Fire vortex]] | ✅ |
+| [[/Monsters/Energy vortex]] | ✅ |

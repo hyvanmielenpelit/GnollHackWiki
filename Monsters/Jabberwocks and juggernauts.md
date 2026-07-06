@@ -1,2 +1,4 @@
-- [[/Monsters/Jabberwock]]
-- [[/Monsters/Juggernaut]]
+| Monster | Genocidable |
+| :--- | :---: |
+| [[/Monsters/Jabberwock]] | ✅ |
+| [[/Monsters/Juggernaut]] | ❌ |

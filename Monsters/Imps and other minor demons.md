@@ -1,6 +1,8 @@
-- [[/Monsters/Manes]]
-- [[/Monsters/Lemure]]
-- [[/Monsters/Homunculus]]
-- [[/Monsters/Imp]]
-- [[/Monsters/Quasit]]
-- [[/Monsters/Tengu]]
+| Monster | Genocidable |
+| :--- | :---: |
+| [[/Monsters/Manes]] | ✅ |
+| [[/Monsters/Lemure]] | ✅ |
+| [[/Monsters/Homunculus]] | ✅ |
+| [[/Monsters/Imp]] | ✅ |
+| [[/Monsters/Quasit]] | ✅ |
+| [[/Monsters/Tengu]] | ✅ |

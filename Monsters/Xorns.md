@@ -1,1 +1,3 @@
-- [[/Monsters/Xorn]]
+| Monster | Genocidable |
+| :--- | :---: |
+| [[/Monsters/Xorn]] | ✅ |

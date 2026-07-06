@@ -1,5 +1,7 @@
-- [[/Monsters/Vampire]]
-- [[/Monsters/Vampire lord]]
-- [[/Monsters/Vampire mage]]
-- [[/Monsters/Vampire king]]
-- [[/Monsters/Vlad the Impaler]]
+| Monster | Genocidable |
+| :--- | :---: |
+| [[/Monsters/Vampire]] | ✅ |
+| [[/Monsters/Vampire lord]] | ✅ |
+| [[/Monsters/Vampire mage]] | ✅ |
+| [[/Monsters/Vampire king]] | ✅ |
+| [[/Monsters/Vlad the Impaler]] | ❌ |

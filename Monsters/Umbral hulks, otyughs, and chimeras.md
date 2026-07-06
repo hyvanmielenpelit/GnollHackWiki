@@ -1,4 +1,6 @@
-- [[/Monsters/Umbral hulk]]
-- [[/Monsters/Otyugh]]
-- [[/Monsters/Neo-otyugh]]
-- [[/Monsters/Chimera]]
+| Monster | Genocidable |
+| :--- | :---: |
+| [[/Monsters/Umbral hulk]] | ✅ |
+| [[/Monsters/Otyugh]] | ✅ |
+| [[/Monsters/Neo-otyugh]] | ✅ |
+| [[/Monsters/Chimera]] | ❌ |

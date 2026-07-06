@@ -1,8 +1,10 @@
-- [[/Monsters/Halfling]]
-- [[/Monsters/Dwarf]]
-- [[/Monsters/Bugbear]]
-- [[/Monsters/Dwarf lord]]
-- [[/Monsters/Dwarf king]]
-- [[/Monsters/Tentacled one]]
-- [[/Monsters/Elder tentacled one]]
-- [[/Monsters/Death flayer]]
+| Monster | Genocidable |
+| :--- | :---: |
+| [[/Monsters/Halfling]] | ✅ |
+| [[/Monsters/Dwarf]] | ✅ |
+| [[/Monsters/Bugbear]] | ✅ |
+| [[/Monsters/Dwarf lord]] | ✅ |
+| [[/Monsters/Dwarf king]] | ✅ |
+| [[/Monsters/Tentacled one]] | ✅ |
+| [[/Monsters/Elder tentacled one]] | ✅ |
+| [[/Monsters/Death flayer]] | ✅ |

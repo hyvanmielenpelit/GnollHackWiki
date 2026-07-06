@@ -1,11 +1,13 @@
-- [[/Monsters/Goblin]]
-- [[/Monsters/Hobgoblin]]
-- [[/Monsters/Orc]]
-- [[/Monsters/Hill orc]]
-- [[/Monsters/Black orc]]
-- [[/Monsters/Orc shaman]]
-- [[/Monsters/Great orc]]
-- [[/Monsters/Orc-captain]]
-- [[/Monsters/Goblin king]]
-- [[/Monsters/Orc king]]
-- [[/Monsters/Goblin King]]
+| Monster | Genocidable |
+| :--- | :---: |
+| [[/Monsters/Goblin]] | ✅ |
+| [[/Monsters/Hobgoblin]] | ✅ |
+| [[/Monsters/Orc]] | ✅ |
+| [[/Monsters/Hill orc]] | ✅ |
+| [[/Monsters/Black orc]] | ✅ |
+| [[/Monsters/Orc shaman]] | ✅ |
+| [[/Monsters/Great orc]] | ✅ |
+| [[/Monsters/Orc-captain]] | ✅ |
+| [[/Monsters/Goblin king]] | ✅ |
+| [[/Monsters/Orc king]] | ❌ |
+| [[/Monsters/Goblin King]] | ✅ |

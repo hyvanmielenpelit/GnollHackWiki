@@ -1,12 +1,14 @@
-- [[/Monsters/Giant]]
-- [[/Monsters/Stone giant]]
-- [[/Monsters/Hill giant]]
-- [[/Monsters/Fire giant]]
-- [[/Monsters/Frost giant]]
-- [[/Monsters/Ettin]]
-- [[/Monsters/Hell bovine]]
-- [[/Monsters/Storm giant]]
-- [[/Monsters/Minotaur]]
-- [[/Monsters/Titan]]
-- [[/Monsters/Cyclops]]
-- [[/Monsters/Lord Surtur]]
+| Monster | Genocidable |
+| :--- | :---: |
+| [[/Monsters/Giant]] | ✅ |
+| [[/Monsters/Stone giant]] | ✅ |
+| [[/Monsters/Hill giant]] | ✅ |
+| [[/Monsters/Fire giant]] | ✅ |
+| [[/Monsters/Frost giant]] | ✅ |
+| [[/Monsters/Ettin]] | ✅ |
+| [[/Monsters/Hell bovine]] | ❌ |
+| [[/Monsters/Storm giant]] | ✅ |
+| [[/Monsters/Minotaur]] | ✅ |
+| [[/Monsters/Titan]] | ❌ |
+| [[/Monsters/Cyclops]] | ❌ |
+| [[/Monsters/Lord Surtur]] | ❌ |
