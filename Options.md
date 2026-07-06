@@ -10,6 +10,7 @@
 
 | Option Name | Values | Default | Description |
 | :---------- | :----: | :-----: | :---------- |
+| **acoustics** | `true` / `false` | `true` | Can your character hear anything |
 | **crawl_interval** | *(varies)* | `15` | Crawl movement interval in milliseconds |
 | **dark_room** | `true` / `false` | `true` | Show floor outside line of sight differently |
 | **detailed_weights** | `true` / `false` | `false` | Show object weights using more accurate units |
@@ -24,6 +25,7 @@
 | **menustyle** | *(varies)* | *(varies)* | User interface for object selection |
 | **move_interval** | *(varies)* | `15` | Normal movement interval in milliseconds |
 | **runmode** | *(varies)* | *(varies)* | Display frequency when `running' or `travelling' |
+| **shield_effect_length** | *(varies)* | `20` | Shield effect length |
 | **show_comparison_stats** | `true` / `false` | `true` | Show comparison statistics for items when picking them up |
 | **show_damage_formula** | `true` / `false` | `false` | Show damage formula in examine |
 | **show_dice_as_ranges** | `true` / `false` | `true` | Show dice as ranges (e.g., 2-12 instead of 2d6) |
@@ -34,6 +36,7 @@
 | **sortloot** | *(varies)* | *(varies)* | Sort object selection lists by description |
 | **sparkle** | `true` / `false` | `true` | Display sparkly effect when resisting magic |
 | **spell_table_format** | `true` / `false` | `false` | Show spells in a table format rather than a list |
+| **talk_effect_length** | *(varies)* | `20` | Talk effect length |
 | **tombstone** | `true` / `false` | `true` | Show tombstone when your character dies |
 | **whatis_menu** | `true` / `false` | `false` | Show menu when getting a map location |
 | **wiz_mstatusline** | `true` / `false` | `false` | Enable extended monster status line in wizard mode |
@@ -146,21 +149,6 @@
 | **underline_peaceful** | `true` / `false` | `true` | Underline peaceful monsters |
 | **wolfgender** | *(varies)* | *(none)* | The gender of your (first) direwolf (e.g., wolfgender:female) |
 | **wolfname** | *(varies)* | *(none)* | The name of your (first) direwolf (e.g., wolfname:Shadow) |
-
-## 🔊 Audio & Sound
-
-| Option Name | Values | Default | Description |
-| :---------- | :----: | :-----: | :---------- |
-| **acoustics** | `true` / `false` | `true` | Can your character hear anything |
-| **shield_effect_length** | *(varies)* | `20` | Shield effect length |
-| **sound_volume_ambient** | *(varies)* | `20` | Ambient volume |
-| **sound_volume_dialogue** | *(varies)* | `20` | Dialogue volume |
-| **sound_volume_effects** | *(varies)* | `20` | Sound effect volume |
-| **sound_volume_general** | *(varies)* | `20` | General game volume |
-| **sound_volume_music** | *(varies)* | `20` | Music volume |
-| **sound_volume_ui** | *(varies)* | `20` | User interface sound volume |
-| **soundcard** | *(varies)* | *(varies)* | Type of sound card to use |
-| **talk_effect_length** | *(varies)* | `20` | Talk effect length |
 
 ## 🧬 Character & Roleplay
 
@@ -293,6 +281,12 @@
 | **show_tile_pet_hp_bar** | `true` / `false` | `false` | Show pet hit points on tiles |
 | **show_tile_u_hp_bar** | `true` / `false` | `false` | Show player hit points on tiles |
 | **splash_screen** | `true` / `false` | `true` | Show splash screen |
+| **sound_volume_ambient** | *(varies)* | `20` | Ambient volume |
+| **sound_volume_dialogue** | *(varies)* | `20` | Dialogue volume |
+| **sound_volume_effects** | *(varies)* | `20` | Sound effect volume |
+| **sound_volume_general** | *(varies)* | `20` | General game volume |
+| **sound_volume_music** | *(varies)* | `20` | Music volume |
+| **sound_volume_ui** | *(varies)* | `20` | User interface sound volume |
 | **tile_file** | *(varies)* | *(varies)* | Name of tile file |
 | **tile_height** | *(varies)* | *(varies)* | Height of tiles |
 | **tile_width** | *(varies)* | *(varies)* | Width of tiles |
@@ -326,6 +320,7 @@
 | **rawio** | `true` / `false` | `false` | Allow use to raw I/O |
 | **roguesymset** | *(varies)* | *(varies)* | Load a set of rogue display symbols from the symbols file |
 | **softkeyboard** | `true` / `false` | `false` | Soft keyboard |
+| **soundcard** | *(varies)* | *(varies)* | Type of sound card to use |
 | **subkeyvalue** | *(varies)* | *(varies)* | Override keystroke value |
 | **tiled_map** | `true` / `false` | `true` | Tiled map |
 | **timed_delay** | `true` / `false` | `true` | Use time delay |
