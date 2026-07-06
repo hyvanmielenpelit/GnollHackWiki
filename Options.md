@@ -65,8 +65,8 @@ OPTIONS=pickup_types:characters
 | **runmode** | `teleport` / `run` / `walk` / `crawl` | `run` | Configures map redrawing during automated travel or running. `teleport` updates only at the end of movement; `run` updates every 7 steps; `walk`/`crawl` update every step (with `crawl` using the `crawl_interval` delay). |
 | **shield_effect_length** | *(varies)* | `10` | Number of animation frames to display for shield block or magical protection visual effects. |
 | **show_comparison_stats** | `true` / `false` | `true` | Displays comparison statistics (e.g., changes to Armor Class or weapon damage) in pickup and loot menus against your currently equipped gear. |
-| **show_damage_formula** | `true` / `false` | `false` | Shows the underlying dice formula (e.g., `1d6+2`) used to calculate an item's damage when examining it. |
-| **show_dice_as_ranges** | `true` / `false` | `true` | Converts traditional D&D-style dice notation (like `2d6`) into a simple range (like `2-12`) in item descriptions. |
+| **show_damage_formula** | `true` / `false` | `false` | Shows the underlying dice formula (e.g., `1d6+2`) used to calculate an item's damage when examining it. Mirrors the Show Damage Formula setting. |
+| **show_dice_as_ranges** | `true` / `false` | `true` | Converts traditional D&D-style dice notation (like `2d6`) into a simple range (like `2-12`) in item descriptions. If disabled, traditional XdY notation is used. Mirrors the Show Dice as Ranges setting. |
 | **show_weight_summary** | `true` / `false` | `true` | Displays your total carried weight and carrying capacity at the bottom of the inventory screen. |
 | **showrace** | `true` / `false` | `false` | Displays your character symbol on the map representing your race (e.g., `@` for human) instead of your role symbol. |
 | **showscore** | `true` / `false` | `true` | Shows your current calculated game score directly in the on-screen status bar. |
@@ -79,14 +79,14 @@ OPTIONS=pickup_types:characters
 | **whatis_menu** | `true` / `false` | `false` | Displays an interactive menu identifying all symbols and objects at a targeted location when using the target inspection command. |
 | **wiz_mstatusline** | `true` / `false` | `false` | Displays extended debugging statistics (such as level, HP, speed) for monsters under the cursor (requires Wizard/Debug mode). |
 | **wizweight** | `true` / `false` | `false` | Displays the exact weight of all inventory items, bypassing character identification checks (requires Wizard/Debug mode). |
-| **worn_shows_equipment** | `true` / `false` | `true` | Opens the full equipment screen when typing the worn items command (`w`) instead of showing a plain text inventory list. |
+| **worn_shows_equipment** | `true` / `false` | `true` | Determines whether the worn item command (`w`) shows a full graphical equipment screen with all body slots or a plain text list of currently worn items. Mirrors the Worn Shows Equipment setting. |
 
 ## ⚙️ Gameplay & Mechanics
 
 | Option Name | Values | Default | Description |
 | :---------- | :----: | :-----: | :---------- |
 | **autodescribe** | `true` / `false` | `true` | Automatically shows descriptions of terrain, features, and monsters in the status bar as you hover your cursor over them. |
-| **autodig** | `true` / `false` | `true` | Automatically attempts to dig through solid rock or walls when moving into them if you are wielding a suitable digging tool (like a pick-axe or mattock). |
+| **autodig** | `true` / `false` | `true` | Automatically attempts to dig through solid rock or walls when moving into, clicking, or tapping them if wielding a suitable digging tool (like a pick-axe or mattock). Mirrors the Auto-Dig setting. |
 | **autokick** | `true` / `false` | `true` | Automatically attempts to kick open closed doors or force locked chests/containers when walking into or looting them (Android port only). |
 | **autoopen** | `true` / `false` | `true` | Automatically opens a closed, unlocked door when you walk into it, saving a manual input turn. |
 | **autopickup** | `true` / `false` | `false` | Automatically picks up items on the ground when walking over them if they match the categories configured in `pickup_types`. |
@@ -106,12 +106,12 @@ OPTIONS=pickup_types:characters
 | **force_hint** | `true` / `false` | `false` | Forces the game to show tutorial tips and hints regardless of other settings. Enabled by default in Casual and Modern modes. |
 | **force_invmenu** | `true` / `false` | `true` (Mobile) / `false` (Desktop) | Displays a visual menu of valid items when executing commands that require inventory selection, rather than prompting for a raw keyboard letter. |
 | **goldX** | `true` / `false` | `false` | Categorizes gold as "uncursed gold pieces" or "unknown gold pieces" instead of just "gold" in your inventory menu. |
-| **ignore_stopping** | `true` / `false` | `false` | Prevents automated pathfinding travel from stopping when your character passes over items, closed doors, or engravings. |
+| **ignore_stopping** | `true` / `false` | `false` | Prevents automated pathfinding travel from stopping when your character passes over items, closed doors, or engravings. Mirrors the Ignore Stopping setting. |
 | **knapsack_prompt** | `true` / `false` | `true` | Prompts for a specific action (like dropping or stashing) when picking up an item while carrying a full inventory. |
 | **lootabc** | `true` / `false` | `false` | Formats loot menu shortcuts as generic `a`, `b`, `c` letters rather than mnemonic letters (such as `o` for open, `i` for inspect, `c` for close). |
 | **max_hint_difficulty** | *(varies)* | `veteran (-1)` | Limits tutorial tips and hints to games played at or below this difficulty level. |
 | **mention_walls** | `true` / `false` | `false` | Prints a message in the message log (e.g. "You bump into a wall") when walking into a wall. |
-| **metric_system** | `true` / `false` | `false` | Enables the metric system, displaying weights in kilograms (`kg`), grams (`g`), or tons. If disabled (default), the game uses the imperial system, displaying weights in pounds (`lbs` / `lb`), ounces (`oz`), or hundredweights (`cwt`). |
+| **metric_system** | `true` / `false` | `false` | Enables the metric system, displaying weights in kilograms (`kg`), grams (`g`), or tons. If disabled (default), the game uses the imperial system, displaying weights in pounds (`lbs` / `lb`), ounces (`oz`), or hundredweights (`cwt`). Mirrors the Metric System setting. |
 | **monpolycontrol** | `true` / `false` | `false` | Enables manual selection of the new form when polymorphing monsters (requires Wizard/Debug mode). |
 | **multishot_always_fire** | `true` / `false` | `false` | Forces ranged attacks to fire the maximum possible number of projectiles per turn based on your skill level. |
 | **packorder** | *(varies)* | ``$")[8=%?+!(9*7`0_`` | Defines the sorting order of item classes (weapons, armor, food, scrolls, etc.) in your pack display. |
@@ -147,19 +147,19 @@ OPTIONS=pickup_types:characters
 | **clicklook** | `true` / `false` | `true` | Enables describing and identifying items or monsters on a map tile by clicking on it. |
 | **clickpole** | `true` / `false` | `true` | Allows attacking an adjacent or distant (2 tiles away) enemy with a polearm by clicking on them. |
 | **cmdassist** | `true` / `false` | `true` | Displays helpful warnings and directional indicators if you enter an invalid movement key or direction. |
-| **engrave_quickstyle** | *(varies)* | `0` | Selects which engraving stylus/tool is automatically chosen when executing the quick engrave command: `0` (ask every time), `1` (always use finger), `2` (use last item). |
-| **engrave_quicktext** | *(varies)* | *(none)* | The default text written when using the quick engrave command (commonly set to "Elbereth"). |
+| **engrave_quickstyle** | *(varies)* | `0` | Selects which engraving method or tool is automatically chosen when executing the quick engrave command: ask every time, always use finger, or use last item. Mirrors the Quick Engrave Style setting. |
+| **engrave_quicktext** | *(varies)* | *(none)* | The default text written when using the quick engrave command (commonly set to "Elbereth"). Mirrors the Quick Engrave Text setting. |
 | **help** | `true` / `false` | `true` | Displays the complete database description/lore for targeted items/monsters when running the `whatis` lookup command. |
 | **herecmd_menu** | `true` / `false` | `false` | Displays a popup menu of context-sensitive actions you can take on your current tile (such as opening chests, kicking, searching) instead of requiring individual keys. |
 | **inventory_obj_cmd** | `true` / `false` | `true` | Displays an action menu (wear, read, eat, drop, etc.) when selecting an item in your inventory, rather than immediately triggering a default action. |
-| **middle_click_command** | `default` / `by role` / `?` / `off` / `look` / `move` / `cast` / `fire` / `zap` | `by role` | Configures the game command bound to a middle mouse button click. `by role` triggers role-specific default actions. |
+| **middle_click_command** | `default` / `by role` / `?` / `off` / `look` / `move` / `cast` / `fire` / `zap` | `by role` | Configures the game command bound to a middle mouse button click. The default "by role" setting triggers role-specific default actions. Mirrors the Middle Mouse Button setting. |
 | **mouse_support** | `0` (off) / `1` (on, OS adjusted) / `2` (on, OS unchanged) | `0` | Configures mouse click support. `0` disables mouse clicks; `1`/`2` enable mouse inputs with different OS QuickEdit/terminal integration settings. |
 | **number_pad** | `-2` (off, yuhj) / `-1` (off, y/z swapped) / `0` (off) / `1` (on) / `2` (on, MSDOS) / `3` (on, phone-style) / `4` (on, phone MSDOS) | `0` | Configures numeric pad keys for movement. Useful for keyboards with or without numpads, supporting standard, MSDOS, or phone-style layouts. |
 | **prefer_fast_move** | `true` / `false` | `false` | Swaps key bindings for running and walking so that pressing movement keys defaults to running (fast move) and shift/control walks (slow move). |
 | **rest_on_space** | `true` / `false` | `false` | Binds the Space bar to wait/rest one turn, making it easier to skip turns or wait for enemies to approach. |
-| **right_click_command** | `default` / `by role` / `?` / `off` / `look` / `move` / `cast` / `fire` / `zap` | `by role` | Configures the game command bound to a right mouse button click. `by role` triggers role-specific default actions. |
+| **right_click_command** | `default` / `by role` / `?` / `off` / `look` / `move` / `cast` / `fire` / `zap` | `by role` | Configures the game command bound to a right mouse button click. The default "by role" setting triggers role-specific default actions. Mirrors the Right Mouse Button setting. |
 | **run_spot_distance** | *(varies)* | `10` | The maximum distance (in tiles) at which detecting a monster will automatically stop your automated travel or running movement. |
-| **self_click_action** | `true` / `false` | `false` | Binds clicking or tapping on your own player character to trigger a custom action (like resting). |
+| **self_click_action** | `true` / `false` | `false` | Binds clicking or tapping on the player character to execute an action appropriate to the location (e.g., descending stairs or resting). Mirrors the Character Click Action setting. |
 | **travel** | `true` / `false` | `true` | Enables pathfinding travel, allowing you to move to a destination tile automatically by clicking it. |
 | **travel_debug** | `true` / `false` | `false` | Draws debug visualization lines on the map showing pathfinding calculations (requires Wizard/Debug mode). |
 | **whatis_filter** | `none` / `view` / `area` | `none` | Configures target filtering when cycling through map entities: `none` cycles all, `view` cycles only visible tiles, `area` cycles a regional area. |
@@ -178,7 +178,7 @@ OPTIONS=pickup_types:characters
 | **dogname** | *(varies)* | *(none)* | Sets the custom name for your starting dog companion. |
 | **horsegender** | `male` / `female` / `random` | `random` | Sets the starting gender of your horse mount/companion. |
 | **horsename** | *(varies)* | *(none)* | Sets the custom name for your starting horse mount/companion. |
-| **pets_not_gifted** | `true` / `false` | `false` | If enabled, you will not receive any default starting pets/mounts regardless of your character role (e.g. Knights starting without a pony). |
+| **pets_not_gifted** | `true` / `false` | `false` | Determines whether the player starts with a pet and receives gifted pets in special situations. Turn off the setting (or enable the option) if you are attempting a petless conduct. Mirrors the Starting and Gifted Pets setting (with inverted value). |
 | **pettype** | `cat` / `dog` / `horse` / `none` / `random` | `random` | Selects your preferred species for your starting pet companion. |
 | **ramgender** | `male` / `female` / `random` | `random` | Sets the starting gender of your ram companion. |
 | **ramname** | *(varies)* | *(none)* | Sets the custom name for your starting ram companion. |

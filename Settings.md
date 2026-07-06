@@ -28,9 +28,9 @@
 
 | Setting Name | Options / Values | Default | Description |
 | :----------- | :--------------: | :-----: | :---------- |
-| **Metric System** | On / Off | Off | Uses the metric system (kg, cm, etc.) instead of the imperial system for weights and measures in descriptions. |
-| **Show Dice as Ranges** | On / Off | On | **Off:** XdY format (e.g., 2d6).<br>**On:** Range format A-B (e.g., 2-12). |
-| **Show Damage Formula** | On / Off | Off | Shows the damage formula (dice) for weapons and attacks in menus. |
+| **Metric System** | On / Off | Off | Enables the metric system, displaying weights in kilograms (`kg`), grams (`g`), or tons. If disabled (default), the game uses the imperial system, displaying weights in pounds (`lbs` / `lb`), ounces (`oz`), or hundredweights (`cwt`). Mirrors the `metric_system` option. |
+| **Show Dice as Ranges** | On / Off | On | Converts traditional D&D-style dice notation (like `2d6`) into a simple range (like `2-12`) in item descriptions. If disabled, traditional XdY notation is used. Mirrors the `show_dice_as_ranges` option. |
+| **Show Damage Formula** | On / Off | Off | Shows the underlying dice formula (e.g., `1d6+2`) used to calculate an item's damage when examining it. Mirrors the `show_damage_formula` option. |
 
 ### 🎨 Menu Appearance
 
@@ -41,13 +41,13 @@
 | **Highlighted Menu Keys** | On / Off | On *(Desktop)* / Off *(Mobile)* | **Off:** Hotkeys are grayed.<br>**On:** Hotkeys are colored black/white based on light/dark mode. |
 | **Show Equipment Icons** | On / Off | On | Displays equipment slot icons in the inventory menu. |
 | **Equipment Flip Animation** | On / Off | On | Enables a 3D flip animation when equipping or taking off items. |
-| **Worn Shows Equipment** | On / Off | On | Determines whether the worn item menu shows an equipment screen with all body slots or just a list of currently worn items. |
+| **Worn Shows Equipment** | On / Off | On | Determines whether the worn item command (`w`) shows a full graphical equipment screen with all body slots or a plain text list of currently worn items. Mirrors the `worn_shows_equipment` option. |
 
 ## 🧭 Adventuring Settings
 
 | Setting Name | Options / Values | Default | Description |
 | :----------- | :--------------: | :-----: | :---------- |
-| **Starting and Gifted Pets** | On / Off | On | Determines whether the player starts with a pet and gets new pets in certain special situations. Turn off if you are attempting a petless conduct. |
+| **Starting and Gifted Pets** | On / Off | On | Determines whether the player starts with a pet and receives gifted pets in special situations. Turn off the setting (or enable the option) if you are attempting a petless conduct. Mirrors the `pets_not_gifted` option (with inverted value). |
 | **Allow Ghost Levels** | On / Off | On | Determines if the game uses so-called bones files of dead characters. |
 
 ## 🖥️ Layout & Interface Settings
@@ -110,15 +110,15 @@
 | Setting Name | Options / Values | Default | Description |
 | :----------- | :--------------: | :-----: | :---------- |
 | **Empty Wish is Nothing** | On / Off | On | **Off:** A random item is received if the wish is left blank.<br>**On:** Nothing is received. Keep on to preserve wishless conduct. |
-| **Character Click Action** | On / Off | Off | Clicking or tapping on the player character executes an action appropriate to the location (e.g., descending the stairs). |
+| **Character Click Action** | On / Off | Off | Binds clicking or tapping on the player character to execute an action appropriate to the location (e.g., descending stairs or resting). Mirrors the `self_click_action` option. |
 | **OK on Double Click** | On / Off | Off | Double-clicking a menu item also presses OK button automatically in menus. |
 | **Traditional Get Position** | On / Off | Off | When asked to select a location, the location is selected by moving around a tile-based game cursor using arrow icons or keyboard, rather than clicking a location on the map. |
-| **Auto-Dig** | On / Off | On | Automatically dig a clicked or tapped wall when wielding a digging tool. Mirrors the `autodig` option in the game. |
-| **Ignore Stopping** | On / Off | Off | Travelling does not stop at items, doors, or engravings. Mirrors the `ignore_stopping` option in the game. |
-| **Right Mouse Button** | Action | By Role | Configures a specific action or command for a right mouse click. |
-| **Middle Mouse Button** | Action | By Role | Configures a specific action or command for a middle mouse click. |
-| **Quick Engrave Text** | Text String | None | Text that is engraved automatically when using the quick engrave command. |
-| **Quick Engrave Style** | Always ask / Always finger / Last item | Always ask | Specifies the method to use for quick engraving. |
+| **Auto-Dig** | On / Off | On | Automatically attempts to dig through solid rock or walls when moving into, clicking, or tapping them if wielding a suitable digging tool (like a pick-axe or mattock). Mirrors the `autodig` option. |
+| **Ignore Stopping** | On / Off | Off | Prevents automated pathfinding travel from stopping when your character passes over items, closed doors, or engravings. Mirrors the `ignore_stopping` option. |
+| **Right Mouse Button** | Action | By Role | Configures the game command bound to a right mouse button click. The default "by role" setting triggers role-specific default actions. Mirrors the `right_click_command` option. |
+| **Middle Mouse Button** | Action | By Role | Configures the game command bound to a middle mouse button click. The default "by role" setting triggers role-specific default actions. Mirrors the `middle_click_command` option. |
+| **Quick Engrave Text** | Text String | None | The default text written when using the quick engrave command (commonly set to "Elbereth"). Mirrors the `engrave_quicktext` option. |
+| **Quick Engrave Style** | Always ask / Always finger / Last item | Always ask | Selects which engraving method or tool is automatically chosen when executing the quick engrave command: ask every time, always use finger, or use last item. Mirrors the `engrave_quickstyle` option. |
 
 ## 📱 Bar Commands Settings
 
