@@ -13,7 +13,7 @@
 | **acoustics** | `true` / `false` | `true` | Enables in-game audio messages and sound effects. If disabled, the character is effectively deaf, blocking sound-based notifications (such as doors opening or monster noises). |
 | **crawl_interval** | *(varies)* | `125` | Delay in milliseconds between animation steps when the player or a monster is crawling. Lowering this speeds up crawling. |
 | **dark_room** | `true` / `false` | `true` | Renders floors and features that have been explored but are currently out of line of sight in a darker shade to distinguish them from active vision. |
-| **detailed_weights** | `true` / `false` | `false` | Displays carrying weights with decimal precision for detailed resource and inventory management. |
+| **detailed_weights** | `true` / `false` | `false` | Displays small object weights using more precise units: ounces (`oz`) for the imperial system or grams (`g`) for the metric system, rather than standard pounds (`lbs`) or kilograms (`kg`). |
 | **implicit_uncursed** | `true` / `false` | `true` | Omit the "uncursed" label from inventory descriptions to keep menus cleaner, showing only "blessed" or "cursed" tags. |
 | **inventory_weights_last** | `true` / `false` | `true` | Appends item weights in parentheses after the item name in menus rather than before it. |
 | **last_item_show_duration** | *(varies)* | `3` | Number of turns that a newly picked-up item remains highlighted in inventory context menus. |
@@ -70,7 +70,7 @@
 | **lootabc** | `true` / `false` | `false` | Formats loot menu shortcuts as generic `a`, `b`, `c` letters rather than mnemonic letters (such as `o` for open, `i` for inspect, `c` for close). |
 | **max_hint_difficulty** | *(varies)* | `veteran (-1)` | Limits tutorial tips and hints to games played at or below this difficulty level. |
 | **mention_walls** | `true` / `false` | `false` | Prints a message in the message log (e.g. "You bump into a wall") when walking into a wall. |
-| **metric_system** | `true` / `false` | `false` | Displays item weights in metric units (kilograms/grams) instead of arbitrary standard units. |
+| **metric_system** | `true` / `false` | `false` | Enables the metric system, displaying weights in kilograms (`kg`), grams (`g`), or tons. If disabled (default), the game uses the imperial system, displaying weights in pounds (`lbs` / `lb`), ounces (`oz`), or hundredweights (`cwt`). |
 | **monpolycontrol** | `true` / `false` | `false` | Enables manual selection of the new form when polymorphing monsters (requires Wizard/Debug mode). |
 | **multishot_always_fire** | `true` / `false` | `false` | Forces ranged attacks to fire the maximum possible number of projectiles per turn based on your skill level. |
 | **packorder** | *(varies)* | ``$")[8=%?+!(9*7`0_`` | Defines the sorting order of item classes (weapons, armor, food, scrolls, etc.) in your pack display. |
