@@ -146,7 +146,6 @@
 | **ramgender** | *(varies)* | *(none)* | The gender of your (first) ram (e.g., ramgender:male) |
 | **ramname** | *(varies)* | *(none)* | The name of your (first) ram (e.g., ramname:Silver) |
 | **safe_pet** | `true` / `false` | `true` | Prevent you from hitting pets |
-| **underline_peaceful** | `true` / `false` | `true` | Underline peaceful monsters |
 | **wolfgender** | *(varies)* | *(none)* | The gender of your (first) direwolf (e.g., wolfgender:female) |
 | **wolfname** | *(varies)* | *(none)* | The name of your (first) direwolf (e.g., wolfname:Shadow) |
 
@@ -209,6 +208,7 @@
 | **standout** | `true` / `false` | `false` | Use standout for --more-- |
 | **symset** | *(varies)* | *(varies)* | Load a set of display symbols from the symbols file |
 | **traps** | *(varies)* | *(varies)* | The symbols to use in drawing traps |
+| **underline_peaceful** | `true` / `false` | `true` | Underline peaceful monsters |
 | **use_darkgray** | `true` / `false` | `true` | Use bold black color instead of blue |
 | **use_inverse** | `true` / `false` | `true` | Display detected monsters in inverse |
 | **video** | *(varies)* | *(varies)* | Method of video updating |
