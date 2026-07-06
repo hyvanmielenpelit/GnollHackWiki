@@ -49,7 +49,7 @@ OPTIONS=pickup_types:characters
 
 | Option Name | Values | Default | Description |
 | :---------- | :----: | :-----: | :---------- |
-| **acoustics** | `true` / `false` | `true` | Enables in-game audio messages and sound effects. If disabled, the character is effectively deaf, blocking sound-based notifications (such as doors opening or monster noises). |
+| **acoustics** | `true` / `false` | `true` | Enables in-game audio messages (such as doors opening or monster noises). |
 | **crawl_interval** | *(varies)* | `125` | Delay in milliseconds between animation steps when the player or a monster is crawling. Lowering this speeds up crawling. |
 | **dark_room** | `true` / `false` | `true` | Renders floors and features that have been explored but are currently out of line of sight in a darker shade to distinguish them from active vision. |
 | **detailed_weights** | `true` / `false` | `false` | Displays small object weights using more precise units: ounces (`oz`) for the imperial system or grams (`g`) for the metric system, rather than standard pounds (`lbs`) or kilograms (`kg`). |
@@ -57,7 +57,7 @@ OPTIONS=pickup_types:characters
 | **hitpointbar** | `true` / `false` | `false` | Draws a color-changing health bar (green-to-red) background behind the HP text in the status panel (fully supported in the .NET MAUI frontend via the Settings page toggle). |
 | **implicit_uncursed** | `true` / `false` | `true` | Omit the "uncursed" label from inventory descriptions to keep menus cleaner, showing only "blessed" or "cursed" tags. |
 | **inventory_weights_last** | `true` / `false` | `true` | Appends item weights in parentheses after the item name in menus rather than before it. |
-| **last_item_show_duration** | *(varies)* | `3` | Number of turns that a newly picked-up item remains highlighted in inventory context menus. |
+| **last_item_show_duration** | *(varies)* | `3` | Number of turns that the Last Item context button remains visible in the modern GUI. |
 | **legacy** | `true` / `false` | `true` | Displays the classic introductory welcome message when starting a new game. |
 | **lit_corridor** | `true` / `false` | `false` | Renders dark corridor squares in full visibility (as if lit) once they enter your character's field of view. |
 | **long_charge_text** | `true` / `false` | `false` | Uses a verbose description for tool and wand charges (e.g., "1 charge left, 0 times recharged") instead of standard abbreviated numbers. |
