@@ -43,15 +43,15 @@ GnollHack is best understood as a modernized version of NetHack that makes the c
 
 - **[[Gameplay Information]]** — The central hub for all game content and mechanics, including character creation, UI, stats, equipment, items, spells, monsters, religion, and advanced topics
 
-## 🖥️ Desktop Features
-
-- **[[Desktop-Only Features]]** — Take a look at the features that appear only on the desktop versions of GnollHack
-- **[[Keyboard Shortcuts]]** — GnollHack supports NetHack-style keyboard shortcuts, which are especially useful when playing with a physical keyboard 
-
 ## ⚙️ Game Configuration
 
 - **[[Settings]]** — GnollHack's modern ports have settings, which can be used to configure the game
 - **[[Options]]** — You can configure GnollHack via a NetHack-style Options file
+
+## 🖥️ Desktop Features
+
+- **[[Desktop-Only Features]]** — Take a look at the features that appear only on the desktop versions of GnollHack
+- **[[Keyboard Shortcuts]]** — GnollHack supports NetHack-style keyboard shortcuts, which are especially useful when playing with a physical keyboard 
 
 ## 🔗 Online Sharing
 
