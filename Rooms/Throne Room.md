@@ -17,7 +17,7 @@ However, there is a 1 in 3 chance that sitting on the throne will trigger one of
 ### Beneficial Effects
 
 | Effect | Chance (if triggered) | Description |
-|---|---|---|
+| :----- | :-------------------: | :---------- |
 | **Attribute Gain** | 1 in 13 | A random attribute increases by 1 point. |
 | **Full Heal** | 1 in 13 | Restores health to maximum, increases maximum health by 4, removes cream from your face, and heals wounded legs. |
 | **Wish or Luck** | 1 in 13 | Grants a wish. However, if your luck is negative, there is a chance it will just increase your luck by 1 instead. |
@@ -28,7 +28,7 @@ However, there is a 1 in 3 chance that sitting on the throne will trigger one of
 ### Harmful Effects
 
 | Effect | Chance (if triggered) | Description |
-|---|---|---|
+| :----- | :-------------------: | :---------- |
 | **Attribute Loss** | 1 in 13 | A random attribute decreases by 3 to 6 points, and you take 1 to 10 magic damage. |
 | **Electric Shock** | 1 in 13 | You take 1 to 30 electric damage (reduced to 1 to 6 if shock resistant) and exercise your constitution. |
 | **Loss of Gold** | 1 in 13 | All the gold in your inventory disappears. |
@@ -39,7 +39,7 @@ However, there is a 1 in 3 chance that sitting on the throne will trigger one of
 ### Neutral Effects
 
 | Effect | Chance (if triggered) | Description |
-|---|---|---|
+| :----- | :-------------------: | :---------- |
 | **Teleport or Aggravate** | 1 in 13 | Teleports you to a random location on the level. If your luck is negative, it aggravates all monsters on the level instead. |
 
 ## 🗺️ Generation
