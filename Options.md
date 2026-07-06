@@ -166,7 +166,10 @@
 
 | Option Name | Values | Default | Description |
 | :---------- | :----: | :-----: | :---------- |
+| **animation_interval** | *(varies)* | `20` | Animation frame interval in milliseconds |
 | **extmenu** | `true` / `false` | `true` | Use menu for getting extended commands (supported by TTY/ASCII, Curses, and Legacy Windows GUI) |
+| **ignintr** | `true` / `false` | `false` | Ignore interrupt signals |
+| **mail** | `true` / `false` | `true` | Enable the mail daemon |
 | **menu_deselect_all** | *(varies)* | *(varies)* | Deselect all items in a menu (supported by TTY/ASCII and Curses) |
 | **menu_deselect_page** | *(varies)* | *(varies)* | Deselect all items on this page of a menu (supported by TTY/ASCII and Curses) |
 | **menu_first_page** | *(varies)* | *(varies)* | Jump to the first page in a menu (supported by TTY/ASCII and Curses) |
@@ -175,6 +178,7 @@
 | **menu_invert_page** | *(varies)* | *(varies)* | Invert all items on this page of a menu (supported by TTY/ASCII and Curses) |
 | **menu_last_page** | *(varies)* | *(varies)* | Jump to the last page in a menu (supported by TTY/ASCII and Curses) |
 | **menu_next_page** | *(varies)* | *(varies)* | Goto the next menu page (supported by TTY/ASCII and Curses) |
+| **menu_objsyms** | `true` / `false` | `false` | Show object symbols in menus |
 | **menu_previous_page** | *(varies)* | *(varies)* | Goto the previous menu page (supported by TTY/ASCII and Curses) |
 | **menu_search** | *(varies)* | *(varies)* | Search for a menu item (supported by TTY/ASCII and Curses) |
 | **menu_select_all** | *(varies)* | *(varies)* | Select all items in a menu (supported by TTY/ASCII and Curses) |
@@ -182,6 +186,9 @@
 | **menucolors** | `true` / `false` | `true` | Use colors in menus (supported by TTY/ASCII and Curses) |
 | **menustyle** | *(varies)* | *(varies)* | User interface for object selection (supported by TTY/ASCII, Curses, and Legacy Windows GUI) |
 | **msg_window** | *(varies)* | *(varies)* | The type of message window required LIFO/FIFO (supported by TTY/ASCII and Curses) |
+| **partydetails** | `true` / `false` | `false` | Give detailed information for each pet |
+| **partylinecolor** | `true` / `false` | `true` | Use colors for pet statistics |
+| **partymultiline** | `true` / `false` | `false` | Print statistics of each pet on a separate status line |
 | **roguesymset** | *(varies)* | *(varies)* | Load a set of rogue display symbols from the symbols file (supported by TTY/ASCII and Curses) |
 | **symset** | *(varies)* | *(varies)* | Load a set of display symbols from the symbols file (supported by TTY/ASCII and Curses) |
 | **windowchain** | *(varies)* | *(varies)* | Window processor to use (supported by TTY/ASCII and Curses) |
@@ -196,6 +203,7 @@
 | **DECgraphics** | *(varies)* | *(varies)* | Load DECGraphics display symbols |
 | **IBMgraphics** | *(varies)* | *(varies)* | Load IBMGraphics display symbols |
 | **Macgraphics** | *(varies)* | *(varies)* | Load MACGraphics display symbols |
+| **altkeyhandler** | *(varies)* | *(varies)* | Alternate key handler |
 | **altmeta** | `true` / `false` | `true` | Treat 'ESC c' as M-c |
 | **ascii_map** | `true` / `false` | `false` | Show map as text |
 | **classic_colors** | `true` / `false` | `false` | Use classic colors for boulders and floor symbols |
@@ -216,6 +224,9 @@
 | **show_decorations** | `true` / `false` | `true` | Show decorations via colors in ASCII mode |
 | **silent** | `true` / `false` | `true` | Don't use terminal bell |
 | **standout** | `true` / `false` | `false` | Use standout for --more-- |
+| **subkeyvalue** | *(varies)* | *(varies)* | Override keystroke value |
+| **tiled_map** | `true` / `false` | `true` | Tiled map |
+| **timed_delay** | `true` / `false` | `true` | Use time delay |
 | **traps** | *(varies)* | *(varies)* | The symbols to use in drawing traps |
 | **underline_peaceful** | `true` / `false` | `true` | Underline peaceful monsters |
 | **use_darkgray** | `true` / `false` | `true` | Use bold black color instead of blue |
@@ -306,8 +317,6 @@
 
 | Option Name | Values | Default | Description |
 | :---------- | :----: | :-----: | :---------- |
-| **altkeyhandler** | *(varies)* | *(varies)* | Alternate key handler |
-| **animation_interval** | *(varies)* | `20` | Animation frame interval in milliseconds |
 | **asksavedisk** | `true` / `false` | `false` | Prompt for saving to a disk |
 | **BIOS** | `true` / `false` | `false` | Use IBM ROM BIOS calls |
 | **boulder** | *(varies)* | *(varies)* | Deprecated (use S_boulder in sym file instead) |
@@ -315,21 +324,12 @@
 | **fast_map** | `true` / `false` | `true` | Use optimized, less flexible map display |
 | **flush** | `true` / `false` | `false` | Use flush on Amiga |
 | **font_size_map** | *(varies)* | *(varies)* | The size of the map font |
-| **ignintr** | `true` / `false` | `false` | Ignore interrupt signals |
 | **large_font** | `true` / `false` | `false` | Obsolete: use large font |
-| **mail** | `true` / `false` | `true` | Enable the mail daemon |
-| **menu_objsyms** | `true` / `false` | `false` | Show object symbols in menus |
 | **page_wait** | `true` / `false` | `true` | Page wait on Mac |
-| **partydetails** | `true` / `false` | `false` | Give detailed information for each pet |
-| **partylinecolor** | `true` / `false` | `true` | Use colors for pet statistics |
-| **partymultiline** | `true` / `false` | `false` | Print statistics of each pet on a separate status line |
 | **preload_tiles** | `true` / `false` | `true` | Preload tiles |
 | **rawio** | `true` / `false` | `false` | Allow use to raw I/O |
 | **softkeyboard** | `true` / `false` | `false` | Soft keyboard |
 | **soundcard** | *(varies)* | *(varies)* | Type of sound card to use |
-| **subkeyvalue** | *(varies)* | *(varies)* | Override keystroke value |
 | **suppress_alert** | *(varies)* | *(varies)* | Suppress alerts about version-specific features |
-| **tiled_map** | `true` / `false` | `true` | Tiled map |
-| **timed_delay** | `true` / `false` | `true` | Use time delay |
 | **wraptext** | `true` / `false` | `false` | Wrap text |
 
