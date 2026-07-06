@@ -25,27 +25,14 @@
 | **legacy** | `true` / `false` | `true` | Show introductory message |
 | **lit_corridor** | `true` / `false` | `false` | Show dark corridors as lit if in sight |
 | **long_charge_text** | `true` / `false` | `false` | Long format for charges and rechargings in inventory |
-| **menu_deselect_all** | *(varies)* | *(varies)* | Deselect all items in a menu |
-| **menu_deselect_page** | *(varies)* | *(varies)* | Deselect all items on this page of a menu |
-| **menu_first_page** | *(varies)* | *(varies)* | Jump to the first page in a menu |
 | **menu_headings** | *(varies)* | *(varies)* | Text attribute for menu headings |
-| **menu_invert_all** | *(varies)* | *(varies)* | Invert all items in a menu |
-| **menu_invert_page** | *(varies)* | *(varies)* | Invert all items on this page of a menu |
-| **menu_last_page** | *(varies)* | *(varies)* | Jump to the last page in a menu |
-| **menu_next_page** | *(varies)* | *(varies)* | Goto the next menu page |
-| **menu_previous_page** | *(varies)* | *(varies)* | Goto the previous menu page |
-| **menu_search** | *(varies)* | *(varies)* | Search for a menu item |
-| **menu_select_all** | *(varies)* | *(varies)* | Select all items in a menu |
-| **menu_select_page** | *(varies)* | *(varies)* | Select all items on this page of a menu |
 | **menucolors** | `true` / `false` | `true` | Use colors in menus |
 | **menustyle** | *(varies)* | *(varies)* | User interface for object selection |
 | **move_interval** | *(varies)* | `15` | Normal movement interval in milliseconds |
 | **msghistory** | *(varies)* | `20` | Number of top line messages to save |
-| **news** | `true` / `false` | `true` | Show any news at game start |
 | **null** | `true` / `false` | `true` | Allow nulls to be sent to terminal |
 | **palette** | *(varies)* | *(varies)* | Palette |
 | **perm_invent** | `true` / `false` | `false` | Show permanent inventory window |
-| **popup_dialog** | `true` / `false` | `false` | Use popup dialog |
 | **runmode** | *(varies)* | *(varies)* | Display frequency when `running' or `travelling' |
 | **scroll_margin** | *(varies)* | *(varies)* | Scroll map when this far from the edge |
 | **show_comparison_stats** | `true` / `false` | `true` | Show comparison statistics for items when picking them up |
@@ -65,8 +52,6 @@
 | **spell_table_format** | `true` / `false` | `false` | Show spells in a table format rather than a list |
 | **splash_screen** | `true` / `false` | `true` | Show splash screen |
 | **status_updates** | `true` / `false` | `true` | Allow the status lines to update |
-| **statushilites** | *(varies)* | *(varies)* | Highlight control |
-| **symset** | *(varies)* | *(varies)* | Load a set of display symbols from the symbols file |
 | **tile_file** | *(varies)* | *(varies)* | Name of tile file |
 | **tile_height** | *(varies)* | *(varies)* | Height of tiles |
 | **tile_width** | *(varies)* | *(varies)* | Width of tiles |
@@ -75,7 +60,6 @@
 | **use_inverse** | `true` / `false` | `true` | Display detected monsters in inverse |
 | **vary_msgcount** | *(varies)* | *(varies)* | Show more old messages at a time |
 | **video** | *(varies)* | *(varies)* | Method of video updating |
-| **whatis_coord** | *(varies)* | *(varies)* | Show coordinates when auto-describing cursor position |
 | **whatis_menu** | `true` / `false` | `false` | Show menu when getting a map location |
 | **wiz_mstatusline** | `true` / `false` | `false` | Enable extended monster status line in wizard mode |
 | **wizweight** | `true` / `false` | `false` | Show weights in inventory in wizard mode |
@@ -237,7 +221,7 @@
 | **race** | *(varies)* | *(varies)* | Your starting race (e.g., Human, Elf) |
 | **role** | *(varies)* | *(varies)* | Your starting role (e.g., Barbarian, Valkyrie) |
 
-## ⌨️ ASCII Only
+## ⌨️ ASCII
 
 > ℹ️ **Note:** These options pertain to the legacy ASCII version of the game. They are not used by the modern versions of GnollHack.
 
@@ -254,14 +238,27 @@
 | **enablettyarrowkeys** | `true` / `false` | `false` | Enable tty arrow keys |
 | **extmenu** | `true` / `false` | `true` | Use menu for getting extended commands |
 | **ibm2utf8** | `true` / `false` | `false` | Convert CP437 symbols to UTF8 format before output |
+| **menu_deselect_all** | *(varies)* | *(varies)* | Deselect all items in a menu |
+| **menu_deselect_page** | *(varies)* | *(varies)* | Deselect all items on this page of a menu |
+| **menu_first_page** | *(varies)* | *(varies)* | Jump to the first page in a menu |
+| **menu_invert_all** | *(varies)* | *(varies)* | Invert all items in a menu |
+| **menu_invert_page** | *(varies)* | *(varies)* | Invert all items on this page of a menu |
+| **menu_last_page** | *(varies)* | *(varies)* | Jump to the last page in a menu |
+| **menu_next_page** | *(varies)* | *(varies)* | Goto the next menu page |
 | **menu_overlay** | `true` / `false` | `true` | Menus overlay and align to right |
+| **menu_previous_page** | *(varies)* | *(varies)* | Goto the previous menu page |
+| **menu_search** | *(varies)* | *(varies)* | Search for a menu item |
+| **menu_select_all** | *(varies)* | *(varies)* | Select all items in a menu |
+| **menu_select_page** | *(varies)* | *(varies)* | Select all items on this page of a menu |
 | **msg_window** | *(varies)* | *(varies)* | The type of message window required |
 | **show_decorations** | `true` / `false` | `true` | Show decorations via colors in ASCII mode |
 | **standout** | `true` / `false` | `false` | Use standout for --more-- |
+| **symset** | *(varies)* | *(varies)* | Load a set of display symbols from the symbols file |
 | **use_darkgray** | `true` / `false` | `true` | Use bold black color instead of blue |
 | **videocolors** | *(varies)* | *(varies)* | Color mappings for internal screen routines |
 | **videoshades** | *(varies)* | *(varies)* | Gray shades to map to black/gray/white |
 | **vt_tiledata** | `true` / `false` | `false` | Use VT codes for tiles |
+| **whatis_coord** | *(varies)* | *(varies)* | Show coordinates when auto-describing cursor position |
 | **windowchain** | *(varies)* | *(varies)* | Window processor to use |
 | **windowtype** | *(varies)* | *(varies)* | Windowing system to use |
 
@@ -278,6 +275,7 @@
 | **guicolor** | `true` / `false` | `true` | Use color for UI |
 | **here_window_size** | *(varies)* | `20` | Number of rows in the here window |
 | **hicolor** | *(varies)* | *(varies)* | Same as palette, only order is reversed |
+| **statushilites** | *(varies)* | *(varies)* | Highlight control |
 | **statuslines** | *(varies)* | *(varies)* | 2 to 8 lines for status display |
 | **term_cols** | *(varies)* | *(varies)* | Number of columns |
 | **term_rows** | *(varies)* | *(varies)* | Number of rows |
@@ -302,6 +300,8 @@
 | **font_text** | *(varies)* | *(varies)* | The font to use in text windows |
 | **map_mode** | *(varies)* | *(varies)* | Map display mode under Windows |
 | **menu_tab_sep** | `true` / `false` | `false` | Menu formatting |
+| **news** | `true` / `false` | `true` | Show any news at game start |
+| **popup_dialog** | `true` / `false` | `false` | Use popup dialog |
 | **preferred_screen_scale** | *(varies)* | *(varies)* | Preferred screen scale |
 | **scroll_amount** | *(varies)* | *(varies)* | Amount to scroll map when scroll_margin is reached |
 | **show_buff_timer** | `true` / `false` | `false` | Show buff timer on tiles |
