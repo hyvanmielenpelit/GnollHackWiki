@@ -4,7 +4,7 @@
 
 ## Standard Room
 
-- [[/Rooms/Ordinary Room]]
+- [[/Rooms/Ordinary Room]] — The most common type of room found in the [[/Dungeon/Dungeons of Doom]].
 
 ## Shops
 
@@ -12,29 +12,29 @@
 
 ## Special Rooms
 
-- [[/Rooms/Anthole]]
-- [[/Rooms/Barracks]]
-- [[/Rooms/Beehive]]
-- [[/Rooms/Cockatrice Nest]]
-- [[/Rooms/Dragon Lair]]
-- [[/Rooms/Garden]]
-- [[/Rooms/Graveyard]]
-- [[/Rooms/Leprechaun Hall]]
-- [[/Rooms/Library]]
-- [[/Rooms/Swamp]]
-- [[/Rooms/Temple]]
-- [[/Rooms/Throne Room]]
-- [[/Rooms/Vault]]
-- [[/Rooms/Zoo]]
+- [[/Rooms/Anthole]] — Infested with various types of ants and other insects.
+- [[/Rooms/Barracks]] — A military-themed room filled with soldiers and weaponry.
+- [[/Rooms/Beehive]] — Filled with killer bees and large quantities of royal jelly.
+- [[/Rooms/Cockatrice Nest]] — A lethal room filled entirely with cockatrices.
+- [[/Rooms/Dragon Lair]] — A room filled with dragons, hatchlings, and precious gems.
+- [[/Rooms/Garden]] — A peaceful room containing trees, herbs, and garden gnomes.
+- [[/Rooms/Graveyard]] — Filled with undead creatures and graves.
+- [[/Rooms/Leprechaun Hall]] — Completely filled with leprechauns and large amounts of gold.
+- [[/Rooms/Library]] — A scholarly room packed with books and guarded by magic-using monsters.
+- [[/Rooms/Swamp]] — A damp room characterized by multiple pools of water and amphibious monsters.
+- [[/Rooms/Temple]] — Contains a shrine dedicated to one of the game's deities, tended by a priest.
+- [[/Rooms/Throne Room]] — Contains a throne and a large number of monsters guarding it.
+- [[/Rooms/Vault]] — A small, hidden room completely filled with gold and guarded by a vault guard.
+- [[/Rooms/Zoo]] — The floor is completely covered with a variety of sleeping monsters and gold.
 
 ## NPC Rooms
 
 - [[/Rooms/Artificer]]
 - [[/Rooms/Dwarven Geologist]]
-- [[/Rooms/Practice Hall]]
+- [[/Rooms/Practice Hall]] — Inhabited by Lindisse, the Elven Bard.
 - [[/Rooms/Smithy]]
 
 ## Closets
 
-- [[/Rooms/Orc and the Pie]]
-- [[/Rooms/Orc Captain and the Pies]]
+- [[/Rooms/Orc and the Pie]] — A tiny, hidden closet containing a single orc guarding a cream pie.
+- [[/Rooms/Orc Captain and the Pies]] — A tiny, hidden closet containing an orc-captain guarding multiple cream pies.
