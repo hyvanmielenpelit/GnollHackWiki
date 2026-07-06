@@ -301,24 +301,31 @@
 | **windowborders** | *(varies)* | *(varies)* | 0 (off), 1 (on), 2 (auto) |
 | **windowcolors** | *(varies)* | *(varies)* | The foreground/background colors of windows |
 
-## 🗑️ Obsolete
+## 🪟 Legacy Windows GUI
 
-> ⚠️ **Warning:** These options are obsolete, deprecated, or only used by legacy versions of the game.
- 
+> ℹ️ **Note:** These options are specific to the legacy Windows GUI port (`GnollHackW.exe`). They are not applicable to the modern .NET MAUI frontend.
+
 | Option Name | Values | Default | Description |
 | :---------- | :----: | :-----: | :---------- |
-| **boulder** | *(varies)* | *(varies)* | Deprecated (use S_boulder in sym file instead) |
 | **font_map** | *(varies)* | *(varies)* | The font to use in the map window |
 | **font_menu** | *(varies)* | *(varies)* | The font to use in menus |
 | **font_message** | *(varies)* | *(varies)* | The font to use in the message window |
-| **font_size_map** | *(varies)* | *(varies)* | The size of the map font |
 | **font_size_menu** | *(varies)* | *(varies)* | The size of the menu font |
 | **font_size_message** | *(varies)* | *(varies)* | The size of the message font |
 | **font_size_status** | *(varies)* | *(varies)* | The size of the status font |
 | **font_size_text** | *(varies)* | *(varies)* | The size of the text font |
 | **font_status** | *(varies)* | *(varies)* | The font to use in status window |
 | **font_text** | *(varies)* | *(varies)* | The font to use in text windows |
-| **large_font** | `true` / `false` | `false` | Obsolete: use large font |
 | **map_mode** | *(varies)* | *(varies)* | Map display mode under Windows |
+
+## 🗑️ Obsolete
+
+> ⚠️ **Warning:** These options are obsolete, deprecated, or only used by legacy versions of the game.
+
+| Option Name | Values | Default | Description |
+| :---------- | :----: | :-----: | :---------- |
+| **boulder** | *(varies)* | *(varies)* | Deprecated (use S_boulder in sym file instead) |
+| **font_size_map** | *(varies)* | *(varies)* | The size of the map font |
+| **large_font** | `true` / `false` | `false` | Obsolete: use large font |
 | **page_wait** | `true` / `false` | `true` | Page wait on Mac |
 
