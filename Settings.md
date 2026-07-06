@@ -4,7 +4,7 @@
 
 ## ⚙️ General Settings
 
-### ⚙️ General
+### ℹ️ General
 
 | Setting Name | Options / Values | Default | Description |
 | :----------- | :--------------: | :-----: | :---------- |
@@ -24,7 +24,7 @@
 | **Dark Mode** | On / Off | Off | **Off (Light mode):** Menu and text window backgrounds are light and texts are black.<br>**On (Dark mode):** Menu and text window backgrounds are dark and texts are white. |
 | **Tournament Mode** | On / Off | Off | Toggles several other settings to values required by tournaments like [[Junethack]]. Also forces on [[Casual-Classic Mode]]. More info about [[Tournament Mode]]. |
 
-### ⚙️ Format
+### 📏 Format
 
 | Setting Name | Options / Values | Default | Description |
 | :----------- | :--------------: | :-----: | :---------- |
@@ -32,7 +32,7 @@
 | **Show Dice as Ranges** | On / Off | On | **Off:** XdY format (e.g., 2d6).<br>**On:** Range format A-B (e.g., 2-12). |
 | **Show Damage Formula** | On / Off | Off | Shows the damage formula (dice) for weapons and attacks in menus. |
 
-### ⚙️ Menu Appearance
+### 🎨 Menu Appearance
 
 | Setting Name | Options / Values | Default | Description |
 | :----------- | :--------------: | :-----: | :---------- |
@@ -52,7 +52,7 @@
 
 ## 🖥️ Layout & Interface Settings
 
-### 🖥️ Layout
+### 📱 Layout
 
 | Setting Name | Options / Values | Default | Description |
 | :----------- | :--------------: | :-----: | :---------- |
@@ -66,7 +66,7 @@
 | **Polearm Context Button** | On / Off | Off | Determines whether to show the polearm context button near the player. |
 | **Single Commands Page** | On / Off | On *(Desktop)* / Off *(Mobile)* | Uses a single large commands page instead of categorized tabs. |
 
-### 🖥️ Status Bar
+### 📊 Status Bar
 
 | Setting Name | Options / Values | Default | Description |
 | :----------- | :--------------: | :-----: | :---------- |
@@ -77,7 +77,7 @@
 | **Right-Aligned on 2nd Row** | On / Off | Off | Moves the display location of score, experience points and gold to the 2nd status bar row. |
 | **Show Status Screen** | On / Off | Off | Toggle for showing the status screen. The same as tapping the middle area of the status bar. |
 
-### 🖥️ Interface
+### 🕹️ Interface
 
 | Setting Name | Options / Values | Default | Description |
 | :----------- | :--------------: | :-----: | :---------- |
@@ -97,7 +97,7 @@
 | **Default Auto-Center** | On / Off | On | Determines if the Auto-Center button in the game screen is enabled by default. |
 | **Show Keyboard Shortcuts** | On / Off | On *(Desktop)* / Off *(Mobile)* | Determines if keyboard shortcuts are shown in menus. |
 
-### 🖥️ Drawing
+### 🖌️ Drawing
 
 | Setting Name | Options / Values | Default | Description |
 | :----------- | :--------------: | :-----: | :---------- |
@@ -120,7 +120,7 @@
 | **Quick Engrave Text** | Text String | None | Text that is engraved automatically when using the quick engrave command. |
 | **Quick Engrave Style** | Always ask / Always finger / Last item | Always ask | Specifies the method to use for quick engraving. |
 
-## ⌨️ Bar Commands Settings
+## 📱 Bar Commands Settings
 
 This section enables you to specify which commands are displayed in the command bar.
 
@@ -135,7 +135,7 @@ This section enables you to specify which commands are displayed in the command 
 | **Effects** | Changes the volume of sound effects. |
 | **Interface** | Changes the volume of interface sounds, such as button clicks. |
 
-## 🔗 Forum Posting Settings
+## 📢 Forum Posting Settings
 
 | Setting Name | Options / Values | Default | Description |
 | :----------- | :--------------: | :-----: | :---------- |
@@ -156,7 +156,7 @@ This section enables you to specify which commands are displayed in the command 
 | **Whitelist/Blacklist** | Comma-separated names | None | List of allowed or blocked user names on the GnollHack server for bones files. |
 | **Save File Tracking** | On / Off | Off | *(Desktop only)* Prevents loading backups of save files by tracking save files on the GnollHack Server. |
 
-## 🕹️ Replays Settings
+## 📹 Replays Settings
 
 | Setting Name | Options / Values | Default | Description |
 | :----------- | :--------------: | :-----: | :---------- |
