@@ -44,7 +44,6 @@
 
 | Option Name | Values | Default | Description |
 | :---------- | :----: | :-----: | :---------- |
-| **asksavedisk** | `true` / `false` | `false` | Prompt for saving to a disk |
 | **autodescribe** | `true` / `false` | `true` | Describe terrain under cursor |
 | **autodig** | `true` / `false` | `true` | Dig if moving and wielding a digging tool |
 | **autokick** | `true` / `false` | `true` | Walking into a door attempts to kick it |
@@ -57,31 +56,23 @@
 | **baseacasbonus** | `true` / `false` | `true` | Display base armor class as a bonus rather than a number starting at 10 |
 | **bones** | `true` / `false` | `true` | Allow loading bones files |
 | **checkpoint** | `true` / `false` | `true` | Save game state after each level change |
-| **checkspace** | `true` / `false` | `true` | Check disk space on a floppy disk |
 | **confirm** | `true` / `false` | `true` | Ask before hitting tame or peaceful monsters |
 | **disclose** | *(varies)* | *(varies)* | The kinds of information to disclose at end of game |
 | **displace_peaceful** | `true` / `false` | `true` | Walking into a peaceful monster attempts to displace it |
 | **dumplog** | `true` / `false` | `false` | Print dumplogs |
-| **dungeon** | *(varies)* | *(varies)* | The symbols to use in drawing the dungeon map |
-| **effects** | *(varies)* | *(varies)* | The symbols to use in drawing special effects |
 | **exchange_prompt** | `true` / `false` | `true` | Prompt when exchanging a worn object for another |
 | **fixinv** | `true` / `false` | `true` | Inventory items keep their letters |
-| **flush** | `true` / `false` | `false` | Use flush on Amiga |
 | **force_hint** | `true` / `false` | `false` | Force giving hints regardless of other settings |
 | **force_invmenu** | `true` / `false` | `true` | Commands asking for inventory item show a menu |
 | **goldX** | `true` / `false` | `false` | Classify gold as unknown or uncursed |
-| **ignintr** | `true` / `false` | `false` | Ignore interrupt signals |
 | **ignore_stopping** | `true` / `false` | `false` | Travelling is not interrupted by items, doors, or engravings |
 | **knapsack_prompt** | `true` / `false` | `true` | Prompt for an action when inventory is full |
 | **lootabc** | `true` / `false` | `false` | Use a/b/c rather than o/i/c when looting |
-| **mail** | `true` / `false` | `true` | Enable the mail daemon |
 | **max_hint_difficulty** | *(varies)* | `10` | Maximum difficulty level for showing hints |
 | **mention_walls** | `true` / `false` | `false` | Give feedback when walking into walls |
 | **metric_system** | `true` / `false` | `false` | Use the metric system for weights |
 | **monpolycontrol** | `true` / `false` | `false` | Control monster polymorphs |
-| **monsters** | *(varies)* | *(varies)* | The symbols to use for monsters |
 | **multishot_always_fire** | `true` / `false` | `false` | Attack always as many times as possible |
-| **objects** | *(varies)* | *(varies)* | The symbols to use for objects |
 | **packorder** | *(varies)* | *(varies)* | The inventory order of the items in your pack |
 | **paranoid_confirmation** | *(varies)* | *(varies)* | Extra prompting in certain situations |
 | **pickup_burden** | *(varies)* | *(varies)* | Maximum burden picked up before prompt |
@@ -91,7 +82,6 @@
 | **player_selection** | *(varies)* | *(varies)* | Choose character via dialog or prompts |
 | **playmode** | *(varies)* | *(varies)* | Classic or modern play, non-scoring explore or casual mode, or debug mode |
 | **pushweapon** | `true` / `false` | `false` | Previous weapon goes to secondary slot |
-| **rawio** | `true` / `false` | `false` | Allow use to raw I/O |
 | **rlecomp** | `true` / `false` | `true` | Use rlecomp |
 | **sanity_check** | `true` / `false` | `false` | Perform data sanity checks |
 | **scores** | *(varies)* | *(varies)* | The parts of the score list you wish to see |
@@ -104,11 +94,10 @@
 | **swap_rhand_only** | `true` / `false` | `false` | Swap right hand weapon only rather than objects in both hands |
 | **takeoff_uses_all** | `true` / `false` | `true` | Takeoff command uses takeoffall command rather than normal implementation |
 | **tellexp** | `true` / `false` | `true` | Report experience points gained |
-| **timed_delay** | `true` / `false` | `true` | Use time delay |
-| **traps** | *(varies)* | *(varies)* | The symbols to use in drawing traps |
 | **verbose** | `true` / `false` | `true` | Enable longer messages |
 | **wiz_alwaysenc** | `true` / `false` | `false` | Always generate an encounter in wizard mode |
 | **zerocomp** | `true` / `false` | `true` | Use zerocomp |
+
 
 ## 🖱️ Controls & Input
 
@@ -209,6 +198,8 @@
 | **classic_colors** | `true` / `false` | `false` | Use classic colors for boulders and floor symbols |
 | **classic_statue_symbol** | `true` / `false` | `false` | Use classic symbol \'`\' for statues |
 | **color** | `true` / `false` | `true` | Use color in map |
+| **dungeon** | *(varies)* | *(varies)* | The symbols to use in drawing the dungeon map |
+| **effects** | *(varies)* | *(varies)* | The symbols to use in drawing special effects |
 | **eight_bit_tty** | `true` / `false` | `false` | Send 8-bit characters directly to terminal |
 | **enablettyarrowkeys** | `true` / `false` | `false` | Enable tty arrow keys |
 | **extmenu** | `true` / `false` | `true` | Use menu for getting extended commands |
@@ -227,12 +218,15 @@
 | **menu_search** | *(varies)* | *(varies)* | Search for a menu item |
 | **menu_select_all** | *(varies)* | *(varies)* | Select all items in a menu |
 | **menu_select_page** | *(varies)* | *(varies)* | Select all items on this page of a menu |
+| **monsters** | *(varies)* | *(varies)* | The symbols to use for monsters |
 | **msg_window** | *(varies)* | *(varies)* | The type of message window required |
 | **null** | `true` / `false` | `true` | Allow nulls to be sent to terminal |
+| **objects** | *(varies)* | *(varies)* | The symbols to use for objects |
 | **show_decorations** | `true` / `false` | `true` | Show decorations via colors in ASCII mode |
 | **silent** | `true` / `false` | `true` | Don't use terminal bell |
 | **standout** | `true` / `false` | `false` | Use standout for --more-- |
 | **symset** | *(varies)* | *(varies)* | Load a set of display symbols from the symbols file |
+| **traps** | *(varies)* | *(varies)* | The symbols to use in drawing traps |
 | **use_darkgray** | `true` / `false` | `true` | Use bold black color instead of blue |
 | **use_inverse** | `true` / `false` | `true` | Display detected monsters in inverse |
 | **video** | *(varies)* | *(varies)* | Method of video updating |
@@ -318,14 +312,21 @@
 | Option Name | Values | Default | Description |
 | :---------- | :----: | :-----: | :---------- |
 | **animation_interval** | *(varies)* | `20` | Animation frame interval in milliseconds |
+| **asksavedisk** | `true` / `false` | `false` | Prompt for saving to a disk |
 | **boulder** | *(varies)* | *(varies)* | Deprecated (use S_boulder in sym file instead) |
+| **checkspace** | `true` / `false` | `true` | Check disk space on a floppy disk |
 | **fast_map** | `true` / `false` | `true` | Use optimized, less flexible map display |
+| **flush** | `true` / `false` | `false` | Use flush on Amiga |
 | **font_size_map** | *(varies)* | *(varies)* | The size of the map font |
+| **ignintr** | `true` / `false` | `false` | Ignore interrupt signals |
 | **large_font** | `true` / `false` | `false` | Obsolete: use large font |
+| **mail** | `true` / `false` | `true` | Enable the mail daemon |
 | **menu_objsyms** | `true` / `false` | `false` | Show object symbols in menus |
 | **page_wait** | `true` / `false` | `true` | Page wait on Mac |
 | **preload_tiles** | `true` / `false` | `true` | Preload tiles |
+| **rawio** | `true` / `false` | `false` | Allow use to raw I/O |
 | **roguesymset** | *(varies)* | *(varies)* | Load a set of rogue display symbols from the symbols file |
 | **tiled_map** | `true` / `false` | `true` | Tiled map |
+| **timed_delay** | `true` / `false` | `true` | Use time delay |
 | **wraptext** | `true` / `false` | `false` | Wrap text |
 
