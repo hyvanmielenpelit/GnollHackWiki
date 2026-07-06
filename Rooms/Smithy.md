@@ -2,8 +2,16 @@
 
 ## ℹ️ Description
 
-A Smithy is a GnollHack-specific special room that contains a working anvil and a [[blacksmith|/Monsters/Smith]] NPC. It provides players with a dedicated location to forge, repair, or upgrade their metallic equipment.
+A Smithy is a GnollHack-specific special room that contains a working anvil dungeon feature in the center and a peaceful [[blacksmith|/Monsters/Smith]] NPC. It provides players with a dedicated location to customize, repair, or upgrade metallic equipment.
 
 ## 🗺️ Generation
 
-A Smithy can be generated randomly as a special room. The room typically features an anvil dungeon feature in the center and is tended by a [[blacksmith|/Monsters/Smith]].
+Smithies can generate randomly as a special room on Dungeons of Doom level 2 and deeper, with a 1 in 7 chance of generating.
+
+## 🛠️ Services
+
+The blacksmith in the Smithy is friendly and offers metallic crafting services:
+- **Forge Gear:** Forge metallic weapons, armor, or ammo (such as sling-bullets) from metal nuggets and ores.
+- **Repair Gear:** Repair damaged metallic weapons and armor.
+- **Upgrade Gear:** Upgrade metallic weapons and armor.
+

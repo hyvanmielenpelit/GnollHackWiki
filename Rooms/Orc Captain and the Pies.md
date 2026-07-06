@@ -6,6 +6,6 @@
 
 ## 🗺️ Generation
 
-This room generates as a tiny 1x1 closet hidden within the dungeon. Inside, you will find:
-- An [[orc captain|/Monsters/Orc-captain]] (who is fully geared with orcish equipment and carries one [[cream pie|/Items/Cream pie]])
-- A large box containing 5 to 12 [[cream pies|/Items/Cream pie]]
+This closet generates as a tiny 1x1 room hidden behind a locked door. It has a 1 in 5 chance of generating on Dungeons of Doom levels 9 to 14, provided it has not been generated yet. Inside, you will find:
+- **An Orc Captain:** A single [[orc-captain|/Monsters/Orc-captain]] that has maximum hit points, is fully equipped and wearing orcish chain mail, helm, cloak, dagger, shield, short sword, short bow, and carrying 10 to 12 arrows. He also carries one [[cream pie|/Items/Cream pie]] in his inventory.
+- **A Box:** A large box containing 5 to 12 [[cream pies|/Items/Cream pie]] and a **blessed potion of gain ability**!

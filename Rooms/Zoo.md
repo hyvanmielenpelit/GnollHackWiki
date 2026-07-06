@@ -6,4 +6,4 @@ A Zoo is a special room filled with many different types of monsters and a signi
 
 ## 🗺️ Generation
 
-Zoos have a 1 in 7 chance of generating on eligible levels in the [[/Dungeon/Dungeons of Doom]]. The room will be filled with a random assortment of monsters appropriate for the level's depth, all generated asleep. Every square in a zoo typically contains a pile of gold.
+Zoos have a 1 in 6 chance of generating on Dungeons of Doom levels 6 to 15. The room is populated with a random assortment of sleeping monsters appropriate for the level's depth. Every square in the zoo typically contains a pile of gold.

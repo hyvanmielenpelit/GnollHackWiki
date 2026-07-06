@@ -24,5 +24,6 @@ There are many different types of shops, each specializing in different types of
 - [[/Rooms/Shops/Rare books]] — Specializes in magical spellbooks.
 - [[/Rooms/Shops/Lighting store]] — Specializes in lighting sources.
 - [[/Rooms/Shops/Quality reagents and components]] — Specializes in reagents and gems.
+- [[/Rooms/Shops/Exquisite concoctions and recipes]] — A unique shop on the Modron Plane specializing in premium potions and scrolls.
 - [[/Rooms/Shops/Health food store]] — Specializes in vegan and health-oriented provisions.
 - [[/Rooms/Shops/Deserted shop]] — A former shop containing dangerous mimics.

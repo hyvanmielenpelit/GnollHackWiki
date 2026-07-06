@@ -44,6 +44,6 @@ However, there is a 1 in 3 chance that sitting on the throne will trigger one of
 
 ## 🗺️ Generation
 
-Throne rooms can be generated randomly in the Dungeons of Doom. They have a 1 in 6 chance of generating on levels eligible for special rooms. The room is always lit and the floor is completely filled with monsters that are generated asleep, provided you do not make too much noise.
+Throne Rooms can be generated randomly on Dungeons of Doom levels 7 to 20. They have a 1 in 6 chance of generating on levels eligible for special rooms. The room is always lit, has custom court music, and is populated with sleeping monsters surrounding the throne.
 
-The monsters in a throne room are often led by a prominent monster acting as the ruler (like an [[/Monsters/Orc king]] or an [[/Monsters/Ogre king]]), accompanied by their retinue.
+The monsters in a Throne Room are led by a prominent monster acting as the ruler (like an [[orc king|/Monsters/Orc]] or an [[ogre king|/Monsters/Ogre]]), accompanied by their retinue. A locked chest containing gold is also placed in the room.

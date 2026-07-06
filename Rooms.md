@@ -2,14 +2,15 @@
 
 > 👉 **Rooms are the main feature of the Dungeons of Doom. This page lists the various room types that can appear in GnollHack.**
 
-## Common Rooms
+## 📖 Common Rooms
 
 - [[/Rooms/Ordinary Room]] — The most common type of room found in the [[/Dungeon/Dungeons of Doom]].
 - [[/Rooms/Shops]] — Learn about shop types in GnollHack.
 
-## Special Rooms
+## 🚩 Special Rooms
 
 - [[/Rooms/Anthole]] — Infested with various types of ants and other insects.
+- [[/Rooms/Armory]] — A military-themed room containing weapon racks, chests, and potentially an artifact weapon.
 - [[/Rooms/Barracks]] — A military-themed room filled with soldiers and weaponry.
 - [[/Rooms/Beehive]] — Filled with killer bees and large quantities of royal jelly.
 - [[/Rooms/Cockatrice Nest]] — A lethal room filled entirely with cockatrices.
@@ -24,14 +25,15 @@
 - [[/Rooms/Vault]] — A small, hidden room completely filled with gold and guarded by a vault guard.
 - [[/Rooms/Zoo]] — The floor is completely covered with a variety of sleeping monsters and gold.
 
-## NPC Rooms
+## 👤 NPC Rooms
 
 - [[/Rooms/Artificer]]
 - [[/Rooms/Dwarven Geologist]]
 - [[/Rooms/Practice Hall]] — Inhabited by Lindisse, the Elven Bard.
 - [[/Rooms/Smithy]]
+- [[/Rooms/Warp Engineer]] — Inhabited by a Modron Quarton warp engineer on the Modron Plane.
 
-## Closets
+## 🚪 Closets
 
 - [[/Rooms/Orc and the Pie]] — A closet containing a single orc guarding a cream pie.
 - [[/Rooms/Orc Captain and the Pies]] — A closet containing an orc-captain guarding multiple cream pies.

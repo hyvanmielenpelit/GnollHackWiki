@@ -2,8 +2,18 @@
 
 ## ℹ️ Description
 
-A Dwarven Geologist room is a GnollHack-specific NPC room. It serves as the study or workspace for a [[Dwarven Geologist|/Monsters/Dwarven geologist]], an NPC who specializes in gems and stones.
+A Dwarven Geologist room (known as the **Workshop**) is a GnollHack-specific NPC room. It serves as the workspace for a peaceful [[Dwarven Geologist|/Monsters/Dwarven geologist]] NPC who specializes in mineralogy. The room is always lit and has parquet-style floors.
 
 ## 🗺️ Generation
 
-Dwarven Geologist rooms are generated as a subtype of the generic NPC room. When an NPC room is generated, there is a chance it will be assigned the Dwarven Geologist subtype, placing a [[Dwarven Geologist|/Monsters/Dwarven geologist]] NPC inside the room.
+Dwarven Geologist rooms can generate:
+- **Randomly:** As a random subtype of the generic NPC room in the Dungeons of Doom starting from dungeon level 6.
+- **Fixed/Preset:** On various levels in the [[/Dungeon/Gnomish Mines]], [[/Dungeon/Mine Town]] levels, and [[/Dungeon/Gehennom]].
+
+## 🛠️ Services
+
+The Dwarven Geologist offers the following services to players:
+- **Commerce:** Buy gems and stones from you.
+- **Identify Gems and Stones:** Identify any unknown gems and stones in your inventory.
+- **Forge Sling-bullets:** Forge sling-bullets for you.
+

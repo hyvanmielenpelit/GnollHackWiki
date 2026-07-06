@@ -2,8 +2,21 @@
 
 ## ℹ️ Description
 
-An Artificer room is a GnollHack-specific NPC room. It serves as the workshop for an Artificer, a non-player character skilled in magical engineering and crafting. The Artificer is generated as a level 37 [[/Monsters/Archmage]].
+An Artificer room (known as the **Laboratory**) is a GnollHack-specific NPC room. It serves as the laboratory for an Artificer, a peaceful level 37 [[/Monsters/Archmage]] NPC skilled in magical items and spellwork. The room is always lit, features parquet-style floors, and always contains a decorative painting on the wall.
 
 ## 🗺️ Generation
 
-Artificer rooms are generated as a subtype of the generic NPC room. When an NPC room is generated, there is a chance it will be assigned the Artificer subtype, placing an Artificer NPC inside the room.
+Artificer rooms can generate:
+- **Randomly:** As a random subtype of the generic NPC room in the Dungeons of Doom starting from dungeon level 8.
+- **Fixed/Preset:** On various levels in [[/Dungeon/Sokoban]], the Castle, and [[/Dungeon/Gehennom]].
+
+## 🛠️ Services
+
+The Artificer offers the following services to players:
+- **Enchant an Accessory:** Enchant rings or amulets.
+- **Recharge an Item:** Recharge wands and other magic items.
+- **Fully Recharge an Item:** Fully (blessed) recharge wands and magic items.
+- **Identify Accessories and Charged Items:** Identify amulets, rings, and wands in your inventory.
+- **Commerce:** Buy spellbooks from you.
+- **Teach Spells:** Teach you wizard spells.
+

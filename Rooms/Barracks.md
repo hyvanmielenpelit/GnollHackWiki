@@ -6,4 +6,6 @@ A Barracks is a special room that houses an entire garrison of [[soldiers|/Monst
 
 ## 🗺️ Generation
 
-Barracks have a 1 in 4 chance of generating on eligible levels starting from dungeon level 15. The room is populated with a variety of military personnel. Unlike many other special rooms, barracks often contain a vast assortment of military gear scattered on the floor, including swords, shields, polearms, and rations.
+Barracks have a 1 in 6 chance of generating on eligible levels starting from dungeon level 13, provided that soldiers have not been genocided or made extinct. 
+
+The room is populated with a variety of military personnel generated asleep. Unlike many other special rooms, barracks contain a vast assortment of military gear scattered on the floor, including swords, shields, armor, polearms, and food rations. They also feature a chest container representing the garrison's payroll and loot.

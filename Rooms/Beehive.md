@@ -6,4 +6,6 @@ A Beehive is a highly specialized room containing only [[killer bees|/Monsters/K
 
 ## 🗺️ Generation
 
-Beehives have a 1 in 5 chance of generating on eligible levels starting from dungeon level 10, provided that [[killer bees|/Monsters/Killer bee]] have not been genocided or made extinct.
+Beehives have a 1 in 6 chance of generating on Dungeons of Doom levels 9 to 14, provided that [[killer bees|/Monsters/Killer bee]] have not been genocided or made extinct. 
+
+The room is filled with sleeping killer bees and has multiple [[lumps of royal jelly|/Items/Lump of royal jelly]] scattered on the floor. A single [[queen bee|/Monsters/Queen bee]] is guaranteed to generate at the center of the room.
