@@ -10,24 +10,12 @@
 
 | Option Name | Values | Default | Description |
 | :---------- | :----: | :-----: | :---------- |
-| **align_message** | *(varies)* | `top` | Message window alignment |
-| **align_status** | *(varies)* | `top` | Status window alignment |
 | **animation_interval** | *(varies)* | `20` | Animation frame interval in milliseconds |
 | **blinking_cursor_on_tiles** | `true` / `false` | `false` | Display a blinking cursor when using tiles |
 | **crawl_interval** | *(varies)* | `15` | Crawl movement interval in milliseconds |
 | **dark_room** | `true` / `false` | `true` | Show floor outside line of sight differently |
 | **detailed_weights** | `true` / `false` | `false` | Show object weights using more accurate units |
 | **fast_map** | `true` / `false` | `true` | Use optimized, less flexible map display |
-| **font_map** | *(varies)* | *(varies)* | The font to use in the map window |
-| **font_menu** | *(varies)* | *(varies)* | The font to use in menus |
-| **font_message** | *(varies)* | *(varies)* | The font to use in the message window |
-| **font_size_map** | *(varies)* | *(varies)* | The size of the map font |
-| **font_size_menu** | *(varies)* | *(varies)* | The size of the menu font |
-| **font_size_message** | *(varies)* | *(varies)* | The size of the message font |
-| **font_size_status** | *(varies)* | *(varies)* | The size of the status font |
-| **font_size_text** | *(varies)* | *(varies)* | The size of the text font |
-| **font_status** | *(varies)* | *(varies)* | The font to use in status window |
-| **font_text** | *(varies)* | *(varies)* | The font to use in text windows |
 | **fullscreen** | `true` / `false` | `false` | Toggle fullscreen |
 | **fullstatuslineorder** | `true` / `false` | `true` | Use full status line order |
 | **guicolor** | `true` / `false` | `true` | Use color for UI |
@@ -42,7 +30,6 @@
 | **legacy** | `true` / `false` | `true` | Show introductory message |
 | **lit_corridor** | `true` / `false` | `false` | Show dark corridors as lit if in sight |
 | **long_charge_text** | `true` / `false` | `false` | Long format for charges and rechargings in inventory |
-| **map_mode** | *(varies)* | *(varies)* | Map display mode under Windows |
 | **menu_deselect_all** | *(varies)* | *(varies)* | Deselect all items in a menu |
 | **menu_deselect_page** | *(varies)* | *(varies)* | Deselect all items on this page of a menu |
 | **menu_first_page** | *(varies)* | *(varies)* | Jump to the first page in a menu |
@@ -52,7 +39,6 @@
 | **menu_last_page** | *(varies)* | *(varies)* | Jump to the last page in a menu |
 | **menu_next_page** | *(varies)* | *(varies)* | Goto the next menu page |
 | **menu_objsyms** | `true` / `false` | `false` | Show object symbols in menus |
-| **menu_overlay** | `true` / `false` | `true` | Menus overlay and align to right |
 | **menu_previous_page** | *(varies)* | *(varies)* | Goto the previous menu page |
 | **menu_search** | *(varies)* | *(varies)* | Search for a menu item |
 | **menu_select_all** | *(varies)* | *(varies)* | Select all items in a menu |
@@ -61,11 +47,9 @@
 | **menucolors** | `true` / `false` | `true` | Use colors in menus |
 | **menustyle** | *(varies)* | *(varies)* | User interface for object selection |
 | **move_interval** | *(varies)* | `15` | Normal movement interval in milliseconds |
-| **msg_window** | *(varies)* | *(varies)* | The type of message window required |
 | **msghistory** | *(varies)* | `20` | Number of top line messages to save |
 | **news** | `true` / `false` | `true` | Show any news at game start |
 | **null** | `true` / `false` | `true` | Allow nulls to be sent to terminal |
-| **page_wait** | `true` / `false` | `true` | Page wait on Mac |
 | **palette** | *(varies)* | *(varies)* | Palette |
 | **perm_invent** | `true` / `false` | `false` | Show permanent inventory window |
 | **popup_dialog** | `true` / `false` | `false` | Use popup dialog |
@@ -111,9 +95,6 @@
 | **video** | *(varies)* | *(varies)* | Method of video updating |
 | **whatis_coord** | *(varies)* | *(varies)* | Show coordinates when auto-describing cursor position |
 | **whatis_menu** | `true` / `false` | `false` | Show menu when getting a map location |
-| **windowchain** | *(varies)* | *(varies)* | Window processor to use |
-| **windowcolors** | *(varies)* | *(varies)* | The foreground/background colors of windows |
-| **windowtype** | *(varies)* | *(varies)* | Windowing system to use |
 | **wiz_mstatusline** | `true` / `false` | `false` | Enable extended monster status line in wizard mode |
 | **wizweight** | `true` / `false` | `false` | Show weights in inventory in wizard mode |
 | **worn_shows_equipment** | `true` / `false` | `true` | Worn items shows equipment screen |
@@ -281,6 +262,9 @@
 
 | Option Name | Values | Default | Description |
 | :---------- | :----: | :-----: | :---------- |
+| **DECgraphics** | *(varies)* | *(varies)* | Load DECGraphics display symbols |
+| **IBMgraphics** | *(varies)* | *(varies)* | Load IBMGraphics display symbols |
+| **Macgraphics** | *(varies)* | *(varies)* | Load MACGraphics display symbols |
 | **ascii_map** | `true` / `false` | `false` | Show map as text |
 | **classic_colors** | `true` / `false` | `false` | Use classic colors for boulders and floor symbols |
 | **classic_statue_symbol** | `true` / `false` | `false` | Use classic symbol \'`\' for statues |
@@ -289,12 +273,16 @@
 | **enablettyarrowkeys** | `true` / `false` | `false` | Enable tty arrow keys |
 | **extmenu** | `true` / `false` | `true` | Use menu for getting extended commands |
 | **ibm2utf8** | `true` / `false` | `false` | Convert CP437 symbols to UTF8 format before output |
+| **menu_overlay** | `true` / `false` | `true` | Menus overlay and align to right |
+| **msg_window** | *(varies)* | *(varies)* | The type of message window required |
 | **show_decorations** | `true` / `false` | `true` | Show decorations via colors in ASCII mode |
 | **standout** | `true` / `false` | `false` | Use standout for --more-- |
 | **use_darkgray** | `true` / `false` | `true` | Use bold black color instead of blue |
 | **videocolors** | *(varies)* | *(varies)* | Color mappings for internal screen routines |
 | **videoshades** | *(varies)* | *(varies)* | Gray shades to map to black/gray/white |
 | **vt_tiledata** | `true` / `false` | `false` | Use VT codes for tiles |
+| **windowchain** | *(varies)* | *(varies)* | Window processor to use |
+| **windowtype** | *(varies)* | *(varies)* | Windowing system to use |
 
 ## 🖥️ Curses Interface
 
@@ -302,6 +290,8 @@
 
 | Option Name | Values | Default | Description |
 | :---------- | :----: | :-----: | :---------- |
+| **align_message** | *(varies)* | `top` | Message window alignment |
+| **align_status** | *(varies)* | `top` | Status window alignment |
 | **autostatuslines** | `true` / `false` | `false` | Adjust the number of status lines automatically |
 | **cursesgraphics** | *(varies)* | *(varies)* | Load curses display symbols |
 | **here_window_size** | *(varies)* | `20` | Number of rows in the here window |
@@ -309,16 +299,26 @@
 | **term_cols** | *(varies)* | *(varies)* | Number of columns |
 | **term_rows** | *(varies)* | *(varies)* | Number of rows |
 | **windowborders** | *(varies)* | *(varies)* | 0 (off), 1 (on), 2 (auto) |
+| **windowcolors** | *(varies)* | *(varies)* | The foreground/background colors of windows |
 
 ## 🗑️ Obsolete
 
-> ⚠️ **Warning:** These options are completely obsolete. They are listed here only for completeness's sake.
-
+> ⚠️ **Warning:** These options are obsolete, deprecated, or only used by legacy versions of the game.
+ 
 | Option Name | Values | Default | Description |
 | :---------- | :----: | :-----: | :---------- |
-| **DECgraphics** | *(varies)* | *(varies)* | Load DECGraphics display symbols |
-| **IBMgraphics** | *(varies)* | *(varies)* | Load IBMGraphics display symbols |
-| **Macgraphics** | *(varies)* | *(varies)* | Load MACGraphics display symbols |
 | **boulder** | *(varies)* | *(varies)* | Deprecated (use S_boulder in sym file instead) |
+| **font_map** | *(varies)* | *(varies)* | The font to use in the map window |
+| **font_menu** | *(varies)* | *(varies)* | The font to use in menus |
+| **font_message** | *(varies)* | *(varies)* | The font to use in the message window |
+| **font_size_map** | *(varies)* | *(varies)* | The size of the map font |
+| **font_size_menu** | *(varies)* | *(varies)* | The size of the menu font |
+| **font_size_message** | *(varies)* | *(varies)* | The size of the message font |
+| **font_size_status** | *(varies)* | *(varies)* | The size of the status font |
+| **font_size_text** | *(varies)* | *(varies)* | The size of the text font |
+| **font_status** | *(varies)* | *(varies)* | The font to use in status window |
+| **font_text** | *(varies)* | *(varies)* | The font to use in text windows |
 | **large_font** | `true` / `false` | `false` | Obsolete: use large font |
+| **map_mode** | *(varies)* | *(varies)* | Map display mode under Windows |
+| **page_wait** | `true` / `false` | `true` | Page wait on Mac |
 
