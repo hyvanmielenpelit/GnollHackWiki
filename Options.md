@@ -289,7 +289,7 @@
 | **ascii_map** | `true` / `false` | `false` | Show map as text |
 | **autostatuslines** | `true` / `false` | `false` | Adjust the number of status lines automatically |
 | **classic_colors** | `true` / `false` | `false` | Use classic colors for boulders and floor symbols |
-| **classic_statue_symbol** | `true` / `false` | `false` | Use classic symbol \'`\' for statues |
+| **classic_statue_symbol** | `true` / `false` | `false` | Use classic symbol for statues |
 | **color** | `true` / `false` | `true` | Use color in map |
 | **eight_bit_tty** | `true` / `false` | `false` | Send 8-bit characters directly to terminal |
 | **enablettyarrowkeys** | `true` / `false` | `false` | Enable tty arrow keys |
