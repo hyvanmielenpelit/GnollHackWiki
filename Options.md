@@ -2,8 +2,6 @@
 
 > 👉 **GnollHack provides a vast array of configuration options that allow you to customize the user interface, gameplay mechanics, controls, and audio settings to fit your playstyle. This page serves as a comprehensive reference for all available options, whether you are playing on a modern graphical port or a classic terminal interface.**
 
-## Getting Started
-
 - [[Accessing Options File]] — How to access the Options file on various platforms
 
 ## 🖥️ User Interface & Display
@@ -17,10 +15,10 @@
 | **align_status** | *(varies)* | `top` | Status window alignment |
 | **animation_interval** | *(varies)* | `20` | Animation frame interval in milliseconds |
 | **ascii_map** | `true` / `false` | `false` | Show map as text **(ASCII Only)** |
-| **autostatuslines** | `true` / `false` | `false` | Automatically adjust message lines and status lines in the curses interface **(ASCII Only)** |
+| **autostatuslines** | `true` / `false` | `false` | Adjust the number of status lines automatically **(ASCII Only)** |
 | **blinking_cursor_on_tiles** | `true` / `false` | `false` | Display a blinking cursor when using tiles |
 | **classic_colors** | `true` / `false` | `false` | Use classic colors for boulders and floor symbols **(ASCII Only)** |
-| **classic_statue_symbol** | `true` / `false` | `false` | Use classic symbol '`' for statues **(ASCII Only)** |
+| **classic_statue_symbol** | `true` / `false` | `false` | Use classic symbol \'`\' for statues **(ASCII Only)** |
 | **color** | `true` / `false` | `true` | Use color in map **(ASCII Only)** |
 | **crawl_interval** | *(varies)* | `15` | Crawl movement interval in milliseconds |
 | **cursesgraphics** | *(varies)* | *(varies)* | Load curses display symbols **(ASCII Only)** **(Obsolete)** |
@@ -51,7 +49,7 @@
 | **ibm2utf8** | `true` / `false` | `false` | Convert CP437 symbols to UTF8 format before output **(ASCII Only)** |
 | **implicit_uncursed** | `true` / `false` | `true` | Omit "uncursed" from inventory |
 | **inventory_weights_last** | `true` / `false` | `true` | Display object weights in parentheses after object name |
-| **large_font** | `true` / `false` | `false` | Use large font **(Obsolete)** |
+| **large_font** | `true` / `false` | `false` | Obsolete: use large font **(Obsolete)** |
 | **last_item_show_duration** | *(varies)* | `10` | Duration for showing last item in context menu |
 | **legacy** | `true` / `false` | `true` | Show introductory message |
 | **lit_corridor** | `true` / `false` | `false` | Show dark corridors as lit if in sight |
@@ -86,7 +84,7 @@
 | **preferred_screen_scale** | *(varies)* | *(varies)* | Preferred screen scale |
 | **preload_tiles** | `true` / `false` | `true` | Preload tiles |
 | **roguesymset** | *(varies)* | *(varies)* | Load a set of rogue display symbols from the symbols file |
-| **runmode** | *(varies)* | *(varies)* | Display frequency when 'running' or 'travelling' |
+| **runmode** | *(varies)* | *(varies)* | Display frequency when `running' or `travelling' |
 | **scroll_amount** | *(varies)* | *(varies)* | Amount to scroll map when scroll_margin is reached |
 | **scroll_margin** | *(varies)* | *(varies)* | Scroll map when this far from the edge |
 | **show_buff_timer** | `true` / `false` | `false` | Show buff timer on tiles |
@@ -133,6 +131,7 @@
 | **videoshades** | *(varies)* | *(varies)* | Gray shades to map to black/gray/white **(ASCII Only)** |
 | **vt_tiledata** | `true` / `false` | `false` | Use VT codes for tiles **(ASCII Only)** |
 | **whatis_coord** | *(varies)* | *(varies)* | Show coordinates when auto-describing cursor position |
+| **whatis_menu** | `true` / `false` | `false` | Show menu when getting a map location |
 | **windowborders** | *(varies)* | *(varies)* | 0 (off), 1 (on), 2 (auto) |
 | **windowchain** | *(varies)* | *(varies)* | Window processor to use |
 | **windowcolors** | *(varies)* | *(varies)* | The foreground/background colors of windows |
@@ -202,7 +201,7 @@
 | **selectsaved** | `true` / `false` | `true` | Select a saved game at program start |
 | **sortpack** | `true` / `false` | `true` | Group inventory items by type |
 | **spellorder** | *(varies)* | *(varies)* | Default spell sorting |
-| **stash_on_autopickup** | `true` / `false` | `false` | Stash items into a container on autopickup |
+| **stash_on_autopickup** | `true` / `false` | `false` | Stash items into a container on autopickup (but no thrown if pick_thrown is on) |
 | **suppress_alert** | *(varies)* | *(varies)* | Suppress alerts about version-specific features |
 | **swap_rhand_only** | `true` / `false` | `false` | Swap right hand weapon only rather than objects in both hands |
 | **takeoff_uses_all** | `true` / `false` | `true` | Takeoff command uses takeoffall command rather than normal implementation |
@@ -238,6 +237,7 @@
 | **right_click_command** | *(varies)* | *(none)* | Command upon clicking right mouse button |
 | **run_spot_distance** | *(varies)* | `0` | Longest distance for spotting a monster to stop running or travelling |
 | **self_click_action** | `true` / `false` | `false` | Clicking the player character executes an action |
+| **softkeyboard** | `true` / `false` | `false` | Soft keyboard |
 | **subkeyvalue** | *(varies)* | *(varies)* | Override keystroke value |
 | **travel** | `true` / `false` | `true` | Enable traveling via mouse click |
 | **travel_debug** | `true` / `false` | `false` | Display debugging graphics for travel algorithm |
@@ -248,26 +248,26 @@
 
 | Option Name | Values | Default | Description |
 | :--- | :--- | :--- | :--- |
-| **catbreed** | *(varies)* | *(none)* | The breed of your (first) cat |
-| **catgender** | *(varies)* | *(none)* | The gender of your (first) cat |
-| **catname** | *(varies)* | *(none)* | The name of your (first) cat |
-| **dogbreed** | *(varies)* | *(none)* | The breed of your (first) dog |
-| **doggender** | *(varies)* | *(none)* | The gender of your (first) dog |
-| **dogname** | *(varies)* | *(none)* | The name of your (first) dog |
-| **horsegender** | *(varies)* | *(none)* | The gender of your (first) horse |
-| **horsename** | *(varies)* | *(none)* | The name of your (first) horse |
+| **catbreed** | *(varies)* | *(none)* | The breed of your (first) cat (e.g., catbreed:white persian) |
+| **catgender** | *(varies)* | *(none)* | The gender of your (first) cat (e.g., catgender:female) |
+| **catname** | *(varies)* | *(none)* | The name of your (first) cat (e.g., catname:Tabby) |
+| **dogbreed** | *(varies)* | *(none)* | The breed of your (first) dog (e.g., dogbreed:black labrador) |
+| **doggender** | *(varies)* | *(none)* | The gender of your (first) dog (e.g., doggender:male) |
+| **dogname** | *(varies)* | *(none)* | The name of your (first) dog (e.g., dogname:Fang) |
+| **horsegender** | *(varies)* | *(none)* | The gender of your (first) horse (e.g., horsegender:female) |
+| **horsename** | *(varies)* | *(none)* | The name of your (first) horse (e.g., horsename:Silver) |
 | **partydetails** | `true` / `false` | `false` | Give detailed information for each pet |
 | **partylinecolor** | `true` / `false` | `true` | Use colors for pet statistics |
 | **partymultiline** | `true` / `false` | `false` | Print statistics of each pet on a separate status line |
 | **petattr** | *(varies)* | *(varies)* | Attributes for highlighting pets |
 | **pets_not_gifted** | `true` / `false` | `false` | You receive no gifted pets |
 | **pettype** | *(varies)* | *(varies)* | Your preferred initial pet type |
-| **ramgender** | *(varies)* | *(none)* | The gender of your (first) ram |
-| **ramname** | *(varies)* | *(none)* | The name of your (first) ram |
+| **ramgender** | *(varies)* | *(none)* | The gender of your (first) ram (e.g., ramgender:male) |
+| **ramname** | *(varies)* | *(none)* | The name of your (first) ram (e.g., ramname:Silver) |
 | **safe_pet** | `true` / `false` | `true` | Prevent you from hitting pets |
 | **underline_peaceful** | `true` / `false` | `true` | Underline peaceful monsters |
-| **wolfgender** | *(varies)* | *(none)* | The gender of your (first) direwolf |
-| **wolfname** | *(varies)* | *(none)* | The name of your (first) direwolf |
+| **wolfgender** | *(varies)* | *(none)* | The gender of your (first) direwolf (e.g., wolfgender:female) |
+| **wolfname** | *(varies)* | *(none)* | The name of your (first) direwolf (e.g., wolfname:Shadow) |
 
 ## 🔊 Audio & Sound
 
@@ -288,14 +288,14 @@
 
 | Option Name | Values | Default | Description |
 | :--- | :--- | :--- | :--- |
-| **align** | *(varies)* | *(varies)* | Your starting alignment |
+| **align** | *(varies)* | *(varies)* | Your starting alignment (lawful, neutral, or chaotic) |
 | **blind** | `true` / `false` | `false` | Your character is permanently blind |
 | **female** | `true` / `false` | `false` | Is your character female |
 | **fruit** | *(varies)* | *(varies)* | The name of a fruit you enjoy eating |
-| **gender** | *(varies)* | *(varies)* | Your starting gender |
-| **luggagename** | *(varies)* | *(varies)* | The name of your (first) luggage |
-| **name** | *(varies)* | *(varies)* | Your character's name |
+| **gender** | *(varies)* | *(varies)* | Your starting gender (male or female) |
+| **luggagename** | *(varies)* | *(varies)* | The name of your (first) luggage (e.g., luggagename:Albert) |
+| **name** | *(varies)* | *(varies)* | Your character's name (e.g., name:Merlin-W) |
 | **nudist** | `true` / `false` | `false` | Start your character without armor |
-| **race** | *(varies)* | *(varies)* | Your starting race |
-| **role** | *(varies)* | *(varies)* | Your starting role |
+| **race** | *(varies)* | *(varies)* | Your starting race (e.g., Human, Elf) |
+| **role** | *(varies)* | *(varies)* | Your starting role (e.g., Barbarian, Valkyrie) |
 
