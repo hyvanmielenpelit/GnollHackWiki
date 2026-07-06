@@ -2,7 +2,7 @@
 
 ## ℹ️ Description
 
-An Artificer room (known as the **Laboratory**) is a GnollHack-specific NPC room. It serves as the laboratory for an Artificer, a peaceful level 37 [[/Monsters/Archmage]] NPC skilled in magical items and spellwork. The room is always lit, features parquet-style floors, and always contains a decorative painting on the wall.
+An Artificer room (known as the **Laboratory**) is a GnollHack-specific NPC room. It serves as the laboratory for an Artificer, a peaceful level 37 [[/Monsters/Archmage]] NPC skilled in magical items and spellwork. The room is always lit, features parquet-style floors, and always contains a decorative [[painting|/Items/Painting]] on the wall.
 
 ## 🗺️ Generation
 
@@ -13,10 +13,10 @@ Artificer rooms can generate:
 ## 🛠️ Services
 
 The Artificer offers the following services to players:
-- **Enchant an Accessory:** Enchant rings or amulets.
-- **Recharge an Item:** Recharge wands and other magic items.
-- **Fully Recharge an Item:** Fully (blessed) recharge wands and magic items.
-- **Identify Accessories and Charged Items:** Identify amulets, rings, and wands in your inventory.
+- **Enchant an Accessory:** Enchant [[rings|/Rings]] or [[amulets|/Amulets]].
+- **Recharge an Item:** Recharge [[wands|/Wands]] and other magic items.
+- **Fully Recharge an Item:** Fully (blessed) recharge [[wands|/Wands]] and magic items.
+- **Identify Accessories and Charged Items:** Identify [[amulets|/Amulets]], [[rings|/Rings]], and [[wands|/Wands]] in your inventory.
 - **Commerce:** Buy spellbooks from you.
 - **Teach Spells:** Teach you wizard spells.
 

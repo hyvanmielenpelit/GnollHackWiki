@@ -13,7 +13,7 @@ Dwarven Geologist rooms can generate:
 ## 🛠️ Services
 
 The Dwarven Geologist offers the following services to players:
-- **Commerce:** Buy gems and stones from you.
-- **Identify Gems and Stones:** Identify any unknown gems and stones in your inventory.
-- **Forge Sling-bullets:** Forge sling-bullets for you.
+- **Commerce:** Buy [[gems|/Gems and Stones]] and [[stones|/Gems and Stones]] from you.
+- **Identify Gems and Stones:** Identify any unknown [[gems and stones|/Gems and Stones]] in your inventory.
+- **Forge Sling-bullets:** Forge [[sling-bullets|/Items/Sling-bullet]] for you.
 

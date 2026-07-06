@@ -2,7 +2,7 @@
 
 ## ℹ️ Description
 
-A Practice Hall is a GnollHack-specific NPC room that serves as a performance room. It is uniquely inhabited by Lindisse, a named, peaceful [[elven bard|/Monsters/Elven Bard]] NPC. The room features parquet-style floors, a fireplace, and always contains a decorative painting on the wall.
+A Practice Hall is a GnollHack-specific NPC room that serves as a performance room. It is uniquely inhabited by Lindisse, a named, peaceful [[elven bard|/Monsters/Elven Bard]] NPC. The room features parquet-style floors, a fireplace, and always contains a decorative [[painting|/Items/Painting]] on the wall.
 
 ## 🗺️ Generation
 

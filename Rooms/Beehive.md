@@ -1,4 +1,4 @@
-> 👉 **A Beehive is a special room filled with killer bees and large quantities of royal jelly.**
+> 👉 **A Beehive is a special room filled with killer bees and large quantities of [[royal jelly|/Items/Lump of royal jelly]].**
 
 ## ℹ️ Description
 

@@ -10,11 +10,11 @@
 ## 🚩 Special Rooms
 
 - [[/Rooms/Anthole]] — Infested with various types of ants and other insects.
-- [[/Rooms/Armory]] — A military-themed room containing weapon racks, chests, and potentially an artifact weapon.
-- [[/Rooms/Barracks]] — A military-themed room filled with soldiers and weaponry.
-- [[/Rooms/Beehive]] — Filled with killer bees and large quantities of royal jelly.
+- [[/Rooms/Armory]] — A military-themed room containing [[weapon racks|/Items/Weapon rack]], [[chests|/Items/Chest]], and potentially an [[artifact weapon|Artifacts]].
+- [[/Rooms/Barracks]] — A military-themed room filled with soldiers and [[weapons|Weapons]].
+- [[/Rooms/Beehive]] — Filled with killer bees and large quantities of [[royal jelly|/Items/Lump of royal jelly]].
 - [[/Rooms/Cockatrice Nest]] — A lethal room filled entirely with cockatrices.
-- [[/Rooms/Dragon Lair]] — A room filled with dragons, hatchlings, and precious gems.
+- [[/Rooms/Dragon Lair]] — A room filled with dragons, hatchlings, and precious [[gems|Gems and Stones]].
 - [[/Rooms/Garden]] — A peaceful room containing trees, herbs, and garden gnomes.
 - [[/Rooms/Graveyard]] — Filled with undead creatures and graves.
 - [[/Rooms/Leprechaun Hall]] — Completely filled with leprechauns and large amounts of gold.
@@ -35,5 +35,5 @@
 
 ## 🚪 Closets
 
-- [[/Rooms/Orc and the Pie]] — A closet containing a single orc guarding a cream pie.
-- [[/Rooms/Orc Captain and the Pies]] — A closet containing an orc-captain guarding multiple cream pies.
+- [[/Rooms/Orc and the Pie]] — A closet containing a single orc guarding a [[/Items/cream pie]].
+- [[/Rooms/Orc Captain and the Pies]] — A closet containing an orc-captain guarding multiple [[/Items/cream pie]].
