@@ -7,7 +7,7 @@ These settings relate to GnollHack's **modern ports** only.
 ### General
 
 | Setting Name | Options / Values | Default | Description |
-|---|---|---|---|
+| :----------- | :--------------: | :-----: | :---------- |
 | **GPU Acceleration** | On / Off | On | Enables and disables the GPU acceleration of the game. If disabled, the game uses CPU for rendering graphics. Note that GPU acceleration can cause crashes on some systems. |
 | **Graphics Style** | Tiles / ASCII | Tiles | Shows the game in 2D tile graphics or in ASCII text. |
 | **Map FPS** | 20 to 144 | 60 | Determines the max refresh rate of the game. This can be used to save battery or to make the game smoother. |
@@ -28,7 +28,7 @@ These settings relate to GnollHack's **modern ports** only.
 ### Format
 
 | Setting Name | Options / Values | Default | Description |
-|---|---|---|---|
+| :----------- | :--------------: | :-----: | :---------- |
 | **Metric System** | On / Off | Off | Uses the metric system (kg, cm, etc.) instead of the imperial system for weights and measures in descriptions. |
 | **Show Dice As Ranges** | On / Off | On | **Off:** XdY format (e.g., 2d6).<br>**On:** Range format A-B (e.g., 2-12). |
 | **Show Damage Formula** | On / Off | Off | Shows the damage formula (dice) for weapons and attacks in menus. |
@@ -36,7 +36,7 @@ These settings relate to GnollHack's **modern ports** only.
 ### Menu Appearance
 
 | Setting Name | Options / Values | Default | Description |
-|---|---|---|---|
+| :----------- | :--------------: | :-----: | :---------- |
 | **Menu Fade Effects** | On / Off | On | Determines whether the texts in the menu and text pages fade in and out when opening and closing the page. |
 | **Improved Menu Images** | On / Off | On | **Off:** Nearest neighbour (faster but worse quality).<br>**On:** Bilinear interpolation (slower but better quality). |
 | **Highlighted Menu Keys** | On / Off | On *(Desktop)* / Off *(Mobile)* | **Off:** Hotkeys are grayed.<br>**On:** Hotkeys are colored black/white based on light/dark mode. |
@@ -47,7 +47,7 @@ These settings relate to GnollHack's **modern ports** only.
 ## Adventuring Settings
 
 | Setting Name | Options / Values | Default | Description |
-|---|---|---|---|
+| :----------- | :--------------: | :-----: | :---------- |
 | **Starting and Gifted Pets** | On / Off | On | Determines whether the player starts with a pet and gets new pets in certain special situations. Turn off if you are attempting a petless conduct. |
 | **Allow Ghost Levels** | On / Off | On | Determines if the game uses so-called bones files of dead characters. |
 
@@ -56,7 +56,7 @@ These settings relate to GnollHack's **modern ports** only.
 ### Layout
 
 | Setting Name | Options / Values | Default | Description |
-|---|---|---|---|
+| :----------- | :--------------: | :-----: | :---------- |
 | **Simple Command Layout** | On / Off | On | **Off:** Shows two rows of commands in the bottom of the screen, and extra commands in more commands.<br>**On:** Shows one row of commands and only the most important extra commands in more commands. |
 | **Alternative Zoom Button** | On / Off | Off | Displays the alternative zoom toggle button in the top-right corner of the map. |
 | **Travel Mode Button** | On / Off | Off | Displays the travel mode toggle button in the top-right corner of the map. |
@@ -70,7 +70,7 @@ These settings relate to GnollHack's **modern ports** only.
 ### Status Bar
 
 | Setting Name | Options / Values | Default | Description |
-|---|---|---|---|
+| :----------- | :--------------: | :-----: | :---------- |
 | **Classic Status Bar** | On / Off | Off | **Off:** Shows the modern graphical game status bar.<br>**On:** Shows the game status bar in text in the NetHack style. |
 | **Desktop Status Bar** | On / Off | On *(Desktop)* / Off *(Mobile)* | Displays ability scores and other extra information on the status bar. |
 | **Show Score** | On / Off | Off | Displays the game score on the status bar. |
@@ -81,7 +81,7 @@ These settings relate to GnollHack's **modern ports** only.
 ### Interface
 
 | Setting Name | Options / Values | Default | Description |
-|---|---|---|---|
+| :----------- | :--------------: | :-----: | :---------- |
 | **Grid** | On / Off | Off | Determines if the game shows grid lines in the game for easier tile position discernment. |
 | **Grid Opacity** | 5% to 100% | 100% | Adjusts the opacity of the grid lines if they are shown. |
 | **Hit Point Bars** | On / Off | Off | Determines if the game shows hit point bars under the player character, NPCs, pets, and monsters. |
@@ -100,7 +100,7 @@ These settings relate to GnollHack's **modern ports** only.
 ### Drawing
 
 | Setting Name | Options / Values | Default | Description |
-|---|---|---|---|
+| :----------- | :--------------: | :-----: | :---------- |
 | **Lighter Unlit Areas** | On / Off | On | **Off:** Unlit areas are darker.<br>**On:** Unlit areas are lighter. |
 | **Draw Wall Ends** | On / Off | On | Determines if the game draws wall end graphics. Can be disabled to save processor time. |
 | **Breathing Animations** | On / Off | On | Determines if the game shows the breathing animations of various creatures. |
@@ -108,7 +108,7 @@ These settings relate to GnollHack's **modern ports** only.
 ## Behavior Settings
 
 | Setting Name | Options / Values | Default | Description |
-|---|---|---|---|
+| :----------- | :--------------: | :-----: | :---------- |
 | **Empty Wish is Nothing** | On / Off | On | **Off:** A random item is received if the wish is left blank.<br>**On:** Nothing is received. Keep on to preserve wishless conduct. |
 | **Character Click Action** | On / Off | Off | Clicking or tapping on the player character executes an action appropriate to the location (e.g., descending the stairs). |
 | **OK on Double Click** | On / Off | Off | Double-clicking a menu item also presses OK button automatically in menus. |
@@ -138,14 +138,14 @@ This section enables you to specify which commands are displayed in the command 
 ## Forum Posting Settings
 
 | Setting Name | Options / Values | Default | Description |
-|---|---|---|---|
+| :----------- | :--------------: | :-----: | :---------- |
 | **Post Game Progress** | On / Off | Off | Posts updates of new events of your journey to a selected channel on a Discord Server. |
 | **Webhook Link** | URL | player-log channel on the GnollHack Discord server | Specifies the webhook link to the channel on a Discord server where your game progress is posted. |
 
 ## Server Posting Settings
 
 | Setting Name | Options / Values | Default | Description |
-|---|---|---|---|
+| :----------- | :--------------: | :-----: | :---------- |
 | **Account** | URL | account.gnollhack.com | Enables you to access and specify the GnollHack Server web address. |
 | **User Name** | Text | None | Your user name on the GnollHack server. |
 | **Password** | Text | None | Your password on the GnollHack server. |
@@ -157,7 +157,7 @@ This section enables you to specify which commands are displayed in the command 
 ## Replays Settings
 
 | Setting Name | Options / Values | Default | Description |
-|---|---|---|---|
+| :----------- | :--------------: | :-----: | :---------- |
 | **Record Game** | On / Off | Off | Determines whether the game records a replay of your game. |
 | **Show Recording** | On / Off | On | Determines whether a red dot appears on the status bar to indicate that game recording is on. |
 | **Auto-Upload to Cloud** | On / Off | Off | Determines whether the saved replay is automatically uploaded to an Azure cloud storage. |
@@ -166,7 +166,7 @@ This section enables you to specify which commands are displayed in the command 
 ## System Settings
 
 | Setting Name | Options / Values | Default | Description |
-|---|---|---|---|
+| :----------- | :--------------: | :-----: | :---------- |
 | **Developer Mode** | On / Off | Off | Activates [[Developer Mode]], which enables [[Wizard Mode]] and editing the [[options]] file. |
 | **Debug Logging** | On / Off | Off | Debug information is written in the app log. |
 | **Low-Level Logging** | On / Off | Off | Extensive logging of various low-level events. Can clog the app log quickly. |
