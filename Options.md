@@ -20,9 +20,6 @@
 | **legacy** | `true` / `false` | `true` | Show introductory message |
 | **lit_corridor** | `true` / `false` | `false` | Show dark corridors as lit if in sight |
 | **long_charge_text** | `true` / `false` | `false` | Long format for charges and rechargings in inventory |
-| **menu_headings** | *(varies)* | *(varies)* | Text attribute for menu headings |
-| **menucolors** | `true` / `false` | `true` | Use colors in menus |
-| **menustyle** | *(varies)* | *(varies)* | User interface for object selection |
 | **move_interval** | *(varies)* | `15` | Normal movement interval in milliseconds |
 | **runmode** | *(varies)* | *(varies)* | Display frequency when `running' or `travelling' |
 | **shield_effect_length** | *(varies)* | `20` | Shield effect length |
@@ -85,7 +82,7 @@
 | **player_selection** | *(varies)* | *(varies)* | Choose character via dialog or prompts |
 | **playmode** | *(varies)* | *(varies)* | Classic or modern play, non-scoring explore or casual mode, or debug mode |
 | **pushweapon** | `true` / `false` | `false` | Previous weapon goes to secondary slot |
-| **rlecomp** | `true` / `false` | `true` | Use rlecomp |
+| **rlecomp** | `true` / `false` | `false` | Use rlecomp |
 | **sanity_check** | `true` / `false` | `false` | Perform data sanity checks |
 | **scores** | *(varies)* | *(varies)* | The parts of the score list you wish to see |
 | **search_box_traps** | `true` / `false` | `true` | Search command searches boxes for traps first |
@@ -93,13 +90,12 @@
 | **sortpack** | `true` / `false` | `true` | Group inventory items by type |
 | **spellorder** | *(varies)* | *(varies)* | Default spell sorting |
 | **stash_on_autopickup** | `true` / `false` | `false` | Stash items into a container on autopickup (but no thrown if pick_thrown is on) |
-| **suppress_alert** | *(varies)* | *(varies)* | Suppress alerts about version-specific features |
 | **swap_rhand_only** | `true` / `false` | `false` | Swap right hand weapon only rather than objects in both hands |
 | **takeoff_uses_all** | `true` / `false` | `true` | Takeoff command uses takeoffall command rather than normal implementation |
 | **tellexp** | `true` / `false` | `true` | Report experience points gained |
 | **verbose** | `true` / `false` | `true` | Enable longer messages |
 | **wiz_alwaysenc** | `true` / `false` | `false` | Always generate an encounter in wizard mode |
-| **zerocomp** | `true` / `false` | `true` | Use zerocomp |
+| **zerocomp** | `true` / `false` | `false` | Use zerocomp |
 
 
 ## 🖱️ Controls & Input
@@ -174,6 +170,7 @@
 | **menu_deselect_all** | *(varies)* | *(varies)* | Deselect all items in a menu (supported by TTY/ASCII and Curses) |
 | **menu_deselect_page** | *(varies)* | *(varies)* | Deselect all items on this page of a menu (supported by TTY/ASCII and Curses) |
 | **menu_first_page** | *(varies)* | *(varies)* | Jump to the first page in a menu (supported by TTY/ASCII and Curses) |
+| **menu_headings** | *(varies)* | *(varies)* | Text attribute for menu headings (supported by TTY/ASCII and Curses) |
 | **menu_invert_all** | *(varies)* | *(varies)* | Invert all items in a menu (supported by TTY/ASCII and Curses) |
 | **menu_invert_page** | *(varies)* | *(varies)* | Invert all items on this page of a menu (supported by TTY/ASCII and Curses) |
 | **menu_last_page** | *(varies)* | *(varies)* | Jump to the last page in a menu (supported by TTY/ASCII and Curses) |
@@ -182,6 +179,8 @@
 | **menu_search** | *(varies)* | *(varies)* | Search for a menu item (supported by TTY/ASCII and Curses) |
 | **menu_select_all** | *(varies)* | *(varies)* | Select all items in a menu (supported by TTY/ASCII and Curses) |
 | **menu_select_page** | *(varies)* | *(varies)* | Select all items on this page of a menu (supported by TTY/ASCII and Curses) |
+| **menucolors** | `true` / `false` | `true` | Use colors in menus (supported by TTY/ASCII and Curses) |
+| **menustyle** | *(varies)* | *(varies)* | User interface for object selection (supported by TTY/ASCII, Curses, and Legacy Windows GUI) |
 | **msg_window** | *(varies)* | *(varies)* | The type of message window required LIFO/FIFO (supported by TTY/ASCII and Curses) |
 | **roguesymset** | *(varies)* | *(varies)* | Load a set of rogue display symbols from the symbols file (supported by TTY/ASCII and Curses) |
 | **symset** | *(varies)* | *(varies)* | Load a set of display symbols from the symbols file (supported by TTY/ASCII and Curses) |
@@ -329,6 +328,7 @@
 | **softkeyboard** | `true` / `false` | `false` | Soft keyboard |
 | **soundcard** | *(varies)* | *(varies)* | Type of sound card to use |
 | **subkeyvalue** | *(varies)* | *(varies)* | Override keystroke value |
+| **suppress_alert** | *(varies)* | *(varies)* | Suppress alerts about version-specific features |
 | **tiled_map** | `true` / `false` | `true` | Tiled map |
 | **timed_delay** | `true` / `false` | `true` | Use time delay |
 | **wraptext** | `true` / `false` | `false` | Wrap text |
