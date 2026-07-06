@@ -47,6 +47,7 @@ GnollHack is best understood as a modernized version of NetHack that makes the c
 
 - **[[Settings]]** — GnollHack's modern ports have settings, which can be used to configure the game
 - **[[Options]]** — You can configure GnollHack via a NetHack-style Options file
+- **[[Additional Options]]** — Additional options that you can configure via a NetHack-style Options file
 
 ## 🖥️ Desktop Features
 
