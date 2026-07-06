@@ -9,7 +9,7 @@
 
 ## 💡 Configuration Examples
 
-Here are some of the most common and useful configuration examples to help you customize your options file. For more advanced features, see [[Additional Options]].
+Here are some of the most common configuration examples to help you customize your options file.
 
 ### ⌨️ Number Pad Movement
 
