@@ -204,36 +204,37 @@ OPTIONS=pickup_types:characters
 ## 🏛️ Legacy Versions
 
 > ℹ️ **Note:** These options are shared across multiple legacy interfaces (such as ASCII, Curses, and/or the Legacy Windows GUI). They are not used by the modern .NET MAUI frontend.
+> <sup>1</sup> Ports: **A** = ASCII, **C** = Curses, **W** = Legacy Windows GUI.
 
-| Option Name | Values | Default | Description | Ports |
+| Option Name | Values | Default | Description | Ports<sup>1</sup> |
 | :---------- | :----: | :-----: | :---------- | :---- |
-| **animation_interval** | *(varies)* | `25` | Configures the animation speed (delay in milliseconds between frames) for map movements and spell effects. | ASCII, Curses, Legacy Windows GUI |
-| **extmenu** | `true` / `false` | `false` | If enabled, displays a visual selection menu when entering extended commands (`#`) rather than requiring manual text entry. | ASCII, Curses |
-| **ignintr** | `true` / `false` | `false` | Prevents standard OS keyboard interrupts (like `Ctrl+C`) from immediately terminating the game process. | ASCII, Curses |
-| **mail** | `true` / `false` | `true` | Enables the in-game mail daemon character to deliver real-world system mail notifications as scroll items. | ASCII, Curses |
-| **menu_deselect_all** | *(varies)* | *(varies)* | Binds a keyboard shortcut to deselect all checked items in a menu. | ASCII, Curses, Legacy Windows GUI |
-| **menu_deselect_page** | *(varies)* | *(varies)* | Binds a keyboard shortcut to deselect all checked items on the currently visible menu page. | ASCII, Curses, Legacy Windows GUI |
-| **menu_first_page** | *(varies)* | *(varies)* | Binds a keyboard shortcut to jump immediately to the first page of a multi-page menu. | ASCII, Curses, Legacy Windows GUI |
-| **menu_headings** | *(varies)* | *(varies)* | Sets the text display style (e.g. bold, underline, inverse video) used for header text in menus. | ASCII, Curses, Legacy Windows GUI |
-| **menu_invert_all** | *(varies)* | *(varies)* | Binds a keyboard shortcut to invert all item selections in a menu list. | ASCII, Curses, Legacy Windows GUI |
-| **menu_invert_page** | *(varies)* | *(varies)* | Binds a keyboard shortcut to invert all item selections on the current menu page. | ASCII, Curses, Legacy Windows GUI |
-| **menu_last_page** | *(varies)* | *(varies)* | Binds a keyboard shortcut to jump immediately to the last page of a multi-page menu. | ASCII, Curses, Legacy Windows GUI |
-| **menu_next_page** | *(varies)* | *(varies)* | Binds a keyboard shortcut to flip to the next page of a multi-page menu. | ASCII, Curses, Legacy Windows GUI |
-| **menu_objsyms** | `true` / `false` | `false` | Displays the ASCII character representations (e.g., `)` for weapons) next to items listed in selection menus. | ASCII, Curses, Legacy Windows GUI |
-| **menu_previous_page** | *(varies)* | *(varies)* | Binds a keyboard shortcut to flip back to the previous page of a multi-page menu. | ASCII, Curses, Legacy Windows GUI |
-| **menu_search** | *(varies)* | *(varies)* | Binds a keyboard shortcut to perform a text search within active menus. | ASCII, Curses, Legacy Windows GUI |
-| **menu_select_all** | *(varies)* | *(varies)* | Binds a keyboard shortcut to check/select all items in the current menu list. | ASCII, Curses, Legacy Windows GUI |
-| **menu_select_page** | *(varies)* | *(varies)* | Binds a keyboard shortcut to check/select all items on the current menu page. | ASCII, Curses, Legacy Windows GUI |
-| **menucolors** | `true` / `false` | `true` (Mobile) / `false` (Desktop) | Enables colored text highlighting (such as coloring blessed items green and cursed items red) inside menus. | ASCII, Curses, Legacy Windows GUI |
-| **menustyle** | `traditional` / `combination` / `full` / `partial` | `full` | Selects the user interface style for multi-item selection menus: `traditional` (pure character prompts), `combination` (text lists with quick letters), `full` (standard checkbox menus), `partial` (simple listing). | ASCII, Curses, Legacy Windows GUI |
-| **msg_window** | `single` / `combination` / `full` / `reversed` | `full` (ASCII) / `reversed` (Curses) | Configures how message history lists are aligned and updated on screen: `single` (single line top window), `combination` (in-line text log), `full` (popup full-page text), `reversed` (reverse chronological history). | ASCII, Curses |
-| **partydetails** | `true` / `false` | `false` | If enabled, lists detailed statistics (level, exact HP, status effects) for all current pets in the status window. | ASCII, Curses |
-| **partylinecolor** | `true` / `false` | `true` | Uses color codes in the status window to display the health and attributes of pets. | ASCII, Curses |
-| **partymultiline** | `true` / `false` | `false` | Displays each active pet's statistics on a separate line in the status window, instead of combining them into a single row. | ASCII, Curses |
-| **roguesymset** | *(varies)* | *(varies)* | Selects a symbol set mapping from the symbols database to use when rendering the classic Rogue-like levels. | ASCII, Curses, Legacy Windows GUI |
-| **symset** | *(varies)* | *(varies)* | Selects a custom mapping of symbols from the symbols database for drawing map terrain and objects. | ASCII, Curses, Legacy Windows GUI |
-| **windowchain** | *(varies)* | *(varies)* | Selects which windowing processor library handles display rendering callbacks. | ASCII, Curses, Legacy Windows GUI |
-| **windowtype** | *(varies)* | *(varies)* | Selects which windowing backend interface runs the game. | ASCII, Curses, Legacy Windows GUI |
+| **animation_interval** | *(varies)* | `25` | Configures the animation speed (delay in milliseconds between frames) for map movements and spell effects. | A, C, W |
+| **extmenu** | `true` / `false` | `false` | If enabled, displays a visual selection menu when entering extended commands (`#`) rather than requiring manual text entry. | A, C |
+| **ignintr** | `true` / `false` | `false` | Prevents standard OS keyboard interrupts (like `Ctrl+C`) from immediately terminating the game process. | A, C |
+| **mail** | `true` / `false` | `true` | Enables the in-game mail daemon character to deliver real-world system mail notifications as scroll items. | A, C |
+| **menu_deselect_all** | *(varies)* | *(varies)* | Binds a keyboard shortcut to deselect all checked items in a menu. | A, C, W |
+| **menu_deselect_page** | *(varies)* | *(varies)* | Binds a keyboard shortcut to deselect all checked items on the currently visible menu page. | A, C, W |
+| **menu_first_page** | *(varies)* | *(varies)* | Binds a keyboard shortcut to jump immediately to the first page of a multi-page menu. | A, C, W |
+| **menu_headings** | *(varies)* | *(varies)* | Sets the text display style (e.g. bold, underline, inverse video) used for header text in menus. | A, C, W |
+| **menu_invert_all** | *(varies)* | *(varies)* | Binds a keyboard shortcut to invert all item selections in a menu list. | A, C, W |
+| **menu_invert_page** | *(varies)* | *(varies)* | Binds a keyboard shortcut to invert all item selections on the current menu page. | A, C, W |
+| **menu_last_page** | *(varies)* | *(varies)* | Binds a keyboard shortcut to jump immediately to the last page of a multi-page menu. | A, C, W |
+| **menu_next_page** | *(varies)* | *(varies)* | Binds a keyboard shortcut to flip to the next page of a multi-page menu. | A, C, W |
+| **menu_objsyms** | `true` / `false` | `false` | Displays the ASCII character representations (e.g., `)` for weapons) next to items listed in selection menus. | A, C, W |
+| **menu_previous_page** | *(varies)* | *(varies)* | Binds a keyboard shortcut to flip back to the previous page of a multi-page menu. | A, C, W |
+| **menu_search** | *(varies)* | *(varies)* | Binds a keyboard shortcut to perform a text search within active menus. | A, C, W |
+| **menu_select_all** | *(varies)* | *(varies)* | Binds a keyboard shortcut to check/select all items in the current menu list. | A, C, W |
+| **menu_select_page** | *(varies)* | *(varies)* | Binds a keyboard shortcut to check/select all items on the current menu page. | A, C, W |
+| **menucolors** | `true` / `false` | `true` (Mobile) / `false` (Desktop) | Enables colored text highlighting (such as coloring blessed items green and cursed items red) inside menus. | A, C, W |
+| **menustyle** | `traditional` / `combination` / `full` / `partial` | `full` | Selects the user interface style for multi-item selection menus: `traditional` (pure character prompts), `combination` (text lists with quick letters), `full` (standard checkbox menus), `partial` (simple listing). | A, C, W |
+| **msg_window** | `single` / `combination` / `full` / `reversed` | `full` (ASCII) / `reversed` (Curses) | Configures how message history lists are aligned and updated on screen: `single` (single line top window), `combination` (in-line text log), `full` (popup full-page text), `reversed` (reverse chronological history). | A, C |
+| **partydetails** | `true` / `false` | `false` | If enabled, lists detailed statistics (level, exact HP, status effects) for all current pets in the status window. | A, C |
+| **partylinecolor** | `true` / `false` | `true` | Uses color codes in the status window to display the health and attributes of pets. | A, C |
+| **partymultiline** | `true` / `false` | `false` | Displays each active pet's statistics on a separate line in the status window, instead of combining them into a single row. | A, C |
+| **roguesymset** | *(varies)* | *(varies)* | Selects a symbol set mapping from the symbols database to use when rendering the classic Rogue-like levels. | A, C, W |
+| **symset** | *(varies)* | *(varies)* | Selects a custom mapping of symbols from the symbols database for drawing map terrain and objects. | A, C, W |
+| **windowchain** | *(varies)* | *(varies)* | Selects which windowing processor library handles display rendering callbacks. | A, C, W |
+| **windowtype** | *(varies)* | *(varies)* | Selects which windowing backend interface runs the game. | A, C, W |
 
 ## ⌨️ ASCII
 
