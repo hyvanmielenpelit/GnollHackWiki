@@ -2,30 +2,21 @@
 
 > 👉 **GnollHack provides a vast array of configuration options that allow you to customize the user interface, gameplay mechanics, controls, and audio settings to fit your playstyle. This page serves as a comprehensive reference for all available options, whether you are playing on a modern graphical port or a classic terminal interface.**
 
+## Getting Started
+
 - [[Accessing Options File]] — How to access the Options file on various platforms
 
 ## 🖥️ User Interface & Display
 
 | Option Name | Values | Default | Description |
 | :--- | :--- | :--- | :--- |
-| **DECgraphics** | *(varies)* | *(varies)* | Load DECGraphics display symbols **(ASCII Only)** **(Obsolete)** |
-| **IBMgraphics** | *(varies)* | *(varies)* | Load IBMGraphics display symbols **(ASCII Only)** **(Obsolete)** |
-| **Macgraphics** | *(varies)* | *(varies)* | Load MACGraphics display symbols **(ASCII Only)** **(Obsolete)** |
 | **align_message** | *(varies)* | `top` | Message window alignment |
 | **align_status** | *(varies)* | `top` | Status window alignment |
 | **animation_interval** | *(varies)* | `20` | Animation frame interval in milliseconds |
-| **ascii_map** | `true` / `false` | `false` | Show map as text **(ASCII Only)** |
-| **autostatuslines** | `true` / `false` | `false` | Adjust the number of status lines automatically **(ASCII Only)** |
 | **blinking_cursor_on_tiles** | `true` / `false` | `false` | Display a blinking cursor when using tiles |
-| **classic_colors** | `true` / `false` | `false` | Use classic colors for boulders and floor symbols **(ASCII Only)** |
-| **classic_statue_symbol** | `true` / `false` | `false` | Use classic symbol \'`\' for statues **(ASCII Only)** |
-| **color** | `true` / `false` | `true` | Use color in map **(ASCII Only)** |
 | **crawl_interval** | *(varies)* | `15` | Crawl movement interval in milliseconds |
-| **cursesgraphics** | *(varies)* | *(varies)* | Load curses display symbols **(ASCII Only)** **(Obsolete)** |
 | **dark_room** | `true` / `false` | `true` | Show floor outside line of sight differently |
 | **detailed_weights** | `true` / `false` | `false` | Show object weights using more accurate units |
-| **eight_bit_tty** | `true` / `false` | `false` | Send 8-bit characters directly to terminal **(ASCII Only)** |
-| **extmenu** | `true` / `false` | `true` | Use menu for getting extended commands **(ASCII Only)** |
 | **fast_map** | `true` / `false` | `true` | Use optimized, less flexible map display |
 | **font_map** | *(varies)* | *(varies)* | The font to use in the map window |
 | **font_menu** | *(varies)* | *(varies)* | The font to use in menus |
@@ -46,10 +37,8 @@
 | **hilite_pet** | `true` / `false` | `false` | Use highlight for pets |
 | **hilite_pile** | `true` / `false` | `false` | Highlight piles of items |
 | **hitpointbar** | `true` / `false` | `false` | Show colored bar for hit points |
-| **ibm2utf8** | `true` / `false` | `false` | Convert CP437 symbols to UTF8 format before output **(ASCII Only)** |
 | **implicit_uncursed** | `true` / `false` | `true` | Omit "uncursed" from inventory |
 | **inventory_weights_last** | `true` / `false` | `true` | Display object weights in parentheses after object name |
-| **large_font** | `true` / `false` | `false` | Obsolete: use large font **(Obsolete)** |
 | **last_item_show_duration** | *(varies)* | `10` | Duration for showing last item in context menu |
 | **legacy** | `true` / `false` | `true` | Show introductory message |
 | **lit_corridor** | `true` / `false` | `false` | Show dark corridors as lit if in sight |
@@ -84,13 +73,12 @@
 | **preferred_screen_scale** | *(varies)* | *(varies)* | Preferred screen scale |
 | **preload_tiles** | `true` / `false` | `true` | Preload tiles |
 | **roguesymset** | *(varies)* | *(varies)* | Load a set of rogue display symbols from the symbols file |
-| **runmode** | *(varies)* | *(varies)* | Display frequency when `running' or `travelling' |
+| **runmode** | *(varies)* | *(varies)* | Display frequency when running or travelling |
 | **scroll_amount** | *(varies)* | *(varies)* | Amount to scroll map when scroll_margin is reached |
 | **scroll_margin** | *(varies)* | *(varies)* | Scroll map when this far from the edge |
 | **show_buff_timer** | `true` / `false` | `false` | Show buff timer on tiles |
 | **show_comparison_stats** | `true` / `false` | `true` | Show comparison statistics for items when picking them up |
 | **show_damage_formula** | `true` / `false` | `false` | Show damage formula in examine |
-| **show_decorations** | `true` / `false` | `true` | Show decorations via colors in ASCII mode **(ASCII Only)** |
 | **show_dice_as_ranges** | `true` / `false` | `true` | Show dice as ranges (e.g., 2-12 instead of 2d6) |
 | **show_grid** | `true` / `false` | `false` | Show grid between tiles |
 | **show_tile_mon_hp_bar** | `true` / `false` | `false` | Show monster hit points on tiles |
@@ -109,7 +97,6 @@
 | **sparkle** | `true` / `false` | `true` | Display sparkly effect when resisting magic |
 | **spell_table_format** | `true` / `false` | `false` | Show spells in a table format rather than a list |
 | **splash_screen** | `true` / `false` | `true` | Show splash screen |
-| **standout** | `true` / `false` | `false` | Use standout for --more-- **(ASCII Only)** |
 | **status_updates** | `true` / `false` | `true` | Allow the status lines to update |
 | **statushilites** | *(varies)* | *(varies)* | Highlight control |
 | **statuslines** | *(varies)* | *(varies)* | 2 to 8 lines for status display |
@@ -123,13 +110,9 @@
 | **time** | `true` / `false` | `false` | Display game turns in status line |
 | **tombstone** | `true` / `false` | `true` | Show tombstone when your character dies |
 | **toptenwin** | `true` / `false` | `false` | Show top scores in window |
-| **use_darkgray** | `true` / `false` | `true` | Use bold black color instead of blue **(ASCII Only)** |
 | **use_inverse** | `true` / `false` | `true` | Display detected monsters in inverse |
 | **vary_msgcount** | *(varies)* | *(varies)* | Show more old messages at a time |
 | **video** | *(varies)* | *(varies)* | Method of video updating |
-| **videocolors** | *(varies)* | *(varies)* | Color mappings for internal screen routines **(ASCII Only)** |
-| **videoshades** | *(varies)* | *(varies)* | Gray shades to map to black/gray/white **(ASCII Only)** |
-| **vt_tiledata** | `true` / `false` | `false` | Use VT codes for tiles **(ASCII Only)** |
 | **whatis_coord** | *(varies)* | *(varies)* | Show coordinates when auto-describing cursor position |
 | **whatis_menu** | `true` / `false` | `false` | Show menu when getting a map location |
 | **windowborders** | *(varies)* | *(varies)* | 0 (off), 1 (on), 2 (auto) |
@@ -157,7 +140,6 @@
 | **autounlock** | `true` / `false` | `true` | Automatically unlock a locked door or chest |
 | **baseacasbonus** | `true` / `false` | `true` | Display base armor class as a bonus rather than a number starting at 10 |
 | **bones** | `true` / `false` | `true` | Allow loading bones files |
-| **boulder** | *(varies)* | *(varies)* | Deprecated (use S_boulder in sym file instead) **(Obsolete)** |
 | **checkpoint** | `true` / `false` | `true` | Save game state after each level change |
 | **checkspace** | `true` / `false` | `true` | Check disk space on a floppy disk |
 | **confirm** | `true` / `false` | `true` | Ask before hitting tame or peaceful monsters |
@@ -223,7 +205,6 @@
 | **clicklook** | `true` / `false` | `true` | Enable looking via mouse click |
 | **clickpole** | `true` / `false` | `true` | Enable use of polearm via mouse click |
 | **cmdassist** | `true` / `false` | `true` | Give help for errors on direction input |
-| **enablettyarrowkeys** | `true` / `false` | `false` | Enable tty arrow keys **(ASCII Only)** |
 | **engrave_quickstyle** | *(varies)* | `0` | Stylus selection style for engrave quick command |
 | **engrave_quicktext** | *(varies)* | *(none)* | The preset text for engrave quick command |
 | **help** | `true` / `false` | `true` | Show all available info when using whatis-command |
@@ -299,3 +280,37 @@
 | **race** | *(varies)* | *(varies)* | Your starting race (e.g., Human, Elf) |
 | **role** | *(varies)* | *(varies)* | Your starting role (e.g., Barbarian, Valkyrie) |
 
+## ⌨️ ASCII Only
+
+> ℹ️ **Note:** These options pertain to the legacy ASCII version of the game. They are not used by the modern versions of GnollHack.
+
+| Option Name | Values | Default | Description |
+| :--- | :--- | :--- | :--- |
+| **ascii_map** | `true` / `false` | `false` | Show map as text |
+| **autostatuslines** | `true` / `false` | `false` | Adjust the number of status lines automatically |
+| **classic_colors** | `true` / `false` | `false` | Use classic colors for boulders and floor symbols |
+| **classic_statue_symbol** | `true` / `false` | `false` | Use classic symbol \'`\' for statues |
+| **color** | `true` / `false` | `true` | Use color in map |
+| **eight_bit_tty** | `true` / `false` | `false` | Send 8-bit characters directly to terminal |
+| **enablettyarrowkeys** | `true` / `false` | `false` | Enable tty arrow keys |
+| **extmenu** | `true` / `false` | `true` | Use menu for getting extended commands |
+| **ibm2utf8** | `true` / `false` | `false` | Convert CP437 symbols to UTF8 format before output |
+| **show_decorations** | `true` / `false` | `true` | Show decorations via colors in ASCII mode |
+| **standout** | `true` / `false` | `false` | Use standout for --more-- |
+| **use_darkgray** | `true` / `false` | `true` | Use bold black color instead of blue |
+| **videocolors** | *(varies)* | *(varies)* | Color mappings for internal screen routines |
+| **videoshades** | *(varies)* | *(varies)* | Gray shades to map to black/gray/white |
+| **vt_tiledata** | `true` / `false` | `false` | Use VT codes for tiles |
+
+## 🗑️ Obsolete
+
+> ⚠️ **Warning:** These options are completely obsolete. They are listed here only for completeness's sake.
+
+| Option Name | Values | Default | Description |
+| :--- | :--- | :--- | :--- |
+| **DECgraphics** | *(varies)* | *(varies)* | Load DECGraphics display symbols |
+| **IBMgraphics** | *(varies)* | *(varies)* | Load IBMGraphics display symbols |
+| **Macgraphics** | *(varies)* | *(varies)* | Load MACGraphics display symbols |
+| **boulder** | *(varies)* | *(varies)* | Deprecated (use S_boulder in sym file instead) |
+| **cursesgraphics** | *(varies)* | *(varies)* | Load curses display symbols |
+| **large_font** | `true` / `false` | `false` | Use large font |
