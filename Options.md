@@ -30,7 +30,6 @@
 | **show_weight_summary** | `true` / `false` | `true` | Show total weight at the end of inventory |
 | **showrace** | `true` / `false` | `false` | Show your character by race rather than role |
 | **showscore** | `true` / `false` | `true` | Show current score in status line |
-| **silent** | `true` / `false` | `true` | Don't use terminal bell |
 | **skill_table_format** | `true` / `false` | `false` | Show skills in a table format rather than a list |
 | **sortloot** | *(varies)* | *(varies)* | Sort object selection lists by description |
 | **sparkle** | `true` / `false` | `true` | Display sparkly effect when resisting magic |
@@ -231,6 +230,7 @@
 | **msg_window** | *(varies)* | *(varies)* | The type of message window required |
 | **null** | `true` / `false` | `true` | Allow nulls to be sent to terminal |
 | **show_decorations** | `true` / `false` | `true` | Show decorations via colors in ASCII mode |
+| **silent** | `true` / `false` | `true` | Don't use terminal bell |
 | **standout** | `true` / `false` | `false` | Use standout for --more-- |
 | **symset** | *(varies)* | *(varies)* | Load a set of display symbols from the symbols file |
 | **use_darkgray** | `true` / `false` | `true` | Use bold black color instead of blue |
