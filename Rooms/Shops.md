@@ -12,17 +12,17 @@ Shops are very common special rooms and can be generated randomly in the [[/Dung
 
 There are many different types of shops, each specializing in different types of items, though some are general stores that sell a bit of everything:
 
-- [[/Rooms/Shops/General store]]
-- [[/Rooms/Shops/Used armor dealership]]
-- [[/Rooms/Shops/Second-hand bookstore]]
-- [[/Rooms/Shops/Liquor emporium]]
-- [[/Rooms/Shops/Antique weapons outlet]]
-- [[/Rooms/Shops/Delicatessen]]
-- [[/Rooms/Shops/Jewelers]]
-- [[/Rooms/Shops/Quality apparel and accessories]]
-- [[/Rooms/Shops/Hardware store]]
-- [[/Rooms/Shops/Rare books]]
-- [[/Rooms/Shops/Lighting store]]
-- [[/Rooms/Shops/Quality reagents and components]]
-- [[/Rooms/Shops/Health food store]]
-- [[/Rooms/Shops/Deserted shop]]
+- [[/Rooms/Shops/General store]] — Sells a wide variety of different items.
+- [[/Rooms/Shops/Used armor dealership]] — Specializes in armor.
+- [[/Rooms/Shops/Second-hand bookstore]] — Specializes in magical scrolls and spellbooks.
+- [[/Rooms/Shops/Liquor emporium]] — Specializes in potions.
+- [[/Rooms/Shops/Antique weapons outlet]] — Specializes in weapons and ammunition.
+- [[/Rooms/Shops/Delicatessen]] — Specializes in food.
+- [[/Rooms/Shops/Jewelers]] — Specializes in rings and gems.
+- [[/Rooms/Shops/Quality apparel and accessories]] — Specializes in wands and magical accessories.
+- [[/Rooms/Shops/Hardware store]] — Specializes in utility items and containers.
+- [[/Rooms/Shops/Rare books]] — Specializes in magical spellbooks.
+- [[/Rooms/Shops/Lighting store]] — Specializes in lighting sources.
+- [[/Rooms/Shops/Quality reagents and components]] — Specializes in reagents and gems.
+- [[/Rooms/Shops/Health food store]] — Specializes in vegan and health-oriented provisions.
+- [[/Rooms/Shops/Deserted shop]] — A former shop containing dangerous mimics.
