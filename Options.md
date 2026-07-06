@@ -164,6 +164,30 @@
 | **race** | *(varies)* | *(varies)* | Your starting race (e.g., Human, Elf) |
 | **role** | *(varies)* | *(varies)* | Your starting role (e.g., Barbarian, Valkyrie) |
 
+## 🏛️ Legacy Versions
+
+> ℹ️ **Note:** These options are shared across multiple legacy interfaces (such as TTY/ASCII, Curses, and/or the legacy Windows GUI). They are not used by the modern .NET MAUI frontend.
+
+| Option Name | Values | Default | Description |
+| :---------- | :----: | :-----: | :---------- |
+| **extmenu** | `true` / `false` | `true` | Use menu for getting extended commands (supported by TTY/ASCII, Curses, and Legacy Windows GUI) |
+| **menu_deselect_all** | *(varies)* | *(varies)* | Deselect all items in a menu (supported by TTY/ASCII and Curses) |
+| **menu_deselect_page** | *(varies)* | *(varies)* | Deselect all items on this page of a menu (supported by TTY/ASCII and Curses) |
+| **menu_first_page** | *(varies)* | *(varies)* | Jump to the first page in a menu (supported by TTY/ASCII and Curses) |
+| **menu_invert_all** | *(varies)* | *(varies)* | Invert all items in a menu (supported by TTY/ASCII and Curses) |
+| **menu_invert_page** | *(varies)* | *(varies)* | Invert all items on this page of a menu (supported by TTY/ASCII and Curses) |
+| **menu_last_page** | *(varies)* | *(varies)* | Jump to the last page in a menu (supported by TTY/ASCII and Curses) |
+| **menu_next_page** | *(varies)* | *(varies)* | Goto the next menu page (supported by TTY/ASCII and Curses) |
+| **menu_previous_page** | *(varies)* | *(varies)* | Goto the previous menu page (supported by TTY/ASCII and Curses) |
+| **menu_search** | *(varies)* | *(varies)* | Search for a menu item (supported by TTY/ASCII and Curses) |
+| **menu_select_all** | *(varies)* | *(varies)* | Select all items in a menu (supported by TTY/ASCII and Curses) |
+| **menu_select_page** | *(varies)* | *(varies)* | Select all items on this page of a menu (supported by TTY/ASCII and Curses) |
+| **msg_window** | *(varies)* | *(varies)* | The type of message window required LIFO/FIFO (supported by TTY/ASCII and Curses) |
+| **roguesymset** | *(varies)* | *(varies)* | Load a set of rogue display symbols from the symbols file (supported by TTY/ASCII and Curses) |
+| **symset** | *(varies)* | *(varies)* | Load a set of display symbols from the symbols file (supported by TTY/ASCII and Curses) |
+| **windowchain** | *(varies)* | *(varies)* | Window processor to use (supported by TTY/ASCII and Curses) |
+| **windowtype** | *(varies)* | *(varies)* | Windowing system to use (supported by TTY/ASCII, Curses, and Legacy Windows GUI) |
+
 ## ⌨️ ASCII
 
 > ℹ️ **Note:** These options pertain to the legacy ASCII version of the game. They are not used by the modern versions of GnollHack.
@@ -182,31 +206,17 @@
 | **effects** | *(varies)* | *(varies)* | The symbols to use in drawing special effects |
 | **eight_bit_tty** | `true` / `false` | `false` | Send 8-bit characters directly to terminal |
 | **enablettyarrowkeys** | `true` / `false` | `false` | Enable tty arrow keys |
-| **extmenu** | `true` / `false` | `true` | Use menu for getting extended commands |
 | **hilite_pet** | `true` / `false` | `false` | Use highlight for pets |
 | **hilite_pile** | `true` / `false` | `false` | Highlight piles of items |
 | **ibm2utf8** | `true` / `false` | `false` | Convert CP437 symbols to UTF8 format before output |
-| **menu_deselect_all** | *(varies)* | *(varies)* | Deselect all items in a menu |
-| **menu_deselect_page** | *(varies)* | *(varies)* | Deselect all items on this page of a menu |
-| **menu_first_page** | *(varies)* | *(varies)* | Jump to the first page in a menu |
-| **menu_invert_all** | *(varies)* | *(varies)* | Invert all items in a menu |
-| **menu_invert_page** | *(varies)* | *(varies)* | Invert all items on this page of a menu |
-| **menu_last_page** | *(varies)* | *(varies)* | Jump to the last page in a menu |
-| **menu_next_page** | *(varies)* | *(varies)* | Goto the next menu page |
 | **menu_overlay** | `true` / `false` | `true` | Menus overlay and align to right |
-| **menu_previous_page** | *(varies)* | *(varies)* | Goto the previous menu page |
-| **menu_search** | *(varies)* | *(varies)* | Search for a menu item |
-| **menu_select_all** | *(varies)* | *(varies)* | Select all items in a menu |
-| **menu_select_page** | *(varies)* | *(varies)* | Select all items on this page of a menu |
 | **monsters** | *(varies)* | *(varies)* | The symbols to use for monsters |
-| **msg_window** | *(varies)* | *(varies)* | The type of message window required |
 | **null** | `true` / `false` | `true` | Allow nulls to be sent to terminal |
 | **objects** | *(varies)* | *(varies)* | The symbols to use for objects |
 | **petattr** | *(varies)* | *(varies)* | Attributes for highlighting pets |
 | **show_decorations** | `true` / `false` | `true` | Show decorations via colors in ASCII mode |
 | **silent** | `true` / `false` | `true` | Don't use terminal bell |
 | **standout** | `true` / `false` | `false` | Use standout for --more-- |
-| **symset** | *(varies)* | *(varies)* | Load a set of display symbols from the symbols file |
 | **traps** | *(varies)* | *(varies)* | The symbols to use in drawing traps |
 | **underline_peaceful** | `true` / `false` | `true` | Underline peaceful monsters |
 | **use_darkgray** | `true` / `false` | `true` | Use bold black color instead of blue |
@@ -216,8 +226,6 @@
 | **videoshades** | *(varies)* | *(varies)* | Gray shades to map to black/gray/white |
 | **vt_tiledata** | `true` / `false` | `false` | Use VT codes for tiles |
 | **whatis_coord** | *(varies)* | *(varies)* | Show coordinates when auto-describing cursor position |
-| **windowchain** | *(varies)* | *(varies)* | Window processor to use |
-| **windowtype** | *(varies)* | *(varies)* | Windowing system to use |
 
 ## 🖥️ Curses Interface
 
@@ -318,7 +326,6 @@
 | **partymultiline** | `true` / `false` | `false` | Print statistics of each pet on a separate status line |
 | **preload_tiles** | `true` / `false` | `true` | Preload tiles |
 | **rawio** | `true` / `false` | `false` | Allow use to raw I/O |
-| **roguesymset** | *(varies)* | *(varies)* | Load a set of rogue display symbols from the symbols file |
 | **softkeyboard** | `true` / `false` | `false` | Soft keyboard |
 | **soundcard** | *(varies)* | *(varies)* | Type of sound card to use |
 | **subkeyvalue** | *(varies)* | *(varies)* | Override keystroke value |
