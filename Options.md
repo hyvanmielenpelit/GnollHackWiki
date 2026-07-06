@@ -5,6 +5,45 @@
 ## 🏁 Getting Started
 
 - [[Accessing Options File]] — How to access the Options file on various platforms
+- [[Additional Options]] — Advanced configuration options (e.g., colorizing menus, status highlighting, message filtering)
+
+## 💡 Configuration Examples
+
+Here are some of the most common and useful configuration examples to help you customize your options file. For more advanced features, see [[Additional Options]].
+
+### ⌨️ Number Pad Movement
+
+If you have a keyboard with a numeric keypad, you can configure it to move in all eight directions.
+
+**Syntax:**
+
+```
+OPTIONS=number_pad:value
+```
+
+> 💡 **Example — Enable standard 8-direction movement on the numeric keypad:**
+> 
+> ```
+> OPTIONS=number_pad:1
+> ```
+
+### 🎒 Autopickup Customization
+
+Configure the game to automatically pick up specific types of items (such as gold, scrolls, and potions) while ignoring others.
+
+**Syntax:**
+
+```
+OPTIONS=autopickup
+OPTIONS=pickup_types:characters
+```
+
+> 💡 **Example — Turn on autopickup and only pick up gold ($), scrolls (?), potions (!), and wands (/):**
+> 
+> ```
+> OPTIONS=autopickup
+> OPTIONS=pickup_types:$?!/
+> ```
 
 ## 🖥️ User Interface & Display
 
