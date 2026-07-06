@@ -17,18 +17,21 @@ MENUCOLOR="regular expression" = color
 MENUCOLOR="regular expression" = color&attribute
 ```
 
-Supported colors include `black`, `red`, `green`, `brown`, `blue`, `magenta`, `cyan`, `gray`, `orange`, `brightgreen`, `yellow`, `brightblue`, `brightmagenta`, `brightcyan`, and `white`. Attributes include `bold`, `dim`, `underline`, `blink`, and `inverse`.
+> 💡 **Example — Highlight blessed items in green:**
+> 
+> `MENUCOLOR=" blessed " = green`
 
-**Examples:**
+> 💡 **Example — Highlight cursed items in red:**
+> 
+> `MENUCOLOR=" cursed " = red`
 
-- **Highlight blessed items in green:**
-  `MENUCOLOR=" blessed " = green`
-- **Highlight cursed items in red:**
-  `MENUCOLOR=" cursed " = red`
-- **Highlight worn cursed items in orange and underline them:**
-  `MENUCOLOR=" cursed .* (being worn)" = orange&underline`
-- **Mark spells that cannot be recalled in gray (black):**
-  `MENUCOLOR="(You cannot recall this spell)" = black`
+> 💡 **Example — Highlight worn cursed items in orange and underline them:**
+> 
+> `MENUCOLOR=" cursed .* (being worn)" = orange&underline`
+
+> 💡 **Example — Mark spells that cannot be recalled in gray (black):**
+> 
+> `MENUCOLOR="(You cannot recall this spell)" = black`
 
 ### 📊 HILITE_STATUS
 
@@ -41,19 +44,24 @@ HILITE_STATUS=field/value/color
 HILITE_STATUS=field/value/color&attribute
 ```
 
-**Examples:**
+> 💡 **Example — HP bar highlighting based on percentage ranges:**
+> 
+> ```
+> HILITE_STATUS=hitpoints/100%/gray&normal
+> HILITE_STATUS=hitpoints/<100%/green&normal
+> HILITE_STATUS=hitpoints/<66%/yellow&normal
+> HILITE_STATUS=hitpoints/<50%/orange&normal
+> HILITE_STATUS=hitpoints/<33%/red&bold
+> HILITE_STATUS=hitpoints/<15%/red&inverse
+> ```
 
-- **HP bar highlighting based on percentage ranges:**
-  `HILITE_STATUS=hitpoints/100%/gray&normal`
-  `HILITE_STATUS=hitpoints/<100%/green&normal`
-  `HILITE_STATUS=hitpoints/<66%/yellow&normal`
-  `HILITE_STATUS=hitpoints/<50%/orange&normal`
-  `HILITE_STATUS=hitpoints/<33%/red&bold`
-  `HILITE_STATUS=hitpoints/<15%/red&inverse`
-- **Hunger status warnings:**
-  `HILITE_STATUS=hunger/satiated/yellow/hungry/orange/weak/red&bold/fainting/red&inverse`
-- **Attribute improvements or penalties:**
-  `HILITE_STATUS=characteristics/up/green/down/red`
+> 💡 **Example — Hunger status warnings:**
+> 
+> `HILITE_STATUS=hunger/satiated/yellow/hungry/orange/weak/red&bold/fainting/red&inverse`
+
+> 💡 **Example — Attribute improvements or penalties:**
+> 
+> `HILITE_STATUS=characteristics/up/green/down/red`
 
 ### 💬 MSGTYPE
 
@@ -71,14 +79,17 @@ The supported actions are:
 - `stop` (or `more`): Force the player to press `--More--` or tap to acknowledge the message.
 - `norep`: Suppress the message if it is an exact repeat of the previous message.
 
-**Examples:**
+> 💡 **Example — Force a pause when a monster is nearby:**
+> 
+> `MSGTYPE=stop "You see here a .*"`
 
-- **Force a pause when a monster is nearby:**
-  `MSGTYPE=stop "You see here a .*"`
-- **Suppress repetitive spam messages:**
-  `MSGTYPE=norep "You swap places with your pet."`
-- **Hide trivial environment messages:**
-  `MSGTYPE=hide "You hear a faint sloshing sound."`
+> 💡 **Example — Suppress repetitive spam messages:**
+> 
+> `MSGTYPE=norep "You swap places with your pet."`
+
+> 💡 **Example — Hide trivial environment messages:**
+> 
+> `MSGTYPE=hide "You hear a faint sloshing sound."`
 
 ### 🎒 AUTOPICKUP_EXCEPTION
 
@@ -91,15 +102,20 @@ AUTOPICKUP_EXCEPTION="<pattern>"   # Automatically picks up items matching the p
 AUTOPICKUP_EXCEPTION="!<pattern>"  # Excludes items matching the pattern from autopickup
 ```
 
-**Examples:**
+> 💡 **Example — Always pick up gold pieces (even if other coins are ignored):**
+> 
+> `AUTOPICKUP_EXCEPTION="gold piece"`
 
-- **Always pick up gold pieces (even if other coins are ignored):**
-  `AUTOPICKUP_EXCEPTION="gold piece"`
-- **Always pick up potions of extra healing:**
-  `AUTOPICKUP_EXCEPTION="potion of extra healing"`
-- **Never pick up heavy boulders or loadstones:**
-  `AUTOPICKUP_EXCEPTION="!loadstone"`
-  `AUTOPICKUP_EXCEPTION="!boulder"`
+> 💡 **Example — Always pick up potions of extra healing:**
+> 
+> `AUTOPICKUP_EXCEPTION="potion of extra healing"`
+
+> 💡 **Example — Never pick up heavy boulders or loadstones:**
+> 
+> ```
+> AUTOPICKUP_EXCEPTION="!loadstone"
+> AUTOPICKUP_EXCEPTION="!boulder"
+> ```
 
 ### ⌨️ BINDINGS
 
@@ -111,12 +127,13 @@ The `BINDINGS` configuration allows hardware keyboard users to remap key presses
 BINDINGS=key:command
 ```
 
-**Examples:**
+> 💡 **Example — Map the `x` key to the drop (`d`) command:**
+> 
+> `BINDINGS=x:d`
 
-- **Map the `x` key to the drop (`d`) command:**
-  `BINDINGS=x:d`
-- **Map the `v` key to the look (`:`) command:**
-  `BINDINGS=v:look`
+> 💡 **Example — Map the `v` key to the look (`:`) command:**
+> 
+> `BINDINGS=v:look`
 
 ## 🖥️ Only Supported in ASCII Mode in Modern Version
 
@@ -135,12 +152,13 @@ SYMBOLS=S_symbolname:character
 You can choose symbol sets like `IBMGraphics_2` or `DECgraphics` in your main `OPTIONS` line:
 `OPTIONS=symset:IBMGraphics_2`
 
-**Examples:**
+> 💡 **Example — Change vertical wall display to a custom vertical bar character:**
+> 
+> `SYMBOLS=S_vwall:|`
 
-- **Change vertical wall display to a custom vertical bar character:**
-  `SYMBOLS=S_vwall:|`
-- **Change floor representation to a dot:**
-  `SYMBOLS=S_room:.`
+> 💡 **Example — Change floor representation to a dot:**
+> 
+> `SYMBOLS=S_room:.`
 
 ### 🪨 BOULDER
 
@@ -152,9 +170,10 @@ The `BOULDER` configuration sets the character symbol specifically representing 
 BOULDER=character
 ```
 
-**Examples:**
+> 💡 **Example — Set the boulder symbol to a capital `O`:**
+> 
+> `BOULDER=O`
 
-- **Set the boulder symbol to a capital `O`:**
-  `BOULDER=O`
-- **Set the boulder symbol to a percent sign:**
-  `BOULDER=%`
+> 💡 **Example — Set the boulder symbol to a percent sign:**
+> 
+> `BOULDER=%`
