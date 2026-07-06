@@ -103,9 +103,6 @@
 
 | Option Name | Values | Default | Description |
 | :---------- | :----: | :-----: | :---------- |
-| **BIOS** | `true` / `false` | `false` | Use IBM ROM BIOS calls |
-| **altkeyhandler** | *(varies)* | *(varies)* | Alternate key handler |
-| **altmeta** | `true` / `false` | `true` | Treat 'ESC c' as M-c |
 | **clickfire** | `true` / `false` | `true` | Enable firing via mouse click |
 | **clicklook** | `true` / `false` | `true` | Enable looking via mouse click |
 | **clickpole** | `true` / `false` | `true` | Enable use of polearm via mouse click |
@@ -123,12 +120,11 @@
 | **right_click_command** | *(varies)* | *(none)* | Command upon clicking right mouse button |
 | **run_spot_distance** | *(varies)* | `0` | Longest distance for spotting a monster to stop running or travelling |
 | **self_click_action** | `true` / `false` | `false` | Clicking the player character executes an action |
-| **softkeyboard** | `true` / `false` | `false` | Soft keyboard |
-| **subkeyvalue** | *(varies)* | *(varies)* | Override keystroke value |
 | **travel** | `true` / `false` | `true` | Enable traveling via mouse click |
 | **travel_debug** | `true` / `false` | `false` | Display debugging graphics for travel algorithm |
 | **whatis_filter** | *(varies)* | *(varies)* | Filter coordinate locations when targeting next or previous |
 | **whatis_moveskip** | `true` / `false` | `false` | Skip same glyph when getting map location |
+
 
 ## 🐾 Pets & Companions
 
@@ -194,6 +190,7 @@
 | **DECgraphics** | *(varies)* | *(varies)* | Load DECGraphics display symbols |
 | **IBMgraphics** | *(varies)* | *(varies)* | Load IBMGraphics display symbols |
 | **Macgraphics** | *(varies)* | *(varies)* | Load MACGraphics display symbols |
+| **altmeta** | `true` / `false` | `true` | Treat 'ESC c' as M-c |
 | **ascii_map** | `true` / `false` | `false` | Show map as text |
 | **classic_colors** | `true` / `false` | `false` | Use classic colors for boulders and floor symbols |
 | **classic_statue_symbol** | `true` / `false` | `false` | Use classic symbol \'`\' for statues |
@@ -311,8 +308,10 @@
 
 | Option Name | Values | Default | Description |
 | :---------- | :----: | :-----: | :---------- |
+| **altkeyhandler** | *(varies)* | *(varies)* | Alternate key handler |
 | **animation_interval** | *(varies)* | `20` | Animation frame interval in milliseconds |
 | **asksavedisk** | `true` / `false` | `false` | Prompt for saving to a disk |
+| **BIOS** | `true` / `false` | `false` | Use IBM ROM BIOS calls |
 | **boulder** | *(varies)* | *(varies)* | Deprecated (use S_boulder in sym file instead) |
 | **checkspace** | `true` / `false` | `true` | Check disk space on a floppy disk |
 | **fast_map** | `true` / `false` | `true` | Use optimized, less flexible map display |
@@ -326,6 +325,8 @@
 | **preload_tiles** | `true` / `false` | `true` | Preload tiles |
 | **rawio** | `true` / `false` | `false` | Allow use to raw I/O |
 | **roguesymset** | *(varies)* | *(varies)* | Load a set of rogue display symbols from the symbols file |
+| **softkeyboard** | `true` / `false` | `false` | Soft keyboard |
+| **subkeyvalue** | *(varies)* | *(varies)* | Override keystroke value |
 | **tiled_map** | `true` / `false` | `true` | Tiled map |
 | **timed_delay** | `true` / `false` | `true` | Use time delay |
 | **wraptext** | `true` / `false` | `false` | Wrap text |
