@@ -1,5 +1,9 @@
 ![options](/uploads/Options/options2.webp)
 
+> 👉 **GnollHack provides a vast array of configuration options that allow you to customize the user interface, gameplay mechanics, controls, and audio settings to fit your playstyle. This page serves as a comprehensive reference for all available options, whether you are playing on a modern graphical port or a classic terminal interface.**
+
+## Getting Started
+
 - [[Accessing Options File]] — How to access the Options file on various platforms
 
 ## 🖥️ User Interface & Display
