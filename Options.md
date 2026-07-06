@@ -14,6 +14,8 @@
 | **crawl_interval** | *(varies)* | `125` | Delay in milliseconds between animation steps when the player or a monster is crawling. Lowering this speeds up crawling. |
 | **dark_room** | `true` / `false` | `true` | Renders floors and features that have been explored but are currently out of line of sight in a darker shade to distinguish them from active vision. |
 | **detailed_weights** | `true` / `false` | `false` | Displays small object weights using more precise units: ounces (`oz`) for the imperial system or grams (`g`) for the metric system, rather than standard pounds (`lbs`) or kilograms (`kg`). |
+| **herewindow** | `true` / `false` | `true` | If enabled, displays a floating window listing all objects present on the player's current tile (the modern .NET MAUI frontend handles auto-placement and renders this window in the SkiaSharp map layer). |
+| **hitpointbar** | `true` / `false` | `false` | Draws a color-changing health bar (green-to-red) background behind the HP text in the status panel (fully supported in the .NET MAUI frontend via the Settings page toggle). |
 | **implicit_uncursed** | `true` / `false` | `true` | Omit the "uncursed" label from inventory descriptions to keep menus cleaner, showing only "blessed" or "cursed" tags. |
 | **inventory_weights_last** | `true` / `false` | `true` | Appends item weights in parentheses after the item name in menus rather than before it. |
 | **last_item_show_duration** | *(varies)* | `3` | Number of turns that a newly picked-up item remains highlighted in inventory context menus. |
@@ -281,8 +283,6 @@
 | **font_status** | *(varies)* | *(varies)* | Selects the font family used in the character status window. |
 | **font_text** | *(varies)* | *(varies)* | Selects the font family used inside plain text popups and helper windows. |
 | **fullscreen** | `true` / `false` | `false` | Toggles whether the legacy GUI client launches in full screen or windowed mode. |
-| **herewindow** | `true` / `false` | `true` | If enabled, displays a floating window listing all objects present on the player's current tile. |
-| **hitpointbar** | `true` / `false` | `false` | Draws a color-changing (green-to-red) health bar background behind the HP text in the status panel. |
 | **map_mode** | *(varies)* | *(varies)* | Configures the scaling and rendering mode of the graphical map tiles (such as stretched, centered, or pixel-perfect scaling). |
 | **menu_tab_sep** | `true` / `false` | `false` | Uses tab characters instead of spaces to format and align columns inside menus. |
 | **msghistory** | *(varies)* | `20` | Sets the maximum number of recent game messages retained in scrollable message history. |
