@@ -208,6 +208,7 @@
 | **altkeyhandler** | *(varies)* | `default` | Selects an external keyboard mapping module or DLL to process custom key handlers (legacy Windows GUI only). |
 | **altmeta** | `true` / `false` | `false` | If enabled, interprets pressing the Escape key followed by a character `c` as the Meta-key combination `M-c`. |
 | **ascii_map** | `true` / `false` | `false` | If enabled, forces the game map to render in plain text ASCII/UTF-8 mode instead of graphical tiles. |
+| **boulder** | *(varies)* | *(none)* | Overrides the character symbol used to represent boulders on text/terminal displays (e.g. `boulder:`). It is recommended to use `S_boulder` instead. |
 | **classic_colors** | `true` / `false` | `false` | Uses classic NetHack low-contrast colors for floor dots and boulders, instead of updated high-contrast palettes. |
 | **classic_statue_symbol** | `true` / `false` | `false` | Renders map statues using the legacy backtick symbol (`` ` ``) instead of showing the underlying monster's character glyph. |
 | **color** | `true` / `false` | `true` | Enables color rendering for map symbols, menus, and text logs; if disabled, displays everything in monochrome. |
@@ -319,7 +320,6 @@
 | :---------- | :----: | :-----: | :---------- |
 | **asksavedisk** | `true` / `false` | `false` | Deprecated floppy disk option: prompts the user to insert a save disk before saving. |
 | **BIOS** | `true` / `false` | `false` | Deprecated MSDOS option: forces using raw IBM ROM BIOS screen write calls. |
-| **boulder** | *(varies)* | *(varies)* | Deprecated boulder symbol assignment (use `S_boulder` in the sym file instead). |
 | **checkspace** | `true` / `false` | `true` | Deprecated floppy disk option: checks for sufficient free disk space before saving. |
 | **fast_map** | `true` / `false` | `true` | Deprecated console option: uses a high-performance, less flexible map rendering algorithm. |
 | **flush** | `true` / `false` | `false` | Deprecated Amiga option: flushes keyboard buffer inputs. |
