@@ -34,12 +34,12 @@ However, there is a 1 in 3 chance that sitting on the throne will trigger one of
 | **Loss of Gold** | 1 in 13 | All the gold in your inventory disappears. |
 | **Blindness or Curse** | 1 in 13 | If your luck is positive, you are blinded for 250 to 349 turns and lose 1 to 2 luck. Otherwise, a few random items in your inventory are cursed. |
 | **Confusion** | 1 in 13 | You become confused for 16 to 22 turns. |
+| **Summon Audience** | 1 in 13 | Summons 1 to 10 court monsters around you. |
 
-### Neutral or Mixed Effects
+### Neutral Effects
 
 | Effect | Chance (if triggered) | Description |
 |---|---|---|
-| **Summon Audience** | 1 in 13 | Summons 1 to 10 court monsters around you. |
 | **Teleport or Aggravate** | 1 in 13 | Teleports you to a random location on the level. If your luck is negative, it aggravates all monsters on the level instead. |
 
 ## 🗺️ Generation
