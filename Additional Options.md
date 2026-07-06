@@ -4,9 +4,11 @@ For instructions on how to locate and modify the options file, see [[Accessing O
 
 ## ⚙️ Fully-Supported in Modern Versions
 
+These settings are parsed by the C game engine and are fully operational in the .NET MAUI graphical client, affecting game logic, menus, message logs, and controls.
+
 ### 🎨 MENUCOLOR
 
-The `MENUCOLOR` configuration allows you to colorize specific lines in menus and inventory screens based on regular expression matches.
+The `MENUCOLOR` configuration allows you to colorize specific lines in menus and inventory screens based on regular expression matches. The C core evaluates these rules and passes the color attributes to the graphical interface, which renders the styled text.
 
 **Syntax:**
 
@@ -17,19 +19,27 @@ MENUCOLOR="regular expression" = color&attribute
 
 > 💡 **Example — Highlight blessed items in green:**
 > 
-> `MENUCOLOR=" blessed " = green`
+> ```
+> MENUCOLOR=" blessed " = green
+> ```
 
 > 💡 **Example — Highlight cursed items in red:**
 > 
-> `MENUCOLOR=" cursed " = red`
+> ```
+> MENUCOLOR=" cursed " = red
+> ```
 
 > 💡 **Example — Highlight worn cursed items in orange and underline them:**
 > 
-> `MENUCOLOR=" cursed .* (being worn)" = orange&underline`
+> ```
+> MENUCOLOR=" cursed .* (being worn)" = orange&underline
+> ```
 
 > 💡 **Example — Mark spells that cannot be recalled in gray (black):**
 > 
-> `MENUCOLOR="(You cannot recall this spell)" = black`
+> ```
+> MENUCOLOR="(You cannot recall this spell)" = black
+> ```
 
 ### 📊 HILITE_STATUS
 
@@ -55,11 +65,15 @@ HILITE_STATUS=field/value/color&attribute
 
 > 💡 **Example — Hunger status warnings:**
 > 
-> `HILITE_STATUS=hunger/satiated/yellow/hungry/orange/weak/red&bold/fainting/red&inverse`
+> ```
+> HILITE_STATUS=hunger/satiated/yellow/hungry/orange/weak/red&bold/fainting/red&inverse
+> ```
 
 > 💡 **Example — Attribute improvements or penalties:**
 > 
-> `HILITE_STATUS=characteristics/up/green/down/red`
+> ```
+> HILITE_STATUS=characteristics/up/green/down/red
+> ```
 
 ### 💬 MSGTYPE
 
@@ -79,19 +93,25 @@ The supported actions are:
 
 > 💡 **Example — Force a pause when a monster is nearby:**
 > 
-> `MSGTYPE=stop "You see here a .*"`
+> ```
+> MSGTYPE=stop "You see here a .*"
+> ```
 
 > 💡 **Example — Suppress repetitive spam messages:**
 > 
-> `MSGTYPE=norep "You swap places with your pet."`
+> ```
+> MSGTYPE=norep "You swap places with your pet."
+> ```
 
 > 💡 **Example — Hide trivial environment messages:**
 > 
-> `MSGTYPE=hide "You hear a faint sloshing sound."`
+> ```
+> MSGTYPE=hide "You hear a faint sloshing sound."
+> ```
 
 ### 🎒 AUTOPICKUP_EXCEPTION
 
-The `AUTOPICKUP_EXCEPTION` configuration defines custom inclusion and exclusion rules for picking up items automatically.
+The `AUTOPICKUP_EXCEPTION` configuration defines custom inclusion and exclusion rules for picking up items automatically. These exceptions are processed by the C core and override the generic `pickup_types` settings.
 
 **Syntax:**
 
@@ -102,11 +122,15 @@ AUTOPICKUP_EXCEPTION="!<pattern>"  # Excludes items matching the pattern from au
 
 > 💡 **Example — Always pick up gold pieces (even if other coins are ignored):**
 > 
-> `AUTOPICKUP_EXCEPTION="gold piece"`
+> ```
+> AUTOPICKUP_EXCEPTION="gold piece"
+> ```
 
 > 💡 **Example — Always pick up potions of extra healing:**
 > 
-> `AUTOPICKUP_EXCEPTION="potion of extra healing"`
+> ```
+> AUTOPICKUP_EXCEPTION="potion of extra healing"
+> ```
 
 > 💡 **Example — Never pick up heavy boulders or loadstones:**
 > 
@@ -127,15 +151,19 @@ BINDINGS=key:command
 
 > 💡 **Example — Map the `x` key to the drop (`d`) command:**
 > 
-> `BINDINGS=x:d`
+> ```
+> BINDINGS=x:d
+> ```
 
 > 💡 **Example — Map the `v` key to the look (`:`) command:**
 > 
-> `BINDINGS=v:look`
+> ```
+> BINDINGS=v:look
+> ```
 
 ## 🖥️ Only Supported in ASCII Mode in Modern Version
 
-These settings are fully utilized when the modern version of the game is switched to **ASCII mode**.
+The modern graphical client renders map items as tiles (sprites) by default, ignoring custom characters. However, these settings are fully utilized when the game is switched to **ASCII mode** (`GHGraphicsStyle.ASCII`) via the in-game settings. They are also used in targeting overlays (e.g. `playerMark` or `monsterTargeting`).
 
 ### 🧱 SYMBOLS
 
@@ -152,11 +180,15 @@ You can choose symbol sets like `IBMGraphics_2` or `DECgraphics` in your main `O
 
 > 💡 **Example — Change vertical wall display to a custom vertical bar character:**
 > 
-> `SYMBOLS=S_vwall:|`
+> ```
+> SYMBOLS=S_vwall:|
+> ```
 
 > 💡 **Example — Change floor representation to a dot:**
 > 
-> `SYMBOLS=S_room:.`
+> ```
+> SYMBOLS=S_room:.
+> ```
 
 ### 🪨 BOULDER
 
@@ -170,8 +202,12 @@ BOULDER=character
 
 > 💡 **Example — Set the boulder symbol to a capital `O`:**
 > 
-> `BOULDER=O`
+> ```
+> BOULDER=O
+> ```
 
 > 💡 **Example — Set the boulder symbol to a percent sign:**
 > 
-> `BOULDER=%`
+> ```
+> BOULDER=%
+> ```
