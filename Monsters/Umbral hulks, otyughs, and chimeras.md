@@ -3,4 +3,4 @@
 | [[/Monsters/Umbral hulk]] | ✅ |
 | [[/Monsters/Otyugh]] | ✅ |
 | [[/Monsters/Neo-otyugh]] | ✅ |
-| [[/Monsters/Chimera]] | ❌ |
+| [[/Monsters/Chimera]] | ✅ |

@@ -16,7 +16,7 @@
 | `j` | [[/Monsters/Jellies]] | ✅ |
 | `k` | [[/Monsters/Kobolds]] | ✅ |
 | `l` | [[/Monsters/Leprechauns]] | ✅ |
-| `m` | [[/Monsters/Mimics]] | Partly |
+| `m`, `]` | [[/Monsters/Mimics]] | Partly |
 | `n` | [[/Monsters/Nymphs]] | ✅ |
 | `o` | [[/Monsters/Orcs]] | Partly |
 | `p` | [[/Monsters/Piercers]] | ✅ |
@@ -48,7 +48,7 @@
 | `Q` | [[/Monsters/Quantum mechanics]] | ✅ |
 | `R` | [[/Monsters/Rust monsters and disenchanters]] | ✅ |
 | `S` | [[/Monsters/Snakes]] | ✅ |
-| `T` | [[/Monsters/Trolls and monsters with similar powers]] | ✅ |
+| `T` | [[/Monsters/Trolls and monsters with similar powers]] | Partly |
 | `U` | [[/Monsters/Umbral hulks, otyughs, and chimeras]] | ✅ |
 | `V` | [[/Monsters/Vampires]] | Partly |
 | `W` | [[/Monsters/Wraiths]] | ✅ |
@@ -63,7 +63,6 @@
 | `:` | [[/Monsters/Lizards and hydras]] | Partly |
 | `#` | [[/Monsters/Treants]] | ✅ |
 | `~` | [[/Monsters/Long worm tails]] | ❌ |
-| `]` | [[/Monsters/Mimics]] | ❌ |
 
 - <sup>1</sup> This is the traditional monster category symbol in the legacy ASCII versions of the game. In modern versions, it is mostly used in a blessed genocide, which lets you choose a monster category to wipe out.
 
