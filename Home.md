@@ -8,13 +8,13 @@ GnollHack is a modern evolution of the legendary [NetHack](https://www.nethack.o
 
 GnollHack is best understood as a modernized version of NetHack that makes the classic experience more approachable for today’s players. It preserves the core mechanics and depth of NetHack while presenting them in a modern package, making it an ideal introduction to NetHack for modern gamers.
 
-> ⭐⭐⭐⭐⭐
+> ### ⭐⭐⭐⭐⭐
 >
 > *"I've never experienced a game like this and I absolutely love it. No two runs will ever be the same, allowing for huge amounts of replayability. Probably the best mobile game I've ever played."*
 >
 > — **Google Play Review**
 
-> **The best NetHack rendition I've ever played** ⭐⭐⭐⭐⭐
+> ### The best NetHack rendition I've ever played ⭐⭐⭐⭐⭐
 >
 > *"Long time NH player and played many variants, including hack, rogue and moria which are all similar. This is, by far, the best rendition I have ever played. The quests, voice acting, pleasant graphics, music, NPCs, new spell system, and more are wonderful additions while still remaining true to core NH. And of course, various surprising ways to meet your end.*
 >
