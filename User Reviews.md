@@ -162,7 +162,9 @@ This is a curated list of user reviews of the **iOS version of GnollHack** on th
 
 ## Steam
 
-This is a curated list of user reviews of the **Steam version of GnollHack** on Steam.
+![Steam Logo](/uploads/User%20Reviews/Steam_icon_128.webp)
+
+This is a curated list of user reviews of the **Windows version of GnollHack** on Steam.
 
 ### The best NetHack rendition I've ever played ⭐⭐⭐⭐⭐
 *31 May 2025* – **Paradeth**
