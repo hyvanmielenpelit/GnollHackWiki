@@ -14,6 +14,14 @@ GnollHack is best understood as a modernized version of NetHack that makes the c
 >
 > — **Google Play Review**
 
+> **The best NetHack rendition I've ever played** ⭐⭐⭐⭐⭐
+>
+> *"Long time NH player and played many variants, including hack, rogue and moria which are all similar. This is, by far, the best rendition I have ever played. The quests, voice acting, pleasant graphics, music, NPCs, new spell system, and more are wonderful additions while still remaining true to core NH. And of course, various surprising ways to meet your end.*
+>
+> *And it's free! Well done developers! I highly recommend this game to anyone that played the original. You will enjoy it."*
+>
+> — **Paradeth on Steam**
+
 ## ℹ️ Introduction
 
 - **[[Overview]]** — Main introduction to GnollHack
