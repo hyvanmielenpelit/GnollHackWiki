@@ -159,3 +159,34 @@ This is a curated list of user reviews of the **iOS version of GnollHack** on th
 *8 Jun 2026* – **Adventures42**
 
 > Awesome implementation of NetHack. Great graphics, sounds, and UI.
+
+## Steam
+
+This is a curated list of user reviews of the **Steam version of GnollHack** on Steam.
+
+### The best NetHack rendition I've ever played ⭐⭐⭐⭐⭐
+*31 May 2025* – **Paradeth**
+
+> Long time NH player and played many variants, including hack, rogue and moria which are all similar. This is, by far, the best rendition I have ever played. The quests, voice acting, pleasant graphics, music, NPCs, new spell system, and more are wonderful additions while still remaining true to core NH. And of course, various surprising ways to meet your end.
+> 
+> And it's free! Well done developers! I highly recommend this game to anyone that played the original. You will enjoy it.
+
+### True classic Hack / Rogue experience ⭐⭐⭐⭐⭐
+*22 Jun 2026* – **Wharrgarbl**
+
+> If you want the true classic Hack / Rogue experience it does not get any better than this. Dripping with Nostalgia but not too nostalgic with the introduction of modern elements. Dev works so hard on this updating constantly. I cannot recommend this game enough. 
+> 
+> 5 stars *****
+
+### Finally playable controls! ⭐⭐⭐⭐⭐
+*4 Feb 2026* – **Biran**
+
+> I was never able to play any NetHack version, until I tried GnollHack.
+> 
+> Not a difficulty or complexity issue — just the controls.
+
+### Best NetHack fork, in my opinion ⭐⭐⭐⭐⭐
+*2 Jul 2025* – **Piraldo**
+
+> Best Nethack fork, in my opinion. Spell system is interesting and very nice tiles and sound effects. Would 100% buy if it was paid, absolutely worth playing.
+
