@@ -162,7 +162,7 @@ This is a curated list of user reviews of the **iOS version of GnollHack** on th
 
 ## Steam
 
-![Steam Logo](/uploads/User%20Reviews/Steam_icon_128.webp)
+![Steam Logo](/uploads/User%20Reviews/steam-logo-official-h61.png)
 
 This is a curated list of user reviews of the **Windows version of GnollHack** on Steam.
 
