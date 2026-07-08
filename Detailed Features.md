@@ -2,201 +2,252 @@
 
 ## 📖 General
 
-- New MC system — MC ranges now from 0–25, giving you a chance to resist special attacks, such as level drain. MC from different items also stacks.
-- 7 [[Difficulty Levels]]
-- The chosen difficulty will show in the status bar before the dungeon level as a letter:
-  - **Standard**: s
-  - **Experienced**: e
-  - **Adept**: a
-  - **Verap**: v
-  - **Expert**: x
-  - **Master**: m
-  - **Grand Master**: g
-- Removed the attribute training system. Instead, you gain attributes by eating corpses and some fruits (a vegetarian option).
+### ⚙️ Mechanics & Difficulty
+
+- **Difficulty Levels** — Features 7 distinct [[Difficulty Levels]].
+- **Difficulty Display** — The chosen difficulty will show in the status bar before the dungeon level as a letter (e.g., **s** for Standard, **e** for Experienced, **a** for Adept, **v** for Veteran, **x** for Expert, **m** for Master, **g** for Grand Master).
+- **Polymorph Balancing** — Polymorph, polymorph traps, and polymorphing monsters (such as chameleons) always polymorph into in-difficulty forms. Polymorph control is also restricted to prevent transforming into out-of-difficulty forms.
+- **Rune Words** — Added new protective runes: *Gilthoniel* prevents monsters from picking up items or looting containers in that square (does not work in Gehennom); *Morgoth* does the same and works in Gehennom.
+
+### 🧬 Attributes & Health
+
+- **Attribute Training** — Removed the attribute training system. Instead, you gain attributes by eating corpses and some fruits (a vegetarian option):
   - Giants and spinach give strength.
   - Snakes, monkeys, and bananas give dexterity.
   - Ogres and pomegranates give constitution.
   - Mind flayers and lichens (vegetarian) give intelligence.
   - Owlbears and treants (vegetarian) give wisdom.
   - Nymphs and avocados give charisma (and no teleportitis anymore).
-- There is a warning prompt when you try to enter a water square.
-- There is a warning prompt when you try to put a bag into a bag.
-- There is a warning prompt when you try to enter a known trap.
-- Polymorph, polymorph traps, and polymorphing monsters (such as chameleons) always polymorph into in-difficulty forms.
-- Polymorph control has been also nerfed. You cannot polymorph into out-of-difficulty forms.
-- Gold and alignment are not shown on the status bar. You can check your gold by checking your inventory, and you can find your alignment in the character details page (`}`).
-- Players and monsters regenerate hit points at the rate of `MaxHP/300` per turn. Regeneration doubles that.
-- Players regenerate mana at the rate of `MaxMana/900` per turn. Replenishment doubles that.
-- Players and monsters generally have more hit points and deal more damage than in NetHack.
-- Players and monsters can have higher AC than in NetHack, because Dexterity increases one's AC.
-- Attributes, like strength and dexterity, give out different amounts of bonuses than in vanilla NetHack. Check Abilities (`Alt-a`) for exact information.
-- Exchanging weapons with `x` has been greatly improved. You can wield a one-handed weapon and a shield in one set and a two-handed weapon in a second set, and it works great.
-- Two-weaponing has been greatly improved. It does not use the second readied set weapon anymore. It is toggled by `Ctrl-x`.
-- New rune word: Gilthoniel, which prevents monsters from picking up items or looting containers in the square that is protected by it. Gilthoniel does not work in Gehennom.
-- New rune word: Morgoth, which does the same as Gilthoniel but works in Gehennom.
-- You can use containers even when you wield a cursed two-handed weapon.
+- **Regeneration Rates** — Players and monsters regenerate hit points at the rate of `MaxHP/300` per turn (doubled by Regeneration) and mana at the rate of `MaxMana/900` per turn (doubled by Replenishment).
+- **HP & Damage Scaling** — Players and monsters generally have more hit points and deal more damage than in NetHack.
+- **AC Calculations** — Players and monsters can have higher AC than in NetHack, because Dexterity increases one's AC.
+- **Attribute Bonuses** — Attributes, like strength and dexterity, give out different amounts of bonuses than in vanilla NetHack. Check the Abilities (`Alt-a`) page for exact information.
+
+### ⚔️ Combat & Controls
+
+- **Weapon Sets Swapping** — Exchanging weapons with `x` has been greatly improved. You can wield a one-handed weapon and a shield in one set and a two-handed weapon in a second set, and swapping them is instantaneous.
+- **Two-Weapon Combat** — Two-weapon combat does not use the second readied weapon set anymore. Instead, it is toggled directly by pressing `Ctrl-x`.
+
+### 🔐 Containers & Items
+
+- **Water Safety Prompt** — There is a warning prompt when you try to enter a water square.
+- **Bag Safety Prompt** — There is a warning prompt when you try to put a container bag into another bag.
+- **Known Trap Safety Prompt** — There is a warning prompt when you try to enter a known trap.
+- **Status Bar Clean-up** — Gold and alignment are not shown on the status bar. You can check your gold by checking your inventory, and you can find your alignment in the character details page (`}`).
+- **Two-Handed Curses** — You can use containers even when you wield a cursed two-handed weapon.
 
 ## 👤 Player Character
 
-- [[Experience Level]] cap increased to 50.
-- It requires only 204,000 experience points to reach level 30, compared to 100,000,000 in NetHack.
-- Characters can carry more than before.
-- Changes in Constitution immediately reflect in your maximum hit points.
-- Changes in Intelligence and Wisdom immediately reflect in your maximum mana.
+### 📈 Progression & Stats
+
+- **Extended Level Cap** — The [[Experience Level]] cap is increased to 50.
+- **Experience Curve** — The experience curve has been streamlined; it requires only 204,000 experience points to reach level 30, compared to 100,000,000 in NetHack.
+- **Carrying Capacity** — Characters can carry more than in NetHack.
+- **Dynamic Stats Update** — Changes in Constitution immediately reflect in your maximum hit points, while changes in Intelligence and Wisdom immediately reflect in your maximum mana.
 
 ## 👹 Monsters
 
-- Monsters have attributes like the player character (Strength, Dexterity, etc.).
-- Summon nasties monster spell has been heavily nerfed. Sorry liches.
-- Covetousness has been removed from monsters, except for the [[/Monsters/Wizard of Yendor]].
-- The covetousness of the [[/Monsters/Wizard of Yendor]] has been nerfed so that he does not regenerate hit points so fast. He also cannot steal quest artifacts anymore. He steals only the [[/Items/Amulet of Yendor]].
-- Monsters are more intelligent than before and can use more different kinds of items.
-- Cockatrice is more dangerous, petrifying you on a successful hit if it passes MC.
-- Cockatrice corpse is less dangerous, needing to pass MC to petrify a monster.
-- Most monsters with a special attack are more dangerous, since MC% is usually lower in GnollHack than in vanilla NetHack.
-- All monsters except wraiths generate a corpse 100% of the time.
-- [[Couatls|/Monsters/Couatl]], [[mariliths|/Monsters/Marilith]], and constrictor snakes have now a strangling attack, which kills you in 6 turns.
-- Drowning attack is not instadeath anymore.
-- [[Purple worms|/Monsters/Purple Worm]] do not instakill pets and monsters anymore.
-- Monster difficulty level is now mathematically feasible, calculated based on `SQRT(damage_per_turn * effective_hit_points)`. The real formula is more complex.
-- Undead and mindless monsters do not flee from battle and are immune to fear.
-- Killing monsters gives out experience of about `1 + monster_difficulty_level ^ 2`. This means that a difficulty level 10 monster gives out about 100 XP and a difficulty level 100 monster gives out about 10,000 XP.
-- Monsters appearing in an encounter give out extra experience, depending on the difficulty level of the encounter.
-- Monsters range in difficulty levels between 0 and 200, even though the upper limit is not capped.
-- You can see the monster difficulty level by using `/`.
-- Demons summon other demons more seldomly.
-- Some letter changes: Gnomes are now in 'g', lesser undead in 'z', and greater undead in 'Z'. Zruty is now in 'Y'.
-- New monster class Gnoll 'G'. Includes Gnolls and Flinds.
-- For copyright reasons, there are now tentacled ones, gazers, and underworld hulks instead of mind flayers, beholders, and umber hulks.
-- Mage spell casters cannot cast Touch of Death anymore. This includes the [[/Monsters/Wizard of Yendor]].
-- High Priest class clerical spell casters can cast Touch of Death. Magic resistance does not help against it anymore. You need death resistance. So, please remember to acquire it before engaging in combat with any high priest class monsters, such as the [[/Monsters/Greater Mummy High Priest]].
-- Death resistance is also required against [[/Monsters/Death]]'s touch of death.
+### 🧬 Monster Stats & AI
+
+- **Monster Attributes** — Monsters have attributes like the player character (Strength, Dexterity, etc.).
+- **Monster Intelligence** — Monsters are more intelligent than before and can use a wider variety of items.
+- **Fear Resistance** — Undead and mindless monsters do not flee from battle and are immune to fear.
+- **Corpse Generation** — All monsters except wraiths generate a corpse 100% of the time.
+- **Class Letters** — Some letter changes: Gnomes are now in 'g', lesser undead in 'z', and greater undead in 'Z'. Zruty is now in 'Y'.
+- **New Classes** — New monster class Gnoll 'G', including Gnolls and Flinds. For copyright reasons, there are now tentacled ones, gazers, and underworld hulks instead of mind flayers, beholders, and umber hulks.
+
+### ☠️ Special Attacks & Resistances
+
+- **Strangling Attacks** — [[Couatls|/Monsters/Couatl]], [[mariliths|/Monsters/Marilith]], and constrictor snakes have now a strangling attack, which kills the target in 6 turns.
+- **Non-Fatal Drowning** — Drowning attacks are no longer instadeath.
+- **Purple Worm Swallowing** — [[Purple worms|/Monsters/Purple Worm]] do not instakill pets and monsters anymore.
+- **Summoning Adjustments** — The *Summon Nasties* monster spell has been heavily nerfed, and demons summon other demons more seldomly.
+- **Petrification Rules** — A cockatrice is more dangerous, petrifying you on a successful hit if it passes MC; however, cockatrice corpses are less dangerous, needing to pass MC to petrify a monster.
+- **Touch of Death** — Mage spell casters cannot cast Touch of Death anymore (this includes the Wizard of Yendor). High Priest class clerical spell casters can cast Touch of Death (and magic resistance does not protect against it; death resistance is required instead). Death resistance is also required against the Grim Reaper [[Death|/Monsters/Death]]'s touch of death.
+
+### ⚔️ Combat Mechanics
+
+- **Difficulty Formulas** — Monster difficulty level is calculated dynamically based on `SQRT(damage_per_turn * effective_hit_points)`. You can inspect difficulty using `/`.
+- **Experience Calculations** — Killing monsters grants experience equal to about `1 + monster_difficulty_level ^ 2`. Monsters appearing in an encounter give out extra experience depending on the difficulty of the encounter.
+- **Monster Scaling** — Monsters range in difficulty levels between 0 and 200, though the upper limit is not capped.
+- **Covetousness Removal** — Covetousness has been removed from all monsters except the Wizard of Yendor, whose recovery and stealing behaviors have been nerfed.
+
+### 🔗 Learn More
+
+- [[Monsters]] — Overview of monster classes and bestiary list
+- [[/Monsters/Wizard of Yendor]] — Boss guide for the Wizard of Yendor
+- [[/Monsters/Death]] — Guide to Death and death resistance
 
 ## 🐾 Pets
 
-- Pets now have a pathing algorithm (the same as in travel). No more pets stuck on the other side of the map.
-- Pet hit points and other statistics are now shown on status lines 4-8.
-- You can command pets to stay put. Useful when you do not want them to eat corpses.
-- You can give items to your pet and tell it to wear or undress them.
-- You can tell your pet to drop its items.
-- Pets now attack high-level monsters but are also in danger of being killed by them.
-- More food for your pets in the dungeon. Especially, more food for the horses in garden rooms.
-- Pets have more hit points in the beginning to prevent them from being killed early.
-- Pets do not attack peaceful monsters.
-- You can see pet hit points by using `/`.
-- Better messaging when the pet is hungry.
-- Riding as a non-knight is easier. The pet loses tamedness slower.
-- You can hire some peaceful monsters for a fee.
+### 🧭 Behavior & Pathing
+
+- **Pet Pathing Engine** — Pets use the built-in travel pathing engine, preventing them from getting stuck on the other side of the map.
+- **Stand Ground** — You can command pets to stay put to prevent them from eating corpses.
+- **Aggression Scaling** — Pets will attack high-level monsters but are in danger of being killed by them. Pets do not attack peaceful monsters.
+
+### ⚙️ Pet Interaction
+
+- **Equipment Management** — You can give items to your pet and tell it to wear, drop, or undress them.
+- **Riding Tweaks** — Riding as a non-knight is easier, and the pet loses tamedness slower.
+- **Hiring Mercenaries** — You can hire some peaceful monsters for a gold fee to join your party.
+- **Discussion Option** — You can chat with pets and peaceful monsters to ask them to join your party.
+
+### 📊 Statistics & HUD
+
+- **HUD Status Lines** — Pet hit points and other statistics are shown on status lines 4-8.
+- **HP Inspection** — You can check your pet's hit points by using `/`.
+- **Better Notifications** — Better messaging is displayed when your pet is hungry.
+- **Dungeon Food** — More food is generated for your pets in the dungeon (e.g., grass/carrots in garden rooms for horses).
 
 ## 🏪 Shopkeepers, Priests, and the Oracle
 
-- Shopkeepers and the Oracle can identify items.
-- Priests can bless and curse items, and heal you for a fee.
-- The Oracle can also provide enlightenment.
-- Shopkeepers have been trained to spot pets that try to steal items from their shops.
+### 🏪 Shopkeepers & Merchants
+
+- **Item Identification** — Shopkeepers can identify unknown items for a gold fee.
+- **Anti-Theft AI** — Shopkeepers have been trained to spot pets trying to steal items from their shops.
+
+### ⛪ Priests & Altars
+
+- **Altar Services** — Priests can bless/curse items and heal the player character for a gold fee.
+
+### 🔮 The Oracle
+
+- **Oracle Services** — The Oracle can identify items and provide enlightenment.
 
 ## 📈 Skills
 
-- Weapon skills have been combined, so that there are now 14 weapon skills instead of 28.
-- Weapon skills grant more bonuses than before.
-- Revised spell school skills.
-- There is now a [[/Skills/Disarm trap]] skill, which you can improve.
-- Untrapping traps grants items. Magical traps usually give out wands.
-- [[/Skills/Martial arts]] is now a prestige skill that you can improve after you have reached Expert in [[/Skills/Bare-handed combat]]. It requires 2, 3, 3, 4, and 4 skill point slots at Basic, Skilled, Expert, Master, and Grand Master levels, respectively.
-- The game shows when you have unused skill points in the status bar.
+### ⚔️ Weapon & Spell Skills
+
+- **Combined Skills** — Weapon skills have been combined into 14 distinct skill groups instead of 28, and they grant more bonuses.
+- **Critical Hits** — Weapon skills increase your chance to score a critical hit (causing double damage).
+- **Revised Schools** — Revised spell school skills.
+
+### 🪤 Traps & Prestige Skills
+
+- **Disarm Trap Skill** — Added a [[/Skills/Disarm trap]] skill that can be trained. Untrapping traps grants items (magical traps usually give wands).
+- **Martial Arts** — [[/Skills/Martial arts]] is a prestige skill that you can improve after reaching Expert in [[/Skills/Bare-handed combat]]. It requires 2, 3, 3, 4, and 4 skill points at Basic, Skilled, Expert, Master, and Grand Master levels.
+- **Status Indicator** — The game shows when you have unused skill points in the status bar.
+
+### 🔗 Learn More
+
+- [[Skills]] — List of all weapon, spell, and auxiliary skills
 
 ## 🎖️ Roles
 
-- [[/Roles/Monk]] is heavily improved — He can even do martial arts kicks using `k`. The boots of kicking are now very useful for him.
-- Most roles have revised intrinsics per level.
-- The [[/Roles/Tourist]] starts with a +2 golf club, because he cannot throw darts in a melee range anymore.
-- All roles start with a bag. [[Rogues|/Roles/Rogue]] start with a [[/Items/bag of treasure hauling]] and [[wizards|/Roles/Wizard]] with a [[/Items/bag of wizardry]]. Other roles start with a normal bag or backpack.
+### 🥋 Role Enhancements
+
+- **Monk Buffs** — The [[/Roles/Monk]] can do martial arts kicks using `k`, making boots of kicking highly valuable.
+- **Revised Intrinsics** — Most roles have revised intrinsics per level.
+
+### 🏁 Starting Equipment
+
+- **Tourist Starter** — The [[/Roles/Tourist]] starts with a +2 golf club because darts cannot be thrown in melee range anymore.
+- **Bags & Containers** — All roles start with a bag. [[Rogues|/Roles/Rogue]] start with a [[/Items/bag of treasure hauling]] and [[wizards|/Roles/Wizard]] with a [[/Items/bag of wizardry]].
+
+### 🔗 Learn More
+
+- [[Character Classes]] — Detailed list of roles, starting items, and traits
 
 ## 🎒 Items
 
-- [[Mythic affix item property system|Mythic and Legendary Items]] — Non-magical weapons and armor can be generated with special properties, such as demon slaying or fire resistance.
-- [[Weapon quality classes|Exceptional, Elite, Celestial, Primordial, and Infernal Items]] — Weapons can now be normal, exceptional, elite, or one of celestial, primordial, or infernal. Exceptional weapons cause double base damage, elite triple, and celestial, primordial, and infernal quadruple damage.
-- Elemental enchantment — Weapons can also be elementally enchanted much in the same way as they can be poisoned. Elemental enchantment may wear off during use.
-- New item slot 'Robe' — You can wear a Robe over your armor and under your cloak. It does not stack with your armor, but the game will pick the AC of the body armor or the robe, whichever is better. Likewise for MC.
-- You can fire-enchant, lightning-enchant, and cold-enchant items to do more damage on hit. They work similarly to poison.
-- You can apply wands to items to enchant them, or to disenchant them with the wand of cancellation.
-- New item class Reagents ('9') has been added.
-- New item class Miscellaneous items ('8') has been added. You can wear 5 miscellaneous items on you, such as belts and ioun stones, but only 1 per miscellaneous item slot.
-- You can gain blind telepathy by eating a panther cap. Good for vegetarians!
-- Vegetable food gives more nutrition.
-- Figurines have been removed from the game. Sorry knights and pacifists, no more Archons and ki-rins as pets from wishes.
-- Dual-use items, such as a spiked shield, which is a weapon and an armor at the same time.
-- Attack wands now do different amounts of damage than before (especially wands of fire, cold, and lightning, which had the same 6d6 damage before).
-- Gold weighs now 10x more than before, but there is also a bag of treasure hauling, which reduces gold weight to 1/32.
-- Using ranged weapons or thrown weapons in a melee range (1 square) receives a heavy to-hit penalty, up to -20.
-- Polearms now hit all adjacent squares (i.e., range of SQRT(8)) on all skill levels.
-- Thrown weapons and fired missiles, such as darts and arrows, break only at 1/20 chance when uncursed. When blessed, they do not break at all.
-- You can move items directly from a container to another.
-- Unicorn horns have charges and cannot cure attribute point damage. However, they work now 100% of the time. An uncursed unicorn horn always cures 1 condition and a blessed one 2 conditions.
-- Conflict has been nerfed so that items with conflict are no longer permanent but have charges.
-  - [[/Artifacts/The Ring of Conflict]] is now an artifact with charges.
-  - There's a new item: [[/Items/scroll of conflict]] (single-use conflict).
-  - There's a new horn: [[/Items/horn of chaos]] that gives conflict as a debuff to nearby monsters.
-- Magic resistance has been nerfed.
-  - It does not give immunity to death attacks; there are separate items that give death resistance such as an amulet vs death magic and a ring of protection from undeath.
-  - It does not give shielding from magic missiles and striking; there are separate items that give magic missile resistance, such as bracers of magic missile resistance.
-  - It does not reduce elemental damage to half.
-- [[/Items/Wand of polymorph]] has been nerfed. A blessed/uncursed/cursed wand of polymorph can now affect 7/4/1 items per use.
-- You can search for traps in a chest by standing in the same square where the chest is and pressing search `s`.
-- You can use items even if you have a cursed two-handed weapon.
-- You cannot choke on food that adds 50 or less nutrition.
+### 💎 Equipment Enhancements
+
+- **Mythic Prefix & Suffix** — Non-magical equipment can spawn with special mythic properties (e.g., demon slaying). Read [[Mythic and Legendary Items]].
+- **Item Quality Classes** — Weapons can spawn in different quality tiers (Normal, Exceptional, Elite, Celestial, Primordial, Infernal). Exceptional weapons deal double base damage; Elite weapons deal triple; Celestial, Primordial, and Infernal weapons deal quadruple. Read [[Exceptional, Elite, Celestial, Primordial, and Infernal Items]].
+- **Elemental Enchantment** — Weapons can be elementally enchanted (flaming, freezing, electrified, death-magical). Wands can also be applied to items to enchant or cancel them.
+- **Robe Item Slot** — Robes can be worn over armor and under cloaks (the game selects the better AC/MC).
+- **Miscellaneous Items** — Added a new Miscellaneous item class ('8') and 5 new slots (e.g., belts and ioun stones).
+
+### 🧪 Item Mechanics & Categories
+
+- **Reagents Category** — Added a new Reagents item class ('9') used for spellcasting.
+- **Unicorn Horns** — Unicorn horns have charges and cannot cure attribute point damage, but they work 100% of the time (uncursed horn cures 1 condition; blessed horn cures 2).
+- **Wands of Polymorph** — Nerfed so that blessed/uncursed/cursed wands affect 7/4/1 items per use.
+- **Ring of Conflict** — Conflict-granting items have charges and are no longer permanent. The Ring of Conflict is now [[/Artifacts/The Ring of Conflict]] (has charges), scroll of conflict is single-use, and the horn of chaos applies a temporary debuff.
+- **Magic Resistance Nerf** — Magic resistance does not shield against death attacks, magic missiles, or striking, and it does not reduce elemental damage to half.
+- **Panther Caps** — Gain blind telepathy by eating a panther cap (good for vegetarians).
+- **Gold Weight** — Gold weighs 10x more, but the [[/Items/bag of treasure hauling]] reduces gold weight to 1/32.
+
+### ⚔️ Ranged & Melee Combat Tweaks
+
+- **Melee Launcher Penalty** — Launchers and thrown weapons used in melee range (1 square) receive a to-hit penalty of up to -20.
+- **Polearms Range** — Polearms hit all adjacent squares (range of `SQRT(8)`) at all skill levels.
+- **Ammo Breaking** — Uncursed ammunition has only a 1/20 chance of breaking; blessed ammunition never breaks.
+
+### 🔗 Learn More
+
+- [[Items]] — List of item classes and categories
+- [[Artifacts]] — Database of quest and sacrifice gift artifacts
 
 ## 🗺️ Dungeon
 
-- Your starting room has an altar of your god and your stash, which contains 2 to 3 random items.
-- Garden rooms with lots of fruits — and you can dig (`Ctrl-g`) in them for roots and cut down trees for lumber.
-- Library rooms with spell casting monsters.
-- Dragon lairs with dragons – even ancient ones.
-- Two different types of the orc-and-the-pie rooms.
-- A deserted shop with lots of mimics and a boss mimic, which drops the Wand of Identify.
-- The number of items generated in the dungeon has been greatly increased compared to NetHack.
-- Higher level monsters appear quicker in GnollHack than in NetHack.
-- Fountains are safer to drink from. Bad effects happen only on lower dungeon levels.
-- There are also several different fountain types, including a fountain of poison, a fountain of healing, a fountain of mana, and a fountain of power. The old fountain is renamed the magic fountain.
-- Slightly shorter Dungeons of Doom.
-- Slightly shorter Gehennom with no mazes except on special levels.
-- New dungeon branches.
+### 🚪 Special Rooms & Lairs
+
+- **Starting Rooms** — Your starting room features an altar of your god and a stash containing 2 to 3 random items.
+- **Garden Rooms** — Rooms filled with fruits where you can dig (`Ctrl-g`) for roots and chop trees for lumber.
+- **Library Rooms** — Rooms containing spellcasting monsters.
+- **Dragon Lairs** — Rooms filled with dragons and ancient dragons.
+- **Orc-and-the-Pie Rooms** — Two new variations of this classic puzzle room.
+- **Deserted Shops** — Shops populated by mimics and a boss mimic that drops the Wand of Identify.
+
+### ⛲ Fountains & Dungeon Layout
+
+- **Fountain Safety** — Fountains are safer to drink from; negative effects occur only on lower dungeon levels. Added new fountain types (poison, healing, mana, power). The original fountain is now the *magic fountain*.
+- **Doom Shorter** — The Dungeons of Doom branch is slightly shorter.
+- **Gehennom Shorter** — Gehennom is slightly shorter and lacks mazes except on special levels.
+- **New Branches** — Several new dungeon branches have been added.
+
+### 🔗 Learn More
+
+- [[Dungeon Layout]] — Comprehensive guide to branches, levels, and layouts
 
 ## 🔮 Spells
 
-- 14 different spell levels: Minor cantrip, major cantrip, and levels 1–12.
-- Most spells have now a material component, which is required to mix (prepare) the spell.
-- Each mixing gives out a number of castings, ranging from 1–100 across spells.
-- Spells can also have a cooldown, which needs to pass before the spell can be cast again.
-- Spells use an attribute to cast the spell: Intelligence, Wisdom, Charisma, or any combination of them.
-- New spell casting chance system:
+### 🔮 Spell Preparation & Casting
+
+- **Spell Levels** — Features 14 spell levels (Minor Cantrip, Major Cantrip, and levels 1–12).
+- **Material Components** — Most spells require material reagents to prepare.
+- **Spell Castings** — Mixing a spell grants a pool of casts (ranging from 1–100 depending on the spell).
+- **Cooldowns** — Spells can have a cooldown timer.
+- **Casting Stats** — Spells use casting attributes (Intelligence, Wisdom, Charisma, or combinations).
+- **Spell Casting Chance** — The casting success chance is calculated as:
   - +100% per magic school level
   - -50% per spell level
-  - `+` spell casting bonus from items (such as magical staves and other magical items) — they do not work on restricted schools
-  - `-` spell casting penalty from armor (somatic spells only)
+  - `+` spell casting bonus from items (e.g., staves)
+  - `-` spell casting penalty from armor (for somatic spells)
   - +15% per stat point (INT, WIS, or CHA)
-- Skill levels in spell schools reduce the mana required to cast spells.
-- Spells cannot be forgotten over time.
-- You can remove spells from the spell list through `+`.
-- You can hotkey spells with `+`.
-- Spellbooks crumble to dust when read successfully.
-- Spellbooks are less dangerous to read – they do not paralyze you when the reading fails.
+- **Mana Reduction** — Spell school levels reduce the mana cost of spells.
+
+### 📕 Spellbooks & Management
+
+- **Spell Expiry** — Spells cannot be forgotten over time.
+- **Spellbook Crumbling** — Spellbooks crumble to dust upon successful reading.
+- **Reading Safety** — Failed spellbook reading does not paralyze the player character.
+- **Spell Hotkeys & Removal** — You can hotkey spells or remove them from your active spell list by pressing `+`.
+
+### 🔗 Learn More
+
+- [[Spells]] — List of all spell classes and spellbooks
+- [[Spell Casting]] — Guide to spellcasting requirements and modifiers
 
 ## 🏆 Scoring
 
-- GnollHack has its own [[Scoring]] system.
-- You get score from:
-  - Delving deeper into the dungeon
-  - Achievements
-  - Ascending (= winning the game)
-  - Conducts (ascensions only)
-  - Turn count (ascensions only; lower is better)
-  - Difficulty level (harder difficulties give more score)
-- Compared to NetHack, you do not gain score from:
-  - Gold
-  - Gems
-  - Artifacts
-  - Amulets
-- The scoring system is designed in a way that your current score can be displayed at any time in the status bar.
+### 🏆 Scoring Calculations
 
-The rest of the changes can be found in [[Minor Features]].
+- **Score Sources** — Players earn score from:
+  - Delving deeper into the dungeon
+  - Accomplishing achievements
+  - Ascending (winning the game)
+  - Retaining conducts (ascension only)
+  - Maintaining low turn counts (ascension only)
+  - Setting higher difficulty levels (harder difficulties give more score)
+- **Live Display** — Your score is calculated in real-time and displayed on the status bar.
+
+### ❌ Excluded Elements
+
+- **Excluded Score Sources** — Unlike NetHack, players do not gain score from carrying gold, gems, artifacts, or amulets.
+
+### 🔗 Learn More
+
+- [[Scoring]] — Detailed breakdown of points, multipliers, and achievements
