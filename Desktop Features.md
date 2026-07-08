@@ -44,6 +44,7 @@ Several gameplay settings are *optimized specifically for desktop play*. You can
 | **On Switching Apps** | **Checkpoint** (Desktop) <br> **Save Game** (Mobile) | Controls how the game state is handled when the window loses focus. **Checkpoint** creates a background checkpoint without closing open menus or exiting; **Save Game** saves the game and returns to the main menu. |
 | **Desktop Status Bar** | **On** (Desktop) <br> **Off** (Mobile) | Formatted specifically for wide desktop monitors. Displays additional game data and supports settings to show or hide the following directly on the status bar:<br>- **Show Score**: Displays your current score.<br>- **Show XP**: Displays your current experience points. |
 | **Desktop Buttons** | **On** (Desktop) <br> **Off** (Mobile) | Shows dedicated **Stats** and **Equipment** buttons in the bottom-left and bottom-right corners of the main screen. On mobile, or when disabled, these are accessed by clicking/tapping the top-left and top-right corners of the screen. |
+| **Show Keyboard Shortcuts** | **On** (Desktop) <br> **Off** (Mobile) | Displays keyboard shortcut indicators directly on action buttons to assist with keyboard navigation. |
 
 ## 🔍 More Commands Search Filter
 
