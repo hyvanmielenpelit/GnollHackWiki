@@ -1,23 +1,21 @@
 ## Commands Bound to Letters
 
-- Commands in *italic* are new commands in GnollHack that do not appear in NetHack.
-
 | Key | Key Command | Shift + Key | Shift + Key Command | Alt + Key | Alt + Key Command | Ctrl + Key | Ctrl + Key Command |
 | :-: | :------ | :-: | :---------- | :-: | :--------- | :-: | :-------- |
 | a | Apply | *A* | *Abilities (status screen)* | Alt-a | Adjust | Ctrl-a | Repeat |
-| *b* | *Take items out of **b**ag in inventory* | *B* | *Put items into **B**ag in inventory* | Alt-b | *Toggle hitpoint bars* _(legacy GUI only)_ | *Ctrl-b* | *Break* |
-| c | Close door | C | Chat | Alt-c | Commands menu | Ctrl-c | Call |
+| *b* | *Take items out of **b**ag in inventory* | *B* | *Put items into **B**ag in inventory* |  |  | *Ctrl-b* | *Break* |
+| c | Close door | C | Chat | *Alt-c* | *Commands menu* | Ctrl-c | Call |
 | d | Drop | D | Drop multiple | Alt-d | Dip | Ctrl-d | Kick |
 | e | Eat | E | Engrave | Alt-e | Wipe face | Ctrl-e | Detect _(wizard mode only)_ |
 | f | Fire | F | Fight | Alt-f | Force lock | Ctrl-f | Reveal map _(wizard mode only)_ |
-| g | Go mode — Rush | G | Go mode — Run | Alt-g | Genocided monsters | Ctrl-g | *Dig* |
-| h | Help | H |  | Alt-h | Handedness | Ctrl-h |  |
+| g | Go mode — Rush | G | Go mode — Run | Alt-g | Genocided monsters | *Ctrl-g* | *Dig* |
+| h | Help | H |  | *Alt-h* | *Handedness* | Ctrl-h |  |
 | i | Inventory | I | Inventory of specific types | Alt-i | Invoke | Ctrl-i | Identify _(wizard mode only)_ |
 | j | Jump | J |  | Alt-j | Jump | Ctrl-j |  |
-| k | Kick _(when Vi-keys are disabled)_ | K |  | *Alt-k* | *Vanquished creatures* | Ctrl-k |  |
+| k | Kick _(when Vi-keys are disabled)_ | K |  | Alt-k | Vanquished creatures | Ctrl-k |  |
 | l | Loot | L | Look | Alt-l | Loot | *Ctrl-l* | *Light/Snuff out* |
 | m | Move mode — Rush | M | Move mode — Run | Alt-m | Genesis _(wizard mode only)_ | Ctrl-m |  |
-| n | Number of actions<sup>1</sup> | N | Name | Alt-n | Number of actions _(alternate)_ | Ctrl-n | Annotate dungeon level |
+| n | *Number of actions*<sup>1</sup> | N | Name | *Alt-n* | *Number of actions (alternate)* | Ctrl-n | Annotate dungeon level |
 | o | Open door | O | Options | Alt-o | Offer sacrifice | Ctrl-o | Dungeon overview |
 | p | Pay bill | P | Put on | Alt-p | Pray | Ctrl-p | Previous message |
 | q | Drink (quaff) | Q | Quiver | Alt-q | Quit | Ctrl-q |  |
@@ -26,37 +24,34 @@
 | t | Throw | T | Take off | Alt-t | Take off many | Ctrl-t | Teleport |
 | u | Untrap | U |  | Alt-u | Untrap | Ctrl-u |  |
 | v | Version info | V | Game history info | Alt-v | GnollHack library info | Ctrl-v | Level teleport _(wizard mode only)_ |
-| w | Wield weapon | W | Wear armor | Alt-w | *Wear many* | Ctrl-w | Wish _(wizard mode only)_ |
-| x | Swap weapons | *X* | *Mix spells* | *Alt-x* | *Examine* | *Ctrl-x* | *Dual weapon mode* |
-| *y* | *Take loot out of container on floor (**y**ank)* | *Y* | *Put loot into container on floor (**Y**ank)* | Alt-y | *Yell for pets* | *Ctrl-y* | *Yell for pets* |
+| w | Wield weapon | W | Wear armor | *Alt-w* | *Wear many* | Ctrl-w | Wish _(wizard mode only)_ |
+| x | Swap weapons | *X* | *Mix spells* | *Alt-x* | *Examine* | Ctrl-x | Dual weapon mode |
+| *y* | *Take loot out of container on floor (**y**ank)* | *Y* | *Put loot into container on floor (**Y**ank)* | *Alt-y* | *Yell for pets* | *Ctrl-y* | *Yell for pets* |
 | z | Zap wand | Z | Cast spell | *Alt-z* | *View spell* | Ctrl-z |  |
 
+- Commands in *italic* are new commands in GnollHack that do not appear in NetHack.
 - <sup>1</sup> Number of actions works like this: You first press `n`, then write the number of actions in numerals, and then choose the action. For example, `n20s` searches 20 times.
 
 
 ## Double Modifier Commands Bound to Letters
 
-- Commands in *italic* are new commands in GnollHack that do not appear in NetHack.
-
 | Shift + Alt + Key | Shift + Alt + Key Command |
 | :---------------: | :------------------------ |
-| *Alt-A* | *Annotate dungeon level* |
+| Alt-A | Annotate dungeon level |
 | *Alt-E* | *Engrave quick (use preset writing)* |
-| *Alt-M* | *Use monster ability* |
-| *Alt-N* | *Name a monster or object class* |
+| Alt-M | Use monster ability |
+| Alt-N | Name a monster or object class |
 | *Alt-P* | *Apply Wielded Polearm*<sup>1</sup> |
-| *Alt-R* | *Mount or dismount a saddled steed (Ride)* |
-| *Alt-T* | *Empty a container (Tip)* |
+| Alt-R | Mount or dismount a saddled steed (Ride) |
+| Alt-T | Empty a container (Tip) |
 | *Alt-W* | *Wield a previously wielded weapon* |
 | *Alt-X* | *Apply a pick-axe or cutting tool quick* |
-| *Alt-Y* | *Toggle buff timers (legacy GUI only)* |
 
+- Commands in *italic* are new commands in GnollHack that do not appear in NetHack.
 - <sup>1</sup> The polearm can also be a swap weapon.
 
 
 ## Other Commands
-
-- Commands in *italic* are new commands in GnollHack that do not appear in NetHack.
 
 | Key | Key Command |
 | :-: | :---------- |
@@ -68,16 +63,18 @@
 | < | Go up |
 | > | Go down |
 | / | Far look |
-| _*_ | *Equipment (worn items)* |
+| _*_ | Equipment (worn items) |
 | " | Show worn amulet |
 | # | Extended command |
 | ? | Help |
-| + | Spell menu |
+| *+* | *Spell menu* |
 | ( | List tools |
 | ) | Show weapon |
 | = | Show worn rings |
 | [ | Show worn armor |
 | *}* | *Character details (Describe your character)* |
+
+- Commands in *italic* are new commands in GnollHack that do not appear in NetHack.
 
 ## Movement By Arrow Keys
 
@@ -124,12 +121,15 @@ The directions work also without a number pad with regular number keys:
 
 You can adjust the map zoom level using the following keyboard shortcuts:
 
-| Key Shortcut | Command |
-| :--- | :--- |
-| `Ctrl` + `Plus (+)` or `Alt` + `Plus (+)` | Zoom in |
-| `Ctrl` + `Minus (-)` or `Alt` + `Minus (-)` | Zoom out |
-| `Ctrl` + `Zero (0)` or `Alt` + `Zero (0)` | Reset zoom to normal |
-| `Ctrl` + `Period (.)` or `Alt` + `Period (.)` | Toggle zoom to fit screen (minimap mode) |
+| Key | Alternate Key | Command |
+| :-- | :------------ | :------ |
+| *Ctrl* + *`+`* | *Alt* + *`+`* | *Zoom in* |
+| *Ctrl* + *`-`* | *Alt* + *`-`* | *Zoom out* |
+| *Ctrl* + *`0`* | *Alt* + *`0`* | *Reset zoom to normal* |
+| *Ctrl* + *`.`* | *Alt* + *`.`* | *Toggle zoom to fit screen (minimap mode)* |
+
+- Commands in *italic* are new commands in GnollHack that do not appear in NetHack.
+
 
 ## Vi-Keys
 
@@ -148,21 +148,35 @@ When you have vi-keys enabled, you can use the following keys for movement:
 </tbody>
 </table>
 
+
 ### Alternate Key Bindings When Vi-Keys Are Enabled
 
 | Normal Key | Command | Alternate Key |
 | :--------: | :------ | :-----------: |
-| b | Take items out of **b**ag in inventory | Alt-G |
-| B | Put items into **B**ag in inventory | Alt-F |
-| Ctrl-b | Break | Alt-B |
+| *b* | *Take items out of **b**ag in inventory* | *Alt-G* |
+| *B* | *Put items into **B**ag in inventory* | *Alt-F* |
+| *Ctrl-b* | *Break* | *Alt-B* |
 | j | Jump | Alt-j |
 | k | Kick | Ctrl-d |
 | `l` | Loot | Alt-`l` |
-| Ctrl-`l` | Light | Alt-`I` |
-| n | Number of actions | *Automatic*<sup>1</sup>  |
+| *Ctrl-`l`* | *Light/Snuff out* | *Alt-`I`* |
+| *n* | *Number of actions* | *Automatic*<sup>1</sup> |
 | N | Name | Alt-N |
 | u | Untrap | Alt-u |
-| y | Take loot out of container on floor (**y**ank) | Alt-D |
-| Y | Put loot into container on floor (**Y**ank) | Alt-C |
+| *y* | *Take loot out of container on floor (**y**ank)* | *Alt-D* |
+| *Y* | *Put loot into container on floor (**Y**ank)* | *Alt-C* |
 
+- Commands in *italic* are new commands in GnollHack that do not appear in NetHack.
 - <sup>1</sup> When you press a number key, the game automatically assumes that it's the number of actions command.
+
+
+## Legacy Keyboard Shortcuts
+
+The following keyboard shortcuts are not supported by the modern GnollHack clients and are only available in the legacy Windows version GnollHack:
+
+| Key Shortcut | Command |
+| :--- | :--- |
+| Alt-b | *Toggle hitpoint bars* |
+| Alt-Y | *Toggle buff timers* |
+
+- Commands in *italic* are new commands in GnollHack that do not appear in NetHack.
