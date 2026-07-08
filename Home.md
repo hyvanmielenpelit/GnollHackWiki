@@ -51,7 +51,7 @@ GnollHack is best understood as a modernized version of NetHack that makes the c
 
 - **[[Gameplay Information]]** — The central hub for all game content and mechanics, including character creation, UI, stats, equipment, items, spells, monsters, religion, and advanced topics
 
-## Reference
+## 📖 Reference
 
 - **[[Keyboard Shortcuts]]** — GnollHack supports NetHack-style keyboard shortcuts, which are especially useful when playing with a physical keyboard 
 
