@@ -2,39 +2,47 @@
 
 > 👉 **Welcome to the Intermediate Guide. This guide builds upon the basics from the [[Starting Guide for Beginners]] to help you survive the deeper dungeon.**
 
-## 🗺️ Dungeon Branches
+## 🗺️ Part 1: Navigating the Dungeon
+
+### ⛰️ Dungeon Branches
 
 The dungeon in GnollHack is not just a single straight line down; it features several branching paths.
 
 | Dungeon Branch / Area | Area / Entrance Found In | Description |
 |:---|:---|:---|
-| **Dungeons of Doom** | The starting branch | The main dungeon branch. You start on level 1 and must descend to find the [[/Items/Amulet of Yendor]]. Stick to this path initially. The deeper you go, the harder the monsters become. |
-| **The Gnomish Mines** | Dungeons of Doom (levels 2-4) | A mostly unlit cavernous branch populated primarily by gnomes and dwarves. |
-| **Minetown** | The Gnomish Mines (levels 5-8) | A guaranteed town level within the Gnomish Mines, featuring multiple shops and a temple with a priest. It is an excellent place to identify items and buy gear. |
-| **Sokoban** | Dungeons of Doom (levels 6-10) | A puzzle branch where you must push boulders into pits to advance. Completing it yields a valuable reward (a [[/Items/Bag of holding]] or an [[/Items/Amulet of reflection]]). |
-| **The Quest** | Dungeons of Doom (levels 11-16) | A unique branch tailored to your character's class. You must be at least experience level 14 to enter it. |
-| **Gehennom** | Dungeons of Doom (levels 25-29) | The late-game hellish branch of the dungeon. Unlike NetHack, GnollHack has removed the tedious mazes from Gehennom, making it much more enjoyable and fast-paced to explore. |
+| **[[/Dungeon/Dungeons of Doom]]** | The starting branch | The main dungeon branch. You start on level 1 and must descend to find the [[/Items/Amulet of Yendor]]. Stick to this path initially. The deeper you go, the harder the monsters become. |
+| **[[/Dungeon/Gnomish Mines]]** | [[/Dungeon/Dungeons of Doom]] (levels 2-4) | A mostly unlit cavernous branch populated primarily by gnomes and dwarves. |
+| **[[/Dungeon/Mine Town]]** | [[/Dungeon/Gnomish Mines]] (levels 5-8) | A guaranteed town level within the Gnomish Mines, featuring multiple [[/Rooms/Shops]] and a [[/Rooms/Temple]] with a [[/Monsters/Priest]]. It is an excellent place to identify items and buy gear. |
+| **[[/Dungeon/Sokoban]]** | [[/Dungeon/Dungeons of Doom]] (levels 6-10) | A puzzle branch where you must push boulders into pits to advance. Completing it yields a valuable reward (a [[/Items/Bag of holding]] or an [[/Items/Amulet of reflection]]). |
+| **[[/Dungeon/Quest]]** | [[/Dungeon/Dungeons of Doom]] (levels 11-16) | A unique branch tailored to your [[Character Classes]]. You must be at least experience level 14 to enter it. |
+| **[[/Dungeon/Gehennom]]** | [[/Dungeon/Dungeons of Doom]] (levels 25-29) | The late-game hellish branch of the dungeon. Unlike NetHack, GnollHack has removed the tedious mazes from Gehennom, making it much more enjoyable and fast-paced to explore. |
 
-### 👤 NPCs
+### 🔗 Learn More
+
+- [[Dungeon Layout]] — Complete overview of all branches, levels, and structures
+
+### 👤 NPCs and Merchants
 
 You will encounter various specialized NPCs who can identify items or buy your unwanted gear.
 
 | NPC Type | Services Offered |
 |:---|:---|
-| **General Storekeeper** | Buys and sells a wide variety of items. Can identify any item for a fee. |
-| **Specialized Shopkeeper** | E.g., bookstores. They can only identify the types of items they sell. |
-| **Artificer** | A specialized NPC who will gladly buy your expensive (but perhaps useless to your class) spellbooks. |
-| **Geologist** | A specialized NPC who buys gems. Sell them your identified valuable gems for a massive profit. |
-| **Oracle** | Can identify items for a fee, and provides game hints. |
-| **Priest** | Found in temples. They can bless and curse items for a fee, and they sell protection (extrinsic AC) if you donate large sums of money. |
-| **Smith** | Provides many useful services and can identify weapons and armor for a fee. |
+| **General Storekeeper** | Buys and sells a wide variety of items. Can identify any item for a fee in [[/Rooms/Shops]]. |
+| **Specialized Shopkeeper** | E.g., bookstores. They can only identify the types of items they sell in [[/Rooms/Shops]]. |
+| **Artificer** | [[/Rooms/Artificer]] is a specialized NPC who will gladly buy your expensive (but perhaps useless to your class) spellbooks. |
+| **Geologist** | A specialized NPC who buys gems. Sell them your identified valuable gems for a massive profit in the [[/Rooms/Dwarven Geologist]] room. |
+| **Oracle** | Can identify items for a fee and provides game hints in [[/Dungeon/Delphi]]. |
+| **Priest** | Found in [[/Rooms/Temple]]s. They can bless and curse items for a fee, and they sell protection (extrinsic AC) if you donate large sums of money. |
+| **Smith** | Provides many useful services and can identify weapons and armor for a fee in the [[/Rooms/Smithy]]. |
 
 
-## 🤝 Hiring Mercenaries
+## 🤝 Part 2: Companions & Mercenaries
+
+### 🤝 Hiring Mercenaries
 
 You can interact with peaceful monsters (using the Chat `C` command) and **hire them as mercenaries**. You must pay them gold, but having heavily armed soldiers fighting alongside you makes the early and mid-game significantly easier.
 
-## 🐾 Pet Management
+### 🐾 Pet Management
 
 The [[Starting Guide for Beginners]] advises you to rely on your pet, but to survive the mid-game, you need to actively manage and grow them into powerful companions.
 
@@ -43,7 +51,9 @@ The [[Starting Guide for Beginners]] advises you to rely on your pet, but to sur
 - **Gaining Resistances:** Just like you, pets can gain intrinsic resistances (like fire, cold, shock, or poison resistance) by eating the right monster corpses. Strategic feeding can make your pet incredibly resilient.
 - **Calling Them Back:** If your pet wanders off, use the Yell (`Y`) command to call them back to your location.
 
-## ⚠️ Dangerous Early-Game Monsters
+## ⚔️ Part 3: Combat, Dangers & Resistances
+
+### ⚠️ Dangerous Early-Game Monsters
 
 | Monster | Danger | Survival Strategy |
 |:---|:---|:---|
@@ -54,9 +64,13 @@ The [[Starting Guide for Beginners]] advises you to rely on your pet, but to sur
 | **[[/Monsters/Ghoul]]** | Paralyzing attacks. Their melee attacks can paralyze you for several turns. | **Use ranged combat.** Keep your distance and kill them before they can get into melee range. |
 | **[[/Monsters/Nymphs]]** | Item theft. | They will steal your items and teleport away. Kill them with ranged attacks before they get close. |
 
-> 💡 **Tip:** Paralysis is extremely dangerous throughout the entire game, not just in the early levels. It is highly recommended to obtain Free Action (paralysis resistance) as early as possible to avert deaths related to being paralyzed.
+> 💡 **Tip:** Paralysis is extremely dangerous throughout the entire game. Obtain Free Action (paralysis resistance) as early as possible to prevent monsters from hitting you helplessly.
 
-## 🧬 Key Resistances
+### 🔗 Learn More
+
+- [[Monsters]] — Full bestiary and encounter difficulty modifiers
+
+### 🧬 Key Resistances
 
 As you descend deeper, obtaining key resistances is vital for survival.
 
@@ -72,9 +86,13 @@ As you descend deeper, obtaining key resistances is vital for survival.
 - <sup>1</sup> *Intrinsic* is an innate ability that doesn't come from an item.
 - <sup>2</sup> *Extrinsic* is an ability granted by an item.
 
-For a full breakdown of resistances, see [[Resistances and Saving Throws]].
+### 🔗 Learn More
 
-## 💎 Item Quality and Tier Upgrades
+- [[Resistances and Saving Throws]] — Comprehensive calculations, rates, and saving throw rules
+
+## 🛠️ Part 4: Items, Gear & Upgrades
+
+### 💎 Item Quality and Tier Upgrades
 
 Weapons, armor, and wands in GnollHack can possess quality modifiers that drastically improve their performance:
 
@@ -86,11 +104,19 @@ Weapons, armor, and wands in GnollHack can possess quality modifiers that drasti
 
 > ℹ️ **Note:** Other armor pieces (shields, boots, gloves) also receive AC and MC scaling based on their quality.
 
-
 You can visit a **Smith** NPC to repair damaged gear, rustproof items, and upgrade weapon and armor quality for a gold fee. For more details, see [[Exceptional, Elite, Celestial, Primordial, and Infernal Items]].
 
+### 🔗 Learn More
 
-## 🩹 Status Conditions & Curing Strategies
+- [[Items]] — List of all item categories and materials
+- [[Weapons]] — Overview of weapon categories and quality tiers
+- [[Armor]] — Overview of armor categories, slots, and properties
+- [[Exceptional, Elite, Celestial, Primordial, and Infernal Items]] — Full breakdown of quality multipliers and scaling
+- [[Mythic and Legendary Items]] — Guide to randomized weapon and armor affixes
+
+## 🩹 Part 5: Status Conditions & Curing
+
+### 🩹 Status Conditions & Curing Strategies
 
 The deeper dungeon holds many debilitating status conditions. Knowing how to cure them instantly can save your run:
 
@@ -101,4 +127,7 @@ The deeper dungeon holds many debilitating status conditions. Knowing how to cur
 | **Lycanthropy** | Eat a [[/Items/Sprig of wolfsbane]] (requires poison resistance), drink holy water, or pray. |
 | **Intelligence Drain** | **Prevent:** Wear a helmet (blocks 90% of attacks), a [[/Items/Nose ring of cerebral safeguarding]], or a [[/Items/Ring of sustain ability]]. **Restore:** Drink a [[/Items/Potion of restore ability]] or eat a [[/Items/Cloudberry]]. |
 
-For more detailed strategies, read [[How to Cure Various Conditions]].
+### 🔗 Learn More
+
+- [[How to Cure Various Conditions]] — Step-by-step methods to recover from all harmful statuses
+- [[Conditions]] — Complete mechanics and stats for sickness, stoning, blindness, and more
