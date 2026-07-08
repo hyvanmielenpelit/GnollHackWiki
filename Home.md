@@ -57,11 +57,6 @@ GnollHack is best understood as a modernized version of NetHack that makes the c
 - **[[Options]]** — You can configure GnollHack via a NetHack-style Options file
 - **[[Additional Options]]** — Additional options that you can configure via a NetHack-style Options file
 
-## 🖥️ Desktop Features
-
-- **[[Desktop-Only Features]]** — Take a look at the features that appear only on the desktop versions of GnollHack
-- **[[Keyboard Shortcuts]]** — GnollHack supports NetHack-style keyboard shortcuts, which are especially useful when playing with a physical keyboard 
-
 ## 🔗 Online Sharing
 
 - **[[Share Your Progress to Discord Server Channel]]** — Modern clients can share your progress to Discord
@@ -72,6 +67,8 @@ GnollHack is best understood as a modernized version of NetHack that makes the c
 ## 💡 Additional Information
 
 - **[[Features]]** — Main features of GnollHack
+- **[[Desktop-Only Features]]** — Take a look at the features that appear only on the desktop versions of GnollHack
+- **[[Keyboard Shortcuts]]** — GnollHack supports NetHack-style keyboard shortcuts, which are especially useful when playing with a physical keyboard 
 - **[[Troubleshooting]]** — How to solve various technical problems
 - **[[Emulator Support]]** — Learn about which emulators support GnollHack
 - **[[Save Game Compatibility]]** — Check which patches are compatible with each other
