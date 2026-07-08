@@ -86,11 +86,11 @@ GnollHack features a modern, accessible interface compared to traditional NetHac
 | Spell descriptions (`Alt-z`) | New | View details about your spells. |
 | Manage spells (`+`) | New | Open the spell management menu. |
 | Abilities (`A`) | New | View abilities gained from corpses or items. |
-| Character details (`Alt-y`) | New | View detailed stats, including alignment. |
+| Character details (`}`) | New | View detailed stats, including alignment. |
 | Switch handedness (`Alt-h`) | New | Toggle left/right handedness for equipping. |
 | Dig (`Ctrl-g`) | New | Quick command for digging. |
 | Commands menu (`Alt-c`) | New | Open the extended commands menu. |
-| Yell for pets (`Y`) | New | Call your pets to your location. |
+| Yell for pets (`Ctrl-y` / `Alt-y`) | New | Call your pets to your location. |
 
 ## 💪 Character Progression & Magic
 

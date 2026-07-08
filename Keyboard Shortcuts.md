@@ -6,18 +6,18 @@
 | :-: | :------ | :-: | :---------- | :-: | :--------- | :-: | :-------- |
 | a | Apply | *A* | *Abilities (status screen)* | Alt-a | Adjust | Ctrl-a | Repeat |
 | *b* | *Take items out of **b**ag in inventory* | *B* | *Put items into **B**ag in inventory* | Alt-b | *Toggle hitpoint bars* _(legacy GUI only)_ | *Ctrl-b* | *Break* |
-| c | Close door | C | Chat | Alt-c | Commands menu | Ctrl-c |  |
+| c | Close door | C | Chat | Alt-c | Commands menu | Ctrl-c | Call |
 | d | Drop | D | Drop multiple | Alt-d | Dip | Ctrl-d | Kick |
 | e | Eat | E | Engrave | Alt-e | Wipe face | Ctrl-e | Detect _(wizard mode only)_ |
 | f | Fire | F | Fight | Alt-f | Force lock | Ctrl-f | Reveal map _(wizard mode only)_ |
-| g | Go mode — Rush | G | Go mode — Run | Alt-g | Genocided monsters | Ctrl-g | Create monster _(wizard mode only)_ |
+| g | Go mode — Rush | G | Go mode — Run | Alt-g | Genocided monsters | Ctrl-g | *Dig* |
 | h | Help | H |  | Alt-h | Handedness | Ctrl-h |  |
 | i | Inventory | I | Inventory of specific types | Alt-i | Invoke | Ctrl-i | Identify _(wizard mode only)_ |
 | j | Jump | J |  | Alt-j | Jump | Ctrl-j |  |
-| k | Kick | K |  | *Alt-k* | *Vanquished creatures* | Ctrl-k |  |
+| k | Kick _(when Vi-keys are disabled)_ | K |  | *Alt-k* | *Vanquished creatures* | Ctrl-k |  |
 | l | Loot | L | Look | Alt-l | Loot | *Ctrl-l* | *Light/Snuff out* |
 | m | Move mode — Rush | M | Move mode — Run | Alt-m | Genesis _(wizard mode only)_ | Ctrl-m |  |
-| n | Number of actions<sup>1</sup> | N | Name | Alt-n | Name | Ctrl-n | Annotate dungeon level |
+| n | Number of actions<sup>1</sup> | N | Name | Alt-n | Number of actions _(alternate)_ | Ctrl-n | Annotate dungeon level |
 | o | Open door | O | Options | Alt-o | Offer sacrifice | Ctrl-o | Dungeon overview |
 | p | Pay bill | P | Put on | Alt-p | Pray | Ctrl-p | Previous message |
 | q | Drink (quaff) | Q | Quiver | Alt-q | Quit | Ctrl-q |  |
@@ -40,9 +40,16 @@
 
 | Shift + Alt + Key | Shift + Alt + Key Command |
 | :---------------: | :------------------------ |
+| *Alt-A* | *Annotate dungeon level* |
+| *Alt-E* | *Engrave quick (use preset writing)* |
 | *Alt-M* | *Use monster ability* |
+| *Alt-N* | *Name a monster or object class* |
 | *Alt-P* | *Apply Wielded Polearm*<sup>1</sup> |
+| *Alt-R* | *Mount or dismount a saddled steed (Ride)* |
+| *Alt-T* | *Empty a container (Tip)* |
 | *Alt-W* | *Wield a previously wielded weapon* |
+| *Alt-X* | *Apply a pick-axe or cutting tool quick* |
+| *Alt-Y* | *Toggle buff timers (legacy GUI only)* |
 
 - <sup>1</sup> The polearm can also be a swap weapon.
 
@@ -69,6 +76,8 @@
 | ( | List tools |
 | ) | Show weapon |
 | = | Show worn rings |
+| [ | Show worn armor |
+| *}* | *Character details (Describe your character)* |
 
 ## Movement By Arrow Keys
 
@@ -111,6 +120,16 @@ The directions work also without a number pad with regular number keys:
 
 5 in the middle enables the run mode.
 
+## Zoom and View Controls
+
+You can adjust the map zoom level using the following keyboard shortcuts:
+
+| Key Shortcut | Command |
+| :--- | :--- |
+| `Ctrl` + `Plus (+)` or `Alt` + `Plus (+)` | Zoom in |
+| `Ctrl` + `Minus (-)` or `Alt` + `Minus (-)` | Zoom out |
+| `Ctrl` + `Zero (0)` or `Alt` + `Zero (0)` | Reset zoom to normal |
+| `Ctrl` + `Period (.)` or `Alt` + `Period (.)` | Toggle zoom to fit screen (minimap mode) |
 
 ## Vi-Keys
 
@@ -133,14 +152,15 @@ When you have vi-keys enabled, you can use the following keys for movement:
 
 | Normal Key | Command | Alternate Key |
 | :--------: | :------ | :-----------: |
-| b | Take items out of **b**ag in inventory | Alt-F |
-| B | Put items into **B**ag in inventory | Alt-E |
+| b | Take items out of **b**ag in inventory | Alt-G |
+| B | Put items into **B**ag in inventory | Alt-F |
 | Ctrl-b | Break | Alt-B |
 | j | Jump | Alt-j |
 | k | Kick | Ctrl-d |
 | `l` | Loot | Alt-`l` |
 | Ctrl-`l` | Light | Alt-`I` |
 | n | Number of actions | *Automatic*<sup>1</sup>  |
+| N | Name | Alt-N |
 | u | Untrap | Alt-u |
 | y | Take loot out of container on floor (**y**ank) | Alt-D |
 | Y | Put loot into container on floor (**Y**ank) | Alt-C |

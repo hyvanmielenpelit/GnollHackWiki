@@ -42,13 +42,13 @@ If you lack a number pad on your keyboard, you can use the following keys for mo
 * **Abilities**: A
 * **Break item**: Ctrl-b
 * **Commands list**: Alt-c
-* **Dig**: Alt-g (useful in garden rooms for finding roots)
-* **Character statistics**: Alt-y
+* **Dig**: Ctrl-g (useful in garden rooms for finding roots)
+* **Character details**: }
 * **Mix (prepare) spells**: X
 * **Examine item**: Alt-x
 * **Manage spells**: Alt-z
 * **Spell menu**: +
-* **Yell for pets to come:** Ctrl-y
+* **Yell for pets to come**: Ctrl-y / Alt-y
 
 ## Command Behaviours Changed in GnollHack
 

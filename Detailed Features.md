@@ -22,12 +22,12 @@
 * There is a warning prompt, when you try to enter a known trap.
 * Polymorph, polymorph traps, and polymorphing monsters (such as chameleons) always polymorph into in-difficulty forms.
 * Polymorph control has been also nerfed. You cannot polymorph into out-of-difficulty forms.
-* Gold and alignment are not shown on the status bar. You can check your gold by checking your inventory, and you can find your alignment in the new character page (Alt-y).
+* Gold and alignment are not shown on the status bar. You can check your gold by checking your inventory, and you can find your alignment in the character details page (}).
 * Players and monsters regenerate hit points at the rate of `MaxHP/300` per turn. Regeneration doubles that.
 * Players regenerate mana at the rate of `MaxMana/900` per turn. Replenishment doubles that.
 * Players and monsters generally have more hit points and deal more damage than in NetHack.
 * Players and monsters can have higher AC than in NetHack, because Dexterity increases one's AC.
-* Attributes, like strength and dexterity, give out different amount of bonuses than in vanilla NetHack. Check 'Ctrl-y' for exact information.
+* Attributes, like strength and dexterity, give out different amount of bonuses than in vanilla NetHack. Check Abilities (A) for exact information.
 * Exchanging weapons with 'x' has been greatly improved. You can wield a one-handed weapon and a shield in one set and a two-handed weapon in a second set, and it works great.
 * Two-weaponing has been greatly improved. It does not use the second readied set weapon anymore. It is toggled by 'Ctrl-x'.
 * New rune word: Gilthoniel, which prevents monsters from picking up items or looting containers in the square that is protected by it. Gilthoniel does not work in Gehennom.
@@ -147,7 +147,7 @@
 ## Dungeon
 
 * Your starting room has an altar of your god and your stash, which contains 2 to 3 random items.
-* Garden rooms with lots of fruits — And you can dig (Ctrl-d) in them for roots and cut down trees for lumber.
+* Garden rooms with lots of fruits — And you can dig (Ctrl-g) in them for roots and cut down trees for lumber.
 * Library rooms with spell casting monsters.
 * Dragon lairs with dragons – even ancient ones.
 * Two different types of the orc-and-the-pie rooms.
