@@ -1,38 +1,66 @@
-> 👉 **GnollHack brings extensive gameplay updates to the NetHack formula, including a new magic system, additional item slots, and balanced mechanics.**
+> 👉 **GnollHack introduces a wealth of modern gameplay enhancements, balancing classic NetHack mechanics while expanding character progression, combat options, and magic.**
 
-## 🔮 Spellcasting & Magic System
+## 🔮 Magic & Spells
 
-- **A new spell system** — Use Mix spells (`X`) to prepare spells, Cast spell (`Z`) to cast them, and View spell (`Alt-z`) to view their statistics and manage them. Most spells now use material components that need to be mixed in advance. Many spell components belong to a new reagents item class.
-- **Over 200 new spells** — Cast brand new high-level spells such as Wish, Time Stop, Disintegrate, Power Word Kill, and Black Blade of Disaster. See the [[Spells]] page for a complete list.
+GnollHack completely reimagines spellcasting, introducing a system where spells are prepared using material components and reagents before being cast.
 
-## 🎒 Equipment & Items
+- **Spell System** — Spells must be prepared (mixed) using reagents before casting, adding a tactile layer to spell preparation.
+- **Vast Library** — Over 200 spells ranging across 14 levels (including cantrips), from basic utility to catastrophic high-level magic.
 
-- **Improved item and artifact system** — Wield the Sword of Holy Vengeance, wear an orichalcum full plate mail, shoot with a repeating crossbow, and feel the power of Yeenoghu's triple-headed flail or the Wand of Orcus. Or attempt to find the hobbit carrying the One Ring.
-- **Mythic items** — Non-magical weapons and armor can have mythic prefixes and suffixes attached to them, such as Stygian (gives life drain to weapons and death and drain resistance to pieces of armor) or dragon slaying (triple damage to dragons, applicable only to weapons). Legendary items have both a prefix and a suffix.
-- **Exceptional, elite, celestial, primordial, and infernal weapons** — Exceptional weapons deal double base damage, elite weapons deal triple base damage, and celestial, primordial, and infernal weapons deal quadruple base damage. For example, an exceptional two-handed sword deals 4d6 to small creatures and 6d6 to large creatures.
-- **Elemental enchantments** — Weapons can be enchanted to be flaming, freezing, electrified, or death-magical in order to make them more powerful. The enchantment may wear out as the weapon is used in combat.
-- **New wearable item slots** — You can now also wear a robe over your suit of armor underneath your cloak, as well as one pair of bracers and five miscellaneous magic items, but only one of each type. There are over ten different types of miscellaneous magic items, such as ioun stones that orbit around one's head and belts that feature powerful girdles that may imbue the wearer with giant strength. Minotaurs are very keen on the new nose rings!
-- **All item commands accessible from inventory menu** — All item commands are accessible from the inventory by selecting the item. An easy way to learn new item commands, or access ones that are behind difficult or inaccessible (such as meta on some platforms) keyboard shortcuts.
-- **In-game item and monster information** — Gain all information about items by selecting them in the inventory (or using the Examine (`Alt-x`) command). Inspect monster statistics using the wand of probing.
+### 🔗 Learn More
+
+- [[Spells]] — Full spell lists, levels, and statistics
+- [[Spell Casting]] — Detailed spellcasting mechanics, somatic armor penalties, and casting chances
+
+## 🎒 Items & Equipment
+
+The loot and progression system has been heavily expanded with new equipment slots and tiers of item qualities.
+
+- **Item Tiers & Affixes** — Non-magical equipment can gain **Mythic** or **Legendary** affixes, and weapons scale across quality classes.
+- **Expanded Slots** — Wear a Robe over your armor, and equip Bracers plus up to five Miscellaneous magic items.
+
+### 🔗 Learn More
+
+- [[Items]] — Overview of new items and materials
+- [[Artifacts]] — Information on quest artifacts and unique objects
+- [[Mythic and Legendary Items]] — Guide to item prefix and suffix affixes
+- [[Exceptional, Elite, Celestial, Primordial, and Infernal Items]] — Guide to upgraded weapon quality classes
 
 ## ⚔️ Combat & Skills
 
-- **Improved ranged combat** — Launchers, such as bows and slings, add their damage to the fired missile. Also, changing weapons with the Swap weapons (`x`) command does not require a turn, and you can swap a sword and a shield for a bow.
-- **Improved two-weapon fighting** — Use a main-gauche or a spiked shield in your left hand. Or a sword with a pair of spiked silver gauntlets, striking also with your gloved left hand. You can now also dual-wield artifacts.
-- **Improved skill system** — Consolidated some weapon skills and increased the skill cap to Grand Master for most skills. Weapon skills also increase your chance to score a critical hit (causing double damage).
+Combat is faster and more tactical, with consolidated skill groups and streamlined mechanics.
+
+- **Consolidated Skills** — Consolidated NetHack's weapon classes into 14 distinct skill groups, with caps extended to **Grand Master**.
+- **Tactical Combat** — Streamlined ranged combat with launcher damage bonuses, instant weapon sets swapping, and flexible dual-wielding (including shields and artifacts).
+
+### 🔗 Learn More
+
+- [[Skills]] — List of consolidated skills, prestige skills, and level requirements
 
 ## 👹 Monsters & Pets
 
-- **Over a hundred new monsters** — Face new creatures such as the Otyugh and the Dracolich! Fight against improved enemies such as the marilith, a demoness that can now wield 6 different weapons and constrict you to death with her snake-like body.
-- **Encounter system** — The game can generate encounters that have any mix of monsters. The difficulty of the encounter is always kept in balance!
-- **Balanced all monsters** — No more out-of-difficulty encounters such as a group of soldier ants or a winged gargoyle!
-- **Improved messaging** — The game reports damage caused by an attack, monster difficulty levels, item weights, the weight summary of inventory items, encumbrance levels, as well as experience gained from kills.
-- **Improved chat system** — You can now talk to pets and monsters. For example, you can ask peaceful monsters to join your party, angered Mine Town guards to drop the charge for a fee, a priest to heal you, and a shopkeeper to identify your unknown items. Peaceful monsters are also more personal, with many of them having proper names that you can find out if you have a discussion with them.
-- **Pet pathing algorithm** — Pets will now return to you using the in-built travel algorithm. No more stuck pets on the other side of the map.
-- **New status lines** — Supports up to 8 status lines, of which the last 5 show pet hit points and conditions.
-- **New status line items** — Movement speed and score (via `SCORE_ON_BOTL`) now show up on the status lines.
+Dungeon denizens and companions are smarter, more active, and scale naturally with player level.
 
-## 🌟 Game Modes & Progression
+- **Balanced Encounters** — An encounter engine dynamically scales monster groups to stay in parity with the player's level, removing unfair early-game deaths.
+- **Interactive NPC Chat** — Talk to shopkeepers to identify items, priests to cure conditions, or even hire peaceful monsters.
+- **Smart Pets** — Companions use the built-in travel pathing engine to follow you smoothly, and their stats are displayed directly on the status bar.
 
-- **7 Difficulty levels** — Ranging from Standard to Grand Master.
-- **Gnoll as a new race** — Gnolls can smell the freshness of food items and have race-specific starting items. The more evil members of their kin worship the demon lord Yeenoghu as their patron god. Woof! (Note: Gnomes have been removed as a playable race).
+### 🔗 Learn More
+
+- [[Monsters]] — Detailed bestiary of monsters, bosses, and alignment modifiers
+
+## 🌟 Progression & Game Modes
+
+Character development and game customization are tailored to support different playstyles.
+
+- **Extended Level Cap** — Reach up to experience level 50, with a streamlined experience curve.
+- **Playable Gnoll Race** — The titular Gnoll is introduced as a playable race with unique abilities (such as scenting food freshness), replacing Gnomes.
+- **7 Difficulty Levels** — Customize the challenge from standard to Grand Master.
+
+### 🔗 Learn More
+
+- [[Races]] — Playable races and racial traits
+- [[Character Classes]] — Playable roles and starting equipment
+- [[Difficulty Levels]] — Detailed modifiers for difficulty ratings
+
+> ℹ️ **Note:** For a complete list of all minor tweaks, UI changes, and underlying calculations, check out the comprehensive [[Detailed Features]] guide.
