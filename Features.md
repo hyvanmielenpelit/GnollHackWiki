@@ -40,10 +40,12 @@ A vast array of enhancements including:
 - Detailed status lines for pet information
 - Numerous quality-of-life improvements, such as an advanced pet pathing algorithm
 
-## [[Platform Support]]
+## Platform Support (Modern Graphical UI)
 
-- Modern Graphical UI: Available on Android, iOS, macOS, and Windows.
-- ASCII UI only: Available on Linux.
+- Android
+- iOS
+- macOS
+- Windows
 
 ## More Information
 
