@@ -13,8 +13,8 @@ You can use the number pad for movement.
 ### Without Number Pad
 
 If you lack a number pad on your keyboard, you can use the following keys for movement (by default configuration):
-* **West**: Left Arrow (or 6)
-* **East**: Right Arrow (or 4)
+* **West**: Left Arrow (or 4)
+* **East**: Right Arrow (or 6)
 * **North**: Up Arrow (or 8)
 * **South**: Down Arrow (or 2)
 * **Southwest**: 1
@@ -29,26 +29,25 @@ If you lack a number pad on your keyboard, you can use the following keys for mo
  
 ## Command Keys Changed in GnollHack
 
-* **Chat**: C
-* **Name**: N
-* **Explore mode**: Alt-e
-* **Skills/Enhance**: S
-* **Sit**: Ctrl-s
-* **Save**: Alt-s
-* **Take off many**: Alt-t
+* Chat (`C`)
+* Name (`N`)
+* Skills (`S`)
+* Sit (`Ctrl-s`)
+* Save (`Alt-s`)
+* Take off many (`Alt-t`)
 
 ## New Commands in GnollHack
 
-* **Abilities**: A
-* **Break item**: Ctrl-b
-* **Commands list**: Alt-c
-* **Dig**: Ctrl-g (useful in garden rooms for finding roots)
-* **Character details**: }
-* **Mix (prepare) spells**: X
-* **Examine item**: Alt-x
-* **Manage spells**: Alt-z
-* **Spell menu**: +
-* **Yell for pets to come**: Ctrl-y / Alt-y
+* Abilities (`A`)
+* Break (`Ctrl-b`)
+* Commands menu (`Alt-c`)
+* Dig (`Ctrl-g`) (useful in garden rooms for finding roots)
+* Character details (`}`)
+* Mix spells (`X`)
+* Examine (`Alt-x`)
+* View spell (`Alt-z`)
+* Spell menu (`+`)
+* Yell for pets (`Ctrl-y` / `Alt-y`)
 
 ## Command Behaviours Changed in GnollHack
 

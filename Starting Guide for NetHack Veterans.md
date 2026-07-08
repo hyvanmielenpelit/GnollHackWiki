@@ -72,22 +72,22 @@ GnollHack features a modern, accessible interface compared to traditional NetHac
 
 ### ⌨️ Important Command Changes
 
-> ℹ️ **Note:** The Exchange weapons (`x`) command is greatly improved: **it does not cost a turn to use!** Combined with Switch handedness (`Alt-h`), you can control whether you switch both weapon and shield, or only the right-hand weapon.
+> ℹ️ **Note:** The Swap weapons (`x`) command is greatly improved: **it does not cost a turn to use!** Combined with Handedness (`Alt-h`), you can control whether you switch both weapon and shield, or only the right-hand weapon.
 
 | Command | Type | Description |
 | :--- | :--- | :--- |
-| Examine Items (`Alt-x`) | New | Shows detailed stats and effects of an item. |
-| Save Game (`Alt-s`) | Changed | Moved from `S`. |
-| Enhance Skills (`S`) | Changed | Replaces the NetHack save key. |
+| Examine (`Alt-x`) | New | Shows detailed stats and effects of an item. |
+| Save (`Alt-s`) | Changed | Moved from `S`. |
+| Skills (`S`) | Changed | Replaces the NetHack save key. |
 | Take off many (`Alt-t`) | Changed | Replaces the old shortcut. |
-| Two-weapon combat (`Ctrl-x`) | Changed | Toggle dual-wielding. |
-| Chat (`C`) | Changed | Talk to NPCs. Use Name (`N` or `Alt-n`) for naming. |
-| Mix/Prepare spells (`X`) | New | Prepare spells using material components. |
-| Spell descriptions (`Alt-z`) | New | View details about your spells. |
-| Manage spells (`+`) | New | Open the spell management menu. |
+| Dual weapon mode (`Ctrl-x`) | Changed | Toggle dual-wielding. |
+| Chat (`C`) | Changed | Talk to NPCs. Use Name (`N` or `Alt-N`) for naming. |
+| Mix spells (`X`) | New | Prepare spells using material components. |
+| View spell (`Alt-z`) | New | View details about your spells. |
+| Spell menu (`+`) | New | Open the spell management menu. |
 | Abilities (`A`) | New | View abilities gained from corpses or items. |
 | Character details (`}`) | New | View detailed stats, including alignment. |
-| Switch handedness (`Alt-h`) | New | Toggle left/right handedness for equipping. |
+| Handedness (`Alt-h`) | New | Toggle left/right handedness for equipping. |
 | Dig (`Ctrl-g`) | New | Quick command for digging. |
 | Commands menu (`Alt-c`) | New | Open the extended commands menu. |
 | Yell for pets (`Ctrl-y` / `Alt-y`) | New | Call your pets to your location. |
@@ -99,7 +99,7 @@ The way your character grows and casts spells has seen a major overhaul.
 ### 🧬 Attributes and Abilities
 
 - **No Exercise Training:** The attribute training system from NetHack has been removed. You gain abilities and stats by eating corpses (e.g., Ogres grant Constitution, Nymphs grant Charisma and no longer give teleportitis).
-- **Fruit Bonuses:** Some fruits, such as [[bananas|/Items/banana]], grant attribute points. Use Examine Items (`Alt-x`) to check what different fruits do.
+- **Fruit Bonuses:** Some fruits, such as [[bananas|/Items/banana]], grant attribute points. Use Examine (`Alt-x`) to check what different fruits do.
 - **Level Cap and Scaling:** The experience level cap has been increased to 50. It also requires significantly less XP to level up (e.g., reaching level 30 takes only 204,000 XP compared to NetHack's 100 million).
 - **Stat-Driven Combat and AC:** Your Dexterity directly contributes to your Armor Class. Generally, both players and monsters have higher HP, deal more damage, and reach higher AC values than in traditional NetHack.
 - **Immediate Stat Scaling:** Changes in attributes reflect immediately in your Hit Points and Mana Points. Finding a Constitution-boosting item instantly increases your maximum HP.

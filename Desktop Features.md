@@ -16,7 +16,7 @@ The following options are available:
 | :--- | :--- |
 | **Default / By Role** | Executes a default action based on your character class. For details, see [[Character Classes]]. |
 | **Off** | Disables clicks on the configured button. |
-| **Look** | Performs a look command at the target tile (equivalent to Far Look `Alt-Shift-l`). |
+| **Look** | Performs a look command at the target tile (equivalent to Far Look (`/`)). |
 | **Move** | Commands your character to travel or move to the clicked tile. |
 | **Cast** | Casts your configured **Quick Spell** at the target (configurable in the cast menu). |
 | **Fire** | Fires or throws your quivered ranged weapon or projectile at the target (automatically swapping to the correct launcher if autoswapping is enabled and needed). |

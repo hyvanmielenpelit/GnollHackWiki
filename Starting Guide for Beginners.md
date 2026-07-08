@@ -137,26 +137,26 @@ You become hungry over time. You should eat the corpses of monsters you slay (un
 
 ## 🪄 Spell Casting
 
-Spells in GnollHack require a material component. You must first **Mix** the spells (`X`), which gives you a number of castings. Then, you can **Cast** the spells (`Z`).
+Spells in GnollHack require a material component. You must first Mix spells (`X`), which gives you a number of castings. Then, you can Cast spell (`Z`).
 
 Spell success depends on your experience level, the spell's level, your magic school skill, your attributes (Int/Wis/Cha), and the armor you wear (heavy armor penalizes casting).
 
 ### Spell Commands and Their Keyboard Shortcuts
 
-| Key | Action |
-|:---:|---|
-| `X` | Mix (prepare) spells |
-| `Z` | Cast prepared spells |
-| `r` | Read spellbooks |
-| `Alt-z` | Manage spells and check their effects |
-| `S` | Increase skill levels in a spell school |
-| `.` | Target yourself when casting |
+| Key | Action | Use |
+|:---:|---|---|
+| `X` | Mix spells | Prepare spells. |
+| `Z` | Cast spell | Cast prepared spells. |
+| `r` | Read | Read spellbooks. |
+| `Alt-z` | View spell | Manage spells and check their effects. |
+| `S` | Skills | Increase skill levels in magic schools. |
+| `.` | Target yourself | Target yourself when casting. |
 
 Spells range in levels from minor cantrip (c), major cantrip (C), to levels 1–12. You do not forget spells over time. You usually need at least Basic skill in a magic school to cast its spells. Fighter-type classes that have no access to magic schools have little reason to learn spells, except maybe some cantrips.
 
 ## 📈 Skills
 
-You gain **1 skill slot** every time you level up. You can spend them by clicking the Skill icon (`S`). You must first train a skill by successfully hitting with a weapon or casting a spell before you can level it up. **However, magic school skills are an exception:** they have a minimum experience level requirement when they can be increased, meaning you do not necessarily need to train them by casting spells—attaining a certain experience level is enough.
+You gain **1 skill slot** every time you level up. You can spend them by using Skills (`S`) command. You must first train a skill by successfully hitting with a weapon or casting a spell before you can level it up. **However, magic school skills are an exception:** they have a minimum experience level requirement when they can be increased, meaning you do not necessarily need to train them by casting spells—attaining a certain experience level is enough.
 
 There are 6 levels of proficiency for skills: **Unskilled**, **Basic**, **Skilled**, **Expert**, **Master**, and **Grand Master**. Note that not all classes can reach the maximum level in every skill.
 
