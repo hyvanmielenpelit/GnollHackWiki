@@ -1,4 +1,4 @@
-![Desktop only features](/uploads/Desktop-Only%20Features/desktop-only-features.webp)
+![Desktop Features](/uploads/Desktop%20Features/desktop-features-q85.webp)
 
 > 👉 **This page outlines the user interface features, mouse button quick actions, and settings optimized exclusively for the desktop versions of GnollHack.**
 
