@@ -1,3 +1,5 @@
+![Keyboard Shortcuts](/uploads/Keyboard%20Shortcuts/keyboard-shortcuts-q85.webp)
+
 ## Commands Bound to Letters
 
 | Key | Key Command | Shift + Key | Shift + Key Command | Alt + Key | Alt + Key Command | Ctrl + Key | Ctrl + Key Command |
@@ -122,7 +124,7 @@ The directions work also without a number pad with regular number keys:
 You can adjust the map zoom level using the following keyboard shortcuts:
 
 | Key | Alternate Key | Command |
-| :-- | :------------ | :------ |
+| :-: | :-----------: | :------ |
 | *Ctrl* + *`+`* | *Alt* + *`+`* | *Zoom in* |
 | *Ctrl* + *`-`* | *Alt* + *`-`* | *Zoom out* |
 | *Ctrl* + *`0`* | *Alt* + *`0`* | *Reset zoom to normal* |
@@ -175,7 +177,7 @@ When you have vi-keys enabled, you can use the following keys for movement:
 The following keyboard shortcuts are not supported by the modern GnollHack clients and are only available in the legacy Windows version GnollHack:
 
 | Key Shortcut | Command |
-| :--- | :--- |
+| :----------: | :------ |
 | Alt-b | *Toggle hitpoint bars* |
 | Alt-Y | *Toggle buff timers* |
 
