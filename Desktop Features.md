@@ -33,17 +33,17 @@ When set to **Default / By Role**, the game determines the click action dynamica
 | [[/Roles/Knight]] | Polearm | Look |
 | All Other [[Character Classes]] | Fire | Look |
 
-## ⚙️ Desktop-Only Settings
+## ⚙️ Settings Enabled on Desktop by Default
 
-Several gameplay settings are optimized specifically for desktop play. You can customize these in the [[Settings]] screen:
+Several gameplay settings are *optimized specifically for desktop play*. You can customize these in the [[Settings]] screen:
 
-- **Single Commands Page**: Displays all commands in the More Commands launcher on a single, unified page. On mobile devices, these commands are paginated instead.
-- **OK on Double Click**: Allows you to double-click an item in menus to automatically select it and press the OK button.
-- **On Switching Apps**: Controls how the game state is handled when focus is lost. On desktop, this defaults to **Checkpoint** (which creates a background checkpoint without closing open menus or exiting), whereas on mobile it defaults to **Save Game** (saving and returning to the main menu).
-- **Desktop Status Bar**: Formatted specifically for wide desktop monitors. It displays additional game data including:
-  - **Show Score**: Displays your current score directly.
-  - **Show XP**: Displays your current experience points.
-- **Desktop Buttons**: Shows dedicated **Stats** and **Equipment** buttons in the bottom-left and bottom-right corners of the main screen. On mobile, or when this option is disabled, these are accessed by clicking/tapping the top-left and top-right corners of the screen.
+| Setting Name | Default Value | Description |
+| :--- | :--- | :--- |
+| **Single Commands Page** | **On** (Desktop) <br> **Off** (Mobile) | Displays all commands in the More Commands launcher on a single, unified page (on mobile devices, these commands are paginated instead). |
+| **OK on Double Click** | **On** (Desktop) <br> **Off** (Mobile) | Allows double-clicking an item in menus to automatically select it and press the OK button. |
+| **On Switching Apps** | **Checkpoint** (Desktop) <br> **Save Game** (Mobile) | Controls how the game state is handled when the window loses focus. **Checkpoint** creates a background checkpoint without closing open menus or exiting; **Save Game** saves the game and returns to the main menu. |
+| **Desktop Status Bar** | **On** (Desktop) <br> **Off** (Mobile) | Formatted specifically for wide desktop monitors. Displays additional game data and supports settings to show or hide the following directly on the status bar:<br>- **Show Score**: Displays your current score.<br>- **Show XP**: Displays your current experience points. |
+| **Desktop Buttons** | **On** (Desktop) <br> **Off** (Mobile) | Shows dedicated **Stats** and **Equipment** buttons in the bottom-left and bottom-right corners of the main screen. On mobile, or when disabled, these are accessed by clicking/tapping the top-left and top-right corners of the screen. |
 
 ## 🔍 More Commands Search Filter
 
