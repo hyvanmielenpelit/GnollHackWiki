@@ -54,6 +54,10 @@
 - **Status Bar Clean-up** — Gold and alignment are not shown on the status bar. You can check your gold by checking your inventory, and you can find your alignment in the character details page (`}`).
 - **Two-Handed Curses** — You can use containers even when you wield a cursed two-handed weapon.
 
+### 🔗 Learn More
+
+- [[Difficulty Levels]] — Detailed modifiers for difficulty ratings
+
 ## 👤 Player Character
 
 ### 📈 Progression & Stats
@@ -62,6 +66,10 @@
 - **Experience Curve** — The experience curve has been streamlined; it requires only 204,000 experience points to reach level 30, compared to 100,000,000 in NetHack.
 - **Carrying Capacity** — Characters can carry more than in NetHack.
 - **Dynamic Stats Update** — Changes in Constitution immediately reflect in your maximum hit points, while changes in Intelligence and Wisdom immediately reflect in your maximum mana.
+
+### 🔗 Learn More
+
+- [[Experience Level]] — Overview of progression and experience requirements
 
 ## 👹 Monsters
 
@@ -140,8 +148,13 @@
 
 - **HUD Status Lines** — Pet hit points and other statistics are shown on status lines 4-8.
 - **HP Inspection** — You can check your pet's hit points by using `/`.
-- **Hunger Warnings** — Better messaging is displayed when your pet is hungry.
+- **Better Notifications** — Better messaging is displayed when your pet is hungry.
 - **Dungeon Food** — More food is generated for your pets in the dungeon (e.g., grass/carrots in garden rooms for horses).
+
+### 🔗 Learn More
+
+- [[/Items/Manuals/Understanding Pets and Hirelings]] — Guide to managing taming, feeding, and companions
+- [[/Skills/Riding]] — Info on pet riding requirements and skill levels
 
 ## 🏪 Shopkeepers, Priests, and the Oracle
 
@@ -157,6 +170,12 @@
 ### 🔮 The Oracle
 
 - **Oracle Services** — The Oracle can identify items and provide enlightenment.
+
+### 🔗 Learn More
+
+- [[/Monsters/Shopkeeper]] — Overview of shopkeeper behavior, services, and inventory
+- [[/Monsters/Priest]] — Guide to alignment services, blessings, and altar usage
+- [[/Monsters/Oracle]] — Details on consultation and identification fees
 
 ## 📈 Skills
 
