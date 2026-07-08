@@ -12,7 +12,7 @@ The dungeon in GnollHack is not just a single straight line down; it features se
 |:---|:---|:---|
 | **[[/Dungeon/Dungeons of Doom]]** | The starting branch | The main dungeon branch. You start on level 1 and must descend to find the [[/Items/Amulet of Yendor]]. Stick to this path initially. The deeper you go, the harder the monsters become. |
 | **[[/Dungeon/Gnomish Mines]]** | [[/Dungeon/Dungeons of Doom]] (levels 2-4) | A mostly unlit cavernous branch populated primarily by gnomes and dwarves. |
-| **[[/Dungeon/Mine Town]]** | [[/Dungeon/Gnomish Mines]] (levels 5-8) | A guaranteed town level within the Gnomish Mines, featuring multiple [[/Rooms/Shops]] and a [[/Rooms/Temple]] with a [[/Monsters/Priest]]. It is an excellent place to identify items and buy gear. |
+| **[[/Dungeon/Mine Town]]** | [[/Dungeon/Gnomish Mines]] (levels 5-8) | A guaranteed town level within the Gnomish Mines, featuring multiple [[/Rooms/Shops]] and a [[/Rooms/Temple]] with a Priest. It is an excellent place to identify items and buy gear. |
 | **[[/Dungeon/Sokoban]]** | [[/Dungeon/Dungeons of Doom]] (levels 6-10) | A puzzle branch where you must push boulders into pits to advance. Completing it yields a valuable reward (a [[/Items/Bag of holding]] or an [[/Items/Amulet of reflection]]). |
 | **[[/Dungeon/Quest]]** | [[/Dungeon/Dungeons of Doom]] (levels 11-16) | A unique branch tailored to your [[Character Classes]]. You must be at least experience level 14 to enter it. |
 | **[[/Dungeon/Gehennom]]** | [[/Dungeon/Dungeons of Doom]] (levels 25-29) | The late-game hellish branch of the dungeon. Unlike NetHack, GnollHack has removed the tedious mazes from Gehennom, making it much more enjoyable and fast-paced to explore. |
