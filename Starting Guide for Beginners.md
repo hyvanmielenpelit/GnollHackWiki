@@ -122,8 +122,8 @@ Items in GnollHack can be *blessed*, *uncursed*, or *cursed*. If you wield a cur
 - 🐕 **Pet Testing:** Drop an item on the ground. Pets will not step over cursed items, and if they do, the game will state they do it "reluctantly".
 - ⛪ **Altars:** Dropping items on an altar will immediately identify their blessed/uncursed/cursed status. A black flash means cursed, no flash means uncursed, and an amber flash means blessed.
 - 📜 **Scrolls & Wands:** You can read a [[/Items/scroll of identify]] or zap a [[/Items/wand of identify]] to identify one or more items.
-- 🏪 **Shops:** [[/Monsters/Shopkeeper|Shopkeepers]] will identify items for a fee. Experienced players can also guess an item's identity based on its shop price.
-- 🏛️ **Oracle:** The [[/Monsters/Oracle]] will identify items for a fee.
+- 🏪 **Shops:** Shopkeeper will identify items for a fee. Experienced players can also guess an item's identity based on its shop price.
+- 🏛️ **Oracle:** The Oracle will identify items for a fee.
 - 🪨 **Touchstones:** You can apply an _uncursed or blessed [[/Items/touchstone]]_ on a gem to identify it.
 
 ### 🔗 Learn More
