@@ -149,4 +149,4 @@ When polymorphed into a [[/Monsters/Tentacled one]] or [[/Monsters/Elder tentacl
 - **Curing Petrification:** Eating the corpse of a [[/Monsters/Lizard]] or an acidic monster (such as an [[/Monsters/Acid blob]]) immediately cures the petrification process, saving you from a stoning death.
 - **Vegetarian and Vegan Conducts:** [[/Roles/Monk]]s or players observing strict diets face severe penalties for eating meat or animal by-products. Review the [[/Roles/Monk]] page for more details on conduct restrictions.
 - **Transformation:** Eating a [[/Monsters/Green slime]] corpse or a glob of green slime will eventually turn you into a slime yourself, which is fatal unless cured.
-- **Old Corpses:** Corpses left for more than 50 turns become tainted. Eating them causes food poisoning (unless you are a [[/Roles/Caveman]], an [[/Races/Orc]], or possess sickness resistance).
+- **Old Corpses:** Corpses left for too long become tainted and cause food poisoning when eaten (unless you are a [[/Roles/Caveman]], an [[/Races/Orc]], or possess sickness resistance). An uncursed corpse becomes tainted after **210 turns** (cursed after **140 turns**, blessed after **280 turns**).
