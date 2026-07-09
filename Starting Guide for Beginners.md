@@ -94,11 +94,6 @@ You can find some of the available commands in the bottom command row. There's a
 
 > 💡 **Tip:** You can control the number of available commands through the **Simple Command Layout** option in the settings. If you disable it, you will get more commands than in the simple mode.
 
-### 🔗 Learn More
-
-- [[Keyboard Shortcuts]] — Extensive guide to mobile and desktop controls and shortcuts
-- [[Keyboard Command Changes from NetHack]] — Key changes in commands from NetHack
-
 ## ⚔️ Part 4: Combat & Mechanics
 
 ### 🛡️ Armor Class and Magic Cancellation
@@ -158,10 +153,6 @@ You can throw items to 8 basic directions. The throwing distance is listed in th
 ### 🔗 Learn More
 
 - [[Weapons]] — Overview of weapon categories and quality tiers
-- [[Melee Weapons]] — List of melee weapons, damage stats, and hands required
-- [[Ranged Weapons]] — Bows, crossbows, slings, and launcher mechanics
-- [[Thrown Weapons]] — Shurikens, daggers, spears, and throwing ranges
-- [[Ammunition]] — Arrows, bolts, sling stones, and breaking chances
 
 ### 🍗 Eating & Nutrition
 
@@ -182,12 +173,6 @@ You become hungry over time. You should eat the corpses of monsters you slay (un
 > ⚠️ **Warning:** Do not eat when you are overly satisfied. You might choke and die!
 > 
 > ℹ️ **Note:** Some monsters are poisonous. You need poison resistance to eat them (e.g., [[kobolds|/Monsters/Kobold]]).
-
-### 🔗 Learn More
-
-- [[/Items/Food ration]] — Nutritional values and effects of survival food
-- [[/Items/Panther cap]] — Hallucinogenic and telepathic mushrooms
-- [[/Monsters/Lizard]] — Why lizard corpses are vital for surviving petrification
 
 ## 🔮 Part 5: Magic, Skills & Religion
 
@@ -212,7 +197,6 @@ Spells range in levels from minor cantrip (c), major cantrip (C), to levels 1–
 
 ### 🔗 Learn More
 
-- [[Spells]] — Full spell lists, levels, and statistics
 - [[Spell Casting]] — Detailed spellcasting mechanics, somatic armor penalties, and casting chances
 
 ### 📈 Skills
@@ -282,7 +266,6 @@ Altars are extremely useful and can belong to any alignment. There is always an 
 
 - [[Praying]] — Divine assistance, luck mechanics, and safety guidelines
 - [[Sacrifice Gifts]] — Artifact weapons granted by gods for offerings
-- [[Same-Race Sacrifice]] — Risks and rewards of sacrificing your own kind
 
 ## 📚 Further Reading
 
