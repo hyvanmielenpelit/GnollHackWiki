@@ -30,7 +30,7 @@ description: Instructions for building the ASCII Linux client on Ubuntu/WSL and 
 ### 1. VS Code Setup
 
 - Install Visual Studio Code on Windows.
-- Install the **Remote - WSL** extension and the **C/C++** extension.
+- Install the **WSL** extension and the **C/C++** extension.
 - In WSL, run `code` to install the VS Code server.
 
 ### 2. WSL Root Configuration

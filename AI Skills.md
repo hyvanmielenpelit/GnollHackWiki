@@ -26,7 +26,7 @@ Each skill must be placed in a subdirectory under `.agents/skills/` named after 
 | `build_linux_client` | [[/AI/Build Linux Client]] | `.agents/skills/build_linux_client/SKILL.md` |
 | `asset_and_tileset_compilation` | [[/AI/Asset and Tileset Compilation]] | `.agents/skills/asset_and_tileset_compilation/SKILL.md` |
 
-## 🤖 Automated Copy Prompt for Gemini 3.5 Flash
+## 🤖 Automated Copy Prompt for AI Agents
 
 To automate the copying and synchronization of the AI skills from the `GnollHackWiki` repository to the `GnollHack` repository, you can run the following prompt in your Antigravity 2.0 standalone app:
 

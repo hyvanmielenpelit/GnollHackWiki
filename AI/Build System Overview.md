@@ -9,7 +9,7 @@ description: Overview of the multi-layered GnollHack build pipeline (C core, C# 
 
 The GnollHack build system is structured into several layers:
 - **C Core Engine:** The original NetHack game engine, modified and extended for GnollHack. It builds native libraries (`gnollhackwin.dll` for Windows, `libgnollhackdroid.so` for Android, `libgnollhackios.a` for iOS).
-- **C# Wrapper (GnollHackX):** A shared C# project that uses P/Invoke to interface with the native C libraries. This layer also contains legacy Xamarin.Forms UI elements.
+- **C# Wrapper (GnollHackX / GnollHackX.Common):** The bridge that interfaces with the native C libraries via P/Invoke (defined in `GnollHackX.Common`), and the shared C# project containing UI/logic. This layer also contains legacy Xamarin.Forms UI elements.
 - **.NET MAUI Client (GnollHackM):** The modern presentation layer targeting Android, iOS, and Windows. It consumes the C# wrapper and native libraries to present the game.
 
 ## 🛠️ Build Process Overview
@@ -26,5 +26,5 @@ The GnollHack build system is structured into several layers:
 
 ## ⚠️ Important Constraints
 
-- **Do Not Edit XAML in GnollHackM:** XAML files and shared C# logic are automatically translated and copied from the legacy `GnollHackX` project to `GnollHackM` during the build process. Always make UI changes in `GnollHackX`.
+- **Do Not Edit XAML in GnollHackM:** XAML files are automatically copied from the legacy `GnollHackX` project to `GnollHackM` by MSBuild tasks in `win\win32\vs\makedefsdroid.vcxproj` during the build process, and shared C# logic is file-linked. Always make UI changes in `GnollHackX` to prevent edits from being overwritten.
 - **Solution Configurations:** Ensure you match the configurations (Debug/Release) between the native `GnollHack.sln` and the MAUI `GnollHackM.sln`. If you change one, you must rebuild the other to match.

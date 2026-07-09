@@ -26,7 +26,7 @@ description: Instructions for setting up WSL, configuring SSH/localhost connecti
 
 - Ensure the .NET MAUI workloads are installed.
 - Set up Android SDKs via Visual Studio.
-- Verify that tile sets, FMOD sound banks, and the secrets file are present in the repository.
+- Verify that tile sets, FMOD sound banks, and the secrets file (`Assets\ghsecrets.sjson` — a JSON file containing API keys and configuration secrets that must be copied separately by the programmer) are present in the repository.
 
 ## 📱 Building the Native Android Library
 
@@ -34,7 +34,7 @@ description: Instructions for setting up WSL, configuring SSH/localhost connecti
 2. Select the **Android+Windows** (or similar cross-platform) solution platform.
 3. Rebuild the solution. 
    - Visual Studio uses the SSH connection to WSL to compile the C core into `libgnollhackdroid.so`.
-   - MSBuild targets (`afterdroidutils.proj`, `aftergnollhackdroid.proj`) will automatically copy the generated `.so` library, `nhdat`, and other assets from the WSL output (`C:\wsl-out\`) to the appropriate locations in `win\win32\xpl\GnollHackM\Platforms\Android\`.
+   - MSBuild targets (`afterdroidutils.proj`, `aftergnollhackdroid.proj`) will automatically copy the generated `.so` library, `nhdat`, and other assets from the WSL output (`C:\wsl-out\`) to the appropriate subdirectories in `win\win32\xpl\GnollHackM\Platforms\Android\` (specifically under `libs\` and `gnh\`).
 
 ## 🚀 Building the MAUI Android Client
 

@@ -12,7 +12,7 @@ Whenever you add new monsters, objects, or terrain that require graphical repres
 ### 1. Generate `tile_definition.csv`
 
 1. Open `win\win32\vs\GnollHack.sln` in Visual Studio.
-2. Ensure you have temporary or existing tilesets (`gnollhack_64x96_transparent_32bits.png` and `-2.png`) placed in `win\win32\tileset`.
+2. Ensure you have temporary or existing tilesets (`gnollhack_64x96_transparent_32bits.png`, `-2.png`, and `-3.png`) placed in `win\win32\tileset`.
 3. Set the **GnollHackW** project's debugging properties: Working Directory to `$(BinDir)`, Command Arguments to `-D -u wizard`.
 4. Run GnollHackW in debug mode.
 5. In the game, type the extended command `#wizsavetiledata`.
@@ -22,7 +22,7 @@ Whenever you add new monsters, objects, or terrain that require graphical repres
 
 1. Copy the generated `tile_definition.csv` to the root of the **GnollHackTileSet** repository.
 2. Open the **GnollHackTileSet** solution and run the **TileSetCompiler** project.
-3. The compiler will generate updated `gnollhack_64x96_transparent_32bits.png` and `gnollhack_64x96_transparent_32bits-2.png` files in the repository root.
+3. The compiler will generate updated `gnollhack_64x96_transparent_32bits.png`, `gnollhack_64x96_transparent_32bits-2.png`, and `gnollhack_64x96_transparent_32bits-3.png` files in the repository root.
 
 ### 3. Deploy the Tileset
 

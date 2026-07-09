@@ -11,7 +11,7 @@ description: Step-by-step instructions for configuring and compiling the .NET MA
 
 - Visual Studio with .NET MAUI workloads installed.
 - Ensure tile sets and FMOD sound banks are installed in the repository.
-- Ensure the secrets file is installed.
+- Ensure the secrets file (`Assets\ghsecrets.sjson`) is installed (this JSON file contains API keys and configuration secrets, is not part of the repository, and must be copied there separately by the programmer).
 
 ### Build Steps
 
