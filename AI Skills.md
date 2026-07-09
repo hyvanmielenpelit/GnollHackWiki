@@ -28,3 +28,8 @@ Each skill must be placed in a subdirectory under `.agents/skills/` named after 
 | `asset_and_tileset_compilation` | [[/AI/Asset and Tileset Compilation]] | `.agents/skills/asset_and_tileset_compilation/SKILL.md` |
 | `compile_custom_skiasharp` | [[/AI/Compile Custom SkiaSharp]] | `.agents/skills/compile_custom_skiasharp/SKILL.md` |
 
+## 🤖 Automated Copy Prompt for Gemini 3.5 Flash
+
+To automate the copying and synchronization of the AI skills from the `GnollHackWiki` repository to the `GnollHack` repository, you can run the following prompt in your Antigravity 2.0 standalone app:
+
+> Please read `AI Skills.md` in the GnollHackWiki repository to find the mapping table of AI skills. For each skill listed in the table, copy the contents of its source wiki page under `GnollHackWiki/AI/` and write them to the corresponding target repository path in the GnollHack repository with the filename `SKILL.md`. Ensure that the target subdirectories (e.g., `.agents/skills/<skill_name>/`) are created if they do not exist. Only perform the writes/copies if there are changes or if the files do not exist yet. Please summarize your actions once completed.
