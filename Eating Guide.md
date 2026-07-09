@@ -7,7 +7,7 @@
 Characters in GnollHack have a nutrition level that dictates their current hunger state. Maintaining a well-fed status is crucial, as hunger states directly impact [[attribute scores]], speed, and overall survival.
 
 | Hunger State | Nutrition Range | Strength Penalty | Status Effects & Hazards |
-| :--- | :--- | :--- | :--- |
+| :----------- | :-------------: | :--------------: | :----------------------- |
 | **SATIATED** | > 1000 | None | High choking risk if eating food with > 50 nutrition. |
 | **NOT HUNGRY** | 151 – 1000 | None | The optimal baseline state. |
 | **HUNGRY** | 51 – 150 | None | Character begins to feel hungry. Stops travel and non-eating occupations. |
@@ -27,7 +27,7 @@ Eating while in the **SATIATED** state can be fatal. If your nutrition level ris
 GnollHack features traditional food items as well as new fruits and mushrooms. Unlike standard NetHack, some standard fruits now grant permanent attribute increases when eaten.
 
 | Food Item | Nutrition | Special Effect when Eaten | Notes |
-| :--- | :--- | :--- | :--- |
+| :-------- | :-------: | :------------------------ | :---- |
 | **[[/Items/Food ration]]** | 800 | None | Standard, highly nutritious travel ration. |
 | **[[/Items/K-ration]]** | 525 | None | High-density army ration. |
 | **[[/Items/C-ration]]** | 450 | None | Standard canned army ration. |
@@ -71,7 +71,7 @@ Eating certain monster corpses offers a chance to permanently increase attribute
 When you fully consume a corpse, the game rolls a conveyance check. If multiple attributes or intrinsics succeed, one is chosen at random to be granted.
 
 | Conveyed Gain | Conveying Monsters | Conveyance Chance | Notes |
-| :--- | :--- | :--- | :--- |
+| :------------ | :----------------- | :---------------: | :---- |
 | **[[Strength]]** | All [[/Monsters/Giant]] corpses (Fire, Frost, Hill, Stone, Storm, etc.) | **50%** | Giants also convey element-specific resistances (cold, fire, shock). |
 | **[[Dexterity]]** | [[/Monsters/Monkey]], all [[/Monsters/Snake]] corpses (except Pythons) | **20%** (Monkey)<br>**10%** (Snakes) | Python corpses convey Dexterity but have a different class chance. |
 | **[[Constitution]]** | All [[/Monsters/Ogre]] corpses (Ogre, Ogre Lord, Ogre King, etc.) | **25%** | Ogres are tough, fleshy humanoids. |
@@ -124,7 +124,7 @@ Taking a bite of rotten or cursed food prints the message *"Blecch! Rotten [food
 2. **Status Ailment Roll:** The game checks for status ailments in a sequential sequence (if one triggers, the rest are skipped):
 
 | Status Ailment | Chance (Normal Vision) | Chance (If Already Blind) | Duration | Description / Details |
-| :--- | :--- | :--- | :--- | :--- |
+| :------------- | :--------------------: | :-----------------------: | :------: | :-------------------- |
 | **Confusion** | **25%** | **25%** | 2d4 turns | Prints a light-headed message and confuses the character. |
 | **Blindness** | **18.75%** | **0%** | 2d10 turns | Only checked if you did not become confused. |
 | **Unconsciousness** | **18.75%** | **25%** | 1 to 10 turns | Only checked if you did not become confused or blinded. You pass out/faint. |
