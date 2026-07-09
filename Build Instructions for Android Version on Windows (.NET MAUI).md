@@ -9,8 +9,9 @@ You need the following devices to follow these instructions:
 ### Software Installation
 
 1. Install the latest Visual Studio version with up-to-date support for .NET MAUI.
-2. Follow the instructions to build Xamarin.Forms version of the game using [[Build Instructions for Android Version on Windows]].
-3. Rebuild the Xamarin.Forms app. This will create various files for the .NET MAUI app based on Xamarin.Forms files.
+2. Open the native solution `win\win32\vs\GnollHack.sln`.
+3. Select the **Android+Windows** platform configuration and rebuild the solution. This compiles the native C core game engine into the Android library (`libgnollhackdroid.so`) and automatically runs `makedefsdroid` to translate the shared XAML UI files from `GnollHackX` to `GnollHackM` formats.
+
 
 ### Android Device Preparation
 

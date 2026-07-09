@@ -12,9 +12,9 @@
 ### 1.3 Get Temporary Tilesets
 
 - You may download some necessary tilesets for compiling GnollHackW from https://github.com/hyvanmielenpelit/GnollHackTileSet/releases
-- They are named `gnollhack_64x96_transparent_32bits.png` and `gnollhack_64x96_transparent_32bits-2.png`.
+- They are named `gnollhack_64x96_transparent_32bits.png`, `gnollhack_64x96_transparent_32bits-2.png`, and `gnollhack_64x96_transparent_32bits-3.png`.
 - The game will be messed up, but don't worry about it.
-- They need to be placed to `win\win32\tileset`.
+- They need to be placed in `win\win32\tileset`.
 
 ### 1.4 Rebuild GnollHack Solution
 
@@ -39,11 +39,11 @@
 ### 2.2 Run TilesetCompiler
 
 - Run TileSetCompiler using the right Launch Configuration (it needs to point to the GnollHackTileSet repository location).
-- This will create `gnollhack_64x96_transparent_32bits.png` and `gnollhack_64x96_transparent_32bits-2.png` to the root of the GnollHackTileSet repository.
+- This will create `gnollhack_64x96_transparent_32bits.png`, `gnollhack_64x96_transparent_32bits-2.png`, and `gnollhack_64x96_transparent_32bits-3.png` in the root of the GnollHackTileSet repository.
 
 ### 2.3 Copy Tileset Files to GnollHack repository
 
-- Copy `gnollhack_64x96_transparent_32bits.png` and `gnollhack_64x96_transparent_32bits-2.png` from the root of the GnollHackTileSet repository to `win\win32\tileset` in the GnollHack solution repository.
+- Copy `gnollhack_64x96_transparent_32bits.png`, `gnollhack_64x96_transparent_32bits-2.png`, and `gnollhack_64x96_transparent_32bits-3.png` from the root of the GnollHackTileSet repository to `win\win32\tileset` in the GnollHack solution repository.
 
 ## 3. Rebuild GnollHack Solution
 

@@ -7,10 +7,11 @@ You need the following devices to follow these instructions:
 2. **Mac computer** — macOS 26 (Tahoe) or later, M1 processor or better, 16 GB or more RAM, 512 GB or more SSD space.
 3. **iPhone or iPad** — iOS 26.5 or later, 3 GB or more RAM, 4 GB or more free storage space.
 
-### Build Xamarin.Forms Version (GnollHackX) for iOS
+### Build Native Library and Assets (GnollHack.sln)
 
-1. Follow the instructions to build Xamarin.Forms version (GnollHackX) of the game using [[Build Instructions for iOS Version on Windows]].
-2. Rebuild the Xamarin.Forms app. This will create various files for the .NET MAUI app based on Xamarin.Forms files.
+1. Connect to your Mac build host using the **Pair to Mac** wizard in Visual Studio.
+2. Open the native solution `win\win32\vs\GnollHack.sln`.
+3. Rebuild the solution. Visual Studio will delegate compilation of the C core to the paired Mac, producing the static library `libgnollhackios.a` and running the XAML translation.
 
 ### Software Installation for .NET MAUI
 
@@ -18,9 +19,7 @@ You need the following devices to follow these instructions:
 2. On Mac, install [Xcode](https://apps.apple.com/us/app/xcode/id497799835) 26.5 (or whatever is the newest supported by .NET MAUI) from App Store or from [xcodereleases.com](https://xcodereleases.com/).
     - You can do this just by drag-and-dropping the downloaded Xcode from Downloads or where it is unpacked to Applications folder
 
-### Verify that Tile Sets, Sound Banks, and the Secrets File Have Been Installed for GnollHackM
-
-When building Xamarin iOS version of GnollHack (GnollHackX), the build process should have already copied the tile sets and sound banks to the right GnollHackM directories (see [[Install Tile Sets and FMOD Sound Banks]]). Also, in [[Install Secrets File]], the secrets file should already have been copied to the GnollHackM directory.
+When building the native iOS library from the GnollHack solution, the build process copies the tile sets and sound banks to the appropriate `GnollHackM` directories (see [[Install Tile Sets and FMOD Sound Banks]]). Also, you must copy the secrets file separately (see [[Install Secrets File]]).
 
 ### Provisioning
 

@@ -14,12 +14,12 @@ You need the following devices to follow these instructions:
 
 1. [[Install Tile Sets and FMOD Sound Banks]].
 2. [[Install Secrets File]].
-3. (You probably do not need to build Android or iOS Xamarin.Forms apps. They will create various files for the .NET MAUI app based on Xamarin.Forms files, but most likely you won't need these files for .NET MAUI Windows version.)
-4. Locate `GnollHack.sln` in `win\win32\vs` directory and open it — [[Open GnollHack Solution in Visual Studio]].
-5. Choose the **x64** solution platform in the menu bar.
+3. (Note: You do not need to build the legacy Xamarin.Forms app projects, but you do need the converted XAML UI files. If you are starting fresh or editing XAML files, build the native solution using the **Android+Windows** configuration first to run the XAML translation.)
+4. Locate `GnollHack.sln` in the `win\win32\vs` directory and open it — [[Open GnollHack Solution in Visual Studio]].
+5. Choose the **x64** solution platform in the menu bar. (Or **Android+Windows** if you need to run the XAML translation.)
 6. Select **Debug** as your solution configuration. You can also use **Release**, when you plan to build a release build.
-7. Rebuild GnollHack solution.
-    - This will create NetHack game data file called `nhdat` in Windows format and copy it together with `credit`, `defaults.gnh`, `license`, `symbols`, `sysconf`,  and `xcredits `to `win\win32\xpl\GnollHackM\Platforms\Windows\gnh`.
+7. Rebuild the GnollHack solution.
+    - This will compile the native C library (`gnollhackwin.dll`), create the NetHack game data file called `nhdat` in Windows format, and copy them together with `credit`, `defaults.gnh`, `license`, `symbols`, `sysconf`, and `xcredits` to `win\win32\xpl\GnollHackM\Platforms\Windows\gnh`.
     - (It will also build ASCII and GUI versions of GnollHack. You may want to check out [[Build Instructions for ASCII Version on Windows]] and [[Build Instructions for Windows GUI Version on Windows]] for reference.)
 8. Locate `GnollHackM.sln` in `win\win32\xpl\GnollHackM` directory and open it in Visual Studio.
 9. Rebuild the GnollHackM solution.

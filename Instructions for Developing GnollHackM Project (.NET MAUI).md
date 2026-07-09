@@ -5,9 +5,10 @@ Because how the things are set up, there are some limitations on how you can dev
 - XAML files are copied from the **GnollHackX (Xamarin.Forms)** project, so you need to edit them there.
 - If you edit them in the **GnollHackM (.NET MAUI)** project, your changes will be overwritten.
 
-## 2. Write C# that is Compliant with .NET Core 3.1 (Xamarin.Forms)
+## 2. Write C# that is Compliant with .NET Standard 2.0 (Xamarin.Forms)
 
-- Because .cs files are shared between **GnollHackX (Xamarin.Forms)** and **GnollHackM (.NET MAUI)**, you need to write C# that is compliant with **GnollHackX (Xamarin.Forms)**, that is, with .NET Core 3.1.
+- Because .cs files are shared between **GnollHackX (Xamarin.Forms)** and **GnollHackM (.NET MAUI)**, you need to write C# that is compliant with **GnollHackX (Xamarin.Forms)**, that is, with .NET Standard 2.0.
+
 
 ## Future
 

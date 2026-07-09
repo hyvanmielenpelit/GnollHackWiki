@@ -74,7 +74,7 @@ In the GnollHackM project, update `Platforms\Windows\Package.appxmanifest`:
     - If it is not empty, delete the files in `tools\ContentBuilder\content_playtest_old` and move the files then there.
 2. Now `tools\ContentBuilder\content_playtest` directory should be empty. 
 3. **Copy** the built files there.
-4. Compare `content_playtest` and `content_old` with **WinMerge** and check that everything is ok.
+4. Compare `content_playtest` and `content_playtest_old` with **WinMerge** and check that everything is ok.
     - Click File → Open and continue from there to select the directories.
     - Ensure especially that all icons and fonts are included.
 5. Ensure that `output_playtest` folder exists. If not, create it.

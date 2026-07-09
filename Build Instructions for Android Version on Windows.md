@@ -127,4 +127,5 @@ The package is now signed and ready to be uploaded to Google Play Store.
 
 ## Uploading to Google Play Store
 
-When you publish a new version of the game to Google Play Store, you need to increase **android:versionCode** in the **[Android manifest](https://github.com/hyvanmielenpelit/GnollHack/blob/master/win/win32/winclisrv/GnollHackClient/GnollHackClient.Android/Properties/AndroidManifest.xml)** by 1.
+When you publish a new version of the game to Google Play Store, you need to increase **android:versionCode** in the **[Android manifest](https://github.com/hyvanmielenpelit/GnollHack/blob/master/win/win32/xpl/GnollHackX/GnollHackX.Android/Properties/AndroidManifest.xml)** by 1.
+

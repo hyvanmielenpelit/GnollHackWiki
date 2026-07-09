@@ -30,7 +30,8 @@ For iOS:
 
 In the Developer PowerShell, type:
 
-`dotnet build .\GnollHackM.sln -f:net10.0-windows10.0.19041.0 -c:Debug --no-incremental`
+`dotnet build .\GnollHackM.sln -c:Debug --no-incremental`
+
 
 ### Parameter Descriptions
 

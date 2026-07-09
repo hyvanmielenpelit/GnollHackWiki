@@ -2,21 +2,23 @@
 
 You build the .NET MAUI version of GnollHack with a two-step process. This is because we are keeping the Xamarin.Forms version of GnollHack for compatibility reasons and we are sharing code between both architectures. This allows us to maintain both Xamarin.Forms and .NET MAUI versions of GnollHack at the same time.
 
-## 1. Build GnollHackX
+## 1. Build Native Libraries and Core Assets (GnollHack.sln)
 
-GnollHackX is the Xamarin.Forms version of GnollHack.
+Building the native solution compiles the C core game engine and prepares the translated UI files.
 
 ### Prerequisites
 
-Check [[appropriate build instructions|Development Information]] for prerequisites of building GnollHackX.
+Check [[appropriate build instructions|Development Information]] for prerequisites.
 
 ### Building
 
 1. Start **Visual Studio Community 2026**.
-2. Open `GnollHack.sln` that is located in the `win\win32\vs` directory.
-3. Build `GnollHackX`, which is the Xamarin.Forms version of GnollHack, using [[appropriate build instructions|Development Information]]. 
+2. Open `GnollHack.sln` located in the `win\win32\vs` directory.
+3. Select the **Android+Windows** configuration (or another configuration that matches your target platform).
+4. Rebuild the solution. 
 
-This builds the necessary native libraries required by the .NET MAUI versions of the game. You need to repeat this step whenever you change code in the native libraries.
+This builds the necessary native libraries (e.g., `gnollhackwin.dll` for Windows, `libgnollhackdroid.so` for Android, etc.) and copies them along with the core assets to the respective platform folders of the `GnollHackM` project. This also runs `makedefsdroid`, which converts the shared XAML files from `GnollHackX` to `GnollHackM` format. You must repeat this step whenever you change code in the native C core or modify XAML files in the `GnollHackX` folder.
+
 
 ## 2. Build GnollHackM
 

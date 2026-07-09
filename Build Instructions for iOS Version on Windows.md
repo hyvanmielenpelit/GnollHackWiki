@@ -166,7 +166,7 @@ Include `UNITY_IPHONE` preprocessor definition in both Debug and Release configu
  
 ![build-ios-windows-3](/uploads/Build%20Instructions%20for%20iOS%20Version%20on%20Windows/build-ios-windows-3.webp)
 
-Also, you should add the following lines to [fmod.cs](https://github.com/hyvanmielenpelit/GnollHack/blob/5d64ddb653363bf4e08380f3e6e2cb712e1211c7/win/win32/xam/GnollHackX/GnollHackX.FMOD/fmod.cs#L23) and [fmod_studio.cs](https://github.com/hyvanmielenpelit/GnollHack/blob/5d64ddb653363bf4e08380f3e6e2cb712e1211c7/win/win32/xam/GnollHackX/GnollHackX.FMOD/fmod_studio.cs#L18), if they are not there:
+Also, you should add the following lines to [fmod.cs](https://github.com/hyvanmielenpelit/GnollHack/blob/master/win/win32/xpl/GnollHackX/GnollHackX.FMOD/fmod.cs#L23) and [fmod_studio.cs](https://github.com/hyvanmielenpelit/GnollHack/blob/master/win/win32/xpl/GnollHackX/GnollHackX.FMOD/fmod_studio.cs#L18), if they are not there:
 
 ```
 #if (UNITY_IPHONE || UNITY_TVOS || UNITY_SWITCH || UNITY_WEBGL) && !UNITY_EDITOR
@@ -182,7 +182,7 @@ Otherwise, the iOS version does not work. It comes where this line is:
         public const string dll     = "fmodstudio";
 ```
 
-The two files that need to be changed are in this folder: `win/win32/xam/GnollHackX/GnollHackX.FMOD`
+The two files that need to be changed are in this folder: `win/win32/xpl/GnollHackX/GnollHackX.FMOD`
 
 #### 3.1.2. Other Libraries
 
