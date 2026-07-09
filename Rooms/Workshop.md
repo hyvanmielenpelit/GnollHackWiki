@@ -2,12 +2,12 @@
 
 ## ℹ️ Description
 
-A **Workshop** is a GnollHack-specific NPC room. It serves as the workspace for a peaceful [[/Monsters/Dwarven geologist]] NPC who specializes in mineralogy. The room is always lit and has parquet-style floors.
+A **Workshop** is a GnollHack-specific NPC room. It serves as the workspace for a peaceful **[[/Monsters/Dwarven geologist]]** NPC who specializes in mineralogy.
 
 ## 🗺️ Generation
 
 Workshops can generate:
-- **Randomly:** As a random subtype of the generic NPC room in the Dungeons of Doom starting from dungeon level 6.
+- **Randomly:** As a random subtype of the generic NPC room in the [[/Dungeon/Dungeons of Doom]] starting from dungeon level 6.
 - **Fixed/Preset:** On various levels in the [[/Dungeon/Gnomish Mines]], [[/Dungeon/Mine Town]] levels, and [[/Dungeon/Gehennom]].
 
 ## 🛠️ Services

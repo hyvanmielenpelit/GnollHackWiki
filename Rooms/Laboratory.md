@@ -2,7 +2,7 @@
 
 ## ℹ️ Description
 
-A **Laboratory** is a GnollHack-specific NPC room. It serves as the workspace for an Artificer, a peaceful level 37 [[/Monsters/Archmage]] NPC skilled in magical items and spellwork. The room is always lit, features parquet-style floors, and always contains a decorative [[/Items/painting]] on the wall.
+A **Laboratory** is a GnollHack-specific NPC room. It serves as the workspace for an **Artificer**, a peaceful level 37 [[/Monsters/Archmage]] NPC skilled in magical items and spellwork. The room is always lit, features parquet-style floors, and always contains a decorative [[/Items/painting]] on the wall.
 
 ## 🗺️ Generation
 

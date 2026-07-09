@@ -2,7 +2,7 @@
 
 ## ℹ️ Description
 
-An **Engineering Bay** is the high-tech workshop of the Warp Engineer. The Warp Engineer is a peaceful [[/Monsters/Modron Quarton]] NPC who is an expert in portal technology and planar engineering. The room features high-tech aesthetics, custom Modron-themed tiles, and the Warp Engineer who offers extremely powerful crafting and travel services.
+An **Engineering Bay** is the high-tech workshop of the **Warp Engineer**. The Warp Engineer is a peaceful [[/Monsters/Modron Quarton]] NPC who is an expert in portal technology and planar engineering. The room features high-tech aesthetics, custom Modron-themed tiles, and the Warp Engineer who offers extremely powerful crafting and travel services.
 
 ## 🗺️ Generation
 
