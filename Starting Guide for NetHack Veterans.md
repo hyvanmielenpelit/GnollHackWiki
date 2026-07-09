@@ -218,8 +218,8 @@ GnollHack changes the initial inventory of almost every role to make the early g
 
 - [[/Rooms/Shops]] — Guide to shop types, item pricing, and shopkeeper behaviors
 - [[/Rooms/Smithy]] — Information on services offered by the Smith
-- [[/Rooms/Artificer]] — Information on the Artificer who buys spellbooks
-- [[/Rooms/Dwarven Geologist]] — Details on selling valuable gems to the Geologist
+- [[/Rooms/Laboratory]] — Information on the Artificer who buys spellbooks
+- [[/Rooms/Workshop]] — Details on selling valuable gems to the Geologist
 - [[/Rooms/Temple]] — Guide to temples, priests, blessings, and protection donations
 
 

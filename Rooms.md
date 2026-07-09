@@ -27,11 +27,11 @@
 
 ## 👤 NPC Rooms
 
-- [[/Rooms/Artificer]]
-- [[/Rooms/Dwarven Geologist]]
+- [[/Rooms/Laboratory]]
+- [[/Rooms/Workshop]]
 - [[/Rooms/Practice Hall]] — Inhabited by Lindisse, the Elven Bard.
 - [[/Rooms/Smithy]]
-- [[/Rooms/Warp Engineer]] — Inhabited by a Modron Quarton warp engineer on the Modron Plane.
+- [[/Rooms/Engineering Bay]] — Inhabited by a Modron Quarton warp engineer on the Modron Plane.
 
 ## 🚪 Closets
 

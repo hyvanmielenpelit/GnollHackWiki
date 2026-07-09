@@ -29,8 +29,8 @@ You will encounter various specialized NPCs who can identify items or buy your u
 |:---|:---|
 | **General Storekeeper** | Buys and sells a wide variety of items. Can identify any item for a fee in [[/Rooms/Shops]]. |
 | **Specialized Shopkeeper** | E.g., bookstores. They can only identify the types of items they sell in [[/Rooms/Shops]]. |
-| **Artificer** | [[/Rooms/Artificer]] is a specialized NPC who will gladly buy your expensive (but perhaps useless to your class) spellbooks. |
-| **Geologist** | A specialized NPC who buys gems. Sell them your identified valuable gems for a massive profit in the [[/Rooms/Dwarven Geologist]] room. |
+| **Artificer** | Resides in the [[/Rooms/Laboratory]] and will gladly buy your expensive (but perhaps useless to your class) spellbooks. |
+| **Geologist** | A specialized NPC who buys gems. Sell them your identified valuable gems for a massive profit in the [[/Rooms/Workshop]]. |
 | **Oracle** | Can identify items for a fee and provides game hints in [[/Dungeon/Delphi]]. |
 | **Priest** | Found in [[/Rooms/Temple]]s. They can bless and curse items for a fee, and they sell protection (extrinsic AC) if you donate large sums of money. |
 | **Smith** | Provides many useful services and can identify weapons and armor for a fee in the [[/Rooms/Smithy]]. |
