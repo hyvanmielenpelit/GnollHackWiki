@@ -26,7 +26,6 @@ We recommend that you start playing GnollHack using the **[[/Difficulties/Standa
 ### 🔗 Learn More
 
 - [[Choosing the Right Difficulty Level]] — Tips on finding the best challenge level for you
-- [[Difficulty Levels]] — Details on all 7 difficulty modifiers
 
 ## 🎭 Part 2: Character Creation
 
