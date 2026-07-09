@@ -10,7 +10,6 @@ Below are the links to the AI-readable skill guides. These are designed to be re
 - [[/AI/Build iOS Client]]
 - [[/AI/Build Linux Client]]
 - [[/AI/Asset and Tileset Compilation]]
-- [[/AI/Compile Custom SkiaSharp]]
 
 ## ⚙️ Antigravity 2.0 Integration
 
@@ -26,7 +25,6 @@ Each skill must be placed in a subdirectory under `.agents/skills/` named after 
 | `build_ios_client` | [[/AI/Build iOS Client]] | `.agents/skills/build_ios_client/SKILL.md` |
 | `build_linux_client` | [[/AI/Build Linux Client]] | `.agents/skills/build_linux_client/SKILL.md` |
 | `asset_and_tileset_compilation` | [[/AI/Asset and Tileset Compilation]] | `.agents/skills/asset_and_tileset_compilation/SKILL.md` |
-| `compile_custom_skiasharp` | [[/AI/Compile Custom SkiaSharp]] | `.agents/skills/compile_custom_skiasharp/SKILL.md` |
 
 ## 🤖 Automated Copy Prompt for Gemini 3.5 Flash
 
