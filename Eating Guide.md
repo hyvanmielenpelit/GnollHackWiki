@@ -18,6 +18,7 @@ Characters in GnollHack have a nutrition level that dictates their current hunge
 Eating while in the **SATIATED** state can be fatal. If your nutrition level rises to **2000** or above, your character will choke to death. 
 - **Safe Foods:** Edible items that provide **50 or less nutrition** (such as fruits, herbs, garlic, and most mushrooms) do not trigger choking checks and can be consumed safely even when satiated.
 - **Choking Warning:** If you attempt to eat an item with more than 50 nutrition while satiated, the game will warn you: *"However, you are feeling very full; eat it nevertheless?"*. Proceeding carries a risk of choking.
+- **Magical Breathing:** Characters with magical breathing (such as those wearing an amulet of magical breathing or polymorphed into a breathless monster) are immune to choking to death. If they overeat, they will "choke, but recover their composure."
 
 ## 🍎 Comestibles and Special Food Items
 
@@ -112,3 +113,10 @@ When polymorphed into a [[/Monsters/Tentacled one]] or [[/Monsters/Elder tentacl
 - **Petrification Hazard:** Eating the brain of a petrifying monster (e.g. Medusa) immediately starts the stoning countdown.
 - **Rider Brain Fatality:** Attempting to eat the brain of a Rider (Death, Famine, Pestilence) is **instantly fatal** (printing *"Ingesting that is fatal."*).
 - **Cannibalism:** Eating the brain of another tentacled one or a member of your own starting species triggers standard cannibalism penalties.
+
+## 💡 Learn More: Advanced Eating Mechanics
+
+- **Curing Petrification:** Eating the corpse of a [[/Monsters/Lizard]] or an acidic monster (such as an [[/Monsters/Acid blob]]) immediately cures the petrification process, saving you from a stoning death.
+- **Vegetarian and Vegan Conducts:** [[/Roles/Monk]]s or players observing strict diets face severe penalties for eating meat or animal by-products. Review the [[/Roles/Monk]] page for more details on conduct restrictions.
+- **Transformation:** Eating a [[/Monsters/Green slime]] corpse or a glob of green slime will eventually turn you into a slime yourself, which is fatal unless cured.
+- **Old Corpses:** Corpses left for more than 50 turns become tainted. Eating them causes food poisoning (unless you are a [[/Roles/Caveman]], an [[/Races/Orc]], or possess sickness resistance).
