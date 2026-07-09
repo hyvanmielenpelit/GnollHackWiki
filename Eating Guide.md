@@ -135,9 +135,8 @@ Taking a bite of rotten or cursed food prints the message *"Blecch! Rotten [food
 When polymorphed into a [[/Monsters/Tentacled one]] or [[/Monsters/Elder tentacled one]], hitting a monster with a tentacle attack allows you to eat its brain, which has unique mechanics and side effects:
 
 - **Intelligence Recovery:** If your current [[Intelligence]] is below your natural maximum, eating a brain recovers **1 point** of lost [[Intelligence]] (printing *"You feel smarter."*). It does not increase your maximum cap.
-- **Wisdom Exercise:** Successfully eating a brain exercises your [[Wisdom]] attribute.
 - **Nutrition:** Reduces your hunger slightly (increases nutrition by **1 to 30**). This cannot cause choking.
-- **Target Damage:** Inflicts severe damage on the target. It drains **1 to 2 points** of the target's [[Intelligence]]. If the target's [[Intelligence]] drops below 2, they die immediately from brain loss.
+- **Target Damage:** Inflicts severe damage on the target. It drains **1 to 2 points** of the target's [[Intelligence]]. If the target's [[Intelligence]] drops below 3, they die immediately from brain loss.
 - **Mindless Targets:** Monsters that are mindless (e.g. golems, molds, fungi) or have brain protection do not notice the attack, and no brain-eating benefits or attribute drains occur.
 - **Incorporeal Targets:** Monsters without physical brains (e.g. ghosts, spectres, elementals) have their brains unharmed, and no effects occur.
 - **Petrification Hazard:** Eating the brain of a petrifying monster (e.g. Medusa) immediately starts the stoning countdown.
