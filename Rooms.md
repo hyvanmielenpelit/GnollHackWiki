@@ -20,7 +20,6 @@
 - [[/Rooms/Leprechaun Hall]] — Completely filled with leprechauns and large amounts of gold.
 - [[/Rooms/Library]] — A scholarly room packed with books and guarded by magic-using monsters.
 - [[/Rooms/Swamp]] — A damp room characterized by multiple pools of water and amphibious monsters.
-- [[/Rooms/Temple]] — Contains a shrine dedicated to one of the game's deities, tended by a priest.
 - [[/Rooms/Throne Room]] — Contains a throne and a large number of monsters guarding it.
 - [[/Rooms/Vault]] — A small, hidden room completely filled with gold and guarded by a vault guard.
 - [[/Rooms/Zoo]] — The floor is completely covered with a variety of sleeping monsters and gold.
@@ -31,6 +30,7 @@
 
 - [[/Rooms/Laboratory]] — Inhabited by an Artificer.
 - [[/Rooms/Smithy]] — Inhabited by a Smith.
+- [[/Rooms/Temple]] — Tended by a Priest.
 - [[/Rooms/Workshop]] — Inhabited by a Dwarven Geologist.
 
 ### 🌟 Unique
