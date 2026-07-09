@@ -16,7 +16,7 @@ Characters in GnollHack have a nutrition level that dictates their current hunge
 | **FAINTED** | (Unconscious) | -1 [[Strength]] | Unconscious and completely vulnerable to attacks. |
 | **STARVED** | Below -(100 + 10 * [[Constitution]]) | Dead | Instant death due to starvation (unless life-saved). |
 
-### Choking Hazard
+### 😵 Choking Hazard
 Eating while in the **SATIATED** state can be fatal. If your nutrition level rises to **2000** or above, your character will choke to death. 
 - **Safe Foods:** Edible items that provide **50 or less nutrition** (such as fruits, herbs, garlic, and most mushrooms) do not trigger choking checks and can be consumed safely even when satiated.
 - **Choking Warning:** If you attempt to eat an item with more than 50 nutrition while satiated, the game will warn you: *"However, you are feeling very full; eat it nevertheless?"*. Proceeding carries a risk of choking.
@@ -51,7 +51,7 @@ GnollHack features traditional food items as well as new fruits and mushrooms. U
 
 ℹ️ **Note on Greasy Tins:** Opening or eating French fried tins will cause greasy fingers, which makes you slip and drop weapons or fail to cast spells properly.
 
-### Shuffled Mushrooms
+### 🍄 Shuffled Mushrooms
 Mushrooms in GnollHack have shuffled appearances (e.g. "golden mushroom", "violet mushroom") in every game, but their true types and effects are fixed once identified:
 
 - **[[/Items/Champignon]]** (7 Nutrition): Edible mushroom with no special effect.
@@ -96,7 +96,7 @@ GnollHack implements a sensory warning system that alerts characters to dangerou
 | **Non-Vegetarian (Monks)** | *"...unhealthy. Eat it anyway?"* | Violates vegetarian conduct, leading to a loss of alignment and luck. |
 | **Acidic Food** | *"...rather acidic. Eat it anyway?"* | Inflicts acid damage to mouth/stomach (unless resistant). |
 
-### Cannibalism & Pet penalties
+### 🥩 Cannibalism & Pet penalties
 Eating corpses of your own starting species, polymorphed species, or domestic pets carries heavy penalties:
 - **Cannibalism Penalty:** Triggers when eating a corpse of your starting race (e.g. Human eating Human), polymorphed race, or were-beast counterpart. Results in **Monster Aggravation** (intrinsically alerts monsters to your presence) and a **Luck loss of -2 to -5**.
 - **Domestic Pet Penalty:** Eating a domestic cat or dog ([[/Monsters/Little dog]], [[/Monsters/Dog]], [[/Monsters/Large dog]], [[/Monsters/Kitten]], [[/Monsters/Housecat]], [[/Monsters/Large cat]]) results in **Monster Aggravation**.
@@ -144,7 +144,7 @@ When polymorphed into a [[/Monsters/Tentacled one]] or [[/Monsters/Elder tentacl
 - **Rider Brain Fatality:** Attempting to eat the brain of a Rider (Death, Famine, Pestilence) is **instantly fatal** (printing *"Ingesting that is fatal."*).
 - **Cannibalism:** Eating the brain of another tentacled one or a member of your own starting species triggers standard cannibalism penalties.
 
-## 💡 Learn More: Advanced Eating Mechanics
+## 💡 Advanced Eating Mechanics
 
 - **Curing Petrification:** Eating the corpse of a [[/Monsters/Lizard]] or an acidic monster (such as an [[/Monsters/Acid blob]]) immediately cures the petrification process, saving you from a stoning death.
 - **Vegetarian and Vegan Conducts:** [[/Roles/Monk]]s or players observing strict diets face severe penalties for eating meat or animal by-products. Review the [[/Roles/Monk]] page for more details on conduct restrictions.
