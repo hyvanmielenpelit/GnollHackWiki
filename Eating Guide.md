@@ -100,6 +100,34 @@ Eating corpses of your own starting species, polymorphed species, or domestic pe
 - **Domestic Pet Penalty:** Eating a domestic cat or dog ([[/Monsters/Little dog]], [[/Monsters/Dog]], [[/Monsters/Large dog]], [[/Monsters/Kitten]], [[/Monsters/Housecat]], [[/Monsters/Large cat]]) results in **Monster Aggravation**.
 - **Exemptions:** Characters playing as a [[/Roles/Caveman]] or of the [[/Races/Orc]] race are exempt from both cannibalism and pet penalties and can consume these foods without consequence.
 
+### 🤢 Rotten and Cursed Foods (Unconsciousness & Status Ailments)
+
+Consuming rotten or cursed food in GnollHack carries severe penalties. A food item can become rotten or be treated as such based on its state and age.
+
+#### Spoilage & Rotting Rules
+
+| Food Status / Type | Spoilage / Rotting Rule |
+| :--- | :--- |
+| **Cursed Food** | **Always** treated as rotten immediately, regardless of age. |
+| **Blessed Food** | Can rot after **80 turns** with a **1 in 7 (14.3%)** chance on the first bite. |
+| **Uncursed Food** | Can rot after **40 turns** with a **1 in 7 (14.3%)** chance on the first bite. |
+| **Non-Rotting Food** | **Immune** to spoiling. Includes [[/Items/Cram ration]], [[/Items/Elven waybread]], [[/Items/Tin]]s, and [[/Items/Fortune cookie]]s. |
+
+Once an item has rolled a successful rotting check, it is permanently marked as rotten.
+
+#### First-Bite Consequences
+
+Taking a bite of rotten or cursed food prints the message *"Blecch! Rotten [food]!"* and triggers two immediate effects:
+1. **Nutrition Halved:** The remaining nutrition value of the food item is immediately halved.
+2. **Status Ailment Roll:** The game checks for status ailments in a sequential sequence (if one triggers, the rest are skipped):
+
+| Status Ailment | Chance (Normal Vision) | Chance (If Already Blind) | Duration | Description / Details |
+| :--- | :--- | :--- | :--- | :--- |
+| **Confusion** | **25%** | **25%** | 2d4 turns | Prints a light-headed message and confuses the character. |
+| **Blindness** | **18.75%** | **0%** | 2d10 turns | Only checked if you did not become confused. |
+| **Unconsciousness** | **18.75%** | **25%** | 1 to 10 turns | Only checked if you did not become confused or blinded. You pass out/faint. |
+| **No Effect** | **37.5%** | **50%** | N/A | You eat the food without any immediate status ailments. |
+
 ## 🧠 Brain Eating
 
 When polymorphed into a [[/Monsters/Tentacled one]] or [[/Monsters/Elder tentacled one]], hitting a monster with a tentacle attack allows you to eat its brain, which has unique mechanics and side effects:
