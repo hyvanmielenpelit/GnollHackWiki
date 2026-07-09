@@ -61,7 +61,7 @@ GnollHack is best understood as a modernized version of NetHack that makes the c
 - **[[Options]]** — You can configure GnollHack via a NetHack-style Options file
 - **[[Additional Options]]** — Additional options that you can configure via a NetHack-style Options file
 
-## 🔗 Online Sharing
+## 🌍 Online Sharing
 
 - **[[Share Your Progress to Discord Server Channel]]** — Modern clients can share your progress to Discord
 - **[[GnollHack Account]]** — The GnollHack Account server supports top score recording, bones sharing, Junethack, and the NetHack Scoreboard *(modern versions only)*
