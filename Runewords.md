@@ -12,11 +12,35 @@ There are three runewords in GnollHack:
 
 ## 📝 Engraving Mechanics
 
-When engraving a runeword, the speed depends on the method and the tool used. Engraving with soft methods or highly specialized tools is much faster than carving into the floor with standard items.
+Engraving a runeword on the floor requires using the **Engrave** command. Beginners can do this manually, or configure a "Quick Engrave" command for convenience.
+
+### 🚀 Step-by-Step Guide: How to Engrave
+
+There are two primary ways to engrave runewords on the floor: **Manual Engraving** and **Quick Engrave**.
+
+#### 1️⃣ Manual Engraving
+
+Use this method if you want to engrave a specific word or use a specific item from your inventory.
+
+| Step | Action | Example (Writing in Dust) |
+| :--- | :--- | :--- |
+| **1. Initiate** | Press the **Engrave** command (`E`). | Press `E` |
+| **2. Select Tool** | Press `-` to use your fingers (writes in dust or blood), or press the inventory letter of a tool (e.g., a wand or weapon). | Press `-` |
+| **3. Enter Text** | Type the runeword exactly as spelled (e.g., `Elbereth` or `Gilthoniel`). | Type `Elbereth` |
+| **4. Confirm** | Press **Enter** to write the text on the floor. | Press **Enter** |
+
+#### 2️⃣ Quick Engrave (Preset Writing)
+
+You can automate the engraving process a bit with the **Quick Engrave** command. It is used as follows:
+
+| Step | Action / Example |
+| :--- | :--- |
+| **Setup Settings** | In the game options, set **Quick Engrave Text** to `Elbereth` and **Quick Engrave Style** to "Always finger". |
+| **Execute Command** | Press the **Engrave quick** command (`Alt-E`). The preset text will be engraved instantly without any prompts. |
 
 ### ⏱️ Engraving Speed
 
-The time required to engrave is classified into two categories:
+When engraving a runeword, the speed depends on the method and the tool used. Engraving with soft methods or highly specialized tools is much faster than carving into the floor with standard items. Thus, the time required to engrave is classified into two categories:
 
 | Engraving Speed | Extra Turns Required | Engraving Methods / Tools |
 | :--- | :--- | :--- |
