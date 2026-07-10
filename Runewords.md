@@ -20,7 +20,7 @@ The time required to engrave is classified into two categories:
 
 | Engraving Speed | Extra Turns Required | Engraving Methods / Tools |
 | :--- | :--- | :--- |
-| **Fast** | 0 extra turns (instant) | Writing in dust (fingers), writing in blood, using a [[/Items/magic marker]], burning with [[wands]] ([[/Items/wand of fire]] or [[/Items/wand of lightning]]), or carving with an uncursed [[/Items/athame]]. |
+| **Fast** | 0 extra turns (instant) | Writing in dust (fingers), writing in blood, using a [[/Items/magic marker]], a [[/Items/wand of fire]], a [[/Items/wand of lightning]], or carving with an uncursed [[/Items/athame]]. |
 | **Slow** | 1 extra turn per character (e.g., 8 turns for "Elbereth") | Carving with standard [[weapons]], [[rings]], or [[Gems and Stones]]. |
 
 > ⚠️ **Warning:** Slow engraving takes a total of 9 turns (the action turn plus 8 extra turns) for an 8-character word like "Elbereth". If you attempt to engrave slowly in the presence of hostile monsters, they will get multiple free turns to attack you while you are paralyzed.
@@ -28,13 +28,23 @@ The time required to engrave is classified into two categories:
 
 ## 🧹 Erosion and Smudging
 
-Engravings written in temporary mediums like dust or blood can degrade and eventually disappear. Standard engravings like `Elbereth` are highly susceptible to erosion when physical actions are performed on them.
+The permanence of an engraving—how easily it is erased or smudged by physical actions (like fighting or monsters walking over it)—depends entirely on the tool or method used to write it.
+
+### 🛡️ Engraving Permanence
+
+Engravings are classified into three levels of durability:
+
+| Durability | Engraving Methods / Tools | Smudging Mechanics |
+| :--- | :--- | :--- |
+| **Soft (Dust / Blood)** | Writing in dust (fingers) or writing in blood. | Highly susceptible to erosion. Physical actions erode the exact number of characters listed in the table below. |
+| **Hard (Carved / Ink)** | Standard [[weapons]], [[rings]], [[Gems and Stones]], an [[/Items/athame]], or a [[/Items/magic marker]]. | Highly resistant to erosion. When a physical action occurs, there is only a very small random chance (typically around 5% to 10%) that a **single** character is eroded, regardless of the action's normal severity. |
+| **Burned** | A [[/Items/wand of fire]] or [[/Items/wand of lightning]]. | Completely permanent. Burned engravings cannot be smudged or eroded by physical actions or monster movement. |
 
 ### ⚔️ Player and Monster Erosion Actions
 
-Performing physical actions on the square containing a standard engraving (like `Elbereth`) causes characters to be eroded from the text. A word is completely wiped out when all characters are erased.
+Performing physical actions on the square containing an engraving causes characters to be eroded from the text (based on its durability type). A word is completely wiped out when all characters are erased.
 
-| Action / Event | Characters Eroded |
+| Action / Event | Base Characters Eroded (For Soft Engravings) |
 | :--- | :--- |
 | Melee attacking a monster | 3 characters |
 | Digging downwards | 3 characters |
