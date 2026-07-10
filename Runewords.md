@@ -129,9 +129,11 @@ When this happens:
 3. The `Elbereth` engraving immediately fades away completely (you receive the message: *"The engraving beneath you fades."*).
 
 ##### What triggers the penalty?
-Not all attacks are considered hypocritical. The penalty is triggered based on the type of attack:
-- **Triggers Penalty**: Direct melee attacks (hitting with a weapon or bare hands), kicking a monster, triggering explosions that hit a monster, and zapping certain direct offensive spells or wands.
-- **Does NOT Trigger Penalty**: Standard ranged attacks! Throwing items (like daggers) or firing projectiles from launchers (like bows or crossbows) **does not** trigger the hypocrite penalty. Standing on an `Elbereth` square and shooting enemies from afar is a valid and powerful strategy.
+Any active offensive action against an Elbereth-vulnerable (or peaceful) monster while standing on the runeword will trigger the Hypocrite Penalty. This includes:
+- **Melee attacks**: Hitting with weapons or bare hands.
+- **Ranged attacks**: Throwing items or firing projectiles (arrows, bolts) from launchers. (If the projectile hits, it triggers the penalty; if it misses, there is a 33% chance to trigger it anyway).
+- **Wands and Spells**: Zapping offensive wands or casting spells directly at the monster.
+- **Other actions**: Kicking a monster, or triggering explosions/area-of-effect hazards that damage them.
 
 > ⚠️ **Warning:** The Hypocrite Penalty causes the engraving to instantly disappear, **even if it was burned permanently into the floor with a wand**. This is the only way a burned engraving can be erased.
 >
