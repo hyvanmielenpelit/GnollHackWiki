@@ -58,7 +58,6 @@ Performing physical actions on the square containing a standard engraving (like 
 - **Activation**: The player must be standing on the square containing the engraving (or the player's displaced image must be on that square).
 - **Effect**: Most hostile monsters attempting to move onto the square or attack the player will be frightened, causing them to turn around and flee for a random number of turns.
 - **Strict Spelling**: The engraving must match the word strictly case-insensitively (e.g., "elbereth" or "Elbereth"). The full Tolkien prayer "A Elbereth Gilthoniel" does not trigger the warding effect.
-- **Attributes**: Engraving `Elbereth` exercises the [[wisdom]] attribute.
 
 ### 🚫 Limitations
 
@@ -88,7 +87,7 @@ The following monsters ignore the effects of `Elbereth`:
 
 ### 🏆 Conduct and Achievements
 
-- **Conduct**: Engraving `Elbereth` even once breaks the [[/conducts/elberethless]] conduct. Remaining "Elberethless" throughout the entire game awards a +10 point bonus to the final score and is recorded at the end of the game.
+- **Conduct**: Engraving `Elbereth` even once breaks the [[/Conducts/Elberethless]] conduct. Remaining "Elberethless" throughout the entire game awards a +10 point bonus to the final score and is recorded at the end of the game.
 - **Achievements**: Engraving `Elbereth` for the first time in a run unlocks the **Engraved Elbereth** achievement and logs the event in the live log.
 
 
@@ -100,11 +99,10 @@ The following monsters ignore the effects of `Elbereth`:
 
 - **Looting Protection**: Hostile monsters and pets are prevented from picking up items (including gold, [[weapons]], [[armor]], and [[comestibles]]) or eating food on a square engraved with `Gilthoniel`.
 - **Branch Restrictions**: This protective effect only functions outside of [[/Dungeon/Gehennom]].
-- **Exceptions**: Shopkeepers, vault guards, and the [[/monsters/Wizard of Yendor]] ignore this restriction and can loot items from a `Gilthoniel` square freely.
+- **Exceptions**: Shopkeepers, vault guards, and the [[/Monsters/Wizard of Yendor]] ignore this restriction and can loot items from a `Gilthoniel` square freely.
 - **Erosion Immunity**: Engravings of `Gilthoniel` are immune to all forms of smudging and erosion. This immunity applies everywhere (including inside Gehennom, even though the looting protection is inactive there).
 - **Natural Generation**: When an Armory room is generated outside Gehennom, a [[/Items/chest]] or [[/Items/large box]] in the room is created with `Gilthoniel` written underneath it.
-- **Attributes**: Writing `Gilthoniel` exercises the [[wisdom]] attribute.
-- **Conducts**: Writing `Gilthoniel` does **not** break the [[/conducts/elberethless]] conduct.
+- **Conducts**: Writing `Gilthoniel` does **not** break the [[/Conducts/Elberethless]] conduct.
 
 
 ## 😈 Morgoth
@@ -118,8 +116,7 @@ The following monsters ignore the effects of `Elbereth`:
 - **Exceptions**: Shopkeepers, vault guards, and the [[/Monsters/Wizard of Yendor]] are immune to the looting prevention and can pick up items from a `Morgoth` square.
 - **Erosion Immunity**: Like Gilthoniel, `Morgoth` engravings are immune to all forms of smudging and erosion. This immunity applies everywhere (both inside and outside Gehennom).
 - **Natural Generation**: When an Armory room is generated inside Gehennom, a [[/Items/chest]] or [[/Items/large box]] in the room is created with `Morgoth` written underneath it.
-- **Attributes**: Writing `Morgoth` does **not** exercise wisdom.
-- **Conducts**: Writing `Morgoth` does **not** break the [[/conducts/elberethless]] conduct.
+- **Conducts**: Writing `Morgoth` does **not** break the [[/Conducts/Elberethless]] conduct.
 
 
 ## 🎨 Visual Effects
