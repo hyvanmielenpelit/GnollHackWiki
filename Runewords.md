@@ -25,7 +25,7 @@ Use this method if you want to engrave a specific word or use a specific item fr
 | Step | Action | Example (Writing in Dust) |
 | :--- | :--- | :--- |
 | **1. Initiate** | Press the **Engrave** command (`E`). | Press `E` |
-| **2. Select Tool** | Press `-` to use your fingers (writes in dust or blood), or press the inventory letter of a tool (e.g., a wand or weapon). | Press `-` |
+| **2. Select Tool** | Press `-` to use your fingers (writes in dust, or in blood if you are a demon or vampire), or press the inventory letter of a tool (e.g., a wand or weapon). | Press `-` |
 | **3. Enter Text** | Type the runeword exactly as spelled (e.g., `Elbereth` or `Gilthoniel`). | Type `Elbereth` |
 | **4. Confirm** | Press **Enter** to write the text on the floor. | Press **Enter** |
 
@@ -60,7 +60,7 @@ Engravings are classified into three levels of durability:
 
 | Durability | Engraving Methods / Tools | Smudging Mechanics |
 | :--- | :--- | :--- |
-| **Soft (Dust / Blood)** | Writing in dust (fingers) or writing in blood. | Highly susceptible to erosion. Physical actions erode the exact number of characters listed in the table below. |
+| **Soft (Dust / Blood)** | Writing in dust (fingers), or writing in blood (when using fingers in demon or vampire form). | Highly susceptible to erosion. Physical actions erode the exact number of characters listed in the table below. Both mediums have a 4% (1 in 25) chance per character to scramble/mix up the message upon writing. |
 | **Hard (Carved / Ink)** | Standard [[weapons]], [[rings]], [[Gems and Stones]], an [[/Items/athame]], or a [[/Items/magic marker]]. | Highly resistant to erosion. When a physical action occurs, there is only a very small random chance (typically around 5% to 10%) that a **single** character is eroded, regardless of the action's normal severity. |
 | **Burned** | A [[/Items/wand of fire]] or [[/Items/wand of lightning]]. | Completely permanent. Burned engravings cannot be smudged or eroded by physical actions or monster movement. |
 
