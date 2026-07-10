@@ -87,7 +87,7 @@ The following monsters ignore the effects of `Elbereth`:
 
 ### 🏆 Conduct and Achievements
 
-- **Conduct**: Engraving `Elbereth` even once breaks the [[/Conducts/Elberethless]] conduct. Remaining "Elberethless" throughout the entire game awards a +10 point bonus to the final score and is recorded at the end of the game.
+- **Conduct**: Engraving `Elbereth` even once breaks the [[/Conducts/Elberethless]] conduct. Remaining "Elberethless" throughout the entire game is recorded at the end of the game and increases the base conduct score by 10 points upon ascension.
 - **Achievements**: Engraving `Elbereth` for the first time in a run unlocks the **Engraved Elbereth** achievement and logs the event in the live log.
 
 
