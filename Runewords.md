@@ -93,7 +93,7 @@ Performing physical actions on the square containing an engraving causes charact
 - **Effect**: Most hostile monsters attempting to move onto the square or attack the player will be frightened, causing them to turn around and flee for a random number of turns.
 - **Strict Spelling**: The engraving must match the word strictly case-insensitively (e.g., "elbereth" or "Elbereth"). The full Tolkien prayer "A Elbereth Gilthoniel" does not trigger the warding effect.
 
-> ℹ️ **Note:** Elbereth will not protect you from any missile or spell attack. Partial exceptions exist where Elbereth will still protect you from non-melee; no monster already fleeing from you due to Elbereth can use its ranged attacks while adjacent, and are much less likely to do so even when not adjacent.
+> ℹ️ **Note:** Elbereth will **not** protect you from any missile or spell attack. Partial exceptions exist where Elbereth will still protect you from non-melee; no monster already fleeing from you due to Elbereth can use its ranged attacks while adjacent, and are much less likely to do so even when not adjacent.
 
 ### 🚫 Limitations
 
