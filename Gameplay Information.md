@@ -79,5 +79,6 @@
 - [[Item Evaporation Chances]] — The chances of an item to be destroyed when over-enchanting it.
 - [[Poisoning Effects]] — Learn about poison and poison resistance.
 - [[Resistances and Saving Throws]] — Learn about how resistances and saving throws work in GnollHack.
+- [[Runewords]] — Magical floor engravings that provide special protections or effects.
 - [[Scoring]] — Learn about the scoring system in GnollHack.
 - [[Wishing Guide]] — Wishing rules for new items in GnollHack.
