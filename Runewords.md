@@ -62,21 +62,29 @@ Performing physical actions on the square containing a standard engraving (like 
 
 ### Limitations
 
-- **Branch Restrictions**: `Elbereth` does not work in [[/Dungeon/Gehennom]] or the [[/Dungeon/Elemental Planes]].
-- **Immune Monsters**: The following monsters ignore the effects of `Elbereth`:
-  - Unique monsters (including major bosses).
-  - The [[/monsters/Wizard of Yendor]] (often called Rodney).
-  - Lawful minions and [[angels|/monsters/Angel]].
-  - The Riders (Death, Famine, and Pestilence).
-  - Shopkeepers (even if polymorphed, and regardless of whether they are inside or outside their shop).
-  - Vault guards.
-  - Aligned priests inside their own temple.
-  - Smiths inside their own smithy.
-  - NPCs inside their own rooms.
-  - Blind monsters (since they cannot see the engraving).
-  - Peaceful monsters (they will not attack or move towards you anyway).
-  - Humans and elves (monster class symbols of `@` or `S_HUMAN`).
-  - [[Minotaurs|/monsters/Minotaur]], [[/monsters/Baphomet]], and [[/monsters/Yacc]] (due to their innate ability to ignore Elbereth).
+#### Branch Restrictions
+
+`Elbereth` does not work in [[/Dungeon/Gehennom]] or the [[/Dungeon/Elemental Planes]].
+
+#### Immune Monsters
+
+The following monsters ignore the effects of `Elbereth`:
+
+| Monster / Category | Reason / Condition |
+| :--- | :--- |
+| **Unique monsters** | Includes all major bosses and unique demons. |
+| **The [[/Monsters/Wizard of Yendor]]** | Often called Rodney, he ignores all scaring. |
+| **Lawful minions and [[/Monsters/Angel]]s** | Divinely resistant to Elbereth. |
+| **The Riders** | Death, Famine, and Pestilence. |
+| **Shopkeepers** | Ignore Elbereth regardless of whether they are inside their shop or polymorphed. |
+| **Vault guards** | Ignore Elbereth (even if polymorphed). |
+| **Aligned priests** | When inside their own temple. |
+| **Smiths** | When inside their own smithy. |
+| **NPCs** | When inside their own rooms. |
+| **Blind monsters** | They cannot see the engraving. |
+| **Peaceful monsters** | They will not attack or move towards you anyway. |
+| **Humans and Elves** | Represented by the `@` monster class symbol. |
+| **[[/Monsters/Minotaur]]s, [[/Monsters/Baphomet]], and [[/Monsters/Yacc]]** | Have an innate ability to ignore Elbereth. |
 
 ### Conduct and Achievements
 
