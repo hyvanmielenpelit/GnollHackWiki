@@ -119,6 +119,24 @@ The following monsters ignore the effects of `Elbereth`:
 | **Humans and Elves** | Represented by the `@` monster class symbol. |
 | **[[/Monsters/Minotaur]]s, [[/Monsters/Baphomet]], and [[/Monsters/Yacc]]** | Have an innate ability to ignore Elbereth. |
 
+#### 🗡️ The Hypocrite Penalty
+
+`Elbereth` is a request for peace. If you abuse this sanctuary by attacking a monster while standing on an `Elbereth` engraving, you will be penalized for being a hypocrite.
+
+When this happens:
+1. You receive a message: *"You feel like a hypocrite."*
+2. You incur an **alignment penalty of up to -5 points** (specifically, a -5 drop if your alignment is good, or a random drop between -1 and -5 if it is already low).
+3. The `Elbereth` engraving immediately fades away completely (you receive the message: *"The engraving beneath you fades."*).
+
+##### What triggers the penalty?
+Not all attacks are considered hypocritical. The penalty is triggered based on the type of attack:
+- **Triggers Penalty**: Direct melee attacks (hitting with a weapon or bare hands), kicking a monster, triggering explosions that hit a monster, and zapping certain direct offensive spells or wands.
+- **Does NOT Trigger Penalty**: Standard ranged attacks! Throwing items (like daggers) or firing projectiles from launchers (like bows or crossbows) **does not** trigger the hypocrite penalty. Standing on an `Elbereth` square and shooting enemies from afar is a valid and powerful strategy.
+
+> ⚠️ **Warning:** The Hypocrite Penalty causes the engraving to instantly disappear, **even if it was burned permanently into the floor with a wand**. This is the only way a burned engraving can be erased.
+>
+> ℹ️ **Note:** You are only penalized if the monster you attack respects `Elbereth` (i.e. is scared by it) or if the monster is peaceful. Attacking an immune monster (like a [[/Monsters/Minotaur]] or a unique boss) from an `Elbereth` square will not trigger the penalty.
+
 ### 🏆 Conduct and Achievements
 
 - **Conduct**: Engraving `Elbereth` even once breaks the [[/Conducts/Elberethless]] conduct. Remaining "Elberethless" throughout the entire game is recorded at the end of the game and increases the base conduct score by 10 points upon ascension.
