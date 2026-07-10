@@ -97,7 +97,7 @@ To win the game, you must find the high altar belonging to your god and offer th
 - **Notable Encounters:**
   - The three Riders guard the shrine entrances (their locations are randomly shuffled): [[/Monsters/Death]], [[/Monsters/Famine]], and [[/Monsters/Pestilence]].
   - A guaranteed [[/Items/Magic chest]] spawns in the center area.
-  - Aligned priests ([[/Monsters/Aligned priest]]) and angels ([[/Monsters/Angel]]) guard the courts and shrines.
+  - [[Aligned priests|/Monsters/Aligned priest]] and [[angels|/Monsters/Angel]] guard the courts and shrines.
 - **Common Monsters:**
-  - Angels ([[/Monsters/Angel]]), liches, vampires, and dragons.
+  - Angels, liches, vampires, and dragons.
 
