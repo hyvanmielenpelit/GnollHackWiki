@@ -53,20 +53,20 @@ Performing physical actions on the square containing a standard engraving (like 
 
 `Elbereth` is the classic protective warding runeword. Standing on an active `Elbereth` engraving prevents most hostile monsters from attacking the player in melee or stepping onto the square.
 
-### Mechanics
+### ⚙️ Mechanics
 
 - **Activation**: The player must be standing on the square containing the engraving (or the player's displaced image must be on that square).
 - **Effect**: Most hostile monsters attempting to move onto the square or attack the player will be frightened, causing them to turn around and flee for a random number of turns.
 - **Strict Spelling**: The engraving must match the word strictly case-insensitively (e.g., "elbereth" or "Elbereth"). The full Tolkien prayer "A Elbereth Gilthoniel" does not trigger the warding effect.
 - **Attributes**: Engraving `Elbereth` exercises the [[wisdom]] attribute.
 
-### Limitations
+### 🚫 Limitations
 
-#### Branch Restrictions
+#### 🔀 Branch Restrictions
 
 `Elbereth` does not work in [[/Dungeon/Gehennom]] or the [[/Dungeon/Elemental Planes]].
 
-#### Immune Monsters
+#### 🛡️ Immune Monsters
 
 The following monsters ignore the effects of `Elbereth`:
 
@@ -86,7 +86,7 @@ The following monsters ignore the effects of `Elbereth`:
 | **Humans and Elves** | Represented by the `@` monster class symbol. |
 | **[[/Monsters/Minotaur]]s, [[/Monsters/Baphomet]], and [[/Monsters/Yacc]]** | Have an innate ability to ignore Elbereth. |
 
-### Conduct and Achievements
+### 🏆 Conduct and Achievements
 
 - **Conduct**: Engraving `Elbereth` even once breaks the [[/conducts/elberethless]] conduct. Remaining "Elberethless" throughout the entire game awards a +10 point bonus to the final score and is recorded at the end of the game.
 - **Achievements**: Engraving `Elbereth` for the first time in a run unlocks the **Engraved Elbereth** achievement and logs the event in the live log.
@@ -96,7 +96,7 @@ The following monsters ignore the effects of `Elbereth`:
 
 `Gilthoniel` is a runeword of protection designed to secure items on the floor from being looted.
 
-### Mechanics
+### ⚙️ Mechanics
 
 - **Looting Protection**: Hostile monsters and pets are prevented from picking up items (including gold, [[weapons]], [[armor]], and [[comestibles]]) or eating food on a square engraved with `Gilthoniel`.
 - **Branch Restrictions**: This protective effect only functions outside of [[/Dungeon/Gehennom]].
@@ -111,7 +111,7 @@ The following monsters ignore the effects of `Elbereth`:
 
 `Morgoth` is the dark equivalent of Gilthoniel, used to protect items inside the depths of Gehennom.
 
-### Mechanics
+### ⚙️ Mechanics
 
 - **Looting Protection**: Hostile monsters and pets are prevented from picking up items or eating food on a square engraved with `Morgoth`.
 - **Branch Restrictions**: This protective effect only functions inside [[/Dungeon/Gehennom]].
