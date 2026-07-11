@@ -23,7 +23,7 @@
 | i | Inventory | Display all items currently carried in your inventory. |
 | j | Jump | Jump to a nearby tile, if your character is capable of jumping. |
 | k | Kick _(when Vi-keys are disabled)_ | Kick an adjacent door, chest, monster, or other object. |
-| l | Loot | Loot a container on the floor, or saddle/unsaddle a steed. |
+| l | Loot | Loot a container on the floor, saddle/unsaddle a steed, or retrieve items from decorations (such as torch holders). |
 | m | Move mode — Rush | Move in a direction without picking up any items on the ground. |
 | n | *Number of actions*<sup>1</sup> | *Specify a repetition count before entering a command.* |
 | o | Open door | Open an adjacent closed door. |
@@ -87,7 +87,7 @@
 | Alt+i | Invoke | Invoke the powers of a magical object or artifact. |
 | Alt+j | Jump | Jump to a nearby tile, if your character is capable of jumping. |
 | Alt+k | Vanquished creatures | Show the list of monsters you have killed during the game. |
-| Alt+l | Loot | Loot a container on the floor, or saddle/unsaddle a steed. |
+| Alt+l | Loot | Loot a container on the floor, saddle/unsaddle a steed, or retrieve items from decorations (such as torch holders). |
 | Alt+m | Genesis _(wizard mode only)_ | Create a monster (wizard mode only). |
 | *Alt+n* | *Number of actions (alternate)* | *Specify a repetition count before entering a command (alternate key).* |
 | Alt+o | Offer sacrifice | Offer an item or corpse as a sacrifice on an altar to your deity. |
