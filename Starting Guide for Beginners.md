@@ -141,7 +141,7 @@ You can fire missiles to 8 basic directions. You need to wield a matching launch
 - **Range & Accuracy:** You get to-hit penalties depending on the range. Firing at melee range gives a massive to-hit penalty (up to -30).
 - **Autopickup:** You automatically pick up fired missiles by default to save time.
 
-> ℹ️ **Note:** Keyboard shortcuts on this wiki are written in lowercase notation. A single letter (e.g. `e`) represents the normal key. Combination shortcuts are written with a plus sign `+` and lowercase letters (e.g. `Shift+e`, `Alt+e`, `Shift+Alt+e`).
+> ℹ️ **Note:** Keyboard shortcuts on this wiki are written in lowercase notation. A single letter (e.g. `e`) represents the normal key. Combination shortcuts are written with a plus sign `+` and lowercase letters (e.g. `Shift+e`, `Alt+e`, `Alt+Shift+e`).
 
 #### Ranged Combat with Throwing Weapons
 

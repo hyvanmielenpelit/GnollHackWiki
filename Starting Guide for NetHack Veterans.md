@@ -58,7 +58,7 @@ GnollHack's late game is more difficult than NetHack's.
 ## 📱 Part 2: Interface & Controls
 
 
-> ℹ️ **Note:** Keyboard shortcuts on this wiki are written in lowercase notation. A single letter (e.g. `e`) represents the normal key. Combination shortcuts are written with a plus sign `+` and lowercase letters (e.g. `Shift+e`, `Alt+e`, `Shift+Alt+e`).
+> ℹ️ **Note:** Keyboard shortcuts on this wiki are written in lowercase notation. A single letter (e.g. `e`) represents the normal key. Combination shortcuts are written with a plus sign `+` and lowercase letters (e.g. `Shift+e`, `Alt+e`, `Alt+Shift+e`).
 
 ### 🎒 Action Menus and Quick Looting
 
@@ -79,7 +79,7 @@ GnollHack's late game is more difficult than NetHack's.
 | Skills (`Shift+s`) | Changed | Replaces the NetHack save key. |
 | Take off many (`Alt+t`) | Changed | Replaces the old shortcut. |
 | Dual weapon mode (`Ctrl+x`) | Changed | Toggle dual-wielding. |
-| Chat (`Shift+c`) | Changed | Talk to NPCs. Use Name (`Shift+n` or `Shift+Alt+n`) for naming. |
+| Chat (`Shift+c`) | Changed | Talk to NPCs. Use Name (`Shift+n` or `Alt+Shift+n`) for naming. |
 | Mix spells (`Shift+x`) | New | Prepare spells using material components. |
 | View spell (`Alt+z`) | New | View details about your spells. |
 | Spell menu (`+`) | New | Open the spell management menu. |

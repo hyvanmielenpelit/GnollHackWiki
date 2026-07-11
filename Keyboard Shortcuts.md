@@ -1,6 +1,6 @@
 ![Keyboard Shortcuts](/uploads/Keyboard%20Shortcuts/keyboard-shortcuts-q85.webp)
 
-> ℹ️ **Note:** Keyboard shortcuts on this wiki are written in lowercase notation. A single letter (e.g. `e`) represents the normal key. Combination shortcuts are written with a plus sign `+` and lowercase letters (e.g. `Shift+e`, `Alt+e`, `Shift+Alt+e`).
+> ℹ️ **Note:** Keyboard shortcuts on this wiki are written in lowercase notation. A single letter (e.g. `e`) represents the normal key. Combination shortcuts are written with a plus sign `+` and lowercase letters (e.g. `Shift+e`, `Alt+e`, `Alt+Shift+e`).
 
 ## Commands Bound to Letters
 
@@ -39,17 +39,17 @@
 
 ## Double Modifier Commands Bound to Letters
 
-| Shift + Alt + Key | Shift + Alt + Key Command |
+| Alt + Shift + Key | Alt + Shift + Key Command |
 | :---------------: | :------------------------ |
-| Shift+Alt+a | Annotate dungeon level |
-| *Shift+Alt+e* | *Engrave quick (use preset writing)* |
-| Shift+Alt+m | Use monster ability |
-| Shift+Alt+n | Name a monster or object class |
-| *Shift+Alt+p* | *Apply Wielded Polearm*<sup>1</sup> |
-| Shift+Alt+r | Mount or dismount a saddled steed (Ride) |
-| Shift+Alt+t | Empty a container (Tip) |
-| *Shift+Alt+w* | *Wield a previously wielded weapon* |
-| *Shift+Alt+x* | *Apply a pick-axe or cutting tool quick* |
+| Alt+Shift+a | Annotate dungeon level |
+| *Alt+Shift+e* | *Engrave quick (use preset writing)* |
+| Alt+Shift+m | Use monster ability |
+| Alt+Shift+n | Name a monster or object class |
+| *Alt+Shift+p* | *Apply Wielded Polearm*<sup>1</sup> |
+| Alt+Shift+r | Mount or dismount a saddled steed (Ride) |
+| Alt+Shift+t | Empty a container (Tip) |
+| *Alt+Shift+w* | *Wield a previously wielded weapon* |
+| *Alt+Shift+x* | *Apply a pick-axe or cutting tool quick* |
 
 - Commands in *italic* are new commands in GnollHack that do not appear in NetHack.
 - <sup>1</sup> The polearm can also be a swap weapon.
@@ -157,18 +157,18 @@ When you have vi-keys enabled, you can use the following keys for movement:
 
 | Normal Key | Command | Alternate Key |
 | :--------: | :------ | :-----------: |
-| *b* | *Take items out of **b**ag in inventory* | *Shift+Alt+g* |
-| *Shift+b* | *Put items into **B**ag in inventory* | *Shift+Alt+f* |
-| *Ctrl+b* | *Break* | *Shift+Alt+b* |
+| *b* | *Take items out of **b**ag in inventory* | *Alt+Shift+g* |
+| *Shift+b* | *Put items into **B**ag in inventory* | *Alt+Shift+f* |
+| *Ctrl+b* | *Break* | *Alt+Shift+b* |
 | j | Jump | Alt+j |
 | k | Kick | Ctrl+d |
 | `l` | Loot | Alt+`l` |
-| *Ctrl+`l`* | *Light/Snuff out* | *Shift+Alt+i* |
+| *Ctrl+`l`* | *Light/Snuff out* | *Alt+Shift+i* |
 | *n* | *Number of actions* | *Automatic*<sup>1</sup> |
-| Shift+n | Name | Shift+Alt+n |
+| Shift+n | Name | Alt+Shift+n |
 | u | Untrap | Alt+u |
-| *y* | *Take loot out of container on floor (**y**ank)* | *Shift+Alt+d* |
-| *Shift+y* | *Put loot into container on floor (**Y**ank)* | *Shift+Alt+c* |
+| *y* | *Take loot out of container on floor (**y**ank)* | *Alt+Shift+d* |
+| *Shift+y* | *Put loot into container on floor (**Y**ank)* | *Alt+Shift+c* |
 
 - Commands in *italic* are new commands in GnollHack that do not appear in NetHack.
 - <sup>1</sup> When you press a number key, the game automatically assumes that it's the number of actions command.
@@ -181,6 +181,6 @@ The following keyboard shortcuts are not supported by the modern GnollHack clien
 | Key Shortcut | Command |
 | :----------: | :------ |
 | Alt+b | Toggle hitpoint bars |
-| Shift+Alt+y | Toggle buff timers |
+| Alt+Shift+y | Toggle buff timers |
 
 - Commands in *italic* are new commands in GnollHack that do not appear in NetHack.
