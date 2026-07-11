@@ -25,12 +25,14 @@ Use these commands to view, organize, select, and inspect items in your inventor
 | Command | Icon | Hotkey | Description | Notes |
 | :--- | :---: | :---: | :--- | :--- |
 | **Inventory** | ![Inventory](/uploads/Commands/inventory.webp) | `i` | Display all items currently carried in your inventory. | |
+| **Count Gold** | ![Count Gold](/uploads/Commands/status-gold.webp) | `$` | Count the amount of gold you are carrying. | |
 | **Pick Up** | ![Pick Up](/uploads/Commands/pickup.webp) | `,` | Pick up items from the floor at your current position. | |
-| **Drop** | ![Drop](/uploads/Commands/dropmany.webp) | `d` | Drop an item onto the floor. | |
 | **Pick Up and Stash** | ![Stash](/uploads/Commands/picktobag.webp) | `;` | Pick up items and automatically insert them into the best container in your inventory. | New in GnollHack. |
+| **Autopickup** | ![Autopickup](/uploads/Commands/autopickup.webp) | `@` | Toggle the autopickup option on/off. | |
+| **Drop** | ![Drop](/uploads/Commands/dropmany.webp) | `d` | Drop an item onto the floor. | |
+| **Drop Multiple** | ![Drop Multiple](/uploads/Commands/dropmany.webp) | `Shift+d` | Drop multiple items from your inventory at once. | Alternate hotkey: `%`. |
 | **Examine** | ![Examine](/uploads/Commands/examine.webp) | `Alt+x` | Examine an item to view its detailed statistics and properties. | New in GnollHack. |
 | **Near Look** | ![Near Look](/uploads/Commands/lookhere.webp) | `:` | Look at the ground/items present at your current tile. | |
-| **Drop Multiple** | ![Drop Multiple](/uploads/Commands/dropmany.webp) | `Shift+d` | Drop multiple items from your inventory at once. | |
 | **Filtered Inventory** | ![Filtered Inventory](/uploads/Commands/droptypes.webp) | `Shift+i` | Display a filtered list of inventory items (e.g. unpaid items, specific item classes). | |
 | **Adjust Letters** | ![Adjust Letters](/uploads/Commands/missing_icon.webp) | `Alt+a` | Adjust inventory letters for items. | |
 
@@ -90,6 +92,7 @@ Commands to view, wear, and remove armor and accessories.
 | Command | Icon | Hotkey | Description | Notes |
 | :--- | :---: | :---: | :--- | :--- |
 | **Equipment** | ![Equipment](/uploads/Commands/worn.webp) | `*` | Show a list of all your equipped items (combining armor, weapons, rings, amulets, and tools). | |
+| **Show Worn Items** | ![Show Worn Items](/uploads/Commands/missing_icon.webp) | `]` | Display all items you are currently wearing. | |
 | **Wear Armor** | ![Wear](/uploads/Commands/wear.webp) | `Shift+w` | Put on a piece of armor (helmet, body armor, gloves, boots, etc.). | |
 | **Take Off Armor** | ![Take Off](/uploads/Commands/takeoff.webp) | `Shift+t` | Take off a single piece of armor you are currently wearing. | |
 | **Wear Many** | ![Wear Many](/uploads/Commands/wearmany.webp) | `Alt+w` | Put on multiple pieces of armor. | New in GnollHack. |
@@ -114,7 +117,10 @@ These commands open information screens, name entities, and control the user int
 | **Far Look** | ![Far Look](/uploads/Commands/lookfar.webp) | `/` | Look at a distant tile on the map to identify what symbol represents. | |
 | **Chat** | ![Chat](/uploads/Commands/chat.webp) | `Shift+c` | Chat with an adjacent monster, pet, or NPC. | |
 | **Yell for Pets** | ![Yell](/uploads/Commands/yell.webp) | `Alt+y` | Yell to summon your pet to your side. | New in GnollHack. Alternate hotkey: `Ctrl+y`. |
+| **View Pet** | ![View Pet](/uploads/Commands/missing_icon.webp) | `{` | View the status of your currently active pet. | Mobile only. |
 | **Dungeon Overview** | ![Dungeon Overview](/uploads/Commands/overview.webp) | `Ctrl+o` | Show the dungeon overview screen listing visited levels and features. | |
+| **Known Items** | ![Known Items](/uploads/Commands/missing_icon.webp) | `\` | Display a list of all object types that have been discovered/identified. | |
+| **Known Class** | ![Known Class](/uploads/Commands/missing_icon.webp) | `` ` `` | Display discovered object types for a specific category/class. | |
 | **Annotate Level** | ![Annotate Level](/uploads/Commands/engrave.webp) | `Ctrl+n` | Add a text annotation/note to the current dungeon level. | Alternate hotkey: `Alt+Shift+a`. |
 | **Name** | ![Name](/uploads/Commands/name.webp) | `Shift+n` | Name a specific monster, individual item, or category of items. | |
 | **Name Category** | ![Name Category](/uploads/Commands/name.webp) | `Alt+Shift+n` | Assign a name to a specific monster or category of objects. | |
@@ -122,6 +128,7 @@ These commands open information screens, name entities, and control the user int
 | **Previous Message** | ![Previous Message](/uploads/Commands/messages.webp) | `Ctrl+p` | Recall and display the previous message(s). | |
 | **Redraw Screen** | ![Redraw](/uploads/Commands/missing_icon.webp) | `Ctrl+r` | Redraw the entire screen. | |
 | **Use Monster Ability** | ![Monster Ability](/uploads/Commands/monster.webp) | `Alt+Shift+m` | Use a special ability of your current monster form (if polymorphed). | |
+| **What Does** | ![What Does](/uploads/Commands/missing_icon.webp) | `&` | Find out what a keyboard shortcut or command does. | |
 | **Help** | ![Help](/uploads/Commands/help.webp) | `h` | Display the help menu with game information and commands. | Alternate hotkey: `?`. |
 
 ### 🔍 Zoom and View Controls
@@ -170,6 +177,7 @@ Use the following commands to navigate the dungeon, climb stairs, rest, and sear
 | **Wait** | ![Wait](/uploads/Commands/wait.webp) | `.` | Rest or wait for one turn (does nothing; useful to let monsters approach or to pass time). | |
 | **Travel** | ![Travel](/uploads/Commands/travel.webp) | `_` | Automatically travel to a selected map tile using a pathfinding algorithm. | |
 | **Search** | ![Search](/uploads/Commands/search.webp) | `s` | Search adjacent tiles for hidden secret doors and traps (success depends on perception and luck). | |
+| **Identify Trap** | ![Identify Trap](/uploads/Commands/missing_icon.webp) | `^` | Show the type of an adjacent trap. | |
 | **Go Mode (Rush)** | ![Go Rush](/uploads/Commands/status-move.webp) | `g` | Move in a direction, stopping at interesting features (stops when seeing a monster, door, trap, etc.). | |
 | **Move Mode (Rush)** | ![Move Rush](/uploads/Commands/status-move.webp) | `m` | Move in a direction without picking up items on the ground. | |
 | **Go Mode (Run)** | ![Go Run](/uploads/Commands/status-move.webp) | `Shift+g` | Run in a direction until blocked or interrupted (stops at walls, monsters, or interesting objects). | |
