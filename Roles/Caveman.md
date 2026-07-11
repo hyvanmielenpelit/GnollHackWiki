@@ -2,7 +2,7 @@
 
 ## Description
 
-Strong warrior that starts with a club and a sling. The caveman has also a random beneficial amulet in the start.
+Strong warrior that starts with a club, a sling, and a [[/Monsters/saber-tooth tiger cub]] companion. The caveman has also a random beneficial amulet in the start.
 
 ## Allowed Races
 
@@ -22,6 +22,7 @@ Strong warrior that starts with a club and a sling. The caveman has also a rando
 
 ## Class Traits
 
+- Starts with a [[/Monsters/saber-tooth tiger cub]]
 - Can practice cannibalism
 - Gains extra score from amulets of life saving
 - Special achievement is to attain the level of Grand Master in Bludgeoning Weapons
