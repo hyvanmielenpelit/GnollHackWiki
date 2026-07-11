@@ -44,7 +44,7 @@ Commands to view, wear, and remove armor, accessories, and other equipped gear.
 | **Put On Accessory** | ![Put On](/uploads/Commands/puton.webp) | `Shift+p` | Put on an accessory such as a ring, amulet, or pair of glasses. | |
 | **Remove Accessory** | ![Remove](/uploads/Commands/remove.webp) | `Shift+r` | Remove an accessory (ring, amulet, etc.) that you are currently wearing. | |
 
-## 🛠️ General Item-Related Commands
+## 🛠️ General Item Commands
 
 Commands to eat, drink, apply tools, dig, engrave, dip, or break items.
 
@@ -101,7 +101,7 @@ Commands to converse with NPCs, pay shopping bills, mount steeds, or call pets.
 | **Pay Bill** | ![Pay Bill](/uploads/Commands/pay.webp) | `p` | Pay your shopping bill to the shopkeeper. | |
 | **Ride** | ![Ride](/uploads/Commands/ride.webp) | `Alt+Shift+r` | Mount or dismount a saddled steed. | |
 
-## 📖 Game Information Commands
+## 📖 Game Information
 
 Commands to search surroundings, view character stats or abilities, look at tiles, and review dungeon or monster history.
 
@@ -128,7 +128,7 @@ Commands to cast spells, view the spell menu, read scrolls, and mix spell compon
 | **Read** | ![Read](/uploads/Commands/read.webp) | `r` | Read a scroll, spellbook, or engraving. | |
 | **Mix Spells** | ![Mix](/uploads/Commands/mix.webp) | `Shift+x` | Mix material components (reagents) for a spell. | New in GnollHack. |
 
-## ⚙️ System Commands
+## ⚙️ System
 
 Commands to repeat the previous action, specify action repetition counts, or run extended command prompts.
 
@@ -140,7 +140,7 @@ Commands to repeat the previous action, specify action repetition counts, or run
 
 - <sup>1</sup> Number of actions works like this: press `n`, then write the number of actions in numerals, and then choose the action. For example, `n20s` searches 20 times.
 
-## 🛐 Religion-Related Commands
+## 🛐 Religion
 
 Commands to pray to your deity for intervention or offer sacrifices at altars.
 
