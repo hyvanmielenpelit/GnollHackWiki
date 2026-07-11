@@ -75,6 +75,15 @@ Commands to cast spells, use wands, read scrolls, and mix components.
 | **Read** | ![Read](/uploads/Commands/read.webp) | `r` | Read a scroll, spellbook, or engraving. | |
 | **Mix Spells** | ![Mix](/uploads/Commands/mix.webp) | `Shift+x` | Mix material components (reagents) for a spell. | New in GnollHack. |
 
+## 🗣️ Communication
+
+Commands to converse with NPCs, monsters, and summon pets.
+
+| Command | Icon | Hotkey | Description | Notes |
+| :--- | :---: | :---: | :--- | :--- |
+| **Chat** | ![Chat](/uploads/Commands/chat.webp) | `Shift+c` | Chat with an adjacent monster, pet, or NPC. | |
+| **Yell for Pets** | ![Yell](/uploads/Commands/yell.webp) | `Alt+y` | Yell to summon your pet to your side. | New in GnollHack. Alternate hotkey: `Ctrl+y`. |
+
 ## 👕 Equipment and Wearables
 
 Commands to view, wear, and remove armor and accessories.
@@ -98,8 +107,6 @@ These commands open information screens, name entities, and control the user int
 | **Abilities** | ![Abilities](/uploads/Commands/abilities.webp) | `Shift+a` | View your character's active and passive abilities (opens the status screen). | New in GnollHack. |
 | **Character Details** | ![Character Details](/uploads/Commands/you.webp) | `}` | Display detailed information, statistics, and attributes of your character. | New in GnollHack. |
 | **Look Far** | ![Look Far](/uploads/Commands/lookfar.webp) | `'` | Look at a distant tile on the map to identify what symbol represents. | |
-| **Chat** | ![Chat](/uploads/Commands/chat.webp) | `Shift+c` | Chat with an adjacent monster, pet, or NPC. | |
-| **Yell for Pets** | ![Yell](/uploads/Commands/yell.webp) | `Alt+y` | Yell to summon your pet to your side. | New in GnollHack. Alternate hotkey: `Ctrl+y`. |
 | **Dungeon Overview** | ![Dungeon Overview](/uploads/Commands/overview.webp) | `Ctrl+o` | Show the dungeon overview screen listing visited levels and features. | |
 | **Name** | ![Name](/uploads/Commands/name.webp) | `Shift+n` | Name a specific monster, individual item, or category of items. | |
 | **Use Monster Ability** | ![Monster Ability](/uploads/Commands/monster.webp) | `Alt+Shift+m` | Use a special ability of your current monster form (if polymorphed). | |
