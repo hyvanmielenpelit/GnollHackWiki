@@ -106,7 +106,7 @@
 | Ctrl + Key | Ctrl + Key Command | Description | Notes |
 | :--------: | :----------------- | :---------- | :---- |
 | Ctrl+a | Repeat | Redo/repeat the previous command. | |
-| Ctrl+b | Break | Break an item (like a wand or potion) in your inventory to release its magic or contents. | New in GnollHack. |
+| Ctrl+b | Break | Break an item in your inventory to release its magic or contents. | New in GnollHack. |
 | Ctrl+c | Call | Assign a name/call name to a monster, an object, or an object class. | |
 | Ctrl+d | Kick | Kick an adjacent door, chest, monster, or other object. | Alternate key. |
 | Ctrl+e | Detect | Detect hidden features on the map. | [[Wizard mode]] only. |
