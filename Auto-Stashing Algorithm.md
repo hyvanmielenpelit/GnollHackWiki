@@ -41,9 +41,9 @@ To prevent catastrophic magical explosions that destroy both the magic bag and i
 - It **never** auto-stashes a cancellation hazard (like a [[/Items/Wand of Cancellation]] or items with the magic-bag-destroying flag) into any magic bag.
 - If either the item's type or the [[/Items/Wand of Cancellation]] is **unidentified**, the algorithm plays it safe and treats **all wands** as potential cancellation hazards, stashing them only in normal sacks.
 
-## ⚙️ Settings and Options
+## ⚙️ Options
 
-Stashing options can be toggled in the [[Settings]] menu or options configuration file:
+Stashing behavior can be configured via [[options]]:
 
 | Option | Values | Default | Description |
 | :--- | :---: | :---: | :--- |
