@@ -199,7 +199,7 @@
 
 ### 🥋 Role Enhancements
 
-- **Monk Buffs** — The [[/Roles/Monk]] can do martial arts kicks using `k`, making boots of kicking highly valuable.
+- **Monk Buffs** — The [[/Roles/Monk]] can do martial arts kicks using `K`, making boots of kicking highly valuable.
 - **Revised Intrinsics** — Most roles have revised intrinsics per level.
 
 ### 🏁 Starting Equipment
