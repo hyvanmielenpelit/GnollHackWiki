@@ -28,7 +28,6 @@ Use these commands to view, organize, select, and inspect items in your inventor
 | **Drop** | ![Drop](/uploads/Commands/dropmany.webp) | `d` | Drop an item onto the floor. | |
 | **Drop Multiple** | ![Drop Multiple](/uploads/Commands/dropmany.webp) | `Shift+d` | Drop multiple items from your inventory at once. | Alternate hotkey: `%`. |
 | **Examine** | ![Examine](/uploads/Commands/examine.webp) | `Alt+x` | Examine an item to view its detailed statistics and properties. | New in GnollHack. |
-| **Near Look** | ![Near Look](/uploads/Commands/lookhere.webp) | `:` | Look at the ground/items present at your current tile. | |
 
 ## 🚪 Containers and Door Interaction
 
@@ -43,7 +42,7 @@ Commands for interacting with doors, chests, and bags.
 | **Force Lock** | ![Force Lock](/uploads/Commands/forcelock.webp) | `Alt+f` | Force a lock on a chest or door using a weapon or tool. | |
 | **Untrap** | ![Untrap](/uploads/Commands/untrap.webp) | `u` | Attempt to disarm a trap, untrap a container/door, or rescue a trapped monster. | Alternate hotkey: `Alt+u`. |
 
-## 🛠️ Consumables and General Tools
+## 🛠️ Consumables and Tools
 
 These commands are used to eat, drink, apply utility tools, and manage light sources.
 
@@ -75,7 +74,7 @@ Commands to cast spells, use wands, read scrolls, and mix components.
 | **Read** | ![Read](/uploads/Commands/read.webp) | `r` | Read a scroll, spellbook, or engraving. | |
 | **Mix Spells** | ![Mix](/uploads/Commands/mix.webp) | `Shift+x` | Mix material components (reagents) for a spell. | New in GnollHack. |
 
-## 🗣️ Communication
+## 🗣️ Communication and Interaction with NPCs
 
 Commands to converse with NPCs, monsters, and summon pets.
 
@@ -83,6 +82,7 @@ Commands to converse with NPCs, monsters, and summon pets.
 | :--- | :---: | :---: | :--- | :--- |
 | **Chat** | ![Chat](/uploads/Commands/chat.webp) | `Shift+c` | Chat with an adjacent monster, pet, or NPC. | |
 | **Yell for Pets** | ![Yell](/uploads/Commands/yell.webp) | `Alt+y` | Yell to summon your pet to your side. | New in GnollHack. Alternate hotkey: `Ctrl+y`. |
+| **Pay Bill** | ![Pay Bill](/uploads/Commands/pay.webp) | `p` | Pay your shopping bill to the shopkeeper. | |
 
 ## 👕 Equipment and Wearables
 
@@ -98,7 +98,7 @@ Commands to view, wear, and remove armor and accessories.
 | **Put On Accessory** | ![Put On](/uploads/Commands/puton.webp) | `Shift+p` | Put on an accessory such as a ring, amulet, or pair of glasses. | |
 | **Remove Accessory** | ![Remove](/uploads/Commands/remove.webp) | `Shift+r` | Remove an accessory (ring, amulet, etc.) that you are currently wearing. | |
 
-## 📖 Information and UI Controls
+## 📖 Game Information Commands
 
 These commands open information screens, name entities, and control the user interface.
 
@@ -109,25 +109,33 @@ These commands open information screens, name entities, and control the user int
 | **Look Far** | ![Look Far](/uploads/Commands/lookfar.webp) | `'` | Look at a distant tile on the map to identify what symbol represents. | |
 | **Dungeon Overview** | ![Dungeon Overview](/uploads/Commands/overview.webp) | `Ctrl+o` | Show the dungeon overview screen listing visited levels and features. | |
 | **Name** | ![Name](/uploads/Commands/name.webp) | `Shift+n` | Name a specific monster, individual item, or category of items. | |
-| **Use Monster Ability** | ![Monster Ability](/uploads/Commands/monster.webp) | `Alt+Shift+m` | Use a special ability of your current monster form (if polymorphed). | |
-| **Help** | ![Help](/uploads/Commands/help.webp) | `h` | Display the help menu with game information and commands. | Alternate hotkey: `?`. |
+| **Near Look** | ![Near Look](/uploads/Commands/lookhere.webp) | `:` | Look at the ground/items present at your current tile. | |
+| **Vanquished Creatures** | ![Vanquished](/uploads/Commands/killed.webp) | `Alt+k` | Show the list of monsters you have killed during the game. | |
+| **Genocided Monsters** | ![Genocided](/uploads/Commands/genocided.webp) | `Alt+g` | Show a list of all genocided monster species. | |
 
-## ⚙️ Game Control and System Meta Commands
+## ⚙️ Meta Commands
 
 Commands that manage the game state, save progress, or display settings.
 
 | Command | Icon | Hotkey | Description | Notes |
 | :--- | :---: | :---: | :--- | :--- |
+| **Help** | ![Help](/uploads/Commands/help.webp) | `h` | Display the help menu with game information and commands. | Alternate hotkey: `?`. |
+
+## System Commands
+
+| Command | Icon | Hotkey | Description | Notes |
+| :--- | :---: | :---: | :--- | :--- |
 | **Repeat** | ![Repeat](/uploads/Commands/repeat.webp) | `Ctrl+a` | Redo/repeat the previous command. | |
 | **Number of Actions**<sup>1</sup> | ![Number of Actions](/uploads/Commands/count.webp) | `n` | Specify a repetition count before entering a command. | New in GnollHack. Alternate hotkey: `Alt+n`. |
-| **Pray** | ![Pray](/uploads/Commands/pray.webp) | `Alt+p` | Pray to your deity for help, healing, or safety. | See the [[Praying]] guide for details. |
-| **Offer Sacrifice** | ![Offer](/uploads/Commands/offer.webp) | `Alt+o` | Offer an item or corpse as a sacrifice on an altar to your deity. | |
 | **Extended Command** | ![Extended Command](/uploads/Commands/extended.webp) | `#` | Prompt for and execute an extended command (e.g. `#pray`, `#sit`, `#chat`). | |
-| **Pay Bill** | ![Pay Bill](/uploads/Commands/pay.webp) | `p` | Pay your shopping bill to the shopkeeper. | |
-| **Vanquished Creatures** | ![Vanquished](/uploads/Commands/killed.webp) | `Alt+k` | Show the list of monsters you have killed during the game. | |
-| **Genocided Monsters** | ![Genocided](/uploads/Commands/genocided.webp) | `Alt+g` | Show a list of all genocided monster species. | |
 
 - <sup>1</sup> Number of actions works like this: press `n`, then write the number of actions in numerals, and then choose the action. For example, `n20s` searches 20 times.
+
+## Special Abilities
+
+| Command | Icon | Hotkey | Description | Notes |
+| :--- | :---: | :---: | :--- | :--- |
+| **Use Monster Ability** | ![Monster Ability](/uploads/Commands/monster.webp) | `Alt+Shift+m` | Use a special ability of your current monster form (if polymorphed). | |
 
 ## 🧭 Movement and Exploration
 
@@ -143,6 +151,14 @@ Use the following commands to navigate the dungeon, climb stairs, rest, and sear
 | **Jump** | ![Jump](/uploads/Commands/jump.webp) | `j` | Jump to a nearby tile (requires character jumping ability). | Alternate hotkey: `Alt+j`. |
 | **Ride** | ![Ride](/uploads/Commands/ride.webp) | `Alt+Shift+r` | Mount or dismount a saddled steed. | |
 | **Sit** | ![Sit](/uploads/Commands/sit.webp) | `Ctrl+s` | Sit down on the floor, a throne, or another seat (sitting on a throne can trigger magical effects). | |
+
+## Religion-Related Commands
+
+| Command | Icon | Hotkey | Description | Notes |
+| :--- | :---: | :---: | :--- | :--- |
+| **Pray** | ![Pray](/uploads/Commands/pray.webp) | `Alt+p` | Pray to your deity for help, healing, or safety. | See the [[Praying]] guide for details. |
+| **Offer Sacrifice** | ![Offer](/uploads/Commands/offer.webp) | `Alt+o` | Offer an item or corpse as a sacrifice on an altar to your deity. | |
+
 
 ## 🧙‍♂️ Wizard Mode Commands
 
