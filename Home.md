@@ -53,7 +53,7 @@ GnollHack is best understood as a modernized version of NetHack that makes the c
 
 ## 📖 Reference
 
-- **[[Commands]]** — A reference of available commands sorted by theme.
+- **[[Commands]]** — Commands available as clickable GUI buttons in the modern versions of the game.
 - **[[Keyboard Shortcuts]]** — GnollHack supports NetHack-style keyboard shortcuts, which are especially useful when playing with a physical keyboard 
 
 ## ⚙️ Game Configuration
