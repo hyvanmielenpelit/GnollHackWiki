@@ -14,6 +14,7 @@ You will find here the items that are new or changed in GnollHack. Also items th
 - **[[Reagents]]**
 - **[[Rings]]**
 - **[[Scrolls]]**
+- **[[/Items/Spellbooks]]**
 - **[[Tools]]**
 - **[[Wands]]**
 - **[[Weapons]]**

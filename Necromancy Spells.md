@@ -26,9 +26,11 @@
 | [[/Spells/Control undead]] | Level 4 |
 | [[/Spells/Greater undeath replenishment]] | Level 4 |
 | [[/Spells/Mass raise zombie]] | Level 4 |
+| [[/Spells/Unholy mount]] | Level 4 |
 | [[/Spells/Create giant mummy]] | Level 5 |
 | [[/Spells/Raise skeleton lord]] | Level 5 |
 | [[/Spells/Summon demon]] | Level 6 |
+| [[/Spells/Dominate undead]] | Level 7 |
 | [[/Spells/Mass create mummy]] | Level 7 |
 | [[/Spells/Raise skeleton king]] | Level 7 |
 | [[/Spells/Create dracolich]] | Level 8 |

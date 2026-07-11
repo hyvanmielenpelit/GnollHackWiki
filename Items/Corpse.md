@@ -11,5 +11,7 @@
 2. [[/Spells/Call ghoul]]
 3. [[/Spells/Flesh to stone]] (chickatrice)
 4. [[/Spells/Gaze of petrification]] (chickatrice)
-5. [[/Spells/Polymorph]] (chameleon)
-6. [[/Spells/Touch of petrification]] (chickatrice)
+5. [[/Spells/Polymorph other]] (chameleon)
+6. [[/Spells/Polymorph self]] (chameleon)
+7. [[/Spells/Shape change]] (chameleon)
+8. [[/Spells/Touch of petrification]] (chickatrice)
