@@ -12,15 +12,13 @@ There are three runewords in GnollHack:
 
 ## 📝 Engraving Mechanics
 
-Engraving a runeword on the floor requires using the **Engrave** command. Beginners can do this manually, or configure a "Quick Engrave" command for convenience.
-
 ### 🚀 Step-by-Step Guide: How to Engrave
 
 There are two primary ways to engrave runewords on the floor: **Manual Engraving** and **Quick Engrave**.
 
-#### 1️⃣ Manual Engraving
+#### 1️⃣ Manual Engraving: Engrave Command
 
-Use this method if you want to engrave a specific word or use a specific item from your inventory.
+Use the **Engrave** command (`E`) if you want to engrave a specific word or use a specific item from your inventory.
 
 | Step | Action | Example (Writing in Dust) |
 | :--- | :--- | :--- |
