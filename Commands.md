@@ -166,10 +166,10 @@ Miscellaneous utility commands for resting, naming, sitting, using polymorphed m
 
 Developer-only debug commands available when playing in [[Wizard mode]].
 
-| Command | Icon | Hotkey | Description | Notes |
-| :--- | :---: | :---: | :--- | :--- |
-| **Wish** | ![Wish](/uploads/Commands/wish.webp) | `Ctrl+w` | Make a wish for any item. | Wizard mode only. |
-| **Reveal Map** | ![Reveal Map](/uploads/Commands/reveal.webp) | `Ctrl+f` | Reveal the entire map of the current level. | Wizard mode only. |
-| **Identify** | ![Identify](/uploads/Commands/identify.webp) | `Ctrl+i` | Identify all items in your inventory. | Wizard mode only. |
-| **Level Teleport** | ![Level Teleport](/uploads/Commands/levelport.webp) | `Ctrl+v` | Teleport to a different level of the dungeon. | Wizard mode only. |
-| **Genesis** | ![Genesis](/uploads/Commands/genesis.webp) | `Alt+m` | Create a monster. | Wizard mode only. |
+| Command | Icon | Hotkey | Description |
+| :--- | :---: | :---: | :--- |
+| **Wish** | ![Wish](/uploads/Commands/wish.webp) | `Ctrl+w` | Make a wish for any item. |
+| **Reveal Map** | ![Reveal Map](/uploads/Commands/reveal.webp) | `Ctrl+f` | Reveal the entire map of the current level. |
+| **Identify** | ![Identify](/uploads/Commands/identify.webp) | `Ctrl+i` | Identify all items in your inventory. |
+| **Level Teleport** | ![Level Teleport](/uploads/Commands/levelport.webp) | `Ctrl+v` | Teleport to a different level of the dungeon. |
+| **Genesis** | ![Genesis](/uploads/Commands/genesis.webp) | `Alt+m` | Create a monster. |
