@@ -89,7 +89,7 @@ Performing physical actions on the square containing an engraving causes charact
 
 ### ⚙️ Mechanics
 
-- **Activation**: The player must be standing on the square containing the engraving (or the player's displaced image must be on that square).
+- **Activation**: The player must be standing on the square containing the engraving.
 - **Effect**: Most hostile monsters attempting to move onto the square or attack the player will be frightened, causing them to turn around and flee for a random number of turns.
 - **Strict Spelling**: The engraving must match the word strictly case-insensitively (e.g., "elbereth" or "Elbereth").
 
@@ -138,7 +138,7 @@ Any active offensive action against an Elbereth-vulnerable (or peaceful) monster
 - **Other actions**: Kicking a monster, or triggering explosions/area-of-effect hazards that damage them.
 
 > ⚠️ **Warning:** The Hypocrite Penalty causes the engraving to instantly disappear, **even if it was burned permanently into the floor with a wand**. This is the only way a burned engraving can be erased.
->
+
 > ℹ️ **Note:** You are only penalized if the monster you attack respects `Elbereth` (i.e. is scared by it) or if the monster is peaceful. Attacking an immune monster (like a [[/Monsters/Minotaur]] or a unique boss) from an `Elbereth` square will not trigger the penalty.
 
 ### 🏆 Conduct and Achievements
@@ -152,10 +152,10 @@ Any active offensive action against an Elbereth-vulnerable (or peaceful) monster
 
 ### ⚙️ Mechanics
 
-- **Looting Protection**: Hostile monsters and pets are prevented from picking up items (including gold, [[weapons]], [[armor]], and [[comestibles]]) or eating food on a square engraved with `Gilthoniel`.
-- **Branch Restrictions**: This protective effect only functions outside of [[/Dungeon/Gehennom]].
+- **Looting Protection**: Hostile monsters and pets are prevented from picking up items or eating food on a square engraved with `Gilthoniel`.
+- **Branch Restrictions**: This protective effect only functions outside [[/Dungeon/Gehennom]].
 - **Exceptions**: Shopkeepers, vault guards, and the [[/Monsters/Wizard of Yendor]] ignore this restriction and can loot items from a `Gilthoniel` square freely.
-- **Erosion Immunity**: Engravings of `Gilthoniel` are immune to all forms of smudging and erosion. This immunity applies everywhere (including inside Gehennom, even though the looting protection is inactive there).
+- **Erosion Immunity**: Engravings of `Gilthoniel` are immune to all forms of smudging and erosion.
 - **Natural Generation**: When an Armory room is generated outside Gehennom, a [[/Items/chest]] or [[/Items/large box]] in the room is created with `Gilthoniel` written underneath it.
 
 ## 😈 Morgoth
@@ -167,7 +167,7 @@ Any active offensive action against an Elbereth-vulnerable (or peaceful) monster
 - **Looting Protection**: Hostile monsters and pets are prevented from picking up items or eating food on a square engraved with `Morgoth`.
 - **Branch Restrictions**: This protective effect only functions inside [[/Dungeon/Gehennom]].
 - **Exceptions**: Shopkeepers and the [[/Monsters/Wizard of Yendor]] are immune to the looting prevention and can pick up items from a `Morgoth` square.
-- **Erosion Immunity**: Like Gilthoniel, `Morgoth` engravings are immune to all forms of smudging and erosion. This immunity applies everywhere (both inside and outside Gehennom).
+- **Erosion Immunity**: `Morgoth` engravings are immune to all forms of smudging and erosion.
 
 ## 🎨 Visual Effects
 
