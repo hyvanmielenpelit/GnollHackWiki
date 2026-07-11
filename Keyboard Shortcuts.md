@@ -2,42 +2,142 @@
 
 > ℹ️ **Note:** Keyboard shortcuts on this wiki are written in lowercase notation. A single letter (e.g. `e`) represents the normal key. Combination shortcuts are written with a plus sign `+` and lowercase letters (e.g. `Shift+e`, `Alt+e`, `Alt+Shift+e`).
 
-## Commands Bound to Letters
+## ⌨️ Commands Bound to Letters
 
-| Key | Key Command | Shift + Key | Shift + Key Command | Alt + Key | Alt + Key Command | Ctrl + Key | Ctrl + Key Command |
-| :-: | :------ | :-: | :---------- | :-: | :--------- | :-: | :-------- |
-| a | Apply | *Shift+a* | *Abilities (status screen)* | Alt+a | Adjust | Ctrl+a | Repeat |
-| *b* | *Take items out of **b**ag in inventory* | *Shift+b* | *Put items into **B**ag in inventory* |  |  | *Ctrl+b* | *Break* |
-| c | Close door | Shift+c | Chat | *Alt+c* | *Commands menu* | Ctrl+c | Call |
-| d | Drop | Shift+d | Drop multiple | Alt+d | Dip | Ctrl+d | Kick |
-| e | Eat | Shift+e | Engrave | Alt+e | Wipe face | Ctrl+e | Detect _(wizard mode only)_ |
-| f | Fire | Shift+f | Fight | Alt+f | Force lock | Ctrl+f | Reveal map _(wizard mode only)_ |
-| g | Go mode — Rush | Shift+g | Go mode — Run | Alt+g | Genocided monsters | *Ctrl+g* | *Dig* |
-| h | Help | Shift+h |  | *Alt+h* | *Handedness* | Ctrl+h |  |
-| i | Inventory | Shift+i | Inventory of specific types | Alt+i | Invoke | Ctrl+i | Identify _(wizard mode only)_ |
-| j | Jump | Shift+j |  | Alt+j | Jump | Ctrl+j |  |
-| k | Kick _(when Vi-keys are disabled)_ | Shift+k |  | Alt+k | Vanquished creatures | Ctrl+k |  |
-| l | Loot | Shift+l | Look | Alt+l | Loot | *Ctrl+l* | *Light/Snuff out* |
-| m | Move mode — Rush | Shift+m | Move mode — Run | Alt+m | Genesis _(wizard mode only)_ | Ctrl+m |  |
-| n | *Number of actions*<sup>1</sup> | Shift+n | Name | *Alt+n* | *Number of actions (alternate)* | Ctrl+n | Annotate dungeon level |
-| o | Open door | Shift+o | Options | Alt+o | Offer sacrifice | Ctrl+o | Dungeon overview |
-| p | Pay bill | Shift+p | Put on | Alt+p | Pray | Ctrl+p | Previous message |
-| q | Drink (quaff) | Shift+q | Quiver | Alt+q | Quit | Ctrl+q |  |
-| r | Read | Shift+r | Remove | Alt+r | Rub | Ctrl+r | Redraw screen |
-| s | Search | Shift+s | Skills | Alt+s | Save | Ctrl+s | Sit |
-| t | Throw | Shift+t | Take off | Alt+t | Take off many | Ctrl+t | Teleport |
-| u | Untrap | Shift+u |  | Alt+u | Untrap | Ctrl+u |  |
-| v | Version info | Shift+v | Game history info | Alt+v | GnollHack library info | Ctrl+v | Level teleport _(wizard mode only)_ |
-| w | Wield weapon | Shift+w | Wear armor | *Alt+w* | *Wear many* | Ctrl+w | Wish _(wizard mode only)_ |
-| x | Swap weapons | *Shift+x* | *Mix spells* | *Alt+x* | *Examine* | Ctrl+x | Dual weapon mode |
-| *y* | *Take loot out of container on floor (**y**ank)* | *Shift+y* | *Put loot into container on floor (**Y**ank)* | *Alt+y* | *Yell for pets* | *Ctrl+y* | *Yell for pets* |
-| z | Zap wand | Shift+z | Cast spell | *Alt+z* | *View spell* | Ctrl+z |  |
+### ⌨️ Normal Key Commands
+
+| Key | Key Command |
+| :-: | :---------- |
+| a | Apply |
+| *b* | *Take items out of **b**ag in inventory* |
+| c | Close door |
+| d | Drop |
+| e | Eat |
+| f | Fire |
+| g | Go mode — Rush |
+| h | Help |
+| i | Inventory |
+| j | Jump |
+| k | Kick _(when Vi-keys are disabled)_ |
+| l | Loot |
+| m | Move mode — Rush |
+| n | *Number of actions*<sup>1</sup> |
+| o | Open door |
+| p | Pay bill |
+| q | Drink (quaff) |
+| r | Read |
+| s | Search |
+| t | Throw |
+| u | Untrap |
+| v | Version info |
+| w | Wield weapon |
+| x | Swap weapons |
+| *y* | *Take loot out of container on floor (**y**ank)* |
+| z | Zap wand |
 
 - Commands in *italic* are new commands in GnollHack that do not appear in NetHack.
 - <sup>1</sup> Number of actions works like this: You first press `n`, then write the number of actions in numerals, and then choose the action. For example, `n20s` searches 20 times.
 
+### ⌨️ Shift Key Commands
 
-## Double Modifier Commands Bound to Letters
+| Shift + Key | Shift + Key Command |
+| :---------: | :------------------ |
+| *Shift+a* | *Abilities (status screen)* |
+| *Shift+b* | *Put items into **B**ag in inventory* |
+| Shift+c | Chat |
+| Shift+d | Drop multiple |
+| Shift+e | Engrave |
+| Shift+f | Fight |
+| Shift+g | Go mode — Run |
+| Shift+h |  |
+| Shift+i | Inventory of specific types |
+| Shift+j |  |
+| Shift+k |  |
+| Shift+l | Look |
+| Shift+m | Move mode — Run |
+| Shift+n | Name |
+| Shift+o | Options |
+| Shift+p | Put on |
+| Shift+q | Quiver |
+| Shift+r | Remove |
+| Shift+s | Skills |
+| Shift+t | Take off |
+| Shift+u |  |
+| Shift+v | Game history info |
+| Shift+w | Wear armor |
+| *Shift+x* | *Mix spells* |
+| *Shift+y* | *Put loot into container on floor (**Y**ank)* |
+| Shift+z | Cast spell |
+
+- Commands in *italic* are new commands in GnollHack that do not appear in NetHack.
+
+### ⌨️ Alt Key Commands
+
+| Alt + Key | Alt + Key Command |
+| :-------: | :---------------- |
+| Alt+a | Adjust |
+| Alt+b |  |
+| *Alt+c* | *Commands menu* |
+| Alt+d | Dip |
+| Alt+e | Wipe face |
+| Alt+f | Force lock |
+| Alt+g | Genocided monsters |
+| *Alt+h* | *Handedness* |
+| Alt+i | Invoke |
+| Alt+j | Jump |
+| Alt+k | Vanquished creatures |
+| Alt+l | Loot |
+| Alt+m | Genesis _(wizard mode only)_ |
+| *Alt+n* | *Number of actions (alternate)* |
+| Alt+o | Offer sacrifice |
+| Alt+p | Pray |
+| Alt+q | Quit |
+| Alt+r | Rub |
+| Alt+s | Save |
+| Alt+t | Take off many |
+| Alt+u | Untrap |
+| Alt+v | GnollHack library info |
+| *Alt+w* | *Wear many* |
+| *Alt+x* | *Examine* |
+| *Alt+y* | *Yell for pets* |
+| *Alt+z* | *View spell* |
+
+- Commands in *italic* are new commands in GnollHack that do not appear in NetHack.
+
+### ⌨️ Ctrl Key Commands
+
+| Ctrl + Key | Ctrl + Key Command |
+| :--------: | :----------------- |
+| Ctrl+a | Repeat |
+| *Ctrl+b* | *Break* |
+| Ctrl+c | Call |
+| Ctrl+d | Kick |
+| Ctrl+e | Detect _(wizard mode only)_ |
+| Ctrl+f | Reveal map _(wizard mode only)_ |
+| *Ctrl+g* | *Dig* |
+| Ctrl+h |  |
+| Ctrl+i | Identify _(wizard mode only)_ |
+| Ctrl+j |  |
+| Ctrl+k |  |
+| *Ctrl+l* | *Light/Snuff out* |
+| Ctrl+m |  |
+| Ctrl+n | Annotate dungeon level |
+| Ctrl+o | Dungeon overview |
+| Ctrl+p | Previous message |
+| Ctrl+q |  |
+| Ctrl+r | Redraw screen |
+| Ctrl+s | Sit |
+| Ctrl+t | Teleport |
+| Ctrl+u |  |
+| Ctrl+v | Level teleport _(wizard mode only)_ |
+| Ctrl+w | Wish _(wizard mode only)_ |
+| Ctrl+x | Dual weapon mode |
+| *Ctrl+y* | *Yell for pets* |
+| Ctrl+z |  |
+
+- Commands in *italic* are new commands in GnollHack that do not appear in NetHack.
+
+## ⌨️ Double Modifier Commands Bound to Letters
 
 | Alt + Shift + Key | Alt + Shift + Key Command |
 | :---------------: | :------------------------ |
@@ -55,7 +155,7 @@
 - <sup>1</sup> The polearm can also be a swap weapon.
 
 
-## Other Commands
+## ⌨️ Other Commands
 
 | Key | Key Command |
 | :-: | :---------- |
@@ -80,7 +180,7 @@
 
 - Commands in *italic* are new commands in GnollHack that do not appear in NetHack.
 
-## Movement By Arrow Keys
+## 🧭 Movement By Arrow Keys
 
 | Key | Direction | Ctrl + Key | Direction | Alt + Key | Direction |
 | :-: | :-------: | :--------: | :-------: | :-------: | :-------: |
@@ -100,14 +200,14 @@ Please see the table below for how the keys map by direction:
 </table>
 
 
-## Movement by Number Pad
+## 🧭 Movement by Number Pad
 
 While **Num Lock** is **on**, you can use the number pad for movement. 
 
 - 1–4, 6–9 for directions.
 - 5 in the middle enables the run mode.
 
-## Movement by Regular Number Keys
+## 🧭 Movement by Regular Number Keys
 
 The directions work also without a number pad with regular number keys:
 
@@ -121,7 +221,7 @@ The directions work also without a number pad with regular number keys:
 
 5 in the middle enables the run mode.
 
-## Zoom and View Controls
+## 🔍 Zoom and View Controls
 
 You can adjust the map zoom level using the following keyboard shortcuts:
 
@@ -135,7 +235,7 @@ You can adjust the map zoom level using the following keyboard shortcuts:
 - Commands in *italic* are new commands in GnollHack that do not appear in NetHack.
 
 
-## Vi-Keys
+## ⌨️ Vi-Keys
 
 You can activate vi-keys in one of the following ways:
 
@@ -153,7 +253,7 @@ When you have vi-keys enabled, you can use the following keys for movement:
 </table>
 
 
-### Alternate Key Bindings When Vi-Keys Are Enabled
+### ⌨️ Alternate Key Bindings When Vi-Keys Are Enabled
 
 | Normal Key | Command | Alternate Key |
 | :--------: | :------ | :-----------: |
@@ -174,7 +274,7 @@ When you have vi-keys enabled, you can use the following keys for movement:
 - <sup>1</sup> When you press a number key, the game automatically assumes that it's the number of actions command.
 
 
-## Legacy Keyboard Shortcuts
+## ⌨️ Legacy Keyboard Shortcuts
 
 The following keyboard shortcuts are not supported by the modern GnollHack clients and are only available in the legacy Windows version GnollHack:
 
