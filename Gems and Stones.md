@@ -18,6 +18,7 @@ Gems are the same as in NetHack:
 - [[/Items/Opal]]
 - [[/Items/Chrysoberyl]]
 - [[/Items/Garnet]]
+- [[/Items/Gem of seeing]]
 - [[/Items/Amethyst]]
 - [[/Items/Jasper]]
 - [[/Items/Fluorite]]
