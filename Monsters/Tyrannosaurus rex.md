@@ -40,4 +40,4 @@ St:25 Dx:14 Co:20 In:2 Wi:2 Ch:1
 
 ## Picture
 
-![Tyrannosaurus rex](/uploads/Monsters/Tyrannosaurus rex/tyrannosaurus_rex.webp)
+![Tyrannosaurus rex](/uploads/Monsters/Tyrannosaurus%20rex/tyrannosaurus_rex.webp)

@@ -40,4 +40,4 @@ St:25 Dx:18 Co:18 In:4 Wi:4 Ch:1
 
 ## Picture
 
-![Infernal pteranodon](/uploads/Monsters/Infernal pteranodon/infernal_pteranodon.webp)
+![Infernal pteranodon](/uploads/Monsters/Infernal%20pteranodon/infernal_pteranodon.webp)

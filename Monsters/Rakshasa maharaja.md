@@ -47,4 +47,4 @@ St:18/** Dx:20 Co:20 In:20 Wi:18 Ch:22
 
 ## Picture
 
-![Rakshasa maharaja](/uploads/Monsters/Rakshasa maharaja/rakshasa_maharaja.webp)
+![Rakshasa maharaja](/uploads/Monsters/Rakshasa%20maharaja/rakshasa_maharaja.webp)

@@ -44,4 +44,4 @@ St:18 Dx:18 Co:18 In:18 Wi:16 Ch:20
 
 ## Picture
 
-![Rakshasa rajah](/uploads/Monsters/Rakshasa rajah/rakshasa_rajah.webp)
+![Rakshasa rajah](/uploads/Monsters/Rakshasa%20rajah/rakshasa_rajah.webp)

@@ -39,4 +39,4 @@ St:21 Dx:12 Co:18 In:5 Wi:5 Ch:3
 
 ## Picture
 
-![Giant gorilla](/uploads/Monsters/Giant gorilla/giant_gorilla.webp)
+![Giant gorilla](/uploads/Monsters/Giant%20gorilla/giant_gorilla.webp)

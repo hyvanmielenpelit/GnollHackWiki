@@ -36,4 +36,4 @@ St:18/** Dx:16 Co:18 In:2 Wi:2 Ch:1
 
 ## Picture
 
-![Large saber-tooth tiger](/uploads/Monsters/Large saber-tooth tiger/large_saber-tooth_tiger.webp)
+![Large saber-tooth tiger](/uploads/Monsters/Large%20saber-tooth%20tiger/large_saber-tooth_tiger.webp)

@@ -41,4 +41,4 @@ St:12 Dx:15 Co:16 In:15 Wi:16 Ch:16
 
 ## Picture
 
-![Orc hermit](/uploads/Monsters/Orc hermit/orc_hermit.webp) ![Orc hermit](/uploads/Monsters/Orc hermit/orc_hermit_female.webp)
+![Orc hermit](/uploads/Monsters/Orc%20hermit/orc_hermit.webp) ![Orc hermit](/uploads/Monsters/Orc%20hermit/orc_hermit_female.webp)

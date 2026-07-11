@@ -40,4 +40,4 @@ St:25 Dx:14 Co:20 In:2 Wi:2 Ch:1
 
 ## Picture
 
-![Juvenile tyrannosaurus rex](/uploads/Monsters/Juvenile tyrannosaurus rex/juvenile_tyrannosaurus_rex.webp)
+![Juvenile tyrannosaurus rex](/uploads/Monsters/Juvenile%20tyrannosaurus%20rex/juvenile_tyrannosaurus_rex.webp)

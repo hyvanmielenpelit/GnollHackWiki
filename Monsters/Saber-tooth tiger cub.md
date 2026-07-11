@@ -35,4 +35,4 @@ St:14 Dx:16 Co:14 In:2 Wi:2 Ch:1
 
 ## Picture
 
-![Saber-tooth tiger cub](/uploads/Monsters/Saber-tooth tiger cub/saber-tooth_tiger_cub.webp)
+![Saber-tooth tiger cub](/uploads/Monsters/Saber-tooth%20tiger%20cub/saber-tooth_tiger_cub.webp)

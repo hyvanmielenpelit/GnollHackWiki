@@ -39,4 +39,4 @@ St:18 Dx:12 Co:16 In:2 Wi:2 Ch:1
 
 ## Picture
 
-![Tyrannosaurus rex hatchling](/uploads/Monsters/Tyrannosaurus rex hatchling/tyrannosaurus_rex_hatchling.webp)
+![Tyrannosaurus rex hatchling](/uploads/Monsters/Tyrannosaurus%20rex%20hatchling/tyrannosaurus_rex_hatchling.webp)

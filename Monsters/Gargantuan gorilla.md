@@ -40,4 +40,4 @@ St:24 Dx:12 Co:20 In:5 Wi:5 Ch:3
 
 ## Picture
 
-![Gargantuan gorilla](/uploads/Monsters/Gargantuan gorilla/gargantuan_gorilla.webp)
+![Gargantuan gorilla](/uploads/Monsters/Gargantuan%20gorilla/gargantuan_gorilla.webp)

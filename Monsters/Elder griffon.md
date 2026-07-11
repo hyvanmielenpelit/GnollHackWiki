@@ -41,4 +41,4 @@ St:18/** Dx:16 Co:18 In:4 Wi:4 Ch:2
 
 ## Picture
 
-![Elder griffon](/uploads/Monsters/Elder griffon/elder_griffon.webp)
+![Elder griffon](/uploads/Monsters/Elder%20griffon/elder_griffon.webp)
