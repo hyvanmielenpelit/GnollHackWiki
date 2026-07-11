@@ -12,7 +12,7 @@
 
 ## Material components - 1 casting
 
-1. a noncursed obsidian
+1. an obsidian
 
 ## Description
 
