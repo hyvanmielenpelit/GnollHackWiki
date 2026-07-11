@@ -1,5 +1,7 @@
 ![Keyboard Shortcuts](/uploads/Keyboard%20Shortcuts/keyboard-shortcuts-q85.webp)
 
+> 👉 **This page lists all the keyboard shortcuts available in GnollHack, which are especially useful when playing the game with a physical keyboard.**
+
 > ℹ️ **Note:** Keyboard shortcuts on this wiki are written in lowercase notation. A single letter (e.g. `e`) represents the normal key. Combination shortcuts are written with a plus sign `+` and lowercase letters (e.g. `Shift+e`, `Alt+e`, `Alt+Shift+e`).
 
 > ℹ️ **Note:** Commands in *italic* are new commands in GnollHack that do not appear in NetHack.
