@@ -29,7 +29,7 @@ Peaceful aligned priests offer several services to characters in exchange for go
 ### 🔮 Divination
 
 - **Divination:** Inspects the player's divine status. This service provides information on:
-  - Whether you can safely Pray (`Alt-p`).
+  - Whether you can safely Pray (`Alt+P`).
   - Your deity's anger level.
   - Your prayer timeout status.
   - Your current Luck value.

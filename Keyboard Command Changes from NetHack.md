@@ -29,25 +29,25 @@ If you lack a number pad on your keyboard, you can use the following keys for mo
  
 ## Command Keys Changed in GnollHack
 
-* Chat (`C`)
-* Name (`N`)
-* Skills (`S`)
-* Sit (`Ctrl-s`)
-* Save (`Alt-s`)
-* Take off many (`Alt-t`)
+* Chat (`Shift+C`)
+* Name (`Shift+N`)
+* Skills (`Shift+S`)
+* Sit (`Ctrl+S`)
+* Save (`Alt+S`)
+* Take off many (`Alt+T`)
 
 ## New Commands in GnollHack
 
-* Abilities (`A`)
-* Break (`Ctrl-b`)
-* Commands menu (`Alt-c`)
-* Dig (`Ctrl-g`) (useful in garden rooms for finding roots)
+* Abilities (`Shift+A`)
+* Break (`Ctrl+B`)
+* Commands menu (`Alt+C`)
+* Dig (`Ctrl+G`) (useful in garden rooms for finding roots)
 * Character details (`}`)
-* Mix spells (`X`)
-* Examine (`Alt-x`)
-* View spell (`Alt-z`)
+* Mix spells (`Shift+X`)
+* Examine (`Alt+X`)
+* View spell (`Alt+Z`)
 * Spell menu (`+`)
-* Yell for pets (`Ctrl-y` / `Alt-y`)
+* Yell for pets (`Ctrl+Y` / `Alt+Y`)
 
 ## Command Behaviours Changed in GnollHack
 

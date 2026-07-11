@@ -4,7 +4,7 @@
 
 ## Introduction
 
-You can pray to your god at any time using the Pray (`Alt-p`) command. When you pray, the outcome heavily depends on your current situation, your alignment record, your luck, and how recently you last prayed. If done correctly, praying can save you from certain death; if done carelessly, it can anger your god and result in severe penalties.
+You can pray to your god at any time using the Pray (`Alt+P`) command. When you pray, the outcome heavily depends on your current situation, your alignment record, your luck, and how recently you last prayed. If done correctly, praying can save you from certain death; if done carelessly, it can anger your god and result in severe penalties.
 
 ## When is it Safe to Pray? — Prayer Timeout
 

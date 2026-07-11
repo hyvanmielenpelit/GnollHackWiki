@@ -155,7 +155,7 @@ You can throw items to 8 basic directions. The throwing distance is listed in th
 
 ### 🍗 Eating & Nutrition
 
-You become hungry over time. You should eat the corpses of monsters you slay (unless you are a vegetarian monk). **Most corpses rot quickly, so eat them immediately.** If you eat a rotten or tainted corpse, you will become deathly sick and die within a few turns unless you Pray (`Alt-p`) to your god.
+You become hungry over time. You should eat the corpses of monsters you slay (unless you are a vegetarian monk). **Most corpses rot quickly, so eat them immediately.** If you eat a rotten or tainted corpse, you will become deathly sick and die within a few turns unless you Pray (`Alt+P`) to your god.
 
 #### What to Eat and What to Avoid
 
@@ -177,7 +177,7 @@ You become hungry over time. You should eat the corpses of monsters you slay (un
 
 ### 🪄 Spell Casting
 
-Spells in GnollHack require a material component. You must first Mix spells (`X`), which gives you a number of castings. Then, you can Cast spell (`Z`).
+Spells in GnollHack require a material component. You must first Mix spells (`Shift+X`), which gives you a number of castings. Then, you can Cast spell (`Shift+Z`).
 
 Spell success depends on your experience level, the spell's level, your magic school skill, your attributes (Int/Wis/Cha), and the armor you wear (heavy armor penalizes casting).
 
@@ -185,11 +185,11 @@ Spell success depends on your experience level, the spell's level, your magic sc
 
 | Key | Action | Use |
 |:---:|---|---|
-| `X` | Mix spells | Prepare spells. |
-| `Z` | Cast spell | Cast prepared spells. |
-| `r` | Read | Read spellbooks. |
-| `Alt-z` | View spell | Manage spells and check their effects. |
-| `S` | Skills | Increase skill levels in magic schools. |
+| `Shift+X` | Mix spells | Prepare spells. |
+| `Shift+Z` | Cast spell | Cast prepared spells. |
+| `R` | Read | Read spellbooks. |
+| `Alt+Z` | View spell | Manage spells and check their effects. |
+| `Shift+S` | Skills | Increase skill levels in magic schools. |
 | `.` | Target yourself | Target yourself when casting. |
 
 Spells range in levels from minor cantrip (c), major cantrip (C), to levels 1–12. You do not forget spells over time. You usually need at least Basic skill in a magic school to cast its spells. Fighter-type classes that have no access to magic schools have little reason to learn spells, except maybe some cantrips.
@@ -200,7 +200,7 @@ Spells range in levels from minor cantrip (c), major cantrip (C), to levels 1–
 
 ### 📈 Skills
 
-You gain **1 skill slot** every time you level up. You can spend them by using the Skills (`S`) command. You must first train a skill by successfully hitting with a weapon or casting a spell before you can level it up. 
+You gain **1 skill slot** every time you level up. You can spend them by using the Skills (`Shift+S`) command. You must first train a skill by successfully hitting with a weapon or casting a spell before you can level it up. 
 
 > ℹ️ **Note:** **Magic school skills are an exception:** they have a minimum experience level requirement when they can be increased, meaning you do not necessarily need to train them by casting spells—attaining a certain experience level is enough.
 
@@ -248,7 +248,7 @@ When you have enough trained experience and available skill slots, a green skill
 
 #### Praying
 
-You can **Pray** (`Alt-p`) to your god for help in emergencies (low health, sickness, petrification). 
+You can **Pray** (`Alt+P`) to your god for help in emergencies (low health, sickness, petrification). 
 
 > 🛑 **Caution:** It is not always safe to pray! There is a "prayer timeout" delay. The first safe time to pray is usually turn 301, and you must wait 50–1000 turns between prayers.
 
@@ -257,9 +257,9 @@ You can **Pray** (`Alt-p`) to your god for help in emergencies (low health, sick
 Altars are extremely useful and can belong to any alignment. There is always an altar of your alignment in the starting room on dungeon level 1.
 
 - **Identify Blessedness of Items:** Drop items on any altar to check their blessed/uncursed/cursed status.
-- **Sacrificing:** Offer (`Alt-o`) fresh monster corpses on an altar of *your* alignment to please your god. This can increase your luck or gift you powerful **Artifact** weapons. A [[/Items/wand of create monster]] is very useful here.
+- **Sacrificing:** Offer (`Alt+O`) fresh monster corpses on an altar of *your* alignment to please your god. This can increase your luck or gift you powerful **Artifact** weapons. A [[/Items/wand of create monster]] is very useful here.
 - **Converting Altars:** If an altar is the wrong alignment, sacrificing on it might convert it to your god. The chance to convert an altar is 50% at experience level 4 and about 70–85% at higher experience levels.
-- **Holy Water:** Drop uncursed [[potions of water|/Items/potion of water]] on your altar and pray. They will become holy water. You can dip (`Alt-d`) items into holy water to bless them or remove curses.
+- **Holy Water:** Drop uncursed [[potions of water|/Items/potion of water]] on your altar and pray. They will become holy water. You can dip (`Alt+D`) items into holy water to bless them or remove curses.
 
 ### 🔗 Learn More
 

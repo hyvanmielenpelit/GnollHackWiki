@@ -84,8 +84,9 @@ When editing or creating pages for the GnollHack Wiki, follow these conventions 
   - Values using `STR19(x)` (e.g., `STR19(25)`) should be formatted strictly as `x` (e.g., `25`). Do not write `125` or `19/25`.
 
 ## 8. Game Commands and Keyboard Shortcuts
-- **Game Commands**: Always mention a game command by its name with a capital letter, followed by its keyboard shortcut in parentheses formatted as code. Example: Pray (`Alt-p`). Do not mention an extended command (e.g., `#pray`) for a game command if there is a keyboard shortcut available for it.
-- **Keyboard Shortcuts Casing**: Pay strict attention to the casing of letters in keyboard shortcuts. A lowercase letter implies the key pressed normally (e.g., `Alt-p`), whereas an uppercase letter implies holding down the Shift key (e.g., `Alt-P` would be equivalent to `Alt-Shift-p`).
+
+- **Game Commands**: Always mention a game command by its name with a capital letter, followed by its keyboard shortcut in parentheses formatted as code. Example: Pray (`Alt+P`). Do not mention an extended command (e.g., `#pray`) for a game command if there is a keyboard shortcut available for it.
+- **Keyboard Shortcuts**: Use uppercase letters for all keyboard shortcuts (e.g. `E`, `Shift+E`, `Alt+E`, `Alt+Shift+E`). A normal key is written as a single capital letter (e.g. `E`). A Shift key shortcut is written as `Shift+capital letter` (e.g. `Shift+E`). Also apply this format to Ctrl shortcuts (e.g. `Ctrl+E`), Alt shortcuts (e.g. `Alt+E`), and combined modifiers (e.g. `Ctrl+Shift+E`, `Alt+Shift+E`).
 
 ## 9. Recommended Unicode Icons
 

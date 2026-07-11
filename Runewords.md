@@ -34,7 +34,7 @@ You can automate the engraving process a bit with the **Quick Engrave** command.
 | Step | Action / Example |
 | :--- | :--- |
 | **Setup Settings** | In the game options, set **Quick Engrave Text** to `Elbereth` and **Quick Engrave Style** to "Always finger". |
-| **Execute Command** | Press the **Engrave quick** command (`Alt-E`). The preset text will be engraved instantly without any prompts. |
+| **Execute Command** | Press the **Engrave quick** command (`Alt+Shift+E`). The preset text will be engraved instantly without any prompts. |
 
 ### ⏱️ Engraving Speed
 

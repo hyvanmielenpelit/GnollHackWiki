@@ -39,12 +39,12 @@
 - **Regeneration Rates** — Players and monsters regenerate hit points at the rate of `MaxHP/300` per turn (doubled by Regeneration) and mana at the rate of `MaxMana/900` per turn (doubled by Replenishment).
 - **HP & Damage Scaling** — Players and monsters generally have more hit points and deal more damage than in NetHack.
 - **AC Calculations** — Players and monsters can have higher AC than in NetHack, because Dexterity increases one's AC.
-- **Attribute Bonuses** — Attributes, like strength and dexterity, give out different amounts of bonuses than in vanilla NetHack. Check the Abilities (`Alt-a`) page for exact information.
+- **Attribute Bonuses** — Attributes, like strength and dexterity, give out different amounts of bonuses than in vanilla NetHack. Check the Abilities (`Alt+A`) page for exact information.
 
 ### ⚔️ Combat & Controls
 
-- **Weapon Sets Swapping** — Exchanging weapons with `x` has been greatly improved. You can wield a one-handed weapon and a shield in one set and a two-handed weapon in a second set, and swapping them is instantaneous.
-- **Two-Weapon Combat** — Two-weapon combat does not use the second readied weapon set anymore. Instead, it is toggled directly by pressing `Ctrl-x`.
+- **Weapon Sets Swapping** — Exchanging weapons with `X` has been greatly improved. You can wield a one-handed weapon and a shield in one set and a two-handed weapon in a second set, and swapping them is instantaneous.
+- **Two-Weapon Combat** — Two-weapon combat does not use the second readied weapon set anymore. Instead, it is toggled directly by pressing `Ctrl+X`.
 
 ### 🔐 Containers & Items
 
@@ -274,7 +274,7 @@
 
 #### 🌿 Gardens & Libraries
 
-- **Garden Rooms** — Rooms filled with fruits where you can dig (`Ctrl-g`) for roots and chop trees for lumber.
+- **Garden Rooms** — Rooms filled with fruits where you can dig (`Ctrl+G`) for roots and chop trees for lumber.
 - **Library Rooms** — Rooms containing spellcasting monsters.
 
 #### 🐉 Dragon Lairs & Mimic Shops

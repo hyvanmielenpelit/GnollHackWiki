@@ -4,50 +4,50 @@
 
 | Key | Key Command | Shift + Key | Shift + Key Command | Alt + Key | Alt + Key Command | Ctrl + Key | Ctrl + Key Command |
 | :-: | :------ | :-: | :---------- | :-: | :--------- | :-: | :-------- |
-| a | Apply | *A* | *Abilities (status screen)* | Alt-a | Adjust | Ctrl-a | Repeat |
-| *b* | *Take items out of **b**ag in inventory* | *B* | *Put items into **B**ag in inventory* |  |  | *Ctrl-b* | *Break* |
-| c | Close door | C | Chat | *Alt-c* | *Commands menu* | Ctrl-c | Call |
-| d | Drop | D | Drop multiple | Alt-d | Dip | Ctrl-d | Kick |
-| e | Eat | E | Engrave | Alt-e | Wipe face | Ctrl-e | Detect _(wizard mode only)_ |
-| f | Fire | F | Fight | Alt-f | Force lock | Ctrl-f | Reveal map _(wizard mode only)_ |
-| g | Go mode — Rush | G | Go mode — Run | Alt-g | Genocided monsters | *Ctrl-g* | *Dig* |
-| h | Help | H |  | *Alt-h* | *Handedness* | Ctrl-h |  |
-| i | Inventory | I | Inventory of specific types | Alt-i | Invoke | Ctrl-i | Identify _(wizard mode only)_ |
-| j | Jump | J |  | Alt-j | Jump | Ctrl-j |  |
-| k | Kick _(when Vi-keys are disabled)_ | K |  | Alt-k | Vanquished creatures | Ctrl-k |  |
-| l | Loot | L | Look | Alt-l | Loot | *Ctrl-l* | *Light/Snuff out* |
-| m | Move mode — Rush | M | Move mode — Run | Alt-m | Genesis _(wizard mode only)_ | Ctrl-m |  |
-| n | *Number of actions*<sup>1</sup> | N | Name | *Alt-n* | *Number of actions (alternate)* | Ctrl-n | Annotate dungeon level |
-| o | Open door | O | Options | Alt-o | Offer sacrifice | Ctrl-o | Dungeon overview |
-| p | Pay bill | P | Put on | Alt-p | Pray | Ctrl-p | Previous message |
-| q | Drink (quaff) | Q | Quiver | Alt-q | Quit | Ctrl-q |  |
-| r | Read | R | Remove | Alt-r | Rub | Ctrl-r | Redraw screen |
-| s | Search | S | Skills | Alt-s | Save | Ctrl-s | Sit |
-| t | Throw | T | Take off | Alt-t | Take off many | Ctrl-t | Teleport |
-| u | Untrap | U |  | Alt-u | Untrap | Ctrl-u |  |
-| v | Version info | V | Game history info | Alt-v | GnollHack library info | Ctrl-v | Level teleport _(wizard mode only)_ |
-| w | Wield weapon | W | Wear armor | *Alt-w* | *Wear many* | Ctrl-w | Wish _(wizard mode only)_ |
-| x | Swap weapons | *X* | *Mix spells* | *Alt-x* | *Examine* | Ctrl-x | Dual weapon mode |
-| *y* | *Take loot out of container on floor (**y**ank)* | *Y* | *Put loot into container on floor (**Y**ank)* | *Alt-y* | *Yell for pets* | *Ctrl-y* | *Yell for pets* |
-| z | Zap wand | Z | Cast spell | *Alt-z* | *View spell* | Ctrl-z |  |
+| A | Apply | *Shift+A* | *Abilities (status screen)* | Alt+A | Adjust | Ctrl+A | Repeat |
+| *B* | *Take items out of **b**ag in inventory* | *Shift+B* | *Put items into **B**ag in inventory* |  |  | *Ctrl+B* | *Break* |
+| C | Close door | Shift+C | Chat | *Alt+C* | *Commands menu* | Ctrl+C | Call |
+| D | Drop | Shift+D | Drop multiple | Alt+D | Dip | Ctrl+D | Kick |
+| E | Eat | Shift+E | Engrave | Alt+E | Wipe face | Ctrl+E | Detect _(wizard mode only)_ |
+| F | Fire | Shift+F | Fight | Alt+F | Force lock | Ctrl+F | Reveal map _(wizard mode only)_ |
+| G | Go mode — Rush | Shift+G | Go mode — Run | Alt+G | Genocided monsters | *Ctrl+G* | *Dig* |
+| H | Help | Shift+H |  | *Alt+H* | *Handedness* | Ctrl+H |  |
+| I | Inventory | Shift+I | Inventory of specific types | Alt+I | Invoke | Ctrl+I | Identify _(wizard mode only)_ |
+| J | Jump | Shift+J |  | Alt+J | Jump | Ctrl+J |  |
+| K | Kick _(when Vi-keys are disabled)_ | Shift+K |  | Alt+K | Vanquished creatures | Ctrl+K |  |
+| L | Loot | Shift+L | Look | Alt+L | Loot | *Ctrl+L* | *Light/Snuff out* |
+| M | Move mode — Rush | Shift+M | Move mode — Run | Alt+M | Genesis _(wizard mode only)_ | Ctrl+M |  |
+| N | *Number of actions*<sup>1</sup> | Shift+N | Name | *Alt+N* | *Number of actions (alternate)* | Ctrl+N | Annotate dungeon level |
+| O | Open door | Shift+O | Options | Alt+O | Offer sacrifice | Ctrl+O | Dungeon overview |
+| P | Pay bill | Shift+P | Put on | Alt+P | Pray | Ctrl+P | Previous message |
+| Q | Drink (quaff) | Shift+Q | Quiver | Alt+Q | Quit | Ctrl+Q |  |
+| R | Read | Shift+R | Remove | Alt+R | Rub | Ctrl+R | Redraw screen |
+| S | Search | Shift+S | Skills | Alt+S | Save | Ctrl+S | Sit |
+| T | Throw | Shift+T | Take off | Alt+T | Take off many | Ctrl+T | Teleport |
+| U | Untrap | Shift+U |  | Alt+U | Untrap | Ctrl+U |  |
+| V | Version info | Shift+V | Game history info | Alt+V | GnollHack library info | Ctrl+V | Level teleport _(wizard mode only)_ |
+| W | Wield weapon | Shift+W | Wear armor | *Alt+W* | *Wear many* | Ctrl+W | Wish _(wizard mode only)_ |
+| X | Swap weapons | *Shift+X* | *Mix spells* | *Alt+X* | *Examine* | Ctrl+X | Dual weapon mode |
+| *Y* | *Take loot out of container on floor (**y**ank)* | *Shift+Y* | *Put loot into container on floor (**Y**ank)* | *Alt+Y* | *Yell for pets* | *Ctrl+Y* | *Yell for pets* |
+| Z | Zap wand | Shift+Z | Cast spell | *Alt+Z* | *View spell* | Ctrl+Z |  |
 
 - Commands in *italic* are new commands in GnollHack that do not appear in NetHack.
-- <sup>1</sup> Number of actions works like this: You first press `n`, then write the number of actions in numerals, and then choose the action. For example, `n20s` searches 20 times.
+- <sup>1</sup> Number of actions works like this: You first press `N`, then write the number of actions in numerals, and then choose the action. For example, `N20S` searches 20 times.
 
 
 ## Double Modifier Commands Bound to Letters
 
 | Shift + Alt + Key | Shift + Alt + Key Command |
 | :---------------: | :------------------------ |
-| Alt-A | Annotate dungeon level |
-| *Alt-E* | *Engrave quick (use preset writing)* |
-| Alt-M | Use monster ability |
-| Alt-N | Name a monster or object class |
-| *Alt-P* | *Apply Wielded Polearm*<sup>1</sup> |
-| Alt-R | Mount or dismount a saddled steed (Ride) |
-| Alt-T | Empty a container (Tip) |
-| *Alt-W* | *Wield a previously wielded weapon* |
-| *Alt-X* | *Apply a pick-axe or cutting tool quick* |
+| Alt+Shift+A | Annotate dungeon level |
+| *Alt+Shift+E* | *Engrave quick (use preset writing)* |
+| Alt+Shift+M | Use monster ability |
+| Alt+Shift+N | Name a monster or object class |
+| *Alt+Shift+P* | *Apply Wielded Polearm*<sup>1</sup> |
+| Alt+Shift+R | Mount or dismount a saddled steed (Ride) |
+| Alt+Shift+T | Empty a container (Tip) |
+| *Alt+Shift+W* | *Wield a previously wielded weapon* |
+| *Alt+Shift+X* | *Apply a pick-axe or cutting tool quick* |
 
 - Commands in *italic* are new commands in GnollHack that do not appear in NetHack.
 - <sup>1</sup> The polearm can also be a swap weapon.
@@ -155,18 +155,18 @@ When you have vi-keys enabled, you can use the following keys for movement:
 
 | Normal Key | Command | Alternate Key |
 | :--------: | :------ | :-----------: |
-| *b* | *Take items out of **b**ag in inventory* | *Alt-G* |
-| *B* | *Put items into **B**ag in inventory* | *Alt-F* |
-| *Ctrl-b* | *Break* | *Alt-B* |
-| j | Jump | Alt-j |
-| k | Kick | Ctrl-d |
-| `l` | Loot | Alt-`l` |
-| *Ctrl-`l`* | *Light/Snuff out* | *Alt-`I`* |
-| *n* | *Number of actions* | *Automatic*<sup>1</sup> |
-| N | Name | Alt-N |
-| u | Untrap | Alt-u |
-| *y* | *Take loot out of container on floor (**y**ank)* | *Alt-D* |
-| *Y* | *Put loot into container on floor (**Y**ank)* | *Alt-C* |
+| *B* | *Take items out of **b**ag in inventory* | *Alt+Shift+G* |
+| *Shift+B* | *Put items into **B**ag in inventory* | *Alt+Shift+F* |
+| *Ctrl+B* | *Break* | *Alt+Shift+B* |
+| J | Jump | Alt+J |
+| K | Kick | Ctrl+D |
+| `L` | Loot | Alt+`L` |
+| *Ctrl+`L`* | *Light/Snuff out* | *Alt+`Shift+I`* |
+| *N* | *Number of actions* | *Automatic*<sup>1</sup> |
+| Shift+N | Name | Alt+Shift+N |
+| U | Untrap | Alt+U |
+| *Y* | *Take loot out of container on floor (**y**ank)* | *Alt+Shift+D* |
+| *Shift+Y* | *Put loot into container on floor (**Y**ank)* | *Alt+Shift+C* |
 
 - Commands in *italic* are new commands in GnollHack that do not appear in NetHack.
 - <sup>1</sup> When you press a number key, the game automatically assumes that it's the number of actions command.
@@ -178,7 +178,7 @@ The following keyboard shortcuts are not supported by the modern GnollHack clien
 
 | Key Shortcut | Command |
 | :----------: | :------ |
-| Alt-b | *Toggle hitpoint bars* |
-| Alt-Y | *Toggle buff timers* |
+| Alt+B | *Toggle hitpoint bars* |
+| Alt+Shift+Y | *Toggle buff timers* |
 
 - Commands in *italic* are new commands in GnollHack that do not appear in NetHack.
