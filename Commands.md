@@ -49,6 +49,7 @@ Commands for interacting with doors, chests, and bags.
 | **Yank (Put Loot)** | ![Yank Put](/uploads/Commands/lootin.webp) | `Shift+y` | Put one or more items into a container that is lying on the floor. | New in GnollHack. |
 | **Tip (Empty)** | ![Tip](/uploads/Commands/tip.webp) | `Alt+Shift+t` | Tip/empty a container to dump all of its contents onto the floor. | New in GnollHack. |
 | **Force Lock** | ![Force Lock](/uploads/Commands/forcelock.webp) | `Alt+f` | Force a lock on a chest or door using a weapon or tool. | |
+| **Untrap** | ![Untrap](/uploads/Commands/untrap.webp) | `u` | Attempt to disarm a trap, untrap a container/door, or rescue a trapped monster. | Alternate hotkey: `Alt+u`. |
 | **Break** | ![Break](/uploads/Commands/break.webp) | `Ctrl+b` | Break an item in your inventory to release its magic or contents (e.g. breaking a wand or potion). | New in GnollHack. |
 
 ## 🛠️ Consumables and General Tools
@@ -174,7 +175,6 @@ Use the following commands to navigate the dungeon, climb stairs, rest, and sear
 | **Go Mode (Run)** | ![Go Run](/uploads/Commands/status-move.webp) | `Shift+g` | Run in a direction until blocked or interrupted (stops at walls, monsters, or interesting objects). | |
 | **Move Mode (Run)** | ![Move Run](/uploads/Commands/status-move.webp) | `Shift+m` | Run in a direction without picking up items on the ground. | |
 | **Jump** | ![Jump](/uploads/Commands/jump.webp) | `j` | Jump to a nearby tile (requires character jumping ability). | Alternate hotkey: `Alt+j`. |
-| **Untrap** | ![Untrap](/uploads/Commands/untrap.webp) | `u` | Attempt to disarm a trap, untrap a container/door, or rescue a trapped monster. | Alternate hotkey: `Alt+u`. |
 | **Ride** | ![Ride](/uploads/Commands/ride.webp) | `Alt+Shift+r` | Mount or dismount a saddled steed. | |
 | **Sit** | ![Sit](/uploads/Commands/sit.webp) | `Ctrl+s` | Sit down on the floor, a throne, or another seat (sitting on a throne can trigger magical effects). | |
 
