@@ -46,13 +46,14 @@ Commands to view, wear, and remove armor, accessories, and other equipped gear.
 
 ## 🛠️ General Item Commands
 
-Commands to eat, drink, apply tools, dig, engrave, dip, or break items.
+Commands to eat, drink, read, apply tools, dig, engrave, dip, or break items.
 
 | Command | Icon | Hotkey | Description | Notes |
 | :--- | :---: | :---: | :--- | :--- |
 | **Apply Tool** | ![Apply](/uploads/Commands/apply.webp) | `a` | Apply (use) a tool, such as a key, lamp, or pick-axe. | |
 | **Eat** | ![Eat](/uploads/Commands/eat.webp) | `e` | Eat food or another edible item in your inventory or on the floor. | |
 | **Drink (Quaff)** | ![Drink](/uploads/Commands/quaff.webp) | `q` | Drink a potion, water, or other beverage from your inventory or the floor. | |
+| **Read** | ![Read](/uploads/Commands/read.webp) | `r` | Read a scroll or spellbook. | |
 | **Zap Wand** | ![Zap](/uploads/Commands/zap.webp) | `z` | Zap a magic wand in a specified direction. | |
 | **Dig** | ![Dig](/uploads/Commands/dig.webp) | `Ctrl+g` | Dig the ground or a wall (requires a pick-axe or other digging tool). | New in GnollHack. |
 | **Engrave** | ![Engrave](/uploads/Commands/engrave.webp) | `Shift+e` | Write a message on the floor using a tool or your fingers (dust). | |
@@ -119,13 +120,12 @@ Commands to search surroundings, view character stats or abilities, look at tile
 
 ## 🔮 Spellcasting
 
-Commands to cast spells, view the spell menu, read scrolls, and mix spell components.
+Commands to cast spells, view the spell menu, or mix spell components.
 
 | Command | Icon | Hotkey | Description | Notes |
 | :--- | :---: | :---: | :--- | :--- |
 | **Cast Spell** | ![Cast](/uploads/Commands/cast.webp) | `Shift+z` | Cast a spell that you have learned. | |
 | **Spell Menu** | ![Spell Menu](/uploads/Commands/spells.webp) | `+` | Open the spell menu to view or cast spells. | New in GnollHack. Alternate hotkey: `Alt+z`. |
-| **Read** | ![Read](/uploads/Commands/read.webp) | `r` | Read a scroll, spellbook, or engraving. | |
 | **Mix Spells** | ![Mix](/uploads/Commands/mix.webp) | `Shift+x` | Mix material components (reagents) for a spell. | New in GnollHack. |
 
 ## ⚙️ System
