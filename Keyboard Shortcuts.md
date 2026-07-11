@@ -154,7 +154,7 @@
 | Key | Command | Description | Notes |
 | :-: | :---------- | :---------- | :---- |
 | , | Pick up | Pick up items from the floor at your current position. | |
-| ; | Pick up and stash | Pick up items and automatically insert them into the best container in your inventory. | New in GnollHack. |
+| ; | Pick up and stash | Pick up items and automatically insert them into the best container in your inventory. (See [[Auto-Stashing Algorithm]]) | New in GnollHack. |
 | . | Wait | Rest/wait for one turn (does nothing). | |
 | : | Near look (at the ground) | Look at the ground/items present at your current tile. | |
 | _ | Travel | Travel automatically to a selected position on the level using a shortest-path algorithm. | |

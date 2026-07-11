@@ -8,7 +8,7 @@ Commands to view, pick up, and drop in your inventory or on the floor.
 | :--- | :---: | :---: | :--- | :--- |
 | **Inventory** | ![Inventory](/uploads/Commands/inventory.webp) | `i` | Display all items currently carried in your inventory. | |
 | **Pick Up** | ![Pick Up](/uploads/Commands/pickup.webp) | `,` | Pick up items from the floor at your current position. | |
-| **Pick Up and Stash** | ![Stash](/uploads/Commands/picktobag.webp) | `;` | Pick up items and automatically insert them into the best container in your inventory. | New in GnollHack. |
+| **Pick Up and Stash** | ![Stash](/uploads/Commands/picktobag.webp) | `;` | Pick up items and automatically insert them into the best container in your inventory. (See [[Auto-Stashing Algorithm]]) | New in GnollHack. |
 | **Autopickup** | ![Autopickup](/uploads/Commands/autopickup.webp) | `@` | Toggle the autopickup option on/off. | |
 | **Drop** | ![Drop](/uploads/Commands/dropmany.webp) | `d` | Drop an item onto the floor. | |
 | **Drop Multiple** | ![Drop Multiple](/uploads/Commands/dropmany.webp) | `Shift+d` | Drop multiple items from your inventory at once. | Alternate hotkey: `%`. |

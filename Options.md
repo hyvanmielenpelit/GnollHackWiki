@@ -107,7 +107,7 @@ OPTIONS=pickup_types:characters
 | **force_invmenu** | `true` / `false` | `true` (Mobile) / `false` (Desktop) | Displays a visual menu of valid items when executing commands that require inventory selection, rather than prompting for a raw keyboard letter. |
 | **goldX** | `true` / `false` | `false` | Categorizes gold as "uncursed gold pieces" or "unknown gold pieces" instead of just "gold" in your inventory menu. |
 | **ignore_stopping** | `true` / `false` | `false` | Prevents automated pathfinding travel from stopping when your character passes over items, closed doors, or engravings. Mirrors the Ignore Stopping setting. |
-| **knapsack_prompt** | `true` / `false` | `true` | Prompts for a specific action (like dropping or stashing) when picking up an item while carrying a full inventory. |
+| **knapsack_prompt** | `true` / `false` | `true` | Prompts for a specific action (like dropping or stashing) when picking up an item while carrying a full inventory. (See [[Auto-Stashing Algorithm]]) |
 | **lootabc** | `true` / `false` | `false` | Formats loot menu shortcuts as generic `a`, `b`, `c` letters rather than mnemonic letters (such as `o` for open, `i` for inspect, `c` for close). |
 | **max_hint_difficulty** | *(varies)* | `veteran (-1)` | Limits tutorial tips and hints to games played at or below this difficulty level. |
 | **mention_walls** | `true` / `false` | `false` | Prints a message in the message log (e.g. "You bump into a wall") when walking into a wall. |
@@ -130,7 +130,7 @@ OPTIONS=pickup_types:characters
 | **selectsaved** | `true` / `false` | `true` | Displays a list of existing save files at launch to choose which game to load. |
 | **sortpack** | `true` / `false` | `true` | Groups your inventory items by type (weapons, armor, potions, etc.) instead of showing them in the order they were acquired. |
 | **spellorder** | `0` to `7` | `0` | Selects the sorting criteria for spell books and casting lists (e.g. alphabetically, by level, or by spell school). |
-| **stash_on_autopickup** | `true` / `false` | `false` | Automatically stashes newly picked up items into an active container (like a sack or bag of holding) in your inventory. |
+| **stash_on_autopickup** | `true` / `false` | `false` | Automatically stashes newly picked up items into an active container (like a sack or bag of holding) in your inventory. (See [[/Auto-Stashing Algorithm]]) |
 | **swap_rhand_only** | `true` / `false` | `false` | Swaps only the weapon in your primary hand, leaving off-hand shields or secondary weapons equipped. |
 | **takeoff_uses_all** | `true` / `false` | `true` | Makes the take-off command (`T`) remove all armor pieces sequentially rather than prompting you to pick a single piece. |
 | **tellexp** | `true` / `false` | `true` | Prints a message in the message log whenever your character gains experience points (XP). |
