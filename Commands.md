@@ -11,7 +11,6 @@ These commands are used for attacking, shooting, throwing, and managing your act
 | **Throw** | ![Throw](/uploads/Commands/throw.webp) | `t` | Throw an object or weapon from your inventory in a specified direction. | |
 | **Swap Weapons** | ![Swap](/uploads/Commands/swap.webp) | `x` | Swap your primary wielded weapon with your secondary/alternate weapon. | |
 | **Quiver** | ![Quiver](/uploads/Commands/quiver.webp) | `Shift+q` | Select ammunition (arrows, daggers, etc.) to load into your quiver for firing. | |
-| **Kick** | ![Kick](/uploads/Commands/kick.webp) | `k` | Kick an adjacent door, chest, monster, or other object. | Alternate hotkey: `Ctrl+d`. |
 | **Fight** | ![Fight](/uploads/Commands/fight.webp) | `Shift+f` | Attack/fight in a specified direction, even if you do not see a monster (forces attack on a tile, useful for invisible foes). | |
 | **Dual Weapon Mode** | ![Dual Wield](/uploads/Commands/twoweap.webp) | `Ctrl+x` | Toggle dual-wielding mode (two-weapon combat) on or off. | |
 | **Apply Polearm** | ![Polearm](/uploads/Commands/polearm.webp) | `Alt+Shift+p` | Strike a monster from a distance of two tiles using a wielded polearm or lance (can also be a swap weapon). | New in GnollHack. |
@@ -40,9 +39,9 @@ Commands for interacting with doors, chests, and bags.
 | **Open Door** | ![Open](/uploads/Commands/open.webp) | `o` | Open an adjacent closed door. | |
 | **Close Door** | ![Close](/uploads/Commands/close.webp) | `c` | Close an adjacent open door. | |
 | **Loot** | ![Loot](/uploads/Commands/loot.webp) | `l` | Loot a container on the floor, saddle/unsaddle a steed, or retrieve items from decorations (such as torch holders). | Alternate hotkey: `Alt+l`. |
+| **Kick** | ![Kick](/uploads/Commands/kick.webp) | `k` | Kick an adjacent door, chest, monster, or other object. | Alternate hotkey: `Ctrl+d`. |
 | **Force Lock** | ![Force Lock](/uploads/Commands/forcelock.webp) | `Alt+f` | Force a lock on a chest or door using a weapon or tool. | |
 | **Untrap** | ![Untrap](/uploads/Commands/untrap.webp) | `u` | Attempt to disarm a trap, untrap a container/door, or rescue a trapped monster. | Alternate hotkey: `Alt+u`. |
-| **Break** | ![Break](/uploads/Commands/break.webp) | `Ctrl+b` | Break an item in your inventory to release its magic or contents (e.g. breaking a wand or potion). | New in GnollHack. |
 
 ## 🛠️ Consumables and General Tools
 
@@ -53,16 +52,19 @@ These commands are used to eat, drink, apply utility tools, and manage light sou
 | **Apply Tool** | ![Apply](/uploads/Commands/apply.webp) | `a` | Apply (use) a tool, such as a key, lamp, or pick-axe. | |
 | **Eat** | ![Eat](/uploads/Commands/eat.webp) | `e` | Eat food or another edible item in your inventory or on the floor. | |
 | **Drink (Quaff)** | ![Drink](/uploads/Commands/quaff.webp) | `q` | Drink a potion, water, or other beverage from your inventory or the floor. | |
-| **Light / Snuff** | ![Light Snuff](/uploads/Commands/light.webp) | `Ctrl+l` | Light or snuff out a nearby light source, like a lamp or candle. | New in GnollHack. |
+| **Zap Wand** | ![Zap](/uploads/Commands/zap.webp) | `z` | Zap a magic wand in a specified direction. | |
 | **Dig** | ![Dig](/uploads/Commands/dig.webp) | `Ctrl+g` | Dig the ground or a wall (requires a pick-axe or other digging tool). | New in GnollHack. |
 | **Engrave** | ![Engrave](/uploads/Commands/engrave.webp) | `Shift+e` | Write a message on the floor using a tool or your fingers (dust). | |
 | **Engrave Quick** | ![Engrave Quick](/uploads/Commands/engravequick.webp) | `Alt+Shift+e` | Quickly engrave on the floor using a predefined style or finger. | New in GnollHack. |
-| **Wipe Face** | ![Wipe](/uploads/Commands/wipe.webp) | `Alt+e` | Wipe off dirt, grease, slime, or other substances from your face. | |
-| **Rub** | ![Rub](/uploads/Commands/rub.webp) | `Alt+r` | Rub a lamp or other object (can summon a genie if successful). | |
+| **Rub** | ![Rub](/uploads/Commands/rub.webp) | `Alt+r` | Rub a lamp or other object (rubbing a [[/Items/magic lamp]] can summon a genie if successful). | |
 | **Dip** | ![Dip](/uploads/Commands/dip.webp) | `Alt+d` | Dip an object into a potion, fountain, sink, or a pool of water. | |
 | **Apply Pick-axe Quick** | ![Pick-axe](/uploads/Commands/pickaxe.webp) | `Alt+Shift+x` | Quickly apply a pick-axe, mattock, or other cutting tool to dig/cut in a direction. | New in GnollHack. |
+| **Break** | ![Break](/uploads/Commands/break.webp) | `Ctrl+b` | Break an item in your inventory to release its magic or contents (e.g. breaking a wand). | New in GnollHack. |
+| **Light / Snuff** | ![Light Snuff](/uploads/Commands/light.webp) | `Ctrl+l` | Light or snuff out a nearby light source, like a lamp or candle. | New in GnollHack. |
+| **Invoke** | ![Invoke](/uploads/Commands/invoke.webp) | `Alt+i` | Invoke the powers of a magical object or artifact. | |
+| **Wipe Face** | ![Wipe](/uploads/Commands/wipe.webp) | `Alt+e` | Wipe off dirt, grease, slime, or other substances from your face. | |
 
-## 🔮 Magic and Spellcasting
+## 🔮 Spellcasting
 
 Commands to cast spells, use wands, read scrolls, and mix components.
 
@@ -70,9 +72,7 @@ Commands to cast spells, use wands, read scrolls, and mix components.
 | :--- | :---: | :---: | :--- | :--- |
 | **Cast Spell** | ![Cast](/uploads/Commands/cast.webp) | `Shift+z` | Cast a spell that you have learned. | |
 | **Spell Menu** | ![Spell Menu](/uploads/Commands/spells.webp) | `+` | Open the spell menu to view or cast spells. | New in GnollHack. Alternate hotkey: `Alt+z`. |
-| **Zap Wand** | ![Zap](/uploads/Commands/zap.webp) | `z` | Zap a magic wand in a specified direction. | |
 | **Read** | ![Read](/uploads/Commands/read.webp) | `r` | Read a scroll, spellbook, or engraving. | |
-| **Invoke** | ![Invoke](/uploads/Commands/invoke.webp) | `Alt+i` | Invoke the powers of a magical object or artifact. | |
 | **Mix Spells** | ![Mix](/uploads/Commands/mix.webp) | `Shift+x` | Mix material components (reagents) for a spell. | New in GnollHack. |
 
 ## 👕 Equipment and Wearables
@@ -95,8 +95,8 @@ These commands open information screens, name entities, and control the user int
 
 | Command | Icon | Hotkey | Description | Notes |
 | :--- | :---: | :---: | :--- | :--- |
-| **Character Details** | ![Character Details](/uploads/Commands/you.webp) | `}` | Display detailed information, statistics, and attributes of your character. | New in GnollHack. |
 | **Abilities** | ![Abilities](/uploads/Commands/abilities.webp) | `Shift+a` | View your character's active and passive abilities (opens the status screen). | New in GnollHack. |
+| **Character Details** | ![Character Details](/uploads/Commands/you.webp) | `}` | Display detailed information, statistics, and attributes of your character. | New in GnollHack. |
 | **Look Far** | ![Look Far](/uploads/Commands/lookfar.webp) | `'` | Look at a distant tile on the map to identify what symbol represents. | |
 | **Chat** | ![Chat](/uploads/Commands/chat.webp) | `Shift+c` | Chat with an adjacent monster, pet, or NPC. | |
 | **Yell for Pets** | ![Yell](/uploads/Commands/yell.webp) | `Alt+y` | Yell to summon your pet to your side. | New in GnollHack. Alternate hotkey: `Ctrl+y`. |
