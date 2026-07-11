@@ -56,9 +56,9 @@ The permanence of an engraving—how easily it is erased or smudged by physical 
 
 ### 🛡️ Engraving Permanence
 
-Engravings are classified into three levels of durability:
+Engravings are classified into three levels of permanence:
 
-| Durability | Engraving Methods / Tools | Smudging Mechanics |
+| Permanence | Engraving Methods / Tools | Smudging Mechanics |
 | :--- | :--- | :--- |
 | **Soft (Dust / Blood)** | Writing in dust (fingers), or writing in blood (when using fingers in demon or vampire form). | Highly susceptible to erosion. Physical actions erode the exact number of characters listed in the table below. Both mediums have a 4% (1 in 25) chance per character to scramble/mix up the message upon writing. |
 | **Hard (Carved / Ink)** | Standard [[weapons]], [[rings]], [[Gems and Stones]], an [[/Items/athame]], or a [[/Items/magic marker]]. | Highly resistant to erosion. When a physical action occurs, there is only a very small random chance (typically around 5% to 10%) that a **single** character is eroded, regardless of the action's normal severity. |
@@ -66,7 +66,7 @@ Engravings are classified into three levels of durability:
 
 ### ⚔️ Player and Monster Erosion Actions
 
-Performing physical actions on the square containing an engraving causes characters to be eroded from the text (based on its durability type). A word is completely wiped out when all characters are erased.
+Performing physical actions on the square containing an engraving causes characters to be eroded from the text (based on its permanence level). A word is completely wiped out when all characters are erased.
 
 | Action / Event | Base Characters Eroded (For Soft Engravings) |
 | :--- | :--- |
