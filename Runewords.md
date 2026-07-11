@@ -166,7 +166,7 @@ Any active offensive action against an Elbereth-vulnerable (or peaceful) monster
 
 - **Looting Protection**: Hostile monsters and pets are prevented from picking up items or eating food on a square engraved with `Morgoth`.
 - **Branch Restrictions**: This protective effect only functions inside [[/Dungeon/Gehennom]].
-- **Exceptions**: Shopkeepers, vault guards, and the [[/Monsters/Wizard of Yendor]] are immune to the looting prevention and can pick up items from a `Morgoth` square.
+- **Exceptions**: Shopkeepers and the [[/Monsters/Wizard of Yendor]] are immune to the looting prevention and can pick up items from a `Morgoth` square.
 - **Erosion Immunity**: Like Gilthoniel, `Morgoth` engravings are immune to all forms of smudging and erosion. This immunity applies everywhere (both inside and outside Gehennom).
 
 ## 🎨 Visual Effects
