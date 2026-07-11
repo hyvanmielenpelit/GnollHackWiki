@@ -32,7 +32,7 @@
 | r | Read | Read a scroll, spellbook, or engraving. |
 | s | Search | Search adjacent tiles for hidden secret doors and traps. |
 | t | Throw | Throw an object or weapon from your inventory in a specified direction. |
-| u | Untrap | Attempt to disarm a trap, or untrap a trapped container or door. |
+| u | Untrap | Attempt to disarm a trap, untrap a container or door, or help a monster out of a trap. |
 | v | Version info | Display the version number and build details of the game. |
 | w | Wield weapon | Wield a weapon or tool as your primary weapon (use `-` to wield bare hands). |
 | x | Swap weapons | Swap your primary wielded weapon with your secondary/alternate weapon. |
@@ -96,7 +96,7 @@
 | Alt+r | Rub | Rub a lamp, touchstone, or other object. |
 | Alt+s | Save | Save the game and exit. |
 | Alt+t | Take off many | Take off multiple pieces of armor at once. |
-| Alt+u | Untrap | Attempt to disarm a trap, or untrap a trapped container or door. |
+| Alt+u | Untrap | Attempt to disarm a trap, untrap a container or door, or help a monster out of a trap. |
 | Alt+v | GnollHack library info | Display details about the compiled GnollHack libraries and build. |
 | *Alt+w* | *Wear many* | *Put on multiple pieces of armor.* |
 | *Alt+x* | *Examine* | *Examine an item to view its detailed statistics and properties.* |
