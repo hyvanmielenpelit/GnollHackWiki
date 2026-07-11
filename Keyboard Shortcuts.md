@@ -2,6 +2,8 @@
 
 > ℹ️ **Note:** Keyboard shortcuts on this wiki are written in lowercase notation. A single letter (e.g. `e`) represents the normal key. Combination shortcuts are written with a plus sign `+` and lowercase letters (e.g. `Shift+e`, `Alt+e`, `Alt+Shift+e`).
 
+> ℹ️ **Note:** Commands in *italic* are new commands in GnollHack that do not appear in NetHack.
+
 ## ⌨️ Commands Bound to Letters
 
 ### ⌨️ Normal Key Commands
@@ -35,7 +37,6 @@
 | *y* | *Take loot out of container on floor (**y**ank)* |
 | z | Zap wand |
 
-- Commands in *italic* are new commands in GnollHack that do not appear in NetHack.
 - <sup>1</sup> Number of actions works like this: You first press `n`, then write the number of actions in numerals, and then choose the action. For example, `n20s` searches 20 times.
 
 ### ⌨️ Shift Key Commands
@@ -69,8 +70,6 @@
 | *Shift+y* | *Put loot into container on floor (**Y**ank)* |
 | Shift+z | Cast spell |
 
-- Commands in *italic* are new commands in GnollHack that do not appear in NetHack.
-
 ### ⌨️ Alt Key Commands
 
 | Alt + Key | Alt + Key Command |
@@ -101,8 +100,6 @@
 | *Alt+x* | *Examine* |
 | *Alt+y* | *Yell for pets* |
 | *Alt+z* | *View spell* |
-
-- Commands in *italic* are new commands in GnollHack that do not appear in NetHack.
 
 ### ⌨️ Ctrl Key Commands
 
@@ -135,8 +132,6 @@
 | *Ctrl+y* | *Yell for pets* |
 | Ctrl+z |  |
 
-- Commands in *italic* are new commands in GnollHack that do not appear in NetHack.
-
 ## ⌨️ Double Modifier Commands Bound to Letters
 
 | Alt + Shift + Key | Alt + Shift + Key Command |
@@ -151,7 +146,6 @@
 | *Alt+Shift+w* | *Wield a previously wielded weapon* |
 | *Alt+Shift+x* | *Apply a pick-axe or cutting tool quick* |
 
-- Commands in *italic* are new commands in GnollHack that do not appear in NetHack.
 - <sup>1</sup> The polearm can also be a swap weapon.
 
 
@@ -177,8 +171,6 @@
 | = | Show worn rings |
 | [ | Show worn armor |
 | *}* | *Character details (Describe your character)* |
-
-- Commands in *italic* are new commands in GnollHack that do not appear in NetHack.
 
 ## 🧭 Movement By Arrow Keys
 
@@ -232,8 +224,6 @@ You can adjust the map zoom level using the following keyboard shortcuts:
 | *Ctrl* + *`0`* | *Alt* + *`0`* | *Reset zoom to normal* |
 | *Ctrl* + *`.`* | *Alt* + *`.`* | *Toggle zoom to fit screen (minimap mode)* |
 
-- Commands in *italic* are new commands in GnollHack that do not appear in NetHack.
-
 
 ## ⌨️ Vi-Keys
 
@@ -270,7 +260,6 @@ When you have vi-keys enabled, you can use the following keys for movement:
 | *y* | *Take loot out of container on floor (**y**ank)* | *Alt+Shift+d* |
 | *Shift+y* | *Put loot into container on floor (**Y**ank)* | *Alt+Shift+c* |
 
-- Commands in *italic* are new commands in GnollHack that do not appear in NetHack.
 - <sup>1</sup> When you press a number key, the game automatically assumes that it's the number of actions command.
 
 
@@ -282,5 +271,3 @@ The following keyboard shortcuts are not supported by the modern GnollHack clien
 | :----------: | :------ |
 | Alt+b | Toggle hitpoint bars |
 | Alt+Shift+y | Toggle buff timers |
-
-- Commands in *italic* are new commands in GnollHack that do not appear in NetHack.
