@@ -63,14 +63,14 @@
 | Shift+p | Put on | Put on an accessory such as a ring, amulet, or pair of glasses. |
 | Shift+q | Quiver | Select ammunition (arrows, daggers, etc.) to load into your quiver for firing. |
 | Shift+r | Remove | Remove an accessory (ring, amulet, etc.) that you are currently wearing. |
-| Shift+s | Skills | View and advance your character's weapon and magic skills. |
+| Shift+s | Skills | View and advance your character's skills. |
 | Shift+t | Take off | Take off a single piece of armor you are currently wearing. |
 | Shift+u |  |  |
 | Shift+v | Game history info | Display the game's compilation options and version history. |
 | Shift+w | Wear armor | Put on a piece of armor (helmet, body armor, gloves, boots, etc.). |
 | *Shift+x* | *Mix spells* | *Mix material components (reagents) for a spell.* |
 | *Shift+y* | *Put loot into container on floor (**Y**ank)* | *Put one or more items into a container that is lying on the floor.* |
-| Shift+z | Cast spell | Cast a spell that you have learned from a spellbook. |
+| Shift+z | Cast spell | Cast a spell that you have learned. |
 
 ### ⌨️ Alt Key Commands
 
@@ -79,8 +79,8 @@
 | Alt+a | Adjust | Adjust inventory letters for items. |
 | Alt+b |  |  |
 | *Alt+c* | *Commands menu* | *Open the commands menu.* |
-| Alt+d | Dip | Dip an object into a potion or a pool of water/lava. |
-| Alt+e | Wipe face | Wipe off mud, slime, or other substances from your face. |
+| Alt+d | Dip | Dip an object into a potion, fountain, sink, or a pool of water. |
+| Alt+e | Wipe face | Wipe off dirt and other substances from your face. |
 | Alt+f | Force lock | Force a lock on a chest or door using a weapon or tool. |
 | Alt+g | Genocided monsters | Show a list of all genocided monster species. |
 | *Alt+h* | *Handedness* | *Toggle weapon swapping mode (swap weapons in right hand only or in both hands).* |
