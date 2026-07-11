@@ -8,7 +8,7 @@
 
 ### ⌨️ Normal Key Commands
 
-| Key | Key Command | Description | Notes |
+| Key | Command | Description | Notes |
 | :-: | :---------- | :---------- | :---- |
 | a | Apply | Apply (use) a tool, such as a key, lamp, or pick-axe. | |
 | b | Take items out of **b**ag in inventory | Take one or more items out of a container in your inventory. | New in GnollHack. |
@@ -41,7 +41,7 @@
 
 ### ⌨️ Shift Key Commands
 
-| Shift + Key | Shift + Key Command | Description | Notes |
+| Key | Command | Description | Notes |
 | :---------: | :------------------ | :---------- | :---- |
 | Shift+a | Abilities (status screen) | View your character's active and passive abilities. | New in GnollHack. |
 | Shift+b | Put items into **B**ag in inventory | Put one or more items into a container in your inventory. | New in GnollHack. |
@@ -72,7 +72,7 @@
 
 ### ⌨️ Alt Key Commands
 
-| Alt + Key | Alt + Key Command | Description | Notes |
+| Key | Command | Description | Notes |
 | :-------: | :---------------- | :---------- | :---- |
 | Alt+a | Adjust | Adjust inventory letters for items. | |
 | Alt+b |  |  | |
@@ -103,7 +103,7 @@
 
 ### ⌨️ Ctrl Key Commands
 
-| Ctrl + Key | Ctrl + Key Command | Description | Notes |
+| Key | Command | Description | Notes |
 | :--------: | :----------------- | :---------- | :---- |
 | Ctrl+a | Repeat | Redo/repeat the previous command. | |
 | Ctrl+b | Break | Break an item in your inventory to release its magic or contents. | New in GnollHack. |
@@ -134,7 +134,7 @@
 
 ## ⌨️ Double Modifier Commands Bound to Letters
 
-| Alt + Shift + Key | Alt + Shift + Key Command | Description | Notes |
+| Key | Command | Description | Notes |
 | :---------------: | :------------------------ | :---------- | :---- |
 | Alt+Shift+a | Annotate dungeon level | Add a text annotation/note to the current dungeon level. | Alternate key. |
 | Alt+Shift+e | Engrave quick (use preset writing) | Quickly engrave on the floor using a predefined style or finger. | New in GnollHack. |
@@ -151,7 +151,7 @@
 
 ## ⌨️ Other Commands
 
-| Key | Key Command | Description | Notes |
+| Key | Command | Description | Notes |
 | :-: | :---------- | :---------- | :---- |
 | , | Pick up | Pick up items from the floor at your current position. | |
 | ; | Pick up and stash | Pick up items and automatically insert them into the best container in your inventory. | New in GnollHack. |
