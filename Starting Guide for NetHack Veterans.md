@@ -55,40 +55,40 @@ We recommend starting between the [[/Difficulties/Adept]] and [[/Difficulties/Ex
 
 GnollHack's late game is more difficult than NetHack's.
 
-
 ## 📱 Part 2: Interface & Controls
 
-> ℹ️ **Note:** Keyboard shortcuts on this wiki are written in standard uppercase notation. A single letter (e.g. `E`) represents the normal key. Combination shortcuts are written with a plus sign `+` and uppercase letters (e.g. `Shift+E`, `Alt+E`, `Alt+Shift+E`).
+
+> ℹ️ **Note:** Keyboard shortcuts on this wiki are written in lowercase notation. A single letter (e.g. `e`) represents the normal key. Combination shortcuts are written with a plus sign `+` and lowercase letters (e.g. `Shift+e`, `Alt+e`, `Shift+Alt+e`).
 
 ### 🎒 Action Menus and Quick Looting
 
-- **Action Menus:** You can interact with an item in your inventory by opening the Inventory (`I`) and then clicking or pressing its letter. This opens a context-sensitive action menu.
+- **Action Menus:** You can interact with an item in your inventory by opening the Inventory (`i`) and then clicking or pressing its letter. This opens a context-sensitive action menu.
 - **Quick Container Actions:** You can manage bags efficiently, whether they are on the ground, in a chest, or in another bag:
-  - Use Apply (`A`) on a bag, then press Drop (`D`) to drop items from the bag directly onto the ground.
-  - Use Apply (`A`) on a bag, then press Pick up (`P`) to pick up items from the ground directly into the bag.
+  - Use Apply (`a`) on a bag, then press Drop (`d`) to drop items from the bag directly onto the ground.
+  - Use Apply (`a`) on a bag, then press Pick up (`p`) to pick up items from the ground directly into the bag.
 
 
 ### ⌨️ Important Command Changes
 
-> ℹ️ **Note:** The Swap weapons (`X`) command is greatly improved: **it does not cost a turn to use!** Combined with Handedness (`Alt+H`), you can control whether you switch both weapon and shield, or only the right-hand weapon.
+> ℹ️ **Note:** The Swap weapons (`x`) command is greatly improved: **it does not cost a turn to use!** Combined with Handedness (`Alt+h`), you can control whether you switch both weapon and shield, or only the right-hand weapon.
 
 | Command | Type | Description |
 | :--- | :--- | :--- |
-| Examine (`Alt+X`) | New | Shows detailed stats and effects of an item. |
-| Save (`Alt+S`) | Changed | Moved from `Shift+S`. |
-| Skills (`Shift+S`) | Changed | Replaces the NetHack save key. |
-| Take off many (`Alt+T`) | Changed | Replaces the old shortcut. |
-| Dual weapon mode (`Ctrl+X`) | Changed | Toggle dual-wielding. |
-| Chat (`Shift+C`) | Changed | Talk to NPCs. Use Name (`Shift+N` or `Alt+Shift+N`) for naming. |
-| Mix spells (`Shift+X`) | New | Prepare spells using material components. |
-| View spell (`Alt+Z`) | New | View details about your spells. |
+| Examine (`Alt+x`) | New | Shows detailed stats and effects of an item. |
+| Save (`Alt+s`) | Changed | Moved from `Shift+s`. |
+| Skills (`Shift+s`) | Changed | Replaces the NetHack save key. |
+| Take off many (`Alt+t`) | Changed | Replaces the old shortcut. |
+| Dual weapon mode (`Ctrl+x`) | Changed | Toggle dual-wielding. |
+| Chat (`Shift+c`) | Changed | Talk to NPCs. Use Name (`Shift+n` or `Shift+Alt+n`) for naming. |
+| Mix spells (`Shift+x`) | New | Prepare spells using material components. |
+| View spell (`Alt+z`) | New | View details about your spells. |
 | Spell menu (`+`) | New | Open the spell management menu. |
-| Abilities (`Shift+A`) | New | View abilities gained from corpses or items. |
+| Abilities (`Shift+a`) | New | View abilities gained from corpses or items. |
 | Character details (`}`) | New | View detailed stats, including alignment. |
-| Handedness (`Alt+H`) | New | Toggle left/right handedness for equipping. |
-| Dig (`Ctrl+G`) | New | Quick command for digging. |
-| Commands menu (`Alt+C`) | New | Open the extended commands menu. |
-| Yell for pets (`Ctrl+Y` / `Alt+Y`) | New | Call your pets to your location. |
+| Handedness (`Alt+h`) | New | Toggle left/right handedness for equipping. |
+| Dig (`Ctrl+g`) | New | Quick command for digging. |
+| Commands menu (`Alt+c`) | New | Open the extended commands menu. |
+| Yell for pets (`Ctrl+y` / `Alt+y`) | New | Call your pets to your location. |
 
 
 ### 🔗 Learn More
@@ -104,7 +104,7 @@ GnollHack's late game is more difficult than NetHack's.
 ### 🧬 Attributes and Abilities
 
 - **No Exercise Training:** The attribute training system from NetHack has been removed. You gain abilities and stats by eating corpses (e.g., Ogres grant Constitution, Nymphs grant Charisma and no longer give teleportitis).
-- **Fruit Bonuses:** Some fruits, such as [[bananas|/Items/banana]], grant attribute points. Use Examine (`Alt+X`) to check what different fruits do.
+- **Fruit Bonuses:** Some fruits, such as [[bananas|/Items/banana]], grant attribute points. Use Examine (`Alt+x`) to check what different fruits do.
 - **Level Cap and Scaling:** The experience level cap has been increased to 50. It also requires significantly less XP to level up (e.g., reaching level 30 takes only 204,000 XP compared to NetHack's 100 million).
 - **Stat-Driven Combat and AC:** Your Dexterity directly contributes to your Armor Class. Generally, both players and monsters have higher HP, deal more damage, and reach higher AC values than in traditional NetHack.
 - **Immediate Stat Scaling:** Changes in attributes reflect immediately in your Hit Points and Mana Points. Finding a Constitution-boosting item instantly increases your maximum HP.
@@ -122,7 +122,7 @@ GnollHack's late game is more difficult than NetHack's.
 ### 🔮 Spell Casting
 
 - **More Spells:** GnollHack features a wider variety of spells.
-- **Material Components:** Most spells must be prepared using Mix (`X`) with material components. Each preparation gives you a set number of castings for that spell.
+- **Material Components:** Most spells must be prepared using Mix (`Shift+x`) with material components. Each preparation gives you a set number of castings for that spell.
 - **Armor Penalties:** Spells with a somatic component suffer penalties from armor use. Generally, Priests can cast spells while wearing armor, but Wizards cannot.
 
 > ⚠️ **Warning:** Somatic spells cannot be cast reliably in heavy armor. Make sure to wear lightweight armor or robes if you play a Wizard, as somatic cast penalties can completely prevent spellcasting.
@@ -144,7 +144,7 @@ GnollHack's late game is more difficult than NetHack's.
 - **Reach Weapons:** Polearms are significantly better, able to hit enemies 2 squares away in **all** directions, regardless of your skill level. Spears can also hit 2 squares away (via the apply command), provided you have at least "Basic" skill in Spears.
 - **Durable Missiles:** Missiles (like arrows) break very rarely. Uncursed missiles have only a 5% chance to break, and blessed missiles do not break at all!
 
-> 💡 **Tip:** You are encouraged to use ranged weapons first, and then swap to melee weapons (using the 0-turn Exchange weapons (`X`) command) when monsters close the gap!
+> 💡 **Tip:** You are encouraged to use ranged weapons first, and then swap to melee weapons (using the 0-turn Exchange weapons (`x`) command) when monsters close the gap!
 
 
 ## 🎒 Part 5: Items, Equipment & Economy
@@ -160,7 +160,7 @@ GnollHack's late game is more difficult than NetHack's.
   - A blessed [[/Items/scroll of identify]] can no longer identify your entire inventory.
   - The [[/Items/Touchstone]] works to identify gems even when uncursed.
 - **Cursed Stones:** There is a new cursed gray stone called the [[/Items/jinxstone]]. Kicking is no longer enough to identify all stones; you need a pet to be safe.
-- **Wand Damage:** Wands deal specific amounts of damage (e.g., a [[/Items/wand of cold]] deals `12d6` damage). You can also apply wands on items using Apply (`A`).
+- **Wand Damage:** Wands deal specific amounts of damage (e.g., a [[/Items/wand of cold]] deals `12d6` damage). You can also apply wands on items using Apply (`a`).
 - **Artifact Changes:**
   - [[/Artifacts/Cleaver]] is safer: its arc attack no longer hits peaceful or tame monsters.
   - [[/Artifacts/Stormbringer]] will not hit tame creatures.

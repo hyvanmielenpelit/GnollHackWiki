@@ -4,11 +4,11 @@ You have two sets of right hand and left hand items that you can ready. A usual 
 
 ## Using Swap Command
 
-You can change between the sets by using Swap (`X`) command. It will not take a turn for you to do so.
+You can change between the sets by using Swap (`x`) command. It will not take a turn for you to do so.
 
 ## Using Handedness Command
 
-Sometimes you have a situation where you have a weapon and a shield in one set and another single hand weapon, such as a sling, in another set, and you want to use the same shield in both sets. In such a case, you can use Handedness (`Alt+H`) command to tell the game that you want to change only the right hand weapon and keep using the left hand shield in both sets.
+Sometimes you have a situation where you have a weapon and a shield in one set and another single hand weapon, such as a sling, in another set, and you want to use the same shield in both sets. In such a case, you can use Handedness (`Alt+h`) command to tell the game that you want to change only the right hand weapon and keep using the left hand shield in both sets.
 
 ## Auto-Swap
 

@@ -85,9 +85,9 @@ When editing or creating pages for the GnollHack Wiki, follow these conventions 
 
 ## 8. Game Commands and Keyboard Shortcuts
 
-- **Game Commands**: Always mention a game command by its name with a capital letter, followed by its keyboard shortcut in parentheses formatted as code. Example: Pray (`Alt+P`). Do not mention an extended command (e.g., `#pray`) for a game command if there is a keyboard shortcut available for it.
-- **Keyboard Shortcuts**: Use uppercase letters for all keyboard shortcuts (e.g. `E`, `Shift+E`, `Alt+E`, `Alt+Shift+E`). A normal key is written as a single capital letter (e.g. `E`). A Shift key shortcut is written as `Shift+capital letter` (e.g. `Shift+E`). Also apply this format to Ctrl shortcuts (e.g. `Ctrl+E`), Alt shortcuts (e.g. `Alt+E`), and combined modifiers (e.g. `Ctrl+Shift+E`, `Alt+Shift+E`).
-- **Technical & Legacy Contexts**: In technical and legacy contexts (such as remapping key bindings in the options file), NetHack expects literal lowercase letters (e.g., `BINDINGS=x:d`). When describing these literal keys, use the word "lowercase" before any capitalized key or command (e.g. "lowercase `X` key" or "lowercase `D` command") to clarify that the configuration requires a lowercase character while still adhering to the wiki's uppercase notation style.
+- **Game Commands**: Always mention a game command by its name with a capital letter, followed by its keyboard shortcut in parentheses formatted as code. Example: Pray (`Alt+p`). Do not mention an extended command (e.g., `#pray`) for a game command if there is a keyboard shortcut available for it.
+- **GnollHack Keyboard Shortcuts**: Use lowercase letters for the keys in GnollHack game keyboard shortcuts (e.g. `e`, `Shift+e`, `Alt+e`, `Shift+Alt+e`). A normal key is written as a single lowercase letter (e.g. `e`). A Shift key shortcut is written as `Shift+lowercase letter` (e.g. `Shift+e`). Apply this format to all modifier key combinations within the game: Ctrl shortcuts (e.g. `Ctrl+e`), Alt shortcuts (e.g. `Alt+e`), and combined modifiers (e.g. `Ctrl+Shift+e`, `Shift+Alt+e`).
+- **Non-GnollHack Keyboard Shortcuts**: For any keyboard shortcuts that are not specific to the GnollHack game client (such as operating system hotkeys, VS Code markdown editor shortcuts, or other application keys), always use uppercase letters for the shortcut key (e.g., `Ctrl+Shift+P`, `Ctrl+I`, `Ctrl+B`, `Ctrl+Shift+V`, `Win+R`, `Alt+Tab`).
 
 ## 9. Recommended Unicode Icons
 

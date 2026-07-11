@@ -75,6 +75,8 @@ GnollHack has 3 alignments to choose from. Not all alignments are available to a
 
 ## 🎒 Part 3: Survival Fundamentals
 
+> ℹ️ **Note:** Keyboard shortcuts on this wiki are written in lowercase notation. A single letter (e.g. `e`) represents the normal key. Combination shortcuts are written with a plus sign `+` and lowercase letters (e.g. `Shift+e`, `Alt+e`, `Shift+Alt+e`).
+
 ### 🎒 Essential Survival Tips for Beginners
 
 If you are new to GnollHack, these essential tips will help you survive the early game:
@@ -85,7 +87,7 @@ If you are new to GnollHack, these essential tips will help you survive the earl
 - 🔍 **Explore Fully:** Try to explore the entire level and find all items before descending to the next floor. 
 - ⚠️ **Beware of Cursed Items:** Never equip an item you haven't identified unless you are prepared to be permanently stuck with a cursed item. 
 - ⚖️ **Watch Your Weight (Encumbrance):** Carrying too many items will make you Burdened, Stressed, or Strained. This slows you down significantly, making you an easy target for fast monsters. Drop heavy items you don't need in a safe spot, such as a chest.
-- ✍️ **Engraving "Elbereth":** You can use the Engrave command (keyboard shortcut: `E`) to write the word `Elbereth` on the floor. Many monsters are frightened by this word and will refuse to attack you in melee while you stand on it. You can write in the dust using your fingers, or use a hard item for a more permanent engraving.
+- ✍️ **Engraving "Elbereth":** You can use the Engrave command (keyboard shortcut: `Shift+e`) to write the word `Elbereth` on the floor. Many monsters are frightened by this word and will refuse to attack you in melee while you stand on it. You can write in the dust using your fingers, or use a hard item for a more permanent engraving.
 
 ### 🕹️ Commands & Interface
 
@@ -134,12 +136,10 @@ If you try to move to a square occupied by a monster, you will attack it with yo
 
 #### Ranged Combat with a Launcher
 
-> ℹ️ **Note:** Keyboard shortcuts on this wiki are written in standard uppercase notation. A single letter (e.g. `E`) represents the normal key. Combination shortcuts are written with a plus sign `+` and uppercase letters (e.g. `Shift+E`, `Alt+E`, `Alt+Shift+E`).
-
 You can fire missiles to 8 basic directions. You need to wield a matching launcher (e.g., a bow for arrows, a crossbow for bolts, a sling for sling stones). 
 
-- **Swapping:** Click Swap (shortcut: `X`) to change weapon sets. It is best to keep your melee weapon in one set and your ranged weapon in the second set. This will not cost you a turn.
-- **Quivering & Firing:** Use the Quiver command (`Q`) to prepare ammo. Use Fire (`F`) to shoot.
+- **Swapping:** Click Swap (shortcut: `x`) to change weapon sets. It is best to keep your melee weapon in one set and your ranged weapon in the second set. This will not cost you a turn.
+- **Quivering & Firing:** Use the Quiver command (`q`) to prepare ammo. Use Fire (`f`) to shoot.
 - **Range & Accuracy:** You get to-hit penalties depending on the range. Firing at melee range gives a massive to-hit penalty (up to -30).
 - **Autopickup:** You automatically pick up fired missiles by default to save time.
 
@@ -147,7 +147,7 @@ You can fire missiles to 8 basic directions. You need to wield a matching launch
 
 You can throw items to 8 basic directions. The throwing distance is listed in the item's examine information.
 
-- **Throwing:** Use the Throw command (`T`) to throw a weapon from your inventory.
+- **Throwing:** Use the Throw command (`t`) to throw a weapon from your inventory.
 - **Accuracy:** Throwing weapons at melee range gives a large to-hit penalty.
 - **Autopickup:** You automatically pick up thrown weapons by default.
 
@@ -157,7 +157,7 @@ You can throw items to 8 basic directions. The throwing distance is listed in th
 
 ### 🍗 Eating & Nutrition
 
-You become hungry over time. You should eat the corpses of monsters you slay (unless you are a vegetarian monk). **Most corpses rot quickly, so eat them immediately.** If you eat a rotten or tainted corpse, you will become deathly sick and die within a few turns unless you Pray (`Alt+P`) to your god.
+You become hungry over time. You should eat the corpses of monsters you slay (unless you are a vegetarian monk). **Most corpses rot quickly, so eat them immediately.** If you eat a rotten or tainted corpse, you will become deathly sick and die within a few turns unless you Pray (`Alt+p`) to your god.
 
 #### What to Eat and What to Avoid
 
@@ -179,7 +179,7 @@ You become hungry over time. You should eat the corpses of monsters you slay (un
 
 ### 🪄 Spell Casting
 
-Spells in GnollHack require a material component. You must first Mix spells (`Shift+X`), which gives you a number of castings. Then, you can Cast spell (`Shift+Z`).
+Spells in GnollHack require a material component. You must first Mix spells (`Shift+x`), which gives you a number of castings. Then, you can Cast spell (`Shift+z`).
 
 Spell success depends on your experience level, the spell's level, your magic school skill, your attributes (Int/Wis/Cha), and the armor you wear (heavy armor penalizes casting).
 
@@ -187,11 +187,11 @@ Spell success depends on your experience level, the spell's level, your magic sc
 
 | Key | Action | Use |
 |:---:|---|---|
-| `Shift+X` | Mix spells | Prepare spells. |
-| `Shift+Z` | Cast spell | Cast prepared spells. |
-| `R` | Read | Read spellbooks. |
-| `Alt+Z` | View spell | Manage spells and check their effects. |
-| `Shift+S` | Skills | Increase skill levels in magic schools. |
+| `Shift+x` | Mix spells | Prepare spells. |
+| `Shift+z` | Cast spell | Cast prepared spells. |
+| `r` | Read | Read spellbooks. |
+| `Alt+z` | View spell | Manage spells and check their effects. |
+| `Shift+s` | Skills | Increase skill levels in magic schools. |
 | `.` | Target yourself | Target yourself when casting. |
 
 Spells range in levels from minor cantrip (c), major cantrip (C), to levels 1–12. You do not forget spells over time. You usually need at least Basic skill in a magic school to cast its spells. Fighter-type classes that have no access to magic schools have little reason to learn spells, except maybe some cantrips.
@@ -202,7 +202,7 @@ Spells range in levels from minor cantrip (c), major cantrip (C), to levels 1–
 
 ### 📈 Skills
 
-You gain **1 skill slot** every time you level up. You can spend them by using the Skills (`Shift+S`) command. You must first train a skill by successfully hitting with a weapon or casting a spell before you can level it up. 
+You gain **1 skill slot** every time you level up. You can spend them by using the Skills (`Shift+s`) command. You must first train a skill by successfully hitting with a weapon or casting a spell before you can level it up. 
 
 > ℹ️ **Note:** **Magic school skills are an exception:** they have a minimum experience level requirement when they can be increased, meaning you do not necessarily need to train them by casting spells—attaining a certain experience level is enough.
 
@@ -250,7 +250,7 @@ When you have enough trained experience and available skill slots, a green skill
 
 #### Praying
 
-You can **Pray** (`Alt+P`) to your god for help in emergencies (low health, sickness, petrification). 
+You can **Pray** (`Alt+p`) to your god for help in emergencies (low health, sickness, petrification). 
 
 > 🛑 **Caution:** It is not always safe to pray! There is a "prayer timeout" delay. The first safe time to pray is usually turn 301, and you must wait 50–1000 turns between prayers.
 
@@ -259,9 +259,9 @@ You can **Pray** (`Alt+P`) to your god for help in emergencies (low health, sick
 Altars are extremely useful and can belong to any alignment. There is always an altar of your alignment in the starting room on dungeon level 1.
 
 - **Identify Blessedness of Items:** Drop items on any altar to check their blessed/uncursed/cursed status.
-- **Sacrificing:** Offer (`Alt+O`) fresh monster corpses on an altar of *your* alignment to please your god. This can increase your luck or gift you powerful **Artifact** weapons. A [[/Items/wand of create monster]] is very useful here.
+- **Sacrificing:** Offer (`Alt+o`) fresh monster corpses on an altar of *your* alignment to please your god. This can increase your luck or gift you powerful **Artifact** weapons. A [[/Items/wand of create monster]] is very useful here.
 - **Converting Altars:** If an altar is the wrong alignment, sacrificing on it might convert it to your god. The chance to convert an altar is 50% at experience level 4 and about 70–85% at higher experience levels.
-- **Holy Water:** Drop uncursed [[potions of water|/Items/potion of water]] on your altar and pray. They will become holy water. You can dip (`Alt+D`) items into holy water to bless them or remove curses.
+- **Holy Water:** Drop uncursed [[potions of water|/Items/potion of water]] on your altar and pray. They will become holy water. You can dip (`Alt+d`) items into holy water to bless them or remove curses.
 
 ### 🔗 Learn More
 

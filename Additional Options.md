@@ -149,13 +149,13 @@ The `BINDINGS` configuration allows hardware keyboard users to remap key presses
 BINDINGS=key:command
 ```
 
-> 💡 **Example — Map the lowercase `X` key to the drop (lowercase `D`) command:**
+> 💡 **Example — Map the `x` key to the drop (`d`) command:**
 > 
 > ```
 > BINDINGS=x:d
 > ```
 
-> 💡 **Example — Map the lowercase `V` key to the look (`:`) command:**
+> 💡 **Example — Map the `v` key to the look (`:`) command:**
 > 
 > ```
 > BINDINGS=v:look

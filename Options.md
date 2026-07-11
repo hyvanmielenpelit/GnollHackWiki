@@ -79,7 +79,7 @@ OPTIONS=pickup_types:characters
 | **whatis_menu** | `true` / `false` | `false` | Displays an interactive menu identifying all symbols and objects at a targeted location when using the target inspection command. |
 | **wiz_mstatusline** | `true` / `false` | `false` | Displays extended debugging statistics (such as level, HP, speed) for monsters under the cursor (requires Wizard/Debug mode). |
 | **wizweight** | `true` / `false` | `false` | Displays the exact weight of all inventory items, bypassing character identification checks (requires Wizard/Debug mode). |
-| **worn_shows_equipment** | `true` / `false` | `true` | Determines whether the worn item command (`W`) shows a full graphical equipment screen with all body slots or a plain text list of currently worn items. Mirrors the Worn Shows Equipment setting. |
+| **worn_shows_equipment** | `true` / `false` | `true` | Determines whether the worn item command (`w`) shows a full graphical equipment screen with all body slots or a plain text list of currently worn items. Mirrors the Worn Shows Equipment setting. |
 
 ## ⚙️ Gameplay & Mechanics
 
@@ -246,7 +246,7 @@ OPTIONS=pickup_types:characters
 | **IBMgraphics** | *(varies)* | *(varies)* | Loads classic IBM PC CP437 character set symbols for high-quality terminal map rendering. |
 | **Macgraphics** | *(varies)* | *(varies)* | Loads Apple Macintosh-specific character mappings for map symbols. |
 | **altkeyhandler** | *(varies)* | `default` | Selects an external keyboard mapping module or DLL to process custom key handlers (legacy Windows GUI only). |
-| **altmeta** | `true` / `false` | `false` | If enabled, interprets pressing the Escape key followed by a character `c` as the Meta-key combination `M-c`. |
+| **altmeta** | `true` / `false` | `false` | If enabled, interprets pressing the Escape key followed by a character `c` as the Meta-key combination `Meta+c`. |
 | **ascii_map** | `true` / `false` | `false` | If enabled, forces the game map to render in plain text ASCII/UTF-8 mode instead of graphical tiles. |
 | **boulder** | *(varies)* | *(none)* | Overrides the character symbol used to represent boulders on text/terminal displays (e.g. `boulder:`). It is recommended to use `S_boulder` instead. |
 | **classic_colors** | `true` / `false` | `false` | Uses classic NetHack low-contrast colors for floor dots and boulders, instead of updated high-contrast palettes. |

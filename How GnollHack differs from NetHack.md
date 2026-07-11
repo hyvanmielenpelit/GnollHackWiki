@@ -10,7 +10,7 @@ While NetHack relies on classic ASCII graphics and operates entirely without sou
 |---------|---------|-----------|
 | **Graphics** | 🖥️ ASCII or basic tiles | ✨ Modern GUI across platforms with real 2D [[animations]] |
 | **Audio** | ❌ No sound | 🔊 Immersive sound effects, a full [[music]] soundtrack, and [[voiceovers]] |
-| **Inventory Actions** | ⌨️ Memorize specific keys (`Q` to quaff, `R` to read) | 🖱️ All common item actions are accessible by selecting the item in the inventory |
+| **Inventory Actions** | ⌨️ Memorize specific keys (`q` to quaff, `r` to read) | 🖱️ All common item actions are accessible by selecting the item in the inventory |
 | **Information** | ❓ Relies on external spoilers, hides damage numbers | 🔍 Detailed in-game stats and exact damage messaging |
 
 ## 🔮 A Reimagined Magic System
