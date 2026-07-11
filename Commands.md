@@ -1,4 +1,4 @@
-> 👉 **This page lists all the commands available in GnollHack, organized by theme.**
+> 👉 **This page lists only the commands that appear in the modern user interface, organized by theme.**
 
 ## ⚔️ Combat and Attacks
 
@@ -25,16 +25,11 @@ Use these commands to view, organize, select, and inspect items in your inventor
 | Command | Icon | Hotkey | Description | Notes |
 | :--- | :---: | :---: | :--- | :--- |
 | **Inventory** | ![Inventory](/uploads/Commands/inventory.webp) | `i` | Display all items currently carried in your inventory. | |
-| **Count Gold** | ![Count Gold](/uploads/Commands/status-gold.webp) | `$` | Count the amount of gold you are carrying. | |
-| **Pick Up** | ![Pick Up](/uploads/Commands/pickup.webp) | `,` | Pick up items from the floor at your current position. | |
-| **Pick Up and Stash** | ![Stash](/uploads/Commands/picktobag.webp) | `;` | Pick up items and automatically insert them into the best container in your inventory. | New in GnollHack. |
 | **Autopickup** | ![Autopickup](/uploads/Commands/autopickup.webp) | `@` | Toggle the autopickup option on/off. | |
 | **Drop** | ![Drop](/uploads/Commands/dropmany.webp) | `d` | Drop an item onto the floor. | |
 | **Drop Multiple** | ![Drop Multiple](/uploads/Commands/dropmany.webp) | `Shift+d` | Drop multiple items from your inventory at once. | Alternate hotkey: `%`. |
 | **Examine** | ![Examine](/uploads/Commands/examine.webp) | `Alt+x` | Examine an item to view its detailed statistics and properties. | New in GnollHack. |
 | **Near Look** | ![Near Look](/uploads/Commands/lookhere.webp) | `:` | Look at the ground/items present at your current tile. | |
-| **Filtered Inventory** | ![Filtered Inventory](/uploads/Commands/droptypes.webp) | `Shift+i` | Display a filtered list of inventory items (e.g. unpaid items, specific item classes). | |
-| **Adjust Letters** | ![Adjust Letters](/uploads/Commands/missing_icon.webp) | `Alt+a` | Adjust inventory letters for items. | |
 
 ## 🚪 Containers and Door Interaction
 
@@ -45,11 +40,6 @@ Commands for interacting with doors, chests, and bags.
 | **Open Door** | ![Open](/uploads/Commands/open.webp) | `o` | Open an adjacent closed door. | |
 | **Close Door** | ![Close](/uploads/Commands/close.webp) | `c` | Close an adjacent open door. | |
 | **Loot** | ![Loot](/uploads/Commands/loot.webp) | `l` | Loot a container on the floor, saddle/unsaddle a steed, or retrieve items from decorations (such as torch holders). | Alternate hotkey: `Alt+l`. |
-| **Take Out of Bag** | ![Take Out of Bag](/uploads/Commands/lootout.webp) | `b` | Take one or more items out of a container in your inventory. | New in GnollHack. |
-| **Put Into Bag** | ![Put Into Bag](/uploads/Commands/lootin.webp) | `Shift+b` | Put one or more items into a container in your inventory. | New in GnollHack. |
-| **Yank (Take Loot)** | ![Yank Take](/uploads/Commands/lootout.webp) | `y` | Take one or more items out of a container that is lying on the floor. | New in GnollHack. |
-| **Yank (Put Loot)** | ![Yank Put](/uploads/Commands/lootin.webp) | `Shift+y` | Put one or more items into a container that is lying on the floor. | New in GnollHack. |
-| **Tip (Empty)** | ![Tip](/uploads/Commands/tip.webp) | `Alt+Shift+t` | Tip/empty a container to dump all of its contents onto the floor. | New in GnollHack. |
 | **Force Lock** | ![Force Lock](/uploads/Commands/forcelock.webp) | `Alt+f` | Force a lock on a chest or door using a weapon or tool. | |
 | **Untrap** | ![Untrap](/uploads/Commands/untrap.webp) | `u` | Attempt to disarm a trap, untrap a container/door, or rescue a trapped monster. | Alternate hotkey: `Alt+u`. |
 | **Break** | ![Break](/uploads/Commands/break.webp) | `Ctrl+b` | Break an item in your inventory to release its magic or contents (e.g. breaking a wand or potion). | New in GnollHack. |
@@ -92,18 +82,12 @@ Commands to view, wear, and remove armor and accessories.
 | Command | Icon | Hotkey | Description | Notes |
 | :--- | :---: | :---: | :--- | :--- |
 | **Equipment** | ![Equipment](/uploads/Commands/worn.webp) | `*` | Show a list of all your equipped items (combining armor, weapons, rings, amulets, and tools). | |
-| **Show Worn Items** | ![Show Worn Items](/uploads/Commands/missing_icon.webp) | `]` | Display all items you are currently wearing. | |
 | **Wear Armor** | ![Wear](/uploads/Commands/wear.webp) | `Shift+w` | Put on a piece of armor (helmet, body armor, gloves, boots, etc.). | |
 | **Take Off Armor** | ![Take Off](/uploads/Commands/takeoff.webp) | `Shift+t` | Take off a single piece of armor you are currently wearing. | |
 | **Wear Many** | ![Wear Many](/uploads/Commands/wearmany.webp) | `Alt+w` | Put on multiple pieces of armor. | New in GnollHack. |
 | **Take Off Many** | ![Take Off Many](/uploads/Commands/takeoffmany.webp) | `Alt+t` | Take off multiple pieces of armor at once. | |
 | **Put On Accessory** | ![Put On](/uploads/Commands/puton.webp) | `Shift+p` | Put on an accessory such as a ring, amulet, or pair of glasses. | |
 | **Remove Accessory** | ![Remove](/uploads/Commands/remove.webp) | `Shift+r` | Remove an accessory (ring, amulet, etc.) that you are currently wearing. | |
-| **Show Worn Armor** | ![Show Worn Armor](/uploads/Commands/inventory-icon-suit.webp) | `[` | Display all pieces of armor you are currently wearing. | |
-| **Show Worn Rings** | ![Show Worn Rings](/uploads/Commands/rightring.webp) | `=` | Display the rings you are currently wearing. | |
-| **Show Worn Amulet** | ![Show Worn Amulet](/uploads/Commands/inventory-icon-amulet.webp) | `"` | Display details of the amulet you are currently wearing. | |
-| **Show Weapon** | ![Show Weapon](/uploads/Commands/inventory-icon-weapon-right.webp) | `)` | Display the weapon you are currently wielding. | |
-| **List Tools** | ![List Tools](/uploads/Commands/inventory-icon-miscellaneous.webp) | `(` | Display a list of tools you are currently using. | |
 
 ## 📖 Information and UI Controls
 
@@ -113,34 +97,13 @@ These commands open information screens, name entities, and control the user int
 | :--- | :---: | :---: | :--- | :--- |
 | **Character Details** | ![Character Details](/uploads/Commands/you.webp) | `}` | Display detailed information, statistics, and attributes of your character. | New in GnollHack. |
 | **Abilities** | ![Abilities](/uploads/Commands/abilities.webp) | `Shift+a` | View your character's active and passive abilities (opens the status screen). | New in GnollHack. |
-| **Look** | ![Look](/uploads/Commands/lookhere.webp) | `Shift+l` | Examine your surroundings or a specific tile on the map. | |
-| **Far Look** | ![Far Look](/uploads/Commands/lookfar.webp) | `/` | Look at a distant tile on the map to identify what symbol represents. | |
+| **Look Far** | ![Look Far](/uploads/Commands/lookfar.webp) | `'` | Look at a distant tile on the map to identify what symbol represents. | |
 | **Chat** | ![Chat](/uploads/Commands/chat.webp) | `Shift+c` | Chat with an adjacent monster, pet, or NPC. | |
 | **Yell for Pets** | ![Yell](/uploads/Commands/yell.webp) | `Alt+y` | Yell to summon your pet to your side. | New in GnollHack. Alternate hotkey: `Ctrl+y`. |
-| **View Pet** | ![View Pet](/uploads/Commands/missing_icon.webp) | `{` | View the status of your currently active pet. | Mobile only. |
 | **Dungeon Overview** | ![Dungeon Overview](/uploads/Commands/overview.webp) | `Ctrl+o` | Show the dungeon overview screen listing visited levels and features. | |
-| **Known Items** | ![Known Items](/uploads/Commands/missing_icon.webp) | `\` | Display a list of all object types that have been discovered/identified. | |
-| **Known Class** | ![Known Class](/uploads/Commands/missing_icon.webp) | `` ` `` | Display discovered object types for a specific category/class. | |
-| **Annotate Level** | ![Annotate Level](/uploads/Commands/engrave.webp) | `Ctrl+n` | Add a text annotation/note to the current dungeon level. | Alternate hotkey: `Alt+Shift+a`. |
 | **Name** | ![Name](/uploads/Commands/name.webp) | `Shift+n` | Name a specific monster, individual item, or category of items. | |
-| **Name Category** | ![Name Category](/uploads/Commands/name.webp) | `Alt+Shift+n` | Assign a name to a specific monster or category of objects. | |
-| **Call** | ![Call](/uploads/Commands/chat.webp) | `Ctrl+c` | Assign a name/call name to a monster, an object, or an object class. | |
-| **Previous Message** | ![Previous Message](/uploads/Commands/messages.webp) | `Ctrl+p` | Recall and display the previous message(s). | |
-| **Redraw Screen** | ![Redraw](/uploads/Commands/missing_icon.webp) | `Ctrl+r` | Redraw the entire screen. | |
 | **Use Monster Ability** | ![Monster Ability](/uploads/Commands/monster.webp) | `Alt+Shift+m` | Use a special ability of your current monster form (if polymorphed). | |
-| **What Does** | ![What Does](/uploads/Commands/missing_icon.webp) | `&` | Find out what a keyboard shortcut or command does. | |
 | **Help** | ![Help](/uploads/Commands/help.webp) | `h` | Display the help menu with game information and commands. | Alternate hotkey: `?`. |
-
-### 🔍 Zoom and View Controls
-
-You can adjust the map zoom level using the following keyboard shortcuts:
-
-| Command | Icon | Hotkey | Alternate Hotkey |
-| :--- | :---: | :---: | :---: |
-| **Zoom In** | ![Zoom In](/uploads/Commands/zoom.webp) | `Ctrl++` | `Alt++` |
-| **Zoom Out** | ![Zoom Out](/uploads/Commands/zoom.webp) | `Ctrl+-` | `Alt+-` |
-| **Reset Zoom** | ![Reset Zoom](/uploads/Commands/zoom.webp) | `Ctrl+0` | `Alt+0` |
-| **Toggle Minimap Mode** | ![Minimap Mode](/uploads/Commands/stone-minimap-off.webp) | `Ctrl+.` | `Alt+.` |
 
 ## ⚙️ Game Control and System Meta Commands
 
@@ -148,21 +111,14 @@ Commands that manage the game state, save progress, or display settings.
 
 | Command | Icon | Hotkey | Description | Notes |
 | :--- | :---: | :---: | :--- | :--- |
-| **Save** | ![Save](/uploads/Commands/save.webp) | `Alt+s` | Save the game, secure your progress, and return to the main menu. | |
-| **Commands Menu** | ![Commands Menu](/uploads/Commands/commands.webp) | `Alt+c` | Open the commands menu (useful for touchscreen and keyboard-less players). | New in GnollHack. |
 | **Repeat** | ![Repeat](/uploads/Commands/repeat.webp) | `Ctrl+a` | Redo/repeat the previous command. | |
 | **Number of Actions**<sup>1</sup> | ![Number of Actions](/uploads/Commands/count.webp) | `n` | Specify a repetition count before entering a command. | New in GnollHack. Alternate hotkey: `Alt+n`. |
 | **Pray** | ![Pray](/uploads/Commands/pray.webp) | `Alt+p` | Pray to your deity for help, healing, or safety. | See the [[Praying]] guide for details. |
 | **Offer Sacrifice** | ![Offer](/uploads/Commands/offer.webp) | `Alt+o` | Offer an item or corpse as a sacrifice on an altar to your deity. | |
 | **Extended Command** | ![Extended Command](/uploads/Commands/extended.webp) | `#` | Prompt for and execute an extended command (e.g. `#pray`, `#sit`, `#chat`). | |
-| **Options** | ![Options](/uploads/Commands/missing_icon.webp) | `Shift+o` | View and modify game options. | See the [[Options]] page. |
 | **Pay Bill** | ![Pay Bill](/uploads/Commands/pay.webp) | `p` | Pay your shopping bill to the shopkeeper. | |
 | **Vanquished Creatures** | ![Vanquished](/uploads/Commands/killed.webp) | `Alt+k` | Show the list of monsters you have killed during the game. | |
 | **Genocided Monsters** | ![Genocided](/uploads/Commands/genocided.webp) | `Alt+g` | Show a list of all genocided monster species. | |
-| **Version Info** | ![Version Info](/uploads/Commands/chronicle.webp) | `v` | Display the version number and build details of the game. | |
-| **Game History Info** | ![History Info](/uploads/Commands/chronicle.webp) | `Shift+v` | Display the game's compilation options and version history. | |
-| **GnollHack Library Info** | ![Library Info](/uploads/Commands/library.webp) | `Alt+v` | Display details about the compiled GnollHack libraries and build. | |
-| **Quit** | ![Quit](/uploads/Commands/exit-to-map.webp) | `Alt+q` | Quit the game (deletes your character and ends the current game session). | |
 
 - <sup>1</sup> Number of actions works like this: press `n`, then write the number of actions in numerals, and then choose the action. For example, `n20s` searches 20 times.
 
@@ -177,47 +133,9 @@ Use the following commands to navigate the dungeon, climb stairs, rest, and sear
 | **Wait** | ![Wait](/uploads/Commands/wait.webp) | `.` | Rest or wait for one turn (does nothing; useful to let monsters approach or to pass time). | |
 | **Travel** | ![Travel](/uploads/Commands/travel.webp) | `_` | Automatically travel to a selected map tile using a pathfinding algorithm. | |
 | **Search** | ![Search](/uploads/Commands/search.webp) | `s` | Search adjacent tiles for hidden secret doors and traps (success depends on perception and luck). | |
-| **Identify Trap** | ![Identify Trap](/uploads/Commands/missing_icon.webp) | `^` | Show the type of an adjacent trap. | |
-| **Go Mode (Rush)** | ![Go Rush](/uploads/Commands/status-move.webp) | `g` | Move in a direction, stopping at interesting features (stops when seeing a monster, door, trap, etc.). | |
-| **Move Mode (Rush)** | ![Move Rush](/uploads/Commands/status-move.webp) | `m` | Move in a direction without picking up items on the ground. | |
-| **Go Mode (Run)** | ![Go Run](/uploads/Commands/status-move.webp) | `Shift+g` | Run in a direction until blocked or interrupted (stops at walls, monsters, or interesting objects). | |
-| **Move Mode (Run)** | ![Move Run](/uploads/Commands/status-move.webp) | `Shift+m` | Run in a direction without picking up items on the ground. | |
 | **Jump** | ![Jump](/uploads/Commands/jump.webp) | `j` | Jump to a nearby tile (requires character jumping ability). | Alternate hotkey: `Alt+j`. |
 | **Ride** | ![Ride](/uploads/Commands/ride.webp) | `Alt+Shift+r` | Mount or dismount a saddled steed. | |
 | **Sit** | ![Sit](/uploads/Commands/sit.webp) | `Ctrl+s` | Sit down on the floor, a throne, or another seat (sitting on a throne can trigger magical effects). | |
-
-### 🧭 Directional Controls
-
-You can move in the eight cardinal and diagonal directions using several different layout controls.
-
-### 🧭 Arrow Keys
-
-On keyboards without a number pad, you can combine the arrow keys with **Ctrl** or **Alt** to move diagonally:
-
-| Key | Cardinal | Ctrl + Key | Diagonal | Alt + Key | Diagonal |
-| :---: | :---: | :---: | :---: | :---: | :---: |
-| ↑ | North (`↑`) | Ctrl + ↑ | Northwest (`↖`) | Alt + ↑ | Northeast (`↗`) |
-| ↓ | South (`↓`) | Ctrl + ↓ | Southwest (`↙`) | Alt + ↓ | Southeast (`↘`) |
-| ← | West (`←`) | Ctrl + ← | Northwest (`↖`) | Alt + ← | Southwest (`↙`) |
-| → | East (`→`) | Ctrl + → | Northeast (`↗`) | Alt + → | Southeast (`↘`) |
-
-### 🧭 Number Pad
-
-If your keyboard has a number pad, enable **Num Lock** and use the keys as follows:
-
-- **7**, **8**, **9** for Northwest, North, Northeast.
-- **4**, **6** for West, East.
-- **1**, **2**, **3** for Southwest, South, Southeast.
-- **5** in the center enables run/rush mode.
-
-### 🧭 Regular Number Keys
-
-On compact keyboards without a number pad, the regular number keys can be used for direction:
-
-- **7**, **8**, **9** for Northwest, North, Northeast.
-- **4**, **6** for West, East.
-- **1**, **2**, **3** for Southwest, South, Southeast.
-- **5** in the center enables run/rush mode.
 
 ## 🧙‍♂️ Wizard Mode Commands
 
@@ -227,7 +145,6 @@ These commands are only available when playing in [[Wizard mode]] (developer deb
 | :--- | :---: | :---: | :--- | :--- |
 | **Wish** | ![Wish](/uploads/Commands/wish.webp) | `Ctrl+w` | Make a wish for any item. | Wizard mode only. |
 | **Reveal Map** | ![Reveal Map](/uploads/Commands/reveal.webp) | `Ctrl+f` | Reveal the entire map of the current level. | Wizard mode only. |
-| **Detect** | ![Detect](/uploads/Commands/missing_icon.webp) | `Ctrl+e` | Detect hidden features on the map. | Wizard mode only. |
 | **Identify** | ![Identify](/uploads/Commands/identify.webp) | `Ctrl+i` | Identify all items in your inventory. | Wizard mode only. |
 | **Level Teleport** | ![Level Teleport](/uploads/Commands/levelport.webp) | `Ctrl+v` | Teleport to a different level of the dungeon. | Wizard mode only. |
 | **Genesis** | ![Genesis](/uploads/Commands/genesis.webp) | `Alt+m` | Create a monster. | Wizard mode only. |
