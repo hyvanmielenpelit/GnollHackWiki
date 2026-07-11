@@ -4,7 +4,7 @@ You have two sets of right hand and left hand items that you can ready. A usual 
 
 ## Using Swap Command
 
-You can change between the sets by using Swap (`x`) command. It will not take a turn for you to do so.
+You can change between the sets by using Swap (`X`) command. It will not take a turn for you to do so.
 
 ## Using Handedness Command
 

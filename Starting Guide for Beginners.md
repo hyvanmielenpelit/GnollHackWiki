@@ -134,10 +134,12 @@ If you try to move to a square occupied by a monster, you will attack it with yo
 
 #### Ranged Combat with a Launcher
 
+> ℹ️ **Note:** Keyboard shortcuts on this wiki are written in standard uppercase notation. A single letter (e.g. `E`) represents the normal key. Combination shortcuts are written with a plus sign `+` and uppercase letters (e.g. `Shift+E`, `Alt+E`, `Alt+Shift+E`).
+
 You can fire missiles to 8 basic directions. You need to wield a matching launcher (e.g., a bow for arrows, a crossbow for bolts, a sling for sling stones). 
 
-- **Swapping:** Click Swap (shortcut: `x`) to change weapon sets. It is best to keep your melee weapon in one set and your ranged weapon in the second set. This will not cost you a turn.
-- **Quivering & Firing:** Use the Quiver command (`Q`) to prepare ammo. Use Fire (`f`) to shoot.
+- **Swapping:** Click Swap (shortcut: `X`) to change weapon sets. It is best to keep your melee weapon in one set and your ranged weapon in the second set. This will not cost you a turn.
+- **Quivering & Firing:** Use the Quiver command (`Q`) to prepare ammo. Use Fire (`F`) to shoot.
 - **Range & Accuracy:** You get to-hit penalties depending on the range. Firing at melee range gives a massive to-hit penalty (up to -30).
 - **Autopickup:** You automatically pick up fired missiles by default to save time.
 
@@ -145,7 +147,7 @@ You can fire missiles to 8 basic directions. You need to wield a matching launch
 
 You can throw items to 8 basic directions. The throwing distance is listed in the item's examine information.
 
-- **Throwing:** Use the Throw command (`t`) to throw a weapon from your inventory.
+- **Throwing:** Use the Throw command (`T`) to throw a weapon from your inventory.
 - **Accuracy:** Throwing weapons at melee range gives a large to-hit penalty.
 - **Autopickup:** You automatically pick up thrown weapons by default.
 

@@ -87,6 +87,7 @@ When editing or creating pages for the GnollHack Wiki, follow these conventions 
 
 - **Game Commands**: Always mention a game command by its name with a capital letter, followed by its keyboard shortcut in parentheses formatted as code. Example: Pray (`Alt+P`). Do not mention an extended command (e.g., `#pray`) for a game command if there is a keyboard shortcut available for it.
 - **Keyboard Shortcuts**: Use uppercase letters for all keyboard shortcuts (e.g. `E`, `Shift+E`, `Alt+E`, `Alt+Shift+E`). A normal key is written as a single capital letter (e.g. `E`). A Shift key shortcut is written as `Shift+capital letter` (e.g. `Shift+E`). Also apply this format to Ctrl shortcuts (e.g. `Ctrl+E`), Alt shortcuts (e.g. `Alt+E`), and combined modifiers (e.g. `Ctrl+Shift+E`, `Alt+Shift+E`).
+- **Technical & Legacy Contexts**: In technical and legacy contexts (such as remapping key bindings in the options file), NetHack expects literal lowercase letters (e.g., `BINDINGS=x:d`). When describing these literal keys, use the word "lowercase" before any capitalized key or command (e.g. "lowercase `X` key" or "lowercase `D` command") to clarify that the configuration requires a lowercase character while still adhering to the wiki's uppercase notation style.
 
 ## 9. Recommended Unicode Icons
 

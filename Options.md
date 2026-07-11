@@ -79,7 +79,7 @@ OPTIONS=pickup_types:characters
 | **whatis_menu** | `true` / `false` | `false` | Displays an interactive menu identifying all symbols and objects at a targeted location when using the target inspection command. |
 | **wiz_mstatusline** | `true` / `false` | `false` | Displays extended debugging statistics (such as level, HP, speed) for monsters under the cursor (requires Wizard/Debug mode). |
 | **wizweight** | `true` / `false` | `false` | Displays the exact weight of all inventory items, bypassing character identification checks (requires Wizard/Debug mode). |
-| **worn_shows_equipment** | `true` / `false` | `true` | Determines whether the worn item command (`w`) shows a full graphical equipment screen with all body slots or a plain text list of currently worn items. Mirrors the Worn Shows Equipment setting. |
+| **worn_shows_equipment** | `true` / `false` | `true` | Determines whether the worn item command (`W`) shows a full graphical equipment screen with all body slots or a plain text list of currently worn items. Mirrors the Worn Shows Equipment setting. |
 
 ## ⚙️ Gameplay & Mechanics
 

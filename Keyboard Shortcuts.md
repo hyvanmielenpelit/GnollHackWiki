@@ -1,5 +1,7 @@
 ![Keyboard Shortcuts](/uploads/Keyboard%20Shortcuts/keyboard-shortcuts-q85.webp)
 
+> ℹ️ **Note:** Keyboard shortcuts on this wiki are written in standard uppercase notation. A single letter (e.g. `E`) represents the normal key. Combination shortcuts are written with a plus sign `+` and uppercase letters (e.g. `Shift+E`, `Alt+E`, `Alt+Shift+E`).
+
 ## Commands Bound to Letters
 
 | Key | Key Command | Shift + Key | Shift + Key Command | Alt + Key | Alt + Key Command | Ctrl + Key | Ctrl + Key Command |

@@ -58,13 +58,14 @@ GnollHack's late game is more difficult than NetHack's.
 
 ## 📱 Part 2: Interface & Controls
 
+> ℹ️ **Note:** Keyboard shortcuts on this wiki are written in standard uppercase notation. A single letter (e.g. `E`) represents the normal key. Combination shortcuts are written with a plus sign `+` and uppercase letters (e.g. `Shift+E`, `Alt+E`, `Alt+Shift+E`).
 
 ### 🎒 Action Menus and Quick Looting
 
-- **Action Menus:** You can interact with an item in your inventory by opening the Inventory (`i`) and then clicking or pressing its letter. This opens a context-sensitive action menu.
+- **Action Menus:** You can interact with an item in your inventory by opening the Inventory (`I`) and then clicking or pressing its letter. This opens a context-sensitive action menu.
 - **Quick Container Actions:** You can manage bags efficiently, whether they are on the ground, in a chest, or in another bag:
-  - Use Apply (`a`) on a bag, then press Drop (`d`) to drop items from the bag directly onto the ground.
-  - Use Apply (`a`) on a bag, then press Pick up (`p`) to pick up items from the ground directly into the bag.
+  - Use Apply (`A`) on a bag, then press Drop (`D`) to drop items from the bag directly onto the ground.
+  - Use Apply (`A`) on a bag, then press Pick up (`P`) to pick up items from the ground directly into the bag.
 
 
 ### ⌨️ Important Command Changes
@@ -143,7 +144,7 @@ GnollHack's late game is more difficult than NetHack's.
 - **Reach Weapons:** Polearms are significantly better, able to hit enemies 2 squares away in **all** directions, regardless of your skill level. Spears can also hit 2 squares away (via the apply command), provided you have at least "Basic" skill in Spears.
 - **Durable Missiles:** Missiles (like arrows) break very rarely. Uncursed missiles have only a 5% chance to break, and blessed missiles do not break at all!
 
-> 💡 **Tip:** You are encouraged to use ranged weapons first, and then swap to melee weapons (using the 0-turn Exchange weapons (`x`) command) when monsters close the gap!
+> 💡 **Tip:** You are encouraged to use ranged weapons first, and then swap to melee weapons (using the 0-turn Exchange weapons (`X`) command) when monsters close the gap!
 
 
 ## 🎒 Part 5: Items, Equipment & Economy
@@ -159,7 +160,7 @@ GnollHack's late game is more difficult than NetHack's.
   - A blessed [[/Items/scroll of identify]] can no longer identify your entire inventory.
   - The [[/Items/Touchstone]] works to identify gems even when uncursed.
 - **Cursed Stones:** There is a new cursed gray stone called the [[/Items/jinxstone]]. Kicking is no longer enough to identify all stones; you need a pet to be safe.
-- **Wand Damage:** Wands deal specific amounts of damage (e.g., a [[/Items/wand of cold]] deals `12d6` damage). You can also apply wands on items using Apply (`a`).
+- **Wand Damage:** Wands deal specific amounts of damage (e.g., a [[/Items/wand of cold]] deals `12d6` damage). You can also apply wands on items using Apply (`A`).
 - **Artifact Changes:**
   - [[/Artifacts/Cleaver]] is safer: its arc attack no longer hits peaceful or tame monsters.
   - [[/Artifacts/Stormbringer]] will not hit tame creatures.
