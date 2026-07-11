@@ -23,6 +23,8 @@ Several commands are available to interact with the stashing system:
 
 When you pick up items with the Pick Up and Stash (`;`) command or run the Autostash (`#autostash`) command, GnollHack determines the "best container" for each item. The game automatically searches your inventory for a valid (proper, unlocked, and open) container based on the following priority list:
 
+> ℹ️ **Note on Magic Bags:** The algorithm will **completely ignore** magic bags if their Blessed/Uncursed/Cursed (BUC) status is unknown, or if they are cursed. Furthermore, if you carry multiple valid magic bags of the same type, the algorithm will always prefer a **blessed** bag over an uncursed one.
+
 | Priority | Target Container | Conditions / Item Category Weight Reductions |
 | :---: | :--- | :--- |
 | **1** | Designated Quick Bag | The item goes here first if a Quick Bag is active, unlocked, and has an open lid. |
@@ -61,6 +63,6 @@ Not all items or containers can participate in auto-stashing. The game enforces 
 | **Unfit Items** | [[/Items/Ice Box]], [[/Items/Bookshelf]], [[/Items/Coffin]], [[/Items/Sarcophagus]], [[/Items/Chest]], [[/Items/Large Box]], [[/Items/Boulder]], [[/Items/Statue]] | Cannot be stashed in containers due to size/immobility restrictions. |
 | **Cursed Items** | Cursed items that cannot be dropped (e.g., [[/Items/Loadstone]]) | Cannot leave your inventory and are skipped by the algorithm. |
 | **Quest Artifacts** | [[/Items/Amulet of Yendor]], [[/Artifacts/Candelabrum of Invocation]], [[/Artifacts/Bell of Opening]], [[/Artifacts/Book of the Dead]] | Cannot be placed in containers under any circumstances. |
-| **Invalid Bags** | Locked containers, containers with closed lids | Automatically skipped by the algorithm. |
+| **Invalid Bags** | Locked containers, containers with closed lids, cursed magic bags, or magic bags with unknown BUC status | Automatically skipped by the algorithm. |
 | **Attached/Leashed** | Attached [[/Items/iron chain]] or [[/Items/heavy iron ball]], pet [[/Items/Leash]] | Cannot be stashed. |
 | **Welded Weapons** | Cursed weapons welded to hands | Cannot be stashed until uncursed and unwielded. |
