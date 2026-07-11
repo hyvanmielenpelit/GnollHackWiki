@@ -10,6 +10,7 @@
 - [[/Monsters/Orange dragon]]
 - [[/Monsters/Orange dragon hatchling]]
 - [[/Monsters/Orc]]
+- [[/Monsters/Orc hermit]]
 - [[/Monsters/Orc king]]
 - [[/Monsters/Orc mummy]]
 - [[/Monsters/Orc shaman]]

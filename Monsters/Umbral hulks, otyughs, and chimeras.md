@@ -1,6 +1,9 @@
 | Monster | Genocidable |
 | :--- | :---: |
-| [[/Monsters/Umbral hulk]] | ✅ |
-| [[/Monsters/Otyugh]] | ✅ |
-| [[/Monsters/Neo-otyugh]] | ✅ |
+| [[/Monsters/Bulette]] | ✅ |
 | [[/Monsters/Chimera]] | ✅ |
+| [[/Monsters/Elder griffon]] | ✅ |
+| [[/Monsters/Griffon]] | ✅ |
+| [[/Monsters/Neo-otyugh]] | ✅ |
+| [[/Monsters/Otyugh]] | ✅ |
+| [[/Monsters/Umbral hulk]] | ✅ |

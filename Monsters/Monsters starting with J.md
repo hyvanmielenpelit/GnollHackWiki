@@ -4,3 +4,4 @@
 - [[/Monsters/Jellyfish]]
 - [[/Monsters/Jubilex]]
 - [[/Monsters/Juggernaut]]
+- [[/Monsters/Juvenile tyrannosaurus rex]]

@@ -8,6 +8,7 @@
 - [[/Monsters/Mastodon]]
 - [[/Monsters/Medium luggage]]
 - [[/Monsters/Medusa]]
+- [[/Monsters/Megatherium]]
 - [[/Monsters/Minion of Huhetotl]]
 - [[/Monsters/Minotaur]]
 - [[/Monsters/Modron duodrone]]

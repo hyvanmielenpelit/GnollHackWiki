@@ -1,9 +1,12 @@
 | Monster | Genocidable |
 | :--- | :---: |
-| [[/Monsters/Kitten]] | ✅ |
 | [[/Monsters/Housecat]] | ✅ |
-| [[/Monsters/Large cat]] | ✅ |
-| [[/Monsters/Lynx]] | ✅ |
 | [[/Monsters/Jaguar]] | ✅ |
+| [[/Monsters/Kitten]] | ✅ |
+| [[/Monsters/Large cat]] | ✅ |
+| [[/Monsters/Large saber-tooth tiger]] | ✅ |
+| [[/Monsters/Lynx]] | ✅ |
 | [[/Monsters/Panther]] | ✅ |
+| [[/Monsters/Saber-tooth tiger]] | ✅ |
+| [[/Monsters/Saber-tooth tiger cub]] | ✅ |
 | [[/Monsters/Tiger]] | ✅ |

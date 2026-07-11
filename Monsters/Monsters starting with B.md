@@ -29,3 +29,4 @@
 - [[/Monsters/Brown mold]]
 - [[/Monsters/Brown pudding]]
 - [[/Monsters/Bugbear]]
+- [[/Monsters/Bulette]]

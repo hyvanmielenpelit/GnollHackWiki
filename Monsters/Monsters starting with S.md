@@ -1,3 +1,5 @@
+- [[/Monsters/Saber-tooth tiger]]
+- [[/Monsters/Saber-tooth tiger cub]]
 - [[/Monsters/Salamander]]
 - [[/Monsters/Samurai]]
 - [[/Monsters/Sandestin]]
@@ -30,6 +32,7 @@
 - [[/Monsters/Spotted jelly]]
 - [[/Monsters/Stalker]]
 - [[/Monsters/Steam vortex]]
+- [[/Monsters/Stegosaurus]]
 - [[/Monsters/Stone giant]]
 - [[/Monsters/Stone golem]]
 - [[/Monsters/Storm giant]]

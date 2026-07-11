@@ -4,6 +4,7 @@
 - [[/Monsters/Elder earth elemental]]
 - [[/Monsters/Elder fire elemental]]
 - [[/Monsters/Elder gazer]]
+- [[/Monsters/Elder griffon]]
 - [[/Monsters/Elder long worm]]
 - [[/Monsters/Elder long worm tail]]
 - [[/Monsters/Elder quantum mechanic]]

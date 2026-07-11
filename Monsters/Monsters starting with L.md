@@ -5,6 +5,7 @@
 - [[/Monsters/Large luggage]]
 - [[/Monsters/Large mimic]]
 - [[/Monsters/Large ram]]
+- [[/Monsters/Large saber-tooth tiger]]
 - [[/Monsters/Leather golem]]
 - [[/Monsters/Lemure]]
 - [[/Monsters/Leprechaun]]

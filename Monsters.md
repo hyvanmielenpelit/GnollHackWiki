@@ -46,7 +46,7 @@
 | `O` | [[/Monsters/Ogres]] | ✅ |
 | `P` | [[/Monsters/Puddings and oozes]] | ✅ |
 | `Q` | [[/Monsters/Quantum mechanics]] | ✅ |
-| `R` | [[/Monsters/Rust monsters and disenchanters]] | ✅ |
+| `R` | [[/Monsters/Rust monsters, disenchanters, and rakshasas]] | ✅ |
 | `S` | [[/Monsters/Snakes]] | ✅ |
 | `T` | [[/Monsters/Trolls and monsters with similar powers]] | Partly |
 | `U` | [[/Monsters/Umbral hulks, otyughs, and chimeras]] | ✅ |

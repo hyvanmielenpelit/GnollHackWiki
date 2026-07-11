@@ -1,12 +1,13 @@
 | Monster | Genocidable |
 | :--- | :---: |
-| [[/Monsters/Ram]] | ✅ |
-| [[/Monsters/Pony]] | ✅ |
-| [[/Monsters/Pegasus]] | ✅ |
+| [[/Monsters/Black unicorn]] | ✅ |
+| [[/Monsters/Gray unicorn]] | ✅ |
 | [[/Monsters/Horse]] | ✅ |
 | [[/Monsters/Large ram]] | ✅ |
-| [[/Monsters/White unicorn]] | ✅ |
-| [[/Monsters/Gray unicorn]] | ✅ |
-| [[/Monsters/Black unicorn]] | ✅ |
+| [[/Monsters/Nightmare]] | ✅ |
+| [[/Monsters/Pegasus]] | ✅ |
+| [[/Monsters/Pony]] | ✅ |
+| [[/Monsters/Ram]] | ✅ |
 | [[/Monsters/Warhorse]] | ✅ |
 | [[/Monsters/Warram]] | ✅ |
+| [[/Monsters/White unicorn]] | ✅ |

@@ -1,13 +1,26 @@
 | Monster | Genocidable |
 | :--- | :---: |
-| [[/Monsters/Newt]] | ✅ |
-| [[/Monsters/Gecko]] | ✅ |
-| [[/Monsters/Iguana]] | ✅ |
+| [[/Monsters/Allosaurus]] | ✅ |
+| [[/Monsters/Ankylosaurus]] | ✅ |
 | [[/Monsters/Baby crocodile]] | ✅ |
-| [[/Monsters/Lizard]] | ✅ |
 | [[/Monsters/Chameleon]] | ✅ |
 | [[/Monsters/Crocodile]] | ✅ |
-| [[/Monsters/Salamander]] | ❌ |
+| [[/Monsters/Gecko]] | ✅ |
+| [[/Monsters/Giganotosaurus]] | ✅ |
 | [[/Monsters/Hydra]] | ✅ |
-| [[/Monsters/Pyrohydra]] | ✅ |
+| [[/Monsters/Iguana]] | ✅ |
+| [[/Monsters/Iguanodon]] | ✅ |
+| [[/Monsters/Infernal pteranodon]] | ✅ |
+| [[/Monsters/Juvenile tyrannosaurus rex]] | ✅ |
 | [[/Monsters/Lernaean hydra]] | ✅ |
+| [[/Monsters/Lizard]] | ✅ |
+| [[/Monsters/Newt]] | ✅ |
+| [[/Monsters/Pachycephalosaurus]] | ✅ |
+| [[/Monsters/Pteranodon]] | ✅ |
+| [[/Monsters/Pyrohydra]] | ✅ |
+| [[/Monsters/Quetzalcoatlus]] | ✅ |
+| [[/Monsters/Salamander]] | ❌ |
+| [[/Monsters/Stegosaurus]] | ✅ |
+| [[/Monsters/Triceratops]] | ✅ |
+| [[/Monsters/Tyrannosaurus rex]] | ✅ |
+| [[/Monsters/Tyrannosaurus rex hatchling]] | ✅ |

@@ -1,4 +1,7 @@
 - [[/Monsters/Rabid rat]]
+- [[/Monsters/Rakshasa]]
+- [[/Monsters/Rakshasa maharaja]]
+- [[/Monsters/Rakshasa rajah]]
 - [[/Monsters/Ram]]
 - [[/Monsters/Ranger]]
 - [[/Monsters/Raven]]

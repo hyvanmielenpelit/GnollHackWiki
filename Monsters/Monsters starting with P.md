@@ -1,3 +1,4 @@
+- [[/Monsters/Pachycephalosaurus]]
 - [[/Monsters/Page]]
 - [[/Monsters/Panther]]
 - [[/Monsters/Paper golem]]
@@ -13,6 +14,7 @@
 - [[/Monsters/Pony]]
 - [[/Monsters/Priest]]
 - [[/Monsters/Prisoner]]
+- [[/Monsters/Pteranodon]]
 - [[/Monsters/Purple worm]]
 - [[/Monsters/Pyrohydra]]
 - [[/Monsters/Pyrolisk]]

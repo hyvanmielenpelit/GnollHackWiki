@@ -11,5 +11,8 @@
 - [[/Monsters/Tourist]]
 - [[/Monsters/Trapper]]
 - [[/Monsters/Treant]]
+- [[/Monsters/Triceratops]]
 - [[/Monsters/Troll]]
 - [[/Monsters/Twoflower]]
+- [[/Monsters/Tyrannosaurus rex]]
+- [[/Monsters/Tyrannosaurus rex hatchling]]

@@ -4,6 +4,7 @@
 - [[/Monsters/Neferet the Green]]
 - [[/Monsters/Neo-otyugh]]
 - [[/Monsters/Newt]]
+- [[/Monsters/Nightmare]]
 - [[/Monsters/Ninja]]
 - [[/Monsters/Norn]]
 - [[/Monsters/Nurse]]
