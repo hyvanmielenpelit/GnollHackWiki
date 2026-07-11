@@ -39,7 +39,7 @@ When you pick up items with the Pick Up and Stash (`;`) command or run the Autos
 
 To prevent catastrophic magical explosions that destroy both the magic bag and its contents, the algorithm performs a safety check:
 - It **never** auto-stashes a cancellation hazard (like a [[/Items/Wand of Cancellation]] or items with the magic-bag-destroying flag) into any magic bag.
-- If either the item's type or the Wand of Cancellation is **unidentified**, the algorithm plays it safe and treats **all wands** as potential cancellation hazards, stashing them only in normal sacks.
+- If either the item's type or the [[/Items/Wand of Cancellation]] is **unidentified**, the algorithm plays it safe and treats **all wands** as potential cancellation hazards, stashing them only in normal sacks.
 
 ## ⚙️ Settings and Options
 
