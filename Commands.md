@@ -2,7 +2,7 @@
 
 ## 🎒 Inventory and Item Management
 
-Use these commands to view, organize, select, and inspect items in your inventory or on the ground.
+Commands to view, pick up, drop, organize, and inspect items in your inventory or on the floor.
 
 | Command | Icon | Hotkey | Description | Notes |
 | :--- | :---: | :---: | :--- | :--- |
@@ -15,7 +15,7 @@ Use these commands to view, organize, select, and inspect items in your inventor
 
 ## ⚔️ Combat and Attacks
 
-These commands are used for attacking, shooting, throwing, and managing your active weapons.
+Commands used for attacking, shooting, throwing, and managing active weapons or combat styles.
 
 | Command | Icon | Hotkey | Description | Notes |
 | :--- | :---: | :---: | :--- | :--- |
@@ -32,7 +32,7 @@ These commands are used for attacking, shooting, throwing, and managing your act
 
 ## 👕 Equipment and Wearables
 
-Commands to view, wear, and remove armor and accessories.
+Commands to view, wear, and remove armor, accessories, and other equipped gear.
 
 | Command | Icon | Hotkey | Description | Notes |
 | :--- | :---: | :---: | :--- | :--- |
@@ -46,7 +46,7 @@ Commands to view, wear, and remove armor and accessories.
 
 ## 🛠️ General Item-Related Commands
 
-These commands are used to eat, drink, apply utility tools, and manage light sources.
+Commands to eat, drink, apply tools, dig, engrave, dip, or break items.
 
 | Command | Icon | Hotkey | Description | Notes |
 | :--- | :---: | :---: | :--- | :--- |
@@ -66,7 +66,7 @@ These commands are used to eat, drink, apply utility tools, and manage light sou
 
 ## 🚪 Containers and Door Interaction
 
-Commands for interacting with doors, chests, and bags.
+Commands for interacting with doors, containers, chests, and bags.
 
 | Command | Icon | Hotkey | Description | Notes |
 | :--- | :---: | :---: | :--- | :--- |
@@ -81,7 +81,7 @@ Commands for interacting with doors, chests, and bags.
 
 ## 🧭 Movement
 
-Use the following commands to navigate the dungeon and climb stairs.
+Commands to navigate the dungeon, climb stairs, travel, and jump.
 
 | Command | Icon | Hotkey | Description | Notes |
 | :--- | :---: | :---: | :--- | :--- |
@@ -92,7 +92,7 @@ Use the following commands to navigate the dungeon and climb stairs.
 
 ## 🗣️ Communication and Interaction with NPCs and Pets
 
-Commands to converse with NPCs, monsters, and summon pets.
+Commands to converse with NPCs, pay shopping bills, mount steeds, or call pets.
 
 | Command | Icon | Hotkey | Description | Notes |
 | :--- | :---: | :---: | :--- | :--- |
@@ -103,7 +103,7 @@ Commands to converse with NPCs, monsters, and summon pets.
 
 ## 📖 Game Information Commands
 
-These commands open information screens, name entities, and control the user interface.
+Commands to search surroundings, view character stats or abilities, look at tiles, and review dungeon or monster history.
 
 | Command | Icon | Hotkey | Description | Notes |
 | :--- | :---: | :---: | :--- | :--- |
@@ -119,7 +119,7 @@ These commands open information screens, name entities, and control the user int
 
 ## 🔮 Spellcasting
 
-Commands to cast spells, use wands, read scrolls, and mix components.
+Commands to cast spells, view the spell menu, read scrolls, and mix spell components.
 
 | Command | Icon | Hotkey | Description | Notes |
 | :--- | :---: | :---: | :--- | :--- |
@@ -128,7 +128,9 @@ Commands to cast spells, use wands, read scrolls, and mix components.
 | **Read** | ![Read](/uploads/Commands/read.webp) | `r` | Read a scroll, spellbook, or engraving. | |
 | **Mix Spells** | ![Mix](/uploads/Commands/mix.webp) | `Shift+x` | Mix material components (reagents) for a spell. | New in GnollHack. |
 
-## System Commands
+## ⚙️ System Commands
+
+Commands to repeat the previous action, specify action repetition counts, or run extended command prompts.
 
 | Command | Icon | Hotkey | Description | Notes |
 | :--- | :---: | :---: | :--- | :--- |
@@ -138,16 +140,18 @@ Commands to cast spells, use wands, read scrolls, and mix components.
 
 - <sup>1</sup> Number of actions works like this: press `n`, then write the number of actions in numerals, and then choose the action. For example, `n20s` searches 20 times.
 
-## Religion-Related Commands
+## 🛐 Religion-Related Commands
+
+Commands to pray to your deity for intervention or offer sacrifices at altars.
 
 | Command | Icon | Hotkey | Description | Notes |
 | :--- | :---: | :---: | :--- | :--- |
 | **Pray** | ![Pray](/uploads/Commands/pray.webp) | `Alt+p` | Pray to your deity for help, healing, or safety. | See the [[Praying]] guide for details. |
 | **Offer Sacrifice** | ![Offer](/uploads/Commands/offer.webp) | `Alt+o` | Offer an item or corpse as a sacrifice on an altar to your deity. | |
 
-## Other Commands
+## 🧩 Other Commands
 
-Commands that manage the game state, save progress, or display settings.
+Miscellaneous utility commands for resting, naming, sitting, using polymorphed monster abilities, wiping your face, and viewing help.
 
 | Command | Icon | Hotkey | Description | Notes |
 | :--- | :---: | :---: | :--- | :--- |
@@ -160,7 +164,7 @@ Commands that manage the game state, save progress, or display settings.
 
 ## 🧙‍♂️ Wizard Mode Commands
 
-These commands are only available when playing in [[Wizard mode]] (developer debug mode).
+Developer-only debug commands available when playing in [[Wizard mode]].
 
 | Command | Icon | Hotkey | Description | Notes |
 | :--- | :---: | :---: | :--- | :--- |
