@@ -1,4 +1,4 @@
-> 👉 **This page lists only the commands that appear in the modern user interface, organized by theme.**
+> 👉 **This page lists only the commands that appear in the modern user interface, organized in categories.**
 
 ## 🎒 Inventory and Item Management
 
