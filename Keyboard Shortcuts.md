@@ -11,7 +11,7 @@
 | Key | Key Command | Description | Notes |
 | :-: | :---------- | :---------- | :---- |
 | a | Apply | Apply (use) a tool, such as a key, lamp, or pick-axe. | |
-| b | Take items out of **b**ag in inventory | Take one or more items out of a container in your inventory. | New to GnollHack. |
+| b | Take items out of **b**ag in inventory | Take one or more items out of a container in your inventory. | New in GnollHack. |
 | c | Close door | Close an adjacent open door. | |
 | d | Drop | Drop an item onto the floor. | |
 | e | Eat | Eat food or another edible item in your inventory or on the floor. | |
@@ -23,7 +23,7 @@
 | k | Kick _(when Vi-keys are disabled)_ | Kick an adjacent door, chest, monster, or other object. | |
 | l | Loot | Loot a container on the floor, saddle/unsaddle a steed, or retrieve items from decorations (such as torch holders). | |
 | m | Move mode — Rush | Move in a direction without picking up any items on the ground. | |
-| n | Number of actions<sup>1</sup> | Specify a repetition count before entering a command. | New to GnollHack. |
+| n | Number of actions<sup>1</sup> | Specify a repetition count before entering a command. | New in GnollHack. |
 | o | Open door | Open an adjacent closed door. | |
 | p | Pay bill | Pay your shopping bill to the shopkeeper. | |
 | q | Drink (quaff) | Drink a potion, water, or other beverage from your inventory or the floor. | |
@@ -34,7 +34,7 @@
 | v | Version info | Display the version number and build details of the game. | |
 | w | Wield weapon | Wield a weapon or tool as your primary weapon (use `-` to wield bare hands). | |
 | x | Swap weapons | Swap your primary wielded weapon with your secondary/alternate weapon. | |
-| y | Take loot out of container on floor (**y**ank) | Take one or more items out of a container that is lying on the floor. | New to GnollHack. |
+| y | Take loot out of container on floor (**y**ank) | Take one or more items out of a container that is lying on the floor. | New in GnollHack. |
 | z | Zap wand | Zap a magic wand in a specified direction. | |
 
 - <sup>1</sup> Number of actions works like this: You first press `n`, then write the number of actions in numerals, and then choose the action. For example, `n20s` searches 20 times.
@@ -43,8 +43,8 @@
 
 | Shift + Key | Shift + Key Command | Description | Notes |
 | :---------: | :------------------ | :---------- | :---- |
-| Shift+a | Abilities (status screen) | View your character's active and passive abilities. | New to GnollHack. |
-| Shift+b | Put items into **B**ag in inventory | Put one or more items into a container in your inventory. | New to GnollHack. |
+| Shift+a | Abilities (status screen) | View your character's active and passive abilities. | New in GnollHack. |
+| Shift+b | Put items into **B**ag in inventory | Put one or more items into a container in your inventory. | New in GnollHack. |
 | Shift+c | Chat | Chat with an adjacent monster, pet, or NPC. | |
 | Shift+d | Drop multiple | Drop multiple items from your inventory at once. | |
 | Shift+e | Engrave | Write a message on the floor using a tool or your fingers (dust). | |
@@ -66,8 +66,8 @@
 | Shift+u |  |  | |
 | Shift+v | Game history info | Display the game's compilation options and version history. | |
 | Shift+w | Wear armor | Put on a piece of armor (helmet, body armor, gloves, boots, etc.). | |
-| Shift+x | Mix spells | Mix material components (reagents) for a spell. | New to GnollHack. |
-| Shift+y | Put loot into container on floor (**Y**ank) | Put one or more items into a container that is lying on the floor. | New to GnollHack. |
+| Shift+x | Mix spells | Mix material components (reagents) for a spell. | New in GnollHack. |
+| Shift+y | Put loot into container on floor (**Y**ank) | Put one or more items into a container that is lying on the floor. | New in GnollHack. |
 | Shift+z | Cast spell | Cast a spell that you have learned. | |
 
 ### ⌨️ Alt Key Commands
@@ -76,47 +76,47 @@
 | :-------: | :---------------- | :---------- | :---- |
 | Alt+a | Adjust | Adjust inventory letters for items. | |
 | Alt+b |  |  | |
-| Alt+c | Commands menu | Open the commands menu. | New to GnollHack. |
+| Alt+c | Commands menu | Open the commands menu. | New in GnollHack. |
 | Alt+d | Dip | Dip an object into a potion, fountain, sink, or a pool of water. | |
 | Alt+e | Wipe face | Wipe off dirt and other substances from your face. | |
 | Alt+f | Force lock | Force a lock on a chest or door using a weapon or tool. | |
 | Alt+g | Genocided monsters | Show a list of all genocided monster species. | |
-| Alt+h | Handedness | Toggle weapon swapping mode (swap weapons in right hand only or in both hands). | New to GnollHack. |
+| Alt+h | Handedness | Toggle weapon swapping mode (swap weapons in right hand only or in both hands). | New in GnollHack. |
 | Alt+i | Invoke | Invoke the powers of a magical object or artifact. | |
-| Alt+j | Jump | Jump to a nearby tile, if your character is capable of jumping. | |
+| Alt+j | Jump | Jump to a nearby tile, if your character is capable of jumping. | Alternate key. |
 | Alt+k | Vanquished creatures | Show the list of monsters you have killed during the game. | |
-| Alt+l | Loot | Loot a container on the floor, saddle/unsaddle a steed, or retrieve items from decorations (such as torch holders). | |
-| Alt+m | Genesis _(wizard mode only)_ | Create a monster (wizard mode only). | [[Wizard mode]] only. |
-| Alt+n | Number of actions (alternate) | Specify a repetition count before entering a command (alternate key). | New to GnollHack. |
+| Alt+l | Loot | Loot a container on the floor, saddle/unsaddle a steed, or retrieve items from decorations (such as torch holders). | Alternate key. |
+| Alt+m | Genesis | Create a monster. | [[Wizard mode]] only. |
+| Alt+n | Number of actions | Specify a repetition count before entering a command. | New in GnollHack. Alternate key. |
 | Alt+o | Offer sacrifice | Offer an item or corpse as a sacrifice on an altar to your deity. | |
 | Alt+p | Pray | Pray to your deity for help, healing, or safety. | |
-| Alt+q | Quit | Quit the game (ends current game session). | |
-| Alt+r | Rub | Rub a lamp, touchstone, or other object. | |
+| Alt+q | Quit | Quit the game (deletes your character and ends the current game session). | |
+| Alt+r | Rub | Rub a lamp or other object. | |
 | Alt+s | Save | Save the game and exit. | |
 | Alt+t | Take off many | Take off multiple pieces of armor at once. | |
-| Alt+u | Untrap | Attempt to disarm a trap, untrap a container or door, or help a monster out of a trap. | |
+| Alt+u | Untrap | Attempt to disarm a trap, untrap a container or door, or help a monster out of a trap. | Alternate key. |
 | Alt+v | GnollHack library info | Display details about the compiled GnollHack libraries and build. | |
-| Alt+w | Wear many | Put on multiple pieces of armor. | New to GnollHack. |
-| Alt+x | Examine | Examine an item to view its detailed statistics and properties. | New to GnollHack. |
-| Alt+y | Yell for pets | Yell to summon your pet to your side. | New to GnollHack. |
-| Alt+z | View spell | Open spell menu to view learned spells. | New to GnollHack. |
+| Alt+w | Wear many | Put on multiple pieces of armor. | New in GnollHack. |
+| Alt+x | Examine | Examine an item to view its detailed statistics and properties. | New in GnollHack. |
+| Alt+y | Yell for pets | Yell to summon your pet to your side. | New in GnollHack. |
+| Alt+z | View spell | Open spell menu to view learned spells. | New in GnollHack. |
 
 ### ⌨️ Ctrl Key Commands
 
 | Ctrl + Key | Ctrl + Key Command | Description | Notes |
 | :--------: | :----------------- | :---------- | :---- |
 | Ctrl+a | Repeat | Redo/repeat the previous command. | |
-| Ctrl+b | Break | Break an item (like a wand or potion) in your inventory to release its magic or contents. | New to GnollHack. |
+| Ctrl+b | Break | Break an item (like a wand or potion) in your inventory to release its magic or contents. | New in GnollHack. |
 | Ctrl+c | Call | Assign a name/call name to a monster, an object, or an object class. | |
-| Ctrl+d | Kick | Kick an adjacent door, chest, monster, or other object. | |
-| Ctrl+e | Detect _(wizard mode only)_ | Detect hidden features on the map (wizard mode only). | [[Wizard mode]] only. |
-| Ctrl+f | Reveal map _(wizard mode only)_ | Reveal the entire map of the current level (wizard mode only). | [[Wizard mode]] only. |
-| Ctrl+g | Dig | Dig the ground or a wall (requires a pick-axe or other digging tool). | New to GnollHack. |
+| Ctrl+d | Kick | Kick an adjacent door, chest, monster, or other object. | Alternate key. |
+| Ctrl+e | Detect | Detect hidden features on the map. | [[Wizard mode]] only. |
+| Ctrl+f | Reveal map | Reveal the entire map of the current level. | [[Wizard mode]] only. |
+| Ctrl+g | Dig | Dig the ground or a wall (requires a pick-axe or other digging tool). | New in GnollHack. |
 | Ctrl+h |  |  | |
-| Ctrl+i | Identify _(wizard mode only)_ | Identify all items in your inventory (wizard mode only). | [[Wizard mode]] only. |
+| Ctrl+i | Identify | Identify all items in your inventory. | [[Wizard mode]] only. |
 | Ctrl+j |  |  | |
 | Ctrl+k |  |  | |
-| Ctrl+l | Light/Snuff out | Light or snuff out a nearby light source, like a lamp or candle. | New to GnollHack. |
+| Ctrl+l | Light/Snuff out | Light or snuff out a nearby light source, like a lamp or candle. | New in GnollHack. |
 | Ctrl+m |  |  | |
 | Ctrl+n | Annotate dungeon level | Add a text annotation/note to the current dungeon level. | |
 | Ctrl+o | Dungeon overview | Show the dungeon overview screen listing visited levels and features. | |
@@ -126,25 +126,25 @@
 | Ctrl+s | Sit | Sit down on the floor, a throne, or another seat. | |
 | Ctrl+t | Teleport | Teleport to another location on the level, if capable. | |
 | Ctrl+u |  |  | |
-| Ctrl+v | Level teleport _(wizard mode only)_ | Teleport to a different level of the dungeon (wizard mode only). | [[Wizard mode]] only. |
-| Ctrl+w | Wish _(wizard mode only)_ | Make a wish for any item (wizard mode only). | [[Wizard mode]] only. |
+| Ctrl+v | Level teleport | Teleport to a different level of the dungeon. | [[Wizard mode]] only. |
+| Ctrl+w | Wish | Make a wish for any item. | [[Wizard mode]] only. |
 | Ctrl+x | Dual weapon mode | Toggle dual-wielding mode (two-weapon combat) on or off. | |
-| Ctrl+y | Yell for pets | Yell to summon your pet to your side. | New to GnollHack. |
+| Ctrl+y | Yell for pets | Yell to summon your pet to your side. | New in GnollHack. Alternate key. |
 | Ctrl+z |  |  | |
 
 ## ⌨️ Double Modifier Commands Bound to Letters
 
 | Alt + Shift + Key | Alt + Shift + Key Command | Description | Notes |
 | :---------------: | :------------------------ | :---------- | :---- |
-| Alt+Shift+a | Annotate dungeon level | Add a text annotation/note to the current dungeon level. | |
-| Alt+Shift+e | Engrave quick (use preset writing) | Quickly engrave on the floor using a predefined style or finger. | New to GnollHack. |
+| Alt+Shift+a | Annotate dungeon level | Add a text annotation/note to the current dungeon level. | Alternate key. |
+| Alt+Shift+e | Engrave quick (use preset writing) | Quickly engrave on the floor using a predefined style or finger. | New in GnollHack. |
 | Alt+Shift+m | Use monster ability | Use a special ability of your current monster form (if polymorphed). | |
 | Alt+Shift+n | Name a monster or object class | Assign a name to a specific monster or category of objects. | |
-| Alt+Shift+p | Apply Wielded Polearm<sup>1</sup> | Strike a monster from a distance of two tiles using a wielded polearm or lance. | New to GnollHack. |
+| Alt+Shift+p | Apply Wielded Polearm<sup>1</sup> | Strike a monster from a distance of two tiles using a wielded polearm or lance. | New in GnollHack. |
 | Alt+Shift+r | Mount or dismount a saddled steed (Ride) | Mount or dismount a saddled steed (ride). | |
 | Alt+Shift+t | Empty a container (Tip) | Tip/empty a container to dump all of its contents onto the floor. | |
-| Alt+Shift+w | Wield a previously wielded weapon | Wield the weapon you previously had wielded (useful after using a tool). | New to GnollHack. |
-| Alt+Shift+x | Apply a pick-axe or cutting tool quick | Quickly apply a pick-axe, mattock, or other cutting tool to dig/cut in a direction. | New to GnollHack. |
+| Alt+Shift+w | Wield a previously wielded weapon | Wield the weapon you previously had wielded (useful after using a tool). | New in GnollHack. |
+| Alt+Shift+x | Apply a pick-axe or cutting tool quick | Quickly apply a pick-axe, mattock, or other cutting tool to dig/cut in a direction. | New in GnollHack. |
 
 - <sup>1</sup> The polearm can also be a swap weapon.
 
@@ -154,7 +154,7 @@
 | Key | Key Command | Description | Notes |
 | :-: | :---------- | :---------- | :---- |
 | , | Pick up | Pick up items from the floor at your current position. | |
-| ; | Pick up and stash | Pick up items and automatically insert them into the best container in your inventory. | New to GnollHack. |
+| ; | Pick up and stash | Pick up items and automatically insert them into the best container in your inventory. | New in GnollHack. |
 | . | Wait | Rest/wait for one turn (does nothing). | |
 | : | Near look (at the ground) | Look at the ground/items present at your current tile. | |
 | _ | Travel | Travel automatically to a selected position on the level using a shortest-path algorithm. | |
@@ -164,13 +164,13 @@
 | _*_ | Equipment (worn items) | Show a list of all your equipped items (combining armor, weapons, rings, amulets, and tools). | |
 | " | Show worn amulet | Display details of the amulet you are currently wearing. | |
 | # | Extended command | Prompt for and execute an extended command (e.g. `#pray`, `#sit`, `#chat`). | |
-| ? | Help | Display the help menu. | |
-| + | Spell menu | Open the spell menu to view or cast spells. | New to GnollHack. |
+| ? | Help | Display the help menu. | Alternate key. |
+| + | Spell menu | Open the spell menu to view or cast spells. | New in GnollHack. |
 | ( | List tools | Display a list of tools you are currently using. | |
 | ) | Show weapon | Display the weapon you are currently wielding. | |
 | = | Show worn rings | Display the rings you are currently wearing. | |
 | [ | Show worn armor | Display all pieces of armor you are currently wearing. | |
-| } | Character details (Describe your character) | Display detailed information, statistics, and attributes of your character. | New to GnollHack. |
+| } | Character details (Describe your character) | Display detailed information, statistics, and attributes of your character. | New in GnollHack. |
 
 ## 🧭 Movement By Arrow Keys
 
