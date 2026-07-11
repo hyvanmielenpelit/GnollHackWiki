@@ -220,7 +220,7 @@ OPTIONS=pickup_types:characters
 | **menu_invert_page** | *(varies)* | *(varies)* | Binds a keyboard shortcut to invert all item selections on the current menu page. | A, C, W |
 | **menu_last_page** | *(varies)* | *(varies)* | Binds a keyboard shortcut to jump immediately to the last page of a multi-page menu. | A, C, W |
 | **menu_next_page** | *(varies)* | *(varies)* | Binds a keyboard shortcut to flip to the next page of a multi-page menu. | A, C, W |
-| **menu_objsyms** | `true` / `false` | `false` | Displays the ASCII character representations (e.g., `)` for weapons) next to items listed in selection menus. | A, C, W |
+| **menu_objsyms** | `true` / `false` | `false` | Displays the ASCII character representations (e.g., `)` for weapons) next to the category headers of item lists (e.g. `Weapons ')'`) in selection menus. | A, C, W |
 | **menu_previous_page** | *(varies)* | *(varies)* | Binds a keyboard shortcut to flip back to the previous page of a multi-page menu. | A, C, W |
 | **menu_search** | *(varies)* | *(varies)* | Binds a keyboard shortcut to perform a text search within active menus. | A, C, W |
 | **menu_select_all** | *(varies)* | *(varies)* | Binds a keyboard shortcut to check/select all items in the current menu list. | A, C, W |
@@ -244,7 +244,6 @@ OPTIONS=pickup_types:characters
 | :---------- | :----: | :-----: | :---------- |
 | **DECgraphics** | *(varies)* | *(varies)* | Loads DEC VT100-style line-drawing characters for dungeon walls and borders on compatible terminal emulators. |
 | **IBMgraphics** | *(varies)* | *(varies)* | Loads classic IBM PC CP437 character set symbols for high-quality terminal map rendering. |
-| **Macgraphics** | *(varies)* | *(varies)* | Loads Apple Macintosh-specific character mappings for map symbols. |
 | **altkeyhandler** | *(varies)* | `default` | Selects an external keyboard mapping module or DLL to process custom key handlers (legacy Windows GUI only). |
 | **altmeta** | `true` / `false` | `false` | If enabled, interprets pressing the Escape key followed by a character `c` as the Meta-key combination `Meta+c`. |
 | **ascii_map** | `true` / `false` | `false` | If enabled, forces the game map to render in plain text ASCII/UTF-8 mode instead of graphical tiles. |
@@ -252,25 +251,19 @@ OPTIONS=pickup_types:characters
 | **classic_colors** | `true` / `false` | `false` | Uses classic NetHack low-contrast colors for floor dots and boulders, instead of updated high-contrast palettes. |
 | **classic_statue_symbol** | `true` / `false` | `false` | Renders map statues using the legacy backtick symbol (`` ` ``) instead of showing the underlying monster's character glyph. |
 | **color** | `true` / `false` | `true` | Enables color rendering for map symbols, menus, and text logs; if disabled, displays everything in monochrome. |
-| **dungeon** | *(varies)* | *(varies)* | Defines the specific ASCII character symbols used to draw wall segments, corridors, stairs, and doors on the map. |
-| **effects** | *(varies)* | *(varies)* | Defines the specific ASCII symbols used to draw spell animations, explosions, and projectile flight paths. |
 | **eight_bit_tty** | `true` / `false` | `false` | Enables sending raw 8-bit character codes directly to the terminal emulator, required for displaying non-ASCII international characters. |
 | **enablettyarrowkeys** | `true` / `false` | `false` | Enables standard keyboard arrow keys for navigation and movement in Unix terminal environments. |
 | **hilite_pet** | `true` / `false` | `false` | Highlights pet character symbols on the map (typically using bold or inverse text) to make them stand out from enemies. |
 | **hilite_pile** | `true` / `false` | `false` | Highlights map tiles containing multiple items (typically using underline or a unique color attribute). |
 | **ibm2utf8** | `true` / `false` | `false` | Translates CP437 line-drawing character symbols into standard Unicode UTF-8 symbols for modern terminal environments. |
 | **menu_overlay** | `true` / `false` | `true` | Overlays interactive menus on top of the right-hand portion of the map screen, keeping the left side visible (TTY only). |
-| **monsters** | *(varies)* | *(varies)* | Defines the custom character symbol assignments for all monster types on the map. |
 | **null** | `true` / `false` | `true` | Allows sending null bytes to the terminal as output padding, which is required for terminal compatibility on some legacy systems. |
-| **objects** | *(varies)* | *(varies)* | Defines the custom character symbol assignments for all item categories on the map. |
 | **petattr** | *(varies)* | *(none)* | Configures the visual style attribute (e.g. bold, reverse video, underline) used to highlight pet symbols on the map. |
 | **show_decorations** | `true` / `false` | `true` | Colors decorative map elements (like fountains or alters) with high-visibility colors in ASCII mode to aid navigation. |
 | **silent** | `true` / `false` | `true` | Suppresses the terminal bell/bleep sound when trying to make invalid movements or commands. |
 | **standout** | `true` / `false` | `false` | Highlights the `--more--` message log pauses using the terminal's standout/reverse video mode. |
 | **subkeyvalue** | *(varies)* | *(varies)* | Allows overriding specific raw keyboard input values and mapping them to custom commands. |
 | **tiled_map** | `true` / `false` | `true` | Tiled map display mode (renders graphical tiles inside the window). |
-| **timed_delay** | `true` / `false` | `true` | Uses short pauses (time delays) during spell animations and projectile actions so they are visually readable. |
-| **traps** | *(varies)* | *(varies)* | Defines the character symbol assignments used to draw active and discovered traps on the map. |
 | **underline_peaceful** | `true` / `false` | `true` | Renders peaceful or neutral monsters with an underline character to distinguish them from hostile targets. |
 | **use_darkgray** | `true` / `false` | `true` | Uses bold black / dark gray instead of dark blue for low-visibility dungeon walls and unlit areas. |
 | **use_inverse** | `true` / `false` | `true` (Windows/Android) / `false` (other) | Renders monsters detected via telepathy or detection spells in inverse video color. |
@@ -289,7 +282,6 @@ OPTIONS=pickup_types:characters
 | **align_message** | *(varies)* | `top` | Anchors the message history log window to either the `top` or `bottom` of the terminal screen. |
 | **align_status** | *(varies)* | `bottom` | Anchors the character status bar window to either the `top` or `bottom` of the terminal screen. |
 | **autostatuslines** | `true` / `false` | `false` | If enabled, automatically expands the status window height (up to 8 lines) to display active status effects, pet stats, and mounts. |
-| **cursesgraphics** | *(varies)* | *(varies)* | Loads customized character mappings for wall and corner drawing specific to the Curses terminal interface. |
 | **fullstatuslineorder** | `true` / `false` | `true` | Standardizes character status field order (HP, mana, strength, etc.) across different window widths and terminal resolutions. |
 | **guicolor** | `true` / `false` | `true` | Enables colored graphics for terminal UI components, border frames, and dialog boxes. |
 | **here_window_size** | *(varies)* | `8` | Configures the display height (number of rows) of the auxiliary "here" tile info window. |
@@ -323,12 +315,12 @@ OPTIONS=pickup_types:characters
 | **font_size_text** | *(varies)* | *(varies)* | Sets the font size (in points) for plain text popups and encyclopedia windows. |
 | **font_status** | *(varies)* | *(varies)* | Selects the font family used in the character status window. |
 | **font_text** | *(varies)* | *(varies)* | Selects the font family used inside plain text popups and helper windows. |
-| **fullscreen** | `true` / `false` | `false` | Toggles whether the legacy GUI client launches in full screen or windowed mode. |
+| **fullscreen** | `true` / `false` | `false` | Toggles whether the client launches in full screen or windowed mode. (Unsupported in the legacy win32 GUI port; supported only in WinCE and modern C# MAUI configurations.) |
 | **map_mode** | *(varies)* | *(varies)* | Configures the scaling and rendering mode of the graphical map tiles (such as stretched, centered, or pixel-perfect scaling). |
 | **menu_tab_sep** | `true` / `false` | `false` | Uses tab characters instead of spaces to format and align columns inside menus. |
 | **msghistory** | *(varies)* | `20` | Sets the maximum number of recent game messages retained in scrollable message history. |
 | **news** | `true` / `false` | `true` | Displays the server news and update text when starting the game. |
-| **palette** | *(varies)* | *(varies)* | Selects the color palette template used for drawing text and window interfaces. |
+| **palette** | *(varies)* | *(varies)* | Selects the color palette template used for drawing text and window interfaces. (Non-functional; legacy win32 color adjustments are a stub in the Windows GUI port.) |
 | **perm_invent** | `true` / `false` | `false` | If enabled, displays a persistent inventory sidebar panel, allowing you to see your items at a glance without opening a menu. |
 | **popup_dialog** | `true` / `false` | `false` | If enabled, displays text prompts and questions in modal popup dialog boxes instead of writing them to the message line. |
 | **preferred_screen_scale** | *(varies)* | *(varies)* | Sets the default display scale percentage for high-DPI monitors. |
@@ -361,15 +353,23 @@ OPTIONS=pickup_types:characters
 | **asksavedisk** | `true` / `false` | `false` | Deprecated floppy disk option: prompts the user to insert a save disk before saving. |
 | **BIOS** | `true` / `false` | `false` | Deprecated MSDOS option: forces using raw IBM ROM BIOS screen write calls. |
 | **checkspace** | `true` / `false` | `true` | Deprecated floppy disk option: checks for sufficient free disk space before saving. |
+| **cursesgraphics** | *(varies)* | *(varies)* | Obsolete/broken Curses option: no parsing implementation exists in the options configuration (setting it raises an "Unknown option" error). The Curses port uses ACS graphics unconditionally. |
+| **dungeon** | *(varies)* | *(varies)* | Obsolete option: defined in compile-time configuration array but not parsed or handled. NetHack 3.6 / GnollHack uses symset files rather than configuring individual characters in options. |
+| **effects** | *(varies)* | *(varies)* | Obsolete option: defined in compile-time configuration array but not parsed or handled. NetHack 3.6 / GnollHack uses symset files rather than configuring individual characters in options. |
 | **fast_map** | `true` / `false` | `true` | Deprecated console option: uses a high-performance, less flexible map rendering algorithm. |
 | **flush** | `true` / `false` | `false` | Deprecated Amiga option: flushes keyboard buffer inputs. |
 | **font_size_map** | *(varies)* | *(varies)* | Obsolete option: sets the font size for text map overlays. |
 | **large_font** | `true` / `false` | `false` | Obsolete console option: enables high-density large font mode. |
+| **Macgraphics** | *(varies)* | *(varies)* | Obsolete ASCII option: supported only on classic Mac OS configurations; unsupported and compiled out on modern ports. |
+| **monsters** | *(varies)* | *(varies)* | Obsolete option: defined in compile-time configuration array but not parsed or handled. NetHack 3.6 / GnollHack uses symset files rather than configuring individual characters in options. |
+| **objects** | *(varies)* | *(varies)* | Obsolete option: defined in compile-time configuration array but not parsed or handled. NetHack 3.6 / GnollHack uses symset files rather than configuring individual characters in options. |
 | **page_wait** | `true` / `false` | `true` | Deprecated Macintosh option: waits for mouse click between text page displays. |
 | **preload_tiles** | `true` / `false` | `true` | Obsolete memory option: preloads tileset graphic files into RAM at launch. |
 | **rawio** | `true` / `false` | `false` | Deprecated MSDOS option: enables raw keyboard input polling. |
 | **softkeyboard** | `true` / `false` | `false` | Obsolete option: displays a software keyboard helper overlay on touch screen devices. |
 | **soundcard** | *(varies)* | *(varies)* | Deprecated MSDOS option: selects active sound card hardware registers. |
 | **suppress_alert** | *(varies)* | *(varies)* | Obsolete version option: suppresses notifications regarding version mismatches and feature updates. |
+| **timed_delay** | `true` / `false` | `true` | Obsolete ASCII option: intended to control short animation pauses, but is mapped to flags.nap which is not referenced anywhere in the core engine (animation pacing is handled dynamically on the frontends). |
+| **traps** | *(varies)* | *(varies)* | Obsolete option: defined in compile-time configuration array but not parsed or handled. NetHack 3.6 / GnollHack uses symset files rather than configuring individual characters in options. |
 | **wraptext** | `true` / `false` | `false` | Obsolete layout option: wraps text blocks inside popups and menus. |
 
