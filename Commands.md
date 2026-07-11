@@ -1,7 +1,5 @@
 > 👉 **This page lists all the commands available in GnollHack, organized by theme.**
 
-GnollHack supports playing with a physical keyboard on all platforms, including modern mobile and desktop clients. Keyboard shortcuts on this wiki are written in lowercase notation: a single letter (e.g. `e`) represents a normal key, and modifier combinations are written with a plus sign (e.g. `Shift+e`, `Alt+e`, `Ctrl+e`, `Alt+Shift+e`).
-
 ## ⚔️ Combat and Attacks
 
 These commands are used for attacking, shooting, throwing, and managing your active weapons.
