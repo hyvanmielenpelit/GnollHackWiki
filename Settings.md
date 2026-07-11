@@ -14,7 +14,7 @@
 | **Screen Resolution** | Multiple resolutions | Native | *(Windows only)* Determines the rendering resolution of the game map. |
 | **Screen Scale** | Percentage | 100% | Custom scale to make UI components larger or smaller than normal. |
 | **Windowed Mode** | On / Off | Off | *(Desktop only)* Determines if the game runs in windowed or fullscreen mode. |
-| **Cursor Style** | Green Block / Underline | Green Block | *(ASCII graphics only)* Determines the way how the player character is identified in the game. |
+| **Cursor Style** | Green Block / Underline | Green Block | *(ASCII graphics only)* Determines the way how the player character is indicated in the game. |
 | **Hide Navigation** | On / Off | On | *(Android only)* Determines whether to hide the operating system navigation buttons in the bottom of the screen. |
 | **Hide Status Bar** | On / Off | On | *(iOS only)* Determines if the top status bar of the operating system is hidden. |
 | **Show Battery** | On / Off | Off | Displays a battery icon in the status bar indicating the current battery level. |
@@ -40,8 +40,8 @@
 | **Improved Menu Images** | On / Off | On | **Off:** Nearest neighbour (faster but worse quality).<br>**On:** Bilinear interpolation (slower but better quality). |
 | **Highlighted Menu Keys** | On / Off | On *(Desktop)* / Off *(Mobile)* | **Off:** Hotkeys are grayed.<br>**On:** Hotkeys are colored black/white based on light/dark mode. |
 | **Show Equipment Icons** | On / Off | On | Displays equipment slot icons in the inventory menu. |
-| **Equipment Flip Animation** | On / Off | On | Enables a 3D flip animation when equipping or taking off items. |
-| **Worn Shows Equipment** | On / Off | On | Determines whether the worn item command (`w`) shows a full graphical equipment screen with all body slots or a plain text list of currently worn items. Mirrors the `worn_shows_equipment` option. |
+| **Equipment Flip Animation** | On / Off | On | Enables a 3D flip animation when moving between inventory and equipment screens. |
+| **Worn Shows Equipment** | On / Off | On | Determines whether the worn item command (`]`) shows a full graphical equipment screen with all body slots or a plain text list of currently worn items. Mirrors the `worn_shows_equipment` option. |
 
 ## 🧭 Adventuring Settings
 
@@ -62,9 +62,9 @@
 | **Auto-Dig Button** | On / Off | Off | Displays the auto-dig toggle button in the top-right corner of the map. |
 | **Ignore Stopping Button** | On / Off | Off | Displays the ignore stopping toggle button in the top-right corner of the map. |
 | **Desktop Buttons** | On / Off | On *(Desktop)* / Off *(Mobile)* | Determines whether Stats and Equipment buttons are shown on the left and right side of command buttons. |
-| **Skill Context Button** | On / Off | On | Determines whether to show the skill context button near the player. |
-| **Polearm Context Button** | On / Off | Off | Determines whether to show the polearm context button near the player. |
-| **Single Commands Page** | On / Off | On *(Desktop)* / Off *(Mobile)* | Uses a single large commands page instead of categorized tabs. |
+| **Skill Context Button** | On / Off | On | Determines whether to show the skill context button on the left side of the screen. |
+| **Polearm Context Button** | On / Off | Off | Determines whether to show the polearm context button on the left side of the screen. |
+| **Single Commands Page** | On / Off | On *(Desktop)* / Off *(Mobile)* | Uses a single large commands page instead of several categorized pages. |
 
 ### 📊 Status Bar
 
@@ -83,7 +83,7 @@
 | :----------- | :--------------: | :-----: | :---------- |
 | **Grid** | On / Off | Off | Determines if the game shows grid lines in the game for easier tile position discernment. |
 | **Grid Opacity** | Default (100%) / 5% to 100% | Default (100%) | Adjusts the opacity of the grid lines if they are shown. |
-| **Hit Point Bars** | On / Off | Off | Determines if the game shows hit point bars under the player character, NPCs, pets, and monsters. |
+| **Hit Point Bars** | On / Off | Off | Determines if the game shows hit point bars under the player character, pets, and monsters. |
 | **Player Mark** | On / Off | Off | Determines if a green targeting icon is displayed above the player character. |
 | **Targeting** | On / Off | Off | Determines if a red targeting icon is displayed above hostile monsters. |
 | **Show Pets** | On / Off | On | Determines if the game shows pet icons in the top of the game screen (under the game status bar). |
@@ -117,7 +117,7 @@
 | **Ignore Stopping** | On / Off | Off | Prevents automated pathfinding travel from stopping when your character passes over items, closed doors, or engravings. Mirrors the `ignore_stopping` option. |
 | **Right Mouse Button** | Action | By Role | Configures the game command bound to a right mouse button click. The default "by role" setting triggers role-specific default actions. Mirrors the `right_click_command` option. |
 | **Middle Mouse Button** | Action | By Role | Configures the game command bound to a middle mouse button click. The default "by role" setting triggers role-specific default actions. Mirrors the `middle_click_command` option. |
-| **Quick Engrave Text** | Text String | None | The default text written when using the quick engrave command (commonly set to "Elbereth"). Mirrors the `engrave_quicktext` option. |
+| **Quick Engrave Text** | Text String | None | The default text written when using the quick engrave command. Mirrors the `engrave_quicktext` option. |
 | **Quick Engrave Style** | Always ask / Always finger / Last item | Always ask | Selects which engraving method or tool is automatically chosen when executing the quick engrave command: ask every time, always use finger, or use last item. Mirrors the `engrave_quickstyle` option. |
 
 ## 📱 Bar Commands Settings
@@ -154,7 +154,7 @@ This section enables you to specify which commands are displayed in the command 
 | **Share Bones Files** | On / Off | Off | Posts bones files to the server, and allows you to encounter other players' dead characters' ghosts (if Allow Ghost Levels is on). |
 | **Use Blacklist** | On / Off | Off | Determines whether to use blacklist or whitelist in blocking unwanted users' bones files. |
 | **Whitelist/Blacklist** | Comma-separated names | None | List of allowed or blocked user names on the GnollHack server for bones files. |
-| **Save File Tracking** | On / Off | Off | *(Desktop only)* Prevents loading backups of save files by tracking save files on the GnollHack Server. |
+| **Save File Tracking** | On / Off | Off | *(Desktop only)* Determines whether the save files are tracked by the GnollHack Server. |
 
 ## 📹 Replays Settings
 
@@ -169,22 +169,22 @@ This section enables you to specify which commands are displayed in the command 
 
 | Setting Name | Options / Values | Default | Description |
 | :----------- | :--------------: | :-----: | :---------- |
-| **Developer Mode** | On / Off | Off | Activates [[Developer Mode]], which enables [[Wizard Mode]] and editing the [[Options]] file. |
+| **Developer Mode** | On / Off | Off | Activates [[Developer Mode]], which enables [[Wizard Mode]] and editing the [[options]] file. |
 | **Debug Logging** | On / Off | Off | Debug information is written in the app log. |
 | **Low-Level Logging** | On / Off | Off | Extensive logging of various low-level events. Can clog the app log quickly. |
 | **Screen Logging** | On / Off | Off | Toggles printing of log messages directly on the game screen. |
 | **Debug Post Channel** | On / Off | Off | Use an alternative post channel instead of the one specified under Post Game Progress. |
 | **Show Memory** | On / Off | Off | Shows the current managed memory usage on the game screen. |
-| **Low Disk Space Warning** | On / Off | On | Displays a warning if free disk space is low (less than 20 MB) to prevent save game corruption. |
-| **Load Sound Banks** | On / Off | On | Determines if FMOD sound banks are loaded. Can be disabled to save memory, but the game will have no sounds. |
-| **Streaming Banks to Memory** | On / Off | Off | **Off:** Streamed from inside the AAB file (uses less memory).<br>**On:** Read to memory and streamed from there (uses more memory). |
-| **Streaming Banks to Disk** | On / Off | Off | **Off:** Streamed from inside the AAB file (uses less storage space).<br>**On:** Copied to the storage and streamed from there (uses more storage space). |
+| **Low Disk Space Warning** | On / Off | On | Displays a warning if free disk space is low (less than 5 GB) to prevent save game corruption. |
+| **Load Sound Banks** | On / Off | On | Determines if the sound banks are loaded. Can be disabled to save memory, but the game will have no sounds. |
+| **Streaming Banks to Memory** | On / Off | Off | **Off:** Streamed from their default location (or to disk).<br>**On:** Read to memory and streamed from there (uses more memory). |
+| **Streaming Banks to Disk** | On / Off | Off | **Off:** Streamed from their default location (or to memory).<br>**On:** Copied to the storage and streamed from there (uses more storage space). |
 | **Longer Message History** | On / Off | Off | Shows 16,384 last messages instead of 250, and adds a search bar. Switches off automatically for performance reasons upon adding new messages or restarting. |
 | **Hide Message History** | On / Off | Off | The game will not show latest messages at all. Useful for taking cleaner screenshots. |
 | **Use Single Dumplog** | On / Off | On | **Off:** The game asks whether to open plain text or HTML dumplog.<br>**On:** Opens the dumplog based on the **Use HTML Dumplog** setting. |
 | **Use HTML Dumplog** | On / Off | On | If **Use Single Dumplog** is **On**, determines if the dumplog is plain text (**Off**) or HTML (**On**). |
 | **GZip Replay Compression** | On / Off | On | **Off:** Zip format is used.<br>**On:** GZip format is used. |
-| **Platform Render Loop** | On / Off | On | **Off:** .NET MAUI animation system is used.<br>**On:** Platform-specific render loop linking to display refresh rate is used. |
+| **Platform Render Loop** | On / Off | On | **Off:** UI framework specific animation system is used.<br>**On:** Platform-specific render loop linking to display refresh rate is used. |
 | **Runtime GL Effects** | On / Off | Off | *(Experimental)* Enables runtime GL shaders for advanced visual effects on the map. |
 | **GL Only on Map** | On / Off | Off | **Off:** Skia GL rendering is used on map, menus, and more commands page.<br>**On:** Skia GL rendering is used only on map. Other pages use CPU-based rendering. |
 | **Mipmapping on Map** | On / Off | Off | Toggles whether mipmapping is used in map rendering. Mostly obsolete. |
