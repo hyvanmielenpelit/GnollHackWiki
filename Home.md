@@ -73,6 +73,7 @@ GnollHack is best understood as a modernized version of NetHack that makes the c
 
 - **[[Features]]** — Main features of GnollHack
 - **[[Desktop Features]]** — Take a look at the features that appear only on the desktop versions of GnollHack
+- **[[Auto-Stashing Algorithm]]** — Learn how GnollHack automatically sorts loot
 - **[[Troubleshooting]]** — How to solve various technical problems
 - **[[Emulator Support]]** — Learn about which emulators support GnollHack
 - **[[Save Game Compatibility]]** — Check which patches are compatible with each other
