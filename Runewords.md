@@ -5,9 +5,9 @@
 Runewords in GnollHack are special words that can be engraved on the floor. Depending on the runeword and the player's current branch of the dungeon, they can frighten hostile monsters or protect items on the ground from being picked up.
 
 There are three runewords in GnollHack:
-- **[Elbereth](#elbereth)**: Frightens hostile monsters and prevents them from attacking.
-- **[Gilthoniel](#gilthoniel)**: Protects items from being looted by monsters outside Gehennom.
-- **[Morgoth](#morgoth)**: Protects items from being looted by monsters inside Gehennom.
+- **[Elbereth](#elbereth)**: Frightens hostile monsters and prevents them from attacking. Works *outside* [[/Dungeon/Gehennom]].
+- **[Gilthoniel](#gilthoniel)**: Protects items from being looted by monsters *outside* [[/Dungeon/Gehennom]].
+- **[Morgoth](#morgoth)**: Protects items from being looted by monsters *inside* [[/Dungeon/Gehennom]].
 
 
 ## 📝 Engraving Mechanics
