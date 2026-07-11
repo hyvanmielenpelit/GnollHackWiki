@@ -24,6 +24,8 @@ Use these commands to view, organize, select, and inspect items in your inventor
 | Command | Icon | Hotkey | Description | Notes |
 | :--- | :---: | :---: | :--- | :--- |
 | **Inventory** | ![Inventory](/uploads/Commands/inventory.webp) | `i` | Display all items currently carried in your inventory. | |
+| **Pick Up** | ![Pick Up](/uploads/Commands/pickup.webp) | `,` | Pick up items from the floor at your current position. | |
+| **Pick Up and Stash** | ![Stash](/uploads/Commands/picktobag.webp) | `;` | Pick up items and automatically insert them into the best container in your inventory. | New in GnollHack. |
 | **Autopickup** | ![Autopickup](/uploads/Commands/autopickup.webp) | `@` | Toggle the autopickup option on/off. | |
 | **Drop** | ![Drop](/uploads/Commands/dropmany.webp) | `d` | Drop an item onto the floor. | |
 | **Drop Multiple** | ![Drop Multiple](/uploads/Commands/dropmany.webp) | `Shift+d` | Drop multiple items from your inventory at once. | Alternate hotkey: `%`. |
@@ -38,6 +40,8 @@ Commands for interacting with doors, chests, and bags.
 | **Open Door** | ![Open](/uploads/Commands/open.webp) | `o` | Open an adjacent closed door. | |
 | **Close Door** | ![Close](/uploads/Commands/close.webp) | `c` | Close an adjacent open door. | |
 | **Loot** | ![Loot](/uploads/Commands/loot.webp) | `l` | Loot a container on the floor, saddle/unsaddle a steed, or retrieve items from decorations (such as torch holders). | Alternate hotkey: `Alt+l`. |
+| **Take Out of Bag** | ![Take Out of Bag](/uploads/Commands/lootout.webp) | `b` | Take one or more items out of a container in your inventory. | New in GnollHack. |
+| **Put Into Bag** | ![Put Into Bag](/uploads/Commands/lootin.webp) | `Shift+b` | Put one or more items into a container in your inventory. | New in GnollHack. |
 | **Kick** | ![Kick](/uploads/Commands/kick.webp) | `k` | Kick an adjacent door, chest, monster, or other object. | Alternate hotkey: `Ctrl+d`. |
 | **Force Lock** | ![Force Lock](/uploads/Commands/forcelock.webp) | `Alt+f` | Force a lock on a chest or door using a weapon or tool. | |
 | **Untrap** | ![Untrap](/uploads/Commands/untrap.webp) | `u` | Attempt to disarm a trap, untrap a container/door, or rescue a trapped monster. | Alternate hotkey: `Alt+u`. |
