@@ -75,8 +75,6 @@ GnollHack has 3 alignments to choose from. Not all alignments are available to a
 
 ## 🎒 Part 3: Survival Fundamentals
 
-> ℹ️ **Note:** Keyboard shortcuts on this wiki are written in lowercase notation. A single letter (e.g. `e`) represents the normal key. Combination shortcuts are written with a plus sign `+` and lowercase letters (e.g. `Shift+e`, `Alt+e`, `Shift+Alt+e`).
-
 ### 🎒 Essential Survival Tips for Beginners
 
 If you are new to GnollHack, these essential tips will help you survive the early game:
@@ -139,9 +137,11 @@ If you try to move to a square occupied by a monster, you will attack it with yo
 You can fire missiles to 8 basic directions. You need to wield a matching launcher (e.g., a bow for arrows, a crossbow for bolts, a sling for sling stones). 
 
 - **Swapping:** Click Swap (shortcut: `x`) to change weapon sets. It is best to keep your melee weapon in one set and your ranged weapon in the second set. This will not cost you a turn.
-- **Quivering & Firing:** Use the Quiver command (`q`) to prepare ammo. Use Fire (`f`) to shoot.
+- **Quivering & Firing:** Use the Quiver command (`Shift+q`) to prepare ammo. Use Fire (`f`) to shoot.
 - **Range & Accuracy:** You get to-hit penalties depending on the range. Firing at melee range gives a massive to-hit penalty (up to -30).
 - **Autopickup:** You automatically pick up fired missiles by default to save time.
+
+> ℹ️ **Note:** Keyboard shortcuts on this wiki are written in lowercase notation. A single letter (e.g. `e`) represents the normal key. Combination shortcuts are written with a plus sign `+` and lowercase letters (e.g. `Shift+e`, `Alt+e`, `Shift+Alt+e`).
 
 #### Ranged Combat with Throwing Weapons
 

@@ -39,7 +39,7 @@
 - **Regeneration Rates** — Players and monsters regenerate hit points at the rate of `MaxHP/300` per turn (doubled by Regeneration) and mana at the rate of `MaxMana/900` per turn (doubled by Replenishment).
 - **HP & Damage Scaling** — Players and monsters generally have more hit points and deal more damage than in NetHack.
 - **AC Calculations** — Players and monsters can have higher AC than in NetHack, because Dexterity increases one's AC.
-- **Attribute Bonuses** — Attributes, like strength and dexterity, give out different amounts of bonuses than in vanilla NetHack. Check the Abilities (`Alt+a`) page for exact information.
+- **Attribute Bonuses** — Attributes, like strength and dexterity, give out different amounts of bonuses than in vanilla NetHack. Check the Abilities (`Shift+a`) status screen for exact information.
 
 ### ⚔️ Combat & Controls
 

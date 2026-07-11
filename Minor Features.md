@@ -83,7 +83,7 @@
 
 ### Disarm Traps
 
-You can disarm traps with the Disarm Traps skill. You can use it through the abilities menu 'A'. You have the following chances to disarm a trap:
+You can disarm traps with the Disarm Traps skill. You can use it through the abilities menu (Shift+a). You have the following chances to disarm a trap:
 * **Unskilled**: 1/3 chance to disarm an unmagical trap.
 * **Basic**: 2/3 chance to disarm an unmagical trap and 1/3 chance to disarm a magical trap.
 * **Skilled**: 5/6 chance to disarm an unmagical trap and 2/3 chance to disarm a magical trap.

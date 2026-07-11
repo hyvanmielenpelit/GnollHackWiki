@@ -14,7 +14,7 @@ You need to set Window → Translation → Remote Character Set to "CP437".
 
 There are two ways of activating the IBM graphics.
 
-### 2.1 In GnollHack Options (O), set "symset" to "IBMgraphics"
+### 2.1 In GnollHack Options (Shift+o), set "symset" to "IBMgraphics"
 
 ![Normal SSH](https://images.gnollhack.com/wiki/IBMGraphicsWithPuTTY/ServerOptions1.png)
 
@@ -24,7 +24,7 @@ Here choose 'h' - IBMgraphics:
 
 ### 2.2 Edit the options file
 
-Instead of setting the IBMgraphics option everytime through Options 'O', you can edit the options file and add the following declaration to its end:
+Instead of setting the IBMgraphics option everytime through Options (Shift+o), you can edit the options file and add the following declaration to its end:
 
 `OPTIONS=IBMgraphics`
 
