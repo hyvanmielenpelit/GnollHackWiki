@@ -85,11 +85,11 @@ Performing physical actions on the square containing an engraving causes charact
 
 ## 🔮 Elbereth
 
-`Elbereth` is the classic protective warding runeword. Standing on an active `Elbereth` engraving prevents most hostile monsters from attacking the player in melee or stepping onto the square.
+`Elbereth` is the classic protective warding runeword. Standing on an active `Elbereth` engraving prevents most hostile monsters from attacking the player in melee.
 
 ### ⚙️ Mechanics
 
-- **Activation**: The player must be standing on the square containing the engraving.
+- **Activation**: The player must be standing on the square containing the engraving. An empty `Elbereth` square is inactive and will not block or frighten monsters.
 - **Effect**: Most hostile monsters attempting to move onto the square or attack the player will be frightened, causing them to turn around and flee for a random number of turns.
 - **Strict Spelling**: The engraving must match the word strictly case-insensitively (e.g., "elbereth" or "Elbereth").
 
