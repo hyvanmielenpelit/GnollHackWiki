@@ -74,10 +74,10 @@ Performing physical actions on the square containing an engraving causes charact
 | Digging downwards | 3 characters |
 | Kicking | 2 characters |
 | Throwing items or shooting ranged weapons | 2 characters |
-| Whipping with a [[/Items/bullwhip]] | 2 characters |
-| Whipping with a weapon from [[Polearms]] | 1 to 2 characters |
+| Whipping with a [[/Items/bullwhip]] | 1 to 2 characters |
+| Thrusting or attacking with a [[polearm|Polearms]] | 2 characters |
 | Struggling out of webs or traps | 1 to 3 characters |
-| Jumping or sliding over the square | Up to 5 characters |
+| Walking, jumping, or sliding over the square | 1 to 5 characters |
 | Monster stepping onto the square | 1 character |
 
 > ℹ️ **Note:** The runewords `Gilthoniel` and `Morgoth` are magically protected and are completely immune to all forms of erosion and smudging from both player actions and monster movement.
