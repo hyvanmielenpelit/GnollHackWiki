@@ -30,6 +30,18 @@ If the probability check fails, you will get a normal quality item instead.
 
 If the legendary item's probability check fails, you will get a mythic item instead (with either a prefix or suffix power).
 
+## Belts of Giant Strength
+
+When wishing for a specific belt of giant strength, the chance of successfully obtaining it depends on its strength level. If the check fails, you will receive a [[/Items/Belt of hill giant strength]] instead.
+
+| Belt Type | Success Chance |
+| :--- | :---: |
+| [[/Items/Belt of hill giant strength]] | 100% |
+| [[/Items/Belt of stone giant strength]] | 83% |
+| [[/Items/Belt of frost giant strength]] | 67% |
+| [[/Items/Belt of fire giant strength]] | 50% |
+| [[/Items/Belt of storm giant strength]] | 33% |
+
 ## Artifact Wishing
 
 The probability of getting an artifact through wishing depends on artifacts already generated in the game as follows:
