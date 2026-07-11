@@ -2,7 +2,7 @@
 
 ## 🎒 Inventory and Item Management
 
-Commands to view, pick up, drop, organize, and inspect items in your inventory or on the floor.
+Commands to view, pick up, and drop in your inventory or on the floor.
 
 | Command | Icon | Hotkey | Description | Notes |
 | :--- | :---: | :---: | :--- | :--- |
