@@ -68,13 +68,13 @@ GnollHack is best understood as a modernized version of NetHack that makes the c
 - **[[GnollHack Account]]** — The GnollHack Account server supports top score recording, bones sharing, Junethack, and the NetHack Scoreboard *(modern versions only)*
 - **[[Bones Sharing]]** — You can share your dead characters with others *(modern versions only)*
 - **[[Save File Tracking]]** — The modern Windows version requires your save files to be tracked online to make them eligible for server posting
-- **[[Save File Transfer]]** — How to move your save files across different devices and platforms
 
 ## ✨ Features
 
 - **[[Features]]** — Main features of GnollHack
 - **[[Desktop Features]]** — Take a look at the features that appear only on the desktop versions of GnollHack
 - **[[Auto-Stashing Algorithm]]** — Learn how GnollHack automatically sorts loot
+- **[[Save File Transfer]]** — How to move your save files across different devices and platforms
 - **[[Game Quirks]]** — Some non-obvious quirks where the game may behave in surprising ways
 
 ## 📋 Technical Information
