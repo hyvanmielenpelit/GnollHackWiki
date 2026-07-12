@@ -31,12 +31,15 @@ St:18 Dx:18 Co:18 In:18 Wi:16 Ch:20
 6. Infravision
 7. Speaking
 8. Wizard
+9. Impervious to physical weapons
 
 ## Notable
 
 1. Vulnerable to silver weapons
-2. Eschews silver items
+2. Vulnerable to blessed weapons
 3. Does not eschew cursed items
+4. Eschews silver items
+5. Eschews blessed items
 
 ## Corpse properties
 

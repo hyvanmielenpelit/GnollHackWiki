@@ -34,12 +34,15 @@ St:18/** Dx:20 Co:20 In:20 Wi:18 Ch:22
 8. Speaking
 9. Wizard
 10. Priest
+11. Impervious to physical weapons
 
 ## Notable
 
 1. Vulnerable to silver weapons
-2. Eschews silver items
+2. Vulnerable to blessed weapons
 3. Does not eschew cursed items
+4. Eschews silver items
+5. Eschews blessed items
 
 ## Corpse properties
 

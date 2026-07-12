@@ -29,12 +29,15 @@ St:16 Dx:16 Co:16 In:16 Wi:14 Ch:18
 5. Infravisible
 6. Infravision
 7. Speaking
+8. Impervious to physical weapons
 
 ## Notable
 
 1. Vulnerable to silver weapons
-2. Eschews silver items
+2. Vulnerable to blessed weapons
 3. Does not eschew cursed items
+4. Eschews silver items
+5. Eschews blessed items
 
 ## Corpse properties
 
