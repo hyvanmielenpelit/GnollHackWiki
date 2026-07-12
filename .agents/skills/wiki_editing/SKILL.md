@@ -106,6 +106,7 @@ When editing or creating headings for pages, always use appropriate Unicode icon
   - Help / FAQ: `❓`
   - Platforms / Installation (Android, iOS, Windows, macOS, Linux, Steam): `💻` or `📱` or `🖥️`
   - Developer Workflows / Build Instructions / Code Contributions: `🛠️` or `🧑‍💻`
+  - Prerequisites: `📋`
   - Release / Build Checklists: `📋` or `✅`
   - Legal Pages / Privacy & Cookie Policies: `📄` or `🔒`
   - Scores / Tournaments: `🏆` or `🎖️` or `💯`
