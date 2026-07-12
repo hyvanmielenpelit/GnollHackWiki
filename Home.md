@@ -51,6 +51,14 @@ GnollHack is best understood as a modernized version of NetHack that makes the c
 
 - **[[Gameplay Information]]** — The central hub for all game content and mechanics, including character creation, UI, stats, equipment, items, spells, monsters, religion, and advanced topics
 
+## ✨ Features
+
+- **[[Features]]** — Main features of GnollHack
+- **[[Desktop Features]]** — Take a look at the features that appear only on the desktop versions of GnollHack
+- **[[Auto-Stashing Algorithm]]** — Learn how GnollHack automatically sorts loot
+- **[[Save File Transfer]]** — How to move your save files across different devices and platforms
+- **[[Game Quirks]]** — Some non-obvious quirks where the game may behave in surprising ways
+
 ## 📖 Reference
 
 - **[[Commands]]** — Commands available as clickable GUI buttons in the modern versions of the game.
@@ -68,14 +76,6 @@ GnollHack is best understood as a modernized version of NetHack that makes the c
 - **[[GnollHack Account]]** — The GnollHack Account server supports top score recording, bones sharing, Junethack, and the NetHack Scoreboard *(modern versions only)*
 - **[[Bones Sharing]]** — You can share your dead characters with others *(modern versions only)*
 - **[[Save File Tracking]]** — The modern Windows version requires your save files to be tracked online to make them eligible for server posting
-
-## ✨ Features
-
-- **[[Features]]** — Main features of GnollHack
-- **[[Desktop Features]]** — Take a look at the features that appear only on the desktop versions of GnollHack
-- **[[Auto-Stashing Algorithm]]** — Learn how GnollHack automatically sorts loot
-- **[[Save File Transfer]]** — How to move your save files across different devices and platforms
-- **[[Game Quirks]]** — Some non-obvious quirks where the game may behave in surprising ways
 
 ## 📋 Technical Information
 
