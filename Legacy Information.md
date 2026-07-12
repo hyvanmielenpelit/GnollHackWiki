@@ -1,4 +1,4 @@
-> 👉 **These pages relate only to legacy versions of GnollHack**
+> 👉 **These pages relate only to the legacy versions of GnollHack**
 
 ## 🏛️ ASCII Legacy Version
 
