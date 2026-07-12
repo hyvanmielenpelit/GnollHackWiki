@@ -70,14 +70,14 @@ GnollHack is best understood as a modernized version of NetHack that makes the c
 - **[[Save File Tracking]]** — The modern Windows version requires your save files to be tracked online to make them eligible for server posting
 - **[[Save File Transfer]]** — How to move your save files across different devices and platforms
 
-## Features
+## ✨ Features
 
 - **[[Features]]** — Main features of GnollHack
 - **[[Desktop Features]]** — Take a look at the features that appear only on the desktop versions of GnollHack
 - **[[Auto-Stashing Algorithm]]** — Learn how GnollHack automatically sorts loot
 - **[[Game Quirks]]** — Some non-obvious quirks where the game may behave in surprising ways
 
-## Technical Information
+## 📋 Technical Information
 
 - **[[Troubleshooting]]** — How to solve various technical problems
 - **[[Emulator Support]]** — Learn about which emulators support GnollHack
