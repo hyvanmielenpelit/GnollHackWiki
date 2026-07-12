@@ -70,19 +70,19 @@ GnollHack is best understood as a modernized version of NetHack that makes the c
 - **[[Save File Tracking]]** — The modern Windows version requires your save files to be tracked online to make them eligible for server posting
 - **[[Save File Transfer]]** — How to move your save files across different devices and platforms
 
-## 💡 Additional Information
+## Features
 
 - **[[Features]]** — Main features of GnollHack
 - **[[Desktop Features]]** — Take a look at the features that appear only on the desktop versions of GnollHack
 - **[[Auto-Stashing Algorithm]]** — Learn how GnollHack automatically sorts loot
+- **[[Game Quirks]]** — Some non-obvious quirks where the game may behave in surprising ways
+
+## Technical Information
+
 - **[[Troubleshooting]]** — How to solve various technical problems
 - **[[Emulator Support]]** — Learn about which emulators support GnollHack
 - **[[Save Game Compatibility]]** — Check which patches are compatible with each other
-- **[[Public Servers]]** — How to play GnollHack online *(ASCII version only)*
-- **[[Tournaments]]** — How to participate in tournaments *(modern versions only)*
-- **[[Game Quirks]]** — Some non-obvious quirks where the game may behave in surprising ways
 - **[[Version Identifier Letters]]** — Find out what letters are used to describe different versions of GnollHack
-- **[[Credits]]**
 
 ## 🛠️ Development
 
@@ -93,12 +93,17 @@ GnollHack is best understood as a modernized version of NetHack that makes the c
 
 - **[[Art Contribution Guidelines]]** — Read this if you want to contribute art to GnollHack
 - **[[Code Contribution Guidelines]]** — Read this if you want to contribute code to GnollHack
+- **[[Credits]]**
 
 ## 📝 Wiki Development
 
 - **[[Editing the Wiki]]** — How to edit the GnollHack Wiki
 - **[[Creating Wiki Pages with AI Agent]]** — How to use the Antigravity App and Gemini models to automatically create wiki pages
 
+## 💡 Additional Information
+
+- **[[Tournaments]]** — How to participate in tournaments
+- **[[Legacy Information]]** — A central hub for pages that relate only to the legacy versions of GnollHack
 
 ## 🎬 Additional Material
 
