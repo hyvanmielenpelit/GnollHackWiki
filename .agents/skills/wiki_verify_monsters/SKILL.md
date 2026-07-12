@@ -41,6 +41,9 @@ Each `ATTK(aatyp, adtyp, damn, damd, ...)` dictates:
 - **`aatyp`**: Attack type (e.g., `AT_BITE`, `AT_CLAW`).
 - **`adtyp`**: Damage type (e.g., `AD_PHYS`, `AD_FIRE`).
 - **`damn` d `damd`**: The damage dice (e.g., 2d4).
+- **Spellcasting Attacks Mapping**: When mapping spellcasting attacks to the wiki:
+  - Clerical spellcasting `ATTK(AT_MAGC, AD_CLRC, ...)` maps to **Spell casting, clerical** (NOT "celestial").
+  - Magic spellcasting `ATTK(AT_MAGC, AD_SPEL, ...)` maps to **Spell casting, magic**.
 
 ### 5. Size & Physical Properties: `SIZ()` Macro
 The `siz` argument is formatted as `SIZ(cwt, cnutrit, msound, msize, heads, lightrange, body_material_type)`.

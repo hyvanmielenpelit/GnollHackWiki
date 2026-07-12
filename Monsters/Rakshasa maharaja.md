@@ -12,7 +12,7 @@
 2. Claw, physical 3d4
 3. Bite, physical 4d6
 4. Spell casting, magic
-5. Spell casting, celestial
+5. Spell casting, clerical
 
 ## Attribute scores
 

@@ -10,7 +10,7 @@
 - **Number of attacks:** 4
 1. Claw, physical 16d2
 2. Claw, physical 16d2
-3. Spell casting, celestial
+3. Spell casting, clerical
 4. Claw, steals amulet 1d4
 
 ## Attribute scores

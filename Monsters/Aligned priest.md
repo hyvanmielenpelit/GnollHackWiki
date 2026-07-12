@@ -10,7 +10,7 @@
 - **Number of attacks:** 3
 1. By weapon, physical 4d10
 2. Kick, physical 1d4
-3. Spell casting, celestial
+3. Spell casting, clerical
 
 ## Attribute scores
 

@@ -8,7 +8,7 @@
 - **Alignment:** Chaotic
 - **Size:** Medium-sized
 - **Number of attacks:** 2
-1. Spell casting, celestial
+1. Spell casting, clerical
 2. By weapon, physical 1d6
 
 ## Attribute scores

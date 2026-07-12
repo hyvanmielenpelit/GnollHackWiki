@@ -9,7 +9,7 @@
 - **Size:** Medium-sized
 - **Number of attacks:** 2
 1. By weapon, physical 1d6
-2. Spell casting, celestial
+2. Spell casting, clerical
 
 ## Attribute scores
 

@@ -13,7 +13,7 @@
 3. Claw, physical 3d4+3
 4. Claw, physical 3d4+3
 5. Claw, physical 3d4+3
-6. Spell casting, celestial
+6. Spell casting, clerical
 
 ## Attribute scores
 

@@ -10,7 +10,7 @@
 - **Number of attacks:** 3
 1. Claw, rot-infected 3d6 (-2 MC penalty)
 2. Claw, rot-infected 3d6 (-2 MC penalty)
-3. Spell casting, celestial
+3. Spell casting, clerical
 
 ## Attribute scores
 

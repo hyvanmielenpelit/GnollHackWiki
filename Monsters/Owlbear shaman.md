@@ -11,7 +11,7 @@
 1. Claw, physical 1d8
 2. Claw, physical 1d8
 3. Grab, physical 2d10
-4. Spell casting, celestial
+4. Spell casting, clerical
 
 ## Attribute scores
 

@@ -10,7 +10,7 @@
 - **Number of attacks:** 3
 1. Claw, physical 8d2
 2. Kick, stunning 3d2
-3. Spell casting, celestial
+3. Spell casting, clerical
 
 ## Attribute scores
 
