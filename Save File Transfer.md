@@ -1,6 +1,6 @@
 > 👉 **This guide explains how to transfer your GnollHack save files between different devices and platforms using the Save Transfer feature in the Vault.**
 
-## ⚙️ Prerequisites
+## 📋 Prerequisites
 
 Before you can transfer save files, ensure you meet the following requirements:
 
