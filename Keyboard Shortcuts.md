@@ -219,10 +219,10 @@ You can adjust the map zoom level using the following keyboard shortcuts:
 
 | Key | Alternate Key | Command |
 | :-: | :-----------: | :------ |
-| *Ctrl* + *`+`* | *Alt* + *`+`* | *Zoom in* |
-| *Ctrl* + *`-`* | *Alt* + *`-`* | *Zoom out* |
-| *Ctrl* + *`0`* | *Alt* + *`0`* | *Reset zoom to normal* |
-| *Ctrl* + *`.`* | *Alt* + *`.`* | *Toggle zoom to fit screen (minimap mode)* |
+| Ctrl + `+` | Alt + `+` | Zoom in |
+| Ctrl + `-` | Alt + `-` | Zoom out |
+| Ctrl + `0` | Alt + `0` | Reset zoom to normal |
+| Ctrl + `.` | Alt + `.` | Toggle zoom to fit screen (minimap mode) |
 
 
 ## ⌨️ Vi-Keys
