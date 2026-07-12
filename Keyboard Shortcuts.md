@@ -247,18 +247,18 @@ When you have vi-keys enabled, you can use the following keys for movement:
 
 | Normal Key | Command | Alternate Key |
 | :--------: | :------ | :-----------: |
-| *b* | *Take items out of **b**ag in inventory* | *Alt+Shift+g* |
-| *Shift+b* | *Put items into **B**ag in inventory* | *Alt+Shift+f* |
-| *Ctrl+b* | *Break* | *Alt+Shift+b* |
+| b | Take items out of **b**ag in inventory | Alt+Shift+g |
+| Shift+b | Put items into **B**ag in inventory | Alt+Shift+f |
+| Ctrl+b | Break | Alt+Shift+b |
 | j | Jump | Alt+j |
 | k | Kick | Ctrl+d |
 | `l` | Loot | Alt+`l` |
-| *Ctrl+`l`* | *Light/Snuff out* | *Alt+Shift+i* |
-| *n* | *Number of actions* | *Automatic*<sup>1</sup> |
+| Ctrl+`l` | Light/Snuff out | Alt+Shift+i |
+| n | Number of actions | Automatic<sup>1</sup> |
 | Shift+n | Name | Alt+Shift+n |
 | u | Untrap | Alt+u |
-| *y* | *Take loot out of container on floor (**y**ank)* | *Alt+Shift+d* |
-| *Shift+y* | *Put loot into container on floor (**Y**ank)* | *Alt+Shift+c* |
+| y | Take loot out of container on floor (**y**ank) | Alt+Shift+d |
+| Shift+y | Put loot into container on floor (**Y**ank) | Alt+Shift+c |
 
 - <sup>1</sup> When you press a number key, the game automatically assumes that it's the number of actions command.
 
