@@ -36,4 +36,4 @@ St:1 Dx:10 Co:7 In:2 Wi:2 Ch:1
 
 ## Picture
 
-![Newt](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/newt/newt.png?raw=true)
+![Newt](/uploads/Monsters/Newt/newt.webp)

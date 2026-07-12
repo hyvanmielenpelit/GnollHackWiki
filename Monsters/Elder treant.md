@@ -38,4 +38,4 @@ St:23 Dx:9 Co:24 In:14 Wi:24 Ch:20
 
 ## Picture
 
-![Elder treant](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/elder_treant/elder_treant.png?raw=true)
+![Elder treant](/uploads/Monsters/Elder%20treant/elder_treant.webp)

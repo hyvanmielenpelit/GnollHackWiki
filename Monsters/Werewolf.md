@@ -38,4 +38,4 @@ St:18/** Dx:14 Co:16 In:10 Wi:10 Ch:9
 
 ## Picture
 
-![Werewolf](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/werewolf/werewolf.png?raw=true)
+![Werewolf](/uploads/Monsters/Werewolf/werewolf.webp)

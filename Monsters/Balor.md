@@ -45,4 +45,4 @@ St:25 Dx:18 Co:25 In:18 Wi:18 Ch:20
 
 ## Picture
 
-![Balor](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/balor/balor.png?raw=true)
+![Balor](/uploads/Monsters/Balor/balor.webp)

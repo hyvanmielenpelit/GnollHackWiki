@@ -45,4 +45,4 @@ St:18/** Dx:12 Co:24 In:2 Wi:2 Ch:1
 
 ## Picture
 
-![Pyrohydra](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/pyrohydra/pyrohydra.png?raw=true)
+![Pyrohydra](/uploads/Monsters/Pyrohydra/pyrohydra.webp)

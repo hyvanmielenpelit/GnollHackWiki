@@ -44,4 +44,4 @@ St:16 Dx:7 Co:15 In:20 Wi:16 Ch:12
 
 ## Picture
 
-![Demilich](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/demilich/demilich.png?raw=true)
+![Demilich](/uploads/Monsters/Demilich/demilich.webp)

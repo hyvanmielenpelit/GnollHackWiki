@@ -42,4 +42,4 @@ St:3 Dx:12 Co:12 In:15 Wi:1 Ch:1
 
 ## Picture
 
-![Homunculus](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/homunculus/homunculus.png?raw=true)
+![Homunculus](/uploads/Monsters/Homunculus/homunculus.webp)

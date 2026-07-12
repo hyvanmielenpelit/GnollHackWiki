@@ -42,4 +42,4 @@ St:19 Dx:13 Co:18 In:10 Wi:10 Ch:9
 
 ## Picture
 
-![Werebear](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/werebear/werebear.png?raw=true)
+![Werebear](/uploads/Monsters/Werebear/werebear.webp)

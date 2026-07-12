@@ -36,4 +36,4 @@ St:6 Dx:15 Co:9 In:2 Wi:2 Ch:1
 
 ## Picture
 
-![Bat](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/bat/bat.png?raw=true)
+![Bat](/uploads/Monsters/Bat/bat.webp)

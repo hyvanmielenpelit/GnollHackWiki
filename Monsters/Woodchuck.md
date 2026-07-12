@@ -35,4 +35,4 @@ St:6 Dx:9 Co:6 In:2 Wi:2 Ch:1
 
 ## Picture
 
-![Woodchuck](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/woodchuck/woodchuck.png?raw=true)
+![Woodchuck](/uploads/Monsters/Woodchuck/woodchuck.webp)

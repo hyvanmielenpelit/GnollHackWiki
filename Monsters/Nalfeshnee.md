@@ -45,4 +45,4 @@ St:21 Dx:16 Co:23 In:15 Wi:15 Ch:15
 
 ## Picture
 
-![Nalfeshnee](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/nalfeshnee/nalfeshnee.png?raw=true)
+![Nalfeshnee](/uploads/Monsters/Nalfeshnee/nalfeshnee.webp)

@@ -34,4 +34,4 @@ St:8 Dx:17 Co:16 In:2 Wi:2 Ch:2
 
 ## Picture
 
-![Housecat](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/housecat/housecat.png?raw=true)
+![Housecat](/uploads/Monsters/Housecat/housecat.webp)

@@ -36,4 +36,4 @@ St:1 Dx:9 Co:1 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Centipede](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/centipede/centipede.png?raw=true)
+![Centipede](/uploads/Monsters/Centipede/centipede.webp)

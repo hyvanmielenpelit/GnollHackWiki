@@ -36,4 +36,4 @@ St:6 Dx:18 Co:7 In:5 Wi:5 Ch:3
 
 ## Picture
 
-![Monkey](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/monkey/monkey.png?raw=true)
+![Monkey](/uploads/Monsters/Monkey/monkey.webp)

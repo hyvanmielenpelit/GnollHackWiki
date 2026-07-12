@@ -40,4 +40,4 @@ St:18/91 Dx:13 Co:22 In:18 Wi:14 Ch:12
 
 ## Picture
 
-![Ogre archmage](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/ogre_archmage/ogre_archmage.png?raw=true) ![Ogre archmage](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/ogre_archmage/ogre_archmage_female.png?raw=true)
+![Ogre archmage](/uploads/Monsters/Ogre%20archmage/ogre_archmage.webp) ![Ogre archmage](/uploads/Monsters/Ogre%20archmage/ogre_archmage_female.webp)

@@ -51,4 +51,4 @@ St:20 Dx:16 Co:18 In:24 Wi:18 Ch:15
 
 ## Picture
 
-![Dracolich](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/dracolich/dracolich.png?raw=true)
+![Dracolich](/uploads/Monsters/Dracolich/dracolich.webp)

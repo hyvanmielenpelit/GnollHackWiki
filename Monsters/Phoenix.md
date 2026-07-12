@@ -46,4 +46,4 @@ St:18/01 Dx:17 Co:19 In:17 Wi:17 Ch:17
 
 ## Picture
 
-![Phoenix](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/phoenix/phoenix.png?raw=true)
+![Phoenix](/uploads/Monsters/Phoenix/phoenix.webp)

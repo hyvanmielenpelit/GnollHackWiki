@@ -36,4 +36,4 @@ St:19 Dx:7 Co:20 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Long worm](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/long_worm/long_worm.png?raw=true)
+![Long worm](/uploads/Monsters/Long%20worm/long_worm.webp)

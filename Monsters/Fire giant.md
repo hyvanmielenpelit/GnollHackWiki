@@ -40,4 +40,4 @@ St:23 Dx:14 Co:19 In:7 Wi:7 Ch:8
 
 ## Picture
 
-![Fire giant](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/fire_giant/fire_giant.png?raw=true) ![Fire giantess](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/fire_giant/fire_giant_female.png?raw=true)
+![Fire giant](/uploads/Monsters/Fire%20giant/fire_giant.webp) ![Fire giantess](/uploads/Monsters/Fire%20giant/fire_giant_female.webp)

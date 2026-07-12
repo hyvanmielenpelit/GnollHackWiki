@@ -38,4 +38,4 @@ St:18/** Dx:14 Co:18 In:6 Wi:1 Ch:1
 
 ## Picture
 
-![Gargoyle](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/gargoyle/gargoyle.png?raw=true)
+![Gargoyle](/uploads/Monsters/Gargoyle/gargoyle.webp)

@@ -50,4 +50,4 @@ St:18/** Dx:9 Co:20 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Thoul](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/thoul/thoul.png?raw=true)
+![Thoul](/uploads/Monsters/Thoul/thoul.webp)

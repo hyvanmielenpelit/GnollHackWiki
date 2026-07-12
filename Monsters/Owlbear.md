@@ -37,4 +37,4 @@ St:18/** Dx:14 Co:17 In:3 Wi:18 Ch:3
 
 ## Picture
 
-![Owlbear](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/owlbear/owlbear.png?raw=true)
+![Owlbear](/uploads/Monsters/Owlbear/owlbear.webp)

@@ -36,4 +36,4 @@ St:18/51 Dx:11 Co:16 In:2 Wi:2 Ch:2
 
 ## Picture
 
-![Horse](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/horse/horse.png?raw=true)
+![Horse](/uploads/Monsters/Horse/horse.webp)

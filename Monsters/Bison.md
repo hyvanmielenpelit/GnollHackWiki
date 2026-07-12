@@ -36,4 +36,4 @@ St:19 Dx:9 Co:16 In:2 Wi:2 Ch:1
 
 ## Picture
 
-![Bison](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/bison/bison.png?raw=true)
+![Bison](/uploads/Monsters/Bison/bison.webp)

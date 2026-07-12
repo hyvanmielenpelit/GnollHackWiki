@@ -44,4 +44,4 @@ St:19 Dx:13 Co:19 In:7 Wi:6 Ch:4
 
 ## Picture
 
-![Hezrou](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/hezrou/hezrou.png?raw=true)
+![Hezrou](/uploads/Monsters/Hezrou/hezrou.webp)

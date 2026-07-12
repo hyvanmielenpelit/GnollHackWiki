@@ -46,4 +46,4 @@ St:12 Dx:9 Co:12 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Skeleton](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/skeleton/skeleton.png?raw=true)
+![Skeleton](/uploads/Monsters/Skeleton/skeleton.webp)

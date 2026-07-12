@@ -39,4 +39,4 @@ St:24 Dx:15 Co:21 In:6 Wi:9 Ch:3
 
 ## Picture
 
-![Jabberwock](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/jabberwock/jabberwock.png?raw=true)
+![Jabberwock](/uploads/Monsters/Jabberwock/jabberwock.webp)

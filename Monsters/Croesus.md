@@ -40,4 +40,4 @@ St:18/** Dx:16 Co:18 In:18 Wi:13 Ch:17
 
 ## Picture
 
-![Croesus](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/croesus/croesus.png?raw=true)
+![Croesus](/uploads/Monsters/Croesus/croesus.webp)

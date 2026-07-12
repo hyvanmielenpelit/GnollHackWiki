@@ -39,4 +39,4 @@ St:18/** Dx:12 Co:18 In:2 Wi:2 Ch:1
 
 ## Picture
 
-![Crocodile](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/crocodile/crocodile.png?raw=true)
+![Crocodile](/uploads/Monsters/Crocodile/crocodile.webp)

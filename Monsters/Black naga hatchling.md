@@ -40,4 +40,4 @@ St:18/31 Dx:15 Co:14 In:11 Wi:12 Ch:9
 
 ## Picture
 
-![Black naga hatchling](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/black_naga_hatchling/black_naga_hatchling.png?raw=true)
+![Black naga hatchling](/uploads/Monsters/Black%20naga%20hatchling/black_naga_hatchling.webp)

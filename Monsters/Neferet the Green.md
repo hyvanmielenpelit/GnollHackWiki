@@ -41,4 +41,4 @@ St:15 Dx:18 Co:18 In:20 Wi:18 Ch:18
 
 ## Picture
 
-![Neferet the Green](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/neferet_the_green/neferet_the_green.png?raw=true)
+![Neferet the Green](/uploads/Monsters/Neferet%20the%20Green/neferet_the_green.webp)

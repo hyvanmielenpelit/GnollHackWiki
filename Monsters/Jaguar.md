@@ -36,4 +36,4 @@ St:16 Dx:18 Co:16 In:2 Wi:2 Ch:1
 
 ## Picture
 
-![Jaguar](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/jaguar/jaguar.png?raw=true)
+![Jaguar](/uploads/Monsters/Jaguar/jaguar.webp)

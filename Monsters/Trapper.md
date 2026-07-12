@@ -38,4 +38,4 @@ St:18 Dx:7 Co:14 In:4 Wi:4 Ch:1
 
 ## Picture
 
-![Trapper](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/trapper/trapper.png?raw=true)
+![Trapper](/uploads/Monsters/Trapper/trapper.webp)

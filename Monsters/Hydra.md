@@ -46,4 +46,4 @@ St:18/** Dx:12 Co:23 In:2 Wi:2 Ch:1
 
 ## Picture
 
-![Hydra](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/hydra/hydra.png?raw=true)
+![Hydra](/uploads/Monsters/Hydra/hydra.webp)

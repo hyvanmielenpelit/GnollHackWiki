@@ -37,4 +37,4 @@ St:7 Dx:17 Co:12 In:4 Wi:3 Ch:1
 
 ## Picture
 
-![Raven](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/raven/raven.png?raw=true)
+![Raven](/uploads/Monsters/Raven/raven.webp)

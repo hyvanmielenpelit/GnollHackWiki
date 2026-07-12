@@ -37,4 +37,4 @@ St:18/** Dx:14 Co:18 In:2 Wi:2 Ch:2
 
 ## Picture
 
-![Gorgon](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/gorgon/gorgon.png?raw=true)
+![Gorgon](/uploads/Monsters/Gorgon/gorgon.webp)

@@ -45,4 +45,4 @@ St:16 Dx:9 Co:14 In:10 Wi:10 Ch:8
 
 ## Picture
 
-![Werejackal - Human form](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/human-werejackal/human-werejackal.png?raw=true) ![Werejackal - Human form](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/human-werejackal/human-werejackal_female.png?raw=true)
+![Werejackal - Human form](/uploads/Monsters/Werejackal%20%28Human%20form%29/human-werejackal.webp) ![Werejackal - Human form](/uploads/Monsters/Werejackal%20%28Human%20form%29/human-werejackal_female.webp)

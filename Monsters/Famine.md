@@ -53,4 +53,4 @@ St:18/** Dx:10 Co:25 In:19 Wi:19 Ch:1
 
 ## Picture
 
-![Famine](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/famine/famine.png?raw=true)
+![Famine](/uploads/Monsters/Famine/famine.webp)

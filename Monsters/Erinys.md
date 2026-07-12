@@ -43,4 +43,4 @@ St:18/76 Dx:18 Co:15 In:9 Wi:7 Ch:14
 
 ## Picture
 
-![Erinys](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/erinys/erinys.png?raw=true)
+![Erinys](/uploads/Monsters/Erinys/erinys.webp)

@@ -56,4 +56,4 @@ St:19 Dx:17 Co:20 In:19 Wi:17 Ch:17
 
 ## Picture
 
-![Yeenaghu](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/yeenaghu/yeenaghu.png?raw=true)
+![Yeenaghu](/uploads/Monsters/Yeenaghu/yeenaghu.webp)

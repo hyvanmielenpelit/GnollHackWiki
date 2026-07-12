@@ -38,4 +38,4 @@ St:6 Dx:7 Co:8 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Quivering blob](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/quivering_blob/quivering_blob.png?raw=true)
+![Quivering blob](/uploads/Monsters/Quivering%20blob/quivering_blob.webp)

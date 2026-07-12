@@ -38,4 +38,4 @@ St:1 Dx:10 Co:2 In:2 Wi:2 Ch:1
 
 ## Picture
 
-![Garter snake](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/garter_snake/garter_snake.png?raw=true)
+![Garter snake](/uploads/Monsters/Garter%20snake/garter_snake.webp)

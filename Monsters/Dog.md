@@ -34,4 +34,4 @@ St:12 Dx:14 Co:18 In:2 Wi:2 Ch:2
 
 ## Picture
 
-![Dog](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/dog/dog.png?raw=true)
+![Dog](/uploads/Monsters/Dog/dog.webp)

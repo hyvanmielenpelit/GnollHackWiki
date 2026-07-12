@@ -42,4 +42,4 @@ St:7 Dx:15 Co:14 In:6 Wi:5 Ch:3
 
 ## Picture
 
-![Quasit](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/quasit/quasit.png?raw=true)
+![Quasit](/uploads/Monsters/Quasit/quasit.webp)

@@ -43,4 +43,4 @@ St:17 Dx:22 Co:25 In:25 Wi:20 Ch:22
 
 ## Picture
 
-![Dark One](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/dark_one/dark_one.png?raw=true)
+![Dark One](/uploads/Monsters/Dark%20One/dark_one.webp)

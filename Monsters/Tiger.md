@@ -36,4 +36,4 @@ St:18 Dx:16 Co:18 In:2 Wi:2 Ch:1
 
 ## Picture
 
-![Tiger](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/tiger/tiger.png?raw=true)
+![Tiger](/uploads/Monsters/Tiger/tiger.webp)

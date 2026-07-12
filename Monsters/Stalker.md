@@ -39,4 +39,4 @@ St:18/** Dx:12 Co:17 In:14 Wi:10 Ch:7
 
 ## Picture
 
-![Stalker](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/stalker/stalker.png?raw=true)
+![Stalker](/uploads/Monsters/Stalker/stalker.webp)

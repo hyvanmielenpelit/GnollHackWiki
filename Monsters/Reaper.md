@@ -41,4 +41,4 @@ St:19 Dx:16 Co:19 In:19 Wi:15 Ch:5
 
 ## Picture
 
-![Reaper](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/reaper/reaper.png?raw=true)
+![Reaper](/uploads/Monsters/Reaper/reaper.webp)

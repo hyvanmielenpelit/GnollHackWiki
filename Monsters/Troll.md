@@ -39,4 +39,4 @@ St:18 Dx:12 Co:18 In:6 Wi:4 Ch:4
 
 ## Picture
 
-![Troll](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/troll/troll.png?raw=true)
+![Troll](/uploads/Monsters/Troll/troll.webp)

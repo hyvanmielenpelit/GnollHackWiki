@@ -37,4 +37,4 @@ St:1 Dx:7 Co:17 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Shrieker](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/shrieker/shrieker.png?raw=true)
+![Shrieker](/uploads/Monsters/Shrieker/shrieker.webp)

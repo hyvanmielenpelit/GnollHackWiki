@@ -36,4 +36,4 @@ St:18 Dx:9 Co:15 In:2 Wi:2 Ch:2
 
 ## Picture
 
-![Pony](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/pony/pony.png?raw=true)
+![Pony](/uploads/Monsters/Pony/pony.webp)

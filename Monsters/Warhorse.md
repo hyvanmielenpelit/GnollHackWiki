@@ -36,4 +36,4 @@ St:18/** Dx:11 Co:18 In:2 Wi:2 Ch:2
 
 ## Picture
 
-![Warhorse](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/warhorse/warhorse.png?raw=true)
+![Warhorse](/uploads/Monsters/Warhorse/warhorse.webp)

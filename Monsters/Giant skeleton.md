@@ -45,4 +45,4 @@ St:22 Dx:3 Co:16 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Giant skeleton](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/giant_skeleton/giant_skeleton.png?raw=true)
+![Giant skeleton](/uploads/Monsters/Giant%20skeleton/giant_skeleton.webp)

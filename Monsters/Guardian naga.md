@@ -43,4 +43,4 @@ St:19 Dx:16 Co:18 In:16 Wi:20 Ch:16
 
 ## Picture
 
-![Guardian naga](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/guardian_naga/guardian_naga.png?raw=true) ![Guardian naga](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/guardian_naga/guardian_naga_female.png?raw=true)
+![Guardian naga](/uploads/Monsters/Guardian%20naga/guardian_naga.webp) ![Guardian naga](/uploads/Monsters/Guardian%20naga/guardian_naga_female.webp)

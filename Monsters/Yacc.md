@@ -52,4 +52,4 @@ St:24 Dx:9 Co:24 In:14 Wi:10 Ch:10
 
 ## Picture
 
-![Yacc](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/yacc/yacc.png?raw=true)
+![Yacc](/uploads/Monsters/Yacc/yacc.webp)

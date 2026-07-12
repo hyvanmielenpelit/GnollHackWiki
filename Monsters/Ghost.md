@@ -47,4 +47,4 @@ St:9 Dx:9 Co:9 In:10 Wi:3 Ch:6
 
 ## Picture
 
-![Ghost](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/ghost/ghost.png?raw=true)
+![Ghost](/uploads/Monsters/Ghost/ghost.webp)

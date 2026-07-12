@@ -36,4 +36,4 @@ St:18 Dx:9 Co:18 In:12 Wi:18 Ch:16
 
 ## Picture
 
-![Treant](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/treant/treant.png?raw=true)
+![Treant](/uploads/Monsters/Treant/treant.webp)

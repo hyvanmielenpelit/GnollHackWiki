@@ -34,4 +34,4 @@ St:3 Dx:9 Co:9 In:2 Wi:2 Ch:1
 
 ## Picture
 
-![Jackal](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/jackal/jackal.png?raw=true)
+![Jackal](/uploads/Monsters/Jackal/jackal.webp)

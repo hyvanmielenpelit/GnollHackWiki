@@ -37,4 +37,4 @@ St:19 Dx:12 Co:23 In:9 Wi:8 Ch:15
 
 ## Picture
 
-![Ogre king](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/ogre_king/ogre_king.png?raw=true) ![Ogre queen](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/ogre_king/ogre_king_female.png?raw=true)
+![Ogre king](/uploads/Monsters/Ogre%20king/ogre_king.webp) ![Ogre queen](/uploads/Monsters/Ogre%20king/ogre_king_female.webp)

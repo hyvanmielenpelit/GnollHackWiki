@@ -46,4 +46,4 @@ St:19 Dx:17 Co:20 In:10 Wi:7 Ch:6
 
 ## Picture
 
-![Glabrezu](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/glabrezu/glabrezu.png?raw=true)
+![Glabrezu](/uploads/Monsters/Glabrezu/glabrezu.webp)

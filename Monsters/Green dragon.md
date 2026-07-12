@@ -43,4 +43,4 @@ St:22 Dx:16 Co:20 In:19 Wi:16 Ch:18
 
 ## Picture
 
-![Green dragon](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/green_dragon/green_dragon.png?raw=true)
+![Green dragon](/uploads/Monsters/Green%20dragon/green_dragon.webp)

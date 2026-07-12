@@ -38,4 +38,4 @@ St:18/51 Dx:15 Co:17 In:10 Wi:9 Ch:11
 
 ## Picture
 
-![Gnoll lord](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/gnoll_lord/gnoll_lord.png?raw=true) ![Gnoll lady](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/gnoll_lord/gnoll_lord_female.png?raw=true)
+![Gnoll lord](/uploads/Monsters/Gnoll%20lord/gnoll_lord.webp) ![Gnoll lady](/uploads/Monsters/Gnoll%20lord/gnoll_lord_female.webp)

@@ -39,4 +39,4 @@ St:1 Dx:9 Co:9 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Jellyfish](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/jellyfish/jellyfish.png?raw=true)
+![Jellyfish](/uploads/Monsters/Jellyfish/jellyfish.webp)

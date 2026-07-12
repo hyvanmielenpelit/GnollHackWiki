@@ -44,4 +44,4 @@ St:15 Dx:9 Co:14 In:19 Wi:15 Ch:9
 
 ## Picture
 
-![Lich](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/lich/lich.png?raw=true)
+![Lich](/uploads/Monsters/Lich/lich.webp)

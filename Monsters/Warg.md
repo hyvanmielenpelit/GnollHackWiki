@@ -35,4 +35,4 @@ St:18/** Dx:12 Co:19 In:2 Wi:2 Ch:1
 
 ## Picture
 
-![Warg](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/warg/warg.png?raw=true)
+![Warg](/uploads/Monsters/Warg/warg.webp)

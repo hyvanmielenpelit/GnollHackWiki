@@ -39,4 +39,4 @@ St:14 Dx:9 Co:12 In:6 Wi:5 Ch:5
 
 ## Picture
 
-![Goblin](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/goblin/goblin.png?raw=true)
+![Goblin](/uploads/Monsters/Goblin/goblin.webp)

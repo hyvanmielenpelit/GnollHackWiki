@@ -60,4 +60,4 @@ St:25 Dx:18 Co:25 In:3 Wi:3 Ch:1
 
 ## Picture
 
-![Tarrasque](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/tarrasque/tarrasque.png?raw=true)
+![Tarrasque](/uploads/Monsters/Tarrasque/tarrasque.webp)

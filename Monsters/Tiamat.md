@@ -67,4 +67,4 @@ St:24 Dx:14 Co:24 In:20 Wi:18 Ch:20
 
 ## Picture
 
-![Tiamat](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/tiamat/tiamat.png?raw=true)
+![Tiamat](/uploads/Monsters/Tiamat/tiamat.webp)

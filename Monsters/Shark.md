@@ -39,4 +39,4 @@ St:18/** Dx:14 Co:16 In:2 Wi:2 Ch:1
 
 ## Picture
 
-![Shark](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/shark/shark.png?raw=true)
+![Shark](/uploads/Monsters/Shark/shark.webp)

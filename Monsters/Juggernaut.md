@@ -40,4 +40,4 @@ St:24 Dx:7 Co:24 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Juggernaut](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/juggernaut/juggernaut.png?raw=true)
+![Juggernaut](/uploads/Monsters/Juggernaut/juggernaut.webp)

@@ -57,4 +57,4 @@ St:25 Dx:20 Co:25 In:23 Wi:25 Ch:25
 
 ## Picture
 
-![Bahamut](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/bahamut/bahamut.png?raw=true)
+![Bahamut](/uploads/Monsters/Bahamut/bahamut.webp)

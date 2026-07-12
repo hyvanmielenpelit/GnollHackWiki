@@ -41,4 +41,4 @@ St:18/** Dx:18 Co:18 In:15 Wi:15 Ch:18
 
 ## Picture
 
-![Norn](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/norn/norn.png?raw=true)
+![Norn](/uploads/Monsters/Norn/norn.webp)

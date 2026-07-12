@@ -46,4 +46,4 @@ St:20 Dx:16 Co:20 In:24 Wi:21 Ch:23
 
 ## Picture
 
-![Ki-rin](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/ki-rin/ki-rin.png?raw=true)
+![Ki-rin](/uploads/Monsters/Ki-rin/ki-rin.webp)

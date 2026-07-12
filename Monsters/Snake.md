@@ -40,4 +40,4 @@ St:6 Dx:11 Co:6 In:2 Wi:2 Ch:1
 
 ## Picture
 
-![Snake](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/snake/snake.png?raw=true)
+![Snake](/uploads/Monsters/Snake/snake.webp)

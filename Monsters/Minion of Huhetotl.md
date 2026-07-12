@@ -48,4 +48,4 @@ St:20 Dx:15 Co:25 In:18 Wi:18 Ch:13
 
 ## Picture
 
-![Minion of Huhetotl](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/minion_of_huhetotl/minion_of_huhetotl.png?raw=true)
+![Minion of Huhetotl](/uploads/Monsters/Minion%20of%20Huhetotl/minion_of_huhetotl.webp)

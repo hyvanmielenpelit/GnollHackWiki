@@ -41,4 +41,4 @@ St:18 Dx:12 Co:15 In:2 Wi:2 Ch:1
 
 ## Picture
 
-![Python](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/python/python.png?raw=true)
+![Python](/uploads/Monsters/Python/python.webp)

@@ -45,4 +45,4 @@ St:23 Dx:15 Co:25 In:12 Wi:10 Ch:14
 
 ## Picture
 
-![Lord Surtur](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/lord_surtur/lord_surtur.png?raw=true)
+![Lord Surtur](/uploads/Monsters/Lord%20Surtur/lord_surtur.webp)

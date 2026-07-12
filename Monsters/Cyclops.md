@@ -43,4 +43,4 @@ St:25 Dx:14 Co:25 In:10 Wi:8 Ch:7
 
 ## Picture
 
-![Cyclops](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/cyclops/cyclops.png?raw=true)
+![Cyclops](/uploads/Monsters/Cyclops/cyclops.webp)

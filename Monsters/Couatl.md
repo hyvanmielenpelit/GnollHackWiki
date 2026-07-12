@@ -45,4 +45,4 @@ St:18/** Dx:17 Co:15 In:18 Wi:19 Ch:20
 
 ## Picture
 
-![Couatl](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/couatl/couatl.png?raw=true)
+![Couatl](/uploads/Monsters/Couatl/couatl.webp)

@@ -40,4 +40,4 @@ St:18/** Dx:7 Co:16 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Clay golem](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/clay_golem/clay_golem.png?raw=true)
+![Clay golem](/uploads/Monsters/Clay%20golem/clay_golem.webp)

@@ -45,4 +45,4 @@ St:18 Dx:14 Co:18 In:6 Wi:2 Ch:1
 
 ## Picture
 
-![Fire elemental](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/fire_elemental/fire_elemental.png?raw=true)
+![Fire elemental](/uploads/Monsters/Fire%20elemental/fire_elemental.webp)

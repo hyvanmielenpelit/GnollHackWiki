@@ -37,4 +37,4 @@ St:23 Dx:9 Co:19 In:2 Wi:2 Ch:1
 
 ## Picture
 
-![Baluchitherium](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/baluchitherium/baluchitherium.png?raw=true)
+![Baluchitherium](/uploads/Monsters/Baluchitherium/baluchitherium.webp)

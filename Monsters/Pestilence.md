@@ -53,4 +53,4 @@ St:18/** Dx:10 Co:25 In:19 Wi:19 Ch:1
 
 ## Picture
 
-![Pestilence](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/pestilence/pestilence.png?raw=true)
+![Pestilence](/uploads/Monsters/Pestilence/pestilence.webp)

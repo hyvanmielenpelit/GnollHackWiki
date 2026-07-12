@@ -44,4 +44,4 @@ St:12 Dx:9 Co:12 In:10 Wi:10 Ch:7
 
 ## Picture
 
-![Wererat - Human form](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/human-wererat/human-wererat.png?raw=true) ![Wererat - Human form](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/human-wererat/human-wererat_female.png?raw=true)
+![Wererat - Human form](/uploads/Monsters/Wererat%20%28Human%20form%29/human-wererat.webp) ![Wererat - Human form](/uploads/Monsters/Wererat%20%28Human%20form%29/human-wererat_female.webp)

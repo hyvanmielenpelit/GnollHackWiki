@@ -51,4 +51,4 @@ St:24 Dx:17 Co:20 In:18 Wi:18 Ch:18
 
 ## Picture
 
-![Geryon](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/geryon/geryon.png?raw=true)
+![Geryon](/uploads/Monsters/Geryon/geryon.webp)

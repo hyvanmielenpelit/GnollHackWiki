@@ -41,4 +41,4 @@ St:1 Dx:9 Co:1 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Chickatrice](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/chickatrice/chickatrice.png?raw=true)
+![Chickatrice](/uploads/Monsters/Chickatrice/chickatrice.webp)

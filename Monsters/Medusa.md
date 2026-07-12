@@ -46,4 +46,4 @@ St:18/** Dx:16 Co:20 In:14 Wi:11 Ch:7
 
 ## Picture
 
-![Medusa](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/medusa/medusa.png?raw=true)
+![Medusa](/uploads/Monsters/Medusa/medusa.webp)

@@ -36,4 +36,4 @@ St:7 Dx:16 Co:12 In:3 Wi:4 Ch:1
 
 ## Picture
 
-![Celestial dove](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/celestial_dove/celestial_dove.png?raw=true)
+![Celestial dove](/uploads/Monsters/Celestial%20dove/celestial_dove.webp)

@@ -35,4 +35,4 @@ St:18/51 Dx:13 Co:18 In:2 Wi:1 Ch:2
 
 ## Picture
 
-![Warram](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/warram/warram.png?raw=true)
+![Warram](/uploads/Monsters/Warram/warram.webp)

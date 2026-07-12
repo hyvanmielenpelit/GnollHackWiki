@@ -52,4 +52,4 @@ St:9 Dx:9 Co:9 In:10 Wi:3 Ch:3
 
 ## Picture
 
-![Shade](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/shade/shade.png?raw=true)
+![Shade](/uploads/Monsters/Shade/shade.webp)

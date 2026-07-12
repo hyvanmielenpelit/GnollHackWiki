@@ -43,4 +43,4 @@ St:18 Dx:18 Co:18 In:18 Wi:18 Ch:18
 
 ## Picture
 
-![Mail daemon](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/mail_daemon/mail_daemon.png?raw=true)
+![Mail daemon](/uploads/Monsters/Mail%20daemon/mail_daemon.webp)

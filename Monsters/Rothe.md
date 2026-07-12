@@ -38,4 +38,4 @@ St:15 Dx:9 Co:15 In:2 Wi:2 Ch:1
 
 ## Picture
 
-![Rothe](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/rothe/rothe.png?raw=true)
+![Rothe](/uploads/Monsters/Rothe/rothe.webp)

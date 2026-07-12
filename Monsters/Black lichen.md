@@ -39,4 +39,4 @@ St:13 Dx:7 Co:24 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Black lichen](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/black_lichen/black_lichen.png?raw=true)
+![Black lichen](/uploads/Monsters/Black%20lichen/black_lichen.webp)

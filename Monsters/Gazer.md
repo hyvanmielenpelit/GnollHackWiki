@@ -49,4 +49,4 @@ St:9 Dx:9 Co:16 In:17 Wi:15 Ch:12
 
 ## Picture
 
-![Gazer](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/gazer/gazer.png?raw=true)
+![Gazer](/uploads/Monsters/Gazer/gazer.webp)

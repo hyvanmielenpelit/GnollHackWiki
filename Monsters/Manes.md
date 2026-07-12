@@ -42,4 +42,4 @@ St:6 Dx:12 Co:12 In:3 Wi:3 Ch:3
 
 ## Picture
 
-![Manes](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/manes/manes.png?raw=true)
+![Manes](/uploads/Monsters/Manes/manes.webp)

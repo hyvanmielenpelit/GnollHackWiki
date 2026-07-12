@@ -38,4 +38,4 @@ St:19 Dx:12 Co:16 In:12 Wi:3 Ch:5
 
 ## Picture
 
-![Hell bovine](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/hell_bovine/hell_bovine.png?raw=true)
+![Hell bovine](/uploads/Monsters/Hell%20bovine/hell_bovine.webp)

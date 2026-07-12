@@ -34,4 +34,4 @@ St:6 Dx:9 Co:9 In:2 Wi:2 Ch:1
 
 ## Picture
 
-![Coyote](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/coyote/coyote.png?raw=true)
+![Coyote](/uploads/Monsters/Coyote/coyote.webp)

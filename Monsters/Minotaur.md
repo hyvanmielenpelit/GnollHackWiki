@@ -38,4 +38,4 @@ St:19 Dx:12 Co:19 In:12 Wi:3 Ch:5
 
 ## Picture
 
-![Minotaur](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/minotaur/minotaur.png?raw=true)
+![Minotaur](/uploads/Monsters/Minotaur/minotaur.webp)

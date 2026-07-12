@@ -38,4 +38,4 @@ St:17 Dx:17 Co:17 In:17 Wi:17 Ch:17
 
 ## Picture
 
-![Sandestin](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/sandestin/sandestin.png?raw=true)
+![Sandestin](/uploads/Monsters/Sandestin/sandestin.webp)

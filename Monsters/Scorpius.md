@@ -41,4 +41,4 @@ St:18/** Dx:20 Co:24 In:18 Wi:18 Ch:15
 
 ## Picture
 
-![Scorpius](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/scorpius/scorpius.png?raw=true)
+![Scorpius](/uploads/Monsters/Scorpius/scorpius.webp)

@@ -38,4 +38,4 @@ St:16 Dx:12 Co:14 In:8 Wi:8 Ch:1
 
 ## Picture
 
-![Otyugh](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/otyugh/otyugh.png?raw=true)
+![Otyugh](/uploads/Monsters/Otyugh/otyugh.webp)

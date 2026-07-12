@@ -41,4 +41,4 @@ St:9 Dx:15 Co:9 In:2 Wi:2 Ch:1
 
 ## Picture
 
-![Cobra](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/cobra/cobra.png?raw=true)
+![Cobra](/uploads/Monsters/Cobra/cobra.webp)

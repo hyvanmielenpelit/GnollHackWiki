@@ -45,4 +45,4 @@ St:13 Dx:15 Co:15 In:11 Wi:9 Ch:4
 
 ## Picture
 
-![Spectre](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/spectre/spectre.png?raw=true)
+![Spectre](/uploads/Monsters/Spectre/spectre.webp)

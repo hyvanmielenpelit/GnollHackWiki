@@ -42,4 +42,4 @@ St:20 Dx:15 Co:17 In:19 Wi:18 Ch:19
 
 ## Picture
 
-![Ancient blue dragon](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/ancient_blue_dragon/ancient_blue_dragon.png?raw=true)
+![Ancient blue dragon](/uploads/Monsters/Ancient%20blue%20dragon/ancient_blue_dragon.webp)

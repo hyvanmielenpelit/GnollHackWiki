@@ -48,4 +48,4 @@ St:19 Dx:19 Co:25 In:19 Wi:19 Ch:19
 
 ## Picture
 
-![Aleax](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/aleax/aleax.png?raw=true)
+![Aleax](/uploads/Monsters/Aleax/aleax.webp)

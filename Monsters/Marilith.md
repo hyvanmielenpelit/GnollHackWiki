@@ -51,4 +51,4 @@ St:18/** Dx:18 Co:18 In:14 Wi:12 Ch:16
 
 ## Picture
 
-![Marilith](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/marilith/marilith.png?raw=true)
+![Marilith](/uploads/Monsters/Marilith/marilith.webp)

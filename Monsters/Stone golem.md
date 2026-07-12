@@ -41,4 +41,4 @@ St:19 Dx:7 Co:19 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Stone golem](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/stone_golem/stone_golem.png?raw=true)
+![Stone golem](/uploads/Monsters/Stone%20golem/stone_golem.webp)

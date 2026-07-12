@@ -35,4 +35,4 @@ St:1 Dx:15 Co:8 In:2 Wi:2 Ch:1
 
 ## Picture
 
-![Chameleon](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/chameleon/chameleon.png?raw=true)
+![Chameleon](/uploads/Monsters/Chameleon/chameleon.webp)

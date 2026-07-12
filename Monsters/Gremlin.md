@@ -41,4 +41,4 @@ St:9 Dx:14 Co:16 In:12 Wi:9 Ch:8
 
 ## Picture
 
-![Gremlin](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/gremlin/gremlin.png?raw=true)
+![Gremlin](/uploads/Monsters/Gremlin/gremlin.webp)

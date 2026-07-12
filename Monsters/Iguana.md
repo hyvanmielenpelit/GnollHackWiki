@@ -34,4 +34,4 @@ St:1 Dx:10 Co:7 In:2 Wi:2 Ch:1
 
 ## Picture
 
-![Iguana](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/iguana/iguana.png?raw=true)
+![Iguana](/uploads/Monsters/Iguana/iguana.webp)

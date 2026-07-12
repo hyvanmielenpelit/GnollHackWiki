@@ -42,4 +42,4 @@ St:18/** Dx:25 Co:22 In:18 Wi:18 Ch:18
 
 ## Picture
 
-![Master Assassin](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/master_assassin/master_assassin.png?raw=true)
+![Master Assassin](/uploads/Monsters/Master%20Assassin/master_assassin.webp)

@@ -43,4 +43,4 @@ St:15 Dx:9 Co:9 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Ice vortex](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/ice_vortex/ice_vortex.png?raw=true)
+![Ice vortex](/uploads/Monsters/Ice%20vortex/ice_vortex.webp)

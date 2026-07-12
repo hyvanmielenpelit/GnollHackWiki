@@ -38,4 +38,4 @@ St:16 Dx:18 Co:16 In:14 Wi:15 Ch:18
 
 ## Picture
 
-![Harpy](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/harpy/harpy.png?raw=true)
+![Harpy](/uploads/Monsters/Harpy/harpy.webp)

@@ -37,4 +37,4 @@ St:18/31 Dx:9 Co:15 In:7 Wi:8 Ch:6
 
 ## Picture
 
-![Bugbear](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/bugbear/bugbear.png?raw=true)
+![Bugbear](/uploads/Monsters/Bugbear/bugbear.webp)

@@ -40,4 +40,4 @@ St:18 Dx:15 Co:18 In:15 Wi:15 Ch:18
 
 ## Picture
 
-![Human king](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/human_king/human_king.png?raw=true) ![Human queen](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/human_king/human_king_female.png?raw=true)
+![Human king](/uploads/Monsters/Human%20king/human_king.webp) ![Human queen](/uploads/Monsters/Human%20king/human_king_female.webp)

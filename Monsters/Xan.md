@@ -36,4 +36,4 @@ St:1 Dx:18 Co:6 In:3 Wi:3 Ch:1
 
 ## Picture
 
-![Xan](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/xan/xan.png?raw=true)
+![Xan](/uploads/Monsters/Xan/xan.webp)

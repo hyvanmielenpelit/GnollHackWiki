@@ -45,4 +45,4 @@ St:18/50 Dx:15 Co:15 In:7 Wi:6 Ch:4
 
 ## Picture
 
-![Vrock](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/vrock/vrock.png?raw=true)
+![Vrock](/uploads/Monsters/Vrock/vrock.webp)

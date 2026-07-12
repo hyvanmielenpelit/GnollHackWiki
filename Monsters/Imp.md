@@ -39,4 +39,4 @@ St:5 Dx:15 Co:12 In:10 Wi:9 Ch:13
 
 ## Picture
 
-![Imp](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/imp/imp.png?raw=true)
+![Imp](/uploads/Monsters/Imp/imp.webp)

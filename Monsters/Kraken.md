@@ -39,4 +39,4 @@ St:21 Dx:18 Co:22 In:4 Wi:4 Ch:1
 
 ## Picture
 
-![Kraken](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/kraken/kraken.png?raw=true)
+![Kraken](/uploads/Monsters/Kraken/kraken.webp)

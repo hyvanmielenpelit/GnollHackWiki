@@ -34,4 +34,4 @@ St:18 Dx:12 Co:18 In:2 Wi:2 Ch:1
 
 ## Picture
 
-![Wolf](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/wolf/wolf.png?raw=true)
+![Wolf](/uploads/Monsters/Wolf/wolf.webp)

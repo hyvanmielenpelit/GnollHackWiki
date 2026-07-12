@@ -35,4 +35,4 @@ St:14 Dx:9 Co:9 In:3 Wi:3 Ch:3
 
 ## Picture
 
-![Modron monodrone](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/modron_monodrone/modron_monodrone.png?raw=true)
+![Modron monodrone](/uploads/Monsters/Modron%20monodrone/modron_monodrone.webp)

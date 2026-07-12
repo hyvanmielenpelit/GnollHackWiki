@@ -38,4 +38,4 @@ St:8 Dx:17 Co:15 In:10 Wi:12 Ch:11
 
 ## Picture
 
-![Tengu](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/tengu/tengu.png?raw=true)
+![Tengu](/uploads/Monsters/Tengu/tengu.webp)

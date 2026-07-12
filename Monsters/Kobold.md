@@ -39,4 +39,4 @@ St:7 Dx:10 Co:11 In:6 Wi:5 Ch:4
 
 ## Picture
 
-![Kobold](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/kobold/kobold.png?raw=true)
+![Kobold](/uploads/Monsters/Kobold/kobold.webp)

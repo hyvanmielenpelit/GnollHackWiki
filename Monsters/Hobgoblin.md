@@ -39,4 +39,4 @@ St:18 Dx:12 Co:15 In:7 Wi:6 Ch:6
 
 ## Picture
 
-![Hobgoblin](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/hobgoblin/hobgoblin.png?raw=true)
+![Hobgoblin](/uploads/Monsters/Hobgoblin/hobgoblin.webp)

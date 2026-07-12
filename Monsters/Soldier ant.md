@@ -37,4 +37,4 @@ St:16 Dx:14 Co:14 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Soldier ant](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/soldier_ant/soldier_ant.png?raw=true)
+![Soldier ant](/uploads/Monsters/Soldier%20ant/soldier_ant.webp)

@@ -43,4 +43,4 @@ St:19 Dx:16 Co:19 In:4 Wi:4 Ch:3
 
 ## Picture
 
-![Chimera](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/chimera/chimera.png?raw=true)
+![Chimera](/uploads/Monsters/Chimera/chimera.webp)

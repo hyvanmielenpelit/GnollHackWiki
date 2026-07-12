@@ -41,4 +41,4 @@ St:19 Dx:14 Co:18 In:9 Wi:9 Ch:5
 
 ## Picture
 
-![Ettin](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/ettin/ettin.png?raw=true)
+![Ettin](/uploads/Monsters/Ettin/ettin.webp)

@@ -55,4 +55,4 @@ St:18/** Dx:10 Co:25 In:19 Wi:19 Ch:1
 
 ## Picture
 
-![Death](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/death/death.png?raw=true)
+![Death](/uploads/Monsters/Death/death.webp)

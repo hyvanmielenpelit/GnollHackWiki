@@ -38,4 +38,4 @@ St:16 Dx:9 Co:14 In:10 Wi:10 Ch:8
 
 ## Picture
 
-![Werejackal](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/werejackal/werejackal.png?raw=true)
+![Werejackal](/uploads/Monsters/Werejackal/werejackal.webp)

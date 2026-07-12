@@ -36,4 +36,4 @@ St:17 Dx:17 Co:17 In:2 Wi:2 Ch:1
 
 ## Picture
 
-![Panther](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/panther/panther.png?raw=true)
+![Panther](/uploads/Monsters/Panther/panther.webp)

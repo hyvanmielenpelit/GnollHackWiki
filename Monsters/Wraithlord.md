@@ -44,4 +44,4 @@ St:19 Dx:17 Co:19 In:15 Wi:11 Ch:6
 
 ## Picture
 
-![Wraithlord](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/wraithlord/wraithlord.png?raw=true)
+![Wraithlord](/uploads/Monsters/Wraithlord/wraithlord.webp)

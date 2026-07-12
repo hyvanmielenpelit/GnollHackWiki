@@ -46,4 +46,4 @@ St:22 Dx:3 Co:15 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Ettin zombie](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/ettin_zombie/ettin_zombie.png?raw=true)
+![Ettin zombie](/uploads/Monsters/Ettin%20zombie/ettin_zombie.webp)

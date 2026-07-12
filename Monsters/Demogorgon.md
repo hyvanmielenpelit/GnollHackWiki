@@ -51,4 +51,4 @@ St:24 Dx:20 Co:24 In:24 Wi:23 Ch:19
 
 ## Picture
 
-![Demogorgon](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/demogorgon/demogorgon.png?raw=true)
+![Demogorgon](/uploads/Monsters/Demogorgon/demogorgon.webp)

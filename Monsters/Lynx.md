@@ -36,4 +36,4 @@ St:8 Dx:16 Co:16 In:2 Wi:2 Ch:1
 
 ## Picture
 
-![Lynx](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/lynx/lynx.png?raw=true)
+![Lynx](/uploads/Monsters/Lynx/lynx.webp)

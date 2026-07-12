@@ -37,4 +37,4 @@ St:18 Dx:14 Co:17 In:15 Wi:15 Ch:15
 
 ## Picture
 
-![Djinni](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/djinni/djinni.png?raw=true)
+![Djinni](/uploads/Monsters/Djinni/djinni.webp)

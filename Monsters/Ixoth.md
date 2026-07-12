@@ -45,4 +45,4 @@ St:24 Dx:16 Co:22 In:18 Wi:16 Ch:18
 
 ## Picture
 
-![Ixoth](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/ixoth/ixoth.png?raw=true)
+![Ixoth](/uploads/Monsters/Ixoth/ixoth.webp)

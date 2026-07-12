@@ -39,4 +39,4 @@ St:1 Dx:7 Co:3 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Lichen](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/lichen/lichen.png?raw=true)
+![Lichen](/uploads/Monsters/Lichen/lichen.webp)

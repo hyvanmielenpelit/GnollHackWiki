@@ -38,4 +38,4 @@ St:18/51 Dx:14 Co:18 In:10 Wi:12 Ch:12
 
 ## Picture
 
-![Pegasus](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/pegasus/pegasus.png?raw=true)
+![Pegasus](/uploads/Monsters/Pegasus/pegasus.webp)

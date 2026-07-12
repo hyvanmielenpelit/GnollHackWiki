@@ -36,4 +36,4 @@ St:18/76 Dx:10 Co:16 In:6 Wi:6 Ch:3
 
 ## Picture
 
-![Carnivorous ape](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/carnivorous_ape/carnivorous_ape.png?raw=true)
+![Carnivorous ape](/uploads/Monsters/Carnivorous%20ape/carnivorous_ape.webp)

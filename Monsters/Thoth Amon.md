@@ -44,4 +44,4 @@ St:17 Dx:22 Co:24 In:25 Wi:18 Ch:18
 
 ## Picture
 
-![Thoth Amon](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/thoth_amon/thoth_amon.png?raw=true)
+![Thoth Amon](/uploads/Monsters/Thoth%20Amon/thoth_amon.webp)

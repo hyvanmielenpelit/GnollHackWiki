@@ -40,4 +40,4 @@ St:15 Dx:18 Co:15 In:18 Wi:18 Ch:18
 
 ## Picture
 
-![Hippocrates](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/hippocrates/hippocrates.png?raw=true)
+![Hippocrates](/uploads/Monsters/Hippocrates/hippocrates.webp)

@@ -40,4 +40,4 @@ St:9 Dx:18 Co:9 In:15 Wi:15 Ch:18
 
 ## Picture
 
-![Twoflower](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/twoflower/twoflower.png?raw=true)
+![Twoflower](/uploads/Monsters/Twoflower/twoflower.webp)

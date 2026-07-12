@@ -35,4 +35,4 @@ St:1 Dx:10 Co:8 In:2 Wi:2 Ch:1
 
 ## Picture
 
-![Lizard](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/lizard/lizard.png?raw=true)
+![Lizard](/uploads/Monsters/Lizard/lizard.webp)

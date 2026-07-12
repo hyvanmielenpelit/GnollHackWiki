@@ -37,4 +37,4 @@ St:18 Dx:11 Co:15 In:5 Wi:5 Ch:3
 
 ## Picture
 
-![Ape](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/ape/ape.png?raw=true)
+![Ape](/uploads/Monsters/Ape/ape.webp)

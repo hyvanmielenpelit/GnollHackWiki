@@ -41,4 +41,4 @@ St:10 Dx:7 Co:15 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Lemure](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/lemure/lemure.png?raw=true)
+![Lemure](/uploads/Monsters/Lemure/lemure.webp)

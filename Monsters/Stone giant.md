@@ -40,4 +40,4 @@ St:21 Dx:14 Co:17 In:8 Wi:8 Ch:9
 
 ## Picture
 
-![Stone giant](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/stone_giant/stone_giant.png?raw=true) ![Stone giantess](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/stone_giant/stone_giant_female.png?raw=true)
+![Stone giant](/uploads/Monsters/Stone%20giant/stone_giant.webp) ![Stone giantess](/uploads/Monsters/Stone%20giant/stone_giant_female.webp)

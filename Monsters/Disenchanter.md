@@ -34,4 +34,4 @@ St:14 Dx:13 Co:13 In:4 Wi:4 Ch:1
 
 ## Picture
 
-![Disenchanter](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/disenchanter/disenchanter.png?raw=true)
+![Disenchanter](/uploads/Monsters/Disenchanter/disenchanter.webp)

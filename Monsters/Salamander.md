@@ -41,4 +41,4 @@ St:15 Dx:14 Co:12 In:2 Wi:2 Ch:1
 
 ## Picture
 
-![Salamander](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/salamander/salamander.png?raw=true)
+![Salamander](/uploads/Monsters/Salamander/salamander.webp)

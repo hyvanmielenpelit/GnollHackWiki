@@ -40,4 +40,4 @@ St:9 Dx:9 Co:9 In:15 Wi:15 Ch:11
 
 ## Picture
 
-![Apprentice](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/apprentice/apprentice.png?raw=true) ![Apprentice](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/apprentice/apprentice_female.png?raw=true)
+![Apprentice](/uploads/Monsters/Apprentice/apprentice.webp) ![Apprentice](/uploads/Monsters/Apprentice/apprentice_female.webp)

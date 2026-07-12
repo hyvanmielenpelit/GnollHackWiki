@@ -35,4 +35,4 @@ St:15 Dx:9 Co:15 In:2 Wi:1 Ch:2
 
 ## Picture
 
-![Ram](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/ram/ram.png?raw=true)
+![Ram](/uploads/Monsters/Ram/ram.webp)

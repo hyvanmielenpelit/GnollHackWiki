@@ -40,4 +40,4 @@ St:18/** Dx:9 Co:14 In:6 Wi:6 Ch:3
 
 ## Picture
 
-![Xorn](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/xorn/xorn.png?raw=true)
+![Xorn](/uploads/Monsters/Xorn/xorn.webp)

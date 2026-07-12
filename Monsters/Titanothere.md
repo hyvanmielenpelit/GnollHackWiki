@@ -37,4 +37,4 @@ St:22 Dx:9 Co:18 In:2 Wi:2 Ch:1
 
 ## Picture
 
-![Titanothere](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/titanothere/titanothere.png?raw=true)
+![Titanothere](/uploads/Monsters/Titanothere/titanothere.webp)

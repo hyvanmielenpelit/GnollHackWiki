@@ -39,4 +39,4 @@ St:18/51 Dx:14 Co:17 In:9 Wi:8 Ch:9
 
 ## Picture
 
-![Great orc](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/great_orc/great_orc.png?raw=true) ![Great orc](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/great_orc/great_orc_female.png?raw=true)
+![Great orc](/uploads/Monsters/Great%20orc/great_orc.webp) ![Great orc](/uploads/Monsters/Great%20orc/great_orc_female.webp)

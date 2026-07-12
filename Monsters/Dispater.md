@@ -49,4 +49,4 @@ St:24 Dx:18 Co:21 In:24 Wi:23 Ch:23
 
 ## Picture
 
-![Dispater](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/dispater/dispater.png?raw=true)
+![Dispater](/uploads/Monsters/Dispater/dispater.webp)

@@ -50,4 +50,4 @@ St:24 Dx:19 Co:24 In:25 Wi:24 Ch:25
 
 ## Picture
 
-![Asmodeus](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/asmodeus/asmodeus.png?raw=true)
+![Asmodeus](/uploads/Monsters/Asmodeus/asmodeus.webp)

@@ -55,4 +55,4 @@ St:16 Dx:12 Co:20 In:23 Wi:19 Ch:17
 
 ## Picture
 
-![Elder gazer](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/elder_gazer/elder_gazer.png?raw=true)
+![Elder gazer](/uploads/Monsters/Elder%20gazer/elder_gazer.webp)

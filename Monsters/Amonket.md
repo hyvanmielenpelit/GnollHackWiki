@@ -45,4 +45,4 @@ St:24 Dx:18 Co:25 In:19 Wi:19 Ch:19
 
 ## Picture
 
-![Amonket](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/amonket/amonket.png?raw=true)
+![Amonket](/uploads/Monsters/Amonket/amonket.webp)

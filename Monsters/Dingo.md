@@ -34,4 +34,4 @@ St:14 Dx:10 Co:14 In:2 Wi:2 Ch:1
 
 ## Picture
 
-![Dingo](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/dingo/dingo.png?raw=true)
+![Dingo](/uploads/Monsters/Dingo/dingo.webp)

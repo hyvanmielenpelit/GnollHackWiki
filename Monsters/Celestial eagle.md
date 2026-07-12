@@ -36,4 +36,4 @@ St:14 Dx:16 Co:12 In:3 Wi:8 Ch:1
 
 ## Picture
 
-![Celestial eagle](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/celestial_eagle/celestial_eagle.png?raw=true)
+![Celestial eagle](/uploads/Monsters/Celestial%20eagle/celestial_eagle.webp)

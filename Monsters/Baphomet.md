@@ -50,4 +50,4 @@ St:24 Dx:16 Co:21 In:18 Wi:13 Ch:15
 
 ## Picture
 
-![Baphomet](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/baphomet/baphomet.png?raw=true)
+![Baphomet](/uploads/Monsters/Baphomet/baphomet.webp)

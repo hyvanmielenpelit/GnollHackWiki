@@ -34,4 +34,4 @@ St:3 Dx:14 Co:14 In:15 Wi:9 Ch:14
 
 ## Picture
 
-![Leprechaun](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/leprechaun/leprechaun.png?raw=true)
+![Leprechaun](/uploads/Monsters/Leprechaun/leprechaun.webp)

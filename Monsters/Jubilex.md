@@ -56,4 +56,4 @@ St:21 Dx:13 Co:24 In:15 Wi:14 Ch:4
 
 ## Picture
 
-![Jubilex](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/jubilex/jubilex.png?raw=true)
+![Jubilex](/uploads/Monsters/Jubilex/jubilex.webp)

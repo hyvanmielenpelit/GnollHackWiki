@@ -44,4 +44,4 @@ St:24 Dx:18 Co:25 In:18 Wi:15 Ch:3
 
 ## Picture
 
-![Cerberus](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/cerberus/cerberus.png?raw=true)
+![Cerberus](/uploads/Monsters/Cerberus/cerberus.webp)

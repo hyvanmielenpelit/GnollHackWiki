@@ -40,4 +40,4 @@ St:12 Dx:7 Co:12 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Straw golem](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/straw_golem/straw_golem.png?raw=true)
+![Straw golem](/uploads/Monsters/Straw%20golem/straw_golem.webp)

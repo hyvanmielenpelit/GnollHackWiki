@@ -45,4 +45,4 @@ St:18 Dx:3 Co:14 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Dwarf zombie](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/dwarf_zombie/dwarf_zombie.png?raw=true) ![Dwarf zombie](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/dwarf_zombie/dwarf_zombie_female.png?raw=true)
+![Dwarf zombie](/uploads/Monsters/Dwarf%20zombie/dwarf_zombie.webp) ![Dwarf zombie](/uploads/Monsters/Dwarf%20zombie/dwarf_zombie_female.webp)

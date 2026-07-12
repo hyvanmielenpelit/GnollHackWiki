@@ -40,4 +40,4 @@ St:18 Dx:7 Co:15 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Gold golem](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/gold_golem/gold_golem.png?raw=true)
+![Gold golem](/uploads/Monsters/Gold%20golem/gold_golem.webp)

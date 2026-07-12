@@ -36,4 +36,4 @@ St:15 Dx:22 Co:17 In:7 Wi:7 Ch:2
 
 ## Picture
 
-![Hell bat](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/hell_bat/hell_bat.png?raw=true)
+![Hell bat](/uploads/Monsters/Hell%20bat/hell_bat.webp)

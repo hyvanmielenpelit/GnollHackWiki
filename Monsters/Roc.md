@@ -39,4 +39,4 @@ St:18/05 Dx:17 Co:23 In:4 Wi:10 Ch:9
 
 ## Picture
 
-![Roc](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/roc/roc.png?raw=true)
+![Roc](/uploads/Monsters/Roc/roc.webp)

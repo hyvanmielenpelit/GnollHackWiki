@@ -39,4 +39,4 @@ St:15 Dx:9 Co:15 In:8 Wi:8 Ch:9
 
 ## Picture
 
-![Neanderthal](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/neanderthal/neanderthal.png?raw=true) ![Neanderthal](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/neanderthal/neanderthal_female.png?raw=true)
+![Neanderthal](/uploads/Monsters/Neanderthal/neanderthal.webp) ![Neanderthal](/uploads/Monsters/Neanderthal/neanderthal_female.webp)

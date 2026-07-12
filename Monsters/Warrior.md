@@ -40,4 +40,4 @@ St:15 Dx:15 Co:15 In:10 Wi:10 Ch:9
 
 ## Picture
 
-![Warrior](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/warrior/warrior.png?raw=true)
+![Warrior](/uploads/Monsters/Warrior/warrior.webp)

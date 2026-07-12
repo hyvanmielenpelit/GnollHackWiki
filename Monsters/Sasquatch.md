@@ -37,4 +37,4 @@ St:18/** Dx:13 Co:17 In:7 Wi:7 Ch:3
 
 ## Picture
 
-![Sasquatch](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/sasquatch/sasquatch.png?raw=true)
+![Sasquatch](/uploads/Monsters/Sasquatch/sasquatch.webp)

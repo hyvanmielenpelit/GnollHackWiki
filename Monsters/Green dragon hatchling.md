@@ -37,4 +37,4 @@ St:18 Dx:14 Co:18 In:14 Wi:14 Ch:9
 
 ## Picture
 
-![Green dragon hatchling](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/green_dragon_hatchling/green_dragon_hatchling.png?raw=true)
+![Green dragon hatchling](/uploads/Monsters/Green%20dragon%20hatchling/green_dragon_hatchling.webp)

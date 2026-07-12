@@ -48,4 +48,4 @@ St:24 Dx:18 Co:22 In:23 Wi:22 Ch:24
 
 ## Picture
 
-![Baalzebub](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/baalzebub/baalzebub.png?raw=true)
+![Baalzebub](/uploads/Monsters/Baalzebub/baalzebub.webp)

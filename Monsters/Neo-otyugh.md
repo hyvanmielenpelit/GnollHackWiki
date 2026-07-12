@@ -40,4 +40,4 @@ St:18/50 Dx:14 Co:18 In:14 Wi:14 Ch:1
 
 ## Picture
 
-![Neo-otyugh](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/neo-otyugh/neo-otyugh.png?raw=true)
+![Neo-otyugh](/uploads/Monsters/Neo-otyugh/neo-otyugh.webp)

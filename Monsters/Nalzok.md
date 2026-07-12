@@ -48,4 +48,4 @@ St:19 Dx:20 Co:25 In:18 Wi:16 Ch:16
 
 ## Picture
 
-![Nalzok](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/nalzok/nalzok.png?raw=true)
+![Nalzok](/uploads/Monsters/Nalzok/nalzok.webp)

@@ -38,4 +38,4 @@ St:12 Dx:9 Co:12 In:10 Wi:10 Ch:7
 
 ## Picture
 
-![Wererat](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/wererat/wererat.png?raw=true)
+![Wererat](/uploads/Monsters/Wererat/wererat.webp)

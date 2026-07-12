@@ -42,4 +42,4 @@ St:24 Dx:20 Co:25 In:25 Wi:25 Ch:20
 
 ## Picture
 
-![Charon](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/charon/charon.png?raw=true)
+![Charon](/uploads/Monsters/Charon/charon.webp)

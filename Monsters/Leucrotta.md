@@ -37,4 +37,4 @@ St:18/51 Dx:15 Co:18 In:10 Wi:9 Ch:3
 
 ## Picture
 
-![Leucrotta](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/leucrotta/leucrotta.png?raw=true)
+![Leucrotta](/uploads/Monsters/Leucrotta/leucrotta.webp)

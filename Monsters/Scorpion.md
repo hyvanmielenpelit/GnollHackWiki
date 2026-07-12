@@ -39,4 +39,4 @@ St:9 Dx:12 Co:13 In:1 Wi:1 Ch:1
 
 ## Picture
 
-![Scorpion](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/scorpion/scorpion.png?raw=true)
+![Scorpion](/uploads/Monsters/Scorpion/scorpion.webp)

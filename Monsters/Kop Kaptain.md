@@ -37,4 +37,4 @@ St:18/51 Dx:12 Co:17 In:10 Wi:9 Ch:9
 
 ## Picture
 
-![Kop Kaptain](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/kop_kaptain/kop_kaptain.png?raw=true)
+![Kop Kaptain](/uploads/Monsters/Kop%20Kaptain/kop_kaptain.webp)

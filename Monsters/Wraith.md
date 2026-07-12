@@ -45,4 +45,4 @@ St:8 Dx:11 Co:8 In:8 Wi:8 Ch:3
 
 ## Picture
 
-![Wraith](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/wraith/wraith.png?raw=true)
+![Wraith](/uploads/Monsters/Wraith/wraith.webp)

@@ -43,4 +43,4 @@ St:17 Dx:11 Co:14 In:8 Wi:8 Ch:3
 
 ## Picture
 
-![Barrow wight](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/barrow_wight/barrow_wight.png?raw=true)
+![Barrow wight](/uploads/Monsters/Barrow%20wight/barrow_wight.webp)

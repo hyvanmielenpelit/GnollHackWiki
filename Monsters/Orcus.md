@@ -49,4 +49,4 @@ St:24 Dx:19 Co:24 In:24 Wi:23 Ch:22
 
 ## Picture
 
-![Orcus](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/orcus/orcus.png?raw=true)
+![Orcus](/uploads/Monsters/Orcus/orcus.webp)

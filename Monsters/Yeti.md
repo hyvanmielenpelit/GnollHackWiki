@@ -36,4 +36,4 @@ St:18/51 Dx:10 Co:17 In:7 Wi:7 Ch:4
 
 ## Picture
 
-![Yeti](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/yeti/yeti.png?raw=true)
+![Yeti](/uploads/Monsters/Yeti/yeti.webp)

@@ -43,4 +43,4 @@ St:18/** Dx:18 Co:18 In:15 Wi:15 Ch:18
 
 ## Picture
 
-![Orion](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/orion/orion.png?raw=true)
+![Orion](/uploads/Monsters/Orion/orion.webp)

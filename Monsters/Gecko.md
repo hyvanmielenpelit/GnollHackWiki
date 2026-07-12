@@ -34,4 +34,4 @@ St:1 Dx:10 Co:7 In:2 Wi:2 Ch:1
 
 ## Picture
 
-![Gecko](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/gecko/gecko.png?raw=true)
+![Gecko](/uploads/Monsters/Gecko/gecko.webp)

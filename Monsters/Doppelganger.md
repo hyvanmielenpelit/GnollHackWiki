@@ -40,4 +40,4 @@ St:12 Dx:12 Co:12 In:12 Wi:12 Ch:12
 
 ## Picture
 
-![Doppelganger](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/doppelganger/doppelganger.png?raw=true)
+![Doppelganger](/uploads/Monsters/Doppelganger/doppelganger.webp)

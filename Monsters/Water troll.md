@@ -40,4 +40,4 @@ St:18/76 Dx:12 Co:19 In:6 Wi:4 Ch:4
 
 ## Picture
 
-![Water troll](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/water_troll/water_troll.png?raw=true)
+![Water troll](/uploads/Monsters/Water%20troll/water_troll.webp)

@@ -46,4 +46,4 @@ St:18 Dx:15 Co:17 In:15 Wi:14 Ch:4
 
 ## Picture
 
-![Roper](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/roper/roper.png?raw=true)
+![Roper](/uploads/Monsters/Roper/roper.webp)

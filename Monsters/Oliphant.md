@@ -37,4 +37,4 @@ St:21 Dx:9 Co:17 In:2 Wi:2 Ch:1
 
 ## Picture
 
-![Oliphant](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/oliphant/oliphant.png?raw=true)
+![Oliphant](/uploads/Monsters/Oliphant/oliphant.webp)

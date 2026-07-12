@@ -51,4 +51,4 @@ St:18/** Dx:12 Co:19 In:16 Wi:14 Ch:3
 
 ## Picture
 
-![Shoosuva](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Monsters/shoosuva/shoosuva.png?raw=true)
+![Shoosuva](/uploads/Monsters/Shoosuva/shoosuva.webp)
