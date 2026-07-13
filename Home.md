@@ -72,6 +72,7 @@ GnollHack is best understood as a modernized version of NetHack that makes the c
 
 ## 🌍 Online Sharing
 
+- **[[Social Sharing Guide]]** — Learn how to share your achievements, progress, and screenshots with the community
 - **[[Share Your Progress to Discord Server Channel]]** — Modern clients can share your progress to Discord
 - **[[GnollHack Account]]** — The GnollHack Account server supports top score recording, bones sharing, Junethack, and the NetHack Scoreboard *(modern versions only)*
 - **[[Bones Sharing]]** — You can share your dead characters with others *(modern versions only)*

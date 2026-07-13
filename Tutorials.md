@@ -13,3 +13,8 @@ These guides are for people who are new to GnollHack and NetHack.
 This guide is for people who know NetHack but are new to GnollHack.
 
 - [[Starting Guide for NetHack Veterans]] — How to play GnollHack if you already know NetHack.
+
+## 🌍 Online Sharing
+
+- [[Social Sharing Guide]] — How to share your game progress, top scores, bones files, and snapshots with other players.
+
