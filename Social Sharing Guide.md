@@ -70,7 +70,7 @@ If you want to share a detailed log of your current in-progress game (your inven
 
 > 💡 **Tip:** Snapshots capture your entire inventory, status effects, and recent message log. They are the best way to share your game state without recording a full replay.
 
-### 📹 Recording Gameplay
+### 📹 Replays
 
 You can record your gameplay and share the replays with other players, or download and watch their runs. To enable recording:
 
