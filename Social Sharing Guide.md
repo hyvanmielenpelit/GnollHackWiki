@@ -17,15 +17,15 @@ The [GnollHack Discord Server](https://discord.gg/cQuExnzUQy) is the central hub
 
 > 💡 **Tip:** If you are asking for help with an active run, posting a screenshot or a snapshot link in `#snapshots` alongside your question is highly recommended!
 
-### 🏛️ NetHack Subreddit
+### 🌐 NetHack Subreddit
 
 The **[r/nethack](https://www.reddit.com/r/nethack/)** subreddit is a great community to share details of your runs, ascensions, and strategic discussions with NetHack veterans who appreciate variant differences.
 
-### 🏛️ Roguelike Subreddit
+### 🌐 Roguelike Subreddit
 
 The **[r/roguelikes](https://www.reddit.com/r/roguelikes/)** subreddit is excellent for reaching out to new players who are interested in general roguelike mechanics, modern graphics, and mobile-friendly gameplay.
 
-## 🛠️ Built-in Sharing Features
+## ⚙️ Built-in Sharing Features
 
 GnollHack offers several integrated systems to help you share your game data automatically or manually:
 
@@ -60,7 +60,7 @@ When your character dies in Classic mode, their dead body, inventory, and ghost 
 - This requires a [[GnollHack Account]] and having **Share Bones Files** enabled under **Server Posting Settings**.
 - For more details on how ghost levels work, read the [[Bones Sharing]] guide.
 
-### ⌨️ In-Game Snapshots
+### 📸 In-Game Snapshots
 
 If you want to share a detailed log of your current in-progress game (your inventory, attributes, conducted actions, and game log), you can take a snapshot at any time:
 
