@@ -40,8 +40,6 @@ GnollHack offers several integrated systems to help you share your game data aut
 You can configure GnollHack to automatically post live updates of your character's major events (such as levels gained, achievements unlocked, or cause of death) directly to the **GnollHack Discord's #player-log** channel.
 
 - Enable **Post Game Progress** under the **Forum Posting Settings** in the game's [[Settings]].
-- Ensure the **Webhook Link** is set to **Default**.
-- If you prefer to send updates to your own private server instead, follow the step-by-step instructions in the [[Share Your Progress to Discord Server Channel]] guide.
 
 ### 🏆 Posting Top Scores & Scoreboards
 
