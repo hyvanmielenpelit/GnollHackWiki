@@ -51,8 +51,17 @@ If you want to share a detailed log of your current in-progress game (your inven
 
 ### 📹 Recording Gameplay
 
+You can record your gameplay and share the replays with other players, or download and watch their runs:
+
 - Enable **Record Game** under the **Replays Settings** to let the client record your gameplay.
-- You can also enable **Auto-Upload to Cloud** if you configure a custom cloud storage connection to back up your replays.
+- **Uploading Replays**:
+  - **Auto-Upload to Cloud**: You can enable **Auto-Upload to Cloud** if you configure a custom cloud storage connection to automatically back up your replays.
+  - **Manual Sharing**: To share a recorded replay file (e.g., to Discord or Reddit), go to **Replays** in the game's main menu, select the replay you want to share, and tap the **Share** button. This will package the replay into a `.zip` archive that you can easily upload to `#memes-and-pics` or send to friends.
+- **Watching Other People's Replays**:
+  - When another player shares a `.zip` replay archive, download it to your device.
+  - In the game's main menu, go to **About** and tap **Manage Files**.
+  - Tap **Import Replays** and select the `.zip` file you downloaded. The game will extract and validate the replay.
+  - To watch it, go back to the main menu and open **Replays**. You can now select the imported replay to watch their run!
 
 ## 📷 Tips for Manual Sharing
 
