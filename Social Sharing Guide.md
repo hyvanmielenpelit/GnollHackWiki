@@ -9,32 +9,30 @@ The [GnollHack Discord Server](https://discord.gg/cQuExnzUQy) is the main hub fo
 - **#playing-gnollhack**: The primary channel for general gameplay discussions, asking for advice, or chatting about your active runs.
 - **#memes-and-pics**: The perfect spot to share memes, funny screenshots, and gameplay videos.
 - **#snapshots**: Share in-game snapshot files or text dumps to discuss your inventory, stats, or tactical situations.
-- **#player-log**: The automated dumping ground where the game posts live updates of players' progress (see below).
+- **#player-log**: The *automated dumping ground* where the game posts live updates of players' progress ([see below](#automated-discord-game-grogress)).
 
 ### 🏛️ Reddit Communities
 
 While there is no dedicated GnollHack subreddit, players are active in broader communities:
 
-- **r/nethack**: Use this to share details of your runs, ascensions, and discussions with NetHack veterans who appreciate variant differences.
-- **r/roguelikes**: Excellent for reaching out to new players who are interested in general roguelike mechanics, modern graphics, and mobile gameplay.
+- **[r/nethack](https://www.reddit.com/r/nethack/)**: Use this to share details of your runs, ascensions, and discussions with NetHack veterans who appreciate variant differences.
+- **[r/roguelikes](https://www.reddit.com/r/roguelikes/)**: Excellent for reaching out to new players who are interested in general roguelike mechanics, modern graphics, and mobile gameplay.
 
 ## 🛠️ Built-in Sharing Features
 
 ### 📢 Automated Discord Game Progress
 
-You can configure GnollHack to automatically post live updates of your character's major events (such as levels gained, achievements unlocked, or cause of death) directly to the GnollHack Discord's **#player-log** channel.
+You can configure GnollHack to automatically post live updates of your character's major events (such as levels gained, achievements unlocked, or cause of death) directly to the **GnollHack Discord's #player-log** channel.
 
 - Enable **Post Game Progress** under the **Forum Posting Settings** in the game's [[Settings]].
-- Ensure the **Webhook Link** is set to **Default**.
-- If you prefer to send updates to your own private server instead, follow the step-by-step instructions in the [[Share Your Progress to Discord Server Channel]] guide.
 
 ### 🏆 Posting Top Scores & Scoreboards
 
 Veteran players can showcase their completed games and ascensions to the wider NetHack community. When your game ends:
 
 - If you have registered a [[GnollHack Account]] and enabled **Post Top Scores** under **Server Posting Settings**, the game posts your score and final stats to the GnollHack Account server.
-- From there, the server exposes a public `xlogfile` API. This allows global community indexers like the **NetHack Scoreboard** (nethackscoreboard.org) and tournaments like **Junethack** (junethack.net) to automatically track and display your achievements.
-- On the account website, you and other players can view recent games, overall win rate statistics, and even inspect your detailed HTML or plain text dumplog.
+- The server publicly exposes the game results, which allows the **[NetHack Scoreboard](https://nethackscoreboard.org)** and **[Junethack](https://junethack.net)** to automatically track and display your achievements.
+- On the account website, you and other players can view recent games, overall win rate statistics, and even inspect detailed HTML dumplogs.
 
 ### 🪦 Bones Sharing
 
@@ -48,19 +46,19 @@ When your character dies in Classic mode, their dead body, inventory, and ghost 
 If you want to share a detailed log of your current in-progress game (your inventory, attributes, conducted actions, and game log), you can take a snapshot at any time:
 
 - Use the extended command `#snapshot` or press the **Snapshot** button in the **Game Menu** (`⚙️`).
-- To view your taken snapshots, go to **Snapshots** on the main screen. Tapping on a snapshot will display its detailed text/HTML dumplog.
+- To view your taken snapshots, go to **Snapshots** on the main screen. Tapping on a snapshot will display its detailed HTML dumplog.
 - At the bottom of the snapshot viewer, you can tap the native **Share** button to export the snapshot file directly to Discord, Reddit, email, or other applications using your device's sharing sheet.
-
-## 📷 Tips for Manual Sharing
-
-### 🖼️ Taking Clean Screenshots
-
-If you want to manually capture a screenshot (e.g., using `Win+Shift+S` on Windows or your mobile device's default buttons) to post in `#memes-and-pics`:
-
-- Enable **Hide Message History** under **System Settings** in the [[Settings]] to temporarily hide the message box, allowing a cleaner view of the map and UI.
-- You can customize the status bar layout using settings like **Show Score** and **Show XP** to choose exactly how much information is shown in your screenshot.
 
 ### 📹 Recording Gameplay
 
 - Enable **Record Game** under the **Replays Settings** to let the client record your gameplay.
 - You can also enable **Auto-Upload to Cloud** if you configure a custom cloud storage connection to back up your replays.
+
+## 📷 Tips for Manual Sharing
+
+### 🖼️ Taking Clean Screenshots
+
+If you want to manually capture a screenshot (e.g., using `Win+Shift+S` on Windows or your mobile device's default buttons) to post in `#playing-gnollhack`, `#snapshots`, or `#memes-and-pics`:
+
+- You may enable **Hide Message History** under **System Settings** in the [[Settings]] to temporarily hide the message box, allowing a cleaner view of the map and UI.
+- You can customize the status bar layout using settings like **Show Score** and **Show XP** to choose exactly how much information is shown in your screenshot.
