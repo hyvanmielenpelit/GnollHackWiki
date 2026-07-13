@@ -5,7 +5,7 @@
 The **[GnollHack Discord Server](https://discord.gg/cQuExnzUQy)** is the central hub for the community and developers. You can use the following channels to connect with others:
 
 | Channel | Purpose |
-| :--- | :--- | :--- |
+| :--- | :--- |
 | **#playing-gnollhack** | Gameplay discussions and advice |
 | **#memes-and-pics** | Sharing memes, funny images, and videos |
 | **#snapshots** | Sharing in-game snapshots, screenshots, and dumplogs |
