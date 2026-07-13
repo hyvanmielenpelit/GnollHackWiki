@@ -15,6 +15,8 @@ The [GnollHack Discord Server](https://discord.gg/cQuExnzUQy) is the central hub
 | **#snapshots** | Sharing in-game snapshot files or text/HTML dumplogs | Inventory checks, tactical advice |
 | **#player-log** | Automated live feed of player deaths, achievements, level ups | Following other players' live runs |
 
+> 💡 **Tip:** If you are asking for help with an active run, posting a screenshot or a snapshot link in `#snapshots` alongside your question is highly recommended!
+
 ### 🏛️ NetHack Subreddit
 
 The **[r/nethack](https://www.reddit.com/r/nethack/)** subreddit is a great community to share details of your runs, ascensions, and strategic discussions with NetHack veterans who appreciate variant differences.
@@ -49,6 +51,8 @@ Veteran players can showcase their completed games and ascensions to the wider N
 - The server publicly exposes the game results, which allows the **[NetHack Scoreboard](https://nethackscoreboard.org)** and **[Junethack](https://junethack.net)** to automatically track and display your achievements.
 - On the account website, you and other players can view recent games, overall win rate statistics, and even inspect detailed HTML dumplogs.
 
+> ℹ️ **Note:** Only games played with server posting enabled from the start will be properly tracked on external scoreboards.
+
 ### 🪦 Bones Sharing
 
 When your character dies in Classic mode, their dead body, inventory, and ghost can be uploaded as a "bones file" to the server. Other players might then download this file and encounter your ghost in their own games!
@@ -64,6 +68,8 @@ If you want to share a detailed log of your current in-progress game (your inven
 - To view your taken snapshots, go to **Vault** on the main screen and tap **Snapshots**. Tapping on a snapshot will display its detailed HTML dumplog.
 - At the bottom of the snapshot viewer, you can tap the native **Share** button to export the snapshot file directly to Discord, Reddit, email, or other applications using your device's sharing sheet.
 
+> 💡 **Tip:** Snapshots capture your entire inventory, status effects, and recent message log. They are the best way to share your game state without recording a full replay.
+
 ### 📹 Recording Gameplay
 
 You can record your gameplay and share the replays with other players, or download and watch their runs. To enable recording:
@@ -75,8 +81,6 @@ You can record your gameplay and share the replays with other players, or downlo
 The game supports two different methods for sharing and playing back recorded games:
 
 ##### ☁️ Cloud Storage (Azure Blob)
-
-*Requires sharing the same cloud storage container in the [[Settings]]*
 
 ###### 📤 How to Upload / Share
 
@@ -105,6 +109,8 @@ The game supports two different methods for sharing and playing back recorded ga
 - Select the `.zip` file to extract and validate the replay.
 - Go back to the main screen, open **Vault** -> **Replays**, and select the imported replay to watch the run.
 
+> ⚠️ **Warning:** Replay files should generally match your current game version to ensure accurate playback. Older replays may not play correctly on newer versions.
+
 ## 📷 Tips for Manual Sharing
 
 ### 🖼️ Taking Clean Screenshots
@@ -113,3 +119,5 @@ If you want to manually capture a screenshot (e.g., using `Win+Shift+S` on Windo
 
 - You may enable **Hide Message History** under **System Settings** in the [[Settings]] to temporarily hide the message box, allowing a cleaner view of the map and UI.
 - You can customize the status bar layout using settings like **Show Score** and **Show XP** to choose exactly how much information is shown in your screenshot.
+
+> 💡 **Tip:** When sharing a screenshot to ask for help, make sure your inventory or relevant stats are visible if they are pertinent to your question.
