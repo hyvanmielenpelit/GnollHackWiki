@@ -1,3 +1,5 @@
+![Social Sharing Guide](/uploads/Social%20Sharing%20Guide/social-sharing-guide-q85.webp)
+
 > 👉 **Sharing your adventures, triumphs, and even your most spectacular defeats in GnollHack is a fantastic way to connect with the community, learn new strategies, and leave your mark on the world of roguelikes. Whether you want to post live updates of your journey, share ghost levels with other players, or showcase your high scores on global scoreboards, GnollHack has built-in features to make social sharing seamless and engaging.**
 
 ## 🌍 GnollHack Discord Server
