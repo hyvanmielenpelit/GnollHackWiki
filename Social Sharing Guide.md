@@ -80,7 +80,7 @@ You can record your gameplay and share the replays with other players, or downlo
 
 The game supports two different methods for sharing and playing back recorded games:
 
-##### ☁️ Cloud Storage (Azure Blob)
+##### ☁️ Cloud Storage
 
 ###### 📤 How to Upload / Share
 
