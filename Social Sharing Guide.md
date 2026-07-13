@@ -48,7 +48,7 @@ You can configure GnollHack to automatically post live updates of your character
 Veteran players can showcase their completed games and ascensions to the wider NetHack community. When your game ends:
 
 - If you have registered a [[GnollHack Account]] and enabled **Post Top Scores** under **Server Posting Settings**, the game posts your score and final stats to the GnollHack Account server.
-- The server publicly exposes the game results, which allows the **[NetHack Scoreboard](https://nethackscoreboard.org)** and **[Junethack](https://junethack.net)** to automatically track and display your achievements.
+- The server publicly exposes the game results, which allows the [NetHack Scoreboard](https://nethackscoreboard.org) and [Junethack](https://junethack.net) to automatically track and display your achievements.
 - On the account website, you and other players can view recent games, overall win rate statistics, and even inspect detailed HTML dumplogs.
 
 > ℹ️ **Note:** Only games played with server posting enabled from the start will be properly tracked on external scoreboards.
