@@ -1,27 +1,15 @@
 > 👉 **Sharing your adventures, triumphs, and even your most spectacular defeats in GnollHack is a fantastic way to connect with the community, learn new strategies, and leave your mark on the world of roguelikes. Whether you want to post live updates of your journey, share ghost levels with other players, or showcase your high scores on global scoreboards, GnollHack has built-in features to make social sharing seamless and engaging.**
 
-## 🌍 Where to Share
+## 🌍 GnollHack Discord Server
 
-To discuss the game, ask for help, or share your gameplay media and achievements, you can join the active GnollHack communities:
-
-### 💬 GnollHack Discord
-
-The [GnollHack Discord Server](https://discord.gg/cQuExnzUQy) is the central hub for the community and developers. You can use the following channels to connect with others:
+The **[GnollHack Discord Server](https://discord.gg/cQuExnzUQy)** is the central hub for the community and developers. You can use the following channels to connect with others:
 
 | Channel | Purpose | Best For |
 | :--- | :--- | :--- |
 | **#playing-gnollhack** | Gameplay discussions and advice | Active chat, getting advice |
 | **#memes-and-pics** | Sharing memes, funny images, and videos | Media, visual humor |
-| **#snapshots** | Sharing in-game snapshots, screenshots, and dumplogs | Larger inventory checks, etc. |
+| **#snapshots** | Sharing in-game snapshots, screenshots, and dumplogs | Comprehensive progress reports |
 | **#player-log** | Automated live feed of player deaths, achievements, and level-ups | Following other players' live runs |
-
-### 🌐 NetHack Subreddit
-
-The **[r/nethack](https://www.reddit.com/r/nethack/)** subreddit is a great community to share details of your runs, ascensions, and strategic discussions with NetHack veterans who appreciate variant differences.
-
-### 🌐 Roguelikes Subreddit
-
-The **[r/roguelikes](https://www.reddit.com/r/roguelikes/)** subreddit is excellent for reaching out to other roguelike players who might not be familiar with NetHack.
 
 ## ⚙️ Built-in Sharing Features
 
@@ -107,9 +95,9 @@ The game supports two different methods for sharing and playing back recorded ga
 
 > ⚠️ **Warning:** Replay files should generally match your current game version to ensure accurate playback. Older replays may not play correctly on newer versions.
 
-## 📷 Tips for Manual Sharing
+## 💡 Tips
 
-### 🖼️ Taking Clean Screenshots
+### 📷 Taking Clean Screenshots
 
 If you want to manually capture a screenshot (e.g., using `Win+Shift+S` on Windows or your mobile device's default buttons) to post in the `#playing-gnollhack`, `#snapshots`, or `#memes-and-pics` channel of the GnollHack Discord server, you can take the following advice into account:
 
