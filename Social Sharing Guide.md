@@ -21,7 +21,7 @@ The [GnollHack Discord Server](https://discord.gg/cQuExnzUQy) is the central hub
 
 The **[r/nethack](https://www.reddit.com/r/nethack/)** subreddit is a great community to share details of your runs, ascensions, and strategic discussions with NetHack veterans who appreciate variant differences.
 
-### 🌐 Roguelike Subreddit
+### 🌐 Roguelikes Subreddit
 
 The **[r/roguelikes](https://www.reddit.com/r/roguelikes/)** subreddit is excellent for reaching out to new players who are interested in general roguelike mechanics, modern graphics, and mobile-friendly gameplay.
 
