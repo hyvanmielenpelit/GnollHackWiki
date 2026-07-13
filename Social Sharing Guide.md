@@ -13,7 +13,7 @@ The [GnollHack Discord Server](https://discord.gg/cQuExnzUQy) is the central hub
 | **#playing-gnollhack** | General gameplay discussions, advice, active runs | Active chat, getting advice |
 | **#memes-and-pics** | Sharing memes, funny images, and gameplay videos | Media, visual humor |
 | **#snapshots** | Sharing in-game snapshot files or text/HTML dumplogs | Inventory checks, tactical advice |
-| **#player-log** | Automated live feed of player deaths, achievements, level ups | Following other players' live runs |
+| **#player-log** | Automated live feed of player deaths, achievements, and level-ups | Following other players' live runs |
 
 > 💡 **Tip:** If you are asking for help with an active run, posting a screenshot or a snapshot link in `#snapshots` alongside your question is highly recommended!
 
@@ -31,11 +31,11 @@ GnollHack offers several integrated systems to help you share your game data aut
 
 | Feature | What it Shares | Requirements | How to Enable / Use |
 | :--- | :--- | :--- | :--- |
-| **Automated Progress** | Live game log updates (levels, achievements, deaths) | None | Enable **Post Game Progress** under *Forum Posting Settings* in [[Settings]]. |
-| **Top Scores** | High scores, final stats, and HTML dumplogs | [[GnollHack Account]] | Enable **Post Top Scores** under *Server Posting Settings* in [[Settings]]. |
-| **Bones Files** | Dead character inventory, stats, and ghost | [[GnollHack Account]] | Enable **Share Bones Files** under *Server Posting Settings* in [[Settings]]. |
+| **Automated Progress** | Live game log updates (levels, achievements, deaths) | None | Enable **Post Game Progress** under **Forum Posting Settings** in [[Settings]]. |
+| **Top Scores** | High scores, final stats, and HTML dumplogs | [[GnollHack Account]] | Enable **Post Top Scores** under **Server Posting Settings** in [[Settings]]. |
+| **Bones Files** | Dead character's inventory, stats, and ghost | [[GnollHack Account]] | Enable **Share Bones Files** under **Server Posting Settings** in [[Settings]]. |
 | **In-Game Snapshots** | Active game stats, inventory, and full HTML log | None | Use extended command `#snapshot` or **Snapshot** button in the game menu. View via **Vault** -> **Snapshots** and tap **Share**. |
-| **Replays** | Recorded gameplay inputs and logs | None | Enable **Record Game** in Replays Settings. View via **Vault** -> **Replays** and tap **Share**. |
+| **Replays** | Recorded gameplay inputs and logs | None | Enable **Record Game** under **Replay Settings** in [[Settings]]. View via **Vault** -> **Replays** and tap **Share**. |
 
 ### 📢 Automated Discord Game Progress
 
@@ -62,10 +62,10 @@ When your character dies in Classic mode, their dead body, inventory, and ghost 
 
 ### 📸 In-Game Snapshots
 
-If you want to share a detailed log of your current in-progress game (your inventory, attributes, conducted actions, and game log), you can take a snapshot at any time:
+If you want to share a detailed log of your active game (your inventory, attributes, conducted actions, and game log), you can take a snapshot at any time:
 
 - Use the extended command `#snapshot` or press the **Snapshot** button in the **Game Menu** (`⚙️`).
-- To view your taken snapshots, go to **Vault** on the main screen and tap **Snapshots**. Tapping on a snapshot will display its detailed HTML dumplog.
+- To view your snapshots, go to **Vault** on the main screen and tap **Snapshots**. Tapping on a snapshot will display its detailed HTML dumplog.
 - At the bottom of the snapshot viewer, you can tap the native **Share** button to export the snapshot file directly to Discord, Reddit, email, or other applications using your device's sharing sheet.
 
 > 💡 **Tip:** Snapshots capture your entire inventory, status effects, and recent message log. They are the best way to share your game state without recording a full replay.
@@ -74,7 +74,7 @@ If you want to share a detailed log of your current in-progress game (your inven
 
 You can record your gameplay and share the replays with other players, or download and watch their runs. To enable recording:
 
-- Enable **Record Game** under the **Replays Settings** in the [[Settings]] to let the client record your gameplay.
+- Enable **Record Game** under **Replay Settings** in [[Settings]] to let the client record your gameplay.
 
 #### 🕹️ Replay Sharing Workflows
 
