@@ -66,17 +66,44 @@ If you want to share a detailed log of your current in-progress game (your inven
 
 ### 📹 Recording Gameplay
 
-You can record your gameplay and share the replays with other players, or download and watch their runs:
+You can record your gameplay and share the replays with other players, or download and watch their runs. To enable recording:
 
 - Enable **Record Game** under the **Replays Settings** in the [[Settings]] to let the client record your gameplay.
-- **Uploading Replays**:
-  - **Auto-Upload to Cloud**: You can enable **Auto-Upload to Cloud** if you configure a custom cloud storage connection to automatically back up your replays.
-  - **Manual Sharing**: To share a recorded replay file (e.g., to Discord or Reddit), go to **Vault** on the main screen, tap **Replays**, select the replay you want to share, and tap the **Share** button. This will package the replay into a `.zip` archive that you can easily upload to `#memes-and-pics` or send to friends.
-- **Watching Other People's Replays**:
-  - When another player shares a `.zip` replay archive, download it to your device.
-  - On the main screen, go to **About** and tap **Manage Files**.
-  - Tap **Import Replays** and select the `.zip` file you downloaded. The game will extract and validate the replay.
-  - To watch it, go back to the main screen, open **Vault**, and tap **Replays**. You can now select the imported replay to watch their run!
+
+#### 🕹️ Replay Sharing Workflows
+
+The game supports two different methods for sharing and playing back recorded games:
+
+##### ☁️ Cloud Storage (Azure Blob)
+
+*Requires sharing the same cloud storage container in the [[Settings]]*
+
+###### 📤 How to Upload / Share
+
+- Configure a custom **Cloud Storage** connection and enable **Auto-Upload to Cloud** in the [[Settings]] to automatically upload replays.
+- Alternatively, go to **Vault** -> **Replays**, select a local replay, and tap the **Upload** button.
+
+###### 📥 How to Watch
+
+- Go to **Vault** -> **Replays** and select **Cloud** from the folder picker.
+- Select the replay you want to watch and tap **Download**.
+- Switch the folder picker back to **Downloaded** to play and watch the downloaded run.
+
+##### 📦 Manual ZIP Archive
+
+*Great for Discord, Reddit, or direct file sharing*
+
+###### 📤 How to Upload / Share
+
+- Go to **Vault** -> **Replays**.
+- Select the local replay you want to share and tap **Share**. This builds a `.zip` archive and opens your device's sharing sheet to export the file.
+
+###### 📥 How to Watch
+
+- Download the shared `.zip` replay file to your device.
+- On the main screen, go to **About** -> **Manage Files** and tap **Import Replays**.
+- Select the `.zip` file to extract and validate the replay.
+- Go back to the main screen, open **Vault** -> **Replays**, and select the imported replay to watch the run.
 
 ## 📷 Tips for Manual Sharing
 
