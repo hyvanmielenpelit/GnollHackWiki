@@ -115,7 +115,7 @@ The game supports two different methods for sharing and playing back recorded ga
 
 ### 🖼️ Taking Clean Screenshots
 
-If you want to manually capture a screenshot (e.g., using `Win+Shift+S` on Windows or your mobile device's default buttons) to post in `#playing-gnollhack`, `#snapshots`, or `#memes-and-pics`:
+If you want to manually capture a screenshot (e.g., using `Win+Shift+S` on Windows or your mobile device's default buttons) to post in the `#playing-gnollhack`, `#snapshots`, or `#memes-and-pics` channel of the GnollHack Discord server, you can take the following advice into account:
 
 - You may enable **Hide Message History** under **System Settings** in the [[Settings]] to temporarily hide the message box, allowing a cleaner view of the map and UI.
 - You can customize the status bar layout using settings like **Show Score** and **Show XP** to choose exactly how much information is shown in your screenshot.
