@@ -262,6 +262,10 @@ When formatting inline content, tables, lists, or callouts, use appropriate Unic
 - **Economy & Value**:
   - Gold / Price / Cost / Shop purchases: `🪙` or `💰`
 
+- **Arrows**:
+  - Use Unicode `→` instead of `->`
+  - Use Unicode `←` instead of `<-`
+
 ## 11. Recommended Unicode Icons for Article Types
 
 When linking to or categorizing different types of articles (for instance, in lists or tables of contents), use the following Unicode icons to indicate the nature of the article. **Note:** These icons do not necessarily need to be inserted before each individual article link; they can instead be applied only to the overarching section heading for that group of articles.
