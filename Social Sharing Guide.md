@@ -32,8 +32,8 @@ GnollHack offers several integrated systems to help you share your game data aut
 | **Automated Progress** | Live game log updates (levels, achievements, deaths) | None | Enable **Post Game Progress** under **Forum Posting Settings** in [[Settings]]. |
 | **Top Scores** | High scores, final stats, and HTML dumplogs | [[GnollHack Account]] | Enable **Post Top Scores** under **Server Posting Settings** in [[Settings]]. |
 | **Bones Files** | Dead character's inventory, stats, and ghost | [[GnollHack Account]] | Enable **Share Bones Files** under **Server Posting Settings** in [[Settings]]. |
-| **In-Game Snapshots** | Active game stats, inventory, and full HTML log | None | Use extended command `#snapshot` or **Snapshot** button in the game menu. View via **Vault** -> **Snapshots** and tap **Share**. |
-| **Replays** | Recorded gameplay inputs and logs | None | Enable **Record Game** under **Replay Settings** in [[Settings]]. View via **Vault** -> **Replays** and tap **Share**. |
+| **In-Game Snapshots** | Active game stats, inventory, and full HTML log | None | Use extended command `#snapshot` or **Snapshot** button in the game menu. View via **Vault** → **Snapshots** and tap **Share**. |
+| **Replays** | Recorded gameplay inputs and logs | None | Enable **Record Game** under **Replay Settings** in [[Settings]]. View via **Vault** → **Replays** and tap **Share**. |
 
 ### 📢 Automated Discord Game Progress
 
@@ -83,11 +83,11 @@ The game supports two different methods for sharing and playing back recorded ga
 ###### 📤 How to Upload / Share
 
 - Configure a custom **Cloud Storage** connection and enable **Auto-Upload to Cloud** in the [[Settings]] to automatically upload replays.
-- Alternatively, go to **Vault** -> **Replays**, select a local replay, and tap the **Upload** button.
+- Alternatively, go to **Vault** → **Replays**, select a local replay, and tap the **Upload** button.
 
 ###### 📥 How to Watch
 
-- Go to **Vault** -> **Replays** and select **Cloud** from the folder picker.
+- Go to **Vault** → **Replays** and select **Cloud** from the folder picker.
 - Select the replay you want to watch and tap **Download**.
 - Switch the folder picker back to **Downloaded** to play and watch the downloaded run.
 
@@ -95,15 +95,15 @@ The game supports two different methods for sharing and playing back recorded ga
 
 ###### 📤 How to Upload / Share
 
-- Go to **Vault** -> **Replays**.
+- Go to **Vault** → **Replays**.
 - Select the local replay you want to share and tap **Share**. This builds a `.zip` archive and opens your device's sharing sheet to export the file.
 
 ###### 📥 How to Watch
 
 - Download the shared `.zip` replay file to your device.
-- On the main screen, go to **About** -> **Manage Files** and tap **Import Replays**.
+- On the main screen, go to **About** → **Manage Files** and tap **Import Replays**.
 - Select the `.zip` file to extract and validate the replay.
-- Go back to the main screen, open **Vault** -> **Replays**, and select the imported replay to watch the run.
+- Go back to the main screen, open **Vault** → **Replays**, and select the imported replay to watch the run.
 
 > ⚠️ **Warning:** Replay files should generally match your current game version to ensure accurate playback. Older replays may not play correctly on newer versions.
 
