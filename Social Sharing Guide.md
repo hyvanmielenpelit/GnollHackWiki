@@ -10,12 +10,10 @@ The [GnollHack Discord Server](https://discord.gg/cQuExnzUQy) is the central hub
 
 | Channel | Purpose | Best For |
 | :--- | :--- | :--- |
-| **#playing-gnollhack** | General gameplay discussions, advice, active runs | Active chat, getting advice |
-| **#memes-and-pics** | Sharing memes, funny images, and gameplay videos | Media, visual humor |
-| **#snapshots** | Sharing in-game snapshot files or text/HTML dumplogs | Inventory checks, tactical advice |
+| **#playing-gnollhack** | Gameplay discussions and advice | Active chat, getting advice |
+| **#memes-and-pics** | Sharing memes, funny images, and videos | Media, visual humor |
+| **#snapshots** | Sharing in-game snapshots, screenshots, and dumplogs | Larger inventory checks, etc. |
 | **#player-log** | Automated live feed of player deaths, achievements, and level-ups | Following other players' live runs |
-
-> 💡 **Tip:** If you are asking for help with an active run, posting a screenshot or a snapshot link in `#snapshots` alongside your question is highly recommended!
 
 ### 🌐 NetHack Subreddit
 
@@ -23,7 +21,7 @@ The **[r/nethack](https://www.reddit.com/r/nethack/)** subreddit is a great comm
 
 ### 🌐 Roguelikes Subreddit
 
-The **[r/roguelikes](https://www.reddit.com/r/roguelikes/)** subreddit is excellent for reaching out to new players who are interested in general roguelike mechanics, modern graphics, and mobile-friendly gameplay.
+The **[r/roguelikes](https://www.reddit.com/r/roguelikes/)** subreddit is excellent for reaching out to other roguelike players who might not be familiar with NetHack.
 
 ## ⚙️ Built-in Sharing Features
 
@@ -64,7 +62,7 @@ When your character dies in Classic mode, their dead body, inventory, and ghost 
 
 If you want to share a detailed log of your active game (your inventory, attributes, conducted actions, and game log), you can take a snapshot at any time:
 
-- Use the extended command `#snapshot` or press the **Snapshot** button in the **Game Menu** (`⚙️`).
+- Use the extended command `#snapshot` or press the **Take Snapshot** button in the **Game Menu**.
 - To view your snapshots, go to **Vault** on the main screen and tap **Snapshots**. Tapping on a snapshot will display its detailed HTML dumplog.
 - At the bottom of the snapshot viewer, you can tap the native **Share** button to export the snapshot file directly to Discord, Reddit, email, or other applications using your device's sharing sheet.
 
@@ -94,8 +92,6 @@ The game supports two different methods for sharing and playing back recorded ga
 - Switch the folder picker back to **Downloaded** to play and watch the downloaded run.
 
 ##### 📦 Manual ZIP Archive
-
-*Great for Discord, Reddit, or direct file sharing*
 
 ###### 📤 How to Upload / Share
 
