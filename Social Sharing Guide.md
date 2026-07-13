@@ -4,12 +4,12 @@
 
 The **[GnollHack Discord Server](https://discord.gg/cQuExnzUQy)** is the central hub for the community and developers. You can use the following channels to connect with others:
 
-| Channel | Purpose | Best For |
+| Channel | Purpose |
 | :--- | :--- | :--- |
-| **#playing-gnollhack** | Gameplay discussions and advice | Active chat, getting advice |
-| **#memes-and-pics** | Sharing memes, funny images, and videos | Media, visual humor |
-| **#snapshots** | Sharing in-game snapshots, screenshots, and dumplogs | Comprehensive progress reports |
-| **#player-log** | Automated live feed of player deaths, achievements, and level-ups | Following other players' live runs |
+| **#playing-gnollhack** | Gameplay discussions and advice |
+| **#memes-and-pics** | Sharing memes, funny images, and videos |
+| **#snapshots** | Sharing in-game snapshots, screenshots, and dumplogs |
+| **#player-log** | Automated live feed of player deaths, achievements, and level-ups |
 
 ## ⚙️ Built-in Sharing Features
 
