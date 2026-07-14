@@ -444,12 +444,12 @@ Starting mana is determined when the character is created. It consists of fixed 
 $\text{Starting Mana} = \text{Class Initial Mana} + \text{Race Initial Mana} + \text{Class Starting Random} + \text{Race Starting Random} + \text{Stat Mana Bonus}(1)$
 
 Where:
-- $	ext{Class Initial Mana}$ is the starting `infix` field in the class's energy advancement configuration.
-- $	ext{Race Initial Mana}$ is the starting `infix` field in the race's energy advancement configuration.
-- $	ext{Class Starting Random}$ is rolled if `inrnd` is greater than 0: $	ext{rnd}(	ext{Class Starting Random Range})$.
-- $	ext{Race Starting Random}$ is rolled if `inrnd` is greater than 0: $	ext{rnd}(	ext{Race Starting Random Range})$.
-- $	ext{Stat Mana Bonus}(1)$ is the Intelligence and Wisdom mana bonus at level 1.
-- The average starting random component for a range parameter $N > 0$ is $rac{N + 1}{2.0}$.
+- $\text{Class Initial Mana}$ is the starting *infix* field in the class's energy advancement configuration.
+- $\text{Race Initial Mana}$ is the starting *infix* field in the race's energy advancement configuration.
+- $\text{Class Starting Random}$ is rolled if *inrnd* is greater than 0: $\text{rnd}(\text{Class Starting Random Range})$.
+- $\text{Race Starting Random}$ is rolled if *inrnd* is greater than 0: $\text{rnd}(\text{Race Starting Random Range})$.
+- $\text{Stat Mana Bonus}(1)$ is the Intelligence and Wisdom mana bonus at level 1.
+- The average starting random component for a range parameter $N \gt 0$ is $\frac{N + 1}{2.0}$.
 
 ### Intelligence and Wisdom Mana Bonus
 
@@ -458,9 +458,9 @@ The Intelligence and Wisdom mana bonus is applied at every experience level (inc
 $\text{Stat Mana Bonus}(L) = \lfloor \frac{\max\left(0.0, \frac{2 \times \text{Int} + \text{Wis}}{3.0} - 1.0\right) \times (L + 3)}{6.0} \rfloor$
 
 Where:
-- $	ext{Int}$ is the active Intelligence score of the character.
-- $	ext{Wis}$ is the active Wisdom score of the character.
-- $	ext{L}$ is the experience level of the character.
+- $\text{Int}$ is the active Intelligence score of the character.
+- $\text{Wis}$ is the active Wisdom score of the character.
+- $\text{L}$ is the experience level of the character.
 
 ### Mana Gained Per Level
 
@@ -469,11 +469,11 @@ Each time the character gains a level (from level 2 to level 50), they receive a
 $\text{Mana Gain} = \text{Class lofix} + \text{Race lofix} + \text{rnd}(\text{Class lornd}) + \text{rnd}(\text{Race lornd})$
 
 Where:
-- $	ext{Class lofix}$ and $	ext{Race lofix}$ are the fixed minimum increases for the class and race, respectively.
-- $	ext{Class lornd}$ and $	ext{Race lornd}$ are the random range parameters (die sizes) for the class and race.
-- $	ext{rnd}(N)$ generates a random integer in the range $[1, N]$ with uniform probability. If $N \le 0$, no roll is made and the term is $0$.
+- $\text{Class lofix}$ and $\text{Race lofix}$ are the fixed minimum increases for the class and race, respectively.
+- $\text{Class lornd}$ and $\text{Race lornd}$ are the random range parameters (die sizes) for the class and race.
+- $\text{rnd}(N)$ generates a random integer in the range $[1, N]$ with uniform probability. If $N \le 0$, no roll is made and the term is $0$.
 - The average base gain per level is:
-  $\text{Gain}_{\text{avg}} = \text{Class lofix} + \text{Race lofix} + \frac{\text{Class lornd} + 1}{2.0} + \frac{\text{Race lornd} + 1}{2.0} = \text{Class lofix} + \text{Race lofix} + \frac{\text{Class lornd} + \text{Race lornd}}{2.0} + 1.0$ (when both range parameters are $>0$).
+  $\text{Gain}_{\text{avg}} = \text{Class lofix} + \text{Race lofix} + \frac{\text{Class lornd} + 1}{2.0} + \frac{\text{Race lornd} + 1}{2.0} = \text{Class lofix} + \text{Race lofix} + \frac{\text{Class lornd} + \text{Race lornd}}{2.0} + 1.0$ (when both range parameters are $\gt 0$).
 
 > ⚠️ **Note on UI Display:** In the game UI, the combined advancement is represented as a single combined die: `+1d(Class lornd + Race lornd + 1) + (Class lofix + Race lofix - 1)`. While this single-die approximation has a slightly wider range than rolling two independent dice, it yields the same average base gain per level.
 
@@ -481,9 +481,9 @@ Where:
 
 At experience level $L$ (where $1 \le L \le 20$), the expected maximum mana is:
 
-$\text{Expected Mana}(L) = \text{Starting Mana}_{\text{avg}} + (L - 1) \times \text{Gain}_{\text{avg}} + \text{Stat Mana Bonus}(L)$
+$\text{Expected Mana}(L) = \text{Starting Mana}\_{\text{avg}} + (L - 1) \times \text{Gain}\_{\text{avg}} + \text{Stat Mana Bonus}(L)$
 
 Where:
-- $	ext{Starting Mana}_{	ext{avg}}$ is the average starting mana of the class and race: $	ext{Class Initial Mana} + 	ext{Race Initial Mana} + 	ext{Class Starting Random Average} + 	ext{Race Starting Random Average}$.
-- $	ext{Gain}_{	ext{avg}}$ is the average mana gained per level.
-- $	ext{Stat Mana Bonus}(L)$ is computed using the average Intelligence and Wisdom scores for the class and race (subject to the race's attribute caps).
+- $\text{Starting Mana}_{\text{avg}}$ is the average starting mana of the class and race: $\text{Class Initial Mana} + \text{Race Initial Mana} + \text{Class Starting Random Average} + \text{Race Starting Random Average}$.
+- $\text{Gain}_{\text{avg}}$ is the average mana gained per level.
+- $\text{Stat Mana Bonus}(L)$ is computed using the average Intelligence and Wisdom scores for the class and race (subject to the race's attribute caps).

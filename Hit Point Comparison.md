@@ -444,9 +444,9 @@ Starting hit points are determined when the character is created. They do not ha
 $\text{Starting HP} = \text{Class Initial HP} + \text{Race Initial HP} + \lfloor \text{Con HP Bonus} \rfloor$
 
 Where:
-- $\text{Class Initial HP}$ is the starting `infix` field in the class's HP advancement configuration.
-- $\text{Race Initial HP}$ is the starting `infix` field in the race's HP advancement configuration.
-- $\text{Con HP Bonus}$ is the flat HP bonus per level derived from the character's starting Constitution.
+- **Class Initial HP** is the starting *infix* field in the class's HP advancement configuration.
+- **Race Initial HP** is the starting *infix* field in the race's HP advancement configuration.
+- **Con HP Bonus** is the flat HP bonus per level derived from the character's starting Constitution.
 
 ### Constitution HP Bonus
 
@@ -455,8 +455,8 @@ The Constitution HP bonus is applied at every experience level (including level 
 $\text{Con HP Bonus} = \max\left(-2.0, \frac{\min(25, \text{Con}) - 7}{2.0}\right)$
 
 Where:
-- $\text{Con}$ is the current Constitution score of the character (capped at 25).
-- If $\text{Con} < 3$, the minimum bonus remains $-2.0$.
+- **Con** is the current Constitution score of the character (capped at 25).
+- If **Con** $\lt 3$, the minimum bonus remains $-2.0$.
 - The resulting bonus is a multiple of $0.5$ (e.g., $18$ Con yields a bonus of $+5.5$).
 
 ### Hit Points Gained Per Level
@@ -466,9 +466,9 @@ Each time the character gains a level (from level 2 to level 50), they receive a
 $\text{HP Gain} = \text{Class lofix} + \text{Race lofix} + \text{rnd}(\text{Class lornd}) + \text{rnd}(\text{Race lornd})$
 
 Where:
-- $\text{Class lofix}$ is the fixed minimum increase for the class (which is $0$ for all classes).
-- $\text{Race lofix}$ is the fixed minimum increase for the race (which is $1$ for all races).
-- $\text{Class lornd}$ and $\text{Race lornd}$ are the random range parameters (die sizes) for the class and race.
+- **Class lofix** is the fixed minimum increase for the class (which is $0$ for all classes).
+- **Race lofix** is the fixed minimum increase for the race (which is $1$ for all races).
+- **Class lornd** and **Race lornd** are the random range parameters (die sizes) for the class and race.
 - $\text{rnd}(N)$ generates a random integer in the range $[1, N]$ with uniform probability. If $N \le 0$, no roll is made and the term is $0$.
 - The average base gain per level is:
   $\text{Gain}_{\text{avg}} = \text{Class lofix} + \text{Race lofix} + \frac{\text{Class lornd} + 1}{2.0} + \frac{\text{Race lornd} + 1}{2.0} = \text{Class lofix} + \text{Race lofix} + \frac{\text{Class lornd} + \text{Race lornd}}{2.0} + 1.0$
