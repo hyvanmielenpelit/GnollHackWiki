@@ -4,29 +4,29 @@
 
 | Character Class | Starting Hit Points | Hit Points Per Level | Avg. Con | Con HP Bonus |
 | :-------------- | :-----------------: | :------------------: | :------: | :----------: |
-| [[/Roles/Archaeologist]] | 11 | +1d9 (avg. 5.0) | 10 | +1.5 |
-| [[/Roles/Barbarian]] | 17 | +1d13 (avg. 7.0) | 18 | +5.5 |
-| [[/Roles/Caveman]] | 16 | +1d13 (avg. 7.0) | 16 | +4.5 |
-| [[/Roles/Healer]] | 11 | +1d8 (avg. 4.5) | 12 | +2.5 |
-| [[/Roles/Knight]] | 15 | +1d12 (avg. 6.5) | 15 | +4.0 |
-| [[/Roles/Monk]] | 12 | +1d9 (avg. 5.0) | 14 | +3.5 |
-| [[/Roles/Priest]] | 12 | +1d8 (avg. 4.5) | 13 | +3.0 |
-| [[/Roles/Rogue]] | 10 | +1d9 (avg. 5.0) | 14 | +3.5 |
-| [[/Roles/Ranger]] | 13 | +1d10 (avg. 5.5) | 14 | +3.5 |
-| [[/Roles/Samurai]] | 13 | +1d10 (avg. 5.5) | 18 | +5.5 |
-| [[/Roles/Tourist]] | 12 | +1d7 (avg. 4.0) | 15 | +4.0 |
-| [[/Roles/Valkyrie]] | 14 | +1d11 (avg. 6.0) | 17 | +5.0 |
-| [[/Roles/Wizard]] | 10 | +1d7 (avg. 4.0) | 13 | +3.0 |
+| [[/Roles/Archaeologist]] | 11 | +1d8 (avg. 4.5) | 10 | +1.5 |
+| [[/Roles/Barbarian]] | 17 | +1d12 (avg. 6.5) | 18 | +5.5 |
+| [[/Roles/Caveman]] | 16 | +1d12 (avg. 6.5) | 16 | +4.5 |
+| [[/Roles/Healer]] | 11 | +1d7 (avg. 4.0) | 12 | +2.5 |
+| [[/Roles/Knight]] | 15 | +1d11 (avg. 6.0) | 15 | +4.0 |
+| [[/Roles/Monk]] | 12 | +1d8 (avg. 4.5) | 14 | +3.5 |
+| [[/Roles/Priest]] | 12 | +1d7 (avg. 4.0) | 13 | +3.0 |
+| [[/Roles/Rogue]] | 10 | +1d8 (avg. 4.5) | 14 | +3.5 |
+| [[/Roles/Ranger]] | 13 | +1d9 (avg. 5.0) | 14 | +3.5 |
+| [[/Roles/Samurai]] | 13 | +1d9 (avg. 5.0) | 18 | +5.5 |
+| [[/Roles/Tourist]] | 12 | +1d6 (avg. 3.5) | 15 | +4.0 |
+| [[/Roles/Valkyrie]] | 14 | +1d10 (avg. 5.5) | 17 | +5.0 |
+| [[/Roles/Wizard]] | 10 | +1d6 (avg. 3.5) | 13 | +3.0 |
 
 ## 🔋 Hit Points by Race
 
 | Race | Starting Hit Points | Hit Points Per Level | Con Modifier | Con Modifier HP Bonus |
 | :--- | :-----------------: | :------------------: | :----------: | :-------------------: |
-| [[/Races/Human]] | 12 | +1d3 (avg. 2.0) | +0 | +0.0 |
-| [[/Races/Elf]] | 10 | +1d2 (avg. 1.5) | -2 | -1.0 |
-| [[/Races/Dwarf]] | 17 | +1d4 (avg. 2.5) | +2 | +1.0 |
-| [[/Races/Gnoll]] | 13 | +1d4 (avg. 2.5) | +1 | +0.5 |
-| [[/Races/Orc]] | 15 | +1d4 (avg. 2.5) | +0 | +0.0 |
+| [[/Races/Human]] | 12 | +1d2+1 (avg. 2.5) | +0 | +0.0 |
+| [[/Races/Elf]] | 10 | +2 (avg. 2.0) | -2 | -1.0 |
+| [[/Races/Dwarf]] | 17 | +1d3+1 (avg. 3.0) | +2 | +1.0 |
+| [[/Races/Gnoll]] | 13 | +1d3+1 (avg. 3.0) | +1 | +0.5 |
+| [[/Races/Orc]] | 15 | +1d3+1 (avg. 3.0) | +0 | +0.0 |
 
 ## 📈 Hit Point Progression by Character Class
 
