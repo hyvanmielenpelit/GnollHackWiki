@@ -32,6 +32,12 @@
 
 ### 🏺 Archaeologist
 
+**Hit Points Per Level by Race:**
+
+| Race | [[/Races/Human]] | [[/Races/Dwarf]] |
+| :--- | :---: | :---: |
+| Hit Points Per Level | +9.0 | +10.5 |
+
 | Level | [[/Races/Human]] | [[/Races/Dwarf]] |
 | :---: | :---: | :---: |
 | 1 | 24.0 | 30.0 |
@@ -56,6 +62,12 @@
 | 20 | 186.0 | 220.5 |
 
 ### 🪓 Barbarian
+
+**Hit Points Per Level by Race:**
+
+| Race | [[/Races/Human]] | [[/Races/Gnoll]] | [[/Races/Orc]] |
+| :--- | :---: | :---: | :---: |
+| Hit Points Per Level | +15.0 | +15.5 | +15.5 |
 
 | Level | [[/Races/Human]] | [[/Races/Gnoll]] | [[/Races/Orc]] |
 | :---: | :---: | :---: | :---: |
@@ -82,6 +94,12 @@
 
 ### 🦴 Caveman
 
+**Hit Points Per Level by Race:**
+
+| Race | [[/Races/Human]] | [[/Races/Dwarf]] | [[/Races/Gnoll]] |
+| :--- | :---: | :---: | :---: |
+| Hit Points Per Level | +14.0 | +15.5 | +14.5 |
+
 | Level | [[/Races/Human]] | [[/Races/Dwarf]] | [[/Races/Gnoll]] |
 | :---: | :---: | :---: | :---: |
 | 1 | 32.0 | 38.0 | 34.0 |
@@ -106,6 +124,12 @@
 | 20 | 289.0 | 323.5 | 309.5 |
 
 ### 🧪 Healer
+
+**Hit Points Per Level by Race:**
+
+| Race | [[/Races/Human]] | [[/Races/Gnoll]] |
+| :--- | :---: | :---: |
+| Hit Points Per Level | +9.5 | +10.0 |
 
 | Level | [[/Races/Human]] | [[/Races/Gnoll]] |
 | :---: | :---: | :---: |
@@ -132,6 +156,12 @@
 
 ### 🛡️ Knight
 
+**Hit Points Per Level by Race:**
+
+| Race | [[/Races/Human]] | [[/Races/Dwarf]] |
+| :--- | :---: | :---: |
+| Hit Points Per Level | +12.5 | +14.0 |
+
 | Level | [[/Races/Human]] | [[/Races/Dwarf]] |
 | :---: | :---: | :---: |
 | 1 | 31.0 | 37.0 |
@@ -156,6 +186,12 @@
 | 20 | 268.5 | 303.0 |
 
 ### 🥋 Monk
+
+**Hit Points Per Level by Race:**
+
+| Race | [[/Races/Human]] |
+| :--- | :---: |
+| Hit Points Per Level | +11.0 |
 
 | Level | [[/Races/Human]] |
 | :---: | :---: |
@@ -182,6 +218,12 @@
 
 ### ⛪ Priest
 
+**Hit Points Per Level by Race:**
+
+| Race | [[/Races/Human]] | [[/Races/Elf]] | [[/Races/Gnoll]] |
+| :--- | :---: | :---: | :---: |
+| Hit Points Per Level | +9.5 | +8.0 | +11.0 |
+
 | Level | [[/Races/Human]] | [[/Races/Elf]] | [[/Races/Gnoll]] |
 | :---: | :---: | :---: | :---: |
 | 1 | 27.0 | 24.0 | 28.0 |
@@ -206,6 +248,12 @@
 | 20 | 207.5 | 176.0 | 228.0 |
 
 ### 🗡️ Rogue
+
+**Hit Points Per Level by Race:**
+
+| Race | [[/Races/Human]] | [[/Races/Gnoll]] | [[/Races/Orc]] |
+| :--- | :---: | :---: | :---: |
+| Hit Points Per Level | +11.0 | +11.5 | +11.5 |
 
 | Level | [[/Races/Human]] | [[/Races/Gnoll]] | [[/Races/Orc]] |
 | :---: | :---: | :---: | :---: |
@@ -232,6 +280,12 @@
 
 ### 🏹 Ranger
 
+**Hit Points Per Level by Race:**
+
+| Race | [[/Races/Human]] | [[/Races/Elf]] | [[/Races/Gnoll]] | [[/Races/Orc]] |
+| :--- | :---: | :---: | :---: | :---: |
+| Hit Points Per Level | +11.5 | +10.0 | +12.0 | +12.0 |
+
 | Level | [[/Races/Human]] | [[/Races/Elf]] | [[/Races/Gnoll]] | [[/Races/Orc]] |
 | :---: | :---: | :---: | :---: | :---: |
 | 1 | 28.0 | 25.0 | 30.0 | 31.0 |
@@ -256,6 +310,12 @@
 | 20 | 237.5 | 206.0 | 258.0 | 250.0 |
 
 ### ⚔️ Samurai
+
+**Hit Points Per Level by Race:**
+
+| Race | [[/Races/Human]] |
+| :--- | :---: |
+| Hit Points Per Level | +13.5 |
 
 | Level | [[/Races/Human]] |
 | :---: | :---: |
@@ -282,6 +342,12 @@
 
 ### 📸 Tourist
 
+**Hit Points Per Level by Race:**
+
+| Race | [[/Races/Human]] |
+| :--- | :---: |
+| Hit Points Per Level | +10.0 |
+
 | Level | [[/Races/Human]] |
 | :---: | :---: |
 | 1 | 28.0 |
@@ -307,6 +373,12 @@
 
 ### ⚡ Valkyrie
 
+**Hit Points Per Level by Race:**
+
+| Race | [[/Races/Human]] | [[/Races/Dwarf]] |
+| :--- | :---: | :---: |
+| Hit Points Per Level | +13.0 | +14.5 |
+
 | Level | [[/Races/Human]] | [[/Races/Dwarf]] |
 | :---: | :---: | :---: |
 | 1 | 31.0 | 37.0 |
@@ -331,6 +403,12 @@
 | 20 | 278.0 | 312.5 |
 
 ### 🪄 Wizard
+
+**Hit Points Per Level by Race:**
+
+| Race | [[/Races/Human]] | [[/Races/Elf]] | [[/Races/Orc]] |
+| :--- | :---: | :---: | :---: |
+| Hit Points Per Level | +9.0 | +7.5 | +9.5 |
 
 | Level | [[/Races/Human]] | [[/Races/Elf]] | [[/Races/Orc]] |
 | :---: | :---: | :---: | :---: |
