@@ -36,7 +36,7 @@
 
 | Race | [[/Races/Human]] | [[/Races/Dwarf]] |
 | :--- | :---: | :---: |
-| Mana Per Level | +6.5 | +5.5 |
+| Mana Per Level | +6.67 | +5.33 |
 
 | Level | [[/Races/Human]] | [[/Races/Dwarf]] |
 | :---: | :---: | :---: |
@@ -67,7 +67,7 @@
 
 | Race | [[/Races/Human]] | [[/Races/Gnoll]] | [[/Races/Orc]] |
 | :--- | :---: | :---: | :---: |
-| Mana Per Level | +4.0 | +3.5 | +3.5 |
+| Mana Per Level | +4.06 | +3.22 | +3.22 |
 
 | Level | [[/Races/Human]] | [[/Races/Gnoll]] | [[/Races/Orc]] |
 | :---: | :---: | :---: | :---: |
@@ -98,7 +98,7 @@
 
 | Race | [[/Races/Human]] | [[/Races/Dwarf]] | [[/Races/Gnoll]] |
 | :--- | :---: | :---: | :---: |
-| Mana Per Level | +6.0 | +4.0 | +4.5 |
+| Mana Per Level | +5.44 | +4.11 | +4.61 |
 
 | Level | [[/Races/Human]] | [[/Races/Dwarf]] | [[/Races/Gnoll]] |
 | :---: | :---: | :---: | :---: |
@@ -129,7 +129,7 @@
 
 | Race | [[/Races/Human]] | [[/Races/Gnoll]] |
 | :--- | :---: | :---: |
-| Mana Per Level | +7.5 | +7.0 |
+| Mana Per Level | +7.67 | +6.83 |
 
 | Level | [[/Races/Human]] | [[/Races/Gnoll]] |
 | :---: | :---: | :---: |
@@ -160,7 +160,7 @@
 
 | Race | [[/Races/Human]] | [[/Races/Dwarf]] |
 | :--- | :---: | :---: |
-| Mana Per Level | +5.0 | +4.0 |
+| Mana Per Level | +5.33 | +4.00 |
 
 | Level | [[/Races/Human]] | [[/Races/Dwarf]] |
 | :---: | :---: | :---: |
@@ -191,7 +191,7 @@
 
 | Race | [[/Races/Human]] |
 | :--- | :---: |
-| Mana Per Level | +7.0 |
+| Mana Per Level | +6.61 |
 
 | Level | [[/Races/Human]] |
 | :---: | :---: |
@@ -222,7 +222,7 @@
 
 | Race | [[/Races/Human]] | [[/Races/Elf]] | [[/Races/Gnoll]] |
 | :--- | :---: | :---: | :---: |
-| Mana Per Level | +7.5 | +8.5 | +7.0 |
+| Mana Per Level | +7.44 | +8.78 | +6.61 |
 
 | Level | [[/Races/Human]] | [[/Races/Elf]] | [[/Races/Gnoll]] |
 | :---: | :---: | :---: | :---: |
@@ -253,7 +253,7 @@
 
 | Race | [[/Races/Human]] | [[/Races/Elf]] | [[/Races/Gnoll]] | [[/Races/Orc]] |
 | :--- | :---: | :---: | :---: | :---: |
-| Mana Per Level | +5.0 | +7.0 | +4.5 | +4.5 |
+| Mana Per Level | +5.39 | +6.72 | +4.56 | +4.56 |
 
 | Level | [[/Races/Human]] | [[/Races/Elf]] | [[/Races/Gnoll]] | [[/Races/Orc]] |
 | :---: | :---: | :---: | :---: | :---: |
@@ -284,7 +284,7 @@
 
 | Race | [[/Races/Human]] | [[/Races/Gnoll]] | [[/Races/Orc]] |
 | :--- | :---: | :---: | :---: |
-| Mana Per Level | +5.0 | +4.5 | +4.5 |
+| Mana Per Level | +5.50 | +4.67 | +4.67 |
 
 | Level | [[/Races/Human]] | [[/Races/Gnoll]] | [[/Races/Orc]] |
 | :---: | :---: | :---: | :---: |
@@ -315,7 +315,7 @@
 
 | Race | [[/Races/Human]] |
 | :--- | :---: |
-| Mana Per Level | +4.0 |
+| Mana Per Level | +4.39 |
 
 | Level | [[/Races/Human]] |
 | :---: | :---: |
@@ -346,7 +346,7 @@
 
 | Race | [[/Races/Human]] |
 | :--- | :---: |
-| Mana Per Level | +5.5 |
+| Mana Per Level | +6.28 |
 
 | Level | [[/Races/Human]] |
 | :---: | :---: |
@@ -377,7 +377,7 @@
 
 | Race | [[/Races/Human]] | [[/Races/Dwarf]] |
 | :--- | :---: | :---: |
-| Mana Per Level | +4.0 | +3.0 |
+| Mana Per Level | +4.33 | +3.00 |
 
 | Level | [[/Races/Human]] | [[/Races/Dwarf]] |
 | :---: | :---: | :---: |
@@ -408,7 +408,7 @@
 
 | Race | [[/Races/Human]] | [[/Races/Elf]] | [[/Races/Orc]] |
 | :--- | :---: | :---: | :---: |
-| Mana Per Level | +8.5 | +10.5 | +8.0 |
+| Mana Per Level | +8.89 | +10.22 | +8.06 |
 
 | Level | [[/Races/Human]] | [[/Races/Elf]] | [[/Races/Orc]] |
 | :---: | :---: | :---: | :---: |

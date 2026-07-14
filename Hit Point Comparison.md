@@ -36,7 +36,7 @@
 
 | Race | [[/Races/Human]] | [[/Races/Dwarf]] |
 | :--- | :---: | :---: |
-| Hit Points Per Level | +9.0 | +10.5 |
+| Hit Points Per Level | +8.5 | +10.0 |
 
 | Level | [[/Races/Human]] | [[/Races/Dwarf]] |
 | :---: | :---: | :---: |
@@ -67,7 +67,7 @@
 
 | Race | [[/Races/Human]] | [[/Races/Gnoll]] | [[/Races/Orc]] |
 | :--- | :---: | :---: | :---: |
-| Hit Points Per Level | +15.0 | +15.5 | +15.5 |
+| Hit Points Per Level | +14.5 | +15.5 | +15.0 |
 
 | Level | [[/Races/Human]] | [[/Races/Gnoll]] | [[/Races/Orc]] |
 | :---: | :---: | :---: | :---: |
@@ -98,7 +98,7 @@
 
 | Race | [[/Races/Human]] | [[/Races/Dwarf]] | [[/Races/Gnoll]] |
 | :--- | :---: | :---: | :---: |
-| Hit Points Per Level | +14.0 | +15.5 | +14.5 |
+| Hit Points Per Level | +13.5 | +15.0 | +14.5 |
 
 | Level | [[/Races/Human]] | [[/Races/Dwarf]] | [[/Races/Gnoll]] |
 | :---: | :---: | :---: | :---: |
@@ -129,7 +129,7 @@
 
 | Race | [[/Races/Human]] | [[/Races/Gnoll]] |
 | :--- | :---: | :---: |
-| Hit Points Per Level | +9.5 | +10.0 |
+| Hit Points Per Level | +9.0 | +10.0 |
 
 | Level | [[/Races/Human]] | [[/Races/Gnoll]] |
 | :---: | :---: | :---: |
@@ -191,7 +191,7 @@
 
 | Race | [[/Races/Human]] |
 | :--- | :---: |
-| Hit Points Per Level | +11.0 |
+| Hit Points Per Level | +10.5 |
 
 | Level | [[/Races/Human]] |
 | :---: | :---: |
@@ -222,7 +222,7 @@
 
 | Race | [[/Races/Human]] | [[/Races/Elf]] | [[/Races/Gnoll]] |
 | :--- | :---: | :---: | :---: |
-| Hit Points Per Level | +9.5 | +8.0 | +11.0 |
+| Hit Points Per Level | +9.5 | +8.0 | +10.5 |
 
 | Level | [[/Races/Human]] | [[/Races/Elf]] | [[/Races/Gnoll]] |
 | :---: | :---: | :---: | :---: |
@@ -253,7 +253,7 @@
 
 | Race | [[/Races/Human]] | [[/Races/Gnoll]] | [[/Races/Orc]] |
 | :--- | :---: | :---: | :---: |
-| Hit Points Per Level | +11.0 | +11.5 | +11.5 |
+| Hit Points Per Level | +10.5 | +11.5 | +11.0 |
 
 | Level | [[/Races/Human]] | [[/Races/Gnoll]] | [[/Races/Orc]] |
 | :---: | :---: | :---: | :---: |
@@ -284,7 +284,7 @@
 
 | Race | [[/Races/Human]] | [[/Races/Elf]] | [[/Races/Gnoll]] | [[/Races/Orc]] |
 | :--- | :---: | :---: | :---: | :---: |
-| Hit Points Per Level | +11.5 | +10.0 | +12.0 | +12.0 |
+| Hit Points Per Level | +11.0 | +9.5 | +12.0 | +11.5 |
 
 | Level | [[/Races/Human]] | [[/Races/Elf]] | [[/Races/Gnoll]] | [[/Races/Orc]] |
 | :---: | :---: | :---: | :---: | :---: |
@@ -315,7 +315,7 @@
 
 | Race | [[/Races/Human]] |
 | :--- | :---: |
-| Hit Points Per Level | +13.5 |
+| Hit Points Per Level | +13.0 |
 
 | Level | [[/Races/Human]] |
 | :---: | :---: |
