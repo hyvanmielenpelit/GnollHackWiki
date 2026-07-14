@@ -76,7 +76,9 @@
 - [[Alchemy]] — Recipes for mixing potions and other items with each other.
 - [[Diluted Potions]] — Learn what effects dilution has on potions.
 - [[Eating Guide]] — Learn about culinary tactics in GnollHack.
+- [[Hit Point Comparison]] — Average hit point progression for each character class and race.
 - [[Item Evaporation Chances]] — The chances of an item to be destroyed when over-enchanting it.
+- [[Mana Comparison]] — Average mana progression for each character class and race.
 - [[Poisoning Effects]] — Learn about poison and poison resistance.
 - [[Resistances and Saving Throws]] — Learn about how resistances and saving throws work in GnollHack.
 - [[Runewords]] — Magical floor engravings that provide special protections or effects.
