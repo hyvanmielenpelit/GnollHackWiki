@@ -30,7 +30,7 @@
 
 ## 📈 Mana Progression by Character Class
 
-### Archaeologist
+### 🏺 Archaeologist
 
 **Mana Per Level by Race:**
 
@@ -61,7 +61,7 @@
 | 19 | 137.5 | 110 |
 | 20 | 144 | 115.5 |
 
-### Barbarian
+### 🪓 Barbarian
 
 **Mana Per Level by Race:**
 
@@ -92,7 +92,7 @@
 | 19 | 82.5 | 64.5 | 64.5 |
 | 20 | 86.5 | 68 | 68 |
 
-### Caveman
+### 🦴 Caveman
 
 **Mana Per Level by Race:**
 
@@ -123,7 +123,7 @@
 | 19 | 111.5 | 84 | 94.5 |
 | 20 | 117.5 | 88 | 99 |
 
-### Healer
+### 🧪 Healer
 
 **Mana Per Level by Race:**
 
@@ -154,7 +154,7 @@
 | 19 | 158 | 141 |
 | 20 | 165.5 | 148 |
 
-### Knight
+### 🛡️ Knight
 
 **Mana Per Level by Race:**
 
@@ -185,7 +185,7 @@
 | 19 | 109.5 | 82 |
 | 20 | 114.5 | 86 |
 
-### Monk
+### 🥋 Monk
 
 **Mana Per Level by Race:**
 
@@ -216,7 +216,7 @@
 | 19 | 135.5 |
 | 20 | 142.5 |
 
-### Priest
+### ⛪ Priest
 
 **Mana Per Level by Race:**
 
@@ -247,7 +247,7 @@
 | 19 | 153 | 184.5 | 136 |
 | 20 | 160.5 | 193 | 143 |
 
-### Ranger
+### 🏹 Ranger
 
 **Mana Per Level by Race:**
 
@@ -278,7 +278,7 @@
 | 19 | 110.5 | 141 | 93.5 | 93.5 |
 | 20 | 115.5 | 148 | 98 | 98 |
 
-### Rogue
+### 🗡️ Rogue
 
 **Mana Per Level by Race:**
 
@@ -309,7 +309,7 @@
 | 19 | 113.5 | 95.5 | 95.5 |
 | 20 | 118.5 | 100 | 100 |
 
-### Samurai
+### ⚔️ Samurai
 
 **Mana Per Level by Race:**
 
@@ -340,7 +340,7 @@
 | 19 | 90 |
 | 20 | 94 |
 
-### Tourist
+### 📸 Tourist
 
 **Mana Per Level by Race:**
 
@@ -371,7 +371,7 @@
 | 19 | 129.5 |
 | 20 | 135 |
 
-### Valkyrie
+### ⚡ Valkyrie
 
 **Mana Per Level by Race:**
 
@@ -402,7 +402,7 @@
 | 19 | 88.5 | 61 |
 | 20 | 92.5 | 64 |
 
-### Wizard
+### 🪄 Wizard
 
 **Mana Per Level by Race:**
 

@@ -125,6 +125,20 @@ When editing or creating headings for pages, always use appropriate Unicode icon
   - Lawful / Halo / Deities: `⚖️` or `😇`
   - Neutral / Balance: `😐` or `☯️`
   - Chaotic / Chaos: `😈` or `🔥` or `🌀`
+- **Character Classes / Roles**:
+  - Archaeologist: `🏺`
+  - Barbarian: `🪓`
+  - Caveman: `🦴`
+  - Healer: `🧪`
+  - Knight: `🛡️`
+  - Monk: `🥋`
+  - Priest: `⛪`
+  - Rogue: `🗡️`
+  - Ranger: `🏹`
+  - Samurai: `⚔️`
+  - Tourist: `📸`
+  - Valkyrie: `⚡`
+  - Wizard: `🪄`
 - **Dungeon Exploration & Gameplay**:
   - Level / Map Structure: `🗺️`
   - Dungeon Branches: `🔀`
