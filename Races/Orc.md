@@ -20,7 +20,7 @@ Orcs start with poison resistance and do not suffer penalty for cannibalism. How
 | Stat | Starting Value | Increase Per Level |
 | :--- | :------------: | :----------------: |
 | Hit points | 15 | +1d3+1 (avg. +3) |
-| Mana | 1 | +1d2-1 (avg. +0.5) |
+| Mana | 1d3+1 (avg. 3) | +1 (avg. +1) |
 
 ## Racial Traits
 

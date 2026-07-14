@@ -36,8 +36,8 @@ Versatile warrior, adept at melee and ranged combat and at disarming traps.
 
 | Stat | Starting Value | Increase Per Level |
 | :--- | :------------: | :----------------: |
-| Hit points | 10 | +1d8+1 (avg. +5.5) |
-| Mana | 1d6 (avg. 3.5) | +1d3 (avg. +2) |
+| Hit points | 10 | +1d8 (avg. +4.5) |
+| Mana | 1d2+3 (avg. 4.5) | +1d2+1 (avg. +2.5) |
 
 ## Skills
 

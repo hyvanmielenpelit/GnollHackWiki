@@ -45,8 +45,8 @@ Martial artist, adept at several spells.
 
 | Stat | Starting Value | Increase Per Level |
 | :--- | :------------: | :----------------: |
-| Hit points | 12 | +1d8+1 (avg. +4.5) |
-| Mana | 1d10 (avg. 5.5) | +1d5 (avg. +3) |
+| Hit points | 12 | +1d8 (avg. +4.5) |
+| Mana | 1d4+4 (avg. 6.5) | +1d2+2 (avg. +3.5) |
 
 ## Skills
 

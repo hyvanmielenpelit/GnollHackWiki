@@ -38,8 +38,8 @@ Strong warrior that starts with a club, a sling, and a [[/Monsters/saber-tooth t
 
 | Stat | Starting Value | Increase Per Level |
 | :--- | :------------: | :----------------: |
-| Hit points | 16 | +1d12+1 (avg. +7.5) |
-| Mana | 1d8-1 (avg. 3.5) | +1d5-1 (avg. +2) |
+| Hit points | 16 | +1d12 (avg. +6.5) |
+| Mana | 1d6+1 (avg. 4.5) | +1d2+1 (avg. +2.5) |
 
 ## Skills
 

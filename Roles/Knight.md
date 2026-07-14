@@ -39,8 +39,8 @@ Heavely armored melee warrior, adept at riding.
 
 | Stat | Starting Value | Increase Per Level |
 | :--- | :------------: | :----------------: |
-| Hit points | 15 | +1d11+1 (avg. +7) |
-| Mana | 1d6 (avg. 3.5) | +1d3 (avg. +2) |
+| Hit points | 15 | +1d11 (avg. +6) |
+| Mana | 1d4+2 (avg. 4.5) | +1d2+1 (avg. +2.5) |
 
 ## Skills
 

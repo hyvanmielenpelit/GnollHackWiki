@@ -38,8 +38,8 @@ Potent archer, adept at ranged combat.
 
 | Stat | Starting Value | Increase Per Level |
 | :--- | :------------: | :----------------: |
-| Hit points | 13 | +1d9+1 (avg. +6) |
-| Mana | 1d6 (avg. 3.5) | +1d3 (avg. +2) |
+| Hit points | 13 | +1d9 (avg. +5) |
+| Mana | 1d2+3 (avg. 4.5) | +1d2+1 (avg. +2.5) |
 
 ## Skills
 

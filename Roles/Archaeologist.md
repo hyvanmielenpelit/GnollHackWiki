@@ -35,8 +35,8 @@ Lightly equipped explorer. The archaeologist starts with a touchstone, which can
 
 | Stat | Starting Value | Increase Per Level |
 | :--- | :------------: | :----------------: |
-| Hit points | 11 | +1d8+1 (avg. +5.5) |
-| Mana | 1d8 (avg. 4.5) | +1d4 (avg. +2.5) |
+| Hit points | 11 | +1d8 (avg. +4.5) |
+| Mana | 1d4+3 (avg. 5.5) | +1d3+1 (avg. +3) |
 
 ## Skills
 

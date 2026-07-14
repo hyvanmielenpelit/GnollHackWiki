@@ -35,8 +35,8 @@ Rich physician, adept at healing spells.
 
 | Stat | Starting Value | Increase Per Level |
 | :--- | :------------: | :----------------: |
-| Hit points | 11 | +1d7+1 (avg. +5) |
-| Mana | 2d6 (avg. 7) | +1d6 (avg. +3.5) |
+| Hit points | 11 | +1d7 (avg. +4) |
+| Mana | 1d3+6 (avg. 8) | +1d3+2 (avg. +4) |
 
 ## Skills
 

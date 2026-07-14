@@ -20,7 +20,7 @@ Elves are highly intelligent but physically fragile race. This makes them excell
 | Stat | Starting Value | Increase Per Level |
 | :--- | :------------: | :----------------: |
 | Hit points | 10 | +2 |
-| Mana | 1d12 (avg. 6.5) | +1d2+1 (avg. +2.5) |
+| Mana | 1d6+6 (avg. 9.5) | +1d2+1 (avg. +2.5) |
 
 ## Racial Traits
 

@@ -20,7 +20,7 @@ Dwarves are sturdy, gaining bonus to physical attribute scores but having disadv
 | Stat | Starting Value | Increase Per Level |
 | :--- | :------------: | :----------------: |
 | Hit points | 17 | +1d3+1 (avg. +3) |
-| Mana | 0 | +0 |
+| Mana | 1d2 (avg. 1.5) | +1d2-1 (avg. +0.5) |
 
 ## Racial Traits
 

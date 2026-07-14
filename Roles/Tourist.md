@@ -37,8 +37,8 @@ Versatile traveller that can specialize in almost every combat and magic skill.
 
 | Stat | Starting Value | Increase Per Level |
 | :--- | :------------: | :----------------: |
-| Hit points | 12 | +1d6+1 (avg. +4.5) |
-| Mana | 1d8 (avg. 4.5) | +1d4 (avg. +2.5) |
+| Hit points | 12 | +1d6 (avg. +3.5) |
+| Mana | 1d4+3 (avg. 5.5) | +1d3+1 (avg. +3) |
 
 ## Skills
 

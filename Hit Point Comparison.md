@@ -461,16 +461,19 @@ Where:
 
 ### Hit Points Gained Per Level
 
-Each time the character gains a level (from level 2 to level 50), they receive a random increase in hit points:
+Each time the character gains a level (from level 2 to level 50), they receive a random increase in hit points determined by two independent dice rolls for class and race:
 
-$\text{HP Gain} = \text{Class lofix} + \text{Race lofix} + \text{rn2}(\text{Class lornd} + \text{Race lornd} + 1)$
+$\text{HP Gain} = \text{Class lofix} + \text{Race lofix} + \text{rnd}(\text{Class lornd}) + \text{rnd}(\text{Race lornd})$
 
 Where:
-- $\text{Class lofix}$ and $\text{Race lofix}$ are the fixed minimum increases for the class and race, respectively (both are $1$ for all playable combinations).
-- $\text{Class lornd}$ and $\text{Race lornd}$ are the random range parameters for the class and race.
-- $\text{rn2}(M)$ generates a random integer in the range $[0, M - 1]$ with uniform probability.
+- $\text{Class lofix}$ is the fixed minimum increase for the class (which is $0$ for all classes).
+- $\text{Race lofix}$ is the fixed minimum increase for the race (which is $1$ for all races).
+- $\text{Class lornd}$ and $\text{Race lornd}$ are the random range parameters (die sizes) for the class and race.
+- $\text{rnd}(N)$ generates a random integer in the range $[1, N]$ with uniform probability. If $N \le 0$, no roll is made and the term is $0$.
 - The average base gain per level is:
-  $\text{Gain}_{\text{avg}} = \text{Class lofix} + \text{Race lofix} + \frac{\text{Class lornd} + \text{Race lornd}}{2.0}$
+  $\text{Gain}_{\text{avg}} = \text{Class lofix} + \text{Race lofix} + \frac{\text{Class lornd} + 1}{2.0} + \frac{\text{Race lornd} + 1}{2.0} = \text{Class lofix} + \text{Race lofix} + \frac{\text{Class lornd} + \text{Race lornd}}{2.0} + 1.0$
+  
+> ⚠️ **Note on UI Display:** In the game UI, the combined advancement is represented as a single combined die: `+1d(Class lornd + Race lornd + 1) + (Class lofix + Race lofix - 1)`. While this single-die approximation has a slightly wider range (`[1, Class lornd + Race lornd + 1]` vs `[3, Class lornd + Race lornd + 1]` for Archaeologist + Human), it yields the same average base gain per level.
 
 ### Total Expected Hit Points at Level L
 

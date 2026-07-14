@@ -20,4 +20,4 @@ Humans do not have any special abilities, but they can be of any character class
 | Stat | Starting Value | Increase Per Level |
 | :--- | :------------: | :----------------: |
 | Hit points | 12 | +1d2+1 (avg. +2.5) |
-| Mana | 1d4 (avg. 2.5) | +1 |
+| Mana | 1d3+2 (avg. 4) | +1d2 (avg. +1.5) |
