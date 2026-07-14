@@ -1,7 +1,7 @@
 ## Level 8 celestial spell
 
 - **Attributes:** Higher of wisdom and charisma
-- **Mana cost:** 160
+- **Mana cost:** 120
 - **Casting time:** 1 round
 - **Cooldown:** None
 - **Targeting:** None

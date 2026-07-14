@@ -1,7 +1,7 @@
 ## Level 8 conjuration spell
 
 - **Attributes:** Higher of intelligence and charisma
-- **Mana cost:** 160
+- **Mana cost:** 120
 - **Casting time:** 1 round
 - **Cooldown:** None
 - **Targeting:** None

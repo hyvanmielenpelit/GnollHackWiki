@@ -1,7 +1,7 @@
 ## Major necromancy cantrip
 
 - **Attributes:** Higher of wisdom and charisma
-- **Mana cost:** 8.0
+- **Mana cost:** 6.0
 - **Casting time:** 1 round
 - **Cooldown:** None
 - **Targeting:** One target in selected direction

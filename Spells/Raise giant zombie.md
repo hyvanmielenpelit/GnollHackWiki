@@ -1,7 +1,7 @@
 ## Level 2 necromancy spell
 
 - **Attributes:** Higher of wisdom and charisma
-- **Mana cost:** 16.0
+- **Mana cost:** 12.0
 - **Casting time:** 1 round
 - **Cooldown:** None
 - **Targeting:** One target in selected direction

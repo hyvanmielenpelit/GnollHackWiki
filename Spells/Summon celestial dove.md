@@ -1,7 +1,7 @@
 ## Level 1 celestial spell
 
 - **Attributes:** Higher of wisdom and charisma
-- **Mana cost:** 24.0
+- **Mana cost:** 18.0
 - **Casting time:** 1 round
 - **Cooldown:** None
 - **Targeting:** None

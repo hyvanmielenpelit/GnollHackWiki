@@ -1,7 +1,7 @@
 ## Level 6 celestial spell
 
 - **Attributes:** Higher of wisdom and charisma
-- **Mana cost:** 80.0
+- **Mana cost:** 60.0
 - **Casting time:** 1 round
 - **Cooldown:** None
 - **Targeting:** None

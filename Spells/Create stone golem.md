@@ -1,7 +1,7 @@
 ## Level 4 transmutation spell
 
 - **Attributes:** Higher of intelligence and wisdom
-- **Mana cost:** 60.0
+- **Mana cost:** 45.0
 - **Casting time:** 1 round
 - **Cooldown:** None
 - **Targeting:** None

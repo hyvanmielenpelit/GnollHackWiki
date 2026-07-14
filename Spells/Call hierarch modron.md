@@ -1,7 +1,7 @@
 ## Level 10 conjuration spell
 
 - **Attributes:** Higher of intelligence and charisma
-- **Mana cost:** 300
+- **Mana cost:** 200
 - **Casting time:** 1 round
 - **Cooldown:** None
 - **Targeting:** None

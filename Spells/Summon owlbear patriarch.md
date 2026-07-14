@@ -1,7 +1,7 @@
 ## Level 7 nature spell
 
 - **Attributes:** Higher of wisdom and charisma
-- **Mana cost:** 120
+- **Mana cost:** 90.0
 - **Casting time:** 1 round
 - **Cooldown:** None
 - **Targeting:** None

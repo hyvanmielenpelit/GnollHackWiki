@@ -1,7 +1,7 @@
 ## Level 4 necromancy spell
 
 - **Attributes:** Higher of wisdom and charisma
-- **Mana cost:** 30.0
+- **Mana cost:** 20.0
 - **Casting time:** 1 round
 - **Cooldown:** None
 - **Targeting:** None

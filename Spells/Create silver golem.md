@@ -1,7 +1,7 @@
 ## Level 9 transmutation spell
 
 - **Attributes:** Higher of intelligence and wisdom
-- **Mana cost:** 200
+- **Mana cost:** 150
 - **Casting time:** 1 round
 - **Cooldown:** None
 - **Targeting:** None

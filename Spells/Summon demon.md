@@ -1,7 +1,7 @@
 ## Level 6 necromancy spell
 
 - **Attributes:** Higher of wisdom and charisma
-- **Mana cost:** 100
+- **Mana cost:** 75.0
 - **Casting time:** 1 round
 - **Cooldown:** None
 - **Targeting:** None

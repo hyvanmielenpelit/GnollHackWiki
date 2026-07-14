@@ -1,7 +1,7 @@
 ## Level 5 conjuration spell
 
 - **Attributes:** Higher of intelligence and charisma
-- **Mana cost:** 80.0
+- **Mana cost:** 60.0
 - **Casting time:** 1 round
 - **Cooldown:** None
 - **Targeting:** None

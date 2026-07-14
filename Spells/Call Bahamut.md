@@ -1,7 +1,7 @@
 ## Level 12 celestial spell
 
 - **Attributes:** Higher of wisdom and charisma
-- **Mana cost:** 600
+- **Mana cost:** 500
 - **Casting time:** 1 round
 - **Cooldown:** None
 - **Targeting:** None

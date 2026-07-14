@@ -1,7 +1,7 @@
 ## Level 3 necromancy spell
 
 - **Attributes:** Higher of wisdom and charisma
-- **Mana cost:** 20.0
+- **Mana cost:** 15.0
 - **Casting time:** 1 round
 - **Cooldown:** 180 rounds
 - **Targeting:** None

@@ -1,7 +1,7 @@
 ## Level 3 celestial spell
 
 - **Attributes:** Higher of wisdom and charisma
-- **Mana cost:** 40.0
+- **Mana cost:** 30.0
 - **Casting time:** 1 round
 - **Cooldown:** None
 - **Targeting:** None

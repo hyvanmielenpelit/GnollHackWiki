@@ -1,7 +1,7 @@
 ## Level 5 transmutation spell
 
 - **Attributes:** Higher of intelligence and wisdom
-- **Mana cost:** 80.0
+- **Mana cost:** 60.0
 - **Casting time:** 1 round
 - **Cooldown:** None
 - **Targeting:** None

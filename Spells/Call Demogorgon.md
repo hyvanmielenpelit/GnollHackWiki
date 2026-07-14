@@ -1,7 +1,7 @@
 ## Level 10 necromancy spell
 
 - **Attributes:** Higher of wisdom and charisma
-- **Mana cost:** 300
+- **Mana cost:** 250
 - **Casting time:** 1 round
 - **Cooldown:** 999 rounds
 - **Targeting:** None

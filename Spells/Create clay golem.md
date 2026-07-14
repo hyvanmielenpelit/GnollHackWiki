@@ -1,7 +1,7 @@
 ## Level 4 clerical spell
 
 - **Attributes:** Wisdom
-- **Mana cost:** 60.0
+- **Mana cost:** 45.0
 - **Casting time:** 1 round
 - **Cooldown:** None
 - **Targeting:** None

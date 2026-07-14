@@ -1,7 +1,7 @@
 ## Level 1 necromancy spell
 
 - **Attributes:** Higher of wisdom and charisma
-- **Mana cost:** 12.0
+- **Mana cost:** 9.0
 - **Casting time:** 1 round
 - **Cooldown:** None
 - **Targeting:** None

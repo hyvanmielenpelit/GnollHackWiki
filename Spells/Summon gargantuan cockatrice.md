@@ -1,7 +1,7 @@
 ## Level 9 nature spell
 
 - **Attributes:** Higher of wisdom and charisma
-- **Mana cost:** 200
+- **Mana cost:** 150
 - **Casting time:** 1 round
 - **Cooldown:** None
 - **Targeting:** None
