@@ -142,8 +142,12 @@ When editing or creating headings for pages, always use appropriate Unicode icon
   - Valkyrie: `⚡`
   - Wizard: `🪄`
 - **Playable Races**:
+  - Human: `🧑`
+  - Dwarf: `⛏️`
+  - Elf: `🧝`
   - Gnome: `🧔`
   - Gnoll: `🐺`
+  - Orc: `👹`
 - **Dungeon Exploration & Gameplay**:
   - Level / Map Structure: `🗺️`
   - Dungeon Branches: `🔀`
