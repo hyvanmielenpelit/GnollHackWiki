@@ -1,4 +1,4 @@
-![Monk](/uploads/Roles/Monk/monk.webp)
+![Monk](/uploads/Roles/Monk/monk-q85.webp)
 
 > 👉 **The Monk is a martial artist who practices vegetarianism and is adept at various spells.**
 
