@@ -30,6 +30,24 @@
 | **Hit points ❤️** | 13 | +1d9 (avg. +5) |
 | **Mana 🔮** | 1d2+3 (avg. 4.5) | +1d2+1 (avg. +2.5) |
 
+## 🏁 Starting Items
+
+| Item | Quantity | Details |
+| :--- | :---: | :--- |
+| [[/Items/dagger]] | 1 | +1 enchantment; substituted with [[/Items/elven dagger]] for [[/Races/Elf]], [[/Items/orcish dagger]] for [[/Races/Orc]] |
+| [[/Items/short bow]] | 1 | Substituted with [[/Items/elven long bow]] for [[/Races/Elf]], [[/Items/orcish short bow]] for [[/Races/Orc]], [[/Items/crossbow]] for [[/Races/Gnoll]] |
+| [[/Items/arrow]] | 15-25 | +1 enchantment; substituted with [[/Items/elven arrow]] for [[/Races/Elf]], [[/Items/orcish arrow]] for [[/Races/Orc]], [[/Items/gnollish quarrel]] for [[/Races/Gnoll]] |
+| [[/Items/arrow]] | 25-50 | Standard; substituted with [[/Items/elven arrow]] for [[/Races/Elf]], [[/Items/orcish arrow]] for [[/Races/Orc]], [[/Items/gnollish quarrel]] for [[/Races/Gnoll]] |
+| [[/Items/leather bracers]] | 1 | |
+| [[/Items/cloak of protection]] | 1 | +1 enchantment |
+| [[/Items/backpack]] | 1 | |
+| [[/Items/cram ration]] | 4 | Substituted with [[/Items/elven waybread]] for [[/Races/Elf]], [[/Items/tripe ration]] for [[/Races/Orc]] and [[/Races/Gnoll]] |
+| [[/Items/arrow]] | 2 | Quivered ammo with lightning enchantment; substituted with [[/Items/elven arrow]] for [[/Races/Elf]], [[/Items/orcish arrow]] for [[/Races/Orc]] |
+| [[/Items/crossbow bolt]] | 1 | Substituted quiver ammo for [[/Races/Gnoll]] only; bone material with death enchantment |
+
+**Racial Variations:**
+- [[/Races/Orc]] Rangers also start with 2 random food items.
+
 ## 📊 Skills
 
 ### ⚔️ Combat Skills

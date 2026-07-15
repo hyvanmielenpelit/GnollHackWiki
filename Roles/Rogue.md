@@ -30,6 +30,27 @@
 | **Hit points ❤️** | 10 | +1d8 (avg. +4.5) |
 | **Mana 🔮** | 1d2+3 (avg. 4.5) | +1d2+1 (avg. +2.5) |
 
+## 🏁 Starting Items
+
+| Item | Quantity | Details |
+| :--- | :---: | :--- |
+| [[/Items/short sword]] | 1 | Substituted with [[/Items/orcish short sword]] for [[/Races/Orc]], [[/Items/flail]] for [[/Races/Gnoll]] |
+| [[/Items/dagger]] | 5-10 | Substituted with [[/Items/orcish dagger]] for [[/Races/Orc]] |
+| [[/Items/hand crossbow]] | 1 | +1 enchantment; substituted with [[/Items/crossbow]] for [[/Races/Gnoll]] |
+| [[/Items/crossbow bolt]] | 12-20 | +1 enchantment; substituted with [[/Items/gnollish quarrel]] for [[/Races/Gnoll]] |
+| [[/Items/leather armor]] | 1 | +1 enchantment; substituted with [[/Items/gnollish leather armor]] for [[/Races/Gnoll]] |
+| [[/Items/cotton hood]] | 1 | Substituted with [[/Items/gnollish hood]] for [[/Races/Gnoll]] |
+| [[/Items/potion of poison]] | 1 | |
+| [[/Items/lock pick]] | 1 | |
+| [[/Items/bag of treasure hauling]] | 1 | |
+
+Additionally:
+- Starts with 0 gold pieces.
+- There is a 20.0% chance to also start with: [[/Items/blindfold]]
+
+**Racial Variations:**
+- [[/Races/Orc]] Rogues also start with 2 random food items.
+
 ## 📊 Skills
 
 ### ⚔️ Combat Skills

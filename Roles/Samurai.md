@@ -31,6 +31,23 @@
 | **Hit points ❤️** | 13 | +1d9 (avg. +5) |
 | **Mana 🔮** | 1d3 (avg. 2) | +1d2 (avg. +1.5) |
 
+## 🏁 Starting Items
+
+| Item | Quantity | Details |
+| :--- | :---: | :--- |
+| [[/Items/katana]] | 1 | |
+| [[/Items/short sword]] | 1 | Wakizashi |
+| [[/Items/yumi]] | 1 | Short bow |
+| [[/Items/ya]] | 25-45 | Arrows |
+| [[/Items/splint mail]] | 1 | |
+| [[/Items/oriental silk sack]] | 1 | |
+| [[/Items/food ration]] | 1 | |
+
+Additionally, there is a random chance to start with:
+- 20.0% chance: [[/Items/blindfold]]
+
+*(Note: Human is the only allowed race for Samurai.)*
+
 ## 📊 Skills
 
 ### ⚔️ Combat Skills

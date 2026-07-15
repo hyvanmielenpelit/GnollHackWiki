@@ -30,6 +30,38 @@
 | **Hit points ❤️** | 11 | +1d7 (avg. +4) |
 | **Mana 🔮** | 1d3+6 (avg. 8) | +1d3+2 (avg. +4) |
 
+## 🏁 Starting Items
+
+| Item | Quantity | Details |
+| :--- | :---: | :--- |
+| [[/Items/scalpel]] | 1 | +3 enchantment; substituted with [[/Items/dagger]] for [[/Races/Gnoll]] |
+| [[/Items/leather gloves]] | 1 | +3 enchantment |
+| [[/Items/medieval robe]] | 1 | +1 enchantment; substituted with [[/Items/gnollish haircloth robe]] for [[/Races/Gnoll]] |
+| [[/Items/beak mask of sickness resistance]] | 1 | Substituted with [[/Items/gnollish leather mask]] for [[/Races/Gnoll]] |
+| [[/Items/leather hat]] | 1 | Substituted with [[/Items/gnollish hood]] for [[/Races/Gnoll]] |
+| [[/Items/stethoscope]] | 1 | |
+| [[/Items/potion of healing]] | 4 | |
+| [[/Items/potion of extra-healing]] | 4 | |
+| [[/Items/jar of extra healing salve]] | 1 | |
+| [[/Items/jar of medicinal salve]] | 1 | |
+| [[/Items/wand of probing]] | 1 | |
+| [[/Items/wand of sleep]] | 1 | |
+| [[/Items/Spellbooks/spellbook of minor healing]] | 1 | Blessed |
+| [[/Items/Spellbooks/spellbook of healing]] | 1 | Blessed |
+| [[/Items/Spellbooks/spellbook of extra healing]] | 1 | Blessed |
+| [[/Items/Spellbooks/spellbook of cure sickness]] | 1 | Blessed |
+| [[/Items/Spellbooks/spellbook of sleep]] | 1 | Blessed |
+| [[/Items/Spellbooks/spellbook of probe]] | 1 | Blessed |
+| [[/Items/ginseng root]] | 4 | |
+| [[/Items/mandrake root]] | 4 | |
+| [[/Items/clove of garlic]] | 2 | |
+| [[/Items/apple]] | 5 | Substituted with [[/Items/tin]] for [[/Races/Gnoll]] |
+| [[/Items/leather bag]] | 1 | |
+
+Additionally:
+- Starts with 1001-2000 gold pieces.
+- There is a 4.0% (1 in 25) chance to also start with: [[/Items/oil lamp]] (+1 enchantment)
+
 ## 📊 Skills
 
 ### ⚔️ Combat Skills

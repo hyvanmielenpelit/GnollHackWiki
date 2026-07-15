@@ -29,6 +29,29 @@
 | **Hit points ❤️** | 11 | +1d8 (avg. +4.5) |
 | **Mana 🔮** | 1d4+3 (avg. 5.5) | +1d3+1 (avg. +3) |
 
+## 🏁 Starting Items
+
+| Item | Quantity | Details |
+| :--- | :---: | :--- |
+| [[/Items/bullwhip]] | 1 | +3 enchantment |
+| [[/Items/leather jacket]] | 1 | +2 enchantment |
+| [[/Items/hand crossbow]] | 1 | |
+| [[/Items/crossbow bolt]] | 12-20 | Standard |
+| [[/Items/crossbow bolt]] | 6 | With lightning enchantment |
+| [[/Items/fedora]] | 1 | |
+| [[/Items/food ration]] | 1 | |
+| [[/Items/handful of nuts]] | 1 | |
+| [[/Items/pick-axe]] | 1 | +2 enchantment |
+| [[/Items/tinning kit]] | 1 | |
+| [[/Items/wand of digging]] | 1 | |
+| [[/Items/touchstone]] | 1 | |
+| [[/Items/backpack]] | 1 | |
+
+Additionally, there is a random chance to start with one of the following (mutually exclusive):
+- 10.0% chance: [[/Items/tin opener]]
+- 22.5% chance: [[/Items/oil lamp]] (+1 enchantment)
+- 6.75% chance: [[/Items/magic marker]]
+
 ## 📊 Skills
 
 ### ⚔️ Combat Skills
@@ -79,3 +102,5 @@
 | Skill | Starting Level | Maximum Level |
 | :--- | :---: | :---: |
 | [[/Skills/Digging]] | Skilled | Grand Master |
+
+- Dwarf Archaeologists have a 16.7% (1 in 6) chance to also start with a [[/Items/wand of ore detection]].

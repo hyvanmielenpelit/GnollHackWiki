@@ -39,6 +39,28 @@
 | **Hit points ❤️** | 12 | +1d8 (avg. +4.5) |
 | **Mana 🔮** | 1d4+4 (avg. 6.5) | +1d2+2 (avg. +3.5) |
 
+## 🏁 Starting Items
+
+| Item | Quantity | Details |
+| :--- | :---: | :--- |
+| [[/Items/leather gloves]] | 1 | +1 enchantment |
+| [[/Items/simple gown]] | 1 | +1 enchantment |
+| [[/Items/potion of healing]] | 3 | |
+| [[/Items/food ration]] | 1 | |
+| [[/Items/apple]] | 1 | |
+| [[/Items/orange]] | 1 | |
+| [[/Items/handful of nuts]] | 1 | |
+| [[/Items/Spellbooks/spellbook of minor healing]] | 1 | Blessed |
+| [[/Items/Spellbooks/spellbook of create food]] | 1 | Blessed |
+| [[/Items/fortune cookie]] | 3 | |
+| [[/Items/oriental silk sack]] | 1 | |
+
+Additionally, there is a random chance to start with one of the following (mutually exclusive):
+- 20.0% chance: [[/Items/magic marker]]
+- 8.0% chance: [[/Items/oil lamp]] (+1 enchantment)
+
+*(Note: Human is the only allowed race for Monks.)*
+
 ## 📊 Skills
 
 ### ⚔️ Combat Skills

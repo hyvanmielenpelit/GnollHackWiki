@@ -31,6 +31,19 @@
 | **Hit points ❤️** | 16 | +1d12 (avg. +6.5) |
 | **Mana 🔮** | 1d6+1 (avg. 4.5) | +1d2+1 (avg. +2.5) |
 
+## 🏁 Starting Items
+
+| Item | Quantity | Details |
+| :--- | :---: | :--- |
+| [[/Items/club]] | 1 | +3 enchantment; substituted with [[/Items/flail]] for [[/Races/Gnoll]] |
+| [[/Items/sling]] | 1 | +1 enchantment |
+| [[/Items/flint]] | 10-20 | Standard ammunition |
+| [[/Items/prayerstone]] | 1 | Blessed |
+| Random amulet | 1 | |
+| [[/Items/sack]] | 1 | |
+| [[/Items/food ration]] | 3 | Substituted with [[/Items/tripe ration]] for [[/Races/Gnoll]] |
+| [[/Items/leather armor]] | 1 | Substituted with [[/Items/gnollish leather armor]] for [[/Races/Gnoll]] |
+
 ## 📊 Skills
 
 ### ⚔️ Combat Skills
@@ -78,6 +91,8 @@
 | Skill | Starting Level | Maximum Level |
 | :--- | :---: | :---: |
 | [[/Skills/Digging]] | Basic | Grand Master |
+
+- Dwarf Cavemen have a 16.7% (1 in 6) chance to also start with a [[/Items/wand of ore detection]].
 
 ### 🐺 Gnoll
 

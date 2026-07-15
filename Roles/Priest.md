@@ -34,6 +34,37 @@
 | **Hit points ❤️** | 12 | +1d7 (avg. +4) |
 | **Mana 🔮** | 1d3+6 (avg. 8) | +1d3+2 (avg. +4) |
 
+## 🏁 Starting Items
+
+| Item | Quantity | Details |
+| :--- | :---: | :--- |
+| [[/Items/banded mail]] | 1 | Blessed; substituted with [[/Items/gnollish bone mail]] for [[/Races/Gnoll]] |
+| [[/Items/clerical gown]] | 1 | Blessed; substituted with [[/Items/gnollish haircloth robe]] for [[/Races/Gnoll]] |
+| [[/Items/holy symbol]] | 1 | |
+| [[/Items/potion of water]] | 4 | Blessed (holy water) |
+| [[/Items/clove of garlic]] | 1 | |
+| [[/Items/sprig of wolfsbane]] | 1 | |
+| [[/Items/ginseng root]] | 2 | |
+| [[/Items/Spellbooks/spellbook of minor healing]] | 1 | Blessed |
+| [[/Items/Spellbooks/spellbook of healing]] | 1 | Blessed |
+| [[/Items/Spellbooks/spellbook of congregate]] | 1 | Blessed |
+| Random spellbook | 2 | Neutral/uncursed |
+| [[/Items/leather bag]] | 1 | |
+| [[/Items/mace]] | 1 | +3 enchantment; 12.5% (1 in 8) chance to be of silver material (silver mace, substituted with silver flail for [[/Races/Gnoll]]); otherwise standard material (substituted with [[/Items/flail]] for [[/Races/Gnoll]]) |
+| [[/Items/Spellbooks/spellbook of summon celestial dove]] | 1 | Standard for Lawful starting alignment |
+| [[/Items/Spellbooks/spellbook of stick to snake]] | 1 | Standard for Neutral starting alignment |
+| [[/Items/Spellbooks/spellbook of raise minor zombie]] | 1 | Standard for Chaotic starting alignment |
+| [[/Items/spiked shield]] | 1 | 10.0% chance to start with this shield (+0, silver material, blessed); otherwise starts with a small shield |
+| [[/Items/small shield]] | 1 | 90.0% chance to start with this shield (+0, blessed) |
+
+Additionally, there are random chances to start with:
+- 8.3% (1 in 12) chance: [[/Items/gauntlets]] (+0, silver material, blessed)
+- 10.0% chance: [[/Items/magic marker]]
+- 9.0% chance: [[/Items/oil lamp]] (+1 enchantment)
+
+**Racial Variations:**
+- [[/Races/Elf]] Priests also start with a random musical instrument (e.g. [[/Items/wooden flute]], [[/Items/brass horn]], [[/Items/wooden harp]], [[/Items/bell]], [[/Items/bugle]], or [[/Items/leather drum]]).
+
 ## 📊 Skills
 
 ### ⚔️ Combat Skills

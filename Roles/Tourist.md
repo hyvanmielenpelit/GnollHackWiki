@@ -33,6 +33,36 @@
 | **Hit points ❤️** | 12 | +1d6 (avg. +3.5) |
 | **Mana 🔮** | 1d4+3 (avg. 5.5) | +1d3+1 (avg. +3) |
 
+## 🏁 Starting Items
+
+| Item | Quantity | Details |
+| :--- | :---: | :--- |
+| [[/Items/dart]] | 20-40 | +3 enchantment |
+| [[/Items/golf club]] | 1 | +3 enchantment |
+| [[/Items/potion of extra-healing]] | 2 | |
+| [[/Items/scroll of magic mapping]] | 4 | |
+| [[/Items/Hawaiian shirt]] | 1 | +2 enchantment |
+| [[/Items/leather sandals]] | 1 | |
+| [[/Items/expensive camera]] | 1 | |
+| [[/Items/wand of teleportation]] | 1 | |
+| [[/Items/ring of teleport control]] | 1 | |
+| [[/Items/credit card]] | 1 | |
+| [[/Items/sunglasses]] | 1 | |
+| Random food items | 10 | Standard food items |
+| [[/Items/leather bag]] | 1 | Male tourists only |
+| [[/Items/expensive watch]] | 1 | Male tourists only |
+| [[/Items/expensive handbag]] | 1 | Female tourists only |
+| [[/Items/golden earrings]] | 1 | Female tourists only |
+
+Additionally:
+- Starts with 301-1000 gold pieces.
+- There is a chance to start with one of the following extra items (mutually exclusive):
+  - 4.0% chance: [[/Items/tin opener]]
+  - 3.84% chance: [[/Items/leash]]
+  - 3.69% chance: [[/Items/magic marker]]
+
+*(Note: Human is the only allowed race for Tourists.)*
+
 ## 📊 Skills
 
 ### ⚔️ Combat Skills
