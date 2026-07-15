@@ -27,7 +27,7 @@ GnollHack is best understood as a modernized version of NetHack that makes the c
 - **[[Overview]]** — Main introduction to GnollHack
 - **[[Screenshots]]** — GnollHack screenshots from various platforms 
 - **[[User Reviews]]** — A curated list of GnollHack user reviews
-- **[[Comparison to Other Games]]** — Find out how GnollHack compares to other games and NetHack variants
+- **[[Comparisons to Other Games]]** — Find out how GnollHack compares to NetHack, NetHack variants, and other roguelike games
 - **[[Age Ratings]]** — GnollHack's age ratings in various regions
 
 ## 🏁 Getting Started
