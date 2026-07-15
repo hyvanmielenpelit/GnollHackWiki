@@ -32,7 +32,7 @@
 
 | Feature | NetHack 5.0 | GnollHack 3 |
 | :--- | :--- | :--- |
-| **The Economy** | ❌ Gold has very limited uses. | 💰 Gold is highly valuable. Used to pay NPCs to identify items, heal the player, or provide services. |
+| **The Economy** | 🪙 Gold has very limited uses. | 💰 Gold is highly valuable. Used to pay NPCs to identify items, heal the player, or provide services. |
 | **Item Loot & Gear** | 🗡️ Standard item list. Basic enchantments (+1, +2, etc.). | 💎 ARPG-style loot. Weapons spawn with quality tiers (Exceptional, Elite, Celestial) and Mythic/Legendary affixes. |
 | **Equipment Slots** | 👕 Traditional slots (Armor, Cloak, Shield, Helm, Gloves, Boots). | 🧥 22 slots. Adds dedicated slots for robes (worn over armor), bracers, and five miscellaneous items. |
 | **Magic System** | 🧠 Memorization (spells are forgotten over time). | 🔮 Reagent-based. Over 200 spells are prepared by mixing ingredients; features armor penalties and cooldowns. |
