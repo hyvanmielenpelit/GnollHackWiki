@@ -51,12 +51,12 @@ Powerful spell caster who can specialize in many spell schools.
 
 ### Weapon Skills 
 
-| Skill | Starting Level | Maximum Level |
-| :--- | :---: | :---: |
-| [[/Skills/Dagger]] | Unskilled | Expert |
-| [[/Skills/Quarterstaff]] | Unskilled | Expert |
-| [[/Skills/Sword]] | Unskilled | Basic |
-| [[/Skills/Thrown weapon]] | Unskilled | Skilled |
+| Skill | Starting Level | Maximum Level | Notes |
+| :--- | :---: | :---: | :--- |
+| [[/Skills/Dagger]] | Unskilled | Expert | |
+| [[/Skills/Quarterstaff]] | Basic | Expert | Starts at Basic due to starting with a [[/Items/quarterstaff]] or [[/Items/staff of fire]]. |
+| [[/Skills/Sword]] | Unskilled | Basic | |
+| [[/Skills/Thrown weapon]] | Unskilled | Skilled | |
 
 ### Spell Casting Skills 
 

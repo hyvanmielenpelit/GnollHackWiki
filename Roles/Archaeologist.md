@@ -76,10 +76,10 @@ Lightly equipped explorer. The archaeologist starts with a touchstone, which can
 
 ### Miscellaneous Skills                                 
 
-| Skill | Starting Level | Maximum Level |
-| :--- | :---: | :---: |
-| [[/Skills/Digging]] | Unskilled | Grand Master |
-| [[/Skills/Disarm trap]] | Unskilled | Master |
+| Skill | Starting Level | Maximum Level | Notes |
+| :--- | :---: | :---: | :--- |
+| [[/Skills/Digging]] | Basic | Grand Master | Starts at Basic due to starting with a [[/Items/pick-axe]]. |
+| [[/Skills/Disarm trap]] | Unskilled | Master | |
 
 ## Racial Adjustments
 

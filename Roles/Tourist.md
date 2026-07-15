@@ -55,21 +55,21 @@ Versatile traveller that can specialize in almost every combat and magic skill.
 
 ### Weapon Skills 
 
-| Skill | Starting Level | Maximum Level |
-| :--- | :---: | :---: |
-| [[/Skills/Axe]] | Unskilled | Expert |
-| [[/Skills/Bludgeoning weapon]] | Unskilled | Master |
-| [[/Skills/Bow]] | Unskilled | Expert |
-| [[/Skills/Crossbow]] | Unskilled | Expert |
-| [[/Skills/Dagger]] | Unskilled | Expert |
-| [[/Skills/Flail]] | Unskilled | Expert |
-| [[/Skills/Polearm]] | Unskilled | Expert |
-| [[/Skills/Quarterstaff]] | Unskilled | Expert |
-| [[/Skills/Sling]] | Unskilled | Expert |
-| [[/Skills/Sword]] | Unskilled | Expert |
-| [[/Skills/Thrown weapon]] | Basic | Grand Master |
-| [[/Skills/Thrusting weapon]] | Unskilled | Expert |
-| [[/Skills/Whip]] | Unskilled | Expert |
+| Skill | Starting Level | Maximum Level | Notes |
+| :--- | :---: | :---: | :--- |
+| [[/Skills/Axe]] | Unskilled | Expert | |
+| [[/Skills/Bludgeoning weapon]] | Basic | Master | Starts at Basic due to starting with a [[/Items/golf club]]. |
+| [[/Skills/Bow]] | Unskilled | Expert | |
+| [[/Skills/Crossbow]] | Unskilled | Expert | |
+| [[/Skills/Dagger]] | Unskilled | Expert | |
+| [[/Skills/Flail]] | Unskilled | Expert | |
+| [[/Skills/Polearm]] | Unskilled | Expert | |
+| [[/Skills/Quarterstaff]] | Unskilled | Expert | |
+| [[/Skills/Sling]] | Unskilled | Expert | |
+| [[/Skills/Sword]] | Unskilled | Expert | |
+| [[/Skills/Thrown weapon]] | Basic | Grand Master | |
+| [[/Skills/Thrusting weapon]] | Unskilled | Expert | |
+| [[/Skills/Whip]] | Unskilled | Expert | |
 
 ### Spell Casting Skills 
 

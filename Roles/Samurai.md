@@ -54,17 +54,17 @@ Strong Japanese warrior adept at both melee and ranged combat. Some item names s
 
 ### Weapon Skills 
 
-| Skill | Starting Level | Maximum Level |
-| :--- | :---: | :---: |
-| [[/Skills/Bow]] | Unskilled | Grand Master |
-| [[/Skills/Crossbow]] | Unskilled | Expert |
-| [[/Skills/Dagger]] | Unskilled | Expert |
-| [[/Skills/Flail]] | Unskilled | Grand Master |
-| [[/Skills/Polearm]] | Basic | Grand Master |
-| [[/Skills/Quarterstaff]] | Basic | Grand Master |
-| [[/Skills/Sword]] | Basic | Grand Master |
-| [[/Skills/Thrown weapon]] | Basic | Expert |
-| [[/Skills/Thrusting weapon]] | Unskilled | Grand Master |
+| Skill | Starting Level | Maximum Level | Notes |
+| :--- | :---: | :---: | :--- |
+| [[/Skills/Bow]] | Basic | Grand Master | Starts at Basic due to starting with a [[/Items/yumi]]. |
+| [[/Skills/Crossbow]] | Unskilled | Expert | |
+| [[/Skills/Dagger]] | Unskilled | Expert | |
+| [[/Skills/Flail]] | Unskilled | Grand Master | |
+| [[/Skills/Polearm]] | Basic | Grand Master | |
+| [[/Skills/Quarterstaff]] | Basic | Grand Master | |
+| [[/Skills/Sword]] | Basic | Grand Master | |
+| [[/Skills/Thrown weapon]] | Basic | Expert | |
+| [[/Skills/Thrusting weapon]] | Unskilled | Grand Master | |
 
 ### Miscellaneous Skills 
 
