@@ -53,6 +53,6 @@ If you already have a few ascensions under your belt in NetHack, NetHack 5.0 wil
 
 ## 💡 Conclusions
 
-**Play NetHack 5.0 if:** You want the quintessential, brutal, classic ASCII roguelike experience. It is the definitive update to the traditional formula, perfect for purists who enjoy meticulous resource management and a steep, unforgiving learning curve.
+📜 **Play NetHack 5.0 if:** You want the quintessential, brutal, classic ASCII roguelike experience. It is the definitive update to the traditional formula, perfect for purists who enjoy meticulous resource management and a steep, unforgiving learning curve.
 
-**Play GnollHack 3 if:** You want a deeply tactical, modern RPG experience with beautiful graphics, music, and voice acting. It massively improves the gameplay experience by introducing ARPG-style loot, [[seven difficulty levels|Difficulty Levels]], and a vast new spell system.
+🕹️ **Play GnollHack 3 if:** You want a deeply tactical, modern RPG experience with beautiful graphics, music, and voice acting. It massively improves the gameplay experience by introducing ARPG-style loot, seven difficulty levels, and a vast new spell system.
