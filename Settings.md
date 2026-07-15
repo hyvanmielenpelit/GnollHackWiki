@@ -14,6 +14,7 @@
 | **Screen Resolution** | Multiple resolutions | Native | *(Windows only)* Determines the rendering resolution of the game map. |
 | **Screen Scale** | Percentage | 100% | Custom scale to make UI components larger or smaller than normal. |
 | **Windowed Mode** | On / Off | Off | *(Desktop only)* Determines if the game runs in windowed or fullscreen mode. |
+| **Edge to Edge** | On / Off | Off | *(Mobile only)* Determines whether the game expands to cover the safe area of the screen (such as screen cutouts or notches). |
 | **Cursor Style** | Green Block / Underline | Green Block | *(ASCII graphics only)* Determines the way how the player character is indicated in the game. |
 | **Hide Navigation** | On / Off | On | *(Android only)* Determines whether to hide the operating system navigation buttons in the bottom of the screen. |
 | **Hide Status Bar** | On / Off | On | *(iOS only)* Determines if the top status bar of the operating system is hidden. |
@@ -102,6 +103,7 @@
 | Setting Name | Options / Values | Default | Description |
 | :----------- | :--------------: | :-----: | :---------- |
 | **Lighter Unlit Areas** | On / Off | On | **Off:** Unlit areas are darker.<br>**On:** Unlit areas are lighter. |
+| **Colored X-Ray Vision** | On / Off | On | Determines whether tiles and creatures seen through X-Ray Vision are highlighted with a semi-transparent blue overlay tint. |
 | **Draw Wall Ends** | On / Off | On | Determines if the game draws wall end graphics. Can be disabled to save processor time. |
 | **Breathing Animations** | On / Off | On | Determines if the game shows the breathing animations of various creatures. |
 
