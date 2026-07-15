@@ -43,44 +43,54 @@ Strong warrior that starts with a club, a sling, and a [[/Monsters/saber-tooth t
 
 ## Skills
 
-Starting skills / Maximum skill levels for Lawful Human Caveman. 
-
 ### Combat Skills                                    
 
-* [[/Skills/Bare-handed combat]]: Basic/Master      
-* [[/Skills/Dodge]]: Unskilled/Master
-* [[/Skills/Shield]]: Unskilled/Expert
-* [[/Skills/Two-handed weapon]]: Unskilled/Grand Master
-* [[/Skills/Wand]]: Unskilled/Expert      
+| Skill | Starting Level | Maximum Level |
+| :--- | :---: | :---: |
+| [[/Skills/Bare-handed combat]] | Basic | Master |
+| [[/Skills/Dodge]] | Unskilled | Master |
+| [[/Skills/Shield]] | Unskilled | Expert |
+| [[/Skills/Two-handed weapon]] | Unskilled | Grand Master |
+| [[/Skills/Wand]] | Unskilled | Expert |
 
 ### Weapon Skills                                    
 
-* [[/Skills/Axe]]: Unskilled/Expert      
-* [[/Skills/Bludgeoning weapon]]: Skilled/Grand Master
-* [[/Skills/Bow]]: Unskilled/Skilled
-* [[/Skills/Dagger]]: Unskilled/Expert      
-* [[/Skills/Flail]]: Unskilled/Grand Master
-* [[/Skills/Polearm]]: Unskilled/Basic       
-* [[/Skills/Quarterstaff]]: Basic/Grand Master
-* [[/Skills/Sling]]: Basic/Grand Master
-* [[/Skills/Thrown weapon]]: Basic/Master      
-* [[/Skills/Thrusting weapon]]: Basic/Grand Master
+| Skill | Starting Level | Maximum Level |
+| :--- | :---: | :---: |
+| [[/Skills/Axe]] | Unskilled | Expert |
+| [[/Skills/Bludgeoning weapon]] | Skilled | Grand Master |
+| [[/Skills/Bow]] | Unskilled | Skilled |
+| [[/Skills/Dagger]] | Unskilled | Expert |
+| [[/Skills/Flail]] | Unskilled | Grand Master |
+| [[/Skills/Polearm]] | Unskilled | Basic |
+| [[/Skills/Quarterstaff]] | Basic | Grand Master |
+| [[/Skills/Sling]] | Basic | Grand Master |
+| [[/Skills/Thrown weapon]] | Basic | Grand Master |
+| [[/Skills/Thrusting weapon]] | Basic | Grand Master |
 
 ### Spell Casting Skills                             
 
-* [[/Skills/Nature spell]]: Basic/Master
+| Skill | Starting Level | Maximum Level |
+| :--- | :---: | :---: |
+| [[/Skills/Nature spell]] | Basic | Master |
 
 ### Miscellaneous Skills                                
 
-* [[/Skills/Digging]]: Unskilled/Master
-* [[/Skills/Disarm trap]]: Unskilled/Basic       
+| Skill | Starting Level | Maximum Level |
+| :--- | :---: | :---: |
+| [[/Skills/Digging]] | Unskilled | Master |
+| [[/Skills/Disarm trap]] | Unskilled | Basic |
 
 ## Racial Adjustments
 
 ### Dwarf
 
-- [[/Skills/Digging]]: Basic/Grand Master
+| Skill | Starting Level | Maximum Level |
+| :--- | :---: | :---: |
+| [[/Skills/Digging]] | Basic | Grand Master |
 
 ### Gnoll
 
-- [[/Skills/Flail]]: Unskilled/Grand Master
+| Skill | Starting Level | Maximum Level |
+| :--- | :---: | :---: |
+| [[/Skills/Flail]] | Unskilled | Grand Master |

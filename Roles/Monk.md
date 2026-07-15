@@ -50,29 +50,35 @@ Martial artist, adept at several spells.
 
 ## Skills
 
-Starting skills / Maximum skill levels for Neutral Human Monk. 
-
 ### Combat Skills   
 
-* [[/Skills/Bare-handed combat]]: Expert/Grand Master
-* [[/Skills/Dodge]]: Unskilled/Grand Master
-* [[/Skills/Martial arts]]: Unskilled/Grand Master
-* [[/Skills/Wand]]: Unskilled/Skilled 
+| Skill | Starting Level | Maximum Level |
+| :--- | :---: | :---: |
+| [[/Skills/Bare-handed combat]] | Expert | Grand Master |
+| [[/Skills/Dodge]] | Unskilled | Grand Master |
+| [[/Skills/Martial arts]] | Unskilled | Grand Master |
+| [[/Skills/Wand]] | Unskilled | Skilled |
 
 ### Weapon Skills   
 
-* [[/Skills/Quarterstaff]]: Unskilled/Expert 
-* [[/Skills/Sling]]: Unskilled/Expert 
-* [[/Skills/Thrown weapon]]: Unskilled/Expert 
+| Skill | Starting Level | Maximum Level |
+| :--- | :---: | :---: |
+| [[/Skills/Quarterstaff]] | Unskilled | Expert |
+| [[/Skills/Sling]] | Unskilled | Expert |
+| [[/Skills/Thrown weapon]] | Unskilled | Grand Master |
 
 ### Spell Casting Skills  
 
-* [[/Skills/Abjuration spell]]: Basic/Grand Master
-* [[/Skills/Clerical spell]]: Unskilled/Grand Master
-* [[/Skills/Divination spell]]: Unskilled/Grand Master
-* [[/Skills/Healing spell]]: Unskilled/Grand Master
-* [[/Skills/Movement spell]]: Basic/Grand Master
+| Skill | Starting Level | Maximum Level |
+| :--- | :---: | :---: |
+| [[/Skills/Abjuration spell]] | Basic | Grand Master |
+| [[/Skills/Clerical spell]] | Unskilled | Grand Master |
+| [[/Skills/Divination spell]] | Unskilled | Grand Master |
+| [[/Skills/Healing spell]] | Unskilled | Grand Master |
+| [[/Skills/Movement spell]] | Basic | Grand Master |
 
 ### Miscellaneous Skills
 
-* [[/Skills/Disarm trap]]: Unskilled/Basic
+| Skill | Starting Level | Maximum Level |
+| :--- | :---: | :---: |
+| [[/Skills/Disarm trap]] | Unskilled | Basic |

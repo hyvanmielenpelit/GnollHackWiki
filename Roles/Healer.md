@@ -40,30 +40,44 @@ Rich physician, adept at healing spells.
 
 ## Skills
 
-Starting skills / Maximum skill levels for Neutral Human Healer. 
-
 ### Combat Skills                                    
 
-* [[/Skills/Bare-handed combat]]:  Basic/Basic       
-* [[/Skills/Dodge]]: Unskilled/Skilled
-* [[/Skills/Wand]]: Basic/Master
+| Skill | Starting Level | Maximum Level |
+| :--- | :---: | :---: |
+| [[/Skills/Bare-handed combat]] | Unskilled | Basic |
+| [[/Skills/Dodge]] | Unskilled | Skilled |
+| [[/Skills/Wand]] | Basic | Master |
 
 ### Weapon Skills                                    
 
-* [[/Skills/Bludgeoning weapon]]: Unskilled/Skilled
-* [[/Skills/Dagger]]: Skilled/Grand Master
-* [[/Skills/Quarterstaff]]: Basic/Grand Master
-* [[/Skills/Sling]]: Unskilled/Skilled
-* [[/Skills/Sword]]: Unskilled/Skilled
-* [[/Skills/Thrown weapon]]: Unskilled/Expert
+| Skill | Starting Level | Maximum Level |
+| :--- | :---: | :---: |
+| [[/Skills/Bludgeoning weapon]] | Unskilled | Skilled |
+| [[/Skills/Dagger]] | Skilled | Grand Master |
+| [[/Skills/Quarterstaff]] | Basic | Grand Master |
+| [[/Skills/Sling]] | Unskilled | Skilled |
+| [[/Skills/Sword]] | Unskilled | Skilled |
+| [[/Skills/Thrown weapon]] | Unskilled | Skilled |
 
 ### Spell Casting Skills                             
 
-* [[/Skills/Abjuration spell]]: Basic/Grand Master
-* [[/Skills/Divination spell]]: Basic/Grand Master
-* [[/Skills/Enchantment spell]]: Basic/Grand Master
-* [[/Skills/Healing spell]]: Skilled/Grand Master
+| Skill | Starting Level | Maximum Level |
+| :--- | :---: | :---: |
+| [[/Skills/Abjuration spell]] | Basic | Grand Master |
+| [[/Skills/Divination spell]] | Basic | Grand Master |
+| [[/Skills/Enchantment spell]] | Basic | Grand Master |
+| [[/Skills/Healing spell]] | Skilled | Grand Master |
 
 ### Miscellaneous Skills                                
 
-* [[/Skills/Disarm trap]]: Unskilled/Skilled
+| Skill | Starting Level | Maximum Level |
+| :--- | :---: | :---: |
+| [[/Skills/Disarm trap]] | Unskilled | Skilled |
+
+## Racial Adjustments
+
+### Gnoll
+
+| Skill | Starting Level | Maximum Level |
+| :--- | :---: | :---: |
+| [[/Skills/Flail]] | Unskilled | Skilled |

@@ -41,40 +41,48 @@ Versatile warrior, adept at melee and ranged combat and at disarming traps.
 
 ## Skills
 
-Starting skills / Maximum skill levels for Chaotic Human Rogue. 
-
 ### Combat Skills 
 
-- [[/Skills/Bare-handed combat]]: Unskilled/Master 
-- [[/Skills/Dodge]]: Unskilled/Grand Master
-- [[/Skills/Dual wielding]]: Unskilled/Master 
-- [[/Skills/Shield]]: Unskilled/Skilled
-- [[/Skills/Wand]]: Unskilled/Expert
+| Skill | Starting Level | Maximum Level |
+| :--- | :---: | :---: |
+| [[/Skills/Bare-handed combat]] | Unskilled | Master |
+| [[/Skills/Dodge]] | Unskilled | Grand Master |
+| [[/Skills/Dual wielding]] | Unskilled | Master |
+| [[/Skills/Shield]] | Unskilled | Skilled |
+| [[/Skills/Wand]] | Unskilled | Expert |
 
 ### Weapon Skills 
 
-- [[/Skills/Bludgeoning weapon]]: Unskilled/Expert 
-- [[/Skills/Bow]]: Unskilled/Master
-- [[/Skills/Crossbow]]: Basic/Master
-- [[/Skills/Dagger]]: Basic/Grand Master
-- [[/Skills/Flail]]: Unskilled/Expert
-- [[/Skills/Sling]]: Unskilled/Master
-- [[/Skills/Sword]]: Basic/Master
-- [[/Skills/Thrown weapon]]: Basic/Master
+| Skill | Starting Level | Maximum Level |
+| :--- | :---: | :---: |
+| [[/Skills/Bludgeoning weapon]] | Unskilled | Expert |
+| [[/Skills/Bow]] | Unskilled | Master |
+| [[/Skills/Crossbow]] | Basic | Master |
+| [[/Skills/Dagger]] | Basic | Grand Master |
+| [[/Skills/Flail]] | Unskilled | Expert |
+| [[/Skills/Sling]] | Unskilled | Master |
+| [[/Skills/Sword]] | Basic | Master |
+| [[/Skills/Thrown weapon]] | Basic | Grand Master |
 
 ### Spell Casting Skills 
 
-- [[/Skills/Divination spell]]: Unskilled/Skilled
-- [[/Skills/Movement spell]]: Unskilled/Skilled
-- [[/Skills/Transmutation spell]]: Unskilled/Skilled
+| Skill | Starting Level | Maximum Level |
+| :--- | :---: | :---: |
+| [[/Skills/Divination spell]] | Unskilled | Skilled |
+| [[/Skills/Movement spell]] | Unskilled | Skilled |
+| [[/Skills/Transmutation spell]] | Unskilled | Skilled |
 
 ### Miscellaneous Skills 
 
-- [[/Skills/Disarm trap]]: Basic/Grand Master
-- [[/Skills/Riding]]: Unskilled/Skilled
+| Skill | Starting Level | Maximum Level |
+| :--- | :---: | :---: |
+| [[/Skills/Disarm trap]] | Basic | Grand Master |
+| [[/Skills/Riding]] | Unskilled | Skilled |
 
 ## Racial Adjustments
 
 ### Gnoll
 
-- [[/Skills/Flail]]: Unskilled/Master
+| Skill | Starting Level | Maximum Level |
+| :--- | :---: | :---: |
+| [[/Skills/Flail]] | Unskilled | Master |

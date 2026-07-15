@@ -41,32 +41,46 @@ Powerful spell caster who can specialize in many spell schools.
 
 ## Skills
 
-Starting skills / Maximum skill levels for Chaotic Human Wizard. 
-
 ### Combat Skills 
 
-- [[/Skills/Bare-handed combat]]: Unskilled/Basic 
-- [[/Skills/Dodge]]: Unskilled/Expert
-- [[/Skills/Wand]]: Basic/Grand Master
+| Skill | Starting Level | Maximum Level |
+| :--- | :---: | :---: |
+| [[/Skills/Bare-handed combat]] | Unskilled | Basic |
+| [[/Skills/Dodge]] | Unskilled | Expert |
+| [[/Skills/Wand]] | Basic | Grand Master |
 
 ### Weapon Skills 
 
-- [[/Skills/Dagger]]: Unskilled/Expert 
-- [[/Skills/Quarterstaff]]: Basic/Expert 
-- [[/Skills/Sword]]: Unskilled/Basic
-- [[/Skills/Thrown weapon]]: Unskilled/Skilled 
+| Skill | Starting Level | Maximum Level |
+| :--- | :---: | :---: |
+| [[/Skills/Dagger]] | Unskilled | Expert |
+| [[/Skills/Quarterstaff]] | Unskilled | Expert |
+| [[/Skills/Sword]] | Unskilled | Basic |
+| [[/Skills/Thrown weapon]] | Unskilled | Skilled |
 
 ### Spell Casting Skills 
 
-- [[/Skills/Abjuration spell]]: Unskilled/Expert
-- [[/Skills/Arcane spell]]: Basic/Grand Master
-- [[/Skills/Conjuration spell]]: Unskilled/Grand Master
-- [[/Skills/Divination spell]]: Unskilled/Expert
-- [[/Skills/Enchantment spell]]: Basic/Grand Master
-- [[/Skills/Movement spell]]: Unskilled/Grand Master
-- [[/Skills/Transmutation spell]]: Basic/Grand Master
+| Skill | Starting Level | Maximum Level |
+| :--- | :---: | :---: |
+| [[/Skills/Abjuration spell]] | Unskilled | Expert |
+| [[/Skills/Arcane spell]] | Basic | Grand Master |
+| [[/Skills/Conjuration spell]] | Unskilled | Grand Master |
+| [[/Skills/Divination spell]] | Unskilled | Expert |
+| [[/Skills/Enchantment spell]] | Basic | Grand Master |
+| [[/Skills/Movement spell]] | Unskilled | Grand Master |
+| [[/Skills/Transmutation spell]] | Basic | Grand Master |
 
 ### Miscellaneous Skills
 
-- [[/Skills/Disarm trap]]: Unskilled/Basic
-- [[/Skills/Riding]]: Unskilled/Basic
+| Skill | Starting Level | Maximum Level |
+| :--- | :---: | :---: |
+| [[/Skills/Disarm trap]] | Unskilled | Basic |
+| [[/Skills/Riding]] | Unskilled | Basic |
+
+## Racial Adjustments
+
+### Gnoll
+
+| Skill | Starting Level | Maximum Level |
+| :--- | :---: | :---: |
+| [[/Skills/Flail]] | Unskilled | Skilled |

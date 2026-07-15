@@ -44,42 +44,51 @@ Heavely armored melee warrior, adept at riding.
 
 ## Skills
 
-Starting skills / Maximum skill levels for Lawful Human Knight. 
-
 ### Combat Skills                                    
 
-* [[/Skills/Bare-handed combat]]: Basic/Expert
-* [[/Skills/Dodge]]: Unskilled/Master
-* [[/Skills/Shield]]: Basic/Grand Master
-* [[/Skills/Two-handed weapon]]: Unskilled/Grand Master
-* [[/Skills/Wand]]: Unskilled/Basic       
+| Skill | Starting Level | Maximum Level |
+| :--- | :---: | :---: |
+| [[/Skills/Bare-handed combat]] | Unskilled | Expert |
+| [[/Skills/Dodge]] | Unskilled | Master |
+| [[/Skills/Shield]] | Basic | Grand Master |
+| [[/Skills/Two-handed weapon]] | Unskilled | Grand Master |
+| [[/Skills/Wand]] | Unskilled | Basic |
 
 ### Weapon Skills                                    
 
-* [[/Skills/Axe]]: Unskilled/Master      
-* [[/Skills/Bludgeoning weapon]]: Unskilled/Master      
-* [[/Skills/Bow]]: Unskilled/Expert      
-* [[/Skills/Crossbow]]: Unskilled/Expert      
-* [[/Skills/Dagger]]: Unskilled/Expert
-* [[/Skills/Flail]]: Unskilled/Grand Master
-* [[/Skills/Polearm]]: Unskilled/Grand Master
-* [[/Skills/Sword]]: Basic/Grand Master
-* [[/Skills/Thrusting weapon]]: Basic/Grand Master
+| Skill | Starting Level | Maximum Level |
+| :--- | :---: | :---: |
+| [[/Skills/Axe]] | Unskilled | Master |
+| [[/Skills/Bludgeoning weapon]] | Unskilled | Master |
+| [[/Skills/Bow]] | Unskilled | Expert |
+| [[/Skills/Crossbow]] | Unskilled | Expert |
+| [[/Skills/Dagger]] | Unskilled | Expert |
+| [[/Skills/Flail]] | Unskilled | Grand Master |
+| [[/Skills/Polearm]] | Unskilled | Grand Master |
+| [[/Skills/Sword]] | Basic | Grand Master |
+| [[/Skills/Thrown weapon]] | Unskilled | Expert |
+| [[/Skills/Thrusting weapon]] | Basic | Grand Master |
 
 ### Spell Casting Skills                             
 
-* [[/Skills/Abjuration spell]]: Unskilled/Skilled     
-* [[/Skills/Celestial spell]]: Unskilled/Skilled     
-* [[/Skills/Clerical spell]]: Unskilled/Skilled     
-* [[/Skills/Healing spell]]: Unskilled/Skilled     
+| Skill | Starting Level | Maximum Level |
+| :--- | :---: | :---: |
+| [[/Skills/Abjuration spell]] | Unskilled | Skilled |
+| [[/Skills/Celestial spell]] | Unskilled | Skilled |
+| [[/Skills/Clerical spell]] | Unskilled | Skilled |
+| [[/Skills/Healing spell]] | Unskilled | Skilled |
 
 ### Miscellaneous Skills                                
 
-* [[/Skills/Disarm trap]]: Unskilled/Basic       
-* [[/Skills/Riding]]: Basic/Grand Master
+| Skill | Starting Level | Maximum Level |
+| :--- | :---: | :---: |
+| [[/Skills/Disarm trap]] | Unskilled | Basic |
+| [[/Skills/Riding]] | Basic | Grand Master |
 
 ## Racial Adjustments
 
 ### Dwarf
 
-- [[/Skills/Digging]]: Unskilled/Grand Master
+| Skill | Starting Level | Maximum Level |
+| :--- | :---: | :---: |
+| [[/Skills/Digging]] | Unskilled | Grand Master |
