@@ -1,4 +1,4 @@
-![Knight](/uploads/Roles/Knight/knight.webp)
+![Knight](/uploads/Roles/Knight/knight-q85.webp)
 
 > 👉 **The Knight is a heavily armored melee warrior who starts with a horse and excels at riding and combat.**
 
