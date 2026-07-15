@@ -1,4 +1,4 @@
-![Orc](/uploads/Races/Orc/orc.webp)
+![Orc](/uploads/Races/Orc/orc-q85.webp)
 
 > 👉 **Orcs are physically robust combatants who start with infravision and poison resistance, practice cannibalism without penalty, but have reduced mental capacities.**
 
