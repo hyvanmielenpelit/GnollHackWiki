@@ -1,4 +1,4 @@
-![Wizard](/uploads/Roles/Wizard/wizard.webp)
+![Wizard](/uploads/Roles/Wizard/wizard-q85.webp)
 
 > 👉 **The Wizard is a powerful spell caster who starts with several magical items and is capable of mastering various spell schools.**
 
