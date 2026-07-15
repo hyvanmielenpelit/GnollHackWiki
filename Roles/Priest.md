@@ -1,4 +1,4 @@
-![Priest](/uploads/Roles/Priest/priest.webp)
+![Priestess](/uploads/Roles/Priest/priestess-q85.webp)
 
 > 👉 **The Priest (or Priestess) is an armored clerical spell caster who perceives the beatitude of items and can pray frequently.**
 
