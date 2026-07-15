@@ -12,11 +12,11 @@
 
 | Topic | NetHack 5.0 | GnollHack 3 |
 | :--- | :--- | :--- |
-| **Core Philosophy** | An uncompromising fantasy simulation that prioritizes mechanical depth, player discovery, and high-stakes survival. | A modern reimagining that lowers the barrier to entry by blending classic roguelike systems with contemporary RPG design and rich presentation. |
-| **Target Audience** | Purists, veterans, and fans of classic ASCII/keyboard-driven gaming. | Beginners, mobile gamers, and players seeking a fresh, audiovisual tactical experience. |
+| **Core Philosophy** | 📖 An uncompromising fantasy simulation that prioritizes mechanical depth, player discovery, and high-stakes survival. | ✨ A modern reimagining that lowers the barrier to entry by blending classic roguelike systems with contemporary RPG design and rich presentation. |
+| **Target Audience** | 🎖️ Purists, veterans, and fans of classic ASCII/keyboard-driven gaming. | 📱 Beginners, mobile gamers, and players seeking a fresh, audiovisual tactical experience. |
 | **Key Selling Points** | • **The Ultimate Classic:** The definitive version of the legendary 1987 roguelike.<br />• **Brutal Challenge:** Unforgiving permadeath and complex mechanics.<br />• **Classic Feel, New Polish:** Flawless modern stability and long-requested features like a built-in tutorial. | • **Audiovisual Overhaul:** Real 2D animations, voiceovers, and a full musical score.<br />• **ARPG Loot System:** Mythic affixes, Elite weapon tiers, and 22 gear slots.<br />• **Accessibility:** 7 difficulty levels, optional permadeath, and streamlined UI. |
 | **Key Pain Points** | • **Archaic UI:** Requires memorizing dozens of obscure keyboard commands.<br />• **Spoiler Dependency:** Exact stats and mechanics are hidden; playing without external wikis is notoriously difficult.<br />• **Instant Deaths:** Features "unfair" instant deaths. | • **Inventory Management:** The massive amount of loot, 22 gear slots, and magic reagents can cause inventory fatigue.<br />• **System Complexity:** The deep mechanics can still be overwhelming to learn.<br />• **Grid-Based Pacing:** Despite modern graphics, it remains a methodical, turn-based grid game that may feel slow to action-roguelite fans. |
-| **Why Play in 2026?** | To play a historically significant masterpiece, modernized to run flawlessly today while preserving its hardcore 1980s ethos. | To enjoy the depth of a traditional roguelike wrapped in the presentation and quality-of-life standards of modern gaming. |
+| **Why Play in 2026?** | 📜 To play a historically significant masterpiece, modernized to run flawlessly today while preserving its hardcore 1980s ethos. | 🕹️ To enjoy the depth of a traditional roguelike wrapped in the presentation and quality-of-life standards of modern gaming. |
 
 ## ⚖️ High-Level Comparison
 
@@ -39,7 +39,7 @@
 | **Ranged Combat** | 🐢 Weapon swapping costs a turn. Firing at melee range is allowed without penalty. | 🏹 Instant weapon swapping (0 turns). Buffed ranged combat, but firing at adjacent enemies incurs a severe penalty. |
 | **Companions / Pets** | 🐾 Simple pet pathing; pets frequently get stuck or lost. | 🧠 Advanced pathfinding. Pets can be commanded to wear/drop gear and hold position. Includes hireable mercenaries. |
 
-## 🧙‍♂️ Details for NetHack Veterans
+## 🎖️ Details for NetHack Veterans
 
 If you already have a few ascensions under your belt in NetHack, NetHack 5.0 will feel like coming home. However, GnollHack 3 introduces major mechanical shifts that will challenge your muscle memory:
 
