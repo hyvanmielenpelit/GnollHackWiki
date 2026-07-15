@@ -141,6 +141,9 @@ When editing or creating headings for pages, always use appropriate Unicode icon
   - Tourist: `📸`
   - Valkyrie: `⚡`
   - Wizard: `🪄`
+- **Playable Races**:
+  - Gnome: `🧔`
+  - Gnoll: `🐺`
 - **Dungeon Exploration & Gameplay**:
   - Level / Map Structure: `🗺️`
   - Dungeon Branches: `🔀`
