@@ -1,4 +1,4 @@
-![Tourist](/uploads/Roles/Tourist/tourist.webp)
+![Tourist](/uploads/Roles/Tourist/tourist-q85.webp)
 
 > 👉 **The Tourist is a versatile traveler capable of specializing in almost any skill.**
 
