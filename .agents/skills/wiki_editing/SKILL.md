@@ -145,7 +145,7 @@ When editing or creating headings for pages, always use appropriate Unicode icon
   - Human: `🧑`
   - Dwarf: `⛏️`
   - Elf: `🧝`
-  - Gnome: `🧔`
+  - Gnome: `🧙`
   - Gnoll: `🐺`
   - Orc: `👹`
 - **Dungeon Exploration & Gameplay**:

@@ -49,7 +49,7 @@ If you already have a few ascensions under your belt in NetHack, NetHack 5.0 wil
 | **Instant Deaths** | ⏳ Deadly events like drowning can end your run instantly. | ⏱️ **Usually delayed.** You get several turns of grace to react and save yourself. |
 | **Boss Covetousness** | 🏃‍♂️ Bosses constantly teleport away to heal and may steal your quest artifact. | ⚔️ The frustrating teleportation mechanic is **removed from almost all monsters**. |
 | **Attribute Gains (Stats)** | 🏋️ Attributes increase slowly and semi-randomly through hidden "exercise" actions. | 🍎 Attributes increase **instantly** upon eating specific corpses or fruits. The exercise mechanic has been removed. |
-| **Playable Races** | 🧔 Gnomes are a playable race. | 🐺 Gnomes are replaced entirely by the playable **[[/Races/Gnoll]]** race, featuring unique stats, traits, and gear. |
+| **Playable Races** | 🧙 Gnomes are a playable race. | 🐺 Gnomes are replaced entirely by the playable **[[/Races/Gnoll]]** race, featuring unique stats, traits, and gear. |
 
 ## 💡 Conclusions
 
