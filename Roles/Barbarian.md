@@ -1,4 +1,4 @@
-![Barbarian](/uploads/Roles/Barbarian/barbarian.webp)
+![Barbarian](/uploads/Roles/Barbarian/barbarian-q85.webp)
 
 > 👉 **The Barbarian is a strong melee warrior with starting poison resistance, excelling in physical combat.**
 
