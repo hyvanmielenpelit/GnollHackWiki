@@ -1,4 +1,4 @@
-![ranger](/uploads/Roles/Ranger/ranger.webp)
+![Ranger](/uploads/Roles/Ranger/ranger-q85.webp)
 
 > 👉 **The Ranger is a potent and vigilant archer who excels at ranged combat.**
 
