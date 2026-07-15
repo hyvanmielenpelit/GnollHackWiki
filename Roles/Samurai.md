@@ -1,4 +1,4 @@
-![Samurai](/uploads/Roles/Samurai/samurai.webp)
+![Samurai](/uploads/Roles/Samurai/samurai-q85.webp)
 
 > 👉 **The Samurai is a disciplined Japanese warrior who excels at dual wielding and archery. Some item names show up in Japanese when playing the Samurai.**
 
