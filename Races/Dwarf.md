@@ -1,4 +1,4 @@
-![Dwarf](/uploads/Races/Dwarf/dwarf.webp)
+![Dwarf](/uploads/Races/Dwarf/dwarf-q85.webp)
 
 > 👉 **Dwarves are sturdy, physical combatants who start with infravision and benefit from peaceful encounters with other dwarves.**
 
