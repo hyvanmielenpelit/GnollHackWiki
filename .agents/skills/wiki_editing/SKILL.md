@@ -111,6 +111,7 @@ When editing or creating headings for pages, always use appropriate Unicode icon
   - Release / Build Checklists: `📋` or `✅`
   - Legal Pages / Privacy & Cookie Policies: `📄` or `🔒`
   - Scores / Tournaments: `🏆` or `🎖️` or `💯`
+  - Conclusions / Summary: `💡`
 - **Character Attributes & Core Stats**:
   - Core Attributes (General): `💪` or `🧬`
   - Strength: `💪`
@@ -244,6 +245,7 @@ When formatting inline content, tables, lists, or callouts, use appropriate Unic
 
 - **Document Structure**:
   - Ingress: `👉` (`> 👉 **Welcome...**` at the top of a page)
+  - Conclusions / Summary: `💡` (e.g., `## 💡 Conclusions`)
 
 - **User Interface & Interaction Controls**:
   - Keyboard Shortcuts / Keys / Commands: `⌨️`

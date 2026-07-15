@@ -10,7 +10,7 @@
 
 ## 🎯 Meta-Level Comparison
 
-| Aspect | NetHack 5.0 | GnollHack 3 |
+| Topic | NetHack 5.0 | GnollHack 3 |
 | :--- | :--- | :--- |
 | **Core Philosophy** | An uncompromising fantasy simulation that prioritizes mechanical depth, player discovery, and high-stakes survival. | A modern reimagining that lowers the barrier to entry by blending classic roguelike systems with contemporary RPG design and rich presentation. |
 | **Target Audience** | Purists, veterans, and fans of classic ASCII/keyboard-driven gaming. | Beginners, mobile gamers, and players seeking a fresh, audiovisual tactical experience. |
@@ -30,7 +30,7 @@
 
 ## ⚔️ Gameplay & Mechanics
 
-| System | NetHack 5.0 | GnollHack 3 |
+| Feature | NetHack 5.0 | GnollHack 3 |
 | :--- | :--- | :--- |
 | **The Economy** | ❌ Gold has very limited uses. | 💰 Gold is highly valuable. Used to pay NPCs to identify items, heal the player, or provide services. |
 | **Item Loot & Gear** | 🗡️ Standard item list. Basic enchantments (+1, +2, etc.). | 💎 ARPG-style loot. Weapons spawn with quality tiers (Exceptional, Elite, Celestial) and Mythic/Legendary affixes. |
@@ -43,7 +43,7 @@
 
 If you already have a few ascensions under your belt in NetHack, NetHack 5.0 will feel like coming home. However, GnollHack 3 introduces major mechanical shifts that will challenge your muscle memory:
 
-| System / Mechanic | Traditional NetHack (5.0) | GnollHack 3 |
+| Feature | NetHack 5.0 | GnollHack 3 |
 | :--- | :--- | :--- |
 | **Magic Cancellation (MC)** | 🧥 Determined by a single item (typically the cloak). | 🧺 Stacks cumulatively across **all equipped gear** to act as a saving throw against magical touch effects. |
 | **Instant Deaths** | ⏳ Deadly events like drowning can end your run instantly. | ⏱️ **Usually delayed.** You get several turns of grace to react and save yourself. |
@@ -51,7 +51,7 @@ If you already have a few ascensions under your belt in NetHack, NetHack 5.0 wil
 | **Attribute Gains (Stats)** | 🏋️ Attributes increase slowly and semi-randomly through hidden "exercise" actions. | 🍎 Attributes increase **instantly** upon eating specific corpses or fruits. The exercise mechanic has been removed. |
 | **Playable Races** | Gnomes are a playable race. | Gnomes are replaced entirely by the playable **[[/Races/Gnoll]]** race, featuring unique stats, traits, and gear. |
 
-## 🏁 Conclusion
+## 💡 Conclusions
 
 **Play NetHack 5.0 if:** You want the quintessential, brutal, classic ASCII roguelike experience. It is the definitive update to the traditional formula, perfect for purists who enjoy meticulous resource management and a steep, unforgiving learning curve.
 
