@@ -12,10 +12,10 @@
 
 ## 🧬 Class Traits
 
-- Can throw Mjollnir at 18/** strength or higher
-- Mjollnir returns to hand after having been thrown with a 100% chance
+- Can throw [[/Artifacts/Mjollnir]] at 18/** strength or higher
+- [[/Artifacts/Mjollnir]] returns to hand after having been thrown with a 100% chance
 - Gains extra score from celestial, primordial, or infernal items based on alignment
-- Special achievement is to attain the level of Grand Master in Dual Wielding
+- Special achievement is to attain the level of Grand Master in [[/Skills/Dual Wielding]]
 
 ## ⚡ Intrinsic Abilities
 
