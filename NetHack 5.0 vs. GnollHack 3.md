@@ -1,4 +1,4 @@
-> 👉 **Which one should you play? In this page, there's a comparison between mainline *NetHack 5.0* (the traditional hardcore classic) and *GnollHack 3* (the modern, visual variant) to help you choose the right style of dungeon crawl.**
+> 👉 **Which one should you play? This page compares mainline *NetHack 5.0* (the traditional hardcore classic) and *GnollHack 3* (the modern, visual variant) to help you choose the right style of dungeon crawl.**
 
 ## 🧬 How They Are Related
 
@@ -6,7 +6,7 @@
 - **Shared Roots:** Both games share the same fundamental dungeon structures and basic monster classes.
 - **The Divergence:** NetHack 5.0 refines the hardcore, classic keyboard-driven experience, while GnollHack 3 rebuilds the engine to support modern graphics, music, sounds, voiceovers, touchscreen-friendly controls, and mobile operating systems.
 
-> ℹ️ **Note:** **Versioning:** GnollHack uses a dual versioning scheme. The modern port's version '3.x' translates directly to the legacy library version '4.3.0 Build x'. For example, modern port version 3.1 corresponds to legacy version 4.3.0 Build 1.
+> ℹ️ **Note:** GnollHack uses a dual versioning scheme. The modern port's version 3.x translates directly to the legacy library version 4.3.0 Build x. For example, modern port version 3.1 corresponds to legacy version 4.3.0 Build 1.
 
 ## 🎯 Meta-Level Comparison
 
@@ -26,18 +26,18 @@
 | **Graphics & UI** | 🖥️ ASCII graphics or simple static 2D tiles. Traditional terminal UI. | ✨ Modern UI optimized for desktop and mobile. High-res animated graphics (23,000+ base tiles). |
 | **Audio** | 🔇 No sound. | 🔊 Full soundtrack (14 original and 23 additional music tracks), sound effects, and 5,000+ voiceovers. |
 | **Controls** | ⌨️ Dozens of keyboard commands must be memorized (e.g., Quaff (`q`) and Read (`r`)). | 🖱️ Point-and-click commands and context menus. |
-| **Information Accessibility**| ❓ Relies heavily on external wikis/spoilers. Exact damage values and stats are hidden. | 🔍 Examine (`Alt+x`) command shows exact item stats, magical effects, and damage formulas in-game. Exact damage values are shown. |
+| **Information Accessibility**| ❓ Relies heavily on external wikis/spoilers. Exact damage values and stats are hidden. | 🔍 The Examine (`Alt+x`) command shows detailed item stats, magical effects, and damage formulas in-game. Exact damage values are shown. |
 
 ## ⚔️ Gameplay & Mechanics
 
 | Feature | NetHack 5.0 | GnollHack 3 |
 | :--- | :--- | :--- |
-| **The Economy** | 🪙 Gold has very limited uses. | 💰 Gold is highly valuable. Used to pay NPCs to identify items, heal the player, or provide services. |
+| **The Economy** | 🪙 Gold has very limited uses. | 💰 Gold is highly valuable and is used to pay NPCs to identify items, heal the player, or provide services. |
 | **Item Loot & Gear** | 🗡️ Standard item list. Basic enchantments (+1, +2, etc.). | 💎 ARPG-style loot. Weapons spawn with quality tiers (Exceptional, Elite, Celestial) and Mythic/Legendary affixes. |
-| **Equipment Slots** | 👕 Traditional slots (Armor, Cloak, Shield, Helm, Gloves, Boots). | 🧥 22 slots. Adds dedicated slots for robes (worn over armor), bracers, and five miscellaneous items. |
-| **Magic System** | 🧠 Memorization (spells are forgotten over time). | 🔮 Reagent-based. Over 200 spells are prepared by mixing ingredients; features armor penalties and cooldowns. |
-| **Ranged Combat** | 🐢 Weapon swapping costs a turn. Firing at melee range is allowed without penalty. | 🏹 Instant weapon swapping (0 turns). Buffed ranged combat, but firing at adjacent enemies incurs a severe penalty. |
-| **Companions / Pets** | 🐾 Simple pet pathing; pets frequently get stuck or lost. | 🧠 Advanced pathfinding. Pets can be commanded to wear/drop gear and hold position. Includes hireable mercenaries. |
+| **Equipment Slots** | 👕 Traditional slots (Armor, Cloak, Shield, Helm, Gloves, Boots). | 🧥 22 slots, including dedicated slots for robes (worn over armor), bracers, and five miscellaneous items. |
+| **Magic System** | 🧠 Memorization (spells are forgotten over time). | 🔮 Reagent-based. Over 200 spells are prepared by mixing ingredients. The system features armor penalties and cooldowns. |
+| **Ranged Combat** | 🐢 Weapon swapping costs a turn. Firing at melee range is allowed without penalty. | 🏹 Instant weapon swapping (0 turns). Ranged combat is buffed, but firing at adjacent enemies incurs a severe penalty. |
+| **Companions / Pets** | 🐾 Simple pet pathfinding; pets frequently get stuck or lost. | 🧠 Advanced pathfinding. Pets can be commanded to wear or drop gear and to hold position. Players can also hire mercenaries. |
 
 ## 🎖️ Details for NetHack Veterans
 
@@ -45,7 +45,7 @@ If you already have a few ascensions under your belt in NetHack, NetHack 5.0 wil
 
 | Feature | NetHack 5.0 | GnollHack 3 |
 | :--- | :--- | :--- |
-| **Magic Cancellation (MC)** | 🧥 Determined by a single item (typically the cloak). | 🛡️ Stacks cumulatively across **all equipped gear** to act as a saving throw against magical touch effects. |
+| **Magic Cancellation (MC)** | 🧥 Determined by a single item (typically the cloak). | 🛡️ It stacks cumulatively across **all equipped gear** and acts as a saving throw against magical touch effects. |
 | **Instant Deaths** | ☠️ Deadly events like drowning can end your run instantly. | ⏱️ **Usually delayed.** You get several turns of grace to react and save yourself. |
 | **Boss Covetousness** | 🏃‍♂️ Bosses constantly teleport away to heal and may steal your quest artifact. | ⚔️ The frustrating teleportation mechanic is **removed from almost all monsters**. |
 | **Attribute Gains (Stats)** | 🏋️ Attributes increase slowly and semi-randomly through hidden "exercise" actions. | 🍎 Attributes increase **instantly** upon eating specific corpses or fruits. The exercise mechanic has been removed. |
