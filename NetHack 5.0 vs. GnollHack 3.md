@@ -24,7 +24,7 @@
 | :--- | :--- | :--- |
 | **Difficulty Options** | 📈 Single, steep difficulty curve. Permadeath is mandatory. | 🌟 7 difficulty levels. Includes [[Casual Mode]] and [[Modern Mode]] where permadeath is optional. |
 | **Graphics & UI** | 🖥️ ASCII graphics or simple static 2D tiles. Traditional terminal UI. | ✨ Modern UI optimized for desktop and mobile. High-res animated graphics (23,000+ base tiles). |
-| **Audio** | ❌ No sound. | 🔊 Full soundtrack (14 original and 23 additional music tracks), sound effects, and 5,000+ voiceovers. |
+| **Audio** | 🔇 No sound. | 🔊 Full soundtrack (14 original and 23 additional music tracks), sound effects, and 5,000+ voiceovers. |
 | **Controls** | ⌨️ Dozens of keyboard commands must be memorized (e.g., Quaff (`q`) and Read (`r`)). | 🖱️ Point-and-click commands and context menus. |
 | **Information Accessibility**| ❓ Relies heavily on external wikis/spoilers. Exact damage values and stats are hidden. | 🔍 Examine (`Alt+x`) command shows exact item stats, magical effects, and damage formulas in-game. Exact damage values are shown. |
 
@@ -45,8 +45,8 @@ If you already have a few ascensions under your belt in NetHack, NetHack 5.0 wil
 
 | Feature | NetHack 5.0 | GnollHack 3 |
 | :--- | :--- | :--- |
-| **Magic Cancellation (MC)** | 🧥 Determined by a single item (typically the cloak). | 🧺 Stacks cumulatively across **all equipped gear** to act as a saving throw against magical touch effects. |
-| **Instant Deaths** | ⏳ Deadly events like drowning can end your run instantly. | ⏱️ **Usually delayed.** You get several turns of grace to react and save yourself. |
+| **Magic Cancellation (MC)** | 🧥 Determined by a single item (typically the cloak). | 🛡️ Stacks cumulatively across **all equipped gear** to act as a saving throw against magical touch effects. |
+| **Instant Deaths** | ☠️ Deadly events like drowning can end your run instantly. | ⏱️ **Usually delayed.** You get several turns of grace to react and save yourself. |
 | **Boss Covetousness** | 🏃‍♂️ Bosses constantly teleport away to heal and may steal your quest artifact. | ⚔️ The frustrating teleportation mechanic is **removed from almost all monsters**. |
 | **Attribute Gains (Stats)** | 🏋️ Attributes increase slowly and semi-randomly through hidden "exercise" actions. | 🍎 Attributes increase **instantly** upon eating specific corpses or fruits. The exercise mechanic has been removed. |
 | **Playable Races** | 🧙 Gnomes are a playable race. | 🐺 Gnomes are replaced entirely by the playable **[[/Races/Gnoll]]** race, featuring unique stats, traits, and gear. |
