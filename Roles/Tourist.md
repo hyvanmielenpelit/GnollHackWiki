@@ -61,8 +61,6 @@ Additionally:
   - 3.84% chance: [[/Items/Leash]]
   - 3.69% chance: [[/Items/Magic marker]]
 
-*(Note: Human is the only allowed race for Tourists.)*
-
 ## 📊 Skills
 
 ### ⚔️ Combat Skills

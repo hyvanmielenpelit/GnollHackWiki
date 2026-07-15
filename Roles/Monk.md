@@ -57,8 +57,6 @@ Additionally, there is a random chance to start with one of the following (mutua
 - 20.0% chance: [[/Items/Magic marker]]
 - 8.0% chance: [[/Items/Oil lamp]] (+1 enchantment)
 
-*(Note: Human is the only allowed race for Monks.)*
-
 ## 🪄 Starting Spells
 
 - [[/Spells/Minor healing]]

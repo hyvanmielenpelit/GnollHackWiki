@@ -46,8 +46,6 @@
 Additionally, there is a random chance to start with:
 - 20.0% chance: [[/Items/Blindfold]]
 
-*(Note: Human is the only allowed race for Samurai.)*
-
 ## 📊 Skills
 
 ### ⚔️ Combat Skills
