@@ -1,4 +1,4 @@
-![Rogue](/uploads/Roles/Rogue/rogue.webp)
+![Rogue](/uploads/Roles/Rogue/rogue-q85.webp)
 
 > 👉 **The Rogue is a versatile combatant who starts with stealth and excels at sneak attacks and disarming traps.**
 
