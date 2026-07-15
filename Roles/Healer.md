@@ -1,4 +1,4 @@
-![Healer](/uploads/Roles/Healer/healer.webp)
+![Healer](/uploads/Roles/Healer/healer-v2-q85.webp)
 
 > 👉 **The Healer is a rich physician who starts with poison resistance and excels at casting healing magic.**
 
