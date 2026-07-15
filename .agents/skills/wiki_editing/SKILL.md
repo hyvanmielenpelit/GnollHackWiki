@@ -62,6 +62,7 @@ When editing or creating pages for the GnollHack Wiki, follow these conventions 
   - Important: `> 📢 **Important:** This is important.`
   - Warning: `> ⚠️ **Warning:** This is a warning.`
   - Caution: `> 🛑 **Caution:** This is caution.`
+- **HTML Lists**: Gollum does not support HTML lists (such as `<ul>` and `<li>` tags). Avoid using them in Markdown files, including inside tables. Instead, represent list items in tables using Unicode bullets (e.g., `• `) separated by HTML line breaks (`<br />`).
 
 ## 5. Mathematical Formulas (KaTeX)
 - **Prefer Plain Text for Simple Formulas**: For simple mathematical expressions or basic requirements (e.g., `Level >= 3` or `Luck >= 0`), format them as plain text. Do not use KaTeX for simple expressions.
