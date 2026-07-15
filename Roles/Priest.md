@@ -45,15 +45,8 @@
 | [[/Items/Clove of garlic]] | 1 | |
 | [[/Items/Sprig of wolfsbane]] | 1 | |
 | [[/Items/Ginseng root]] | 2 | |
-| [[/Items/Spellbooks/Spellbook of minor healing]] | 1 | Blessed |
-| [[/Items/Spellbooks/Spellbook of healing]] | 1 | Blessed |
-| [[/Items/Spellbooks/Spellbook of congregate]] | 1 | Blessed |
-| Random spellbook | 2 | Neutral/uncursed |
 | [[/Items/Leather bag]] | 1 | |
 | [[/Items/Mace]] | 1 | +3 enchantment; 12.5% (1 in 8) chance to be of silver material (silver mace, substituted with silver flail for [[/Races/Gnoll]]); otherwise standard material (substituted with [[/Items/flail]] for [[/Races/Gnoll]]) |
-| [[/Items/Spellbooks/Spellbook of summon celestial dove]] | 1 | Standard for Lawful starting alignment |
-| [[/Items/Spellbooks/Spellbook of stick to snake]] | 1 | Standard for Neutral starting alignment |
-| [[/Items/Spellbooks/Spellbook of raise minor zombie]] | 1 | Standard for Chaotic starting alignment |
 | [[/Items/Spiked shield]] | 1 | 10.0% chance to start with this shield (+0, silver material, blessed); otherwise starts with a small shield |
 | [[/Items/Small shield]] | 1 | 90.0% chance to start with this shield (+0, blessed) |
 
@@ -64,6 +57,22 @@ Additionally, there are random chances to start with:
 
 **Racial Variations:**
 - [[/Races/Elf]] Priests also start with a random musical instrument (e.g. [[/Items/wooden flute]], [[/Items/brass horn]], [[/Items/wooden harp]], [[/Items/bell]], [[/Items/bugle]], or [[/Items/leather drum]]).
+
+## 🪄 Starting Spells
+
+These spells are automatically learned at the start of the game.
+
+- [[/Spells/Minor healing]]
+- [[/Spells/Healing]]
+- [[/Spells/Congregate]]
+- 2 Random spells (level -1–3)
+- 1 Random Clerical spell (level -1–4)
+- 1 Random Healing spell (level -1–4)
+
+**Alignment Variations:**
+- [[/Lawful]] Priests also learn [[/Spells/Summon celestial dove]] and 1 Random Celestial spell (level -1–4).
+- [[/Neutral]] Priests also learn [[/Spells/Stick to snake]] and 1 Random Nature spell (level -1–4).
+- [[/Chaotic]] Priests also learn [[/Spells/Raise minor zombie]] and 1 Random Necromancy spell (level -1–4).
 
 ## 📊 Skills
 

@@ -43,9 +43,6 @@
 | Random ring | 2 | |
 | Random potion | 3 | |
 | Random scroll | 3 | |
-| [[/Items/Spellbooks/Spellbook of magic arrow]] | 1 | Blessed |
-| [[/Items/Spellbooks/Spellbook of shield]] | 1 | Blessed |
-| Random spellbook | 1 | Blessed |
 
 Additionally, there are random chances to start with one of the following extra items (mutually exclusive):
 - 20.0% chance: [[/Items/Magic marker]]
@@ -53,6 +50,17 @@ Additionally, there are random chances to start with one of the following extra 
 
 **Racial Variations:**
 - [[/Races/Elf]] Wizards also start with a random musical instrument (e.g. [[/Items/wooden flute]], [[/Items/brass horn]], [[/Items/wooden harp]], [[/Items/bell]], [[/Items/bugle]], or [[/Items/leather drum]]).
+
+## 🪄 Starting Spells
+
+These spells are automatically learned at the start of the game.
+
+- [[/Spells/Magic arrow]]
+- [[/Spells/Shield]]
+- 1 Random spell (level -1–3)
+- 1 Random Arcane spell (level -1–4)
+- 1 Random Enchantment spell (level -1–4)
+- 1 Random Transmutation spell (level -1–4)
 
 ## 📊 Skills
 

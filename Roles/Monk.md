@@ -50,8 +50,6 @@
 | [[/Items/Apple]] | 1 | |
 | [[/Items/Orange]] | 1 | |
 | [[/Items/Handful of nuts]] | 1 | |
-| [[/Items/Spellbooks/Spellbook of minor healing]] | 1 | Blessed |
-| [[/Items/Spellbooks/Spellbook of create food]] | 1 | Blessed |
 | [[/Items/Fortune cookie]] | 3 | |
 | [[/Items/Oriental silk sack]] | 1 | |
 
@@ -60,6 +58,15 @@ Additionally, there is a random chance to start with one of the following (mutua
 - 8.0% chance: [[/Items/Oil lamp]] (+1 enchantment)
 
 *(Note: Human is the only allowed race for Monks.)*
+
+## 🪄 Starting Spells
+
+These spells are automatically learned at the start of the game.
+
+- [[/Spells/Minor healing]]
+- [[/Spells/Create food]]
+- 1 Random Abjuration spell (level -1–4)
+- 1 Random Movement spell (level -1–4)
 
 ## 📊 Skills
 

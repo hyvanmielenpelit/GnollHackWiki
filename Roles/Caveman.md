@@ -44,6 +44,12 @@
 | [[/Items/Food ration]] | 3 | Substituted with [[/Items/tripe ration]] for [[/Races/Gnoll]] |
 | [[/Items/Leather armor]] | 1 | Substituted with [[/Items/gnollish leather armor]] for [[/Races/Gnoll]] |
 
+## 🪄 Starting Spells
+
+These spells are automatically learned at the start of the game.
+
+- 1 Random Nature spell (level -1–4)
+
 ## 📊 Skills
 
 ### ⚔️ Combat Skills

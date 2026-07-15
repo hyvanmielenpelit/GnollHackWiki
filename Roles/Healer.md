@@ -46,12 +46,6 @@
 | [[/Items/Jar of medicinal salve]] | 1 | |
 | [[/Items/Wand of probing]] | 1 | |
 | [[/Items/Wand of sleep]] | 1 | |
-| [[/Items/Spellbooks/Spellbook of minor healing]] | 1 | Blessed |
-| [[/Items/Spellbooks/Spellbook of healing]] | 1 | Blessed |
-| [[/Items/Spellbooks/Spellbook of extra healing]] | 1 | Blessed |
-| [[/Items/Spellbooks/Spellbook of cure sickness]] | 1 | Blessed |
-| [[/Items/Spellbooks/Spellbook of sleep]] | 1 | Blessed |
-| [[/Items/Spellbooks/Spellbook of probe]] | 1 | Blessed |
 | [[/Items/Ginseng root]] | 4 | |
 | [[/Items/Mandrake root]] | 4 | |
 | [[/Items/Clove of garlic]] | 2 | |
@@ -61,6 +55,21 @@
 Additionally:
 - Starts with 1001-2000 gold pieces.
 - There is a 4.0% (1 in 25) chance to also start with: [[/Items/Oil lamp]] (+1 enchantment)
+
+## 🪄 Starting Spells
+
+These spells are automatically learned at the start of the game.
+
+- [[/Spells/Minor healing]]
+- [[/Spells/Healing]]
+- [[/Spells/Extra healing]]
+- [[/Spells/Cure sickness]]
+- [[/Spells/Sleep]]
+- [[/Spells/Probe]]
+- 2 Random Healing spells (level -1–5)
+- 1 Random Abjuration spell (level -1–4)
+- 1 Random Divination spell (level -1–4)
+- 1 Random Enchantment spell (level -1–4)
 
 ## 📊 Skills
 
