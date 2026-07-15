@@ -65,8 +65,8 @@ These spells are automatically learned at the start of the game.
 
 - [[/Spells/Minor healing]]
 - [[/Spells/Create food]]
-- 1 Random Abjuration spell (level -1–4)
-- 1 Random Movement spell (level -1–4)
+- 1 Random [[Abjuration spell|/Abjuration Spells]] (level -1–4)
+- 1 Random [[Movement spell|/Movement Spells]] (level -1–4)
 
 ## 📊 Skills
 

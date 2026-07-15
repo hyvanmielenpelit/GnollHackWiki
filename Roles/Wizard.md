@@ -58,9 +58,9 @@ These spells are automatically learned at the start of the game.
 - [[/Spells/Magic arrow]]
 - [[/Spells/Shield]]
 - 1 Random spell (level -1–3)
-- 1 Random Arcane spell (level -1–4)
-- 1 Random Enchantment spell (level -1–4)
-- 1 Random Transmutation spell (level -1–4)
+- 1 Random [[Arcane spell|/Arcane Spells]] (level -1–4)
+- 1 Random [[Enchantment spell|/Enchantment Spells]] (level -1–4)
+- 1 Random [[Transmutation spell|/Transmutation Spells]] (level -1–4)
 
 ## 📊 Skills
 

@@ -66,13 +66,13 @@ These spells are automatically learned at the start of the game.
 - [[/Spells/Healing]]
 - [[/Spells/Congregate]]
 - 2 Random spells (level -1–3)
-- 1 Random Clerical spell (level -1–4)
-- 1 Random Healing spell (level -1–4)
+- 1 Random [[Clerical spell|/Clerical Spells]] (level -1–4)
+- 1 Random [[Healing spell|/Healing Spells]] (level -1–4)
 
 **Alignment Variations:**
-- [[/Lawful]] Priests also learn [[/Spells/Summon celestial dove]] and 1 Random Celestial spell (level -1–4).
-- [[/Neutral]] Priests also learn [[/Spells/Stick to snake]] and 1 Random Nature spell (level -1–4).
-- [[/Chaotic]] Priests also learn [[/Spells/Raise minor zombie]] and 1 Random Necromancy spell (level -1–4).
+- [[/Lawful]] Priests also learn [[/Spells/Summon celestial dove]] and 1 Random [[Celestial spell|/Celestial Spells]] (level -1–4).
+- [[/Neutral]] Priests also learn [[/Spells/Stick to snake]] and 1 Random [[Nature spell|/Nature Spells]] (level -1–4).
+- [[/Chaotic]] Priests also learn [[/Spells/Raise minor zombie]] and 1 Random [[Necromancy spell|/Necromancy Spells]] (level -1–4).
 
 ## 📊 Skills
 

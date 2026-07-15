@@ -66,10 +66,10 @@ These spells are automatically learned at the start of the game.
 - [[/Spells/Cure sickness]]
 - [[/Spells/Sleep]]
 - [[/Spells/Probe]]
-- 2 Random Healing spells (level -1–5)
-- 1 Random Abjuration spell (level -1–4)
-- 1 Random Divination spell (level -1–4)
-- 1 Random Enchantment spell (level -1–4)
+- 2 Random [[Healing spells|/Healing Spells]] (level -1–5)
+- 1 Random [[Abjuration spell|/Abjuration Spells]] (level -1–4)
+- 1 Random [[Divination spell|/Divination Spells]] (level -1–4)
+- 1 Random [[Enchantment spell|/Enchantment Spells]] (level -1–4)
 
 ## 📊 Skills
 

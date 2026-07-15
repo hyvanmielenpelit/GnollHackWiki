@@ -56,7 +56,7 @@ Additionally, there is a random chance to start with one of the following (mutua
 
 These spells are automatically learned at the start of the game.
 
-- 1 Random Divination spell (level -1–4)
+- 1 Random [[Divination spell|/Divination Spells]] (level -1–4)
 
 ## 📊 Skills
 
