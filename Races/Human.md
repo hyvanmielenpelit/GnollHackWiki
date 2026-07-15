@@ -1,4 +1,4 @@
-![Human](/uploads/Races/Human/human.webp)
+![Human](/uploads/Races/Human/human-q85.webp)
 
 > 👉 **Humans are a well-balanced, highly adaptable race who do not have special abilities but can play any character class and belong to any alignment.**
 
