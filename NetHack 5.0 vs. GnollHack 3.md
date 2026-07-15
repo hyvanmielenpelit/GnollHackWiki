@@ -1,3 +1,5 @@
+![NetHack 5 vs. GnollHack 3](/uploads/NetHack%205/nethack5-vs-gnollhack3-q85.webp)
+
 > 👉 **Which one should you play? This page compares mainline *NetHack 5.0* (the traditional hardcore classic) and *GnollHack 3* (the modern, visual variant) to help you choose the right style of dungeon crawl.**
 
 ## 🧬 How They Are Related
