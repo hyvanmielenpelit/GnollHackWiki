@@ -1,46 +1,39 @@
 ![Samurai](/uploads/Roles/Samurai/samurai.webp)
 
-## Description
+> 👉 **The Samurai is a disciplined Japanese warrior who excels at dual wielding and archery. Some item names show up in Japanese when playing the Samurai.**
 
-Strong Japanese warrior adept at both melee and ranged combat. Some item names show up in Japanese when playing the Samurai.
+## 📋 Character Creation
 
-## Allowed Races
+| Property | Options |
+| :--- | :--- |
+| **Allowed Races** | [[/Races/Human]] |
+| **Allowed Genders** | Male `♂️`, Female `♀️` |
+| **Allowed Alignments** | [[/Lawful]] `⚖️` |
 
-- [[/Races/Human]]
-
-## Allowed Genders
-
-- Male
-- Female
-
-## Allowed Alignments
-
-- [[/Lawful]]
-
-## Class Traits
+## 🧬 Class Traits
 
 - Starts with a faithful dog
 - Some item names are in Japanese
 - Gains extra score from Japanese items of at least artifact, exceptional, or mythic quality
 - Special achievement is to find the Kusanagi and Katana of Masamune
 
-## Intrinsic Abilities
+## ⚡ Intrinsic Abilities
 
-| Level | Intrinsic Abilities |
-| :---: | :--------- |
-| 1 | Speed |
-| 15 | Stealth |
+| Level | Intrinsic |
+| :---: | :--- |
+| 1 | Speed 👟 |
+| 15 | Stealth 👣 |
 
-## Hit Points and Mana
+## ❤️ Hit Points and Mana
 
 | Stat | Starting Value | Increase Per Level |
-| :--- | :------------: | :----------------: |
-| Hit points | 13 | +1d9 (avg. +5) |
-| Mana | 1d3 (avg. 2) | +1d2 (avg. +1.5) |
+| :--- | :---: | :---: |
+| **Hit points ❤️** | 13 | +1d9 (avg. +5) |
+| **Mana 🔮** | 1d3 (avg. 2) | +1d2 (avg. +1.5) |
 
-## Skills
+## 📊 Skills
 
-### Combat Skills 
+### ⚔️ Combat Skills
 
 | Skill | Starting Level | Maximum Level |
 | :--- | :---: | :---: |
@@ -52,7 +45,7 @@ Strong Japanese warrior adept at both melee and ranged combat. Some item names s
 | [[/Skills/Two-handed weapon]] | Unskilled | Grand Master |
 | [[/Skills/Wand]] | Unskilled | Basic |
 
-### Weapon Skills 
+### 🪓 Weapon Skills
 
 | Skill | Starting Level | Maximum Level | Notes |
 | :--- | :---: | :---: | :--- |
@@ -66,7 +59,7 @@ Strong Japanese warrior adept at both melee and ranged combat. Some item names s
 | [[/Skills/Thrown weapon]] | Basic | Expert | |
 | [[/Skills/Thrusting weapon]] | Unskilled | Grand Master | |
 
-### Miscellaneous Skills 
+### 🛠️ Miscellaneous Skills
 
 | Skill | Starting Level | Maximum Level |
 | :--- | :---: | :---: |

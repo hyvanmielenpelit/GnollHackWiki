@@ -1,48 +1,41 @@
 ![Tourist](/uploads/Roles/Tourist/tourist.webp)
 
-## Description
+> 👉 **The Tourist is a versatile traveler capable of specializing in almost any skill.**
 
-Versatile traveller that can specialize in almost every combat and magic skill.
+## 📋 Character Creation
 
-## Allowed Races
+| Property | Options |
+| :--- | :--- |
+| **Allowed Races** | [[/Races/Human]] |
+| **Allowed Genders** | Male `♂️`, Female `♀️` |
+| **Allowed Alignments** | [[/Neutral]] `☯️` |
 
-- [[/Races/Human]]
-
-## Allowed Genders
-
-- Male
-- Female
-
-## Allowed Alignments
-
-- [[/Neutral]]
-
-## Class Traits
+## 🧬 Class Traits
 
 - Worse prices in shops below level 15
 - Starts with a luggage
 - Gains extra score by taking selfies with different types of monsters
 - Special achievement is to take a selfie with Demogorgon
 
-## Intrinsic Abilities
+## ⚡ Intrinsic Abilities
 
-| Level | Intrinsic Abilities |
-| :---: | :--------- |
-| 9 | Searching |
-| 14 | Sickness resistance |
-| 19 | Poison resistance |
-| 24 | See invisible |
+| Level | Intrinsic |
+| :---: | :--- |
+| 9 | Searching 🔍 |
+| 14 | Sickness resistance 🤢 |
+| 19 | Poison resistance ☠️ |
+| 24 | See invisible 👁️ |
 
-## Hit Points and Mana
+## ❤️ Hit Points and Mana
 
 | Stat | Starting Value | Increase Per Level |
-| :--- | :------------: | :----------------: |
-| Hit points | 12 | +1d6 (avg. +3.5) |
-| Mana | 1d4+3 (avg. 5.5) | +1d3+1 (avg. +3) |
+| :--- | :---: | :---: |
+| **Hit points ❤️** | 12 | +1d6 (avg. +3.5) |
+| **Mana 🔮** | 1d4+3 (avg. 5.5) | +1d3+1 (avg. +3) |
 
-## Skills
+## 📊 Skills
 
-### Combat Skills 
+### ⚔️ Combat Skills
 
 | Skill | Starting Level | Maximum Level |
 | :--- | :---: | :---: |
@@ -53,7 +46,7 @@ Versatile traveller that can specialize in almost every combat and magic skill.
 | [[/Skills/Two-handed weapon]] | Unskilled | Expert |
 | [[/Skills/Wand]] | Unskilled | Expert |
 
-### Weapon Skills 
+### 🪓 Weapon Skills
 
 | Skill | Starting Level | Maximum Level | Notes |
 | :--- | :---: | :---: | :--- |
@@ -71,7 +64,7 @@ Versatile traveller that can specialize in almost every combat and magic skill.
 | [[/Skills/Thrusting weapon]] | Unskilled | Expert | |
 | [[/Skills/Whip]] | Unskilled | Expert | |
 
-### Spell Casting Skills 
+### 🧙 Spell Casting Skills
 
 | Skill | Starting Level | Maximum Level |
 | :--- | :---: | :---: |
@@ -85,7 +78,7 @@ Versatile traveller that can specialize in almost every combat and magic skill.
 | [[/Skills/Movement spell]] | Unskilled | Grand Master |
 | [[/Skills/Transmutation spell]] | Unskilled | Expert |
 
-### Miscellaneous Skills 
+### 🛠️ Miscellaneous Skills
 
 | Skill | Starting Level | Maximum Level |
 | :--- | :---: | :---: |

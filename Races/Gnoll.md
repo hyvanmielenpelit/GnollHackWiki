@@ -1,28 +1,26 @@
 ![Gnoll](/uploads/Races/Gnoll/gnoll.webp)
 
-## Description
+> 👉 **Gnolls are a versatile, highly perceptive race who start with lycanthropy immunity, can smell rotten food and underground roots, and have unique relations with other gnolls.**
 
-Gnolls are a versatile race who can smell the rottenness of food items. They are also immune to lycanthropy.
+## 💪 Attribute Scores
 
-## Attribute Scores
+| Attribute | Modifier | Maximum |
+| :--- | :---: | :---: |
+| **Strength 💪** | +0 | 18/** |
+| **Dexterity 🎯** | +1 | 19 |
+| **Constitution 🔋** | +1 | 19 |
+| **Intelligence 🧠** | -2 | 16 |
+| **Wisdom 🦉** | -2 | 16 |
+| **Charisma ✨** | -2 | 16 |
 
-| Attribute Score | Modifier | Maximum |
-| :-------------- | :------: | :-----: |
-| Strength | +0 | 18/** |
-| Dexterity | +1 | 19 |
-| Constitution | +1 | 19 |
-| Intelligence | -2 | 16 |
-| Wisdom | -2 | 16 |
-| Charisma | -2 | 16 |
-
-## Hit Points and Mana
+## ❤️ Hit Points and Mana
 
 | Stat | Starting Value | Increase Per Level |
-| :--- | :------------: | :----------------: |
-| Hit points | 13 | +1d3+1 (avg. +3) |
-| Mana | 1d3+1 (avg. 3) | +1 (avg. +1) |
+| :--- | :---: | :---: |
+| **Hit points ❤️** | 13 | +1d3+1 (avg. +3) |
+| **Mana 🔮** | 1d3+1 (avg. 3) | +1 (avg. +1) |
 
-## Race Traits
+## 🧬 Racial Traits
 
 - Immune to lycanthropy
 - Can smell rotten food
@@ -30,16 +28,16 @@ Gnolls are a versatile race who can smell the rottenness of food items. They are
 - Gnolls may be peaceful to you
 - Yeenaghu will be peaceful and grant a wish to a chaotic gnoll when met
 
-## Allowed Alignments
+## ⚖️ Allowed Alignments
 
-- [[/Neutral]]
-- [[/Chaotic]]
+- ☯️ [[/Neutral]]
+- 😈 [[/Chaotic]]
 
-## Character Classes
+## 🛡️ Character Classes
 
-- [[/Roles/Barbarian]]
-- [[/Roles/Caveman]]
-- [[/Roles/Healer]]
-- [[/Roles/Priest]]
-- [[/Roles/Ranger]]
-- [[/Roles/Rogue]]
+- 🪓 [[/Roles/Barbarian]]
+- 🦴 [[/Roles/Caveman]]
+- 🧪 [[/Roles/Healer]]
+- ⛪ [[/Roles/Priest]]
+- 🏹 [[/Roles/Ranger]]
+- 🗡️ [[/Roles/Rogue]]

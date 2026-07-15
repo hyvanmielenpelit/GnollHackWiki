@@ -1,24 +1,16 @@
 ![Knight](/uploads/Roles/Knight/knight.webp)
 
-## Description
+> 👉 **The Knight is a heavily armored melee warrior who starts with a horse and excels at riding and combat.**
 
-Heavely armored melee warrior, adept at riding.
+## 📋 Character Creation
 
-## Allowed Races
+| Property | Options |
+| :--- | :--- |
+| **Allowed Races** | [[/Races/Human]], [[/Races/Dwarf]] |
+| **Allowed Genders** | Male `♂️`, Female `♀️` |
+| **Allowed Alignments** | [[/Lawful]] `⚖️` |
 
-- [[/Races/Human]]
-- [[/Races/Dwarf]]
-
-## Allowed Genders
-
-- Male
-- Female
-
-## Allowed Alignments
-
-- [[/Lawful]]
-
-## Class Traits
+## 🧬 Class Traits
 
 - Knight's code of honor
     - Alignment penalty if attacks disadvantaged monsters
@@ -26,25 +18,25 @@ Heavely armored melee warrior, adept at riding.
 - Gains extra score from slaying demons, devils, and chaotic dragons
 - Special achievement is to defeat Asmodeus, Ruler of Nine Hells
 
-## Intrinsic Abilities
+## ⚡ Intrinsic Abilities
 
-| Level | Intrinsic Abilities |
-| :---: | :--------- |
-| 7 | Speed |
-| 11 | Warning of undead |
-| 14 | Warning of demons |
-| 19 | Curse resistance |
+| Level | Intrinsic |
+| :---: | :--- |
+| 7 | Speed 👟 |
+| 11 | Warning of undead ⚠️ |
+| 14 | Warning of demons ⚠️ |
+| 19 | Curse resistance 💀 |
 
-## Hit Points and Mana
+## ❤️ Hit Points and Mana
 
 | Stat | Starting Value | Increase Per Level |
-| :--- | :------------: | :----------------: |
-| Hit points | 15 | +1d11 (avg. +6) |
-| Mana | 1d4+2 (avg. 4.5) | +1d2+1 (avg. +2.5) |
+| :--- | :---: | :---: |
+| **Hit points ❤️** | 15 | +1d11 (avg. +6) |
+| **Mana 🔮** | 1d4+2 (avg. 4.5) | +1d2+1 (avg. +2.5) |
 
-## Skills
+## 📊 Skills
 
-### Combat Skills                                    
+### ⚔️ Combat Skills
 
 | Skill | Starting Level | Maximum Level |
 | :--- | :---: | :---: |
@@ -54,7 +46,7 @@ Heavely armored melee warrior, adept at riding.
 | [[/Skills/Two-handed weapon]] | Unskilled | Grand Master |
 | [[/Skills/Wand]] | Unskilled | Basic |
 
-### Weapon Skills                                    
+### 🪓 Weapon Skills
 
 | Skill | Starting Level | Maximum Level |
 | :--- | :---: | :---: |
@@ -69,7 +61,7 @@ Heavely armored melee warrior, adept at riding.
 | [[/Skills/Thrown weapon]] | Unskilled | Expert |
 | [[/Skills/Thrusting weapon]] | Basic | Grand Master |
 
-### Spell Casting Skills                             
+### 🧙 Spell Casting Skills
 
 | Skill | Starting Level | Maximum Level |
 | :--- | :---: | :---: |
@@ -78,16 +70,16 @@ Heavely armored melee warrior, adept at riding.
 | [[/Skills/Clerical spell]] | Unskilled | Skilled |
 | [[/Skills/Healing spell]] | Unskilled | Skilled |
 
-### Miscellaneous Skills                                
+### 🛠️ Miscellaneous Skills
 
 | Skill | Starting Level | Maximum Level |
 | :--- | :---: | :---: |
 | [[/Skills/Disarm trap]] | Unskilled | Basic |
 | [[/Skills/Riding]] | Basic | Grand Master |
 
-## Racial Adjustments
+## 👥 Racial Adjustments
 
-### Dwarf
+### ⛏️ Dwarf
 
 | Skill | Starting Level | Maximum Level |
 | :--- | :---: | :---: |

@@ -1,46 +1,37 @@
 ![Archaeologist](/uploads/Roles/Archaeologist/archaeologist.webp)
 
-## Description
+> 👉 **The Archaeologist is a lightly equipped explorer starting with useful tools like a pick-axe and a touchstone.**
 
-Lightly equipped explorer. The archaeologist starts with a touchstone, which can be used to identify gems.
+## 📋 Character Creation
 
-## Allowed Races
+| Property | Options |
+| :--- | :--- |
+| **Allowed Races** | [[/Races/Human]], [[/Races/Dwarf]] |
+| **Allowed Genders** | Male `♂️`, Female `♀️` |
+| **Allowed Alignments** | [[/Lawful]] `⚖️`, [[/Neutral]] `☯️` |
 
-- [[/Races/Human]]
-- [[/Races/Dwarf]]
-
-## Allowed Genders
-
-- Male
-- Female
-
-## Allowed Alignments
-
-- [[/Lawful]]
-- [[/Neutral]]
-
-## Class Traits
+## 🧬 Class Traits
 
 - Gains extra score from artifacts
 - Special achievement is to defeat Amonket, Ruler of Greater Mummies
 
-## Intrinsic Abilities
+## ⚡ Intrinsic Abilities
 
-| Level | Intrinsic Abilities |
-| :---: | :--------- |
-| 1 | Stealth, Speed |
-| 10 | Searching |
+| Level | Intrinsic |
+| :---: | :--- |
+| 1 | Stealth 👣, Speed 👟 |
+| 10 | Searching 🔍 |
 
-## Hit Points and Mana
+## ❤️ Hit Points and Mana
 
 | Stat | Starting Value | Increase Per Level |
-| :--- | :------------: | :----------------: |
-| Hit points | 11 | +1d8 (avg. +4.5) |
-| Mana | 1d4+3 (avg. 5.5) | +1d3+1 (avg. +3) |
+| :--- | :---: | :---: |
+| **Hit points ❤️** | 11 | +1d8 (avg. +4.5) |
+| **Mana 🔮** | 1d4+3 (avg. 5.5) | +1d3+1 (avg. +3) |
 
-## Skills
+## 📊 Skills
 
-### Combat Skills                                     
+### ⚔️ Combat Skills
 
 | Skill | Starting Level | Maximum Level |
 | :--- | :---: | :---: |
@@ -50,7 +41,7 @@ Lightly equipped explorer. The archaeologist starts with a touchstone, which can
 | [[/Skills/Two-handed weapon]] | Unskilled | Expert |
 | [[/Skills/Wand]] | Unskilled | Master |
 
-### Weapon Skills                                     
+### 🪓 Weapon Skills
 
 | Skill | Starting Level | Maximum Level |
 | :--- | :---: | :---: |
@@ -63,7 +54,7 @@ Lightly equipped explorer. The archaeologist starts with a touchstone, which can
 | [[/Skills/Thrown weapon]] | Unskilled | Expert |
 | [[/Skills/Whip]] | Basic | Grand Master |
 
-### Spell Casting Skills                              
+### 🧙 Spell Casting Skills
 
 | Skill | Starting Level | Maximum Level |
 | :--- | :---: | :---: |
@@ -74,16 +65,16 @@ Lightly equipped explorer. The archaeologist starts with a touchstone, which can
 | [[/Skills/Necromancy spell]] | Unskilled | Master |
 | [[/Skills/Transmutation spell]] | Unskilled | Master |
 
-### Miscellaneous Skills                                 
+### 🛠️ Miscellaneous Skills
 
 | Skill | Starting Level | Maximum Level | Notes |
 | :--- | :---: | :---: | :--- |
 | [[/Skills/Digging]] | Basic | Grand Master | Starts at Basic due to starting with a [[/Items/pick-axe]]. |
 | [[/Skills/Disarm trap]] | Unskilled | Master | |
 
-## Racial Adjustments
+## 👥 Racial Adjustments
 
-### Dwarf
+### ⛏️ Dwarf
 
 | Skill | Starting Level | Maximum Level |
 | :--- | :---: | :---: |

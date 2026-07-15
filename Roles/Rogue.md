@@ -1,47 +1,38 @@
 ![Rogue](/uploads/Roles/Rogue/rogue.webp)
 
-## Description
+> 👉 **The Rogue is a versatile combatant who starts with stealth and excels at sneak attacks and disarming traps.**
 
-Versatile warrior, adept at melee and ranged combat and at disarming traps.
+## 📋 Character Creation
 
-## Allowed Races
+| Property | Options |
+| :--- | :--- |
+| **Allowed Races** | [[/Races/Human]], [[/Races/Gnoll]], [[/Races/Orc]] |
+| **Allowed Genders** | Male `♂️`, Female `♀️` |
+| **Allowed Alignments** | [[/Chaotic]] `😈` |
 
-- [[/Races/Human]]
-- [[/Races/Gnoll]]
-- [[/Races/Orc]]
-
-## Allowed Genders
-
-- Male
-- Female
-
-## Allowed Alignments
-
-- [[/Chaotic]]
-
-## Class Traits
+## 🧬 Class Traits
 
 - Can backstab fleeing monsters
 - Gains extra score from gold and gems
 - Special achievement is to defeat Croesus
 
-## Intrinsic Abilities
+## ⚡ Intrinsic Abilities
 
-| Level | Intrinsic Abilities |
-| :---: | :--------- |
-| 1 | Stealth |
-| 10 | Searching |
+| Level | Intrinsic |
+| :---: | :--- |
+| 1 | Stealth 👣 |
+| 10 | Searching 🔍 |
 
-## Hit Points and Mana
+## ❤️ Hit Points and Mana
 
 | Stat | Starting Value | Increase Per Level |
-| :--- | :------------: | :----------------: |
-| Hit points | 10 | +1d8 (avg. +4.5) |
-| Mana | 1d2+3 (avg. 4.5) | +1d2+1 (avg. +2.5) |
+| :--- | :---: | :---: |
+| **Hit points ❤️** | 10 | +1d8 (avg. +4.5) |
+| **Mana 🔮** | 1d2+3 (avg. 4.5) | +1d2+1 (avg. +2.5) |
 
-## Skills
+## 📊 Skills
 
-### Combat Skills 
+### ⚔️ Combat Skills
 
 | Skill | Starting Level | Maximum Level |
 | :--- | :---: | :---: |
@@ -51,7 +42,7 @@ Versatile warrior, adept at melee and ranged combat and at disarming traps.
 | [[/Skills/Shield]] | Unskilled | Skilled |
 | [[/Skills/Wand]] | Unskilled | Expert |
 
-### Weapon Skills 
+### 🪓 Weapon Skills
 
 | Skill | Starting Level | Maximum Level |
 | :--- | :---: | :---: |
@@ -64,7 +55,7 @@ Versatile warrior, adept at melee and ranged combat and at disarming traps.
 | [[/Skills/Sword]] | Basic | Master |
 | [[/Skills/Thrown weapon]] | Basic | Grand Master |
 
-### Spell Casting Skills 
+### 🧙 Spell Casting Skills
 
 | Skill | Starting Level | Maximum Level |
 | :--- | :---: | :---: |
@@ -72,16 +63,16 @@ Versatile warrior, adept at melee and ranged combat and at disarming traps.
 | [[/Skills/Movement spell]] | Unskilled | Skilled |
 | [[/Skills/Transmutation spell]] | Unskilled | Skilled |
 
-### Miscellaneous Skills 
+### 🛠️ Miscellaneous Skills
 
 | Skill | Starting Level | Maximum Level |
 | :--- | :---: | :---: |
 | [[/Skills/Disarm trap]] | Basic | Grand Master |
 | [[/Skills/Riding]] | Unskilled | Skilled |
 
-## Racial Adjustments
+## 👥 Racial Adjustments
 
-### Gnoll
+### 🐺 Gnoll
 
 | Skill | Starting Level | Maximum Level |
 | :--- | :---: | :---: |

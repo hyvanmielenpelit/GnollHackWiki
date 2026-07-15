@@ -1,28 +1,26 @@
 ![Orc](/uploads/Races/Orc/orc.webp)
 
-## Description
+> 👉 **Orcs are physically robust combatants who start with infravision and poison resistance, practice cannibalism without penalty, but have reduced mental capacities.**
 
-Orcs start with poison resistance and do not suffer penalty for cannibalism. However, they have reduced mental attribute scores.
+## 💪 Attribute Scores
 
-## Attribute Scores
+| Attribute | Modifier | Maximum |
+| :--- | :---: | :---: |
+| **Strength 💪** | +0 | 18/50 |
+| **Dexterity 🎯** | +0 | 18 |
+| **Constitution 🔋** | +0 | 18 |
+| **Intelligence 🧠** | -2 | 16 |
+| **Wisdom 🦉** | -2 | 16 |
+| **Charisma ✨** | -2 | 16 |
 
-| Attribute Score | Modifier | Maximum |
-| :-------------- | :------: | :-----: |
-| Strength | +0 | 18/50 |
-| Dexterity | +0 | 18 |
-| Constitution | +0 | 18 |
-| Intelligence | -2 | 16 |
-| Wisdom | -2 | 16 |
-| Charisma | -2 | 16 |
-
-## Hit Points and Mana
+## ❤️ Hit Points and Mana
 
 | Stat | Starting Value | Increase Per Level |
-| :--- | :------------: | :----------------: |
-| Hit points | 15 | +1d3+1 (avg. +3) |
-| Mana | 1d3+1 (avg. 3) | +1 (avg. +1) |
+| :--- | :---: | :---: |
+| **Hit points ❤️** | 15 | +1d3+1 (avg. +3) |
+| **Mana 🔮** | 1d3+1 (avg. 3) | +1 (avg. +1) |
 
-## Racial Traits
+## 🧬 Racial Traits
 
 - Can practice cannibalism
 - Poison resistance
@@ -30,13 +28,13 @@ Orcs start with poison resistance and do not suffer penalty for cannibalism. How
 - Infravision
 - Orcs, goblins, and ogres may be peaceful to you
 
-## Allowed Alignments
+## ⚖️ Allowed Alignments
 
-- [[/Chaotic]]
+- 😈 [[/Chaotic]]
 
-## Character Classes
+## 🛡️ Character Classes
 
-- [[/Roles/Barbarian]]
-- [[/Roles/Ranger]]
-- [[/Roles/Rogue]]
-- [[/Roles/Wizard]]
+- 🪓 [[/Roles/Barbarian]]
+- 🏹 [[/Roles/Ranger]]
+- 🗡️ [[/Roles/Rogue]]
+- 🪄 [[/Roles/Wizard]]

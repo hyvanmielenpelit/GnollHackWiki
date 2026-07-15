@@ -1,56 +1,47 @@
 ![Monk](/uploads/Roles/Monk/monk.webp)
 
-## Description
+> 👉 **The Monk is a martial artist who practices vegetarianism and is adept at various spells.**
 
-Martial artist, adept at several spells.
+## 📋 Character Creation
 
-## Allowed Races
+| Property | Options |
+| :--- | :--- |
+| **Allowed Races** | [[/Races/Human]] |
+| **Allowed Genders** | Male `♂️`, Female `♀️` |
+| **Allowed Alignments** | [[/Lawful]] `⚖️`, [[/Neutral]] `☯️`, [[/Chaotic]] `😈` |
 
-- [[/Races/Human]]
+## 🧬 Class Traits
 
-## Allowed Genders
+- Vegetarianism
+- AC and MC bonus if without weapon, shield, and suit
+- No staggering blow when wearing a shield or suit
+- -30 to-hit penalty when wearing a suit
+- Gains 50% extra score from all conducts
+- Special achievement is to attain the level of Grand Master in Martial Arts
 
-- Male
-- Female
+## ⚡ Intrinsic Abilities
 
-## Allowed Alignments
-
-- [[/Lawful]]
-- [[/Neutral]]
-- [[/Chaotic]]
-
-## Class Traits                                          
-
-1. Vegetarianism
-2. AC and MC bonus if without weapon, shield, and suit
-3. No staggering blow when wearing a shield or suit
-4. -30 to-hit penalty when wearing a suit
-5. Gains 50% extra score from all conducts
-6. Special achievement is to attain the level of Grand Master in Martial Arts
-
-## Intrinsic Abilities
-
-| Level | Intrinsic Abilities |
-| :---: | :--------- |
-| 1 | Sleep resistance, Speed |
+| Level | Intrinsic |
+| :---: | :--- |
+| 1 | Sleep resistance 💤, Speed 👟 |
 | 4 | Half slower digestion |
-| 7 | Poison resistance |
-| 10 | Jumping |
-| 16 | Stealth |
-| 22 | Searching |
-| 28 | Warning |
-| 34 | Teleport control |
+| 7 | Poison resistance ☠️ |
+| 10 | Jumping 🦘 |
+| 16 | Stealth 👣 |
+| 22 | Searching 🔍 |
+| 28 | Warning ⚠️ |
+| 34 | Teleport control 🌀 |
 
-## Hit Points and Mana
+## ❤️ Hit Points and Mana
 
 | Stat | Starting Value | Increase Per Level |
-| :--- | :------------: | :----------------: |
-| Hit points | 12 | +1d8 (avg. +4.5) |
-| Mana | 1d4+4 (avg. 6.5) | +1d2+2 (avg. +3.5) |
+| :--- | :---: | :---: |
+| **Hit points ❤️** | 12 | +1d8 (avg. +4.5) |
+| **Mana 🔮** | 1d4+4 (avg. 6.5) | +1d2+2 (avg. +3.5) |
 
-## Skills
+## 📊 Skills
 
-### Combat Skills   
+### ⚔️ Combat Skills
 
 | Skill | Starting Level | Maximum Level |
 | :--- | :---: | :---: |
@@ -59,7 +50,7 @@ Martial artist, adept at several spells.
 | [[/Skills/Martial arts]] | Unskilled | Grand Master |
 | [[/Skills/Wand]] | Unskilled | Skilled |
 
-### Weapon Skills   
+### 🪓 Weapon Skills
 
 | Skill | Starting Level | Maximum Level |
 | :--- | :---: | :---: |
@@ -67,7 +58,7 @@ Martial artist, adept at several spells.
 | [[/Skills/Sling]] | Unskilled | Expert |
 | [[/Skills/Thrown weapon]] | Unskilled | Grand Master |
 
-### Spell Casting Skills  
+### 🧙 Spell Casting Skills
 
 | Skill | Starting Level | Maximum Level |
 | :--- | :---: | :---: |
@@ -77,7 +68,7 @@ Martial artist, adept at several spells.
 | [[/Skills/Healing spell]] | Unskilled | Grand Master |
 | [[/Skills/Movement spell]] | Basic | Grand Master |
 
-### Miscellaneous Skills
+### 🛠️ Miscellaneous Skills
 
 | Skill | Starting Level | Maximum Level |
 | :--- | :---: | :---: |

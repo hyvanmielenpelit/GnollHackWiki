@@ -1,49 +1,38 @@
 ![ranger](/uploads/Roles/Ranger/ranger.webp)
 
-## Description
+> 👉 **The Ranger is a potent and vigilant archer who excels at ranged combat.**
 
-Potent archer, adept at ranged combat.
+## 📋 Character Creation
 
-## Allowed Races
+| Property | Options |
+| :--- | :--- |
+| **Allowed Races** | [[/Races/Human]], [[/Races/Elf]], [[/Races/Gnoll]], [[/Races/Orc]] |
+| **Allowed Genders** | Male `♂️`, Female `♀️` |
+| **Allowed Alignments** | [[/Neutral]] `☯️`, [[/Chaotic]] `😈` |
 
-- [[/Races/Human]]
-- [[/Races/Elf]]
-- [[/Races/Gnoll]]
-- [[/Races/Orc]]
-
-## Allowed Genders
-
-- Male
-- Female
-
-## Allowed Alignments
-
-- [[/Neutral]]
-- [[/Chaotic]]
-
-## Class Traits
+## 🧬 Class Traits
 
 - Gains extra score from ranged weapons of at least artifact, elite, or mythic quality
 - Special achievement is to attain the level of Grand Master in Bows or Crossbows
 
-## Intrinsic Abilities
+## ⚡ Intrinsic Abilities
 
-| Level | Intrinsic Abilities |
-| :---: | :--------- |
-| 1 | Searching |
-| 7 | Stealth |
-| 15 | See invisible |
+| Level | Intrinsic |
+| :---: | :--- |
+| 1 | Searching 🔍 |
+| 7 | Stealth 👣 |
+| 15 | See invisible 👁️ |
 
-## Hit Points and Mana
+## ❤️ Hit Points and Mana
 
 | Stat | Starting Value | Increase Per Level |
-| :--- | :------------: | :----------------: |
-| Hit points | 13 | +1d9 (avg. +5) |
-| Mana | 1d2+3 (avg. 4.5) | +1d2+1 (avg. +2.5) |
+| :--- | :---: | :---: |
+| **Hit points ❤️** | 13 | +1d9 (avg. +5) |
+| **Mana 🔮** | 1d2+3 (avg. 4.5) | +1d2+1 (avg. +2.5) |
 
-## Skills
+## 📊 Skills
 
-### Combat Skills 
+### ⚔️ Combat Skills
 
 | Skill | Starting Level | Maximum Level |
 | :--- | :---: | :---: |
@@ -51,7 +40,7 @@ Potent archer, adept at ranged combat.
 | [[/Skills/Dodge]] | Unskilled | Skilled |
 | [[/Skills/Wand]] | Unskilled | Skilled |
 
-### Weapon Skills 
+### 🪓 Weapon Skills
 
 | Skill | Starting Level | Maximum Level |
 | :--- | :---: | :---: |
@@ -67,7 +56,7 @@ Potent archer, adept at ranged combat.
 | [[/Skills/Thrusting weapon]] | Basic | Expert |
 | [[/Skills/Whip]] | Unskilled | Basic |
 
-### Spell Casting Skills 
+### 🧙 Spell Casting Skills
 
 | Skill | Starting Level | Maximum Level |
 | :--- | :---: | :---: |
@@ -75,7 +64,7 @@ Potent archer, adept at ranged combat.
 | [[/Skills/Healing spell]] | Unskilled | Skilled |
 | [[/Skills/Nature spell]] | Unskilled | Skilled |
 
-### Miscellaneous Skills
+### 🛠️ Miscellaneous Skills
 
 | Skill | Starting Level | Maximum Level |
 | :--- | :---: | :---: |
@@ -83,9 +72,9 @@ Potent archer, adept at ranged combat.
 | [[/Skills/Disarm trap]] | Basic | Master |
 | [[/Skills/Riding]] | Unskilled | Grand Master |
 
-## Racial Adjustments
+## 👥 Racial Adjustments
 
-### Gnoll
+### 🐺 Gnoll
 
 | Skill | Starting Level | Maximum Level |
 | :--- | :---: | :---: |

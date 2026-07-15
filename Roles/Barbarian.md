@@ -1,48 +1,38 @@
 ![Barbarian](/uploads/Roles/Barbarian/barbarian.webp)
 
-## Description
+> 👉 **The Barbarian is a strong melee warrior with starting poison resistance, excelling in physical combat.**
 
-Strong melee warrior with poison resistance.
+## 📋 Character Creation
 
-## Allowed Races
+| Property | Options |
+| :--- | :--- |
+| **Allowed Races** | [[/Races/Human]], [[/Races/Gnoll]], [[/Races/Orc]] |
+| **Allowed Genders** | Male `♂️`, Female `♀️` |
+| **Allowed Alignments** | [[/Neutral]] `☯️`, [[/Chaotic]] `😈` |
 
-- [[/Races/Human]]
-- [[/Races/Gnoll]]
-- [[/Races/Orc]]
-
-## Allowed Genders
-
-- Male
-- Female
-
-## Allowed Alignments
-
-- [[/Neutral]]
-- [[/Chaotic]]
-
-## Class Traits
+## 🧬 Class Traits
 
 - Gains extra score from melee weapons of artifact or legendary quality
 - Special achievement is to find Stormbringer and Mournblade (Chaotic) or Vorpal Blade and Cleaver (Neutral)
 
-## Intrinsic Abilities
+## ⚡ Intrinsic Abilities
 
-| Level | Intrinsic Abilities |
-| :---: | :--------- |
-| 1 | Poison resistance |
-| 7 | Speed |
-| 14 | Stealth |
+| Level | Intrinsic |
+| :---: | :--- |
+| 1 | Poison resistance ☠️ |
+| 7 | Speed 👟 |
+| 14 | Stealth 👣 |
 
-## Hit Points and Mana
+## ❤️ Hit Points and Mana
 
 | Stat | Starting Value | Increase Per Level |
-| :--- | :------------: | :----------------: |
-| Hit points | 17 | +1d12 (avg. +6.5) |
-| Mana | 1d2 (avg. 1.5) | +1d2 (avg. +1.5) |
+| :--- | :---: | :---: |
+| **Hit points ❤️** | 17 | +1d12 (avg. +6.5) |
+| **Mana 🔮** | 1d2 (avg. 1.5) | +1d2 (avg. +1.5) |
 
-## Skills
+## 📊 Skills
 
-### Combat Skills                                                
+### ⚔️ Combat Skills
 
 | Skill | Starting Level | Maximum Level |
 | :--- | :---: | :---: |
@@ -52,7 +42,7 @@ Strong melee warrior with poison resistance.
 | [[/Skills/Shield]] | Unskilled | Expert |
 | [[/Skills/Two-handed weapon]] | Unskilled | Grand Master |
 
-### Weapon Skills                                                
+### 🪓 Weapon Skills
 
 | Skill | Starting Level | Maximum Level |
 | :--- | :---: | :---: |
@@ -68,7 +58,7 @@ Strong melee warrior with poison resistance.
 | [[/Skills/Thrown weapon]] | Unskilled | Master |
 | [[/Skills/Thrusting weapon]] | Unskilled | Expert |
 
-### Miscellaneous Skills                                            
+### 🛠️ Miscellaneous Skills
 
 | Skill | Starting Level | Maximum Level |
 | :--- | :---: | :---: |
@@ -76,9 +66,9 @@ Strong melee warrior with poison resistance.
 | [[/Skills/Disarm trap]] | Unskilled | Skilled |
 | [[/Skills/Riding]] | Unskilled | Master |
 
-## Racial Adjustments
+## 👥 Racial Adjustments
 
-### Gnoll
+### 🐺 Gnoll
 
 | Skill | Starting Level | Maximum Level |
 | :--- | :---: | :---: |

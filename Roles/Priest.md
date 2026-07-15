@@ -1,53 +1,42 @@
 ![Priest](/uploads/Roles/Priest/priest.webp)
 
-## Description
+> 👉 **The Priest (or Priestess) is an armored clerical spell caster who perceives the beatitude of items and can pray frequently.**
 
-Armored clerical spell caster, who automatically identifies the beautitude of items.
+## 📋 Character Creation
 
-## Allowed Races
+| Property | Options |
+| :--- | :--- |
+| **Allowed Races** | [[/Races/Human]], [[/Races/Elf]], [[/Races/Gnoll]] |
+| **Allowed Genders** | Male `♂️`, Female `♀️` |
+| **Allowed Alignments** | [[/Lawful]] `⚖️`, [[/Neutral]] `☯️`, [[/Chaotic]] `😈` |
 
-- [[/Races/Human]]
-- [[/Races/Elf]]
-- [[/Races/Gnoll]]
+## 🧬 Class Traits
 
-## Allowed Genders
+- Sees the beatitude of all objects
+- Can pray twice as often as normal
+- Gains extra score from learnt spells of unrestricted schools
+- Special achievement is to successfully cast a spell of level 10 or higher
 
-- Male
-- Female
+## ⚡ Intrinsic Abilities
 
-## Allowed Alignments
+| Level | Intrinsic |
+| :---: | :--- |
+| 7 | Warning of undead ⚠️ |
+| 10 | Warning of demons ⚠️ |
+| 13 | Warning of angels ⚠️ |
+| 16 | Curse resistance 💀 |
+| 19 | Death resistance 💀 |
 
-- [[/Lawful]]
-- [[/Neutral]]
-- [[/Chaotic]]
-
-## Class Traits
-
-1. Sees the beatitude of all objects
-2. Can pray twice as often as normal
-3. Gains extra score from learnt spells of unrestricted schools
-4. Special achievement is to successfully cast a spell of level 10 or higher
-
-## Intrinsic Abilities
-
-| Level | Intrinsic Abilities |
-| :---: | :--------- |
-| 7 | Warning of undead |
-| 10 | Warning of demons |
-| 13 | Warning of angels |
-| 16 | Curse resistance |
-| 19 | Death resistance |
-
-## Hit Points and Mana
+## ❤️ Hit Points and Mana
 
 | Stat | Starting Value | Increase Per Level |
-| :--- | :------------: | :----------------: |
-| Hit points | 12 | +1d7 (avg. +4) |
-| Mana | 1d3+6 (avg. 8) | +1d3+2 (avg. +4) |
+| :--- | :---: | :---: |
+| **Hit points ❤️** | 12 | +1d7 (avg. +4) |
+| **Mana 🔮** | 1d3+6 (avg. 8) | +1d3+2 (avg. +4) |
 
-## Skills
+## 📊 Skills
 
-### Combat Skills 
+### ⚔️ Combat Skills
 
 | Skill | Starting Level | Maximum Level |
 | :--- | :---: | :---: |
@@ -56,7 +45,7 @@ Armored clerical spell caster, who automatically identifies the beautitude of it
 | [[/Skills/Shield]] | Unskilled | Master |
 | [[/Skills/Wand]] | Unskilled | Skilled |
 
-### Weapon Skills 
+### 🪓 Weapon Skills
 
 | Skill | Starting Level | Maximum Level |
 | :--- | :---: | :---: |
@@ -66,7 +55,7 @@ Armored clerical spell caster, who automatically identifies the beautitude of it
 | [[/Skills/Sling]] | Unskilled | Expert |
 | [[/Skills/Thrown weapon]] | Unskilled | Skilled |
 
-### Spell Casting Skills 
+### 🧙 Spell Casting Skills
 
 | Skill | Starting Level | Maximum Level |
 | :--- | :---: | :---: |
@@ -82,7 +71,7 @@ Armored clerical spell caster, who automatically identifies the beautitude of it
 - <sup>2</sup> Neutral Priest only.
 - <sup>3</sup> Chaotic Priest only.
 
-### Miscellaneous Skills
+### 🛠️ Miscellaneous Skills
 
 | Skill | Starting Level | Maximum Level |
 | :--- | :---: | :---: |

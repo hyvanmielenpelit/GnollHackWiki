@@ -1,48 +1,40 @@
 ![Valkyrie](/uploads/Roles/Valkyrie/valkyrie.webp)
 
-## Description
+> 👉 **The Valkyrie is a strong female melee warrior who starts with stealth and cold resistance, and excels at dual wielding and shield use.**
 
-Strong female melee warrior, who starts with cold resistance and stealth.
+## 📋 Character Creation
 
-## Allowed Races
+| Property | Options |
+| :--- | :--- |
+| **Allowed Races** | [[/Races/Human]], [[/Races/Dwarf]] |
+| **Allowed Genders** | Female `♀️` |
+| **Allowed Alignments** | [[/Lawful]] `⚖️`, [[/Neutral]] `☯️` |
 
-- [[/Races/Human]]
-- [[/Races/Dwarf]]
-
-## Allowed Genders
-
-- Female
-
-## Allowed Alignments
-
-- [[/Lawful]]
-- [[/Neutral]]
-
-## Class Traits
+## 🧬 Class Traits
 
 - Can throw Mjollnir at 18/** strength or higher
 - Mjollnir returns to hand after having been thrown with a 100% chance
 - Gains extra score from celestial, primordial, or infernal items based on alignment
 - Special achievement is to attain the level of Grand Master in Dual Wielding
 
-## Intrinsic Abilities
+## ⚡ Intrinsic Abilities
 
-| Level | Intrinsic Abilities |
-| :---: | :--------- |
-| 1 | Stealth, 50% cold resistance |
-| 7 | Speed |
-| 15 | 50% shock resistance |
+| Level | Intrinsic |
+| :---: | :--- |
+| 1 | Stealth 👣, 50% cold resistance ❄️ |
+| 7 | Speed 👟 |
+| 15 | 50% shock resistance ⚡ |
 
-## Hit Points and Mana
+## ❤️ Hit Points and Mana
 
 | Stat | Starting Value | Increase Per Level |
-| :--- | :------------: | :----------------: |
-| Hit points | 14 | +1d10 (avg. +5.5) |
-| Mana | 1d2 (avg. 1.5) | +1d2 (avg. +1.5) |
+| :--- | :---: | :---: |
+| **Hit points ❤️** | 14 | +1d10 (avg. +5.5) |
+| **Mana 🔮** | 1d2 (avg. 1.5) | +1d2 (avg. +1.5) |
 
-## Skills
+## 📊 Skills
 
-### Combat Skills 
+### ⚔️ Combat Skills
 
 | Skill | Starting Level | Maximum Level |
 | :--- | :---: | :---: |
@@ -52,7 +44,7 @@ Strong female melee warrior, who starts with cold resistance and stealth.
 | [[/Skills/Shield]] | Basic | Grand Master |
 | [[/Skills/Wand]] | Unskilled | Basic |
 
-### Weapon Skills 
+### 🪓 Weapon Skills
 
 | Skill | Starting Level | Maximum Level |
 | :--- | :---: | :---: |
@@ -66,16 +58,16 @@ Strong female melee warrior, who starts with cold resistance and stealth.
 | [[/Skills/Thrown weapon]] | Unskilled | Expert |
 | [[/Skills/Thrusting weapon]] | Unskilled | Master |
 
-### Miscellaneous Skills 
+### 🛠️ Miscellaneous Skills
 
 | Skill | Starting Level | Maximum Level |
 | :--- | :---: | :---: |
 | [[/Skills/Disarm trap]] | Unskilled | Skilled |
 | [[/Skills/Riding]] | Unskilled | Expert |
 
-## Racial Adjustments
+## 👥 Racial Adjustments
 
-### Dwarf
+### ⛏️ Dwarf
 
 | Skill | Starting Level | Maximum Level |
 | :--- | :---: | :---: |

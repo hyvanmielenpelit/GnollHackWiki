@@ -1,47 +1,37 @@
 ![Wizard](/uploads/Roles/Wizard/wizard.webp)
 
-## Description
+> 👉 **The Wizard is a powerful spell caster who starts with several magical items and is capable of mastering various spell schools.**
 
-Powerful spell caster who can specialize in many spell schools.
+## 📋 Character Creation
 
-## Allowed Races
+| Property | Options |
+| :--- | :--- |
+| **Allowed Races** | [[/Races/Human]], [[/Races/Elf]], [[/Races/Orc]] |
+| **Allowed Genders** | Male `♂️`, Female `♀️` |
+| **Allowed Alignments** | [[/Neutral]] `☯️`, [[/Chaotic]] `😈` |
 
-- [[/Races/Human]]
-- [[/Races/Elf]]
-- [[/Races/Orc]]
-
-## Allowed Genders
-
-- Male
-- Female
-
-## Allowed Alignments
-
-- [[/Neutral]]
-- [[/Chaotic]]
-
-## Class Traits
+## 🧬 Class Traits
 
 - Gains extra score from learnt spells of unrestricted schools
 - Special achievement is to successfully cast a spell of level 10 or higher
 
-## Intrinsic Abilities
+## ⚡ Intrinsic Abilities
 
-| Level | Intrinsic Abilities |
-| :---: | :--------- |
-| 14 | Enhanced vision |
-| 19 | Teleport control |
+| Level | Intrinsic |
+| :---: | :--- |
+| 14 | Enhanced vision 👁️ |
+| 19 | Teleport control 🌀 |
 
-## Hit Points and Mana
+## ❤️ Hit Points and Mana
 
 | Stat | Starting Value | Increase Per Level |
-| :--- | :------------: | :----------------: |
-| Hit points | 10 | +1d6 (avg. +3.5) |
-| Mana | 1d3+8 (avg. 10) | +1d5+2 (avg. +5) |
+| :--- | :---: | :---: |
+| **Hit points ❤️** | 10 | +1d6 (avg. +3.5) |
+| **Mana 🔮** | 1d3+8 (avg. 10) | +1d5+2 (avg. +5) |
 
-## Skills
+## 📊 Skills
 
-### Combat Skills 
+### ⚔️ Combat Skills
 
 | Skill | Starting Level | Maximum Level |
 | :--- | :---: | :---: |
@@ -49,7 +39,7 @@ Powerful spell caster who can specialize in many spell schools.
 | [[/Skills/Dodge]] | Unskilled | Expert |
 | [[/Skills/Wand]] | Basic | Grand Master |
 
-### Weapon Skills 
+### 🪓 Weapon Skills
 
 | Skill | Starting Level | Maximum Level | Notes |
 | :--- | :---: | :---: | :--- |
@@ -58,7 +48,7 @@ Powerful spell caster who can specialize in many spell schools.
 | [[/Skills/Sword]] | Unskilled | Basic | |
 | [[/Skills/Thrown weapon]] | Unskilled | Skilled | |
 
-### Spell Casting Skills 
+### 🧙 Spell Casting Skills
 
 | Skill | Starting Level | Maximum Level |
 | :--- | :---: | :---: |
@@ -70,10 +60,9 @@ Powerful spell caster who can specialize in many spell schools.
 | [[/Skills/Movement spell]] | Unskilled | Grand Master |
 | [[/Skills/Transmutation spell]] | Basic | Grand Master |
 
-### Miscellaneous Skills
+### 🛠️ Miscellaneous Skills
 
 | Skill | Starting Level | Maximum Level |
 | :--- | :---: | :---: |
 | [[/Skills/Disarm trap]] | Unskilled | Basic |
 | [[/Skills/Riding]] | Unskilled | Basic |
-

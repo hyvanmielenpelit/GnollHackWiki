@@ -1,46 +1,38 @@
 ![Healer](/uploads/Roles/Healer/healer.webp)
 
-## Description
+> 👉 **The Healer is a rich physician who starts with poison resistance and excels at casting healing magic.**
 
-Rich physician, adept at healing spells.
+## 📋 Character Creation
 
-## Allowed Races
+| Property | Options |
+| :--- | :--- |
+| **Allowed Races** | [[/Races/Human]], [[/Races/Gnoll]] |
+| **Allowed Genders** | Male `♂️`, Female `♀️` |
+| **Allowed Alignments** | [[/Neutral]] `☯️` |
 
-- [[/Races/Human]]
-- [[/Races/Gnoll]]
-
-## Allowed Genders
-
-- Male
-- Female
-
-## Allowed Alignments
-
-- [[/Neutral]]
-
-## Class Traits
+## 🧬 Class Traits
 
 - Gains extra score from learnt spells of unrestricted schools
 - Special achievement is to successfully cast a healing or abjuration spell of level 9 or higher
 
-## Intrinsic Abilities
+## ⚡ Intrinsic Abilities
 
-| Level | Intrinsic Abilities |
-| :---: | :--------- |
-| 1 | Poison resistance |
-| 7 | Lycanthropy resistance |
-| 14 | Sickness resistance |
+| Level | Intrinsic |
+| :---: | :--- |
+| 1 | Poison resistance ☠️ |
+| 7 | Lycanthropy resistance 🐺 |
+| 14 | Sickness resistance 🤢 |
 
-## Hit Points and Mana
+## ❤️ Hit Points and Mana
 
 | Stat | Starting Value | Increase Per Level |
-| :--- | :------------: | :----------------: |
-| Hit points | 11 | +1d7 (avg. +4) |
-| Mana | 1d3+6 (avg. 8) | +1d3+2 (avg. +4) |
+| :--- | :---: | :---: |
+| **Hit points ❤️** | 11 | +1d7 (avg. +4) |
+| **Mana 🔮** | 1d3+6 (avg. 8) | +1d3+2 (avg. +4) |
 
-## Skills
+## 📊 Skills
 
-### Combat Skills                                    
+### ⚔️ Combat Skills
 
 | Skill | Starting Level | Maximum Level |
 | :--- | :---: | :---: |
@@ -48,7 +40,7 @@ Rich physician, adept at healing spells.
 | [[/Skills/Dodge]] | Unskilled | Skilled |
 | [[/Skills/Wand]] | Basic | Master |
 
-### Weapon Skills                                    
+### 🪓 Weapon Skills
 
 | Skill | Starting Level | Maximum Level |
 | :--- | :---: | :---: |
@@ -59,7 +51,7 @@ Rich physician, adept at healing spells.
 | [[/Skills/Sword]] | Unskilled | Skilled |
 | [[/Skills/Thrown weapon]] | Unskilled | Skilled |
 
-### Spell Casting Skills                             
+### 🧙 Spell Casting Skills
 
 | Skill | Starting Level | Maximum Level |
 | :--- | :---: | :---: |
@@ -68,15 +60,15 @@ Rich physician, adept at healing spells.
 | [[/Skills/Enchantment spell]] | Basic | Grand Master |
 | [[/Skills/Healing spell]] | Skilled | Grand Master |
 
-### Miscellaneous Skills                                
+### 🛠️ Miscellaneous Skills
 
 | Skill | Starting Level | Maximum Level |
 | :--- | :---: | :---: |
 | [[/Skills/Disarm trap]] | Unskilled | Skilled |
 
-## Racial Adjustments
+## 👥 Racial Adjustments
 
-### Gnoll
+### 🐺 Gnoll
 
 | Skill | Starting Level | Maximum Level |
 | :--- | :---: | :---: |
