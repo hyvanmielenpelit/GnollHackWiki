@@ -1,4 +1,4 @@
-![Archaeologist](/uploads/Roles/Archaeologist/archaeologist.webp)
+![Archaeologist](/uploads/Roles/Archaeologist/archaeologist-q85.webp)
 
 > 👉 **The Archaeologist is a lightly equipped explorer starting with useful tools like a pick-axe and a touchstone.**
 
