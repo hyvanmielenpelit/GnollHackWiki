@@ -35,14 +35,14 @@
 
 | Item | Quantity | Details |
 | :--- | :---: | :--- |
-| [[/Items/club]] | 1 | +3 enchantment; substituted with [[/Items/flail]] for [[/Races/Gnoll]] |
-| [[/Items/sling]] | 1 | +1 enchantment |
-| [[/Items/flint]] | 10-20 | Standard ammunition |
-| [[/Items/prayerstone]] | 1 | Blessed |
+| [[/Items/Club]] | 1 | +3 enchantment; substituted with [[/Items/flail]] for [[/Races/Gnoll]] |
+| [[/Items/Sling]] | 1 | +1 enchantment |
+| [[/Items/Flint]] | 10-20 | Standard ammunition |
+| [[/Items/Prayerstone]] | 1 | Blessed |
 | Random amulet | 1 | |
-| [[/Items/sack]] | 1 | |
-| [[/Items/food ration]] | 3 | Substituted with [[/Items/tripe ration]] for [[/Races/Gnoll]] |
-| [[/Items/leather armor]] | 1 | Substituted with [[/Items/gnollish leather armor]] for [[/Races/Gnoll]] |
+| [[/Items/Sack]] | 1 | |
+| [[/Items/Food ration]] | 3 | Substituted with [[/Items/tripe ration]] for [[/Races/Gnoll]] |
+| [[/Items/Leather armor]] | 1 | Substituted with [[/Items/gnollish leather armor]] for [[/Races/Gnoll]] |
 
 ## 📊 Skills
 

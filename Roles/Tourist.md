@@ -37,29 +37,29 @@
 
 | Item | Quantity | Details |
 | :--- | :---: | :--- |
-| [[/Items/dart]] | 20-40 | +3 enchantment |
-| [[/Items/golf club]] | 1 | +3 enchantment |
-| [[/Items/potion of extra-healing]] | 2 | |
-| [[/Items/scroll of magic mapping]] | 4 | |
+| [[/Items/Dart]] | 20-40 | +3 enchantment |
+| [[/Items/Golf club]] | 1 | +3 enchantment |
+| [[/Items/Potion of extra-healing]] | 2 | |
+| [[/Items/Scroll of magic mapping]] | 4 | |
 | [[/Items/Hawaiian shirt]] | 1 | +2 enchantment |
-| [[/Items/leather sandals]] | 1 | |
-| [[/Items/expensive camera]] | 1 | |
-| [[/Items/wand of teleportation]] | 1 | |
-| [[/Items/ring of teleport control]] | 1 | |
-| [[/Items/credit card]] | 1 | |
-| [[/Items/sunglasses]] | 1 | |
+| [[/Items/Leather sandals]] | 1 | |
+| [[/Items/Expensive camera]] | 1 | |
+| [[/Items/Wand of teleportation]] | 1 | |
+| [[/Items/Ring of teleport control]] | 1 | |
+| [[/Items/Credit card]] | 1 | |
+| [[/Items/Sunglasses]] | 1 | |
 | Random food items | 10 | Standard food items |
-| [[/Items/leather bag]] | 1 | Male tourists only |
-| [[/Items/expensive watch]] | 1 | Male tourists only |
-| [[/Items/expensive handbag]] | 1 | Female tourists only |
-| [[/Items/golden earrings]] | 1 | Female tourists only |
+| [[/Items/Leather bag]] | 1 | Male tourists only |
+| [[/Items/Expensive watch]] | 1 | Male tourists only |
+| [[/Items/Expensive handbag]] | 1 | Female tourists only |
+| [[/Items/Golden earrings]] | 1 | Female tourists only |
 
 Additionally:
 - Starts with 301-1000 gold pieces.
 - There is a chance to start with one of the following extra items (mutually exclusive):
-  - 4.0% chance: [[/Items/tin opener]]
-  - 3.84% chance: [[/Items/leash]]
-  - 3.69% chance: [[/Items/magic marker]]
+  - 4.0% chance: [[/Items/Tin opener]]
+  - 3.84% chance: [[/Items/Leash]]
+  - 3.69% chance: [[/Items/Magic marker]]
 
 *(Note: Human is the only allowed race for Tourists.)*
 

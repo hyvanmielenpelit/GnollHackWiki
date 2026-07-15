@@ -34,19 +34,19 @@
 
 | Item | Quantity | Details |
 | :--- | :---: | :--- |
-| [[/Items/short sword]] | 1 | Substituted with [[/Items/orcish short sword]] for [[/Races/Orc]], [[/Items/flail]] for [[/Races/Gnoll]] |
-| [[/Items/dagger]] | 5-10 | Substituted with [[/Items/orcish dagger]] for [[/Races/Orc]] |
-| [[/Items/hand crossbow]] | 1 | +1 enchantment; substituted with [[/Items/crossbow]] for [[/Races/Gnoll]] |
-| [[/Items/crossbow bolt]] | 12-20 | +1 enchantment; substituted with [[/Items/gnollish quarrel]] for [[/Races/Gnoll]] |
-| [[/Items/leather armor]] | 1 | +1 enchantment; substituted with [[/Items/gnollish leather armor]] for [[/Races/Gnoll]] |
-| [[/Items/cotton hood]] | 1 | Substituted with [[/Items/gnollish hood]] for [[/Races/Gnoll]] |
-| [[/Items/potion of poison]] | 1 | |
-| [[/Items/lock pick]] | 1 | |
-| [[/Items/bag of treasure hauling]] | 1 | |
+| [[/Items/Short sword]] | 1 | Substituted with [[/Items/orcish short sword]] for [[/Races/Orc]], [[/Items/flail]] for [[/Races/Gnoll]] |
+| [[/Items/Dagger]] | 5-10 | Substituted with [[/Items/orcish dagger]] for [[/Races/Orc]] |
+| [[/Items/Hand crossbow]] | 1 | +1 enchantment; substituted with [[/Items/crossbow]] for [[/Races/Gnoll]] |
+| [[/Items/Crossbow bolt]] | 12-20 | +1 enchantment; substituted with [[/Items/gnollish quarrel]] for [[/Races/Gnoll]] |
+| [[/Items/Leather armor]] | 1 | +1 enchantment; substituted with [[/Items/gnollish leather armor]] for [[/Races/Gnoll]] |
+| [[/Items/Cotton hood]] | 1 | Substituted with [[/Items/gnollish hood]] for [[/Races/Gnoll]] |
+| [[/Items/Potion of poison]] | 1 | |
+| [[/Items/Lock pick]] | 1 | |
+| [[/Items/Bag of treasure hauling]] | 1 | |
 
 Additionally:
 - Starts with 0 gold pieces.
-- There is a 20.0% chance to also start with: [[/Items/blindfold]]
+- There is a 20.0% chance to also start with: [[/Items/Blindfold]]
 
 **Racial Variations:**
 - [[/Races/Orc]] Rogues also start with 2 random food items.

@@ -33,23 +33,23 @@
 
 | Item | Quantity | Details |
 | :--- | :---: | :--- |
-| [[/Items/quarterstaff]] | 1 | +1 enchantment, blessed; 50% chance to start with this weapon and cloak set (with cloak of magic resistance) |
-| [[/Items/cloak of magic resistance]] | 1 | Blessed; 50% chance to start with this weapon and cloak set (with quarterstaff) |
-| [[/Items/staff of fire]] | 1 | +1 enchantment, blessed; 50% chance to start with this weapon and cloak set (with leather cloak) |
-| [[/Items/leather cloak]] | 1 | Blessed; 50% chance to start with this weapon and cloak set (with staff of fire) |
-| [[/Items/wizard's robe]] | 1 | +1 enchantment |
-| [[/Items/bag of wizardry]] | 1 | |
+| [[/Items/Quarterstaff]] | 1 | +1 enchantment, blessed; 50% chance to start with this weapon and cloak set (with cloak of magic resistance) |
+| [[/Items/Cloak of magic resistance]] | 1 | Blessed; 50% chance to start with this weapon and cloak set (with quarterstaff) |
+| [[/Items/Staff of fire]] | 1 | +1 enchantment, blessed; 50% chance to start with this weapon and cloak set (with leather cloak) |
+| [[/Items/Leather cloak]] | 1 | Blessed; 50% chance to start with this weapon and cloak set (with staff of fire) |
+| [[/Items/Wizard's robe]] | 1 | +1 enchantment |
+| [[/Items/Bag of wizardry]] | 1 | |
 | Random wand | 1 | |
 | Random ring | 2 | |
 | Random potion | 3 | |
 | Random scroll | 3 | |
-| [[/Items/Spellbooks/spellbook of magic arrow]] | 1 | Blessed |
-| [[/Items/Spellbooks/spellbook of shield]] | 1 | Blessed |
+| [[/Items/Spellbooks/Spellbook of magic arrow]] | 1 | Blessed |
+| [[/Items/Spellbooks/Spellbook of shield]] | 1 | Blessed |
 | Random spellbook | 1 | Blessed |
 
 Additionally, there are random chances to start with one of the following extra items (mutually exclusive):
-- 20.0% chance: [[/Items/magic marker]]
-- 16.0% chance: [[/Items/blindfold]]
+- 20.0% chance: [[/Items/Magic marker]]
+- 16.0% chance: [[/Items/Blindfold]]
 
 **Racial Variations:**
 - [[/Races/Elf]] Wizards also start with a random musical instrument (e.g. [[/Items/wooden flute]], [[/Items/brass horn]], [[/Items/wooden harp]], [[/Items/bell]], [[/Items/bugle]], or [[/Items/leather drum]]).

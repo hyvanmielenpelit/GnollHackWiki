@@ -43,21 +43,21 @@
 
 | Item | Quantity | Details |
 | :--- | :---: | :--- |
-| [[/Items/leather gloves]] | 1 | +1 enchantment |
-| [[/Items/simple gown]] | 1 | +1 enchantment |
-| [[/Items/potion of healing]] | 3 | |
-| [[/Items/food ration]] | 1 | |
-| [[/Items/apple]] | 1 | |
-| [[/Items/orange]] | 1 | |
-| [[/Items/handful of nuts]] | 1 | |
-| [[/Items/Spellbooks/spellbook of minor healing]] | 1 | Blessed |
-| [[/Items/Spellbooks/spellbook of create food]] | 1 | Blessed |
-| [[/Items/fortune cookie]] | 3 | |
-| [[/Items/oriental silk sack]] | 1 | |
+| [[/Items/Leather gloves]] | 1 | +1 enchantment |
+| [[/Items/Simple gown]] | 1 | +1 enchantment |
+| [[/Items/Potion of healing]] | 3 | |
+| [[/Items/Food ration]] | 1 | |
+| [[/Items/Apple]] | 1 | |
+| [[/Items/Orange]] | 1 | |
+| [[/Items/Handful of nuts]] | 1 | |
+| [[/Items/Spellbooks/Spellbook of minor healing]] | 1 | Blessed |
+| [[/Items/Spellbooks/Spellbook of create food]] | 1 | Blessed |
+| [[/Items/Fortune cookie]] | 3 | |
+| [[/Items/Oriental silk sack]] | 1 | |
 
 Additionally, there is a random chance to start with one of the following (mutually exclusive):
-- 20.0% chance: [[/Items/magic marker]]
-- 8.0% chance: [[/Items/oil lamp]] (+1 enchantment)
+- 20.0% chance: [[/Items/Magic marker]]
+- 8.0% chance: [[/Items/Oil lamp]] (+1 enchantment)
 
 *(Note: Human is the only allowed race for Monks.)*
 

@@ -36,14 +36,14 @@
 
 | Item | Quantity | Details |
 | :--- | :---: | :--- |
-| [[/Items/long sword]] | 1 | +1 enchantment; substituted with [[/Items/dwarvish axe]] for [[/Races/Dwarf]] |
-| [[/Items/dagger]] | 1 | With cold enchantment |
-| [[/Items/food ration]] | 1 | |
-| [[/Items/sack]] | 1 | |
-| [[/Items/spiked shield]] | 1 | 12.5% (1 in 8) chance to start with this shield (silver material); otherwise starts with standard spiked shield |
+| [[/Items/Long sword]] | 1 | +1 enchantment; substituted with [[/Items/dwarvish axe]] for [[/Races/Dwarf]] |
+| [[/Items/Dagger]] | 1 | With cold enchantment |
+| [[/Items/Food ration]] | 1 | |
+| [[/Items/Sack]] | 1 | |
+| [[/Items/Spiked shield]] | 1 | 12.5% (1 in 8) chance to start with this shield (silver material); otherwise starts with standard spiked shield |
 
 Additionally, there is a random chance to start with:
-- 16.7% (1 in 6) chance: [[/Items/oil lamp]] (+1 enchantment)
+- 16.7% (1 in 6) chance: [[/Items/Oil lamp]] (+1 enchantment)
 
 ## 📊 Skills
 

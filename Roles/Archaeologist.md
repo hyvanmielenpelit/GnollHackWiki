@@ -33,24 +33,24 @@
 
 | Item | Quantity | Details |
 | :--- | :---: | :--- |
-| [[/Items/bullwhip]] | 1 | +3 enchantment |
-| [[/Items/leather jacket]] | 1 | +2 enchantment |
-| [[/Items/hand crossbow]] | 1 | |
-| [[/Items/crossbow bolt]] | 12-20 | Standard |
-| [[/Items/crossbow bolt]] | 6 | With lightning enchantment |
-| [[/Items/fedora]] | 1 | |
-| [[/Items/food ration]] | 1 | |
-| [[/Items/handful of nuts]] | 1 | |
-| [[/Items/pick-axe]] | 1 | +2 enchantment |
-| [[/Items/tinning kit]] | 1 | |
-| [[/Items/wand of digging]] | 1 | |
-| [[/Items/touchstone]] | 1 | |
-| [[/Items/backpack]] | 1 | |
+| [[/Items/Bullwhip]] | 1 | +3 enchantment |
+| [[/Items/Leather jacket]] | 1 | +2 enchantment |
+| [[/Items/Hand crossbow]] | 1 | |
+| [[/Items/Crossbow bolt]] | 12-20 | Standard |
+| [[/Items/Crossbow bolt]] | 6 | With lightning enchantment |
+| [[/Items/Fedora]] | 1 | |
+| [[/Items/Food ration]] | 1 | |
+| [[/Items/Handful of nuts]] | 1 | |
+| [[/Items/Pick-axe]] | 1 | +2 enchantment |
+| [[/Items/Tinning kit]] | 1 | |
+| [[/Items/Wand of digging]] | 1 | |
+| [[/Items/Touchstone]] | 1 | |
+| [[/Items/Backpack]] | 1 | |
 
 Additionally, there is a random chance to start with one of the following (mutually exclusive):
-- 10.0% chance: [[/Items/tin opener]]
-- 22.5% chance: [[/Items/oil lamp]] (+1 enchantment)
-- 6.75% chance: [[/Items/magic marker]]
+- 10.0% chance: [[/Items/Tin opener]]
+- 22.5% chance: [[/Items/Oil lamp]] (+1 enchantment)
+- 6.75% chance: [[/Items/Magic marker]]
 
 ## 📊 Skills
 

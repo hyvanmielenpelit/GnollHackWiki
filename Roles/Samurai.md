@@ -35,16 +35,16 @@
 
 | Item | Quantity | Details |
 | :--- | :---: | :--- |
-| [[/Items/katana]] | 1 | |
-| [[/Items/short sword]] | 1 | Wakizashi |
-| [[/Items/yumi]] | 1 | Short bow |
-| [[/Items/ya]] | 25-45 | Arrows |
-| [[/Items/splint mail]] | 1 | |
-| [[/Items/oriental silk sack]] | 1 | |
-| [[/Items/food ration]] | 1 | |
+| [[/Items/Katana]] | 1 | |
+| [[/Items/Short sword]] | 1 | Wakizashi |
+| [[/Items/Yumi]] | 1 | Short bow |
+| [[/Items/Ya]] | 25-45 | Arrows |
+| [[/Items/Splint mail]] | 1 | |
+| [[/Items/Oriental silk sack]] | 1 | |
+| [[/Items/Food ration]] | 1 | |
 
 Additionally, there is a random chance to start with:
-- 20.0% chance: [[/Items/blindfold]]
+- 20.0% chance: [[/Items/Blindfold]]
 
 *(Note: Human is the only allowed race for Samurai.)*
 

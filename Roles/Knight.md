@@ -38,20 +38,20 @@
 
 | Item | Quantity | Details |
 | :--- | :---: | :--- |
-| [[/Items/long sword]] | 1 | +1 enchantment; substituted with [[/Items/dwarvish axe]] for [[/Races/Dwarf]] |
-| [[/Items/lance]] | 1 | +1 enchantment; substituted with [[/Items/dwarvish spear]] for [[/Races/Dwarf]] |
-| [[/Items/plate mail]] | 1 | |
-| [[/Items/helmet]] | 1 | Substituted with [[/Items/dwarvish helm]] for [[/Races/Dwarf]] |
-| [[/Items/apple]] | 2 | Substituted with [[/Items/champignon]] for [[/Races/Dwarf]] |
-| [[/Items/carrot]] | 2 | Substituted with [[/Items/penny bun]] for [[/Races/Dwarf]] |
-| [[/Items/leather bag]] | 1 | |
-| [[/Items/spiked shield]] | 1 | 12.5% (1 in 8) chance to start with this shield (silver material); otherwise starts with a small shield |
-| [[/Items/small shield]] | 1 | 87.5% chance to start with this shield; substituted with [[/Items/dwarvish roundshield]] for [[/Races/Dwarf]] |
-| [[/Items/gauntlets]] | 1 | 8.3% (1 in 12) chance to start with this gloves set (silver material); otherwise starts with leather gloves |
-| [[/Items/leather gloves]] | 1 | 91.7% chance to start with this gloves set |
-| [[/Items/jumping boots]] | 1 | 33.3% (1 in 3) chance to start with this boots set |
-| [[/Items/high boots]] | 1 | 33.3% (1 in 3) chance to start with this boots set |
-| [[/Items/low boots]] | 1 | 33.3% (1 in 3) chance to start with this boots set |
+| [[/Items/Long sword]] | 1 | +1 enchantment; substituted with [[/Items/dwarvish axe]] for [[/Races/Dwarf]] |
+| [[/Items/Lance]] | 1 | +1 enchantment; substituted with [[/Items/dwarvish spear]] for [[/Races/Dwarf]] |
+| [[/Items/Plate mail]] | 1 | |
+| [[/Items/Helmet]] | 1 | Substituted with [[/Items/dwarvish helm]] for [[/Races/Dwarf]] |
+| [[/Items/Apple]] | 2 | Substituted with [[/Items/champignon]] for [[/Races/Dwarf]] |
+| [[/Items/Carrot]] | 2 | Substituted with [[/Items/penny bun]] for [[/Races/Dwarf]] |
+| [[/Items/Leather bag]] | 1 | |
+| [[/Items/Spiked shield]] | 1 | 12.5% (1 in 8) chance to start with this shield (silver material); otherwise starts with a small shield |
+| [[/Items/Small shield]] | 1 | 87.5% chance to start with this shield; substituted with [[/Items/dwarvish roundshield]] for [[/Races/Dwarf]] |
+| [[/Items/Gauntlets]] | 1 | 8.3% (1 in 12) chance to start with this gloves set (silver material); otherwise starts with leather gloves |
+| [[/Items/Leather gloves]] | 1 | 91.7% chance to start with this gloves set |
+| [[/Items/Jumping boots]] | 1 | 33.3% (1 in 3) chance to start with this boots set |
+| [[/Items/High boots]] | 1 | 33.3% (1 in 3) chance to start with this boots set |
+| [[/Items/Low boots]] | 1 | 33.3% (1 in 3) chance to start with this boots set |
 
 ## 📊 Skills
 

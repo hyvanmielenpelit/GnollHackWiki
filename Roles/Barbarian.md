@@ -34,16 +34,16 @@
 
 | Item | Quantity | Details |
 | :--- | :---: | :--- |
-| [[/Items/two-handed sword]] | 1 | 50% chance to start with this weapon set (with axe) |
-| [[/Items/axe]] | 1 | 50% chance to start with this weapon set (with two-handed sword); substituted with [[/Items/flail]] for [[/Races/Gnoll]] |
-| [[/Items/battle-axe]] | 1 | 50% chance to start with this weapon set (with short sword) |
-| [[/Items/short sword]] | 1 | 50% chance to start with this weapon set (with battle-axe); substituted with [[/Items/flail]] for [[/Races/Gnoll]], [[/Items/orcish short sword]] for [[/Races/Orc]] |
-| [[/Items/ring mail]] | 1 | Substituted with [[/Items/gnollish leather armor]] for [[/Races/Gnoll]], [[/Items/orcish ring mail]] for [[/Races/Orc]] |
-| [[/Items/sack]] | 1 | |
-| [[/Items/food ration]] | 1 | Substituted with [[/Items/tripe ration]] for [[/Races/Gnoll]] |
+| [[/Items/Two-handed sword]] | 1 | 50% chance to start with this weapon set (with axe) |
+| [[/Items/Axe]] | 1 | 50% chance to start with this weapon set (with two-handed sword); substituted with [[/Items/flail]] for [[/Races/Gnoll]] |
+| [[/Items/Battle-axe]] | 1 | 50% chance to start with this weapon set (with short sword) |
+| [[/Items/Short sword]] | 1 | 50% chance to start with this weapon set (with battle-axe); substituted with [[/Items/flail]] for [[/Races/Gnoll]], [[/Items/orcish short sword]] for [[/Races/Orc]] |
+| [[/Items/Ring mail]] | 1 | Substituted with [[/Items/gnollish leather armor]] for [[/Races/Gnoll]], [[/Items/orcish ring mail]] for [[/Races/Orc]] |
+| [[/Items/Sack]] | 1 | |
+| [[/Items/Food ration]] | 1 | Substituted with [[/Items/tripe ration]] for [[/Races/Gnoll]] |
 
 Additionally, there is a random chance to start with:
-- 16.7% (1 in 6) chance: [[/Items/oil lamp]] (+1 enchantment)
+- 16.7% (1 in 6) chance: [[/Items/Oil lamp]] (+1 enchantment)
 
 **Racial Variations:**
 - [[/Races/Orc]] Barbarians also start with 2 random food items.
