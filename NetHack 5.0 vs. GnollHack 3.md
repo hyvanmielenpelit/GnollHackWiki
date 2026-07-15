@@ -1,4 +1,4 @@
-> 👉 **Which one should you play? A comparison between mainline *NetHack 5.0* (the traditional hardcore classic) and *GnollHack 3* (the modern, visual variant) to help you choose the right style of dungeon crawl.**
+> 👉 **Which one should you play? In this page, there's a comparison between mainline *NetHack 5.0* (the traditional hardcore classic) and *GnollHack 3* (the modern, visual variant) to help you choose the right style of dungeon crawl.**
 
 ## 🧬 How They Are Related
 
