@@ -1,4 +1,4 @@
-![Elf](/uploads/Races/Elf/elf.webp)
+![Elf](/uploads/Races/Elf/elf-q85.webp)
 
 > 👉 **Elves are highly intelligent spell casters who start with infravision and gain sleep resistance and free action as they level up.**
 
