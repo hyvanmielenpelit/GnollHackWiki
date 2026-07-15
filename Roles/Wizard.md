@@ -53,8 +53,6 @@ Additionally, there are random chances to start with one of the following extra 
 
 ## 🪄 Starting Spells
 
-These spells are automatically learned at the start of the game.
-
 - [[/Spells/Magic arrow]]
 - [[/Spells/Shield]]
 - 1 Random spell (level -1–3)

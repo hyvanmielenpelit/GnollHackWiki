@@ -61,8 +61,6 @@ Additionally, there is a random chance to start with one of the following (mutua
 
 ## 🪄 Starting Spells
 
-These spells are automatically learned at the start of the game.
-
 - [[/Spells/Minor healing]]
 - [[/Spells/Create food]]
 - 1 Random [[Abjuration spell|/Abjuration Spells]] (level -1–4)

@@ -60,8 +60,6 @@ Additionally, there are random chances to start with:
 
 ## 🪄 Starting Spells
 
-These spells are automatically learned at the start of the game.
-
 - [[/Spells/Minor healing]]
 - [[/Spells/Healing]]
 - [[/Spells/Congregate]]

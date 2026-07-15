@@ -58,8 +58,6 @@ Additionally:
 
 ## 🪄 Starting Spells
 
-These spells are automatically learned at the start of the game.
-
 - [[/Spells/Minor healing]]
 - [[/Spells/Healing]]
 - [[/Spells/Extra healing]]

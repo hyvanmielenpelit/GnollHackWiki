@@ -46,8 +46,6 @@
 
 ## 🪄 Starting Spells
 
-These spells are automatically learned at the start of the game.
-
 - 1 Random [[Nature spell|/Nature Spells]] (level -1–4)
 
 ## 📊 Skills
