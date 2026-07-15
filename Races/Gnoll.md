@@ -1,4 +1,4 @@
-![Gnoll](/uploads/Races/Gnoll/gnoll.webp)
+![Gnoll](/uploads/Races/Gnoll/gnoll-q85.webp)
 
 > 👉 **Gnolls are a versatile, highly perceptive race who start with lycanthropy immunity, can smell rotten food and underground roots, and have unique relations with other gnolls.**
 
