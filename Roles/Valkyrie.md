@@ -1,4 +1,4 @@
-![Valkyrie](/uploads/Roles/Valkyrie/valkyrie.webp)
+![Valkyrie](/uploads/Roles/Valkyrie/valkyrie-q85.webp)
 
 > 👉 **The Valkyrie is a strong female melee warrior who starts with stealth and cold resistance, and excels at dual wielding and shield use.**
 
