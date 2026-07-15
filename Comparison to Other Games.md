@@ -1,3 +1,5 @@
+![Comparison to Other Games](/uploads/Comparison%20to%20Other%20Games/comparison-to-other-games-q85.webp)
+
 > 👉 **This page contains articles comparing GnollHack to vanilla NetHack, other NetHack variants, and other roguelike games.**
 
 - **[[How GnollHack differs from NetHack]]** — A short article on how the development work put into GnollHack has improved the game
