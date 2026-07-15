@@ -77,10 +77,3 @@ Powerful spell caster who can specialize in many spell schools.
 | [[/Skills/Disarm trap]] | Unskilled | Basic |
 | [[/Skills/Riding]] | Unskilled | Basic |
 
-## Racial Adjustments
-
-### Gnoll
-
-| Skill | Starting Level | Maximum Level |
-| :--- | :---: | :---: |
-| [[/Skills/Flail]] | Unskilled | Skilled |
