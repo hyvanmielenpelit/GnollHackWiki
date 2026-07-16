@@ -1,4 +1,4 @@
-> 👉 **GnollHack features seven difficulty levels, ranging from Standard (very easy) to Grand Master (extremely challenging). This guide outlines the mechanical differences between each difficulty, helping you choose the right challenge level.**
+> 👉 **GnollHack features seven difficulty levels, ranging from Standard to Grand Master. This guide outlines the mechanical differences between each difficulty, helping you choose the right challenge level.**
 
 ## 📊 Combat & Score Modifiers
 
