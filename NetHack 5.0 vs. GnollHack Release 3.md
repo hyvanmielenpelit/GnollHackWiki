@@ -18,11 +18,12 @@
 | **Modern OS Support**<sup>1</sup> | • Windows<br />• Linux<sup>2</sup> | • Android<br />• iOS<br />• macOS<br />• Windows |
 | **Store Availability** | ❌ None | • **Steam** (Windows)<br />• **Google Play Store** (Android)<br />• **Apple App Store** (iOS and macOS) |
 | **Public Servers (Play over SSH)** | ✅ Yes | ✅ Yes (see [[Public Servers]]) |
-| **NetHack Scoreboard (Local Clients)** | ❌ No (local clients can't provide results there) | ✅ Yes (through the [[GnollHack Account]] server) |
-| **NetHack Scoreboard (Public Servers)** | ✅ Yes | ✅ Yes |
+| **NetHack Scoreboard<sup>3</sup> (Local Clients)** | ❌ No (local clients can't provide results there) | ✅ Yes (through the [[GnollHack Account]] server) |
+| **NetHack Scoreboard<sup>3</sup> (Public Servers)** | ✅ Yes | ✅ Yes |
 
 - <sup>1</sup> Official precompiled binaries exist and can be downloaded from official sources.
 - <sup>2</sup> Depends on availability in Linux distributions' package repositories.
+- <sup>3</sup> The [NetHack Scoreboard](https://nethackscoreboard.org/) is an online leaderboard for NetHack variants.
 
 ## 🎯 Meta-Level Comparison
 
