@@ -1,62 +1,48 @@
-## Standard
+> 👉 **GnollHack features seven difficulty levels, ranging from Standard (very easy) to Grand Master (extremely challenging). This guide outlines the mechanical differences between each difficulty, helping you choose the right challenge level.**
 
-- Combat difficulty 10%
-    - Monsters deal 35% of normal damage
-    - You deal 350% normal damage
-- Starts with 4 scrolls of identify
-- Starts with a scroll of remove curse
-- Starts with a wand of probing
-- **Displays gameplay hints**
-- Starting stash contains 2 manuals
+> ℹ️ **Note:** The percentages below are shown with truncated values from the game's C codebase. Following standard formatting, values less than 10 use one decimal place of precision, while values 10 or greater use no decimals.
 
-## Experienced
+## 📊 Combat & Score Modifiers
 
-- Combat difficulty 18%
-    - Monsters deal 46% of normal damage
-    - You deal 256% normal damage
-- Starts with 3 scrolls of identify
-- Starts with a scroll of remove curse
-- Starts with a wand of probing
-- **Displays gameplay hints**
-- Starting stash contains 2 manuals
+| Difficulty Level | Combat Difficulty | Monsters Deal | You Deal | Score Multiplier |
+| --- | --- | --- | --- | --- |
+| [[/Difficulties/Standard]] | 9.9% | 35% of normal | 350% of normal | 1.0% |
+| [[/Difficulties/Experienced]] | 17% | 45% of normal | 255% of normal | 3.3% |
+| [[/Difficulties/Adept]] | 31% | 59% of normal | 187% of normal | 10% |
+| [[/Difficulties/Veteran]] | 56% | 76% of normal | 136% of normal | 33% |
+| [[/Difficulties/Expert]] | 100% | 100% (normal) | 100% (normal) | 100% |
+| [[/Difficulties/Master]] | 177% | 130% of normal | 73% of normal | 200% |
+| [[/Difficulties/Grand Master]] | 316% | 169% of normal | 53% of normal | 400% |
 
-## Adept
+## 🎒 Starting Resources
 
-- Combat difficulty 31%
-    - Monsters deal 59% of normal damage
-    - You deal 187% normal damage
-- Starts with 2 scrolls of identify
-- Starts with a wand of probing
-- **Displays gameplay hints**
-- Starting stash contains 2 manuals
+| Difficulty Level | Starting Inventory | Starting Stash (Dlvl 1 Chest) |
+| --- | --- | --- |
+| [[/Difficulties/Standard]] | 4 × [[/Items/Scroll of identify]]<br />1 × [[/Items/Scroll of remove curse]]<br />1 × [[/Items/Wand of probing]] | 2 × [[/Manuals and Catalogues]]<br />2–3 random identified items |
+| [[/Difficulties/Experienced]] | 3 × [[/Items/Scroll of identify]]<br />1 × [[/Items/Scroll of remove curse]]<br />1 × [[/Items/Wand of probing]] | 2 × [[/Manuals and Catalogues]]<br />2–3 random identified items |
+| [[/Difficulties/Adept]] | 2 × [[/Items/Scroll of identify]]<br />1 × [[/Items/Wand of probing]] | 2 × [[/Manuals and Catalogues]]<br />2–3 random identified items |
+| [[/Difficulties/Veteran]] | 1 × [[/Items/Scroll of identify]]<br />1 × [[/Items/Wand of probing]] | 2 × [[/Manuals and Catalogues]]<br />2–3 random identified items |
+| [[/Difficulties/Expert]] | 1 × [[/Items/Scroll of identify]] | 2–3 random identified items |
+| [[/Difficulties/Master]] | 1 × [[/Items/Scroll of identify]] | 2–3 random identified items |
+| [[/Difficulties/Grand Master]] | 1 × [[/Items/Scroll of identify]] | 2–3 random identified items |
 
-## Veteran
+## 🕹️ Gameplay Assistance & Adjustments
 
-- Combat difficulty 56%
-    - Monsters deal 77% of normal damage
-    - You deal 137% of normal damage
-- Starts with a scroll of identify
-- Starts with a wand of probing
-- **Displays gameplay hints**
-- Starting stash contains 2 manuals
+| Difficulty Level | Gameplay Hints | Level Gen Adjustments | Lindisse Spawn Chance |
+| --- | --- | --- | --- |
+| [[/Difficulties/Standard]] | Yes | No Dlvl 1–2 secret passages<br />No Dlvl 1 traps | 100% |
+| [[/Difficulties/Experienced]] | Yes | No Dlvl 1–2 secret passages<br />No Dlvl 1 traps | 33% |
+| [[/Difficulties/Adept]] | Yes | No Dlvl 1–2 secret passages<br />No Dlvl 1 traps | 20% |
+| [[/Difficulties/Veteran]] | Yes | No Dlvl 1–2 secret passages<br />No Dlvl 1 traps | 14% |
+| [[/Difficulties/Expert]] | No | Normal generation | 5.0% |
+| [[/Difficulties/Master]] | No | Normal generation | 0.8% |
+| [[/Difficulties/Grand Master]] | No | Normal generation | 0.4% |
 
-## Expert
+## 🛐 Prayer Safety
 
-- Combat difficulty 100%
-    - Monsters deal normal damage
-    - You deal normal damage
-- Starts with a scroll of identify
-
-## Master
-
-- Combat difficulty 178%
-    - Monsters deal 130% of normal damage
-    - You deal 73% of normal damage
-- Starts with a scroll of identify
-
-## Grand master
-
-- Combat difficulty 317%
-    - Monsters deal 169% of normal damage
-    - You deal 53% of normal damage
-- Starts with a scroll of identify
+| Difficulty Level | Prayer Safety Details |
+| --- | --- |
+| [[/Difficulties/Standard]] | Prompts confirmation for all prayers to prevent accidental slips of Pray (`Alt+p`), warns if praying too early, and warns if attempting to pray in Gehennom (where praying is normally fatal). |
+| [[/Difficulties/Experienced]] | Warns if praying too early in the game (before the starting prayer timeout has expired). |
+| [[/Difficulties/Adept]] | Warns if praying too early in the game (before the starting prayer timeout has expired). |
+| [[/Difficulties/Veteran]] | Warns if praying too early in the game (before the starting prayer timeout has expired). |

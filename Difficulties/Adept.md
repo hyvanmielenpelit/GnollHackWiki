@@ -1,7 +1,7 @@
-- Monsters deal 59% of normal damage and
+- Monsters deal 59% of normal damage
 - You deal 187% of normal damage
-- 2 [[scrolls of identify|/Items/scroll of identify]] in the starting inventory
-- A [[/Items/wand of probing]] in the starting inventory
-- 2 random manuals in the starting stash
+- 2 × [[/Items/Scroll of identify]] in the starting inventory
+- 1 × [[/Items/Wand of probing]] in the starting inventory
+- 2 × [[/Manuals and Catalogues]] in the starting stash
 - Hints are shown during gameplay
-- Lindisse, elven bard, has a 20% chance of appearing in the game on each dungeon level (beyond the first), unless there is a shop on the level
+- Lindisse, elven bard, has a 20% (1 in 5) chance of appearing in the game on each dungeon level (beyond the first), unless there is a shop on the level
