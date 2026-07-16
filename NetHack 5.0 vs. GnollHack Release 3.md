@@ -15,15 +15,11 @@
 | Topic | NetHack 5.0 | GnollHack Release 3 |
 | :--- | :--- | :--- |
 | **Release Date** | 📅 May 2, 2026 | 📅 July 11, 2026 (Version 3.1) |
-| **Modern OS Support**<sup>1</sup> | • Windows<br />• Linux<sup>2</sup> | • Android<br />• iOS<br />• macOS<br />• Windows |
+| **Modern OS Support**<sup>1</sup> | • Linux<sup>2</sup><br />• Windows | • Android<br />• iOS<br />• macOS<br />• Windows |
 | **Store Availability** | ❌ None | • **Steam** (Windows)<br />• **Google Play Store** (Android)<br />• **Apple App Store** (iOS and macOS) |
-| **Public Servers (Play over SSH)** | ✅ Yes | ✅ Yes (see [[Public Servers]]) |
-| **NetHack Scoreboard<sup>3</sup> (Local Clients)** | ❌ No (local clients cannot upload results there) | ✅ Yes (through the [[GnollHack Account]] server) |
-| **NetHack Scoreboard<sup>3</sup> (Public Servers)** | ✅ Yes | ✅ Yes |
 
 - <sup>1</sup> Official precompiled binaries exist and can be downloaded from official sources.
 - <sup>2</sup> Depends on availability in Linux distributions' package repositories.
-- <sup>3</sup> The [NetHack Scoreboard](https://nethackscoreboard.org/) is an online leaderboard for NetHack variants.
 
 ## 🎯 Meta-Level Comparison
 
@@ -67,6 +63,18 @@ If you already have a few ascensions under your belt in NetHack, NetHack 5.0 wil
 | **Boss Covetousness** | 🏃‍♂️ Bosses constantly teleport away to heal and may steal your quest artifact. | ⚔️ The frustrating teleportation mechanic is **removed from almost all monsters**. |
 | **Attribute Gains (Stats)** | 🏋️ Attributes increase slowly and semi-randomly through hidden "exercise" actions. | 🍎 Attributes increase **instantly** upon eating specific corpses or fruits. The exercise mechanic has been removed. |
 | **Playable Races** | 🧙 Gnomes are a playable race. | 🐺 Gnomes are replaced entirely by the playable **[[/Races/Gnoll]]** race, featuring unique stats, traits, and gear. |
+
+### Online Play and Leaderboard Support
+
+
+| Topic | NetHack 5.0 | GnollHack Release 3 |
+| :--- | :--- | :--- |
+| **Play ASCII Version over SSH on Public Servers** | ✅ Yes | ✅ Yes<sup>1</sup> (see [[Public Servers]]) |
+| **NetHack Scoreboard<sup>2</sup> (Local Clients)** | ❌ No | ✅ Yes (through the [[GnollHack Account]] server) |
+| **NetHack Scoreboard<sup>2</sup> (Public Servers)** | ✅ Yes | ✅ Yes |
+
+- <sup>1</sup> Playing the ASCII version online over SSH is considered as a **legacy way** to experience GnollHack.
+- <sup>2</sup> The [NetHack Scoreboard](https://nethackscoreboard.org/) is an online leaderboard for NetHack variants.
 
 ## 💡 Conclusions
 
