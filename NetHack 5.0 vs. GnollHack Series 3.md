@@ -1,6 +1,6 @@
-![NetHack 5.0 vs. GnollHack Series 3](/uploads/NetHack%205/nethack5-vs-gnollhack3-q85.webp)
+![NetHack 5.0 vs. GnollHack (Series 3)](/uploads/NetHack%205/nethack5-vs-gnollhack3-q85.webp)
 
-> 👉 **Which one should you play? This page compares mainline *NetHack 5.0* (the traditional hardcore classic) and *GnollHack Series 3* (the modern, visual variant) to help you choose the right style of dungeon crawl.**
+> 👉 **Which one should you play? This page compares mainline *NetHack 5.0* (the traditional hardcore classic) and *GnollHack (Series 3)* (the modern, visual variant) to help you choose the right style of dungeon crawl.**
 
 ## 🧬 How They Are Related
 
@@ -8,11 +8,11 @@
 - **Shared Roots:** Both games share the same fundamental dungeon structures and basic monster classes.
 - **The Divergence:** NetHack 5.0 refines the hardcore, classic keyboard-driven experience, while GnollHack rebuilds the engine to support modern graphics, music, sounds, voiceovers, touchscreen-friendly controls, and mobile operating systems.
 
-> ℹ️ **Note:** GnollHack uses a dual versioning scheme. The modern port's version 3.x translates directly to the core version 4.3.0 Build x. For example, modern port version 3.1 corresponds to core version 4.3.0 Build 1. *GnollHack Series 3* refers to modern port versions 3.x and to core versions 4.3.0 Build x.
+> ℹ️ **Note:** GnollHack uses a dual versioning scheme. The modern port's version 3.x translates directly to the core version 4.3.0 Build x. For example, modern port version 3.1 corresponds to core version 4.3.0 Build 1. *GnollHack (Series 3)* refers to modern port versions 3.x and to core versions 4.3.0 Build x.
 
 ## 🎯 Meta-Level Comparison
 
-| Topic | NetHack 5.0 | GnollHack Series 3 |
+| Topic | NetHack 5.0 | GnollHack (Series 3) |
 | :--- | :--- | :--- |
 | **Core Philosophy** | 📖 An uncompromising fantasy simulation that prioritizes mechanical depth, player discovery, and high-stakes survival. | ✨ A modern reimagining that lowers the barrier to entry by blending classic roguelike systems with contemporary RPG design and rich presentation. |
 | **Target Audience** | 🎖️ Purists, veterans, and fans of classic ASCII/keyboard-driven gaming. | 📱 Beginners, mobile gamers, and players seeking a fresh, audiovisual tactical experience. |
@@ -22,7 +22,7 @@
 
 ## ⚖️ High-Level Comparison
 
-| Feature | NetHack 5.0 | GnollHack Series 3 |
+| Feature | NetHack 5.0 | GnollHack (Series 3) |
 | :--- | :--- | :--- |
 | **Difficulty Options** | 📈 Single, steep difficulty curve. Permadeath is mandatory. | 🌟 7 difficulty levels. Includes [[Casual Mode]] and [[Modern Mode]] where permadeath is optional. |
 | **Graphics & UI** | 🖥️ ASCII graphics or simple static 2D tiles. Traditional terminal UI. | ✨ Modern UI optimized for desktop and mobile. High-res animated graphics (23,000+ base tiles). |
@@ -32,7 +32,7 @@
 
 ## ⚔️ Gameplay & Mechanics
 
-| Feature | NetHack 5.0 | GnollHack Series 3 |
+| Feature | NetHack 5.0 | GnollHack (Series 3) |
 | :--- | :--- | :--- |
 | **The Economy** | 🪙 Gold has very limited uses. | 💰 Gold is highly valuable and is used to pay NPCs to identify items, heal the player, or provide services. |
 | **Item Loot & Gear** | 🗡️ Standard item list. Basic enchantments (+1, +2, etc.). | 💎 ARPG-style loot. Weapons spawn with quality tiers (Exceptional, Elite, Celestial) and Mythic/Legendary affixes. |
@@ -43,9 +43,9 @@
 
 ## 🎖️ Details for NetHack Veterans
 
-If you already have a few ascensions under your belt in NetHack, NetHack 5.0 will feel like coming home. However, GnollHack Series 3 introduces major mechanical shifts that will challenge your muscle memory:
+If you already have a few ascensions under your belt in NetHack, NetHack 5.0 will feel like coming home. However, GnollHack (Series 3) introduces major mechanical shifts that will challenge your muscle memory:
 
-| Feature | NetHack 5.0 | GnollHack Series 3 |
+| Feature | NetHack 5.0 | GnollHack (Series 3) |
 | :--- | :--- | :--- |
 | **Magic Cancellation (MC)** | 🧥 Determined by a single item (typically the cloak). | 🛡️ It stacks cumulatively across **all equipped gear** and acts as a saving throw against magical touch effects. |
 | **Instant Deaths** | ☠️ Deadly events like drowning can end your run instantly. | ⏱️ **Usually delayed.** You get several turns of grace to react and save yourself. |
@@ -57,4 +57,4 @@ If you already have a few ascensions under your belt in NetHack, NetHack 5.0 wil
 
 📜 **Play NetHack 5.0 if:** You want the quintessential, brutal, classic ASCII roguelike experience. It is the definitive update to the traditional formula, perfect for purists who enjoy meticulous resource management and a steep, unforgiving learning curve.
 
-🕹️ **Play GnollHack Series 3 if:** You want a deeply tactical, modern RPG experience with beautiful graphics, music, and voice acting. It massively improves the gameplay experience by introducing ARPG-style loot, seven difficulty levels, and a vast new spell system.
+🕹️ **Play GnollHack (Series 3) if:** You want a deeply tactical, modern RPG experience with beautiful graphics, music, and voice acting. It massively improves the gameplay experience by introducing ARPG-style loot, seven difficulty levels, and a vast new spell system.
