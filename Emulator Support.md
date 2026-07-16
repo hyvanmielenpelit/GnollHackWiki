@@ -8,14 +8,6 @@ This is a list of emulators, which we have tried with GnollHack.
 
 Works but some icons are of wrong size.
 
-### iOS Version
-
-#### ✅ macOS Native iOS Support
-
-*(Apple Silicon Macs with M1 or later processor)*
-
-Works but keyboard shortcuts do not work.
-
 ## Unsupported Emulators
 
 ### Modern Windows Version

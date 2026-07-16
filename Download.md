@@ -10,15 +10,13 @@ Google Play and the Google Play logo are trademarks of Google LLC.
 
 <a href="https://apps.apple.com/app/gnollhack/id1626979951">![Download on the App Store](/uploads/Download/app-store-q90.webp)</a>
 
-You can play the iOS version on Macs with M1 or later processor.
-
-ℹ️ [[More Information on iOS Version|iOS Version]]
+ℹ️ [[More Information on iOS and macOS Version|iOS and macOS Version]]
 
 ## Modern Windows
 
 <a href="https://store.steampowered.com/app/3558190/GnollHack/?utm_source=wiki">![Available on Steam](/uploads/Download/steam-q90.webp)</a><br />
 
-Multiple download options available. Please click the link below for more information.
+Multiple download options are available, although we recommend getting the game on **Steam**. Please click the link below for more information.
 
 ℹ️ [[More Information on Modern Windows Version|Modern Windows Version]]
 

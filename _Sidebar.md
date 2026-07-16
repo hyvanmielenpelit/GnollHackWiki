@@ -3,7 +3,7 @@
 ### [[Download]]
 
 * [[Android Version]]
-* [[iOS Version]] — Works on macOS
+* [[iOS and macOS Version]]
 * [[Modern Windows Version]]
 
 ### [[Tutorials]]
