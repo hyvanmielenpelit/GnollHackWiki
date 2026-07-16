@@ -73,7 +73,7 @@ If you already have a few ascensions under your belt in NetHack, NetHack 5.0 wil
 | **NetHack Scoreboard<sup>2</sup> (Local Clients)** | ❌ No | ✅ Yes (through the [[GnollHack Account]] server) |
 | **NetHack Scoreboard<sup>2</sup> (Public Servers)** | ✅ Yes | ✅ Yes |
 
-- <sup>1</sup> Playing the ASCII version online over SSH is considered as a **legacy way** to experience GnollHack.
+- <sup>1</sup> Playing the ASCII version online over SSH is considered a **legacy way** of experiencing GnollHack.
 - <sup>2</sup> The [NetHack Scoreboard](https://nethackscoreboard.org/) is an online leaderboard for NetHack variants.
 
 ## 💡 Conclusions
