@@ -54,7 +54,7 @@
 
 ## 🎖️ Details for NetHack Veterans
 
-If you already have a few ascensions under your belt in NetHack, NetHack 5.0 will feel like coming home. However, GnollHack Release 3 introduces major mechanical shifts that will challenge your muscle memory:
+### ⚙️ Features
 
 | Feature | NetHack 5.0 | GnollHack Release 3 |
 | :--- | :--- | :--- |
