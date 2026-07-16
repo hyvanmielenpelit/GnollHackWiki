@@ -64,8 +64,7 @@ If you already have a few ascensions under your belt in NetHack, NetHack 5.0 wil
 | **Attribute Gains (Stats)** | 🏋️ Attributes increase slowly and semi-randomly through hidden "exercise" actions. | 🍎 Attributes increase **instantly** upon eating specific corpses or fruits. The exercise mechanic has been removed. |
 | **Playable Races** | 🧙 Gnomes are a playable race. | 🐺 Gnomes are replaced entirely by the playable **[[/Races/Gnoll]]** race, featuring unique stats, traits, and gear. |
 
-### Online Play and Leaderboard Support
-
+### 🌐 Online Play and Leaderboard Support
 
 | Topic | NetHack 5.0 | GnollHack Release 3 |
 | :--- | :--- | :--- |
