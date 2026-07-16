@@ -302,7 +302,21 @@ When linking to or categorizing different types of articles (for instance, in li
 - **Project Management and Checklists** (release steps, to-dos): `📋` or `✅`
 - **Legal and Policy** (privacy policies, licenses): `📄` or `⚖️`
 
-## 12. Footnotes
+## 12. Recommended Unicode Icons for Games and Variants
+
+When referencing or comparing different games and NetHack variants, use the following Unicode icons:
+
+- **NetHack / NetHack 5.0**: `🧙‍♂️` (Wizard)
+- **GnollHack / GnollHack Release 3**: `🐺` (Wolf)
+- **NetHack Windows GUI**: `🪟` (Window)
+- **NetHack 3D**: `🧊` (3D Cube)
+- **dNetHack**: `🐙` (Octopus)
+- **EvilHack**: `😈` (Devil)
+- **UnNetHack**: `🎲` (Dice)
+- **Pathos**: `📱` (Mobile)
+- **Shattered Pixel Dungeon**: `🗝️` (Old Key)
+
+## 13. Footnotes
 
 - Footnotes should use an ordinal numbering system starting from 1. 
 - These numbers are included as superscripts with the HTML `<sup>` tag. For example, `<sup>1</sup>`. 
