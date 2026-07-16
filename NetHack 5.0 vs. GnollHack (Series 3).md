@@ -15,11 +15,16 @@
 | Topic | NetHack 5.0 | GnollHack (Series 3) |
 | :--- | :--- | :--- |
 | **Release Date** | 📅 May 2, 2026 | 📅 July 11, 2026 (Version 3.1) |
+| **Modern OS Support**<sup>1</sup> | • Windows<br />• Linux<sup>2</sup> | • Android<br />• iOS<br />• macOS<br />• Windows |
+| **Store Availability** | ❌ None | • **Steam** (Windows)<br />• **Google Play Store** (Android)<br />• **Apple App Store** (iOS and macOS) |
 | **Core Philosophy** | 📖 An uncompromising fantasy simulation that prioritizes mechanical depth, player discovery, and high-stakes survival. | ✨ A modern reimagining that lowers the barrier to entry by blending classic roguelike systems with contemporary RPG design and rich presentation. |
 | **Target Audience** | 🎖️ Purists, veterans, and fans of classic ASCII/keyboard-driven gaming. | 📱 Beginners, mobile gamers, and players seeking a fresh, audiovisual tactical experience. |
 | **Key Selling Points** | • **The Ultimate Classic:** The definitive version of the legendary 1987 roguelike.<br />• **Brutal Challenge:** Unforgiving permadeath and complex mechanics.<br />• **Classic Feel, New Polish:** Flawless modern stability and long-requested features like a built-in tutorial. | • **Audiovisual Overhaul:** Real 2D animations, voiceovers, and a full musical score.<br />• **ARPG Loot System:** Mythic affixes, Elite weapon tiers, and 22 gear slots.<br />• **Accessibility:** 7 difficulty levels, optional permadeath, and streamlined UI. |
 | **Key Pain Points** | • **Archaic UI:** Requires memorizing dozens of obscure keyboard commands.<br />• **Spoiler Dependency:** Exact stats and mechanics are hidden; playing without external wikis is notoriously difficult.<br />• **Instant Deaths:** Features "unfair" instant deaths. | • **Inventory Management:** The massive amount of loot, 22 gear slots, and magic reagents can cause inventory fatigue.<br />• **System Complexity:** The deep mechanics can still be overwhelming to learn.<br />• **Grid-Based Pacing:** Despite modern graphics, it remains a methodical, turn-based grid game that may feel slow to action-roguelite fans. |
 | **Why Play in 2026?** | 📜 To play a historically significant masterpiece, modernized to run flawlessly today while preserving its hardcore 1980s ethos. | 🕹️ To enjoy the depth of a traditional roguelike wrapped in the presentation and quality-of-life standards of modern gaming. |
+
+- <sup>1</sup> Official precompiled binaries exist and can be downloaded from official sources.
+- <sup>2</sup> Depends on availability in Linux distributions' package repositories.
 
 ## ⚖️ High-Level Comparison
 
