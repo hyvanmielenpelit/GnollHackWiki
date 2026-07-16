@@ -18,7 +18,7 @@
 | **Modern OS Support**<sup>1</sup> | • Windows<br />• Linux<sup>2</sup> | • Android<br />• iOS<br />• macOS<br />• Windows |
 | **Store Availability** | ❌ None | • **Steam** (Windows)<br />• **Google Play Store** (Android)<br />• **Apple App Store** (iOS and macOS) |
 | **Public Servers (Play over SSH)** | ✅ Yes | ✅ Yes (see [[Public Servers]]) |
-| **NetHack Scoreboard<sup>3</sup> (Local Clients)** | ❌ No (local clients can't provide results there) | ✅ Yes (through the [[GnollHack Account]] server) |
+| **NetHack Scoreboard<sup>3</sup> (Local Clients)** | ❌ No (local clients cannot upload results there) | ✅ Yes (through the [[GnollHack Account]] server) |
 | **NetHack Scoreboard<sup>3</sup> (Public Servers)** | ✅ Yes | ✅ Yes |
 
 - <sup>1</sup> Official precompiled binaries exist and can be downloaded from official sources.
@@ -31,7 +31,7 @@
 | :--- | :--- | :--- |
 | **Core Philosophy** | 📖 An uncompromising fantasy simulation that prioritizes mechanical depth, player discovery, and high-stakes survival. | ✨ A modern reimagining that lowers the barrier to entry by blending classic roguelike systems with contemporary RPG design and rich presentation. |
 | **Target Audience** | 🎖️ Purists, veterans, and fans of classic ASCII/keyboard-driven gaming. | 📱 Beginners, mobile gamers, and players seeking a fresh, audiovisual tactical experience. |
-| **Key Selling Points** | • **The Ultimate Classic:** The definitive version of the legendary 1987 roguelike.<br />• **Brutal Challenge:** Unforgiving permadeath and complex mechanics.<br />• **Classic Feel, New Polish:** Flawless modern stability and long-requested features like a built-in tutorial. | • **Audiovisual Overhaul:** Real 2D animations, voiceovers, and a full musical score.<br />• **ARPG Loot System:** Mythic affixes, Elite weapon tiers, and 22 gear slots.<br />• **Accessibility:** 7 difficulty levels, optional permadeath, and streamlined UI. |
+| **Key Selling Points** | • **The Ultimate Classic:** The definitive version of the legendary 1987 roguelike.<br />• **Brutal Challenge:** Unforgiving permadeath and complex mechanics.<br />• **Classic Feel, New Polish:** Flawless modern stability and long-requested features like a built-in tutorial. | • **Audiovisual Overhaul:** Real 2D animations, voiceovers, and a full musical score.<br />• **ARPG Loot System:** Mythic affixes, elite weapon tiers, and 22 gear slots.<br />• **Accessibility:** 7 difficulty levels, optional permadeath, and streamlined UI. |
 | **Key Pain Points** | • **Archaic UI:** Requires memorizing dozens of obscure keyboard commands.<br />• **Spoiler Dependency:** Exact stats and mechanics are hidden; playing without external wikis is notoriously difficult.<br />• **Instant Deaths:** Features "unfair" instant deaths. | • **Inventory Management:** The massive amount of loot, 22 gear slots, and magic reagents can cause inventory fatigue.<br />• **System Complexity:** The deep mechanics can still be overwhelming to learn.<br />• **Grid-Based Pacing:** Despite modern graphics, it remains a methodical, turn-based grid game that may feel slow to action-roguelite fans. |
 | **Why Play in 2026?** | 📜 To play a historically significant masterpiece, modernized to run flawlessly today while preserving its hardcore 1980s ethos. | 🕹️ To enjoy the depth of a traditional roguelike wrapped in the presentation and quality-of-life standards of modern gaming. |
 
@@ -39,8 +39,8 @@
 
 | Feature | NetHack 5.0 | GnollHack Release 3 |
 | :--- | :--- | :--- |
-| **Difficulty Options** | 📈 Single, steep difficulty curve. Permadeath is mandatory. | 🌟 7 difficulty levels. Includes [[Casual Mode]] and [[Modern Mode]] where permadeath is optional. |
-| **Graphics & UI** | 🖥️ ASCII graphics or simple static 2D tiles. Traditional terminal UI. | ✨ Modern UI optimized for desktop and mobile. High-res animated graphics (23,000+ base tiles). |
+| **Difficulty Options** | 📈 A single, steep difficulty curve. Permadeath is mandatory. | 🌟 7 difficulty levels. Includes [[Casual Mode]] and [[Modern Mode]] where permadeath is optional. |
+| **Graphics & UI** | 🖥️ ASCII graphics or simple static 2D tiles. Traditional terminal UI. | ✨ A modern UI optimized for desktop and mobile. High-res animated graphics (23,000+ base tiles). |
 | **Audio** | 🔇 No sound. | 🔊 Full soundtrack (14 original and 23 additional music tracks), sound effects, and 5,000+ voiceovers. |
 | **Controls** | ⌨️ Dozens of keyboard commands must be memorized (e.g., Quaff (`q`) and Read (`r`)). | 🖱️ Point-and-click commands and context menus. |
 | **Information Accessibility**| ❓ Relies heavily on external wikis/spoilers. Exact damage values and stats are hidden. | 🔍 The Examine (`Alt+x`) command shows detailed item stats, magical effects, and damage formulas in-game. Exact damage values are shown. |
@@ -62,7 +62,7 @@ If you already have a few ascensions under your belt in NetHack, NetHack 5.0 wil
 
 | Feature | NetHack 5.0 | GnollHack Release 3 |
 | :--- | :--- | :--- |
-| **Magic Cancellation (MC)** | 🧥 Determined by a single item (typically the cloak). | 🛡️ It stacks cumulatively across **all equipped gear** and acts as a saving throw against magical touch effects. |
+| **Magic Cancellation (MC)** | 🧥 Determined by a single item (typically the cloak). | 🛡️ Stacks cumulatively across **all equipped gear** and acts as a saving throw against magical touch effects. |
 | **Instant Deaths** | ☠️ Deadly events like drowning can end your run instantly. | ⏱️ **Usually delayed.** You get several turns of grace to react and save yourself. |
 | **Boss Covetousness** | 🏃‍♂️ Bosses constantly teleport away to heal and may steal your quest artifact. | ⚔️ The frustrating teleportation mechanic is **removed from almost all monsters**. |
 | **Attribute Gains (Stats)** | 🏋️ Attributes increase slowly and semi-randomly through hidden "exercise" actions. | 🍎 Attributes increase **instantly** upon eating specific corpses or fruits. The exercise mechanic has been removed. |
