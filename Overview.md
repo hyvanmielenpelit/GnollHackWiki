@@ -36,8 +36,6 @@ GnollHack can also be viewed as a NetHack remaster, adding the following modern 
 - **Modern UI**
     - Mobile touch-based UI on Android and iOS
     - Modern UI for desktop, adapted from the mobile UI
-        - Windows supports touch, mouse, and keyboard
-        - macOS supports mouse only *(keyboard support coming in the future)*
 
 All graphics, sounds, music, and voiceovers have been made by *real people* — nothing has been generated with AI.
 
