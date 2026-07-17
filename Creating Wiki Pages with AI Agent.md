@@ -20,9 +20,9 @@ Ensure you have the following repositories cloned locally on your computer:
 2. Ensure that your workspace is configured so that the agent can access all three repository folders (`GnollHackWiki`, `GnollHack`, and `GnollHackTileSet`). This allows the agent to read and search across the entire project ecosystem.
 3. The agent will automatically discover the AI skills in the workspace.
 
-## 🧠 Model Selection and Reasoning Levels
+## 🧠 Model Selection
 
-The Antigravity App allows you to select between different models and reasoning levels. You should choose the appropriate combination based on the complexity of the wiki page you are creating:
+The Antigravity App allows you to select between different models and reasoning levels. The following are the recommended models and their reasoning levels for wiki editing.
 
 ### 🏆 Gemini 3.5 Flash (Medium)
 
