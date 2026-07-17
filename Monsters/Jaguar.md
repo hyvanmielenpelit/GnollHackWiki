@@ -1,4 +1,4 @@
-## Level 8 large feline
+## Level 9 large feline
 
 - **Hit dice:** 4
 - **Move:** 15"
@@ -8,8 +8,8 @@
 - **Alignment:** Neutral
 - **Size:** Large
 - **Number of attacks:** 3
-1. Claw, physical 1d4
-2. Claw, physical 1d4
+1. Claw, physical 1d3
+2. Claw, physical 1d3
 3. Bite, physical 1d8
 
 ## Attribute scores

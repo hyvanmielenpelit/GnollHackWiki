@@ -8,13 +8,13 @@
 - **Alignment:** Neutral
 - **Size:** Large
 - **Number of attacks:** 3
-1. Claw, physical 2d4
-2. Claw, physical 2d4
+1. Claw, physical 1d4+1
+2. Claw, physical 1d4+1
 3. Bite, physical 1d10
 
 ## Attribute scores
 
-St:18 Dx:16 Co:18 In:2 Wi:2 Ch:1
+St:18 Dx:16 Co:16 In:2 Wi:2 Ch:1
 
 ## Innate abilities
 

@@ -1,20 +1,18 @@
-## Level 19 huge powerful prehistoric feline
+## Level 13 huge powerful prehistoric feline
 
-- **Hit dice:** 11
+- **Hit dice:** 10
 - **Move:** 18"
-- **Armor class:** 4
+- **Armor class:** 5
 - **Magic cancellation:** 0 (0%)
 - **Magic resistance:** 0%
 - **Alignment:** Neutral
 - **Size:** Large
-- **Number of attacks:** 3
-1. Bite, physical 3d6
-2. Claw, physical 2d4
-3. Claw, physical 2d4
+- **Number of attacks:** 1
+1. Bite, physical 3d8
 
 ## Attribute scores
 
-St:18/** Dx:16 Co:18 In:2 Wi:2 Ch:1
+St:18/51 Dx:14 Co:16 In:2 Wi:2 Ch:2
 
 ## Innate abilities
 
