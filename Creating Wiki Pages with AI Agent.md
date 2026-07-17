@@ -1,6 +1,6 @@
 ![google-antigravity](/uploads/Creating%20Wiki%20Pages%20with%20AI%20Agent/google-antigravity-256.webp)
 
-> 👉 **You can leverage the [Antigravity App](https://antigravity.google/product/antigravity-2) powered by Gemini models to automatically research, draft, and format wiki pages. By providing the AI agent with access to all related repositories, it can cross-reference code and graphics to create accurate and comprehensive documentation.**
+> 👉 **You can leverage the [Antigravity 2.0 Standalone App](https://antigravity.google/product/antigravity-2) powered by Gemini models to automatically research, draft, and format wiki pages. By providing the AI agent with access to all related repositories, it can cross-reference code and graphics to create accurate and comprehensive documentation.**
 
 > ℹ️ **Note:** You may need a paid **Google One AI subscription** to use the recommended AI agents. You can subscribe via the [Google One AI plan subscription page](https://one.google.com/about/google-ai-plans/).
 >
