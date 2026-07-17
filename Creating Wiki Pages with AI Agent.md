@@ -22,19 +22,13 @@ Ensure you have the following repositories cloned locally on your computer:
 
 ## 🧠 Model Selection
 
-The Antigravity App allows you to select between different models and reasoning levels. The following are the recommended models and their reasoning levels for wiki editing.
+The Antigravity App allows you to select between different models and reasoning levels. The following are the recommended models and their reasoning levels for wiki editing:
 
-### 🏆 Gemini 3.5 Flash (Medium)
+- 🏆 **Gemini 3.5 Flash (Medium):** This is the recommended model for most tasks. It can even convert images to WebP.
+- 🛠️ **Gemini 3.1 Pro (High):** This is the recommended model for synthesizing information and reviewing implementation plans and results. It is also excellent for single questions outside of agentic workflows.
+- 💭 **Claude Opus 4.6 (Thinking):** This is the recommended model for difficult tasks, such as verifying complex information on the wiki against the GnollHack codebase, which requires advanced reasoning and inspecting vast amounts of code.
 
-**This is the recommended model for most tasks.** It is highly effective for standard wiki tasks. It can also convert images to WebP.
-
-### 🛠️ Gemini 3.1 Pro (High)
-
-**This is the recommended model for synthesizing information and reviewing implementation plans and results.** It is also excellent for **single questions outside of agentic workflows**.
-
-### 💭 Claude Opus 4.6 (Thinking)
-
-**This is the recommended model for difficult tasks**, such as verifying complex information on the wiki against the GnollHack codebase, which requires advanced reasoning and inspecting vast amounts of code. It is available only in the *Google AI Ultra* plan. Because it consumes a large amount of usage quota per request, you may only be able to use it a few times a week, unless you purchase additional AI credits or upgrade to the highest-tier plan.
+> ℹ️ **Note:** Claude Opus 4.6 is available only in the *Google AI Ultra* plan. It consumes a large amount of usage quota per task, and therefore you may only be able to use it a few times a week, unless you purchase additional AI credits or upgrade to the highest-tier plan.
 
 ## 🤖 Common AI Tasks
 
