@@ -13,6 +13,7 @@ There are 41 distinct novels in GnollHack, all of which correspond to real-world
 The novels of Sir Terry Pratchett are copyrighted works and are not legally available for free on the public internet. However, they can be officially purchased or read about at:
 
 - Official Website of Sir Terry Pratchett: [terrypratchett.com](https://www.terrypratchett.com)
+- Official Book Website: [terrypratchettbooks.com](https://www.terrypratchettbooks.com)
 - Licensed Discworld Store: [discworldemporium.com](https://www.discworldemporium.com)
 
 ## 📊 List of Novels
