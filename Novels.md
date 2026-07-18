@@ -4,7 +4,7 @@
 
 Novels in GnollHack are readable items that do not contain the full text of the books. Instead, reading a novel selects a random passage (quote) from the book, which is displayed to the player as a tribute to Sir Terry Pratchett.
 
-Reading a novel awards the achievement **read a Discworld novel**.
+Reading a novel awards the achievement **Read a Discworld novel**.
 
 There are 41 distinct novels in GnollHack, all of which correspond to real-world books in the *Discworld* series.
 
