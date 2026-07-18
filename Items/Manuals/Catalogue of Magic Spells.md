@@ -7,3 +7,12 @@
 ## Description
 
 This is a readable manual that provides useful information about various aspects of GnollHack.
+
+## 📖 Contents
+
+The manual contains a list of wizard spells found in Yendor:
+- [[/Arcane Spells]]
+- [[/Movement Spells]]
+- [[/Transmutation Spells]]
+- [[/Enchantment Spells]]
+- [[/Conjuration Spells]]

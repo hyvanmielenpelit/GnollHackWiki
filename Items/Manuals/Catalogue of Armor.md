@@ -7,3 +7,15 @@
 ## Description
 
 This is a readable manual that provides useful information about various aspects of GnollHack.
+
+## 📖 Contents
+
+The manual contains a list of armor found in Yendor:
+- [[/Body Armor]]
+- [[/Cloaks]]
+- [[/Helms]]
+- [[/Gloves]]
+- [[/Boots]]
+- [[/Shields]]
+- [[/Shirts]]
+- [[/Bracers]]

@@ -7,3 +7,9 @@
 ## Description
 
 This is a readable manual that provides useful information about various aspects of GnollHack.
+
+## 📖 Contents
+
+The manual contains a list of potions found in Yendor:
+- [[/Potions]]
+- [[/Diluted Potions]]
