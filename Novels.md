@@ -1,5 +1,22 @@
 > 👉 **This page lists all the readable novels in GnollHack.**
 
+## 📖 Overview
+
+Novels in GnollHack are readable items that do not contain the full text of the books. Instead, reading a novel selects a random passage (quote) from the book, which is displayed to the player as a tribute to Sir Terry Pratchett.
+
+Reading a novel awards the achievement **read a Discworld novel**.
+
+There are 41 distinct novels in GnollHack, all of which correspond to real-world books in the *Discworld* series.
+
+## 🔗 External Links
+
+The novels of Sir Terry Pratchett are copyrighted works and are not legally available for free on the public internet. However, they can be officially purchased or read about at:
+
+- Official Website of Sir Terry Pratchett: [terrypratchett.com](https://www.terrypratchett.com)
+- Licensed Discworld Store: [discworldemporium.com](https://www.discworldemporium.com)
+
+## 📊 List of Novels
+
 - [[/Items/Novels/A Hat Full of Sky]]
 - [[/Items/Novels/Carpe Jugulum]]
 - [[/Items/Novels/Equal Rites]]
