@@ -162,6 +162,6 @@ Gifted a [[/Items/Golden chest]] containing:
 - [[/Items/Robe of the Archmagi]] (blessed, +1 to +3, erodeproof)
 - [[/Items/Staff of the Magi]] (blessed, +1 to +3, erodeproof)
 - Blessed [[/Items/Magic Marker]]
-- [[/Items/Spellbooks/Spellbook of Greater Magic Missile]]
-- [[/Items/Spellbooks/Spellbook of Wish]]
-- One random high-level spellbook from: [[/Items/Spellbooks/Spellbook of Power Word Kill]], [[/Items/Spellbooks/Spellbook of Black Blade of Disaster]], or [[/Items/Spellbooks/Spellbook of Time Stop]].aster]], or [[/Items/Spellbooks/Spellbook of Time Stop]].
+- [[/Items/Spellbooks/Spellbook of Greater Magic Missile]] (if not already known)
+- [[/Items/Spellbooks/Spellbook of Wish]] (if not already known)
+- One random high-level spellbook (if not all are already known) from: [[/Items/Spellbooks/Spellbook of Power Word Kill]], [[/Items/Spellbooks/Spellbook of Black Blade of Disaster]], or [[/Items/Spellbooks/Spellbook of Time Stop]].
