@@ -56,7 +56,7 @@ Here are the possible first sacrifice gifts for a Monk by alignment:
 | Alignment | Possible First Gifts |
 | :--- | :--- |
 | **Lawful** | [[/Artifacts/The Holy Grail]] |
-| **Neutral** | [[/Artifacts/The Rod of Disjunction]], [[/Artifacts/The Ring of Conflict]] |
+| **Neutral** | [[/Artifacts/The Rod of Disjunction]], [[/Artifacts/The Ring of Conflict]], [[/Artifacts/The Ring of Three Wishes]], [[/Artifacts/The Ruling Ring of Yendor]] |
 | **Chaotic** | [[/Artifacts/The Serpent Ring of Set]] |
 
 ## Eligible Sacrifice Gifts by Alignment
