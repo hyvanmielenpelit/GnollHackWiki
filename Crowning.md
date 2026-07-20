@@ -2,23 +2,23 @@
 
 > 👉 **Crowning is a unique, one-time event in GnollHack where a deity blesses an exceptionally faithful and lucky character, granting them a special title, a suite of permanent intrinsics, a powerful gift and an extra weapon skill slot.**
 
-## Crowning Requirements
+## 📋 Crowning Requirements
 
 To be crowned by their deity, a character must satisfy the following absolute prerequisites during prayer:
 
-* **Maximum Alignment**: The character's alignment record must be exactly **20** (Pious status).
-* **Not Yet Crowned**: Crowning is a one-time event per character.
-* **High Luck**: Luck must be at least **+10** (or **+6** if the player already possesses all other intrinsic divine gifts: Telepathy, Speed, Stealth, and maximum divine protection). The game determines the favor received by generating a random number according to the formula:
+- **Maximum Alignment**: The character's alignment record must be exactly **20** (Pious status).
+- **Not Yet Crowned**: Crowning is a one-time event per character.
+- **High Luck**: Luck must be at least **+10** (or **+6** if the player already possesses all other intrinsic divine gifts: Telepathy, Speed, Stealth, and maximum divine protection). The game determines the favor received by generating a random number according to the formula:
   
   $$ \text{Result} = \text{random}\left(0, \lfloor \frac{\text{Luck} + 6}{2} \rfloor - 1\right) $$
   
   If the result is 7 or 8 (or 5 if all other gifts are maxed), the character is crowned.
 
-### Crowning Chances
+### 📈 Crowning Chances
 
 The probability of being crowned depends heavily on whether the character has any **troubles** (such as being hungry, low on health, or afflicted with status conditions) when praying. 
 
-#### Scenario 1: Character has NO troubles
+#### 🟢 Scenario 1: Character has NO troubles
 
 If the character prays while completely healthy and unburdened by problems, they bypass the deity's troubleshooting logic entirely. In this scenario, **an altar is not required**, and the character has the highest possible chance of being crowned:
 
@@ -37,7 +37,7 @@ If the character prays while completely healthy and unburdened by problems, they
 *\* The character already possesses intrinsic Telepathy, Speed, Stealth, and maximum divine protection.*
 > ℹ️ **Note:** The probability of crowning with all gifts maxed paradoxically **drops** when your Luck increases from +7 to +8 (from 16.7% down to 14.3%). This is a quirk of the game's internal random number generator logic.
 
-#### Scenario 2: Character HAS troubles
+#### 🟡 Scenario 2: Character HAS troubles
 
 If the character has troubles (e.g., they are wounded or hungry), praying will typically just fix those troubles. To have a chance at crowning while having troubles, **the character must be on a co-aligned altar**. Praying without an altar when in trouble has a **0%** chance of crowning.
 
@@ -58,29 +58,29 @@ Being on an altar inside a temple (a **shrine**) slightly increases the odds ove
 *\* The character already possesses intrinsic Telepathy, Speed, Stealth, and maximum divine protection.*
 > ℹ️ **Note:** The probability of crowning with all gifts maxed paradoxically **drops** when your Luck increases from +7 to +8 (e.g., from 10.6% down to 9.5% on a shrine). This is a quirk of the game's internal random number generator logic.
 
-## Intrinsics Granted
+## 🧬 Intrinsics Granted
 
 Crowning permanently grants the character the following intrinsics (acquired via divine favor):
 
-* See invisible
-* Fire resistance (Weak, 50%)
-* Cold resistance (Weak, 50%)
-* Shock resistance (Weak, 50%)
-* Poison resistance
-* Sleep resistance
-* Death resistance
-* Lycanthropy resistance
-* Fear resistance
+- See invisible
+- Fire resistance (Weak, 50%)
+- Cold resistance (Weak, 50%)
+- Shock resistance (Weak, 50%)
+- Poison resistance
+- Sleep resistance
+- Death resistance
+- Lycanthropy resistance
+- Fear resistance
 
-## Additional Side Effects
+## ⚠️ Additional Side Effects
 
 | Effect | Description |
 | :--- | :--- |
 | **Skill Credit** | Grants 1 extra weapon skill slot/credit. |
 | **Weapon Skill Unrestriction** | Unrestricts the weapon skill of the gifted weapon. |
-| ⚠️ **Permanent Prayer Timeout Increase** | As a negative side effect, the crowning increases subsequent prayer timeouts significantly, by a random amount of up to 1000 turns (500 turns for [[Priests|/Roles/Priest]]). |
+| ⚠️ **Permanent Prayer Timeout Increase** | As a negative side effect, the crowning increases subsequent prayer timeouts significantly, by a random amount of up to 1000 turns (500 turns for a [[/Roles/Priest]]). |
 
-## Crowning Titles
+## 👑 Crowning Titles
 
 Crowned characters receive a special title depending on their alignment:
 
@@ -90,16 +90,16 @@ Crowned characters receive a special title depending on their alignment:
 | **Neutral** | The Envoy of Balance |
 | **Chaotic** | The Glory of Arioch |
 
-## Crowning Gifts by Role
+## ✨ Crowning Gifts by Role
 
-### Archaeologist
+### 🏺 Archaeologist
 
 | Alignment | Gift |
 | :--- | :--- |
 | **All** | Sickness resistance (intrinsic, helpful against mummy rot) |
 | **Lawful** or **Neutral** | [[/Artifacts/The Holy Grail]] (if it does not exist yet) |
 
-### Barbarian, Caveman, Healer, Ranger, Rogue, Samurai
+### ⚔️ Barbarian, Caveman, Healer, Ranger, Rogue, Samurai
 
 > ℹ️ **Note:** The **Caveman** also receives a tame, saddled [[/Monsters/Tyrannosaurus rex]] (if pets are allowed), regardless of alignment.
 
@@ -109,7 +109,7 @@ Crowned characters receive a special title depending on their alignment:
 | **Neutral** | 1. Bless/enchant wielded **Vorpal Blade**<br>2. Gift **Vorpal Blade**<br>3. Gift Primordial long sword (+2 to +5, mythic) | [[/Skills/Sword]] |
 | **Chaotic** | 1. Bless/enchant wielded chaotic artifact<br>2. Gift chaotic artifact (**Howling Flail** for Gnolls; **Stormbringer** or **Mournblade** for others)<br>3. Gift Infernal long sword (+2 to +5, mythic) | [[/Skills/Flail]] or [[/Skills/Sword]], and [[/Skills/Dual wielding]] (if Stormbringer/Mournblade) |
 
-### Knight
+### 🛡️ Knight
 
 | Alignment | Artifact Gift | Steed Gift | Unrestricted Skill |
 | :--- | :--- | :--- | :--- |
@@ -117,13 +117,13 @@ Crowned characters receive a special title depending on their alignment:
 | **Neutral** | - | Tame, saddled [[/Monsters/Roc]] | - |
 | **Chaotic** | - | Tame, saddled [[/Monsters/Gorgon]] | - |
 
-### Monk
+### 🥋 Monk
 
 | Primary Gift | Fallback Gift (if primary already exists) |
 | :--- | :--- |
 | [[/Artifacts/The Gauntlets of Yin and Yang]] | [[/Items/Belt of storm giant strength]] (or [[/Items/Belt of fortitude]]) |
 
-### Priest
+### ⛪ Priest
 
 Gifted a [[/Items/Golden chest]] containing alignment-themed gear:
 
@@ -133,7 +133,7 @@ Gifted a [[/Items/Golden chest]] containing alignment-themed gear:
 | **Neutral** | • [[/Items/Robe of Magic Resistance]]<br>• [[/Items/Staff of Life]]<br>• [[/Items/Bracers of Reflection]]<br>• [[/Items/Spellbooks/Spellbook of Gaze of Petrification]]<br>• [[/Items/Spellbooks/Spellbook of Stick to Boa]]<br>• [[/Items/Spellbooks/Spellbook of Summon Elder Treant]] |
 | **Chaotic** | • [[/Items/Robe of Magic Resistance]]<br>• Mace of the Witch-King<br>• [[/Items/Ring of the Serpent God]]<br>• [[/Items/Spellbooks/Spellbook of Finger of Death]]<br>• [[/Items/Spellbooks/Spellbook of Create Dracolich]] (or Create Elder Dracolich)<br>• [[/Items/Spellbooks/Spellbook of Greater Undeath Replenishment]] |
 
-### Tourist
+### 📸 Tourist
 
 Gifted a tame [[/Monsters/Giant Luggage]] (summoned in a puff of smoke, if pets are allowed and Giant Luggage is not extinct) carrying:
 
@@ -143,9 +143,9 @@ Gifted a tame [[/Monsters/Giant Luggage]] (summoned in a puff of smoke, if pets 
 | **Speed** | Blessed [[/Items/Speed boots]] | Blessed, +1 to +3 Elite [[/Items/Gloves of haste]] |
 | **Flight** | Blessed [[/Items/Wings of flying]] | - |
 | **Cloak** | Blessed [[/Items/Robe of eyes]] (if fewer than 3 of the above items received) | - |
-| **Weapon** | 20 alignment-themed, lightning-enchanted [[darts|/Items/Dart]] (+3 to +5) | - |
+| **Weapon** | 20 alignment-themed, lightning-enchanted [[/Items/Dart]]s (+3 to +5) | - |
 
-### Valkyrie
+### ⚡ Valkyrie
 
 Gifted a blessed, erodeproof, +2 to +5 weapon (a Dwarvish Axe if they are a Dwarf, or a Long Sword otherwise) with customized attributes:
 
@@ -155,13 +155,13 @@ Gifted a blessed, erodeproof, +2 to +5 weapon (a Dwarvish Axe if they are a Dwar
 | **Neutral** | Primordial weapon (lightning, *Asgardian*, *Giant Slaying*) | Tame, saddled [[/Monsters/Pegasus]] | [[/Skills/Axe]] (Dwarf) or [[/Skills/Sword]] (Non-dwarf) |
 | **Chaotic** | Infernal weapon (cold, *Jotunheimian*) | Tame, saddled [[/Monsters/Pegasus]] | [[/Skills/Axe]] (Dwarf) or [[/Skills/Sword]] (Non-dwarf) |
 
-### Wizard
+### 🪄 Wizard
 
 Gifted a [[/Items/Golden chest]] containing:
 
-* [[/Items/Robe of the Archmagi]] (blessed, +1 to +3, erodeproof)
-* [[/Items/Staff of the Magi]] (blessed, +1 to +3, erodeproof)
-* Blessed [[/Items/Magic Marker]]
-* [[/Items/Spellbooks/Spellbook of Greater Magic Missile]]
-* [[/Items/Spellbooks/Spellbook of Wish]]
-* One random high-level spellbook from: [[/Items/Spellbooks/Spellbook of Power Word Kill]], [[/Items/Spellbooks/Spellbook of Black Blade of Disaster]], or [[/Items/Spellbooks/Spellbook of Time Stop]].
+- [[/Items/Robe of the Archmagi]] (blessed, +1 to +3, erodeproof)
+- [[/Items/Staff of the Magi]] (blessed, +1 to +3, erodeproof)
+- Blessed [[/Items/Magic Marker]]
+- [[/Items/Spellbooks/Spellbook of Greater Magic Missile]]
+- [[/Items/Spellbooks/Spellbook of Wish]]
+- One random high-level spellbook from: [[/Items/Spellbooks/Spellbook of Power Word Kill]], [[/Items/Spellbooks/Spellbook of Black Blade of Disaster]], or [[/Items/Spellbooks/Spellbook of Time Stop]].aster]], or [[/Items/Spellbooks/Spellbook of Time Stop]].
