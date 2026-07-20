@@ -74,93 +74,86 @@ Crowning permanently grants the character the following intrinsics (acquired via
 
 ## Additional Side Effects
 
-* **Skill Credit**: Grants 1 extra weapon skill slot/credit.
-* **Weapon Skill Unrestriction**: Unrestricts the weapon skill of the gifted weapon.
-* ⚠️ **Permanent Prayer Timeout Increase**: As a negative side effect, the crowning increases subsequent prayer timeouts significantly, by a random amount of up to 1000 turns (500 turns for [[Priests|/Roles/Priest]]).
+| Effect | Description |
+| :--- | :--- |
+| **Skill Credit** | Grants 1 extra weapon skill slot/credit. |
+| **Weapon Skill Unrestriction** | Unrestricts the weapon skill of the gifted weapon. |
+| ⚠️ **Permanent Prayer Timeout Increase** | As a negative side effect, the crowning increases subsequent prayer timeouts significantly, by a random amount of up to 1000 turns (500 turns for [[Priests|/Roles/Priest]]). |
 
 ## Crowning Titles
 
 Crowned characters receive a special title depending on their alignment:
 
-* **Lawful**: The Hand of Elbereth
-* **Neutral**: The Envoy of Balance
-* **Chaotic**: The Glory of Arioch
+| Alignment | Title |
+| :--- | :--- |
+| **Lawful** | The Hand of Elbereth |
+| **Neutral** | The Envoy of Balance |
+| **Chaotic** | The Glory of Arioch |
 
 ## Crowning Gifts by Role
 
 ### Archaeologist
 
-* Sickness resistance (intrinsic, helpful against mummy rot).
-* **Lawful** or **Neutral**: [[/Artifacts/The Holy Grail]] (if it does not exist yet).
+| Alignment | Gift |
+| :--- | :--- |
+| **All** | Sickness resistance (intrinsic, helpful against mummy rot) |
+| **Lawful** or **Neutral** | [[/Artifacts/The Holy Grail]] (if it does not exist yet) |
 
 ### Barbarian, Caveman, Healer, Ranger, Rogue, Samurai
 
-* **Lawful**:
-  * If the character is wielding [[/Artifacts/The Katana of Masamune]], it is blessed and its enchantment is increased by +1 to +3.
-  * Otherwise, if [[/Artifacts/The Katana of Masamune]] does not exist yet, they are gifted it.
-  * Otherwise, if the character is wielding a non-artifact long sword with a base value of less than 2000, it is transformed into [[/Artifacts/Excalibur]] (provided it does not exist yet).
-  * Otherwise, they are gifted a blessed, erodeproof, +2 to +5 Celestial silver long sword (or standard long sword if the character's race is silver-hating) with a fire enchantment and a random mythic prefix and suffix.
-  * Unrestricts the [[/Skills/Sword]] skill.
-* **Neutral**:
-  * If the character is wielding [[/Artifacts/Vorpal Blade]], it is blessed and its enchantment is increased by +1 to +3.
-  * Otherwise, if [[/Artifacts/Vorpal Blade]] does not exist yet, they are gifted it.
-  * Otherwise, they are gifted a blessed, erodeproof, +2 to +5 Primordial long sword with a random mythic prefix and suffix.
-  * Unrestricts the [[/Skills/Sword]] skill.
-* **Chaotic**:
-  * If the character is wielding their chaotic crowning gift artifact, it is blessed and its enchantment is increased by +1 to +3.
-  * Otherwise, they are gifted their chaotic crowning gift artifact (if it does not exist yet). The gift is:
-    * [[/Artifacts/Howling Flail]] for **Gnolls** (if it does not exist yet).
-    * [[/Artifacts/Stormbringer]] for non-Gnolls (or if [[/Artifacts/Howling Flail]] already exists), and it does not exist yet.
-    * [[/Artifacts/Mournblade]] if [[/Artifacts/Stormbringer]] already exists.
-  * Otherwise, if the chosen artifact already exists, they are gifted a blessed, erodeproof, +2 to +5 Infernal long sword with a random mythic prefix and suffix.
-  * Unrestricts the relevant weapon skill ([[/Skills/Flail]] or [[/Skills/Sword]]) and [[/Skills/Dual wielding]] if the gift is Stormbringer or Mournblade.
+> ℹ️ **Note:** The **Caveman** also receives a tame, saddled [[/Monsters/Tyrannosaurus rex]] (if pets are allowed), regardless of alignment.
+
+| Alignment | Gift Logic (in order of priority) | Unrestricted Skill(s) |
+| :--- | :--- | :--- |
+| **Lawful** | 1. Bless/enchant wielded **The Katana of Masamune**<br>2. Gift **The Katana of Masamune**<br>3. Transform wielded long sword to **Excalibur**<br>4. Gift Celestial silver long sword (+2 to +5, fire, mythic) | [[/Skills/Sword]] |
+| **Neutral** | 1. Bless/enchant wielded **Vorpal Blade**<br>2. Gift **Vorpal Blade**<br>3. Gift Primordial long sword (+2 to +5, mythic) | [[/Skills/Sword]] |
+| **Chaotic** | 1. Bless/enchant wielded chaotic artifact<br>2. Gift chaotic artifact (**Howling Flail** for Gnolls; **Stormbringer** or **Mournblade** for others)<br>3. Gift Infernal long sword (+2 to +5, mythic) | [[/Skills/Flail]] or [[/Skills/Sword]], and [[/Skills/Dual wielding]] (if Stormbringer/Mournblade) |
 
 ### Knight
 
-* **Lawful**:
-  * [[/Artifacts/Rhongomyniad]] (if it does not exist yet).
-  * If [[/Artifacts/Rhongomyniad]] already exists, [[/Artifacts/The Holy Grail]] (if it does not exist yet).
-  * Unrestricts the [[/Skills/Thrusting weapon]] skill.
-  * Gifted a tame, saddled [[/Monsters/Ki-rin]] (if pets are allowed).
-* **Neutral**:
-  * Gifted a tame, saddled [[/Monsters/Roc]] (if pets are allowed).
-* **Chaotic**:
-  * Gifted a tame, saddled [[/Monsters/Gorgon]] (if pets are allowed).
+| Alignment | Artifact Gift | Steed Gift | Unrestricted Skill |
+| :--- | :--- | :--- | :--- |
+| **Lawful** | 1. [[/Artifacts/Rhongomyniad]]<br>2. [[/Artifacts/The Holy Grail]] | Tame, saddled [[/Monsters/Ki-rin]] | [[/Skills/Thrusting weapon]] |
+| **Neutral** | - | Tame, saddled [[/Monsters/Roc]] | - |
+| **Chaotic** | - | Tame, saddled [[/Monsters/Gorgon]] | - |
 
 ### Monk
 
-* [[/Artifacts/The Gauntlets of Yin and Yang]] (if they do not exist yet).
-* If the gauntlets already exist, they are gifted a blessed belt instead:
-  * [[/Items/Belt of storm giant strength]] (if they do not carry one yet).
-  * [[/Items/Belt of fortitude]] (if they already carry a Belt of Storm Giant Strength).
+| Primary Gift | Fallback Gift (if primary already exists) |
+| :--- | :--- |
+| [[/Artifacts/The Gauntlets of Yin and Yang]] | [[/Items/Belt of storm giant strength]] (or [[/Items/Belt of fortitude]]) |
 
 ### Priest
 
 Gifted a [[/Items/Golden chest]] containing alignment-themed gear:
 
-* **Lawful**: [[/Items/Gown of the Archbishops]] (blessed, +1 to +3, erodeproof), a blessed +1 to +3 erodeproof Mace of Banishment (with *Banishment* mythic suffix), [[/Items/Spellbooks/Spellbook of Obliterate]], [[/Items/Spellbooks/Spellbook of Holy Word]], and one random spellbook from: [[/Items/Spellbooks/Spellbook of Summon Gold Dragon]], [[/Items/Spellbooks/Spellbook of Divine Mount]], or [[/Items/Spellbooks/Spellbook of Heavenly Army]].
-* **Neutral**: [[/Items/Robe of Magic Resistance]] (blessed, +1 to +3, erodeproof), [[/Items/Staff of Life]] (blessed, +1 to +3, erodeproof), [[/Items/Bracers of Reflection]] (blessed, +1 to +3, erodeproof), [[/Items/Spellbooks/Spellbook of Gaze of Petrification]], [[/Items/Spellbooks/Spellbook of Stick to Boa]], and [[/Items/Spellbooks/Spellbook of Summon Elder Treant]].
-* **Chaotic**: [[/Items/Robe of Magic Resistance]] (blessed, +1 to +3, erodeproof), a blessed +1 to +3 erodeproof Mace of the Witch-King (with *Witch-King's* mythic prefix), a blessed [[/Items/Ring of the Serpent God]], [[/Items/Spellbooks/Spellbook of Finger of Death]], [[/Items/Spellbooks/Spellbook of Create Dracolich]] (or [[/Items/Spellbooks/Spellbook of Create Elder Dracolich]] if they already know the former), and [[/Items/Spellbooks/Spellbook of Greater Undeath Replenishment]].
+| Alignment | Contents of Golden chest |
+| :--- | :--- |
+| **Lawful** | • [[/Items/Gown of the Archbishops]]<br>• Mace of Banishment<br>• [[/Items/Spellbooks/Spellbook of Obliterate]]<br>• [[/Items/Spellbooks/Spellbook of Holy Word]]<br>• 1 random spellbook (Summon Gold Dragon, Divine Mount, or Heavenly Army) |
+| **Neutral** | • [[/Items/Robe of Magic Resistance]]<br>• [[/Items/Staff of Life]]<br>• [[/Items/Bracers of Reflection]]<br>• [[/Items/Spellbooks/Spellbook of Gaze of Petrification]]<br>• [[/Items/Spellbooks/Spellbook of Stick to Boa]]<br>• [[/Items/Spellbooks/Spellbook of Summon Elder Treant]] |
+| **Chaotic** | • [[/Items/Robe of Magic Resistance]]<br>• Mace of the Witch-King<br>• [[/Items/Ring of the Serpent God]]<br>• [[/Items/Spellbooks/Spellbook of Finger of Death]]<br>• [[/Items/Spellbooks/Spellbook of Create Dracolich]] (or Create Elder Dracolich)<br>• [[/Items/Spellbooks/Spellbook of Greater Undeath Replenishment]] |
 
 ### Tourist
 
 Gifted a tame [[/Monsters/Giant Luggage]] (summoned in a puff of smoke, if pets are allowed and Giant Luggage is not extinct) carrying:
 
-* Blessed [[/Items/Eyeglasses of X-ray vision]] (or [[/Items/Ring of X-ray vision]] if the player already carries eyeglasses; if they carry either, it is blessed instead).
-* Blessed [[/Items/Speed boots]] (or [[/Items/Gloves of haste]] if they already carry speed boots; if they carry either, they are blessed, enchanted by +1 to +3, and upgraded to Elite quality).
-* Blessed [[/Items/Wings of flying]] (if not carrying them; otherwise blessed).
-* Blessed [[/Items/Robe of eyes]] (if they got fewer than 3 of the above items in the luggage due to already carrying them).
-* 20 blessed, erodeproof, lightning-enchanted [[darts|/Items/Dart]] (+3 to +5) of alignment-themed quality (Celestial for Lawful, Primordial for Neutral, Infernal for Chaotic, Elite otherwise).
+| Item Category | Primary Gift | Fallback Gift |
+| :--- | :--- | :--- |
+| **Vision** | Blessed [[/Items/Eyeglasses of X-ray vision]] | Blessed [[/Items/Ring of X-ray vision]] |
+| **Speed** | Blessed [[/Items/Speed boots]] | Blessed, +1 to +3 Elite [[/Items/Gloves of haste]] |
+| **Flight** | Blessed [[/Items/Wings of flying]] | - |
+| **Cloak** | Blessed [[/Items/Robe of eyes]] (if fewer than 3 of the above items received) | - |
+| **Weapon** | 20 alignment-themed, lightning-enchanted [[darts|/Items/Dart]] (+3 to +5) | - |
 
 ### Valkyrie
 
 Gifted a blessed, erodeproof, +2 to +5 weapon (a Dwarvish Axe if they are a Dwarf, or a Long Sword otherwise) with customized attributes:
 
-* **Lawful**: Celestial quality, silver material (for long sword, if not silver-hating) or mithril (for Dwarvish axe), fire-enchanted, with mythic prefix *Asgardian* and suffix *Giant Slaying*.
-* **Neutral**: Primordial quality, lightning-enchanted, with mythic prefix *Asgardian* and suffix *Giant Slaying*.
-* **Chaotic**: Infernal quality, cold-enchanted, with mythic prefix *Jotunheimian*.
-* Unrestricts [[/Skills/Axe]] skill (if dwarf) or [[/Skills/Sword]] skill (if non-dwarf).
-* Gifted a tame, saddled [[/Monsters/Pegasus]] (if pets are allowed).
+| Alignment | Weapon Gift | Steed Gift | Unrestricted Skill |
+| :--- | :--- | :--- | :--- |
+| **Lawful** | Celestial silver/mithril weapon (fire, *Asgardian*, *Giant Slaying*) | Tame, saddled [[/Monsters/Pegasus]] | [[/Skills/Axe]] (Dwarf) or [[/Skills/Sword]] (Non-dwarf) |
+| **Neutral** | Primordial weapon (lightning, *Asgardian*, *Giant Slaying*) | Tame, saddled [[/Monsters/Pegasus]] | [[/Skills/Axe]] (Dwarf) or [[/Skills/Sword]] (Non-dwarf) |
+| **Chaotic** | Infernal weapon (cold, *Jotunheimian*) | Tame, saddled [[/Monsters/Pegasus]] | [[/Skills/Axe]] (Dwarf) or [[/Skills/Sword]] (Non-dwarf) |
 
 ### Wizard
 
