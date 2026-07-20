@@ -49,7 +49,15 @@ Only certain role and alignment combinations have a **guaranteed first sacrifice
 
 Monks are dedicated to unarmed combat. As a result, their god **will never gift them weapon artifacts**. Monks only receive non-weapon artifacts (like rings, robes, or lenses). 
 
-Because there are no randomly generatable neutral non-weapon artifacts in the game, **Neutral Monks will always receive a replacement item** (see below) for their first sacrifice gift.
+Because there are no randomly generatable neutral non-weapon artifacts in the game, a fallback mechanism triggers for Neutral Monks. Instead of receiving a replacement item, they are guaranteed to receive an unaligned non-weapon artifact as their first gift, bypassing the normal rules.
+
+Here are the possible first sacrifice gifts for a Monk by alignment:
+
+| Alignment | Possible First Gifts |
+| :--- | :--- |
+| **Lawful** | [[/Artifacts/The Holy Grail]] |
+| **Neutral** | [[/Artifacts/The Rod of Disjunction]], [[/Artifacts/The Ring of Conflict]] |
+| **Chaotic** | [[/Artifacts/The Serpent Ring of Set]] |
 
 ## Eligible Sacrifice Gifts by Alignment
 
