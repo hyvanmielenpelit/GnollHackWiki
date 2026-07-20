@@ -149,7 +149,7 @@ Gifted a tame [[/Monsters/Giant Luggage]] (summoned in a puff of smoke, if pets 
 
 Gifted a blessed, erodeproof, +2 to +5 weapon (a Dwarvish Axe if they are a Dwarf, or a Long Sword otherwise) with customized attributes:
 
-| Alignment | Weapon Gift |
+| Alignment | Weapon Attributes |
 | :--- | :--- |
 | **Lawful** | Celestial silver/mithril weapon (fire, *Asgardian*, *Giant Slaying*) |
 | **Neutral** | Primordial weapon (lightning, *Asgardian*, *Giant Slaying*) |
