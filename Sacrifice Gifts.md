@@ -47,7 +47,7 @@ Only certain role and alignment combinations have a **guaranteed first sacrifice
 
 ### Monk Weapon Restriction
 
-Monks are dedicated to unarmed combat. As a result, their god **will never gift them weapon artifacts**. Monks only receive non-weapon artifacts (like rings, robes, or lenses). 
+Monks are dedicated to unarmed combat. As a result, their god **will never gift them weapon artifacts**. Monks only receive non-weapon artifacts, such as rings. 
 
 Because there are no randomly generatable neutral non-weapon artifacts in the game, a fallback mechanism triggers for Neutral Monks. Instead of receiving a replacement item, they are guaranteed to receive an unaligned non-weapon artifact as their first gift, bypassing the normal rules.
 
