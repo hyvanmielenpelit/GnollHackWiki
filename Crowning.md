@@ -101,13 +101,13 @@ Crowned characters receive a special title depending on their alignment:
 
 ### ⚔️ Barbarian, Caveman, Healer, Ranger, Rogue, Samurai
 
-> ℹ️ **Note:** The **Caveman** also receives a tame, saddled [[/Monsters/Tyrannosaurus rex]] (if pets are allowed), regardless of alignment.
-
 | Alignment | Gift Logic (in order of priority) | Unrestricted Skill(s) |
 | :--- | :--- | :--- |
 | **Lawful** | 1. Bless/enchant wielded **The Katana of Masamune**<br>2. Gift **The Katana of Masamune**<br>3. Transform wielded long sword to **Excalibur**<br>4. Gift Celestial silver long sword (+2 to +5, fire, mythic) | [[/Skills/Sword]] |
 | **Neutral** | 1. Bless/enchant wielded **Vorpal Blade**<br>2. Gift **Vorpal Blade**<br>3. Gift Primordial long sword (+2 to +5, mythic) | [[/Skills/Sword]] |
 | **Chaotic** | 1. Bless/enchant wielded chaotic artifact<br>2. Gift chaotic artifact (**Howling Flail** for Gnolls; **Stormbringer** or **Mournblade** for others)<br>3. Gift Infernal long sword (+2 to +5, mythic) | [[/Skills/Flail]] or [[/Skills/Sword]], and [[/Skills/Dual wielding]] (if Stormbringer/Mournblade) |
+
+> ℹ️ **Note:** The **Caveman** also receives a tame, saddled [[/Monsters/Tyrannosaurus rex]] (if pets are allowed), regardless of alignment.
 
 ### 🛡️ Knight
 
@@ -149,11 +149,13 @@ Gifted a tame [[/Monsters/Giant Luggage]] (summoned in a puff of smoke, if pets 
 
 Gifted a blessed, erodeproof, +2 to +5 weapon (a Dwarvish Axe if they are a Dwarf, or a Long Sword otherwise) with customized attributes:
 
-| Alignment | Weapon Gift | Steed Gift | Unrestricted Skill |
-| :--- | :--- | :--- | :--- |
-| **Lawful** | Celestial silver/mithril weapon (fire, *Asgardian*, *Giant Slaying*) | Tame, saddled [[/Monsters/Pegasus]] | [[/Skills/Axe]] (Dwarf) or [[/Skills/Sword]] (Non-dwarf) |
-| **Neutral** | Primordial weapon (lightning, *Asgardian*, *Giant Slaying*) | Tame, saddled [[/Monsters/Pegasus]] | [[/Skills/Axe]] (Dwarf) or [[/Skills/Sword]] (Non-dwarf) |
-| **Chaotic** | Infernal weapon (cold, *Jotunheimian*) | Tame, saddled [[/Monsters/Pegasus]] | [[/Skills/Axe]] (Dwarf) or [[/Skills/Sword]] (Non-dwarf) |
+| Alignment | Weapon Gift |
+| :--- | :--- |
+| **Lawful** | Celestial silver/mithril weapon (fire, *Asgardian*, *Giant Slaying*) |
+| **Neutral** | Primordial weapon (lightning, *Asgardian*, *Giant Slaying*) |
+| **Chaotic** | Infernal weapon (cold, *Jotunheimian*) |
+
+> ℹ️ **Note:** The **Valkyrie** also receives a tame, saddled [[/Monsters/Pegasus]] (if pets are allowed) and unrestricts the [[/Skills/Axe]] skill (if a Dwarf) or [[/Skills/Sword]] skill (otherwise), regardless of alignment.
 
 ### 🪄 Wizard
 
