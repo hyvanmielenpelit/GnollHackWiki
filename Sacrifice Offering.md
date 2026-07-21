@@ -42,20 +42,25 @@ When a valid fresh corpse is successfully offered, it is consumed and a message 
 
 ## 🎚️ Corpse Value
 
-The value of a fresh corpse determines its efficacy.
-- **Base Value**: Equal to the monster's **difficulty + 1**.
-- **Maximum Value**: Capped at **24** (e.g., adult dragons, arch-liches).
-- **Partially Eaten Corpses**: The value is scaled down proportionally to the remaining nutrition.
+The value of a corpse determines its efficacy:
+
+| Corpse State / Condition | Sacrifice Value | Notes |
+| :--- | :--- | :--- |
+| **Fresh Corpse** | `Difficulty + 1` | Default value for any corpse killed within the last 50 turns. |
+| **Old Corpse** | `0` | Any corpse killed more than 50 turns ago. Sacrificing this usually does nothing, unless it is undead (see below). |
+| **Partially Eaten Corpse** | Scaled proportionally | Value is reduced based on the remaining nutrition of the corpse. |
+| **Maximum Value** | Capped at `24` | |
 
 ### 🧟 Undead Corpses
 
-Sacrificing an undead corpse provides different values depending on the player's alignment:
-- **Lawful and Neutral players**: Receive a `+1` bonus to the value. 
-  - A *fresh* undead corpse has a final value of **`Difficulty + 2`** (base `Difficulty + 1` plus `1` bonus).
-  - An *old* undead corpse has a final value of **`1`** (base `0` plus `1` bonus). Because the final value is greater than 0, lawful and neutral players can successfully sacrifice old undead corpses!
-- **Chaotic players**: Receive no bonus and use the standard calculations.
-  - A *fresh* undead corpse has a normal value of **`Difficulty + 1`**.
-  - An *old* undead corpse has a value of **`0`** and cannot be sacrificed (*"Nothing happens."*).
+Sacrificing an undead corpse provides different values and outcomes depending on the player's alignment and the corpse's freshness:
+
+| Player Alignment | Corpse Freshness | Final Sacrifice Value | Outcome / Result |
+| :--- | :--- | :--- | :--- |
+| **Lawful or Neutral** | Fresh (≤ 50 turns) | `Difficulty + 2` | **Success** (Base `Difficulty + 1` + `1` bonus) |
+| **Lawful or Neutral** | Old (> 50 turns) | `1` | **Success** (Base `0` + `1` bonus; corpse is consumed) |
+| **Chaotic** | Fresh (≤ 50 turns) | `Difficulty + 1` | **Success** (Standard base calculation; no bonus) |
+| **Chaotic** | Old (> 50 turns) | `0` | **Failure** (*"Nothing happens."*; corpse is ignored) |
 
 ## 🛐 Sacrificing on a Co-Aligned Altar
 
