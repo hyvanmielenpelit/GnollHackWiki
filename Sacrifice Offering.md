@@ -152,6 +152,7 @@ When you offer a fresh sacrifice on an altar of a different alignment, the outco
 If your own god is **NOT angry** with you, you will attempt to convert the cross-aligned altar to your own alignment.
 
 The probability of success is:
+
 $$\text{Success Chance} = \frac{\text{Level} + 2}{\text{Level} + 8}$$
 
 > ℹ️ **Note:** Unaligned "godless" altars outside Gehennom convert at a 100% rate.
