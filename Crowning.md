@@ -105,8 +105,10 @@ Crowned characters receive a special title depending on their alignment:
 | :--- | :--- | :--- |
 | **Lawful** | 1. Bless/enchant wielded **The Katana of Masamune**<br>2. Gift **The Katana of Masamune**<br>3. Transform wielded long sword to **Excalibur**<br>4. Gift Celestial silver long sword (+2 to +5, fire, mythic) | [[/Skills/Sword]] |
 | **Neutral** | 1. Bless/enchant wielded **Vorpal Blade**<br>2. Gift **Vorpal Blade**<br>3. Gift Primordial long sword (+2 to +5, mythic) | [[/Skills/Sword]] |
-| **Chaotic** | 1. Bless/enchant wielded chaotic artifact<br>2. Gift chaotic artifact (**Howling Flail** for Gnolls; **Stormbringer** or **Mournblade** for others)<br>3. Gift Infernal long sword (+2 to +5, mythic) | [[/Skills/Flail]] or [[/Skills/Sword]], and [[/Skills/Dual wielding]] (if Stormbringer/Mournblade) |
+| **Chaotic** | 1. Bless/enchant wielded chaotic artifact<br>2. Gift chaotic artifact (**Stormbringer** or **Mournblade**)<br>3. Gift Infernal long sword (+2 to +5, mythic) | [[/Skills/Sword]], and [[/Skills/Dual wielding]] (if Stormbringer/Mournblade) |
 
+> ℹ️ **Note:** For all of these roles, if the player character is a **Gnoll**, they will receive the [[/Artifacts/Howling Flail]] instead of the alignment-specific artifact mentioned above, and they will unrestrict the [[/Skills/Flail]] skill.
+> 
 > ℹ️ **Note:** The **Caveman** also receives a tame, saddled [[/Monsters/Tyrannosaurus rex]] (if pets are allowed), regardless of alignment.
 
 ### 🛡️ Knight

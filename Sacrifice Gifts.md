@@ -44,6 +44,7 @@ Only certain role and alignment combinations have a **guaranteed first sacrifice
 * **Samurai**: [[/Artifacts/Snickersnee]]
 * **Valkyrie**: [[/Artifacts/Mjollnir]]
 * **Wizard**: [[/Artifacts/Magicbane]]
+* **Gnoll** (Race): [[/Artifacts/Howling Flail]]
 
 ### Monk Weapon Restriction
 
