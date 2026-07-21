@@ -107,15 +107,9 @@ Depending on how much prayer timeout is reduced, the player will see different m
 
 ### 4. Divine Gifts
 
-If you are in excellent standing (no anger, positive alignment, no prayer timeout, character level > 2, and Luck $\ge$ 0), there is a chance your god bestows a divine gift:
+If you are in excellent standing (no anger, positive alignment, no prayer timeout, character level > 2, and Luck $\ge$ 0), there is a chance your god bestows a divine gift.
 
-Success occurs with a probability of:
-
-$P = \frac{1}{10 + 2 \times G \times A}$
-
-where $G$ is the number of gifts previously received, and $A$ is the number of created artifacts in the game.
-
-See [[Sacrifice Gifts]] for gift pools and mechanics.
+See [[Sacrifice Gifts]] for details.
 
 ### 5. Increasing Luck
 
@@ -222,13 +216,17 @@ The `maxanger` value is calculated differently depending on whether you anger yo
 ### Angering a Cross-Aligned God
 
 $$ \text{maxanger} = \left\lfloor \frac{\text{Alignment Record}}{2} \right\rfloor + L $$
+
 Where $L$ is the Luck modifier:
+
 $$ L = \begin{cases} - \lfloor \frac{\text{Luck}}{3} \rfloor & \text{if } \text{Luck} > 0 \\ - \text{Luck} & \text{if } \text{Luck} \le 0 \end{cases} $$
 
 ### Angering Your Own God
 
 $$ \text{maxanger} = (3 \times \text{God's Anger}) + L $$
+
 Where $L$ is the Luck modifier:
+
 $$ L = \begin{cases} - \lfloor \frac{\text{Luck}}{3} \rfloor & \text{if } \text{Luck} > 0 \text{ or Alignment Record} \ge 4 \text{ (Strident)} \\ - \text{Luck} & \text{otherwise} \end{cases} $$
 
 ### Outcome
