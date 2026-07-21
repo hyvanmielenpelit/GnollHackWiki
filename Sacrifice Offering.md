@@ -134,7 +134,7 @@ When your Luck increases (corpse value 5 or higher), you will see one of the fol
 
 ### 6. Blessing Special Items
 
-If you are in good standing or your prayer timeout was reduced, there is a chance that a special praying item (like a holy symbol or prayerstone) in your inventory will be blessed.
+If you are in good standing (meaning your god is not angry and your alignment record is not negative) or if your sacrifice reduced your prayer timeout, the first unblessed special praying item (like a [[/Items/holy symbol]] or [[/Items/prayerstone]]) in your inventory will be automatically blessed. This happens as long as the sacrifice was not used to appease an angry god or fix a negative alignment.
 
 - Message: *"[Item] softly glows with a [light blue] aura."*
 
