@@ -9,20 +9,25 @@ To offer a sacrifice, you must be standing on an altar and you must not be curre
 The primary items offered on an altar are:
 - 🥩 **Corpses**: They must be fresh (killed within the last 50 turns), with the sole exception of acid blobs, which never rot.
 
-If you attempt to sacrifice any other food or item (excluding the Amulet of Yendor, which is detailed at the end of this page), the game will reject it with the message *"You can't sacrifice that!"* and the item is not consumed.
+If you attempt to sacrifice other items or old corpses, the game will reject them or ignore the offering:
 
-If a corpse is offered but is too old (not fresh), it will not be consumed and the game will simply output *"Nothing happens."*
+| Attempted Offering | Condition | Message Seen by Player | Result |
+| :--- | :--- | :--- | :--- |
+| **Invalid Item** | Any item that is not a corpse (excluding the Amulet of Yendor, detailed at the end of this page) | *"You can't sacrifice that!"* | Item is not consumed; action ends |
+| **Old Corpse** | Corpse killed more than 50 turns ago (except never-rotting acid blobs) | *"Nothing happens."* | Corpse is not consumed; action ends |
+| **Fresh Corpse** | Corpse killed within 50 turns (or acid blob) | *Depends on character state (see below)* | Corpse is consumed; effects applied |
 
 ### 💨 Offering Consumption Messages
-When a valid sacrifice of value is accepted, the message displayed depends on your status and alignment:
 
-| Character State | Message |
+When a valid fresh corpse is successfully offered, it is consumed and a message is displayed based on your character's status:
+
+| Character State | Message Seen by Player |
 | :--- | :--- |
-| **Lawful** | *"sacrifice is consumed in a flash of light!"* |
-| **Neutral or Chaotic** | *"sacrifice is consumed in a burst of flame!"* |
-| **Blind & Lawful** | *"sacrifice disappears!"* |
-| **Blind & Neutral/Chaotic** | *"sacrifice is consumed in a burst of flame!"* |
-| **Hallucinating** (1 of 3 randomly) | 1. *"sacrifice curls up in a ball and runs away!"* <br> 2. *"sacrifice puffs up, swelling bigger and bigger, and pops!"* <br> 3. *"sacrifice collapses into a cloud of dancing particles and fades away!"* |
+| **Lawful** (Not Blind, Not Hallucinating) | *"Your sacrifice is consumed in a flash of light!"* |
+| **Neutral or Chaotic** (Not Blind, Not Hallucinating) | *"Your sacrifice is consumed in a burst of flame!"* |
+| **Blind & Lawful** | *"Your sacrifice disappears!"* |
+| **Blind & Neutral or Chaotic** | *"Your sacrifice is consumed in a burst of flame!"* |
+| **Hallucinating** (1 of 3 chosen randomly) | 1. *"Your sacrifice sprouts wings and a propeller and roars away!"* <br /> 2. *"Your sacrifice puffs up, swelling bigger and bigger, and pops!"* <br /> 3. *"Your sacrifice collapses into a cloud of dancing particles and fades away!"* |
 
 ## 🎚️ Corpse Value
 
