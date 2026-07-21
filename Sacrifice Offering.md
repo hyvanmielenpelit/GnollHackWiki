@@ -103,9 +103,16 @@ Depending on how much prayer timeout is reduced, the player will see different m
 | **Timeout reduced to 0** | *"You have a feeling of reconciliation."* | *"Overall, there is a smell of fried onions."* | Luck reset to 0 (if negative) |
 
 ### 4. Divine Gifts
+
 If you are in excellent standing (no anger, positive alignment, no prayer timeout, character level > 2, and Luck $\ge$ 0), there is a chance your god bestows a divine gift:
-- **Gift Chance**: Success occurs with a probability of: $P = \frac{1}{10 + 2 \times G \times A}$ where $G$ is the number of gifts previously received, and $A$ is the number of created artifacts in the game.
-- **Details**: See [[/Sacrifice Gifts]] for gift pools and mechanics.
+
+Success occurs with a probability of:
+
+$P = \frac{1}{10 + 2 \times G \times A}$
+
+where $G$ is the number of gifts previously received, and $A$ is the number of created artifacts in the game.
+
+See [[Sacrifice Gifts]] for gift pools and mechanics.
 
 ### 5. Increasing Luck
 If no timeout or anger was reduced, and no gift was granted, your Luck is increased:
@@ -126,7 +133,9 @@ When your Luck increases (corpse value 5 or higher), you will see one of the fol
 | **24** | 23+ | +5 |
 
 ### 6. Blessing Special Items
+
 If you are in good standing or your prayer timeout was reduced, there is a chance that a special praying item (like a holy symbol or prayerstone) in your inventory will be blessed.
+
 - Message: *"[Item] softly glows with a [light blue] aura."*
 
 ## ⚖️ Sacrificing on a Cross-Aligned Altar
