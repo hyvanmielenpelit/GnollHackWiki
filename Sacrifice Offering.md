@@ -4,18 +4,15 @@
 
 To offer a sacrifice, you must be standing on an altar.
 
-## 💡 Summary of Offerings
+## 💡 Overview
 
-The primary items offered on an altar are:
-- 🥩 **Corpses**: They must be fresh, meaning they were killed within the last 50 turns<sup>1</sup>.
-
-If you attempt to sacrifice other items or old corpses, the game will reject them or ignore the offering:
+The only primary items offered on an altar are **corpses**. They must be fresh, meaning they were killed within the last 50 turns<sup>1</sup>. If you attempt to sacrifice old corpses or other items, the game will reject them or ignore the offering.
 
 | Attempted Offering | Condition | Message Seen by Player | Result |
 | :--- | :--- | :--- | :--- |
-| **Invalid Item** | Any item that is not a corpse | *"You can't sacrifice that!"* | Item is not consumed; action ends |
-| **Old Corpse** | Corpse killed more than 50 turns ago<sup>1</sup> | *"Nothing happens."* | Corpse is not consumed; action ends |
 | **Fresh Corpse** | Corpse killed within 50 turns<sup>1</sup> | *Depends on character state (see below)* | Corpse is consumed; effects applied |
+| **Old Corpse** | Corpse killed more than 50 turns ago<sup>1</sup> | *"Nothing happens."* | Corpse is not consumed; action ends |
+| **Invalid Item** | Any item that is not a corpse | *"You can't sacrifice that!"* | Item is not consumed; action ends |
 
 - <sup>1</sup> Lizard and lichen corpses do not rot for eating purposes, but they still become too old to be sacrificed after 50 turns. Acid blob corpses are the only corpses that are accepted as fresh regardless of age.
 
