@@ -122,7 +122,7 @@ When your Luck increases (corpse value 5 or higher), you will see one of the fol
 - **Hallucinating:** *"You see crabgrass at your feet. A funny thing in a dungeon."*
 
 | Corpse Value | Required Monster Difficulty | Luck Increase |
-| :----------- | :-------------------------: | :-----------: |
+| :----------: | :-------------------------: | :-----------: |
 | **0 to 4** | 0 to 3 (or not fresh) | 0 (No message shown) |
 | **5 to 9** | 4 to 8 | +1 |
 | **10 to 14** | 9 to 13 | +2 |
