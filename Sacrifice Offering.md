@@ -132,32 +132,46 @@ If you are in good standing or your prayer timeout was reduced, there is a chanc
 
 ## ⚖️ Sacrificing on a Cross-Aligned Altar
 
-If you sacrifice on a cross-aligned altar, the outcome is determined by your current standing.
-
-### 🔄 Converting Yourself
-If your own god is angry with you (or if you sacrifice at Moloch's altar in Gehennom), you can convert yourself to the altar's alignment, provided you have not converted before and the altar has an alignment.
-- **Outcome**: Alignment base becomes the altar's alignment, Luck decreases by 3, and your prayer timeout increases by 300 turns (150 for Priests).
-- Message: *"You have a strong feeling that [Your God] is angry... [Altar God] accepts your allegiance."*
-- ⚠️ **Warning:** If conversion fails or is rejected (or you attempt to convert to Moloch outside Gehennom), your god's anger increases by 3, you lose 5 alignment, you lose 5 Luck, your Wisdom drops by 2, and you will be smitten by your god.
+When you offer a fresh sacrifice on an altar of a different alignment, the outcome is determined by your current standing with your own god.
 
 ### 🔄 Converting the Altar
-If your own god is NOT angry with you, you attempt to convert the altar to your alignment.
-- **Success Chance**: Calculated as $\frac{\text{Level} + 2}{\text{Level} + 8}$. (Unaligned "godless" altars outside Gehennom convert at a 100% rate).
-- **Successful Conversion**: The altar is converted to your alignment. Luck increases by 1, Wisdom is exercised, and any cross-aligned priest present becomes angry.
-  - Message: *"You sense a conflict between [Your God] and [Altar God]. You feel the power of [Your God] increase. The altar glows [white/gray/black]."*
-- **Failed Conversion**: Luck decreases by 1, and Wisdom is reduced.
-  - Message: *"You sense a conflict between [Your God] and [Altar God]. Unluckily, you feel the power of [Your God] decrease."*
+
+If your own god is **NOT angry** with you, you will attempt to convert the cross-aligned altar to your own alignment.
+
+The probability of success is:
+$$\text{Success Chance} = \frac{\text{Level} + 2}{\text{Level} + 8}$$
+
+> ℹ️ **Note:** Unaligned "godless" altars outside Gehennom convert at a 100% rate.
+
+On aligned altars, both outcomes begin with the message:
+*"You sense a conflict between [Your God] and [Altar God]."*
+
+| Outcome | Effect | Message Addition |
+| :--- | :--- | :--- |
+| **Success** | • Altar converts to your alignment. <br> • Luck increases by 1. <br> • Wisdom is exercised. <br> • Any cross-aligned priest present becomes angry. | *"...You feel the power of [Your God] increase. The altar glows [white/gray/black]."* |
+| **Failure** | • Altar remains unconverted. <br> • Luck decreases by 1. <br> • Wisdom is reduced. | *"...Unluckily, you feel the power of [Your God] decrease."* |
 
 | Character Level | Altar Conversion Success Chance |
-| :--- | :--- |
-| **Level 1** | 33.3% |
-| **Level 2** | 40.0% |
-| **Level 3** | 45.5% |
-| **Level 5** | 53.8% |
-| **Level 10** | 66.7% |
-| **Level 15** | 73.9% |
-| **Level 20** | 78.6% |
-| **Level 30** | 84.2% |
+| :-------------: | :-----------------------------: |
+| 1 | 33.3% |
+| 2 | 40.0% |
+| 3 | 45.5% |
+| 5 | 53.8% |
+| 10 | 66.7% |
+| 15 | 73.9% |
+| 20 | 78.6% |
+| 30 | 84.2% |
+
+### 🔄 Converting Yourself
+
+If your own god **IS angry** with you (or if you sacrifice at Moloch's altar in Gehennom), you can convert yourself to the altar's alignment. This is only possible if the altar has an alignment and you have not converted before.
+
+| Outcome | Condition | Effect | Message |
+| :--- | :--- | :--- | :--- |
+| **Successful Conversion** | Haven't converted before. | Alignment base becomes the altar's alignment. <br> Luck decreases by 3. <br> Prayer timeout increases by 300 turns (150 for Priests). | *"You have a strong feeling that [Your God] is angry... [Altar God] accepts your allegiance."* |
+| **Failed Conversion** | Already converted before, or converting to Moloch outside Gehennom. | God's anger increases by 3. <br> Alignment record decreases by 5. <br> Luck decreases by 5. <br> Wisdom drops by 2. <br> You are smitten by your god. | *"[Altar God] rejects your sacrifice!"* <br> *"Suffer, infidel!"* |
+
+> ⚠️ **Warning:** Converting yourself is an extreme action. A failed conversion results in severe penalties and a direct smite!
 
 ## 🦄 Special Sacrifices
 
