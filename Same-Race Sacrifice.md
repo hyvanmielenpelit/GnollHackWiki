@@ -1,18 +1,18 @@
 > 👉 **Same-race sacrifice occurs when you sacrifice a corpse of your own race on an altar. This dangerous act is heavily frowned upon by the gods and usually has dire consequences, but it can also be used as a risky method to summon demon lords.**
 
-## Overview
+## 📖 Overview
 
 Sacrificing a member of your own race is considered a severe offense in GnollHack. The exact consequences depend on the alignment of the altar where the sacrifice takes place.
 
 > ℹ️ **Note:** A same-race sacrifice is determined by your character's race. For example, a Human sacrificing a human corpse, or an Elf sacrificing an elf corpse.
 
-## High Altars
+## 🛕 High Altars
 
 Same-race sacrifice on a **High Altar** is treated as a desecration of the most sacred site. Unless **both** you and the altar are Chaotic (or it is Moloch's altar), the owning god will directly smite you with devastating force — this is the same punishment as trying to convert a high altar, and is often instantly fatal.
 
 > ⚠️ **Warning:** Never perform a same-race sacrifice on a high altar unless you are Chaotic and the altar is also Chaotic or Moloch's. The smite is one of the most lethal events in the game.
 
-## The Non-Chaotic Penalty
+## ⚡ The Non-Chaotic Penalty
 
 Regardless of the altar you use, if your character's alignment is **Lawful** or **Neutral**, the act of a same-race sacrifice immediately incurs severe divine punishment:
 - You instantly lose 1 Wisdom.
@@ -21,7 +21,7 @@ Regardless of the altar you use, if your character's alignment is **Lawful** or 
 
 <sup>1</sup> The divine smite is skipped if you are inside Gehennom.
 
-## Lawful and Neutral Altars
+## ⚖️ Lawful and Neutral Altars
 
 If you perform a same-race sacrifice on a Lawful or Neutral altar, the gods will immediately intervene to punish you. No demon lord is summoned in this scenario. 
 
@@ -29,11 +29,11 @@ The consequences for the altar are severe:
 - The altar is instantly desecrated and converted into a Chaotic altar. It is stained with blood.
 - Any attending priest becomes hostile.
 
-## Chaotic and Moloch Altars
+## 😈 Chaotic and Moloch Altars
 
 Sacrificing your own race on a Chaotic or Moloch altar is treated as a **demonic summoning ritual**. This ritual will always attempt to summon a Chaotic demon lord. 
 
-### Demonic Summoning Ritual
+### 🕯️ Demonic Summoning Ritual
 
 #### Terror Effect
 
@@ -46,7 +46,7 @@ The sheer terror of the summoning will paralyze you for 3 turns (*"You are terri
 | **In Gehennom** | **Demogorgon** | Random Chaotic Demon Lord |
 | **Outside Gehennom** | Random Chaotic Demon Lord | *None* |
 
-#### Alignment-Based Outcomes
+#### ☯️ Alignment-Based Outcomes
 
 The consequences of the ritual depend heavily on your character's alignment:
 
@@ -57,7 +57,7 @@ The consequences of the ritual depend heavily on your character's alignment:
 
 > ℹ️ **Note:** Non-chaotic characters will also suffer the standard severe divine punishment (Wisdom loss, alignment loss, and smite) in addition to fighting a hostile demon lord.
 
-### Chaotic Character Demon Hostility
+### ⚔️ Chaotic Character Demon Hostility
 
 If you are a **Chaotic** character, the Chaotic demon lord may be appeased by your sacrifice. 
 
@@ -75,6 +75,6 @@ The approximate hostility chances for your subsequent demon lord summons are det
 | Normal (0)            | ~66.7% | 75.0%  | 80.0%  | ~83.3% |
 | Negative (< 0)        | 80.0%  | ~85.7% | ~88.9% | ~90.9% |
 
-## Demons Sacrificing Demons
+## 👹 Demons Sacrificing Demons
 
 If you are currently in demon form (e.g., via polymorph), sacrificing your own race does not incur the standard penalties. Instead, you find the act highly satisfying, which exercises your Wisdom (*"You find the idea very satisfying."*).
