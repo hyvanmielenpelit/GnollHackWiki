@@ -93,7 +93,7 @@ When editing or creating pages for the GnollHack Wiki, follow these conventions 
 
 ## 9. Recommended Unicode Icons
 
-When editing or creating headings for pages, always use appropriate Unicode icons/emojis immediately after the heading markers (`## ` or `### `) to maintain a rich, consistent visual aesthetic across the wiki. Use this verified list as a guide:
+When editing or creating headings for pages, always use appropriate Unicode icons/emojis immediately after the heading markers (`## ` or `### `) to maintain a rich, consistent visual aesthetic across the wiki. Use this verified list as a guide. **Exception**: Never use Unicode icons in headings that start with a number (such as `1.`, `2.`, `3.`, or `### 1. Heading Name`).
 
 - **General Guides & Meta Info**:
   - General Info / Overview (General articles): `📖` or `ℹ️`

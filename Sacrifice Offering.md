@@ -1,71 +1,204 @@
-# Sacrifice Offering
+# 🛐 Sacrifice Offering
 
-> 👉 **Sacrificing is a major mechanic in GnollHack. Players can offer items (most commonly corpses) on an altar using the `#offer` command (or `o`) to appease their god, receive gifts, or manipulate the altar's alignment.**
+> 👉 **Sacrificing is a core gameplay mechanic in GnollHack. By using the `#offer` command (or `o`) while standing on an altar, you can sacrifice a corpse or the Amulet of Yendor to appease your god, manipulate altar alignments, obtain divine gifts, or even complete the game.**
 
-To offer a sacrifice, you must be standing on an altar and you must not be currently swallowed by a monster. While most items can be offered, most will simply be consumed or rejected by the gods without significant benefit. The primary items to sacrifice are **corpses**.
+To offer a sacrifice, you must be standing on an altar and you must not be currently swallowed by a monster.
+
+---
 
 ## 💡 Summary of Offerings
 
-The following items have special interactions when sacrificed on an altar:
-- **Corpses**: The most common and valuable offering. Must generally be fresh (killed within the last 50 turns), with the exception of acid blobs, which never rot.
-- **The Amulet of Yendor**: Sacrificing the real Amulet on a high altar is the ultimate goal of the game and completes your ascension.
-- **Fake Amulet of Yendor**: Sacrificing a fake amulet angers the gods.
+Only specific item classes can be offered on an altar:
+- 🥩 **Corpses**: The primary offering. They must be fresh (killed within the last 50 turns), with the sole exception of acid blobs, which never rot.
+- 👑 **The Amulet of Yendor**: Sacrificing the real Amulet on a high altar completes your ascension.
+- 🪙 **Fake Amulet of Yendor**: Sacrificing a fake amulet will anger the gods.
 
-If an invalid or zero-value item is sacrificed, it is typically consumed in a flash of light (lawful altars) or a burst of flame (neutral/chaotic altars), and no alignment or luck changes occur. If you are blind, it merely disappears. If you are hallucinating, the item may puff up and pop or collapse into dancing particles.
+If you attempt to sacrifice any other food or item (e.g. food rations, fruits, or tools), the game will reject it with the message *"You can't sacrifice that!"* and the item is not consumed.
 
-## Corpse Value
+If a corpse is offered but is too old (not fresh), it will not be consumed and the game will simply output *"Nothing happens."*
 
-The value of a sacrificed corpse determines how much it can appease your god.
-- The base value of a fresh corpse is equal to its monster's **difficulty + 1**.
-- The maximum value for any standard corpse is **24**.
-- Undead corpses offer no value to chaotic players, but provide `+1` value to non-chaotic players.
+### 💨 Offering Consumption Messages
+When a valid sacrifice of value is accepted, the message displayed depends on your status and alignment:
 
-## Sacrificing on a Co-Aligned Altar
+| Character State | Message |
+| :--- | :--- |
+| **Lawful** | *"sacrifice is consumed in a flash of light!"* |
+| **Neutral or Chaotic** | *"sacrifice is consumed in a burst of flame!"* |
+| **Blind & Lawful** | *"sacrifice disappears!"* |
+| **Blind & Neutral/Chaotic** | *"sacrifice is consumed in a burst of flame!"* |
+| **Hallucinating** (1 of 3 randomly) | 1. *"sacrifice curls up in a ball and runs away!"* <br> 2. *"sacrifice puffs up, swelling bigger and bigger, and pops!"* <br> 3. *"sacrifice collapses into a cloud of dancing particles and fades away!"* |
 
-When you sacrifice a valid corpse on an altar that matches your current alignment (a co-aligned altar), your god will evaluate the sacrifice. Depending on your current standing with your god, several things may happen in the following priority order:
+---
 
-1. **Decreasing Anger**: If your god is currently angry with you, the sacrifice will reduce their anger based on the corpse's value (chaotic gods are appeased slightly slower than lawful or neutral gods). You may receive the message that your god seems *"slightly mollified"* or *"mollified"*.
-2. **Decreasing Alignment Penalty**: If you have a negative alignment record, a valuable corpse will partially absolve you, increasing your alignment record by the corpse's value (up to the maximum possible for that corpse). You will feel *"partially absolved"*.
-3. **Decreasing Prayer Timeout**: If your prayer timeout is currently active (meaning it is too early to pray safely), sacrificing reduces this timeout proportionally based on the corpse's value. If the timeout is completely removed, you will have a *"feeling of reconciliation"*. If it is merely reduced, you will have a *"hopeful feeling"*.
-4. **Receiving a Gift**: If you are in good standing (level > 2, luck is at least 0, no anger, no negative alignment, no prayer timeout), there is a chance your god will grant you a divine gift. The chance of receiving a gift decreases as more artifacts are generated in the game. For more details on what you can receive, see [[/Sacrifice Gifts]].
-5. **Increasing Luck**: If none of the above apply, or the value of the sacrifice exceeds what is needed, your Luck may be increased. If this happens, you will glimpse a *"four-leaf clover at your feet"*.
-6. **Blessing Praying Items**: If you are in good standing or your prayer timeout was reduced, there is a chance that special praying items in your inventory (such as a holy symbol or prayerstone) will be blessed and softly glow.
+## 🎚️ Corpse Value
 
-## Sacrificing on a Cross-Aligned Altar
+The value of a fresh corpse determines its efficacy.
+- **Base Value**: Equal to the monster's **difficulty + 1**.
+- **Maximum Value**: Capped at **24** (e.g., adult dragons, arch-liches).
+- **Undead corpses**: Worth `+1` value for lawful or neutral players, but have a value of `0` (ignored) for chaotic players.
+- **Partially Eaten Corpses**: The value is scaled down proportionally to the remaining nutrition.
 
-If you sacrifice on an altar that does not match your alignment (a cross-aligned altar), the outcome depends on whether your own god is angry with you.
+---
 
-### Converting Yourself
-If your god is angry with you (or if you are sacrificing at Moloch's unaligned altar in Gehennom), the altar's god may accept your allegiance. This will **convert you** to the altar's alignment. This conversion is costly: it decreases your Luck by 3 and significantly increases your prayer timeout. 
+## 🛐 Sacrificing on a Co-Aligned Altar
 
-> ⚠️ **Warning:** If you attempt to convert but it is rejected (or you sacrifice on Moloch's altar while not in Gehennom), your original god will become even angrier, you will lose alignment record and Luck, and your god will smite you.
+When sacrificing a fresh, valid corpse on an altar of your own alignment, your god evaluates the offering. The effects are resolved in the following priority order:
 
-### Converting the Altar
-If your god is *not* angry with you, a conflict arises between your god and the altar's god. 
-- You have a chance to **convert the altar** to your alignment. This chance is calculated as: $\frac{2 + \text{Level}}{8 + \text{Level}}$. If successful, the altar glows in your alignment's color, your Luck increases by 1, and your god's power increases. However, if a priest of the former alignment is present, they will become angry.
-- If the conversion fails, you will feel your god's power decrease, and your Luck will decrease by 1.
+### 1. Decreasing Anger
+If your god is angry (`u.ugangr > 0`), the corpse value reduces their anger:
+$$\text{Anger Reduction} = \frac{\text{Corpse Value} \times (2 \text{ if Chaotic else } 3)}{24}$$
 
-## Special Sacrifices
+If anger is reduced but remains above zero, the message is:
+- Normal: *"[God Name] seems slightly mollified."*
+- Hallucinating: *"[God Name] seems groovy."*
+- Luck is increased by 1 if it was negative.
 
-### Sacrificing Your Own Race
-Sacrificing a corpse of your own race (e.g., a human sacrificing a human, or an elf sacrificing an elf) is considered an infamous offense.
-- **For Non-Demons**: Unless you are chaotic, this will lower your Wisdom. If offered on a co-aligned or cross-aligned altar (that is not Moloch's or chaotic), you will curse the altar, turning it chaotic and staining it with blood. Your alignment and Luck will drastically decrease, and you will anger your god.
-- **On Chaotic/Moloch Altars**: Human/same-race sacrifices on chaotic or Moloch altars function as **demon summoning**. Blood covers the altar, and a powerful Demon Lord (or Demogorgon, if in Gehennom) will be summoned. If you are chaotic and have a high alignment record, there is a chance the demon will be peaceful; otherwise, it will be hostile and may terrify you.
-- **For Demons**: If you are a demon, sacrificing your own race is considered "very satisfying" and increases your Wisdom.
+If anger is reduced to zero, the message is:
+- Normal: *"[God Name] seems mollified."*
+- Hallucinating: *"[God Name] seems cosmic."*
+- Luck is reset to 0 if it was negative.
 
-### Sacrificing Pets
-Sacrificing a tame monster (your pet) is an act of betrayal. You will receive the message *"So this is how you repay loyalty?"*, your alignment will decrease by 3, and you will permanently aggravate monsters in the dungeon.
+If anger is not reduced, you get the message:
+- Normal: *"You have a feeling of inadequacy."*
+- Hallucinating: *"The gods seem tall."*
 
-### Sacrificing Unicorns
-Unicorns have strong alignments, and sacrificing them has unique consequences depending on how their alignment compares to yours and the altar's:
-- **Same as Altar**: If the unicorn's alignment matches the altar's alignment, it is a grave insult. Your Wisdom is decreased, and the sacrifice value becomes -5.
-- **Same as You**: If the unicorn's alignment matches your own, but the altar is different, this causes an immediate alignment conversion. Your alignment record is reset to -1.
-- **Cross-Aligned Unicorn on Co-Aligned Altar**: If you sacrifice a unicorn of a different alignment on an altar of your alignment, this is a very good action. You will feel *"thoroughly on the right path"* (or *"appropriately aligned"*), gain alignment record (+5), and the corpse value receives a +3 bonus.
+### 2. Decreasing Alignment Penalty
+If you are not angry but have a negative alignment record, a valuable corpse will increase your alignment by the corpse's value (up to 0). You will feel *"partially absolved"*.
 
-## The Amulet of Yendor
+### 3. Decreasing Prayer Timeout
+If you are in good standing but your prayer timeout is active, the timeout is reduced:
+$$\text{Timeout Reduction} = \frac{\text{Corpse Value} \times (500 \text{ if Chaotic else } 300)}{24 \times (2 \text{ if Priest else } 1)}$$
 
-Sacrificing the true Amulet of Yendor on the high altar of your alignment on the Astral Plane completes the game and grants you immortality (see [[/Ascension]] for more details). 
+| Character Class | Character Alignment | Max Turn Reduction (Value 24) | Turn Reduction per Value Point |
+| :--- | :--- | :--- | :--- |
+| **Priest** | Chaotic | 250 turns | 10.4 turns |
+| **Priest** | Lawful / Neutral | 150 turns | 6.25 turns |
+| **Non-Priest** | Chaotic | 500 turns | 20.8 turns |
+| **Non-Priest** | Lawful / Neutral | 300 turns | 12.5 turns |
 
-> ℹ️ **Note:** Attempting to sacrifice the Amulet on a high altar of an opposing alignment will result in the opposing god taking the Amulet and sparing your life, ending the game in an escape rather than an ascension. Sacrificing it on Moloch's high altar will result in Moloch snuffing out your life.
+If the timeout is reduced but remains active, the message is:
+- Normal: *"You have a hopeful feeling."*
+- Hallucinating: *"You realize that the gods are not like you and I."*
+- Luck is increased by 1 if it was negative.
 
-Sacrificing a **fake** Amulet of Yendor will anger the gods, causing a nearby thunderclap, decreasing your Luck by 3, decreasing your alignment record by 1, and increasing your god's anger.
+If the timeout is reduced to zero, the message is:
+- Normal: *"You have a feeling of reconciliation."*
+- Hallucinating: *"Overall, there is a smell of fried onions."*
+- Luck is reset to 0 if it was negative.
+
+### 4. Divine Gifts
+If you are in excellent standing (no anger, positive alignment, no prayer timeout, character level > 2, and Luck $\ge$ 0), there is a chance your god bestows a divine gift:
+- **Gift Chance**: Success occurs if a random roll from `10 + 2 * u.ugifts * nartifacts` is `0`.
+- **Details**: See [[/Sacrifice Gifts]] for gift pools and mechanics.
+
+### 5. Increasing Luck
+If no timeout or anger was reduced, and no gift was granted, your Luck is increased:
+$$\text{Luck Increase} = \frac{\text{Corpse Value} \times 10}{48}$$
+
+| Corpse Value | Required Monster Difficulty | Luck Increase | Message |
+| :--- | :--- | :--- | :--- |
+| **0 to 4** | 0 to 3 (or not fresh) | 0 | *None* |
+| **5 to 9** | 4 to 8 | +1 | Glimpse a four-leaf clover at your feet / think something brushed your foot (if blind) / see crabgrass (if hallucinating) |
+| **10 to 14** | 9 to 13 | +2 | *Same as above* |
+| **15 to 19** | 14 to 18 | +3 | *Same as above* |
+| **20 to 23** | 19 to 22 | +4 | *Same as above* |
+| **24** | 23+ (e.g. Dragons, Arch-Liches) | +5 | *Same as above* |
+
+### 6. Blessing Special Items
+If you are in good standing or your prayer timeout was reduced, there is a chance that a special praying item (like a holy symbol or prayerstone) in your inventory will be blessed.
+- Message: *"[Item] softly glows with a [light blue] aura."*
+
+---
+
+## ⚖️ Sacrificing on a Cross-Aligned Altar
+
+If you sacrifice on a cross-aligned altar, the outcome is determined by your current standing.
+
+### 🔄 Converting Yourself
+If your own god is angry with you (or if you sacrifice at Moloch's altar in Gehennom), you can convert yourself to the altar's alignment, provided you have not converted before and the altar has an alignment.
+- **Outcome**: Alignment base becomes the altar's alignment, Luck decreases by 3, and your prayer timeout increases by 300 turns (150 for Priests).
+- Message: *"You have a strong feeling that [Your God] is angry... [Altar God] accepts your allegiance."*
+- ⚠️ **Warning:** If conversion fails or is rejected (or you attempt to convert to Moloch outside Gehennom), your god's anger increases by 3, you lose 5 alignment, you lose 5 Luck, your Wisdom drops by 2, and you will be smitten by your god.
+
+### 🔄 Converting the Altar
+If your own god is NOT angry with you, you attempt to convert the altar to your alignment.
+- **Success Chance**: Calculated as $\frac{\text{Level} + 2}{\text{Level} + 8}$. (Unaligned "godless" altars outside Gehennom convert at a 100% rate).
+- **Successful Conversion**: The altar is converted to your alignment. Luck increases by 1, Wisdom is exercised, and any cross-aligned priest present becomes angry.
+  - Message: *"You sense a conflict between [Your God] and [Altar God]. You feel the power of [Your God] increase. The altar glows [white/gray/black]."*
+- **Failed Conversion**: Luck decreases by 1, and Wisdom is reduced.
+  - Message: *"You sense a conflict between [Your God] and [Altar God]. Unluckily, you feel the power of [Your God] decrease."*
+
+| Character Level | Altar Conversion Success Chance |
+| :--- | :--- |
+| **Level 1** | 33.3% |
+| **Level 2** | 40.0% |
+| **Level 3** | 45.5% |
+| **Level 5** | 53.8% |
+| **Level 10** | 66.7% |
+| **Level 15** | 73.9% |
+| **Level 20** | 78.6% |
+| **Level 30** | 84.2% |
+
+---
+
+## 🦄 Special Sacrifices
+
+### 🧑‍🤝‍🧑 Sacrificing Your Own Race
+Sacrificing a corpse of your own race is a major offense.
+- **For Non-Demons**: Lowers Wisdom. If sacrificed on a non-chaotic and non-Moloch altar, it curses the altar to become chaotic, stains it with blood, angers any priest, and angers your own god (decreases alignment and Luck by 5, anger +3, Wisdom -1).
+- **Demon Summoning**: Sacrificing your own race on a chaotic or Moloch altar initiates a demon summoning:
+  - If you are not chaotic, and the altar is chaotic, the altar is destroyed (*"The blood floods the altar, which vanishes in a black cloud!"*).
+  - If you are chaotic or the altar is Moloch's, the altar remains covered in blood (*"The blood covers the altar!"*). Luck increases by 2 (+2), or decreases by 2 (-2) on Moloch's altar.
+  - **The Summoned Demon**: In Gehennom, it summons **Demogorgon**. Elsewhere, it summons a random Demon Lord.
+  - **Peaceful Chance**: If you are chaotic, the demon has a chance to be peaceful. The **very first** demon lord summoned via altar in a game is **guaranteed** to be peaceful. Subsequent summonings have a lower chance based on your alignment rank.
+  - **Terror**: If you do not have Fear Resistance, you will be paralyzed for 3 turns (*"You are terrified, and unable to move."*).
+- **For Demons**: If you are in demon form, sacrificing your own race is satisfying and exercises Wisdom (*"You find the idea very satisfying."*).
+
+### 🐕 Sacrificing Pets
+Sacrificing a tame creature is a betrayal of loyalty.
+- **Outcome**: Alignment record decreases by 3, the corpse value is set to -1 (triggering god's anger), and you permanently aggravate monsters.
+- Message: *"So this is how you repay loyalty?"*
+
+### 🦄 Sacrificing Unicorns
+Sacrificing unicorns yields highly alignment-dependent effects:
+
+| Altar Alignment | Unicorn Alignment | Outcome | Message |
+| :--- | :--- | :--- | :--- |
+| **Same as Unicorn** | Any | Gravely insults the altar. Wisdom is reduced, corpse value is set to -5 (triggers god's wrath). | *"Such an action is an insult to [law/balance/chaos]!"* |
+| **Same as Player** | Different from Altar & Player | Very good action. Alignment increases by 5, corpse value is increased by 3. | *"You feel thoroughly on the right path."* (or *"appropriately aligned"*) |
+| **Different from Player** | Same as Player | Player's alignment record is reset to -1. Corpse value is set to 1. | *None* |
+| **Any** | Cross-aligned to both Altar and Player | Ordinary sacrifice. Corpse value is increased by 3. | *None* |
+
+---
+
+## 👑 The Amulet of Yendor
+
+Sacrificing the real Amulet of Yendor is the method of completing the game:
+- **Astral Plane High Altar (Co-Aligned)**: Offers the Amulet to your god, culminating in your ascension to demigod/demigoddess status. For details, see [[/Ascension]].
+- **Astral Plane High Altar (Cross-Aligned)**: The opposing god gains dominion over your god. They permit you to live, and you escape the dungeon.
+- **Astral Plane High Altar (Moloch)**: Moloch retains dominion and snuffs out your life.
+- **Normal Altar**:
+  - Moloch Altar: God is upset.
+  - Co-aligned: *"You feel an urge to return to the surface."* (or *"homesick"* if hallucinating).
+  - Cross-aligned: *"You feel ashamed."* (or *"homesick"* if hallucinating).
+
+### 🪙 Fake Amulet of Yendor
+Sacrificing a fake Amulet of Yendor triggers a thunderclap (*"You hear a nearby thunderclap."*).
+- **If Unidentified**: You identify the fake amulet and realize your mistake. Luck decreases by 1.
+- **If Already Identified**: Luck decreases by 3, alignment record decreases by 1, god anger increases by 3, and the value is set to -3 (god gets upset). If deaf, you receive the message *"Oh, no."*
+
+---
+
+## 💢 Divine Anger & Smite Outcomes
+
+When a god is angered (via `angrygods` or a negative sacrifice value), a random outcome is chosen based on your current anger level (capped at 15):
+
+| Rolled Roll Value | Effect | Message |
+| :--- | :--- | :--- |
+| **0 or 1** | God is displeased. No stat or mechanical penalty. | *"You feel that [God Name] is displeased."* (or *"bummed"*) |
+| **2 or 3** | Player loses 1 Wisdom and 1 experience level. | *"Thou hast strayed from the path/art arrogant, [mortal/creature]. Thou must relearn thy lessons!"* |
+| **4 or 5** | Random items in inventory are cursed. Black glow surrounds player. | *"Thou hast angered me."* |
+| **6** | Player is punished (a heavy iron ball is attached to their leg). | *"Thou hast angered me."* |
+| **7 or 9** | Hostile minion is summoned. (Only if God is original alignment but player converted away). | *"Thou hast strayed from the path, [mortal/creature]. Thou shalt pay for thine indiscretion!"* |
+| **8** | Hostile minion is summoned. | *"Thou durst scorn/call upon me? Then die, [mortal/creature]!"* |
+| **10+** | Player is directly smote with magical damage or lightning bolt. | *"Thou hast angered me."* |
