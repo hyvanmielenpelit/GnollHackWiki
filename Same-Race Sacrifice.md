@@ -31,30 +31,38 @@ The consequences for the altar are severe:
 
 ## Chaotic and Moloch Altars
 
-Sacrificing your own race on a Chaotic or Moloch altar is treated as a demonic summoning ritual. This ritual will always attempt to summon a Chaotic demon lord. 
+Sacrificing your own race on a Chaotic or Moloch altar is treated as a **demonic summoning ritual**. This ritual will always attempt to summon a Chaotic demon lord. 
 
-- **The Summoned Demon**: In Gehennom, it attempts to summon **Demogorgon** first. If Demogorgon cannot be summoned (e.g., he already exists), a random Demon Lord is summoned instead. Outside Gehennom, a random Demon Lord is summoned.
-- **Terror Effect**: The sheer terror of the summoning will paralyze you for 3 turns (*"You are terrified, and unable to move."*) unless you possess Fear Resistance.
+### Demonic Summoning Ritual
 
-The outcome depends heavily on your character's alignment.
+#### Terror Effect
 
-### Non-Chaotic Characters
+The sheer terror of the summoning will paralyze you for 3 turns (*"You are terrified, and unable to move."*) unless you possess Fear Resistance.
 
-If your character is **Lawful** or **Neutral**, you will suffer the severe divine punishment detailed above. Additionally, the summoned Chaotic demon lord will instantly recognize your conflicting alignment and will be *100% hostile*, attacking you immediately. 
+#### The Summoned Demon
 
-If the altar was chaotic, the altar is destroyed (*"The blood floods the altar, which vanishes in a black cloud!"*).
+| Sacrifice Location | Primary Summon | Fallback Summon (if primary exists) |
+| :--- | :---: | :--- |
+| **In Gehennom** | **Demogorgon** | Random Chaotic Demon Lord |
+| **Outside Gehennom** | Random Chaotic Demon Lord | *None* |
 
-### Chaotic Characters
+#### Alignment-Based Outcomes
 
-If you are a **Chaotic** character (or sacrificing on Moloch's altar), the altar remains covered in blood (*"The blood covers the altar!"*). Your Luck increases by 2 (+2) if on a chaotic altar, or decreases by 2 (-2) on Moloch's altar.
+The consequences of the ritual depend heavily on your character's alignment:
 
-#### First Demon Lord Summon
+| Player Alignment | Altar Effects & Messages | Demon Lord Hostility | Luck Modifier |
+| :--- | :--- | :--- | :--- |
+| **Non-Chaotic** <br> *(Lawful/Neutral)* | **Chaotic Altar**: Destroyed (*vanishes in a black cloud*). <br> **Moloch Altar**: Intact, covered in blood. | **100% Hostile**, attacking immediately. | -5 (from severe divine punishment) |
+| **Chaotic** | Altar remains intact, covered in blood. | **Variable** (see below). | +2 (Chaotic Altar) <br> -2 (Moloch Altar) |
 
-If you are a **Chaotic** character, the Chaotic demon lord may be appeased by your sacrifice. The chance of the demon lord being peaceful depends on your alignment record and how many demon lords you have already summoned via altars. The first time you successfully summon a demon lord this way, it is *guaranteed to be peaceful* (0% chance of being hostile).
+> ℹ️ **Note:** Non-chaotic characters will also suffer the standard severe divine punishment (Wisdom loss, alignment loss, and smite) in addition to fighting a hostile demon lord.
 
-#### Subsequent Demon Lord Summons
+### Chaotic Character Demon Hostility
 
-If you continue to perform same-race sacrifices to summon additional demon lords, they will become increasingly agitated. The chance that subsequent demon lords will be hostile increases significantly, scaling with your alignment record. 
+If you are a **Chaotic** character, the Chaotic demon lord may be appeased by your sacrifice. 
+
+- **First Summon**: The first time you successfully summon a demon lord this way, it is *guaranteed to be peaceful* (0% chance of being hostile).
+- **Subsequent Summons**: The chance that subsequent demon lords will be hostile increases significantly, scaling with your alignment record. 
 
 The approximate hostility chances for your subsequent demon lord summons are detailed below:
 
