@@ -53,3 +53,14 @@ St:24 Dx:9 Co:24 In:14 Wi:10 Ch:10
 ## Picture
 
 ![Yacc](/uploads/Monsters/Yacc/yacc.webp)
+
+## Treasure
+
+Yacc is normally generated wearing an artifact ring as a nose ring. If none of the following rings have been generated in the game yet, he has an equal 1/3 chance to generate with [[/Artifacts/The Ring of Three Wishes]], [[/Artifacts/The Serpent Ring of Set]], or [[/Artifacts/The Ring of Conflict]]. If all three have already been generated, there is a chance he will generate with [[/Artifacts/The Ruling Ring of Yendor]] instead.
+
+In his lair, Yacc guards a chest containing the following loot:
+- A 50% chance of a wand of disintegration, otherwise a magic lamp
+- A 50% chance of a potion of full healing
+- A 50% chance of a potion of gain level
+- A 50% chance of a potion of gain ability
+- An uncursed weapon from the treasure class
