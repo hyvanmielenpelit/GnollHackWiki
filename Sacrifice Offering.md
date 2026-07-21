@@ -134,7 +134,7 @@ If you are in good standing or your prayer timeout was reduced, there is a chanc
 
 When you offer a fresh sacrifice on an altar of a different alignment, the outcome is determined by your current standing with your own god.
 
-### 🔄 Converting the Altar
+### 🔄 Converting the Altar to Your Alignment
 
 If your own god is **NOT angry** with you, you will attempt to convert the cross-aligned altar to your own alignment.
 
@@ -162,16 +162,20 @@ On aligned altars, both outcomes begin with the message:
 | 20 | 78.6% |
 | 30 | 84.2% |
 
-### 🔄 Converting Yourself
+### 🔄 Converting Yourself to the Alignment of Altar
 
-If your own god **IS angry** with you (or if you sacrifice at Moloch's altar in Gehennom), you can convert yourself to the altar's alignment. This is only possible if the altar has an alignment and you have not converted before.
+If your own god **IS angry** with you (or if you sacrifice at Moloch's altar in Gehennom), you can attempt to convert yourself to the altar's alignment.
 
-| Outcome | Condition | Effect | Message |
-| :--- | :--- | :--- | :--- |
-| **Successful Conversion** | Haven't converted before. | Alignment base becomes the altar's alignment. <br> Luck decreases by 3. <br> Prayer timeout increases by 300 turns (150 for Priests). | *"You have a strong feeling that [Your God] is angry... [Altar God] accepts your allegiance."* |
-| **Failed Conversion** | Already converted before, or converting to Moloch outside Gehennom. | God's anger increases by 3. <br> Alignment record decreases by 5. <br> Luck decreases by 5. <br> Wisdom drops by 2. <br> You are smitten by your god. | *"[Altar God] rejects your sacrifice!"* <br> *"Suffer, infidel!"* |
+Unlike converting an altar, the success chance formula does **not** play a role here. Instead, the outcome is strictly determined by the following conditions:
+- **Successful Conversion**: You have **not** converted your alignment before, and the altar has an alignment.
+- **Failed Conversion**: You **have** already converted before, or you attempt to convert to Moloch outside Gehennom.
 
-> ⚠️ **Warning:** Converting yourself is an extreme action. A failed conversion results in severe penalties and a direct smite!
+| Outcome | Effect | Message |
+| :--- | :--- | :--- |
+| **Successful Conversion** | • Alignment base becomes the altar's alignment. <br> • Luck decreases by 3. <br> • Prayer timeout increases by 300 turns (150 for Priests). | *"You have a strong feeling that [Your God] is angry... [Altar God] accepts your allegiance."* |
+| **Failed Conversion** | • God's anger increases by 3. <br> • Alignment record decreases by 5. <br> • Luck decreases by 5. <br> • Wisdom drops by 2. <br> • You are smitten by your god. | *"[Altar God] rejects your sacrifice!"* <br> *"Suffer, infidel!"* |
+
+> ⚠️ **Warning:** Converting yourself is an extreme action. A failed conversion results in severe penalties and a direct smite! Additionally, if you successfully convert your alignment before completing the Quest, the game may become **unwinnable**. The Quest Leader will banish you for straying from your original alignment, making it impossible to retrieve the [[/Artifacts/Bell of Opening]] from your quest nemesis.
 
 ## 🦄 Special Sacrifices
 
