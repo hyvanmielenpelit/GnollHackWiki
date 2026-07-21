@@ -26,7 +26,7 @@ When dealing with corpses, the game distinguishes between being "rotten" (for ea
 - **Eating (Rotten):** The game considers undead corpses inherently tainted. If you attempt to eat one, it is treated as "rotten" and will make you sick, regardless of when the monster was killed.
 - **Sacrificing (Fresh):** The sacrifice mechanic ignores food taint. A corpse is considered "fresh" for sacrificing strictly based on its age—specifically, if the monster was killed within the last 50 turns. 
 
-Therefore, a newly killed undead corpse is "rotten" for eating but "fresh" for sacrificing. You can successfully sacrifice these fresh undead corpses for their full value (plus the alignment bonus for lawful and neutral players) without any penalty.
+Therefore, a newly killed undead corpse is "rotten" for eating but "fresh" for sacrificing. You can successfully sacrifice these fresh undead corpses for their full value (plus the alignment bonus for Lawful and Neutral players) without any penalty.
 
 ## 💨 Offering Consumption Messages
 
@@ -162,7 +162,7 @@ On aligned altars, both outcomes begin with the message:
 | **20** | 78.6% |
 | **30** | 84.2% |
 
-### 🔄 Converting Yourself to the Alignment of Altar
+### 🔄 Converting Yourself to the Alignment of the Altar
 
 If your own god **IS angry** with you (or if you sacrifice at Moloch's altar in Gehennom), you can attempt to convert yourself to the altar's alignment.
 
@@ -186,7 +186,7 @@ For a detailed breakdown of the mechanics, penalties, and demon summoning rules,
 
 ### 🐕 Sacrificing Pets
 Sacrificing a tame creature is a betrayal of loyalty.
-- **Outcome**: Alignment record decreases by 3, the corpse value is set to -1 (triggering god's anger), and you permanently aggravate monsters.
+- **Outcome**: Your alignment record decreases by 3, the corpse value is set to -1 (triggering your god's anger), and you permanently aggravate monsters.
 - Message: *"So this is how you repay loyalty?"*
 
 ### 🦄 Sacrificing Unicorns
@@ -203,7 +203,7 @@ Sacrificing unicorns yields highly alignment-dependent effects:
 
 When a god is angered (either by offering a highly offensive sacrifice, or via a direct divine smite known as `angrygods`—which is triggered by severe transgressions like attacking a peaceful priest, desecrating an altar, or breaking major taboos), a random number from **$0$ to $\text{maxanger} - 1$** is rolled. 
 
-The `maxanger` value is calculated differently depending on whose god you anger, and is strictly bounded between $1$ and $15$:
+The `maxanger` value is calculated differently depending on whether you anger your own god or a cross-aligned god, and is strictly bounded between $1$ and $15$:
 
 **Angering a Cross-Aligned God:**
 $$ \text{maxanger} = \left\lfloor \frac{\text{Alignment Record}}{2} \right\rfloor + L $$
@@ -223,9 +223,9 @@ The outcome of the divine smite is chosen based on this roll:
 | **2 or 3** | Player loses 1 Wisdom and 1 experience level. | *"Thou hast strayed from the path/art arrogant, [mortal/creature]. Thou must relearn thy lessons!"* |
 | **4 or 5** | Random items in inventory are cursed. Black glow surrounds player. | *"Thou hast angered me."* |
 | **6** | Player is punished (a heavy iron ball is attached to their leg). If already punished, random items are cursed instead. | *"Thou hast angered me."* |
-| **7 or 9** | Hostile minion is summoned. Only triggers if the god is your original alignment but you have converted away; otherwise falls through to case 8. | *"Thou hast strayed from the path, [mortal/creature]. Thou shalt pay for thine indiscretion!"* |
+| **7 or 9** | Hostile minion is summoned. Only triggers if the god is of your original alignment but you have converted away; otherwise, it falls through to case 8. | *"Thou hast strayed from the path, [mortal/creature]. Thou shalt pay for thine indiscretion!"* |
 | **8** | Hostile minion is summoned. | *"Thou durst scorn/call upon me? Then die, [mortal/creature]!"* |
-| **10+** | Player is directly smote with magical damage or lightning bolt. | *"Thou hast angered me."* |
+| **10+** | Player is directly smitten with magical damage or a lightning bolt. | *"Thou hast angered me."* |
 
 ## 👑 The Amulet of Yendor
 
@@ -253,4 +253,4 @@ Since the gods cannot be fooled, a fake amulet is **never consumed** when sacrif
 | **High Altar** | ❌ | ❌ | **Game Continues** | Thunderclap. You identify the fake amulet and realize your mistake. Luck -1. | *"You hear a nearby thunderclap."* <br> *"You realize you have made a mistake."* (or *"boo-boo"* if hallucinating) |
 | **High Altar** | ✅ | ❌ | **Game Continues** | Thunderclap. Luck -3, alignment -1, god's anger +3. Your god gets upset. On a cross-aligned high altar, this also triggers the devastating high altar desecration smite. | *"You hear a nearby thunderclap."* <br> *(plus "Oh, no." if deaf)* |
 
-> ⚠️ **Warning:** Deliberately sacrificing a fake amulet you **know** is a fake is extremely dangerous. The gods punish this equally harshly on normal and high altars — and on a cross-aligned high altar, the owning god will directly smite you with lightning.
+> ⚠️ **Warning:** Deliberately sacrificing a fake amulet you **know** is a fake is extremely dangerous. The gods punish this just as harshly on normal and high altars — and on a cross-aligned high altar, the owning god will directly smite you with lightning.

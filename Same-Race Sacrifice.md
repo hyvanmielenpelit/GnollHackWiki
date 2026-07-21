@@ -4,11 +4,11 @@
 
 Sacrificing a member of your own race is considered a severe offense in GnollHack. The exact consequences depend on the alignment of the altar where the sacrifice takes place.
 
-> ℹ️ **Note:** A same-race sacrifice is determined by your character's race. For example, a Human sacrificing a human corpse, or an Elf sacrificing an elf corpse.
+> ℹ️ **Note:** A same-race sacrifice is determined by your character's race. For example, a human sacrificing a human corpse, or an elf sacrificing an elf corpse.
 
 ## 🛕 High Altars
 
-Same-race sacrifice on a **High Altar** is treated as a desecration of the most sacred site. Unless **both** you and the altar are Chaotic (or it is Moloch's altar), the owning god will directly smite you with devastating force — this is the same punishment as trying to convert a high altar, and is often instantly fatal.
+Same-race sacrifice on a **High Altar** is treated as a desecration of the most sacred site. Unless both you and the altar are Chaotic, or it is Moloch's altar, the owning god will directly smite you with devastating force—the same punishment as trying to convert a high altar, which is often instantly fatal.
 
 > ⚠️ **Warning:** Never perform a same-race sacrifice on a high altar unless you are Chaotic and the altar is also Chaotic or Moloch's. The smite is one of the most lethal events in the game.
 
@@ -55,7 +55,7 @@ The consequences of the ritual depend heavily on your character's alignment:
 | **Non-Chaotic** <br> *(Lawful/Neutral)* | **Chaotic Altar**: Destroyed (*vanishes in a black cloud*). <br> **Moloch Altar**: Intact, covered in blood. | **100% Hostile**, attacking immediately. | -5 (from severe divine punishment) |
 | **Chaotic** | Altar remains intact, covered in blood. | **Variable** (see below). | +2 (Chaotic Altar) <br> -2 (Moloch Altar) |
 
-> ℹ️ **Note:** Non-chaotic characters will also suffer the standard severe divine punishment (Wisdom loss, alignment loss, and smite) in addition to fighting a hostile demon lord.
+> ℹ️ **Note:** Non-Chaotic characters will also suffer the standard severe divine punishment (Wisdom loss, alignment loss, and a divine smite) in addition to fighting a hostile demon lord.
 
 ### ⚔️ Chaotic Character Demon Hostility
 

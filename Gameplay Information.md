@@ -58,6 +58,7 @@
 
 - [[Praying]] — A detailed explanation about how praying works.
 - [[Crowning]] — Gifts obtained from crowning by your god.
+- [[Sacrifice Offering]] — Learn about mechanics of offering a sacrifice to your god.
 - [[Sacrifice Gifts]] — Learn about what gifts a god can give you if you sacrifice a corpse on an altar.
 - [[Same-Race Sacrifice]] — Detailed information on same-race sacrifices
 
