@@ -153,14 +153,14 @@ On aligned altars, both outcomes begin with the message:
 
 | Character Level | Altar Conversion Success Chance |
 | :-------------: | :-----------------------------: |
-| 1 | 33.3% |
-| 2 | 40.0% |
-| 3 | 45.5% |
-| 5 | 53.8% |
-| 10 | 66.7% |
-| 15 | 73.9% |
-| 20 | 78.6% |
-| 30 | 84.2% |
+| **1** | 33.3% |
+| **2** | 40.0% |
+| **3** | 45.5% |
+| **5** | 53.8% |
+| **10** | 66.7% |
+| **15** | 73.9% |
+| **20** | 78.6% |
+| **30** | 84.2% |
 
 ### 🔄 Converting Yourself to the Alignment of Altar
 
@@ -199,12 +199,26 @@ Sacrificing unicorns yields highly alignment-dependent effects:
 | **Different from Player** | Same as Player | Player's alignment record is reset to -1. Corpse value is set to 1. | *None* |
 | **Any** | Cross-aligned to both Altar and Player | Ordinary sacrifice. Corpse value is increased by 3. | *None* |
 
-## 💢 Divine Anger & Smite Outcomes
+## ⚡ Divine Anger & Smite Outcomes
 
-When a god is angered (via `angrygods` or a negative sacrifice value), a random outcome is chosen based on your current anger level (capped at 15):
+When a god is angered (either by offering a highly offensive sacrifice, or via a direct divine smite known as `angrygods`—which is triggered by severe transgressions like attacking a peaceful priest, desecrating an altar, or breaking major taboos), a random number from **$0$ to $\text{maxanger} - 1$** is rolled. 
 
-| Rolled Roll Value | Effect | Message |
-| :--- | :--- | :--- |
+The `maxanger` value is calculated differently depending on whose god you anger, and is strictly bounded between $1$ and $15$:
+
+**Angering a Cross-Aligned God:**
+$$ \text{maxanger} = \left\lfloor \frac{\text{Alignment Record}}{2} \right\rfloor + L $$
+Where $L$ is the Luck modifier:
+$$ L = \begin{cases} - \lfloor \frac{\text{Luck}}{3} \rfloor & \text{if } \text{Luck} > 0 \\ - \text{Luck} & \text{if } \text{Luck} \le 0 \end{cases} $$
+
+**Angering Your Own God:**
+$$ \text{maxanger} = (3 \times \text{God's Anger}) + L $$
+Where $L$ is the Luck modifier:
+$$ L = \begin{cases} - \lfloor \frac{\text{Luck}}{3} \rfloor & \text{if } \text{Luck} > 0 \text{ or Alignment Record} \ge 4 \text{ (Strident)} \\ - \text{Luck} & \text{otherwise} \end{cases} $$
+
+The outcome of the divine smite is chosen based on this roll:
+
+| Roll Result | Effect | Message |
+| :--: | :--- | :--- |
 | **0 or 1** | God is displeased. No stat or mechanical penalty. | *"You feel that [God Name] is displeased."* (or *"bummed"*) |
 | **2 or 3** | Player loses 1 Wisdom and 1 experience level. | *"Thou hast strayed from the path/art arrogant, [mortal/creature]. Thou must relearn thy lessons!"* |
 | **4 or 5** | Random items in inventory are cursed. Black glow surrounds player. | *"Thou hast angered me."* |
@@ -225,6 +239,7 @@ Sacrificing the real Amulet of Yendor is the method of completing the game:
   - Cross-aligned: *"You feel ashamed."* (or *"homesick"* if hallucinating).
 
 ### 🪙 Fake Amulet of Yendor
+
 Sacrificing a fake Amulet of Yendor triggers a thunderclap (*"You hear a nearby thunderclap."*).
 - **If Unidentified**: You identify the fake amulet and realize your mistake. Luck decreases by 1.
 - **If Already Identified**: Luck decreases by 3, alignment record decreases by 1, god anger increases by 3, and the value is set to -3 (god gets upset). If deaf, you receive the message *"Oh, no."*
