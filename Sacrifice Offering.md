@@ -1,4 +1,4 @@
-# 🛐 Sacrifice Offering
+![Sacrifice Offering](/uploads/Sacrifice%20Offering/sacrifice-offering-q85.webp)
 
 > 👉 **Sacrificing is a core gameplay mechanic in GnollHack. By using the Offer (`Alt+o`) command while standing on an altar, you can sacrifice a corpse to appease your god, manipulate altar alignments, and obtain divine gifts.**
 
