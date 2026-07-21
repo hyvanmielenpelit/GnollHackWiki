@@ -44,7 +44,7 @@ The value of a fresh corpse determines its efficacy.
 When sacrificing a fresh, valid corpse on an altar of your own alignment, your god evaluates the offering. The effects are resolved in the following priority order:
 
 ### 1. Decreasing Anger
-If your god is angry (`u.ugangr > 0`), the corpse value reduces their anger:
+If your god is angry, the corpse value reduces their anger:
 $$\text{Anger Reduction} = \frac{\text{Corpse Value} \times (2 \text{ if Chaotic else } 3)}{24}$$
 
 If anger is reduced but remains above zero, the message is:
@@ -87,7 +87,7 @@ If the timeout is reduced to zero, the message is:
 
 ### 4. Divine Gifts
 If you are in excellent standing (no anger, positive alignment, no prayer timeout, character level > 2, and Luck $\ge$ 0), there is a chance your god bestows a divine gift:
-- **Gift Chance**: Success occurs if a random roll from `10 + 2 * u.ugifts * nartifacts` is `0`.
+- **Gift Chance**: Success occurs with a probability of: $P = \frac{1}{10 + 2 \times G \times A}$ where $G$ is the number of gifts previously received, and $A$ is the number of created artifacts in the game.
 - **Details**: See [[/Sacrifice Gifts]] for gift pools and mechanics.
 
 ### 5. Increasing Luck
