@@ -78,6 +78,7 @@ Depending on how much anger is reduced, the player will see different messages:
 | **Anger not reduced** | *"You have a feeling of inadequacy."* | *"The gods seem tall."* | None |
 
 ### 2. Decreasing Alignment Penalty
+
 If you are not angry but have a negative alignment record, a valuable corpse will increase your alignment by the corpse's value (up to 0).
 
 | Condition | Message Seen by Player | Effect |
@@ -85,7 +86,9 @@ If you are not angry but have a negative alignment record, a valuable corpse wil
 | **Negative Alignment Record** | *"You feel partially absolved."* | Alignment record increased by corpse value (up to 0) |
 
 ### 3. Decreasing Prayer Timeout
+
 If you are in good standing but your prayer timeout is active, the timeout is reduced:
+
 $$\text{Timeout Reduction} = \frac{\text{Corpse Value} \times (500 \text{ if Chaotic else } 300)}{24 \times (2 \text{ if Priest else } 1)}$$
 
 | Character Class | Character Alignment | Max Turn Reduction (Value 24) | Turn Reduction per Value Point |
