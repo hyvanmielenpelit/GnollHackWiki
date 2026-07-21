@@ -19,7 +19,16 @@ If you attempt to sacrifice other items or old corpses, the game will reject the
 
 - <sup>1</sup> Lizard and lichen corpses do not rot for eating purposes, but they still become too old to be sacrificed after 50 turns. Acid blob corpses are the only corpses that are accepted as fresh regardless of age.
 
-### 💨 Offering Consumption Messages
+## 🧟 Rotten vs. Fresh Corpses
+
+When dealing with corpses, the game distinguishes between being "rotten" (for eating) and being "fresh" (for sacrificing). This distinction is especially important for undead corpses (such as zombies, vampires, mummies, and liches).
+
+- **Eating (Rotten):** The game considers undead corpses inherently tainted. If you attempt to eat one, it is treated as "rotten" and will make you sick, regardless of when the monster was killed.
+- **Sacrificing (Fresh):** The sacrifice mechanic ignores food taint. A corpse is considered "fresh" for sacrificing strictly based on its age—specifically, if the monster was killed within the last 50 turns. 
+
+Therefore, a newly killed undead corpse is "rotten" for eating but "fresh" for sacrificing. You can successfully sacrifice these fresh undead corpses for their full value (plus the alignment bonus for lawful and neutral players) without any penalty.
+
+## 💨 Offering Consumption Messages
 
 When a valid fresh corpse is successfully offered, it is consumed and a message is displayed based on your character's status:
 
@@ -36,7 +45,7 @@ When a valid fresh corpse is successfully offered, it is consumed and a message 
 The value of a fresh corpse determines its efficacy.
 - **Base Value**: Equal to the monster's **difficulty + 1**.
 - **Maximum Value**: Capped at **24** (e.g., adult dragons, arch-liches).
-- **Undead corpses**: Worth `+1` value for lawful or neutral players, but have a value of `0` (ignored) for chaotic players.
+- **Undead corpses**: Grant a `+1` value bonus for lawful or neutral players. (For chaotic players, they simply use the normal base value). Note that because of this bonus, lawful and neutral players can technically successfully sacrifice *old* undead corpses (they receive a final value of 1 instead of 0).
 - **Partially Eaten Corpses**: The value is scaled down proportionally to the remaining nutrition.
 
 ## 🛐 Sacrificing on a Co-Aligned Altar
@@ -47,22 +56,20 @@ When sacrificing a fresh, valid corpse on an altar of your own alignment, your g
 If your god is angry, the corpse value reduces their anger:
 $$\text{Anger Reduction} = \frac{\text{Corpse Value} \times (2 \text{ if Chaotic else } 3)}{24}$$
 
-If anger is reduced but remains above zero, the message is:
-- Normal: *"[God Name] seems slightly mollified."*
-- Hallucinating: *"[God Name] seems groovy."*
-- Luck is increased by 1 if it was negative.
+Depending on how much anger is reduced, the player will see different messages:
 
-If anger is reduced to zero, the message is:
-- Normal: *"[God Name] seems mollified."*
-- Hallucinating: *"[God Name] seems cosmic."*
-- Luck is reset to 0 if it was negative.
-
-If anger is not reduced, you get the message:
-- Normal: *"You have a feeling of inadequacy."*
-- Hallucinating: *"The gods seem tall."*
+| Outcome | Message Seen by Player | Hallucinating Message | Luck Effect |
+| :--- | :--- | :--- | :--- |
+| **Anger reduced, but still > 0** | *"[God Name] seems slightly mollified."* | *"[God Name] seems groovy."* | Luck +1 (if negative) |
+| **Anger reduced to 0** | *"[God Name] seems mollified."* | *"[God Name] seems cosmic (not a new fact)."* | Luck reset to 0 (if negative) |
+| **Anger not reduced** | *"You have a feeling of inadequacy."* | *"The gods seem tall."* | None |
 
 ### 2. Decreasing Alignment Penalty
-If you are not angry but have a negative alignment record, a valuable corpse will increase your alignment by the corpse's value (up to 0). You will feel *"partially absolved"*.
+If you are not angry but have a negative alignment record, a valuable corpse will increase your alignment by the corpse's value (up to 0).
+
+| Condition | Message Seen by Player | Effect |
+| :--- | :--- | :--- |
+| **Negative Alignment Record** | *"You feel partially absolved."* | Alignment record increased by corpse value (up to 0) |
 
 ### 3. Decreasing Prayer Timeout
 If you are in good standing but your prayer timeout is active, the timeout is reduced:
@@ -75,15 +82,12 @@ $$\text{Timeout Reduction} = \frac{\text{Corpse Value} \times (500 \text{ if Cha
 | **Non-Priest** | Chaotic | 500 turns | 20.8 turns |
 | **Non-Priest** | Lawful / Neutral | 300 turns | 12.5 turns |
 
-If the timeout is reduced but remains active, the message is:
-- Normal: *"You have a hopeful feeling."*
-- Hallucinating: *"You realize that the gods are not like you and I."*
-- Luck is increased by 1 if it was negative.
+Depending on how much prayer timeout is reduced, the player will see different messages:
 
-If the timeout is reduced to zero, the message is:
-- Normal: *"You have a feeling of reconciliation."*
-- Hallucinating: *"Overall, there is a smell of fried onions."*
-- Luck is reset to 0 if it was negative.
+| Outcome | Message Seen by Player | Hallucinating Message | Luck Effect |
+| :--- | :--- | :--- | :--- |
+| **Timeout reduced, but still > 0** | *"You have a hopeful feeling."* | *"You realize that the gods are not like you and I."* | Luck +1 (if negative) |
+| **Timeout reduced to 0** | *"You have a feeling of reconciliation."* | *"Overall, there is a smell of fried onions."* | Luck reset to 0 (if negative) |
 
 ### 4. Divine Gifts
 If you are in excellent standing (no anger, positive alignment, no prayer timeout, character level > 2, and Luck $\ge$ 0), there is a chance your god bestows a divine gift:
