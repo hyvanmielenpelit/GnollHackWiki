@@ -4,7 +4,7 @@
 
 To offer a sacrifice, you must be standing on an altar.
 
-## 💡 Overview
+## 📖 Overview
 
 The only primary items offered on an altar are **corpses**. They must be fresh, meaning they were killed within the last 50 turns<sup>1</sup>. If you attempt to sacrifice old corpses or other items, the game will reject them or ignore the offering.
 
