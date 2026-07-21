@@ -29,13 +29,12 @@ Therefore, a newly killed undead corpse is "rotten" for eating but "fresh" for s
 
 When a valid fresh corpse is successfully offered, it is consumed and a message is displayed based on your character's status:
 
-| Character State | Message Seen by Player |
-| :--- | :--- |
-| **Lawful** (Not Blind, Not Hallucinating) | *"Your sacrifice is consumed in a flash of light!"* |
-| **Neutral or Chaotic** (Not Blind, Not Hallucinating) | *"Your sacrifice is consumed in a burst of flame!"* |
-| **Blind & Lawful** | *"Your sacrifice disappears!"* |
-| **Blind & Neutral or Chaotic** | *"Your sacrifice is consumed in a burst of flame!"* |
-| **Hallucinating** (1 of 3 chosen randomly) | 1. *"Your sacrifice sprouts wings and a propeller and roars away!"* <br /> 2. *"Your sacrifice puffs up, swelling bigger and bigger, and pops!"* <br /> 3. *"Your sacrifice collapses into a cloud of dancing particles and fades away!"* |
+| Alignment | Blind | Hallucinating | Message Seen by Player |
+| :--- | :---: | :---: | :--- |
+| **Any** | Any | ✅ | 1. *"Your sacrifice sprouts wings and a propeller and roars away!"* <br /> 2. *"Your sacrifice puffs up, swelling bigger and bigger, and pops!"* <br /> 3. *"Your sacrifice collapses into a cloud of dancing particles and fades away!"* |
+| **Lawful** | ✅ | ❌ | *"Your sacrifice disappears!"* |
+| **Lawful** | ❌ | ❌ | *"Your sacrifice is consumed in a flash of light!"* |
+| **Neutral** or **Chaotic** | Any | ❌ | *"Your sacrifice is consumed in a burst of flame!"* |
 
 ## 🎚️ Corpse Value
 
@@ -188,16 +187,19 @@ Unlike converting an altar, the success chance formula does **not** play a role 
 ## 🦄 Special Sacrifices
 
 ### 🧑‍🤝‍🧑 Sacrificing Your Own Race
+
 Sacrificing a corpse of your own race is a major offense. Depending on your alignment and the altar's alignment, it can result in severe divine punishment, the destruction of the altar, or the summoning of a hostile demon lord.
 
 For a detailed breakdown of the mechanics, penalties, and demon summoning rules, see **[[Same-Race Sacrifice]]**.
 
 ### 🐕 Sacrificing Pets
+
 Sacrificing a tame creature is a betrayal of loyalty.
 - **Outcome**: Your alignment record decreases by 3, the corpse value is set to -1 (triggering your god's anger), and you permanently aggravate monsters.
 - Message: *"So this is how you repay loyalty?"*
 
 ### 🦄 Sacrificing Unicorns
+
 Sacrificing unicorns yields highly alignment-dependent effects:
 
 | Altar Alignment | Unicorn Alignment | Outcome | Message |
