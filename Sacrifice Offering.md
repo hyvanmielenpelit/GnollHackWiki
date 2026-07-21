@@ -118,7 +118,9 @@ where $G$ is the number of gifts previously received, and $A$ is the number of c
 See [[Sacrifice Gifts]] for gift pools and mechanics.
 
 ### 5. Increasing Luck
+
 If no timeout or anger was reduced, and no gift was granted, your Luck is increased:
+
 $$\text{Luck Increase} = \frac{\text{Corpse Value} \times 10}{48}$$
 
 When your Luck increases (corpse value 5 or higher), you will see one of the following messages based on your status:
