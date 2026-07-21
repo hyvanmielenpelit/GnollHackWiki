@@ -1,21 +1,23 @@
 # 🛐 Sacrifice Offering
 
-> 👉 **Sacrificing is a core gameplay mechanic in GnollHack. By using the `#offer` command (or `o`) while standing on an altar, you can sacrifice a corpse to appease your god, manipulate altar alignments, and obtain divine gifts. (Sacrificing the Amulet of Yendor to complete the game is detailed at the end of this page.)**
+> 👉 **Sacrificing is a core gameplay mechanic in GnollHack. By using the Offer (`Alt+o`) command while standing on an altar, you can sacrifice a corpse to appease your god, manipulate altar alignments, and obtain divine gifts.**
 
-To offer a sacrifice, you must be standing on an altar and you must not be currently swallowed by a monster.
+To offer a sacrifice, you must be standing on an altar.
 
 ## 💡 Summary of Offerings
 
 The primary items offered on an altar are:
-- 🥩 **Corpses**: They must be fresh (killed within the last 50 turns), with the sole exception of acid blobs, which never rot.
+- 🥩 **Corpses**: They must be fresh, meaning they were killed within the last 50 turns<sup>1</sup>.
 
 If you attempt to sacrifice other items or old corpses, the game will reject them or ignore the offering:
 
 | Attempted Offering | Condition | Message Seen by Player | Result |
 | :--- | :--- | :--- | :--- |
-| **Invalid Item** | Any item that is not a corpse (excluding the Amulet of Yendor, detailed at the end of this page) | *"You can't sacrifice that!"* | Item is not consumed; action ends |
-| **Old Corpse** | Corpse killed more than 50 turns ago (except never-rotting acid blobs) | *"Nothing happens."* | Corpse is not consumed; action ends |
-| **Fresh Corpse** | Corpse killed within 50 turns (or acid blob) | *Depends on character state (see below)* | Corpse is consumed; effects applied |
+| **Invalid Item** | Any item that is not a corpse | *"You can't sacrifice that!"* | Item is not consumed; action ends |
+| **Old Corpse** | Corpse killed more than 50 turns ago<sup>1</sup> | *"Nothing happens."* | Corpse is not consumed; action ends |
+| **Fresh Corpse** | Corpse killed within 50 turns<sup>1</sup> | *Depends on character state (see below)* | Corpse is consumed; effects applied |
+
+- <sup>1</sup> Lizard and lichen corpses do not rot for eating purposes, but they still become too old to be sacrificed after 50 turns. Acid blob corpses are the only corpses that are accepted as fresh regardless of age.
 
 ### 💨 Offering Consumption Messages
 
