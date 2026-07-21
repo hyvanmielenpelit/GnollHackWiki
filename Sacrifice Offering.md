@@ -45,8 +45,17 @@ When a valid fresh corpse is successfully offered, it is consumed and a message 
 The value of a fresh corpse determines its efficacy.
 - **Base Value**: Equal to the monster's **difficulty + 1**.
 - **Maximum Value**: Capped at **24** (e.g., adult dragons, arch-liches).
-- **Undead corpses**: Grant a `+1` value bonus for lawful or neutral players. (For chaotic players, they simply use the normal base value). Note that because of this bonus, lawful and neutral players can technically successfully sacrifice *old* undead corpses (they receive a final value of 1 instead of 0).
 - **Partially Eaten Corpses**: The value is scaled down proportionally to the remaining nutrition.
+
+### 🧟 Undead Corpses
+
+Sacrificing an undead corpse provides different values depending on the player's alignment:
+- **Lawful and Neutral players**: Receive a `+1` bonus to the value. 
+  - A *fresh* undead corpse has a final value of **`Difficulty + 2`** (base `Difficulty + 1` plus `1` bonus).
+  - An *old* undead corpse has a final value of **`1`** (base `0` plus `1` bonus). Because the final value is greater than 0, lawful and neutral players can successfully sacrifice old undead corpses!
+- **Chaotic players**: Receive no bonus and use the standard calculations.
+  - A *fresh* undead corpse has a normal value of **`Difficulty + 1`**.
+  - An *old* undead corpse has a value of **`0`** and cannot be sacrificed (*"Nothing happens."*).
 
 ## 🛐 Sacrificing on a Co-Aligned Altar
 
