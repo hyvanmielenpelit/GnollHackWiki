@@ -1,19 +1,15 @@
 # 🛐 Sacrifice Offering
 
-> 👉 **Sacrificing is a core gameplay mechanic in GnollHack. By using the `#offer` command (or `o`) while standing on an altar, you can sacrifice a corpse or the Amulet of Yendor to appease your god, manipulate altar alignments, obtain divine gifts, or even complete the game.**
+> 👉 **Sacrificing is a core gameplay mechanic in GnollHack. By using the `#offer` command (or `o`) while standing on an altar, you can sacrifice a corpse to appease your god, manipulate altar alignments, and obtain divine gifts. (Sacrificing the Amulet of Yendor to complete the game is detailed at the end of this page.)**
 
 To offer a sacrifice, you must be standing on an altar and you must not be currently swallowed by a monster.
 
----
-
 ## 💡 Summary of Offerings
 
-Only specific item classes can be offered on an altar:
-- 🥩 **Corpses**: The primary offering. They must be fresh (killed within the last 50 turns), with the sole exception of acid blobs, which never rot.
-- 👑 **The Amulet of Yendor**: Sacrificing the real Amulet on a high altar completes your ascension.
-- 🪙 **Fake Amulet of Yendor**: Sacrificing a fake amulet will anger the gods.
+The primary items offered on an altar are:
+- 🥩 **Corpses**: They must be fresh (killed within the last 50 turns), with the sole exception of acid blobs, which never rot.
 
-If you attempt to sacrifice any other food or item (e.g. food rations, fruits, or tools), the game will reject it with the message *"You can't sacrifice that!"* and the item is not consumed.
+If you attempt to sacrifice any other food or item (excluding the Amulet of Yendor, which is detailed at the end of this page), the game will reject it with the message *"You can't sacrifice that!"* and the item is not consumed.
 
 If a corpse is offered but is too old (not fresh), it will not be consumed and the game will simply output *"Nothing happens."*
 
@@ -28,8 +24,6 @@ When a valid sacrifice of value is accepted, the message displayed depends on yo
 | **Blind & Neutral/Chaotic** | *"sacrifice is consumed in a burst of flame!"* |
 | **Hallucinating** (1 of 3 randomly) | 1. *"sacrifice curls up in a ball and runs away!"* <br> 2. *"sacrifice puffs up, swelling bigger and bigger, and pops!"* <br> 3. *"sacrifice collapses into a cloud of dancing particles and fades away!"* |
 
----
-
 ## 🎚️ Corpse Value
 
 The value of a fresh corpse determines its efficacy.
@@ -37,8 +31,6 @@ The value of a fresh corpse determines its efficacy.
 - **Maximum Value**: Capped at **24** (e.g., adult dragons, arch-liches).
 - **Undead corpses**: Worth `+1` value for lawful or neutral players, but have a value of `0` (ignored) for chaotic players.
 - **Partially Eaten Corpses**: The value is scaled down proportionally to the remaining nutrition.
-
----
 
 ## 🛐 Sacrificing on a Co-Aligned Altar
 
@@ -108,8 +100,6 @@ $$\text{Luck Increase} = \frac{\text{Corpse Value} \times 10}{48}$$
 If you are in good standing or your prayer timeout was reduced, there is a chance that a special praying item (like a holy symbol or prayerstone) in your inventory will be blessed.
 - Message: *"[Item] softly glows with a [light blue] aura."*
 
----
-
 ## ⚖️ Sacrificing on a Cross-Aligned Altar
 
 If you sacrifice on a cross-aligned altar, the outcome is determined by your current standing.
@@ -139,8 +129,6 @@ If your own god is NOT angry with you, you attempt to convert the altar to your 
 | **Level 20** | 78.6% |
 | **Level 30** | 84.2% |
 
----
-
 ## 🦄 Special Sacrifices
 
 ### 🧑‍🤝‍🧑 Sacrificing Your Own Race
@@ -169,7 +157,19 @@ Sacrificing unicorns yields highly alignment-dependent effects:
 | **Different from Player** | Same as Player | Player's alignment record is reset to -1. Corpse value is set to 1. | *None* |
 | **Any** | Cross-aligned to both Altar and Player | Ordinary sacrifice. Corpse value is increased by 3. | *None* |
 
----
+## 💢 Divine Anger & Smite Outcomes
+
+When a god is angered (via `angrygods` or a negative sacrifice value), a random outcome is chosen based on your current anger level (capped at 15):
+
+| Rolled Roll Value | Effect | Message |
+| :--- | :--- | :--- |
+| **0 or 1** | God is displeased. No stat or mechanical penalty. | *"You feel that [God Name] is displeased."* (or *"bummed"*) |
+| **2 or 3** | Player loses 1 Wisdom and 1 experience level. | *"Thou hast strayed from the path/art arrogant, [mortal/creature]. Thou must relearn thy lessons!"* |
+| **4 or 5** | Random items in inventory are cursed. Black glow surrounds player. | *"Thou hast angered me."* |
+| **6** | Player is punished (a heavy iron ball is attached to their leg). | *"Thou hast angered me."* |
+| **7 or 9** | Hostile minion is summoned. (Only if God is original alignment but player converted away). | *"Thou hast strayed from the path, [mortal/creature]. Thou shalt pay for thine indiscretion!"* |
+| **8** | Hostile minion is summoned. | *"Thou durst scorn/call upon me? Then die, [mortal/creature]!"* |
+| **10+** | Player is directly smote with magical damage or lightning bolt. | *"Thou hast angered me."* |
 
 ## 👑 The Amulet of Yendor
 
@@ -186,19 +186,3 @@ Sacrificing the real Amulet of Yendor is the method of completing the game:
 Sacrificing a fake Amulet of Yendor triggers a thunderclap (*"You hear a nearby thunderclap."*).
 - **If Unidentified**: You identify the fake amulet and realize your mistake. Luck decreases by 1.
 - **If Already Identified**: Luck decreases by 3, alignment record decreases by 1, god anger increases by 3, and the value is set to -3 (god gets upset). If deaf, you receive the message *"Oh, no."*
-
----
-
-## 💢 Divine Anger & Smite Outcomes
-
-When a god is angered (via `angrygods` or a negative sacrifice value), a random outcome is chosen based on your current anger level (capped at 15):
-
-| Rolled Roll Value | Effect | Message |
-| :--- | :--- | :--- |
-| **0 or 1** | God is displeased. No stat or mechanical penalty. | *"You feel that [God Name] is displeased."* (or *"bummed"*) |
-| **2 or 3** | Player loses 1 Wisdom and 1 experience level. | *"Thou hast strayed from the path/art arrogant, [mortal/creature]. Thou must relearn thy lessons!"* |
-| **4 or 5** | Random items in inventory are cursed. Black glow surrounds player. | *"Thou hast angered me."* |
-| **6** | Player is punished (a heavy iron ball is attached to their leg). | *"Thou hast angered me."* |
-| **7 or 9** | Hostile minion is summoned. (Only if God is original alignment but player converted away). | *"Thou hast strayed from the path, [mortal/creature]. Thou shalt pay for thine indiscretion!"* |
-| **8** | Hostile minion is summoned. | *"Thou durst scorn/call upon me? Then die, [mortal/creature]!"* |
-| **10+** | Player is directly smote with magical damage or lightning bolt. | *"Thou hast angered me."* |
