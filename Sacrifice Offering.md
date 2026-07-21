@@ -242,11 +242,13 @@ Sacrificing the real Amulet of Yendor is the method of completing the game:
 
 ### 🪙 Fake Amulet of Yendor
 
-Sacrificing a fake Amulet of Yendor triggers a thunderclap (*"You hear a nearby thunderclap."*). Since the gods cannot be fooled, a fake amulet is **never consumed** when sacrificed:
+The consequences of sacrificing a fake Amulet of Yendor depend heavily on whether you **know** it is a fake (it has been identified as a "cheap plastic imitation") or if you genuinely **believed** it was real (it remains unidentified). 
 
-| Altar Type & State | Amulet Consumed? | Game Outcome | Key Effects & Consequences | Message |
-| :--- | :---: | :--- | :--- | :--- |
-| **Normal Altar** <br> *(Unidentified)* | ❌ | **Continue Playing** | Redirects to the normal Amulet offering behavior. | *"You feel an urge to return..."* or *"You feel ashamed."* |
-| **Normal Altar** <br> *(Identified)* | ❌ | **Continue Playing** | The gods realize you are trying to fool them. No mechanical penalties. | *"You feel foolish."* |
-| **High Altar** <br> *(Unidentified)* | ❌ | **Continue Playing** | A thunderclap sounds. You identify the fake amulet and realize your mistake. Luck decreases by 1. | *"You hear a nearby thunderclap."* <br> *"You realize you have made a mistake."* (or *"boo-boo"* if hallucinating) |
-| **High Altar** <br> *(Identified)* | ❌ | **Continue Playing** | A thunderclap sounds. Your Luck decreases by 3, alignment record decreases by 1, and your god's anger increases by 3 (god gets upset). | *"You hear a nearby thunderclap."* <br> *(plus *"Oh, no"* if deaf)* |
+Since the gods cannot be fooled, a fake amulet is **never consumed** when sacrificed, but it will often trigger a thunderclap (*"You hear a nearby thunderclap."*):
+
+| Altar Type | Fake Amulet Identified? | Amulet Consumed? | Game Outcome | Key Effects & Consequences | Message |
+| :--- | :---: | :---: | :--- | :--- | :--- |
+| **Normal Altar** | ❌ | ❌ | **Game Continues** | Redirects to the normal Amulet offering behavior. | *"You feel an urge to return..."* or *"You feel ashamed."* |
+| **Normal Altar** | ✅ | ❌ | **Game Continues** | The gods realize you are trying to fool them. No mechanical penalties. | *"You feel foolish."* |
+| **High Altar** | ❌ | ❌ | **Game Continues** | A thunderclap sounds. You identify the fake amulet and realize your mistake. Luck decreases by 1. | *"You hear a nearby thunderclap."* <br> *"You realize you have made a mistake."* (or *"boo-boo"* if hallucinating) |
+| **High Altar** | ✅ | ❌ | **Game Continues** | A thunderclap sounds. Your Luck decreases by 3, alignment record decreases by 1, and your god's anger increases by 3 (god gets upset). | *"You hear a nearby thunderclap."* <br> *(plus *"Oh, no"* if deaf)* |
