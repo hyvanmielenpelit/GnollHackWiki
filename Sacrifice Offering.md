@@ -18,7 +18,7 @@ The only primary items offered on an altar are **corpses**. They must be fresh, 
 
 ## 🧟 Rotten vs. Fresh Corpses
 
-When dealing with corpses, the game distinguishes between being "rotten" (for eating) and being "fresh" (for sacrificing). This distinction is especially important for undead corpses (such as zombies, vampires, mummies, and liches).
+When dealing with corpses, the game distinguishes between being "rotten" (for eating) and being "fresh" (for sacrificing). This distinction is especially important for undead corpses (such as zombies, vampires, and mummies).
 
 - **Eating (Rotten):** The game considers undead corpses inherently tainted. If you attempt to eat one, it is treated as "rotten" and will make you sick, regardless of when the monster was killed.
 - **Sacrificing (Fresh):** The sacrifice mechanic ignores food taint. A corpse is considered "fresh" for sacrificing strictly based on its age—specifically, if the monster was killed within the last 50 turns. 
