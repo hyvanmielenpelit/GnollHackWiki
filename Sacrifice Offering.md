@@ -182,7 +182,7 @@ Unlike converting an altar, the success chance formula does **not** play a role 
 ### 🧑‍🤝‍🧑 Sacrificing Your Own Race
 Sacrificing a corpse of your own race is a major offense. Depending on your alignment and the altar's alignment, it can result in severe divine punishment, the destruction of the altar, or the summoning of a hostile demon lord.
 
-For a detailed breakdown of the mechanics, penalties, and demon summoning rules, see **[[/Same-Race Sacrifice]]**.
+For a detailed breakdown of the mechanics, penalties, and demon summoning rules, see **[[Same-Race Sacrifice]]**.
 
 ### 🐕 Sacrificing Pets
 Sacrificing a tame creature is a betrayal of loyalty.
@@ -230,16 +230,23 @@ The outcome of the divine smite is chosen based on this roll:
 ## 👑 The Amulet of Yendor
 
 Sacrificing the real Amulet of Yendor is the method of completing the game:
-- **Astral Plane High Altar (Co-Aligned)**: Offers the Amulet to your god, culminating in your ascension to demigod/demigoddess status. For details, see [[/Ascension]].
-- **Astral Plane High Altar (Cross-Aligned)**: The opposing god gains dominion over your god. They permit you to live, and you escape the dungeon.
-- **Astral Plane High Altar (Moloch)**: Moloch retains dominion and snuffs out your life.
-- **Normal Altar**:
-  - Moloch Altar: God is upset.
-  - Co-aligned: *"You feel an urge to return to the surface."* (or *"homesick"* if hallucinating).
-  - Cross-aligned: *"You feel ashamed."* (or *"homesick"* if hallucinating).
+
+| Altar Type & Location | Altar Alignment | Amulet Consumed? | Game Outcome | Key Messages & Effects |
+| :--- | :--- | :---: | :--- | :--- |
+| **Astral Plane High Altar** | Co-Aligned | ✅ | **Win (Ascended)** | You are bathed in radiance. An invisible choir sings, and you ascend to Demigod/Demigoddess status. |
+| **Astral Plane High Altar** | Cross-Aligned | ✅ | **Escape (No Win)** | The opposing god gains dominion over your god, but permits you to live. You escape the dungeon. |
+| **Moloch's High Altar** (in the Sanctum) | Moloch (Unaligned) | ✅ | **Death (Game Over)** | Moloch shrugs, retains dominion, and mercilessly snuffs out your life. |
+| **Normal Altar** | Co-Aligned | ❌ | **Game Continues** | You are prevented from sacrificing. <br> *"You feel an urge to return to the surface."* (or *"homesick"* if hallucinating). |
+| **Normal Altar** | Cross-Aligned | ❌ | **Game Continues** | You are prevented from sacrificing. <br> *"You feel ashamed."* (or *"homesick"* if hallucinating). |
+| **Normal Altar** | Moloch (Unaligned) | ❌ | **Game Continues** | You are prevented from sacrificing. Moloch gets upset. |
 
 ### 🪙 Fake Amulet of Yendor
 
-Sacrificing a fake Amulet of Yendor triggers a thunderclap (*"You hear a nearby thunderclap."*).
-- **If Unidentified**: You identify the fake amulet and realize your mistake. Luck decreases by 1.
-- **If Already Identified**: Luck decreases by 3, alignment record decreases by 1, god anger increases by 3, and the value is set to -3 (god gets upset). If deaf, you receive the message *"Oh, no."*
+Sacrificing a fake Amulet of Yendor triggers a thunderclap (*"You hear a nearby thunderclap."*). Since the gods cannot be fooled, a fake amulet is **never consumed** when sacrificed:
+
+| Altar Type & State | Amulet Consumed? | Game Outcome | Key Effects & Consequences | Message |
+| :--- | :---: | :--- | :--- | :--- |
+| **Normal Altar** <br> *(Unidentified)* | ❌ | **Continue Playing** | Redirects to the normal Amulet offering behavior. | *"You feel an urge to return..."* or *"You feel ashamed."* |
+| **Normal Altar** <br> *(Identified)* | ❌ | **Continue Playing** | The gods realize you are trying to fool them. No mechanical penalties. | *"You feel foolish."* |
+| **High Altar** <br> *(Unidentified)* | ❌ | **Continue Playing** | A thunderclap sounds. You identify the fake amulet and realize your mistake. Luck decreases by 1. | *"You hear a nearby thunderclap."* <br> *"You realize you have made a mistake."* (or *"boo-boo"* if hallucinating) |
+| **High Altar** <br> *(Identified)* | ❌ | **Continue Playing** | A thunderclap sounds. Your Luck decreases by 3, alignment record decreases by 1, and your god's anger increases by 3 (god gets upset). | *"You hear a nearby thunderclap."* <br> *(plus *"Oh, no"* if deaf)* |
