@@ -112,14 +112,19 @@ If you are in excellent standing (no anger, positive alignment, no prayer timeou
 If no timeout or anger was reduced, and no gift was granted, your Luck is increased:
 $$\text{Luck Increase} = \frac{\text{Corpse Value} \times 10}{48}$$
 
-| Corpse Value | Required Monster Difficulty | Luck Increase | Message |
-| :--- | :--- | :--- | :--- |
-| **0 to 4** | 0 to 3 (or not fresh) | 0 | *None* |
-| **5 to 9** | 4 to 8 | +1 | Glimpse a four-leaf clover at your feet / think something brushed your foot (if blind) / see crabgrass (if hallucinating) |
-| **10 to 14** | 9 to 13 | +2 | *Same as above* |
-| **15 to 19** | 14 to 18 | +3 | *Same as above* |
-| **20 to 23** | 19 to 22 | +4 | *Same as above* |
-| **24** | 23+ (e.g. Dragons, Arch-Liches) | +5 | *Same as above* |
+When your Luck increases (corpse value 5 or higher), you will see one of the following messages based on your status:
+- **Normal:** *"You glimpse a four-leaf clover at your feet."*
+- **Blind:** *"You think something brushed your foot."*
+- **Hallucinating:** *"You see crabgrass at your feet. A funny thing in a dungeon."*
+
+| Corpse Value | Required Monster Difficulty | Luck Increase |
+| :----------- | :-------------------------: | :-----------: |
+| **0 to 4** | 0 to 3 (or not fresh) | 0 (No message shown) |
+| **5 to 9** | 4 to 8 | +1 |
+| **10 to 14** | 9 to 13 | +2 |
+| **15 to 19** | 14 to 18 | +3 |
+| **20 to 23** | 19 to 22 | +4 |
+| **24** | 23+ | +5 |
 
 ### 6. Blessing Special Items
 If you are in good standing or your prayer timeout was reduced, there is a chance that a special praying item (like a holy symbol or prayerstone) in your inventory will be blessed.
