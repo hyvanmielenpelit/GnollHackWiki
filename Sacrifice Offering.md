@@ -155,8 +155,8 @@ On aligned altars, both outcomes begin with the message:
 
 | Outcome | Effect | Message Addition |
 | :--- | :--- | :--- |
-| **Success** | • Altar converts to your alignment. <br> • Luck increases by 1. <br> • Wisdom is exercised. <br> • Any cross-aligned priest present becomes angry. | *"...You feel the power of [Your God] increase. The altar glows [white/gray/black]."* |
-| **Failure** | • Altar remains unconverted. <br> • Luck decreases by 1. <br> • Wisdom is reduced. | *"...Unluckily, you feel the power of [Your God] decrease."* |
+| **Success** | • Altar converts to your alignment. <br> • Luck increases by 1. <br> • Any cross-aligned priest present becomes angry. | *"...You feel the power of [Your God] increase. The altar glows [white/gray/black]."* |
+| **Failure** | • Altar remains unconverted. <br> • Luck decreases by 1. | *"...Unluckily, you feel the power of [Your God] decrease."* |
 
 | Character Level | Altar Conversion Success Chance |
 | :-------------: | :-----------------------------: |
