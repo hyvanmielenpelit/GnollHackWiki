@@ -180,15 +180,9 @@ Unlike converting an altar, the success chance formula does **not** play a role 
 ## 🦄 Special Sacrifices
 
 ### 🧑‍🤝‍🧑 Sacrificing Your Own Race
-Sacrificing a corpse of your own race is a major offense.
-- **For Non-Demons**: Lowers Wisdom. If sacrificed on a non-chaotic and non-Moloch altar, it curses the altar to become chaotic, stains it with blood, angers any priest, and angers your own god (decreases alignment and Luck by 5, anger +3, Wisdom -1).
-- **Demon Summoning**: Sacrificing your own race on a chaotic or Moloch altar initiates a demon summoning:
-  - If you are not chaotic, and the altar is chaotic, the altar is destroyed (*"The blood floods the altar, which vanishes in a black cloud!"*).
-  - If you are chaotic or the altar is Moloch's, the altar remains covered in blood (*"The blood covers the altar!"*). Luck increases by 2 (+2), or decreases by 2 (-2) on Moloch's altar.
-  - **The Summoned Demon**: In Gehennom, it summons **Demogorgon**. Elsewhere, it summons a random Demon Lord.
-  - **Peaceful Chance**: If you are chaotic, the demon has a chance to be peaceful. The **very first** demon lord summoned via altar in a game is **guaranteed** to be peaceful. Subsequent summonings have a lower chance based on your alignment rank.
-  - **Terror**: If you do not have Fear Resistance, you will be paralyzed for 3 turns (*"You are terrified, and unable to move."*).
-- **For Demons**: If you are in demon form, sacrificing your own race is satisfying and exercises Wisdom (*"You find the idea very satisfying."*).
+Sacrificing a corpse of your own race is a major offense. Depending on your alignment and the altar's alignment, it can result in severe divine punishment, the destruction of the altar, or the summoning of a hostile demon lord.
+
+For a detailed breakdown of the mechanics, penalties, and demon summoning rules, see **[[/Same-Race Sacrifice]]**.
 
 ### 🐕 Sacrificing Pets
 Sacrificing a tame creature is a betrayal of loyalty.

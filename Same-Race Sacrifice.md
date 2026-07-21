@@ -6,27 +6,39 @@ Sacrificing a member of your own race is considered a severe offense in GnollHac
 
 > ℹ️ **Note:** A same-race sacrifice is determined by your character's race. For example, a Human sacrificing a human corpse, or an Elf sacrificing an elf corpse.
 
+## The Non-Chaotic Penalty
+
+Regardless of the altar you use, if your character's alignment is **Lawful** or **Neutral**, the act of a same-race sacrifice immediately incurs severe divine punishment:
+- You instantly lose 1 Wisdom.
+- Your alignment record and Luck are both decreased by 5.
+- Your god's anger increases by 3, which often triggers an immediate divine smite.
+
 ## Lawful and Neutral Altars
 
 If you perform a same-race sacrifice on a Lawful or Neutral altar, the gods will immediately intervene to punish you. No demon lord is summoned in this scenario. 
 
-The consequences are severe:
-- The altar is instantly desecrated and converted into a Chaotic altar.
+The consequences for the altar are severe:
+- The altar is instantly desecrated and converted into a Chaotic altar. It is stained with blood.
 - Any attending priest becomes hostile.
-- Your god becomes incredibly angry, typically triggering divine punishment.
-- You suffer major penalties to your alignment, luck, and wisdom.
 
 ## Chaotic and Moloch Altars
 
 Sacrificing your own race on a Chaotic or Moloch altar is treated as a demonic summoning ritual. This ritual will always attempt to summon a Chaotic demon lord. 
 
+- **The Summoned Demon**: In Gehennom, it summons **Demogorgon**. Elsewhere, it summons a random Demon Lord.
+- **Terror Effect**: The sheer terror of the summoning will paralyze you for 3 turns (*"You are terrified, and unable to move."*) unless you possess Fear Resistance.
+
 The outcome depends heavily on your character's alignment.
 
 ### Non-Chaotic Characters
 
-If your character is **Lawful** or **Neutral**, the summoned Chaotic demon lord will instantly recognize your conflicting alignment. The demon lord will be *100% hostile and attack you immediately*. 
+If your character is **Lawful** or **Neutral**, you will suffer the severe divine punishment detailed above. Additionally, the summoned Chaotic demon lord will instantly recognize your conflicting alignment and will be *100% hostile*, attacking you immediately. 
+
+If the altar was chaotic, the altar is destroyed (*"The blood floods the altar, which vanishes in a black cloud!"*).
 
 ### Chaotic Characters
+
+If you are a **Chaotic** character (or sacrificing on Moloch's altar), the altar remains covered in blood (*"The blood covers the altar!"*). Your Luck increases by 2 (+2) if on a chaotic altar, or decreases by 2 (-2) on Moloch's altar.
 
 #### First Demon Lord Summon
 
@@ -46,3 +58,7 @@ The approximate hostility chances for your subsequent demon lord summons are det
 | Strident (4)          | ~33.3% | 75.0%  | 80.0%  | ~83.3% |
 | Normal (0)            | ~66.7% | 75.0%  | 80.0%  | ~83.3% |
 | Negative (< 0)        | 80.0%  | ~85.7% | ~88.9% | ~90.9% |
+
+## Demons Sacrificing Demons
+
+If you are currently in demon form (e.g., via polymorph), sacrificing your own race does not incur the standard penalties. Instead, you find the act highly satisfying, which exercises your Wisdom (*"You find the idea very satisfying."*).
