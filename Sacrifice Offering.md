@@ -67,7 +67,9 @@ Sacrificing an undead corpse provides different values and outcomes depending on
 When sacrificing a fresh, valid corpse on an altar of your own alignment, your god evaluates the offering. The effects are resolved in the following priority order:
 
 ### 1. Decreasing Anger
+
 If your god is angry, the corpse value reduces their anger:
+
 $$\text{Anger Reduction} = \frac{\text{Corpse Value} \times (2 \text{ if Chaotic else } 3)}{24}$$
 
 Depending on how much anger is reduced, the player will see different messages:
@@ -205,15 +207,19 @@ When a god is angered (either by offering a highly offensive sacrifice, or via a
 
 The `maxanger` value is calculated differently depending on whether you anger your own god or a cross-aligned god, and is strictly bounded between $1$ and $15$:
 
-**Angering a Cross-Aligned God:**
+### Angering a Cross-Aligned God
+
 $$ \text{maxanger} = \left\lfloor \frac{\text{Alignment Record}}{2} \right\rfloor + L $$
 Where $L$ is the Luck modifier:
 $$ L = \begin{cases} - \lfloor \frac{\text{Luck}}{3} \rfloor & \text{if } \text{Luck} > 0 \\ - \text{Luck} & \text{if } \text{Luck} \le 0 \end{cases} $$
 
-**Angering Your Own God:**
+### Angering Your Own God
+
 $$ \text{maxanger} = (3 \times \text{God's Anger}) + L $$
 Where $L$ is the Luck modifier:
 $$ L = \begin{cases} - \lfloor \frac{\text{Luck}}{3} \rfloor & \text{if } \text{Luck} > 0 \text{ or Alignment Record} \ge 4 \text{ (Strident)} \\ - \text{Luck} & \text{otherwise} \end{cases} $$
+
+### Outcome
 
 The outcome of the divine smite is chosen based on this roll:
 
