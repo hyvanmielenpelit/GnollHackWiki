@@ -188,7 +188,7 @@ Unlike converting an altar, the success chance formula does **not** play a role 
 
 ### 🧑‍🤝‍🧑 Sacrificing Your Own Race
 
-Sacrificing a corpse of your own race is a major offense. Depending on your alignment and the altar's alignment, it can result in severe divine punishment, the destruction of the altar, or the summoning of a hostile demon lord.
+Sacrificing a corpse of your own race is a major offense. Depending on your alignment and the altar's alignment, it can result in severe divine punishment, the destruction of the altar, or the summoning of a potentially hostile demon lord.
 
 For a detailed breakdown of the mechanics, penalties, and demon summoning rules, see **[[Same-Race Sacrifice]]**.
 
