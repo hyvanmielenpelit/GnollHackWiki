@@ -222,8 +222,8 @@ The outcome of the divine smite is chosen based on this roll:
 | **0 or 1** | God is displeased. No stat or mechanical penalty. | *"You feel that [God Name] is displeased."* (or *"bummed"*) |
 | **2 or 3** | Player loses 1 Wisdom and 1 experience level. | *"Thou hast strayed from the path/art arrogant, [mortal/creature]. Thou must relearn thy lessons!"* |
 | **4 or 5** | Random items in inventory are cursed. Black glow surrounds player. | *"Thou hast angered me."* |
-| **6** | Player is punished (a heavy iron ball is attached to their leg). | *"Thou hast angered me."* |
-| **7 or 9** | Hostile minion is summoned. (Only if God is original alignment but player converted away). | *"Thou hast strayed from the path, [mortal/creature]. Thou shalt pay for thine indiscretion!"* |
+| **6** | Player is punished (a heavy iron ball is attached to their leg). If already punished, random items are cursed instead. | *"Thou hast angered me."* |
+| **7 or 9** | Hostile minion is summoned. Only triggers if the god is your original alignment but you have converted away; otherwise falls through to case 8. | *"Thou hast strayed from the path, [mortal/creature]. Thou shalt pay for thine indiscretion!"* |
 | **8** | Hostile minion is summoned. | *"Thou durst scorn/call upon me? Then die, [mortal/creature]!"* |
 | **10+** | Player is directly smote with magical damage or lightning bolt. | *"Thou hast angered me."* |
 
@@ -244,11 +244,13 @@ Sacrificing the real Amulet of Yendor is the method of completing the game:
 
 The consequences of sacrificing a fake Amulet of Yendor depend heavily on whether you **know** it is a fake (it has been identified as a "cheap plastic imitation") or if you genuinely **believed** it was real (it remains unidentified). 
 
-Since the gods cannot be fooled, a fake amulet is **never consumed** when sacrificed, but it will often trigger a thunderclap (*"You hear a nearby thunderclap."*):
+Since the gods cannot be fooled, a fake amulet is **never consumed** when sacrificed:
 
 | Altar Type | Fake Amulet Identified? | Amulet Consumed? | Game Outcome | Key Effects & Consequences | Message |
 | :--- | :---: | :---: | :--- | :--- | :--- |
-| **Normal Altar** | ❌ | ❌ | **Game Continues** | Redirects to the normal Amulet offering behavior. | *"You feel an urge to return..."* or *"You feel ashamed."* |
-| **Normal Altar** | ✅ | ❌ | **Game Continues** | The gods realize you are trying to fool them. No mechanical penalties. | *"You feel foolish."* |
-| **High Altar** | ❌ | ❌ | **Game Continues** | A thunderclap sounds. You identify the fake amulet and realize your mistake. Luck decreases by 1. | *"You hear a nearby thunderclap."* <br> *"You realize you have made a mistake."* (or *"boo-boo"* if hallucinating) |
-| **High Altar** | ✅ | ❌ | **Game Continues** | A thunderclap sounds. Your Luck decreases by 3, alignment record decreases by 1, and your god's anger increases by 3 (god gets upset). | *"You hear a nearby thunderclap."* <br> *(plus *"Oh, no"* if deaf)* |
+| **Normal Altar** | ❌ | ❌ | **Game Continues** | Treated as if you offered the real Amulet on a normal altar (see above). No thunderclap or penalty. | *"You feel an urge to return..."* or *"You feel ashamed."* |
+| **Normal Altar** | ✅ | ❌ | **Game Continues** | Thunderclap. Luck -3, alignment -1, god's anger +3. Your god gets upset. | *"You hear a nearby thunderclap."* <br> *(plus "Oh, no." if deaf)* |
+| **High Altar** | ❌ | ❌ | **Game Continues** | Thunderclap. You identify the fake amulet and realize your mistake. Luck -1. | *"You hear a nearby thunderclap."* <br> *"You realize you have made a mistake."* (or *"boo-boo"* if hallucinating) |
+| **High Altar** | ✅ | ❌ | **Game Continues** | Thunderclap. Luck -3, alignment -1, god's anger +3. Your god gets upset. On a cross-aligned high altar, this also triggers the devastating high altar desecration smite. | *"You hear a nearby thunderclap."* <br> *(plus "Oh, no." if deaf)* |
+
+> ⚠️ **Warning:** Deliberately sacrificing a fake amulet you **know** is a fake is extremely dangerous. The gods punish this equally harshly on normal and high altars — and on a cross-aligned high altar, the owning god will directly smite you with lightning.

@@ -6,12 +6,20 @@ Sacrificing a member of your own race is considered a severe offense in GnollHac
 
 > ℹ️ **Note:** A same-race sacrifice is determined by your character's race. For example, a Human sacrificing a human corpse, or an Elf sacrificing an elf corpse.
 
+## High Altars
+
+Same-race sacrifice on a **High Altar** is treated as a desecration of the most sacred site. Unless **both** you and the altar are Chaotic (or it is Moloch's altar), the owning god will directly smite you with devastating force — this is the same punishment as trying to convert a high altar, and is often instantly fatal.
+
+> ⚠️ **Warning:** Never perform a same-race sacrifice on a high altar unless you are Chaotic and the altar is also Chaotic or Moloch's. The smite is one of the most lethal events in the game.
+
 ## The Non-Chaotic Penalty
 
 Regardless of the altar you use, if your character's alignment is **Lawful** or **Neutral**, the act of a same-race sacrifice immediately incurs severe divine punishment:
 - You instantly lose 1 Wisdom.
 - Your alignment record and Luck are both decreased by 5.
-- Your god's anger increases by 3, which often triggers an immediate divine smite.
+- Your god's anger increases by 3, which triggers an immediate divine smite<sup>1</sup>.
+
+<sup>1</sup> The divine smite is skipped if you are inside Gehennom.
 
 ## Lawful and Neutral Altars
 
@@ -25,7 +33,7 @@ The consequences for the altar are severe:
 
 Sacrificing your own race on a Chaotic or Moloch altar is treated as a demonic summoning ritual. This ritual will always attempt to summon a Chaotic demon lord. 
 
-- **The Summoned Demon**: In Gehennom, it summons **Demogorgon**. Elsewhere, it summons a random Demon Lord.
+- **The Summoned Demon**: In Gehennom, it attempts to summon **Demogorgon** first. If Demogorgon cannot be summoned (e.g., he already exists), a random Demon Lord is summoned instead. Outside Gehennom, a random Demon Lord is summoned.
 - **Terror Effect**: The sheer terror of the summoning will paralyze you for 3 turns (*"You are terrified, and unable to move."*) unless you possess Fear Resistance.
 
 The outcome depends heavily on your character's alignment.
