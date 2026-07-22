@@ -53,7 +53,7 @@ St:25 Dx:20 Co:25 In:23 Wi:25 Ch:25
 
 ## Corpse properties
 
-1. May confer disintegration resistance
+1. May confer disintegration resistance (100% chance)
 
 ## Picture
 

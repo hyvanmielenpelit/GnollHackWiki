@@ -31,6 +31,7 @@ St:3 Dx:14 Co:14 In:15 Wi:9 Ch:14
 ## Corpse properties
 
 1. May confer teleportation
+2. May confer teleportitis (50.0% chance)
 
 ## Picture
 

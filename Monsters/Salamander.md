@@ -38,6 +38,7 @@ St:15 Dx:14 Co:12 In:2 Wi:2 Ch:1
 
 1. Poisonous
 2. May confer 50% fire resistance
+3. May confer fire resistance (53.3% chance)
 
 ## Picture
 

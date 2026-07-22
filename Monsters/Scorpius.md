@@ -36,8 +36,8 @@ St:18/** Dx:20 Co:24 In:18 Wi:18 Ch:15
 ## Corpse properties
 
 1. Poisonous
-2. May confer poison resistance
-3. May confer free action
+2. May confer free action
+3. May confer poison resistance (100% chance)
 
 ## Picture
 

@@ -41,6 +41,7 @@ St:15 Dx:9 Co:14 In:19 Wi:15 Ch:9
 ## Corpse properties
 
 1. May confer 50% cold resistance
+2. May confer cold resistance (73.3% chance)
 
 ## Picture
 

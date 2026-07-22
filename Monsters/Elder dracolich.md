@@ -49,6 +49,8 @@ St:24 Dx:18 Co:24 In:25 Wi:24 Ch:21
 
 1. May confer 50% fire resistance
 2. May confer 50% cold resistance
+3. May confer fire resistance (100% chance)
+4. May confer cold resistance (100% chance)
 
 ## Picture
 

@@ -55,6 +55,8 @@ St:18 Dx:18 Co:19 In:24 Wi:18 Ch:8
 2. May confer intelligence (25%)
 3. May confer 50% fire resistance
 4. May confer 50% cold resistance
+5. May confer fire resistance (100% chance)
+6. May confer cold resistance (100% chance)
 
 ## Picture
 

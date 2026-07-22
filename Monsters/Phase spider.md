@@ -33,9 +33,10 @@ St:18 Dx:19 Co:18 In:3 Wi:3 Ch:1
 ## Corpse properties
 
 1. Poisonous
-2. May confer poison resistance
-3. May confer teleportation
-4. May confer teleport control
+2. May confer teleportation
+3. May confer poison resistance (80.0% chance)
+4. May confer teleportitis (100% chance)
+5. May confer teleport control (100% chance)
 
 ## Picture
 

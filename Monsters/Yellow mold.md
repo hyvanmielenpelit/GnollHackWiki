@@ -36,7 +36,7 @@ St:1 Dx:7 Co:9 In:1 Wi:1 Ch:1
 
 1. Poisonous
 2. Hallucinating
-3. May confer poison resistance
+3. May confer poison resistance (6.7% chance)
 
 ## Picture
 

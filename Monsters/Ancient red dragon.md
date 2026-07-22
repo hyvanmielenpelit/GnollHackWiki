@@ -41,6 +41,7 @@ St:25 Dx:13 Co:21 In:19 Wi:18 Ch:19
 ## Corpse properties
 
 1. May confer 50% fire resistance
+2. May confer fire resistance (100% chance)
 
 ## Picture
 

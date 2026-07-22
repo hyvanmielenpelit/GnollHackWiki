@@ -44,7 +44,9 @@ St:15 Dx:7 Co:17 In:1 Wi:1 Ch:1
 1. Acidic
 2. May confer 50% cold resistance
 3. May confer 50% shock resistance
-4. May confer poison resistance
+4. May confer cold resistance (66.7% chance)
+5. May confer shock resistance (66.7% chance)
+6. May confer poison resistance (66.7% chance)
 
 ## Picture
 

@@ -37,7 +37,8 @@ St:12 Dx:7 Co:12 In:1 Wi:1 Ch:1
 ## Corpse properties
 
 1. May confer 50% cold resistance
-2. May confer poison resistance
+2. May confer cold resistance (26.7% chance)
+3. May confer poison resistance (26.7% chance)
 
 ## Picture
 

@@ -42,7 +42,7 @@ St:18/** Dx:19 Co:19 In:19 Wi:19 Ch:19
 
 1. Zombifiable
 2. Mummifiable
-3. May confer poison resistance
+3. May confer poison resistance (100% chance)
 
 ## Picture
 

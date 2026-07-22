@@ -42,7 +42,7 @@ St:18/** Dx:16 Co:20 In:14 Wi:11 Ch:7
 
 1. Touching petrifies
 2. Poisonous
-3. May confer poison resistance
+3. May confer poison resistance (100% chance)
 
 ## Picture
 

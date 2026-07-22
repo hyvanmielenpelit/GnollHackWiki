@@ -35,7 +35,7 @@ St:9 Dx:12 Co:13 In:1 Wi:1 Ch:1
 ## Corpse properties
 
 1. Poisonous
-2. May confer poison resistance
+2. May confer poison resistance (50.0% chance)
 
 ## Picture
 

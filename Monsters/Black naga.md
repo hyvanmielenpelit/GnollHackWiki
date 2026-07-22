@@ -38,7 +38,7 @@ St:18/** Dx:16 Co:17 In:15 Wi:17 Ch:14
 
 1. Acidic
 2. May confer wisdom (11%)
-3. May confer poison resistance
+3. May confer poison resistance (53.3% chance)
 
 ## Picture
 

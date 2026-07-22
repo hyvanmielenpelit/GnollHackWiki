@@ -130,6 +130,83 @@ Taking a bite of rotten or cursed food prints the message *"Blecch! Rotten [food
 | **Unconsciousness** | **18.75%** | **25%** | 1 to 10 turns | Only checked if you did not become confused or blinded. You pass out/faint. |
 | **No Effect** | **37.5%** | **50%** | N/A | You eat the food without any immediate status ailments. |
 
+## 🌟 Intrinsic Abilities from Corpses
+
+Eating certain monster corpses offers a chance to permanently gain intrinsic abilities, such as elemental resistances or telepathy. 
+
+The probability of gaining an intrinsic generally depends on the monster's level. Most elemental resistances have a base divisor of 15 (i.e., `Monster Level / 15` chance). If a monster's level meets or exceeds the divisor, the chance is 100%. Some specific monsters or intrinsics have different rules or guaranteed chances.
+
+### Elemental & Status Resistances
+
+| Intrinsic Gained | Conveying Monsters | Conveyance Chance |
+| :--------------- | :----------------- | :---------------: |
+| **Acid Resistance** | [[/Monsters/Yellow dragon]] | 100% |
+| | [[/Monsters/Ancient yellow dragon]] | 100% |
+| **Cold Resistance** | [[/Monsters/Brown mold]] | 6.7% |
+| | [[/Monsters/Gray ooze]] | 20.0% |
+| | [[/Monsters/Blue jelly]] | 26.7% |
+| | [[/Monsters/Brown pudding]], [[/Monsters/Winter wolf cub]], [[/Monsters/Yeti]] | 33.3% |
+| | [[/Monsters/Freezing sphere]], [[/Monsters/Gelatinous cube]] | 40.0% |
+| | [[/Monsters/Winter wolf]] | 46.7% |
+| | [[/Monsters/Flesh golem]] | 60.0% |
+| | [[/Monsters/Black pudding]], [[/Monsters/Frost giant]] | 66.7% |
+| | [[/Monsters/Lich]] | 73.3% |
+| | [[/Monsters/Demilich]] | 93.3% |
+| | [[/Monsters/Ice troll]], [[/Monsters/Master lich]], [[/Monsters/White dragon]], [[/Monsters/Death flayer]], [[/Monsters/Dracolich]], [[/Monsters/Mucilaginous cube]], [[/Monsters/Tiamat]], [[/Monsters/Ancient white dragon]], [[/Monsters/Arch-lich]], [[/Monsters/Elder dracolich]] | 100% |
+| **Disintegration Resistance** | [[/Monsters/Black dragon]], [[/Monsters/Tiamat]], [[/Monsters/Ancient black dragon]], [[/Monsters/Bahamut]], [[/Monsters/Jubilex]] | 100% |
+| **Fire Resistance** | [[/Monsters/Red mold]] | 6.7% |
+| | [[/Monsters/Fire ant]], [[/Monsters/Gray ooze]], [[/Monsters/Red naga hatchling]] | 20.0% |
+| | [[/Monsters/Flaming sphere]], [[/Monsters/Gelatinous cube]], [[/Monsters/Pyrolisk]], [[/Monsters/Red naga]] | 40.0% |
+| | [[/Monsters/Hell hound pup]] | 46.7% |
+| | [[/Monsters/Salamander]] | 53.3% |
+| | [[/Monsters/Fire giant]], [[/Monsters/Flesh golem]] | 60.0% |
+| | [[/Monsters/Hell hound]], [[/Monsters/Pyrohydra]] | 80.0% |
+| | [[/Monsters/Gold dragon]], [[/Monsters/Master lich]], [[/Monsters/Red dragon]], [[/Monsters/Death flayer]], [[/Monsters/Dracolich]], [[/Monsters/Mucilaginous cube]], [[/Monsters/Phoenix]], [[/Monsters/Ancient gold dragon]], [[/Monsters/Lord Surtur]], [[/Monsters/Tiamat]], [[/Monsters/Ancient red dragon]], [[/Monsters/Arch-lich]], [[/Monsters/Infernal pteranodon]], [[/Monsters/Cerberus]], [[/Monsters/Ixoth]], [[/Monsters/Elder dracolich]], [[/Monsters/Wizard of Yendor]] | 100% |
+| **Poison Resistance** | [[/Monsters/Brown mold]], [[/Monsters/Cave spider]], [[/Monsters/Red mold]], [[/Monsters/Yellow mold]] | 6.7% |
+| | [[/Monsters/Centipede]], [[/Monsters/Homunculus]] | 13.3% |
+| | [[/Monsters/Black naga hatchling]], [[/Monsters/Golden naga hatchling]], [[/Monsters/Gray ooze]], [[/Monsters/Guardian naga hatchling]], [[/Monsters/Jellyfish]], [[/Monsters/Quasit]], [[/Monsters/Red naga hatchling]], [[/Monsters/Shrieker]], [[/Monsters/Soldier ant]], [[/Monsters/Violet fungus]] | 20.0% |
+| | [[/Monsters/Black unicorn]], [[/Monsters/Blue jelly]], [[/Monsters/Chickatrice]], [[/Monsters/Gray unicorn]], [[/Monsters/Snake]], [[/Monsters/Water moccasin]], [[/Monsters/White unicorn]] | 26.7% |
+| | [[/Monsters/Killer bee]] | 30.0% |
+| | [[/Monsters/Brown pudding]], [[/Monsters/Cockatrice]], [[/Monsters/Giant beetle]], [[/Monsters/Giant spider]], [[/Monsters/Gremlin]], [[/Monsters/Quivering blob]] | 33.3% |
+| | [[/Monsters/Cobra]], [[/Monsters/Pit viper]], [[/Monsters/Pyrolisk]], [[/Monsters/Red naga]], [[/Monsters/Tengu]] | 40.0% |
+| | [[/Monsters/Xan]] | 46.7% |
+| | [[/Monsters/Scorpion]] | 50.0% |
+| | [[/Monsters/Black naga]] | 53.3% |
+| | [[/Monsters/Flesh golem]], [[/Monsters/Queen bee]] | 60.0% |
+| | [[/Monsters/Black pudding]], [[/Monsters/Gargantuan beetle]], [[/Monsters/Giant cockatrice]], [[/Monsters/Golden naga]] | 66.7% |
+| | [[/Monsters/Nurse]] | 73.3% |
+| | [[/Monsters/Lernaean hydra]], [[/Monsters/Guardian naga]], [[/Monsters/Phase spider]] | 80.0% |
+| | [[/Monsters/Green dragon]], [[/Monsters/Medusa]], [[/Monsters/Gargantuan cockatrice]], [[/Monsters/Master Kaen]], [[/Monsters/Scorpius]], [[/Monsters/Tiamat]], [[/Monsters/Ancient green dragon]], [[/Monsters/Wizard of Yendor]] | 100% |
+| **Shock Resistance** | [[/Monsters/Brown pudding]] | 33.3% |
+| | [[/Monsters/Gelatinous cube]], [[/Monsters/Shocking sphere]] | 40.0% |
+| | [[/Monsters/Electric eel]] | 46.7% |
+| | [[/Monsters/Flesh golem]] | 60.0% |
+| | [[/Monsters/Black pudding]] | 66.7% |
+| | [[/Monsters/Storm giant]], [[/Monsters/Blue dragon]], [[/Monsters/Mucilaginous cube]], [[/Monsters/Tiamat]], [[/Monsters/Ancient blue dragon]] | 100% |
+| **Sleep Resistance** | [[/Monsters/Homunculus]] | 13.3% |
+| | [[/Monsters/Lemure]] | 20.0% |
+| | [[/Monsters/Woodland-elf]] | 26.7% |
+| | [[/Monsters/Green-elf]] | 33.3% |
+| | [[/Monsters/Grey-elf]], [[/Monsters/Gelatinous cube]] | 40.0% |
+| | [[/Monsters/Elf-lord]], [[/Monsters/Elven bard]] | 53.3% |
+| | [[/Monsters/Elvenking]], [[/Monsters/Flesh golem]] | 60.0% |
+| | [[/Monsters/Elf]] | 66.7% |
+| | [[/Monsters/Orange dragon]], [[/Monsters/Mucilaginous cube]], [[/Monsters/Tiamat]], [[/Monsters/Ancient orange dragon]] | 100% |
+
+### Magical & Utility Intrinsics
+
+| Intrinsic Gained | Conveying Monsters | Conveyance Chance |
+| :--------------- | :----------------- | :---------------: |
+| **Blind Telepathy** | [[/Monsters/Floating eye]] | 100% |
+| **Invisibility** | [[/Monsters/Stalker]] | 100% |
+| **See Invisible** | [[/Monsters/Stalker]] | 100% |
+| **Teleportitis** | [[/Monsters/Leprechaun]] | 50.0% |
+| | [[/Monsters/Tengu]] | 60.0% |
+| | [[/Monsters/Quantum mechanic]] | 70.0% |
+| | [[/Monsters/Elder quantum mechanic]], [[/Monsters/Phase spider]] | 100% |
+| **Teleport Control** | [[/Monsters/Tengu]] | 50.0% |
+| | [[/Monsters/Phase spider]] | 100% |
+
 ## 🧠 Brain Eating
 
 When polymorphed into a [[/Monsters/Tentacled one]] or [[/Monsters/Elder tentacled one]], hitting a monster with a tentacle attack allows you to eat its brain, which has unique mechanics and side effects:

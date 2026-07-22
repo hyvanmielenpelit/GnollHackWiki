@@ -37,7 +37,7 @@ St:10 Dx:7 Co:15 In:1 Wi:1 Ch:1
 ## Corpse properties
 
 1. Poisonous
-2. May confer sleep resistance
+2. May confer sleep resistance (20.0% chance)
 
 ## Picture
 

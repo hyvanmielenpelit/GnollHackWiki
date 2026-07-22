@@ -38,7 +38,7 @@ St:22 Dx:16 Co:20 In:19 Wi:16 Ch:18
 
 ## Corpse properties
 
-1. May confer sleep resistance
+1. May confer sleep resistance (100% chance)
 
 ## Picture
 

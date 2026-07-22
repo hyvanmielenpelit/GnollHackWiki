@@ -36,7 +36,7 @@ St:1 Dx:7 Co:18 In:1 Wi:1 Ch:1
 ## Corpse properties
 
 1. Hallucinating
-2. May confer poison resistance
+2. May confer poison resistance (20.0% chance)
 
 ## Picture
 

@@ -36,7 +36,7 @@ St:6 Dx:11 Co:6 In:2 Wi:2 Ch:1
 
 1. Poisonous
 2. May confer dexterity (10%)
-3. May confer poison resistance
+3. May confer poison resistance (26.7% chance)
 
 ## Picture
 

@@ -37,7 +37,7 @@ St:8 Dx:15 Co:12 In:10 Wi:11 Ch:11
 1. Cures blindness
 2. Zombifiable
 3. Mummifiable
-4. May confer poison resistance
+4. May confer poison resistance (73.3% chance)
 
 ## Picture
 

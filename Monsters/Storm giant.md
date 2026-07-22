@@ -37,6 +37,7 @@ St:24 Dx:16 Co:22 In:15 Wi:15 Ch:16
 2. Mummifiable
 3. May confer strength (50%)
 4. May confer 50% shock resistance
+5. May confer shock resistance (100% chance)
 
 ## Picture
 

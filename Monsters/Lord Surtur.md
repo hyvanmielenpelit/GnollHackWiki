@@ -42,6 +42,7 @@ St:23 Dx:15 Co:25 In:12 Wi:10 Ch:14
 2. Mummifiable
 3. May confer strength (50%)
 4. May confer 50% fire resistance
+5. May confer fire resistance (100% chance)
 
 ## Picture
 

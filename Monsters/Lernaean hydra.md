@@ -48,7 +48,7 @@ St:18/** Dx:12 Co:25 In:2 Wi:2 Ch:1
 
 1. Reviving corpse
 2. Poisonous
-3. May confer poison resistance
+3. May confer poison resistance (80.0% chance)
 
 ## Picture
 

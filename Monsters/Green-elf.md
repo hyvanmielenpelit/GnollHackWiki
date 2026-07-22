@@ -38,7 +38,7 @@ St:14 Dx:16 Co:12 In:11 Wi:10 Ch:13
 
 1. Zombifiable
 2. Mummifiable
-3. May confer sleep resistance
+3. May confer sleep resistance (33.3% chance)
 
 ## Picture
 

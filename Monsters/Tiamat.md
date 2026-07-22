@@ -60,10 +60,13 @@ St:24 Dx:14 Co:24 In:20 Wi:18 Ch:20
 1. Poisonous
 2. May confer 50% fire resistance
 3. May confer 50% cold resistance
-4. May confer sleep resistance
-5. May confer disintegration resistance
-6. May confer 50% shock resistance
-7. May confer poison resistance
+4. May confer 50% shock resistance
+5. May confer fire resistance (100% chance)
+6. May confer cold resistance (100% chance)
+7. May confer sleep resistance (100% chance)
+8. May confer disintegration resistance (100% chance)
+9. May confer shock resistance (100% chance)
+10. May confer poison resistance (100% chance)
 
 ## Picture
 

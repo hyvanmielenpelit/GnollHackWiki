@@ -34,8 +34,8 @@ St:18/** Dx:12 Co:17 In:14 Wi:10 Ch:7
 ## Corpse properties
 
 1. Stunning
-2. May confer invisibility
-3. May confer see invisible
+2. May confer invisibility (100% chance)
+3. May confer see invisible (100% chance)
 
 ## Picture
 

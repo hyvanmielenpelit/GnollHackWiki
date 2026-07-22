@@ -39,9 +39,12 @@ St:18/51 Dx:7 Co:16 In:1 Wi:1 Ch:1
 
 1. May confer 50% fire resistance
 2. May confer 50% cold resistance
-3. May confer sleep resistance
-4. May confer 50% shock resistance
-5. May confer poison resistance
+3. May confer 50% shock resistance
+4. May confer fire resistance (60.0% chance)
+5. May confer cold resistance (60.0% chance)
+6. May confer sleep resistance (60.0% chance)
+7. May confer shock resistance (60.0% chance)
+8. May confer poison resistance (60.0% chance)
 
 ## Picture
 

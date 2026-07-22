@@ -34,7 +34,7 @@ St:1 Dx:7 Co:16 In:15 Wi:1 Ch:1
 
 ## Corpse properties
 
-1. May confer blind telepathy
+1. May confer blind telepathy (100% chance)
 
 ## Picture
 

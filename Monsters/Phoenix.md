@@ -43,6 +43,7 @@ St:18/01 Dx:17 Co:19 In:17 Wi:17 Ch:17
 
 1. Reviving corpse
 2. May confer 50% fire resistance
+3. May confer fire resistance (100% chance)
 
 ## Picture
 

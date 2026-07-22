@@ -36,7 +36,8 @@ St:18/31 Dx:15 Co:14 In:11 Wi:12 Ch:9
 
 1. May confer wisdom (4%)
 2. May confer 50% fire resistance
-3. May confer poison resistance
+3. May confer fire resistance (20.0% chance)
+4. May confer poison resistance (20.0% chance)
 
 ## Picture
 

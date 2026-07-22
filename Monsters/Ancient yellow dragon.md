@@ -41,6 +41,7 @@ St:24 Dx:15 Co:21 In:19 Wi:18 Ch:19
 
 1. Acidic
 2. May confer 50% acid resistance
+3. May confer acid resistance (100% chance)
 
 ## Picture
 
