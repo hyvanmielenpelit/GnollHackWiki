@@ -54,15 +54,17 @@ GnollHack features traditional food items as well as new fruits and mushrooms. U
 ### 🍄 Shuffled Mushrooms
 Mushrooms in GnollHack have shuffled appearances (e.g. "golden mushroom", "violet mushroom") in every game, but their true types and effects are fixed once identified:
 
-- **[[/Items/Champignon]]** (7 Nutrition): Edible mushroom with no special effect.
-- **[[/Items/Penny bun]]** (5 Nutrition): Cures hallucination.
-- **[[/Items/Chanterelle]]** (3 Nutrition): Cures teleportitis.
-- **[[/Items/Fly agaric]]** (5 Nutrition): Poisonous (causes poison damage unless resistant).
-- **[[/Items/Death cap]]** (4 Nutrition): Deadly poisonous (causes massive poison damage).
-- **[[/Items/Mana mushroom]]** (5 Nutrition): Confers temporary Mana Regeneration.
-- **[[/Items/Healing mushroom]]** (5 Nutrition): Confers temporary Health Regeneration.
-- **[[/Items/Panther cap]]** (3 Nutrition): Confers Blind Telepathy.
-- **[[/Items/Oracular toadstool]]** (5 Nutrition): Causes hallucination.
+| Food Item | Nutrition | Special Effect when Eaten |
+| :-------- | :-------: | :------------------------ |
+| **[[/Items/Champignon]]** | 7 | Edible mushroom with no special effect. |
+| **[[/Items/Penny bun]]** | 5 | Cures hallucination. |
+| **[[/Items/Chanterelle]]** | 3 | Cures teleportitis. |
+| **[[/Items/Fly agaric]]** | 5 | Poisonous (causes poison damage unless resistant). |
+| **[[/Items/Death cap]]** | 4 | Deadly poisonous (causes massive poison damage). |
+| **[[/Items/Mana mushroom]]** | 5 | Confers temporary Mana Regeneration. |
+| **[[/Items/Healing mushroom]]** | 5 | Confers temporary Health Regeneration. |
+| **[[/Items/Panther cap]]** | 3 | Confers Blind Telepathy. |
+| **[[/Items/Oracular toadstool]]** | 5 | Causes hallucination. |
 
 ## 👹 Attribute and Level Gains from Corpses
 
