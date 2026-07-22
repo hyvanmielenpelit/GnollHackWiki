@@ -161,12 +161,6 @@ The probability of gaining an intrinsic generally depends on the monster's level
 | [[/Monsters/Black pudding]], [[/Monsters/Frost giant]] | 66.7% |
 | [[/Monsters/Ancient white dragon]], [[/Monsters/Ice troll]], [[/Monsters/Mucilaginous cube]], [[/Monsters/Tiamat]], [[/Monsters/White dragon]] | 100% |
 
-#### Disintegration Resistance
-
-| Conveying Monsters | Conveyance Chance |
-| :----------------- | :---------------: |
-| [[/Monsters/Ancient black dragon]], [[/Monsters/Bahamut]], [[/Monsters/Black dragon]], [[/Monsters/Tiamat]] | 100% |
-
 #### 50% Fire Resistance
 
 | Conveying Monsters | Conveyance Chance |
@@ -179,6 +173,23 @@ The probability of gaining an intrinsic generally depends on the monster's level
 | [[/Monsters/Fire giant]], [[/Monsters/Flesh golem]] | 60.0% |
 | [[/Monsters/Hell hound]], [[/Monsters/Pyrohydra]] | 80.0% |
 | [[/Monsters/Ancient gold dragon]], [[/Monsters/Ancient red dragon]], [[/Monsters/Cerberus]], [[/Monsters/Gold dragon]], [[/Monsters/Infernal pteranodon]], [[/Monsters/Ixoth]], [[/Monsters/Lord Surtur]], [[/Monsters/Mucilaginous cube]], [[/Monsters/Phoenix]], [[/Monsters/Red dragon]], [[/Monsters/Tiamat]], [[/Monsters/Wizard of Yendor]] | 100% |
+
+#### 50% Shock Resistance
+
+| Conveying Monsters | Conveyance Chance |
+| :----------------- | :---------------: |
+| [[/Monsters/Brown pudding]] | 33.3% |
+| [[/Monsters/Gelatinous cube]] | 40.0% |
+| [[/Monsters/Electric eel]] | 46.7% |
+| [[/Monsters/Flesh golem]] | 60.0% |
+| [[/Monsters/Black pudding]] | 66.7% |
+| [[/Monsters/Ancient blue dragon]], [[/Monsters/Blue dragon]], [[/Monsters/Mucilaginous cube]], [[/Monsters/Storm giant]], [[/Monsters/Tiamat]] | 100% |
+
+#### Disintegration Resistance
+
+| Conveying Monsters | Conveyance Chance |
+| :----------------- | :---------------: |
+| [[/Monsters/Ancient black dragon]], [[/Monsters/Bahamut]], [[/Monsters/Black dragon]], [[/Monsters/Tiamat]] | 100% |
 
 #### Poison Resistance
 
@@ -199,17 +210,6 @@ The probability of gaining an intrinsic generally depends on the monster's level
 | [[/Monsters/Nurse]] | 73.3% |
 | [[/Monsters/Guardian naga]], [[/Monsters/Lernaean hydra]], [[/Monsters/Phase spider]] | 80.0% |
 | [[/Monsters/Ancient green dragon]], [[/Monsters/Gargantuan cockatrice]], [[/Monsters/Green dragon]], [[/Monsters/Master Kaen]], [[/Monsters/Medusa]], [[/Monsters/Scorpius]], [[/Monsters/Tiamat]], [[/Monsters/Wizard of Yendor]] | 100% |
-
-#### 50% Shock Resistance
-
-| Conveying Monsters | Conveyance Chance |
-| :----------------- | :---------------: |
-| [[/Monsters/Brown pudding]] | 33.3% |
-| [[/Monsters/Gelatinous cube]] | 40.0% |
-| [[/Monsters/Electric eel]] | 46.7% |
-| [[/Monsters/Flesh golem]] | 60.0% |
-| [[/Monsters/Black pudding]] | 66.7% |
-| [[/Monsters/Ancient blue dragon]], [[/Monsters/Blue dragon]], [[/Monsters/Mucilaginous cube]], [[/Monsters/Storm giant]], [[/Monsters/Tiamat]] | 100% |
 
 #### Sleep Resistance
 
