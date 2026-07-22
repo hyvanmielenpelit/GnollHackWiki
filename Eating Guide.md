@@ -144,8 +144,7 @@ The probability of gaining an intrinsic generally depends on the monster's level
 
 | Conveying Monsters | Conveyance Chance |
 | :----------------- | :---------------: |
-| [[/Monsters/Yellow dragon]] | 100% |
-| [[/Monsters/Ancient yellow dragon]] | 100% |
+| [[/Monsters/Ancient yellow dragon]], [[/Monsters/Yellow dragon]] | 100% |
 
 #### 50% Cold Resistance
 
