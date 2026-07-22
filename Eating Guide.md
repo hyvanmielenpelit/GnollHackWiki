@@ -138,6 +138,8 @@ Eating certain monster corpses offers a chance to permanently gain intrinsic abi
 
 The probability of gaining an intrinsic generally depends on the monster's level. Most elemental resistances have a base divisor of 15 (i.e., `Monster Level / 15` chance). If a monster's level meets or exceeds the divisor, the chance is 100%. Some specific monsters or intrinsics have different rules or guaranteed chances.
 
+> ℹ️ **Note:** Oozes and puddings (such as [[/Monsters/Black pudding]], [[/Monsters/Brown pudding]], and [[/Monsters/Gray ooze]]) leave a glob upon death instead of a corpse. Eating their globs conveys intrinsic abilities with the listed chances.
+
 ### Elemental & Status Resistances
 
 #### 50% Acid Resistance
@@ -222,10 +224,6 @@ The probability of gaining an intrinsic generally depends on the monster's level
 | [[/Monsters/Elvenking]], [[/Monsters/Flesh golem]] | 60.0% |
 | [[/Monsters/Elf]] | 66.7% |
 | [[/Monsters/Ancient orange dragon]], [[/Monsters/Mucilaginous cube]], [[/Monsters/Orange dragon]], [[/Monsters/Tiamat]] | 100% |
-
-
-
-*Note: Oozes and puddings (such as [[/Monsters/Black pudding]], [[/Monsters/Brown pudding]], and [[/Monsters/Gray ooze]]) leave a glob upon death instead of a corpse. Eating their globs conveys intrinsic abilities with the listed chances.*
 
 ### Magical & Utility Intrinsics
 
