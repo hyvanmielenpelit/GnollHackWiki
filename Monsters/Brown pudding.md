@@ -41,11 +41,9 @@ St:9 Dx:7 Co:16 In:1 Wi:1 Ch:1
 ## Corpse properties
 
 1. Acidic
-2. May confer 50% cold resistance
-3. May confer 50% shock resistance
-4. May confer cold resistance (33.3% chance)
-5. May confer shock resistance (33.3% chance)
-6. May confer poison resistance (33.3% chance)
+2. May confer 50% cold resistance (33.3% chance)
+3. May confer 50% shock resistance (33.3% chance)
+4. May confer poison resistance (33.3% chance)
 
 ## Picture
 

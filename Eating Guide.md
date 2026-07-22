@@ -140,14 +140,14 @@ The probability of gaining an intrinsic generally depends on the monster's level
 
 ### Elemental & Status Resistances
 
-#### Acid Resistance
+#### 50% Acid Resistance
 
 | Conveying Monsters | Conveyance Chance |
 | :----------------- | :---------------: |
 | [[/Monsters/Yellow dragon]] | 100% |
 | [[/Monsters/Ancient yellow dragon]] | 100% |
 
-#### Cold Resistance
+#### 50% Cold Resistance
 
 | Conveying Monsters | Conveyance Chance |
 | :----------------- | :---------------: |
@@ -169,7 +169,7 @@ The probability of gaining an intrinsic generally depends on the monster's level
 | :----------------- | :---------------: |
 | [[/Monsters/Ancient black dragon]], [[/Monsters/Bahamut]], [[/Monsters/Black dragon]], [[/Monsters/Jubilex]], [[/Monsters/Tiamat]] | 100% |
 
-#### Fire Resistance
+#### 50% Fire Resistance
 
 | Conveying Monsters | Conveyance Chance |
 | :----------------- | :---------------: |
@@ -202,7 +202,7 @@ The probability of gaining an intrinsic generally depends on the monster's level
 | [[/Monsters/Guardian naga]], [[/Monsters/Lernaean hydra]], [[/Monsters/Phase spider]] | 80.0% |
 | [[/Monsters/Ancient green dragon]], [[/Monsters/Gargantuan cockatrice]], [[/Monsters/Green dragon]], [[/Monsters/Master Kaen]], [[/Monsters/Medusa]], [[/Monsters/Scorpius]], [[/Monsters/Tiamat]], [[/Monsters/Wizard of Yendor]] | 100% |
 
-#### Shock Resistance
+#### 50% Shock Resistance
 
 | Conveying Monsters | Conveyance Chance |
 | :----------------- | :---------------: |

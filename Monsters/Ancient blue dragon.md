@@ -38,8 +38,7 @@ St:20 Dx:15 Co:17 In:19 Wi:18 Ch:19
 
 ## Corpse properties
 
-1. May confer 50% shock resistance
-2. May confer shock resistance (100% chance)
+1. May confer 50% shock resistance (100% chance)
 
 ## Picture
 

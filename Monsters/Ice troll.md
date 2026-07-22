@@ -37,8 +37,7 @@ St:18 Dx:12 Co:20 In:6 Wi:4 Ch:4
 ## Corpse properties
 
 1. Reviving corpse
-2. May confer 50% cold resistance
-3. May confer cold resistance (100% chance)
+2. May confer 50% cold resistance (100% chance)
 
 ## Picture
 

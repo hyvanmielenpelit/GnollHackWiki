@@ -46,10 +46,8 @@ St:20 Dx:16 Co:18 In:24 Wi:18 Ch:15
 
 ## Corpse properties
 
-1. May confer 50% fire resistance
-2. May confer 50% cold resistance
-3. May confer fire resistance (100% chance)
-4. May confer cold resistance (100% chance)
+1. May confer 50% fire resistance (100% chance)
+2. May confer 50% cold resistance (100% chance)
 
 ## Picture
 

@@ -48,9 +48,8 @@ St:18 Dx:18 Co:21 In:24 Wi:23 Ch:18
 
 1. Zombifiable
 2. Mummifiable
-3. May confer 50% fire resistance
-4. May confer fire resistance (100% chance)
-5. May confer poison resistance (100% chance)
+3. May confer 50% fire resistance (100% chance)
+4. May confer poison resistance (100% chance)
 
 ## Picture
 
