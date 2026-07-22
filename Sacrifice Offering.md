@@ -182,7 +182,7 @@ Unlike converting an altar, the success chance formula does **not** play a role 
 | **Successful Conversion** | • Alignment base becomes the altar's alignment. <br> • Luck decreases by 3. <br> • Prayer timeout increases by 300 turns (150 for Priests). | *"You have a strong feeling that [Your God] is angry... [Altar God] accepts your allegiance."* |
 | **Failed Conversion** | • God's anger increases by 3. <br> • Alignment record decreases by 5. <br> • Luck decreases by 5. <br> • Wisdom drops by 2. <br> • You are smitten by your god ([see below](#divine-anger-smite-outcomes)). | *"[Altar God] rejects your sacrifice!"* <br> *"Suffer, infidel!"* |
 
-> ⚠️ **Warning:** Converting yourself is an extreme action. A failed conversion results in severe penalties and a direct smite! Additionally, if you successfully convert your alignment before completing the Quest, the game may become **unwinnable**. The Quest Leader will banish you for straying from your original alignment, making it impossible to retrieve the [[/Artifacts/Bell of Opening]] from your quest nemesis.
+> ⚠️ **Warning:** Trying to convert yourself is an extreme religious action. A failed conversion results in severe penalties and a direct smite from your god!
 
 ## 🦄 Special Sacrifices
 
