@@ -41,6 +41,7 @@ St:16 Dx:7 Co:15 In:20 Wi:16 Ch:12
 ## Corpse properties
 
 1. May confer 50% cold resistance (93.3% chance)
+2. Does not leave a corpse or glob; intrinsic abilities cannot be gained from eating in practice.
 
 ## Picture
 

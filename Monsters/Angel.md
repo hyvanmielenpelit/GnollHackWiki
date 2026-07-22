@@ -44,6 +44,7 @@ St:20 Dx:16 Co:19 In:18 Wi:21 Ch:22
 ## Corpse properties
 
 1. May confer wisdom (21%)
+2. Does not leave a corpse or glob; intrinsic abilities cannot be gained from eating in practice.
 
 ## Picture
 

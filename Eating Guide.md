@@ -155,19 +155,17 @@ The probability of gaining an intrinsic generally depends on the monster's level
 | [[/Monsters/Gray ooze]] | 20.0% |
 | [[/Monsters/Blue jelly]] | 26.7% |
 | [[/Monsters/Brown pudding]], [[/Monsters/Winter wolf cub]], [[/Monsters/Yeti]] | 33.3% |
-| [[/Monsters/Freezing sphere]], [[/Monsters/Gelatinous cube]] | 40.0% |
+| [[/Monsters/Gelatinous cube]] | 40.0% |
 | [[/Monsters/Winter wolf]] | 46.7% |
 | [[/Monsters/Flesh golem]] | 60.0% |
 | [[/Monsters/Black pudding]], [[/Monsters/Frost giant]] | 66.7% |
-| [[/Monsters/Lich]] | 73.3% |
-| [[/Monsters/Demilich]] | 93.3% |
-| [[/Monsters/Ancient white dragon]], [[/Monsters/Arch-lich]], [[/Monsters/Death flayer]], [[/Monsters/Dracolich]], [[/Monsters/Elder dracolich]], [[/Monsters/Ice troll]], [[/Monsters/Master lich]], [[/Monsters/Mucilaginous cube]], [[/Monsters/Tiamat]], [[/Monsters/White dragon]] | 100% |
+| [[/Monsters/Ancient white dragon]], [[/Monsters/Ice troll]], [[/Monsters/Mucilaginous cube]], [[/Monsters/Tiamat]], [[/Monsters/White dragon]] | 100% |
 
 #### Disintegration Resistance
 
 | Conveying Monsters | Conveyance Chance |
 | :----------------- | :---------------: |
-| [[/Monsters/Ancient black dragon]], [[/Monsters/Bahamut]], [[/Monsters/Black dragon]], [[/Monsters/Jubilex]], [[/Monsters/Tiamat]] | 100% |
+| [[/Monsters/Ancient black dragon]], [[/Monsters/Bahamut]], [[/Monsters/Black dragon]], [[/Monsters/Tiamat]] | 100% |
 
 #### 50% Fire Resistance
 
@@ -175,12 +173,12 @@ The probability of gaining an intrinsic generally depends on the monster's level
 | :----------------- | :---------------: |
 | [[/Monsters/Red mold]] | 6.7% |
 | [[/Monsters/Fire ant]], [[/Monsters/Gray ooze]], [[/Monsters/Red naga hatchling]] | 20.0% |
-| [[/Monsters/Flaming sphere]], [[/Monsters/Gelatinous cube]], [[/Monsters/Pyrolisk]], [[/Monsters/Red naga]] | 40.0% |
+| [[/Monsters/Gelatinous cube]], [[/Monsters/Pyrolisk]], [[/Monsters/Red naga]] | 40.0% |
 | [[/Monsters/Hell hound pup]] | 46.7% |
 | [[/Monsters/Salamander]] | 53.3% |
 | [[/Monsters/Fire giant]], [[/Monsters/Flesh golem]] | 60.0% |
 | [[/Monsters/Hell hound]], [[/Monsters/Pyrohydra]] | 80.0% |
-| [[/Monsters/Ancient gold dragon]], [[/Monsters/Ancient red dragon]], [[/Monsters/Arch-lich]], [[/Monsters/Cerberus]], [[/Monsters/Death flayer]], [[/Monsters/Dracolich]], [[/Monsters/Elder dracolich]], [[/Monsters/Gold dragon]], [[/Monsters/Infernal pteranodon]], [[/Monsters/Ixoth]], [[/Monsters/Lord Surtur]], [[/Monsters/Master lich]], [[/Monsters/Mucilaginous cube]], [[/Monsters/Phoenix]], [[/Monsters/Red dragon]], [[/Monsters/Tiamat]], [[/Monsters/Wizard of Yendor]] | 100% |
+| [[/Monsters/Ancient gold dragon]], [[/Monsters/Ancient red dragon]], [[/Monsters/Cerberus]], [[/Monsters/Gold dragon]], [[/Monsters/Infernal pteranodon]], [[/Monsters/Ixoth]], [[/Monsters/Lord Surtur]], [[/Monsters/Mucilaginous cube]], [[/Monsters/Phoenix]], [[/Monsters/Red dragon]], [[/Monsters/Tiamat]], [[/Monsters/Wizard of Yendor]] | 100% |
 
 #### Poison Resistance
 
@@ -207,7 +205,7 @@ The probability of gaining an intrinsic generally depends on the monster's level
 | Conveying Monsters | Conveyance Chance |
 | :----------------- | :---------------: |
 | [[/Monsters/Brown pudding]] | 33.3% |
-| [[/Monsters/Gelatinous cube]], [[/Monsters/Shocking sphere]] | 40.0% |
+| [[/Monsters/Gelatinous cube]] | 40.0% |
 | [[/Monsters/Electric eel]] | 46.7% |
 | [[/Monsters/Flesh golem]] | 60.0% |
 | [[/Monsters/Black pudding]] | 66.7% |
@@ -218,7 +216,6 @@ The probability of gaining an intrinsic generally depends on the monster's level
 | Conveying Monsters | Conveyance Chance |
 | :----------------- | :---------------: |
 | [[/Monsters/Homunculus]] | 13.3% |
-| [[/Monsters/Lemure]] | 20.0% |
 | [[/Monsters/Woodland-elf]] | 26.7% |
 | [[/Monsters/Green-elf]] | 33.3% |
 | [[/Monsters/Gelatinous cube]], [[/Monsters/Grey-elf]] | 40.0% |
@@ -226,6 +223,10 @@ The probability of gaining an intrinsic generally depends on the monster's level
 | [[/Monsters/Elvenking]], [[/Monsters/Flesh golem]] | 60.0% |
 | [[/Monsters/Elf]] | 66.7% |
 | [[/Monsters/Ancient orange dragon]], [[/Monsters/Mucilaginous cube]], [[/Monsters/Orange dragon]], [[/Monsters/Tiamat]] | 100% |
+
+
+
+*Note: Oozes and puddings (such as [[/Monsters/Black pudding]], [[/Monsters/Brown pudding]], and [[/Monsters/Gray ooze]]) leave a glob upon death instead of a corpse. Eating their globs conveys intrinsic abilities with the listed chances.*
 
 ### Magical & Utility Intrinsics
 

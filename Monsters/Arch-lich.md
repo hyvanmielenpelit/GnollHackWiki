@@ -44,6 +44,7 @@ St:18 Dx:13 Co:17 In:25 Wi:20 Ch:18
 
 1. May confer 50% fire resistance (100% chance)
 2. May confer 50% cold resistance (100% chance)
+3. Does not leave a corpse or glob; intrinsic abilities cannot be gained from eating in practice.
 
 ## Picture
 

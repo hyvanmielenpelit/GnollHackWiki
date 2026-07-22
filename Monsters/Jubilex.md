@@ -53,6 +53,7 @@ St:21 Dx:13 Co:24 In:15 Wi:14 Ch:4
 1. Infected with terminal illness
 2. Acidic
 3. May confer disintegration resistance (100% chance)
+4. Does not leave a corpse or glob; intrinsic abilities cannot be gained from eating in practice.
 
 ## Picture
 

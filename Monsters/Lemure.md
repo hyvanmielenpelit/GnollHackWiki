@@ -38,6 +38,7 @@ St:10 Dx:7 Co:15 In:1 Wi:1 Ch:1
 
 1. Poisonous
 2. May confer sleep resistance (20.0% chance)
+3. Does not leave a corpse or glob; intrinsic abilities cannot be gained from eating in practice.
 
 ## Picture
 

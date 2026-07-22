@@ -44,6 +44,7 @@ St:6 Dx:7 Co:15 In:1 Wi:1 Ch:1
 2. May confer 50% fire resistance (20.0% chance)
 3. May confer 50% cold resistance (20.0% chance)
 4. May confer poison resistance (20.0% chance)
+5. Leaves a glob upon death instead of a corpse; intrinsic abilities can be gained from eating its glob
 
 ## Picture
 

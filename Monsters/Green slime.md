@@ -44,6 +44,7 @@ St:15 Dx:7 Co:16 In:1 Wi:1 Ch:1
 1. Touching turns into green slime
 2. Poisonous
 3. Acidic
+4. Leaves a glob upon death instead of a corpse; intrinsic abilities can be gained from eating its glob
 
 ## Picture
 
