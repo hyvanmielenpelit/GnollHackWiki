@@ -227,17 +227,39 @@ The probability of gaining an intrinsic generally depends on the monster's level
 
 ### Magical & Utility Intrinsics
 
-| Intrinsic Gained | Conveying Monsters | Conveyance Chance |
-| :--------------- | :----------------- | :---------------: |
-| **Blind Telepathy** | [[/Monsters/Floating eye]] | 100% |
-| **Invisibility** | [[/Monsters/Stalker]] | 100% |
-| **See Invisible** | [[/Monsters/Stalker]] | 100% |
-| **Teleportitis** | [[/Monsters/Leprechaun]] | 50.0% |
-| | [[/Monsters/Tengu]] | 60.0% |
-| | [[/Monsters/Quantum mechanic]] | 70.0% |
-| | [[/Monsters/Elder quantum mechanic]], [[/Monsters/Phase spider]] | 100% |
-| **Teleport Control** | [[/Monsters/Tengu]] | 50.0% |
-| | [[/Monsters/Phase spider]] | 100% |
+#### Blind Telepathy
+
+| Conveying Monsters | Conveyance Chance |
+| :----------------- | :---------------: |
+| [[/Monsters/Floating eye]] | 100% |
+
+#### Invisibility
+
+| Conveying Monsters | Conveyance Chance |
+| :----------------- | :---------------: |
+| [[/Monsters/Stalker]] | 100% |
+
+#### See Invisible
+
+| Conveying Monsters | Conveyance Chance |
+| :----------------- | :---------------: |
+| [[/Monsters/Stalker]] | 100% |
+
+#### Teleport Control
+
+| Conveying Monsters | Conveyance Chance |
+| :----------------- | :---------------: |
+| [[/Monsters/Tengu]] | 50.0% |
+| [[/Monsters/Phase spider]] | 100% |
+
+#### Teleportitis
+
+| Conveying Monsters | Conveyance Chance |
+| :----------------- | :---------------: |
+| [[/Monsters/Leprechaun]] | 50.0% |
+| [[/Monsters/Tengu]] | 60.0% |
+| [[/Monsters/Quantum mechanic]] | 70.0% |
+| [[/Monsters/Elder quantum mechanic]], [[/Monsters/Phase spider]] | 100% |
 
 ## 🧠 Brain Eating
 
