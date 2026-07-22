@@ -12,12 +12,20 @@
 
 ## 🧬 Class Traits
 
-- Vegetarianism
 - AC and MC bonus if without weapon, shield, and suit
 - No staggering blow when wearing a shield or suit
 - -30 to-hit penalty when wearing a suit
 - Gains 50% extra score from all conducts
 - Special achievement is to attain the level of Grand Master in Martial Arts
+
+### 🥗 Vegetarianism
+
+Monks practice vegetarianism. This means they are discouraged from eating meat, including the corpses of non-vegetarian monsters.
+- If a Monk attempts to eat meat, they will receive a warning that it smells unhealthy.
+- Consuming meat breaks the vegetarian conduct, resulting in a -1 alignment penalty and a feeling of guilt.
+- Eating non-meat animal products, such as eggs or dairy, does not break the vegetarian conduct, but it will break the stricter, optional **vegan** conduct.
+  - Successfully ascending while maintaining the vegan conduct grants more score than maintaining only the vegetarian conduct (see [[/Scoring]]).
+- To support their diet, Monks start with vegetarian food options and the [[/Spells/Create food]] spell.
 
 ## ⚡ Intrinsic Abilities
 
