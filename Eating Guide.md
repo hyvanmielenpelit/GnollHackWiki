@@ -140,60 +140,92 @@ The probability of gaining an intrinsic generally depends on the monster's level
 
 ### Elemental & Status Resistances
 
-| Intrinsic Gained | Conveying Monsters | Conveyance Chance |
-| :--------------- | :----------------- | :---------------: |
-| **Acid Resistance** | [[/Monsters/Yellow dragon]] | 100% |
-| | [[/Monsters/Ancient yellow dragon]] | 100% |
-| **Cold Resistance** | [[/Monsters/Brown mold]] | 6.7% |
-| | [[/Monsters/Gray ooze]] | 20.0% |
-| | [[/Monsters/Blue jelly]] | 26.7% |
-| | [[/Monsters/Brown pudding]], [[/Monsters/Winter wolf cub]], [[/Monsters/Yeti]] | 33.3% |
-| | [[/Monsters/Freezing sphere]], [[/Monsters/Gelatinous cube]] | 40.0% |
-| | [[/Monsters/Winter wolf]] | 46.7% |
-| | [[/Monsters/Flesh golem]] | 60.0% |
-| | [[/Monsters/Black pudding]], [[/Monsters/Frost giant]] | 66.7% |
-| | [[/Monsters/Lich]] | 73.3% |
-| | [[/Monsters/Demilich]] | 93.3% |
-| | [[/Monsters/Ice troll]], [[/Monsters/Master lich]], [[/Monsters/White dragon]], [[/Monsters/Death flayer]], [[/Monsters/Dracolich]], [[/Monsters/Mucilaginous cube]], [[/Monsters/Tiamat]], [[/Monsters/Ancient white dragon]], [[/Monsters/Arch-lich]], [[/Monsters/Elder dracolich]] | 100% |
-| **Disintegration Resistance** | [[/Monsters/Black dragon]], [[/Monsters/Tiamat]], [[/Monsters/Ancient black dragon]], [[/Monsters/Bahamut]], [[/Monsters/Jubilex]] | 100% |
-| **Fire Resistance** | [[/Monsters/Red mold]] | 6.7% |
-| | [[/Monsters/Fire ant]], [[/Monsters/Gray ooze]], [[/Monsters/Red naga hatchling]] | 20.0% |
-| | [[/Monsters/Flaming sphere]], [[/Monsters/Gelatinous cube]], [[/Monsters/Pyrolisk]], [[/Monsters/Red naga]] | 40.0% |
-| | [[/Monsters/Hell hound pup]] | 46.7% |
-| | [[/Monsters/Salamander]] | 53.3% |
-| | [[/Monsters/Fire giant]], [[/Monsters/Flesh golem]] | 60.0% |
-| | [[/Monsters/Hell hound]], [[/Monsters/Pyrohydra]] | 80.0% |
-| | [[/Monsters/Gold dragon]], [[/Monsters/Master lich]], [[/Monsters/Red dragon]], [[/Monsters/Death flayer]], [[/Monsters/Dracolich]], [[/Monsters/Mucilaginous cube]], [[/Monsters/Phoenix]], [[/Monsters/Ancient gold dragon]], [[/Monsters/Lord Surtur]], [[/Monsters/Tiamat]], [[/Monsters/Ancient red dragon]], [[/Monsters/Arch-lich]], [[/Monsters/Infernal pteranodon]], [[/Monsters/Cerberus]], [[/Monsters/Ixoth]], [[/Monsters/Elder dracolich]], [[/Monsters/Wizard of Yendor]] | 100% |
-| **Poison Resistance** | [[/Monsters/Brown mold]], [[/Monsters/Cave spider]], [[/Monsters/Red mold]], [[/Monsters/Yellow mold]] | 6.7% |
-| | [[/Monsters/Centipede]], [[/Monsters/Homunculus]] | 13.3% |
-| | [[/Monsters/Black naga hatchling]], [[/Monsters/Golden naga hatchling]], [[/Monsters/Gray ooze]], [[/Monsters/Guardian naga hatchling]], [[/Monsters/Jellyfish]], [[/Monsters/Quasit]], [[/Monsters/Red naga hatchling]], [[/Monsters/Shrieker]], [[/Monsters/Soldier ant]], [[/Monsters/Violet fungus]] | 20.0% |
-| | [[/Monsters/Black unicorn]], [[/Monsters/Blue jelly]], [[/Monsters/Chickatrice]], [[/Monsters/Gray unicorn]], [[/Monsters/Snake]], [[/Monsters/Water moccasin]], [[/Monsters/White unicorn]] | 26.7% |
-| | [[/Monsters/Killer bee]] | 30.0% |
-| | [[/Monsters/Brown pudding]], [[/Monsters/Cockatrice]], [[/Monsters/Giant beetle]], [[/Monsters/Giant spider]], [[/Monsters/Gremlin]], [[/Monsters/Quivering blob]] | 33.3% |
-| | [[/Monsters/Cobra]], [[/Monsters/Pit viper]], [[/Monsters/Pyrolisk]], [[/Monsters/Red naga]], [[/Monsters/Tengu]] | 40.0% |
-| | [[/Monsters/Xan]] | 46.7% |
-| | [[/Monsters/Scorpion]] | 50.0% |
-| | [[/Monsters/Black naga]] | 53.3% |
-| | [[/Monsters/Flesh golem]], [[/Monsters/Queen bee]] | 60.0% |
-| | [[/Monsters/Black pudding]], [[/Monsters/Gargantuan beetle]], [[/Monsters/Giant cockatrice]], [[/Monsters/Golden naga]] | 66.7% |
-| | [[/Monsters/Nurse]] | 73.3% |
-| | [[/Monsters/Lernaean hydra]], [[/Monsters/Guardian naga]], [[/Monsters/Phase spider]] | 80.0% |
-| | [[/Monsters/Green dragon]], [[/Monsters/Medusa]], [[/Monsters/Gargantuan cockatrice]], [[/Monsters/Master Kaen]], [[/Monsters/Scorpius]], [[/Monsters/Tiamat]], [[/Monsters/Ancient green dragon]], [[/Monsters/Wizard of Yendor]] | 100% |
-| **Shock Resistance** | [[/Monsters/Brown pudding]] | 33.3% |
-| | [[/Monsters/Gelatinous cube]], [[/Monsters/Shocking sphere]] | 40.0% |
-| | [[/Monsters/Electric eel]] | 46.7% |
-| | [[/Monsters/Flesh golem]] | 60.0% |
-| | [[/Monsters/Black pudding]] | 66.7% |
-| | [[/Monsters/Storm giant]], [[/Monsters/Blue dragon]], [[/Monsters/Mucilaginous cube]], [[/Monsters/Tiamat]], [[/Monsters/Ancient blue dragon]] | 100% |
-| **Sleep Resistance** | [[/Monsters/Homunculus]] | 13.3% |
-| | [[/Monsters/Lemure]] | 20.0% |
-| | [[/Monsters/Woodland-elf]] | 26.7% |
-| | [[/Monsters/Green-elf]] | 33.3% |
-| | [[/Monsters/Grey-elf]], [[/Monsters/Gelatinous cube]] | 40.0% |
-| | [[/Monsters/Elf-lord]], [[/Monsters/Elven bard]] | 53.3% |
-| | [[/Monsters/Elvenking]], [[/Monsters/Flesh golem]] | 60.0% |
-| | [[/Monsters/Elf]] | 66.7% |
-| | [[/Monsters/Orange dragon]], [[/Monsters/Mucilaginous cube]], [[/Monsters/Tiamat]], [[/Monsters/Ancient orange dragon]] | 100% |
+#### Acid Resistance
+
+| Conveying Monsters | Conveyance Chance |
+| :----------------- | :---------------: |
+| [[/Monsters/Yellow dragon]] | 100% |
+| [[/Monsters/Ancient yellow dragon]] | 100% |
+
+#### Cold Resistance
+
+| Conveying Monsters | Conveyance Chance |
+| :----------------- | :---------------: |
+| [[/Monsters/Brown mold]] | 6.7% |
+| [[/Monsters/Gray ooze]] | 20.0% |
+| [[/Monsters/Blue jelly]] | 26.7% |
+| [[/Monsters/Brown pudding]], [[/Monsters/Winter wolf cub]], [[/Monsters/Yeti]] | 33.3% |
+| [[/Monsters/Freezing sphere]], [[/Monsters/Gelatinous cube]] | 40.0% |
+| [[/Monsters/Winter wolf]] | 46.7% |
+| [[/Monsters/Flesh golem]] | 60.0% |
+| [[/Monsters/Black pudding]], [[/Monsters/Frost giant]] | 66.7% |
+| [[/Monsters/Lich]] | 73.3% |
+| [[/Monsters/Demilich]] | 93.3% |
+| [[/Monsters/Ancient white dragon]], [[/Monsters/Arch-lich]], [[/Monsters/Death flayer]], [[/Monsters/Dracolich]], [[/Monsters/Elder dracolich]], [[/Monsters/Ice troll]], [[/Monsters/Master lich]], [[/Monsters/Mucilaginous cube]], [[/Monsters/Tiamat]], [[/Monsters/White dragon]] | 100% |
+
+#### Disintegration Resistance
+
+| Conveying Monsters | Conveyance Chance |
+| :----------------- | :---------------: |
+| [[/Monsters/Ancient black dragon]], [[/Monsters/Bahamut]], [[/Monsters/Black dragon]], [[/Monsters/Jubilex]], [[/Monsters/Tiamat]] | 100% |
+
+#### Fire Resistance
+
+| Conveying Monsters | Conveyance Chance |
+| :----------------- | :---------------: |
+| [[/Monsters/Red mold]] | 6.7% |
+| [[/Monsters/Fire ant]], [[/Monsters/Gray ooze]], [[/Monsters/Red naga hatchling]] | 20.0% |
+| [[/Monsters/Flaming sphere]], [[/Monsters/Gelatinous cube]], [[/Monsters/Pyrolisk]], [[/Monsters/Red naga]] | 40.0% |
+| [[/Monsters/Hell hound pup]] | 46.7% |
+| [[/Monsters/Salamander]] | 53.3% |
+| [[/Monsters/Fire giant]], [[/Monsters/Flesh golem]] | 60.0% |
+| [[/Monsters/Hell hound]], [[/Monsters/Pyrohydra]] | 80.0% |
+| [[/Monsters/Ancient gold dragon]], [[/Monsters/Ancient red dragon]], [[/Monsters/Arch-lich]], [[/Monsters/Cerberus]], [[/Monsters/Death flayer]], [[/Monsters/Dracolich]], [[/Monsters/Elder dracolich]], [[/Monsters/Gold dragon]], [[/Monsters/Infernal pteranodon]], [[/Monsters/Ixoth]], [[/Monsters/Lord Surtur]], [[/Monsters/Master lich]], [[/Monsters/Mucilaginous cube]], [[/Monsters/Phoenix]], [[/Monsters/Red dragon]], [[/Monsters/Tiamat]], [[/Monsters/Wizard of Yendor]] | 100% |
+
+#### Poison Resistance
+
+| Conveying Monsters | Conveyance Chance |
+| :----------------- | :---------------: |
+| [[/Monsters/Brown mold]], [[/Monsters/Cave spider]], [[/Monsters/Red mold]], [[/Monsters/Yellow mold]] | 6.7% |
+| [[/Monsters/Centipede]], [[/Monsters/Homunculus]] | 13.3% |
+| [[/Monsters/Black naga hatchling]], [[/Monsters/Golden naga hatchling]], [[/Monsters/Gray ooze]], [[/Monsters/Guardian naga hatchling]], [[/Monsters/Jellyfish]], [[/Monsters/Quasit]], [[/Monsters/Red naga hatchling]], [[/Monsters/Shrieker]], [[/Monsters/Soldier ant]], [[/Monsters/Violet fungus]] | 20.0% |
+| [[/Monsters/Black unicorn]], [[/Monsters/Blue jelly]], [[/Monsters/Chickatrice]], [[/Monsters/Gray unicorn]], [[/Monsters/Snake]], [[/Monsters/Water moccasin]], [[/Monsters/White unicorn]] | 26.7% |
+| [[/Monsters/Killer bee]] | 30.0% |
+| [[/Monsters/Brown pudding]], [[/Monsters/Cockatrice]], [[/Monsters/Giant beetle]], [[/Monsters/Giant spider]], [[/Monsters/Gremlin]], [[/Monsters/Quivering blob]] | 33.3% |
+| [[/Monsters/Cobra]], [[/Monsters/Pit viper]], [[/Monsters/Pyrolisk]], [[/Monsters/Red naga]], [[/Monsters/Tengu]] | 40.0% |
+| [[/Monsters/Xan]] | 46.7% |
+| [[/Monsters/Scorpion]] | 50.0% |
+| [[/Monsters/Black naga]] | 53.3% |
+| [[/Monsters/Flesh golem]], [[/Monsters/Queen bee]] | 60.0% |
+| [[/Monsters/Black pudding]], [[/Monsters/Gargantuan beetle]], [[/Monsters/Giant cockatrice]], [[/Monsters/Golden naga]] | 66.7% |
+| [[/Monsters/Nurse]] | 73.3% |
+| [[/Monsters/Guardian naga]], [[/Monsters/Lernaean hydra]], [[/Monsters/Phase spider]] | 80.0% |
+| [[/Monsters/Ancient green dragon]], [[/Monsters/Gargantuan cockatrice]], [[/Monsters/Green dragon]], [[/Monsters/Master Kaen]], [[/Monsters/Medusa]], [[/Monsters/Scorpius]], [[/Monsters/Tiamat]], [[/Monsters/Wizard of Yendor]] | 100% |
+
+#### Shock Resistance
+
+| Conveying Monsters | Conveyance Chance |
+| :----------------- | :---------------: |
+| [[/Monsters/Brown pudding]] | 33.3% |
+| [[/Monsters/Gelatinous cube]], [[/Monsters/Shocking sphere]] | 40.0% |
+| [[/Monsters/Electric eel]] | 46.7% |
+| [[/Monsters/Flesh golem]] | 60.0% |
+| [[/Monsters/Black pudding]] | 66.7% |
+| [[/Monsters/Ancient blue dragon]], [[/Monsters/Blue dragon]], [[/Monsters/Mucilaginous cube]], [[/Monsters/Storm giant]], [[/Monsters/Tiamat]] | 100% |
+
+#### Sleep Resistance
+
+| Conveying Monsters | Conveyance Chance |
+| :----------------- | :---------------: |
+| [[/Monsters/Homunculus]] | 13.3% |
+| [[/Monsters/Lemure]] | 20.0% |
+| [[/Monsters/Woodland-elf]] | 26.7% |
+| [[/Monsters/Green-elf]] | 33.3% |
+| [[/Monsters/Gelatinous cube]], [[/Monsters/Grey-elf]] | 40.0% |
+| [[/Monsters/Elf-lord]], [[/Monsters/Elven bard]] | 53.3% |
+| [[/Monsters/Elvenking]], [[/Monsters/Flesh golem]] | 60.0% |
+| [[/Monsters/Elf]] | 66.7% |
+| [[/Monsters/Ancient orange dragon]], [[/Monsters/Mucilaginous cube]], [[/Monsters/Orange dragon]], [[/Monsters/Tiamat]] | 100% |
 
 ### Magical & Utility Intrinsics
 
