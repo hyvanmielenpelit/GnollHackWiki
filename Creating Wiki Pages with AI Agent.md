@@ -18,8 +18,8 @@ Ensure you have the following repositories cloned locally on your computer:
 ## ⚙️ Antigravity Workspace Configuration
 
 1. Open the **[Antigravity App](https://antigravity.google/product/antigravity-2)**.
-2. Ensure that your workspace is configured so that the agent can access all three repository folders (`GnollHackWiki`, `GnollHack`, and `GnollHackTileSet`). This allows the agent to read and search across the entire project ecosystem.
-3. The agent will automatically discover the AI skills in the workspace.
+2. Create a new project and add all three repository folders (`GnollHackWiki`, `GnollHack`, and `GnollHackTileSet`) to it. This allows the agent to read and search across the entire project ecosystem. Name the project "GnollHackWiki".
+3. The agent will automatically discover the AI skills in the included projects.
 
 ## 🧠 Model Selection
 
