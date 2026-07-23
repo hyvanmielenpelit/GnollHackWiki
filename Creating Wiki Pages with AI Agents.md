@@ -20,16 +20,6 @@ Ensure you have the following repositories cloned locally on your computer:
 1. Open the **[Antigravity Standalone App](https://antigravity.google/product/antigravity-2)**.
 2. Create a new project and add all three repository folders (`GnollHackWiki`, `GnollHack`, and `GnollHackTileSet`) to it. This allows the agents to read and search across the entire project ecosystem. Name the project **GnollHackWiki**.
 
-## 🧠 Model Selection
-
-The Antigravity App allows you to select between different models and reasoning levels. The following are the recommended models and their reasoning levels for wiki editing:
-
-- 🏆 **Gemini 3.5 Flash (Medium):** This is the recommended model for easy tasks. It can also convert images to WebP.
-- 🛠️ **Gemini 3.1 Pro (High):** This is the recommended model for moderately difficult tasks. It is also excellent for answering separate questions outside of agentic workflows.
-- 💭 **Claude Opus 4.6 (Thinking):** This is the recommended model for difficult tasks, such as verifying complex information on the wiki against the GnollHack codebase. It excels at advanced reasoning and inspecting vast amounts of code with great accuracy.
-
-> ℹ️ **Note:** Claude Opus 4.6 consumes a large amount of usage quota per task, and therefore you may only be able to use it a few times a week with the *$100 AI Ultra Plan*. If you use it often, you need to purchase additional AI credits or upgrade to the highest-tier plan.
-
 ## Visual Studio Code Keyboard Shortcuts
 
 For additional speed in wiki editing, it is useful to add a few keyboard shortcuts to Visual Studio Code. They will copy your current editing position in Visual Studio Code to the clipboard, which you can then quickly paste to the Antigravity Standalone App.
@@ -107,6 +97,16 @@ Now, let's bind these tasks to the `Ctrl+K, A` and `Ctrl+K, B` key chords.
 3. Place your cursor on the line you want to reference.
 4. Press **`Ctrl+K`**, release, and then press **`A`** or **`B`**.
 5. The formatted string is now copied to your clipboard and ready to be pasted!
+
+## 🧠 Model Selection
+
+The Antigravity App allows you to select between different models and reasoning levels. The following are the recommended models and their reasoning levels for wiki editing:
+
+- 🏆 **Gemini 3.5 Flash (Medium):** This is the recommended model for easy tasks. It can also convert images to WebP.
+- 🛠️ **Gemini 3.1 Pro (High):** This is the recommended model for moderately difficult tasks. It is also excellent for answering separate questions outside of agentic workflows.
+- 💭 **Claude Opus 4.6 (Thinking):** This is the recommended model for difficult tasks, such as verifying complex information on the wiki against the GnollHack codebase. It excels at advanced reasoning and inspecting vast amounts of code with great accuracy.
+
+> ℹ️ **Note:** Claude Opus 4.6 consumes a large amount of usage quota per task, and therefore you may only be able to use it a few times a week with the *$100 AI Ultra Plan*. If you use it often, you need to purchase additional AI credits or upgrade to the highest-tier plan.
 
 ## 🤖 Common AI Tasks
 
