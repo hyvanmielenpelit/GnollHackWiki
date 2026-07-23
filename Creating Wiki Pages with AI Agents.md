@@ -32,19 +32,19 @@ The Antigravity App allows you to select between different models and reasoning 
 
 ## Visual Studio Code Keyboard Shortcuts
 
-For additional speed in wiki editing, it is useful to add a few keyboard shortcuts to Visual Studio Code.
+For additional speed in wiki editing, it is useful to add a few keyboard shortcuts to Visual Studio Code. They will copy your current editing position in Visual Studio Code to the clipboard, which you can then quickly paste to the Antigravity Standalone App.
 
 ### 1. Copy All Current File Info to Clipboard
 
-The first keyboard shortcut copies the **current repository name, relative file path, and line number** in Visual Studio Code to the clipboard, which you can then quickly paste to the Antigravity Standalone App. 
+The first keyboard shortcut copies the **current repository name, relative file path, and line number**. 
 
 > **Example Output:** In the GnollHackWiki repository, in the Items/Long sword.md file at line 5
 
 ### 2. Copy Current Relative File Path to Clipboard
 
-The second keyboard shortcut copies only the **relative path of the current file name** in Visual Studio Code to the clipboard, which you can then quickly paste to the Antigravity Standalone App. 
+The second keyboard shortcut copies only the **relative path of the current file**. 
 
-> **Example Output:** In the Items/Long sword.md file
+> **Example Output:** Items/Long sword.md
 
 ### Step 1: Create the Custom Tasks
 
