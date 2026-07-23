@@ -20,7 +20,7 @@ Ensure you have the following repositories cloned locally on your computer:
 1. Open the **[Antigravity Standalone App](https://antigravity.google/product/antigravity-2)**.
 2. Create a new project and add all three repository folders (`GnollHackWiki`, `GnollHack`, and `GnollHackTileSet`) to it. This allows the agents to read and search across the entire project ecosystem. Name the project **GnollHackWiki**.
 
-## Visual Studio Code Keyboard Shortcuts
+## ⌨️ Visual Studio Code Keyboard Shortcuts
 
 For additional speed in wiki editing, it is useful to add a few keyboard shortcuts to Visual Studio Code. They will copy your current editing position in Visual Studio Code to the clipboard, which you can then quickly paste to the Antigravity Standalone App.
 
@@ -36,7 +36,7 @@ The second keyboard shortcut copies only the **relative path of the current file
 
 > **Example Output:** Items/Long sword.md
 
-### Step 1: Create the Custom Tasks
+### 🛠️ Step 1: Create the Custom Tasks
 
 1. Open the Command Palette in VS Code (`Ctrl+Shift+P`).
 2. Search for and select **`Tasks: Open User Tasks`**.
@@ -69,7 +69,7 @@ The second keyboard shortcut copies only the **relative path of the current file
 }
 ```
 
-### Step 2: Bind the Keyboard Shortcuts
+### ⌨️ Step 2: Bind the Keyboard Shortcuts
 
 Now, let's bind these tasks to the `Ctrl+K, A` and `Ctrl+K, B` key chords.
 
@@ -90,7 +90,7 @@ Now, let's bind these tasks to the `Ctrl+K, A` and `Ctrl+K, B` key chords.
 }
 ```
 
-### Usage
+### 🚀 Usage
 
 1. Open the `GnollHackWiki` repository folder in Visual Studio Code.
 2. Open any Markdown file in the repository for editing.
