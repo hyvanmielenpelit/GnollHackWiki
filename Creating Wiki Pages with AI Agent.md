@@ -4,8 +4,9 @@
 
 > ℹ️ **Note:** You may need a paid **Google One AI subscription** to use the recommended AI agents. You can subscribe via the [Google One AI plan subscription page](https://one.google.com/about/google-ai-plans/).
 >
-> - The recommended AI agents for most tasks are *Gemini 3.5 Flash (Medium)* (easy tasks) and *Gemini 3.1 Pro* (moderately difficult tasks). The recommended plan for light usage is the **$23 Google AI Pro** plan, which is required for Gemini 3.1 Pro.
-> - The recommended AI agent for difficult tasks is *Claude Opus 4.6 (Thinking)*, which requires the **$100 Google AI Ultra** plan. It allows only 2–3 uses per week for hard tasks, but wiki editing does not usually require the use of such a heavy AI agent, so this is usually enough.
+> - The recommended AI model for easy tasks is *Gemini 3.5 Flash (Medium)*.
+> - The recommended AI model for moderately difficult tasks is *Gemini 3.1 Pro (High)*. It requires at least the **$23 Google AI Pro** plan.
+> - The recommended AI model for difficult tasks is *Claude Opus 4.6 (Thinking)*. It requires at least the **$100 Google AI Ultra** plan.
 
 ## 📂 Local Repository Setup
 
@@ -46,7 +47,7 @@ The Antigravity App allows you to select between different models and reasoning 
 
 ### 🔍 Researching and Creating a New Page
 
-- **Recommended Model:** Gemini 3.1 Pro
+- **Recommended Model:** Gemini 3.1 Pro (High)
 
 > 💡 **Example Prompt:** Research the 'Archon' monster in the GnollHack codebase. Create a new wiki page for it under `/Monsters/`, following the wiki conventions. Find its image in the GnollHackTileSet repository, ensure it is in WebP format, and embed it correctly.
 
