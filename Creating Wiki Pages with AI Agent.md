@@ -46,15 +46,14 @@ The Antigravity App allows you to select between different models and reasoning 
 
 ### 🔍 Researching and Creating a New Page
 
-- **Recommended Model:** Gemini 3.5 Flash (Medium) or Gemini 3.1 Pro
+- **Recommended Model:** Gemini 3.1 Pro
 
 > 💡 **Example Prompt:** Research the 'Archon' monster in the GnollHack codebase. Create a new wiki page for it under `/Monsters/`, following the wiki conventions. Find its image in the GnollHackTileSet repository, ensure it is in WebP format, and embed it correctly.
 
 ### ⚖️ Verifying Wiki Information Against Codebase
 
 - **Recommended Models:**
-  - *Gemini 3.5 Flash (Medium):* Easy tasks
-  - *Gemini 3.1 Pro (High):* Moderately difficult tasks
-  - *Claude Opus 4.6 (Thinking):* Hard tasks
+  - *Gemini 3.1 Pro (High):* Simple information
+  - *Claude Opus 4.6 (Thinking):* Complex information
 
 > 💡 **Example Prompt:** Verify the damage stats of the "Vorpal Blade" in "Artifacts.md" against the C source code in the GnollHack repository. If there are any discrepancies, update the wiki page to match the code.
