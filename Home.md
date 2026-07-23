@@ -93,7 +93,7 @@ GnollHack is best understood as a modernized version of NetHack that makes the c
 ## 📝 Wiki Development
 
 - **[[Editing the Wiki]]** — How to edit the GnollHack Wiki
-- **[[Creating Wiki Pages with AI Agent]]** — How to use the Antigravity App and Gemini models to automatically create wiki pages
+- **[[Creating Wiki Pages with AI Agents]]** — You can use the Antigravity Standalone App to create wiki pages with AI agents
 
 ## 💡 Additional Information
 

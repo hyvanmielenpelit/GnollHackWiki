@@ -1,4 +1,4 @@
-![google-antigravity](/uploads/Creating%20Wiki%20Pages%20with%20AI%20Agent/google-antigravity-256.webp)
+![google-antigravity](/uploads/Creating%20Wiki%20Pages%20with%20AI%20Agents/google-antigravity-256.webp)
 
 > 👉 **You can leverage the [Antigravity Standalone App](https://antigravity.google/product/antigravity-2) powered by Gemini and Claude AI models to automatically research, draft, and format wiki pages. By providing the AI agent with access to all related repositories, it can cross-reference code and graphics to create accurate and comprehensive documentation.**
 
