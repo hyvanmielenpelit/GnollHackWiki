@@ -4,7 +4,7 @@
 
 > ℹ️ **Note:** You may need a paid **Google One AI subscription** to use the recommended AI agents. You can subscribe via the [Google One AI plan subscription page](https://one.google.com/about/google-ai-plans/).
 >
-> - The recommended AI agent for most tasks is *Gemini 3.5 Flash (Medium)*. The recommended plan for light usage is the **$23 Google AI Pro** plan.
+> - The recommended AI agents for most tasks are *Gemini 3.5 Flash (Medium)* (easy tasks) and *Gemini 3.1 Pro* (moderately difficult tasks). The recommended plan for light usage is the **$23 Google AI Pro** plan, which is required for Gemini 3.1 Pro.
 > - The recommended AI agent for difficult tasks is *Claude Opus 4.6 (Thinking)*, which requires the **$100 Google AI Ultra** plan. It allows only 2–3 uses per week for hard tasks, but wiki editing does not usually require the use of such a heavy AI agent, so this is usually enough.
 
 ## 📂 Local Repository Setup
@@ -24,11 +24,11 @@ Ensure you have the following repositories cloned locally on your computer:
 
 The Antigravity App allows you to select between different models and reasoning levels. The following are the recommended models and their reasoning levels for wiki editing:
 
-- 🏆 **Gemini 3.5 Flash (Medium):** This is the recommended model for most tasks. It can even convert images to WebP.
-- 🛠️ **Gemini 3.1 Pro (High):** This is the recommended model for synthesizing information and reviewing implementation plans and results. It is also excellent for single questions outside of agentic workflows.
-- 💭 **Claude Opus 4.6 (Thinking):** This is the recommended model for difficult tasks, such as verifying complex information on the wiki against the GnollHack codebase, which requires advanced reasoning and inspecting vast amounts of code.
+- 🏆 **Gemini 3.5 Flash (Medium):** This is the recommended model for easy tasks. It can also convert images to WebP.
+- 🛠️ **Gemini 3.1 Pro (High):** This is the recommended model for moderately difficult tasks. It is also excellent for answering separate questions outside of agentic workflows.
+- 💭 **Claude Opus 4.6 (Thinking):** This is the recommended model for difficult tasks, such as verifying complex information on the wiki against the GnollHack codebase. It excels at advanced reasoning and inspecting vast amounts of code with great accuracy.
 
-> ℹ️ **Note:** Claude Opus 4.6 is available only in the *Google AI Ultra* plan. It consumes a large amount of usage quota per task, and therefore you may only be able to use it a few times a week, unless you purchase additional AI credits or upgrade to the highest-tier plan.
+> ℹ️ **Note:** Claude Opus 4.6 consumes a large amount of usage quota per task, and therefore you may only be able to use it a few times a week with the *$100 AI Ultra Plan*. If you use it often, you need to purchase additional AI credits or upgrade to the highest-tier plan.
 
 ## 🤖 Common AI Tasks
 
@@ -46,7 +46,7 @@ The Antigravity App allows you to select between different models and reasoning 
 
 ### 🔍 Researching and Creating a New Page
 
-- **Recommended Model:** Gemini 3.5 Flash (Medium)
+- **Recommended Model:** Gemini 3.5 Flash (Medium) or Gemini 3.1 Pro
 
 > 💡 **Example Prompt:** Research the 'Archon' monster in the GnollHack codebase. Create a new wiki page for it under `/Monsters/`, following the wiki conventions. Find its image in the GnollHackTileSet repository, ensure it is in WebP format, and embed it correctly.
 
