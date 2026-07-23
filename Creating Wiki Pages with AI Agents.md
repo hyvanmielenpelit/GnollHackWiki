@@ -30,6 +30,84 @@ The Antigravity App allows you to select between different models and reasoning 
 
 > ℹ️ **Note:** Claude Opus 4.6 consumes a large amount of usage quota per task, and therefore you may only be able to use it a few times a week with the *$100 AI Ultra Plan*. If you use it often, you need to purchase additional AI credits or upgrade to the highest-tier plan.
 
+## Visual Studio Code Keyboard Shortcuts
+
+For additional speed in wiki editing, it is useful to add a few keyboard shortcuts to Visual Studio Code.
+
+### 1. Copy All Current File Info to Clipboard
+
+The first keyboard shortcut copies the **current repository name, relative file path, and line number** in Visual Studio Code to the clipboard, which you can then quickly paste to the Antigravity Standalone App. 
+
+> **Example Output:** In the GnollHackWiki repository, in the Items/Long sword.md file at line 5
+
+### 2. Copy Current Relative File Path to Clipboard
+
+The second keyboard shortcut copies only the **relative path of the current file name** in Visual Studio Code to the clipboard, which you can then quickly paste to the Antigravity Standalone App. 
+
+> **Example Output:** In the Items/Long sword.md file
+
+### Step 1: Create the Custom Tasks
+
+1. Open the Command Palette in VS Code (`Ctrl+Shift+P`).
+2. Search for and select **`Tasks: Open User Tasks`**.
+3. Add the following task configuration into the `"tasks"` array of your `tasks.json` file:
+
+```json
+{
+    "label": "Copy Formatted Path and Line",
+    "type": "shell",
+    "command": "Set-Clipboard -Value 'In the ${workspaceFolderBasename} repository, in the ${relativeFile} file at line ${lineNumber}'",
+    "presentation": {
+        "reveal": "never",
+        "panel": "shared",
+        "showReuseMessage": false,
+        "clear": true
+    },
+    "problemMatcher": []
+},
+{
+    "label": "Copy Relative Path",
+    "type": "shell",
+    "command": "Set-Clipboard -Value '${relativeFile}'",
+    "presentation": {
+        "reveal": "never",
+        "panel": "shared",
+        "showReuseMessage": false,
+        "clear": true
+    },
+    "problemMatcher": []
+}
+```
+
+### Step 2: Bind the Keyboard Shortcuts
+
+Now, let's bind these tasks to the `Ctrl+K, A` and `Ctrl+K, B` key chords.
+
+1. Open the Command Palette (`Ctrl+Shift+P`).
+2. Search for and select **`Preferences: Open Keyboard Shortcuts (JSON)`**.
+3. Add the following entry to the JSON array in your `keybindings.json` file:
+
+```json
+{
+    "key": "ctrl+k a",
+    "command": "workbench.action.tasks.runTask",
+    "args": "Copy Formatted Path and Line"
+},
+{
+    "key": "ctrl+k b",
+    "command": "workbench.action.tasks.runTask",
+    "args": "Copy Relative Path"
+}
+```
+
+### Usage
+
+1. Open the `GnollHackWiki` repository folder in Visual Studio Code.
+2. Open any Markdown file in the repository for editing.
+3. Place your cursor on the line you want to reference.
+4. Press **`Ctrl+K`**, release, and then press **`A`** or **`B`**.
+5. The formatted string is now copied to your clipboard and ready to be pasted!
+
 ## 🤖 Common AI Tasks
 
 ### 📝 Checking Grammar and Spelling
