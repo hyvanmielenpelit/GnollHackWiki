@@ -114,19 +114,19 @@ The Antigravity App allows you to select between different models and reasoning 
 
 - **Recommended Model:** Gemini 3.5 Flash (Medium)
 
-> 💡 **Example Prompt:** Check the grammar and spelling in the "Alchemy.md" page and fix any typos. Do not change the overall tone or structure of the document.
+> 💡 **Example Prompt:** In the GnollHackWiki repository, in the Alchemy.md file, check the grammar and spelling and fix any typos. Do not change the overall tone or structure.
 
 ### 📊 Formatting Text and Tables
 
 - **Recommended Model:** Gemini 3.5 Flash (Medium)
 
-> 💡 **Example Prompt:** Format the monster stats list in "Monsters.md" into a Markdown table with columns for Name, Base Level, Health, and Armor Class.
+> 💡 **Example Prompt:** In the GnollHackWiki repository, in the Attribute Scores.md file starting at line 3, format this list into a Markdown table with columns for Attribute, Primary Effect, and Secondary Effects.
 
-### 🔍 Researching and Creating a New Page
+### 🔍 Researching and Updating a Page
 
 - **Recommended Model:** Gemini 3.1 Pro (High)
 
-> 💡 **Example Prompt:** Research the 'Archon' monster in the GnollHack codebase. Create a new wiki page for it under `/Monsters/`, following the wiki conventions. Find its image in the GnollHackTileSet repository, ensure it is in WebP format, and embed it correctly.
+> 💡 **Example Prompt:** In the GnollHackWiki repository, in the Monsters/Archon.md file, research the Archon monster in the GnollHack codebase and update this page.
 
 ### ⚖️ Verifying Wiki Information Against Codebase
 
@@ -134,4 +134,4 @@ The Antigravity App allows you to select between different models and reasoning 
   - *Gemini 3.1 Pro (High):* Simple information
   - *Claude Opus 4.6 (Thinking):* Complex information
 
-> 💡 **Example Prompt:** Verify the damage stats of the "Vorpal Blade" in "Artifacts.md" against the C source code in the GnollHack repository. If there are any discrepancies, update the wiki page to match the code.
+> 💡 **Example Prompt:** In the GnollHackWiki repository, in the Artifacts/Vorpal Blade.md file, verify the stats of the Vorpal Blade against the C source code in the GnollHack repository.
