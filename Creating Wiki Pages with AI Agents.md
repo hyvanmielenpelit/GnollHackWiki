@@ -114,7 +114,7 @@ The Antigravity App allows you to select between different models and reasoning 
 
 - **Recommended Model:** Gemini 3.5 Flash (Medium)
 
-> 💡 **Example Prompt:** In the GnollHackWiki repository, in the Alchemy.md file, check the grammar and spelling and fix any typos. Do not change the overall tone or structure.
+> 💡 **Example Prompt:** In the GnollHackWiki repository, in the Alchemy.md file, check the grammar and spelling and fix any typos.
 
 ### 📊 Formatting Text and Tables
 
@@ -134,4 +134,4 @@ The Antigravity App allows you to select between different models and reasoning 
   - *Gemini 3.1 Pro (High):* Simple information
   - *Claude Opus 4.6 (Thinking):* Complex information
 
-> 💡 **Example Prompt:** In the GnollHackWiki repository, in the Artifacts/Vorpal Blade.md file, verify the stats of the Vorpal Blade against the C source code in the GnollHack repository.
+> 💡 **Example Prompt:** In the GnollHackWiki repository, in the Artifacts/Vorpal Blade.md file, verify the stats against the C source code in the GnollHack repository.
