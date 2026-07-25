@@ -23,6 +23,8 @@ These resistances work similarly for players and monsters with small differences
 Immunity to bisection attacks (namely, [[/Artifacts/The Tsurugi of Muramasa]]).
 
 **Granted by Items:**
+- Adamantium body armor
+- Mithril body armor
 - [[/Artifacts/The Katana of Masamune]]
 - [[/Items/White dragon scale mail]]
 
@@ -58,6 +60,7 @@ Immunity to death attacks.
 - [[/Items/Black dragon scale mail]]
 - [[/Items/Gown of the archbishops]]
 - [[/Items/Ring of protection from undeath]]
+- [[/Items/Staff of life]]
 
 **Granted by Classes:**
 
@@ -70,6 +73,8 @@ Immunity to death attacks.
 Immunity to disintegration attacks.
 
 **Granted by Items:**
+- Adamantium body armor
+- Adamantium shield
 - [[/Items/Black dragon scale mail]]
 - [[/Items/Black dragon scales]]
 - [[/Items/Cloak of integrity]]
@@ -79,7 +84,6 @@ Immunity to disintegration attacks.
 | Monster | Conveyance Chance |
 | :------ | :---------------: |
 | [[/Monsters/Ancient black dragon]] | 100% |
-| [[/Monsters/Bahamut]] | 100% |
 | [[/Monsters/Black dragon]] | 100% |
 | [[/Monsters/Tiamat]] | 100% |
 
@@ -94,9 +98,12 @@ Immunity to level drain attacks.
 - [[/Items/Gown of the archbishops]]
 - [[/Artifacts/Mournblade]]
 - [[/Items/Ring of protection from undeath]]
+- [[/Items/Staff of life]]
+- [[/Items/Staff of withering]]
 - [[/Artifacts/Stormbringer]]
-- [[/Artifacts/Triple-Headed Flail of Yeenaghu]]
-- [[/Artifacts/Wand of Orcus]]
+
+**Granted by Spells:**
+- [[/Spells/Protection from life draining]]
 
 ### 🕶️ Flash Resistance
 
@@ -113,6 +120,7 @@ Immunity to paralysis attacks.
 **Granted by Items:**
 - [[/Items/Orange dragon scale mail]]
 - [[/Items/Ring of free action]]
+- [[/Artifacts/The Gauntlets of Yin and Yang]]
 - [[/Artifacts/The Mace of Saint Cuthbert]]
 
 **Granted by Races:**
@@ -129,6 +137,9 @@ Immunity to acid attacks.
 - [[/Items/Yellow dragon scale mail]]
 - [[/Items/Yellow dragon scales]]
 
+**Granted by Spells:**
+- [[/Spells/Protection from acid]]
+
 ### ❄️ Full Cold Resistance
 
 Immunity to cold attacks, protects equipment.
@@ -136,15 +147,13 @@ Immunity to cold attacks, protects equipment.
 **Granted by Items:**
 - [[/Artifacts/Frost Brand]]
 - [[/Items/Ioun stone of cold resistance]]
+- [[/Items/Potion of cold immunity]]
 - [[/Items/Ring of cold resistance]]
 - [[/Items/White dragon scale mail]]
 - [[/Items/White dragon scales]]
 
-**Granted by Classes:**
-
-| Class | Level |
-| :---- | :---: |
-| [[/Roles/Valkyrie]] | 1 |
+**Granted by Spells:**
+- [[/Spells/Protection from cold]]
 
 ### 🔥 Full Fire Resistance
 
@@ -153,10 +162,14 @@ Immunity to fire attacks, protects equipment.
 **Granted by Items:**
 - [[/Artifacts/Fire Brand]]
 - [[/Items/Ioun stone of fire resistance]]
+- [[/Items/Potion of fire immunity]]
 - [[/Items/Red dragon scale mail]]
 - [[/Items/Red dragon scales]]
 - [[/Items/Ring of fire resistance]]
 - [[/Artifacts/The Mitre of Holiness]]
+
+**Granted by Spells:**
+- [[/Spells/Protection from fire]]
 
 ### 🔮 Full Magic Missile Resistance
 
@@ -174,13 +187,11 @@ Immunity to lightning attacks, protects equipment.
 - [[/Items/Blue dragon scale mail]]
 - [[/Items/Blue dragon scales]]
 - [[/Items/Ioun stone of shock resistance]]
+- [[/Items/Potion of shock immunity]]
 - [[/Items/Ring of shock resistance]]
 
-**Granted by Classes:**
-
-| Class | Level |
-| :---- | :---: |
-| [[/Roles/Valkyrie]] | 15 |
+**Granted by Spells:**
+- [[/Spells/Protection from lightning]]
 
 ### 🌈 Hallucination Resistance
 
@@ -189,6 +200,7 @@ Immunity to hallucination.
 **Granted by Items:**
 - [[/Artifacts/Grayswandir]]
 - [[/Items/Shirt of sound mindedness]]
+- [[/Artifacts/The Emerald Sword]]
 
 ### 🐺 Lycanthropy Resistance
 
@@ -206,6 +218,9 @@ Immunity to lycanthropy.
 | :--- | :---: |
 | [[/Races/Gnoll]] | 1 |
 
+**Granted by Spells:**
+- [[/Spells/Protection from lycanthropy]]
+
 ### 🧠 Mind Shielding
 
 Immunity to telepathic attacks of tentacled ones.
@@ -218,6 +233,7 @@ Immunity to telepathic attacks of tentacled ones.
 Immunity to poison attacks.
 
 **Granted by Items:**
+- [[/Items/Alchemy smock]]
 - [[/Items/Amulet versus poison]]
 - [[/Items/Belt of dwarvenkind]]
 - [[/Items/Green dragon scale mail]]
@@ -434,6 +450,12 @@ Reduces cold damage, chance to protect equipment.
 | [[/Monsters/Winter wolf cub]] | 50% | 33.3% |
 | [[/Monsters/Yeti]] | 50% | 33.3% |
 
+**Granted by Classes:**
+
+| Class | Level | Resistance |
+| :---- | :---: | :--------: |
+| [[/Roles/Valkyrie]] | 1 | 50% |
+
 ### 🔥 50% or 75% Fire Resistance
 
 Reduces fire damage, chance to protect equipment.
@@ -510,6 +532,12 @@ Reduces lightning damage, chance to protect equipment.
 | [[/Monsters/Mucilaginous cube]] | 50% | 100% |
 | [[/Monsters/Storm giant]] | 50% | 100% |
 | [[/Monsters/Tiamat]] | 50% | 100% |
+
+**Granted by Classes:**
+
+| Class | Level | Resistance |
+| :---- | :---: | :--------: |
+| [[/Roles/Valkyrie]] | 15 | 50% |
 
 ## 🔮 3. Magic Resistance
 
