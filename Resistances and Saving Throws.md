@@ -526,11 +526,11 @@ Additionally, unique monsters are shielded from *cancellation spells and effects
 
 You can get Magic Resistance from the following extrinsic items:
 
-- [[/Items/cloak of magic resistance]]
-- [[/Items/gray dragon scale mail]]
-- [[/Items/ioun stone of magic resistance]]
+- [[/Items/Cloak of magic resistance]]
+- [[/Items/Gray dragon scale mail]]
+- [[/Items/Ioun stone of magic resistance]]
 - [[/Artifacts/Magicbane]]
-- [[/Items/robe of magic resistance]]
+- [[/Items/Robe of magic resistance]]
 - [[/Artifacts/Ruby Rod of Asmodeus]]
 - [[/Artifacts/The Ark of the Covenant]]
 - [[/Artifacts/The Eye of the Aethiopica]]
@@ -691,11 +691,11 @@ Reflection gives a complete immunity to ray attacks, such as most wands and drag
 
 You can get Reflection from the following extrinsic items:
 
-- [[/Items/amulet of reflection]]
-- [[/Items/bracers of reflection]]
+- [[/Items/Amulet of reflection]]
+- [[/Items/Bracers of reflection]]
 - [[/Artifacts/Dragonbane]]
-- [[/Items/shield of reflection]]
-- [[/Items/silver dragon scale mail]]
+- [[/Items/Shield of reflection]]
+- [[/Items/Silver dragon scale mail]]
 - [[/Artifacts/The Emerald Sword]]
 - [[/Artifacts/The Magic Mirror of Merlin]]
 
