@@ -19,42 +19,423 @@ These resistances work similarly for players and monsters with small differences
 
 Full resistances completely protect you from the specific elemental or magical attack. Extrinsic properties are granted by equipment, while intrinsic properties can be permanently gained by eating specific monster corpses.
 
-| Resistance | Description | Granted by Items | Granted by Corpses |
-| :--- | :--- | :--- | :--- |
-| **Bisection Resistance** | Immunity to bisection attacks (namely, [[/Artifacts/The Tsurugi of Muramasa]]) | [[/Artifacts/The Katana of Masamune]], [[/Items/white dragon scale mail]] |  None  |
-| **Charm Resistance** | Immunity to nymph stealing and seduction attacks | [[/Items/eyeglasses of awkwardness]] |  None  |
-| **Curse Resistance** | Immunity to cursing of items in the inventory | [[/Artifacts/Demonbane]], [[/Items/gown of the archbishops]], [[/Artifacts/Rhongomyniad]] |  None  |
-| **Death Resistance** | Immunity to death attacks | [[/Items/amulet versus undeath]], [[/Items/black dragon scale mail]], [[/Items/gown of the archbishops]], [[/Items/ring of protection from undeath]] |  None  |
-| **Disintegration Resistance** | Immunity to disintegration attacks | [[/Items/black dragon scale mail]], [[/Items/black dragon scales]], [[/Items/cloak of integrity]] | [[/Monsters/Ancient black dragon]], [[/Monsters/Bahamut]], [[/Monsters/Black dragon]], [[/Monsters/Tiamat]] |
-| **Drain Resistance** | Immunity to level drain attacks | [[/Items/amulet versus undeath]], [[/Items/black dragon scale mail]], [[/Artifacts/Excalibur]], [[/Items/gown of the archbishops]], [[/Artifacts/Mournblade]], [[/Items/ring of protection from undeath]], [[/Artifacts/Stormbringer]], [[/Artifacts/Triple-Headed Flail of Yeenaghu]], [[/Artifacts/Wand of Orcus]] |  None  |
-| **Flash Resistance** | Immunity to blinding attacks | [[/Items/sunglasses]], [[/Artifacts/Sunsword]] |  None  |
-| **Free Action** | Immunity to paralysis attacks | [[/Items/orange dragon scale mail]], [[/Items/ring of free action]], [[/Artifacts/The Mace of Saint Cuthbert]] |  None  |
-| **Full Acid Resistance** | Immunity to acid attacks | [[/Items/yellow dragon scale mail]], [[/Items/yellow dragon scales]] |  None  |
-| **Full Cold Resistance** | Immunity to cold attacks, protects equipment | [[/Artifacts/Frost Brand]], [[/Items/ioun stone of cold resistance]], [[/Items/ring of cold resistance]], [[/Items/white dragon scale mail]], [[/Items/white dragon scales]] |  None  |
-| **Full Fire Resistance** | Immunity to fire attacks, protects equipment | [[/Artifacts/Fire Brand]], [[/Items/ioun stone of fire resistance]], [[/Items/red dragon scale mail]], [[/Items/red dragon scales]], [[/Items/ring of fire resistance]], [[/Artifacts/The Mitre of Holiness]] |  None  |
-| **Full Magic Missile Resistance** | Immunity to magic missiles and striking | [[/Items/bracers against magic missiles]], [[/Artifacts/Rhongomyniad]] |  None  |
-| **Full Shock Resistance** | Immunity to lightning attacks, protects equipment | [[/Items/blue dragon scale mail]], [[/Items/blue dragon scales]], [[/Items/ioun stone of shock resistance]], [[/Items/ring of shock resistance]] |  None  |
-| **Hallucination Resistance** | Immunity to hallucination | [[/Artifacts/Grayswandir]], [[/Items/shirt of sound mindedness]] |  None  |
-| **Lycanthropy Resistance** | Immunity to lycanthropy | None |  None  |
-| **Mind Shielding** | Immunity to telepathic attacks of tentacled ones | [[/Items/tinfoil hat of mind shielding]] |  None  |
-| **Poison Resistance** | Immunity to poison attacks | [[/Items/amulet versus poison]], [[/Items/belt of dwarvenkind]], [[/Items/green dragon scale mail]], [[/Items/green dragon scales]], [[/Items/ring of poison resistance]], [[/Artifacts/The Gladstone]], [[/Artifacts/The Staff of Aesculapius]] | [[/Monsters/Ancient green dragon]], [[/Monsters/Black naga]], [[/Monsters/Black naga hatchling]], [[/Monsters/Black pudding]], [[/Monsters/Black unicorn]], [[/Monsters/Blue jelly]], [[/Monsters/Brown mold]], [[/Monsters/Brown pudding]], [[/Monsters/Cave spider]], [[/Monsters/Centipede]], [[/Monsters/Chickatrice]], [[/Monsters/Cobra]], [[/Monsters/Cockatrice]], [[/Monsters/Flesh golem]], [[/Monsters/Gargantuan beetle]], [[/Monsters/Gargantuan cockatrice]], [[/Monsters/Giant beetle]], [[/Monsters/Giant cockatrice]], [[/Monsters/Giant spider]], [[/Monsters/Golden naga]], [[/Monsters/Golden naga hatchling]], [[/Monsters/Gray ooze]], [[/Monsters/Gray unicorn]], [[/Monsters/Green dragon]], [[/Monsters/Gremlin]], [[/Monsters/Guardian naga]], [[/Monsters/Guardian naga hatchling]], [[/Monsters/Homunculus]], [[/Monsters/Jellyfish]], [[/Monsters/Killer bee]], [[/Monsters/Lernaean hydra]], [[/Monsters/Master Kaen]], [[/Monsters/Medusa]], [[/Monsters/Nurse]], [[/Monsters/Phase spider]], [[/Monsters/Pit viper]], [[/Monsters/Pyrolisk]], [[/Monsters/Quasit]], [[/Monsters/Queen bee]], [[/Monsters/Quivering blob]], [[/Monsters/Red mold]], [[/Monsters/Red naga]], [[/Monsters/Red naga hatchling]], [[/Monsters/Scorpion]], [[/Monsters/Scorpius]], [[/Monsters/Shrieker]], [[/Monsters/Snake]], [[/Monsters/Soldier ant]], [[/Monsters/Tengu]], [[/Monsters/Tiamat]], [[/Monsters/Violet fungus]], [[/Monsters/Water moccasin]], [[/Monsters/White unicorn]], [[/Monsters/Wizard of Yendor]], [[/Monsters/Xan]], [[/Monsters/Yellow mold]] |
-| **Polymorph Resistance** | Immunity to polymorph traps | [[/Items/ring of protection from shape changers]] |  None  |
-| **Sickness Resistance** | Immunity to sickness attacks, including *mummy rot* | [[/Items/beak mask of sickness resistance]], [[/Items/green dragon scale mail]], [[/Artifacts/The Kusanagi]], [[/Artifacts/The Staff of Aesculapius]] |  None  |
-| **Sleep Resistance** | Immunity to sleep attacks | [[/Items/orange dragon scale mail]], [[/Items/orange dragon scales]] | [[/Monsters/Ancient orange dragon]], [[/Monsters/Elf]], [[/Monsters/Elf-lord]], [[/Monsters/Elven bard]], [[/Monsters/Elvenking]], [[/Monsters/Flesh golem]], [[/Monsters/Gelatinous cube]], [[/Monsters/Green-elf]], [[/Monsters/Grey-elf]], [[/Monsters/Homunculus]], [[/Monsters/Mucilaginous cube]], [[/Monsters/Orange dragon]], [[/Monsters/Tiamat]], [[/Monsters/Woodland-elf]] |
-| **Sliming Resistance** | Immunity to sliming attacks (namely, the green slime) | [[/Items/red dragon scale mail]] |  None  |
-| **Stoning Resistance** | Immunity to petrification attacks | [[/Items/amulet versus petrification]], [[/Items/yellow dragon scale mail]] |  None  |
+
+### Bisection Resistance
+Immunity to bisection attacks (namely, [[/Artifacts/The Tsurugi of Muramasa]])
+
+**Granted by Items:**
+- [[/Artifacts/The Katana of Masamune]]
+- [[/Items/White dragon scale mail]]
+
+**Granted by Corpses:**
+- None
+
+### Charm Resistance
+Immunity to nymph stealing and seduction attacks
+
+**Granted by Items:**
+- [[/Items/Eyeglasses of awkwardness]]
+
+**Granted by Corpses:**
+- None
+
+### Curse Resistance
+Immunity to cursing of items in the inventory
+
+**Granted by Items:**
+- [[/Artifacts/Demonbane]]
+- [[/Items/Gown of the archbishops]]
+- [[/Artifacts/Rhongomyniad]]
+
+**Granted by Corpses:**
+- None
+
+### Death Resistance
+Immunity to death attacks
+
+**Granted by Items:**
+- [[/Items/Amulet versus undeath]]
+- [[/Items/Black dragon scale mail]]
+- [[/Items/Gown of the archbishops]]
+- [[/Items/Ring of protection from undeath]]
+
+**Granted by Corpses:**
+- None
+
+### Disintegration Resistance
+Immunity to disintegration attacks
+
+**Granted by Items:**
+- [[/Items/Black dragon scale mail]]
+- [[/Items/Black dragon scales]]
+- [[/Items/Cloak of integrity]]
+
+**Granted by Corpses:**
+- [[/Monsters/Ancient black dragon]]
+- [[/Monsters/Bahamut]]
+- [[/Monsters/Black dragon]]
+- [[/Monsters/Tiamat]]
+
+### Drain Resistance
+Immunity to level drain attacks
+
+**Granted by Items:**
+- [[/Items/Amulet versus undeath]]
+- [[/Items/Black dragon scale mail]]
+- [[/Artifacts/Excalibur]]
+- [[/Items/Gown of the archbishops]]
+- [[/Artifacts/Mournblade]]
+- [[/Items/Ring of protection from undeath]]
+- [[/Artifacts/Stormbringer]]
+- [[/Artifacts/Triple-Headed Flail of Yeenaghu]]
+- [[/Artifacts/Wand of Orcus]]
+
+**Granted by Corpses:**
+- None
+
+### Flash Resistance
+Immunity to blinding attacks
+
+**Granted by Items:**
+- [[/Items/Sunglasses]]
+- [[/Artifacts/Sunsword]]
+
+**Granted by Corpses:**
+- None
+
+### Free Action
+Immunity to paralysis attacks
+
+**Granted by Items:**
+- [[/Items/Orange dragon scale mail]]
+- [[/Items/Ring of free action]]
+- [[/Artifacts/The Mace of Saint Cuthbert]]
+
+**Granted by Corpses:**
+- None
+
+### Full Acid Resistance
+Immunity to acid attacks
+
+**Granted by Items:**
+- [[/Items/Yellow dragon scale mail]]
+- [[/Items/Yellow dragon scales]]
+
+**Granted by Corpses:**
+- None
+
+### Full Cold Resistance
+Immunity to cold attacks, protects equipment
+
+**Granted by Items:**
+- [[/Artifacts/Frost Brand]]
+- [[/Items/Ioun stone of cold resistance]]
+- [[/Items/Ring of cold resistance]]
+- [[/Items/White dragon scale mail]]
+- [[/Items/White dragon scales]]
+
+**Granted by Corpses:**
+- None
+
+### Full Fire Resistance
+Immunity to fire attacks, protects equipment
+
+**Granted by Items:**
+- [[/Artifacts/Fire Brand]]
+- [[/Items/Ioun stone of fire resistance]]
+- [[/Items/Red dragon scale mail]]
+- [[/Items/Red dragon scales]]
+- [[/Items/Ring of fire resistance]]
+- [[/Artifacts/The Mitre of Holiness]]
+
+**Granted by Corpses:**
+- None
+
+### Full Magic Missile Resistance
+Immunity to magic missiles and striking
+
+**Granted by Items:**
+- [[/Items/Bracers against magic missiles]]
+- [[/Artifacts/Rhongomyniad]]
+
+**Granted by Corpses:**
+- None
+
+### Full Shock Resistance
+Immunity to lightning attacks, protects equipment
+
+**Granted by Items:**
+- [[/Items/Blue dragon scale mail]]
+- [[/Items/Blue dragon scales]]
+- [[/Items/Ioun stone of shock resistance]]
+- [[/Items/Ring of shock resistance]]
+
+**Granted by Corpses:**
+- None
+
+### Hallucination Resistance
+Immunity to hallucination
+
+**Granted by Items:**
+- [[/Artifacts/Grayswandir]]
+- [[/Items/Shirt of sound mindedness]]
+
+**Granted by Corpses:**
+- None
+
+### Lycanthropy Resistance
+Immunity to lycanthropy
+
+**Granted by Items:**
+- None
+
+**Granted by Corpses:**
+- None
+
+### Mind Shielding
+Immunity to telepathic attacks of tentacled ones
+
+**Granted by Items:**
+- [[/Items/Tinfoil hat of mind shielding]]
+
+**Granted by Corpses:**
+- None
+
+### Poison Resistance
+Immunity to poison attacks
+
+**Granted by Items:**
+- [[/Items/Amulet versus poison]]
+- [[/Items/Belt of dwarvenkind]]
+- [[/Items/Green dragon scale mail]]
+- [[/Items/Green dragon scales]]
+- [[/Items/Ring of poison resistance]]
+- [[/Artifacts/The Gladstone]]
+- [[/Artifacts/The Staff of Aesculapius]]
+
+**Granted by Corpses:**
+- [[/Monsters/Ancient green dragon]]
+- [[/Monsters/Black naga]]
+- [[/Monsters/Black naga hatchling]]
+- [[/Monsters/Black pudding]]
+- [[/Monsters/Black unicorn]]
+- [[/Monsters/Blue jelly]]
+- [[/Monsters/Brown mold]]
+- [[/Monsters/Brown pudding]]
+- [[/Monsters/Cave spider]]
+- [[/Monsters/Centipede]]
+- [[/Monsters/Chickatrice]]
+- [[/Monsters/Cobra]]
+- [[/Monsters/Cockatrice]]
+- [[/Monsters/Flesh golem]]
+- [[/Monsters/Gargantuan beetle]]
+- [[/Monsters/Gargantuan cockatrice]]
+- [[/Monsters/Giant beetle]]
+- [[/Monsters/Giant cockatrice]]
+- [[/Monsters/Giant spider]]
+- [[/Monsters/Golden naga]]
+- [[/Monsters/Golden naga hatchling]]
+- [[/Monsters/Gray ooze]]
+- [[/Monsters/Gray unicorn]]
+- [[/Monsters/Green dragon]]
+- [[/Monsters/Gremlin]]
+- [[/Monsters/Guardian naga]]
+- [[/Monsters/Guardian naga hatchling]]
+- [[/Monsters/Homunculus]]
+- [[/Monsters/Jellyfish]]
+- [[/Monsters/Killer bee]]
+- [[/Monsters/Lernaean hydra]]
+- [[/Monsters/Master Kaen]]
+- [[/Monsters/Medusa]]
+- [[/Monsters/Nurse]]
+- [[/Monsters/Phase spider]]
+- [[/Monsters/Pit viper]]
+- [[/Monsters/Pyrolisk]]
+- [[/Monsters/Quasit]]
+- [[/Monsters/Queen bee]]
+- [[/Monsters/Quivering blob]]
+- [[/Monsters/Red mold]]
+- [[/Monsters/Red naga]]
+- [[/Monsters/Red naga hatchling]]
+- [[/Monsters/Scorpion]]
+- [[/Monsters/Scorpius]]
+- [[/Monsters/Shrieker]]
+- [[/Monsters/Snake]]
+- [[/Monsters/Soldier ant]]
+- [[/Monsters/Tengu]]
+- [[/Monsters/Tiamat]]
+- [[/Monsters/Violet fungus]]
+- [[/Monsters/Water moccasin]]
+- [[/Monsters/White unicorn]]
+- [[/Monsters/Wizard of Yendor]]
+- [[/Monsters/Xan]]
+- [[/Monsters/Yellow mold]]
+
+### Polymorph Resistance
+Immunity to polymorph traps
+
+**Granted by Items:**
+- [[/Items/Ring of protection from shape changers]]
+
+**Granted by Corpses:**
+- None
+
+### Sickness Resistance
+Immunity to sickness attacks, including *mummy rot*
+
+**Granted by Items:**
+- [[/Items/Beak mask of sickness resistance]]
+- [[/Items/Green dragon scale mail]]
+- [[/Artifacts/The Kusanagi]]
+- [[/Artifacts/The Staff of Aesculapius]]
+
+**Granted by Corpses:**
+- None
+
+### Sleep Resistance
+Immunity to sleep attacks
+
+**Granted by Items:**
+- [[/Items/Orange dragon scale mail]]
+- [[/Items/Orange dragon scales]]
+
+**Granted by Corpses:**
+- [[/Monsters/Ancient orange dragon]]
+- [[/Monsters/Elf]]
+- [[/Monsters/Elf-lord]]
+- [[/Monsters/Elven bard]]
+- [[/Monsters/Elvenking]]
+- [[/Monsters/Flesh golem]]
+- [[/Monsters/Gelatinous cube]]
+- [[/Monsters/Green-elf]]
+- [[/Monsters/Grey-elf]]
+- [[/Monsters/Homunculus]]
+- [[/Monsters/Mucilaginous cube]]
+- [[/Monsters/Orange dragon]]
+- [[/Monsters/Tiamat]]
+- [[/Monsters/Woodland-elf]]
+
+### Sliming Resistance
+Immunity to sliming attacks (namely, the green slime)
+
+**Granted by Items:**
+- [[/Items/Red dragon scale mail]]
+
+**Granted by Corpses:**
+- None
+
+### Stoning Resistance
+Immunity to petrification attacks
+
+**Granted by Items:**
+- [[/Items/Amulet versus petrification]]
+- [[/Items/Yellow dragon scale mail]]
+
+**Granted by Corpses:**
+- None
 
 ## 🛡️ 2. Partial Resistances
 
 Partial resistances reduce the elemental damage you take by a percentage and offer a chance to protect your equipment.
 
-| Resistance | Description | Granted by Items | Granted by Corpses |
-| :--- | :--- | :--- | :--- |
-| **50% or 75% Acid Resistance** | Reduces acid damage | [[/Items/alchemy smock]] (75%) | [[/Monsters/Ancient yellow dragon]], [[/Monsters/Yellow dragon]] (all 50%) |
-| **50% or 75% Cold Resistance** | Reduces cold damage, chance to protect equipment | [[/Items/silver dragon scale mail]] (50%), [[/Items/silver dragon scales]] (50%), [[/Items/staff of frost]] (75%) | [[/Monsters/Ancient white dragon]], [[/Monsters/Black pudding]], [[/Monsters/Blue jelly]], [[/Monsters/Brown mold]], [[/Monsters/Brown pudding]], [[/Monsters/Flesh golem]], [[/Monsters/Frost giant]], [[/Monsters/Gelatinous cube]], [[/Monsters/Gray ooze]], [[/Monsters/Ice troll]], [[/Monsters/Mucilaginous cube]], [[/Monsters/Tiamat]], [[/Monsters/White dragon]], [[/Monsters/Winter wolf]], [[/Monsters/Winter wolf cub]], [[/Monsters/Yeti]] (all 50%) |
-| **50% or 75% Fire Resistance** | Reduces fire damage, chance to protect equipment | [[/Items/staff of fire]] (75%) | [[/Monsters/Ancient gold dragon]], [[/Monsters/Ancient red dragon]], [[/Monsters/Cerberus]], [[/Monsters/Fire ant]], [[/Monsters/Fire giant]], [[/Monsters/Flesh golem]], [[/Monsters/Gelatinous cube]], [[/Monsters/Gold dragon]], [[/Monsters/Gray ooze]], [[/Monsters/Hell hound]], [[/Monsters/Hell hound pup]], [[/Monsters/Infernal pteranodon]], [[/Monsters/Ixoth]], [[/Monsters/Lord Surtur]], [[/Monsters/Mucilaginous cube]], [[/Monsters/Phoenix]], [[/Monsters/Pyrohydra]], [[/Monsters/Pyrolisk]], [[/Monsters/Red dragon]], [[/Monsters/Red mold]], [[/Monsters/Red naga]], [[/Monsters/Red naga hatchling]], [[/Monsters/Salamander]], [[/Monsters/Tiamat]], [[/Monsters/Wizard of Yendor]] (all 50%) |
-| **50% or 75% Magic Missile Resistance** | Reduces magic missile and striking damage | [[/Items/brooch of shielding]] (75%), [[/Items/gray dragon scale mail]] (50%), [[/Items/gray dragon scales]] (50%) |  None  |
-| **50% or 75% Shock Resistance** | Reduces lightning damage, chance to protect equipment | [[/Items/staff of thunder and lightning]] (75%) | [[/Monsters/Ancient blue dragon]], [[/Monsters/Black pudding]], [[/Monsters/Blue dragon]], [[/Monsters/Brown pudding]], [[/Monsters/Electric eel]], [[/Monsters/Flesh golem]], [[/Monsters/Gelatinous cube]], [[/Monsters/Mucilaginous cube]], [[/Monsters/Storm giant]], [[/Monsters/Tiamat]] (all 50%) |
+
+### 50% or 75% Acid Resistance
+Reduces acid damage
+
+**Granted by Items:**
+- [[/Items/Alchemy smock]] (75%)
+
+**Granted by Corpses:** (All 50%)
+- [[/Monsters/Ancient yellow dragon]]
+- [[/Monsters/Yellow dragon]]
+
+### 50% or 75% Cold Resistance
+Reduces cold damage, chance to protect equipment
+
+**Granted by Items:**
+- [[/Items/Silver dragon scale mail]] (50%)
+- [[/Items/Silver dragon scales]] (50%)
+- [[/Items/Staff of frost]] (75%)
+
+**Granted by Corpses:** (All 50%)
+- [[/Monsters/Ancient white dragon]]
+- [[/Monsters/Black pudding]]
+- [[/Monsters/Blue jelly]]
+- [[/Monsters/Brown mold]]
+- [[/Monsters/Brown pudding]]
+- [[/Monsters/Flesh golem]]
+- [[/Monsters/Frost giant]]
+- [[/Monsters/Gelatinous cube]]
+- [[/Monsters/Gray ooze]]
+- [[/Monsters/Ice troll]]
+- [[/Monsters/Mucilaginous cube]]
+- [[/Monsters/Tiamat]]
+- [[/Monsters/White dragon]]
+- [[/Monsters/Winter wolf]]
+- [[/Monsters/Winter wolf cub]]
+- [[/Monsters/Yeti]]
+
+### 50% or 75% Fire Resistance
+Reduces fire damage, chance to protect equipment
+
+**Granted by Items:**
+- [[/Items/Staff of fire]] (75%)
+
+**Granted by Corpses:** (All 50%)
+- [[/Monsters/Ancient gold dragon]]
+- [[/Monsters/Ancient red dragon]]
+- [[/Monsters/Cerberus]]
+- [[/Monsters/Fire ant]]
+- [[/Monsters/Fire giant]]
+- [[/Monsters/Flesh golem]]
+- [[/Monsters/Gelatinous cube]]
+- [[/Monsters/Gold dragon]]
+- [[/Monsters/Gray ooze]]
+- [[/Monsters/Hell hound]]
+- [[/Monsters/Hell hound pup]]
+- [[/Monsters/Infernal pteranodon]]
+- [[/Monsters/Ixoth]]
+- [[/Monsters/Lord Surtur]]
+- [[/Monsters/Mucilaginous cube]]
+- [[/Monsters/Phoenix]]
+- [[/Monsters/Pyrohydra]]
+- [[/Monsters/Pyrolisk]]
+- [[/Monsters/Red dragon]]
+- [[/Monsters/Red mold]]
+- [[/Monsters/Red naga]]
+- [[/Monsters/Red naga hatchling]]
+- [[/Monsters/Salamander]]
+- [[/Monsters/Tiamat]]
+- [[/Monsters/Wizard of Yendor]]
+
+### 50% or 75% Magic Missile Resistance
+Reduces magic missile and striking damage
+
+**Granted by Items:**
+- [[/Items/Brooch of shielding]] (75%)
+- [[/Items/Gray dragon scale mail]] (50%)
+- [[/Items/Gray dragon scales]] (50%)
+
+**Granted by Corpses:**
+- None
+
+### 50% or 75% Shock Resistance
+Reduces lightning damage, chance to protect equipment
+
+**Granted by Items:**
+- [[/Items/Staff of thunder and lightning]] (75%)
+
+**Granted by Corpses:** (All 50%)
+- [[/Monsters/Ancient blue dragon]]
+- [[/Monsters/Black pudding]]
+- [[/Monsters/Blue dragon]]
+- [[/Monsters/Brown pudding]]
+- [[/Monsters/Electric eel]]
+- [[/Monsters/Flesh golem]]
+- [[/Monsters/Gelatinous cube]]
+- [[/Monsters/Mucilaginous cube]]
+- [[/Monsters/Storm giant]]
+- [[/Monsters/Tiamat]]
 
 ## 🔮 3. Magic Resistance
 
