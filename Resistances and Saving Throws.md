@@ -4,7 +4,7 @@
 
 ## 📖 Overview
 
-GnollHack has seven kinds of resistances to magical attacks:
+GnollHack has nine kinds of resistances to magical attacks:
 
 1. Full Resistances
 2. Partial Resistances
@@ -12,7 +12,9 @@ GnollHack has seven kinds of resistances to magical attacks:
 4. Magic Cancellation
 5. Wisdom-Based Saving Throw
 6. Constitution-Based Saving Throw
-7. Reflection
+7. Dexterity-Based Saving Throw
+8. Charisma-Based Saving Throw
+9. Reflection
 
 These resistances work similarly for players and monsters with small differences.
 
@@ -672,11 +674,23 @@ Magic Cancellation protects you from *magical or semi-magical touch attacks*. Yo
 - Sliming touch attacks
 - Slow touch attacks
 - Stat drain touch attacks (strength, dexterity, and constitution)
+- Steal gold touch attacks
 - Stoning (petrification) touch attacks
 - Stun touch attacks
 - Teleportation touch attacks
 - Terminal illness attacks
 - Wound legs touch attacks
+
+### ⚠️ Attacks that Bypass Magic Cancellation
+
+The following touch attacks bypass Magic Cancellation completely:
+- Mimic grabbing and sticking
+- Snake and eel wrapping and drowning
+- Armor-damaging attacks (rust, corrode, decay)
+- Acid attacks from spotted jellies
+- Item cursing from gremlins
+- Attacks from the Riders (Death, Pestilence, Famine)
+- Healing touches from nurses
 
 ### 🎲 Magic Cancellation Chance
 
@@ -717,7 +731,15 @@ Monster attacks can incur a bonus or penalty to MC depending on the monster diff
 
 ### ✨ Magic Cancellation from Enchantments
 
-When you enchant an armor, you get +1 MC for every +3 enchantment. Therefore, it is very useful to enchant armor to at least +3. The same rule applies to divine protection that you can buy from a priest NPC by making a major contribution to the temple. Additionally, some special accessories, such as a [[/Items/brooch of shielding]] or an [[/Items/ioun stone of protection]], grant bonuses to Magic Cancellation.
+When you enchant an armor, you get +1 MC for every +3 enchantment. Therefore, it is very useful to enchant armor to at least +3. The same rule applies to divine protection that you can buy from a priest NPC by making a major contribution to the temple.
+
+Other sources of Magic Cancellation include:
+- **Armor Quality**: Exceptional, Elite, Celestial, Primordial, and Infernal armor modifiers grant an MC bonus equal to their AC bonus (e.g., Elite grants +2 MC).
+- **Rings**: The [[/Items/ring of protection]] and [[/Items/ring of supreme power]] grant an MC bonus.
+- **Materials**: Armor made of `dragonhide` grants +1 MC.
+- **Classes**: Monks receive an innate role-based MC bonus.
+- **Spells**: The [[/Spells/Stoneskin]], [[/Spells/Barkskin]], [[/Spells/Shield]], and [[/Spells/Protection]] spells grant direct MC bonuses.
+- **Accessories**: Some special accessories, such as a [[/Items/brooch of shielding]] or an [[/Items/ioun stone of protection]], grant bonuses to Magic Cancellation.
 
 ### 🧠 Intelligence Drain Attacks
 
@@ -735,19 +757,37 @@ Thus, a monster with Wisdom 10 has a 20% chance of resisting and a monster with 
 
 Spells cast with the Skilled or higher spell school skill incur a -15% penalty to the wisdom-based saving throw per skill level above Basic. A spell cast at an Unskilled skill level incurs a +15% bonus to the wisdom-based saving throw.
 
+Similarly, the **Wand skill** applies penalties to the target's saving throw when using wands: Basic grants a -10% penalty, Skilled grants a -20% penalty, and Expert grants a -30% penalty.
+
+Furthermore, a target with lowered Magic Resistance suffers severe penalties to all ability-based saving throws (-20% for 3/4 MR, -40% for 1/2 MR, -60% for 1/4 MR, and -100% for 0 MR). When monsters cast spells or use wands, their rank simulates high skill levels. Lord-tier monsters cast at Expert level, and Prince-tier monsters cast at Grand Master level (giving up to a -60% penalty to the player's ability saving throw).
+
 Blessed items with mind-affecting effects, such as a blessed [[/Items/scroll of taming]] or a blessed [[/Items/wand of sleep]], incur a -25% penalty to the wisdom-based saving throw. Similarly, cursed items with mind-affecting effects – if there is no separate cursed effect – such as is the case with a cursed [[/Items/wand of sleep]], incur a +25% bonus to the wisdom-based saving throw.
 
 ## 🔋 6. Constitution-Based Saving Throw
 
-Some spells, such as Power Words, and some potion effects, such as sickness and poison, check against the constitution of the target. The chance of resisting is:
+Some spells, such as Power Words and [[/Spells/Holy Word]], and some potion effects, such as sickness and poison, check against the constitution of the target. The chance of resisting is:
 
 `-30% + 5% x Constitution`
 
 Thus, a monster with Constitution 10 has a 20% chance of resisting and a monster with Constitution 20 has a 70% chance of resisting such a spell or effect.
 
+*(Note: The Holy Word spell checks against the Constitution of the target to determine if it takes damage, just like other constitution-based saving throws).*
+
 Spells cast with the Skilled or higher spell school skill incur a -15% penalty to the constitution-based saving throw per skill level above Basic. A spell cast at an Unskilled skill level incurs a +15% bonus to the constitution-based saving throw.
 
-## 🪞 7. Reflection
+## 🤸 7. Dexterity-Based Saving Throw
+
+The `Flesh to Stone` spell checks against the dexterity of the target to see if they can dodge the petrification effect. The chance of resisting uses the same formula:
+
+`-30% + 5% x Dexterity`
+
+## 🗣️ 8. Charisma-Based Saving Throw
+
+The `Silence` spell checks against the charisma of the target to see if they can resist the effect. The chance of resisting uses the same formula:
+
+`-30% + 5% x Charisma`
+
+## 🪞 9. Reflection
 
 Reflection gives a complete immunity to ray attacks, such as most wands and dragon breath. The rays reflect back to the caster.
 
@@ -766,18 +806,10 @@ Reflection gives a complete immunity to ray attacks, such as most wands and drag
 **Granted by Spells:**
 - [[/Spells/Reflection]]
 
-**Granted by Monster Forms:**
-- [[/Monsters/Ancient gold dragon]]
-- [[/Monsters/Ancient silver dragon]]
-- [[/Monsters/Elder dracolich]]
-- [[/Monsters/Elder gazer]]
-- [[/Monsters/Elder treant]]
-- [[/Monsters/Gold dragon]]
-- [[/Monsters/Silver dragon]]
-- [[/Monsters/Silver golem]]
-
 ## 💡 Advice on Getting Resistances
 
 Generally, *magic resistance* and *reflection* are considered most important to get for a player. However, *poison resistance*, *sleep resistance*, *free action*, and *death resistance* are generally very important as well, because they can shield you from some insta-death attacks and situations. Additionally, *drain resistance* is important against some level-draining undead.
+
+It is also important to note that **polymorphing into a monster inherently grants you many of its resistances**, making it a powerful way to temporarily gain immunities you lack from items.
 
 Full elemental resistances are also useful against some item-destruction effects (such as shocking spheres) but are generally not considered as must-haves.
