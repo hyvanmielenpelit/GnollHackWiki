@@ -781,13 +781,13 @@ Spells cast with the Skilled or higher spell school skill incur a -15% penalty t
 
 ## 🤸 7. Dexterity-Based Saving Throw
 
-The `Flesh to Stone` spell checks against the dexterity of the target to see if they can dodge the petrification effect. The chance of resisting uses the same formula:
+The [[/Spells/Flesh to Stone]] spell checks against the dexterity of the target to see if they can dodge the petrification effect. The chance of resisting uses the same formula:
 
 `-30% + 5% x Dexterity`
 
 ## 🗣️ 8. Charisma-Based Saving Throw
 
-The `Silence` spell checks against the charisma of the target to see if they can resist the effect. The chance of resisting uses the same formula:
+The [[/Spells/Silence]] spell checks against the charisma of the target to see if they can resist the effect. The chance of resisting uses the same formula:
 
 `-30% + 5% x Charisma`
 
