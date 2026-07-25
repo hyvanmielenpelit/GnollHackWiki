@@ -20,8 +20,9 @@ These resistances work similarly for players and monsters with small differences
 Full resistances completely protect you from the specific elemental or magical attack. Extrinsic properties are granted by equipment, while intrinsic properties can be permanently gained by eating specific monster corpses.
 
 
-### Bisection Resistance
-Immunity to bisection attacks (namely, [[/Artifacts/The Tsurugi of Muramasa]])
+### ⚔️ Bisection Resistance
+
+Immunity to bisection attacks (namely, [[/Artifacts/The Tsurugi of Muramasa]]).
 
 **Granted by Items:**
 - [[/Artifacts/The Katana of Masamune]]
@@ -30,8 +31,9 @@ Immunity to bisection attacks (namely, [[/Artifacts/The Tsurugi of Muramasa]])
 **Granted by Corpses:**
 - None
 
-### Charm Resistance
-Immunity to nymph stealing and seduction attacks
+### 💖 Charm Resistance
+
+Immunity to nymph stealing and seduction attacks.
 
 **Granted by Items:**
 - [[/Items/Eyeglasses of awkwardness]]
@@ -39,8 +41,9 @@ Immunity to nymph stealing and seduction attacks
 **Granted by Corpses:**
 - None
 
-### Curse Resistance
-Immunity to cursing of items in the inventory
+### 🖤 Curse Resistance
+
+Immunity to cursing of items in the inventory.
 
 **Granted by Items:**
 - [[/Artifacts/Demonbane]]
@@ -50,8 +53,9 @@ Immunity to cursing of items in the inventory
 **Granted by Corpses:**
 - None
 
-### Death Resistance
-Immunity to death attacks
+### 💀 Death Resistance
+
+Immunity to death attacks.
 
 **Granted by Items:**
 - [[/Items/Amulet versus undeath]]
@@ -62,8 +66,9 @@ Immunity to death attacks
 **Granted by Corpses:**
 - None
 
-### Disintegration Resistance
-Immunity to disintegration attacks
+### 💥 Disintegration Resistance
+
+Immunity to disintegration attacks.
 
 **Granted by Items:**
 - [[/Items/Black dragon scale mail]]
@@ -76,8 +81,9 @@ Immunity to disintegration attacks
 - [[/Monsters/Black dragon]]
 - [[/Monsters/Tiamat]]
 
-### Drain Resistance
-Immunity to level drain attacks
+### 📉 Drain Resistance
+
+Immunity to level drain attacks.
 
 **Granted by Items:**
 - [[/Items/Amulet versus undeath]]
@@ -93,8 +99,9 @@ Immunity to level drain attacks
 **Granted by Corpses:**
 - None
 
-### Flash Resistance
-Immunity to blinding attacks
+### 🕶️ Flash Resistance
+
+Immunity to blinding attacks.
 
 **Granted by Items:**
 - [[/Items/Sunglasses]]
@@ -103,8 +110,9 @@ Immunity to blinding attacks
 **Granted by Corpses:**
 - None
 
-### Free Action
-Immunity to paralysis attacks
+### 🏃 Free Action
+
+Immunity to paralysis attacks.
 
 **Granted by Items:**
 - [[/Items/Orange dragon scale mail]]
@@ -114,8 +122,9 @@ Immunity to paralysis attacks
 **Granted by Corpses:**
 - None
 
-### Full Acid Resistance
-Immunity to acid attacks
+### 🧪 Full Acid Resistance
+
+Immunity to acid attacks.
 
 **Granted by Items:**
 - [[/Items/Yellow dragon scale mail]]
@@ -124,8 +133,9 @@ Immunity to acid attacks
 **Granted by Corpses:**
 - None
 
-### Full Cold Resistance
-Immunity to cold attacks, protects equipment
+### ❄️ Full Cold Resistance
+
+Immunity to cold attacks, protects equipment.
 
 **Granted by Items:**
 - [[/Artifacts/Frost Brand]]
@@ -137,8 +147,9 @@ Immunity to cold attacks, protects equipment
 **Granted by Corpses:**
 - None
 
-### Full Fire Resistance
-Immunity to fire attacks, protects equipment
+### 🔥 Full Fire Resistance
+
+Immunity to fire attacks, protects equipment.
 
 **Granted by Items:**
 - [[/Artifacts/Fire Brand]]
@@ -151,8 +162,9 @@ Immunity to fire attacks, protects equipment
 **Granted by Corpses:**
 - None
 
-### Full Magic Missile Resistance
-Immunity to magic missiles and striking
+### 🔮 Full Magic Missile Resistance
+
+Immunity to magic missiles and striking.
 
 **Granted by Items:**
 - [[/Items/Bracers against magic missiles]]
@@ -161,8 +173,9 @@ Immunity to magic missiles and striking
 **Granted by Corpses:**
 - None
 
-### Full Shock Resistance
-Immunity to lightning attacks, protects equipment
+### ⚡ Full Shock Resistance
+
+Immunity to lightning attacks, protects equipment.
 
 **Granted by Items:**
 - [[/Items/Blue dragon scale mail]]
@@ -173,8 +186,9 @@ Immunity to lightning attacks, protects equipment
 **Granted by Corpses:**
 - None
 
-### Hallucination Resistance
-Immunity to hallucination
+### 🌈 Hallucination Resistance
+
+Immunity to hallucination.
 
 **Granted by Items:**
 - [[/Artifacts/Grayswandir]]
@@ -183,8 +197,9 @@ Immunity to hallucination
 **Granted by Corpses:**
 - None
 
-### Lycanthropy Resistance
-Immunity to lycanthropy
+### 🐺 Lycanthropy Resistance
+
+Immunity to lycanthropy.
 
 **Granted by Items:**
 - None
@@ -192,8 +207,9 @@ Immunity to lycanthropy
 **Granted by Corpses:**
 - None
 
-### Mind Shielding
-Immunity to telepathic attacks of tentacled ones
+### 🧠 Mind Shielding
+
+Immunity to telepathic attacks of tentacled ones.
 
 **Granted by Items:**
 - [[/Items/Tinfoil hat of mind shielding]]
@@ -201,8 +217,9 @@ Immunity to telepathic attacks of tentacled ones
 **Granted by Corpses:**
 - None
 
-### Poison Resistance
-Immunity to poison attacks
+### ☠️ Poison Resistance
+
+Immunity to poison attacks.
 
 **Granted by Items:**
 - [[/Items/Amulet versus poison]]
@@ -271,8 +288,9 @@ Immunity to poison attacks
 - [[/Monsters/Xan]]
 - [[/Monsters/Yellow mold]]
 
-### Polymorph Resistance
-Immunity to polymorph traps
+### 🌀 Polymorph Resistance
+
+Immunity to polymorph traps.
 
 **Granted by Items:**
 - [[/Items/Ring of protection from shape changers]]
@@ -280,8 +298,9 @@ Immunity to polymorph traps
 **Granted by Corpses:**
 - None
 
-### Sickness Resistance
-Immunity to sickness attacks, including *mummy rot*
+### 🤢 Sickness Resistance
+
+Immunity to sickness attacks, including *mummy rot*.
 
 **Granted by Items:**
 - [[/Items/Beak mask of sickness resistance]]
@@ -292,8 +311,9 @@ Immunity to sickness attacks, including *mummy rot*
 **Granted by Corpses:**
 - None
 
-### Sleep Resistance
-Immunity to sleep attacks
+### 💤 Sleep Resistance
+
+Immunity to sleep attacks.
 
 **Granted by Items:**
 - [[/Items/Orange dragon scale mail]]
@@ -315,8 +335,9 @@ Immunity to sleep attacks
 - [[/Monsters/Tiamat]]
 - [[/Monsters/Woodland-elf]]
 
-### Sliming Resistance
-Immunity to sliming attacks (namely, the green slime)
+### 🦠 Sliming Resistance
+
+Immunity to sliming attacks (namely, the green slime).
 
 **Granted by Items:**
 - [[/Items/Red dragon scale mail]]
@@ -324,8 +345,9 @@ Immunity to sliming attacks (namely, the green slime)
 **Granted by Corpses:**
 - None
 
-### Stoning Resistance
-Immunity to petrification attacks
+### 🪨 Stoning Resistance
+
+Immunity to petrification attacks.
 
 **Granted by Items:**
 - [[/Items/Amulet versus petrification]]
@@ -339,8 +361,9 @@ Immunity to petrification attacks
 Partial resistances reduce the elemental damage you take by a percentage and offer a chance to protect your equipment.
 
 
-### 50% or 75% Acid Resistance
-Reduces acid damage
+### 🧪 50% or 75% Acid Resistance
+
+Reduces acid damage.
 
 **Granted by Items:**
 - [[/Items/Alchemy smock]] (75%)
@@ -349,8 +372,9 @@ Reduces acid damage
 - [[/Monsters/Ancient yellow dragon]]
 - [[/Monsters/Yellow dragon]]
 
-### 50% or 75% Cold Resistance
-Reduces cold damage, chance to protect equipment
+### ❄️ 50% or 75% Cold Resistance
+
+Reduces cold damage, chance to protect equipment.
 
 **Granted by Items:**
 - [[/Items/Silver dragon scale mail]] (50%)
@@ -375,8 +399,9 @@ Reduces cold damage, chance to protect equipment
 - [[/Monsters/Winter wolf cub]]
 - [[/Monsters/Yeti]]
 
-### 50% or 75% Fire Resistance
-Reduces fire damage, chance to protect equipment
+### 🔥 50% or 75% Fire Resistance
+
+Reduces fire damage, chance to protect equipment.
 
 **Granted by Items:**
 - [[/Items/Staff of fire]] (75%)
@@ -408,8 +433,9 @@ Reduces fire damage, chance to protect equipment
 - [[/Monsters/Tiamat]]
 - [[/Monsters/Wizard of Yendor]]
 
-### 50% or 75% Magic Missile Resistance
-Reduces magic missile and striking damage
+### 🔮 50% or 75% Magic Missile Resistance
+
+Reduces magic missile and striking damage.
 
 **Granted by Items:**
 - [[/Items/Brooch of shielding]] (75%)
@@ -419,8 +445,9 @@ Reduces magic missile and striking damage
 **Granted by Corpses:**
 - None
 
-### 50% or 75% Shock Resistance
-Reduces lightning damage, chance to protect equipment
+### ⚡ 50% or 75% Shock Resistance
+
+Reduces lightning damage, chance to protect equipment.
 
 **Granted by Items:**
 - [[/Items/Staff of thunder and lightning]] (75%)
