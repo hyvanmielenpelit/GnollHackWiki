@@ -755,7 +755,7 @@ Note that the intelligence drain attacks also cause *amnesia*, which makes you f
 
 Contrary to NetHack, charm, sleep, and other mind-affecting spells and effects, such as fear, do not check against the magic resistance of monsters. Instead, monsters need to make a wisdom-based saving throw to resist the effect. The chance of resisting is equal to:
 
-`-30% + 5% x Wisdom`
+$-30\% + 5\% \times \text{Wisdom}$
 
 Thus, a monster with Wisdom 10 has a 20% chance of resisting and a monster with Wisdom 20 has a 70% chance of resisting such a spell or effect.
 
@@ -771,7 +771,7 @@ Blessed items with mind-affecting effects, such as a blessed [[/Items/scroll of 
 
 Some spells, such as Power Words and [[/Spells/Holy Word]], and some potion effects, such as sickness and poison, check against the constitution of the target. The chance of resisting is:
 
-`-30% + 5% x Constitution`
+$-30\% + 5\% \times \text{Constitution}$
 
 Thus, a monster with Constitution 10 has a 20% chance of resisting and a monster with Constitution 20 has a 70% chance of resisting such a spell or effect.
 
@@ -783,13 +783,13 @@ Spells cast with the Skilled or higher spell school skill incur a -15% penalty t
 
 The [[/Spells/Flesh to Stone]] spell checks against the dexterity of the target to see if they can dodge the petrification effect. The chance of resisting uses the same formula:
 
-`-30% + 5% x Dexterity`
+$-30\% + 5\% \times \text{Dexterity}$
 
 ## 🗣️ 8. Charisma-Based Saving Throw
 
 The [[/Spells/Silence]] spell checks against the charisma of the target to see if they can resist the effect. The chance of resisting uses the same formula:
 
-`-30% + 5% x Charisma`
+$-30\% + 5\% \times \text{Charisma}$
 
 ## 🪞 9. Reflection
 
