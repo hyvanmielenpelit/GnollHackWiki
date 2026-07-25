@@ -69,10 +69,10 @@ Immunity to disintegration attacks.
 - [[/Items/Cloak of integrity]]
 
 **Granted by Corpses:**
-- [[/Monsters/Ancient black dragon]]
-- [[/Monsters/Bahamut]]
-- [[/Monsters/Black dragon]]
-- [[/Monsters/Tiamat]]
+- [[/Monsters/Ancient black dragon]] (100%)
+- [[/Monsters/Bahamut]] (100%)
+- [[/Monsters/Black dragon]] (100%)
+- [[/Monsters/Tiamat]] (100%)
 
 ### 📉 Drain Resistance
 
@@ -203,62 +203,62 @@ Immunity to poison attacks.
 - [[/Artifacts/The Staff of Aesculapius]]
 
 **Granted by Corpses:**
-- [[/Monsters/Ancient green dragon]]
-- [[/Monsters/Black naga]]
-- [[/Monsters/Black naga hatchling]]
-- [[/Monsters/Black pudding]]
-- [[/Monsters/Black unicorn]]
-- [[/Monsters/Blue jelly]]
-- [[/Monsters/Brown mold]]
-- [[/Monsters/Brown pudding]]
-- [[/Monsters/Cave spider]]
-- [[/Monsters/Centipede]]
-- [[/Monsters/Chickatrice]]
-- [[/Monsters/Cobra]]
-- [[/Monsters/Cockatrice]]
-- [[/Monsters/Flesh golem]]
-- [[/Monsters/Gargantuan beetle]]
-- [[/Monsters/Gargantuan cockatrice]]
-- [[/Monsters/Giant beetle]]
-- [[/Monsters/Giant cockatrice]]
-- [[/Monsters/Giant spider]]
-- [[/Monsters/Golden naga]]
-- [[/Monsters/Golden naga hatchling]]
-- [[/Monsters/Gray ooze]]
-- [[/Monsters/Gray unicorn]]
-- [[/Monsters/Green dragon]]
-- [[/Monsters/Gremlin]]
-- [[/Monsters/Guardian naga]]
-- [[/Monsters/Guardian naga hatchling]]
-- [[/Monsters/Homunculus]]
-- [[/Monsters/Jellyfish]]
-- [[/Monsters/Killer bee]]
-- [[/Monsters/Lernaean hydra]]
-- [[/Monsters/Master Kaen]]
-- [[/Monsters/Medusa]]
-- [[/Monsters/Nurse]]
-- [[/Monsters/Phase spider]]
-- [[/Monsters/Pit viper]]
-- [[/Monsters/Pyrolisk]]
-- [[/Monsters/Quasit]]
-- [[/Monsters/Queen bee]]
-- [[/Monsters/Quivering blob]]
-- [[/Monsters/Red mold]]
-- [[/Monsters/Red naga]]
-- [[/Monsters/Red naga hatchling]]
-- [[/Monsters/Scorpion]]
-- [[/Monsters/Scorpius]]
-- [[/Monsters/Shrieker]]
-- [[/Monsters/Snake]]
-- [[/Monsters/Soldier ant]]
-- [[/Monsters/Tengu]]
-- [[/Monsters/Tiamat]]
-- [[/Monsters/Violet fungus]]
-- [[/Monsters/Water moccasin]]
-- [[/Monsters/White unicorn]]
-- [[/Monsters/Wizard of Yendor]]
-- [[/Monsters/Xan]]
-- [[/Monsters/Yellow mold]]
+- [[/Monsters/Ancient green dragon]] (100%)
+- [[/Monsters/Black naga]] (53.3%)
+- [[/Monsters/Black naga hatchling]] (20.0%)
+- [[/Monsters/Black pudding]] (66.7%)
+- [[/Monsters/Black unicorn]] (26.7%)
+- [[/Monsters/Blue jelly]] (26.7%)
+- [[/Monsters/Brown mold]] (6.7%)
+- [[/Monsters/Brown pudding]] (33.3%)
+- [[/Monsters/Cave spider]] (6.7%)
+- [[/Monsters/Centipede]] (13.3%)
+- [[/Monsters/Chickatrice]] (26.7%)
+- [[/Monsters/Cobra]] (40.0%)
+- [[/Monsters/Cockatrice]] (33.3%)
+- [[/Monsters/Flesh golem]] (60.0%)
+- [[/Monsters/Gargantuan beetle]] (66.7%)
+- [[/Monsters/Gargantuan cockatrice]] (100%)
+- [[/Monsters/Giant beetle]] (33.3%)
+- [[/Monsters/Giant cockatrice]] (66.7%)
+- [[/Monsters/Giant spider]] (33.3%)
+- [[/Monsters/Golden naga]] (66.7%)
+- [[/Monsters/Golden naga hatchling]] (20.0%)
+- [[/Monsters/Gray ooze]] (20.0%)
+- [[/Monsters/Gray unicorn]] (26.7%)
+- [[/Monsters/Green dragon]] (100%)
+- [[/Monsters/Gremlin]] (33.3%)
+- [[/Monsters/Guardian naga]] (80.0%)
+- [[/Monsters/Guardian naga hatchling]] (20.0%)
+- [[/Monsters/Homunculus]] (13.3%)
+- [[/Monsters/Jellyfish]] (20.0%)
+- [[/Monsters/Killer bee]] (30.0%)
+- [[/Monsters/Lernaean hydra]] (80.0%)
+- [[/Monsters/Master Kaen]] (100%)
+- [[/Monsters/Medusa]] (100%)
+- [[/Monsters/Nurse]] (73.3%)
+- [[/Monsters/Phase spider]] (80.0%)
+- [[/Monsters/Pit viper]] (40.0%)
+- [[/Monsters/Pyrolisk]] (40.0%)
+- [[/Monsters/Quasit]] (20.0%)
+- [[/Monsters/Queen bee]] (60.0%)
+- [[/Monsters/Quivering blob]] (33.3%)
+- [[/Monsters/Red mold]] (6.7%)
+- [[/Monsters/Red naga]] (40.0%)
+- [[/Monsters/Red naga hatchling]] (20.0%)
+- [[/Monsters/Scorpion]] (50.0%)
+- [[/Monsters/Scorpius]] (100%)
+- [[/Monsters/Shrieker]] (20.0%)
+- [[/Monsters/Snake]] (26.7%)
+- [[/Monsters/Soldier ant]] (20.0%)
+- [[/Monsters/Tengu]] (40.0%)
+- [[/Monsters/Tiamat]] (100%)
+- [[/Monsters/Violet fungus]] (20.0%)
+- [[/Monsters/Water moccasin]] (26.7%)
+- [[/Monsters/White unicorn]] (26.7%)
+- [[/Monsters/Wizard of Yendor]] (100%)
+- [[/Monsters/Xan]] (46.7%)
+- [[/Monsters/Yellow mold]] (6.7%)
 
 **Granted by Classes:**
 - [[/Roles/Barbarian]] (level 1)
@@ -299,20 +299,20 @@ Immunity to sleep attacks.
 - [[/Items/Orange dragon scales]]
 
 **Granted by Corpses:**
-- [[/Monsters/Ancient orange dragon]]
-- [[/Monsters/Elf]]
-- [[/Monsters/Elf-lord]]
-- [[/Monsters/Elven bard]]
-- [[/Monsters/Elvenking]]
-- [[/Monsters/Flesh golem]]
-- [[/Monsters/Gelatinous cube]]
-- [[/Monsters/Green-elf]]
-- [[/Monsters/Grey-elf]]
-- [[/Monsters/Homunculus]]
-- [[/Monsters/Mucilaginous cube]]
-- [[/Monsters/Orange dragon]]
-- [[/Monsters/Tiamat]]
-- [[/Monsters/Woodland-elf]]
+- [[/Monsters/Ancient orange dragon]] (100%)
+- [[/Monsters/Elf]] (66.7%)
+- [[/Monsters/Elf-lord]] (53.3%)
+- [[/Monsters/Elven bard]] (53.3%)
+- [[/Monsters/Elvenking]] (60.0%)
+- [[/Monsters/Flesh golem]] (60.0%)
+- [[/Monsters/Gelatinous cube]] (40.0%)
+- [[/Monsters/Green-elf]] (33.3%)
+- [[/Monsters/Grey-elf]] (40.0%)
+- [[/Monsters/Homunculus]] (13.3%)
+- [[/Monsters/Mucilaginous cube]] (100%)
+- [[/Monsters/Orange dragon]] (100%)
+- [[/Monsters/Tiamat]] (100%)
+- [[/Monsters/Woodland-elf]] (26.7%)
 
 **Granted by Classes:**
 - [[/Roles/Monk]] (level 1)
@@ -344,100 +344,100 @@ Partial resistances reduce the elemental damage you take by a percentage and off
 Reduces acid damage.
 
 **Granted by Items:**
-- [[/Items/Alchemy smock]] (75%)
+- [[/Items/Alchemy smock]] (75% resistance)
 
-**Granted by Corpses:** (All 50%)
-- [[/Monsters/Ancient yellow dragon]]
-- [[/Monsters/Yellow dragon]]
+**Granted by Corpses:**
+- [[/Monsters/Ancient yellow dragon]] (50% resistance, 100% chance to get)
+- [[/Monsters/Yellow dragon]] (50% resistance, 100% chance to get)
 
 ### ❄️ 50% or 75% Cold Resistance
 
 Reduces cold damage, chance to protect equipment.
 
 **Granted by Items:**
-- [[/Items/Silver dragon scale mail]] (50%)
-- [[/Items/Silver dragon scales]] (50%)
-- [[/Items/Staff of frost]] (75%)
+- [[/Items/Silver dragon scale mail]] (50% resistance)
+- [[/Items/Silver dragon scales]] (50% resistance)
+- [[/Items/Staff of frost]] (75% resistance)
 
-**Granted by Corpses:** (All 50%)
-- [[/Monsters/Ancient white dragon]]
-- [[/Monsters/Black pudding]]
-- [[/Monsters/Blue jelly]]
-- [[/Monsters/Brown mold]]
-- [[/Monsters/Brown pudding]]
-- [[/Monsters/Flesh golem]]
-- [[/Monsters/Frost giant]]
-- [[/Monsters/Gelatinous cube]]
-- [[/Monsters/Gray ooze]]
-- [[/Monsters/Ice troll]]
-- [[/Monsters/Mucilaginous cube]]
-- [[/Monsters/Tiamat]]
-- [[/Monsters/White dragon]]
-- [[/Monsters/Winter wolf]]
-- [[/Monsters/Winter wolf cub]]
-- [[/Monsters/Yeti]]
+**Granted by Corpses:**
+- [[/Monsters/Ancient white dragon]] (50% resistance, 100% chance to get)
+- [[/Monsters/Black pudding]] (50% resistance, 66.7% chance to get)
+- [[/Monsters/Blue jelly]] (50% resistance, 26.7% chance to get)
+- [[/Monsters/Brown mold]] (50% resistance, 6.7% chance to get)
+- [[/Monsters/Brown pudding]] (50% resistance, 33.3% chance to get)
+- [[/Monsters/Flesh golem]] (50% resistance, 60.0% chance to get)
+- [[/Monsters/Frost giant]] (50% resistance, 66.7% chance to get)
+- [[/Monsters/Gelatinous cube]] (50% resistance, 40.0% chance to get)
+- [[/Monsters/Gray ooze]] (50% resistance, 20.0% chance to get)
+- [[/Monsters/Ice troll]] (50% resistance, 100% chance to get)
+- [[/Monsters/Mucilaginous cube]] (50% resistance, 100% chance to get)
+- [[/Monsters/Tiamat]] (50% resistance, 100% chance to get)
+- [[/Monsters/White dragon]] (50% resistance, 100% chance to get)
+- [[/Monsters/Winter wolf]] (50% resistance, 46.7% chance to get)
+- [[/Monsters/Winter wolf cub]] (50% resistance, 33.3% chance to get)
+- [[/Monsters/Yeti]] (50% resistance, 33.3% chance to get)
 
 ### 🔥 50% or 75% Fire Resistance
 
 Reduces fire damage, chance to protect equipment.
 
 **Granted by Items:**
-- [[/Items/Staff of fire]] (75%)
+- [[/Items/Staff of fire]] (75% resistance)
 
-**Granted by Corpses:** (All 50%)
-- [[/Monsters/Ancient gold dragon]]
-- [[/Monsters/Ancient red dragon]]
-- [[/Monsters/Cerberus]]
-- [[/Monsters/Fire ant]]
-- [[/Monsters/Fire giant]]
-- [[/Monsters/Flesh golem]]
-- [[/Monsters/Gelatinous cube]]
-- [[/Monsters/Gold dragon]]
-- [[/Monsters/Gray ooze]]
-- [[/Monsters/Hell hound]]
-- [[/Monsters/Hell hound pup]]
-- [[/Monsters/Infernal pteranodon]]
-- [[/Monsters/Ixoth]]
-- [[/Monsters/Lord Surtur]]
-- [[/Monsters/Mucilaginous cube]]
-- [[/Monsters/Phoenix]]
-- [[/Monsters/Pyrohydra]]
-- [[/Monsters/Pyrolisk]]
-- [[/Monsters/Red dragon]]
-- [[/Monsters/Red mold]]
-- [[/Monsters/Red naga]]
-- [[/Monsters/Red naga hatchling]]
-- [[/Monsters/Salamander]]
-- [[/Monsters/Tiamat]]
-- [[/Monsters/Wizard of Yendor]]
+**Granted by Corpses:**
+- [[/Monsters/Ancient gold dragon]] (50% resistance, 100% chance to get)
+- [[/Monsters/Ancient red dragon]] (50% resistance, 100% chance to get)
+- [[/Monsters/Cerberus]] (50% resistance, 100% chance to get)
+- [[/Monsters/Fire ant]] (50% resistance, 20.0% chance to get)
+- [[/Monsters/Fire giant]] (50% resistance, 60.0% chance to get)
+- [[/Monsters/Flesh golem]] (50% resistance, 60.0% chance to get)
+- [[/Monsters/Gelatinous cube]] (50% resistance, 40.0% chance to get)
+- [[/Monsters/Gold dragon]] (50% resistance, 100% chance to get)
+- [[/Monsters/Gray ooze]] (50% resistance, 20.0% chance to get)
+- [[/Monsters/Hell hound]] (50% resistance, 80.0% chance to get)
+- [[/Monsters/Hell hound pup]] (50% resistance, 46.7% chance to get)
+- [[/Monsters/Infernal pteranodon]] (50% resistance, 100% chance to get)
+- [[/Monsters/Ixoth]] (50% resistance, 100% chance to get)
+- [[/Monsters/Lord Surtur]] (50% resistance, 100% chance to get)
+- [[/Monsters/Mucilaginous cube]] (50% resistance, 100% chance to get)
+- [[/Monsters/Phoenix]] (50% resistance, 100% chance to get)
+- [[/Monsters/Pyrohydra]] (50% resistance, 80.0% chance to get)
+- [[/Monsters/Pyrolisk]] (50% resistance, 40.0% chance to get)
+- [[/Monsters/Red dragon]] (50% resistance, 100% chance to get)
+- [[/Monsters/Red mold]] (50% resistance, 6.7% chance to get)
+- [[/Monsters/Red naga]] (50% resistance, 40.0% chance to get)
+- [[/Monsters/Red naga hatchling]] (50% resistance, 20.0% chance to get)
+- [[/Monsters/Salamander]] (50% resistance, 53.3% chance to get)
+- [[/Monsters/Tiamat]] (50% resistance, 100% chance to get)
+- [[/Monsters/Wizard of Yendor]] (50% resistance, 100% chance to get)
 
 ### 🔮 50% or 75% Magic Missile Resistance
 
 Reduces magic missile and striking damage.
 
 **Granted by Items:**
-- [[/Items/Brooch of shielding]] (75%)
-- [[/Items/Gray dragon scale mail]] (50%)
-- [[/Items/Gray dragon scales]] (50%)
+- [[/Items/Brooch of shielding]] (75% resistance)
+- [[/Items/Gray dragon scale mail]] (50% resistance)
+- [[/Items/Gray dragon scales]] (50% resistance)
 
 ### ⚡ 50% or 75% Shock Resistance
 
 Reduces lightning damage, chance to protect equipment.
 
 **Granted by Items:**
-- [[/Items/Staff of thunder and lightning]] (75%)
+- [[/Items/Staff of thunder and lightning]] (75% resistance)
 
-**Granted by Corpses:** (All 50%)
-- [[/Monsters/Ancient blue dragon]]
-- [[/Monsters/Black pudding]]
-- [[/Monsters/Blue dragon]]
-- [[/Monsters/Brown pudding]]
-- [[/Monsters/Electric eel]]
-- [[/Monsters/Flesh golem]]
-- [[/Monsters/Gelatinous cube]]
-- [[/Monsters/Mucilaginous cube]]
-- [[/Monsters/Storm giant]]
-- [[/Monsters/Tiamat]]
+**Granted by Corpses:**
+- [[/Monsters/Ancient blue dragon]] (50% resistance, 100% chance to get)
+- [[/Monsters/Black pudding]] (50% resistance, 66.7% chance to get)
+- [[/Monsters/Blue dragon]] (50% resistance, 100% chance to get)
+- [[/Monsters/Brown pudding]] (50% resistance, 33.3% chance to get)
+- [[/Monsters/Electric eel]] (50% resistance, 46.7% chance to get)
+- [[/Monsters/Flesh golem]] (50% resistance, 60.0% chance to get)
+- [[/Monsters/Gelatinous cube]] (50% resistance, 40.0% chance to get)
+- [[/Monsters/Mucilaginous cube]] (50% resistance, 100% chance to get)
+- [[/Monsters/Storm giant]] (50% resistance, 100% chance to get)
+- [[/Monsters/Tiamat]] (50% resistance, 100% chance to get)
 
 ## 🔮 3. Magic Resistance
 
