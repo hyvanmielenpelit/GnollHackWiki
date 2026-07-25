@@ -715,7 +715,7 @@ The following touch attacks bypass Magic Cancellation completely:
 - Mimic grabbing and sticking
 - Snake and eel wrapping and drowning
 - Armor-damaging attacks (rust, corrode, decay)
-- Acid attacks from spotted jellies
+- Acid attacks from [[spotted jellies|/Monsters/Spotted jelly]]
 - Intrinsic stealing from [[gremlins|/Monsters/Gremlin]]
 - Attacks from the Riders ([[/Monsters/Death]], [[/Monsters/Pestilence]], [[/Monsters/Famine]])
 - Healing touches from [[nurses|/Monsters/nurse]]
