@@ -1,6 +1,6 @@
 ![resistances-and-saving-throws](/uploads/Resistances%20and%20Saving%20Throws/resistances-and-saving-throws.webp)
 
-> 👉 **This guide covers the various kinds of magical and elemental resistances in GnollHack, and how to get them from items and monster corpses.**
+> 👉 **This guide covers the various kinds of magical and elemental resistances in GnollHack, and how to get them from items, monster corpses, character classes, and races.**
 
 ## 📖 Overview
 
