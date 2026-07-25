@@ -73,8 +73,8 @@ You can get Magic Resistance from the following extrinsic items:
 - [[/Items/cloak of magic resistance]]
 - [[/Items/gray dragon scale mail]]
 - [[/Items/ioun stone of magic resistance]]
-- [[/Items/robe of magic resistance]]
 - [[/Artifacts/Magicbane]]
+- [[/Items/robe of magic resistance]]
 - [[/Artifacts/Ruby Rod of Asmodeus]]
 - [[/Artifacts/The Ark of the Covenant]]
 - [[/Artifacts/The Eye of the Aethiopica]]
@@ -120,13 +120,13 @@ Additionally, it is good to remember the following things about cancellation:
 Magic resistance protects from:
 - [[/Items/wand of polymorph]] zapped at monsters
 - Polymorph traps
-- [[/Spells/Polymorph]] spell cast at monsters
+- [[/Spells/Polymorph other]] spell cast at monsters
 - Polymorph from being hit with a wielded [[/Items/potion of polymorph]]
 
 Magic resistance does *not* protect you from:
 - Polymorph from [[/Items/ring of polymorph]]
 - [[/Items/wand of polymorph]] zapped at yourself
-- [[/Spells/Polymorph]] spell cast at yourself
+- [[/Spells/Polymorph other]] spell cast at yourself
 - Polymorph from drinking a [[/Items/potion of polymorph]]
 
 ## 🛡️ 4. Magic Cancellation
@@ -228,13 +228,13 @@ Reflection gives a complete immunity to ray attacks, such as most wands and drag
 ### 🛡️ Sources of Reflection
 
 You can get Reflection from the following extrinsic items:
-- [[/Items/shield of reflection]]
 - [[/Items/amulet of reflection]]
 - [[/Items/bracers of reflection]]
-- [[/Items/silver dragon scale mail]]
 - [[/Artifacts/Dragonbane]]
-- [[/Artifacts/The Magic Mirror of Merlin]]
+- [[/Items/shield of reflection]]
+- [[/Items/silver dragon scale mail]]
 - [[/Artifacts/The Emerald Sword]]
+- [[/Artifacts/The Magic Mirror of Merlin]]
 
 ## 💡 Advice on Getting Resistances
 
