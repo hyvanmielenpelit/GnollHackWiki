@@ -688,37 +688,42 @@ Magic resistance does *not* protect you from:
 
 Magic Cancellation protects you from *magical or semi-magical touch attacks*. You get Magic Cancellation (MC) from armor. Contrary to NetHack, it stacks and the effect is on the scale 0–25, which gives you a % chance to resist magical or semi-magical touch attacks. The chance is listed in the status bar. MC protects you from:
 
-- Disenchantment touch attacks
-- Drain energy (mana) touch attacks
-- Life drain attacks (which drain an experience level)
-- Lycanthropy
-- Mummy rot
-- Nymph stealing attacks (but nymphs' attack gives a big penalty to MC, so it has a bigger than normal chance to work)
-- Paralysis attacks
-- Seduction attacks
-- Sleep touch attacks
-- Sliming touch attacks
-- Slow touch attacks
-- Stat drain touch attacks (strength, dexterity, and constitution)
-- Steal gold touch attacks
-- Stoning (petrification) touch attacks
-- Stun touch attacks
-- Teleportation touch attacks
-- Terminal illness attacks
-- Wound legs touch attacks
+| Touch attack | Examples of monsters | Notes |
+| :--- | :--- | :--- |
+| Disenchantment | [[/Monsters/Disenchanter]] | |
+| Drain energy | [[/Monsters/Energy vortex]] | Drains mana |
+| Life drain (which drains an experience level) | [[/Monsters/Vampire]] |  |
+| Lycanthropy | [[/Monsters/Werewolf]] |  |
+| Mummy rot | [[/Monsters/Human mummy]] |  |
+| Nymph stealing | [[/Monsters/Wood nymph]] | Nymphs' touch attack gives a big penalty to MC, so it has a bigger than normal chance to work. |
+| Paralysis | [[/Monsters/Gelatinous cube]] |  |
+| Seduction | [[Incubus and Succubus|/Monsters/Incubus]] |  |
+| Sleep | [[/Monsters/Homunculus]] |  |
+| Sliming | [[/Monsters/Green slime]] |  |
+| Slow | [[/Monsters/Shade]] |  |
+| Stat drain | [[/Monsters/Quasit]] | [[Strength]], [[Dexterity]], and [[Constitution]] |
+| Steal gold | [[/Monsters/Leprechaun]] |  |
+| Stoning (petrification) | [[/Monsters/Cockatrice]] |  |
+| Stun | [[/Monsters/Abbot]] |  |
+| Teleportation | [[/Monsters/Quantum mechanic]] |  |
+| Terminal illness | [[/Monsters/Otyugh]] |  |
+| Wound legs | [[/Monsters/Xan]] |  |
 
 ### ⚠️ Attacks that Bypass Magic Cancellation
 
 The following touch attacks bypass Magic Cancellation completely:
-- Elemental touch attacks (fire, cold, shock)
-- Confusion touch attacks
-- Mimic grabbing and sticking
-- Snake and eel wrapping and drowning
-- Armor-damaging attacks (rust, corrode, decay)
-- Acid attacks from [[spotted jellies|/Monsters/Spotted jelly]]
-- Intrinsic stealing from [[gremlins|/Monsters/Gremlin]]
-- Attacks from the Riders ([[/Monsters/Death]], [[/Monsters/Pestilence]], [[/Monsters/Famine]])
-- Healing touches from [[nurses|/Monsters/nurse]]
+
+| Touch attack | Examples of monsters |
+| :--- | :--- |
+| Elemental (fire, cold, shock) | [[/Monsters/Fire elemental]] |
+| Mimic grabbing and sticking | [[/Monsters/Small mimic]] |
+| Snake constriction | [[/Monsters/Giant anaconda]] |
+| Eel drowning | [[/Monsters/Giant eel]] |
+| Armor-damaging (rust, corrode, decay) | [[/Monsters/Rust monster]], [[/Monsters/Black pudding]], [[/Monsters/Brown pudding]] |
+| Acid | [[/Monsters/Spotted jelly]] |
+| Intrinsic stealing | [[/Monsters/Gremlin]] |
+| Riders | [[/Monsters/Death]], [[/Monsters/Pestilence]], [[/Monsters/Famine]] |
+| Healing | [[/Monsters/Nurse]] |
 
 Note that **intelligence drain attacks** also bypass Magic Cancellation (see below).
 
