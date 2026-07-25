@@ -684,6 +684,8 @@ Magic Cancellation protects you from *magical or semi-magical touch attacks*. Yo
 ### ⚠️ Attacks that Bypass Magic Cancellation
 
 The following touch attacks bypass Magic Cancellation completely:
+- Elemental touch attacks (fire, cold, shock)
+- Confusion touch attacks
 - Mimic grabbing and sticking
 - Snake and eel wrapping and drowning
 - Armor-damaging attacks (rust, corrode, decay)
@@ -691,6 +693,8 @@ The following touch attacks bypass Magic Cancellation completely:
 - Item cursing from gremlins
 - Attacks from the Riders (Death, Pestilence, Famine)
 - Healing touches from nurses
+
+Note that **intelligence drain attacks** also bypass Magic Cancellation (see below).
 
 ### 🎲 Magic Cancellation Chance
 
@@ -771,7 +775,7 @@ Some spells, such as Power Words and [[/Spells/Holy Word]], and some potion effe
 
 Thus, a monster with Constitution 10 has a 20% chance of resisting and a monster with Constitution 20 has a 70% chance of resisting such a spell or effect.
 
-*(Note: The Holy Word spell checks against the Constitution of the target to determine if it takes damage, just like other constitution-based saving throws).*
+*(Note: The Holy Word spell checks against the Constitution of the target to determine if it is affected, just like other constitution-based saving throws).*
 
 Spells cast with the Skilled or higher spell school skill incur a -15% penalty to the constitution-based saving throw per skill level above Basic. A spell cast at an Unskilled skill level incurs a +15% bonus to the constitution-based saving throw.
 
