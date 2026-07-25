@@ -164,10 +164,12 @@ Immunity to cold attacks, protects equipment.
 **Granted by Items:**
 - [[/Artifacts/Frost Brand]]
 - [[/Items/Ioun stone of cold resistance]]
-- [[/Items/Potion of cold immunity]]
 - [[/Items/Ring of cold resistance]]
 - [[/Items/White dragon scale mail]]
 - [[/Items/White dragon scales]]
+
+**Granted by Potions:**
+- [[/Items/Potion of cold immunity]]
 
 **Granted by Spells:**
 - [[/Spells/Protection from cold]]
@@ -179,11 +181,13 @@ Immunity to fire attacks, protects equipment.
 **Granted by Items:**
 - [[/Artifacts/Fire Brand]]
 - [[/Items/Ioun stone of fire resistance]]
-- [[/Items/Potion of fire immunity]]
 - [[/Items/Red dragon scale mail]]
 - [[/Items/Red dragon scales]]
 - [[/Items/Ring of fire resistance]]
 - [[/Artifacts/The Mitre of Holiness]]
+
+**Granted by Potions:**
+- [[/Items/Potion of fire immunity]]
 
 **Granted by Spells:**
 - [[/Spells/Protection from fire]]
@@ -204,8 +208,10 @@ Immunity to lightning attacks, protects equipment.
 - [[/Items/Blue dragon scale mail]]
 - [[/Items/Blue dragon scales]]
 - [[/Items/Ioun stone of shock resistance]]
-- [[/Items/Potion of shock immunity]]
 - [[/Items/Ring of shock resistance]]
+
+**Granted by Potions:**
+- [[/Items/Potion of shock immunity]]
 
 **Granted by Spells:**
 - [[/Spells/Protection from lightning]]
