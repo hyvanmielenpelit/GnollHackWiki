@@ -716,9 +716,9 @@ The following touch attacks bypass Magic Cancellation completely:
 - Snake and eel wrapping and drowning
 - Armor-damaging attacks (rust, corrode, decay)
 - Acid attacks from spotted jellies
-- Item cursing from gremlins
-- Attacks from the Riders (Death, Pestilence, Famine)
-- Healing touches from nurses
+- Intrinsic stealing from [[gremlins|/Monsters/Gremlin]]
+- Attacks from the Riders ([[/Monsters/Death]], [[/Monsters/Pestilence]], [[/Monsters/Famine]])
+- Healing touches from [[nurses|/Monsters/nurse]]
 
 Note that **intelligence drain attacks** also bypass Magic Cancellation (see below).
 
