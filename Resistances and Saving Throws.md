@@ -43,8 +43,11 @@ Immunity to cursing of items in the inventory.
 - [[/Artifacts/Rhongomyniad]]
 
 **Granted by Classes:**
-- [[/Roles/Knight]] (level 19)
-- [[/Roles/Priest]] (level 16)
+
+| Class | Level |
+| :---- | :---: |
+| [[/Roles/Knight]] | 19 |
+| [[/Roles/Priest]] | 16 |
 
 ### 💀 Death Resistance
 
@@ -57,7 +60,10 @@ Immunity to death attacks.
 - [[/Items/Ring of protection from undeath]]
 
 **Granted by Classes:**
-- [[/Roles/Priest]] (level 19)
+
+| Class | Level |
+| :---- | :---: |
+| [[/Roles/Priest]] | 19 |
 
 ### 💥 Disintegration Resistance
 
@@ -69,10 +75,13 @@ Immunity to disintegration attacks.
 - [[/Items/Cloak of integrity]]
 
 **Granted by Corpses:**
-- [[/Monsters/Ancient black dragon]] (100%)
-- [[/Monsters/Bahamut]] (100%)
-- [[/Monsters/Black dragon]] (100%)
-- [[/Monsters/Tiamat]] (100%)
+
+| Monster | Conveyance Chance |
+| :------ | :---------------: |
+| [[/Monsters/Ancient black dragon]] | 100% |
+| [[/Monsters/Bahamut]] | 100% |
+| [[/Monsters/Black dragon]] | 100% |
+| [[/Monsters/Tiamat]] | 100% |
 
 ### 📉 Drain Resistance
 
@@ -107,7 +116,10 @@ Immunity to paralysis attacks.
 - [[/Artifacts/The Mace of Saint Cuthbert]]
 
 **Granted by Races:**
-- [[/Races/Elf]] (level 6)
+
+| Race | Level |
+| :--- | :---: |
+| [[/Races/Elf]] | 6 |
 
 ### 🧪 Full Acid Resistance
 
@@ -129,7 +141,10 @@ Immunity to cold attacks, protects equipment.
 - [[/Items/White dragon scales]]
 
 **Granted by Classes:**
-- [[/Roles/Valkyrie]] (level 1)
+
+| Class | Level |
+| :---- | :---: |
+| [[/Roles/Valkyrie]] | 1 |
 
 ### 🔥 Full Fire Resistance
 
@@ -162,7 +177,10 @@ Immunity to lightning attacks, protects equipment.
 - [[/Items/Ring of shock resistance]]
 
 **Granted by Classes:**
-- [[/Roles/Valkyrie]] (level 15)
+
+| Class | Level |
+| :---- | :---: |
+| [[/Roles/Valkyrie]] | 15 |
 
 ### 🌈 Hallucination Resistance
 
@@ -177,10 +195,16 @@ Immunity to hallucination.
 Immunity to lycanthropy.
 
 **Granted by Classes:**
-- [[/Roles/Healer]] (level 7)
+
+| Class | Level |
+| :---- | :---: |
+| [[/Roles/Healer]] | 7 |
 
 **Granted by Races:**
-- [[/Races/Gnoll]] (level 1)
+
+| Race | Level |
+| :--- | :---: |
+| [[/Races/Gnoll]] | 1 |
 
 ### 🧠 Mind Shielding
 
@@ -203,71 +227,80 @@ Immunity to poison attacks.
 - [[/Artifacts/The Staff of Aesculapius]]
 
 **Granted by Corpses:**
-- [[/Monsters/Ancient green dragon]] (100%)
-- [[/Monsters/Black naga]] (53.3%)
-- [[/Monsters/Black naga hatchling]] (20.0%)
-- [[/Monsters/Black pudding]] (66.7%)
-- [[/Monsters/Black unicorn]] (26.7%)
-- [[/Monsters/Blue jelly]] (26.7%)
-- [[/Monsters/Brown mold]] (6.7%)
-- [[/Monsters/Brown pudding]] (33.3%)
-- [[/Monsters/Cave spider]] (6.7%)
-- [[/Monsters/Centipede]] (13.3%)
-- [[/Monsters/Chickatrice]] (26.7%)
-- [[/Monsters/Cobra]] (40.0%)
-- [[/Monsters/Cockatrice]] (33.3%)
-- [[/Monsters/Flesh golem]] (60.0%)
-- [[/Monsters/Gargantuan beetle]] (66.7%)
-- [[/Monsters/Gargantuan cockatrice]] (100%)
-- [[/Monsters/Giant beetle]] (33.3%)
-- [[/Monsters/Giant cockatrice]] (66.7%)
-- [[/Monsters/Giant spider]] (33.3%)
-- [[/Monsters/Golden naga]] (66.7%)
-- [[/Monsters/Golden naga hatchling]] (20.0%)
-- [[/Monsters/Gray ooze]] (20.0%)
-- [[/Monsters/Gray unicorn]] (26.7%)
-- [[/Monsters/Green dragon]] (100%)
-- [[/Monsters/Gremlin]] (33.3%)
-- [[/Monsters/Guardian naga]] (80.0%)
-- [[/Monsters/Guardian naga hatchling]] (20.0%)
-- [[/Monsters/Homunculus]] (13.3%)
-- [[/Monsters/Jellyfish]] (20.0%)
-- [[/Monsters/Killer bee]] (30.0%)
-- [[/Monsters/Lernaean hydra]] (80.0%)
-- [[/Monsters/Master Kaen]] (100%)
-- [[/Monsters/Medusa]] (100%)
-- [[/Monsters/Nurse]] (73.3%)
-- [[/Monsters/Phase spider]] (80.0%)
-- [[/Monsters/Pit viper]] (40.0%)
-- [[/Monsters/Pyrolisk]] (40.0%)
-- [[/Monsters/Quasit]] (20.0%)
-- [[/Monsters/Queen bee]] (60.0%)
-- [[/Monsters/Quivering blob]] (33.3%)
-- [[/Monsters/Red mold]] (6.7%)
-- [[/Monsters/Red naga]] (40.0%)
-- [[/Monsters/Red naga hatchling]] (20.0%)
-- [[/Monsters/Scorpion]] (50.0%)
-- [[/Monsters/Scorpius]] (100%)
-- [[/Monsters/Shrieker]] (20.0%)
-- [[/Monsters/Snake]] (26.7%)
-- [[/Monsters/Soldier ant]] (20.0%)
-- [[/Monsters/Tengu]] (40.0%)
-- [[/Monsters/Tiamat]] (100%)
-- [[/Monsters/Violet fungus]] (20.0%)
-- [[/Monsters/Water moccasin]] (26.7%)
-- [[/Monsters/White unicorn]] (26.7%)
-- [[/Monsters/Wizard of Yendor]] (100%)
-- [[/Monsters/Xan]] (46.7%)
-- [[/Monsters/Yellow mold]] (6.7%)
+
+| Monster | Conveyance Chance |
+| :------ | :---------------: |
+| [[/Monsters/Ancient green dragon]] | 100% |
+| [[/Monsters/Black naga]] | 53.3% |
+| [[/Monsters/Black naga hatchling]] | 20.0% |
+| [[/Monsters/Black pudding]] | 66.7% |
+| [[/Monsters/Black unicorn]] | 26.7% |
+| [[/Monsters/Blue jelly]] | 26.7% |
+| [[/Monsters/Brown mold]] | 6.7% |
+| [[/Monsters/Brown pudding]] | 33.3% |
+| [[/Monsters/Cave spider]] | 6.7% |
+| [[/Monsters/Centipede]] | 13.3% |
+| [[/Monsters/Chickatrice]] | 26.7% |
+| [[/Monsters/Cobra]] | 40.0% |
+| [[/Monsters/Cockatrice]] | 33.3% |
+| [[/Monsters/Flesh golem]] | 60.0% |
+| [[/Monsters/Gargantuan beetle]] | 66.7% |
+| [[/Monsters/Gargantuan cockatrice]] | 100% |
+| [[/Monsters/Giant beetle]] | 33.3% |
+| [[/Monsters/Giant cockatrice]] | 66.7% |
+| [[/Monsters/Giant spider]] | 33.3% |
+| [[/Monsters/Golden naga]] | 66.7% |
+| [[/Monsters/Golden naga hatchling]] | 20.0% |
+| [[/Monsters/Gray ooze]] | 20.0% |
+| [[/Monsters/Gray unicorn]] | 26.7% |
+| [[/Monsters/Green dragon]] | 100% |
+| [[/Monsters/Gremlin]] | 33.3% |
+| [[/Monsters/Guardian naga]] | 80.0% |
+| [[/Monsters/Guardian naga hatchling]] | 20.0% |
+| [[/Monsters/Homunculus]] | 13.3% |
+| [[/Monsters/Jellyfish]] | 20.0% |
+| [[/Monsters/Killer bee]] | 30.0% |
+| [[/Monsters/Lernaean hydra]] | 80.0% |
+| [[/Monsters/Master Kaen]] | 100% |
+| [[/Monsters/Medusa]] | 100% |
+| [[/Monsters/Nurse]] | 73.3% |
+| [[/Monsters/Phase spider]] | 80.0% |
+| [[/Monsters/Pit viper]] | 40.0% |
+| [[/Monsters/Pyrolisk]] | 40.0% |
+| [[/Monsters/Quasit]] | 20.0% |
+| [[/Monsters/Queen bee]] | 60.0% |
+| [[/Monsters/Quivering blob]] | 33.3% |
+| [[/Monsters/Red mold]] | 6.7% |
+| [[/Monsters/Red naga]] | 40.0% |
+| [[/Monsters/Red naga hatchling]] | 20.0% |
+| [[/Monsters/Scorpion]] | 50.0% |
+| [[/Monsters/Scorpius]] | 100% |
+| [[/Monsters/Shrieker]] | 20.0% |
+| [[/Monsters/Snake]] | 26.7% |
+| [[/Monsters/Soldier ant]] | 20.0% |
+| [[/Monsters/Tengu]] | 40.0% |
+| [[/Monsters/Tiamat]] | 100% |
+| [[/Monsters/Violet fungus]] | 20.0% |
+| [[/Monsters/Water moccasin]] | 26.7% |
+| [[/Monsters/White unicorn]] | 26.7% |
+| [[/Monsters/Wizard of Yendor]] | 100% |
+| [[/Monsters/Xan]] | 46.7% |
+| [[/Monsters/Yellow mold]] | 6.7% |
 
 **Granted by Classes:**
-- [[/Roles/Barbarian]] (level 1)
-- [[/Roles/Healer]] (level 1)
-- [[/Roles/Monk]] (level 7)
-- [[/Roles/Tourist]] (level 19)
+
+| Class | Level |
+| :---- | :---: |
+| [[/Roles/Barbarian]] | 1 |
+| [[/Roles/Healer]] | 1 |
+| [[/Roles/Monk]] | 7 |
+| [[/Roles/Tourist]] | 19 |
 
 **Granted by Races:**
-- [[/Races/Orc]] (level 1)
+
+| Race | Level |
+| :--- | :---: |
+| [[/Races/Orc]] | 1 |
 
 ### 🌀 Polymorph Resistance
 
@@ -287,8 +320,11 @@ Immunity to sickness attacks, including *mummy rot*.
 - [[/Artifacts/The Staff of Aesculapius]]
 
 **Granted by Classes:**
-- [[/Roles/Healer]] (level 14)
-- [[/Roles/Tourist]] (level 14)
+
+| Class | Level |
+| :---- | :---: |
+| [[/Roles/Healer]] | 14 |
+| [[/Roles/Tourist]] | 14 |
 
 ### 💤 Sleep Resistance
 
@@ -299,26 +335,35 @@ Immunity to sleep attacks.
 - [[/Items/Orange dragon scales]]
 
 **Granted by Corpses:**
-- [[/Monsters/Ancient orange dragon]] (100%)
-- [[/Monsters/Elf]] (66.7%)
-- [[/Monsters/Elf-lord]] (53.3%)
-- [[/Monsters/Elven bard]] (53.3%)
-- [[/Monsters/Elvenking]] (60.0%)
-- [[/Monsters/Flesh golem]] (60.0%)
-- [[/Monsters/Gelatinous cube]] (40.0%)
-- [[/Monsters/Green-elf]] (33.3%)
-- [[/Monsters/Grey-elf]] (40.0%)
-- [[/Monsters/Homunculus]] (13.3%)
-- [[/Monsters/Mucilaginous cube]] (100%)
-- [[/Monsters/Orange dragon]] (100%)
-- [[/Monsters/Tiamat]] (100%)
-- [[/Monsters/Woodland-elf]] (26.7%)
+
+| Monster | Conveyance Chance |
+| :------ | :---------------: |
+| [[/Monsters/Ancient orange dragon]] | 100% |
+| [[/Monsters/Elf]] | 66.7% |
+| [[/Monsters/Elf-lord]] | 53.3% |
+| [[/Monsters/Elven bard]] | 53.3% |
+| [[/Monsters/Elvenking]] | 60.0% |
+| [[/Monsters/Flesh golem]] | 60.0% |
+| [[/Monsters/Gelatinous cube]] | 40.0% |
+| [[/Monsters/Green-elf]] | 33.3% |
+| [[/Monsters/Grey-elf]] | 40.0% |
+| [[/Monsters/Homunculus]] | 13.3% |
+| [[/Monsters/Mucilaginous cube]] | 100% |
+| [[/Monsters/Orange dragon]] | 100% |
+| [[/Monsters/Tiamat]] | 100% |
+| [[/Monsters/Woodland-elf]] | 26.7% |
 
 **Granted by Classes:**
-- [[/Roles/Monk]] (level 1)
+
+| Class | Level |
+| :---- | :---: |
+| [[/Roles/Monk]] | 1 |
 
 **Granted by Races:**
-- [[/Races/Elf]] (level 3)
+
+| Race | Level |
+| :--- | :---: |
+| [[/Races/Elf]] | 3 |
 
 ### 🦠 Sliming Resistance
 
