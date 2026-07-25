@@ -344,100 +344,127 @@ Partial resistances reduce the elemental damage you take by a percentage and off
 Reduces acid damage.
 
 **Granted by Items:**
-- [[/Items/Alchemy smock]] (75% resistance)
+
+| Item | Resistance |
+| :--- | :--------: |
+| [[/Items/Alchemy smock]] | 75% |
 
 **Granted by Corpses:**
-- [[/Monsters/Ancient yellow dragon]] (50% resistance, 100% chance to get)
-- [[/Monsters/Yellow dragon]] (50% resistance, 100% chance to get)
+
+| Monster | Resistance | Conveyance Chance |
+| :------ | :--------: | :---------------: |
+| [[/Monsters/Ancient yellow dragon]] | 50% | 100% |
+| [[/Monsters/Yellow dragon]] | 50% | 100% |
 
 ### ❄️ 50% or 75% Cold Resistance
 
 Reduces cold damage, chance to protect equipment.
 
 **Granted by Items:**
-- [[/Items/Silver dragon scale mail]] (50% resistance)
-- [[/Items/Silver dragon scales]] (50% resistance)
-- [[/Items/Staff of frost]] (75% resistance)
+
+| Item | Resistance |
+| :--- | :--------: |
+| [[/Items/Silver dragon scale mail]] | 50% |
+| [[/Items/Silver dragon scales]] | 50% |
+| [[/Items/Staff of frost]] | 75% |
 
 **Granted by Corpses:**
-- [[/Monsters/Ancient white dragon]] (50% resistance, 100% chance to get)
-- [[/Monsters/Black pudding]] (50% resistance, 66.7% chance to get)
-- [[/Monsters/Blue jelly]] (50% resistance, 26.7% chance to get)
-- [[/Monsters/Brown mold]] (50% resistance, 6.7% chance to get)
-- [[/Monsters/Brown pudding]] (50% resistance, 33.3% chance to get)
-- [[/Monsters/Flesh golem]] (50% resistance, 60.0% chance to get)
-- [[/Monsters/Frost giant]] (50% resistance, 66.7% chance to get)
-- [[/Monsters/Gelatinous cube]] (50% resistance, 40.0% chance to get)
-- [[/Monsters/Gray ooze]] (50% resistance, 20.0% chance to get)
-- [[/Monsters/Ice troll]] (50% resistance, 100% chance to get)
-- [[/Monsters/Mucilaginous cube]] (50% resistance, 100% chance to get)
-- [[/Monsters/Tiamat]] (50% resistance, 100% chance to get)
-- [[/Monsters/White dragon]] (50% resistance, 100% chance to get)
-- [[/Monsters/Winter wolf]] (50% resistance, 46.7% chance to get)
-- [[/Monsters/Winter wolf cub]] (50% resistance, 33.3% chance to get)
-- [[/Monsters/Yeti]] (50% resistance, 33.3% chance to get)
+
+| Monster | Resistance | Conveyance Chance |
+| :------ | :--------: | :---------------: |
+| [[/Monsters/Ancient white dragon]] | 50% | 100% |
+| [[/Monsters/Black pudding]] | 50% | 66.7% |
+| [[/Monsters/Blue jelly]] | 50% | 26.7% |
+| [[/Monsters/Brown mold]] | 50% | 6.7% |
+| [[/Monsters/Brown pudding]] | 50% | 33.3% |
+| [[/Monsters/Flesh golem]] | 50% | 60.0% |
+| [[/Monsters/Frost giant]] | 50% | 66.7% |
+| [[/Monsters/Gelatinous cube]] | 50% | 40.0% |
+| [[/Monsters/Gray ooze]] | 50% | 20.0% |
+| [[/Monsters/Ice troll]] | 50% | 100% |
+| [[/Monsters/Mucilaginous cube]] | 50% | 100% |
+| [[/Monsters/Tiamat]] | 50% | 100% |
+| [[/Monsters/White dragon]] | 50% | 100% |
+| [[/Monsters/Winter wolf]] | 50% | 46.7% |
+| [[/Monsters/Winter wolf cub]] | 50% | 33.3% |
+| [[/Monsters/Yeti]] | 50% | 33.3% |
 
 ### 🔥 50% or 75% Fire Resistance
 
 Reduces fire damage, chance to protect equipment.
 
 **Granted by Items:**
-- [[/Items/Staff of fire]] (75% resistance)
+
+| Item | Resistance |
+| :--- | :--------: |
+| [[/Items/Staff of fire]] | 75% |
 
 **Granted by Corpses:**
-- [[/Monsters/Ancient gold dragon]] (50% resistance, 100% chance to get)
-- [[/Monsters/Ancient red dragon]] (50% resistance, 100% chance to get)
-- [[/Monsters/Cerberus]] (50% resistance, 100% chance to get)
-- [[/Monsters/Fire ant]] (50% resistance, 20.0% chance to get)
-- [[/Monsters/Fire giant]] (50% resistance, 60.0% chance to get)
-- [[/Monsters/Flesh golem]] (50% resistance, 60.0% chance to get)
-- [[/Monsters/Gelatinous cube]] (50% resistance, 40.0% chance to get)
-- [[/Monsters/Gold dragon]] (50% resistance, 100% chance to get)
-- [[/Monsters/Gray ooze]] (50% resistance, 20.0% chance to get)
-- [[/Monsters/Hell hound]] (50% resistance, 80.0% chance to get)
-- [[/Monsters/Hell hound pup]] (50% resistance, 46.7% chance to get)
-- [[/Monsters/Infernal pteranodon]] (50% resistance, 100% chance to get)
-- [[/Monsters/Ixoth]] (50% resistance, 100% chance to get)
-- [[/Monsters/Lord Surtur]] (50% resistance, 100% chance to get)
-- [[/Monsters/Mucilaginous cube]] (50% resistance, 100% chance to get)
-- [[/Monsters/Phoenix]] (50% resistance, 100% chance to get)
-- [[/Monsters/Pyrohydra]] (50% resistance, 80.0% chance to get)
-- [[/Monsters/Pyrolisk]] (50% resistance, 40.0% chance to get)
-- [[/Monsters/Red dragon]] (50% resistance, 100% chance to get)
-- [[/Monsters/Red mold]] (50% resistance, 6.7% chance to get)
-- [[/Monsters/Red naga]] (50% resistance, 40.0% chance to get)
-- [[/Monsters/Red naga hatchling]] (50% resistance, 20.0% chance to get)
-- [[/Monsters/Salamander]] (50% resistance, 53.3% chance to get)
-- [[/Monsters/Tiamat]] (50% resistance, 100% chance to get)
-- [[/Monsters/Wizard of Yendor]] (50% resistance, 100% chance to get)
+
+| Monster | Resistance | Conveyance Chance |
+| :------ | :--------: | :---------------: |
+| [[/Monsters/Ancient gold dragon]] | 50% | 100% |
+| [[/Monsters/Ancient red dragon]] | 50% | 100% |
+| [[/Monsters/Cerberus]] | 50% | 100% |
+| [[/Monsters/Fire ant]] | 50% | 20.0% |
+| [[/Monsters/Fire giant]] | 50% | 60.0% |
+| [[/Monsters/Flesh golem]] | 50% | 60.0% |
+| [[/Monsters/Gelatinous cube]] | 50% | 40.0% |
+| [[/Monsters/Gold dragon]] | 50% | 100% |
+| [[/Monsters/Gray ooze]] | 50% | 20.0% |
+| [[/Monsters/Hell hound]] | 50% | 80.0% |
+| [[/Monsters/Hell hound pup]] | 50% | 46.7% |
+| [[/Monsters/Infernal pteranodon]] | 50% | 100% |
+| [[/Monsters/Ixoth]] | 50% | 100% |
+| [[/Monsters/Lord Surtur]] | 50% | 100% |
+| [[/Monsters/Mucilaginous cube]] | 50% | 100% |
+| [[/Monsters/Phoenix]] | 50% | 100% |
+| [[/Monsters/Pyrohydra]] | 50% | 80.0% |
+| [[/Monsters/Pyrolisk]] | 50% | 40.0% |
+| [[/Monsters/Red dragon]] | 50% | 100% |
+| [[/Monsters/Red mold]] | 50% | 6.7% |
+| [[/Monsters/Red naga]] | 50% | 40.0% |
+| [[/Monsters/Red naga hatchling]] | 50% | 20.0% |
+| [[/Monsters/Salamander]] | 50% | 53.3% |
+| [[/Monsters/Tiamat]] | 50% | 100% |
+| [[/Monsters/Wizard of Yendor]] | 50% | 100% |
 
 ### 🔮 50% or 75% Magic Missile Resistance
 
 Reduces magic missile and striking damage.
 
 **Granted by Items:**
-- [[/Items/Brooch of shielding]] (75% resistance)
-- [[/Items/Gray dragon scale mail]] (50% resistance)
-- [[/Items/Gray dragon scales]] (50% resistance)
+
+| Item | Resistance |
+| :--- | :--------: |
+| [[/Items/Brooch of shielding]] | 75% |
+| [[/Items/Gray dragon scale mail]] | 50% |
+| [[/Items/Gray dragon scales]] | 50% |
 
 ### ⚡ 50% or 75% Shock Resistance
 
 Reduces lightning damage, chance to protect equipment.
 
 **Granted by Items:**
-- [[/Items/Staff of thunder and lightning]] (75% resistance)
+
+| Item | Resistance |
+| :--- | :--------: |
+| [[/Items/Staff of thunder and lightning]] | 75% |
 
 **Granted by Corpses:**
-- [[/Monsters/Ancient blue dragon]] (50% resistance, 100% chance to get)
-- [[/Monsters/Black pudding]] (50% resistance, 66.7% chance to get)
-- [[/Monsters/Blue dragon]] (50% resistance, 100% chance to get)
-- [[/Monsters/Brown pudding]] (50% resistance, 33.3% chance to get)
-- [[/Monsters/Electric eel]] (50% resistance, 46.7% chance to get)
-- [[/Monsters/Flesh golem]] (50% resistance, 60.0% chance to get)
-- [[/Monsters/Gelatinous cube]] (50% resistance, 40.0% chance to get)
-- [[/Monsters/Mucilaginous cube]] (50% resistance, 100% chance to get)
-- [[/Monsters/Storm giant]] (50% resistance, 100% chance to get)
-- [[/Monsters/Tiamat]] (50% resistance, 100% chance to get)
+
+| Monster | Resistance | Conveyance Chance |
+| :------ | :--------: | :---------------: |
+| [[/Monsters/Ancient blue dragon]] | 50% | 100% |
+| [[/Monsters/Black pudding]] | 50% | 66.7% |
+| [[/Monsters/Blue dragon]] | 50% | 100% |
+| [[/Monsters/Brown pudding]] | 50% | 33.3% |
+| [[/Monsters/Electric eel]] | 50% | 46.7% |
+| [[/Monsters/Flesh golem]] | 50% | 60.0% |
+| [[/Monsters/Gelatinous cube]] | 50% | 40.0% |
+| [[/Monsters/Mucilaginous cube]] | 50% | 100% |
+| [[/Monsters/Storm giant]] | 50% | 100% |
+| [[/Monsters/Tiamat]] | 50% | 100% |
 
 ## 🔮 3. Magic Resistance
 
