@@ -27,8 +27,10 @@ Immunity to bisection attacks (namely, [[/Artifacts/The Tsurugi of Muramasa]]).
 **Granted by Items:**
 - Adamantium body armor
 - Mithril body armor
-- [[/Artifacts/The Katana of Masamune]]
 - [[/Items/White dragon scale mail]]
+
+**Granted by Artifacts:**
+- [[/Artifacts/The Katana of Masamune]]
 
 ### 💖 Charm Resistance
 
@@ -45,8 +47,10 @@ Immunity to nymph stealing and seduction attacks.
 Immunity to cursing of items in the inventory.
 
 **Granted by Items:**
-- [[/Artifacts/Demonbane]]
 - [[/Items/Gown of the archbishops]]
+
+**Granted by Artifacts:**
+- [[/Artifacts/Demonbane]]
 - [[/Artifacts/Rhongomyniad]]
 - [[/Artifacts/The Mitre of Holiness]]
 
@@ -70,6 +74,8 @@ Immunity to death attacks.
 - [[/Items/Gown of the archbishops]]
 - [[/Items/Ring of protection from undeath]]
 - [[/Items/Staff of life]]
+
+**Granted by Artifacts:**
 - [[/Artifacts/The Staff of Aesculapius]]
 
 **Granted by Spells:**
@@ -110,12 +116,14 @@ Immunity to level drain attacks.
 **Granted by Items:**
 - [[/Items/Amulet versus undeath]]
 - [[/Items/Black dragon scale mail]]
-- [[/Artifacts/Excalibur]]
 - [[/Items/Gown of the archbishops]]
-- [[/Artifacts/Mournblade]]
 - [[/Items/Ring of protection from undeath]]
 - [[/Items/Staff of life]]
 - [[/Items/Staff of withering]]
+
+**Granted by Artifacts:**
+- [[/Artifacts/Excalibur]]
+- [[/Artifacts/Mournblade]]
 - [[/Artifacts/Stormbringer]]
 
 **Granted by Spells:**
@@ -130,6 +138,8 @@ Immunity to blinding attacks.
 
 **Granted by Items:**
 - [[/Items/Sunglasses]]
+
+**Granted by Artifacts:**
 - [[/Artifacts/Sunsword]]
 
 ### 🏃 Free Action
@@ -139,6 +149,8 @@ Immunity to paralysis attacks.
 **Granted by Items:**
 - [[/Items/Orange dragon scale mail]]
 - [[/Items/Ring of free action]]
+
+**Granted by Artifacts:**
 - [[/Artifacts/The Gauntlets of Yin and Yang]]
 - [[/Artifacts/The Mace of Saint Cuthbert]]
 
@@ -164,11 +176,13 @@ Immunity to acid attacks.
 Immunity to cold attacks, protects equipment.
 
 **Granted by Items:**
-- [[/Artifacts/Frost Brand]]
 - [[/Items/Ioun stone of cold resistance]]
 - [[/Items/Ring of cold resistance]]
 - [[/Items/White dragon scale mail]]
 - [[/Items/White dragon scales]]
+
+**Granted by Artifacts:**
+- [[/Artifacts/Frost Brand]]
 
 **Granted by Potions:**
 - [[/Items/Potion of cold immunity]]
@@ -181,11 +195,13 @@ Immunity to cold attacks, protects equipment.
 Immunity to fire attacks, protects equipment.
 
 **Granted by Items:**
-- [[/Artifacts/Fire Brand]]
 - [[/Items/Ioun stone of fire resistance]]
 - [[/Items/Red dragon scale mail]]
 - [[/Items/Red dragon scales]]
 - [[/Items/Ring of fire resistance]]
+
+**Granted by Artifacts:**
+- [[/Artifacts/Fire Brand]]
 - [[/Artifacts/The Mitre of Holiness]]
 
 **Granted by Potions:**
@@ -200,6 +216,8 @@ Immunity to magic missiles and striking.
 
 **Granted by Items:**
 - [[/Items/Bracers against magic missiles]]
+
+**Granted by Artifacts:**
 - [[/Artifacts/Rhongomyniad]]
 
 ### ⚡ Full Shock Resistance
@@ -223,8 +241,10 @@ Immunity to lightning attacks, protects equipment.
 Immunity to hallucination.
 
 **Granted by Items:**
-- [[/Artifacts/Grayswandir]]
 - [[/Items/Shirt of sound mindedness]]
+
+**Granted by Artifacts:**
+- [[/Artifacts/Grayswandir]]
 - [[/Artifacts/The Emerald Sword]]
 
 ### 🐺 Lycanthropy Resistance
@@ -264,6 +284,8 @@ Immunity to poison attacks.
 - [[/Items/Green dragon scale mail]]
 - [[/Items/Green dragon scales]]
 - [[/Items/Ring of poison resistance]]
+
+**Granted by Artifacts:**
 - [[/Artifacts/The Gladstone]]
 - [[/Artifacts/The Staff of Aesculapius]]
 
@@ -360,6 +382,8 @@ Immunity to sickness attacks, including *mummy rot*.
 **Granted by Items:**
 - [[/Items/Beak mask of sickness resistance]]
 - [[/Items/Green dragon scale mail]]
+
+**Granted by Artifacts:**
 - [[/Artifacts/The Kusanagi]]
 - [[/Artifacts/The Staff of Aesculapius]]
 
@@ -590,9 +614,11 @@ Additionally, unique monsters are shielded from *cancellation spells and effects
 - [[/Items/Cloak of magic resistance]]
 - [[/Items/Gray dragon scale mail]]
 - [[/Items/Ioun stone of magic resistance]]
-- [[/Artifacts/Magicbane]]
 - Orichalcum body armor
 - [[/Items/Robe of magic resistance]]
+
+**Granted by Artifacts:**
+- [[/Artifacts/Magicbane]]
 - [[/Artifacts/Ruby Rod of Asmodeus]]
 - [[/Artifacts/The Ark of the Covenant]]
 - [[/Artifacts/The Eye of the Aethiopica]]
@@ -801,9 +827,11 @@ Reflection gives a complete immunity to ray attacks, such as most wands and drag
 - [[/Items/Amulet of reflection]]
 - [[/Items/Bracers of reflection]]
 - Crystal body armor
-- [[/Artifacts/Dragonbane]]
 - [[/Items/Shield of reflection]]
 - [[/Items/Silver dragon scale mail]]
+
+**Granted by Artifacts:**
+- [[/Artifacts/Dragonbane]]
 - [[/Artifacts/The Emerald Sword]]
 - [[/Artifacts/The Magic Mirror of Merlin]]
 
