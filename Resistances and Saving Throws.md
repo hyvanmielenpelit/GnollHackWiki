@@ -843,5 +843,3 @@ Reflection gives a complete immunity to ray attacks, such as most wands and drag
 Generally, *magic resistance* and *reflection* are considered most important to get for a player. However, *poison resistance*, *sleep resistance*, *free action*, and *death resistance* are generally very important as well, because they can shield you from some insta-death attacks and situations. Additionally, *drain resistance* is important against some level-draining undead.
 
 It is also important to note that **polymorphing into a monster inherently grants you many of its resistances**, making it a powerful way to temporarily gain immunities you lack from items.
-
-Full elemental resistances are also useful against some item-destruction effects (such as shocking spheres) but are generally not considered as must-haves.
