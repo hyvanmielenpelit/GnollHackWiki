@@ -28,18 +28,12 @@ Immunity to bisection attacks (namely, [[/Artifacts/The Tsurugi of Muramasa]]).
 - [[/Artifacts/The Katana of Masamune]]
 - [[/Items/White dragon scale mail]]
 
-**Granted by Corpses:**
-- None
-
 ### 💖 Charm Resistance
 
 Immunity to nymph stealing and seduction attacks.
 
 **Granted by Items:**
 - [[/Items/Eyeglasses of awkwardness]]
-
-**Granted by Corpses:**
-- None
 
 ### 🖤 Curse Resistance
 
@@ -50,8 +44,9 @@ Immunity to cursing of items in the inventory.
 - [[/Items/Gown of the archbishops]]
 - [[/Artifacts/Rhongomyniad]]
 
-**Granted by Corpses:**
-- None
+**Granted by Classes:**
+- [[/Roles/Knight]] (level 19)
+- [[/Roles/Priest]] (level 16)
 
 ### 💀 Death Resistance
 
@@ -63,8 +58,8 @@ Immunity to death attacks.
 - [[/Items/Gown of the archbishops]]
 - [[/Items/Ring of protection from undeath]]
 
-**Granted by Corpses:**
-- None
+**Granted by Classes:**
+- [[/Roles/Priest]] (level 19)
 
 ### 💥 Disintegration Resistance
 
@@ -96,9 +91,6 @@ Immunity to level drain attacks.
 - [[/Artifacts/Triple-Headed Flail of Yeenaghu]]
 - [[/Artifacts/Wand of Orcus]]
 
-**Granted by Corpses:**
-- None
-
 ### 🕶️ Flash Resistance
 
 Immunity to blinding attacks.
@@ -106,9 +98,6 @@ Immunity to blinding attacks.
 **Granted by Items:**
 - [[/Items/Sunglasses]]
 - [[/Artifacts/Sunsword]]
-
-**Granted by Corpses:**
-- None
 
 ### 🏃 Free Action
 
@@ -119,8 +108,8 @@ Immunity to paralysis attacks.
 - [[/Items/Ring of free action]]
 - [[/Artifacts/The Mace of Saint Cuthbert]]
 
-**Granted by Corpses:**
-- None
+**Granted by Races:**
+- [[/Races/Elf]] (level 6)
 
 ### 🧪 Full Acid Resistance
 
@@ -129,9 +118,6 @@ Immunity to acid attacks.
 **Granted by Items:**
 - [[/Items/Yellow dragon scale mail]]
 - [[/Items/Yellow dragon scales]]
-
-**Granted by Corpses:**
-- None
 
 ### ❄️ Full Cold Resistance
 
@@ -144,8 +130,8 @@ Immunity to cold attacks, protects equipment.
 - [[/Items/White dragon scale mail]]
 - [[/Items/White dragon scales]]
 
-**Granted by Corpses:**
-- None
+**Granted by Classes:**
+- [[/Roles/Valkyrie]] (level 1)
 
 ### 🔥 Full Fire Resistance
 
@@ -159,9 +145,6 @@ Immunity to fire attacks, protects equipment.
 - [[/Items/Ring of fire resistance]]
 - [[/Artifacts/The Mitre of Holiness]]
 
-**Granted by Corpses:**
-- None
-
 ### 🔮 Full Magic Missile Resistance
 
 Immunity to magic missiles and striking.
@@ -169,9 +152,6 @@ Immunity to magic missiles and striking.
 **Granted by Items:**
 - [[/Items/Bracers against magic missiles]]
 - [[/Artifacts/Rhongomyniad]]
-
-**Granted by Corpses:**
-- None
 
 ### ⚡ Full Shock Resistance
 
@@ -183,8 +163,8 @@ Immunity to lightning attacks, protects equipment.
 - [[/Items/Ioun stone of shock resistance]]
 - [[/Items/Ring of shock resistance]]
 
-**Granted by Corpses:**
-- None
+**Granted by Classes:**
+- [[/Roles/Valkyrie]] (level 15)
 
 ### 🌈 Hallucination Resistance
 
@@ -194,18 +174,15 @@ Immunity to hallucination.
 - [[/Artifacts/Grayswandir]]
 - [[/Items/Shirt of sound mindedness]]
 
-**Granted by Corpses:**
-- None
-
 ### 🐺 Lycanthropy Resistance
 
 Immunity to lycanthropy.
 
-**Granted by Items:**
-- None
+**Granted by Classes:**
+- [[/Roles/Healer]] (level 7)
 
-**Granted by Corpses:**
-- None
+**Granted by Races:**
+- [[/Races/Gnoll]] (level 1)
 
 ### 🧠 Mind Shielding
 
@@ -213,9 +190,6 @@ Immunity to telepathic attacks of tentacled ones.
 
 **Granted by Items:**
 - [[/Items/Tinfoil hat of mind shielding]]
-
-**Granted by Corpses:**
-- None
 
 ### ☠️ Poison Resistance
 
@@ -288,15 +262,21 @@ Immunity to poison attacks.
 - [[/Monsters/Xan]]
 - [[/Monsters/Yellow mold]]
 
+**Granted by Classes:**
+- [[/Roles/Barbarian]] (level 1)
+- [[/Roles/Healer]] (level 1)
+- [[/Roles/Monk]] (level 7)
+- [[/Roles/Tourist]] (level 19)
+
+**Granted by Races:**
+- [[/Races/Orc]] (level 1)
+
 ### 🌀 Polymorph Resistance
 
 Immunity to polymorph traps.
 
 **Granted by Items:**
 - [[/Items/Ring of protection from shape changers]]
-
-**Granted by Corpses:**
-- None
 
 ### 🤢 Sickness Resistance
 
@@ -308,8 +288,9 @@ Immunity to sickness attacks, including *mummy rot*.
 - [[/Artifacts/The Kusanagi]]
 - [[/Artifacts/The Staff of Aesculapius]]
 
-**Granted by Corpses:**
-- None
+**Granted by Classes:**
+- [[/Roles/Healer]] (level 14)
+- [[/Roles/Tourist]] (level 14)
 
 ### 💤 Sleep Resistance
 
@@ -335,15 +316,18 @@ Immunity to sleep attacks.
 - [[/Monsters/Tiamat]]
 - [[/Monsters/Woodland-elf]]
 
+**Granted by Classes:**
+- [[/Roles/Monk]] (level 1)
+
+**Granted by Races:**
+- [[/Races/Elf]] (level 3)
+
 ### 🦠 Sliming Resistance
 
 Immunity to sliming attacks (namely, the green slime).
 
 **Granted by Items:**
 - [[/Items/Red dragon scale mail]]
-
-**Granted by Corpses:**
-- None
 
 ### 🪨 Stoning Resistance
 
@@ -352,9 +336,6 @@ Immunity to petrification attacks.
 **Granted by Items:**
 - [[/Items/Amulet versus petrification]]
 - [[/Items/Yellow dragon scale mail]]
-
-**Granted by Corpses:**
-- None
 
 ## 🛡️ 2. Partial Resistances
 
@@ -441,9 +422,6 @@ Reduces magic missile and striking damage.
 - [[/Items/Brooch of shielding]] (75%)
 - [[/Items/Gray dragon scale mail]] (50%)
 - [[/Items/Gray dragon scales]] (50%)
-
-**Granted by Corpses:**
-- None
 
 ### ⚡ 50% or 75% Shock Resistance
 
