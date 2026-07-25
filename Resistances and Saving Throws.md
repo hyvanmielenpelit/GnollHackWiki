@@ -35,6 +35,9 @@ Immunity to nymph stealing and seduction attacks.
 **Granted by Items:**
 - [[/Items/Eyeglasses of awkwardness]]
 
+**Granted by Spells:**
+- [[/Spells/Protection from charm]]
+
 ### 🖤 Curse Resistance
 
 Immunity to cursing of items in the inventory.
@@ -43,6 +46,10 @@ Immunity to cursing of items in the inventory.
 - [[/Artifacts/Demonbane]]
 - [[/Items/Gown of the archbishops]]
 - [[/Artifacts/Rhongomyniad]]
+- [[/Artifacts/The Mitre of Holiness]]
+
+**Granted by Spells:**
+- [[/Spells/Protection from curses]]
 
 **Granted by Classes:**
 
@@ -61,6 +68,10 @@ Immunity to death attacks.
 - [[/Items/Gown of the archbishops]]
 - [[/Items/Ring of protection from undeath]]
 - [[/Items/Staff of life]]
+- [[/Artifacts/The Staff of Aesculapius]]
+
+**Granted by Spells:**
+- [[/Spells/Protection from death magic]]
 
 **Granted by Classes:**
 
@@ -78,6 +89,9 @@ Immunity to disintegration attacks.
 - [[/Items/Black dragon scale mail]]
 - [[/Items/Black dragon scales]]
 - [[/Items/Cloak of integrity]]
+
+**Granted by Spells:**
+- [[/Spells/Protection from disintegration]]
 
 **Granted by Corpses:**
 
@@ -104,6 +118,9 @@ Immunity to level drain attacks.
 
 **Granted by Spells:**
 - [[/Spells/Protection from life draining]]
+
+**Granted by Conditions:**
+- Lycanthropy
 
 ### 🕶️ Flash Resistance
 
@@ -242,6 +259,9 @@ Immunity to poison attacks.
 - [[/Artifacts/The Gladstone]]
 - [[/Artifacts/The Staff of Aesculapius]]
 
+**Granted by Spells:**
+- [[/Spells/Protection from poison]]
+
 **Granted by Corpses:**
 
 | Monster | Conveyance Chance |
@@ -335,6 +355,9 @@ Immunity to sickness attacks, including *mummy rot*.
 - [[/Artifacts/The Kusanagi]]
 - [[/Artifacts/The Staff of Aesculapius]]
 
+**Granted by Spells:**
+- [[/Spells/Protection from sickness]]
+
 **Granted by Classes:**
 
 | Class | Level |
@@ -395,6 +418,9 @@ Immunity to petrification attacks.
 **Granted by Items:**
 - [[/Items/Amulet versus petrification]]
 - [[/Items/Yellow dragon scale mail]]
+
+**Granted by Spells:**
+- [[/Spells/Protection from petrification]]
 
 ## 🛡️ 2. Partial Resistances
 
@@ -552,12 +578,12 @@ Additionally, unique monsters are shielded from *cancellation spells and effects
 
 ### 🛡️ Sources of Magic Resistance
 
-You can get Magic Resistance from the following extrinsic items:
-
+**Granted by Items:**
 - [[/Items/Cloak of magic resistance]]
 - [[/Items/Gray dragon scale mail]]
 - [[/Items/Ioun stone of magic resistance]]
 - [[/Artifacts/Magicbane]]
+- Orichalcum body armor
 - [[/Items/Robe of magic resistance]]
 - [[/Artifacts/Ruby Rod of Asmodeus]]
 - [[/Artifacts/The Ark of the Covenant]]
@@ -567,6 +593,12 @@ You can get Magic Resistance from the following extrinsic items:
 - [[/Artifacts/The Platinum Yendorian Express Card]]
 - [[/Artifacts/The Rod of Disjunction]]
 - [[/Artifacts/The Sceptre of Might]]
+
+**Granted by Potions:**
+- [[/Items/Potion of magic resistance]]
+
+**Granted by Spells:**
+- [[/Spells/Anti-magic shell]]
 
 ### ⚠️ Nerfs to Magic Resistance
 
@@ -622,7 +654,6 @@ Magic resistance does *not* protect you from:
 
 Magic Cancellation protects you from *magical or semi-magical touch attacks*. You get Magic Cancellation (MC) from armor. Contrary to NetHack, it stacks and the effect is on the scale 0–25, which gives you a % chance to resist magical or semi-magical touch attacks. The chance is listed in the status bar. MC protects you from:
 
-- Confusion touch attacks
 - Disenchantment touch attacks
 - Drain energy (mana) touch attacks
 - Life drain attacks (which drain an experience level)
@@ -635,7 +666,6 @@ Magic Cancellation protects you from *magical or semi-magical touch attacks*. Yo
 - Sliming touch attacks
 - Slow touch attacks
 - Stat drain touch attacks (strength, dexterity, and constitution)
-- Steal amulet and steal gold touch attacks
 - Stoning (petrification) touch attacks
 - Stun touch attacks
 - Teleportation touch attacks
@@ -685,7 +715,7 @@ When you enchant an armor, you get +1 MC for every +3 enchantment. Therefore, it
 
 ### 🧠 Intelligence Drain Attacks
 
-Magic Cancellation does *not* protect you from the **intelligence drain attacks of tentacled ones**. Instead, you need a helmet to block 90% of these attacks. Additionally, you can wear a [[/Items/nose ring of cerebral safeguarding]] or a [[/Items/ring of sustain ability]] to become immune to the intelligence drain attacks.
+Magic Cancellation does *not* protect you from the **intelligence drain attacks of tentacled ones**. Instead, you need a helmet to block 87.5% of these attacks. Additionally, you can wear a [[/Items/nose ring of cerebral safeguarding]] or a [[/Items/ring of sustain ability]] to become immune to the intelligence drain attacks.
 
 Note that the intelligence drain attacks also cause *amnesia*, which makes you forget items' identification, spells, and the layout of dungeon levels.
 
@@ -717,15 +747,28 @@ Reflection gives a complete immunity to ray attacks, such as most wands and drag
 
 ### 🛡️ Sources of Reflection
 
-You can get Reflection from the following extrinsic items:
-
+**Granted by Items:**
 - [[/Items/Amulet of reflection]]
 - [[/Items/Bracers of reflection]]
+- Crystal body armor
 - [[/Artifacts/Dragonbane]]
 - [[/Items/Shield of reflection]]
 - [[/Items/Silver dragon scale mail]]
 - [[/Artifacts/The Emerald Sword]]
 - [[/Artifacts/The Magic Mirror of Merlin]]
+
+**Granted by Spells:**
+- [[/Spells/Reflection]]
+
+**Granted by Monster Forms:**
+- [[/Monsters/Ancient gold dragon]]
+- [[/Monsters/Ancient silver dragon]]
+- [[/Monsters/Elder dracolich]]
+- [[/Monsters/Elder gazer]]
+- [[/Monsters/Elder treant]]
+- [[/Monsters/Gold dragon]]
+- [[/Monsters/Silver dragon]]
+- [[/Monsters/Silver golem]]
 
 ## 💡 Advice on Getting Resistances
 
