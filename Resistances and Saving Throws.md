@@ -5,6 +5,7 @@
 ## 📖 Overview
 
 GnollHack has seven kinds of resistances to magical attacks:
+
 1. Full Resistances
 2. Partial Resistances
 3. Magic Resistance
@@ -16,9 +17,6 @@ GnollHack has seven kinds of resistances to magical attacks:
 These resistances work similarly for players and monsters with small differences.
 
 ## 🛡️ 1. Full Resistances
-
-Full resistances completely protect you from the specific elemental or magical attack. Extrinsic properties are granted by equipment, while intrinsic properties can be permanently gained by eating specific monster corpses.
-
 
 ### ⚔️ Bisection Resistance
 
@@ -341,7 +339,6 @@ Immunity to petrification attacks.
 
 Partial resistances reduce the elemental damage you take by a percentage and offer a chance to protect your equipment.
 
-
 ### 🧪 50% or 75% Acid Resistance
 
 Reduces acid damage.
@@ -445,6 +442,7 @@ Reduces lightning damage, chance to protect equipment.
 ## 🔮 3. Magic Resistance
 
 Magic Resistance is very important to get in GnollHack, preferably before dungeon level 8, when polymorph traps start to appear. It protects you from the following things:
+
 - Polymorph traps
 - Some other polymorph effects *(see below)*
 - Anti-magic traps
@@ -473,6 +471,7 @@ You can get Magic Resistance from the following extrinsic items:
 ### ⚠️ Nerfs to Magic Resistance
 
 Contrary to NetHack, Magic Resistance does not protect you from:
+
 - **Death attacks** — such as the Finger of Death spell, or the [[/Items/wand of death]]
     - You need *Death Resistance* to be safe from death attacks
 - **Magic missiles** — such as the Magic Missile spell, or the [[/Items/wand of magic missile]]
@@ -493,23 +492,27 @@ However, monsters' Magic Resistance has a percentage chance to work. The magic r
 **Cancellation attacks** prevent players and monsters from using *spells* and *wands*. 
 
 They can be resisted as follows:
+
 - **Cancellation spell or effect** against a normal monster bypasses magic resistance and has a 100% chance to work. However, unique monsters are still shielded from cancellation by magic resistance.
 - **Disjunction spell or effect** bypasses every monster's magic resistance, including unique ones, and thus has always a 100% chance to work.
 - **Cancellation attacks against a player**, such as the gaze attack of a [[/Monsters/gazer]], bypass magic resistance and have a 100% chance to work.
 
 Additionally, it is good to remember the following things about cancellation:
+
 - If you zap a [[/Items/wand of cancellation]] or cast a *cancellation spell* at yourself or at items, it will set items' beatitude to Uncursed, set the enchantment to +0, make most potions into water, blank scrolls and spellbooks, and set items' charges to 0.
 - Putting a [[/Items/wand of cancellation]] into a [[/Items/bag of holding]] will destroy the bag.
 
 ### 🐺 Polymorph and Magic Resistance
 
 Magic resistance protects from:
+
 - [[/Items/wand of polymorph]] zapped at monsters
 - Polymorph traps
 - [[/Spells/Polymorph other]] spell cast at monsters
 - Polymorph from being hit with a wielded [[/Items/potion of polymorph]]
 
 Magic resistance does *not* protect you from:
+
 - Polymorph from [[/Items/ring of polymorph]]
 - [[/Items/wand of polymorph]] zapped at yourself
 - [[/Spells/Polymorph other]] spell cast at yourself
@@ -518,6 +521,7 @@ Magic resistance does *not* protect you from:
 ## 🛡️ 4. Magic Cancellation
 
 Magic Cancellation protects you from *magical or semi-magical touch attacks*. You get Magic Cancellation (MC) from armor. Contrary to NetHack, it stacks and the effect is on the scale 0–25, which gives you a % chance to resist magical or semi-magical touch attacks. The chance is listed in the status bar. MC protects you from:
+
 - Confusion touch attacks
 - Disenchantment touch attacks
 - Drain energy (mana) touch attacks
@@ -614,6 +618,7 @@ Reflection gives a complete immunity to ray attacks, such as most wands and drag
 ### 🛡️ Sources of Reflection
 
 You can get Reflection from the following extrinsic items:
+
 - [[/Items/amulet of reflection]]
 - [[/Items/bracers of reflection]]
 - [[/Artifacts/Dragonbane]]
