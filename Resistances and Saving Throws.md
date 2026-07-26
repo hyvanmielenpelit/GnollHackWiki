@@ -801,6 +801,8 @@ $-30\% + 5\% \times \text{Wisdom}$
 
 ### Spell Skill Modifiers
 
+The caster's proficiency in the relevant spell school modifies the target's chance to resist. Higher skill levels make the spell harder to resist, while lower skill levels grant the target a bonus.
+
 | Skill Level | Saving Throw Modifier |
 | :--- | :---: |
 | **Unskilled** | +15% |
@@ -812,6 +814,8 @@ $-30\% + 5\% \times \text{Wisdom}$
 
 ### Wand Skill Modifiers
 
+When a wand is used, the user's Wand skill level applies a penalty to the target's saving throw, making wands more reliable at higher skill levels.
+
 | Skill Level | Saving Throw Modifier |
 | :--- | :---: |
 | **Basic** | -10% |
@@ -820,7 +824,9 @@ $-30\% + 5\% \times \text{Wisdom}$
 
 ### Lowered Magic Resistance Penalties
 
-| Magic Resistance | Saving Throw Penalty |
+If a target's Magic Resistance has been lowered or depleted, they suffer severe penalties to all ability-based saving throws, making them significantly more vulnerable.
+
+| Magic Resistance Status | Saving Throw Penalty |
 | :---: | :---: |
 | **Full** | 0% |
 | **3/4** | -20% |
@@ -864,9 +870,11 @@ $-30\% + 5\% \times \text{Constitution}$
 | **21** | 75% |
 | **25** | 95% |
 
-*(Note: The Holy Word spell checks against the Constitution of the target to determine if it is affected, just like other constitution-based saving throws).*
+*(Note: The [[/Spells/Holy Word]] spell checks against the Constitution of the target to determine if it is affected, just like other constitution-based saving throws).*
 
 ### Spell Skill Modifiers
+
+The caster's proficiency in the relevant spell school modifies the target's chance to resist. Higher skill levels make the spell harder to resist, while lower skill levels grant the target a bonus.
 
 | Skill Level | Saving Throw Modifier |
 | :--- | :---: |
@@ -934,6 +942,6 @@ Reflection gives a complete immunity to ray attacks, such as most wands and drag
 
 ## 💡 Advice on Getting Resistances
 
-Generally, *magic resistance* and *reflection* are considered most important to get for a player. However, *poison resistance*, *sleep resistance*, *free action*, and *death resistance* are generally very important as well, because they can shield you from some insta-death attacks and situations. Additionally, *drain resistance* is important against some level-draining undead.
+Generally, [[magic resistance|#3-magic-resistance]] and [[reflection|#9-reflection]] are considered most important to get for a player. However, [[poison resistance|#poison-resistance]], [[sleep resistance|#sleep-resistance]], [[free action|#free-action]], and [[death resistance|#death-resistance]] are generally very important as well, because they can shield you from some insta-death attacks and situations. Additionally, [[drain resistance|#drain-resistance]] is important against some level-draining undead.
 
-It is also important to note that **polymorphing into a monster inherently grants you many of its resistances**, making it a powerful way to temporarily gain immunities you lack from items.
+It is also important to note that **polymorphing into a monster inherently grants you many of its resistances**.
