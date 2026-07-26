@@ -57,13 +57,13 @@ Magic resistance protects the player from the effects of certain traps:
 Contrary to NetHack, Magic Resistance does not protect you from:
 
 - **Death attacks** — such as the [[/Spells/Finger of death]] spell, or the [[/Items/wand of death]]
-    - You need [[death resistance|#death-resistance]] to be safe from death attacks
+    - You need [[death resistance|Full Resistances#death-resistance]] to be safe from death attacks
 - **Magic missiles** — such as the [[/Spells/Magic missile]] spell, or the [[/Items/wand of magic missile]]
-    - You need [[full magic missile resistance|#full-magic-missile-resistance]] to be immune to magic missiles
+    - You need [[full magic missile resistance|Full Resistances#full-magic-missile-resistance]] to be immune to magic missiles
 - **Striking** — such as the [[/Spells/Force bolt]] spell or the [[/Items/wand of striking]]
-    - You need [[full magic missile resistance|#full-magic-missile-resistance]] to be immune to striking
+    - You need [[full magic missile resistance|Full Resistances#full-magic-missile-resistance]] to be immune to striking
 - **Curses** — Magic Resistance used to halve the effect of incoming curses, but it does not do so anymore
-    - You need [[curse resistance|#curse-resistance]] to be immune to cursing
+    - You need [[curse resistance|Full Resistances#curse-resistance]] to be immune to cursing
 
 ## 🎲 Chance to Work
 
