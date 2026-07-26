@@ -32,7 +32,7 @@ Items can have two tiles:
 
 ##### Example: Fedora Main Tile
 
-![Fedora Main Tile](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Objects/armor/fedora/armor_fedora.png?raw=true)
+![Fedora Main Tile](/uploads/Art%20Contribution%20Guidelines/armor_fedora.webp)
 
 #### Floor Tile
 
@@ -43,7 +43,7 @@ Items can have two tiles:
 
 ##### Example: Fedora Floor Tile
 
-![Fedora Floor Tile](https://github.com/hyvanmielenpelit/GnollHackTileSet/blob/main/Objects/armor/fedora/armor_fedora_floor.png?raw=true)
+![Fedora Floor Tile](/uploads/Art%20Contribution%20Guidelines/armor_fedora_floor.webp)
 
 #### Notes
 
