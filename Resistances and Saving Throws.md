@@ -672,7 +672,7 @@ Additionally, it is good to remember the following things about cancellation:
 
 Magic resistance protects from:
 
-- [[/Items/wand of polymorph]] zapped at monsters
+- [[/Items/Wand of polymorph]] zapped at monsters
 - Polymorph traps
 - [[/Spells/Polymorph other]] spell cast at monsters
 - Polymorph from being hit with a wielded [[/Items/potion of polymorph]]
@@ -680,7 +680,7 @@ Magic resistance protects from:
 Magic resistance does *not* protect you from:
 
 - Polymorph from [[/Items/ring of polymorph]]
-- [[/Items/wand of polymorph]] zapped at yourself
+- [[/Items/Wand of polymorph]] zapped at yourself
 - [[/Spells/Polymorph other]] spell cast at yourself
 - Polymorph from drinking a [[/Items/potion of polymorph]]
 
