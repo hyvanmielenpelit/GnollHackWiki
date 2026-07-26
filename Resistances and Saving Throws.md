@@ -61,7 +61,7 @@ Immunity to cursing of items in the inventory.
 
 | Affix | Type | Item Type |
 | :--- | :---: | :--- |
-| Hallowed | Prefix | Armor |
+| **Hallowed** | Prefix | Armor |
 
 **Granted by Classes:**
 
@@ -91,7 +91,7 @@ Immunity to death attacks.
 
 | Affix | Type | Item Type |
 | :--- | :---: | :--- |
-| Stygian | Prefix | Armor |
+| **Stygian** | Prefix | Armor |
 
 **Granted by Classes:**
 
@@ -145,7 +145,7 @@ Immunity to level drain attacks.
 
 | Affix | Type | Item Type |
 | :--- | :---: | :--- |
-| Stygian | Prefix | Armor |
+| **Stygian** | Prefix | Armor |
 
 **Granted by Conditions:**
 - Lycanthropy
@@ -176,7 +176,7 @@ Immunity to paralysis attacks.
 
 | Affix | Type | Item Type |
 | :--- | :---: | :--- |
-| of free action | Suffix | Armor and Weapons |
+| **of free action** | Suffix | Armor and Weapons |
 
 **Granted by Races:**
 
@@ -218,8 +218,8 @@ Immunity to cold attacks, protects equipment.
 
 | Affix | Type | Item Type |
 | :--- | :---: | :--- |
-| of cold resistance | Suffix | Armor |
-| of elemental protection | Suffix | Armor |
+| **of cold resistance** | Suffix | Armor |
+| **of elemental protection** | Suffix | Armor |
 
 ### 🔥 Full Fire Resistance
 
@@ -245,8 +245,8 @@ Immunity to fire attacks, protects equipment.
 
 | Affix | Type | Item Type |
 | :--- | :---: | :--- |
-| of fire resistance | Suffix | Armor |
-| of elemental protection | Suffix | Armor |
+| **of fire resistance** | Suffix | Armor |
+| **of elemental protection** | Suffix | Armor |
 
 ### 🔮 Full Magic Missile Resistance
 
@@ -278,8 +278,8 @@ Immunity to lightning attacks, protects equipment.
 
 | Affix | Type | Item Type |
 | :--- | :---: | :--- |
-| of shock resistance | Suffix | Armor |
-| of elemental protection | Suffix | Armor |
+| **of shock resistance** | Suffix | Armor |
+| **of elemental protection** | Suffix | Armor |
 
 ### 🌈 Hallucination Resistance
 
@@ -315,7 +315,7 @@ Immunity to lycanthropy.
 
 | Affix | Type | Item Type |
 | :--- | :---: | :--- |
-| of lycanthrope slaying | Suffix | Weapons |
+| **of lycanthrope slaying** | Suffix | Weapons |
 
 ### 🧠 Mind Shielding
 
@@ -509,7 +509,7 @@ Immunity to petrification attacks.
 
 | Affix | Type | Item Type |
 | :--- | :---: | :--- |
-| of cockatrice slaying | Suffix | Weapons |
+| **of cockatrice slaying** | Suffix | Weapons |
 
 ## 🛡️ 2. Partial Resistances
 
@@ -747,24 +747,24 @@ Magic Cancellation protects you from *magical or semi-magical touch attacks*. Yo
 
 | Touch attack | Examples of monsters | Notes |
 | :--- | :--- | :--- |
-| Disenchantment | [[/Monsters/Disenchanter]] | |
-| Drain energy | [[/Monsters/Energy vortex]] | Drains mana |
-| Life drain | [[/Monsters/Vampire]] |  Drains an experience level |
-| Lycanthropy | [[/Monsters/Werewolf]] |  |
-| Mummy rot | [[/Monsters/Human mummy]] |  |
-| Nymph stealing | [[/Monsters/Wood nymph]] | Nymphs' touch attack gives a big penalty to MC, so it has a bigger than normal chance to work. |
-| Paralysis | [[/Monsters/Gelatinous cube]] |  |
-| Seduction | [[Incubus and Succubus|/Monsters/Incubus]] |  |
-| Sleep | [[/Monsters/Homunculus]] |  |
-| Sliming | [[/Monsters/Green slime]] |  |
-| Slow | [[/Monsters/Shade]] |  |
-| Stat drain | [[/Monsters/Quasit]] | [[Strength]], [[Dexterity]], and [[Constitution]] |
-| Steal gold | [[/Monsters/Leprechaun]] |  |
-| Stoning | [[/Monsters/Cockatrice]] | Petrification |
-| Stun | [[/Monsters/Abbot]] |  |
-| Teleportation | [[/Monsters/Quantum mechanic]] |  |
-| Terminal illness | [[/Monsters/Otyugh]] |  |
-| Wound legs | [[/Monsters/Xan]] |  |
+| **Disenchantment** | [[/Monsters/Disenchanter]] | |
+| **Drain energy** | [[/Monsters/Energy vortex]] | Drains mana |
+| **Life drain** | [[/Monsters/Vampire]] |  Drains an experience level |
+| **Lycanthropy** | [[/Monsters/Werewolf]] |  |
+| **Mummy rot** | [[/Monsters/Human mummy]] |  |
+| **Nymph stealing** | [[/Monsters/Wood nymph]] | Nymphs' touch attack gives a big penalty to MC, so it has a bigger than normal chance to work. |
+| **Paralysis** | [[/Monsters/Gelatinous cube]] |  |
+| **Seduction** | [[Incubus and Succubus|/Monsters/Incubus]] |  |
+| **Sleep** | [[/Monsters/Homunculus]] |  |
+| **Sliming** | [[/Monsters/Green slime]] |  |
+| **Slow** | [[/Monsters/Shade]] |  |
+| **Stat drain** | [[/Monsters/Quasit]] | [[Strength]], [[Dexterity]], and [[Constitution]] |
+| **Steal gold** | [[/Monsters/Leprechaun]] |  |
+| **Stoning** | [[/Monsters/Cockatrice]] | Petrification |
+| **Stun** | [[/Monsters/Abbot]] |  |
+| **Teleportation** | [[/Monsters/Quantum mechanic]] |  |
+| **Terminal illness** | [[/Monsters/Otyugh]] |  |
+| **Wound legs** | [[/Monsters/Xan]] |  |
 
 ### ⚠️ Attacks that Bypass Magic Cancellation
 
@@ -772,15 +772,15 @@ The following touch attacks bypass Magic Cancellation completely:
 
 | Touch attack | Examples of monsters |
 | :--- | :--- |
-| Elemental (fire, cold, shock) | [[/Monsters/Fire elemental]] |
-| Mimic grabbing and sticking | [[/Monsters/Small mimic]] |
-| Snake constriction | [[/Monsters/Giant anaconda]] |
-| Eel drowning | [[/Monsters/Giant eel]] |
-| Armor-damaging (rust, corrode, decay) | [[/Monsters/Rust monster]], [[/Monsters/Black pudding]], [[/Monsters/Brown pudding]] |
-| Acid | [[/Monsters/Spotted jelly]] |
-| Intrinsic stealing | [[/Monsters/Gremlin]] |
-| Riders | [[/Monsters/Death]], [[/Monsters/Pestilence]], [[/Monsters/Famine]] |
-| Healing | [[/Monsters/Nurse]] |
+| **Elemental (fire, cold, shock)** | [[/Monsters/Fire elemental]] |
+| **Mimic grabbing and sticking** | [[/Monsters/Small mimic]] |
+| **Snake constriction** | [[/Monsters/Giant anaconda]] |
+| **Eel drowning** | [[/Monsters/Giant eel]] |
+| **Armor-damaging (rust, corrode, decay)** | [[/Monsters/Rust monster]], [[/Monsters/Black pudding]], [[/Monsters/Brown pudding]] |
+| **Acid** | [[/Monsters/Spotted jelly]] |
+| **Intrinsic stealing** | [[/Monsters/Gremlin]] |
+| **Riders** | [[/Monsters/Death]], [[/Monsters/Pestilence]], [[/Monsters/Famine]] |
+| **Healing** | [[/Monsters/Nurse]] |
 
 Note that **intelligence drain attacks** also bypass Magic Cancellation ([[see below|#intelligence-drain-attacks]]).
 
@@ -790,32 +790,32 @@ The Magic Cancellation formula is the following:
 
 | MC | Chance to Resist |
 |:--:| :--------------: |
-| 0 | 0% |
-| 1 | 10% |
-| 2 | 20% |
-| 3 | 30% |
-| 4 | 40% |
-| 5 | 50% |
-| 6 | 55% |
-| 7 | 60% |
-| 8 | 65% |
-| 9 | 70% |
-| 10 | 75% |
-| 11 | 80% |
-| 12 | 82% |
-| 13 | 84% |
-| 14 | 86% |
-| 15 | 88% |
-| 16 | 90% |
-| 17 | 91% |
-| 18 | 92% |
-| 19 | 93% |
-| 20 | 94% |
-| 21 | 95% |
-| 22 | 96% |
-| 23 | 97% |
-| 24 | 98% |
-| 25 and above | 99% |
+| **0** | 0% |
+| **1** | 10% |
+| **2** | 20% |
+| **3** | 30% |
+| **4** | 40% |
+| **5** | 50% |
+| **6** | 55% |
+| **7** | 60% |
+| **8** | 65% |
+| **9** | 70% |
+| **10** | 75% |
+| **11** | 80% |
+| **12** | 82% |
+| **13** | 84% |
+| **14** | 86% |
+| **15** | 88% |
+| **16** | 90% |
+| **17** | 91% |
+| **18** | 92% |
+| **19** | 93% |
+| **20** | 94% |
+| **21** | 95% |
+| **22** | 96% |
+| **23** | 97% |
+| **24** | 98% |
+| **25 and above** | 99% |
 
 ### 📉 Modifiers to Magic Cancellation
 
