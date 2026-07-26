@@ -4,4 +4,4 @@ You can find it in the Settings app under **Privacy → Analytics & Improvements
 - **Share iPhone/iPad Analytics**
 - **Share With App Developers**.
 
-![Share with App Developers](https://images.gnollhack.com/ios/sharewithappdevelopers.png)
+![Share with App Developers](/uploads/Enable%20Share%20iPhone%20%E2%88%95%20iPad%20Analytics%20with%20App%20Developers/sharewithappdevelopers.webp)

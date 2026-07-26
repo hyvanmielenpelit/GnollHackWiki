@@ -21,18 +21,18 @@ macOS does not have up-to-date `xterm` support, and therefore you probably need 
 
 Login to the public server using the `ssh` command in the Terminal app. After you have logged in, select a game to play, and then select 'd' to go to the default options menu:
 
-![Game Menu](https://images.gnollhack.com/wiki/Curses/interface2/gamemenu-red.png)
+![Game Menu](/uploads/Activating%20Curses%20Interface%20on%20Public%20Servers%20for%20macOS%20Terminal/gamemenu-red.webp)
 
 Then, select 'c' to go to the Curses interface defaults menu:
 
-![Defaults Menu](https://images.gnollhack.com/wiki/Curses/interface2/defaults-menu-red.png)
+![Defaults Menu](/uploads/Activating%20Curses%20Interface%20on%20Public%20Servers%20for%20macOS%20Terminal/defaults-menu-red.webp)
 
 Finally, select 's' to set the defaults to ones that work with the `ssh` command (OpenSSH):
 
-![Defaults Menu](https://images.gnollhack.com/wiki/Curses/interface2/curses-defaults-menu-red-ssh.png)
+![Defaults Menu](/uploads/Activating%20Curses%20Interface%20on%20Public%20Servers%20for%20macOS%20Terminal/curses-defaults-menu-red-ssh.webp)
 
 ## 4. Everything Works
 
 Now, you can play the game and the arrow keys work for movement and everything looks pretty!
 
-![It works on macOS](https://images.gnollhack.com/wiki/Curses/curses-linux-works.png)
+![It works on macOS](/uploads/Activating%20Curses%20Interface%20on%20Public%20Servers%20for%20macOS%20Terminal/curses-linux-works.webp)
