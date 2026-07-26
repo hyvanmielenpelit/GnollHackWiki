@@ -1,5 +1,31 @@
 > 👉 **Magic Resistance is a vital defense in GnollHack that protects you from polymorph traps, anti-magic traps, and monster spells.**
 
+## ✨ Effects of Magic Resistance
+
+Magic resistance provides several benefits, protecting the player from various hazards. 
+
+### 🧙 Monster Spells
+
+Magic resistance protects the player from the following spells cast by monsters:
+
+- **Destroy armor**: The spell is completely neutralized. Monsters will also avoid casting this spell at you if you have magic resistance.
+- **Drain strength**: The spell is completely neutralized. Monsters will also avoid casting this spell at you if you have magic resistance.
+- **Stun**: The spell is completely neutralized. Monsters will also avoid casting this spell at you if you have magic resistance.
+- **Paralyze**: The spell is completely neutralized.
+- **Confuse**: The spell is completely neutralized.
+- **Curse items**: While magic resistance does not directly block curses, monsters will not target you with the *curse items* spell if you have magic resistance.
+- **Open wounds**: Damage taken from the spell is halved.
+- **Psi bolt**: Damage taken from the spell is halved.
+
+### 🪤 Traps
+
+Magic resistance protects the player from the effects of certain traps:
+
+- **Anti-magic traps**: Instead of draining your spell energy (mana), the trap deals physical damage to your hit points.
+- **Level teleport traps**: The trap is completely neutralized and does not teleport you.
+- **Teleport traps**: The trap is completely neutralized and does not teleport you.
+- **Polymorph traps**: The trap is completely neutralized and does not polymorph you.
+
 ## 🛡️ Sources of Magic Resistance
 
 ### Granted by Items
