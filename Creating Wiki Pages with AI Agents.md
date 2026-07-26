@@ -103,7 +103,7 @@ The Antigravity App allows you to select between different models and reasoning 
 
 - 🛠️ **Gemini 3.1 Pro (High):** This is the recommended model for most tasks. It is also excellent for answering separate questions outside of agentic workflows.
 - 💭 **Claude Opus 4.6 (Thinking):** This is the recommended model for difficult tasks, such as verifying complex information on the wiki against the GnollHack codebase. It excels at advanced reasoning and inspecting vast amounts of code with great accuracy.
-- 🏆 **Gemini 3.5 Flash (Medium):** This is the recommended model for straightforward tasks that require advanced tool use, such as converting images to WebP. It's usually the fastest model when tasks are easy but repetitive. The use cases for this model are quite limited, though.
+- ⚡ **Gemini 3.5 Flash (Medium):** This is the recommended model for straightforward tasks that require advanced tool use, such as converting images to WebP. It's usually the fastest model when tasks are easy but repetitive. The use cases for this model are quite limited, though.
 
 > ℹ️ **Note:** Claude Opus 4.6 consumes a large amount of usage quota per task, and therefore you may only be able to use it a few times a week with the *$100 AI Ultra Plan*. If you use it often, you need to purchase additional AI credits or upgrade to the highest-tier plan.
 
