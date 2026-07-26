@@ -602,11 +602,11 @@ Reduces lightning damage, chance to protect equipment.
 Magic Resistance is very important to get in GnollHack, preferably before dungeon level 8, when polymorph traps start to appear. It protects you from the following things:
 
 - Polymorph traps
-- Some other polymorph effects *(see below)*
+- Some other polymorph effects ([[see below|#polymorph-and-magic-resistance]])
 - Anti-magic traps
 - Monster spells
 
-Additionally, unique monsters are shielded from *cancellation spells and effects* by Magic Resistance *([[see below|#cancellation-attacks-and-magic-resistance]])*.
+Additionally, unique monsters are shielded from *cancellation spells and effects* by Magic Resistance ([[see below|#cancellation-attacks-and-magic-resistance]]).
 
 ### 🛡️ Sources of Magic Resistance
 
@@ -725,7 +725,7 @@ The following touch attacks bypass Magic Cancellation completely:
 | Riders | [[/Monsters/Death]], [[/Monsters/Pestilence]], [[/Monsters/Famine]] |
 | Healing | [[/Monsters/Nurse]] |
 
-Note that **intelligence drain attacks** also bypass Magic Cancellation (see below).
+Note that **intelligence drain attacks** also bypass Magic Cancellation ([[see below|#intelligence-drain-attacks]]).
 
 ### 🎲 Magic Cancellation Chance
 
