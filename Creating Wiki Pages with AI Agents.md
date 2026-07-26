@@ -6,7 +6,6 @@
 >
 > - The recommended AI model for most tasks is *Gemini 3.1 Pro (High)*. It requires at least the **$23 Google AI Pro** plan.
 > - The recommended AI model for difficult tasks is *Claude Opus 4.6 (Thinking)*. It requires at least the **$100 Google AI Ultra** plan.
-> - The recommended AI model for easy but repetitive tasks is *Gemini 3.5 Flash (Medium)*.
 
 ## 📂 Local Repository Setup
 
