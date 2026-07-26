@@ -4,9 +4,9 @@
 
 > ℹ️ **Note:** You may need a paid **Google One AI subscription** to use the recommended AI agents. You can subscribe via the [Google One AI plan subscription page](https://one.google.com/about/google-ai-plans/).
 >
-> - The recommended AI model for easy tasks is *Gemini 3.5 Flash (Medium)*.
-> - The recommended AI model for moderately difficult tasks is *Gemini 3.1 Pro (High)*. It requires at least the **$23 Google AI Pro** plan.
+> - The recommended AI model for most tasks is *Gemini 3.1 Pro (High)*. It requires at least the **$23 Google AI Pro** plan.
 > - The recommended AI model for difficult tasks is *Claude Opus 4.6 (Thinking)*. It requires at least the **$100 Google AI Ultra** plan.
+> - The recommended AI model for easy but repetitive tasks is *Gemini 3.5 Flash (Medium)*.
 
 ## 📂 Local Repository Setup
 
@@ -102,9 +102,9 @@ Now, let's bind these tasks to the `Ctrl+K, A` and `Ctrl+K, B` key chords.
 
 The Antigravity App allows you to select between different models and reasoning levels. The following are the recommended models and their reasoning levels for wiki editing:
 
-- 🏆 **Gemini 3.5 Flash (Medium):** This is the recommended model for easy tasks. It can also convert images to WebP.
-- 🛠️ **Gemini 3.1 Pro (High):** This is the recommended model for moderately difficult tasks. It is also excellent for answering separate questions outside of agentic workflows.
+- 🛠️ **Gemini 3.1 Pro (High):** This is the recommended model for most tasks. It is also excellent for answering separate questions outside of agentic workflows.
 - 💭 **Claude Opus 4.6 (Thinking):** This is the recommended model for difficult tasks, such as verifying complex information on the wiki against the GnollHack codebase. It excels at advanced reasoning and inspecting vast amounts of code with great accuracy.
+- 🏆 **Gemini 3.5 Flash (Medium):** This is the recommended model for straightforward tasks that require advanced tool use, such as converting images to WebP. It's usually the fastest model when tasks are easy but repetitive. The use cases for this model are quite limited, though.
 
 > ℹ️ **Note:** Claude Opus 4.6 consumes a large amount of usage quota per task, and therefore you may only be able to use it a few times a week with the *$100 AI Ultra Plan*. If you use it often, you need to purchase additional AI credits or upgrade to the highest-tier plan.
 
@@ -118,7 +118,7 @@ The Antigravity App allows you to select between different models and reasoning 
 
 ### 📊 Formatting Text and Tables
 
-- **Recommended Model:** Gemini 3.5 Flash (Medium)
+- **Recommended Model:** Gemini 3.1 Pro (High)
 
 > 💡 **Example Prompt:** In the GnollHackWiki repository, in the Attribute Scores.md file starting at line 3, format this list into a Markdown table with columns for Attribute, Primary Effect, and Secondary Effects.
 
