@@ -847,7 +847,7 @@ When monsters cast spells or use wands, their rank simulates high skill levels.
 
 Items with mind-affecting effects (such as a [[/Items/scroll of taming]] or [[/Items/wand of sleep]]) apply modifiers based on beatitude.
 
-| Beatitude | Saving Throw Modifier | Note |
+| Beatitude | Saving Throw Modifier | Notes |
 | :--- | :---: | :--- |
 | **Blessed** | -25% | |
 | **Uncursed** | 0% | |
@@ -870,7 +870,7 @@ $-30\% + 5\% \times \text{Constitution}$
 | **21** | 75% |
 | **25** | 95% |
 
-*(Note: The [[/Spells/Holy word]] spell checks against the Constitution of the target to determine if it is affected, just like other constitution-based saving throws).*
+> ℹ️ **Note:** The [[/Spells/Holy word]] spell checks against the Constitution of the target to determine if it is affected, just like other constitution-based saving throws.
 
 ### Spell Skill Modifiers
 
