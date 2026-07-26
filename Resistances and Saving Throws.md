@@ -57,6 +57,12 @@ Immunity to cursing of items in the inventory.
 **Granted by Spells:**
 - [[/Spells/Protection from curses]]
 
+**Granted by Mythic Affixes:**
+
+| Affix | Type | Item Type |
+| :--- | :---: | :--- |
+| Hallowed | Prefix | Armor |
+
 **Granted by Classes:**
 
 | Class | Level |
@@ -80,6 +86,12 @@ Immunity to death attacks.
 
 **Granted by Spells:**
 - [[/Spells/Protection from death magic]]
+
+**Granted by Mythic Affixes:**
+
+| Affix | Type | Item Type |
+| :--- | :---: | :--- |
+| Stygian | Prefix | Armor |
 
 **Granted by Classes:**
 
@@ -129,6 +141,12 @@ Immunity to level drain attacks.
 **Granted by Spells:**
 - [[/Spells/Protection from life draining]]
 
+**Granted by Mythic Affixes:**
+
+| Affix | Type | Item Type |
+| :--- | :---: | :--- |
+| Stygian | Prefix | Armor |
+
 **Granted by Conditions:**
 - Lycanthropy
 
@@ -153,6 +171,12 @@ Immunity to paralysis attacks.
 **Granted by Artifacts:**
 - [[/Artifacts/The Gauntlets of Yin and Yang]]
 - [[/Artifacts/The Mace of Saint Cuthbert]]
+
+**Granted by Mythic Affixes:**
+
+| Affix | Type | Item Type |
+| :--- | :---: | :--- |
+| of free action | Suffix | Armor and Weapons |
 
 **Granted by Races:**
 
@@ -190,6 +214,13 @@ Immunity to cold attacks, protects equipment.
 **Granted by Spells:**
 - [[/Spells/Protection from cold]]
 
+**Granted by Mythic Affixes:**
+
+| Affix | Type | Item Type |
+| :--- | :---: | :--- |
+| of cold resistance | Suffix | Armor |
+| of elemental protection | Suffix | Armor |
+
 ### 🔥 Full Fire Resistance
 
 Immunity to fire attacks, protects equipment.
@@ -209,6 +240,13 @@ Immunity to fire attacks, protects equipment.
 
 **Granted by Spells:**
 - [[/Spells/Protection from fire]]
+
+**Granted by Mythic Affixes:**
+
+| Affix | Type | Item Type |
+| :--- | :---: | :--- |
+| of fire resistance | Suffix | Armor |
+| of elemental protection | Suffix | Armor |
 
 ### 🔮 Full Magic Missile Resistance
 
@@ -235,6 +273,13 @@ Immunity to lightning attacks, protects equipment.
 
 **Granted by Spells:**
 - [[/Spells/Protection from lightning]]
+
+**Granted by Mythic Affixes:**
+
+| Affix | Type | Item Type |
+| :--- | :---: | :--- |
+| of shock resistance | Suffix | Armor |
+| of elemental protection | Suffix | Armor |
 
 ### 🌈 Hallucination Resistance
 
@@ -265,6 +310,12 @@ Immunity to lycanthropy.
 
 **Granted by Spells:**
 - [[/Spells/Protection from lycanthropy]]
+
+**Granted by Mythic Affixes:**
+
+| Affix | Type | Item Type |
+| :--- | :---: | :--- |
+| of lycanthrope slaying | Suffix | Weapons |
 
 ### 🧠 Mind Shielding
 
@@ -453,6 +504,12 @@ Immunity to petrification attacks.
 
 **Granted by Spells:**
 - [[/Spells/Protection from petrification]]
+
+**Granted by Mythic Affixes:**
+
+| Affix | Type | Item Type |
+| :--- | :---: | :--- |
+| of cockatrice slaying | Suffix | Weapons |
 
 ## 🛡️ 2. Partial Resistances
 
@@ -775,6 +832,7 @@ Other sources of Magic Cancellation include:
 - **Classes**: Monks receive an innate role-based MC bonus.
 - **Spells**: The [[/Spells/Stoneskin]], [[/Spells/Barkskin]], [[/Spells/Shield]], and [[/Spells/Protection]] spells grant direct MC bonuses.
 - **Accessories**: Some special accessories, such as a [[/Items/brooch of shielding]] or an [[/Items/ioun stone of protection]], grant bonuses to Magic Cancellation.
+- **Mythic Affixes**: The *of defense* weapon suffix provides an MC bonus based on its enchantment.
 
 ### 🧠 Intelligence Drain Attacks
 
