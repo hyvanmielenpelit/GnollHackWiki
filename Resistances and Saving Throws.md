@@ -16,7 +16,7 @@ GnollHack has nine kinds of resistances to magical attacks:
 8. [[Charisma-Based Saving Throw|#8-charisma-based-saving-throw]]
 9. [[Reflection|#9-reflection]]
 
-These resistances work similarly for players and monsters with small differences.
+These resistances work similarly for players and monsters, with minor differences.
 
 ## 🛡️ 1. Full Resistances
 
@@ -644,12 +644,12 @@ Contrary to NetHack, Magic Resistance does not protect you from:
     - You need [[Full Magic Missile Resistance|#full-magic-missile-resistance]] to be immune to magic missiles
 - **Striking** — such as the [[/Spells/Force Bolt]] spell or the [[/Items/wand of striking]]
     - You need [[Full Magic Missile Resistance|#full-magic-missile-resistance]] to be immune to striking
-- **Curses** — Magic Resistance used to halve the effect of incoming curses, but it does not do it anymore
+- **Curses** — Magic Resistance used to halve the effect of incoming curses, but it does not do so anymore
     - You need [[Curse Resistance|#curse-resistance]] to be immune to cursing
 
 ### 🎲 Chance to Work
 
-If a player gets Magic Resistance from an item, it has always a 100% chance to work.
+If a player gets Magic Resistance from an item, it always has a 100% chance to work.
 
 However, monsters' Magic Resistance has a percentage chance to work. The magic resistance is listed in the monsters' stats.
 
@@ -660,7 +660,7 @@ However, monsters' Magic Resistance has a percentage chance to work. The magic r
 They can be resisted as follows:
 
 - **Cancellation spell or effect** against a normal monster bypasses magic resistance and has a 100% chance to work. However, unique monsters are still shielded from cancellation by magic resistance.
-- **Disjunction spell or effect** bypasses every monster's magic resistance, including unique ones, and thus has always a 100% chance to work.
+- **Disjunction spell or effect** bypasses every monster's magic resistance, including unique ones, and thus always has a 100% chance to work.
 - **Cancellation attacks against a player**, such as the gaze attack of a [[/Monsters/gazer]], bypass magic resistance and have a 100% chance to work.
 
 Additionally, it is good to remember the following things about cancellation:
@@ -762,11 +762,11 @@ The Magic Cancellation formula is the following:
 
 ### 📉 Modifiers to Magic Cancellation
 
-Monster attacks can incur a bonus or penalty to MC depending on the monster difficulty. Attacks of higher level monsters usually incur more penalty to MC than those of lower level monsters.
+Monster attacks can incur a bonus or penalty to MC depending on the monster difficulty. Attacks of higher level monsters usually incur a larger penalty to MC than those of lower level monsters.
 
 ### ✨ Magic Cancellation from Enchantments
 
-When you enchant an armor, you get +1 MC for every +3 enchantment. Therefore, it is very useful to enchant armor to at least +3. The same rule applies to divine protection that you can buy from a priest NPC by making a major contribution to the temple.
+When you enchant armor, you get +1 MC for every +3 enchantment. Therefore, it is very useful to enchant armor to at least +3. The same rule applies to divine protection that you can buy from a priest NPC by making a major contribution to the temple.
 
 Other sources of Magic Cancellation include:
 - **Armor Quality**: Exceptional, Elite, Celestial, Primordial, and Infernal armor modifiers grant an MC bonus.
@@ -942,6 +942,6 @@ Reflection gives a complete immunity to ray attacks, such as most wands and drag
 
 ## 💡 Advice on Getting Resistances
 
-Generally, [[magic resistance|#3-magic-resistance]] and [[reflection|#9-reflection]] are considered most important to get for a player. However, [[poison resistance|#poison-resistance]], [[sleep resistance|#sleep-resistance]], [[free action|#free-action]], and [[death resistance|#death-resistance]] are generally very important as well, because they can shield you from some insta-death attacks and situations. Additionally, [[drain resistance|#drain-resistance]] is important against some level-draining undead.
+Generally, [[magic resistance|#3-magic-resistance]] and [[reflection|#9-reflection]] are considered the most important to get for a player. However, [[poison resistance|#poison-resistance]], [[sleep resistance|#sleep-resistance]], [[free action|#free-action]], and [[death resistance|#death-resistance]] are generally very important as well, because they can shield you from some instant death attacks and situations. Additionally, [[drain resistance|#drain-resistance]] is important against some level-draining undead.
 
 It is also important to note that **polymorphing into a monster inherently grants you many of its resistances**.

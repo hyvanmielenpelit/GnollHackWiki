@@ -112,7 +112,7 @@ The Antigravity App allows you to select between different models and reasoning 
 
 ### 📝 Checking Grammar and Spelling
 
-- **Recommended Model:** Gemini 3.5 Flash (Medium)
+- **Recommended Model:** Gemini 3.1 Pro (High)
 
 > 💡 **Example Prompt:** In the GnollHackWiki repository, in the Alchemy.md file, check the grammar and spelling and fix any typos.
 
