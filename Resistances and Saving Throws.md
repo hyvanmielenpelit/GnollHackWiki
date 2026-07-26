@@ -792,41 +792,41 @@ $-30\% + 5\% \times \text{Wisdom}$
 
 | Wisdom | Chance of Resisting |
 | :---: | :---: |
-| 6 | 0% |
-| 10 | 20% |
-| 14 | 40% |
-| 18 | 60% |
-| 21 | 75% |
-| 25 | 95% |
+| **6** | 0% |
+| **10** | 20% |
+| **14** | 40% |
+| **18** | 60% |
+| **21** | 75% |
+| **25** | 95% |
 
 ### Spell Skill Modifiers
 
 | Skill Level | Saving Throw Modifier |
 | :--- | :---: |
-| Unskilled | +15% |
-| Basic | 0% |
-| Skilled | -15% |
-| Expert | -30% |
-| Master | -45% |
-| Grand Master | -60% |
+| **Unskilled** | +15% |
+| **Basic** | 0% |
+| **Skilled** | -15% |
+| **Expert** | -30% |
+| **Master** | -45% |
+| **Grand Master** | -60% |
 
 ### Wand Skill Modifiers
 
 | Skill Level | Saving Throw Modifier |
 | :--- | :---: |
-| Basic | -10% |
-| Skilled | -20% |
-| Expert | -30% |
+| **Basic** | -10% |
+| **Skilled** | -20% |
+| **Expert** | -30% |
 
 ### Lowered Magic Resistance Penalties
 
 | Magic Resistance | Saving Throw Penalty |
 | :---: | :---: |
-| Full | 0% |
-| 3/4 | -20% |
-| 1/2 | -40% |
-| 1/4 | -60% |
-| None | -100% |
+| **Full** | 0% |
+| **3/4** | -20% |
+| **1/2** | -40% |
+| **1/4** | -60% |
+| **None** | -100% |
 
 ### Monster Rank Modifiers
 
@@ -834,8 +834,8 @@ When monsters cast spells or use wands, their rank simulates high skill levels.
 
 | Monster Rank | Simulated Skill Level | Saving Throw Penalty |
 | :--- | :---: | :---: |
-| Lord-tier | Expert | -30% |
-| Prince-tier | Grand Master | -60% |
+| **Lord-tier** | Expert | -30% |
+| **Prince-tier** | Grand Master | -60% |
 
 ### Item Beatitude Modifiers
 
@@ -843,9 +843,9 @@ Items with mind-affecting effects (such as a [[/Items/scroll of taming]] or [[/I
 
 | Beatitude | Saving Throw Modifier | Note |
 | :--- | :---: | :--- |
-| Blessed | -25% | |
-| Uncursed | 0% | |
-| Cursed | +25% | Applies if there is no separate cursed effect. |
+| **Blessed** | -25% | |
+| **Uncursed** | 0% | |
+| **Cursed** | +25% | Applies if there is no separate cursed effect. |
 
 ## 🔋 6. Constitution-Based Saving Throw
 
@@ -857,12 +857,12 @@ $-30\% + 5\% \times \text{Constitution}$
 
 | Constitution | Chance of Resisting |
 | :---: | :---: |
-| 6 | 0% |
-| 10 | 20% |
-| 14 | 40% |
-| 18 | 60% |
-| 21 | 75% |
-| 25 | 95% |
+| **6** | 0% |
+| **10** | 20% |
+| **14** | 40% |
+| **18** | 60% |
+| **21** | 75% |
+| **25** | 95% |
 
 *(Note: The Holy Word spell checks against the Constitution of the target to determine if it is affected, just like other constitution-based saving throws).*
 
@@ -870,12 +870,12 @@ $-30\% + 5\% \times \text{Constitution}$
 
 | Skill Level | Saving Throw Modifier |
 | :--- | :---: |
-| Unskilled | +15% |
-| Basic | 0% |
-| Skilled | -15% |
-| Expert | -30% |
-| Master | -45% |
-| Grand Master | -60% |
+| **Unskilled** | +15% |
+| **Basic** | 0% |
+| **Skilled** | -15% |
+| **Expert** | -30% |
+| **Master** | -45% |
+| **Grand Master** | -60% |
 
 ## 🤸 7. Dexterity-Based Saving Throw
 
@@ -887,12 +887,12 @@ $-30\% + 5\% \times \text{Dexterity}$
 
 | Dexterity | Chance of Resisting |
 | :---: | :---: |
-| 6 | 0% |
-| 10 | 20% |
-| 14 | 40% |
-| 18 | 60% |
-| 21 | 75% |
-| 25 | 95% |
+| **6** | 0% |
+| **10** | 20% |
+| **14** | 40% |
+| **18** | 60% |
+| **21** | 75% |
+| **25** | 95% |
 
 ## 🗣️ 8. Charisma-Based Saving Throw
 
@@ -904,12 +904,12 @@ $-30\% + 5\% \times \text{Charisma}$
 
 | Charisma | Chance of Resisting |
 | :---: | :---: |
-| 6 | 0% |
-| 10 | 20% |
-| 14 | 40% |
-| 18 | 60% |
-| 21 | 75% |
-| 25 | 95% |
+| **6** | 0% |
+| **10** | 20% |
+| **14** | 40% |
+| **18** | 60% |
+| **21** | 75% |
+| **25** | 95% |
 
 ## 🪞 9. Reflection
 
