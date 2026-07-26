@@ -6,15 +6,15 @@
 
 GnollHack has nine kinds of resistances to magical attacks:
 
-1. Full Resistances
-2. Partial Resistances
-3. Magic Resistance
-4. Magic Cancellation
-5. Wisdom-Based Saving Throw
-6. Constitution-Based Saving Throw
-7. Dexterity-Based Saving Throw
-8. Charisma-Based Saving Throw
-9. Reflection
+1. [[Full Resistances|#1-full-resistances]]
+2. [[Partial Resistances|#2-partial-resistances]]
+3. [[Magic Resistance|#3-magic-resistance]]
+4. [[Magic Cancellation|#4-magic-cancellation]]
+5. [[Wisdom-Based Saving Throw|#5-wisdom-based-saving-throw]]
+6. [[Constitution-Based Saving Throw|#6-constitution-based-saving-throw]]
+7. [[Dexterity-Based Saving Throw|#7-dexterity-based-saving-throw]]
+8. [[Charisma-Based Saving Throw|#8-charisma-based-saving-throw]]
+9. [[Reflection|#9-reflection]]
 
 These resistances work similarly for players and monsters with small differences.
 
