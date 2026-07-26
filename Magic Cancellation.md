@@ -1,6 +1,6 @@
-> 👉 **This page covers Magic Cancellation in GnollHack.**
+> 👉 **Magic Cancellation (MC) protects you from magical and semi-magical touch attacks. Sourced primarily from armor, MC stacks on a scale from 0 to 25 to grant a percentage chance to resist these attacks.**
 
-Magic Cancellation protects you from *magical or semi-magical touch attacks*. You get Magic Cancellation (MC) from armor. Contrary to NetHack, it stacks and the effect is on the scale 0–25, which gives you a % chance to resist magical or semi-magical touch attacks. The chance is listed in the status bar. MC protects you from:
+The resistance chance is displayed in the status bar. MC protects you from:
 
 | Touch attack | Examples of monsters | Notes |
 | :--- | :--- | :--- |

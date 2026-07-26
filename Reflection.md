@@ -1,6 +1,4 @@
-> 👉 **This page covers Reflection in GnollHack.**
-
-Reflection gives a complete immunity to ray attacks, such as most wands and dragon breath. The rays reflect back to the caster.
+> 👉 **Reflection grants complete immunity to ray attacks, such as most wands and dragon breath, by reflecting them back to the caster.**
 
 ## 🛡️ Sources of Reflection
 

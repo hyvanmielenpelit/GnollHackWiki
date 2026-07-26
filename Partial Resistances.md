@@ -1,6 +1,4 @@
-> 👉 **This page covers the partial resistances in GnollHack.**
-
-Partial resistances reduce the elemental damage you take by a percentage and offer a chance to protect your equipment.
+> 👉 **This page covers the partial resistances in GnollHack, which reduce elemental damage by a percentage and offer a chance to protect your equipment.**
 
 ## 🧪 50% or 75% Acid Resistance
 

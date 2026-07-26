@@ -1,13 +1,4 @@
-> 👉 **This page covers Magic Resistance in GnollHack.**
-
-Magic Resistance is very important to get in GnollHack, preferably before dungeon level 8, when polymorph traps start to appear. It protects you from the following things:
-
-- Polymorph traps
-- Some other polymorph effects ([[see below|#polymorph-and-magic-resistance]])
-- Anti-magic traps
-- Monster spells
-
-Additionally, unique monsters are shielded from *cancellation spells and effects* by Magic Resistance ([[see below|#cancellation-attacks-and-magic-resistance]]).
+> 👉 **Magic Resistance is a vital defense in GnollHack that protects you from polymorph traps, anti-magic traps, and monster spells.**
 
 ## 🛡️ Sources of Magic Resistance
 

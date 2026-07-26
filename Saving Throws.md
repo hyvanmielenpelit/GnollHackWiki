@@ -1,4 +1,4 @@
-> 👉 **This page covers the various saving throws in GnollHack.**
+> 👉 **This page covers the ability-based saving throws in GnollHack that allow targets to resist certain spells, wands, and effects.**
 
 ## 🧠 Wisdom-Based Saving Throw
 
