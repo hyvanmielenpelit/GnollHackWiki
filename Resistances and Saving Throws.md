@@ -40,7 +40,7 @@ Immunity to nymph stealing and seduction attacks.
 - [[/Items/Eyeglasses of awkwardness]]
 
 **Granted by Spells:**
-- [[/Spells/Protection from Charm]]
+- [[/Spells/Protection from charm]]
 
 ### 🖤 Curse Resistance
 
@@ -55,7 +55,7 @@ Immunity to cursing of items in the inventory.
 - [[/Artifacts/The Mitre of Holiness]]
 
 **Granted by Spells:**
-- [[/Spells/Protection from Curses]]
+- [[/Spells/Protection from curses]]
 
 **Granted by Classes:**
 
@@ -79,7 +79,7 @@ Immunity to death attacks.
 - [[/Artifacts/The Staff of Aesculapius]]
 
 **Granted by Spells:**
-- [[/Spells/Protection from Death Magic]]
+- [[/Spells/Protection from death magic]]
 
 **Granted by Classes:**
 
@@ -99,7 +99,7 @@ Immunity to disintegration attacks.
 - [[/Items/Cloak of integrity]]
 
 **Granted by Spells:**
-- [[/Spells/Protection from Disintegration]]
+- [[/Spells/Protection from disintegration]]
 
 **Granted by Corpses:**
 
@@ -127,7 +127,7 @@ Immunity to level drain attacks.
 - [[/Artifacts/Stormbringer]]
 
 **Granted by Spells:**
-- [[/Spells/Protection from Life Draining]]
+- [[/Spells/Protection from life draining]]
 
 **Granted by Conditions:**
 - Lycanthropy
@@ -169,7 +169,7 @@ Immunity to acid attacks.
 - [[/Items/Yellow dragon scales]]
 
 **Granted by Spells:**
-- [[/Spells/Protection from Acid]]
+- [[/Spells/Protection from acid]]
 
 ### ❄️ Full Cold Resistance
 
@@ -188,7 +188,7 @@ Immunity to cold attacks, protects equipment.
 - [[/Items/Potion of cold immunity]]
 
 **Granted by Spells:**
-- [[/Spells/Protection from Cold]]
+- [[/Spells/Protection from cold]]
 
 ### 🔥 Full Fire Resistance
 
@@ -208,7 +208,7 @@ Immunity to fire attacks, protects equipment.
 - [[/Items/Potion of fire immunity]]
 
 **Granted by Spells:**
-- [[/Spells/Protection from Fire]]
+- [[/Spells/Protection from fire]]
 
 ### 🔮 Full Magic Missile Resistance
 
@@ -234,7 +234,7 @@ Immunity to lightning attacks, protects equipment.
 - [[/Items/Potion of shock immunity]]
 
 **Granted by Spells:**
-- [[/Spells/Protection from Lightning]]
+- [[/Spells/Protection from lightning]]
 
 ### 🌈 Hallucination Resistance
 
@@ -264,7 +264,7 @@ Immunity to lycanthropy.
 | [[/Races/Gnoll]] | 1 |
 
 **Granted by Spells:**
-- [[/Spells/Protection from Lycanthropy]]
+- [[/Spells/Protection from lycanthropy]]
 
 ### 🧠 Mind Shielding
 
@@ -290,7 +290,7 @@ Immunity to poison attacks.
 - [[/Artifacts/The Staff of Aesculapius]]
 
 **Granted by Spells:**
-- [[/Spells/Protection from Poison]]
+- [[/Spells/Protection from poison]]
 
 **Granted by Corpses:**
 
@@ -388,7 +388,7 @@ Immunity to sickness attacks, including *mummy rot*.
 - [[/Artifacts/The Staff of Aesculapius]]
 
 **Granted by Spells:**
-- [[/Spells/Protection from Sickness]]
+- [[/Spells/Protection from sickness]]
 
 **Granted by Classes:**
 
@@ -452,7 +452,7 @@ Immunity to petrification attacks.
 - [[/Items/Yellow dragon scale mail]]
 
 **Granted by Spells:**
-- [[/Spells/Protection from Petrification]]
+- [[/Spells/Protection from petrification]]
 
 ## 🛡️ 2. Partial Resistances
 
@@ -632,17 +632,17 @@ Additionally, unique monsters are shielded from *cancellation spells and effects
 - [[/Items/Potion of magic resistance]]
 
 **Granted by Spells:**
-- [[/Spells/Anti-magic Shell]]
+- [[/Spells/Anti-magic shell]]
 
 ### ⚠️ Nerfs to Magic Resistance
 
 Contrary to NetHack, Magic Resistance does not protect you from:
 
-- **Death attacks** — such as the [[/Spells/Finger of Death]] spell, or the [[/Items/wand of death]]
+- **Death attacks** — such as the [[/Spells/Finger of death]] spell, or the [[/Items/wand of death]]
     - You need [[death resistance|#death-resistance]] to be safe from death attacks
-- **Magic missiles** — such as the [[/Spells/Magic Missile]] spell, or the [[/Items/wand of magic missile]]
+- **Magic missiles** — such as the [[/Spells/Magic missile]] spell, or the [[/Items/wand of magic missile]]
     - You need [[full magic missile resistance|#full-magic-missile-resistance]] to be immune to magic missiles
-- **Striking** — such as the [[/Spells/Force Bolt]] spell or the [[/Items/wand of striking]]
+- **Striking** — such as the [[/Spells/Force bolt]] spell or the [[/Items/wand of striking]]
     - You need [[full magic missile resistance|#full-magic-missile-resistance]] to be immune to striking
 - **Curses** — Magic Resistance used to halve the effect of incoming curses, but it does not do so anymore
     - You need [[curse resistance|#curse-resistance]] to be immune to cursing
@@ -674,14 +674,14 @@ Magic resistance protects from:
 
 - [[/Items/Wand of polymorph]] zapped at monsters
 - Polymorph traps
-- [[/Spells/Polymorph Other]] spell cast at monsters
+- [[/Spells/Polymorph other]] spell cast at monsters
 - Polymorph from being hit with a wielded [[/Items/potion of polymorph]]
 
 Magic resistance does *not* protect you from:
 
 - Polymorph from [[/Items/ring of polymorph]]
 - [[/Items/Wand of polymorph]] zapped at yourself
-- [[/Spells/Polymorph Other]] spell cast at yourself
+- [[/Spells/Polymorph other]] spell cast at yourself
 - Polymorph from drinking a [[/Items/potion of polymorph]]
 
 ## 🛡️ 4. Magic Cancellation
@@ -855,7 +855,7 @@ Items with mind-affecting effects (such as a [[/Items/scroll of taming]] or [[/I
 
 ## 🔋 6. Constitution-Based Saving Throw
 
-Some spells, such as Power Words and [[/Spells/Holy Word]], and some potion effects, such as sickness and poison, check against the constitution of the target. The chance of resisting is:
+Some spells, such as Power Words and [[/Spells/Holy word]], and some potion effects, such as sickness and poison, check against the constitution of the target. The chance of resisting is:
 
 $-30\% + 5\% \times \text{Constitution}$
 
@@ -870,7 +870,7 @@ $-30\% + 5\% \times \text{Constitution}$
 | **21** | 75% |
 | **25** | 95% |
 
-*(Note: The [[/Spells/Holy Word]] spell checks against the Constitution of the target to determine if it is affected, just like other constitution-based saving throws).*
+*(Note: The [[/Spells/Holy word]] spell checks against the Constitution of the target to determine if it is affected, just like other constitution-based saving throws).*
 
 ### Spell Skill Modifiers
 
@@ -887,7 +887,7 @@ The caster's proficiency in the relevant spell school modifies the target's chan
 
 ## 🤸 7. Dexterity-Based Saving Throw
 
-The [[/Spells/Flesh to Stone]] spell checks against the dexterity of the target to see if they can dodge the petrification effect. The chance of resisting uses the same formula:
+The [[/Spells/Flesh to stone]] spell checks against the dexterity of the target to see if they can dodge the petrification effect. The chance of resisting uses the same formula:
 
 $-30\% + 5\% \times \text{Dexterity}$
 
