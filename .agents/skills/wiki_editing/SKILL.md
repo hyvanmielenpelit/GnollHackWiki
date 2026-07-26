@@ -17,12 +17,13 @@ When editing or creating pages for the GnollHack Wiki, follow these conventions 
 
 ## 2. Wikilinks (Gollum Syntax)
 - **Syntax**: Use Gollum-style wikilinks: `[[Alias|Page Name]]` or `[[Page Name]]`. **IMPORTANT**: The alias always comes first and the page name comes last!
-- **Section Links**: Do **NOT** use Gollum-style wikilinks with a hash (e.g., `[[#Section Name]]` or `[[Page Name#Section Name]]`) to link to sections in Gollum wikis. It is best to avoid section links entirely. If a section link is absolutely needed, you must use standard Markdown link syntax: `[Alias](#section-anchor)`. The section anchor must be:
+- **Section Links**: Never use the `[text](#section-anchor)` format for in-page section links. Always use the Gollum-style format instead: `[[text|#section-anchor]]`. The section anchor must be:
   - Converted to lowercase.
   - Spaces replaced with dashes (`-`).
-  - Emojis and other special characters removed (or converted to dashes).
-  - Cleaned up so there are never two consecutive dashes (e.g., `--` becomes `-`).
-  - Example: For a heading `## 🪨 Plane of Earth`, the section link should be `[Plane of Earth](#plane-of-earth)`.
+  - Emojis and other special characters removed.
+  - Cleaned up so there are no leading or trailing dashes, and no consecutive dashes (e.g., `--` becomes `-`).
+  - The end result should have only lowercase letters, numbers, and dashes.
+  - Example: For a heading `## 🪨 Plane of Earth`, the in-page section link should be `[[Plane of Earth|#plane-of-earth]]`.
 - **Paths**: All wikilinks pointing to a page in a subfolder (e.g., `[[/Items/potion of healing]]`, `[[/Artifacts/Vorpal Blade]]`) must start with a slash (`/`), regardless of whether the source file is located in the root directory or in a subdirectory. If a link points to a page in the root directory (e.g., `[[Home]]`), it should not start with a slash, *unless* the source document is in a subdirectory (e.g. `Rooms/`), in which case the link targeting the root page must start with a leading slash (e.g. `[[/Rings]]` or `[[/Weapons]]`).
 - **File Extensions**: Do not include the `.md` extension in wikilinks.
 - **Case-Sensitivity**: **Subdirectory names in wikilinks are case-sensitive** and must match the physical directory casing exactly (e.g., `/Items/`, `/Monsters/`, `/Dungeon/`, `/Conducts/`). Only the final page name itself is case-insensitive in Gollum.
