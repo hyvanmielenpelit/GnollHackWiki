@@ -2,7 +2,7 @@
 
 > 👉 **You can leverage the [Antigravity Standalone App](https://antigravity.google/product/antigravity-2) powered by Gemini and Claude AI models to automatically research, draft, and format wiki pages. By providing the AI agent with access to all related repositories, it can cross-reference code and graphics to create accurate and comprehensive documentation.**
 
-> ℹ️ **Note:** You may need a paid **Google One AI subscription** to use the recommended AI agents. You can subscribe via the [Google One AI plan subscription page](https://one.google.com/about/google-ai-plans/).
+> ℹ️ **Note:** You need a paid **Google One AI subscription** to use the recommended AI agents. You can subscribe via the [Google One AI plan subscription page](https://one.google.com/about/google-ai-plans/).
 >
 > - The recommended AI model for most tasks is *Gemini 3.1 Pro (High)*. It requires at least the **$23 Google AI Pro** plan.
 > - The recommended AI model for difficult tasks is *Claude Opus 4.6 (Thinking)*. It requires at least the **$100 Google AI Ultra** plan.
