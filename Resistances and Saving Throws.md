@@ -40,7 +40,7 @@ Immunity to nymph stealing and seduction attacks.
 - [[/Items/Eyeglasses of awkwardness]]
 
 **Granted by Spells:**
-- [[/Spells/Protection from charm]]
+- [[/Spells/Protection from Charm]]
 
 ### 🖤 Curse Resistance
 
@@ -55,7 +55,7 @@ Immunity to cursing of items in the inventory.
 - [[/Artifacts/The Mitre of Holiness]]
 
 **Granted by Spells:**
-- [[/Spells/Protection from curses]]
+- [[/Spells/Protection from Curses]]
 
 **Granted by Classes:**
 
@@ -79,7 +79,7 @@ Immunity to death attacks.
 - [[/Artifacts/The Staff of Aesculapius]]
 
 **Granted by Spells:**
-- [[/Spells/Protection from death magic]]
+- [[/Spells/Protection from Death Magic]]
 
 **Granted by Classes:**
 
@@ -99,7 +99,7 @@ Immunity to disintegration attacks.
 - [[/Items/Cloak of integrity]]
 
 **Granted by Spells:**
-- [[/Spells/Protection from disintegration]]
+- [[/Spells/Protection from Disintegration]]
 
 **Granted by Corpses:**
 
@@ -127,7 +127,7 @@ Immunity to level drain attacks.
 - [[/Artifacts/Stormbringer]]
 
 **Granted by Spells:**
-- [[/Spells/Protection from life draining]]
+- [[/Spells/Protection from Life Draining]]
 
 **Granted by Conditions:**
 - Lycanthropy
@@ -169,7 +169,7 @@ Immunity to acid attacks.
 - [[/Items/Yellow dragon scales]]
 
 **Granted by Spells:**
-- [[/Spells/Protection from acid]]
+- [[/Spells/Protection from Acid]]
 
 ### ❄️ Full Cold Resistance
 
@@ -188,7 +188,7 @@ Immunity to cold attacks, protects equipment.
 - [[/Items/Potion of cold immunity]]
 
 **Granted by Spells:**
-- [[/Spells/Protection from cold]]
+- [[/Spells/Protection from Cold]]
 
 ### 🔥 Full Fire Resistance
 
@@ -208,7 +208,7 @@ Immunity to fire attacks, protects equipment.
 - [[/Items/Potion of fire immunity]]
 
 **Granted by Spells:**
-- [[/Spells/Protection from fire]]
+- [[/Spells/Protection from Fire]]
 
 ### 🔮 Full Magic Missile Resistance
 
@@ -234,7 +234,7 @@ Immunity to lightning attacks, protects equipment.
 - [[/Items/Potion of shock immunity]]
 
 **Granted by Spells:**
-- [[/Spells/Protection from lightning]]
+- [[/Spells/Protection from Lightning]]
 
 ### 🌈 Hallucination Resistance
 
@@ -264,7 +264,7 @@ Immunity to lycanthropy.
 | [[/Races/Gnoll]] | 1 |
 
 **Granted by Spells:**
-- [[/Spells/Protection from lycanthropy]]
+- [[/Spells/Protection from Lycanthropy]]
 
 ### 🧠 Mind Shielding
 
@@ -290,7 +290,7 @@ Immunity to poison attacks.
 - [[/Artifacts/The Staff of Aesculapius]]
 
 **Granted by Spells:**
-- [[/Spells/Protection from poison]]
+- [[/Spells/Protection from Poison]]
 
 **Granted by Corpses:**
 
@@ -388,7 +388,7 @@ Immunity to sickness attacks, including *mummy rot*.
 - [[/Artifacts/The Staff of Aesculapius]]
 
 **Granted by Spells:**
-- [[/Spells/Protection from sickness]]
+- [[/Spells/Protection from Sickness]]
 
 **Granted by Classes:**
 
@@ -452,7 +452,7 @@ Immunity to petrification attacks.
 - [[/Items/Yellow dragon scale mail]]
 
 **Granted by Spells:**
-- [[/Spells/Protection from petrification]]
+- [[/Spells/Protection from Petrification]]
 
 ## 🛡️ 2. Partial Resistances
 
@@ -632,20 +632,20 @@ Additionally, unique monsters are shielded from *cancellation spells and effects
 - [[/Items/Potion of magic resistance]]
 
 **Granted by Spells:**
-- [[/Spells/Anti-magic shell]]
+- [[/Spells/Anti-magic Shell]]
 
 ### ⚠️ Nerfs to Magic Resistance
 
 Contrary to NetHack, Magic Resistance does not protect you from:
 
 - **Death attacks** — such as the [[/Spells/Finger of Death]] spell, or the [[/Items/wand of death]]
-    - You need [[Death Resistance|#death-resistance]] to be safe from death attacks
+    - You need [[death resistance|#death-resistance]] to be safe from death attacks
 - **Magic missiles** — such as the [[/Spells/Magic Missile]] spell, or the [[/Items/wand of magic missile]]
-    - You need [[Full Magic Missile Resistance|#full-magic-missile-resistance]] to be immune to magic missiles
+    - You need [[full magic missile resistance|#full-magic-missile-resistance]] to be immune to magic missiles
 - **Striking** — such as the [[/Spells/Force Bolt]] spell or the [[/Items/wand of striking]]
-    - You need [[Full Magic Missile Resistance|#full-magic-missile-resistance]] to be immune to striking
+    - You need [[full magic missile resistance|#full-magic-missile-resistance]] to be immune to striking
 - **Curses** — Magic Resistance used to halve the effect of incoming curses, but it does not do so anymore
-    - You need [[Curse Resistance|#curse-resistance]] to be immune to cursing
+    - You need [[curse resistance|#curse-resistance]] to be immune to cursing
 
 ### 🎲 Chance to Work
 
@@ -674,14 +674,14 @@ Magic resistance protects from:
 
 - [[/Items/Wand of polymorph]] zapped at monsters
 - Polymorph traps
-- [[/Spells/Polymorph other]] spell cast at monsters
+- [[/Spells/Polymorph Other]] spell cast at monsters
 - Polymorph from being hit with a wielded [[/Items/potion of polymorph]]
 
 Magic resistance does *not* protect you from:
 
 - Polymorph from [[/Items/ring of polymorph]]
 - [[/Items/Wand of polymorph]] zapped at yourself
-- [[/Spells/Polymorph other]] spell cast at yourself
+- [[/Spells/Polymorph Other]] spell cast at yourself
 - Polymorph from drinking a [[/Items/potion of polymorph]]
 
 ## 🛡️ 4. Magic Cancellation
