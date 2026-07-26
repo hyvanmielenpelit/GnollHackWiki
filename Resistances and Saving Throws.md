@@ -22,7 +22,7 @@ These resistances work similarly for players and monsters, with minor difference
 
 ### ⚔️ Bisection Resistance
 
-Immunity to bisection attacks (namely, [[/Artifacts/The Tsurugi of Muramasa]]).
+Immunity to bisection attacks (namely, [[/Artifacts/the Tsurugi of Muramasa]]).
 
 **Granted by Items:**
 - Adamantium body armor
