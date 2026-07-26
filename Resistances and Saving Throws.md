@@ -606,7 +606,7 @@ Magic Resistance is very important to get in GnollHack, preferably before dungeo
 - Anti-magic traps
 - Monster spells
 
-Additionally, unique monsters are shielded from *cancellation spells and effects* by Magic Resistance *(see below)*.
+Additionally, unique monsters are shielded from *cancellation spells and effects* by Magic Resistance *([[see below|#cancellation-attacks-and-magic-resistance]])*.
 
 ### 🛡️ Sources of Magic Resistance
 
@@ -638,14 +638,14 @@ Additionally, unique monsters are shielded from *cancellation spells and effects
 
 Contrary to NetHack, Magic Resistance does not protect you from:
 
-- **Death attacks** — such as the Finger of Death spell, or the [[/Items/wand of death]]
-    - You need *Death Resistance* to be safe from death attacks
-- **Magic missiles** — such as the Magic Missile spell, or the [[/Items/wand of magic missile]]
-    - You need *Full Magic Missile Resistance* to be immune to magic missiles
-- **Striking** — such as the Force Bolt spell or the [[/Items/wand of striking]]
-    - You need *Full Magic Missile Resistance* to be immune to striking
-- **Curses** — Magic Resistance used to halve the effect of incoming curses but it does not do it anymore
-    - You need *Curse Resistance* to be immune to cursing
+- **Death attacks** — such as the [[/Spells/Finger of Death]] spell, or the [[/Items/wand of death]]
+    - You need [[Death Resistance|#death-resistance]] to be safe from death attacks
+- **Magic missiles** — such as the [[/Spells/Magic Missile]] spell, or the [[/Items/wand of magic missile]]
+    - You need [[Full Magic Missile Resistance|#full-magic-missile-resistance]] to be immune to magic missiles
+- **Striking** — such as the [[/Spells/Force Bolt]] spell or the [[/Items/wand of striking]]
+    - You need [[Full Magic Missile Resistance|#full-magic-missile-resistance]] to be immune to striking
+- **Curses** — Magic Resistance used to halve the effect of incoming curses, but it does not do it anymore
+    - You need [[Curse Resistance|#curse-resistance]] to be immune to cursing
 
 ### 🎲 Chance to Work
 
@@ -692,7 +692,7 @@ Magic Cancellation protects you from *magical or semi-magical touch attacks*. Yo
 | :--- | :--- | :--- |
 | Disenchantment | [[/Monsters/Disenchanter]] | |
 | Drain energy | [[/Monsters/Energy vortex]] | Drains mana |
-| Life drain (which drains an experience level) | [[/Monsters/Vampire]] |  |
+| Life drain | [[/Monsters/Vampire]] |  Drains an experience level |
 | Lycanthropy | [[/Monsters/Werewolf]] |  |
 | Mummy rot | [[/Monsters/Human mummy]] |  |
 | Nymph stealing | [[/Monsters/Wood nymph]] | Nymphs' touch attack gives a big penalty to MC, so it has a bigger than normal chance to work. |
@@ -703,7 +703,7 @@ Magic Cancellation protects you from *magical or semi-magical touch attacks*. Yo
 | Slow | [[/Monsters/Shade]] |  |
 | Stat drain | [[/Monsters/Quasit]] | [[Strength]], [[Dexterity]], and [[Constitution]] |
 | Steal gold | [[/Monsters/Leprechaun]] |  |
-| Stoning (petrification) | [[/Monsters/Cockatrice]] |  |
+| Stoning | [[/Monsters/Cockatrice]] | Petrification |
 | Stun | [[/Monsters/Abbot]] |  |
 | Teleportation | [[/Monsters/Quantum mechanic]] |  |
 | Terminal illness | [[/Monsters/Otyugh]] |  |
@@ -769,8 +769,8 @@ Monster attacks can incur a bonus or penalty to MC depending on the monster diff
 When you enchant an armor, you get +1 MC for every +3 enchantment. Therefore, it is very useful to enchant armor to at least +3. The same rule applies to divine protection that you can buy from a priest NPC by making a major contribution to the temple.
 
 Other sources of Magic Cancellation include:
-- **Armor Quality**: Exceptional, Elite, Celestial, Primordial, and Infernal armor modifiers grant an MC bonus equal to their AC bonus (e.g., Elite grants +2 MC).
-- **Rings**: The [[/Items/ring of protection]] and [[/Items/ring of supreme power]] grant an MC bonus.
+- **Armor Quality**: Exceptional, Elite, Celestial, Primordial, and Infernal armor modifiers grant an MC bonus.
+- **Rings**: The [[/Items/ring of protection]] grants an MC bonus.
 - **Materials**: Armor made of `dragonhide` grants +1 MC.
 - **Classes**: Monks receive an innate role-based MC bonus.
 - **Spells**: The [[/Spells/Stoneskin]], [[/Spells/Barkskin]], [[/Spells/Shield]], and [[/Spells/Protection]] spells grant direct MC bonuses.
