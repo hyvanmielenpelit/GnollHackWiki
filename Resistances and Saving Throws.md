@@ -788,15 +788,64 @@ Contrary to NetHack, charm, sleep, and other mind-affecting spells and effects, 
 
 $-30\% + 5\% \times \text{Wisdom}$
 
-Thus, a monster with Wisdom 10 has a 20% chance of resisting and a monster with Wisdom 20 has a 70% chance of resisting such a spell or effect.
+### Base Saving Throw Chance
 
-Spells cast with the Skilled or higher spell school skill incur a -15% penalty to the wisdom-based saving throw per skill level above Basic. A spell cast at an Unskilled skill level incurs a +15% bonus to the wisdom-based saving throw.
+| Wisdom | Chance of Resisting |
+| :---: | :---: |
+| 6 | 0% |
+| 10 | 20% |
+| 14 | 40% |
+| 18 | 60% |
+| 21 | 75% |
+| 25 | 95% |
 
-Similarly, the **Wand skill** applies penalties to the target's saving throw when using wands: Basic grants a -10% penalty, Skilled grants a -20% penalty, and Expert grants a -30% penalty.
+### Spell Skill Modifiers
 
-Furthermore, a target with lowered Magic Resistance suffers severe penalties to all ability-based saving throws (-20% for 3/4 MR, -40% for 1/2 MR, -60% for 1/4 MR, and -100% for 0 MR). When monsters cast spells or use wands, their rank simulates high skill levels. Lord-tier monsters cast at Expert level, and Prince-tier monsters cast at Grand Master level (giving up to a -60% penalty to the player's ability saving throw).
+| Skill Level | Saving Throw Modifier |
+| :--- | :---: |
+| Unskilled | +15% |
+| Basic | 0% |
+| Skilled | -15% |
+| Expert | -30% |
+| Master | -45% |
+| Grand Master | -60% |
 
-Blessed items with mind-affecting effects, such as a blessed [[/Items/scroll of taming]] or a blessed [[/Items/wand of sleep]], incur a -25% penalty to the wisdom-based saving throw. Similarly, cursed items with mind-affecting effects – if there is no separate cursed effect – such as is the case with a cursed [[/Items/wand of sleep]], incur a +25% bonus to the wisdom-based saving throw.
+### Wand Skill Modifiers
+
+| Skill Level | Saving Throw Modifier |
+| :--- | :---: |
+| Basic | -10% |
+| Skilled | -20% |
+| Expert | -30% |
+
+### Lowered Magic Resistance Penalties
+
+| Magic Resistance | Saving Throw Penalty |
+| :---: | :---: |
+| Full | 0% |
+| 3/4 | -20% |
+| 1/2 | -40% |
+| 1/4 | -60% |
+| None | -100% |
+
+### Monster Rank Modifiers
+
+When monsters cast spells or use wands, their rank simulates high skill levels.
+
+| Monster Rank | Simulated Skill Level | Saving Throw Penalty |
+| :--- | :---: | :---: |
+| Lord-tier | Expert | -30% |
+| Prince-tier | Grand Master | -60% |
+
+### Item Beatitude Modifiers
+
+Items with mind-affecting effects (such as a [[/Items/scroll of taming]] or [[/Items/wand of sleep]]) apply modifiers based on beatitude.
+
+| Beatitude | Saving Throw Modifier | Note |
+| :--- | :---: | :--- |
+| Blessed | -25% | |
+| Uncursed | 0% | |
+| Cursed | +25% | Applies if there is no separate cursed effect. |
 
 ## 🔋 6. Constitution-Based Saving Throw
 
@@ -804,11 +853,29 @@ Some spells, such as Power Words and [[/Spells/Holy Word]], and some potion effe
 
 $-30\% + 5\% \times \text{Constitution}$
 
-Thus, a monster with Constitution 10 has a 20% chance of resisting and a monster with Constitution 20 has a 70% chance of resisting such a spell or effect.
+### Base Saving Throw Chance
+
+| Constitution | Chance of Resisting |
+| :---: | :---: |
+| 6 | 0% |
+| 10 | 20% |
+| 14 | 40% |
+| 18 | 60% |
+| 21 | 75% |
+| 25 | 95% |
 
 *(Note: The Holy Word spell checks against the Constitution of the target to determine if it is affected, just like other constitution-based saving throws).*
 
-Spells cast with the Skilled or higher spell school skill incur a -15% penalty to the constitution-based saving throw per skill level above Basic. A spell cast at an Unskilled skill level incurs a +15% bonus to the constitution-based saving throw.
+### Spell Skill Modifiers
+
+| Skill Level | Saving Throw Modifier |
+| :--- | :---: |
+| Unskilled | +15% |
+| Basic | 0% |
+| Skilled | -15% |
+| Expert | -30% |
+| Master | -45% |
+| Grand Master | -60% |
 
 ## 🤸 7. Dexterity-Based Saving Throw
 
@@ -816,11 +883,33 @@ The [[/Spells/Flesh to Stone]] spell checks against the dexterity of the target 
 
 $-30\% + 5\% \times \text{Dexterity}$
 
+### Base Saving Throw Chance
+
+| Dexterity | Chance of Resisting |
+| :---: | :---: |
+| 6 | 0% |
+| 10 | 20% |
+| 14 | 40% |
+| 18 | 60% |
+| 21 | 75% |
+| 25 | 95% |
+
 ## 🗣️ 8. Charisma-Based Saving Throw
 
 The [[/Spells/Silence]] spell checks against the charisma of the target to see if they can resist the effect. The chance of resisting uses the same formula:
 
 $-30\% + 5\% \times \text{Charisma}$
+
+### Base Saving Throw Chance
+
+| Charisma | Chance of Resisting |
+| :---: | :---: |
+| 6 | 0% |
+| 10 | 20% |
+| 14 | 40% |
+| 18 | 60% |
+| 21 | 75% |
+| 25 | 95% |
 
 ## 🪞 9. Reflection
 
