@@ -13,7 +13,6 @@ Magic resistance protects the player from the following spells cast by monsters:
 - **Stun**: The spell is completely neutralized. Monsters will also avoid casting this spell at you if you have magic resistance.
 - **Paralyze**: The spell is completely neutralized.
 - **Confuse**: The spell is completely neutralized.
-- **Curse items**: While magic resistance does not directly block curses, monsters will not target you with the *curse items* spell if you have magic resistance.
 - **Open wounds**: Damage taken from the spell is halved.
 - **Psi bolt**: Damage taken from the spell is halved.
 
