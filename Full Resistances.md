@@ -1,4 +1,4 @@
-> 👉 **This page covers the full resistances in GnollHack, which grant complete immunity to various types of elemental damage, magic, and specific attacks.**
+> 👉 **This page covers the full resistances in GnollHack, which grant complete immunity to various types of special attacks.**
 
 ## ⚔️ Bisection Resistance
 

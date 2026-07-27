@@ -1,10 +1,10 @@
 ![resistances-and-saving-throws](/uploads/Resistances%20and%20Saving%20Throws/resistances-and-saving-throws.webp)
 
-> 👉 **This guide covers the various kinds of magical and elemental resistances in GnollHack.**
+> 👉 **This guide covers the various kinds of resistances to special attacks in GnollHack.**
 
 ## 📖 Overview
 
-GnollHack's resistances to magical attacks are divided into the following categories:
+GnollHack's resistances to special attacks are divided into the following categories:
 
 1. [[Full Resistances]]
 2. [[Partial Resistances]]

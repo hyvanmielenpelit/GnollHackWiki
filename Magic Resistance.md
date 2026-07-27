@@ -1,4 +1,4 @@
-> 👉 **Magic Resistance is a vital defense in GnollHack that protects you from polymorph traps, anti-magic traps, and monster spells.**
+> 👉 **Magic Resistance is a vital defense in GnollHack that protects you from polymorph traps and monster spells, among other things.**
 
 ## ✨ Effects of Magic Resistance
 
