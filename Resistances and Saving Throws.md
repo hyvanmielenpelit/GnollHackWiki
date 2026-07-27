@@ -17,7 +17,7 @@ These resistances work similarly for players and monsters, with minor difference
 
 ## 💡 Advice on Getting Resistances
 
-Generally, [[Magic Resistance]] and [[Reflection]] are considered the most important to get for a player. However, [[poison resistance|Full Resistances#poison-resistance]], [[sleep resistance|Full Resistances#sleep-resistance]], [[free action|Full Resistances#free-action]], and [[death resistance|Full Resistances#death-resistance]] are generally very important as well, because they can shield you from some instant death attacks and situations. Additionally, [[drain resistance|Full Resistances#drain-resistance]] is important against some level-draining undead.
+Generally, [[magic resistance]] and [[reflection]] are considered the most important to get for a player. However, [[poison resistance|Full Resistances#poison-resistance]], [[sleep resistance|Full Resistances#sleep-resistance]], [[free action|Full Resistances#free-action]], and [[death resistance|Full Resistances#death-resistance]] are generally very important as well, because they can shield you from some instant death attacks and situations. Additionally, [[drain resistance|Full Resistances#drain-resistance]] is important against some level-draining undead.
 
 ## ℹ️ Additional Information
 
