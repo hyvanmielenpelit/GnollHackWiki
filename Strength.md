@@ -1,6 +1,8 @@
 ![strength](/uploads/Strength/strength.webp)
 
-## Overview
+> 👉 **Strength increases your damage and chance to hit with many weapons, and carrying capacity.**
+
+## 📖 Overview
 
 Strength increases:
 
@@ -11,7 +13,7 @@ Strength also adds half its damage bonus to ranged attacks with bows.
 
 Strength also increases your [[carrying capacity|Encumbrance]].
 
-## Effect
+## 📈 Effect
 
 | Strength | Bonus<br />To Hit | Bonus<br />To Damage |
 | :------: | :----: | :-------: |
@@ -42,7 +44,7 @@ Strength also increases your [[carrying capacity|Encumbrance]].
 | **24** | +7 | +14 |
 | **25** | +8 | +15 |
 
-## Percentile Strength 18/XX
+## 💯 Percentile Strength 18/XX
 
 Strength between 18 and 19 has a percentile range from 01 to 100. This is a legacy practice from AD&D. When a character has strength 18/XX, the game rolls 1d100 **once for to-hit** and **twice for damage** and checks if the roll is equal to or less than the percentile value (XX). 
 
@@ -61,7 +63,7 @@ The average bonuses for key percentile breakpoints are:
 | **76** | 0.76 | 1.52 |
 | **100** | 1.00 | 2.00 |
 
-### +X to Strength Items
+### 💍 +X to Strength Items
 
 **+X to Strength items** increase the percentile values by **50 per X**, capped at 100, when the character has strength 18 or 18/XX. After 18/100 strength has been reached, the next +1 to Strength gives 19, and then each +X is applied normally.
 

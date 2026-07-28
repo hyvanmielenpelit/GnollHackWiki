@@ -1,12 +1,14 @@
 ![wisdom](/uploads/Wisdom/wisdom.webp)
 
-## Overview
+> 👉 **Wisdom raises your maximum mana and spellcasting success with many spells. It is also as a stat for several saving throws.**
 
-Wisdom raises your [[maximum mana]] and the chance of success to cast certain [[spells]].
+## 📖 Overview
 
-Also, wisdom is used in certain [[saving throws|Saving Throws#wisdom-based-saving-throw]] for resisting some spells and effects.
+Wisdom raises your [[maximum mana]] and the chance of success when casting certain [[spells]].
 
-## Wisdom-Based Spell Schools
+Additionally, wisdom is used in certain [[saving throws|Resistances and Saving Throws#5-wisdom-based-saving-throw]] for resisting some spells and effects.
+
+## 🦉 Wisdom-Based Spell Schools
 
 Each point of wisdom gives +15% casting success to the following spell schools:
 
@@ -20,4 +22,4 @@ Each point of wisdom gives +15% casting success to the following spell schools:
 - [[Necromancy spells]]
 - [[Transmutation spells]]
 
-Some of these spell schools use also one or two other attribute scores and take the highest of them when calculating the chance to successfully cast a spell. See [[spell casting]] for more information.
+Some of these spell schools also use one or two other attribute scores, taking the highest of them when calculating the chance to successfully cast a spell. See [[spell casting]] for more information.

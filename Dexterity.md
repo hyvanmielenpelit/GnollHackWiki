@@ -1,16 +1,18 @@
 ![dexterity](/uploads/Dexterity/dexterity.webp)
 
-## Overview
+> 👉 **Dexterity lowers your Armor Class and increases your chance to hit with weapons.**
+
+## 📖 Overview
 
 Dexterity:
 
 - Increases the chance to hit with melee and ranged weapons
 - Decreases your [[Armor Class (AC)|Armor Class (AC) and Magic Cancellation (MC)]]
-- Increases your chance to hit monsters with thrown potions.
+- Increases your chance to hit monsters with thrown potions
 
 Lower AC is better.
 
-## Effect
+## 📈 Effect
 
 | Dexterity | Bonus<br />To Hit | Bonus<br />To AC |
 | :-------: | :---------------: | :--------------------------: |
