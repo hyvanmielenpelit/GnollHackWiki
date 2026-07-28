@@ -33,7 +33,7 @@ Strength also increases your [[carrying capacity|Encumbrance]].
 | 16 | +3 | +5 |
 | 17 | +3 | +6 |
 | 18 | +3 | +6 |
-| 18/01–18/100<sup>1</sup> | +3–4<sup>2</sup> | +6–8<sup>3</sup> |
+| 18/01–18/100 | +3–4 | +6–8 |
 | 19 | +5 | +9 |
 | 20 | +5 | +10 |
 | 21 | +6 | +11 |
@@ -42,7 +42,34 @@ Strength also increases your [[carrying capacity|Encumbrance]].
 | 24 | +7 | +14 |
 | 25 | +8 | +15 |
 
-- <sup>1</sup> Note that 18/100 is sometimes referred to as 18/\*\* in the game.
-- <sup>2</sup> The game adds 1 to hit, if a 1d100 roll is equal to or less than the percentile number.
-- <sup>3</sup> The game adds 1d2 to damage, if a 1d100 roll is equal to or less than the percentile number.
- 
+## Percentile Strength 18/XX
+
+Strength between 18 and 19 has a percentile range from 01 to 100. This is a legacy practice from AD&D. When a character has strength 18/XX, the game rolls 1d100 **once for to-hit** and **twice for damage** and checks if the roll is equal to or less than the percentile value (XX). 
+
+- If the to-hit roll succeeds, it adds +1 to to-hit.
+- If a damage roll succeeds, it adds +1 to damage.
+
+So, in effect, you get an XX% chance to get a +1 to-hit bonus and an XX% chance *twice* to get a +1 damage bonus.
+
+The average bonuses for key percentile breakpoints are:
+
+| Percentile | Average To-Hit Bonus | Average Damage Bonus |
+| :--------: | :------------------: | :------------------: |
+| **01** | 0.01 | 0.02 |
+| **25** | 0.25 | 0.50 |
+| **50** | 0.50 | 1.00 |
+| **76** | 0.76 | 1.52 |
+| **100** | 1.00 | 2.00 |
+
+### +X to Strength Items
+
+**+X to Strength items** increase the percentile values by **50 per X**, capped at 100, when the character has strength 18 or 18/XX. After 18/100 strength has been reached, the next +1 to Strength gives 19, and then each +X is applied normally.
+
+#### 💡 Examples
+
+| Base Strength | Item Bonus | Resulting Strength |
+| :-----------: | :--------: | :----------------: |
+| 17 | +2 | 18/50 |
+| 18/02 | +1 | 18/52 |
+| 18/02 | +2 | 18/100 |
+| 18/02 | +3 | 19 |
