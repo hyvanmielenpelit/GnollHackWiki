@@ -62,6 +62,7 @@ When editing or creating pages for the GnollHack Wiki, follow these conventions 
 - **Markdown Flavor**: The wiki uses Gollum-style Markdown, not GitHub Flavored Markdown. It does not support GitHub-style alerts (e.g., `> [!IMPORTANT]`, `> [!NOTE]`). Use standard Markdown blockquotes with bold text and colored unicode icons as the best alternatives:
   - Note: `> ℹ️ **Note:** This is a note.`
   - Tip: `> 💡 **Tip:** This is a tip.`
+  - Example: `> 💡 **Example:** This is an example.`
   - Important: `> 📢 **Important:** This is important.`
   - Warning: `> ⚠️ **Warning:** This is a warning.`
   - Caution: `> 🛑 **Caution:** This is caution.`
@@ -252,6 +253,7 @@ When formatting inline content, tables, lists, or callouts, use appropriate Unic
 - **Alerts & Callouts** (for blockquotes `>`):
   - Note: `ℹ️` (`> ℹ️ **Note:** ...`)
   - Tip: `💡` (`> 💡 **Tip:** ...`)
+  - Example: `💡` (`> 💡 **Example:** ...`)
   - Important: `📢` (`> 📢 **Important:** ...`)
   - Warning: `⚠️` (`> ⚠️ **Warning:** ...`)
   - Caution: `🛑` (`> 🛑 **Caution:** ...`)
@@ -327,3 +329,7 @@ When referencing or comparing different games and NetHack variants, use the foll
 - Footnotes should use an ordinal numbering system starting from 1. 
 - These numbers are included as superscripts with the HTML `<sup>` tag. For example, `<sup>1</sup>`. 
 - The footnotes are listed below the table or text in an unordered list with the number in superscript like this: `- <sup>1</sup> Footnote description.`
+
+## 14. Tables
+
+- **First Column**: Usually bold the values of the first column of Markdown tables, when it contains only values and no wikilinks.
