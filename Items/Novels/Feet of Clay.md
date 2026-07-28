@@ -14,5 +14,5 @@ Reading it in-game displays a random passage from the book as a tribute. For mor
 
 ## 🔗 External Links
 
-- [*Feet of Clay* on terrypratchettbooks.com](https://www.terrypratchettbooks.com/books/feet-of-clay/)
-- [*Feet of Clay* on terrypratchett.com](https://www.terrypratchett.com/books/feet-of-clay/)
+- [**Feet of Clay** on terrypratchettbooks.com](https://www.terrypratchettbooks.com/books/feet-of-clay/)
+- [**Feet of Clay** on terrypratchett.com](https://www.terrypratchett.com/books/feet-of-clay/)

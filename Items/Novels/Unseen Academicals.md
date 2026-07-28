@@ -14,5 +14,5 @@ Reading it in-game displays a random passage from the book as a tribute. For mor
 
 ## 🔗 External Links
 
-- [*Unseen Academicals* on terrypratchettbooks.com](https://www.terrypratchettbooks.com/books/unseen-academicals/)
-- [*Unseen Academicals* on terrypratchett.com](https://www.terrypratchett.com/books/unseen-academicals/)
+- [**Unseen Academicals** on terrypratchettbooks.com](https://www.terrypratchettbooks.com/books/unseen-academicals/)
+- [**Unseen Academicals** on terrypratchett.com](https://www.terrypratchett.com/books/unseen-academicals/)

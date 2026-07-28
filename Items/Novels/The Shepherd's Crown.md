@@ -14,5 +14,5 @@ Reading it in-game displays a random passage from the book as a tribute. For mor
 
 ## 🔗 External Links
 
-- [*The Shepherd's Crown* on terrypratchettbooks.com](https://www.terrypratchettbooks.com/books/the-shepherds-crown/)
-- [*The Shepherd's Crown* on terrypratchett.com](https://www.terrypratchett.com/books/the-shepherds-crown/)
+- [**The Shepherd's Crown** on terrypratchettbooks.com](https://www.terrypratchettbooks.com/books/the-shepherds-crown/)
+- [**The Shepherd's Crown** on terrypratchett.com](https://www.terrypratchett.com/books/the-shepherds-crown/)

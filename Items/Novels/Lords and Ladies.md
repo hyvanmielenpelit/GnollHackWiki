@@ -14,5 +14,5 @@ Reading it in-game displays a random passage from the book as a tribute. For mor
 
 ## 🔗 External Links
 
-- [*Lords and Ladies* on terrypratchettbooks.com](https://www.terrypratchettbooks.com/books/lords-and-ladies/)
-- [*Lords and Ladies* on terrypratchett.com](https://www.terrypratchett.com/books/lords-and-ladies/)
+- [**Lords and Ladies** on terrypratchettbooks.com](https://www.terrypratchettbooks.com/books/lords-and-ladies/)
+- [**Lords and Ladies** on terrypratchett.com](https://www.terrypratchett.com/books/lords-and-ladies/)

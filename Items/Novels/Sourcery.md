@@ -14,5 +14,5 @@ Reading it in-game displays a random passage from the book as a tribute. For mor
 
 ## 🔗 External Links
 
-- [*Sourcery* on terrypratchettbooks.com](https://www.terrypratchettbooks.com/books/sourcery/)
-- [*Sourcery* on terrypratchett.com](https://www.terrypratchett.com/books/sourcery/)
+- [**Sourcery** on terrypratchettbooks.com](https://www.terrypratchettbooks.com/books/sourcery/)
+- [**Sourcery** on terrypratchett.com](https://www.terrypratchett.com/books/sourcery/)

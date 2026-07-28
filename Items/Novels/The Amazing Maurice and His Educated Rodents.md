@@ -14,5 +14,5 @@ Reading it in-game displays a random passage from the book as a tribute. For mor
 
 ## 🔗 External Links
 
-- [*The Amazing Maurice and His Educated Rodents* on terrypratchettbooks.com](https://www.terrypratchettbooks.com/books/the-amazing-maurice-and-his-educated-rodents/)
-- [*The Amazing Maurice and His Educated Rodents* on terrypratchett.com](https://www.terrypratchett.com/books/the-amazing-maurice-and-his-educated-rodents/)
+- [**The Amazing Maurice and His Educated Rodents** on terrypratchettbooks.com](https://www.terrypratchettbooks.com/books/the-amazing-maurice-and-his-educated-rodents/)
+- [**The Amazing Maurice and His Educated Rodents** on terrypratchett.com](https://www.terrypratchett.com/books/the-amazing-maurice-and-his-educated-rodents/)

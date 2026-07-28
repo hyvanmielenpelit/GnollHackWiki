@@ -14,5 +14,5 @@ Reading it in-game displays a random passage from the book as a tribute. For mor
 
 ## 🔗 External Links
 
-- [*Raising Steam* on terrypratchettbooks.com](https://www.terrypratchettbooks.com/books/raising-steam/)
-- [*Raising Steam* on terrypratchett.com](https://www.terrypratchett.com/books/raising-steam/)
+- [**Raising Steam** on terrypratchettbooks.com](https://www.terrypratchettbooks.com/books/raising-steam/)
+- [**Raising Steam** on terrypratchett.com](https://www.terrypratchett.com/books/raising-steam/)

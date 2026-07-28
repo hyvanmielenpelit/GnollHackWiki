@@ -14,5 +14,5 @@ Reading it in-game displays a random passage from the book as a tribute. For mor
 
 ## 🔗 External Links
 
-- [*Men at Arms* on terrypratchettbooks.com](https://www.terrypratchettbooks.com/books/men-at-arms/)
-- [*Men at Arms* on terrypratchett.com](https://www.terrypratchett.com/books/men-at-arms/)
+- [**Men at Arms** on terrypratchettbooks.com](https://www.terrypratchettbooks.com/books/men-at-arms/)
+- [**Men at Arms** on terrypratchett.com](https://www.terrypratchett.com/books/men-at-arms/)

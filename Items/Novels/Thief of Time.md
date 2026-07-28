@@ -14,5 +14,5 @@ Reading it in-game displays a random passage from the book as a tribute. For mor
 
 ## 🔗 External Links
 
-- [*Thief of Time* on terrypratchettbooks.com](https://www.terrypratchettbooks.com/books/thief-of-time/)
-- [*Thief of Time* on terrypratchett.com](https://www.terrypratchett.com/books/thief-of-time/)
+- [**Thief of Time** on terrypratchettbooks.com](https://www.terrypratchettbooks.com/books/thief-of-time/)
+- [**Thief of Time** on terrypratchett.com](https://www.terrypratchett.com/books/thief-of-time/)

@@ -14,5 +14,5 @@ Reading it in-game displays a random passage from the book as a tribute. For mor
 
 ## 🔗 External Links
 
-- [*The Last Continent* on terrypratchettbooks.com](https://www.terrypratchettbooks.com/books/the-last-continent/)
-- [*The Last Continent* on terrypratchett.com](https://www.terrypratchett.com/books/the-last-continent/)
+- [**The Last Continent** on terrypratchettbooks.com](https://www.terrypratchettbooks.com/books/the-last-continent/)
+- [**The Last Continent** on terrypratchett.com](https://www.terrypratchett.com/books/the-last-continent/)

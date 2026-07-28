@@ -14,5 +14,5 @@ Reading it in-game displays a random passage from the book as a tribute. For mor
 
 ## 🔗 External Links
 
-- [*Mort* on terrypratchettbooks.com](https://www.terrypratchettbooks.com/books/mort/)
-- [*Mort* on terrypratchett.com](https://www.terrypratchett.com/books/mort/)
+- [**Mort** on terrypratchettbooks.com](https://www.terrypratchettbooks.com/books/mort/)
+- [**Mort** on terrypratchett.com](https://www.terrypratchett.com/books/mort/)

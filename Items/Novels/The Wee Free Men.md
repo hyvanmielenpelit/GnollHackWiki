@@ -14,5 +14,5 @@ Reading it in-game displays a random passage from the book as a tribute. For mor
 
 ## 🔗 External Links
 
-- [*The Wee Free Men* on terrypratchettbooks.com](https://www.terrypratchettbooks.com/books/the-wee-free-men/)
-- [*The Wee Free Men* on terrypratchett.com](https://www.terrypratchett.com/books/the-wee-free-men/)
+- [**The Wee Free Men** on terrypratchettbooks.com](https://www.terrypratchettbooks.com/books/the-wee-free-men/)
+- [**The Wee Free Men** on terrypratchett.com](https://www.terrypratchett.com/books/the-wee-free-men/)

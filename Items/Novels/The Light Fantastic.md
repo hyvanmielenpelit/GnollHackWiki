@@ -14,5 +14,5 @@ Reading it in-game displays a random passage from the book as a tribute. For mor
 
 ## 🔗 External Links
 
-- [*The Light Fantastic* on terrypratchettbooks.com](https://www.terrypratchettbooks.com/books/the-light-fantastic/)
-- [*The Light Fantastic* on terrypratchett.com](https://www.terrypratchett.com/books/the-light-fantastic/)
+- [**The Light Fantastic** on terrypratchettbooks.com](https://www.terrypratchettbooks.com/books/the-light-fantastic/)
+- [**The Light Fantastic** on terrypratchett.com](https://www.terrypratchett.com/books/the-light-fantastic/)

@@ -14,5 +14,5 @@ Reading it in-game displays a random passage from the book as a tribute. For mor
 
 ## 🔗 External Links
 
-- [*A Hat Full of Sky* on terrypratchettbooks.com](https://www.terrypratchettbooks.com/books/a-hat-full-of-sky/)
-- [*A Hat Full of Sky* on terrypratchett.com](https://www.terrypratchett.com/books/a-hat-full-of-sky/)
+- [**A Hat Full of Sky** on terrypratchettbooks.com](https://www.terrypratchettbooks.com/books/a-hat-full-of-sky/)
+- [**A Hat Full of Sky** on terrypratchett.com](https://www.terrypratchett.com/books/a-hat-full-of-sky/)

@@ -14,5 +14,5 @@ Reading it in-game displays a random passage from the book as a tribute. For mor
 
 ## 🔗 External Links
 
-- [*The Fifth Elephant* on terrypratchettbooks.com](https://www.terrypratchettbooks.com/books/the-fifth-elephant/)
-- [*The Fifth Elephant* on terrypratchett.com](https://www.terrypratchett.com/books/the-fifth-elephant/)
+- [**The Fifth Elephant** on terrypratchettbooks.com](https://www.terrypratchettbooks.com/books/the-fifth-elephant/)
+- [**The Fifth Elephant** on terrypratchett.com](https://www.terrypratchett.com/books/the-fifth-elephant/)

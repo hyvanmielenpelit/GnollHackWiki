@@ -14,5 +14,5 @@ Reading it in-game displays a random passage from the book as a tribute. For mor
 
 ## 🔗 External Links
 
-- [*Wyrd Sisters* on terrypratchettbooks.com](https://www.terrypratchettbooks.com/books/wyrd-sisters/)
-- [*Wyrd Sisters* on terrypratchett.com](https://www.terrypratchett.com/books/wyrd-sisters/)
+- [**Wyrd Sisters** on terrypratchettbooks.com](https://www.terrypratchettbooks.com/books/wyrd-sisters/)
+- [**Wyrd Sisters** on terrypratchett.com](https://www.terrypratchett.com/books/wyrd-sisters/)

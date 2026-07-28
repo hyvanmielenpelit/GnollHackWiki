@@ -14,5 +14,5 @@ Reading it in-game displays a random passage from the book as a tribute. For mor
 
 ## 🔗 External Links
 
-- [*Jingo* on terrypratchettbooks.com](https://www.terrypratchettbooks.com/books/jingo/)
-- [*Jingo* on terrypratchett.com](https://www.terrypratchett.com/books/jingo/)
+- [**Jingo** on terrypratchettbooks.com](https://www.terrypratchettbooks.com/books/jingo/)
+- [**Jingo** on terrypratchett.com](https://www.terrypratchett.com/books/jingo/)

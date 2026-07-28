@@ -14,5 +14,5 @@ Reading it in-game displays a random passage from the book as a tribute. For mor
 
 ## 🔗 External Links
 
-- [*Going Postal* on terrypratchettbooks.com](https://www.terrypratchettbooks.com/books/going-postal/)
-- [*Going Postal* on terrypratchett.com](https://www.terrypratchett.com/books/going-postal/)
+- [**Going Postal** on terrypratchettbooks.com](https://www.terrypratchettbooks.com/books/going-postal/)
+- [**Going Postal** on terrypratchett.com](https://www.terrypratchett.com/books/going-postal/)

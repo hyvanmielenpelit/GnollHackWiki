@@ -14,5 +14,5 @@ Reading it in-game displays a random passage from the book as a tribute. For mor
 
 ## 🔗 External Links
 
-- [*Moving Pictures* on terrypratchettbooks.com](https://www.terrypratchettbooks.com/books/moving-pictures/)
-- [*Moving Pictures* on terrypratchett.com](https://www.terrypratchett.com/books/moving-pictures/)
+- [**Moving Pictures** on terrypratchettbooks.com](https://www.terrypratchettbooks.com/books/moving-pictures/)
+- [**Moving Pictures** on terrypratchett.com](https://www.terrypratchett.com/books/moving-pictures/)

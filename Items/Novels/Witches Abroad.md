@@ -14,5 +14,5 @@ Reading it in-game displays a random passage from the book as a tribute. For mor
 
 ## 🔗 External Links
 
-- [*Witches Abroad* on terrypratchettbooks.com](https://www.terrypratchettbooks.com/books/witches-abroad/)
-- [*Witches Abroad* on terrypratchett.com](https://www.terrypratchett.com/books/witches-abroad/)
+- [**Witches Abroad** on terrypratchettbooks.com](https://www.terrypratchettbooks.com/books/witches-abroad/)
+- [**Witches Abroad** on terrypratchett.com](https://www.terrypratchett.com/books/witches-abroad/)

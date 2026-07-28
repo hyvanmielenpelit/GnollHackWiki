@@ -14,5 +14,5 @@ Reading it in-game displays a random passage from the book as a tribute. For mor
 
 ## 🔗 External Links
 
-- [*Guards! Guards!* on terrypratchettbooks.com](https://www.terrypratchettbooks.com/books/guards-guards/)
-- [*Guards! Guards!* on terrypratchett.com](https://www.terrypratchett.com/books/guards-guards/)
+- [**Guards! Guards!** on terrypratchettbooks.com](https://www.terrypratchettbooks.com/books/guards-guards/)
+- [**Guards! Guards!** on terrypratchett.com](https://www.terrypratchett.com/books/guards-guards/)

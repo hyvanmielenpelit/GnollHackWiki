@@ -14,5 +14,5 @@ Reading it in-game displays a random passage from the book as a tribute. For mor
 
 ## 🔗 External Links
 
-- [*Wintersmith* on terrypratchettbooks.com](https://www.terrypratchettbooks.com/books/wintersmith/)
-- [*Wintersmith* on terrypratchett.com](https://www.terrypratchett.com/books/wintersmith/)
+- [**Wintersmith** on terrypratchettbooks.com](https://www.terrypratchettbooks.com/books/wintersmith/)
+- [**Wintersmith** on terrypratchett.com](https://www.terrypratchett.com/books/wintersmith/)

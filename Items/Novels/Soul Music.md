@@ -14,5 +14,5 @@ Reading it in-game displays a random passage from the book as a tribute. For mor
 
 ## 🔗 External Links
 
-- [*Soul Music* on terrypratchettbooks.com](https://www.terrypratchettbooks.com/books/soul-music/)
-- [*Soul Music* on terrypratchett.com](https://www.terrypratchett.com/books/soul-music/)
+- [**Soul Music** on terrypratchettbooks.com](https://www.terrypratchettbooks.com/books/soul-music/)
+- [**Soul Music** on terrypratchett.com](https://www.terrypratchett.com/books/soul-music/)
