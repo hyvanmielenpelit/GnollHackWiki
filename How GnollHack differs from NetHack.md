@@ -84,7 +84,6 @@ GnollHack's GUI on Windows:
 
 ![GnollHack on Windows](/uploads/How%20GnollHack%20differs%20from%20NetHack/gnollhack-windows-q85.webp)
 
-## ⚖️ Comparisons
+## ℹ️ See Also
 
-- **[[Roguelike Comparison]]** — A comparison of *NetHack*, *GnollHack*, *Pathos*, and *Shattered Pixel Dungeon*.
-- **[[Comparison of NetHack GUIs]]** — A comparison of *NetHack Windows GUI*, *NetHack 3D*, and *GnollHack*.
+- **[[Comparisons to Other Games]]**
