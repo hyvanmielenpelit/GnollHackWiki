@@ -33,3 +33,7 @@ The variants take fundamentally different approaches to visual presentation and 
 Ultimately, **GnollHack** focuses on approachability, modernizing the UI, and providing a structured learning curve for players who are new to traditional roguelikes.
 
 Variants like **EvilHack**, **UnNetHack**, and **dNetHack** focus on expanding the depth, lethality, and mechanical complexity of the original game to test the mastery of players who have already completed vanilla *NetHack*.
+
+## ℹ️ See Also
+
+- **[[Comparisons to Other Games]]**

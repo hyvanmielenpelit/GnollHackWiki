@@ -35,3 +35,7 @@ NetHack 3D looks like this in the top-down overview mode, using the **Nevanda ti
 GnollHack has its own **custom tileset**. Its tiles vary in size. They are usually between 64x96 and 192x192 pixels in size, except for items that are 64x48 pixels in size.
 
 ![Screenshot of GnollHack's Modern Windows Client](/uploads/Comparison%20of%20NetHack%20GUIs/gnollhack-windows-q85.webp)
+
+## ℹ️ See Also
+
+- **[[Comparisons to Other Games]]**
