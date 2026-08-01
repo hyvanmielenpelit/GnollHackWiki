@@ -172,3 +172,28 @@ If **Send Diagnostic Data** is enabled in the settings, the game will post the f
 - Device RAM
 - Device free storage space
 - Device total storage space
+
+### 3. Gnoll Overseer AI Assistant
+
+The GnollHack app includes an optional AI-powered assistant called Gnoll Overseer, which processes user data to provide intelligent gameplay assistance and features.
+
+#### 3.1. Data Collected and Processed
+When you interact with Gnoll Overseer, the following user data may be collected and sent to third-party AI providers for processing:
+- Chat messages (text input from the user)
+- Game snapshots and state information
+- Message history within the chat session
+- Game dumplogs
+- In-game screenshots
+- Device and environment metadata
+
+#### 3.2. Third-Party AI Providers
+Gnoll Overseer utilizes third-party AI services to process the data mentioned above. The AI providers that may be used include, but are not limited to:
+- Google (e.g., Gemini)
+- OpenAI (e.g., ChatGPT)
+- Anthropic (e.g., Claude)
+
+Data processing by these third-party providers is governed by their respective Privacy Policies and Terms of Service. By using the Gnoll Overseer feature, you explicitly consent to your data being shared with and processed by these third-party services.
+
+#### 3.3. Data Retention and Deletion
+- **Data Retention**: Your chat sessions and associated data (including message history and game snapshots) are securely stored on our servers to maintain the context of your AI conversations. They are retained until you choose to delete them.
+- **Data Deletion**: You have the right and ability to manually delete your chat sessions at any time directly within the Gnoll Overseer interface. Deleting a chat session will permanently remove its associated data from our servers.
