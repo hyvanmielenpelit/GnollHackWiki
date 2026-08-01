@@ -120,6 +120,7 @@ These articles provide historical context and technical background. They are eas
 - <sup>2</sup> The Linux version is built on Linux as described in [[Build Instructions for ASCII Version on Linux]].
 - <sup>3</sup> May exhibit odd behavior or crash.
 
-## 🤖 AI Agents
+## 🤖 AI
 
 - [[AI Skills]] — GnollHack development-related skills to be used with AI agents
+- [[AI Safety Settings]] — Gnoll Overseer safety settings
