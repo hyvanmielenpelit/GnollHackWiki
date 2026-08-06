@@ -6,7 +6,7 @@ We use the following cookies and tags on gnollhack.com:
 - **Conversion Linker** — Links ad clicks to users and conversions.
 - **Google Ads Conversion Tracking** — Provides conversions to Google Ads campaigns (mainly link clicks).
 
-## Cookies are  not used to show ads
+## Cookies are not used to show ads
 
 Note that **we don't show ads** to you on gnollhack.com, and **we don't use cookies to show you ads**. 
 

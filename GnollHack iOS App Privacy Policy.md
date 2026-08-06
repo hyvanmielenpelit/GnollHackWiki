@@ -1,7 +1,5 @@
-## General Privacy Policy
+The privacy policy for the GnollHack iOS app is covered by our general application privacy policy. 
 
-- [[GnollHack App Privacy Policy]]
+Please refer to the complete **[[GnollHack App Privacy Policy]]** for detailed information on how we collect, use, and protect your data.
 
-## iOS App Specific Additions
-
-- None
+There are currently no iOS-specific additions or exceptions to the general policy.

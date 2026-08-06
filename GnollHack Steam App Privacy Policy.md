@@ -1,7 +1,5 @@
-## General Privacy Policy
+The privacy policy for the GnollHack Steam app is covered by our general application privacy policy. 
 
-- [[GnollHack App Privacy Policy]]
+Please refer to the complete **[[GnollHack App Privacy Policy]]** for detailed information on how we collect, use, and protect your data.
 
-## Steam App Specific Additions
-
-- None
+There are currently no Steam-specific additions or exceptions to the general policy.
