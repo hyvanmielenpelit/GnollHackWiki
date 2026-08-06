@@ -101,6 +101,7 @@ When editing or creating pages for the GnollHack Wiki, follow these conventions 
 When editing or creating headings for pages, always use appropriate Unicode icons/emojis immediately after the heading markers (`## ` or `### `) to maintain a rich, consistent visual aesthetic across the wiki. Use this verified list as a guide. **Exceptions**:
 - Never use Unicode icons in headings that start with a number (such as `1.`, `2.`, `3.`, or `### 1. Heading Name`).
 - Never apply a Unicode icon to H1 (`#`) headings (custom page titles).
+- Never use Unicode icons in headings in Privacy Policy, Terms of Service, and other legal documents.
 
 - **General Guides & Meta Info**:
   - General Info / Overview (General articles): `📖` or `ℹ️`
@@ -116,7 +117,6 @@ When editing or creating headings for pages, always use appropriate Unicode icon
   - Developer Workflows / Build Instructions / Code Contributions: `🛠️` or `🧑‍💻`
   - Prerequisites: `📋`
   - Release / Build Checklists: `📋` or `✅`
-  - Legal Pages / Privacy & Cookie Policies: `📄` or `🔒`
   - Scores / Tournaments: `🏆` or `🎖️` or `💯`
   - Conclusions / Summary: `💡`
 - **Character Attributes & Core Stats**:
