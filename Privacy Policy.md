@@ -2,18 +2,22 @@
 
 ## General
 
-* [[GnollHack App Privacy Policy]]
+- [[GnollHack App Privacy Policy]]
 
 ## Platform-Specific
 
-* [[GnollHack Android App Privacy Policy]]
-* [[GnollHack iOS App Privacy Policy]]
-* [[GnollHack Steam App Privacy Policy]]
+- [[GnollHack Android App Privacy Policy]]
+- [[GnollHack iOS App Privacy Policy]]
+- [[GnollHack Steam App Privacy Policy]]
 
 ## GnollHack Account
 
-* [[GnollHack Account Privacy Policy]]
+- [[GnollHack Account Privacy Policy]]
+
+## Gnoll Overseer
+
+- [[Gnoll Overseer Privacy Policy]]
 
 ## GnollHack.com Website
 
-* [[GnollHack.com Cookie Policy]]
+- [[GnollHack.com Cookie Policy]]
