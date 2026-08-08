@@ -72,6 +72,13 @@ GnollHack is best understood as a modernized version of NetHack that makes the c
 - **[[Bones Sharing]]** — You can share your dead characters with others *(modern versions only)*
 - **[[Save File Tracking]]** — The modern Windows version requires your save files to be tracked online to make them eligible for server posting
 
+## 🐺 Gnoll Overseer
+
+Gnoll Overseer is your in-game assistant about all things GnollHack.
+
+- **[[/Guides/Introduction to Gnoll Overseer]]** — Learn about what Gnoll Overseer is 
+- **[[/Guides/Advanced Guide to Gnoll Overseer]]** — An in-depth guide to Gnoll Overseer
+
 ## 📋 Technical Information
 
 - **[[Troubleshooting]]** — How to solve various technical problems
