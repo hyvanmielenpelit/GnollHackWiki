@@ -1,6 +1,6 @@
 ![Gnoll Overseer](/uploads/Guides/Introduction%20to%20Gnoll%20Overseer/gnoll-overseer-avatar-frame-256x256-q85.webp)
 
-> 👉 **Gnoll Overseer is a game information assistant that can be accessed via About page and game menu. It opens on its own page similar to the Wiki.**
+> 👉 **Gnoll Overseer is a game information assistant that can be accessed via the About page and the game menu. It opens on its own page similar to the Wiki.**
 
 ## ✨ What Can Gnoll Overseer Do?
 
@@ -10,7 +10,7 @@
 
 ## 🆚 How It Differs From AI Chatbots
 
-Although Gnoll Overseer uses the same frontier AI models as the ChatGPT and Gemini web apps, it is a purpose-built assistant seamlessly integrated into the game client. Rather than relying on generic knowledge, the Overseer is aware about the game context via specialized integration and grounded in real game data through custom tools made available to it.
+Although Gnoll Overseer uses the same frontier AI models as the ChatGPT and Gemini web apps, it is a purpose-built assistant seamlessly integrated into the game client. Rather than relying on generic knowledge, the Overseer is aware of the game context via specialized integration and grounded in real game data through custom tools made available to it.
 
 ## 🏁 How to Access It
 
