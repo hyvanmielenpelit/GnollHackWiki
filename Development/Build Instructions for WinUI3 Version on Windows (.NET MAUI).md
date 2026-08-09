@@ -8,15 +8,16 @@ You need the following devices to follow these instructions:
 ### Software
 
 1. Install the latest Visual Studio version with up-to-date support for .NET MAUI 10.0.
+> ℹ️ **Note:** To build the native engine (`GnollHack.sln`), you must also install the **Desktop development with C++** workload and the Windows 10/11 SDKs.
 2. Clone this [GnollHack repository](https://github.com/hyvanmielenpelit/GnollHack) — [[/Development/Clone Repository in Visual Studio]].
 
 ## Build
 
 1. [[/Development/Install Tile Sets and FMOD Sound Banks]].
 2. [[/Development/Install Secrets File]].
-3. (Note: You do not need to build the legacy Xamarin.Forms app projects, but you do need the converted XAML UI files. If you are starting fresh or editing XAML files, build the native solution using the **Android+Windows** configuration first to run the XAML translation.)
+3. (Note: You do not need to build the legacy Xamarin.Forms app projects, but you do need the converted XAML UI files. If you are starting fresh or editing XAML files, build the native solution using the **Android+Windows** configuration first to run the XAML translation. > ⚠️ **Warning:** The `Android+Windows` configuration requires a running WSL environment with SSH configured, as it cross-compiles the Android libraries. If you are building purely for Windows and do not have WSL set up, choose the **x64** configuration and run the XAML translation step manually via the `makedefsdroid` project.)
 4. Locate `GnollHack.sln` in the `win\win32\vs` directory and open it — [[/Development/Open GnollHack Solution in Visual Studio]].
-5. Choose the **x64** solution platform in the menu bar. (Or **Android+Windows** if you need to run the XAML translation.)
+5. Choose the **x64** solution platform in the menu bar for a pure Windows build. (Or **Android+Windows** if you have WSL configured and need the Android libraries / automatic XAML translation.)
 6. Select **Debug** as your solution configuration. You can also use **Release**, when you plan to build a release build.
 7. Rebuild the GnollHack solution.
     - This will compile the native C library (`gnollhackwin.dll`), create the NetHack game data file called `nhdat` in Windows format, and copy them together with `credit`, `defaults.gnh`, `license`, `symbols`, `sysconf`, and `xcredits` to `win\win32\xpl\GnollHackM\Platforms\Windows\gnh`.

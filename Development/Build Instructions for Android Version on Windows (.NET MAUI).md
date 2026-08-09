@@ -8,7 +8,7 @@ You need the following devices to follow these instructions:
 
 ### Software Installation
 
-1. Install the latest Visual Studio version with up-to-date support for .NET MAUI.
+1. Install the latest Visual Studio version with up-to-date support for .NET MAUI. Make sure to also install the **Android NDK** (usually available via the Visual Studio Installer or Android SDK Manager) as it is explicitly required by the C++ cross-compilation pipeline.
 2. [[/Development/Install Tile Sets and FMOD Sound Banks]].
 3. [[/Development/Install Secrets File]].
 4. [[/Development/Install Windows Subsystem for Linux]].
