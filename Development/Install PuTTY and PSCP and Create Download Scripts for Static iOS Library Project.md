@@ -6,9 +6,9 @@ This is needed to download the library file from Mac to Windows using **pscp** t
 
 Install PuTTY on your Windows computer from [www.putty.org](http://www.putty.org/).
 
-## 3. Create PSCP Download Scripts
+## 3. Configure PSCP Download Scripts
 
-Write **two download scripts** for **pscp** to download libgnollhackios.a from the Mac computer. You need put the two scripts in `win32\winclisrv\GnollHackClient\gnollhackios` directory. They are:
+The repository already contains two download scripts for **pscp** in the `win\win32\xpl\gnollhackios` directory. Edit them with your Mac credentials:
 
 1. Download-Debug-ARM64.bat
 2. Download-Release-ARM64.bat

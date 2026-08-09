@@ -9,9 +9,15 @@ You need the following devices to follow these instructions:
 
 ### Build Native Library and Assets (GnollHack.sln)
 
-1. Connect to your Mac build host using the **Pair to Mac** wizard in Visual Studio.
-2. Open the native solution `win\win32\vs\GnollHack.sln`.
-3. Rebuild the solution. Visual Studio will delegate compilation of the C core to the paired Mac, producing the static library `libgnollhackios.a` and running the XAML translation.
+### 📋 Prerequisites for Native Library Build
+
+1. [[/Development/Install vcremote for Static iOS Library Project]] — vcremote is needed for building the C++ static library (`libgnollhackios.a`).
+2. [[/Development/Install PuTTY and PSCP and Create Download Scripts for Static iOS Library Project]] — PuTTY/PSCP is needed to download the compiled library from the Mac to Windows.
+
+1. Ensure **vcremote** is running on the Mac (this is used by the C++ static library project `gnollhackios.vcxproj` to compile the native C code on the Mac).
+2. Connect to your Mac build host using the **Pair to Mac** wizard in Visual Studio (this is used by the .NET MAUI project `GnollHackM.csproj` for building and deploying the C# app).
+3. Open the native solution `win\win32\vs\GnollHack.sln`.
+4. Rebuild the solution. Visual Studio will delegate compilation of the C core to the paired Mac, producing the static library `libgnollhackios.a` and running the XAML translation.
 
 ### Software Installation for .NET MAUI
 
@@ -53,6 +59,12 @@ When building the native iOS library from the GnollHack solution, the build proc
 3. Select your device from the dropdown menu associated with the green **Start button** (it normally says something like Windows Machine), from under iOS Remote Devices
     - If your connected device does not show up there, then there is a problem with the Mac connection
 4. Hit the green **Start button** to start debugging.
+
+## 🛠️ CLI Build Command
+
+```powershell
+dotnet build win/win32/xpl/GnollHackM/GnollHackM.csproj -c Debug -f net10.0-ios
+```
 
 ## Troubleshooting
 

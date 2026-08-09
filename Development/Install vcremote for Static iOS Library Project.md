@@ -13,6 +13,11 @@ Install **vcremote** on the Mac computer using these instructions:
 1. Generate PIN by running `vcremote generateClientCert` in Terminal.
 2. **Write the PIN down**. You will need to enter it to Visual Studio on Windows.
 
+## ⚙️ Configure Visual Studio
+
+1. In Visual Studio on Windows, go to **Tools** → **Options** → **Cross Platform** → **C++** → **iOS**.
+2. Enter the Mac's IP address or hostname, the port number, and the PIN generated in the previous step.
+
 ## Run vcremote
 
 1. Run **vcremote** by writing `vcremote` in Terminal.

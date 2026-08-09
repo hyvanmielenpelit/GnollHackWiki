@@ -2,6 +2,17 @@
 
 You build the .NET MAUI version of GnollHack with a two-step process. This is because we are keeping the Xamarin.Forms version of GnollHack for compatibility reasons and we are sharing code between both architectures. This allows us to maintain both Xamarin.Forms and .NET MAUI versions of GnollHack at the same time.
 
+## 📋 Prerequisites
+
+Before building, complete the following setup steps:
+
+1. [[/Development/Install Visual Studio 2026 for .NET MAUI Development]]
+2. [[/Development/Install Windows Subsystem for Linux]] *(required for Android builds)*
+3. [[/Development/Install vcremote for Static iOS Library Project]] *(required for iOS builds)*
+4. [[/Development/Install PuTTY and PSCP and Create Download Scripts for Static iOS Library Project]] *(required for iOS builds)*
+5. [[/Development/Install Tile Sets and FMOD Sound Banks]]
+6. [[/Development/Install Secrets File]]
+
 ## 1. Build Native Libraries and Core Assets (GnollHack.sln)
 
 Building the native solution compiles the C core game engine and prepares the translated UI files.
@@ -19,6 +30,19 @@ Check [[appropriate build instructions|/Development Information]] for prerequisi
 
 This builds the necessary native libraries (e.g., `gnollhackwin.dll` for Windows, `libgnollhackdroid.so` for Android, etc.) and copies them along with the core assets to the respective platform folders of the `GnollHackM` project. This also runs `makedefsdroid`, which converts the shared XAML files from `GnollHackX` to `GnollHackM` format. You must repeat this step whenever you change code in the native C core or modify XAML files in the `GnollHackX` folder.
 
+### CLI Alternative
+
+You can also build the native solution from the command line:
+
+```powershell
+$msbuild = & "${env:ProgramFiles(x86)}\Microsoft Visual Studio\Installer\vswhere.exe" -latest -requires Microsoft.Component.MSBuild -find MSBuild\**\Bin\MSBuild.exe
+& $msbuild win/win32/vs/GnollHack.sln /t:Rebuild /p:Configuration=Debug /p:Platform="Android+Windows"
+```
+
+The `Android+Windows` platform configuration builds both Android and Windows native libraries simultaneously. You can also use `x64` for Windows only or `ARM64` for Android only.
+
+> ⚠️ **Warning:** For Android builds, start the SSH service in WSL first: `sudo service ssh start`
+> For iOS builds, ensure vcremote is running on the Mac.
 
 ## 2. Build GnollHackM
 
@@ -37,6 +61,21 @@ GnollHackM is the .NET MAUI version of GnollHack.
 3. Build `GnollHackM`, which is the .NET MAUI version of GnollHack, using [[appropriate build instructions|/Development Information]].
 
 This builds the .NET MAUI version of the game. You need to repeat this step whenever you change things in XAML or the managed C# code.
+
+### CLI Alternative
+
+```powershell
+# Windows
+dotnet build win/win32/xpl/GnollHackM/GnollHackM.csproj -c Debug -f net10.0-windows10.0.19041.0
+
+# Android
+dotnet build win/win32/xpl/GnollHackM/GnollHackM.csproj -c Debug -f net10.0-android
+
+# iOS
+dotnet build win/win32/xpl/GnollHackM/GnollHackM.csproj -c Debug -f net10.0-ios
+```
+
+> ℹ️ **Note:** The exact target framework monikers may change over time. Check `GnollHackM.csproj` for current values.
 
 ## Remarks
 

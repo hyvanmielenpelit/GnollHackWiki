@@ -16,4 +16,4 @@ The secrets file is a json file called `ghsecrets.sjson`. It is used for storing
 ## Installing the File
 
 1. Copy the **secrets file** to the `win\win32\xpl\GnollHackX\GnollHackX\Assets` directory.
-2. Copy the **secrets file** to the `win\win32\xpl\GnollHackM\GnollHackM\Assets` directory.
+2. Copy the **secrets file** to the `win\win32\xpl\GnollHackM\Assets` directory.

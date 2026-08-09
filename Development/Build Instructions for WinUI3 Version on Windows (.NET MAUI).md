@@ -24,6 +24,21 @@ You need the following devices to follow these instructions:
 8. Locate `GnollHackM.sln` in `win\win32\xpl\GnollHackM` directory and open it in Visual Studio.
 9. Rebuild the GnollHackM solution.
 
+## 🛠️ CLI Build Commands
+
+You can also build from the command line:
+
+```powershell
+# Build native solution
+$msbuild = & "${env:ProgramFiles(x86)}\Microsoft Visual Studio\Installer\vswhere.exe" -latest -requires Microsoft.Component.MSBuild -find MSBuild\**\Bin\MSBuild.exe
+& $msbuild win/win32/vs/GnollHack.sln /t:Rebuild /p:Configuration=Debug /p:Platform=x64
+
+# Build MAUI solution
+dotnet build win/win32/xpl/GnollHackM/GnollHackM.csproj -c Debug -f net10.0-windows10.0.19041.0
+```
+
+See also: [[/Development/Troubleshooting Building GnollHack with .NET MAUI]]
+
 ## Starting Debugging or Creating Archive
 
 1. [[/Development/Open GnollHackM Solution in Visual Studio]]. This is different from the normal GnollHack solution.
