@@ -6,21 +6,21 @@
 
 > ℹ️ This section explains the details of how we use assets created with generative AI in GnollHack-related contexts.
 
-| AI Asset Type | Use Allowed in Game | Use Allowed in Stores<sup>1</sup> | Use Allowed in Other Contexts<sup>2</sup> |
-| :--- | :---: | :---: | :---: |
-| Image | ❌ | ❌<sup>3</sup> / ✅<sup>4</sup> | ✅ |
-| Text | ❌ | ✅<sup>5, 6</sup> | ✅<sup>6</sup> |
-| Voice | ❌ | ❌ | ✅ |
-| Music | ❌ | ❌ | ✅ |
-| Video | ❌ | ❌ | ✅ |
-| 3D Model | ❌ | ❌ | ✅ |
+| AI Asset Type / Use Allowed | GnollHack | Stores<sup>1</sup> | Gnoll Overseer | Other Contexts<sup>2</sup> |
+| :-------------------------- | :-------: | :---------------------: | :------------: | :------------------------: |
+| Image | ❌ | ❌<sup>3</sup> / ✅<sup>4</sup> | ✅ | ✅ |
+| Text<sup>5, 6</sup> | ❌ | ✅ | ✅ | ✅ |
+| Voice | ❌ | ❌ | ✅ | ✅ |
+| Music | ❌ | ❌ | ❌ | ✅ |
+| Video | ❌ | ❌ | ✅ | ✅ |
+| 3D Model | ❌ | ❌ | ✅ | ✅ |
 
 - <sup>1</sup> This includes store page assets and other assets in stores, such as the Google Play Store.
 - <sup>2</sup> This includes, but is not limited to, advertising and the wiki.
 - <sup>3</sup> Store page assets.
 - <sup>4</sup> Other assets, such as event graphics.
-- <sup>5</sup> Text in stores is usually a mix of AI-generated and human-generated text.
-- <sup>6</sup> AI may be used to check the grammar of English text, for example.
+- <sup>5</sup> AI may be used to check the grammar of English text, for example.
+- <sup>6</sup> Text in stores is usually a mix of AI-generated and human-generated text.
 
 ## 💻 AI Programming
 
