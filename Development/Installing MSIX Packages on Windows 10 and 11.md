@@ -4,7 +4,7 @@
 
 These are the instructions how to install a **signed MSIX package**. You can't install it directly but you need to accept the signing certificate first.
 
-You need **administrator priviledges** on your computer to do this.
+You need **administrator privileges** on your computer to do this.
 
 ## Installing the Certificate
 
@@ -17,7 +17,7 @@ If you haven't installed the GnollHack MSIX certificate, you need to first follo
 4. In the Digital Signature Details, in the General tab, click **View Certificate**.
 5. In the Certificate dialog, in the General tab, click **Install Certificate**.
 6. In the Certificate Import Wizard, choose **Local Machine** as Store Location, and click Next.
-    - This requires **administrator priviledges** and Windows will prompt you to allow the installation to continue.
+    - This requires **administrator privileges** and Windows will prompt you to allow the installation to continue.
 7. In the Certificate Store step, select **Place all certificates in the following store** and click **Browse...**
 8. In the Select Certificate Store popup, select **Trusted Root Certification Authorities** and click OK.
 9. Click Next and then click Finish.

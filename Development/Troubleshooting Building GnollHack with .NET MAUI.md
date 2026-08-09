@@ -1,6 +1,6 @@
 ## Problem: Error — Another Process is Locking a File or Folder (During Build or Deployment)
 
-- Find out which process is interfering with the build process with **Process Explorer**, using these instructions: https://superuser.com/a/399660/2026464
+- Find out which process is interfering with the build process with **Process Explorer**, [using these instructions](https://superuser.com/a/399660/2026464)
 - In **Task Manager**, kill the interfering process.
 
 ## Problem: Building Builds All Platforms and is Therefore Slow

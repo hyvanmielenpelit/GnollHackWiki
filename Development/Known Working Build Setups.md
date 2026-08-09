@@ -1,3 +1,5 @@
+> 👉 **This page details the known working development build setups for GnollHack.**
+
 Known working build setups as of 20 June 2026 for GnollHack 4.2.0 Build 14:
 
 | Technology | Version       | Platform | Visual Studio           | Xcode | Configuration                |

@@ -1,4 +1,4 @@
-# AI Safety Settings
+> ℹ️ **Note:** These settings are configured in the MobileGnollHackLogger / Overseer server backend's `appsettings.json`, not in the client app.
 
 This document outlines the safety thresholds and configurations for Large Language Models (LLMs) used within GnollHack applications, particularly the Overseer chat service. GnollHack is rated for children ages 7 and up, meaning strict safety measures are implemented at the API level to ensure a child-friendly environment.
 

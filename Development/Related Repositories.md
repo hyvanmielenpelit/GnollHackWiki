@@ -1,3 +1,4 @@
+> 👉 **This page lists the official GitHub repositories related to GnollHack development.**
 
 | Repository | Type | Description |
 | :--------- | :--- | :---------- |

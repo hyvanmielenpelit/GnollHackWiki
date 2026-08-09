@@ -1,4 +1,4 @@
- > 👉 **This article describes the story of the early development years of GnollHack's modern client, which was first released on Android and iOS.**
+> 👉 **This article describes the story of the early development years of GnollHack's modern client, which was first released on Android and iOS.**
 
 ## Technologies
 
@@ -10,7 +10,7 @@
 - **[Windows Subsystem for Linux (WSL)](https://docs.microsoft.com/en-us/windows/wsl/about)** — Used to build assets for Google Play Store as well as some other minor tasks.
 - **[TileSetCompiler](https://github.com/hyvanmielenpelit/TileSetCompiler)** — Compiles the GnollHack tileset from individual PNG files.
 
-There were no separate game engine used for GnollHack, but the drawing was done with SkiaSharp, which was runnning on top of Xamarin.Forms.
+There was no separate game engine used for GnollHack, but the drawing was done with SkiaSharp, which was runnning on top of Xamarin.Forms.
 
 ## IDEs
 
@@ -66,10 +66,10 @@ After a long search of about 6 months, we came upon *Xamarin.Forms* and *SkiaSha
 2. Xamarin.Forms allowed you to create both Android and iOS applications with the same code base, sharing about 95% of code.
 3. At the time of us choosing the technology, Xamarin.Forms was well established and Microsoft was creating a new version of it called .NET MAUI (Multi-platform App User Interface), which meant that Xamarin.Forms would be future-proof in the form of .NET MAUI.
 4. Luckily, FMOD had a full integration with Unity, which used Mono and C#, just like Xamarin.Forms did. With some help from MonoGame community efforts, we were able to piggyback the FMOD Unity integration and get FMOD working first on Android and later on iOS. Without the FMOD Unity integration, it would not have been possible.
-5. Xamarin.Forms had a full UI control library and more. It had also classes to access many native features, such as file sharing. These helped us immensely to create advanced functionality to GnollHack. I would even say that developing games on an app platform, such as Xamarin, enhances the game functionality greatly. This especially true when you code the graphics engine yourself. For 3D games, which need advanced graphics functionality, this is of course not a good option, and in that case, Unity or similar technology is probably much better.
+5. Xamarin.Forms had a full UI control library and more. It had also classes to access many native features, such as file sharing. These helped us immensely to create advanced functionality to GnollHack. I would even say that developing games on an app platform, such as Xamarin, enhances the game functionality greatly. This is especially true when you code the graphics engine yourself. For 3D games, which need advanced graphics functionality, this is of course not a good option, and in that case, Unity or similar technology is probably much better.
 6. SkiaSharp was very similar to *GDI+*, which made porting the graphics engine easy.
 7. SkiaSharp was able to draw GnollHack's main screen at about *30 FPS using the CPU* and *60 FPS using the GPU*, even on low-end devices. Using the GPU did not require us to write any new code, since SKCanvasView and SKGLView have the same APIs.
-8. Xamarin is based on Mono and .NET, which happen to have pretty good interoperability functionalities with C and C++. We were able to marshal all C objects into C# classes and thus get information from the GnollHack C library to C# and vice versa. This might not have been be possible with other languages, if their C/C++ interoperability functionalities would be lacking. Even using .NET and C#, we came upon one NotImplementedException in interop classes, but we were able to devise a workaround.
+8. Xamarin is based on Mono and .NET, which happen to have pretty good interoperability functionalities with C and C++. We were able to marshal all C objects into C# classes and thus get information from the GnollHack C library to C# and vice versa. This might not have been be possible with other languages, if their C/C++ interoperability functionalities were lacking. Even using .NET and C#, we came upon one NotImplementedException in interop classes, but we were able to devise a workaround.
 9. Visual Studio supported debugging C and C# code at the same time, which made it great for our use case.
 
 ### Some Additional Boons from Using Xamarin

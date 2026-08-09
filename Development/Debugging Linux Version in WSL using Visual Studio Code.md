@@ -24,12 +24,14 @@ Type `code` in WSL to install vscode server in Ubuntu.
 
 Set root password in WSL by
 
-1. `sudo –i`
+1. `sudo -i`
 2. `passwd`
 
 ### 5. In Windows Command Prompt
 
 Change default user to root by typing `ubuntu2004 config --default-user root`.
+
+> 💡 **Tip:** The distro name `ubuntu2004` varies by installation (e.g., `Ubuntu`, `Ubuntu-22.04`, `Ubuntu-24.04`). You can check your installed distributions by running `wsl --list` in Command Prompt or PowerShell.
 
 ### 6. In Windows VS Code
 

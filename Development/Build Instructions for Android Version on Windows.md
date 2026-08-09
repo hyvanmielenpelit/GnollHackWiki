@@ -1,3 +1,5 @@
+> 🛑 **Caution:** This document describes the legacy Android workflow. For the current build instructions, see [[/Development/Build Instructions for Android Version on Windows (.NET MAUI)]].
+
 ## Preparations
 
 ### Devices
@@ -11,13 +13,13 @@ You need the following devices to follow these instructions:
 On the Windows computer, do the following:
 
 1. Install Visual Studio — [[/Development/Visual Studio Installation for Mobile Version Development]]
-2. Clone Repository — [[Clone Repository in Visual Studio]]
-3. Install WSL and Required Programs — [[Install Windows Subsystem for Linux]]
+2. Clone Repository — [[/Development/Clone Repository in Visual Studio]]
+3. Install WSL and Required Programs — [[/Development/Install Windows Subsystem for Linux]]
 4. [[/Development/Configure Visual Studio for Mobile Version Development]]
 5. Create `C:\Xamarin\Archives` in File Explorer and set **Archives Location** to it in **Visual Studio → Tools → Options → Xamarin**.
-6. If you are using an old version of the repository, you may need to [[delete old directories]], because we have changed some paths.
-7. [[Install Tile Sets and FMOD Sound Banks]].
-8. [[Install Secrets File]].
+6. If you are using an old version of the repository, you may need to [[/Development/delete old directories]], because we have changed some paths.
+7. [[/Development/Install Tile Sets and FMOD Sound Banks]].
+8. [[/Development/Install Secrets File]].
 
 ### Android Device Preparation
 
@@ -25,7 +27,7 @@ On the Windows computer, do the following:
 
 ## Starting Debugging or Creating Archive
 
-1. [[Open GnollHack Solution in Visual Studio]].
+1. [[/Development/Open GnollHack Solution in Visual Studio]].
 2. Set **GnollHackX.Android** as a startup project.
 3. Select **Android+Windows** as your solution platform in the menu bar.
 4. Select the right solution configuration in the menu bar:
@@ -45,7 +47,7 @@ On the Windows computer, do the following:
 5. Select the package format in the Android options:
     - **APK** — It's faster to deploy but sound and music streaming has noticeable lag (up to several seconds). 
     - **AAB (bundle)** — It's slower to deploy but sound and music streaming has no noticeable lag.
-6. [[Rebuild Solution]].
+6. [[/Development/Rebuild Solution]].
 7. Hit the green **Start button** to start debugging.
     - If the deployment succeeds but debugging does not start, please just try again. It works at some point.
     - When you are about to start debugging, please ensure that the solution configuration is at `Android + Windows`. Visual Studio sometimes reverts it to `Any CPU` that is not what we want.
@@ -70,14 +72,14 @@ FMOD sounds do not work correctly while debugging or when running a debug build.
 
 If you run into a strange compile time error or a runtime error, where the game does not find a Java wrapper class, you can see the following instructions:
 
-- [[Troubleshooting Android Build Errors and Runtime Errors]]
+- [[/Development/Troubleshooting Android Build Errors and Runtime Errors]]
 
 ## Creating APK/AAB Archive Package
 
 1. Select the desired package format (**APK** or **"bundle"** for **AAB**) in the Android options.
     - Note that **Google Play Store** accepts only **AAB** packages.
 2. Disable **Fast deployment** in the Android options.
-3. [[Rebuild Solution]].
+3. [[/Development/Rebuild Solution]].
 4. Select **Build → Archive** or right-click on the project and select **Archive**.
 
 This will create an unsigned APK/AAB package. 

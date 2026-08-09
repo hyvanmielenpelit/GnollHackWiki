@@ -19,7 +19,7 @@ You need the following devices to follow these instructions:
 2. On Mac, install [Xcode](https://apps.apple.com/us/app/xcode/id497799835) 26.5 (or whatever is the newest supported by .NET MAUI) from App Store or from [xcodereleases.com](https://xcodereleases.com/).
     - You can do this just by drag-and-dropping the downloaded Xcode from Downloads or where it is unpacked to Applications folder
 
-When building the native iOS library from the GnollHack solution, the build process copies the tile sets and sound banks to the appropriate `GnollHackM` directories (see [[Install Tile Sets and FMOD Sound Banks]]). Also, you must copy the secrets file separately (see [[Install Secrets File]]).
+When building the native iOS library from the GnollHack solution, the build process copies the tile sets and sound banks to the appropriate `GnollHackM` directories (see [[/Development/Install Tile Sets and FMOD Sound Banks]]). Also, you must copy the secrets file separately (see [[/Development/Install Secrets File]]).
 
 ### Provisioning
 
@@ -41,7 +41,7 @@ When building the native iOS library from the GnollHack solution, the build proc
 
 ## Starting Debugging or Creating Archive
 
-1. [[Open GnollHackM Solution in Visual Studio]]. This is different from the normal GnollHack solution.
+1. [[/Development/Open GnollHackM Solution in Visual Studio]]. This is different from the normal GnollHack solution.
 2. Select the right solution configuration in the menu bar:
     - **Debugging** — Select **Debug**.
     - **Archiving** — Select **Release**.
@@ -58,7 +58,7 @@ When building the native iOS library from the GnollHack solution, the build proc
 
 If you run into trouble, you can try any of the following:
 
-1. On Windows, delete `obj `and `bin `directories under `win\win32\xpl\GnollHackM`
+1. On Windows, delete `obj` and `bin` directories under `win\win32\xpl\GnollHackM`
 2. On Windows, run `dotnet restore` command via Tools > Command Line > Developer PowerShell
 3. On Windows, Visual Studio > Build > Clean Solution
 4. On Windows, Visual Studio > Build > Rebuild Solution

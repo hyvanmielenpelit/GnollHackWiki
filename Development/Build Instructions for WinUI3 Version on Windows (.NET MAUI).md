@@ -8,14 +8,14 @@ You need the following devices to follow these instructions:
 ### Software
 
 1. Install the latest Visual Studio version with up-to-date support for .NET MAUI 10.0.
-2. Clone this [GnollHack repository](https://github.com/hyvanmielenpelit/GnollHack) — [[Clone Repository in Visual Studio]].
+2. Clone this [GnollHack repository](https://github.com/hyvanmielenpelit/GnollHack) — [[/Development/Clone Repository in Visual Studio]].
 
 ## Build
 
-1. [[Install Tile Sets and FMOD Sound Banks]].
-2. [[Install Secrets File]].
+1. [[/Development/Install Tile Sets and FMOD Sound Banks]].
+2. [[/Development/Install Secrets File]].
 3. (Note: You do not need to build the legacy Xamarin.Forms app projects, but you do need the converted XAML UI files. If you are starting fresh or editing XAML files, build the native solution using the **Android+Windows** configuration first to run the XAML translation.)
-4. Locate `GnollHack.sln` in the `win\win32\vs` directory and open it — [[Open GnollHack Solution in Visual Studio]].
+4. Locate `GnollHack.sln` in the `win\win32\vs` directory and open it — [[/Development/Open GnollHack Solution in Visual Studio]].
 5. Choose the **x64** solution platform in the menu bar. (Or **Android+Windows** if you need to run the XAML translation.)
 6. Select **Debug** as your solution configuration. You can also use **Release**, when you plan to build a release build.
 7. Rebuild the GnollHack solution.
@@ -26,12 +26,12 @@ You need the following devices to follow these instructions:
 
 ## Starting Debugging or Creating Archive
 
-1. [[Open GnollHackM Solution in Visual Studio]]. This is different from the normal GnollHack solution.
+1. [[/Development/Open GnollHackM Solution in Visual Studio]]. This is different from the normal GnollHack solution.
 2. Select the right solution configuration in the menu bar:
     - **Debugging** — Select **Debug**.
     - **Archiving** — Select **Release**.
 
 ## Debugging
 
-1. [[Rebuild Solution]].
+1. [[/Development/Rebuild Solution]].
 2. Hit the green **Start button** to start debugging.

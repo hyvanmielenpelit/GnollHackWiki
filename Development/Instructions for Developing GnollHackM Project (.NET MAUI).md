@@ -1,4 +1,4 @@
-Because how the things are set up, there are some limitations on how you can develop the **GnollHackM (.NET MAUI)** project right now.
+Because of how things are set up, there are some limitations on how you can develop the **GnollHackM (.NET MAUI)** project right now.
 
 ## 1. Edit XAML in GnollHackX (Xamarin.Forms)
 

@@ -1,13 +1,15 @@
-## Ubuntu 20.04
+## Ubuntu (20.04, 22.04, and 24.04 LTS)
 
 1. Make sure **gcc**, **bison**, **flex**, and **libncurses** are all installed and up to date:
     - `sudo apt-get install build-essential`
     - `sudo apt-get install flex bison`
     - `sudo apt-get install libncurses5-dev libncursesw5-dev`
+    - > ℹ️ **Note:** `libncurses5-dev` is deprecated on newer Ubuntu distributions in favor of `libncurses-dev`.
 2. Create a directory for the GnollHack repository (`mkdir [directory path of your GnollHack repository]`).
 3. Go to your GnollHack repository with `cd [directory path of GnollHack repository]`.
 4. Download the sources from GitHub using `git clone https://github.com/hyvanmielenpelit/GnollHack.git`.
-5. Make setup.sh readable and executable with `sudo chmod a+rx ./sys/unix/setup.sh`.
+5. Change into the newly cloned directory with `cd GnollHack`.
+6. Make setup.sh readable and executable with `sudo chmod a+rx ./sys/unix/setup.sh`.
 6. Run `setup.sh` to create a makefile in the main GnollHack directory:
     - **On GnollHack public servers (with a common xlogfile):** `sudo ./sys/unix/setup.sh ./sys/unix/hints/linux-gnh-debug`
     - **Otherwise:** `sudo ./sys/unix/setup.sh ./sys/unix/hints/linux-debug`

@@ -9,8 +9,10 @@ You need the following devices to follow these instructions:
 ### Software Installation
 
 1. Install the latest Visual Studio version with up-to-date support for .NET MAUI.
-2. Open the native solution `win\win32\vs\GnollHack.sln`.
-3. Select the **Android+Windows** platform configuration and rebuild the solution. This compiles the native C core game engine into the Android library (`libgnollhackdroid.so`) and automatically runs `makedefsdroid` to translate the shared XAML UI files from `GnollHackX` to `GnollHackM` formats.
+2. [[/Development/Install Tile Sets and FMOD Sound Banks]].
+3. [[/Development/Install Secrets File]].
+4. Open the native solution `win\win32\vs\GnollHack.sln`.
+5. Select the **Android+Windows** platform configuration and rebuild the solution. This compiles the native C core game engine into the Android library (`libgnollhackdroid.so`) and automatically runs `makedefsdroid` to translate the shared XAML UI files from `GnollHackX` to `GnollHackM` formats.
 
 
 ### Android Device Preparation
@@ -19,7 +21,7 @@ You need the following devices to follow these instructions:
 
 ## Starting Debugging or Creating Archive
 
-1. [[Open GnollHackM Solution in Visual Studio]]. This is different from the normal GnollHack solution.
+1. [[/Development/Open GnollHackM Solution in Visual Studio]]. This is different from the normal GnollHack solution.
 2. Select the right solution configuration in the menu bar:
     - **Debugging** — Select **Debug**.
     - **Archiving** — Select **Release**.
@@ -29,6 +31,6 @@ You need the following devices to follow these instructions:
 1. Attach your Android device to your computer using a USB cable.
 2. Allow **USB debugging** on the device if asked.
 3. Select your Android device from the **Android local devices** menu of the device dropdown list with a green start button in the menu bar.
-4. [[Rebuild Solution]].
+4. [[/Development/Rebuild Solution]].
 5. Hit the green **Start button** to start debugging.
     - If the deployment succeeds but debugging does not start, please just try again. It works at some point.

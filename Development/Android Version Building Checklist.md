@@ -1,3 +1,5 @@
+> 🛑 **Caution:** This document describes the legacy Android workflow. For the current build instructions, see [[/Development/Build Instructions for Android Version on Windows (.NET MAUI)]].
+
 1. Check that your installation path is not too long.
 2. Remember to start WSL and SSH there.
 3. Remember to copy FMOD sound banks and tile set PNG files to the solution.

@@ -1,5 +1,6 @@
-1. Increase Android Version Number
-2. Increase iOS Version Number
+1. Increase Windows Version Number
+2. Increase Android Version Number
+3. Increase iOS Version Number
 3. Build **Tile Set**
 4. Build **Sound Set**
 5. Create **GnollHackM Windows** Release on Steam and GitHub

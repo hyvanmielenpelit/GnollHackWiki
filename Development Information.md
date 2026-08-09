@@ -43,10 +43,6 @@ Detailed, step-by-step guides for compiling the modern application:
 - [[/Development/System Requirements for Modern Windows Port (.NET MAUI ∕ WinUI 3)]]
 - [[/Development/CPU and GPU Usage Modes in Modern Windows Port (.NET MAUI ∕ WinUI 3)]]
 
-### 📋 Publishing Checklist
-
-- [[/Development/Steam Version Publishing Checklist]] — Covers codesigning, packaging, and Steamworks integration.
-
 ### ℹ️ Additional Information
 
 - [[/Development/Installing MSIX Packages on Windows 10 and 11]]
@@ -78,7 +74,6 @@ The table below summarizes support for the modern client. Note that emulator per
 These articles provide historical context and technical background. They are easy to digest and are highly recommended for developers who want to understand the choices behind our architecture.
 
 - [[/Development/Mobile Version Development History (Xamarin.Forms)]] — The history of early mobile client versions of GnollHack.
-- [[/Development/Benefits of .NET MAUI over Xamarin.Forms]] — Explains the single-project benefits and performance gains of modernizing the UI.
 
 ## 📋 Additional Technical Information
 

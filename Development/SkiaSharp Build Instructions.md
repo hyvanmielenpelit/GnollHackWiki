@@ -61,16 +61,16 @@ This will also download git submodules.
 2. Go to the SkiaSharp repository root directory.
 3. Run `Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass` to grant rights to run the script. Answer Y if asked.
 4. Run `.\scripts\install-7zip.ps1`.
-5. [[Add New Path to PATH environment variable|Add New Path to PATH Environment Variable on Windows]]:
+5. [[Add New Path to PATH environment variable|/Development/Add New Path to PATH Environment Variable on Windows]]:
     - `C:\Program Files\7-Zip`
 6. Run `.\scripts\install-llvm.ps1`.
-7. [[Add New Environment Variable|How to Add Environment Variable on Windows]]:
+7. [[Add New Environment Variable|/Development/How to Add Environment Variable on Windows]]:
     - **Variable Name:** `LLVM_HOME`
     - **Variable Value:** `C:\Program Files\LLVM`
 
 ### 3.5 Set ANDROID_NDK_HOME Environment Variable
 
-1. [[Add New Environment Variable|How to Add Environment Variable on Windows]]:
+1. [[Add New Environment Variable|/Development/How to Add Environment Variable on Windows]]:
     - **Variable Name:** `ANDROID_NDK_HOME`
     - **Variable Value:** `C:\Microsoft\AndroidNDK\android-ndk-r23c` _(If you have a different version or a different location for Android NDK, please use that instead.)_
 

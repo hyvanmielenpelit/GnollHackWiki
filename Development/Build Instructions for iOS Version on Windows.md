@@ -1,3 +1,5 @@
+> 🛑 **Caution:** This document describes the legacy iOS workflow. For the current build instructions, see [[/Development/Build Instructions for iOS Version on Windows (.NET MAUI)]].
+
 ## 1. Preparations
 
 ### 1.1. Devices
@@ -12,21 +14,21 @@ You need the following devices to follow these instructions:
 On the Windows computer, do the following:
 
 1. Install Visual Studio — [[/Development/Visual Studio Installation for Mobile Version Development]]
-2. Clone Repository — [[Clone Repository in Visual Studio]]
-3. Install WSL and Required Programs — [[Install Windows Subsystem for Linux]]
+2. Clone Repository — [[/Development/Clone Repository in Visual Studio]]
+3. Install WSL and Required Programs — [[/Development/Install Windows Subsystem for Linux]]
 4. [[/Development/Configure Visual Studio for Mobile Version Development]]
 5. Create `C:\Xamarin\iOSArchive` in File Explorer and set **Archives Location** to it in **Visual Studio → Tools → Options → Xamarin → iOS Settings**.
 6. In Windows, browse for environmental variables. Change both `TEMP` to `C:\Temp` and `TMP` to `C:\Temp`. Create the `C:\Temp` directory.
 7. Restart Visual Studio 2026 and the computer.
-8. **NEW** — If you are using an old version of the repository, you may need to [[delete old directories]], because we have changed some paths.
+8. **NEW** — If you are using an old version of the repository, you may need to [[/Development/delete old directories]], because we have changed some paths.
 
 ### 1.3. Software Installation and Configuration on Mac Computer
 
 1. Install [Xcode](https://apps.apple.com/us/app/xcode/id497799835) 26.5 from App Store or [xcodereleases.com](https://xcodereleases.com/).
-2. [[Install Bison and Flex on Mac]].
-3. [[Enable Xamarin.iOS Connections]].
-4. [[Install vcremote for Static iOS Library Project]].
-5. [[Enroll for Apple Development Program (Mac)]].
+2. [[/Development/Install Bison and Flex on Mac]].
+3. [[/Development/Enable Xamarin.iOS Connections]].
+4. [[/Development/Install vcremote for Static iOS Library Project]].
+5. [[/Development/Enroll for Apple Development Program (Mac)]].
 
 ### 1.4. Additional Configuration in Visual Studio on Windows
 
@@ -37,7 +39,7 @@ In Visual Studio, go to **Options → Cross Platform → C++ → iOS → Pairing
 1. Set **Host** to the **IP Address** or **DNS name** of the Mac computer. You can find this on the Mac computer's **System → Preferences → Sharing** page.
 2. Set **Port** to 3030.
 3. Check the **Secure** check box. 
-4. Write to the **Pin** field the pin you got from [[installing vcremote on Mac|Install vcremote for Static iOS Library Project]].
+4. Write to the **Pin** field the pin you got from [[installing vcremote on Mac|/Development/Install vcremote for Static iOS Library Project]].
 5. Set **Remote Root** to `/Users/[user-id-on-mac]/vcremote`, where `[user-id-on-mac]` is your user id on the Mac computer.
 6. Then, click **Pair**.
 
@@ -45,15 +47,15 @@ In Visual Studio, go to **Options → Cross Platform → C++ → iOS → Pairing
 
 #### 1.4.2. Install PuTTY and PSCP and Create Download Scripts for Static iOS Library Project
 
-- [[Install PuTTY and PSCP and Create Download Scripts for Static iOS Library Project]]
+- [[/Development/Install PuTTY and PSCP and Create Download Scripts for Static iOS Library Project]]
 - Note that you need to create new Download Scripts and store them into the cache everytime your network environment changes.
 
 #### 1.4.3. Install Tile Sets, Sound Banks, and the Secrets File
 
 Some files are not directly in the repository, because they are too big or they contain nonpublic information.
 
-1. [[Install Tile Sets and FMOD Sound Banks]].
-2. [[Install Secrets File]].
+1. [[/Development/Install Tile Sets and FMOD Sound Banks]].
+2. [[/Development/Install Secrets File]].
 
 ### 1.5. Create Development Certificate and Profile
 
@@ -140,14 +142,14 @@ On the Mac computer,
 
 On the Windows computer,
 
-1. [[Open GnollHack Solution in Visual Studio]].
+1. [[/Development/Open GnollHack Solution in Visual Studio]].
 2. Start **Windows Subsystem for Linux (WSL)** from the start menu.
 3. In WSL, **start SSH** by typing `sudo service ssh start`.
 4. Set **GnollHackX.iOS** as a startup project. If you need to do this, you need also restart Visual Studio.
 5. Select **iPhone** or **Any CPU** as your solution platform in the menu bar. Any CPU will also [[build the Android project|/Development/Build Instructions for Android Version on Windows]].
 6. Select **Debug** as your solution configuration in the menu bar.
 7. Select your **iOS device** in the menu bar.
-8. [[Rebuild Solution]].
+8. [[/Development/Rebuild Solution]].
 9. Hit the green **Start button** to start debugging.
 
 Note that C++ debugging does not work with the iOS project (but you get good stack traces, though). The Xamarin debugger works also with iOS projects. If you want to debug C++, you need to use the Android project.

@@ -1,10 +1,6 @@
-# Repository Structure
-
 This document outlines the organization of the GnollHack repository, including its build solutions, component projects, and directory layout.
 
 > 📢 **Important:** The Visual Studio 2026 IDE is used for compiling all versions of GnollHack on Windows.
-
----
 
 ## Solutions
 
@@ -12,8 +8,6 @@ This document outlines the organization of the GnollHack repository, including i
 | :--- | :--- | :--- |
 | **GnollHack.sln** | `win\win32\vs\GnollHack.sln` | Main C core solution, containing build utilities, compilers, ASCII/GUI Windows frontends, and Xamarin platform projects. |
 | **GnollHackM.sln** | `win\win32\xpl\GnollHackM\GnollHackM.sln` | Modern .NET MAUI solution targeting Android, iOS, and Windows (WinUI 3). |
-
----
 
 ## GnollHack.sln Projects
 
@@ -35,13 +29,11 @@ This document outlines the organization of the GnollHack repository, including i
 | **levcomp** | Windows | Special level description compiler. |
 | **levcompdroid** | Android / iOS | Special level description compiler for mobile platforms (compiled via Linux C compiler). |
 | **makedefs** | Windows | Miscellaneous build-time code generator and database builder. |
-| **makedefsdroid** | Android / iOS | Miscellaneous build-time generator for mobile platforms (compiled via Linux C compiler). |
+| **makedefsdroid** | Android / iOS | Miscellaneous build-time generator for mobile platforms (compiled via Linux C compiler). Also performs XAML translation from Xamarin.Forms to .NET MAUI via MSBuild custom build steps. |
 | **nh340key** / **nhdefkey** / **nhraykey** | Windows | Keyboard input handlers for curses interface. |
 | **PDCurses** | Windows Console | Public domain curses library used for console rendering on Windows. |
 | **recover** | Windows | Game crash recovery utility. |
 | **SourceFileTimeStamper** | C# Console | Utility tool for updating source file timestamps. |
-
----
 
 ## GnollHackM.sln (.NET MAUI) Projects
 
