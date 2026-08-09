@@ -24,15 +24,13 @@
 
 ## 💻 AI Programming
 
-> ℹ️ We use generative AI to *assist* our development, especially to help us complete complex or tedious programming tasks.
+> ℹ️ We use generative AI to *assist* our development, especially to help us complete complex and/or tedious programming tasks.
 
 Programmers may use generative AI, including AI agents, to:
 
 1. Generate code
 2. Complete programming workflows and tasks more efficiently
 3. Debug the game
-
-Programmers *must review* the AI-generated code to ensure that it is correct.
 
 ## 📚 AI Documentation
 
@@ -45,5 +43,3 @@ Generative AI, including AI agents, may be used to:
 3. Check and correct the grammar of documentation
 4. Apply styling to documentation
 5. Organize documentation
-
-Programmers (or other people who are familiar with the game mechanics and the game code) *must review* the AI-generated documentation to ensure that it is correct.
