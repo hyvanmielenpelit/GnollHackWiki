@@ -31,6 +31,8 @@ Programmers may use generative AI, including AI agents, to:
 1. Generate code
 2. Complete programming workflows and tasks more efficiently
 3. Debug the game
+4. Generate and review implementation plans
+5. Review the code
 
 ## 📚 AI Documentation
 
