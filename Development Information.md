@@ -121,5 +121,4 @@ These articles provide historical context and technical background. They are eas
 
 ## 🤖 AI
 
-- [[/Development/AI Skills]] — GnollHack development-related skills to be used with AI agents
 - [[/Development/AI Safety Settings]] — Gnoll Overseer safety settings

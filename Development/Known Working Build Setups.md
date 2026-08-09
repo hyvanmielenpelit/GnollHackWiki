@@ -1,6 +1,8 @@
 > 👉 **This page details the known working development build setups for GnollHack.**
 
-Known working build setups as of 20 June 2026 for GnollHack 4.2.0 Build 14:
+Known working build setups as of 9 August 2026 for GnollHack 4.3.0 (Build 7):
+
+> ℹ️ **Note:** This is a historical snapshot. The latest game version information can always be found in `include/date.h` in the GnollHack repository.
 
 | Technology | Version       | Platform | Visual Studio           | Xcode | Configuration                |
 | ---------- | ------------- | -------- |------------------------ | ----- | ---------------------------- |

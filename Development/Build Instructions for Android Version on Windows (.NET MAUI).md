@@ -4,7 +4,7 @@
 
 You need the following devices to follow these instructions:
 1. **Windows computer** — Windows 10 or later, 16 GB or 32 GB RAM, 512 GB or 1 TB SSD space.
-2. **Android device** — Android 5.0 or later but preferably Android 12 or later, 3 GB or more RAM, 4 GB or more free storage space.
+2. **Android device** — Android 8.0 Oreo (API 26) or later (as defined by `SupportedOSPlatformVersion` in `GnollHackM.csproj`), but preferably Android 12 or later, 3 GB or more RAM, 4 GB or more free storage space. Note: historically Android 5.0 was supported on older Xamarin versions.
 
 ### Software Installation
 

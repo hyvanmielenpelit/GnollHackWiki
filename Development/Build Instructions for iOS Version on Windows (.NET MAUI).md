@@ -5,7 +5,7 @@
 You need the following devices to follow these instructions:
 1. **Windows computer** — Windows 10 or later, 16 GB or 32 GB RAM, 512 GB or 1 TB SSD space.
 2. **Mac computer** — macOS 26 (Tahoe) or later, M1 processor or better, 16 GB or more RAM, 512 GB or more SSD space.
-3. **iPhone or iPad** — iOS 26.5 or later, 3 GB or more RAM, 4 GB or more free storage space.
+3. **iPhone or iPad** — iOS 14.0 or later (as defined by `SupportedOSPlatformVersion` in `GnollHackM.csproj`), 3 GB or more RAM, 4 GB or more free storage space.
 
 ### Build Native Library and Assets (GnollHack.sln)
 
