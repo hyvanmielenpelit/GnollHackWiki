@@ -6,7 +6,6 @@
 
 - **Answer questions about the game**: Ask about monsters, items, spells, artifacts, dungeon branches, or any game mechanic. The Overseer can read the actual game source code, consult the GnollHack Wiki, and retrieve exact monster and item stats, among other custom capabilities.
 - **Understand your current situation**: When opened during a game, the Overseer can see your character's stats, inventory, surroundings, and message history to give you advice tailored to exactly what you are facing right now.
-- **Look up real game data**: The Overseer does not guess. It reads the actual game source code, consults the GnollHack Wiki, and retrieves exact monster and item stats to give you accurate answers.
 - **Remember your conversations**: Your chat sessions are saved, so you can revisit previous conversations whenever you want.
 
 ## 🆚 How It Differs From General AI Chatbots
