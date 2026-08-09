@@ -8,9 +8,9 @@
 - **Understand your current situation**: When opened during a game, the Overseer can see your character's stats, inventory, surroundings, and message history to give you advice tailored to exactly what you are facing right now.
 - **Remember your conversations**: Your chat sessions are saved, so you can revisit previous conversations whenever you want.
 
-## 🆚 How It Differs From General AI Chatbots
+## 🆚 How It Differs From AI Chatbots
 
-While general-purpose frontier models like the ChatGPT and Gemini web apps are powerful, Gnoll Overseer is a specialized assistant built specifically for GnollHack. Key differences include:
+While general-purpose frontier models like the ChatGPT and Gemini are powerful, Gnoll Overseer is a specialized assistant built specifically for GnollHack. Key differences include:
 
 - **Game Context Awareness**: Unlike ChatGPT or Gemini where you must manually describe your entire situation, the in-game Overseer automatically reads your current game state, including your character's stats, inventory, screen, and messages. It knows exactly what you are facing without you having to type it.
 - **Grounded in Real Game Data**: General AI models often hallucinate or confuse GnollHack mechanics with other games or older versions of vanilla NetHack. The Overseer avoids this by actively searching the GnollHack Wiki and reading the actual C source code and game data databases in real-time to provide accurate, factual answers.
@@ -18,7 +18,7 @@ While general-purpose frontier models like the ChatGPT and Gemini web apps are p
 
 ## 🏁 How to Access It
 
-There are three ways to use the Gnoll Overseer: **From the game menu**, **from the About menu**, and **on the web** (at [https://overseer.gnollhack.com](https://overseer.gnollhack.com)).
+There are three ways to use the Gnoll Overseer: From the *game menu*, from the *About menu*, and *on the web* at [https://overseer.gnollhack.com](https://overseer.gnollhack.com).
 
 ## 🆓 Free and Opt-In
 
