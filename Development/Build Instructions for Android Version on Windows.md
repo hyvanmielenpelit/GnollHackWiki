@@ -10,10 +10,10 @@ You need the following devices to follow these instructions:
 
 On the Windows computer, do the following:
 
-1. Install Visual Studio — [[Visual Studio Installation for Mobile Version Development]]
+1. Install Visual Studio — [[/Development/Visual Studio Installation for Mobile Version Development]]
 2. Clone Repository — [[Clone Repository in Visual Studio]]
 3. Install WSL and Required Programs — [[Install Windows Subsystem for Linux]]
-4. [[Configure Visual Studio for Mobile Version Development]]
+4. [[/Development/Configure Visual Studio for Mobile Version Development]]
 5. Create `C:\Xamarin\Archives` in File Explorer and set **Archives Location** to it in **Visual Studio → Tools → Options → Xamarin**.
 6. If you are using an old version of the repository, you may need to [[delete old directories]], because we have changed some paths.
 7. [[Install Tile Sets and FMOD Sound Banks]].

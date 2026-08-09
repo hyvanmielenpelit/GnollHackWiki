@@ -6,50 +6,50 @@ GnollHack is actively developed for **Android**, **iOS**, and **Windows** using 
 
 Here is a quick directory of key design and structure documentation:
 
-- [[Repository Structure]]
-- [[Related Repositories]]
+- [[/Development/Repository Structure]]
+- [[/Development/Related Repositories]]
 
 ## 🧑‍💻 Modern Client Development (.NET MAUI)
 
 This is the primary technology stack for GnollHack development. It compiles a single C# codebase targeting mobile and desktop platforms.
 
 > 📢 **Important:** If you are new to the codebase, **you must read this first**:
-> - **[[Overview of Building GnollHack with .NET MAUI]]** — Explains how the native C library, the C# wrapper, and build-time tools interact. Skipping this is the #1 reason developers struggle to build the game.
+> - **[[/Development/Overview of Building GnollHack with .NET MAUI]]** — Explains how the native C library, the C# wrapper, and build-time tools interact. Skipping this is the #1 reason developers struggle to build the game.
 
 ### ⚙️ Essential Guides & Setup
 
 These files contain complex development instructions that may require some time to digest:
 
-- [[Instructions for Developing GnollHackM Project (.NET MAUI)]]
-- [[Updating Tileset for GnollHackM (.NET MAUI)]]
-- [[Known Working Build Setups]]
+- [[/Development/Instructions for Developing GnollHackM Project (.NET MAUI)]]
+- [[/Development/Updating Tileset for GnollHackM (.NET MAUI)]]
+- [[/Development/Known Working Build Setups]]
 
-> 💡 **Tip:** Before setting up your machine, check the [[Known Working Build Setups]] to ensure your OS and SDK versions match a verified configuration.
+> 💡 **Tip:** Before setting up your machine, check the [[/Development/Known Working Build Setups]] to ensure your OS and SDK versions match a verified configuration.
 
 ### 🛠️ Modern Client Build Instructions
 
 Detailed, step-by-step guides for compiling the modern application:
 
-- **Windows:** [[Build Instructions for WinUI3 Version on Windows (.NET MAUI)]]
-- **Android:** [[Build Instructions for Android Version on Windows (.NET MAUI)]]
-- **iOS:** [[Build Instructions for iOS Version on Windows (.NET MAUI)]]
+- **Windows:** [[/Development/Build Instructions for WinUI3 Version on Windows (.NET MAUI)]]
+- **Android:** [[/Development/Build Instructions for Android Version on Windows (.NET MAUI)]]
+- **iOS:** [[/Development/Build Instructions for iOS Version on Windows (.NET MAUI)]]
 
 > ⚠️ **Warning (Common Pitfall):** Ensure that the .NET MAUI workload is fully installed inside Visual Studio. Missing platform workloads (Android/iOS) will cause project loading errors.
 
 ### ❓ Troubleshooting & Technical Reference
 
-- [[Troubleshooting Building GnollHack with .NET MAUI]] — Covers Xamarin-to-MAUI SDK issues, MSBuild path conflicts, and keystore errors.
-- [[Data File Locations (WinUI 3 Version – .NET MAUI)]] — Shows where settings and save files are stored.
-- [[System Requirements for Modern Windows Port (.NET MAUI ∕ WinUI 3)]]
-- [[CPU and GPU Usage Modes in Modern Windows Port (.NET MAUI ∕ WinUI 3)]]
+- [[/Development/Troubleshooting Building GnollHack with .NET MAUI]] — Covers Xamarin-to-MAUI SDK issues, MSBuild path conflicts, and keystore errors.
+- [[/Development/Data File Locations (WinUI 3 Version – .NET MAUI)]] — Shows where settings and save files are stored.
+- [[/Development/System Requirements for Modern Windows Port (.NET MAUI ∕ WinUI 3)]]
+- [[/Development/CPU and GPU Usage Modes in Modern Windows Port (.NET MAUI ∕ WinUI 3)]]
 
 ### 📋 Publishing Checklist
 
-- [[Steam Version Publishing Checklist]] — Covers codesigning, packaging, and Steamworks integration.
+- [[/Development/Steam Version Publishing Checklist]] — Covers codesigning, packaging, and Steamworks integration.
 
 ### ℹ️ Additional Information
 
-- [[Installing MSIX Packages on Windows 10 and 11]]
+- [[/Development/Installing MSIX Packages on Windows 10 and 11]]
 
 ## 🖥️ Modern Client Supported Platforms
 
@@ -77,15 +77,15 @@ The table below summarizes support for the modern client. Note that emulator per
 
 These articles provide historical context and technical background. They are easy to digest and are highly recommended for developers who want to understand the choices behind our architecture.
 
-- [[Mobile Version Development History (Xamarin.Forms)]] — The history of early mobile client versions of GnollHack.
-- [[Benefits of .NET MAUI over Xamarin.Forms]] — Explains the single-project benefits and performance gains of modernizing the UI.
+- [[/Development/Mobile Version Development History (Xamarin.Forms)]] — The history of early mobile client versions of GnollHack.
+- [[/Development/Benefits of .NET MAUI over Xamarin.Forms]] — Explains the single-project benefits and performance gains of modernizing the UI.
 
 ## 📋 Additional Technical Information
 
-- [[Release Checklist]]
-- [[Native Libraries]]
-- [[Debugging Linux Version in WSL using Visual Studio Code]]
-- [[SkiaSharp Build Instructions]] — Describes custom SkiaSharp compilations (primarily for reference).
+- [[/Development/Release Checklist]]
+- [[/Development/Native Libraries]]
+- [[/Development/Debugging Linux Version in WSL using Visual Studio Code]]
+- [[/Development/SkiaSharp Build Instructions]] — Describes custom SkiaSharp compilations (primarily for reference).
 
 ## 🛑 Legacy Clients (Obsolete)
 
@@ -93,18 +93,18 @@ These articles provide historical context and technical background. They are eas
 
 ### 📱 Legacy Mobile Ports (Xamarin.Forms)
 
-- [[Build Instructions for Android Version on Windows]]
-- [[Android Version Building Checklist]]
-- [[Build Instructions for iOS Version on Windows]]
+- [[/Development/Build Instructions for Android Version on Windows]]
+- [[/Development/Android Version Building Checklist]]
+- [[/Development/Build Instructions for iOS Version on Windows]]
 
 ### 🖥️ Legacy Windows Ports (1990s UI Style)
 
-- [[Build Instructions for ASCII Version on Windows]] — Win32 Console Application
-- [[Build Instructions for Windows GUI Version on Windows]] — Win32 Application with ComCtl32 Controls
+- [[/Development/Build Instructions for ASCII Version on Windows]] — Win32 Console Application
+- [[/Development/Build Instructions for Windows GUI Version on Windows]] — Win32 Application with ComCtl32 Controls
 
 ### 💻 Legacy Linux Port
 
-- [[Build Instructions for ASCII Version on Linux]]
+- [[/Development/Build Instructions for ASCII Version on Linux]]
 
 ### 📋 Legacy Clients Support Table
 
@@ -117,7 +117,7 @@ These articles provide historical context and technical background. They are eas
 | Linux | ASCII | x64 | N/A<sup>2</sup> | N/A<sup>2</sup> | N/A |
 
 - <sup>1</sup> Emulator support refers to whether the port is supported by popular cross-operating-system emulators.
-- <sup>2</sup> The Linux version is built on Linux as described in [[Build Instructions for ASCII Version on Linux]].
+- <sup>2</sup> The Linux version is built on Linux as described in [[/Development/Build Instructions for ASCII Version on Linux]].
 - <sup>3</sup> May exhibit odd behavior or crash.
 
 ## 🐺 Gnoll Overseer
@@ -126,5 +126,5 @@ These articles provide historical context and technical background. They are eas
 
 ## 🤖 AI
 
-- [[AI Skills]] — GnollHack development-related skills to be used with AI agents
-- [[AI Safety Settings]] — Gnoll Overseer safety settings
+- [[/Development/AI Skills]] — GnollHack development-related skills to be used with AI agents
+- [[/Development/AI Safety Settings]] — Gnoll Overseer safety settings

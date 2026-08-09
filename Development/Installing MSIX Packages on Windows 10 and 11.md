@@ -1,4 +1,4 @@
-![installing-msix-packages](/uploads/Installing%20MSIX%20Packages%20on%20Windows%2010%20and%2011/installing-msix-packages.webp)
+![installing-msix-packages](/uploads/Development/Installing%20MSIX%20Packages%20on%20Windows%2010%20and%2011/installing-msix-packages.webp)
 
 ## Overview
 

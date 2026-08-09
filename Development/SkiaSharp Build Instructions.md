@@ -4,7 +4,7 @@
 
 You should have Visual Studio 2026 installed for GnollHack mobile version development.
 
-- [[Visual Studio Installation for Mobile Version Development]]
+- [[/Development/Visual Studio Installation for Mobile Version Development]]
 
 In addition to the workloads installed in the above instructions, you need to install the following workload:
 

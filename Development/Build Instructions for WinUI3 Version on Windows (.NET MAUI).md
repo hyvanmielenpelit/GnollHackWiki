@@ -20,7 +20,7 @@ You need the following devices to follow these instructions:
 6. Select **Debug** as your solution configuration. You can also use **Release**, when you plan to build a release build.
 7. Rebuild the GnollHack solution.
     - This will compile the native C library (`gnollhackwin.dll`), create the NetHack game data file called `nhdat` in Windows format, and copy them together with `credit`, `defaults.gnh`, `license`, `symbols`, `sysconf`, and `xcredits` to `win\win32\xpl\GnollHackM\Platforms\Windows\gnh`.
-    - (It will also build ASCII and GUI versions of GnollHack. You may want to check out [[Build Instructions for ASCII Version on Windows]] and [[Build Instructions for Windows GUI Version on Windows]] for reference.)
+    - (It will also build ASCII and GUI versions of GnollHack. You may want to check out [[/Development/Build Instructions for ASCII Version on Windows]] and [[/Development/Build Instructions for Windows GUI Version on Windows]] for reference.)
 8. Locate `GnollHackM.sln` in `win\win32\xpl\GnollHackM` directory and open it in Visual Studio.
 9. Rebuild the GnollHackM solution.
 

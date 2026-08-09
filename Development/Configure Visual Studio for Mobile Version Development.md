@@ -24,4 +24,4 @@ In these projects:
 - **Debugging → Program** must be set to: `$(RemoteProjectDir)/./tools/$(TargetFileName)`
 - There is a bug with expanding the string, hence `/./` and also otherwise written out in detail, rather than using `$(TargetPath)`.
 
-![Configure Visual Studio for mobile development](/uploads/Configure%20Visual%20Studio%20for%20Mobile%20Version%20Development/configure-visual-studio-for-mobile-development.webp)
+![Configure Visual Studio for mobile development](/uploads/Development/Configure%20Visual%20Studio%20for%20Mobile%20Version%20Development/configure-visual-studio-for-mobile-development.webp)

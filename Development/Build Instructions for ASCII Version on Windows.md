@@ -1,6 +1,6 @@
 ## Preparation
 
-1. Install Visual Studio — [[Visual Studio Installation for ASCII and Windows GUI Version Development]].
+1. Install Visual Studio — [[/Development/Visual Studio Installation for ASCII and Windows GUI Version Development]].
 2. Clone Repository — [[Clone Repository in Visual Studio]].
 3. **NEW** — If you are using an old version of the repository, you may need to [[delete old directories]], because we have changed some paths.
 

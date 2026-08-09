@@ -33,7 +33,7 @@ Click 🛠️ [[Troubleshooting Modern Windows Version (Steam)]] 🛠️ for tro
 <a href="https://github.com/hyvanmielenpelit/GnollHack/releases">![Get release on GitHub](/uploads/Download/github-q90.webp)</a><br />
 
 - The MSIX package has the **.msix extension**.
-- Install the game using these instructions: [[Installing MSIX Packages on Windows 10 and 11]]
+- Install the game using these instructions: [[/Development/Installing MSIX Packages on Windows 10 and 11]]
     - You need admin rights to do so.
 - The icon of GnollHack installed using the MSIX package will have a blue background.
 - The MSIX version of the game *doesn't* have auto-update. You update it manually by installing a newer version.
@@ -70,8 +70,8 @@ In the case of multiple GPUs, in **Windows Settings → System → Display → G
 
 ## 5. More Information
 
-- [[System Requirements for Modern Windows Port|System Requirements for Modern Windows Port (.NET MAUI ∕ WinUI 3)]]
-- [[CPU and GPU Usage Modes in Modern Windows Port|CPU and GPU Usage Modes in Modern Windows Port (.NET MAUI ∕ WinUI 3)]]
+- [[System Requirements for Modern Windows Port|/Development/System Requirements for Modern Windows Port (.NET MAUI ∕ WinUI 3)]]
+- [[CPU and GPU Usage Modes in Modern Windows Port|/Development/CPU and GPU Usage Modes in Modern Windows Port (.NET MAUI ∕ WinUI 3)]]
 - [[Known Issues in Modern Windows Port|Known Issues in Modern Windows Port (.NET MAUI ∕ WinUI 3)]]
 - [[How Modern Windows Version Differs from Legacy Windows Version]]
 - [[Hotkey Support in Modern Windows Port]]

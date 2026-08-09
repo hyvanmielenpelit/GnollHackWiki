@@ -2,7 +2,7 @@
 
 You can install the Linux version of GnollHack to Windows Subsystem for Linux and then debug it using these instructions.
 
-- [[Build Instructions for ASCII Version on Linux]]
+- [[/Development/Build Instructions for ASCII Version on Linux]]
 
 ## Installing Visual Studio Code for Debugging
 
@@ -36,9 +36,9 @@ Change default user to root by typing `ubuntu2004 config --default-user root`.
 1. Open VS Code
 2. Open GnollHack remote location in WSL (opens automatically due to step 4, or if not, open from green toolbar box in left bottom corner):
 
-    ![debugging-wsl-vscode-1](/uploads/Debugging%20Linux%20Version%20in%20WSL%20using%20Visual%20Studio%20Code/debugging-wsl-vscode-1.webp)
+    ![debugging-wsl-vscode-1](/uploads/Development/Debugging%20Linux%20Version%20in%20WSL%20using%20Visual%20Studio%20Code/debugging-wsl-vscode-1.webp)
 
 3. This should install vs code server for root
 4. Install C/C++ Extension (for Debugging in VS Code) for root. The end result in Extensions window:
 
-    ![debugging-wsl-vscode-2](/uploads/Debugging%20Linux%20Version%20in%20WSL%20using%20Visual%20Studio%20Code/debugging-wsl-vscode-2.webp)
+    ![debugging-wsl-vscode-2](/uploads/Development/Debugging%20Linux%20Version%20in%20WSL%20using%20Visual%20Studio%20Code/debugging-wsl-vscode-2.webp)

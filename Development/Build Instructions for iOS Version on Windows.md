@@ -11,10 +11,10 @@ You need the following devices to follow these instructions:
 
 On the Windows computer, do the following:
 
-1. Install Visual Studio — [[Visual Studio Installation for Mobile Version Development]]
+1. Install Visual Studio — [[/Development/Visual Studio Installation for Mobile Version Development]]
 2. Clone Repository — [[Clone Repository in Visual Studio]]
 3. Install WSL and Required Programs — [[Install Windows Subsystem for Linux]]
-4. [[Configure Visual Studio for Mobile Version Development]]
+4. [[/Development/Configure Visual Studio for Mobile Version Development]]
 5. Create `C:\Xamarin\iOSArchive` in File Explorer and set **Archives Location** to it in **Visual Studio → Tools → Options → Xamarin → iOS Settings**.
 6. In Windows, browse for environmental variables. Change both `TEMP` to `C:\Temp` and `TMP` to `C:\Temp`. Create the `C:\Temp` directory.
 7. Restart Visual Studio 2026 and the computer.
@@ -41,7 +41,7 @@ In Visual Studio, go to **Options → Cross Platform → C++ → iOS → Pairing
 5. Set **Remote Root** to `/Users/[user-id-on-mac]/vcremote`, where `[user-id-on-mac]` is your user id on the Mac computer.
 6. Then, click **Pair**.
 
-![build-ios-windows-1](/uploads/Build%20Instructions%20for%20iOS%20Version%20on%20Windows/build-ios-windows-1.webp)
+![build-ios-windows-1](/uploads/Development/Build%20Instructions%20for%20iOS%20Version%20on%20Windows/build-ios-windows-1.webp)
 
 #### 1.4.2. Install PuTTY and PSCP and Create Download Scripts for Static iOS Library Project
 
@@ -121,7 +121,7 @@ In Visual Studio on Windows,
 4. Select **Provisioning Profile** that matches the BundleID in Info.plist and that has been copied to **Xamarin/iOS/Provisioning/Profiles** folder in your AppData folder.
 5. Do this for both Debug and Release configurations.
 
-![build-ios-windows-2](/uploads/Build%20Instructions%20for%20iOS%20Version%20on%20Windows/build-ios-windows-2.webp)
+![build-ios-windows-2](/uploads/Development/Build%20Instructions%20for%20iOS%20Version%20on%20Windows/build-ios-windows-2.webp)
 
 ### 1.6. Disable Virus Protection for Source, Build and Cache Folders
 
@@ -144,7 +144,7 @@ On the Windows computer,
 2. Start **Windows Subsystem for Linux (WSL)** from the start menu.
 3. In WSL, **start SSH** by typing `sudo service ssh start`.
 4. Set **GnollHackX.iOS** as a startup project. If you need to do this, you need also restart Visual Studio.
-5. Select **iPhone** or **Any CPU** as your solution platform in the menu bar. Any CPU will also [[build the Android project|Build Instructions for Android Version on Windows]].
+5. Select **iPhone** or **Any CPU** as your solution platform in the menu bar. Any CPU will also [[build the Android project|/Development/Build Instructions for Android Version on Windows]].
 6. Select **Debug** as your solution configuration in the menu bar.
 7. Select your **iOS device** in the menu bar.
 8. [[Rebuild Solution]].
@@ -164,7 +164,7 @@ Include `UNITY_IPHONE` preprocessor definition in both Debug and Release configu
  
 **FMOD libraries** use **AudioToolbox** and **CoreAudio** frameworks. Write on the frameworks line: `AudioToolbox CoreAudio`:
  
-![build-ios-windows-3](/uploads/Build%20Instructions%20for%20iOS%20Version%20on%20Windows/build-ios-windows-3.webp)
+![build-ios-windows-3](/uploads/Development/Build%20Instructions%20for%20iOS%20Version%20on%20Windows/build-ios-windows-3.webp)
 
 Also, you should add the following lines to [fmod.cs](https://github.com/hyvanmielenpelit/GnollHack/blob/master/win/win32/xpl/GnollHackX/GnollHackX.FMOD/fmod.cs#L23) and [fmod_studio.cs](https://github.com/hyvanmielenpelit/GnollHack/blob/master/win/win32/xpl/GnollHackX/GnollHackX.FMOD/fmod_studio.cs#L18), if they are not there:
 
