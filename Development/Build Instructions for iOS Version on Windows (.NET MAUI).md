@@ -11,14 +11,16 @@ You need the following devices to follow these instructions:
 
 ### 📋 Prerequisites for Native Library Build
 
-1. [[/Development/Install vcremote for Static iOS Library Project]] — vcremote is needed for building the C++ static library (`libgnollhackios.a`).
-2. [[/Development/Install PuTTY and PSCP and Create Download Scripts for Static iOS Library Project]] — PuTTY/PSCP is needed to download the compiled library from the Mac to Windows.
+1. [[/Development/Install Windows Subsystem for Linux]] — WSL with SSH is needed because `dlbdroid` generates the `nhdat` game data archive inside WSL.
+2. [[/Development/Install vcremote for Static iOS Library Project]] — vcremote is needed for building the C++ static library (`libgnollhackios.a`).
+3. [[/Development/Install PuTTY and PSCP and Create Download Scripts for Static iOS Library Project]] — PuTTY/PSCP is needed to download the compiled library from the Mac to Windows.
 
-1. Ensure **vcremote** is running on the Mac (this is used by the C++ static library project `gnollhackios.vcxproj` to compile the native C code on the Mac).
-2. Connect to your Mac build host using the **Pair to Mac** wizard in Visual Studio (this is used by the .NET MAUI project `GnollHackM.csproj` for building and deploying the C# app).
-3. Open the native solution `win\win32\vs\GnollHack.sln`.
-4. Select the **iPhone** solution platform in the menu bar.
-5. Rebuild the solution. Visual Studio will delegate compilation of the C core to the paired Mac, producing the static library `libgnollhackios.a` and running the XAML translation.
+1. Start the SSH service in WSL: `sudo service ssh start`
+2. Ensure **vcremote** is running on the Mac (this is used by the C++ static library project `gnollhackios.vcxproj` to compile the native C code on the Mac).
+3. Connect to your Mac build host using the **Pair to Mac** wizard in Visual Studio (this is used by the .NET MAUI project `GnollHackM.csproj` for building and deploying the C# app).
+4. Open the native solution `win\win32\vs\GnollHack.sln`.
+5. Select the **iPhone** solution platform in the menu bar.
+6. Rebuild the solution. Visual Studio will delegate compilation of the C core to the paired Mac, producing the static library `libgnollhackios.a` and running the XAML translation.
 
 ### Software Installation for .NET MAUI
 
