@@ -39,10 +39,10 @@ $msbuild = & "${env:ProgramFiles(x86)}\Microsoft Visual Studio\Installer\vswhere
 & $msbuild win/win32/vs/GnollHack.sln /t:Rebuild /p:Configuration=Debug /p:Platform="Android+Windows"
 ```
 
-The `Android+Windows` platform configuration builds both Android and Windows native libraries simultaneously. You can also use `x64` for Windows only or `ARM64` for Android only.
+The `Android+Windows` platform configuration builds both Android and Windows native libraries simultaneously. You can also use `x64` for Windows only, `ARM64` for Android only, or `iPhone` for iOS only.
 
 > ⚠️ **Warning:** For Android builds, start the SSH service in WSL first: `sudo service ssh start`
-> For iOS builds, ensure vcremote is running on the Mac.
+> For iOS builds, ensure vcremote is running on the Mac and use the `iPhone` platform configuration.
 
 ## 2. Build GnollHackM
 

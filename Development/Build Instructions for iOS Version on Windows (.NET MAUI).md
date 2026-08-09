@@ -17,12 +17,13 @@ You need the following devices to follow these instructions:
 1. Ensure **vcremote** is running on the Mac (this is used by the C++ static library project `gnollhackios.vcxproj` to compile the native C code on the Mac).
 2. Connect to your Mac build host using the **Pair to Mac** wizard in Visual Studio (this is used by the .NET MAUI project `GnollHackM.csproj` for building and deploying the C# app).
 3. Open the native solution `win\win32\vs\GnollHack.sln`.
-4. Rebuild the solution. Visual Studio will delegate compilation of the C core to the paired Mac, producing the static library `libgnollhackios.a` and running the XAML translation.
+4. Select the **iPhone** solution platform in the menu bar.
+5. Rebuild the solution. Visual Studio will delegate compilation of the C core to the paired Mac, producing the static library `libgnollhackios.a` and running the XAML translation.
 
 ### Software Installation for .NET MAUI
 
 1. On Windows, install the latest Visual Studio version with up-to-date support for .NET MAUI.
-2. On Mac, install [Xcode](https://apps.apple.com/us/app/xcode/id497799835) 26.5 (or whatever is the newest supported by .NET MAUI) from App Store or from [xcodereleases.com](https://xcodereleases.com/).
+2. On Mac, install [Xcode](https://apps.apple.com/us/app/xcode/id497799835) 26.5 (as of .NET 10.0.10, SDK 10.0.302 — the required Xcode version depends on the .NET SDK version) from App Store or from [xcodereleases.com](https://xcodereleases.com/).
     - You can do this just by drag-and-dropping the downloaded Xcode from Downloads or where it is unpacked to Applications folder
 
 When building the native iOS library from the GnollHack solution, the build process copies the tile sets and sound banks to the appropriate `GnollHackM` directories (see [[/Development/Install Tile Sets and FMOD Sound Banks]]). Also, you must copy the secrets file separately (see [[/Development/Install Secrets File]]).

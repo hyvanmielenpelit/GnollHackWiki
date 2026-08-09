@@ -10,8 +10,8 @@ Install PuTTY on your Windows computer from [www.putty.org](http://www.putty.org
 
 The repository already contains two download scripts for **pscp** in the `win\win32\xpl\gnollhackios` directory. Edit them with your Mac credentials:
 
-1. Download-Debug-ARM64.bat
-2. Download-Release-ARM64.bat
+1. download-Debug-ARM64.bat
+2. download-Release-ARM64.bat
 
 Both of the scripts have just one line like follows (this one is for Debug configuration and ARM64 platform):
 
