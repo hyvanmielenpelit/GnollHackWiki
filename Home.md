@@ -123,3 +123,4 @@ Gnoll Overseer is your in-game assistant about all things GnollHack.
 - **[[Privacy Policy]]**
 - **[[Terms and Conditions]]**
 - **[[AI Usage Policy]]**
+- **[[Overseer AI Providers]]**
