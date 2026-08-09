@@ -54,7 +54,7 @@ The table below summarizes support for the modern client. Note that emulator per
 | Platform | Technology | CPU Arch | Solution | Projects | Emulator Support<sup>1</sup> |
 |:---------|:-----------|:---------|:---------|:---------|:----------------------------:|
 | Android | .NET MAUI | Arm64, x64<sup>2</sup> | GnollHackM | GnollHackM | Yes<sup>4</sup> |
-| iOS | .NET MAUI | Arm64 | GnollHackM | GnollHackM | Yes<sup>4</sup> |
+| iOS / macOS<sup>6</sup> | .NET MAUI | Arm64 | GnollHackM | GnollHackM | Yes<sup>4</sup> |
 | Windows | .NET MAUI | x64, (Arm64<sup>3</sup>) | GnollHackM | GnollHackM | No<sup>5</sup> |
 
 - <sup>1</sup> Emulator support refers to whether the port is supported by popular cross-operating-system emulators.
@@ -62,6 +62,7 @@ The table below summarizes support for the modern client. Note that emulator per
 - <sup>3</sup> .NET MAUI supports Arm64 on Windows, but we have not built Arm64 binaries because we do not have a Windows test device with an Arm64 CPU.
 - <sup>4</sup> May exhibit odd behavior or crash.
 - <sup>5</sup> GnollHack's modern Windows port (.NET MAUI) does not run on Wine or Proton because they do not support running WinUI 3 applications.
+- <sup>6</sup> The iOS version works also on macOS (on Macs with the M1 processor or later; we don't support Intel Macs). We don't plan on creating a separate macOS version at the moment.
 
 ### 💻 Future Platform Support
 
