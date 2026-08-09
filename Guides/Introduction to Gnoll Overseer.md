@@ -10,11 +10,7 @@
 
 ## 🆚 How It Differs From AI Chatbots
 
-While general-purpose frontier models like the ChatGPT and Gemini are powerful, Gnoll Overseer is a specialized assistant built specifically for GnollHack. Key differences include:
-
-- **Game Context Awareness**: Unlike ChatGPT or Gemini where you must manually describe your entire situation, the in-game Overseer automatically reads your current game state, including your character's stats, inventory, screen, and messages. It knows exactly what you are facing without you having to type it.
-- **Grounded in Real Game Data**: General AI models often hallucinate or confuse GnollHack mechanics with other games or older versions of vanilla NetHack. The Overseer avoids this by actively searching the GnollHack Wiki and reading the actual C source code and game data databases in real-time to provide accurate, factual answers.
-- **Purpose-Built Integration**: Instead of switching to a separate browser tab, the Overseer provides a seamless, integrated UI directly within the game client.
+Although Gnoll Overseer uses the same frontier AI models as the ChatGPT and Gemini web apps, it is a purpose-built assistant seamlessly integrated into the game client. Rather than relying on generic knowledge, the Overseer is aware about the game context via specialized integration and grounded in real game data through custom tools made available to it.
 
 ## 🏁 How to Access It
 
