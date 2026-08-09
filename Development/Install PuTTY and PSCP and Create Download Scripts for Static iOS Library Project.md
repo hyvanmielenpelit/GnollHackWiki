@@ -31,6 +31,11 @@ The command can be, for example:
 
 Note that the IP Address can change depending on which network you are connected to. You may need to create separate download scripts for each network environment, for example, workplace and home.
 
-## 4. Run Download script
+## 4. Run Download Script Interactively
 
-Run the appropriate download script in **Windows PowerShell** and answer y to store the key to cache. *(You may need to create the downloadable library first.)*
+> ⚠️ **Warning:** You **must** run the appropriate download script manually in **Windows PowerShell** at least once and answer `y` to store the Mac host key in the SSH cache. If you skip this step, Visual Studio's post-build step will fail or hang when attempting to download `libgnollhackios.a` non-interactively.
+
+Run the appropriate script in PowerShell:
+```powershell
+.\win\win32\xpl\gnollhackios\download-Debug-ARM64.bat
+```

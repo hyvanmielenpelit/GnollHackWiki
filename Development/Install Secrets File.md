@@ -2,14 +2,15 @@
 
 The secrets file is a json file called `ghsecrets.sjson`. It is used for storing private webhook links and other secret information. You can create a new file containing the following text:
 
-```
+```json
 {
    "EncodedDefaultGamePostAddress": "",
    "EncodedDefaultDiagnosticDataPostAddress": "",
    "EncodedDefaultXlogRegisterationAddress": "",
    "EncodedDefaultXlogPostAddress": "",
    "EncodedDefaultXlogAntiForgeryToken": "",
-   "EncodedDefaultAzureBlobStorageConnectionString": ""
+   "EncodedDefaultAzureBlobStorageConnectionString": "",
+   "EncodedDefaultSentryDSN": ""
 }
 ```
 

@@ -40,6 +40,7 @@ When building the native iOS library from the GnollHack solution, the build proc
     - The dialog box should show all of your certificates and provisioning profiles
     - Click Download All Profiles
 4. Set the provisioning profile information in `GnollHackM.csproj` project file to your profiles
+    - Open `GnollHackM.csproj` and update `<CodesignKey>` and `<CodesignProvision>` under the appropriate `<PropertyGroup>` for Debug and Release configurations with your Apple Developer Certificate name and Provisioning Profile name.
     - Debug configuration should use Development profile
     - Release configuration can use either Development profile (if you do not plan to distribute on App Store) or Distribution profile
 5. On Mac, open Xcode and add your Apple developer account to Xcode 26.5 in Xcode > Settings > Accounts if it is not already there

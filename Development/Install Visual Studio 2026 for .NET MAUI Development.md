@@ -12,7 +12,7 @@ Install the following workloads:
 2. .NET Multi-platform App UI Development
 3. .NET desktop development
 4. Universal Windows Platform development
-5. Mobile development with C++
+5. Mobile development with C++ *(required for building native Android C++ library gnollhackdroid.vcxproj)*
 6. Linux and embedded development with C++
 
 ## Individual components

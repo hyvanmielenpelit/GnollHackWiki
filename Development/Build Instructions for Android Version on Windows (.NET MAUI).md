@@ -8,13 +8,13 @@ You need the following devices to follow these instructions:
 
 ### Software Installation
 
-1. Install the latest Visual Studio version with up-to-date support for .NET MAUI. Make sure to also install the **Android NDK** (usually available via the Visual Studio Installer or Android SDK Manager) as it is explicitly required by the C++ cross-compilation pipeline.
-2. [[/Development/Install Tile Sets and FMOD Sound Banks]].
+1. Install the latest Visual Studio version with up-to-date support for .NET MAUI. Make sure to also select the **Mobile development with C++** workload in the Visual Studio Installer (which includes the C++ Android cross-compilation toolchain and Android NDK), as it is explicitly required by `gnollhackdroid.vcxproj`.
+2. [[/Development/Install Tile Sets and FMOD Sound Banks]] (must be placed in `win\win32\tileset` and `win\win32\bank\Mobile` *before* building the native solution).
 3. [[/Development/Install Secrets File]].
 4. [[/Development/Install Windows Subsystem for Linux]].
-5. Before building the native solution, start the SSH service in WSL: `sudo service ssh start`. The SSH connection to WSL must also be configured in Visual Studio (Tools → Options → Cross Platform → Connection Manager).
+5. Before building the native solution, start the SSH service in WSL: `sudo service ssh start`. The SSH connection to WSL must also be configured in Visual Studio under **Tools → Options → Cross Platform → Connection Manager** (Host Name: `127.0.0.1`, Port: `22`, User Name & Password: your WSL credentials).
 6. Open the native solution `win\win32\vs\GnollHack.sln`.
-7. Select the **Android+Windows** platform configuration and rebuild the solution. This compiles the native C core game engine into the Android library (`libgnollhackdroid.so`) and automatically runs `makedefsdroid` to translate the shared XAML UI files from `GnollHackX` to `GnollHackM` formats.
+7. Select the **Android+Windows** platform configuration and rebuild the solution. This compiles the native C core game engine into the Android library (`libgnollhackdroid.so` for both `arm64-v8a` and `x86_64`) and automatically runs `makedefsdroid` to translate the shared XAML UI files from `GnollHackX` to `GnollHackM` formats.
 
 
 ### Android Device Preparation

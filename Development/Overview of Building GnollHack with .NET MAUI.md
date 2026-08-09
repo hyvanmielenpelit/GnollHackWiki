@@ -7,7 +7,7 @@ You build the .NET MAUI version of GnollHack with a two-step process. This is be
 Before building, complete the following setup steps:
 
 1. [[/Development/Install Visual Studio 2026 for .NET MAUI Development]]
-2. [[/Development/Install Windows Subsystem for Linux]] *(required for Android builds)*
+2. [[/Development/Install Windows Subsystem for Linux]] *(required for Android and iOS builds to generate game data)*
 3. [[/Development/Install vcremote for Static iOS Library Project]] *(required for iOS builds)*
 4. [[/Development/Install PuTTY and PSCP and Create Download Scripts for Static iOS Library Project]] *(required for iOS builds)*
 5. [[/Development/Install Tile Sets and FMOD Sound Banks]]
@@ -41,8 +41,8 @@ $msbuild = & "${env:ProgramFiles(x86)}\Microsoft Visual Studio\Installer\vswhere
 
 The `Android+Windows` platform configuration builds both Android and Windows native libraries simultaneously. You can also use `x64` for Windows only, `ARM64` for Android only, or `iPhone` for iOS only.
 
-> ⚠️ **Warning:** For Android builds, start the SSH service in WSL first: `sudo service ssh start`
-> For iOS builds, ensure vcremote is running on the Mac and use the `iPhone` platform configuration.
+> ⚠️ **Warning:** For Android and iOS builds, start the SSH service in WSL first (`sudo service ssh start`), as `dlbdroid` generates the NetHack `nhdat` game data archive inside WSL.
+> For iOS builds, also ensure `vcremote` is running on the Mac and use the `iPhone` platform configuration.
 
 ## 2. Build GnollHackM
 

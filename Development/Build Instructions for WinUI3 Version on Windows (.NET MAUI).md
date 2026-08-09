@@ -20,7 +20,8 @@ You need the following devices to follow these instructions:
 5. Choose the **x64** solution platform in the menu bar for a pure Windows build. (Or **Android+Windows** if you have WSL configured and need the Android libraries / automatic XAML translation.)
 6. Select **Debug** as your solution configuration. You can also use **Release**, when you plan to build a release build.
 7. Rebuild the GnollHack solution.
-    - This will compile the native C library (`gnollhackwin.dll`), create the NetHack game data file called `nhdat` in Windows format, and copy them together with `credit`, `defaults.gnh`, `license`, `symbols`, `sysconf`, and `xcredits` to `win\win32\xpl\GnollHackM\Platforms\Windows\gnh`.
+    - This will compile the native C library (`gnollhackwin.dll`) and copy it together with FMOD runtime DLLs to `win\win32\xpl\GnollHackM\Platforms\Windows\libs`.
+    - It will also create the NetHack game data file called `nhdat` in Windows format, and copy it together with `defaults.gnh`, `license`, `symbols`, `sysconf`, `xcredits`, and `record` to `win\win32\xpl\GnollHackM\Platforms\Windows\gnh`.
     - (It will also build ASCII and GUI versions of GnollHack. You may want to check out [[/Development/Build Instructions for ASCII Version on Windows]] and [[/Development/Build Instructions for Windows GUI Version on Windows]] for reference.)
 8. Locate `GnollHackM.sln` in `win\win32\xpl\GnollHackM` directory and open it in Visual Studio.
 9. Rebuild the GnollHackM solution.
@@ -33,6 +34,9 @@ You can also build from the command line:
 # Build native solution
 $msbuild = & "${env:ProgramFiles(x86)}\Microsoft Visual Studio\Installer\vswhere.exe" -latest -requires Microsoft.Component.MSBuild -find MSBuild\**\Bin\MSBuild.exe
 & $msbuild win/win32/vs/GnollHack.sln /t:Rebuild /p:Configuration=Debug /p:Platform=x64
+
+# (Optional) Run XAML translation manually if building x64 and modifying XAML (requires WSL SSH running)
+& $msbuild win/win32/vs/makedefsdroid.vcxproj /t:Build /p:Configuration=Debug /p:Platform=x64
 
 # Build MAUI solution
 dotnet build win/win32/xpl/GnollHackM/GnollHackM.csproj -c Debug -f net10.0-windows10.0.19041.0
