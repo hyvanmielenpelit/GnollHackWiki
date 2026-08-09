@@ -65,7 +65,6 @@ The table below summarizes support for the modern client. Note that emulator per
 
 ### 💻 Future Platform Support
 
-- Support for **macOS** using **.NET MAUI / Mac Catalyst** or **Avalonia UI** is planned, though implementation may take some time.
 - **Linux** support for the modern client is planned using **Avalonia UI**, pending the maturity of the technology stack.
 - Currently, there are no plans to support *gaming consoles* or *controllers* (such as the Steam Deck).
 
