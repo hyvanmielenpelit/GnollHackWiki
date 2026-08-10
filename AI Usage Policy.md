@@ -6,8 +6,8 @@
 
 > ℹ️ This section explains the details of how we use assets created with generative AI in GnollHack-related contexts.
 
-| AI Asset Type / Use Allowed | GnollHack | Stores<sup>1</sup> | Gnoll Overseer | Other Contexts<sup>2</sup> |
-| :-------------------------- | :-------: | :---------------------: | :------------: | :------------------------: |
+| AI Asset Type ↓ / Use Allowed → | GnollHack | Stores<sup>1</sup> | Gnoll Overseer | Other Contexts<sup>2</sup> |
+| :------------------------------ | :-------: | :---------------------: | :------------: | :------------------------: |
 | Image | ❌ | ❌<sup>3</sup> / ✅<sup>4</sup> | ✅ | ✅ |
 | Text<sup>5, 6</sup> | ❌ | ✅ | ✅ | ✅ |
 | Voice | ❌ | ❌ | ✅ | ✅ |
