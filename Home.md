@@ -74,7 +74,7 @@ GnollHack is best understood as a modernized version of NetHack that makes the c
 
 ## 🐺 Gnoll Overseer
 
-Gnoll Overseer is your in-game assistant about all things GnollHack.
+The Gnoll Overseer is your in-game assistant for all things GnollHack. He is highly advanced and game-context-aware, able to answer complex questions with great accuracy.
 
 - **[[/Guides/Introduction to Gnoll Overseer]]** — Learn about what Gnoll Overseer is 
 - **[[/Guides/Advanced Guide to Gnoll Overseer]]** — An in-depth guide to Gnoll Overseer
