@@ -57,8 +57,8 @@ The way each game connects to the broader internet reflects its era of design. N
 
 | Aspect | NetHack | GnollHack |
 |--------|---------|-----------|
-| **Primary Real-Time Chat** | IRC on [Libera.Chat](https://libera.chat/) (`#nethack`, `#nethack-variants`, `#hardfought`) | Discord server |
-| **Forum ∕ Discussion** | Reddit ([`r/nethack`](https://www.reddit.com/r/nethack/)), NetHack Wiki ([`nethackwiki.com`](https://nethackwiki.com/)) | Discord server |
+| **Primary Real-Time Chat** | IRC on [Libera.Chat](https://libera.chat/) (`#nethack`, `#nethack-variants`, `#hardfought`) | [Discord server](https://discord.gg/cQuExnzUQy) |
+| **Forum ∕ Discussion** | Reddit ([`r/nethack`](https://www.reddit.com/r/nethack/)), NetHack Wiki ([`nethackwiki.com`](https://nethackwiki.com/)) | [Discord server](https://discord.gg/cQuExnzUQy) |
 | **Wiki** | [`nethackwiki.com`](https://nethackwiki.com/) (community-maintained MediaWiki) | `wiki.gnollhack.com` (Gollum-based, developer-maintained) |
 
 ## 💻 Public Servers
@@ -94,7 +94,7 @@ NetHack holds a unique place in AI research. Because of its extreme difficulty, 
 
 ## 💡 Conclusions
 
-NetHack's infrastructure has grown organically over decades through community effort—open-source server management, third-party apps, IRC bots, the Hearse network, and aggregated scoreboards. GnollHack takes a different approach by centralizing and modernizing these features into the game itself: a unified account system, built-in cloud saves, an AI assistant, official app store distribution, and native Discord integration. The result is an out-of-the-box online experience designed for the modern gamer.
+**NetHack**'s infrastructure has grown organically over decades through community effort—open-source server management, third-party apps, IRC bots, the Hearse network, and aggregated scoreboards. **GnollHack** takes a different approach by centralizing and modernizing these features into the game itself: a unified account system, built-in cloud saves, an AI assistant, official app store distribution, and native Discord integration. The result is an out-of-the-box online experience designed for the modern gamer.
 
 ## ℹ️ See Also
 
