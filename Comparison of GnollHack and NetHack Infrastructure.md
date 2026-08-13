@@ -4,9 +4,9 @@
 
 The most visible infrastructure difference is simply *how you get the game*.
 
-**GnollHack** is officially distributed through mainstream digital storefronts—**Google Play**, the **Apple App Store**, and **Steam**—complete with age ratings (ESRB Everyone 10+, PEGI 7+, and regional equivalents). There is a single official release maintained by the developer.
+**GnollHack** is officially distributed through mainstream digital storefronts—[**Google Play**](https://play.google.com/store/apps/details?id=com.soundmindentertainment.gnollhack), the [**Apple App Store**](https://apps.apple.com/us/app/gnollhack/id1626979951), and [**Steam**](https://store.steampowered.com/app/3558190/GnollHack/)—complete with age ratings (ESRB Everyone 10+, PEGI 7+, and regional equivalents). There is a single official release maintained by the developer.
 
-**NetHack** has no official presence on any app store. The DevTeam distributes source code and binaries through `nethack.org` and GitHub. Players who want mobile or modern desktop versions rely on unofficial community ports, such as iNetHack2 (iOS), Vulture for NetHack (Steam), NetHack: Legacy (Steam), and a community-built NetHack 3.6 wrapper on the Microsoft Store.
+**NetHack** has no official presence on any app store. The DevTeam distributes source code and binaries through [`nethack.org`](https://www.nethack.org/) and GitHub. Players who want mobile or modern desktop versions rely on unofficial community ports, such as [iNetHack2](https://apps.apple.com/us/app/inethack2/id962114968) (iOS), [Vulture for NetHack](https://store.steampowered.com/app/341390/Vulture_for_NetHack/) (Steam), and [NetHack: Legacy](https://store.steampowered.com/app/2000360/NetHack_Legacy/) (Steam).
 
 ## 👤 Accounts, Cloud Saves, and Cross-Platform Play
 
@@ -14,7 +14,7 @@ GnollHack introduces a centralized account system that ties together scoring, bo
 
 | Aspect | NetHack | GnollHack |
 |--------|---------|-----------|
-| **Account System** | Per-server accounts created via dgamelaunch | Centralized [[GnollHack Account]] (`account.gnollhack.com`) |
+| **Account System** | Per-server accounts created via dgamelaunch | Centralized [[GnollHack Account]] ([`account.gnollhack.com`](https://account.gnollhack.com/)) |
 | **Cross-Platform Identity** | No unified identity; separate accounts per server | Single account works across Android, iOS, and Windows |
 | **Cloud Save Transfer** | Not available; saves are local or tied to a specific server | Cloud-based [[Save File Transfer]] between devices (move semantics — file exists in only one place at a time) |
 | **Cross-Platform Saves** | N/A | Full [[cross-platform save compatibility|Save Game Compatibility]] (v3.1+) |
@@ -26,11 +26,11 @@ Both games have global scoreboards and participate in the annual Junethack tourn
 
 | Aspect | NetHack | GnollHack |
 |--------|---------|-----------|
-| **Score Logging** | `xlogfile` (machine-readable extended log) generated per server | Scores posted directly to `account.gnollhack.com` via the app |
-| **Global Aggregation** | `nethackscoreboard.org` aggregates xlogfile feeds from NAO, Hardfought, and other servers | `account.gnollhack.com` serves as the central scoreboard; also feeds into NetHack Scoreboard and Junethack |
+| **Score Logging** | `xlogfile` (machine-readable extended log) generated per server | Scores posted directly to [`account.gnollhack.com`](https://account.gnollhack.com/) via the app |
+| **Global Aggregation** | [`nethackscoreboard.org`](https://nethackscoreboard.org/) aggregates xlogfile feeds from NAO, Hardfought, and other servers | [`account.gnollhack.com`](https://account.gnollhack.com/) serves as the central scoreboard; also feeds into NetHack Scoreboard and [Junethack](https://junethack.net/) |
 | **Scoring Model** | Gold carried, item values, dungeon depth, XP | Achievement-based system with difficulty multipliers, conduct bonuses, role-specific scoring, and turn count multipliers (see [[Scoring]]) |
 | **Tournament Participation** | Players simply play on registered servers during the tournament period | Built-in [[Tournament Mode]] enforces anti-cheat settings (Classic Mode, minimum Expert difficulty, forced server posting, save file tracking) |
-| **Tournament Integration** | Server xlogfiles feed into Junethack | [[GnollHack Account]] links to Junethack username; scores posted via account service |
+| **Tournament Integration** | Server xlogfiles feed into [Junethack](https://junethack.net/) | [[GnollHack Account]] links to Junethack username; scores posted via account service |
 | **Historical Tournaments** | /dev/null/nethack (1999–2016, retired) | None |
 
 ## 🦴 Bones Sharing
@@ -39,7 +39,7 @@ Bones files are levels where players have died, complete with their gear and gho
 
 On public servers, both games share bones automatically between players on the same server. The key difference is *cross-device and cross-server* sharing:
 
-- **NetHack**: Not built-in. Players must use the third-party **Hearse** utility (a client/server tool that exchanges bones files over the internet, verifying version and platform compatibility).
+- **NetHack**: Not built-in. Players must use the third-party [**Hearse**](https://hearse.krollmark.com/) utility (a client/server tool that exchanges bones files over the internet, verifying version and platform compatibility).
 - **GnollHack**: Built natively into the game for [[GnollHack Account]] users. Bones are automatically uploaded when your character dies and downloaded into other players' games. Files are separated by difficulty level and game version. Bones are only generated and shared in [[Classic Mode]]. See [[Bones Sharing]] for details.
 
 ## 🤖 AI Assistants, Bots, and Social Features
@@ -48,8 +48,8 @@ The way each game connects to the broader internet reflects its era of design. N
 
 | Aspect | NetHack | GnollHack |
 |--------|---------|-----------|
-| **In-Game AI Assistant** | None | **Gnoll Overseer** — AI chat assistant powered by OpenAI, Anthropic, and Google AI; provides gameplay hints and answers questions via custom tools. Runs on a dedicated US-hosted server; user-provided API keys encrypted at rest. |
-| **Event Announcements** | **Rodney** (IRC bot on Libera.Chat `#nethack`), **Beholder** (bridges server events to IRC/Discord) | Built-in **Post Game Progress** sends real-time events to Discord `#player-log` channel |
+| **In-Game AI Assistant** | None | **Gnoll Overseer** — AI chat assistant powered by [OpenAI](https://openai.com/), [Anthropic](https://www.anthropic.com/), and [Google AI](https://ai.google/); provides gameplay hints and answers questions via custom tools. Runs on a dedicated US-hosted server; user-provided API keys encrypted at rest. |
+| **Event Announcements** | **Rodney** (IRC bot on [Libera.Chat](https://libera.chat/) `#nethack`), **Beholder** (bridges server events to IRC/Discord) | Built-in **Post Game Progress** sends real-time events to Discord `#player-log` channel |
 | **Info ∕ Spoiler Queries** | **Rodney** (`learndb` database), **Pinobot** (monster/item stats for variants) | Gnoll Overseer serves this role in-game |
 | **Custom Webhooks** | N/A | Players and server admins can configure custom Discord webhook URLs to post progress to their own channels |
 
@@ -57,9 +57,9 @@ The way each game connects to the broader internet reflects its era of design. N
 
 | Aspect | NetHack | GnollHack |
 |--------|---------|-----------|
-| **Primary Real-Time Chat** | IRC on Libera.Chat (`#nethack`, `#nethack-variants`, `#hardfought`) | Discord server |
-| **Forum ∕ Discussion** | Reddit (`r/nethack`), NetHack Wiki (`nethackwiki.com`) | Discord server |
-| **Wiki** | `nethackwiki.com` (community-maintained MediaWiki) | `wiki.gnollhack.com` (Gollum-based, developer-maintained) |
+| **Primary Real-Time Chat** | IRC on [Libera.Chat](https://libera.chat/) (`#nethack`, `#nethack-variants`, `#hardfought`) | Discord server |
+| **Forum ∕ Discussion** | Reddit ([`r/nethack`](https://www.reddit.com/r/nethack/)), NetHack Wiki ([`nethackwiki.com`](https://nethackwiki.com/)) | Discord server |
+| **Wiki** | [`nethackwiki.com`](https://nethackwiki.com/) (community-maintained MediaWiki) | `wiki.gnollhack.com` (Gollum-based, developer-maintained) |
 
 ## 💻 Public Servers
 
@@ -67,9 +67,9 @@ Both games can be played on public Linux servers via SSH. NetHack's server ecosy
 
 | Aspect | NetHack | GnollHack |
 |--------|---------|-----------|
-| **Primary Servers** | NAO (`nethack.alt.org`), Hardfought (US/EU/AU) | Proprietary server (`server.gnollhack.com`), also on Hardfought |
+| **Primary Servers** | NAO ([`nethack.alt.org`](https://alt.org/nethack/)), [Hardfought](https://www.hardfought.org/) (US/EU/AU) | Proprietary server (`server.gnollhack.com`), also on Hardfought |
 | **Access Methods** | SSH, Telnet, web terminal | SSH (text-based servers), native app (modern ports) |
-| **Server Management** | `dgamelaunch` (community open-source) | Proprietary server software |
+| **Server Management** | `dgamelaunch` (community open-source) | Proprietary server software, based on dgamelaunch |
 | **Live Spectating** | Built into dgamelaunch (SSH `w` key) | Built into dgamelaunch on Hardfought; not available on modern ports |
 
 ## 🎬 Game Recording and Replays
@@ -82,14 +82,13 @@ Both games can be played on public Linux servers via SSH. NetHack's server ecosy
 
 ## 🔬 AI Research
 
-NetHack holds a unique place in AI research. Because of its extreme difficulty, procedural generation, permadeath, and reliance on long-horizon planning, vanilla NetHack has become a "grand challenge" for artificial intelligence. Meta AI and Oxford University created the **NetHack Learning Environment (NLE)** as a major reinforcement learning benchmark, and the **MiniHack** sandbox and **BALROG** LLM evaluation suite continue to drive active publications at top-tier conferences (ICLR, ICML). GnollHack is not currently used as an AI research benchmark.
+NetHack holds a unique place in AI research. Because of its extreme difficulty, procedural generation, permadeath, and reliance on long-horizon planning, vanilla NetHack has become a "grand challenge" for artificial intelligence. Meta AI and Oxford University created the [**NetHack Learning Environment (NLE)**](https://github.com/facebookresearch/nle) as a major reinforcement learning benchmark, and the [**MiniHack**](https://minihack.readthedocs.io/) sandbox and [**BALROG**](https://huggingface.co/papers/2411.17122) LLM evaluation suite continue to drive active publications at top-tier conferences (ICLR, ICML). GnollHack is not currently used as an AI research benchmark.
 
 ## 🛠️ Source Code and Development
 
 | Aspect | NetHack | GnollHack |
 |--------|---------|-----------|
-| **Source Hosting** | GitHub (`NetHack/NetHack`) | GitHub (`hyvanmielenpelit/GnollHack`) |
-| **Latest Stable Version** | NetHack 3.6.7 (February 2023); 3.7.0 in active development | GnollHack Release 3 series (actively updated) |
+| **Source Hosting** | GitHub ([`NetHack/NetHack`](https://github.com/NetHack/NetHack)) | GitHub ([`hyvanmielenpelit/GnollHack`](https://github.com/hyvanmielenpelit/GnollHack)) |
 | **Developer** | NetHack DevTeam (volunteer collective) | Sound Mind Games / Hyvän mielen pelit ry (Finnish non-profit) |
 | **License** | NGPL (NetHack General Public License) | NGPL |
 
