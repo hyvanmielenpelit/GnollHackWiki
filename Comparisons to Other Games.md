@@ -2,7 +2,7 @@
 
 > 👉 **This page contains articles comparing GnollHack to vanilla NetHack, other NetHack variants, and other roguelike games.**
 
-## NetHack
+## 🧙‍♂️ NetHack
 
 | Article | Compared Games |
 |---------|----------------|
@@ -11,13 +11,13 @@
 | **[[Comparison of GnollHack and NetHack Infrastructure]]**<br /><small>👉 *A meta-level comparison of the ecosystems and infrastructure surrounding the games.*</small> | 🧙‍♂️ NetHack<br />🐺 GnollHack |
 | **[[Comparison of NetHack GUIs]]**<br /><small>👉 *A feature comparison of the graphical user interfaces.*</small> | 🪟 NetHack Windows GUI<br />🧊 NetHack 3D<br />🐺 GnollHack |
 
-## NetHack Variants
+## 😈 NetHack Variants
 
 | Article | Compared Games |
 |---------|----------------|
 | **[[Comparison to Other NetHack Variants]]**<br /><small>👉 *A comparison of design philosophies.*</small> | 🐺 GnollHack<br />🐙 dNetHack<br />😈 EvilHack<br />🎲 UnNetHack |
 
-## Roguelikes
+## 🎲 Roguelikes
 
 | Article | Compared Games |
 |---------|----------------|
