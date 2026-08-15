@@ -122,3 +122,4 @@ These articles provide historical context and technical background. They are eas
 ## 🤖 AI
 
 - [[/Development/AI Safety Settings]] — Gnoll Overseer safety settings
+- [[/Development/AI Instructions]] — A list of GnollHack-related AI instructions in the Wiki
