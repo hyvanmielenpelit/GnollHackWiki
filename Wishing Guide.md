@@ -88,7 +88,7 @@ Wishing for Mythic and Legendary affixes requires positive luck to obtain specif
 
 ### Specific Affixes
 
-When wishing for specific affixes, the game distinguishes between **Common** affixes and **Rare** affixes (*Elemental Protection, Last Alliance, Banishment, Witch-King's, Olympian, Jotunheimian,* and *Melnibonean*). Rare affixes individually only have a 33% chance to be successfully granted. 
+When wishing for specific affixes, the game distinguishes between **Common** affixes and **Rare** affixes (*of Elemental Protection, of the Last Alliance, Banishment, Witch-King's, Olympian, Jotunheimian,* and *Melnibonean*). Rare affixes individually only have a 33% chance to be successfully granted. 
 
 #### Specific Mythic (One Affix)
 
@@ -111,7 +111,7 @@ When requesting a Legendary item with two specific affixes, there is an initial 
 
 *(If you fail the initial check, or one of the affix checks fails, the item will be generated with only one specific affix (Mythic) or no affixes (Normal)).*
 
-> 💡 **Example:** Wishing for a `"long sword of orcish bane"` (Specific Mythic, Common) has a 100% chance to grant the affix. Wishing for `"Witch-King's plate mail of fire resistance"` (Specific Legendary, 1 Rare + 1 Common) has an 11% chance to successfully grant both affixes.
+> 💡 **Example:** Wishing for a `"long sword of orc slaying"` (Specific Mythic, Common) has a 100% chance to grant the affix. Wishing for `"Witch-King's plate mail of fire resistance"` (Specific Legendary, 1 Rare + 1 Common) has an 11% chance to successfully grant both affixes.
 
 ## 🪢 Belts of Giant Strength
 
@@ -142,6 +142,19 @@ The probability of obtaining an artifact through wishing depends heavily on how 
 
 > 💡 **Example:** Wishing for `"Frost Brand"` early in the game (0 to 2 artifacts already generated) has a 100% success rate.
 
+## 🛠️ Item Conditions and Modifiers
+
+You can prepend condition modifiers to your wish (e.g., `"blessed rustproof long sword"`). Some conditions are always guaranteed, while others will fail or even backfire if your luck is negative.
+
+| Modifier Type | Wishing Terms | Success Chance & Rules |
+| :--- | :--- | :--- |
+| **Beautitude** | `blessed`, `uncursed` | 100% chance if your luck is **non-negative**. <br> ⚠️ *Warning:* If you wish for these with negative luck, the item will be generated as **cursed** instead (unless intrinsically uncurseable). |
+| **Damage Proofing** | `rustproof`, `fireproof`, `corrodeproof`, `rotproof`, `fixed` | 100% chance if your luck is **non-negative**. <br> If your luck is negative, the request is ignored and the item generates normally. |
+| **Poisoned** | `poisoned` | 100% chance on applicable weapons if your luck is **non-negative**. <br> If your luck is negative, the request is ignored. |
+| **Greased** | `greased` | 100% chance, regardless of luck. |
+
+> 💡 **Example:** Wishing for a `"blessed rustproof long sword"` with negative luck will result in a **cursed**, non-rustproof long sword. Wishing for a `"greased cursed long sword"` will always give you exactly what you asked for.
+
 ## 📝 Complex Wishing Examples
 
 Here are some examples of highly specific wishes that combine multiple mechanics from this guide.
@@ -149,7 +162,7 @@ Here are some examples of highly specific wishes that combine multiple mechanics
 | Wishing Prompt | Mechanics Explained |
 | :--- | :--- |
 | **`blessed +3 exceptional freezing long sword`** | Combines quality (Exceptional, 100% chance for weapons) and an elemental prefix (`freezing`, 100% chance with positive luck). |
-| **`uncursed celestial splint mail of orcish bane`** | Combines celestial armor and a Mythic suffix. Splint mail has the *Double Exceptionality Chance* (boosting celestial from 5% to 10%). The common mythic suffix has a 100% chance to apply. |
+| **`uncursed celestial splint mail of lightness`** | Combines celestial armor and a Mythic suffix. Splint mail has the *Double Exceptionality Chance* (boosting celestial from 5% to 10%). The common mythic suffix has a 100% chance to apply. |
 | **`blessed celestial Witch-King's plate mail of fire resistance`** | Highly complex legendary armor request. Getting this exact item requires succeeding the Celestial check (5%) AND the Legendary checks (11% chance to keep both affixes). The two checks run independently. |
 
 ## ℹ️ More Information
