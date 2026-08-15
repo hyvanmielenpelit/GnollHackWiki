@@ -88,7 +88,7 @@ Wishing for Mythic and Legendary affixes requires positive luck to obtain specif
 
 ### Specific Affixes
 
-When wishing for specific affixes, the game distinguishes between **Common** affixes and **Rare** affixes (*of Elemental Protection, of the Last Alliance, Banishment, Witch-King's, Olympian, Jotunheimian,* and *Melnibonean*). Rare affixes individually only have a 33% chance to be successfully granted. 
+When wishing for specific affixes, the game distinguishes between **Common** affixes and **Rare** affixes (*of Elemental Protection, of the Last Alliance, of Banishment, Witch-King's, Olympian, Jotunheimian,* and *Melnibonean*). Rare affixes individually only have a 33% chance to be successfully granted. 
 
 #### Specific Mythic (One Affix)
 
