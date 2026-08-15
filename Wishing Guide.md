@@ -24,6 +24,8 @@ If the probability check for other stackable items fails, you will receive exact
 | 4 | 33% |
 | 5 | 17% |
 
+> 💡 **Example:** Wishing for `"3 potions of full healing"` gives you a 50% chance to get all 3; otherwise you receive exactly 1. Wishing for `"20 arrows"` guarantees you 20 arrows.
+
 ## ⚔️ Weapon Qualities
 
 Weapons have base quality probabilities. Note that Elite, Celestial, Primordial, and Infernal qualities always require positive luck. If the probability check fails, you will receive a normal quality weapon instead.
@@ -33,6 +35,8 @@ Weapons have base quality probabilities. Note that Elite, Celestial, Primordial,
 | **Exceptional** | 100% |
 | **Elite** | 80% |
 | **Celestial / Primordial / Infernal** | 25% |
+
+> 💡 **Example:** Wishing for an `"exceptional long sword"` will always succeed in granting the Exceptional quality.
 
 ## 🛡️ Armor Qualities
 
@@ -49,6 +53,8 @@ Armor quality probabilities are generally much lower than weapons. However, some
 - **Double Exceptionality Chance:** This modifier significantly increases the probability of rolling high-tier qualities. It is applied natively to the following standard armors: [[/Items/splint mail]], [[/Items/banded mail]], [[/Items/chain mail]], [[/Items/scale mail]], [[/Items/studded leather armor]], [[/Items/ring mail]], and [[/Items/leather armor]].
 - **Half Exceptionality Chance:** This modifier decreases the probability of rolling high-tier qualities to balance highly advanced materials. It is intrinsically applied to items made of *mithril, adamantium, orichalcum*, and *hard crystal*.
 
+> 💡 **Example:** Wishing for `"elite splint mail"` uses the Double Chance column (50%), whereas `"elite dwarvish mithril-coat"` uses the Half Chance column (12.5%).
+
 ## 🪄 Wand Qualities
 
 Wands can only be Exceptional or Elite, and they require positive luck. They cannot be generated as Celestial, Primordial, or Infernal. If the probability check fails, you will receive a normal quality wand instead.
@@ -58,12 +64,16 @@ Wands can only be Exceptional or Elite, and they require positive luck. They can
 | **Exceptional** | 50% |
 | **Elite** | 25% |
 
+> 💡 **Example:** Wishing for a `"blessed elite wand of death"` has a 25% chance to grant the Elite quality (provided you have positive luck).
+
 ## 🪄 Elemental Enchantments
 
 You can wish for an elemental enchantment prefix (`freezing`, `flaming`, `electrified`, or `death-magical`) on weapons and armor that support it.
 
 - **Elemental Prefix:** 100% chance to obtain if you have positive luck. 
 - *Note:* If you wish for a `death-magical` enchantment on an item that cannot receive it, you will receive an `electrified` enchantment instead.
+
+> 💡 **Example:** Wishing for a `"freezing long sword"` is guaranteed to grant the freezing prefix as long as your luck is positive.
 
 ## 🔮 Mythic and Legendary Affixes
 
@@ -101,6 +111,8 @@ When requesting a Legendary item with two specific affixes, there is an initial 
 
 *(If you fail the initial check, or one of the affix checks fails, the item will be generated with only one specific affix (Mythic) or no affixes (Normal)).*
 
+> 💡 **Example:** Wishing for a `"long sword of orcish bane"` (Specific Mythic, Common) has a 100% chance to grant the affix. Wishing for `"Witch-King's plate mail of fire resistance"` (Specific Legendary, 1 Rare + 1 Common) has an 11% chance to successfully grant both affixes.
+
 ## 🪢 Belts of Giant Strength
 
 When wishing for a specific belt of giant strength, the chance of successfully obtaining it depends on its strength level. If the check fails, you will receive a [[/Items/Belt of hill giant strength]] instead.
@@ -127,6 +139,18 @@ The probability of obtaining an artifact through wishing depends heavily on how 
 | 7 | 29% |
 
 *(For 3 or more existing artifacts, the formula is exactly $2/n$, where $n$ is the number of already generated artifacts).*
+
+> 💡 **Example:** Wishing for `"Frost Brand"` early in the game (0 to 2 artifacts already generated) has a 100% success rate.
+
+## 📝 Complex Wishing Examples
+
+Here are some examples of highly specific wishes that combine multiple mechanics from this guide.
+
+| Wishing Prompt | Mechanics Explained |
+| :--- | :--- |
+| **`blessed +3 exceptional freezing long sword`** | Combines quality (Exceptional, 100% chance for weapons) and an elemental prefix (`freezing`, 100% chance with positive luck). |
+| **`uncursed celestial splint mail of orcish bane`** | Combines celestial armor and a Mythic suffix. Splint mail has the *Double Exceptionality Chance* (boosting celestial from 5% to 10%). The common mythic suffix has a 100% chance to apply. |
+| **`blessed celestial Witch-King's plate mail of fire resistance`** | Highly complex legendary armor request. Getting this exact item requires succeeding the Celestial check (5%) AND the Legendary checks (11% chance to keep both affixes). The two checks run independently. |
 
 ## ℹ️ More Information
 
