@@ -184,6 +184,16 @@
         box-shadow: 0px 0px 2px 2px rgb(0 0 0 / 50%);
       }
     }
+
+    /* Force word wrap on code blocks to prevent horizontal overflow */
+    pre, code {
+      white-space: pre-wrap !important;       /* CSS 3 */
+      white-space: -moz-pre-wrap !important;  /* Mozilla */
+      white-space: -pre-wrap !important;      /* Opera 4-6 */
+      white-space: -o-pre-wrap !important;    /* Opera 7 */
+      word-wrap: break-word !important;       /* IE 5.5+ */
+      overflow-wrap: break-word !important;
+    }
   </style>
 </head>
 <body>
