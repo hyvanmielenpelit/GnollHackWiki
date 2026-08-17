@@ -16,7 +16,8 @@ Follow these instructions to generate patch notes for Steam:
 2. GnollHack uses a dual versioning scheme. Steam releases are versioned as `X.Y` and GitHub releases as `GnollHack 4.X.0 Build Y`. For example, version `3.8` in Steam maps to `4.3.0 Build 8` in GitHub. Map the version appropriately based on this scheme.
 3. Read the list of changes in the release or tag in GitHub. It usually starts with something like "Build 8 makes the following changes:".
 4. Remove all changes that do not apply to the Windows version (for example, iOS or Android specific changes).
-5. Output the patch notes as two separate text blocks for the user to copy and paste to Steam: (1) The title text block, and (2) the body text block.
+5. Spell-check the patch notes and fix the grammar, if needed.
+6. Output the patch notes as two separate text blocks for the user to copy and paste to Steam: (1) The title text block, and (2) the body text block.
 
 ## Text Block 1: Title Text
 
