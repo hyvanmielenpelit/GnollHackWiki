@@ -22,9 +22,7 @@ Follow these instructions to generate patch notes for Steam:
 ## Text Block 1: Title Text
 
 Format the title text for the Steam patch notes as follows:
-`Patch Notes, Version X.Y — [Date]`
-
-Use the UK date format for the date. For example: `15 August 2026`.
+`Patch Notes, Version X.Y`
 
 ## Text Block 2: Body Text
 
