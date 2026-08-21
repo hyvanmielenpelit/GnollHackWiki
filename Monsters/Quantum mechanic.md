@@ -33,8 +33,7 @@ St:7 Dx:9 Co:9 In:18 Wi:12 Ch:7
 ## Corpse properties
 
 1. Causes uncertain velocity
-2. May confer teleportation
-3. May confer teleportitis (70.0% chance)
+2. May confer teleportitis (70.0% chance)
 
 ## Picture
 
