@@ -25,6 +25,7 @@ When editing or creating pages for the GnollHack Wiki, follow these conventions 
   - The end result should have only lowercase letters, numbers, and dashes.
   - Example: For a heading `## 🪨 Plane of Earth`, the in-page section link should be `[[Plane of Earth|#plane-of-earth]]`.
 - **Paths**: All wikilinks pointing to a page in a subfolder (e.g., `[[/Items/potion of healing]]`, `[[/Artifacts/Vorpal Blade]]`) must start with a slash (`/`), regardless of whether the source file is located in the root directory or in a subdirectory. If a link points to a page in the root directory (e.g., `[[Home]]`), it should not start with a slash, *unless* the source document is in a subdirectory (e.g. `Rooms/`), in which case the link targeting the root page must start with a leading slash (e.g. `[[/Rings]]` or `[[/Weapons]]`).
+- **No Backticks with Wikilinks**: Never wrap wikilinks in backticks (e.g., write `[[Page Name]]` or `[[/Items/potion of healing]]`, never `` `[[Page Name]]` `` or `` `[[/Items/potion of healing]]` ``). In Gollum markdown, wrapping a wikilink in backticks prevents it from rendering as a clickable hyperlink and displays it as literal code text instead.
 - **File Extensions**: Do not include the `.md` extension in wikilinks.
 - **Case-Sensitivity**: **Subdirectory names in wikilinks are case-sensitive** and must match the physical directory casing exactly (e.g., `/Items/`, `/Monsters/`, `/Dungeon/`, `/Conducts/`). Only the final page name itself is case-insensitive in Gollum.
 - **Aliases**: Never use an alias in wikilinks when the link text is the same as the target page name (e.g., use `[[/Roles/Priest]]` instead of `[[Priest|/Roles/Priest]]`). Use an alias only when the link text must differ from the page name, such as to use the plural form of the page name (e.g., `[[Priests|/Roles/Priest]]`). Remember: **Alias comes first, Page Name comes last**.
@@ -334,3 +335,11 @@ When referencing or comparing different games and NetHack variants, use the foll
 ## 14. Tables
 
 - **First Column**: Usually bold the values of the first column of Markdown tables, when it contains only values and no wikilinks.
+
+## 15. Legal and Store Compliance Documents
+
+- **Scope**: Includes `Privacy Policy.md`, `Gnoll Overseer Privacy Policy.md`, `GnollHack App Privacy Policy.md`, `GnollHack Steam App Privacy Policy.md`, `GnollHack Android App Privacy Policy.md`, `GnollHack iOS App Privacy Policy.md`, `GnollHack Account Privacy Policy.md`, `AI Usage Policy.md`, and `Overseer AI Providers.md`.
+- **Steam Store Disclosures (`Overseer AI Providers.md`)**: `Overseer AI Providers.md` is a legally binding disclosure document linked directly from the Steam store notice **"Connects to 3rd-Party Service for AI Content Generation: OpenAI, Anthropic, and Google"**. It must remain strictly focused on live third-party AI content generation disclosures, identifying legal entities, providing direct links to external Terms of Service and Privacy Policies, disclosing data transmission scope and local encryption, detailing automated content safety guardrails, and establishing opt-in consent. Do not include gameplay guide text, model benchmarking tables, or non-legal wiki links in this document.
+- **No Heading Icons**: Never use Unicode emojis/icons in headings on legal, privacy, or compliance documents.
+- **Cross-References**: Cross-link exclusively to relevant first-party legal, policy, and safety pages (such as `[[Gnoll Overseer Privacy Policy]]`, `[[AI Usage Policy]]`, `[[GnollHack Steam App Privacy Policy]]`, or `[[/Development/AI Safety Settings]]`). Avoid linking to general gameplay guides.
+

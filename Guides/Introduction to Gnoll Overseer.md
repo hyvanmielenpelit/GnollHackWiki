@@ -1,33 +1,54 @@
 ![Gnoll Overseer](/uploads/Guides/Introduction%20to%20Gnoll%20Overseer/gnoll-overseer-avatar-frame-256x256-q85.webp)
 
-> 👉 **Gnoll Overseer is a game information assistant that can be accessed via the About page and the game menu. It opens on its own page similar to the Wiki.**
+> 👉 **Gnoll Overseer is an AI-powered game assistant accessible via the game menu, the About page, or on the web. It provides grounded gameplay advice, inspects game mechanics and source code, and helps players navigate both GnollHack and classic NetHack.**
 
 ## ✨ What Can Gnoll Overseer Do?
 
-- **Answer questions about the game**: Ask about monsters, items, spells, artifacts, dungeon branches, or any game mechanic. The Overseer can read the actual game source code, consult the GnollHack Wiki, and retrieve exact monster and item stats, among other custom capabilities.
-- **Understand your current situation**: When opened during a game, the Overseer can see your character's stats, inventory, surroundings, and message history to give you advice tailored to exactly what you are facing right now.
-- **Remember your conversations**: Your chat sessions are saved, so you can revisit previous conversations whenever you want.
+- **Answer questions with source-grounded precision**: Ask about monsters, items, spells, artifacts, dungeon branches, or complex mechanics. The Overseer directly queries the live GnollHack and NetHack C codebases, inspects exact data definitions, and searches both the GnollHack Wiki and the NetHack Wiki.
+- **Understand your current game situation**: When opened during a game, the Overseer inspects a live snapshot of your character's stats, inventory, surrounding dungeon map, and recent message log to deliver tailored advice for your current tactical situation.
+- **Manage and organize conversations**: Search through past chats in the sidebar, pin important discussions to keep them anchored at the top, and easily restore deleted conversations from the built-in Trash bin.
+- **Transparent AI reasoning and performance**: Observe the Overseer's thinking process in real time with animated status reactions, collapsible reasoning sections, reasoning mode badges, and response performance metrics (Time to First Token and total response duration).
+- **Stay updated with the in-app Changelog**: Browse recent updates and new features directly inside the Overseer interface, with notification badges alerting you when important updates are released.
 
-## 🆚 How It Differs From AI Chatbots
+## 🆚 How It Differs From Generic AI Chatbots
 
-Although Gnoll Overseer uses the same frontier AI models as the ChatGPT and Gemini web apps, it is a purpose-built assistant seamlessly integrated into the game client. Rather than relying on generic knowledge, the Overseer is aware of the game context via specialized integration and grounded in real game data through custom tools made available to it.
+Although Gnoll Overseer connects to state-of-the-art AI models, it is a purpose-built assistant deeply integrated into the game engine:
+
+| Capability / Dimension | Generic AI Chatbots | Gnoll Overseer |
+|---|---|---|
+| **Live Game Context** | ❌ None (Player must describe the situation manually) | ✅ Automated live snapshot of character stats, inventory, dungeon map, and recent messages |
+| **Knowledge Accuracy** | 🟡 General web training data prone to hallucinations | ✅ Grounded in C engine struct definitions, exact formulas, and dual wikis |
+| **Source Code Inspection** | ❌ Generic code samples from the internet | ✅ Direct Lucene search and file viewing across both GnollHack and NetHack C codebases |
+| **Discovery & Spoilers** | ❌ Uncontrolled spoilers and inaccurate secrets | ✅ Configurable spoiler protection respecting discovered content and player preferences |
+| **Native Device Integration** | ❌ Isolated web browser session | ✅ Bidirectional native bridge querying local logs, dumplogs, and save metadata |
 
 ## 🏁 How to Access It
 
-There are three ways to use the Gnoll Overseer: From the *game menu*, from the *About menu*, and *on the web* at [https://overseer.gnollhack.com](https://overseer.gnollhack.com).
+There are three ways to use Gnoll Overseer:
+
+| Access Method | Context Availability | Best For |
+|---|---|---|
+| **In-Game Menu** | ✅ Full live game snapshot, inventory, map, and messages | Real-time tactical advice, item identification, and survival decisions during a run |
+| **About Menu** | 🟡 General game knowledge and mechanics | Asking questions between games and browsing strategies from the title screen |
+| **Web Interface** | 🟡 Web and account conversation history | Managing past chats on any device, configuring custom BYOK keys, and reading guides at [overseer.gnollhack.com](https://overseer.gnollhack.com) |
 
 ## 🆓 Free and Opt-In
 
-The Overseer is **completely free** and **100% opt-in**. It sits quietly in the menu and will never interrupt your gameplay unless you open it. If you prefer the classic, unaided roguelike experience, you never have to touch it.
+The Overseer is **completely free** and **100% opt-in**. It sits quietly in the menu and will never interrupt your gameplay unless you choose to open it. If you prefer the classic, unaided roguelike experience, you never have to touch it.
 
-## ⚙️ Settings
+## ⚙️ In-Game Settings
 
-You can customize the Overseer's behavior in GnollHack's Settings:
+You can customize the Overseer's core in-game behavior in GnollHack's Settings menu:
 
-- **Allow Spoilers** — Controls whether the Overseer can discuss detailed mechanics and hidden information. Turn this off if you prefer to discover things on your own.
-- **Verbose Responses** — Toggle between detailed explanations and concise answers.
-- **Send Game Context** — Controls whether your current game snapshot is sent to the Overseer when you open it during a game.
+| Setting | Description | Default State |
+|---|---|---|
+| **Allow Spoilers** | Controls whether the Overseer can discuss detailed mechanics, unencountered monsters, and hidden information. Turn this off to discover things on your own. | ❌ Off |
+| **Verbose Responses** | Toggles between comprehensive explanations and concise tactical answers. | ❌ Off |
+| **Send Game Context** | Controls whether your current game snapshot (stats, inventory, map) is sent to the Overseer when opened during gameplay. | ✅ On |
+| **Client Data Access** | Grants permission for the Overseer to query your device for local logs, save info, and game records when diagnosing issues. | 🟡 Prompt |
 
 ## 💡 Learn More
 
-For advanced configuration options like using your own AI provider keys, see the [[/Guides/Advanced Guide to Gnoll Overseer]].
+- [[/Guides/Advanced Guide to Gnoll Overseer]] — Deep dive into the 18 server-side tools, 10 client tools, multi-provider model selection, BYOK keys, and web interface settings.
+- [[/Guides/Technological Overview of Gnoll Overseer]] — Technical architecture of the .NET 10.0 backend, Angular 22 SPA, SignalR streaming, and data retention lifecycle.
+- [[/Overseer AI Providers]] — Overview of supported AI providers and model families.

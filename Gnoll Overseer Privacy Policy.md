@@ -23,6 +23,8 @@ Your GnollHack Account credentials (username and password) are used to authentic
 | Session creation and last message timestamps | Order and display your conversation history. |
 | Client settings and preferences (JSON) | Persist your Overseer UI preferences across sessions. |
 | Whether the session is a GnollHack game session | Differentiate sessions initiated from within the game from those initiated via the web interface. |
+| Pinned status | Maintain pinned conversations anchored at the top of the sidebar. |
+| Soft-deleted status (Trash) | Support conversational recovery in the Trash bin before permanent deletion. |
 
 ### 3. Chat Messages and Attachments
 
@@ -36,6 +38,7 @@ Your GnollHack Account credentials (username and password) are used to authentic
 | Thinking level used | Record the reasoning mode used by the AI. |
 | Tokens used per message | Monitor AI usage for rate-limiting purposes. |
 | Time to first token (milliseconds) | Monitor AI response performance. |
+| Total response duration (milliseconds) | Monitor end-to-end AI generation latency. |
 | Attached file names, content types, and storage paths | Manage file attachments uploaded during a chat session (e.g., in-game screenshots). |
 
 ### 4. Game Context Data
@@ -111,8 +114,9 @@ We take the security of your data seriously:
 
 ## Data Retention and Deletion
 
-- **Data Retention**: Your chat sessions, messages, attachments, and associated usage logs are retained on our servers to maintain your conversation history and to monitor system usage and errors. Data is retained until you choose to delete it.
-- **Chat Session Deletion**: You can delete your chat sessions at any time directly within the Gnoll Overseer interface. Deleting a chat session permanently removes its associated messages, tool calls, attachments (including files stored on disk), and related data from our servers.
+- **Data Retention**: Your active chat sessions, messages, attachments, and associated usage logs are retained on our servers to maintain your conversation history and to monitor system performance. Data is retained until you choose to delete it or until automatic maintenance policies apply.
+- **Chat Session Deletion and Trash Bin**: You can delete chat sessions at any time within the Gnoll Overseer interface. Deleted conversations are moved to a Trash bin, where you can restore them or choose to permanently empty the trash. A background maintenance service automatically purges soft-deleted conversations older than the standard retention threshold (30 days).
+- **Automated Storage Maintenance and Tool Pruning**: To ensure system efficiency and prevent database bloat, the server runs automated background maintenance that periodically prunes large, ephemeral tool execution JSON payloads from older messages while preserving message text, and removes orphaned file attachments from disk.
 - **Account Deletion**: You can delete your entire GnollHack account and all associated data (including all Overseer data) from the **Personal Data** page in your account settings on the GnollHack website. You can also contact us at the email address listed below.
 - **Game Log Data**: When your account is deleted, your game log entries are anonymized rather than deleted in order to preserve the integrity of the public leaderboard. All personally identifiable information (username, character name) is removed from these entries.
 
