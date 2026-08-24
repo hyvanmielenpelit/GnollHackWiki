@@ -6,9 +6,6 @@
 
 - **Answer questions with source-grounded precision**: Ask about monsters, items, spells, artifacts, dungeon branches, or complex mechanics. The Overseer directly queries the live GnollHack and NetHack C codebases, inspects exact data definitions, and searches both the GnollHack Wiki and the NetHack Wiki.
 - **Understand your current game situation**: When opened during a game, the Overseer inspects a live snapshot of your character's stats, inventory, surrounding dungeon map, and recent message log to deliver tailored advice for your current tactical situation.
-- **Manage and organize conversations**: Search through past chats in the sidebar, pin important discussions to keep them anchored at the top, and easily restore deleted conversations from the built-in Trash bin.
-- **Transparent AI reasoning and performance**: Observe the Overseer's thinking process in real time with animated status reactions, collapsible reasoning sections, reasoning mode badges, and response performance metrics (Time to First Token and total response duration).
-- **Stay updated with the in-app Changelog**: Browse recent updates and new features directly inside the Overseer interface, with notification badges alerting you when important updates are released.
 
 ## 🆚 How It Differs From Generic AI Chatbots
 
@@ -17,10 +14,8 @@ Although Gnoll Overseer connects to state-of-the-art AI models, it is a purpose-
 | Capability / Dimension | Generic AI Chatbots | Gnoll Overseer |
 |---|---|---|
 | **Live Game Context** | ❌ None (Player must describe the situation manually) | ✅ Automated live snapshot of character stats, inventory, dungeon map, and recent messages |
-| **Knowledge Accuracy** | 🟡 General web training data prone to hallucinations | ✅ Grounded in C engine struct definitions, exact formulas, and dual wikis |
-| **Source Code Inspection** | ❌ Generic code samples from the internet | ✅ Direct Lucene search and file viewing across both GnollHack and NetHack C codebases |
+| **Knowledge Accuracy** | 🟡 General web training data prone to hallucinations | ✅ Grounded in the game's actual data and official wikis |
 | **Discovery & Spoilers** | ❌ Uncontrolled spoilers and inaccurate secrets | ✅ Configurable spoiler protection respecting discovered content and player preferences |
-| **Native Device Integration** | ❌ Isolated web browser session | ✅ Bidirectional native bridge querying local logs, dumplogs, and save metadata |
 
 ## 🏁 How to Access It
 
@@ -45,10 +40,9 @@ You can customize the Overseer's core in-game behavior in GnollHack's Settings m
 | **Allow Spoilers** | Controls whether the Overseer can discuss detailed mechanics, unencountered monsters, and hidden information. Turn this off to discover things on your own. | ❌ Off |
 | **Verbose Responses** | Toggles between comprehensive explanations and concise tactical answers. | ❌ Off |
 | **Send Game Context** | Controls whether your current game snapshot (stats, inventory, map) is sent to the Overseer when opened during gameplay. | ✅ On |
-| **Client Data Access** | Grants permission for the Overseer to query your device for local logs, save info, and game records when diagnosing issues. | 🟡 Prompt |
 
 ## 💡 Learn More
 
-- [[/Guides/Advanced Guide to Gnoll Overseer]] — Deep dive into the 18 server-side tools, 10 client tools, multi-provider model selection, BYOK keys, and web interface settings.
-- [[/Guides/Technological Overview of Gnoll Overseer]] — Technical architecture of the .NET 10.0 backend, Angular 22 SPA, SignalR streaming, and data retention lifecycle.
+- [[/Guides/Advanced Guide to Gnoll Overseer]] — Deep dive into advanced settings, custom API keys, and the web interface.
+- [[/Guides/Technological Overview of Gnoll Overseer]] — Technical architecture of the Overseer service.
 - [[/Overseer AI Providers]] — Overview of supported AI providers and model families.
