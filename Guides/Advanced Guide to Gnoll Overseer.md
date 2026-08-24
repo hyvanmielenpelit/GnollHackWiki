@@ -1,140 +1,92 @@
 ![Gnoll Overseer](/uploads/Guides/Introduction%20to%20Gnoll%20Overseer/gnoll-overseer-avatar-frame-256x256-q85.webp)
 
-> 👉 **Unlock the full potential of Gnoll Overseer with custom models, your own API keys, advanced multi-codebase search tools, and rich conversation management.**
+> 👉 **Unlock the full potential of Gnoll Overseer to accelerate your learning and master the deep, complex mechanics of GnollHack.**
 
 ## 🏆 Overview
 
-The [[/Guides/Introduction to Gnoll Overseer]] covers the basics. This guide dives into the Overseer's advanced capabilities: the complete suite of server-side and client-side tools it uses behind the scenes, how to bring your own AI provider key, how to manage conversations with pinning and the Trash bin, and the full range of settings available to power users.
+While the [[/Guides/Introduction to Gnoll Overseer]] covers the basics, this guide dives into exactly how the AI assistant can help you become a better player. GnollHack is a game of discovery, survival, and complex interactions. The Overseer acts as a seasoned veteran sitting next to you, ready to offer advice, explain mechanics, and help you analyze your past runs.
 
-## 🛠️ How the Overseer Finds Answers
+## ⚔️ Real-Time Tactical Advice
 
-Unlike a generic chatbot that might guess or hallucinate, the Overseer is equipped with a large suite of 28 specialized tools (18 server-side and 10 client-side). When you ask a question, the AI actively looks up real game data before answering.
+One of the most powerful ways the Overseer helps you learn is by understanding your current game situation. When you open the Overseer from within an active game, it automatically takes a snapshot of your character's stats, your inventory, the surrounding dungeon map, and recent game messages.
 
-### Server-Side Tools
+You can use this to your advantage in several ways:
+- **Survival Strategies:** If you are cornered by dangerous monsters and low on health, ask the Overseer what your best options are. It can analyze your inventory for escape items (like a wand of teleportation or a scroll of earth) and suggest the safest course of action.
+- **Item Identification:** Unsure if you should drink an unidentified potion or put on an unknown ring? The Overseer can look at your current situation and offer guidance on how to safely test items or deduce their identity based on context clues.
+- **Navigating Hazards:** If you stumble into a room full of traps or a tricky dungeon branch, the Overseer can advise you on the specific dangers of your current location and how to proceed carefully.
 
-These tools run on the Overseer server and are always available across both the web interface and in-game sessions:
+## 📖 Deep Game Knowledge on Demand
 
-| Tool | Category | Description | Data Source / Scope |
-|---|---|---|---|
-| `get_monster_stats` | Monster Stats | Retrieves exact base stats, attributes, resistances, flags, and attack tuples | `monst.c` definitions |
-| `get_item_stats` | Item Stats | Queries item properties, weight, material, cost, damage, and attributes | `objects.c` definitions |
-| `get_artifact_stats` | Artifact Stats | Retrieves artifact alignments, special powers, damage bonuses, and invocation effects | `artilist.h` definitions |
-| `monster_lookup` | Entity Lookup | Resolves fuzzy monster names from player queries | Monster name index |
-| `item_lookup` | Entity Lookup | Resolves fuzzy item names from player queries | Object name index |
-| `source_code_search` | Code Search | Full-text Lucene search across GnollHack and NetHack `.c` and `.h` sources with repository tagging | C source repositories |
-| `source_code_view` | Code View | Inspects exact line ranges and files in GnollHack or NetHack source code | C source files |
-| `get_function_definition` | Code Definition | Extracts specific C functions with their complete implementation bodies and comments | C source files |
-| `search_definitions` | Code Definition | Finds function declarations, macros, structs, and typedefs | C headers and sources |
-| `get_constants` | Constants | Looks up enum values and `#define` constants across headers | C header files |
-| `list_indexed_files` | Index Listing | Lists all indexed source files available for search | Lucene index catalog |
-| `wiki_search` | GnollHack Wiki | Searches articles from the official GnollHack Wiki | GnollHack Wiki Markdown |
-| `wiki_view` | GnollHack Wiki | Retrieves full Markdown content of a GnollHack Wiki page | GnollHack Wiki Markdown |
-| `nethack_wiki_search` | NetHack Wiki | High-speed offline querying across the classic NetHack Wiki | Offline NetHack Wiki |
-| `nethack_wiki_view` | NetHack Wiki | Reads full Markdown content of an offline NetHack Wiki article | Offline NetHack Wiki |
-| `get_knowledge_article` | Knowledge Base | Queries curated first-party technical articles and gameplay guides | Overseer Knowledge Base |
-| `get_github_repo_info` | GitHub | Fetches repository statistics, open issues, and pull requests | GitHub REST API |
-| `search_github` | GitHub | Searches repository commits, code, and issues with rate limit monitoring | GitHub REST API |
-| `search_server_dumplogs` | Server Dumplogs | Searches uploaded player end-of-game dumplogs on the server | Server game dumplogs |
+GnollHack has hundreds of monsters, items, artifacts, and hidden mechanics. Memorizing all of them takes time. The Overseer can provide exact details whenever you need them, acting as an interactive encyclopedia.
 
-### Client-Side Tools
+- **Monster and Item Stats:** Ask about specific enemies before engaging them in combat. The Overseer can tell you their resistances, attack types, and speed, helping you decide whether to fight or flee.
+- **Complex Mechanics:** If you don't understand how a specific game mechanic works (like spellcasting success rates, armor class calculations, or prayer timeouts), the Overseer can break down the exact rules for you.
+- **Strategic Advice:** Ask for recommendations on which skills to train, which weapons are best for your character class, or what to prepare before entering difficult areas like the Gnomish Mines or Gehennom.
 
-When you open the Overseer from within a running game, 10 additional client-side tools become available that query your device directly via the native bridge:
+## 🧰 The Overseer's Toolkit
 
-| Tool | Purpose | Data Inspected | Access Requirement |
-|---|---|---|---|
-| `refresh_snapshot` | Takes and uploads a fresh snapshot of current game state (map, inventory, stats) | Live game engine memory | ✅ Active in-game session |
-| `get_full_message_history` | Retrieves the complete turn-by-turn game log with optional search filtering | Message log buffer | 🟡 Client Data Access |
-| `get_player_library` | Reads discovered game manuals from the player's in-game library | In-game player library | 🟡 Client Data Access |
-| `get_oracle_consultations` | Reads the text of received Oracle of Delphi consultations | Oracle consultation history | 🟡 Client Data Access |
-| `get_player_xlog` | Retrieves the local score log (`xlog`) containing past game records and stats | Local `xlog` file | 🟡 Client Data Access |
-| `get_player_dumplogs` | Reads local text dumplogs of past games saved on the device | Local dumplog directory | 🟡 Client Data Access |
-| `get_save_info` | Inspects save file headers and character metadata | Save file header data | 🟡 Client Data Access |
-| `get_directory_listing` | Inspects game files and folder contents on the local device | Local game directory | 🟡 Client Data Access |
-| `get_app_log` | Retrieves application logs to help diagnose technical issues | Application log file | 🟡 Client Data Access |
-| `get_panic_log` | Retrieves game panic and crash logs for troubleshooting | Game panic log file | 🟡 Client Data Access |
+Behind the scenes, the Overseer uses a variety of specialized tools to answer your questions and understand your game. 
 
-> ℹ️ **Note:** Client-side tools can be toggled on or off in the game's settings under **Client Data Access**.
+### Game Knowledge & Reference (Server-Side)
 
-## 🧠 Multi-Provider AI Support
+These tools are always available, whether you are playing the game or chatting on the web:
 
-The Overseer supports three major AI providers and their latest model families:
+| Feature | What it does |
+|---|---|
+| **Monster Stats** | Looks up exact stats, resistances, and attacks for any monster. |
+| **Item Stats** | Checks the weight, damage, material, and effects of items. |
+| **Artifact Stats** | Retrieves the special powers, alignments, and bonuses of legendary artifacts. |
+| **Name Correction** | Automatically figures out what monster or item you meant even if you misspell it. |
+| **Game Engine Inspection** | Acts as the ultimate referee by reading the actual game code to answer complex mechanics questions. |
+| **GnollHack Wiki** | Searches and reads guides directly from the official GnollHack Wiki. |
+| **NetHack Wiki** | Searches the classic NetHack Wiki for legacy mechanics and lore. |
+| **Knowledge Base** | Accesses curated technical guides and articles. |
+| **Development Tracking** | Checks the GitHub repository for recent updates and bug fixes. |
+| **Community Dumplogs** | Reviews the final game logs of other players on the server. |
 
-| Provider | Example Models | Key Capabilities |
-|---|---|---|
-| **Google** | Gemini 3.7 Flash, Gemini 3.1 Pro | Configurable thinking levels, fast response times, high context window |
-| **Anthropic** | Claude Sonnet 5, Claude Opus 5 | Extended thinking with token budgets, deep reasoning, structured tool use |
-| **OpenAI** | GPT-5.6 Sol, GPT-5.6 Terra, GPT-5.6 Luna | Reasoning effort controls, advanced problem solving, high instruction fidelity |
+### Live Game Integration (Client-Side)
 
-The default system model is configured by server administrators. Power users who bring their own API key can choose any supported model from their provider.
+These tools become active when you open the Overseer from within a running game:
 
-## 🔑 Bring Your Own Key (BYOK)
+| Feature | What it does |
+|---|---|
+| **Live Game Snapshot** | Takes a quick look at your current health, stats, inventory, and dungeon map. |
+| **Message History** | Reviews your recent game messages to see exactly what just happened. |
+| **Player Library** | Reads the manuals and lore books your character has discovered in-game. |
+| **Oracle Consultations** | Remembers the cryptic hints you've received from the Oracle of Delphi. |
+| **Score Log** | Looks at your past game scores and achievements. |
+| **Local Dumplogs** | Analyzes the detailed final records of your past characters to help you learn from your deaths. |
+| **Diagnostic Tools** | Reviews crash logs, save file info, and app data to help troubleshoot technical issues. |
 
-The free Overseer service is subject to daily and monthly usage quotas to manage server costs. If you want unrestricted access, you can provide your own API key from any supported provider.
+## 📈 Learning from Past Mistakes
 
-When using your own key:
+Every death in GnollHack is a learning opportunity. The Overseer can access your past game logs and help you understand what went wrong.
 
-- You bypass default system rate limits and token quotas.
-- You can select any model available from your provider, including reasoning models.
-- You can configure custom parameters, such as thinking budgets and reasoning effort levels.
-- Your keys are stored using AES-256-GCM authenticated encryption on the server and are isolated by your user account ID.
+- **Reviewing Dumplogs:** After a run ends, you can ask the Overseer to analyze your dumplog. It can explain the exact cause of your death and point out critical mistakes you might have made.
+- **Strategic Adjustments:** Based on your past games, the Overseer can suggest changes to your playstyle, such as being more careful with encumbrance, managing your health better, or utilizing your class abilities more effectively.
 
-To configure your own key, navigate to the **API Keys** section in the Overseer's web interface.
+## 🤫 Managing Spoilers While Learning
 
-## 💬 Conversation Management and Productivity
-
-The Overseer includes powerful tools for managing your conversations:
-
-| Feature | UI Location / Action | Description |
-|---|---|---|
-| **Session Pinning** | Sidebar pin icon | Anchors important discussions to the top of the sidebar list. |
-| **Full-Text Search** | Sidebar & Trash search bars | Quickly filters active chats in the sidebar or searches deleted sessions inside the Trash modal. |
-| **Trash Bin & Recovery** | Settings → Trash Bin | Safely stores soft-deleted sessions for one-click restoration or permanent emptying. |
-| **Bulk Actions** | Settings → Chat Management | Move all active chats to Trash at once (with pinned protection) or unpin all chats with a single action. |
-| **Clean Clipboard Copy** | Message action bar | Copies clean formatted response text to your clipboard, stripping internal thinking tags and tool calls. |
-| **Reasoning & Performance** | Message footer | Displays active reasoning mode badges, collapsible thought boxes with gnoll animations, TTFT, and total duration. |
-
-## 🤫 Spoiler Policy
-
-GnollHack is a game of discovery. The Overseer respects this with a configurable spoiler policy:
+A significant part of learning GnollHack is discovering things on your own. The Overseer includes a configurable spoiler policy to ensure it doesn't ruin surprises unless you want it to.
 
 | Policy Level | Information Scope | Overseer Behavior |
 |---|---|---|
 | **Always Safe** | Core mechanics, damage formulas, AC calculation, encumbrance, skill training, status effects, controls | Freely explained and calculated at all times. |
-| **Conditional** | Specific item identities, monster abilities, and artifact powers | Revealed only if the Overseer verifies you have already encountered them (via game snapshot, library, or Oracle). |
+| **Conditional** | Specific item identities, monster abilities, and artifact powers | Revealed only if the Overseer verifies you have already encountered them. |
 | **Always a Spoiler** | Future dungeon branches, unencountered bosses, quest objectives, endgame content, and optimal meta-strategies | Strictly withheld unless **Allow Spoilers** is enabled in settings. |
 
-You can toggle **Allow Spoilers** in the game's settings to unlock full information.
+You can toggle **Allow Spoilers** in the game's settings. Keeping it off is recommended for new players who want to experience the joy of discovery, while turning it on is useful for players who want to deeply study the game's mechanics.
 
-## ⚙️ Full Settings Reference
+## ⚙️ Tailoring the Experience
 
-### In-Game Settings
+You can customize the Overseer to better suit your learning style:
 
-The following settings are available in GnollHack's Settings menu:
-
-| Setting | Description |
-|---|---|
-| **Allow Spoilers** | Permits the Overseer to discuss hidden information freely. |
-| **Verbose Responses** | Toggles between detailed explanations and concise answers. |
-| **Send Game Context** | Controls whether your game snapshot is sent when opening the Overseer during a game. |
-| **Client Data Access** | Allows the Overseer to query your device for game logs, save info, and other local data. |
-| **Game Actions** | Reserved for future AI-initiated game actions (currently disabled). |
-
-### Web Interface Settings
-
-The following settings and controls are available in the Overseer's web interface under **Settings**:
-
-| Setting / Control | Description |
-|---|---|
-| **Show Thinking and Tool Use** | Displays the AI's reasoning process and tool calls in real time. |
-| **Show Source Code References** | Appends source file names and line numbers to answers. |
-| **Max Tool Iterations** | Limits how many tool calls the AI can make per response (default 10). |
-| **Request Timeout** | Sets how long to wait for the AI to respond before timing out. |
-| **Chat Management** | Bulk actions to move active conversations to Trash or unpin all chats. |
-| **Trash Bin** | Access soft-deleted sessions to restore them or permanently empty trash. |
-| **Changelog** | Opens the release history with version summaries and update times. |
+- **Verbose Responses:** Toggle this setting on if you prefer comprehensive, detailed explanations of game mechanics. Turn it off if you just want concise, tactical answers to get back into the action quickly.
+- **Session Pinning:** Use the pin icon in the chat interface to save important conversations. This is great for keeping track of long-term strategies, checklists, or specific mechanic explanations that you want to refer back to later.
+- **Unlimited Usage (Bring Your Own Key):** If you find yourself heavily relying on the Overseer and hitting usage limits, you can provide your own API key in the web interface settings for unrestricted access and the ability to choose different AI models.
 
 ## 💡 Learn More
 
 - [[/Guides/Introduction to Gnoll Overseer]] — General player overview and getting started.
-- [[/Guides/Technological Overview of Gnoll Overseer]] — Full developer documentation covering .NET 10.0, Angular 22, SignalR streaming, and data retention architecture.
-- [[/Overseer AI Providers]] — Overview of supported AI providers and model options.
+- [[/Guides/Technological Overview of Gnoll Overseer]] — Developer documentation detailing the technical architecture.
+- [[/Overseer AI Providers]] — Overview of supported AI providers.
