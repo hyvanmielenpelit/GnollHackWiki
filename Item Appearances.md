@@ -50,8 +50,8 @@ Several appearance pools contain more entries than there are real items, and a f
 | **Scrolls** | 47 | 27 | 20 label-only entries, plus the scroll of supreme diabolism |
 | **Wands** | 35 | 32 | 3 appearance-only entries |
 | **Rings** | 38 | 38 | — |
-| **Amulets** | 15 | 15 | [[/Items/Amulet of seeing]] |
-| **Spellbooks** | 266 | 266 | [[/Items/Spellbooks/Spellbook of call hierarch modron]] |
+| **Amulets** | 15 | 15 | — |
+| **Spellbooks** | 266 | 266 | — |
 
 ## 🧪 Potions
 
