@@ -59,7 +59,23 @@ Potions are shuffled as a whole class, **except for the last three types**, whic
 
 ### Randomized potion appearances (45)
 
-ruby • pink • orange • yellow • emerald • dark green • shimmering • bright • cyan • sky blue • brilliant blue • magenta • gray • crimson • bright cyan • bright magenta • red • purple • violet • ochre • dark ochre • umber • olive • lime green • verdant • purple-red • puce • deep red • black • milky • swirly • bubbly • smoky • cloudy • light blue • greenish • silvery • effervescent • golden • brown • fizzy • dark • white • murky • sapphire
+| | | |
+|---|---|---|
+| black | bright | bright cyan |
+| bright magenta | brilliant blue | brown |
+| bubbly | cloudy | crimson |
+| cyan | dark | dark green |
+| dark ochre | deep red | effervescent |
+| emerald | fizzy | golden |
+| gray | greenish | light blue |
+| lime green | magenta | milky |
+| murky | ochre | olive |
+| orange | pink | puce |
+| purple | purple-red | red |
+| ruby | sapphire | shimmering |
+| silvery | sky blue | smoky |
+| swirly | umber | verdant |
+| violet | white | yellow |
 
 Any one of these 45 appearances may be any of the 45 shuffled potion types:
 
@@ -127,9 +143,29 @@ Scrolls are shuffled as a whole class up to (but not including) scroll of mail. 
 
 ### Randomized scroll labels (47)
 
-**Labels used by real scroll types in the source order:** ZELGO MER • JUYED AWK YACC • VEX DOL • NR 9 • XIXAXA XOXAXA XUXAXA • PRATYAVAYAH • DAIYEN FOOELS • ZEPH NI • REX SAPH • LEP GEX VEN ZEA • PRIRUTSENIE • ELBIB YLOH • HOCUS POCUS • VERR YED HORRE • VENZAR BORGAVVE • THARR • YUM YUM • KERNOD WEL • ELAM EBOW • DUAM XNAHT • NUGG YEBBEH • ANDOVA BEGARIN • KIRJE • VE FORBRYDERNE • HACKEM MUCHE • ALA KA ZAM • VELOX NEB
+**Labels used by real scroll types:**
 
-**Extra labels with no item of their own:** FOOBIE BLETCH • TEMOV • GARVEN DEH • READ ME • ETAOIN SHRDLU • LOREM IPSUM • FNORD • KO BATE • ABRA KA DABRA • ASHPD SODALG • ZLORFIK • GNIK SISI VLE • HAPAX LEGOMENON • EIRIS SAZUN IDISI • PHOL ENDE WODAN • GHOTI • MAPIRO MAHAMA DIROMAT • VAS CORP BET MANI • XOR OTA • STRC PRST SKRZ KRK
+| | | |
+|---|---|---|
+| ALA KA ZAM | ANDOVA BEGARIN | DAIYEN FOOELS |
+| DUAM XNAHT | ELAM EBOW | ELBIB YLOH |
+| HACKEM MUCHE | HOCUS POCUS | JUYED AWK YACC |
+| KERNOD WEL | KIRJE | LEP GEX VEN ZEA |
+| NR 9 | NUGG YEBBEH | PRATYAVAYAH |
+| PRIRUTSENIE | REX SAPH | THARR |
+| VE FORBRYDERNE | VELOX NEB | VENZAR BORGAVVE |
+| VERR YED HORRE | VEX DOL | XIXAXA XOXAXA XUXAXA |
+| YUM YUM | ZELGO MER | ZEPH NI |
+
+**Extra labels with no item of their own:**
+
+| | | | |
+|---|---|---|---|
+| ABRA KA DABRA | ASHPD SODALG | EIRIS SAZUN IDISI | ETAOIN SHRDLU |
+| FNORD | FOOBIE BLETCH | GARVEN DEH | GHOTI |
+| GNIK SISI VLE | HAPAX LEGOMENON | KO BATE | LOREM IPSUM |
+| MAPIRO MAHAMA DIROMAT | PHOL ENDE WODAN | READ ME | STRC PRST SKRZ KRK |
+| TEMOV | VAS CORP BET MANI | XOR OTA | ZLORFIK |
 
 > ℹ️ **Note:** The split above is only the order in which the labels are listed in the game data. After shuffling, **any** of the 47 labels can belong to **any** of the 27 scroll types, and the remaining labels belong to nothing.
 
@@ -178,7 +214,15 @@ The 32 shuffled wand types share a pool of **35 appearances**, so three appearan
 
 ### Randomized wand appearances (35)
 
-glass • balsa • orichalcum • mahogany • blackwood • crystal • maple • pine • mithril • oak • ebony • marble • tin • brass • copper • silver • platinum • iridium • zinc • aluminum • uranium • iron • steel • hexagonal • short • runed • long • adamantium • curved • skull-headed • ornamental • flimsy • forked • spiked • jeweled
+| | | | | |
+|---|---|---|---|---|
+| adamantium | aluminum | balsa | blackwood | brass |
+| copper | crystal | curved | ebony | flimsy |
+| forked | glass | hexagonal | iridium | iron |
+| jeweled | long | mahogany | maple | marble |
+| mithril | oak | orichalcum | ornamental | pine |
+| platinum | runed | short | silver | skull-headed |
+| spiked | steel | tin | uranium | zinc |
 
 The 32 shuffled wand types are:
 
@@ -250,7 +294,27 @@ All 38 magical ring types are shuffled together with their materials, in a pool 
 
 ### Randomized ring appearances (38)
 
-wooden • granite • thin • opal • adamantium • polished • runed • clay • coral • black onyx • moonstone • crystal • serpent-headed • black pearl • immaculate • tiger eye • jade • bronze • agate • topaz • sapphire • ruby • diamond • pearl • iron • brass • copper • platinum • twisted • steel • silver • gold • ivory • emerald • wire • engagement • black opal • shiny
+| | |
+|---|---|
+| adamantium | agate |
+| black onyx | black opal |
+| black pearl | brass |
+| bronze | clay |
+| copper | coral |
+| crystal | diamond |
+| emerald | engagement |
+| gold | granite |
+| immaculate | iron |
+| ivory | jade |
+| moonstone | opal |
+| pearl | platinum |
+| polished | ruby |
+| runed | sapphire |
+| serpent-headed | shiny |
+| silver | steel |
+| thin | tiger eye |
+| topaz | twisted |
+| wire | wooden |
 
 The 38 shuffled ring types are:
 
@@ -309,7 +373,13 @@ All 15 amulet types share a pool of 15 geometric shapes.
 
 ### Randomized amulet appearances (15)
 
-circular • spherical • oval • triangular • pyramidal • cubical • icosahedral • square • concave • hexagonal • convex • tetrahedral • linear • octagonal • cylindrical
+| | | |
+|---|---|---|
+| circular | concave | convex |
+| cubical | cylindrical | hexagonal |
+| icosahedral | linear | octagonal |
+| oval | pyramidal | spherical |
+| square | tetrahedral | triangular |
 
 The 15 shuffled amulet types are:
 
@@ -533,7 +603,7 @@ Nineteen ioun stone types share a pool of only **17 distinct appearances**, beca
 |---|---|
 | **cyan ioun stone** | [[/Items/Ioun stone of magical breathing]] or [[/Items/Ioun stone of sustenance]] |
 | **bright green ioun stone** | [[/Items/Ioun stone of wisdom]] or [[/Items/Ioun stone of incessant hunger]] |
-| red • blue • brown • pink • green • purple • yellow • black • bright blue • gray • orange • crimson • white • bright cyan • transparent | One ioun stone type each, randomly assigned |
+| black, blue, bright blue, bright cyan, brown, crimson, gray, green, orange, pink, purple, red, transparent, white, yellow | One ioun stone type each, randomly assigned |
 
 The 19 shuffled ioun stone types are:
 
