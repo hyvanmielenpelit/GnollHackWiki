@@ -61,7 +61,53 @@ Potions are shuffled as a whole class, **except for the last three types**, whic
 
 ruby • pink • orange • yellow • emerald • dark green • shimmering • bright • cyan • sky blue • brilliant blue • magenta • gray • crimson • bright cyan • bright magenta • red • purple • violet • ochre • dark ochre • umber • olive • lime green • verdant • purple-red • puce • deep red • black • milky • swirly • bubbly • smoky • cloudy • light blue • greenish • silvery • effervescent • golden • brown • fizzy • dark • white • murky • sapphire
 
-Any one of these 45 appearances may be any of the 45 shuffled potion types, which are: gain ability, restore ability, confusion, blindness, paralysis, speed, greater speed, lightning speed, levitation, hallucination, invisibility, see invisible, magic resistance, fire immunity, cold immunity, shock immunity, titan strength, heroism, super-heroism, lesser regeneration, regeneration, greater regeneration, lesser rejuvenation, rejuvenation, greater rejuvenation, healing, extra healing, greater healing, full healing, gain level, enlightenment, monster detection, object detection, gain energy, extra energy, greater energy, full energy, sleeping, polymorph, elven herbal brew, sickness, fruit juice, acid, oil, and poison.
+Any one of these 45 appearances may be any of the 45 shuffled potion types:
+
+- [[/Items/Potion of acid]]
+- [[/Items/Potion of blindness]]
+- [[/Items/Potion of cold immunity]]
+- [[/Items/Potion of confusion]]
+- [[/Items/Potion of elven herbal brew]]
+- [[/Items/Potion of enlightenment]]
+- [[/Items/Potion of extra-energy]]
+- [[/Items/Potion of extra-healing]]
+- [[/Items/Potion of fire immunity]]
+- [[/Items/Potion of fruit juice]]
+- [[/Items/Potion of full energy]]
+- [[/Items/Potion of full healing]]
+- [[/Items/Potion of gain ability]]
+- [[/Items/Potion of gain energy]]
+- [[/Items/Potion of gain level]]
+- [[/Items/Potion of greater energy]]
+- [[/Items/Potion of greater healing]]
+- [[/Items/Potion of greater regeneration]]
+- [[/Items/Potion of greater rejuvenation]]
+- [[/Items/Potion of greater speed]]
+- [[/Items/Potion of hallucination]]
+- [[/Items/Potion of healing]]
+- [[/Items/Potion of heroism]]
+- [[/Items/Potion of invisibility]]
+- [[/Items/Potion of lesser regeneration]]
+- [[/Items/Potion of lesser rejuvenation]]
+- [[/Items/Potion of levitation]]
+- [[/Items/Potion of lightning speed]]
+- [[/Items/Potion of magic resistance]]
+- [[/Items/Potion of monster detection]]
+- [[/Items/Potion of object detection]]
+- [[/Items/Potion of oil]]
+- [[/Items/Potion of paralysis]]
+- [[/Items/Potion of poison]]
+- [[/Items/Potion of polymorph]]
+- [[/Items/Potion of regeneration]]
+- [[/Items/Potion of rejuvenation]]
+- [[/Items/Potion of restore ability]]
+- [[/Items/Potion of see invisible]]
+- [[/Items/Potion of shock immunity]]
+- [[/Items/Potion of sickness]]
+- [[/Items/Potion of sleeping]]
+- [[/Items/Potion of speed]]
+- [[/Items/Potion of super-heroism]]
+- [[/Items/Potion of titan strength]]
 
 ### Fixed potion appearances
 
@@ -87,7 +133,35 @@ Scrolls are shuffled as a whole class up to (but not including) scroll of mail. 
 
 > ℹ️ **Note:** The split above is only the order in which the labels are listed in the game data. After shuffling, **any** of the 47 labels can belong to **any** of the 27 scroll types, and the remaining labels belong to nothing.
 
-The 27 shuffled scroll types are: enchant armor, destroy armor, protect armor, confuse monster, scare monster, remove curse, enchant weapon, protect weapon, enchant accessory, create monster, taming, genocide, conflict, light, teleportation, gold detection, food detection, identify, magic mapping, amnesia, retraining, fire, earth, punishment, charging, supreme diabolism, and stinking cloud. Of these, the scroll of supreme diabolism is never randomly generated.
+The 27 shuffled scroll types are:
+
+- [[/Items/Scroll of amnesia]]
+- [[/Items/Scroll of charging]]
+- [[/Items/Scroll of conflict]]
+- [[/Items/Scroll of confuse monster]]
+- [[/Items/Scroll of create monster]]
+- [[/Items/Scroll of destroy armor]]
+- [[/Items/Scroll of earth]]
+- [[/Items/Scroll of enchant accessory]]
+- [[/Items/Scroll of enchant armor]]
+- [[/Items/Scroll of enchant weapon]]
+- [[/Items/Scroll of fire]]
+- [[/Items/Scroll of food detection]]
+- [[/Items/Scroll of genocide]]
+- [[/Items/Scroll of gold detection]]
+- [[/Items/Scroll of identify]]
+- [[/Items/Scroll of light]]
+- [[/Items/Scroll of magic mapping]]
+- [[/Items/Scroll of protect armor]]
+- [[/Items/Scroll of protect weapon]]
+- [[/Items/Scroll of punishment]]
+- [[/Items/Scroll of remove curse]]
+- [[/Items/Scroll of retraining]]
+- [[/Items/Scroll of scare monster]]
+- [[/Items/Scroll of stinking cloud]]
+- [[/Items/Scroll of supreme diabolism]] (never randomly generated)
+- [[/Items/Scroll of taming]]
+- [[/Items/Scroll of teleportation]]
 
 ### Fixed scroll appearances
 
@@ -106,7 +180,40 @@ The 32 shuffled wand types share a pool of **35 appearances**, so three appearan
 
 glass • balsa • orichalcum • mahogany • blackwood • crystal • maple • pine • mithril • oak • ebony • marble • tin • brass • copper • silver • platinum • iridium • zinc • aluminum • uranium • iron • steel • hexagonal • short • runed • long • adamantium • curved • skull-headed • ornamental • flimsy • forked • spiked • jeweled
 
-The 32 shuffled wand types are: light, secret door detection, ore detection, trap detection, town portal, enlightenment, create monster, wishing, identify, nothing, striking, make invisible, slow monster, speed monster, undead turning, polymorph, cancellation, teleportation, opening, locking, probing, digging, magic missile, fire, cold, sleep, disintegration, petrification, lightning, death, resurrection, and evaporation.
+The 32 shuffled wand types are:
+
+- [[/Items/Wand of cancellation]]
+- [[/Items/Wand of cold]]
+- [[/Items/Wand of create monster]]
+- [[/Items/Wand of death]]
+- [[/Items/Wand of digging]]
+- [[/Items/Wand of disintegration]]
+- [[/Items/Wand of enlightenment]]
+- [[/Items/Wand of evaporation]]
+- [[/Items/Wand of fire]]
+- [[/Items/Wand of identify]]
+- [[/Items/Wand of light]]
+- [[/Items/Wand of lightning]]
+- [[/Items/Wand of locking]]
+- [[/Items/Wand of magic missile]]
+- [[/Items/Wand of make invisible]]
+- [[/Items/Wand of nothing]]
+- [[/Items/Wand of opening]]
+- [[/Items/Wand of ore detection]]
+- [[/Items/Wand of petrification]]
+- [[/Items/Wand of polymorph]]
+- [[/Items/Wand of probing]]
+- [[/Items/Wand of resurrection]]
+- [[/Items/Wand of secret door detection]]
+- [[/Items/Wand of sleep]]
+- [[/Items/Wand of slow monster]]
+- [[/Items/Wand of speed monster]]
+- [[/Items/Wand of striking]]
+- [[/Items/Wand of teleportation]]
+- [[/Items/Wand of town portal]]
+- [[/Items/Wand of trap detection]]
+- [[/Items/Wand of undead turning]]
+- [[/Items/Wand of wishing]]
 
 ### Wand materials by appearance
 
@@ -131,7 +238,7 @@ Wand materials are shuffled together with the appearance, so the material is alw
 
 | Appearance | Always is |
 |---|---|
-| **plutonium** | [[/Items/Wand of disjunction]], which is never randomly generated |
+| **plutonium** | [[/Artifacts/The Rod of Disjunction]] (base item never generates) |
 
 > 💡 **Tip:** The [[/Items/wand of nothing]] gets a random zap behavior at the start of each game. In half of all games it is a no-direction wand and in the other half it asks for a direction. This means the direction prompt alone does not reliably rule the wand of nothing in or out.
 
@@ -145,7 +252,46 @@ All 38 magical ring types are shuffled together with their materials, in a pool 
 
 wooden • granite • thin • opal • adamantium • polished • runed • clay • coral • black onyx • moonstone • crystal • serpent-headed • black pearl • immaculate • tiger eye • jade • bronze • agate • topaz • sapphire • ruby • diamond • pearl • iron • brass • copper • platinum • twisted • steel • silver • gold • ivory • emerald • wire • engagement • black opal • shiny
 
-The 38 shuffled ring types are: adornment, gain strength, gain dexterity, gain constitution, gain intelligence, gain wisdom, power, increase accuracy, increase damage, protection, regeneration, replenishment, the serpent god, wizardry, fortitude, searching, stealth, sustain ability, levitation, hunger, aggravate monster, conflict, warning, poison resistance, fire resistance, cold resistance, shock resistance, protection from undeath, free action, slow digestion, teleportation, teleport control, polymorph, polymorph control, invisibility, see invisible, X-ray vision, and protection from shape changers.
+The 38 shuffled ring types are:
+
+- [[/Items/Ring of adornment]]
+- [[/Items/Ring of aggravate monster]]
+- [[/Items/Ring of cold resistance]]
+- [[/Artifacts/The Ring of Conflict]]
+- [[/Items/Ring of fire resistance]]
+- [[/Items/Ring of fortitude]]
+- [[/Items/Ring of free action]]
+- [[/Items/Ring of gain constitution]]
+- [[/Items/Ring of gain dexterity]]
+- [[/Items/Ring of gain intelligence]]
+- [[/Items/Ring of gain strength]]
+- [[/Items/Ring of gain wisdom]]
+- [[/Items/Ring of hunger]]
+- [[/Items/Ring of increase accuracy]]
+- [[/Items/Ring of increase damage]]
+- [[/Items/Ring of invisibility]]
+- [[/Items/Ring of levitation]]
+- [[/Items/Ring of poison resistance]]
+- [[/Items/Ring of polymorph]]
+- [[/Items/Ring of polymorph control]]
+- [[/Items/Ring of power]]
+- [[/Items/Ring of protection]]
+- [[/Items/Ring of protection from shape changers]]
+- [[/Items/Ring of protection from undeath]]
+- [[/Items/Ring of regeneration]]
+- [[/Items/Ring of replenishment]]
+- [[/Items/Ring of searching]]
+- [[/Items/Ring of see invisible]]
+- [[/Items/Ring of shock resistance]]
+- [[/Items/Ring of slow digestion]]
+- [[/Items/Ring of stealth]]
+- [[/Items/Ring of sustain ability]]
+- [[/Items/Ring of teleport control]]
+- [[/Items/Ring of teleportation]]
+- [[/Items/Ring of the serpent god]]
+- [[/Items/Ring of warning]]
+- [[/Items/Ring of wizardry]]
+- [[/Items/Ring of X-ray vision]]
 
 Because material is shuffled together with the appearance, a "wooden ring" really is made of wood and an "iron ring" really rusts, regardless of what the ring turns out to be.
 
@@ -153,7 +299,7 @@ Because material is shuffled together with the appearance, a "wooden ring" reall
 
 | Appearance | Always is |
 |---|---|
-| **golden runed** | [[/Items/Ring of supreme power]], which is never randomly generated |
+| **golden runed** | [[/Artifacts/The Ruling Ring of Yendor]] (base item never generates) |
 
 See also [[Rings]].
 
@@ -165,9 +311,22 @@ All 15 amulet types share a pool of 15 geometric shapes.
 
 circular • spherical • oval • triangular • pyramidal • cubical • icosahedral • square • concave • hexagonal • convex • tetrahedral • linear • octagonal • cylindrical
 
-The 15 shuffled amulet types are: amulet of ESP, amulet of life saving, amulet of strangulation, amulet of restful sleep, amulet versus poison, amulet versus undeath, amulet versus petrification, amulet of change, amulet of unchanging, amulet of reflection, amulet of mana, demon blood talisman, periapt of vitality, amulet of magical breathing, and amulet of seeing.
+The 15 shuffled amulet types are:
 
-> ℹ️ **Note:** The [[/Items/amulet of seeing]] is never randomly generated, so one of the 15 shapes is missing from the game in every playthrough.
+- [[/Items/Amulet of change]]
+- [[/Items/Amulet of ESP]]
+- [[/Items/Amulet of life saving]]
+- [[/Items/Amulet of magical breathing]]
+- [[/Items/Amulet of mana]]
+- [[/Items/Amulet of reflection]]
+- [[/Items/Amulet of restful sleep]]
+- [[/Items/Amulet of strangulation]]
+- [[/Items/Amulet of unchanging]]
+- [[/Items/Amulet versus petrification]]
+- [[/Items/Amulet versus poison]]
+- [[/Items/Amulet versus undeath]]
+- [[/Items/Demon blood talisman]]
+- [[/Items/Periapt of vitality]]
 
 ### Fixed amulet appearance
 
@@ -232,7 +391,7 @@ Ten covers are used by two or three different books each, so even with a full ap
 |---|---|
 | **plain** | [[/Items/Spellbooks/Spellbook of blank paper]] |
 | **paperback** | Any of the tribute [[Novels]] |
-| **ornamental white** | [[/Items/Spellbooks/Spellbook of Book of Modron]], the base item of [[/Artifacts/The Prime Codex]] |
+| **ornamental white** | [[/Artifacts/The Prime Codex]] (base item never generates) |
 | **papyrus** | [[/Artifacts/Book of the Dead]] |
 
 The manual has no appearance at all and is always shown by its real name. See also [[/Items/Spellbooks]] and [[Manuals and Catalogues]].
@@ -275,8 +434,6 @@ The color in the name always matches the color drawn on screen, because the disp
 |---|---|
 | **old robe**, **decorated robe**, **ornate robe**, **golden ornamental robe**, **shining white robe**, **shining purple robe**, **shining green robe**, **star-patterned robe**, **shining blue robe**, **shining gray robe**, **shining black robe** | [[/Items/Medieval robe]], [[/Items/Wizard's robe]], [[/Items/Clerical gown]], [[/Items/Robe of protection]], [[/Items/Robe of magic resistance]], [[/Items/Gown of the archbishops]], [[/Items/Robe of powerlessness]], [[/Items/Robe of eyes]], [[/Items/Robe of the archmagi]], [[/Items/Robe of splendor]], [[/Items/Robe of starry wisdom]] |
 
-> ⚠️ **Warning:** The plain-looking "old robe" is just as likely to be the [[/Items/robe of powerlessness]] as the ordinary [[/Items/medieval robe]]. Robes are among the most dangerous items to wear untested.
-
 ### 💪 Bracers (6)
 
 | Appearance | Possible items |
@@ -298,8 +455,6 @@ The [[/Items/Hawaiian shirt]] has no appearance of its own and is always recogni
 | Appearance | Possible items |
 |---|---|
 | **old gloves**, **padded gloves**, **brown gloves**, **deerskin gloves**, **riding gloves**, **fencing gloves** | [[/Items/Leather gloves]], [[/Items/Gauntlets of fumbling]], [[/Items/Gloves of haste]], [[/Items/Gloves of spell casting]], [[/Items/Gauntlets of ogre power]], [[/Items/Gauntlets of dexterity]] |
-
-The [[/Items/gauntlets of balance]] are not in the pool and always appear as **runed gloves**. They are never randomly generated.
 
 ### 🥾 Boots (8)
 
@@ -380,7 +535,27 @@ Nineteen ioun stone types share a pool of only **17 distinct appearances**, beca
 | **bright green ioun stone** | [[/Items/Ioun stone of wisdom]] or [[/Items/Ioun stone of incessant hunger]] |
 | red • blue • brown • pink • green • purple • yellow • black • bright blue • gray • orange • crimson • white • bright cyan • transparent | One ioun stone type each, randomly assigned |
 
-The full list of ioun stone types is: protection, spell mastery, magic resistance, magical breathing, strength, dexterity, constitution, intelligence, wisdom, charisma, experience, awareness, regeneration, fire resistance, cold resistance, shock resistance, incessant hunger, restful sleep, and sustenance.
+The 19 shuffled ioun stone types are:
+
+- [[/Items/Ioun stone of awareness]]
+- [[/Items/Ioun stone of charisma]]
+- [[/Items/Ioun stone of cold resistance]]
+- [[/Items/Ioun stone of constitution]]
+- [[/Items/Ioun stone of dexterity]]
+- [[/Items/Ioun stone of experience]]
+- [[/Items/Ioun stone of fire resistance]]
+- [[/Items/Ioun stone of incessant hunger]]
+- [[/Items/Ioun stone of intelligence]]
+- [[/Items/Ioun stone of magic resistance]]
+- [[/Items/Ioun stone of magical breathing]]
+- [[/Items/Ioun stone of protection]]
+- [[/Items/Ioun stone of regeneration]]
+- [[/Items/Ioun stone of restful sleep]]
+- [[/Items/Ioun stone of shock resistance]]
+- [[/Items/Ioun stone of spell mastery]]
+- [[/Items/Ioun stone of strength]]
+- [[/Items/Ioun stone of sustenance]]
+- [[/Items/Ioun stone of wisdom]]
 
 > ⚠️ **Warning:** Because "cyan" and "bright green" are each shared by one good and one harmful stone, identifying an ioun stone by appearance alone is never fully conclusive for those two colors.
 
@@ -485,7 +660,25 @@ Many items have a description that is never shuffled. The item still starts unid
 | **club-headed metal rod** | [[/Items/Golf club]] |
 | **iron hook** | [[/Items/Grappling hook]] |
 
-Every polearm also has its own unique appearance: **vulgar polearm** ([[/Items/Partisan]]), **hilted polearm** ([[/Items/Ranseur]]), **forked polearm** ([[/Items/Spetum]]), **single-edged polearm** ([[/Items/Glaive]]), **angled poleaxe** ([[/Items/Halberd]]), **long poleaxe** ([[/Items/Bardiche]]), **pole cleaver** ([[/Items/Voulge]]), **pole sickle** ([[/Items/Fauchard]]), **pruning hook** ([[/Items/Guisarme]]), **hooked polearm** ([[/Items/Bill-guisarme]]), **black ornamental hooked polearm** ([[/Items/Ancus]]), **pronged polearm** ([[/Items/Lucern hammer]]) and **beaked polearm** ([[/Items/Bec de corbin]]).
+### Polearms
+
+Every polearm has a fixed, unique appearance:
+
+| Appearance | Always is |
+|---|---|
+| **vulgar polearm** | [[/Items/Partisan]] |
+| **hilted polearm** | [[/Items/Ranseur]] |
+| **forked polearm** | [[/Items/Spetum]] |
+| **single-edged polearm** | [[/Items/Glaive]] |
+| **angled poleaxe** | [[/Items/Halberd]] |
+| **long poleaxe** | [[/Items/Bardiche]] |
+| **pole cleaver** | [[/Items/Voulge]] |
+| **pole sickle** | [[/Items/Fauchard]] |
+| **pruning hook** | [[/Items/Guisarme]] |
+| **hooked polearm** | [[/Items/Bill-guisarme]] |
+| **black ornamental hooked polearm** | [[/Items/Ancus]] |
+| **pronged polearm** | [[/Items/Lucern hammer]] |
+| **beaked polearm** | [[/Items/Bec de corbin]] |
 
 ### Armor
 
@@ -518,7 +711,6 @@ Every polearm also has its own unique appearance: **vulgar polearm** ([[/Items/P
 | **large round shield** | [[/Items/Dwarvish roundshield]] |
 | **polished silver shield** | [[/Items/Shield of reflection]] |
 | **polished silver bracers** | [[/Items/Bracers of reflection]] |
-| **runed gloves** | [[/Items/Gauntlets of balance]] |
 | **walking shoes** | [[/Items/Low boots]] |
 | **hard shoes** | [[/Items/Shoes]] |
 | **jackboots** | [[/Items/High boots]] |
