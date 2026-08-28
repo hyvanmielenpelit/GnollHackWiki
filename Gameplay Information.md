@@ -36,6 +36,7 @@
 - [[Mythic and Legendary Items]] — Everything about mythic and legendary items.
 - [[Object Materials]] — Learn more about object materials in GnollHack.
 - [[Elemental Enchantments]] — Learn about elemental enchantments.
+- [[Item Appearances]] — Learn about how different items look like when unidentified.
 
 ## 🔮 Spell Casting
 
