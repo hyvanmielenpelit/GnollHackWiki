@@ -47,7 +47,7 @@ Several appearance pools contain more entries than there are real items, and a f
 | Pool | Appearances | Item types | Never generated |
 |---|---|---|---|
 | **Potions** | 45 | 45 | — |
-| **Scrolls** | 47 | 27 | 20 label-only entries, plus the scroll of supreme diabolism |
+| **Scrolls** | 47 | 27 | 20 label-only entries, plus the [[/Items/scroll of supreme diabolism]] |
 | **Wands** | 35 | 32 | 3 appearance-only entries |
 | **Rings** | 37 | 37 | — |
 | **Amulets** | 15 | 15 | — |
@@ -534,21 +534,21 @@ All **266** ordinary spellbooks are shuffled together in a pool of 266 covers. L
 
 ### The 26 books that must be read to be identified
 
-| Hint shown before reading | Possible spells |
+| Hint shown before reading | Possible books |
 |---|---|
-| **ancient conjuration magic** | great Yendorian summoning, wish |
-| **long-forgotten conjuration magic** | black blade of disaster, sphere of annihilation |
-| **alien conjuration magic** | call hierarch modron |
-| **ancient clerical prayer** | absolution |
-| **ancient celestial prayer** | guardian angel, holy word, summon ancient gold dragon, summon archon |
-| **an aeon-old celestial prayer** | divine intervention, call Bahamut, heavenly army |
-| **ancient enchantment magic** | mass domination |
-| **an ancient movement spell** | time stop |
-| **ancient abjuration magic** | globe of invulnerability |
-| **long-forgotten abjuration magic** | disjunction |
-| **ancient necromantic magic** | touch of death, finger of death, deathspell, power word kill, create dracolich, create elder dracolich |
-| **long-forgotten necromantic magic** | armageddon, mass create dracolich |
-| **sinister necromantic magic** | call Demogorgon |
+| **ancient conjuration magic** | [[Great Yendorian summoning|/Items/Spellbooks/Spellbook of great Yendorian summoning]], [[Wish|/Items/Spellbooks/Spellbook of wish]] |
+| **long-forgotten conjuration magic** | [[Black blade of disaster|/Items/Spellbooks/Spellbook of black blade of disaster]], [[Sphere of annihilation|/Items/Spellbooks/Spellbook of sphere of annihilation]] |
+| **alien conjuration magic** | [[Call hierarch modron|/Items/Spellbooks/Spellbook of call hierarch modron]] |
+| **ancient clerical prayer** | [[Absolution|/Items/Spellbooks/Spellbook of absolution]] |
+| **ancient celestial prayer** | [[Guardian angel|/Items/Spellbooks/Spellbook of guardian angel]], [[Holy word|/Items/Spellbooks/Spellbook of holy word]], [[Summon ancient gold dragon|/Items/Spellbooks/Spellbook of summon ancient gold dragon]], [[Summon archon|/Items/Spellbooks/Spellbook of summon archon]] |
+| **an aeon-old celestial prayer** | [[Divine intervention|/Items/Spellbooks/Spellbook of divine intervention]], [[Call Bahamut|/Items/Spellbooks/Spellbook of call Bahamut]], [[Heavenly army|/Items/Spellbooks/Spellbook of heavenly army]] |
+| **ancient enchantment magic** | [[Mass domination|/Items/Spellbooks/Spellbook of mass domination]] |
+| **an ancient movement spell** | [[Time stop|/Items/Spellbooks/Spellbook of time stop]] |
+| **ancient abjuration magic** | [[Globe of invulnerability|/Items/Spellbooks/Spellbook of globe of invulnerability]] |
+| **long-forgotten abjuration magic** | [[Disjunction|/Items/Spellbooks/Spellbook of disjunction]] |
+| **ancient necromantic magic** | [[Touch of death|/Items/Spellbooks/Spellbook of touch of death]], [[Finger of death|/Items/Spellbooks/Spellbook of finger of death]], [[Deathspell|/Items/Spellbooks/Spellbook of deathspell]], [[Power word kill|/Items/Spellbooks/Spellbook of power word kill]], [[Create dracolich|/Items/Spellbooks/Spellbook of create dracolich]], [[Create elder dracolich|/Items/Spellbooks/Spellbook of create elder dracolich]] |
+| **long-forgotten necromantic magic** | [[Armageddon|/Items/Spellbooks/Spellbook of armageddon]], [[Mass create dracolich|/Items/Spellbooks/Spellbook of mass create dracolich]] |
+| **sinister necromantic magic** | [[Call Demogorgon|/Items/Spellbooks/Spellbook of call Demogorgon]] |
 
 Every book in this list carries a hint, so there is never a spellbook whose topic stays completely unknown. The hint is coarse, however: it names only the school and the age of the magic, so "ancient necromantic magic" leaves six possible spells.
 
@@ -558,16 +558,16 @@ Ten covers are used by two or three different books each, so even with a full ap
 
 | Cover | Possible books |
 |---|---|
-| **hand-patterned** | burning hands, shocking touch |
-| **oval-patterned** | meteor swarm, forbid summoning |
-| **scintillating** | magic storm, disjunction |
-| **wave-patterned** | animate air, greater animate air |
-| **octagonal-patterned** | animate earth, greater animate earth |
-| **flame-patterned** | animate fire, greater animate fire |
-| **water-drop-patterned** | animate water, greater animate water, summon dragon |
-| **colorless** | astral vision, true seeing |
-| **glowing** | enchant armor, protect armor |
-| **unspeakable** | raise minor zombie, raise giant zombie |
+| **hand-patterned** | [[Burning hands|/Items/Spellbooks/Spellbook of burning hands]], [[Shocking touch|/Items/Spellbooks/Spellbook of shocking touch]] |
+| **oval-patterned** | [[Meteor swarm|/Items/Spellbooks/Spellbook of meteor swarm]], [[Forbid summoning|/Items/Spellbooks/Spellbook of forbid summoning]] |
+| **scintillating** | [[Magic storm|/Items/Spellbooks/Spellbook of magic storm]], [[Disjunction|/Items/Spellbooks/Spellbook of disjunction]] |
+| **wave-patterned** | [[Animate air|/Items/Spellbooks/Spellbook of animate air]], [[Greater animate air|/Items/Spellbooks/Spellbook of greater animate air]] |
+| **octagonal-patterned** | [[Animate earth|/Items/Spellbooks/Spellbook of animate earth]], [[Greater animate earth|/Items/Spellbooks/Spellbook of greater animate earth]] |
+| **flame-patterned** | [[Animate fire|/Items/Spellbooks/Spellbook of animate fire]], [[Greater animate fire|/Items/Spellbooks/Spellbook of greater animate fire]] |
+| **water-drop-patterned** | [[Animate water|/Items/Spellbooks/Spellbook of animate water]], [[Greater animate water|/Items/Spellbooks/Spellbook of greater animate water]], [[Summon dragon|/Items/Spellbooks/Spellbook of summon dragon]] |
+| **colorless** | [[Astral vision|/Items/Spellbooks/Spellbook of astral vision]], [[True seeing|/Items/Spellbooks/Spellbook of true seeing]] |
+| **glowing** | [[Enchant armor|/Items/Spellbooks/Spellbook of enchant armor]], [[Protect armor|/Items/Spellbooks/Spellbook of protect armor]] |
+| **unspeakable** | [[Raise minor zombie|/Items/Spellbooks/Spellbook of raise minor zombie]], [[Raise giant zombie|/Items/Spellbooks/Spellbook of raise giant zombie]] |
 
 ### Fixed spellbook appearances
 
