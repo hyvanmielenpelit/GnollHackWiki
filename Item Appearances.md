@@ -49,9 +49,11 @@ Several appearance pools contain more entries than there are real items, and a f
 | **Potions** | 45 | 45 | — |
 | **Scrolls** | 47 | 27 | 20 label-only entries, plus the scroll of supreme diabolism |
 | **Wands** | 35 | 32 | 3 appearance-only entries |
-| **Rings** | 38 | 38 | — |
+| **Rings** | 37 | 37 | — |
 | **Amulets** | 15 | 15 | — |
 | **Spellbooks** | 266 | 266 | — |
+
+Artifacts sit outside this system entirely. Their appearances are hard-coded and identical in every game — see [[Artifacts|#artifacts]].
 
 ## 🧪 Potions
 
@@ -373,9 +375,9 @@ See also [[Wands]] and [[Exceptional and Elite Wands]].
 
 ## 💍 Rings
 
-All 38 magical ring types are shuffled together with their materials, in a pool of exactly 38 appearances.
+All 37 magical ring types are shuffled together with their materials, in a pool of exactly 37 appearances.
 
-### Randomized ring appearances (38)
+### Randomized ring appearances (37)
 
 - adamantium
 - agate
@@ -402,7 +404,6 @@ All 38 magical ring types are shuffled together with their materials, in a pool 
 - pearl
 - platinum
 - polished
-- ruby
 - runed
 - sapphire
 - serpent-headed
@@ -416,12 +417,11 @@ All 38 magical ring types are shuffled together with their materials, in a pool 
 - wire
 - wooden
 
-The 38 shuffled ring types are:
+The 37 shuffled ring types are:
 
 - [[/Items/Ring of adornment]]
 - [[/Items/Ring of aggravate monster]]
 - [[/Items/Ring of cold resistance]]
-- [[/Artifacts/The Ring of Conflict]]
 - [[/Items/Ring of fire resistance]]
 - [[/Items/Ring of fortitude]]
 - [[/Items/Ring of free action]]
@@ -459,11 +459,16 @@ The 38 shuffled ring types are:
 
 Because material is shuffled together with the appearance, a "wooden ring" really is made of wood and an "iron ring" really rusts, regardless of what the ring turns out to be.
 
-### Fixed ring appearance
+> ℹ️ **Note:** There is no ordinary ring of conflict in GnollHack. It exists only as [[/Artifacts/The Ring of Conflict]], so the **ruby** appearance is reserved for the artifact and never belongs to an ordinary ring.
+
+### Fixed ring appearances
 
 | Appearance | Always is |
 |---|---|
 | **golden runed** | [[/Artifacts/The Ruling Ring of Yendor]] (base item never generates) |
+| **ruby** | [[/Artifacts/The Ring of Conflict]] |
+| **three-ruby-studded** | [[/Artifacts/The Ring of Three Wishes]] |
+| **serpent-shaped** | [[/Artifacts/The Serpent Ring of Set]] |
 
 See also [[Rings]].
 
@@ -570,7 +575,7 @@ Ten covers are used by two or three different books each, so even with a full ap
 |---|---|
 | **plain** | [[/Items/Spellbooks/Spellbook of blank paper]] |
 | **paperback** | Any of the tribute [[Novels]] |
-| **ornamental white** | [[/Artifacts/The Prime Codex]] (base item never generates) |
+| **ornamental alien codex** | [[/Artifacts/The Prime Codex]] (the base item's own "ornamental white" appearance is never displayed) |
 | **papyrus** | [[/Artifacts/Book of the Dead]] |
 
 The manual has no appearance at all and is always shown by its real name. See also [[/Items/Spellbooks]] and [[Manuals and Catalogues]].
@@ -808,25 +813,20 @@ Many items have a description that is never shuffled. The item still starts unid
 | **crude spear** | [[/Items/Orcish spear]] |
 | **stout spear** | [[/Items/Dwarvish spear]] |
 | **crude dagger** | [[/Items/Orcish dagger]] |
-| **crudely decorated dagger** | [[/Items/Ornamental orcish dagger]] |
 | **black dagger** | [[/Items/Wraithblade]] |
 | **runed short sword** | [[/Items/Elven short sword]] |
 | **crude short sword** | [[/Items/Orcish short sword]] |
 | **broad short sword** | [[/Items/Dwarvish short sword]] |
 | **curved sword** | [[/Items/Scimitar]] |
 | **shining long sword** | [[/Items/Sword of holy vengeance]] |
-| **black long sword** | [[/Items/Sword of unholy desecration]] |
-| **bright broadsword** | [[/Items/Sword of luckiness]] |
-| **black-hilted long sword** | [[/Items/Sword of nine lives stealing]] |
 | **samurai sword** | [[/Items/Katana]] |
-| **long samurai sword** | [[/Items/Tsurugi]] |
 | **sword-shaped planar rift** | [[/Items/Black blade of disintegration]] |
 | **double-headed axe** | [[/Items/Battle-axe]] |
 | **broad axe** | [[/Items/Dwarvish axe]] |
 | **broad pick** | [[/Items/Dwarvish mattock]] |
-| **wooden mace** | [[/Items/Heavenly oak mace]] |
-| **skull-headed obsidian mace** | [[/Items/Mace of the underworld]] |
-| **runed war hammer** | [[/Items/Heavy war hammer]] |
+| **wooden mace** | [[/Artifacts/The Mace of Saint Cuthbert]] (base item never generates) |
+| **skull-headed obsidian mace** | [[/Artifacts/Wand of Orcus]] (base item never generates) |
+| **runed war hammer** | [[/Artifacts/Mjollnir]] (base item never generates) |
 | **large jagged-toothed club** | [[/Items/Two-handed club]] |
 | **thonged club** | [[/Items/Aklys]] |
 | **iron staff** | [[/Items/Flindbar]] |
@@ -834,6 +834,7 @@ Many items have a description that is never shuffled. The item still starts unid
 | **runed long bow** | [[/Items/Elven long bow]] |
 | **crude short bow** | [[/Items/Orcish short bow]] |
 | **oriental long bow** | [[/Items/Yumi]] |
+| **ornamental long bow** | [[/Items/Galadhrim bow]] (the [[/Items/Divine long bow]] exists only as [[/Artifacts/The Longbow of Diana]], which shows a different appearance) |
 | **large shovel** | [[/Items/Spade of colossal excavation]] |
 | **silvery saw** | [[/Items/Saw of mighty cutting]] |
 | **club-headed metal rod** | [[/Items/Golf club]] |
@@ -900,13 +901,14 @@ Every polearm has a fixed, unique appearance:
 |---|---|
 | **religious symbol** | [[/Items/Holy symbol]] |
 | **glass orb** | [[/Items/Crystal ball]] |
+| **looking glass** | [[/Items/Mirror]] (the [[/Items/Magic mirror]] exists only as [[/Artifacts/The Magic Mirror of Merlin]], which shows a different appearance) |
 | **metal can containing viscous fluid** | [[/Items/Can of grease]] |
 | **small runed cube** | [[/Items/Cubic gate]] |
 | **sandalwood chest** | [[/Items/Magic chest]] |
 | **gold-encrusted bag** | [[/Items/Expensive handbag]] |
 | **silk-woven bag** | [[/Items/Oriental silk sack]] |
 | **cylindrical bag** | [[/Items/Quiver of infinite arrows]] |
-| **wooden grail containing red liquid** | [[/Items/Grail of healing]] |
+| **wooden grail containing red liquid** | [[/Artifacts/The Holy Grail]] (base item never generates) |
 | **ornamental jar containing crimson liquid** | [[/Items/Jar of basilisk blood]] |
 | **artificial wings** | [[/Items/Wings of flying]] |
 | **shaded eyeglasses** | [[/Items/Sunglasses]] |
@@ -923,14 +925,182 @@ A few appearances outside the shuffled pools are used by two or more item types.
 
 | Appearance | Possible items |
 |---|---|
-| **runed dagger** | [[/Items/Elven dagger]] or [[/Items/Elven runedagger]] |
-| **runed broadsword** | [[/Items/Elven broadsword]] or [[/Items/Runesword]] |
-| **ornamental long bow** | [[/Items/Divine long bow]] or [[/Items/Galadhrim bow]] |
-| **looking glass** | [[/Items/Mirror]] or [[/Items/Magic mirror]] |
-| **key** | [[/Items/Skeleton key]], [[/Items/Geometric key]], [[/Items/Ornamental key]] or [[/Items/Master key]] |
+| **runed dagger** | [[/Items/Elven dagger]], a plain [[/Items/Elven runedagger]] or [[/Artifacts/Sting]] |
+| **runed broadsword** | [[/Items/Elven broadsword]] or [[/Artifacts/Orcrist]] |
+| **black long sword** | [[/Items/Sword of unholy desecration]] or [[/Artifacts/The Nine Lives Stealer]] |
+| **ornamental key** | [[/Artifacts/The Master Key of Thievery]], or an ordinary [[/Items/Ornamental key]] once that type has been identified |
+| **key** | [[/Items/Skeleton key]], [[/Items/Geometric key]] or [[/Items/Ornamental key]] |
 | **splash of blinding venom** / **splash of acid venom** | Either venom type; these two descriptions are shuffled against each other, so the name of a venom splash may not match its real type |
 
+Plain elven runedaggers turn up only in the hands of halflings, so a "runed dagger" lying on the floor is nearly always an ordinary elven dagger. [[/Items/Geometric key]] and [[/Items/Ornamental key]] are not randomly generated either; they are placed as lock-specific keys in the [[/Dungeon/Plane of the Modron]] and [[/Dungeon/Gehennom]], and both show as a plain **key** until their type has been identified.
+
 The other keys, such as the [[/Items/magic key]], [[/Items/stone key]], [[/Items/bronze key]], [[/Items/silver key]], [[/Items/gold key]], [[/Items/platinum key]], [[/Items/mithril key]], [[/Items/orichalcum key]] and [[/Items/adamantium key]], have no appearance of their own and are always shown by their real names.
+
+## ✨ Artifacts
+
+All 60 artifacts have **fixed** appearances. Nothing about an artifact is ever shuffled, so an artifact looks the same in every game you ever play. Forty-six artifacts carry a description of their own, the other fourteen fall back on the look of an ordinary item, and most artifacts announce their own name long before you identify them.
+
+### Artifacts that name themselves on sight (40)
+
+Two thirds of all artifacts are *famous*: their name is attached the moment the artifact is created, so the game shows it as soon as the item comes into view. A [[/Artifacts/Vorpal Blade]] on the floor reads "an elite runed long sword named Vorpal Blade" before you have touched it, walked up to it or identified anything.
+
+| Artifact | Unidentified appearance |
+|---|---|
+| [[/Artifacts/Cleaver]] | runed double-headed axe |
+| [[/Artifacts/Crossbow of the Gnoll Lords]] | repeating heavy crossbow |
+| [[/Artifacts/Demonbane]] | silver long sword |
+| [[/Artifacts/Dragonbane]] | broadsword |
+| [[/Artifacts/Excalibur]] | long sword |
+| [[/Artifacts/Fire Brand]] | red-hot long sword |
+| [[/Artifacts/Frost Brand]] | ice-cold long sword |
+| [[/Artifacts/Giantslayer]] | long sword |
+| [[/Artifacts/Grayswandir]] | silver saber |
+| [[/Artifacts/Grimtooth]] | runed crude dagger |
+| [[/Artifacts/Magicbane]] | runed athame |
+| [[/Artifacts/Mjollnir]] | runed war hammer |
+| [[/Artifacts/Ogresmasher]] | war hammer |
+| [[/Artifacts/Orcrist]] | runed broadsword |
+| [[/Artifacts/Rhongomyniad]] | runed lance |
+| [[/Artifacts/Snickersnee]] | samurai sword |
+| [[/Artifacts/Sting]] | runed dagger |
+| [[/Artifacts/Sunsword]] | crystal long sword |
+| [[/Artifacts/The Ark of the Covenant]] | gold-covered wooden chest |
+| [[/Artifacts/The Eye of the Aethiopica]] | eye-shaped amulet |
+| [[/Artifacts/The Eyes of the Overworld]] | runed eyeglasses |
+| [[/Artifacts/The Gladstone]] | gray stone |
+| [[/Artifacts/The Heart of Ahriman]] | glowing red jewel stone |
+| [[/Artifacts/The Longbow of Diana]] | shining long bow |
+| [[/Artifacts/The Magic Mirror of Merlin]] | runed looking glass |
+| [[/Artifacts/The Master Key of Thievery]] | ornamental key |
+| [[/Artifacts/The Mitre of Holiness]] | ornamental pointed hat |
+| [[/Artifacts/The Nine Lives Stealer]] | black long sword |
+| [[/Artifacts/The Orb of Detection]] | runed crystal ball |
+| [[/Artifacts/The Orb of Fate]] | ornamental crystal ball |
+| [[/Artifacts/The Platinum Yendorian Express Card]] | platinum credit card |
+| [[/Artifacts/The Prime Codex]] | ornamental alien codex |
+| [[/Artifacts/The Rod of Disjunction]] | black metal wand |
+| [[/Artifacts/The Sceptre of Might]] | diamond-encrusted sceptre |
+| [[/Artifacts/The Staff of Aesculapius]] | serpent-entwined quarterstaff |
+| [[/Artifacts/The Tooth of Tarrasque]] | blade-like tooth |
+| [[/Artifacts/The Tsurugi of Muramasa]] | engraved tsurugi |
+| [[/Artifacts/Trollsbane]] | morning star |
+| [[/Artifacts/Vorpal Blade]] | runed long sword |
+| [[/Artifacts/Werebane]] | silver saber |
+
+### Artifacts that stay anonymous until you handle them (20)
+
+The remaining twenty keep their name hidden until you do something specific with them, and eight of those never volunteer it at all.
+
+| Artifact | Unidentified appearance | Name revealed by |
+|---|---|---|
+| [[/Artifacts/Stormbringer]] | black runesword | Picking it up |
+| [[/Artifacts/Mournblade]] | black runesword | Picking it up |
+| [[/Artifacts/The Emerald Sword]] | gemstone two-handed sword | Wielding it |
+| [[/Artifacts/The Staff-Sling of the Ancients]] | ornate staff-sling | Wielding it |
+| [[/Artifacts/The Gauntlets of Yin and Yang]] | black and white gauntlets | Wearing them |
+| [[/Artifacts/The Serpent Ring of Set]] | serpent-shaped ring | Wearing it |
+| [[/Artifacts/Howling Flail]] | runed flail | Invoking it |
+| [[/Artifacts/Luck Blade]] | ornate broadsword | Invoking it |
+| [[/Artifacts/The Holy Grail]] | wooden grail containing red liquid | Invoking it |
+| [[/Artifacts/The Kusanagi]] | engraved tsurugi | Invoking it |
+| [[/Artifacts/The Ring of Conflict]] | ruby ring | Invoking it |
+| [[/Artifacts/The Ring of Three Wishes]] | three-ruby-studded ring | Invoking it |
+| [[/Artifacts/Ruby Rod of Asmodeus]] | ruby-encrusted sceptre | Identification only |
+| [[/Artifacts/The Katana of Masamune]] | engraved katana | Identification only |
+| [[/Artifacts/The Mace of Saint Cuthbert]] | wooden mace | Identification only |
+| [[/Artifacts/The Mattock of the Titans]] | large mattock | Identification only |
+| [[/Artifacts/The Maul of the Titans]] | large maul | Identification only |
+| [[/Artifacts/The Ruling Ring of Yendor]] | plain golden ring | Identification only |
+| [[/Artifacts/Triple-Headed Flail of Yeenaghu]] | runed triple-headed flail | Identification only |
+| [[/Artifacts/Wand of Orcus]] | skull-headed obsidian mace | Identification only |
+
+> 💡 **Tip:** True seeing reveals the name of **any** artifact simply by looking at it. Wielding also works for [[/Artifacts/Stormbringer]] and [[/Artifacts/Mournblade]], since anything revealed by picking up is revealed by wielding too. The reverse does not hold: the six invoke-only artifacts stay anonymous no matter how long you wear or wield them.
+
+### Appearances that always mean an artifact
+
+These forty appearances belong to forty-two artifacts and to nothing else. No ordinary item in the game can ever produce them, so recognizing one is proof.
+
+| Appearance | Always is |
+|---|---|
+| **black and white gauntlets** | [[/Artifacts/The Gauntlets of Yin and Yang]] |
+| **black metal wand** | [[/Artifacts/The Rod of Disjunction]] |
+| **black runesword** | [[/Artifacts/Stormbringer]] or [[/Artifacts/Mournblade]] |
+| **blade-like tooth** | [[/Artifacts/The Tooth of Tarrasque]] |
+| **diamond-encrusted sceptre** | [[/Artifacts/The Sceptre of Might]] |
+| **engraved katana** | [[/Artifacts/The Katana of Masamune]] |
+| **engraved tsurugi** | [[/Artifacts/The Kusanagi]] or [[/Artifacts/The Tsurugi of Muramasa]] |
+| **eye-shaped amulet** | [[/Artifacts/The Eye of the Aethiopica]] |
+| **glowing red jewel stone** | [[/Artifacts/The Heart of Ahriman]] |
+| **gold-covered wooden chest** | [[/Artifacts/The Ark of the Covenant]] |
+| **ice-cold long sword** | [[/Artifacts/Frost Brand]] |
+| **large mattock** | [[/Artifacts/The Mattock of the Titans]] |
+| **large maul** | [[/Artifacts/The Maul of the Titans]] |
+| **ornamental alien codex** | [[/Artifacts/The Prime Codex]] |
+| **ornamental crystal ball** | [[/Artifacts/The Orb of Fate]] |
+| **ornamental pointed hat** | [[/Artifacts/The Mitre of Holiness]] |
+| **ornate broadsword** | [[/Artifacts/Luck Blade]] |
+| **ornate staff-sling** | [[/Artifacts/The Staff-Sling of the Ancients]] |
+| **plain golden ring** | [[/Artifacts/The Ruling Ring of Yendor]] |
+| **red-hot long sword** | [[/Artifacts/Fire Brand]] |
+| **ruby ring** | [[/Artifacts/The Ring of Conflict]] |
+| **ruby-encrusted sceptre** | [[/Artifacts/Ruby Rod of Asmodeus]] |
+| **runed athame** | [[/Artifacts/Magicbane]] |
+| **runed crude dagger** | [[/Artifacts/Grimtooth]] |
+| **runed crystal ball** | [[/Artifacts/The Orb of Detection]] |
+| **runed double-headed axe** | [[/Artifacts/Cleaver]] |
+| **runed eyeglasses** | [[/Artifacts/The Eyes of the Overworld]] |
+| **runed flail** | [[/Artifacts/Howling Flail]] |
+| **runed lance** | [[/Artifacts/Rhongomyniad]] |
+| **runed long sword** | [[/Artifacts/Vorpal Blade]] |
+| **runed looking glass** | [[/Artifacts/The Magic Mirror of Merlin]] |
+| **runed triple-headed flail** | [[/Artifacts/Triple-Headed Flail of Yeenaghu]] |
+| **runed war hammer** | [[/Artifacts/Mjollnir]] |
+| **serpent-entwined quarterstaff** | [[/Artifacts/The Staff of Aesculapius]] |
+| **serpent-shaped ring** | [[/Artifacts/The Serpent Ring of Set]] |
+| **shining long bow** | [[/Artifacts/The Longbow of Diana]] |
+| **skull-headed obsidian mace** | [[/Artifacts/Wand of Orcus]] |
+| **three-ruby-studded ring** | [[/Artifacts/The Ring of Three Wishes]] |
+| **wooden grail containing red liquid** | [[/Artifacts/The Holy Grail]] |
+| **wooden mace** | [[/Artifacts/The Mace of Saint Cuthbert]] |
+
+An appearance ends up on this list for one of two reasons. Either the artifact overrides the look of an ordinary item with a description of its own, as [[/Artifacts/The Katana of Masamune]] does when it turns a "samurai sword" into an "engraved katana"; or the artifact is built on a base item that is never generated, wished for, gifted or placed on its own, so the plain version simply does not exist. Twenty-two base item types fall into the second group, among them the heavy war hammer, the runed flail, the mace of the underworld, the tsurugi, the grail of healing, the magic mirror and the ring of supreme power.
+
+> ⚠️ **Warning:** Four artifact appearances are **not** proof, because an ordinary item can show the same text: **runed dagger**, **runed broadsword**, **black long sword** and **ornamental key**. They are listed in [[Appearances Shared by More Than One Item|#appearances-shared-by-more-than-one-item]] above.
+
+### Artifacts that look like an ordinary item (14)
+
+Fourteen artifacts have no description of their own and simply borrow the look of their base item.
+
+| Artifact | Looks exactly like |
+|---|---|
+| [[/Artifacts/Crossbow of the Gnoll Lords]] | a repeating heavy crossbow |
+| [[/Artifacts/Demonbane]] | a silver long sword |
+| [[/Artifacts/Dragonbane]] | a broadsword |
+| [[/Artifacts/Excalibur]] | a long sword |
+| [[/Artifacts/Giantslayer]] | a long sword |
+| [[/Artifacts/Grayswandir]] | a silver saber |
+| [[/Artifacts/Ogresmasher]] | a war hammer |
+| [[/Artifacts/Snickersnee]] | a katana ("samurai sword" until katanas are known) |
+| [[/Artifacts/Sunsword]] | a crystal long sword |
+| [[/Artifacts/The Emerald Sword]] | a gemstone two-handed sword |
+| [[/Artifacts/The Gladstone]] | a gray stone ("luckstone" once luckstones are known) |
+| [[/Artifacts/The Platinum Yendorian Express Card]] | a platinum credit card |
+| [[/Artifacts/Trollsbane]] | a morning star |
+| [[/Artifacts/Werebane]] | a silver saber |
+
+Because these artifacts have no description of their own, the name you see follows the base item's own identification state. Once you have identified luckstones, [[/Artifacts/The Gladstone]] reads exactly "luckstone"; once katanas are known, [[/Artifacts/Snickersnee]] reads "katana".
+
+Thirteen of the fourteen are famous and still print their name on sight, so the disguise is only skin deep. **[[/Artifacts/The Emerald Sword]] is the sole exception** — the one artifact in the game that both looks like an ordinary item and keeps its name hidden until you wield it. Even it is not truly plain, since its fixed exceptional quality and gemstone material are visible from the start, and no ordinary two-handed sword can be made of gemstone.
+
+### Other tells before identification
+
+Even when an artifact's appearance is shared with an ordinary item, several other signals give it away.
+
+- **Quality prefix.** Every artifact has a fixed quality that is shown as soon as you see it: 22 are elite and 12 are exceptional. See [[Exceptional, Elite, Celestial, Primordial, and Infernal Items]].
+- **Mythic prefix.** Thirteen artifacts carry a fixed mythic prefix or suffix and therefore read "mythic" or "legendary" until identified: [[/Artifacts/Grimtooth]], [[/Artifacts/Orcrist]], [[/Artifacts/Dragonbane]], [[/Artifacts/Demonbane]], [[/Artifacts/Werebane]], [[/Artifacts/Giantslayer]], [[/Artifacts/Ogresmasher]], [[/Artifacts/Trollsbane]], [[/Artifacts/The Mace of Saint Cuthbert]], [[/Artifacts/The Tooth of Tarrasque]], [[/Artifacts/The Mitre of Holiness]], [[/Artifacts/The Mattock of the Titans]] and [[/Artifacts/The Maul of the Titans]]. See [[Mythic and Legendary Items]].
+- **Special material.** Seven artifacts override their base material, which shows in the name: [[/Artifacts/Demonbane]] (silver), [[/Artifacts/Sunsword]] (crystal), [[/Artifacts/The Emerald Sword]] (gemstone), [[/Artifacts/The Tooth of Tarrasque]] (tooth), [[/Artifacts/Ruby Rod of Asmodeus]] (gemstone), [[/Artifacts/The Mattock of the Titans]] (adamantium) and [[/Artifacts/The Platinum Yendorian Express Card]] (platinum). See [[Object Materials]].
+- **Shop price.** Shops price an artifact from the artifact's own value even when it is unidentified, so an unidentified artifact is quoted in the thousands.
+- **Tile.** Every artifact has its own tile slot and is drawn with it rather than with the base item's tile.
 
 ## 📊 What the Appearance Does and Does Not Tell You
 
@@ -944,6 +1114,9 @@ The other keys, such as the [[/Items/magic key]], [[/Items/stone key]], [[/Items
 | **Spellbook read prompt** | Yes | The "contains ... magic" hint is bound to the real spell, not to the cover. |
 | **Jar ointment color** | Follows the appearance | The ointment color and the jar description are always the same pairing, but which jar type they mark is random. |
 | **Wand direction prompt** | Partly | The [[/Items/wand of nothing]] is randomly a directional or non-directional wand in each game. |
+| **Artifact appearance** | Yes | Artifact descriptions are hard-coded and never shuffled, so they mean the same thing in every game. |
+| **"named ..." suffix** | Yes | Forty artifacts announce their name on sight; the rest do so when picked up, worn, wielded or invoked. |
+| **Artifact shop price** | Yes | Shops price artifacts from the artifact's own value even when unidentified. |
 
 ### Items with no appearance at all
 
@@ -965,3 +1138,5 @@ Some item categories are always shown by their real names and never require iden
 - Spellbook covers rarely matter, because reading a book identifies it, and the 26 books that must be read announce their school truthfully beforehand.
 - Gems are **not** shuffled, but each color pools several gems together with a worthless piece of glass, and turquoise, aquamarine and fluorite change color group at the start of each game.
 - Many racial, mundane and special items have **fixed appearances**, so learning that table is a permanent advantage across all your games.
+- **Artifacts never shuffle.** Their appearances are the same in every game, 40 of the 60 announce their own name the moment you see them, and [[/Artifacts/The Emerald Sword]] is the only artifact that both looks like an ordinary item and keeps its name hidden until wielded.
+- **Forty appearances are proof of an artifact**, because no ordinary item can ever produce them.
