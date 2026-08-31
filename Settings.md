@@ -167,6 +167,18 @@ This section enables you to specify which commands are displayed in the command 
 | **Auto-Upload to Cloud** | On / Off | Off | Determines whether the saved replay is automatically uploaded to an Azure cloud storage. |
 | **Cloud Storage** | URL / Edit | None | Specifies a custom Azure cloud storage connection string to upload replays to. |
 
+## 🐺 Gnoll Overseer Settings
+
+These settings control the core in-game behaviour of [[Gnoll Overseer|/Guides/Introduction to Gnoll Overseer]], the optional in-game AI assistant. The Overseer is free and fully opt-in: nothing is sent to it during normal offline play, only when you open it and submit a message.
+
+| Setting Name | Options / Values | Default | Description |
+| :----------- | :--------------: | :-----: | :---------- |
+| **Allow Spoilers** | On / Off | Off | Determines whether the Overseer may discuss detailed mechanics, monsters you have not yet encountered, and other hidden information. Keeping this off is recommended for new players who want to discover things on their own. See [[/Guides/Advanced Guide to Gnoll Overseer]] for the full spoiler policy. |
+| **Verbose Responses** | On / Off | Off | **Off:** The Overseer gives concise, tactical answers.<br>**On:** The Overseer gives comprehensive, detailed explanations of game mechanics. |
+| **Send Game Context** | On / Off | On | Determines whether a snapshot of your current game (character attributes, inventory, surrounding dungeon tiles, and recent messages) is sent to the Overseer when you open it during gameplay. With this off, the Overseer can answer only general questions. |
+
+> 💡 **Choosing an AI model, providing your own API key (BYOK), and managing conversation history are done in the Overseer web interface at [overseer.gnollhack.com](https://overseer.gnollhack.com), not in these settings.** See [[/Guides/Advanced Guide to Gnoll Overseer]] and [[Overseer AI Providers]].
+
 ## 🛠️ System Settings
 
 | Setting Name | Options / Values | Default | Description |
