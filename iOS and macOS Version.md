@@ -7,7 +7,7 @@
 ### iOS
 
 - **Please [[disable auto-update|Disable App Updates on iOS]] in the iOS Phone Settings.**
-- Requires 3 GB RAM but may work with 2 GB RAM. View [[supported iPhones and iPads]].
+- Requires 3 GB RAM or more. Devices with 2 GB RAM are no longer supported. View [[supported iPhones and iPads]].
 - Please [[enable Share iPhone ∕ iPad Analytics with App Developers]] to share crash logs with us.
 - [[Game performance in CPU rendering on iPhones and iPads]] — Discover how fast GnollHack renders on CPU.
 

@@ -14,6 +14,8 @@ With these processors, the game runs at at least 60 FPS in the zoomed-in mode, w
 
 ## Android Phones
 
+The devices in this section and the next were tested during earlier development. Any Android device meeting the requirements above is expected to work; these lists are not exhaustive and do not reflect the newest models.
+
 GnollHack has been tested to work on the following Android phones:
 - **Samsung Galaxy S10e (2019):** 6 GB RAM, Exynos 9820
 - **Google Pixel 3a (2019):** 3.5–4 GB RAM, Qualcomm Snapdragon 670

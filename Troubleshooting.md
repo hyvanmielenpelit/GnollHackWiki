@@ -8,10 +8,12 @@
 
 - **Solution:** Disable GPU Acceleration in the settings.
 
-#### Reason 2: Your device does not have enough RAM (less than 3 GB).
+#### Reason 2: Your device does not have enough RAM.
+
+GnollHack requires **3 GB RAM or more**. Devices with less are below the minimum and are no longer supported.
 
 - **Info:** You can first check [[supported iPhones and iPads]] out. Unsupported Android devices are already filtered out by Google Play Store.
-- **Solution:** Restart the device and disable Load Sound Banks in GnollHack's settings (you will hear no audio, then, though).​
+- **Solution:** On a device that meets the minimum but is still running out of memory, restart the device to free RAM, and disable Load Sound Banks in GnollHack's settings (you will hear no audio, then, though).​
 
 ### 2. Game starts with a dark gray GnollHack logo but then the main screen does not appear (except maybe for the background)
 
