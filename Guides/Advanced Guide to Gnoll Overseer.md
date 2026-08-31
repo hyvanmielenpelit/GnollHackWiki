@@ -73,15 +73,15 @@ A significant part of learning GnollHack is discovering things on your own. The 
 |---|---|---|
 | **Always Safe** | Core mechanics, damage formulas, AC calculation, encumbrance, skill training, status effects, controls | Freely explained and calculated at all times. |
 | **Conditional** | Specific item identities, monster abilities, and artifact powers | Revealed only if the Overseer verifies you have already encountered them. |
-| **Always a Spoiler** | Future dungeon branches, unencountered bosses, quest objectives, endgame content, and optimal meta-strategies | Strictly withheld unless **Allow Spoilers** is enabled in settings. |
+| **Always a Spoiler** | Future dungeon branches, unencountered bosses, quest objectives, endgame content, and optimal meta-strategies | Strictly withheld unless **[[Allow Spoilers|/Settings#allow-spoilers]]** is enabled in settings. |
 
-You can toggle **Allow Spoilers** in the game's settings. Keeping it off is recommended for new players who want to experience the joy of discovery, while turning it on is useful for players who want to deeply study the game's mechanics.
+You can toggle **[[Allow Spoilers|/Settings#allow-spoilers]]** in the game's settings. Keeping it off is recommended for new players who want to experience the joy of discovery, while turning it on is useful for players who want to deeply study the game's mechanics.
 
 ## ⚙️ Tailoring the Experience
 
 You can customize the Overseer to better suit your learning style:
 
-- **Verbose Responses:** Toggle this setting on if you prefer comprehensive, detailed explanations of game mechanics. Turn it off if you just want concise, tactical answers to get back into the action quickly.
+- **[[Verbose Responses|/Settings#verbose-responses]]:** Toggle this setting on if you prefer comprehensive, detailed explanations of game mechanics. Turn it off if you just want concise, tactical answers to get back into the action quickly.
 - **Session Pinning:** Use the pin icon in the chat interface to save important conversations. This is great for keeping track of long-term strategies, checklists, or specific mechanic explanations that you want to refer back to later.
 - **Unlimited Usage (Bring Your Own Key):** If you find yourself heavily relying on the Overseer and hitting usage limits, you can provide your own API key in the web interface settings for unrestricted access and the ability to choose different AI models.
 

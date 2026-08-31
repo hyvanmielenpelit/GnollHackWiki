@@ -2,6 +2,15 @@
 
 > 👉 **These settings relate to GnollHack's modern ports only.**
 
+## 💡 Built-In Setting Descriptions
+
+You do not need this page to find out what a setting does. Every setting on the Settings screen carries its own description inside the game:
+
+- **Tap or click a setting's name** (not its switch) to open a popup with a full description of what the setting does and what each value means.
+- **On desktop**, hovering over a setting's name shows a short one-line summary as a tooltip, and the mouse cursor changes to an info cursor over any name that has one.
+
+The Settings screen itself is a single scrolling page. The headings below are the sections you scroll through, in the order they appear in the game.
+
 ## ⚙️ General Settings
 
 ### ℹ️ General

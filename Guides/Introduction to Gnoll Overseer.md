@@ -33,13 +33,15 @@ The Overseer is **completely free** and **100% opt-in**. It sits quietly in the 
 
 ## ⚙️ In-Game Settings
 
-You can customize the Overseer's core in-game behavior in GnollHack's Settings menu:
+You can customize the Overseer's core in-game behavior in the Overseer section of GnollHack's [[Settings|/Settings]] screen:
 
 | Setting | Description | Default State |
 |---|---|---|
-| **Allow Spoilers** | Controls whether the Overseer can discuss detailed mechanics, unencountered monsters, and hidden information. Turn this off to discover things on your own. | ❌ Off |
-| **Verbose Responses** | Toggles between comprehensive explanations and concise tactical answers. | ❌ Off |
-| **Send Game Context** | Controls whether your current game snapshot (stats, inventory, map) is sent to the Overseer when opened during gameplay. | ✅ On |
+| **[[Allow Spoilers|/Settings#allow-spoilers]]** | Controls whether the Overseer can discuss detailed mechanics, unencountered monsters, and hidden information. Turn this off to discover things on your own. | ❌ Off |
+| **[[Verbose Responses|/Settings#verbose-responses]]** | Toggles between comprehensive explanations and concise tactical answers. | ❌ Off |
+| **[[Send Game Context|/Settings#send-game-context]]** | Controls whether your current game snapshot (stats, inventory, map) is sent to the Overseer when opened during gameplay. | ✅ On |
+
+The Overseer section also contains **[[Client Data Access|/Settings#client-data-access]]**, **[[Game Actions|/Settings#game-actions]]**, and **[[Data Consent|/Settings#data-consent]]**. See [[Settings|/Settings]] for all of them with their defaults. In the game itself, tapping or clicking a setting's name opens a popup describing it.
 
 ## 💡 Learn More
 
