@@ -14,7 +14,7 @@
 | **Screen Resolution** | Multiple resolutions | Native | *(Windows only)* Determines the rendering resolution of the game map. |
 | **Screen Scale** | Percentage | 100% | Custom scale to make UI components larger or smaller than normal. |
 | **Windowed Mode** | On / Off | Off | *(Desktop only)* Determines if the game runs in windowed or fullscreen mode. |
-| **Edge to Edge** | On / Off | Off | *(Mobile only)* Determines whether the game expands to cover the safe area of the screen (such as screen cutouts or notches). |
+| **Edge to Edge** | On / Off | Off | *(Mobile only)* Determines whether the game expands to cover the safe area of the screen (such as screen cutouts or notches). Changing this setting requires you to restart the game to take effect. |
 | **Cursor Style** | Green Block / Underline | Green Block | *(ASCII graphics only)* Determines the way how the player character is indicated in the game. |
 | **Hide Navigation** | On / Off | On | *(Android only)* Determines whether to hide the operating system navigation buttons in the bottom of the screen. |
 | **Hide Status Bar** | On / Off | On | *(iOS only)* Determines if the top status bar of the operating system is hidden. |
@@ -176,6 +176,9 @@ These settings control the core in-game behaviour of [[Gnoll Overseer|/Guides/In
 | **Allow Spoilers** | On / Off | Off | Determines whether the Overseer may discuss detailed mechanics, monsters you have not yet encountered, and other hidden information. Keeping this off is recommended for new players who want to discover things on their own. See [[/Guides/Advanced Guide to Gnoll Overseer]] for the full spoiler policy. |
 | **Verbose Responses** | On / Off | Off | **Off:** The Overseer gives concise, tactical answers.<br>**On:** The Overseer gives comprehensive, detailed explanations of game mechanics. |
 | **Send Game Context** | On / Off | On | Determines whether a snapshot of your current game (character attributes, inventory, surrounding dungeon tiles, and recent messages) is sent to the Overseer when you open it during gameplay. With this off, the Overseer can answer only general questions. |
+| **Client Data Access** | On / Off | On | Determines whether the Overseer may request additional data from your game client, such as the full message history. This data is sent to your AI provider for processing. Turning this off also turns off **Game Actions**. |
+| **Game Actions** | On / Off | Off | Determines whether the Overseer may suggest and perform in-game actions on your behalf. All such actions require your confirmation. *(Unavailable in this version. The switch is disabled.)* |
+| **Data Consent** | Accepted / None | None | Shows whether you have accepted the AI data processing disclosure. This is not a toggle: press **Revoke** to withdraw your consent, and the disclosure will appear again the next time you open the Overseer. |
 
 > 💡 **Choosing an AI model, providing your own API key (BYOK), and managing conversation history are done in the Overseer web interface at [overseer.gnollhack.com](https://overseer.gnollhack.com), not in these settings.** See [[/Guides/Advanced Guide to Gnoll Overseer]] and [[Overseer AI Providers]].
 
@@ -188,6 +191,7 @@ These settings control the core in-game behaviour of [[Gnoll Overseer|/Guides/In
 | **Low-Level Logging** | On / Off | Off | Extensive logging of various low-level events. Can clog the app log quickly. |
 | **Screen Logging** | On / Off | Off | Toggles printing of log messages directly on the game screen. |
 | **Debug Post Channel** | On / Off | Off | Use an alternative post channel instead of the one specified under Post Game Progress. |
+| **Frame Time Profiler** | On / Off | Off | Gathers data on frame times, to investigate stuttering. Requires [[Developer Mode]]. |
 | **Show Memory** | On / Off | Off | Shows the current managed memory usage on the game screen. |
 | **Low Disk Space Warning** | On / Off | On | Displays a warning if free disk space is low (less than 5 GB) to prevent save game corruption. |
 | **Load Sound Banks** | On / Off | On | Determines if the sound banks are loaded. Can be disabled to save memory, but the game will have no sounds. |
