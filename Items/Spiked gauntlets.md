@@ -11,4 +11,4 @@
 - **Spell casting penalty:** -90% (somatic spells only)
 - **Enchantable:** Yes
 - **Safe enchantable level:** +10 or below
-- **Mythic status:** Cannot be mythic
+- **Mythic status:** Can be mythic
