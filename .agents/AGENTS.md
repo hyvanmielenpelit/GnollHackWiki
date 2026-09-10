@@ -1,6 +1,6 @@
 # GnollHackWiki Rules
 
-When modifying or creating wiki pages, always refer to the `wiki_editing` skill for detailed instructions on Markdown formatting, Gollum-style wikilinks, image handling, and repository conventions.
+When modifying or creating wiki pages, always refer to the `wiki_editing` skill for detailed instructions on Markdown formatting, Gollum-style wikilinks, image handling, and repository conventions. When changing the same line or field across many pages, also read the `wiki_bulk_edits` skill before editing anything.
 
 ## Quick Reminders:
 - **Markdown Flavor**: The wiki uses Gollum-style Markdown, not GitHub Flavored Markdown. It does not support GitHub-style alerts (e.g., `> [!IMPORTANT]`, `> [!NOTE]`). Instead, use alternatives like `> ℹ️ **Note:**` or `> ⚠️ **Warning:**`.
@@ -20,3 +20,11 @@ When modifying or creating wiki pages, always refer to the `wiki_editing` skill 
 
 - **Do NOT restore text that has been deleted by the user**, unless explicitly requested by the user.
 - This applies especially when the user requests you to do something else that is not related to the deleted text. Always respect the user's manual edits and deletions.
+
+## Skill Naming and Harness Wiring
+
+Skills in this repository use the **`wiki_`** prefix. Canonical bodies live in
+`.agents/skills/<underscore_name>/SKILL.md`; the `.claude/skills/<kebab-name>/` stubs are
+**generated** by `SharedAgentSkills\tools\sync_stubs.ps1 -Repo <this repository>` and must
+never be hand-edited. After adding or renaming a canonical skill, or changing its frontmatter,
+re-run that script.
