@@ -54,6 +54,8 @@ However, because the extreme multipliers in the `rnz()` function only trigger ra
 | :--: | :--: | :--: |
 | **1–50** | 614 | 1229 |
 
+These figures are the turns until the timeout reaches **0**, which is what a prayer with **No Trouble** requires. In **Major Trouble** a prayer is already safe once the timeout is **≤ 200**, and in **Minor Trouble** once it is **≤ 100** — see [Troubles](#troubles) above.
+
 > 💡 **Tip:** You can know whether it is currently safe to pray when a blessed [[/Items/holy symbol]] or a blessed [[/Items/prayerstone]] is shimmering.
 
 ### Unsafe Conditions
