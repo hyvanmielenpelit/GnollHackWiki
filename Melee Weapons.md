@@ -6,8 +6,8 @@ These are mostly unchanged from NetHack and new ones don't have many special pro
 - [[/Items/Elven spear]] — *See note 1 below*
 - [[/Items/Orcish spear]] — *See note 1 below*
 - [[/Items/Dwarvish spear]] — *See note 1 below*
-- [[/Items/Trident]] — This is a spear, *see note 1 below*
-- [[/Items/Fork]] — This is a spear, *see note 1 below*, 1d20 silver damage
+- [[/Items/Trident]] — Uses the thrusting-weapon skill and can be applied to hit at range like a spear, *see note 1 below*
+- [[/Items/Fork]] — Uses the thrusting-weapon skill but **cannot** be applied to hit at range, 1d20 silver damage
 - [[/Items/Dagger]] — *See note 2 below*
 - [[/Items/Elven dagger]] — *See note 2 below*
 - [[/Items/Orcish dagger]] — *See note 2 below*
@@ -52,7 +52,7 @@ These are mostly unchanged from NetHack and new ones don't have many special pro
 
 ### Notes on Simple Melee Weapons
 
-1. **Spears** can be applied to hit targets at 2 or more squares away (depending on the skill level, requires Basic or better skill). The range is *2, SQRT(5), SQRT(8) on Basic/Skilled/Expert*. They also work as a melee weapon.
+1. **Spears** (and the trident) can be applied to hit a target at range. The maximum reach grows with your thrusting-weapon skill: Unskilled adjacent squares only, Basic 2 squares, Skilled √5, Expert √6, Master √7, Grand Master √8 (two squares diagonally). A weapon with extended or mythic reach reaches √13 at any skill. They also work as ordinary melee weapons.
 2. **Daggers** stack and can also be thrown.
 3. **Axes** can be applied to chop down trees.
 
