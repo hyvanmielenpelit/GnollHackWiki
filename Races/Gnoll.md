@@ -41,7 +41,7 @@ Yeenaghu, the Demon Lord of Gnolls, is always peaceful to a gnoll. Chat with him
 - You are 😈 [[/Chaotic]] or ☯️ [[/Neutral]] and a luck-dependent roll succeeds (roughly 1 in 3)
 - You are carrying the [[/Artifacts/Howling Flail]], which bypasses the alignment requirement entirely
 
-Your first wish from Yeenaghu is always granted once one of those conditions is met. Every further wish becomes progressively less likely, so his favor is not a repeatable source of wishes. If he is not pleased, he says so and departs without granting anything.
+Your first wish from Yeenaghu is always granted once one of those conditions is met. A further wish is possible but rarer each time: after n wishes the chance on a qualifying chat is 1 in 3·n (1 in 3 for the second wish, 1 in 6 for the third, and so on). If he is not pleased, he says so and departs without granting anything.
 
 > 💡 **Tip:** The [[/Artifacts/Howling Flail]] is the gnoll racial artifact gift, so a praying gnoll who receives it gains a reliable way to ask Yeenaghu for a wish regardless of alignment record or luck.
 
