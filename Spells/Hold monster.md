@@ -7,7 +7,7 @@
 - **Targeting:** One target in selected direction
 - **Range:** 90'
 - **Duration:** 1d6+10 rounds
-- **Saving throw:** Against wisdom
+- **Saving throw:** Against wisdom — see [[/Saving Throws]]
 - **Save adjustment:** +0
 - **Train chance:** 100%
 - **Base write cost:** 60 charges

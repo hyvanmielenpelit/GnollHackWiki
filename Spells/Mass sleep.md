@@ -7,7 +7,7 @@
 - **Targeting:** None
 - **Radius:** 30'
 - **Duration:** 4d6+14 rounds
-- **Saving throw:** Against wisdom
+- **Saving throw:** Against wisdom — see [[/Saving Throws]]
 - **Save adjustment:** +0
 - **Train chance:** 100%
 - **Base write cost:** 80 charges

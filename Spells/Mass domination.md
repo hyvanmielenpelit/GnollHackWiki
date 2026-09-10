@@ -7,7 +7,7 @@
 - **Targeting:** Target selected on screen
 - **Range:** 50'
 - **Radius:** 10'
-- **Saving throw:** Against wisdom
+- **Saving throw:** Against wisdom — see [[/Saving Throws]]
 - **Save adjustment:** -4
 - **Train chance:** 100%
 - **Base write cost:** 130 charges

@@ -7,7 +7,7 @@
 - **Targeting:** None
 - **Radius:** 25'
 - **Duration:** 5d10+50 rounds
-- **Saving throw:** Against constitution
+- **Saving throw:** Against constitution — see [[/Saving Throws]]
 - **Save adjustment:** -10
 - **Train chance:** 100%
 - **Base write cost:** 100 charges

@@ -6,7 +6,7 @@
 - **Cooldown:** None
 - **Targeting:** Touch
 - **Range:** 5'
-- **Saving throw:** Against constitution
+- **Saving throw:** Against constitution — see [[/Saving Throws]]
 - **Save adjustment:** -10
 - **Train chance:** 100%
 - **Base write cost:** 110 charges

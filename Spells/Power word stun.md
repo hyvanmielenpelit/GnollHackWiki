@@ -6,7 +6,7 @@
 - **Cooldown:** 250 rounds
 - **Targeting:** One target in selected direction
 - **Range:** 50'
-- **Saving throw:** Against constitution
+- **Saving throw:** Against constitution — see [[/Saving Throws]]
 - **Save adjustment:** -4
 - **Train chance:** 5%
 - **Base write cost:** 110 charges

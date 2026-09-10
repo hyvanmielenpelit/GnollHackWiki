@@ -7,7 +7,7 @@
 - **Targeting:** None
 - **Effect type:** Causing conflict
 - **Duration:** 3d10+50 rounds
-- **Saving throw:** Against wisdom
+- **Saving throw:** Against wisdom — see [[/Saving Throws]]
 - **Save adjustment:** +0
 - **Train chance:** 100%
 - **Base write cost:** 110 charges

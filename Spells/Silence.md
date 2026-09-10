@@ -8,7 +8,7 @@
 - **Range:** 60'
 - **Radius:** 15'
 - **Duration:** 1d20+30 rounds
-- **Saving throw:** Against charisma
+- **Saving throw:** Against charisma — see [[/Saving Throws]]
 - **Save adjustment:** +0
 - **Train chance:** 100%
 - **Base write cost:** 80 charges

@@ -7,7 +7,7 @@
 - **Targeting:** One target in selected direction
 - **Range:** 40'
 - **Duration:** 5d10+50 rounds
-- **Saving throw:** Against constitution
+- **Saving throw:** Against constitution — see [[/Saving Throws]]
 - **Save adjustment:** -8
 - **Train chance:** 5%
 - **Base write cost:** 80 charges

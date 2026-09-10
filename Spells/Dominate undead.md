@@ -6,7 +6,7 @@
 - **Cooldown:** None
 - **Targeting:** One target in selected direction
 - **Range:** 40'
-- **Saving throw:** Against wisdom
+- **Saving throw:** Against wisdom — see [[/Saving Throws]]
 - **Save adjustment:** -4
 - **Train chance:** 100%
 - **Base write cost:** 90 charges

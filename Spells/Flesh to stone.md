@@ -7,7 +7,7 @@
 - **Targeting:** Ray in selected direction
 - **Range:** 40'
 - **Effect type:**
-- **Saving throw:** Against dexterity
+- **Saving throw:** Against dexterity — see [[/Saving Throws]]
 - **Save adjustment:** +0
 - **Train chance:** 100%
 - **Base write cost:** 110 charges
