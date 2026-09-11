@@ -8,6 +8,7 @@
 - **Range:** 60'
 - **Duration:** 1d50+100 rounds
 - **Saving throw:** Against wisdom — see [[/Saving Throws]]
+- **Extra skill penalty:** -10% per skill level above Unskilled — see [[/Saving Throws]]
 - **Save adjustment:** +0
 - **Train chance:** 100%
 - **Base write cost:** 30 charges

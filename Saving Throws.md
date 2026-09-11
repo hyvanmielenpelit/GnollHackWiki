@@ -30,6 +30,21 @@ The caster's proficiency in the relevant spell school modifies the target's chan
 | **Master** | -45% |
 | **Grand Master** | -60% |
 
+#### Extra Penalty for Slow, Hold, and Fear Spells
+
+The spells [[/Spells/Slow monster]], [[/Spells/Mass slow]], [[/Spells/Hold monster]], [[/Spells/Mass hold]], [[/Spells/Hold undead]], and [[/Spells/Fear]] apply an additional penalty of -10% per skill level above Unskilled to the target's saving throw, on top of the general modifier above.
+
+| Skill Level | General modifier | Extra (slow/hold/fear) | Effective |
+| :--- | :---: | :---: | :---: |
+| **Unskilled** | +15% | 0% | +15% |
+| **Basic** | 0% | -10% | -10% |
+| **Skilled** | -15% | -20% | -35% |
+| **Expert** | -30% | -30% | -60% |
+| **Master** | -45% | -40% | -85% |
+| **Grand Master** | -60% | -50% | -110% |
+
+In the source code, the extra term is `save_adj -= 2 * (skill_level - P_UNSKILLED)` in src/zap.c at line 772 (the case shared by slow monster, mass slow, and the wand of slow monster), line 815 (hold monster, mass hold), line 850 (hold undead), and line 949 (fear). One point of `save_adj` is 5% (src/mhitu.c:1517, `percentage = 5 * adjscore - 30`). The general modifier is `get_spell_skill_level_saving_throw_adjustment` at src/zap.c:361-364.
+
 ### Wand Skill Modifiers
 
 When a wand is used, the user's Wand skill level applies a penalty to the target's saving throw, making wands more reliable at higher skill levels.
