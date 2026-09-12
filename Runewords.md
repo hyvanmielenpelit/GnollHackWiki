@@ -97,7 +97,7 @@ Performing physical actions on the square containing an engraving causes charact
 
 #### 🔀 Branch Restrictions
 
-`Elbereth` does not work in [[/Dungeon/Gehennom]] or the [[/Dungeon/Elemental Planes]].
+`Elbereth` does not work in [[/Dungeon/Gehennom]] or anywhere in the Endgame — the [[/Dungeon/Elemental Planes]] and the Astral Plane.
 
 #### 🛡️ Immune Monsters
 
