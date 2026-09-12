@@ -45,6 +45,8 @@ The spells [[/Spells/Slow monster]], [[/Spells/Mass slow]], [[/Spells/Hold monst
 
 In the source code, the extra term is `save_adj -= 2 * (skill_level - P_UNSKILLED)` in src/zap.c at line 772 (the case shared by slow monster, mass slow, and the wand of slow monster), line 815 (hold monster, mass hold), line 850 (hold undead), and line 949 (fear). One point of `save_adj` is 5% (src/mhitu.c:1517, `percentage = 5 * adjscore - 30`). The general modifier is `get_spell_skill_level_saving_throw_adjustment` at src/zap.c:361-364.
 
+Immunity is checked before the save: monsters that are immune to fear outright — those with innate fear resistance, all undead, and all mindless monsters — are simply unaffected and never roll at all. See [[/Spells/Fear]].
+
 ### Wand Skill Modifiers
 
 When a wand is used, the user's Wand skill level applies a penalty to the target's saving throw, making wands more reliable at higher skill levels.

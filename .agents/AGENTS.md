@@ -11,6 +11,7 @@ When modifying or creating wiki pages, always refer to the `wiki_editing` skill 
 - **Lists**: Use a dash (`-`) for Markdown lists instead of an asterisk (`*`) by default.
 - **Images**: All images go under `/uploads/`, mirroring the page's directory path. The format must be WebP.
 - **Horizontal Lines**: Do not use horizontal lines (e.g., `---` or `***`) anywhere in the wiki. They are not needed in Markdown documents.
+- **No Source Code References**: Wiki pages are player documentation. Never cite source file paths, line numbers, or C identifiers (e.g., `src/zap.c`, `include/mondata.h`, `MR_FEAR`) on a page; state the mechanic in the game's own vocabulary and keep the evidence in the handoff report. Pages must stay human-readable and must not drift into AI-skill or specification style when they are improved from AI benchmarking results or analysis findings.
 - **Reserved Folders**: Do not modify the `/gollum/` or `/.gollum/` directories.
 - **Mathematical Formulas (KaTeX)**: Use KaTeX notation only for complex mathematical formulas, and prefer plain text for simple expressions. All KaTeX formulas must start with `$` and end with `$`. For example: `$P = \frac{1}{10 + 2 \times G \times A}$`. Always leave an empty line before and after a KaTeX formula that is not an inline formula, but is on its own line.
 - **Arrows**: Use Unicode `→` instead of `->` and Unicode `←` instead of `<-`.

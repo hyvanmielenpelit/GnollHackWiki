@@ -68,6 +68,7 @@ When editing or creating pages for the GnollHack Wiki, follow these conventions 
   - Warning: `> ⚠️ **Warning:** This is a warning.`
   - Caution: `> 🛑 **Caution:** This is caution.`
 - **HTML Lists**: Gollum does not support HTML lists (such as `<ul>` and `<li>` tags). Avoid using them in Markdown files, including inside tables. Instead, represent list items in tables using Unicode bullets (e.g., `• `) separated by HTML line breaks (`<br />`).
+- **Source Code References**: The wiki is player documentation, not developer documentation. Never cite the game's source code on a page: no file paths (such as `src/zap.c` or `include/mondata.h`), no line numbers, and no C identifiers such as macros, struct fields, enum constants or function names (such as `MR_FEAR` or `save_adj`). State the mechanic in the game's own vocabulary instead, writing "monsters that are immune to fear" rather than "monsters with `MR_FEAR`". Reading the code to establish a fact is correct and expected, but the citation belongs in the implementation plan or the handoff report, never on the page. The only exception is a page under `Development/` that documents the repository itself, where naming a file the reader is meant to open is the point.
 - **AI Instructions**: When writing instructions intended to be read by an AI agent, do not include any emojis in the instruction sections.
 
 ## 5. Mathematical Formulas (KaTeX)
@@ -359,3 +360,24 @@ page-view tools. Two properties of those tools decide whether a fact is reachabl
 
 Do not write for the assistant at the expense of human readers; these are tie-breakers when
 two layouts are otherwise equal.
+
+## 17. Improving Pages from Benchmark Findings
+
+A Gnoll Overseer benchmark run reports facts that the game implements and a page does not
+state. The gap is real and worth fixing, but the fix is a sentence a player can read, not a
+transcription of the evidence that found it.
+
+- **Write the mechanic, not the proof.** The answer goes on the page in the game's own
+  vocabulary. The code locations, the reasoning and the verification output go in the handoff
+  report, which the user reads once, while the page is read by every player forever.
+- **Do not let a page turn into an AI skill.** Pages are for players. Symbol names, line
+  citations, condition tables lifted from the code, and prose addressed to an assistant all
+  make a page worse to read while making it only marginally easier to retrieve. A page that
+  reads like a specification has failed even when every fact in it is correct.
+- **One added fact, one plain sentence.** Prefer extending an existing sentence, or adding one
+  short paragraph, over inventing a heading for every finding. The retrieval advice in
+  section 16 breaks ties between otherwise equal layouts; it never licenses restructuring a
+  readable page around search.
+- **Follow the requested wording only as far as these rules allow.** A benchmark prompt often
+  quotes the exact sentence to write, citations included. Strip whatever the conventions
+  forbid, write the readable version, and say what was changed and why in the report.

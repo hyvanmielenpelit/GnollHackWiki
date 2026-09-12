@@ -21,4 +21,4 @@
 
 ## Description
 
-Causes monsters to flee
+Causes monsters to flee. Monsters that are immune to fear, along with all undead and all mindless monsters, are unaffected before any saving throw is rolled; the same is true of a monster that has gained fear resistance, has no mind to frighten, or is a vampire in shifted form. Every other monster makes the wisdom saving throw described above.

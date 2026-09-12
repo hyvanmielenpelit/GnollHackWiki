@@ -158,3 +158,7 @@ run:
 
 State the exact line form that was written and the number of files changed, so the user can
 check both without opening a page.
+
+Evidence belongs here and nowhere else. Code locations, line numbers and benchmark finding
+identifiers go in this report; a wiki page states the mechanic in the game's own vocabulary and
+never cites the source — see `wiki_editing` sections 4 and 17.
