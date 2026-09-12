@@ -10,6 +10,7 @@ Not every sacrifice yields a gift. To have a chance of receiving one, you must m
 
 * **Level:** Your character level must be 3 or higher.
 * **Luck:** Your luck must be 0 or higher (non-negative).
+* **Prayer timeout:** Your prayer timeout must already be 0. While it is above 0, a sacrifice reduces the timeout instead of offering a gift.
 * **Alignment:** You must be sacrificing at an altar of your own alignment (or you are converting a cross-aligned altar, though gifts are usually only given when you are in good standing).
 
 If these conditions are met, the chance of receiving a gift is based on the following formula:

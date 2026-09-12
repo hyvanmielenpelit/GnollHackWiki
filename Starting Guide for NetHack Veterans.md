@@ -12,7 +12,7 @@ If you are a NetHack veteran, you might be wondering why you should play GnollHa
 
 - **A True Modern Port:** GnollHack is not just a gameplay mod; it is a complete technological modernization. It features high-resolution graphics, animations, an overhauled multi-layered tile engine, a modern graphical user interface (GUI) optimized for both desktop and mobile devices, and a full musical score, along with thousands of sound effects and voiceovers.
 - **Respect for Your Time:** The pacing and quality of life are vastly improved. The leveling curve is faster, and the dungeons are slightly shorter. Notably, Gehennom has **no mazes** except on special levels! Constant stealing from shops has been replaced with a stronger economy.
-- **Improved Combat:** Ranged combat has been significantly buffed to be a viable primary choice, but you can no longer fire missiles at enemies in melee range. You are encouraged to swap between ranged and melee weapons (which no longer costs a turn) as enemies close the gap.
+- **Improved Combat:** Ranged combat has been significantly buffed to be a viable primary choice, but firing missiles or throwing weapons at an enemy in melee range carries a heavy to-hit penalty (40; 32 for crossbows). You are encouraged to swap between ranged and melee weapons (which no longer costs a turn) as enemies close the gap.
 - **Improved Mechanics:** You can dual-wield artifacts and wear robes over body armor. Magic Cancellation (MC) works differently, and Magic Resistance no longer blocks death effects (you need Death Resistance!), which makes gear choices much more interesting.
 - **Expanded Equipment Slots:** GnollHack gives you 22 equipment slots to customize your character. In addition to the classics, you can now equip [[Bracers]], wear [[Robes]] over your body armor, and equip up to 5 [[Miscellaneous Items]] simultaneously (such as belts, earrings, eyeglasses, or wings).
 - **In-Game Item Information:** You can now use the Examine items to view exact item stats, damage formulas, and magical effects directly within the game.
@@ -140,9 +140,9 @@ GnollHack's late game is more difficult than NetHack's.
 ### 🏹 Ranged Combat Enhancements
 
 - **Viable Archery:** Bows and crossbows are highly effective and viable primary weapons.
-- **No Melee Firing:** You cannot hit enemies with fired missiles or thrown weapons if they are in melee range.
+- **Melee-Range Penalty:** Firing missiles or throwing weapons at an enemy in melee range incurs a heavy to-hit penalty (40, or 32 for crossbows) — swap to a melee weapon instead.
 - **Reach Weapons:** Polearms are significantly better, able to hit enemies 2 squares away in **all** directions, regardless of your skill level. Spears can also hit 2 squares away (via the apply command), provided you have at least "Basic" skill in Spears.
-- **Durable Missiles:** Missiles (like arrows) break very rarely. Uncursed missiles have only a 5% chance to break, and blessed missiles do not break at all!
+- **Durable Missiles:** Missiles (like arrows) break very rarely. Uncursed missiles have only a 5% chance to break, and blessed missiles do not break unless the target's passive effect damages them!
 
 > 💡 **Tip:** You are encouraged to use ranged weapons first, and then swap to melee weapons (using the 0-turn Exchange weapons (`x`) command) when monsters close the gap!
 

@@ -252,7 +252,7 @@
 
 #### 🏹 Ranged Combat Penalties
 
-- **Melee Launcher Penalty** — Launchers and thrown weapons used in melee range (1 square) receive a to-hit penalty of up to -20.
+- **Melee Launcher Penalty** — Launchers and thrown weapons used in melee range (1 square) receive a to-hit penalty of -40 (-32 for crossbows).
 
 #### 🗡️ Melee & Ammunition
 

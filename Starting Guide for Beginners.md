@@ -138,7 +138,7 @@ You can fire missiles to 8 basic directions. You need to wield a matching launch
 
 - **Swapping:** Click Swap (shortcut: `x`) to change weapon sets. It is best to keep your melee weapon in one set and your ranged weapon in the second set. This will not cost you a turn.
 - **Quivering & Firing:** Use the Quiver command (`Shift+q`) to prepare ammo. Use Fire (`f`) to shoot.
-- **Range & Accuracy:** You get to-hit penalties depending on the range. Firing at melee range gives a massive to-hit penalty (up to -30).
+- **Range & Accuracy:** You get to-hit penalties depending on the range. Firing at melee range gives a massive to-hit penalty (-40, or -32 for crossbows).
 - **Autopickup:** You automatically pick up fired missiles by default to save time.
 
 > ℹ️ **Note:** Keyboard shortcuts on this wiki are written in lowercase notation. A single letter (e.g. `e`) represents the normal key. Combination shortcuts are written with a plus sign `+` and lowercase letters (e.g. `Shift+e`, `Alt+e`, `Alt+Shift+e`).
@@ -148,7 +148,7 @@ You can fire missiles to 8 basic directions. You need to wield a matching launch
 You can throw items to 8 basic directions. The throwing distance is listed in the item's examine information.
 
 - **Throwing:** Use the Throw command (`t`) to throw a weapon from your inventory.
-- **Accuracy:** Throwing weapons at melee range gives a large to-hit penalty.
+- **Accuracy:** Throwing weapons at melee range gives a large to-hit penalty (-40).
 - **Autopickup:** You automatically pick up thrown weapons by default.
 
 ### 🔗 Learn More
