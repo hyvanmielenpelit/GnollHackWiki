@@ -17,3 +17,5 @@ This is a readable manual that provides useful information about various aspects
 5. A blessed prayerstone will shimmer when it is safe to pray.
 6. You can make a prayerstone blessed by sacrificing on the altar while the stone is in open inventory.
 7. Praying does not work in Gehennom.
+
+The 1000-turn rule of thumb is a rough guide. After a successful prayer, in 95% of cases the timeout is at most 614 turns for Priests and 1229 turns for other roles. The exact figures and the trouble thresholds are on the [[/Praying]] page.
