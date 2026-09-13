@@ -4,14 +4,14 @@
 
 ## 💪 Attribute Scores
 
-| Attribute | Modifier | Maximum |
-| :--- | :---: | :---: |
-| **Strength 💪** | +0 | 18/** |
-| **Dexterity 🎯** | +0 | 18 |
-| **Constitution 🔋** | +0 | 18 |
-| **Intelligence 🧠** | +0 | 18 |
-| **Wisdom 🦉** | +0 | 18 |
-| **Charisma ✨** | +0 | 18 |
+| Attribute | Maximum |
+| :--- | :---: |
+| **Strength 💪** | 18/** |
+| **Dexterity 🎯** | 18 |
+| **Constitution 🔋** | 18 |
+| **Intelligence 🧠** | 18 |
+| **Wisdom 🦉** | 18 |
+| **Charisma ✨** | 18 |
 
 ## ❤️ Hit Points and Mana
 

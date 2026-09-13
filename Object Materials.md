@@ -31,7 +31,7 @@ Most typical special materials give the following effects:
     - 75% of normal weight
     - Half normal enchantability
 - Mithril: 
-    - -3 AC and +2 MC for body armors
+    - -3 AC and +3 MC for body armors
     - -2 AC and +1 MC for other armor types
     - Bisection resistance for body armors
     - 0.9x spell casting penalty multiplier
