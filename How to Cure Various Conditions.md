@@ -15,7 +15,7 @@ You can contract mummy rot from mummies in the game. If their melee attack bypas
 
 ## Stoning/Petrification
 
-When a [[/Monsters/cockatrice]] touches you and its attack bypasses your [[Magic Cancellation|Resistances and Saving Throws#4-magic-cancellation]], you will quickly turn to stone. You have exactly one turn time to cure the condition. It can be cured as follows:
+When a [[/Monsters/chickatrice]], [[/Monsters/cockatrice]], [[/Monsters/giant cockatrice]] or [[/Monsters/gargantuan cockatrice]] that has not been cancelled touches you and its attack bypasses your [[Magic Cancellation|Resistances and Saving Throws#4-magic-cancellation]], you begin to turn to stone, unless you have petrification resistance or are already turning to stone. If you are polymorphed into a golem other than a stone golem and lack that resistance, you become a stone golem instead, unless stone golems have been genocided. Petrification is not instant: the game first warns "You are slowing down." and then, one turn later, "Your limbs are stiffening.". In your own form, on foot, unencumbered, not slowed and not otherwise helpless, you get at least one action after each of these two warnings. If you are slower than that, for example because you are Burdened or carrying more, slowed, or polymorphed into a slow monster, a turn can pass with no action for you, so do not wait. One turn after the second warning, "Your limbs have turned to stone." appears and you can no longer move, so the cure must be used before that. In a form without limbs, these messages say "extremities" instead of "limbs". It can be cured as follows:
 
 - Eat a [[/Monsters/lizard]] corpse
 - Eat a [[/Items/dragon fruit]]

@@ -1,1 +1,21 @@
 Bones files are saved levels where an earlier dead character may have risen as a ghost.
+
+## 💀 What You Find on a Bones Level
+
+- **The dead character's possessions.** Each item the character was carrying directly is cursed four times out of five. Gold is never cursed this way, and an item that can never be cursed stays uncursed, although a blessed one still loses its blessing four times out of five. Items inside a bag or box keep the curse status they had, apart from the special items below. Check the loot for curses, for example on an altar, before wearing or wielding any of it.
+- **Special items are replaced**, wherever they are on the level, even inside a bag or box. The [[/Items/Amulet of Yendor]] becomes a cursed cheap plastic imitation of the Amulet of Yendor. The [[/Artifacts/Candelabrum of Invocation]] becomes cursed wax candles, one for each candle attached to it, or a single one if none was. The [[/Artifacts/Bell of Opening]] becomes a cursed bell, and the [[/Artifacts/Book of the Dead]] and the Book of Modron become cursed spellbooks of blank paper.
+- **A shopkeeper's claim.** A shopkeeper can claim everything the character had, for example when the character died inside a shop or owed a shopkeeper more than the gold they carried. A peaceful shopkeeper who was owed nothing claims it only when the character died inside their shop and does not rise as another monster (see below). The shopkeeper then keeps the gold, and the other possessions are normally left on the floor of that shop, with the same chance of being cursed, instead of going into a statue or a risen monster's inventory.
+- **A ghost and a grave.** Most characters come back as a ghost on the square where they died. The ghost bears the dead character's name, has their experience level, and is asleep when you arrive. That square normally becomes a grave carrying the character's name and cause of death, with the corpse and the possessions lying on the floor there. Nothing of theirs is buried, so you do not need to dig the grave up to reach them.
+- **Another monster instead of a ghost.** A character killed in melee by a [[/Monsters/spectre]], [[/Monsters/barrow wight]] or [[/Monsters/ghoul]] normally rises as that same monster. One killed in melee by any other wraith rises as a plain [[/Monsters/wraith]], and one killed in melee by any mummy rises as a mummy of their own race. A human killed in melee by a vampire in its own vampire form rises as a plain [[/Monsters/vampire]]; characters of other races become a ghost as usual. A character who is drained below experience level 1 by a life-draining attack, or killed by a missile the monster threw or fired, also becomes a ghost as usual. A character who died of mummy rot rises as a mummy of their own race, and one who turned into green slime remains as a [[/Monsters/green slime]]. If that kind of monster had been genocided in the dead character's game, a ghost appears instead; if it has been genocided in your own game, the monster is gone from the level when you arrive, and so is everything it carried. Like a ghost, the monster bears the character's name, has their experience level and is asleep when you arrive. It carries the dead character's possessions in its inventory and wears what it can, and there is no grave. A mummy also gets a mummy wrapping if it did not already have one.
+- **A statue.** A character who was turned to stone leaves a statue named after them, with their possessions inside it. There is no ghost and no grave.
+
+## 🪦 Digging Up a Grave
+
+Digging up a grave changes some characters' alignment:
+
+- A lawful [[/Roles/Archaeologist]] loses three points of alignment and is told "You feel like a despicable grave-robber!". A neutral Archaeologist gets the same message but loses no alignment.
+- A [[/Roles/Samurai]] is told "You disturb the honorable dead!". A lawful Samurai loses one point and a neutral one loses nothing, while a chaotic one gains a point unless their alignment is already at its limit.
+- Any other lawful character loses one point and is told "You have violated the sanctity of this grave!", unless their alignment record is already -10 or lower.
+- Other characters lose no alignment.
+
+See [[Bones Sharing]] for how bones files are shared between players.
