@@ -48,8 +48,14 @@ Teaches clerical spells to the player if the player does not already know them. 
 
 ### 💰 Monetary Contributions
 
-Donate gold to the temple for divine favors (only available inside the temple).
+Donate gold to the temple for divine favors (only available inside the temple). Choose **Monetary contribution to the temple** when chatting with the priest. The priest first offers a major contribution and, if you decline, a minor donation instead. Each has a fixed price that you cannot change; you need at least that much gold, and the whole price is taken.
 
-- **Minor Donation:** Bestows a blessing that grants or extends the Clairvoyance intrinsic (by 500 to 999 turns). If coaligned and sinned, increases alignment record by 1.
-- **Major Contribution:** May reward devotion by granting or increasing the Protection intrinsic (adds intrinsic AC). If already at maximum protection or capped, it either cleanses sins (restores alignment record to 0 if strayed and it has been at least 5,000 moves since last cleansed) or increases alignment record by 2.
+| Contribution | Price at Charisma 11 | Effect |
+|---|---|---|
+| **Minor Donation** | 500 gold + 25 gold per experience level (650 gold at level 6) | Bestows a blessing that grants or extends the Clairvoyance intrinsic (by 500 to 999 turns). If coaligned and sinned, also increases alignment record by 1. |
+| **Major Contribution** | 2,500 gold + 150 gold per experience level (3,400 gold at level 6) | Rewards devotion by granting or increasing the Protection intrinsic (adds intrinsic AC). The first grant gives 1 to 3 points and each later one gives 1 point. It always succeeds while your intrinsic protection is below 8, succeeds only 1 time in N when it is N (8 to 11), and never at 12 or more. When no protection is granted, a coaligned priest instead either cleanses sins (restores alignment record to 0 if strayed and it has been at least 5,000 moves since last cleansed) or increases alignment record by 2. |
+
+Both prices are adjusted by [[/Charisma]]. Each point above 11 lowers them by about 5%, down to half price at Charisma 25, and each point below 11 raises them by about 5%. For example, a major contribution at experience level 6 costs about 2,400 gold at Charisma 18 and about 5,050 gold at Charisma 3.
+
+> 💡 **Tip:** Because both prices grow with your experience level, protection is cheapest to buy before you gain another level.
 
