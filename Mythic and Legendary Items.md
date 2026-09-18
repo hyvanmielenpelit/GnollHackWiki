@@ -56,7 +56,7 @@
 | of speed | Very fast speed | Melee weapons, boots, and gauntlets | Common |
 | of the Last Alliance | Triple damage against orcs, ogres, giants, and trolls, and prevents troll revival | All except orcish items, boots, and bludgeoning gauntlets | Rare |
 | of troll slaying | Triple damage against trolls, prevents troll revival | All except boots and bludgeoning gauntlets | Common |
-| of wounding | Causes permanent damage equal to 1d4 + enchantment | Slashing and piercing weapons, spiked gauntlets | Common |
+| of wounding | Causes permanent damage equal to 1d4 + enchantment | Slashing and piercing weapons, spiked gauntlets, spiked boots | Common |
 
 ## Armor
 
