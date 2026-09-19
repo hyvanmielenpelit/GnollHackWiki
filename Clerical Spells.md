@@ -2,7 +2,7 @@
 
 ## Spell School Stats
 
-- **Casting Stat:** Wisdom or Charisma
+- **Casting Stat:** Wisdom
 - **Somatic:** No
 
 ## Allowed Classes

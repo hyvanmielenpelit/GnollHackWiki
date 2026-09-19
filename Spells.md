@@ -7,7 +7,7 @@
 | [[Abjuration Spells]] | Int/Wis | No |
 | [[Arcane Spells]] | Int | Yes |
 | [[Celestial Spells]] | Wis/Cha | No |
-| [[Clerical Spells]] | Wis/Cha | No |
+| [[Clerical Spells]] | Wis | No |
 | [[Conjuration Spells]] | Int/Cha | Yes |
 | [[Divination Spells]] | Int/Wis/Cha (Any) | No |
 | [[Enchantment Spells]] | Int/Cha | No |
@@ -15,7 +15,7 @@
 | [[Movement Spells]] | Int/Wis | Yes |
 | [[Nature Spells]] | Wis/Cha | No |
 | [[Necromancy Spells]] | Wis/Cha | No |
-| [[Transmutation Spells]] | Int/Wis/Cha (Any)| Yes |
+| [[Transmutation Spells]] | Int/Wis | Yes |
 
 - <sup>1</sup> Casting of *somatic spells* is hindered by armor
 

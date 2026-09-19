@@ -14,7 +14,7 @@ Spells can belong to one of the following spell schools:
 - **Abjuration** — Int/Wis, non-somatic
 - **Arcane** — Int, somatic
 - **Celestial** — Wis/Cha, non-somatic
-- **Clerical** — Wis/Cha, non-somatic
+- **Clerical** — Wis, non-somatic
 - **Conjuration** — Int/Cha, somatic
 - **Divination** — Int/Wis/Cha (Any), non-somatic
 - **Enchantment** — Int/Cha, non-somatic
@@ -22,7 +22,7 @@ Spells can belong to one of the following spell schools:
 - **Movement** — Int/Wis, somatic
 - **Nature** — Wis/Cha, non-somatic
 - **Necromancy** — Wis/Cha, non-somatic
-- **Transmutation** — Int/Wis/Cha (Any), somatic
+- **Transmutation** — Int/Wis, somatic
 
 ### Attribute Bonus to Spell Casting Success Chance
 
