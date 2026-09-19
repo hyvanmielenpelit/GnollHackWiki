@@ -112,9 +112,13 @@ You learn spells from:
 - Artificer NPCs
 
 When learning a spell from a spell book, the following rules apply:
+- Opening a spell book you have not identified yet first tells you which spell it contains, identifies the book, and asks whether you want to continue, showing the spell's level and school. Declining costs only that one turn. A few special books only describe their topic at this point and must be read through to be identified.
 - Reading a **blessed spell book** gives you a 100% chance to learn the spell.
-- Reading a **uncursed spell book** gives you a percentage chance to learn the spell, depending on your level and your skill level in the appropriate school.
-- Reading a **cursed spell book** always fails and gives you a negative effect.
+- Reading an **uncursed spell book** succeeds when a roll of 1–20 does not exceed your *read ability*: the spell's casting attribute + 8 + your [[experience level]] + 4 for each [[skill level|Skills]] above Unskilled in the spell's school − 2 × the spell's level, and + 2 more if you have enhanced vision. Each point of read ability below 20 is a 5% chance to fail; at 20 or more the book cannot fail.
+- When your read ability is below 20 and you are not confused, the game warns you how difficult the spell book seems and asks whether to continue, so you can still back out.
+- Failing to learn from an uncursed spell book confuses you for a few turns half of the time, and, as a separate roll, the book crumbles to dust half of the time. A failure never paralyzes you.
+- Reading a **cursed spell book** always fails and gives you a negative effect: a teleport, aggravated monsters, blindness, lost gold, confusion, contact poison, an explosion that destroys the book, or a curse on the items you carry. The higher the spell's level, the more of these effects are possible. Unless it exploded, the book also crumbles to dust half of the time.
+- When you learn the spell, the spell book crumbles to dust.
 
 NPCs ask you for a fee, but you learn the spell with a 100% chance.
 
