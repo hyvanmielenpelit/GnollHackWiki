@@ -2,7 +2,7 @@
 
 Increases the spell casting success and reduces the mana cost of movement spells. Also, incurs a saving throw penalty.
 
-Movement spells are somatic. They receive spell casting success penalty from wearing heavy armor.
+Movement spells are non-somatic. They do not get spell casting penalty from wearing heavy armor.
 
 ### Effect
 

@@ -12,7 +12,7 @@
 | [[Divination Spells]] | Int/Wis/Cha (Any) | No |
 | [[Enchantment Spells]] | Int/Cha | No |
 | [[Healing Spells]] | Wis | No |
-| [[Movement Spells]] | Int/Wis | Yes |
+| [[Movement Spells]] | Int/Wis | No |
 | [[Nature Spells]] | Wis/Cha | No |
 | [[Necromancy Spells]] | Wis/Cha | No |
 | [[Transmutation Spells]] | Int/Wis | Yes |

@@ -1,1 +1,0 @@
-Blank paperimpossible: Unknown spell skill, 0;Program in disorder!  (Saving and reloading may fix this problem.)Major  cantripAttributes:       StrengthMana cost:        0.1Casting time:     1 roundCooldown:         NoneTrain chance:     0%Components:       Verbal, Somatic

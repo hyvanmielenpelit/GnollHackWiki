@@ -19,7 +19,7 @@ Spells can belong to one of the following spell schools:
 - **Divination** — Int/Wis/Cha (Any), non-somatic
 - **Enchantment** — Int/Cha, non-somatic
 - **Healing** — Wis, non-somatic
-- **Movement** — Int/Wis, somatic
+- **Movement** — Int/Wis, non-somatic
 - **Nature** — Wis/Cha, non-somatic
 - **Necromancy** — Wis/Cha, non-somatic
 - **Transmutation** — Int/Wis, somatic
