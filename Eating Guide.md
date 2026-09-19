@@ -16,6 +16,8 @@ Characters in GnollHack have a nutrition level that dictates their current hunge
 | **FAINTED** | (Unconscious) | -1 [[Strength]] | Unconscious and completely vulnerable to attacks. |
 | **STARVED** | Below -(100 + 10 * [[Constitution]]) | Dead | Instant death due to starvation (unless life-saved). |
 
+Your character normally uses up **1 point of nutrition every turn**, and each melee attack you make costs one extra turn's worth of nutrition on top of that. Worn magical items add to this: each worn item whose page lists *Consumes nutrition every 20 rounds when worn* uses 1 more point every 20 turns, counted separately for every such item. The same cost applies to each worn magical ring (a ring that can be enchanted counts only while its enchantment is not +0), to a worn magical amulet, and to carrying the Amulet of Yendor. Wearing two such items, with nothing else adding to your hunger, therefore raises the rate from 1 to 1.1 points per turn on average.
+
 ### 😵 Choking Hazard
 Eating while in the **SATIATED** state can be fatal. If your nutrition level rises to **2000** or above, your character will choke to death. 
 - **Safe Foods:** Edible items that provide **50 or less nutrition** (such as fruits, herbs, garlic, and most mushrooms) do not trigger choking checks and can be consumed safely even when satiated.
