@@ -234,6 +234,9 @@ For the practical outcome of this process, see [[/Guides/Choosing AI Model for G
 - [[/Guides/Advanced Guide to AI Benchmarking in Gnoll Overseer]] — How scoring, grading, and repeated runs work.
 - [[/Guides/Technological Overview of AI Benchmarking in Gnoll Overseer]] — The technical details, for readers who know AI evaluation.
 - [[/Guides/Choosing AI Model for Gnoll Overseer]] — Which model to pick for which task.
+
+## 🔗 External Links
+
 - [Artificial Analysis: Intelligence Benchmarking Methodology](https://artificialanalysis.ai/methodology/intelligence-benchmarking)
 - [Artificial Analysis: Performance Benchmarking Methodology](https://artificialanalysis.ai/methodology/performance-benchmarking)
 - [Arena FAQ](https://arena.ai/faq)

@@ -14,6 +14,7 @@ When editing or creating pages for the GnollHack Wiki, follow these conventions 
 - **Subdirectories**: Group files into subdirectories (e.g., `/Monsters/`, `/Items/`) to prevent naming conflicts and organize content.
 - **Ingress**: If an article has an ingress, it must be styled as a block quote (`>`) starting with a `👉` emoji, followed by bold text (e.g., `> 👉 **This is the ingress.**`).
 - **Lists**: Use a dash (`-`) for Markdown lists instead of an asterisk (`*`) by default.
+- **Closing Link Sections**: Keep wiki pages and external websites in separate sections at the end of a page. A `## 🔗 Learn More` or `## 🔗 See Also` section lists only wikilinks to other pages of this wiki. External links (standard Markdown links to other websites) go into their own `## 🔗 External Links` section, placed after it as the last section of the page. Use `## 📖 References` instead when the links are the sources that the page's facts are based on. Never mix wikilinks and external links in one list.
 
 ## 2. Wikilinks (Gollum Syntax)
 - **Syntax**: Use Gollum-style wikilinks: `[[Alias|Page Name]]` or `[[Page Name]]`. **IMPORTANT**: The alias always comes first and the page name comes last!
