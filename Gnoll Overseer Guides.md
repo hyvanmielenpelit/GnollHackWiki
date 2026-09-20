@@ -1,4 +1,4 @@
-> 👉 This page lists every guide about the Gnoll Overseer, from your first chat to the technical background of the service.
+> 👉 This page lists every guide about the Gnoll Overseer, from your first chat to **GnollBench**, the Overseer's AI benchmark, and the technical background of the service.
 
 ## 🐺 Using the Gnoll Overseer
 
@@ -11,17 +11,18 @@
 
 - [[/Guides/Technological Overview of Gnoll Overseer]] — The architecture, frameworks, and tools behind the Overseer service
 
-## 📊 AI Benchmarking
+## 📊 GnollBench: AI Benchmarking
 
-Before an AI model is offered in the Gnoll Overseer, the developers test it with a fixed set of GnollHack questions. The same tests are used to find and fix weaknesses in the Overseer itself. This testing system is called **GnollBench**. The three guides below cover the same topic at three levels of depth, so pick the one that suits you:
+**GnollBench** is the Gnoll Overseer's own AI benchmark. Before an AI model is offered in the Overseer, it has to pass GnollBench: a fixed exam of GnollHack questions, taken with the same instructions and lookup tools as the real chat. The same exam is used to find and fix weaknesses in the Overseer itself.
 
-- [[/Guides/Introduction to GnollBench]] — For newcomers: what AI benchmarking is and why it is done, in plain language
-- [[/Guides/Advanced Guide to GnollBench]] — For interested readers: how scoring, grading, and repeated runs work
-- [[/Guides/Technological Overview of GnollBench]] — For readers who know AI evaluation: formulas, statistics, and comparability rules
+| Guide | For whom | What you get |
+| :--- | :--- | :--- |
+| [[/Guides/Introduction to GnollBench]] | Newcomers | What GnollBench is and why it exists, in plain language |
+| [[/Guides/Advanced Guide to GnollBench]] | Interested readers | How scoring, grading, and repeated runs work |
+| [[/Guides/Technological Overview of GnollBench]] | Readers who know AI evaluation | Formulas, statistics, and comparability rules |
+| [[/Guides/Comparison of GnollBench and Popular AI Benchmarks]] | Anyone comparing benchmarks | How GnollBench compares with popular public AI benchmarks, and how they complement each other |
 
-A fourth article puts GnollBench in context:
-
-- [[/Guides/Comparison of GnollBench and Popular AI Benchmarks]] — How GnollBench compares with popular public AI benchmarks, and how they complement each other
+> 💡 **Tip:** Not sure where to start? Read the introduction first. Each GnollBench guide links to the next level of depth.
 
 ## 🔗 See Also
 
