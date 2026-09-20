@@ -7,8 +7,8 @@ The three system models differ in their thinking level, provider, intelligence, 
 | Model | Thinking Level | Provider | Intelligence | Speed | Cost |
 | :---- | :------------- | :------- | :----------- | :---- | :--- |
 | **GPT-5.6 Luna** | **High** | OpenAI | 🟡 Medium | 🟡 Medium | 🟢 Very low |
-| **Gemini 3.7 Flash** | **Medium** | Google | 🟡 Medium | 🟢 Fast | 🟡 Medium |
 | **GPT-5.6 Luna** | **Max** | OpenAI | 🟢 High | 🔴 Slow | 🟢 Low |
+| **Gemini 3.7 Flash** | **Medium** | Google | 🟡 Medium | 🟢 Fast | 🟡 Medium |
 
 ## 🎯 Choosing the Right Model
 
