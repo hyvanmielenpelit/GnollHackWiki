@@ -24,6 +24,10 @@
 * [[Monsters]]
 * [[Dungeon Layout]]
 
+### Gnoll Overseer
+
+* [[Gnoll Overseer Guides]]
+
 ### Development
 
 * [[Development Information]]
