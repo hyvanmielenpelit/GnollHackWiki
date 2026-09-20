@@ -87,6 +87,9 @@ You can customize the Overseer to better suit your learning style:
 
 ## 💡 Learn More
 
+- [[/Gnoll Overseer Guides]] — All Gnoll Overseer guides in one place.
 - [[/Guides/Introduction to Gnoll Overseer]] — General player overview and getting started.
+- [[/Guides/Choosing AI Model for Gnoll Overseer]] — How to choose the right AI model.
+- [[/Guides/Chat Confidentiality Modes in Gnoll Overseer]] — Standard, Confidential, and Incognito chats.
 - [[/Guides/Technological Overview of Gnoll Overseer]] — Developer documentation detailing the technical architecture.
 - [[/Overseer AI Providers]] — Overview of supported AI providers.

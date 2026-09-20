@@ -45,6 +45,9 @@ The Overseer section also contains **[[Client Data Access|/Settings#client-data-
 
 ## 💡 Learn More
 
+- [[/Gnoll Overseer Guides]] — All Gnoll Overseer guides in one place.
+- [[/Guides/Choosing AI Model for Gnoll Overseer]] — How to choose the right AI model.
+- [[/Guides/Chat Confidentiality Modes in Gnoll Overseer]] — Standard, Confidential, and Incognito chats.
 - [[/Guides/Advanced Guide to Gnoll Overseer]] — Deep dive into advanced settings, custom API keys, and the web interface.
 - [[/Guides/Technological Overview of Gnoll Overseer]] — Technical architecture of the Overseer service.
 - [[/Overseer AI Providers]] — Overview of supported AI providers and model families.

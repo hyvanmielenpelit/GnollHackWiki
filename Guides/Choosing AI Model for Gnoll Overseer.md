@@ -30,7 +30,9 @@ If you are not satisfied with the system models, you can always bring your own A
 
 ## 💡 Learn More
 
+- [[/Gnoll Overseer Guides]] — All Gnoll Overseer guides in one place.
 - [[/Guides/Introduction to Gnoll Overseer]] — What the Gnoll Overseer is and how to access it.
 - [[/Guides/Advanced Guide to Gnoll Overseer]] — Advanced settings, custom API keys, and the web interface.
 - [[/Guides/Technological Overview of Gnoll Overseer]] — Technical architecture of the Overseer service.
+- [[/Guides/Introduction to AI Benchmarking in Gnoll Overseer]] — How AI models are tested for the Overseer.
 - [[/Overseer AI Providers]] — Supported AI providers and their terms.
