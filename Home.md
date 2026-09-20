@@ -78,6 +78,7 @@ The Gnoll Overseer is your in-game assistant for all things GnollHack. He is hig
 
 - **[[/Guides/Introduction to Gnoll Overseer]]** — Learn about what Gnoll Overseer is 
 - **[[/Guides/Choosing AI Model for Gnoll Overseer]]** — How to choose the right AI model when using Gnoll Overseer
+- **[[/Guides/Chat Confidentiality Modes in Gnoll Overseer]]** — Standard, Confidential, and Incognito chats, and what each one protects
 - **[[/Guides/Advanced Guide to Gnoll Overseer]]** — An in-depth guide to Gnoll Overseer
 
 ## 📋 Technical Information
