@@ -13,11 +13,15 @@
 
 ## 📊 AI Benchmarking
 
-Before an AI model is offered in the Gnoll Overseer, the developers test it with a fixed set of GnollHack questions. The same tests are used to find and fix weaknesses in the Overseer itself. The three guides below cover the same topic at three levels of depth, so pick the one that suits you:
+Before an AI model is offered in the Gnoll Overseer, the developers test it with a fixed set of GnollHack questions. The same tests are used to find and fix weaknesses in the Overseer itself. This testing system is called **GnollBench**. The three guides below cover the same topic at three levels of depth, so pick the one that suits you:
 
 - [[/Guides/Introduction to AI Benchmarking in Gnoll Overseer]] — For newcomers: what AI benchmarking is and why it is done, in plain language
 - [[/Guides/Advanced Guide to AI Benchmarking in Gnoll Overseer]] — For interested readers: how scoring, grading, and repeated runs work
 - [[/Guides/Technological Overview of AI Benchmarking in Gnoll Overseer]] — For readers who know AI evaluation: formulas, statistics, and comparability rules
+
+A fourth article puts GnollBench in context:
+
+- [[/Guides/Comparison of GnollBench and Popular AI Benchmarks]] — How GnollBench compares with popular public AI benchmarks, and how they complement each other
 
 ## 🔗 See Also
 

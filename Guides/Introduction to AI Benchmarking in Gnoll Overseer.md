@@ -4,7 +4,7 @@
 
 Think of a school exam. Every student gets the same questions, a teacher marks the answers against an answer key, and at the end everyone has a grade that can be compared fairly.
 
-AI benchmarking is the same idea, with AI models as the students. The Gnoll Overseer's developers give a model a fixed set of GnollHack questions, mark its answers, and end up with grades that show how good the model is at helping players.
+AI benchmarking is the same idea, with AI models as the students. The Gnoll Overseer's developers give a model a fixed set of GnollHack questions, mark its answers, and end up with grades that show how good the model is at helping players. The Overseer's benchmarking system is called **GnollBench**.
 
 > ℹ️ **Term — AI model:** The "brain" that writes the Overseer's answers. Several companies make them, and they differ in how smart, how fast, and how expensive they are. See [[/Guides/Choosing AI Model for Gnoll Overseer]].
 
@@ -83,5 +83,6 @@ An exam marked by an AI needs safeguards, and the benchmark has several:
 - [[/Gnoll Overseer Guides]] — All Gnoll Overseer guides in one place.
 - [[/Guides/Advanced Guide to AI Benchmarking in Gnoll Overseer]] — The next step: how scoring, grading, and repeated runs work.
 - [[/Guides/Technological Overview of AI Benchmarking in Gnoll Overseer]] — The technical details, for readers who know AI evaluation.
+- [[/Guides/Comparison of GnollBench and Popular AI Benchmarks]] — How GnollBench relates to well-known public AI benchmarks.
 - [[/Guides/Choosing AI Model for Gnoll Overseer]] — Which model to pick for which task.
 - [[/Guides/Introduction to Gnoll Overseer]] — What the Gnoll Overseer is and how to access it.

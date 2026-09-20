@@ -4,7 +4,7 @@
 
 ## 📖 Overview
 
-The benchmark is an automated exam for AI models, run by the Overseer's administrators. Its purposes are, in order of importance:
+The benchmark, called **GnollBench**, is an automated exam for AI models, run by the Overseer's administrators. Its purposes are, in order of importance:
 
 1. **Improving the Overseer's chat**, by finding wrong answers and tracing them to their cause: a missing wiki fact, a confusing tool result, an unclear instruction.
 2. **Improving the benchmark itself**, so that its numbers can be trusted.
@@ -207,6 +207,7 @@ The benchmark covers single questions asked in the chat's default configuration.
 | **Confidence interval** | The range of uncertainty around a measured value |
 | **Critical error** | A confidently stated, harmful falsehood; caps the quality score at 25 |
 | **Game snapshot** | A text description of a game situation that questions can be based on |
+| **GnollBench** | The name of the Gnoll Overseer's AI benchmarking system |
 | **Harness** | The software that runs the exam |
 | **Intelligence Index** | The difficulty-weighted average quality score of a run |
 | **Quality score** | The combined 1–100 score of a single answer |
@@ -231,5 +232,6 @@ The benchmark covers single questions asked in the chat's default configuration.
 - [[/Gnoll Overseer Guides]] — All Gnoll Overseer guides in one place.
 - [[/Guides/Introduction to AI Benchmarking in Gnoll Overseer]] — The plain-language introduction.
 - [[/Guides/Technological Overview of AI Benchmarking in Gnoll Overseer]] — Formulas, statistics, and comparability rules in full.
+- [[/Guides/Comparison of GnollBench and Popular AI Benchmarks]] — How GnollBench relates to well-known public AI benchmarks.
 - [[/Guides/Choosing AI Model for Gnoll Overseer]] — Which model to pick for which task.
 - [[/Guides/Technological Overview of Gnoll Overseer]] — The architecture of the Overseer service.
