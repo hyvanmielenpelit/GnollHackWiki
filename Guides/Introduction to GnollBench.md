@@ -81,8 +81,8 @@ An exam marked by an AI needs safeguards, and the benchmark has several:
 ## 🔗 Learn More
 
 - [[/Gnoll Overseer Guides]] — All Gnoll Overseer guides in one place.
-- [[/Guides/Advanced Guide to AI Benchmarking in Gnoll Overseer]] — The next step: how scoring, grading, and repeated runs work.
-- [[/Guides/Technological Overview of AI Benchmarking in Gnoll Overseer]] — The technical details, for readers who know AI evaluation.
+- [[/Guides/Advanced Guide to GnollBench]] — The next step: how scoring, grading, and repeated runs work.
+- [[/Guides/Technological Overview of GnollBench]] — The technical details, for readers who know AI evaluation.
 - [[/Guides/Comparison of GnollBench and Popular AI Benchmarks]] — How GnollBench relates to well-known public AI benchmarks.
 - [[/Guides/Choosing AI Model for Gnoll Overseer]] — Which model to pick for which task.
 - [[/Guides/Introduction to Gnoll Overseer]] — What the Gnoll Overseer is and how to access it.

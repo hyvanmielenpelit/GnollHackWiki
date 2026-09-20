@@ -1,4 +1,4 @@
-> 👉 **An in-depth look at how the Gnoll Overseer's AI benchmarking works: how questions and answer keys are built, which AI roles take part in a run, how an answer turns into a score, and why a single run is never the whole story. It assumes you know the basics covered in [[/Guides/Introduction to AI Benchmarking in Gnoll Overseer]].**
+> 👉 **An in-depth look at how the Gnoll Overseer's AI benchmarking works: how questions and answer keys are built, which AI roles take part in a run, how an answer turns into a score, and why a single run is never the whole story. It assumes you know the basics covered in [[/Guides/Introduction to GnollBench]].**
 
 > ℹ️ **Note:** This article describes the benchmarking system as of September 2026: harness version 37 and scoring method version 12. Figures such as limits and thresholds may change in later versions.
 
@@ -230,8 +230,8 @@ The benchmark covers single questions asked in the chat's default configuration.
 ## 🔗 Learn More
 
 - [[/Gnoll Overseer Guides]] — All Gnoll Overseer guides in one place.
-- [[/Guides/Introduction to AI Benchmarking in Gnoll Overseer]] — The plain-language introduction.
-- [[/Guides/Technological Overview of AI Benchmarking in Gnoll Overseer]] — Formulas, statistics, and comparability rules in full.
+- [[/Guides/Introduction to GnollBench]] — The plain-language introduction.
+- [[/Guides/Technological Overview of GnollBench]] — Formulas, statistics, and comparability rules in full.
 - [[/Guides/Comparison of GnollBench and Popular AI Benchmarks]] — How GnollBench relates to well-known public AI benchmarks.
 - [[/Guides/Choosing AI Model for Gnoll Overseer]] — Which model to pick for which task.
 - [[/Guides/Technological Overview of Gnoll Overseer]] — The architecture of the Overseer service.

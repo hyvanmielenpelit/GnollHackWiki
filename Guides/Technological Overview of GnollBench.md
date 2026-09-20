@@ -2,7 +2,7 @@
 
 > ℹ️ **Note:** This article describes the benchmarking system as of September 2026: harness version 37 and scoring method version 12. Figures such as limits and thresholds may change in later versions.
 
-For a gentler treatment of the same system, see [[/Guides/Introduction to AI Benchmarking in Gnoll Overseer]] and [[/Guides/Advanced Guide to AI Benchmarking in Gnoll Overseer]]. Benchmarks are run by administrators, and results are used internally; this article describes the method only. The system is called **GnollBench**.
+For a gentler treatment of the same system, see [[/Guides/Introduction to GnollBench]] and [[/Guides/Advanced Guide to GnollBench]]. Benchmarks are run by administrators, and results are used internally; this article describes the method only. The system is called **GnollBench**.
 
 ## 🏗️ Design Goals
 
@@ -323,8 +323,8 @@ The benchmark is internal evaluation, and technical controls keep it from resemb
 ## 🔗 Learn More
 
 - [[/Gnoll Overseer Guides]] — All Gnoll Overseer guides in one place.
-- [[/Guides/Introduction to AI Benchmarking in Gnoll Overseer]] — The plain-language introduction.
-- [[/Guides/Advanced Guide to AI Benchmarking in Gnoll Overseer]] — The intermediate guide to scoring, grading, and repeated runs.
+- [[/Guides/Introduction to GnollBench]] — The plain-language introduction.
+- [[/Guides/Advanced Guide to GnollBench]] — The intermediate guide to scoring, grading, and repeated runs.
 - [[/Guides/Comparison of GnollBench and Popular AI Benchmarks]] — How GnollBench relates to well-known public AI benchmarks.
 - [[/Guides/Technological Overview of Gnoll Overseer]] — The architecture of the Overseer service, including its tools.
 - [[/Guides/Choosing AI Model for Gnoll Overseer]] — Which model to pick for which task.

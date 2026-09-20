@@ -27,6 +27,7 @@
 ### Gnoll Overseer
 
 * [[Gnoll Overseer Guides]]
+* [[GnollBench|/Guides/Introduction to GnollBench]]
 
 ### Development
 

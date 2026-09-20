@@ -19,7 +19,7 @@ From a distance, all AI benchmarks look alike: give AI models a fixed set of tas
 
 > 💡 **Tip:** Think of hiring. Public benchmarks are the applicant's **school grades**: broad, standardized, and comparable across everyone. GnollBench is the **trial day at the actual workplace**: narrow, but it shows how the applicant does *this* job with *these* tools. A sensible employer looks at both.
 
-New to the topic? [[/Guides/Introduction to AI Benchmarking in Gnoll Overseer]] explains what GnollBench is in plain language.
+New to the topic? [[/Guides/Introduction to GnollBench]] explains what GnollBench is in plain language.
 
 ## 🌍 The Public Benchmarks in Brief
 
@@ -230,9 +230,9 @@ For the practical outcome of this process, see [[/Guides/Choosing AI Model for G
 ## 🔗 Learn More
 
 - [[/Gnoll Overseer Guides]] — All Gnoll Overseer guides in one place.
-- [[/Guides/Introduction to AI Benchmarking in Gnoll Overseer]] — What GnollBench is, in plain language.
-- [[/Guides/Advanced Guide to AI Benchmarking in Gnoll Overseer]] — How scoring, grading, and repeated runs work.
-- [[/Guides/Technological Overview of AI Benchmarking in Gnoll Overseer]] — The technical details, for readers who know AI evaluation.
+- [[/Guides/Introduction to GnollBench]] — What GnollBench is, in plain language.
+- [[/Guides/Advanced Guide to GnollBench]] — How scoring, grading, and repeated runs work.
+- [[/Guides/Technological Overview of GnollBench]] — The technical details, for readers who know AI evaluation.
 - [[/Guides/Choosing AI Model for Gnoll Overseer]] — Which model to pick for which task.
 
 ## 🔗 External Links
