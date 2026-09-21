@@ -24,7 +24,7 @@
 * [[Monsters]]
 * [[Dungeon Layout]]
 
-### Gnoll Overseer
+### AI Game Assistant
 
 * [[Gnoll Overseer]]
 * [[GnollBench]]
