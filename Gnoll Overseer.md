@@ -12,3 +12,7 @@
 ## 🏗️ Technical Background
 
 - [[/Guides/Technological Overview of Gnoll Overseer]] — The architecture, frameworks, and tools behind the Overseer service
+
+## 📖 Learn More
+
+- [[/GnollBench]] — Gnoll Overseer's own AI benchmark.
