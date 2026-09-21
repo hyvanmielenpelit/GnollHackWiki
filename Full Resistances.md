@@ -491,6 +491,6 @@ Immunity to petrification attacks.
 | :--- | :---: | :--- |
 | **of cockatrice slaying** | Suffix | Weapons |
 
-## ℹ️ See Also
+## 📖 See Also
 
 - [[Resistances and Saving Throws]]

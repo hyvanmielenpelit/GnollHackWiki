@@ -282,9 +282,9 @@ GnollBench covers single questions asked in the chat's default configuration. Se
 - The grader is held to strict rules: every deduction must be explained, and knowing more than the rubric is never punished.
 - Real conclusions need replicate runs, and runs are only pooled when their conditions match.
 
-## 🔗 Learn More
+## 📖 Learn More
 
-- [[/Gnoll Overseer Guides]] — All Gnoll Overseer guides in one place.
+- [[/GnollBench]] — All GnollBench guides in one place.
 - [[/Guides/Introduction to GnollBench]] — The plain-language introduction.
 - [[/Guides/Technological Overview of GnollBench]] — Formulas, statistics, and comparability rules in full.
 - [[/Guides/Comparison of GnollBench and Popular AI Benchmarks]] — How GnollBench relates to well-known public AI benchmarks.

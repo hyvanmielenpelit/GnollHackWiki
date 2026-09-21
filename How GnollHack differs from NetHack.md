@@ -84,6 +84,6 @@ GnollHack's GUI on Windows:
 
 ![GnollHack on Windows](/uploads/How%20GnollHack%20differs%20from%20NetHack/gnollhack-windows-q85.webp)
 
-## ℹ️ See Also
+## 📖 See Also
 
 - **[[Comparisons to Other Games]]**

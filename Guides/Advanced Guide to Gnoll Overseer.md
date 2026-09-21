@@ -85,11 +85,10 @@ You can customize the Overseer to better suit your learning style:
 - **Session Pinning:** Use the pin icon in the chat interface to save important conversations. This is great for keeping track of long-term strategies, checklists, or specific mechanic explanations that you want to refer back to later.
 - **Unlimited Usage (Bring Your Own Key):** If you find yourself heavily relying on the Overseer and hitting usage limits, you can provide your own API key in the web interface settings for unrestricted access and the ability to choose different AI models.
 
-## 💡 Learn More
+## 📖 Learn More
 
-- [[/Gnoll Overseer Guides]] — All Gnoll Overseer guides in one place.
+- [[/Gnoll Overseer]] — All Gnoll Overseer guides in one place.
 - [[/Guides/Introduction to Gnoll Overseer]] — General player overview and getting started.
 - [[/Guides/Choosing AI Model for Gnoll Overseer]] — How to choose the right AI model.
 - [[/Guides/Chat Confidentiality Modes in Gnoll Overseer]] — Standard, Confidential, and Incognito chats.
 - [[/Guides/Technological Overview of Gnoll Overseer]] — Developer documentation detailing the technical architecture.
-- [[/Overseer AI Providers]] — Overview of supported AI providers.

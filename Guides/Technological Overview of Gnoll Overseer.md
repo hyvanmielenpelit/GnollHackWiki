@@ -126,11 +126,14 @@ User-provided AI API keys (BYOK) are encrypted at rest using AES-256-GCM:
 - **Multi-Tier Quotas** — Daily, monthly, and lifetime caps on request counts and token usage per user group.
 - **Per-Session Tool Limits** — Configurable maximum tool calls per session and per AI turn (default 10 iterations).
 
-## 💡 Learn More
+## 📖 Learn More
 
-- [[/Gnoll Overseer Guides]] — All Gnoll Overseer guides in one place.
+- [[/Gnoll Overseer]] — All Gnoll Overseer guides in one place.
 - [[/Guides/Introduction to Gnoll Overseer]] — Player introduction and getting started.
 - [[/Guides/Advanced Guide to Gnoll Overseer]] — Detailed tool guides, model configuration, and full settings reference.
 - [[/Guides/Technological Overview of GnollBench]] — How GnollBench, the Overseer's AI benchmarking system, works.
-- [[/Overseer AI Providers]] — AI provider capabilities and model options.
+
+
+## 🔗 External Links
+
 - [MobileGnollHackLogger Repository](https://github.com/hyvanmielenpelit/MobileGnollHackLogger) — Full source code and developer documentation.

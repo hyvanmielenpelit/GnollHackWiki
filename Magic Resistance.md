@@ -101,6 +101,6 @@ Magic resistance does *not* protect you from:
 - [[/Spells/Polymorph other]] spell cast at yourself
 - Polymorph from drinking a [[/Items/potion of polymorph]]
 
-## ℹ️ See Also
+## 📖 See Also
 
 - [[Resistances and Saving Throws]]

@@ -25,7 +25,7 @@ If you are a NetHack veteran, you might be wondering why you should play GnollHa
 We recommend trying out a spellcasting class like a [[/Roles/Wizard]] or a hybrid like an [[/Roles/Archaeologist]] (who now starts with a [[/Items/hand crossbow]]!) to experience the new spell system and ranged combat mechanics. Alternatively, try out the new [[/Races/Gnoll]] race to see their specialized starting gear.
 
 
-### 🔗 Learn More
+### 📖 Learn More
 
 - [[How GnollHack differs from NetHack]] — Detailed summary of key differences from vanilla NetHack
 - [[Comparison to Other NetHack Variants]] — Comprehensive comparison of GnollHack to other major variants
@@ -91,7 +91,7 @@ GnollHack's late game is more difficult than NetHack's.
 | Yell for pets (`Ctrl+y` / `Alt+y`) | New | Call your pets to your location. |
 
 
-### 🔗 Learn More
+### 📖 Learn More
 
 - [[Keyboard Shortcuts]] — Extensive guide to mobile and desktop controls and shortcuts
 - [[Keyboard Command Changes from NetHack]] — Key differences in commands from NetHack
@@ -113,7 +113,7 @@ GnollHack's late game is more difficult than NetHack's.
 > 💡 **Tip:** Since there is no attribute training by actions in GnollHack, look out for attribute-boosting corpses (like ogres or giants) and fruits. Eating a fruit like a banana or pomegranate will directly boost your stats!
 
 
-### 🔗 Learn More
+### 📖 Learn More
 
 - [[Attribute Scores]] — Overview of Strength, Dexterity, Constitution, Intelligence, Wisdom, and Charisma
 - [[Experience Level]] — Detailed information on progression and experience requirements
@@ -128,7 +128,7 @@ GnollHack's late game is more difficult than NetHack's.
 > ⚠️ **Warning:** Somatic spells cannot be cast reliably in heavy armor. Make sure to wear lightweight armor or robes if you play a Wizard, as somatic cast penalties can completely prevent spellcasting.
 
 
-### 🔗 Learn More
+### 📖 Learn More
 
 - [[Spells]] — Full spell lists, levels, and statistics
 - [[Spell Casting]] — Detailed spellcasting mechanics, somatic armor penalties, and casting chances
@@ -176,7 +176,7 @@ GnollHack's late game is more difficult than NetHack's.
 > ⚠️ **Warning:** Remember to acquire **Death Resistance** against insta-death attacks. Magic Resistance alone will **not** protect you from these anymore!
 
 
-### 🔗 Learn More
+### 📖 Learn More
 
 - [[Items]] — Complete catalog of item categories and properties
 - [[Armor Class (AC) and Magic Cancellation (MC)]] — Calculations for AC, MC tiers, and protective gear
@@ -215,7 +215,7 @@ GnollHack changes the initial inventory of almost every role to make the early g
 > 💡 **Tip:** Selling unwanted high-level spellbooks to an Artificer or gems to a Geologist is a great way to generate massive amounts of gold in the early-to-mid game.
 
 
-### 🔗 Learn More
+### 📖 Learn More
 
 - [[/Rooms/Shops]] — Guide to shop types, item pricing, and shopkeeper behaviors
 - [[/Rooms/Smithy]] — Information on services offered by the Smith
@@ -240,7 +240,7 @@ GnollHack changes the initial inventory of almost every role to make the early g
 > 💡 **Tip:** The `Gilthoniel` rune is highly effective for setting up a safe stash. Engrave it on the floor, and monsters will be unable to pick up items or loot containers on that square.
 
 
-### 🔗 Learn More
+### 📖 Learn More
 
 - [[Dungeon Layout]] — Full layout of dungeon branches, special rooms, and levels
 - [[Fountains]] — Details on fountain types, dipping, and drinking effects
@@ -258,7 +258,7 @@ GnollHack changes the initial inventory of almost every role to make the early g
 - **Hire Mercenaries:** You can hire peaceful monsters to join your party. High Charisma makes this a highly effective way to acquire powerful allies.
 
 
-### 🔗 Learn More
+### 📖 Learn More
 
 - [[Monsters]] — Bestiary and scaling mechanics
 - [[How to Cure Various Conditions]] — Guide to curing petrification, sickness, and other conditions
@@ -280,6 +280,6 @@ The scoring system has been completely redesigned.
 - **How to Score:** Your score is primarily based on delving deeper into the dungeon, completing achievements, your chosen difficulty, and (if you ascend) your conducts and turn count (lower is better).
 
 
-### 🔗 Learn More
+### 📖 Learn More
 
 - [[Scoring]] — Detailed breakdown of how scores and achievements are calculated

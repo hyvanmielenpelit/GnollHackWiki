@@ -139,6 +139,6 @@ Reduces lightning damage, chance to protect equipment.
 | :---- | :---: | :--------: |
 | [[/Roles/Valkyrie]] | 15 | 50% |
 
-## ℹ️ See Also
+## 📖 See Also
 
 - [[Resistances and Saving Throws]]

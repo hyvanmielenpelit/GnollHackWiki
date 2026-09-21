@@ -96,6 +96,6 @@ NetHack holds a unique place in AI research. Because of its extreme difficulty, 
 
 **NetHack**'s infrastructure has grown organically over decades through community effort—open-source server management, third-party apps, IRC bots, the Hearse network, and aggregated scoreboards. **GnollHack** takes a different approach by centralizing and modernizing these features into the game itself: a unified account system, built-in cloud saves, an AI assistant, official app store distribution, and native Discord integration. The result is an out-of-the-box online experience designed for the modern gamer.
 
-## ℹ️ See Also
+## 📖 See Also
 
 - **[[Comparisons to Other Games]]**

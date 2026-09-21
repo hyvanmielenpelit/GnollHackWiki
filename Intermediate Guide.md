@@ -17,7 +17,7 @@ The dungeon in GnollHack is not just a single straight line down; it features se
 | **[[/Dungeon/Quest]]** | [[/Dungeon/Dungeons of Doom]] (levels 11-16) | A unique branch tailored to your [[Character Classes]]. You must be at least experience level 14 to enter it. |
 | **[[/Dungeon/Gehennom]]** | [[/Dungeon/Dungeons of Doom]] (levels 25-29) | The late-game hellish branch of the dungeon. Unlike NetHack, GnollHack has removed the tedious mazes from Gehennom, making it much more enjoyable and fast-paced to explore. |
 
-### 🔗 Learn More
+### 📖 Learn More
 
 - [[Dungeon Layout]] — Complete overview of all branches, levels, and structures
 
@@ -66,7 +66,7 @@ The [[Starting Guide for Beginners]] advises you to rely on your pet, but to sur
 
 > 💡 **Tip:** Paralysis is extremely dangerous throughout the entire game. Obtain Free Action (paralysis resistance) as early as possible to prevent monsters from hitting you helplessly.
 
-### 🔗 Learn More
+### 📖 Learn More
 
 - [[Monsters]] — Full bestiary and encounter difficulty modifiers
 
@@ -86,7 +86,7 @@ As you descend deeper, obtaining key resistances is vital for survival.
 - <sup>1</sup> *Intrinsic* is an innate ability that doesn't come from an item.
 - <sup>2</sup> *Extrinsic* is an ability granted by an item.
 
-### 🔗 Learn More
+### 📖 Learn More
 
 - [[Resistances and Saving Throws]] — Comprehensive calculations, rates, and saving throw rules
 
@@ -106,7 +106,7 @@ Weapons, armor, and wands in GnollHack can possess quality modifiers that drasti
 
 You can visit a **Smith** NPC to repair damaged gear, rustproof items, and upgrade weapon and armor quality for a gold fee. For more details, see [[Exceptional, Elite, Celestial, Primordial, and Infernal Items]].
 
-### 🔗 Learn More
+### 📖 Learn More
 
 - [[Items]] — List of all item categories and materials
 - [[Weapons]] — Overview of weapon categories and quality tiers
@@ -127,7 +127,7 @@ The deeper dungeon holds many debilitating status conditions. Knowing how to cur
 | **Lycanthropy** | Eat a [[/Items/Sprig of wolfsbane]] (requires poison resistance), drink holy water, or pray. |
 | **Intelligence Drain** | **Prevent:** Wear a helmet (blocks 90% of attacks), a [[/Items/Nose ring of cerebral safeguarding]], or a [[/Items/Ring of sustain ability]]. **Restore:** Drink a [[/Items/Potion of restore ability]] or eat a [[/Items/Cloudberry]]. |
 
-### 🔗 Learn More
+### 📖 Learn More
 
 - [[How to Cure Various Conditions]] — Step-by-step methods to recover from all harmful statuses
 - [[Conditions]] — Complete mechanics and stats for sickness, stoning, blindness, and more

@@ -152,6 +152,6 @@ $-30\% + 5\% \times \text{Charisma}$
 | **21** | 75% |
 | **25** | 95% |
 
-## ℹ️ See Also
+## 📖 See Also
 
 - [[Resistances and Saving Throws]]

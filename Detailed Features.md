@@ -54,7 +54,7 @@
 - **Status Bar Clean-up** — Gold and alignment are not shown on the status bar. You can check your gold by checking your inventory, and you can find your alignment in the character details page (`}`).
 - **Two-Handed Curses** — You can use containers even when you wield a cursed two-handed weapon.
 
-### 🔗 Learn More
+### 📖 Learn More
 
 - [[Difficulty Levels]] — Detailed modifiers for difficulty ratings
 
@@ -67,7 +67,7 @@
 - **Carrying Capacity** — Characters can carry more than in NetHack.
 - **Dynamic Stats Update** — Changes in Constitution immediately reflect in your maximum hit points, while changes in Intelligence and Wisdom immediately reflect in your maximum mana.
 
-### 🔗 Learn More
+### 📖 Learn More
 
 - [[Experience Level]] — Overview of progression and experience requirements
 
@@ -123,7 +123,7 @@
 
 - **Covetousness Removal** — Covetousness has been removed from all monsters except the Wizard of Yendor, whose recovery and stealing behaviors have been nerfed.
 
-### 🔗 Learn More
+### 📖 Learn More
 
 - [[Monsters]] — Overview of monster classes and bestiary list
 - [[/Monsters/Wizard of Yendor]] — Boss guide for the Wizard of Yendor
@@ -151,7 +151,7 @@
 - **Better Notifications** — Better messaging is displayed when your pet is hungry.
 - **Dungeon Food** — More food is generated for your pets in the dungeon (e.g., grass/carrots in garden rooms for horses).
 
-### 🔗 Learn More
+### 📖 Learn More
 
 - [[/Items/Manuals/Understanding Pets and Hirelings]] — Guide to managing taming, feeding, and companions
 - [[/Skills/Riding]] — Info on pet riding requirements and skill levels
@@ -171,7 +171,7 @@
 
 - **Oracle Services** — The Oracle can identify items and provide enlightenment.
 
-### 🔗 Learn More
+### 📖 Learn More
 
 - [[/Monsters/Shopkeeper]] — Overview of shopkeeper behavior, services, and inventory
 - [[/Monsters/Priest]] — Guide to alignment services, blessings, and altar usage
@@ -191,7 +191,7 @@
 - **Martial Arts** — [[/Skills/Martial arts]] is a prestige skill that you can improve after reaching Expert in [[/Skills/Bare-handed combat]]. It requires 2, 3, 3, 4, and 4 skill points at Basic, Skilled, Expert, Master, and Grand Master levels.
 - **Status Indicator** — The game shows when you have unused skill points in the status bar.
 
-### 🔗 Learn More
+### 📖 Learn More
 
 - [[Skills]] — List of all weapon, spell, and auxiliary skills
 
@@ -207,7 +207,7 @@
 - **Tourist Starter** — The [[/Roles/Tourist]] starts with a +2 golf club because darts cannot be thrown in melee range anymore.
 - **Bags & Containers** — All roles start with a bag. [[Rogues|/Roles/Rogue]] start with a [[/Items/bag of treasure hauling]] and [[wizards|/Roles/Wizard]] with a [[/Items/bag of wizardry]].
 
-### 🔗 Learn More
+### 📖 Learn More
 
 - [[Character Classes]] — Detailed list of roles, starting items, and traits
 
@@ -259,7 +259,7 @@
 - **Polearms Range** — Polearms hit all adjacent squares (range of `SQRT(8)`) at all skill levels.
 - **Ammo Breaking** — Uncursed ammunition has only a 1/20 chance of breaking; blessed ammunition never breaks.
 
-### 🔗 Learn More
+### 📖 Learn More
 
 - [[Items]] — List of item classes and categories
 - [[Artifacts]] — Database of quest and sacrifice gift artifacts
@@ -295,7 +295,7 @@
 - **Gehennom Shorter** — Gehennom is slightly shorter and lacks mazes except on special levels.
 - **New Branches** — Several new dungeon branches have been added.
 
-### 🔗 Learn More
+### 📖 Learn More
 
 - [[Dungeon Layout]] — Comprehensive guide to branches, levels, and layouts
 
@@ -336,7 +336,7 @@
 
 - **Spell Hotkeys & Removal** — You can hotkey spells or remove them from your active spell list by pressing `+`.
 
-### 🔗 Learn More
+### 📖 Learn More
 
 - [[Spells]] — List of all spell classes and spellbooks
 - [[Spell Casting]] — Guide to spellcasting requirements and modifiers
@@ -358,6 +358,6 @@
   | **Gems** | ❌ | ✅ |
   | **Artifacts & Amulets** | ❌ | ✅ |
 
-### 🔗 Learn More
+### 📖 Learn More
 
 - [[Scoring]] — Detailed breakdown of points, multipliers, and achievements

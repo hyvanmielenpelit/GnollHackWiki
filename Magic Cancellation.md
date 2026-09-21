@@ -97,6 +97,6 @@ Magic Cancellation does *not* protect you from the **intelligence drain attacks 
 
 Note that the intelligence drain attacks also cause *amnesia*, which makes you forget items' identification, spells, and the layout of dungeon levels.
 
-## ℹ️ See Also
+## 📖 See Also
 
 - [[Resistances and Saving Throws]]

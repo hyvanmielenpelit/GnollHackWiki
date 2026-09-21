@@ -28,11 +28,6 @@ For difficult tasks, we recommend using **GPT-5.6 Luna (Max)**. It is much slowe
 
 If you are not satisfied with the system models, you can always bring your own API key and use a provider and a model of your choice. In that case, however, you have to pay the usage costs yourself.
 
-## 💡 Learn More
+## 📖 Learn More
 
-- [[/Gnoll Overseer Guides]] — All Gnoll Overseer guides in one place.
-- [[/Guides/Introduction to Gnoll Overseer]] — What the Gnoll Overseer is and how to access it.
-- [[/Guides/Advanced Guide to Gnoll Overseer]] — Advanced settings, custom API keys, and the web interface.
-- [[/Guides/Technological Overview of Gnoll Overseer]] — Technical architecture of the Overseer service.
-- [[/Guides/Introduction to GnollBench]] — GnollBench, the exam every AI model passes before it is offered in the Overseer.
-- [[/Overseer AI Providers]] — Supported AI providers and their terms.
+- [[/Gnoll Overseer]] — All Gnoll Overseer guides in one place.

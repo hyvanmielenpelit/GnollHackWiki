@@ -15,7 +15,7 @@ The modern version of GnollHack has two modes for permadeath:
 | 🟢 **Modern Mode** | You respawn at a certain altar upon death. This is the default mode and highly recommended for beginners. |
 | 🔴 **Classic Mode** | Death is permanent. Once dead, you will need to start the game again from the beginning. |
 
-### 🔗 Learn More
+### 📖 Learn More
 
 - [[Choosing the Right Gameplay Mode]] — Guide to selecting modern, casual, or classic modes
 
@@ -23,7 +23,7 @@ The modern version of GnollHack has two modes for permadeath:
 
 We recommend that you start playing GnollHack using the **[[/Difficulties/Standard]]** difficulty. On Standard difficulty, monsters are slightly weaker, and you start with helpful resources.
 
-### 🔗 Learn More
+### 📖 Learn More
 
 - [[Choosing the Right Difficulty Level]] — Tips on finding the best challenge level for you
 
@@ -103,7 +103,7 @@ Wearing armor gives you defensive and magical protections:
 - **Magic Cancellation (MC):** Gives you a chance to resist special monster attacks, such as lycanthropy or level draining. MC does nothing against spells.
 - **Magic Resistance:** Gain immunity to many spells from specific items.
 
-### 🔗 Learn More
+### 📖 Learn More
 
 - [[Armor]] — Overview of armor categories, slots, and properties
 - [[Armor Class (AC) and Magic Cancellation (MC)]] — Calculations for AC, MC tiers, and protective gear
@@ -120,7 +120,7 @@ Items in GnollHack can be *blessed*, *uncursed*, or *cursed*. If you wield a cur
 - 🏛️ **Oracle:** The Oracle will identify items for a fee.
 - 🪨 **Touchstones:** You can apply an _uncursed or blessed [[/Items/touchstone]]_ on a gem to identify it.
 
-### 🔗 Learn More
+### 📖 Learn More
 
 - [[Items]] — List of item categories and properties
 - [[/Rooms/Shops]] — Guide to shops, item pricing, and shopkeeper behaviors
@@ -151,7 +151,7 @@ You can throw items to 8 basic directions. The throwing distance is listed in th
 - **Accuracy:** Throwing weapons at melee range gives a large to-hit penalty (-40).
 - **Autopickup:** You automatically pick up thrown weapons by default.
 
-### 🔗 Learn More
+### 📖 Learn More
 
 - [[Weapons]] — Overview of weapon categories and quality tiers
 
@@ -196,7 +196,7 @@ Spell success depends on your experience level, the spell's level, your magic sc
 
 Spells range in levels from minor cantrip (c), major cantrip (C), to levels 1–12. You do not forget spells over time. You usually need at least Basic skill in a magic school to cast its spells. Fighter-type classes that have no access to magic schools have little reason to learn spells, except maybe some cantrips.
 
-### 🔗 Learn More
+### 📖 Learn More
 
 - [[Spell Casting]] — Detailed spellcasting mechanics, somatic armor penalties, and casting chances
 
@@ -242,7 +242,7 @@ When advancing a skill, the cost in skill slots varies depending on the type of 
 
 When you have enough trained experience and available skill slots, a green skill icon or a green "Skill" text will appear on your screen to notify you.
 
-### 🔗 Learn More
+### 📖 Learn More
 
 - [[Skills]] — List of all weapon, spell, and auxiliary skills
 
@@ -263,7 +263,7 @@ Altars are extremely useful and can belong to any alignment. There is always an 
 - **Converting Altars:** If an altar is the wrong alignment, sacrificing on it might convert it to your god. The chance to convert an altar is 50% at experience level 4 and about 70–85% at higher experience levels.
 - **Holy Water:** Drop uncursed [[potions of water|/Items/potion of water]] on your altar and pray. They will become holy water. You can dip (`Alt+d`) items into holy water to bless them or remove curses.
 
-### 🔗 Learn More
+### 📖 Learn More
 
 - [[Praying]] — Divine assistance, luck mechanics, and safety guidelines
 - [[Sacrifice Gifts]] — Artifact weapons granted by gods for offerings

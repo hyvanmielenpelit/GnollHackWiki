@@ -49,6 +49,6 @@ A screenshot of Shattered Pixel Dungeon on Windows:
 
 ![Shattered Pixel Dungeon on Windows](/uploads/Roguelike%20Comparison/spd-windows-screenshot-q85.webp)
 
-## ℹ️ See Also
+## 📖 See Also
 
 - **[[Comparisons to Other Games]]**

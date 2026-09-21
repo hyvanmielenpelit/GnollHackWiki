@@ -17,6 +17,6 @@
 ### Granted by Spells
 - [[/Spells/Reflection]]
 
-## ℹ️ See Also
+## 📖 See Also
 
 - [[Resistances and Saving Throws]]

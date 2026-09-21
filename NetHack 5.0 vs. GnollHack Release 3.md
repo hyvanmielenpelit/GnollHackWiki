@@ -81,6 +81,6 @@
 
 🕹️ **Play GnollHack Release 3 if:** You want a deeply tactical, modern RPG experience with beautiful graphics, music, and voice acting. It massively improves the gameplay experience by introducing ARPG-style loot, seven difficulty levels, and a vast new spell system.
 
-## ℹ️ See Also
+## 📖 See Also
 
 - **[[Comparisons to Other Games]]**

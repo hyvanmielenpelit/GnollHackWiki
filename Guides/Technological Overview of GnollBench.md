@@ -371,11 +371,10 @@ GnollBench is internal evaluation, and technical controls keep it from resemblin
 | **Unverified claim** | A statement the rubric neither confirms nor contradicts; checked, not penalized |
 | **Wilcoxon signed-rank test** | A paired test that uses the ranks of the differences and does not assume they are normally distributed, which suits a bounded 0–100 scale over a small number of items |
 
-## 🔗 Learn More
+## 📖 Learn More
 
-- [[/Gnoll Overseer Guides]] — All Gnoll Overseer guides in one place.
+- [[/GnollBench]] — All GnollBench guides in one place.
 - [[/Guides/Introduction to GnollBench]] — The plain-language introduction to GnollBench.
 - [[/Guides/Advanced Guide to GnollBench]] — The intermediate GnollBench guide to scoring, grading, and repeated runs.
 - [[/Guides/Comparison of GnollBench and Popular AI Benchmarks]] — How GnollBench relates to well-known public AI benchmarks.
 - [[/Guides/Technological Overview of Gnoll Overseer]] — The architecture of the Overseer service, including the tools a GnollBench candidate uses.
-- [[/Guides/Choosing AI Model for Gnoll Overseer]] — Which model to pick for which task.

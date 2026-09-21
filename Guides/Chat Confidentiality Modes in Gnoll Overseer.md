@@ -168,11 +168,9 @@ For each model, you can answer **Yes**, **No**, or leave it undecided. **No** al
 - Choose the mode before the first message. Afterwards, the only possible change is Standard → Confidential.
 - In every mode, the AI provider still receives your messages. Check the **Private** badge to see how much is known about the provider.
 
-## 🔗 Learn More
+## 📖 Learn More
 
-- [[/Gnoll Overseer Guides]] — All Gnoll Overseer guides in one place.
+- [[/Gnoll Overseer]] — All Gnoll Overseer guides in one place.
 - [[/Guides/Introduction to Gnoll Overseer]] — What the Gnoll Overseer is and how to access it.
 - [[/Guides/Advanced Guide to Gnoll Overseer]] — Tools, spoiler policy, and customization.
 - [[/Guides/Choosing AI Model for Gnoll Overseer]] — How to choose the right AI model.
-- [[/Gnoll Overseer Privacy Policy]] — The privacy policy of the Overseer.
-- [[/Overseer AI Providers]] — The AI providers that the Overseer connects to.

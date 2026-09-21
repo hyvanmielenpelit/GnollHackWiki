@@ -120,11 +120,9 @@ An exam marked by an AI needs safeguards, and GnollBench has several:
 - Each run reports Intelligence, Speed, and Cost.
 - Several safeguards keep GnollBench fair.
 
-## 🔗 Learn More
+## 📖 Learn More
 
-- [[/Gnoll Overseer Guides]] — All Gnoll Overseer guides in one place.
+- [[/GnollBench]] — All GnollBench guides in one place.
 - [[/Guides/Advanced Guide to GnollBench]] — The next step in the GnollBench series: how scoring, grading, and repeated runs work.
 - [[/Guides/Technological Overview of GnollBench]] — The technical details of GnollBench, for readers who know AI evaluation.
 - [[/Guides/Comparison of GnollBench and Popular AI Benchmarks]] — How GnollBench relates to well-known public AI benchmarks.
-- [[/Guides/Choosing AI Model for Gnoll Overseer]] — Which model to pick for which task.
-- [[/Guides/Introduction to Gnoll Overseer]] — What the Gnoll Overseer is and how to access it.

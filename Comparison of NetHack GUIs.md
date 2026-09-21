@@ -36,6 +36,6 @@ GnollHack has its own **custom tileset**. Its tiles vary in size. They are usual
 
 ![Screenshot of GnollHack's Modern Windows Client](/uploads/Comparison%20of%20NetHack%20GUIs/gnollhack-windows-q85.webp)
 
-## ℹ️ See Also
+## 📖 See Also
 
 - **[[Comparisons to Other Games]]**

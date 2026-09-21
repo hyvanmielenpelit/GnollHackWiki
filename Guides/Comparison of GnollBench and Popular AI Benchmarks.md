@@ -227,13 +227,9 @@ For the practical outcome of this process, see [[/Guides/Choosing AI Model for G
 
 **They complement each other and do not replace each other.**
 
-## 🔗 Learn More
+## 📖 Learn More
 
-- [[/Gnoll Overseer Guides]] — All Gnoll Overseer guides in one place.
-- [[/Guides/Introduction to GnollBench]] — What GnollBench is, in plain language.
-- [[/Guides/Advanced Guide to GnollBench]] — How scoring, grading, and repeated runs work.
-- [[/Guides/Technological Overview of GnollBench]] — The technical details, for readers who know AI evaluation.
-- [[/Guides/Choosing AI Model for Gnoll Overseer]] — Which model to pick for which task.
+- [[/GnollBench]] — All GnollBench guides in one place.
 
 ## 🔗 External Links
 
