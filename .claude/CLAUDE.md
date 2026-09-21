@@ -19,10 +19,13 @@ agents other than Claude can be pointed at the same files. `.claude/` is only a 
 ## Shell and Line Endings (Windows)
 
 Default to PowerShell; the rules are in the global `agent-powershell-guidelines` skill.
-`.gitattributes` is `* text=auto` and `core.autocrlf` is `false`: the index stores LF, the
-working tree is CRLF, and Git will not correct a wrong guess. Write CRLF and UTF-8 without a
-BOM, and match what an existing file already uses. Never run `sed -i` from Git Bash on wiki
-pages; see the `wiki_bulk_edits` skill.
+`.gitattributes` pins `* text=auto eol=crlf`: the index stores LF, every checkout is CRLF,
+and `core.autocrlf` is `false`. Write **CRLF and UTF-8 without a BOM**, and end every file
+with a newline. Git will not correct a wrong guess: a file written with LF stays LF on disk
+and still shows no diff, because staging normalizes it away. The `Edit` tool preserves a
+page's endings; the `Write` tool creates **LF** files. Before ending any session that
+created or edited a page, run the closing step in `wiki_editing` section 18. Never run
+`sed -i` from Git Bash on wiki pages; see `wiki_bulk_edits` §7.
 
 ## Implementation Plans
 

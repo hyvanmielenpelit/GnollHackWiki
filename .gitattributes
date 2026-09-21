@@ -1,2 +1,18 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Text is stored LF in the index and checked out CRLF in every working tree, so a Windows
+# clone matches what Windows editors write and Git sees no line-ending diffs.
+* text=auto eol=crlf
+
+# Files a Linux tool consumes stay LF, as in every repository here. None exist today.
+*.yml text eol=lf
+*.yaml text eol=lf
+*.py text eol=lf
+*.sh text eol=lf
+
+# Assets are never line-ending converted and never diffed as text.
+*.webp binary
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.ico  binary
+*.pdf  binary

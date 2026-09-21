@@ -64,13 +64,17 @@ the category. Follow `wiki_editing` rather than inventing a form.
 ## 5. Encoding and Line Endings
 
 - **UTF-8 without a BOM.**
-- **CRLF in the working tree.**
-- The index stores **LF**, because `.gitattributes` is `* text=auto`, and `core.autocrlf` is
-  `false`, so Git will not correct a wrong guess: a file written with LF stays LF in the
-  working tree and looks unchanged in `git diff`.
-- A file whose last line has no terminator stays that way.
+- **CRLF in the working tree.** `.gitattributes` pins `* text=auto eol=crlf`, so a fresh
+  checkout is CRLF on every platform; the index stores LF.
+- **Every file ends with a newline.**
+- Git will not correct a wrong guess. A file written with LF stays LF on disk and shows no
+  diff, because `text=auto` normalizes it away on staging. Nothing will tell you; verify
+  with the drift check in §8.
+- A **new** file is the one case that drifts: agent file-creation tools and MSYS utilities
+  produce LF. The closing step in `wiki_editing` section 18 converts every file the session
+  touched; run it before the handoff in §9.
 
-Match each file as it was found, and never mix the two styles inside one file.
+Never mix the two styles inside one file.
 
 ## 6. The Recipe
 
@@ -113,8 +117,9 @@ Points that make it safe, each of which a naive variant gets wrong:
 ## 7. Never `sed -i` Under Git Bash
 
 MSYS `sed` rewrites **every** file it processes with LF endings, including files the pattern
-never matched. On this repository that silently converts the whole directory, and `git diff`
-shows it as a whole-file rewrite.
+never matched, and drops a missing final newline. On this repository that silently converts
+the whole directory, and **`git diff` shows nothing**, because the index is LF either way.
+The only way to see it is `git ls-files --eol` or the drift check in §8.
 
 If it happens on a clean tree, recover immediately:
 
@@ -144,6 +149,11 @@ Run all of these and paste the results into the report:
   after the edit.
 - No file begins with the bytes `EF BB BF`.
 - One edited line dumped as bytes ends `0D 0A`.
+- The drift check prints nothing — every tracked text file is `i/lf w/crlf`:
+
+  ```powershell
+  git -C C:\hmp\GnollHackWiki ls-files --eol | Select-String -NotMatch 'w/crlf|w/-text'
+  ```
 
 ## 9. Handoff
 

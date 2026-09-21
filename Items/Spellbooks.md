@@ -1,4 +1,4 @@
-﻿## Spellbooks
+## Spellbooks
 
 - [[/Items/Spellbooks/Spellbook of abolish magic resistance]]
 - [[/Items/Spellbooks/Spellbook of absolution]]

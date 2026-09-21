@@ -383,3 +383,50 @@ transcription of the evidence that found it.
 - **Follow the requested wording only as far as these rules allow.** A benchmark prompt often
   quotes the exact sentence to write, citations included. Strip whatever the conventions
   forbid, write the readable version, and say what was changed and why in the report.
+
+## 18. Before You Finish: Encoding and Line Endings
+
+Every file this session created or edited must end the session as **UTF-8 without a BOM**,
+**CRLF**, and **terminated by a newline**. `.gitattributes` pins `* text=auto eol=crlf`, but
+Git will not tell you when a file is wrong: the index stores LF, so a page written with LF,
+or with a BOM, shows an ordinary content diff and nothing else. Editing tools that preserve
+a page's existing endings are safe on an existing page; a **newly created** file is the
+usual casualty, because most file-creation tools write LF.
+
+Run this once, as the last step before the handoff, from the session scratch directory. It
+takes the list of changed and new files from Git, so it never touches a page the session
+did not:
+
+```powershell
+$root = 'C:\hmp\GnollHackWiki'
+$utf8 = New-Object System.Text.UTF8Encoding($false)
+$fixed = @()
+foreach ($line in (& git -C $root status --porcelain --untracked-files=all)) {
+    $rel = $line.Substring(3).Trim('"')
+    if ($rel -match ' -> ') { $rel = ($rel -split ' -> ')[-1] }
+    if ([IO.Path]::GetExtension($rel) -notin @('.md', '.mustache')) { continue }
+    $p = Join-Path $root ($rel -replace '/', '\')
+    if (-not (Test-Path -LiteralPath $p)) { continue }
+    $bytes = [IO.File]::ReadAllBytes($p)
+    if ($bytes.Length -eq 0) { continue }
+    $orig = [System.Text.Encoding]::UTF8.GetString($bytes)
+    $text = $orig.TrimStart([char]0xFEFF).Replace("`r`n", "`n").Replace("`n", "`r`n")
+    if (-not $text.EndsWith("`r`n")) { $text += "`r`n" }
+    # Ordinal: PowerShell's -ne ignores a leading U+FEFF and would hide a stripped BOM.
+    if (-not [string]::Equals($text, $orig, [StringComparison]::Ordinal)) {
+        [IO.File]::WriteAllText($p, $text, $utf8); $fixed += $rel
+    }
+}
+"Normalized: $($fixed.Count)"; $fixed
+```
+
+Then confirm nothing tracked has drifted:
+
+```powershell
+git -C $root ls-files --eol | Select-String -NotMatch 'w/crlf|w/-text'
+```
+
+Both outputs go in the handoff report: the number of files the closing step normalized
+(ideally `0`, which means every edit was already correct), and an empty drift check. A
+non-empty drift check names a tracked file with the wrong endings; fix it with the same
+recipe and say so.
