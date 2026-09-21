@@ -15,4 +15,4 @@
 
 ## 📖 See Also
 
-- [[/GnollBench]] — Gnoll Overseer's own AI benchmark.
+- [[GnollBench]] — Gnoll Overseer's own AI benchmark.
