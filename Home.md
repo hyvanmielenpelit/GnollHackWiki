@@ -77,7 +77,7 @@ GnollHack is best understood as a modernized version of NetHack that makes the c
 The *Gnoll Overseer* is your in-game assistant for all things GnollHack. He is highly advanced and game-context-aware, able to answer complex questions with great accuracy.
 
 - **[[Gnoll Overseer]]** — All guides to Gnoll Overseer, from getting started to advanced use and the technology behind the service
-- **[[GnollBench]]** — The Overseer's own AI benchmark: the exam every AI model must pass before it is offered in the Overseer
+- **[[GnollBench]]** — The Overseer's own AI benchmark
 
 ## 📋 Technical Information
 

@@ -1,3 +1,5 @@
+![Gnoll Overseer](/uploads/Guides/Introduction%20to%20Gnoll%20Overseer/gnoll-overseer-avatar-frame-256x256-q85.webp)
+
 > 👉 **The Gnoll Overseer is your in-game assistant for all things GnollHack. He is highly advanced and game-context-aware, able to answer complex questions with great accuracy.**
 
 ## 🐺 Using the Gnoll Overseer
