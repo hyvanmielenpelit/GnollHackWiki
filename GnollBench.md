@@ -1,4 +1,4 @@
-> 👉 **GnollBench is the Gnoll Overseer's own AI benchmark. Before an AI model is offered in the Overseer, it has to pass GnollBench: a fixed exam of GnollHack questions, taken with the same instructions and lookup tools as the real chat.**
+> 👉 **GnollBench is the Gnoll Overseer's own AI benchmark.**
 
 ## 📊 What GnollBench Is For
 
