@@ -16,13 +16,13 @@ The three system models differ in their thinking level, provider, intelligence, 
 
 For normal tasks, **GPT-5.6 Luna (High)** is recommended. It is a very cheap but capable model, and it is also relatively fast. It should be able to answer most common questions with high accuracy.
 
-### 🏃 Urgent Tasks
-
-If you are in a hurry and the question is not too difficult, the recommended model is **Gemini 3.7 Flash (Medium)**. It is much faster than the GPT-5.6 Luna models and has an intelligence comparable to *GPT-5.6 Luna* with a *High* or *Xhigh* thinking level. However, it costs more to use than the GPT-5.6 Luna models, so it should be used only when answering speed is critical.
-
 ### 🏆 Difficult Tasks
 
 For difficult tasks, we recommend using **GPT-5.6 Luna (Max)**. It is much slower than the other two models, but also more intelligent, and it is still quite cheap to use. If you have a difficult question and you have time to wait for an answer, this is the model to choose.
+
+### 🏃 Urgent Tasks
+
+If you are in a hurry and the question is not too difficult, the recommended model is **Gemini 3.7 Flash (Medium)**. It is much faster than the GPT-5.6 Luna models and has an intelligence comparable to *GPT-5.6 Luna* with a *High* or *Xhigh* thinking level. However, it costs more to use than the GPT-5.6 Luna models, so it should be used only when answering speed is critical.
 
 ## 🔑 Bringing Your Own Key
 
