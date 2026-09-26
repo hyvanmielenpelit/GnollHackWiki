@@ -21,7 +21,7 @@ GnollHack has hundreds of monsters, items, artifacts, and hidden mechanics. Memo
 
 - **Monster and Item Stats:** Ask about specific enemies before engaging them in combat. The Overseer can tell you their resistances, attack types, and speed, helping you decide whether to fight or flee.
 - **Complex Mechanics:** If you don't understand how a specific game mechanic works (like spellcasting success rates, armor class calculations, or prayer timeouts), the Overseer can break down the exact rules for you.
-- **Strategic Advice:** Ask for recommendations on which skills to train, which weapons are best for your character class, or what to prepare before entering difficult areas like the Gnomish Mines or Gehennom.
+- **Strategic Advice:** Ask for recommendations on which skills to train, which weapons are best for your character class, or what to prepare before entering difficult areas like Gehennom.
 
 ## 🧰 The Overseer's Toolkit
 
@@ -83,7 +83,7 @@ You can customize the Overseer to better suit your learning style:
 
 - **[[Verbose Responses|/Settings#verbose-responses]]:** Toggle this setting on if you prefer comprehensive, detailed explanations of game mechanics. Turn it off if you just want concise, tactical answers to get back into the action quickly.
 - **Session Pinning:** Use the pin icon in the chat interface to save important conversations. This is great for keeping track of long-term strategies, checklists, or specific mechanic explanations that you want to refer back to later.
-- **Unlimited Usage (Bring Your Own Key):** If you find yourself heavily relying on the Overseer and hitting usage limits, you can provide your own API key in the web interface settings for unrestricted access and the ability to choose different AI models.
+- **Unlimited Usage (Bring Your Own Key):** If you find yourself heavily relying on the Overseer and hitting usage limits, or you need a more powerful model than what is available normally, you can provide your own API key in the Overseer settings.
 
 ## 📖 Learn More
 
