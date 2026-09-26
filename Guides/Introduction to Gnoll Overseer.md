@@ -1,6 +1,6 @@
 ![Gnoll Overseer](/uploads/Guides/Introduction%20to%20Gnoll%20Overseer/gnoll-overseer-avatar-frame-256x256-q85.webp)
 
-> 👉 **Gnoll Overseer is an AI-powered game assistant accessible via the game menu, the About page, or on the web. It provides grounded gameplay advice, inspects game mechanics and source code, and helps players navigate both GnollHack and classic NetHack.**
+> 👉 **Gnoll Overseer is an AI-powered game assistant accessible via the game menu, the About page, or on the web. It provides grounded gameplay advice, inspects game mechanics and source code, and helps players navigate GnollHack.**
 
 ## ✨ What Can Gnoll Overseer Do?
 
