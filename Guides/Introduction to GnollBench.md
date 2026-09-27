@@ -1,3 +1,5 @@
+![GnollBench](/uploads/GnollBench/gnollbench-logo-256.webp)
+
 > 👉 **GnollBench is the exam that every AI model has to pass before it is offered to players in the Gnoll Overseer. This page explains, in plain language, what it is, how it works, and why it exists.**
 
 > ℹ️ **Note:** This is part 1 of the three GnollBench guides. Part 1, **Introduction to GnollBench**, is for newcomers. Part 2, [[/Guides/Advanced Guide to GnollBench]], explains scoring, grading, and repeated runs. Part 3, [[/Guides/Technological Overview of GnollBench]], gives the formulas and statistics.

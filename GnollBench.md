@@ -1,3 +1,5 @@
+![GnollBench](/uploads/GnollBench/gnollbench-logo-256.webp)
+
 > 👉 **GnollBench is the Gnoll Overseer's own AI benchmark.**
 
 ## 📊 What GnollBench Is For

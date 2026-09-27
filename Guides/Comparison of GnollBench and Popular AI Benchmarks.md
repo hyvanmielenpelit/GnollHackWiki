@@ -1,3 +1,5 @@
+![GnollBench](/uploads/GnollBench/gnollbench-logo-256.webp)
+
 > 👉 **The Gnoll Overseer's AI benchmarking system is called GnollBench. This page puts it side by side with well-known public AI benchmarks, such as those of Artificial Analysis, and shows what each is good at, where each falls short, and why they work best together.**
 
 > ℹ️ **Note:** Public benchmarks change quickly. They are described here as of September 2026, so check each benchmark's own pages, linked at the end, for current details. GnollBench is described as of harness version 37 and scoring method version 12.
