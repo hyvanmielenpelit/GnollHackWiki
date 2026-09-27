@@ -1,4 +1,4 @@
-![GnollBench](/uploads/GnollBench/gnollbench-logo-256.webp)
+![GnollBench](/uploads/GnollBench/gnollbench-logo-256-v3.webp)
 
 > 👉 **The Gnoll Overseer's AI benchmarking system is called GnollBench. This page puts it side by side with well-known public AI benchmarks, such as those of Artificial Analysis, and shows what each is good at, where each falls short, and why they work best together.**
 

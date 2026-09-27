@@ -1,4 +1,4 @@
-![GnollBench](/uploads/GnollBench/gnollbench-logo-256.webp)
+![GnollBench](/uploads/GnollBench/gnollbench-logo-256-v3.webp)
 
 > 👉 **GnollBench is the Gnoll Overseer's AI benchmarking system. This in-depth guide shows how its questions and answer keys are built, which AI roles take part in a run, how an answer turns into a score, and why a single run is never the whole story.**
 

@@ -1,4 +1,4 @@
-![GnollBench](/uploads/GnollBench/gnollbench-logo-256.webp)
+![GnollBench](/uploads/GnollBench/gnollbench-logo-256-v3.webp)
 
 > 👉 **GnollBench is the Gnoll Overseer's AI benchmarking system: a domain-specific, agentic, rubric-graded evaluation. This page describes it for readers who are familiar with model evaluation: the harness, the scoring model, the grader protocol, the advisory evidence layer, run comparability, and the statistics used for repeated runs and for comparing conditions and models.**
 

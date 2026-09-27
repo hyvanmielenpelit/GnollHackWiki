@@ -1,4 +1,4 @@
-![GnollBench](/uploads/GnollBench/gnollbench-logo-256.webp)
+![GnollBench](/uploads/GnollBench/gnollbench-logo-256-v3.webp)
 
 > 👉 **GnollBench is the exam that every AI model has to pass before it is offered to players in the Gnoll Overseer. This page explains, in plain language, what it is, how it works, and why it exists.**
 
