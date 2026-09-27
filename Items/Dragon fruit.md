@@ -13,3 +13,5 @@
 ## Description
 
 Cures petrification when eaten
+
+Only a noncursed dragon fruit has this effect: eating one stops petrification that has already begun and grants 13 turns of stoning resistance. A cursed dragon fruit does neither.

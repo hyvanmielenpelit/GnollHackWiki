@@ -41,7 +41,7 @@ GnollHack features traditional food items as well as new fruits and mushrooms. U
 | **[[/Items/Avocado]]** | 2 | Increases [[Charisma]] | Blessed: +1 or +2 Cha; Uncursed: +1 Cha; Cursed: -1 Cha. |
 | **[[/Items/Cloudberry]]** | 15 | Restores lost [[attribute scores]] | Works like a potion of restore ability. |
 | **[[/Items/Fig]]** | 40 | Cures sickness | Cures food poisoning and illness. |
-| **[[/Items/Dragon fruit]]** | 25 | Cures petrification | Stops stoning/petrification countdown. |
+| **[[/Items/Dragon fruit]]** | 25 | Cures petrification | Stops stoning/petrification countdown. Cursed: no effect. |
 | **[[/Items/Phantomberry]]** | 2 | Grants 1 experience level | Cursed: acts as a potion of poison instead. |
 | **[[/Items/Carrot]]** | 50 | Cures blindness | Restores sight. |
 | **[[/Items/Eucalyptus leaf]]** | 30 | Cures sickness | Cures food poisoning and illness. |
