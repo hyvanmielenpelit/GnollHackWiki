@@ -4,7 +4,7 @@
 - **Base value:** 20 gold
 - **Base material:** Paper
 - **Base write cost:** 10 charges
-- **Actual write cost:** From half to full base cost
+- **Actual write cost:** From half the base cost to one charge less than the base cost
 - **Skill:** Clerical spell
 - **Level:** Minor cantrip
 

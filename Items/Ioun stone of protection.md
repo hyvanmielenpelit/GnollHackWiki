@@ -11,4 +11,4 @@
 
 ## Item properties
 
-1. Consumes nutrition every 20 rounds when worn
+1. Consumes 1 point of nutrition every 20 rounds when worn

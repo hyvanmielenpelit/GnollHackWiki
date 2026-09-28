@@ -10,7 +10,7 @@
 - **Save adjustment:** -12
 - **Train chance:** 10%
 - **Base write cost:** 140 charges
-- **Write cost:** From half to full base cost
+- **Write cost:** From half the base cost to one charge less than the base cost
 - **Components:** Verbal
 
 ## Description

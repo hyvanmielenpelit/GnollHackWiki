@@ -4,7 +4,7 @@
 - **Base value:** 228 gold
 - **Base material:** Paper
 - **Base write cost:** 90 charges
-- **Actual write cost:** From half to full base cost
+- **Actual write cost:** From half the base cost to one charge less than the base cost
 - **Skill:** Enchantment spell
 - **Level:** 7
 - **Target MC adjustment:** -4

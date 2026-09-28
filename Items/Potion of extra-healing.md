@@ -3,7 +3,7 @@
 - **Weight:** 0.8 lbs
 - **Base value:** 150 gold
 - **Base material:** Glass
-- **Healing amount:** 24d6 hit points
+- **Healing amount:** 24d6 hit points (39d6 if blessed, 9d6 if cursed)
 - **Maximum health gained:** +2 if blessed at max
 - **Cures sickness:** If blessed
 - **Cures blindness:** Yes

@@ -4,7 +4,7 @@
 - **Base value:** 100 gold
 - **Base material:** Paper
 - **Base write cost:** 8 charges
-- **Actual write cost:** From half to full base cost
+- **Actual write cost:** From half the base cost to one charge less than the base cost
 - **Scroll effect damage:** 5d6+10 (blessed only)
 
 ## Item properties

@@ -4,7 +4,7 @@
 - **Base value:** 120 gold
 - **Base material:** Paper
 - **Base write cost:** 60 charges
-- **Actual write cost:** From half to full base cost
+- **Actual write cost:** From half the base cost to one charge less than the base cost
 - **Skill:** Celestial spell
 - **Level:** 4
 

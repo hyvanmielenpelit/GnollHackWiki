@@ -11,7 +11,7 @@
 - **Damage type:** Celestial
 - **Train chance:** 50%
 - **Base write cost:** 110 charges
-- **Write cost:** From half to full base cost
+- **Write cost:** From half the base cost to one charge less than the base cost
 - **Components:** Verbal, Material
 
 ## Material components - 40 castings

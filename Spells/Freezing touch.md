@@ -11,7 +11,7 @@
 - **Damage type:** Cold
 - **Train chance:** 20%
 - **Base write cost:** 60 charges
-- **Write cost:** From half to full base cost
+- **Write cost:** From half the base cost to one charge less than the base cost
 - **Components:** Verbal, Somatic, Material
 
 ## Material components - 40 castings

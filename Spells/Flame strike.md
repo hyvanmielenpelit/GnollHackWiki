@@ -10,7 +10,7 @@
 - **Damage:** 8d8+8
 - **Train chance:** 100%
 - **Base write cost:** 70 charges
-- **Write cost:** From half to full base cost
+- **Write cost:** From half the base cost to one charge less than the base cost
 - **Components:** Verbal, Material
 
 ## Material components - 20 castings

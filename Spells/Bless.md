@@ -7,7 +7,7 @@
 - **Targeting:** None
 - **Train chance:** 100%
 - **Base write cost:** 50 charges
-- **Write cost:** From half to full base cost
+- **Write cost:** From half the base cost to one charge less than the base cost
 - **Components:** Verbal, Material
 
 ## Material components - 3 castings

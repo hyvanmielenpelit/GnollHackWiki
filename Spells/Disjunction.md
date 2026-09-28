@@ -9,7 +9,7 @@
 - **Duration:** 4d4+4 rounds
 - **Train chance:** 100%
 - **Base write cost:** 120 charges
-- **Write cost:** From half to full base cost
+- **Write cost:** From half the base cost to one charge less than the base cost
 - **Other:** Bypasses magic resistance for all monsters
 - **Components:** Verbal, Material
 

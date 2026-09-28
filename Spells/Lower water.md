@@ -10,7 +10,7 @@
 - **Effect type:** Evaporates water
 - **Train chance:** 100%
 - **Base write cost:** 70 charges
-- **Write cost:** From half to full base cost
+- **Write cost:** From half the base cost to one charge less than the base cost
 - **Components:** Verbal, Somatic, Material
 
 ## Material components - 15 castings
