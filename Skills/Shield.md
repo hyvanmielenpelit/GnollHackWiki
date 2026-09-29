@@ -12,3 +12,17 @@ Increases AC and MC when wielding a shield. Also increases to-hit, damage, and t
 | **Grand Master** | 3 | 500 | -25 | +5 | +16 | +8 | 50% |
 
 - <sup>1</sup> Lower AC bonus is better.
+
+### Always Advanceable At Experience Levels
+
+Additionally, the shield skill can always be advanced to a next level at certain **experience levels**, which depend on the starting level of the skill. Advancing this way still requires the free skill slots, and the skill cannot exceed the role's maximum level.
+
+| Skill Level | When Starts at Unskilled | When Starts at Basic |
+| :---------- | :----------------------: | :------------------: |
+| **Basic** | 3 | |
+| **Skilled** | 7 | 4 |
+| **Expert** | 13 | 9 |
+| **Master** | 21 | 16 |
+| **Grand Master** | 31 | 25 |
+
+The skill starts at Unskilled for [[Barbarians|/Roles/Barbarian]], [[Cavemen|/Roles/Caveman]], [[Priests|/Roles/Priest]], [[Rogues|/Roles/Rogue]], [[/Roles/Samurai]], and [[Tourists|/Roles/Tourist]], and at Basic for [[Knights|/Roles/Knight]] and [[Valkyries|/Roles/Valkyrie]].
