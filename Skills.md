@@ -25,7 +25,7 @@ These skills cost 1/1/2/2/3 skill slots to advance on Unskilled/Basic/Skilled/Ex
 - [[/Skills/Bare-handed combat]] — Costs 1/1/1/2/2 skill slots to advance on Unskilled/Basic/Skilled/Expert/Master skill levels.
 - [[/Skills/Martial arts]] — Costs 2/3/3/3/4 skill slots to advance on Unskilled/Basic/Skilled/Expert/Master skill levels.
 
-You need to have Bare-handed combat at Grand Master level to advance Martial Arts.
+You can advance Martial Arts as soon as it has enough training and you have the free skill slots; your Bare-handed combat level does not hold it back. What Bare-handed combat changes is the training: kicks train Martial Arts at any time, but unarmed hits train Bare-handed combat until your effective Bare-handed combat level reaches Grand Master, and only then train Martial Arts instead (or nothing, if your role cannot learn Martial Arts). A worn [[/Items/headband of martial prowess]] adds two levels to that effective level, so while you wear it, unarmed hits stop training Bare-handed combat once the skill is Expert or better.
 
 ## Weapon Skills
 

@@ -84,7 +84,7 @@ The game categorizes your problems into Major and Minor troubles. When your god 
 | **Mummy Rot** | You are afflicted with mummy rot. |
 | **Starving** | Your hunger level is at Starving or worse. |
 | **Region** | You are trapped in a stinking cloud. |
-| **Hit** | Your HP is critically low. |
+| **Hit** | Your HP is critically low: 5 or less, or at most one third of your maximum HP, where the maximum counts as no more than 15 times your experience level. |
 | **Lycanthrope** | You have contracted lycanthropy. |
 | **Collapsing** | You are severely overencumbered and losing strength. |
 | **Stuck in Wall** | You are phased or stuck inside a solid wall. |

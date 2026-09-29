@@ -188,7 +188,7 @@
 ### 🪤 Traps & Prestige Skills
 
 - **Disarm Trap Skill** — Added a [[/Skills/Disarm trap]] skill that can be trained. Untrapping traps grants items (magical traps usually give wands).
-- **Martial Arts** — [[/Skills/Martial arts]] is a prestige skill that you can improve after reaching Expert in [[/Skills/Bare-handed combat]]. It requires 2, 3, 3, 4, and 4 skill points at Basic, Skilled, Expert, Master, and Grand Master levels.
+- **Martial Arts** — [[/Skills/Martial arts]] is a prestige skill that you can improve whatever your [[/Skills/Bare-handed combat]] level. Kicks train it at any time; unarmed hits train it only once your effective Bare-handed combat level is Grand Master, counting the two levels a worn [[/Items/headband of martial prowess]] adds. It requires 2, 3, 3, 3, and 4 skill points to reach Basic, Skilled, Expert, Master, and Grand Master.
 - **Status Indicator** — The game shows when you have unused skill points in the status bar.
 
 ### 📖 Learn More

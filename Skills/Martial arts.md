@@ -2,7 +2,7 @@
 
 Further increases bare-handed damage when no weapon is wielded. Can be used with weapon gauntlets.
 
-Nothing stops you from enhancing martial arts as soon as you have enough training and free skill slots. The link to [[/Skills/bare-handed combat]] is in the training instead: unarmed hits train bare-handed combat until that skill reaches Grand Master and train martial arts only after that, while kicks train martial arts at any time.
+Nothing stops you from enhancing martial arts as soon as you have enough training and free skill slots. The link to [[/Skills/bare-handed combat]] is in the training instead: kicks train martial arts at any time, but unarmed hits train bare-handed combat until your effective bare-handed combat level reaches Grand Master, and only then train martial arts. A worn [[/Items/headband of martial prowess]] adds two levels to that effective level, so while you wear it, unarmed hits train martial arts once your bare-handed combat is Expert or better.
 
 Martial arts bonuses come on top of what you get from [[/Skills/bare-handed combat]]. The to-hit and damage bonuses in the table are totals with bare-handed combat at the same skill level, as the game's own skill screen shows them: each level above Unskilled gives +4 to hit and +3 damage from martial arts, and +3 to hit and +2 damage from bare-handed combat.
 
