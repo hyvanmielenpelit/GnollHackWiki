@@ -18,7 +18,7 @@ These skills cost 1/2/3/4/5 skill slots to advance on Unskilled/Basic/Skilled/Ex
 - [[/Skills/Dodge]]
 - [[/Skills/Shield]]
 
-These skills cost 1/1/2/2/3 skill slots to advance on Unskilled/Basic/Skilled/Expert/Master skill levels '.
+These skills cost 1/1/2/2/3 skill slots to advance on Unskilled/Basic/Skilled/Expert/Master skill levels. The Shield skill can also be advanced without training at certain experience levels.
 
 ### Martial Arts Skills
 
