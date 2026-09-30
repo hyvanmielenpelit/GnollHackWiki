@@ -11,7 +11,8 @@ Smithies can generate randomly as a special room on Dungeons of Doom level 2 and
 ## 🛠️ Services
 
 The smith in the Smithy is friendly and offers metallic crafting services:
-- **Forge Gear:** Forge metallic [[/weapons]], [[/armor]], or ammo (such as [[sling-bullets|/Items/Sling-bullet]]) from metal [[nuggets|/Gems and Stones]] and [[ores|/Gems and Stones]].
+- **Forge Armor:** Forge metallic [[/armor]] from [[nuggets|/Gems and Stones]] of ore: plate mail, field plate mail and full plate mail from iron ore, bronze plate mail from copper ore, full plate mail from adamantium, mithril or orichalcum ore, and a shield of reflection from silver ore. The smith also forges dragon scales into a dragon scale mail and dilithium crystals into a crystal plate mail.
+- **No weapons or ammunition:** The smith does not forge weapons or ammunition. [[Sling-bullets|/Items/Sling-bullet]] are forged by a [[/Monsters/dwarven geologist]] in a [[/Rooms/Workshop]].
 - **Repair Gear:** Repair damaged metallic [[/weapons]] and [[/armor]].
 - **Upgrade Gear:** Upgrade metallic [[/weapons]] and [[/armor]].
 
