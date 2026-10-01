@@ -2,7 +2,7 @@
 
 > 👉 **The Gnoll Overseer's AI benchmarking system is called GnollBench. This page puts it side by side with well-known public AI benchmarks, such as those of Artificial Analysis, and shows what each is good at, where each falls short, and why they work best together.**
 
-> ℹ️ **Note:** Public benchmarks change quickly. They are described here as of September 2026, so check each benchmark's own pages, linked at the end, for current details. GnollBench is described as of harness version 37 and scoring method version 12.
+> ℹ️ **Note:** Public benchmarks change quickly. They are described here as of September 2026, so check each benchmark's own pages, linked at the end, for current details. GnollBench is described as of October 2026: harness version 45 and scoring method version 13.
 
 ## 📖 Two Different Questions
 
@@ -53,7 +53,7 @@ There are hundreds of AI benchmarks. The ones below are well known, and each rep
 - **Reliability:** Artificial Analysis estimates that the index is accurate to **within ±1%**, based on repeated runs.
 - **Speed and price** are tracked separately and continuously: each hosted model is called **eight times a day**, and the site shows the typical result of the last 72 hours.
 
-> 💡 **Interesting catch:** One of the ten tests *subtracts* points for a wrong answer, while "I don't know" costs nothing. A model that bluffs scores worse than one that admits ignorance. GnollBench's critical error rule, described below, comes from the same worry.
+> 💡 **Interesting catch:** One of the ten tests *subtracts* points for a wrong answer, while "I don't know" costs nothing. A model that bluffs scores worse than one that admits ignorance. GnollBench's critical error rule, described below, comes from the same worry, and GnollBench now goes the same way on honesty: an honest, specific "I could not verify this" scores at least 50 out of 100, about as much as a substantially wrong answer and at least twice as much as a dangerously wrong one.
 
 ### 🗳️ Arena
 
@@ -108,22 +108,22 @@ These are very hard questions written by specialists, with answers that can be c
 | **Size** | **18 questions** in the default suite; custom suites of any size up to 50 | Thousands of items | Millions of votes | Hundreds to thousands of questions |
 | **Who writes the questions** | Usually an AI that can consult the game's source code and this wiki; the developers review them | Artificial Analysis and outside authors | The visitors | Subject specialists |
 | **Who writes the answer keys** | Usually an AI, from the same sources; improved between runs in the light of the results | The authors of each test | There are none | Subject specialists |
-| **Tools for the model** | 16 of the Overseer's 30 tools: the lookups for the wikis, game data, and source code | Code and web tools in the agent tests | Usually none | Usually none |
+| **Tools for the model** | 16 of the Overseer's 31 tools: the lookups for the wikis, game data, and source code | Code and web tools in the agent tests | Usually none | Usually none |
 
 > ℹ️ **Note:** The Overseer's other tools are left out of the exam because they do not suit a fixed test. They read the player's own game and files, search GitHub or the server's game records, or hand work to helper AIs.
 
-> ℹ️ **Note:** When a suite is built around a game situation, that situation is always taken from a **real, live game**. It is never invented by an AI.
+> ℹ️ **Note:** When a suite is built around a game situation, that situation is normally captured from a **real game** with the game's own snapshot export.
 
 ### 📏 How It Is Measured
 
 | | GnollBench | Artificial Analysis index | Arena | Expert exams |
 | :--- | :--- | :--- | :--- | :--- |
-| **Who grades** | One AI grader with a written answer key | Program tests, AI checkers, AI judge panels | Humans | An exact answer key |
-| **Score** | Index from 1 to 100; hard questions count more | Weighted average of ten tests | Chess-like rating | Percentage correct |
+| **Who grades** | Two AI graders from different companies, with a written answer key | Program tests, AI checkers, AI judge panels | Humans | An exact answer key |
+| **Score** | Index up to 100; hard questions count more | Weighted average of ten tests | Chess-like rating | Percentage correct |
 | **Handling of chance** | Uncertainty range on every run; repeated runs | Repeated runs; stated ±1% | Uncertainty range on every rating | Repeated runs by some publishers |
 | **Speed** | The model's own thinking time per answer | Live speed of each hosting service | Not measured | Not measured |
-| **Cost** | Actual cost of each run | Price lists, and the cost of running the index | Not measured | Usually not measured |
-| **Results** | **Internal** | Public | Public | Public |
+| **Cost** | Estimated cost of each run, per role | Price lists, and the cost of running the index | Not measured | Usually not measured |
+| **Results** | Preliminary results published as an executive summary; run details internal, available on request | Public | Public | Public |
 
 > ℹ️ **Term — AI judge:** An AI model that grades another AI model's answers. It is fast and cheap, but it has blind spots of its own, which is why benchmarks that use one surround it with checks.
 
@@ -135,8 +135,9 @@ These are very hard questions written by specialists, with answers that can be c
 | :--- | :--- | :--- |
 | **It tests the real product** | The model gets the very same instructions as the live Overseer chat, and the same lookup tools for the wikis, game data, and source code | Public benchmarks must use neutral conditions to be fair to every model |
 | **Finding faults comes first** | The main goal is to trace wrong answers to a fixable cause. Comparing models comes last | Most benchmarks exist to rank models |
-| **A rule for dangerous advice** | A confident falsehood that would hurt the player caps the answer at **25 out of 100**. The grader must quote the sentence word for word | Artificial Analysis's penalty for bluffing; HealthBench's criteria with negative points |
-| **One grader scores; the rest advise** | A second grader and a fact-checker examine answers, but never change a score, so results stay repeatable | Arena's voters also judge blind, without knowing which model wrote what |
+| **A rule for dangerous advice** | A confident falsehood that would hurt the player caps the answer at **25 out of 100**. The answer key must show it to be false, and the grader must quote the sentence word for word | Artificial Analysis's penalty for bluffing; HealthBench's criteria with negative points |
+| **Honesty is not punished** | An honest "I could not verify this", with nothing false in it, scores at least 50, more than a dangerous guess | Artificial Analysis's penalty for bluffing; SimpleQA's "not attempted" grade |
+| **Two graders score; the rest check** | Two AI graders from different companies grade every answer, and the score is their average. A third reader and a fact-checker examine answers but do not set scores, so results stay repeatable | Juries of AI judges from different companies; Arena's voters also judge blind, without knowing which model wrote what |
 | **Answers are checked against the game** | A fact-checking AI looks claims up in the game's wiki and source code. Knowing more than the answer key is not punished | Rare, because few benchmarks cover a single piece of software |
 | **No misleading numbers** | If the AI company's service failed during a run, no indices are shown at all | Reporting uncertainty ranges is common; withholding results is not |
 | **Real game situations** | Questions can be tied to a situation captured from a live game: "what should I do *here*?" | BALROG also puts models into real game states, as players |
@@ -152,8 +153,8 @@ GnollBench is a small, internal tool, and in several respects the public benchma
 | :--- | :--- | :--- |
 | **Scale** | Thousands of questions, so chance evens out | 18 questions in the default suite and 50 at most in a custom one, so chance plays a large part |
 | **Breadth** | Many fields, long documents, images, long conversations, multi-step work | Single questions about one game |
-| **Grading** | Program tests, exact answers, and human votes do not share one AI grader's blind spots | One AI grader sets every score |
-| **Openness** | Results can be checked and criticized by anyone | Results are internal, so the method must be taken on trust |
+| **Grading** | Program tests, exact answers, and human votes do not share AI graders' blind spots | Two AI graders from two companies set every score |
+| **Openness** | Results can be checked and criticized by anyone | Only an executive summary of preliminary results is public. Run details remain internal, so the method must largely be taken on trust |
 | **Independence** | The testers do not build the products they test | Reviewed and run by the team that builds the Overseer |
 | **Live speed data** | Measured around the clock, across hosting services | Only seen during its own runs |
 
@@ -168,9 +169,9 @@ GnollBench is a small, internal tool, and in several respects the public benchma
 | **Small suites** | With 18 questions in the default suite, and a few dozen at most in a custom one, a few lucky or unlucky answers move the result |
 | **AI-drafted questions and answer keys** | Human review catches mistakes, but an AI's blind spots can still slip into the exam |
 | **Answer keys keep changing** | Improving an answer key makes the exam better, but results from before and after the change can no longer be averaged together |
-| **A single AI grader** | However carefully it is constrained, the score depends on it. Changing the grader starts a new series of results |
+| **AI graders** | Graders from two companies balance each other, but every score still rests on AI judgment, however carefully it is constrained. Changing a grader starts a new series of results |
 | **AI-rated difficulty** | The ratings that make hard questions count more are themselves made by an AI |
-| **Not published** | Nobody outside can verify the results |
+| **Mostly internal** | Only a summary of preliminary results is public. Run details can be requested, possibly anonymized, but outsiders cannot check them independently |
 | **Single questions only** | Longer conversations, spoiler-free mode, and web search are not measured |
 | **One subject** | A good result says nothing about anything other than GnollHack |
 
@@ -224,7 +225,7 @@ For the practical outcome of this process, see [[/Guides/Choosing AI Model for G
 | :--- | :--- | :--- |
 | **Answers the question** | How capable is this model in general? | How well does the Overseer work with this model? |
 | **Biggest strengths** | Large, broad, open, independent | Tests the real product, punishes dangerous advice, checks answers against the game, finds things to fix |
-| **Biggest weaknesses** | Contamination, saturation, neutral conditions | Small suites, a single AI grader, unpublished results |
+| **Biggest weaknesses** | Contamination, saturation, neutral conditions | Small suites, AI grading, mostly internal results |
 | **Role in the chain** | Pick the candidates | Check them where it counts for GnollHack players |
 
 **They complement each other and do not replace each other.**
