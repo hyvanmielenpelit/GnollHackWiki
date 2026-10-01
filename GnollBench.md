@@ -1,4 +1,4 @@
-![GnollBench](/uploads/GnollBench/gnollbench-logo-256-v3.webp)
+![GnollBench](/uploads/GnollBench/gnollbench-wide-v3-256.webp)
 
 > 👉 **GnollBench is the Gnoll Overseer's own AI benchmark.**
 
