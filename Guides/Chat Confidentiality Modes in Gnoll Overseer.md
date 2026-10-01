@@ -20,16 +20,16 @@ Most questions about GnollHack are not sensitive, and **Standard** mode is fine 
 | **How the chat is stored** | Saved in readable form | Saved in encrypted form | Not saved; held in server memory only |
 | **Internet tools and web search** | ✅ Available | ❌ Off | ❌ Off |
 | **Game data, both wikis, and dumplog search** | ✅ Available | ✅ Available | ✅ Available |
-| **AI-made chat title** | ✅ Yes | ❌ No, the chat gets a plain title | ❌ No title at all |
-| **AI provider's prompt caching** | On | Off | Off |
+| **AI-made chat title** | ✅ Yes | ❌ No, a plain title from the start of your first message, stored encrypted | ❌ No, shown as "Incognito chat" |
+| **AI provider's prompt caching** | On | Not requested | Not requested |
 | **Found by chat search** | ✅ Yes | ❌ No | ❌ No |
-| **Report a message** | ✅ Yes | ❌ No | ❌ No |
+| **Report a message** | ✅ Yes | ❌ Not available | ❌ Not available |
 | **Error reports sent to the developers** | Sent | Suppressed | Suppressed |
 | **Deleting the chat** | Goes to the Trash for 30 days | Destroyed at once, no Trash | Destroyed at once, no Trash |
 | **Deleted automatically after** | 90 days without activity | 30 days without activity | 60 minutes without activity |
 | **Messages are sent to the AI provider** | ✅ Yes | ✅ Yes | ✅ Yes |
 
-> ℹ️ **Note:** The numbers above are the defaults. The Confidential values can be adjusted in the settings, and the exact Incognito time limit is shown on the Incognito badge.
+> ℹ️ **Note:** The numbers above are the defaults. Some Confidential values can be adjusted in the settings, and the exact Incognito time limit is shown on the Incognito badge.
 
 ## 🕹️ Choosing a Mode
 
@@ -51,7 +51,7 @@ What you can change afterwards is limited on purpose:
 
 > 💡 **Tip:** If you prefer one mode most of the time, set it under **Settings → Confidentiality Mode → Default for New Chats**. It only preselects the mode for new chats. You can still change it before the first message, and it never touches chats that already exist.
 
-Chats that the game opens for you with a snapshot of your current game start as Standard. Use **Make confidential** if you want to protect one.
+Chats that the game opens for you with a snapshot of your current game start as Standard. Use **Make confidential** if you want to protect one. Inside the Overseer window, **Attach Game Snapshot** on a new chat uses the mode you chose for it.
 
 ## 🔓 Standard Mode
 
@@ -69,8 +69,8 @@ A confidential chat is still saved and still appears in your chat list, marked w
 |---|---|
 | **Encrypted where it is stored** | Messages, the chat title, tool results, and attachments are encrypted on the Overseer server. |
 | **Internet tools blocked** | No tool can send anything to a third-party service, and the AI provider's own web search is off. |
-| **No AI-made title** | Normally your first message is sent to a separate AI model, often at another provider, to create a title. This is skipped, and the chat gets a plain title that you can rename yourself. |
-| **Provider prompt cache off** | The AI provider is not asked to keep parts of your conversation between turns. Later turns may cost more and start a little more slowly. |
+| **No AI-made title** | Normally your first message is sent to a separate AI model, often at another provider, to create a title. This is skipped. The chat gets a plain title from the start of your first message, stored encrypted, and you can rename it yourself. |
+| **No provider prompt caching** | The AI provider is not asked to keep parts of your conversation between turns. Later turns may cost more and start a little more slowly. |
 | **Excluded from search** | The chat never appears in chat search results, because its encrypted title and messages cannot be searched. |
 
 In addition, messages in a confidential chat cannot be reported, and error reports from the chat are not sent to the developers.
@@ -79,7 +79,7 @@ The Overseer loses none of its game knowledge in this mode. Monster, item, and a
 
 ### 🗑️ Deletion Is Final
 
-- Deleting a confidential chat destroys it immediately. There is no Trash and no way to restore it.
+- Deleting a confidential chat destroys it immediately. There is no Trash and no way to restore it, and the delete dialog tells you so.
 - A confidential chat is deleted automatically after 30 days without activity, instead of the normal 90.
 - You can have up to 50 active chats. When you go over the limit, the oldest unpinned chat is removed. For a confidential chat, that removal is permanent too.
 
@@ -104,7 +104,7 @@ Orange is not an error. It is an honest report that the Overseer's own protectio
 
 ## 🕶️ Incognito Mode
 
-An incognito chat has all the protections of a confidential chat, and on top of that, **nothing is saved**. No messages, tool results, attachments, or title are written to the Overseer's database or files. The chat never appears in your chat list, and an **Incognito** badge is shown above the message box.
+An incognito chat has all the protections of a confidential chat, and on top of that, **nothing is saved**. No messages, tool results, attachments, or title are written to the Overseer's database or files; attachments are held in memory only. The chat never appears in your chat list, and an **Incognito** badge is shown above the message box, next to the **Private** badge.
 
 An incognito chat ends in one of two ways:
 
@@ -112,6 +112,10 @@ An incognito chat ends in one of two ways:
 - **When you delete it**, with the trash button in the row above the message box.
 
 When it ends, everything in it is gone. There is no Trash and no recovery, not even if the chat ended only because you stepped away for too long. Copy anything that you want to keep before you leave.
+
+- **Leaving the chat** for another one asks whether to delete it, in the **Delete Incognito Chat** dialog. If you keep it, it stays in memory until the idle time runs out.
+- **Closing the browser tab** does not end the chat at once. It ends after 60 minutes without activity, like any other incognito chat.
+- **Reloading the page** loses the chat for you, because it is not in your chat list and cannot be reopened.
 
 > ⚠️ **Warning:** "Not saved" means that nothing is written to the Overseer's database or files. It is not a legal or forensic guarantee: the server's memory can still be written to disk by its operating system or captured in a crash dump.
 
@@ -125,8 +129,10 @@ A few other limits are worth knowing:
 - **The lock is visible.** Someone looking at your screen can see which of your chats are confidential, but not what is in them.
 - **Confidential mode is meant for your own personal data.** Documents about other people get the same technical protection, but the mode makes no promises about them. Health, financial, and other regulated records are not supported.
 - **Usage is still counted.** Even an incognito chat counts toward usage limits, although nothing about its content is recorded.
+- **Unsent drafts stay in your browser.** A message you have typed but not sent in a confidential chat is kept in your browser's storage on that device.
+- **Search skips confidential chats.** Chat search cannot look inside them, and it tells you how many confidential chats it skipped.
 
-> 💡 **Tip:** Separately from these modes, the Overseer can replace recognizable secrets, such as API keys, passwords, and card numbers, with placeholders before a message leaves the server. This works in every chat, in every mode, and is configured under **Settings → Outbound Masking**. It is a safety net, not a guarantee.
+> 💡 **Tip:** Separately from these modes, the Overseer can replace recognizable secrets, such as API keys and card numbers, with placeholders before a message leaves the server. Passwords are caught only when they are written in forms like `password=...`. This works in every chat, in every mode, and is configured under **Settings → Outbound Masking**. It is a safety net, not a guarantee.
 
 ## ⚙️ Settings for Confidential Chats
 
@@ -135,29 +141,29 @@ The settings under **Settings → Confidentiality Mode** apply to every chat tha
 | Setting | What It Does |
 |---|---|
 | **Default for New Chats** | The mode that a new chat starts in. |
-| **Storage** | How confidential chats are kept. Choosing **Stored readable** turns encryption off and turns the badge red. |
+| **Storage** | How confidential chats are kept. **Encrypted at rest** is the default. **Stored readable**, where an administrator allows it, turns encryption off, keeps the chat searchable, and turns the badge red. |
 | **Block tools that reach the internet** | Keeps internet tools and web search off. Switching it off turns the badge red. |
-| **Delete After** | Days without activity before a confidential chat is deleted: 1 to 365, 30 by default. |
+| **Delete After** | Days without activity before a confidential chat is deleted: 1 to 30, 30 by default. You can only shorten it. |
 | **Purge immediately on delete** | Deleting skips the Trash. If you switch it off, confidential chats go to the 30-day Trash like normal chats. |
-| **Skip the AI-generated chat title** | Keeps your first message from being sent to a separate titling model. |
-| **Turn off provider prompt caching** | Keeps the provider from holding on to parts of the conversation between turns. |
+| **Skip the AI-generated chat title** | Keeps your first message from being sent to a separate titling model. Switching it off turns the badge red. |
+| **Turn off provider prompt caching** | Keeps the provider from holding on to parts of the conversation between turns. Switching it off turns the badge red. |
 | **Model Trust Requirement** | How sure the Overseer must be about a model's data handling before it answers in a confidential chat. |
 
-An administrator can lock any of these to its safe value. A locked setting is shown as fixed and cannot be weakened.
+> ℹ️ **Note:** By default, an administrator locks most of these switches to their safe values. A locked setting shows "An administrator has fixed this setting." and cannot be weakened.
 
 ### 🤝 Deciding Which Models You Trust
 
 Because the AI provider always sees your messages, you can decide which models may be used in your confidential chats at all:
 
 - **Models provided by the Overseer** are decided under **Settings → System Model Confidentiality**. The page shows what is known about how each provider handles your data.
-- **Models used with your own API key** are decided on the **API Keys** page, where you can also declare what your provider has agreed to.
+- **Models used with your own API key** are decided on the **API Keys** page, one decision per key, where you can also declare what your provider has agreed to.
 
-For each model, you can answer **Yes**, **No**, or leave it undecided. **No** always wins: the Overseer refuses to use that model in a confidential chat and tells you why. What happens to undecided models depends on the **Model Trust Requirement**:
+For each system model or API key, you can answer **Yes**, **No**, or leave it undecided. **No** always wins: the Overseer refuses to use that model in a confidential chat and tells you why. What happens to undecided models depends on the **Model Trust Requirement**:
 
 | Option | Behavior |
 |---|---|
 | **I decide** | Undecided models can be used. The badge reports what is actually known about them. |
-| **Ask when unclear** | The first time a model with unknown data handling would answer in a confidential chat, the Overseer asks you once and remembers your answer. |
+| **Ask when unclear** | The first time an undecided model whose data handling an administrator has not verified would answer in a confidential chat, the Overseer asks you once and remembers your answer. Models that an administrator has verified as keeping nothing are used without asking. |
 | **Verified posture only** | Only models that an administrator has verified as keeping nothing after answering can be used. |
 
 ## 💡 Summary
