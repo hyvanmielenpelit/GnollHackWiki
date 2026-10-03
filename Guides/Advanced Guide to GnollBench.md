@@ -10,11 +10,11 @@
 
 | | GnollBench |
 | :--- | :--- |
-| **What it is** | The Gnoll Overseer's AI benchmarking system: a fixed GnollHack exam for AI models |
-| **What it tests** | The real Overseer chat: same instructions, same lookup tools, same limits |
-| **Standard suite** | 18 questions: 6 Simple, 6 Intermediate, 6 Advanced (custom suites up to 50) |
+| **What it is** | The Gnoll Overseer's AI benchmarking system |
+| **What it tests** | The real Overseer chat, with some limitations |
+| **Standard suite** | 18 questions: 6 Simple, 6 Intermediate, 6 Advanced |
 | **Graded on** | Accuracy 55%, Completeness 25%, Conciseness 10%, Readability 10% |
-| **Results** | Intelligence Index, Speed Index, Cost, plus outcome figures |
+| **Results** | Intelligence, speed, and cost |
 | **Who runs it** | The Overseer's administrators. Players cannot run it |
 | **Roles in a run** | Candidate; assessor and co-assessor (the grading panel); optional Second Reader or Reference Reader; optional claim verifier; optional report writer |
 | **Version described** | Harness version 45, scoring method version 13 |
@@ -29,13 +29,11 @@ GnollBench is an automated exam for AI models, run by the Overseer's administrat
 
 > 📢 **Important:** GnollBench tests the real chat. The candidate model receives the same instructions that the live Overseer chat uses, in its default concise answering style, and the same read-only lookup tools: wiki search, monster and item statistics, the knowledge base, and source code search. A weakness found is one real players would meet.
 
-Preliminary GnollBench results have been published as an executive summary. Per-run details (answers, grades, rubrics, diagnostics) remain for internal use. Interested parties can request results, which can be anonymized for that purpose.
-
 > ℹ️ **Term — harness:** The software around the exam: it asks the questions, enforces the limits, collects the answers, calls the graders, and computes the scores. Each change to it gets a new *harness version*, because results from different versions are not always comparable.
 
 ## 🧩 Suites, Questions and Rubrics
 
-A **suite** is a set of questions, at most 50. GnollBench ships with a standard suite of 18 questions: six Simple, six Intermediate, and six Advanced.
+A **suite** is a set of questions. GnollBench ships with a standard suite of 18 questions: six simple, six intermediate, and six advanced.
 
 Every question has two difficulty labels: the **authored band** (Simple, Intermediate, or Advanced), chosen by whoever wrote the question, and the **assessed difficulty**, a number from 1 to 100 rated by an AI model that an administrator picks for the job.
 
@@ -65,8 +63,6 @@ Only the required facts, the board facts, and the critical errors can ever cost 
 A suite can be bound to a **game snapshot**: the text description of a real game situation, with the character, the map, the inventory, and recent messages. Questions in such a suite ask what the player should do *in that situation*, and must be impossible to answer without the snapshot. Their rubrics start with a list of board facts, each of which must be quotable from the snapshot word for word.
 
 Questions for a snapshot suite can be drafted by an AI, six per difficulty band by default. Every AI-written question stays marked as unreviewed until a human has checked it, and a report warns if a run included unreviewed questions.
-
-> ℹ️ **Term — game snapshot:** The same kind of game-state summary that the game sends to the Overseer when you open the chat in the middle of a game. In GnollBench rubrics it is also called the *board*.
 
 ## 🤖 The AI Roles in a GnollBench Run
 
@@ -242,14 +238,13 @@ A large share of GnollBench exists to make sure the grade reflects the answer, n
 
 | Safeguard | Rule |
 | :--- | :--- |
-| **Rubric-only accuracy** | Accuracy is graded against the rubric and the game snapshot only. If the assessor merely believes from its own memory that a statement is false, it may not deduct points; it must record the statement as a suspected falsehood, and the claim verifier looks it up |
-| **No penalty for extra knowledge** | A statement the rubric does not mention goes on a list of unverified claims, which are checked, not penalized |
-| **Every deduction explained** | Any Accuracy level below 6 has to name the statement that is wrong. A deduction with no stated reason is flagged and sent to the Second Reader |
-| **Single-count omissions** | Missing information lowers Completeness. It may not lower Accuracy as well |
-| **Question sets the scope** | If the rubric lists more than the question asked for, the extra points are noted as out of scope and cost nothing |
-| **Provider failures excluded** | If the AI company's service fails on a question, the answer is excluded, and the run publishes no indices at all, since an index over only the questions that happened to work would be misleading. A model that simply ends its turn without answering scores 0 for that question |
-| **Same-company approval (single-grader runs only)** | If a single-assessor run's candidate and assessor come from the same provider, the run has to be explicitly acknowledged, and the report says so |
-| **Volume limits** | At most 5 runs per hour and 20 per day. GnollBench outputs are used only for evaluation, never for training any AI model, and every report carries a statement of that purpose |
+| **Rubric-only accuracy** | Accuracy is graded against the rubric and the game snapshot only. If the assessor merely believes from its own memory that a statement is false, it may not deduct points; it must record the statement as a suspected falsehood, and the claim verifier looks it up. |
+| **No penalty for extra knowledge** | A statement the rubric does not mention goes on a list of unverified claims, which are checked, not penalized. |
+| **Every deduction explained** | Any Accuracy level below 6 has to name the statement that is wrong. A deduction with no stated reason is flagged and sent to the Second Reader. |
+| **Single-count omissions** | Missing information lowers Completeness. It may not lower Accuracy as well. |
+| **Question sets the scope** | If the rubric lists more than the question asked for, the extra points are noted as out of scope and cost nothing. |
+| **Provider failures excluded** | If the AI company's service fails on a question, the answer is excluded, and the run publishes no indices at all, since an index over only the questions that happened to work would be misleading. A model that simply ends its turn without answering scores 0 for that question. |
+| **Same-company approval (single-grader runs only)** | If a single-assessor run's candidate and assessor come from the same provider, the run has to be explicitly acknowledged, and the report says so. |
 
 ## 🔁 Why One GnollBench Run Is Not Enough
 
@@ -267,12 +262,12 @@ After enough runs, the questions themselves are examined. A question can be flag
 
 | Flag | Meaning |
 | :--- | :--- |
-| **Saturated** | Nearly every model scores full marks, so it no longer tells models apart |
-| **Miscalibrated** | Models find it much harder or easier than its assessed difficulty says |
-| **Unstable** | Its scores range over 30 points or more across runs. Either the question separates models well or its rubric is ambiguous, and a human decides which |
-| **Budget-bound** | Models keep running into the tool limit, so the limit may be setting the score |
-| **Assessor-confounded** | Its runs were graded by more than one assessor, so its figures mix graders |
-| **Scoring-method-mixed** | Its runs were scored under more than one scoring method version |
+| **Saturated** | Nearly every model scores full marks, so it no longer tells models apart. |
+| **Miscalibrated** | Models find it much harder or easier than its assessed difficulty says. |
+| **Unstable** | Its scores range over 30 points or more across runs. Either the question separates models well or its rubric is ambiguous, and a human decides which. |
+| **Budget-bound** | Models keep running into the tool limit, so the limit may be setting the score. |
+| **Assessor-confounded** | Its runs were graded by more than one assessor, so its figures mix graders. |
+| **Scoring-method-mixed** | Its runs were scored under more than one scoring method version. |
 
 The list of unverified claims is also mined for **rubric gaps**. When models from two or more unrelated model families make the same claim that the rubric does not cover, the rubric is probably incomplete. When only one model ever makes it, it is more likely an invention of that model.
 
@@ -347,7 +342,7 @@ Several things that matter in the live chat are not measured yet:
 
 ## 💡 Summary
 
-- GnollBench tests the real chat: same instructions, same tools, same limits.
+- GnollBench tests the real chat.
 - Two assessors from two companies grade every answer, and the score is their mean. The reader, the claim verifier, and the report writer only advise, which keeps results reproducible; the verifier's one exception is settling a critical error that only one panel member flagged.
 - Quality combines four dimensions with a geometric mean, so poor accuracy cannot be compensated by good presentation. A critical error, which the answer key must contradict, caps the score at 25, while an honest "not attempted" scores at least 50.
 - Outcome figures report correct, partial, incorrect, and declined answers, and the rate of confirmed critical errors, beside the indices.
