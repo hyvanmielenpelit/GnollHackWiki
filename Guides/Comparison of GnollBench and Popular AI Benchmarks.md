@@ -93,6 +93,7 @@ These are very hard questions written by specialists, with answers that can be c
 
 - In the original 2024 study, the best models averaged **under 2%** of the way through NetHack.
 - A [blog report from January 2026](https://kenforthewin.github.io/blog/posts/nethack-agent/) described a best run that reached dungeon level 10, still only **about an eighth** of the way by BALROG's measure.
+- In [September 2026](https://kenforthewin.github.io/blog/posts/llm-nethack-ascension/), the same author reported that an AI agent had **ascended**, winning the game outright, though outside BALROG's own test setup.
 
 > ℹ️ **Note:** GnollBench tests something different. It does not ask the model to play the game, but to **advise a human** who plays it.
 
@@ -134,11 +135,11 @@ These are very hard questions written by specialists, with answers that can be c
 | Feature | What it means | A related idea elsewhere |
 | :--- | :--- | :--- |
 | **It tests the real product** | The model gets the very same instructions as the live Overseer chat, and the same lookup tools for the wikis, game data, and source code | Public benchmarks must use neutral conditions to be fair to every model |
-| **Finding faults comes first** | The main goal is to trace wrong answers to a fixable cause. Comparing models comes last | Most benchmarks exist to rank models |
-| **A rule for dangerous advice** | A confident falsehood that would hurt the player caps the answer at **25 out of 100**. The answer key must show it to be false, and the grader must quote the sentence word for word | Artificial Analysis's penalty for bluffing; HealthBench's criteria with negative points |
+| **Finding faults comes first** | The main goal is to trace wrong answers to a fixable cause. Comparing models comes last. | Most benchmarks exist to rank models |
+| **A rule for dangerous advice** | A confident falsehood that would hurt the player caps the answer at **25 out of 100**. The answer key must show it to be false, and the grader must quote the sentence word for word. | Artificial Analysis's penalty for bluffing; HealthBench's criteria with negative points |
 | **Honesty is not punished** | An honest "I could not verify this", with nothing false in it, scores at least 50, more than a dangerous guess | Artificial Analysis's penalty for bluffing; SimpleQA's "not attempted" grade |
-| **Two graders score; the rest check** | Two AI graders from different companies grade every answer, and the score is their average. A third reader and a fact-checker examine answers but do not set scores, so results stay repeatable | Juries of AI judges from different companies; Arena's voters also judge blind, without knowing which model wrote what |
-| **Answers are checked against the game** | A fact-checking AI looks claims up in the game's wiki and source code. Knowing more than the answer key is not punished | Rare, because few benchmarks cover a single piece of software |
+| **Two graders score; the rest check** | Two AI graders from different companies grade every answer, and the score is their average. A third reader and a fact-checker examine answers but do not set scores, so results stay repeatable. | Juries of AI judges from different companies; Arena's voters also judge blind, without knowing which model wrote what |
+| **Answers are checked against the game** | A fact-checking AI looks claims up in the game's wiki and source code. Knowing more than the answer key is not punished. | Rare, because few benchmarks cover a single piece of software |
 | **No misleading numbers** | If the AI company's service failed during a run, no indices are shown at all | Reporting uncertainty ranges is common; withholding results is not |
 | **Real game situations** | Questions can be tied to a situation captured from a live game: "what should I do *here*?" | BALROG also puts models into real game states, as players |
 | **The exam examines itself** | Questions that everyone passes, or whose scores jump around, are flagged for a human, and answer keys are improved between runs | Expert exams retire or repair questions too, as FrontierMath did |
@@ -154,7 +155,7 @@ GnollBench is a small, internal tool, and in several respects the public benchma
 | **Scale** | Thousands of questions, so chance evens out | 18 questions in the default suite and 50 at most in a custom one, so chance plays a large part |
 | **Breadth** | Many fields, long documents, images, long conversations, multi-step work | Single questions about one game |
 | **Grading** | Program tests, exact answers, and human votes do not share AI graders' blind spots | Two AI graders from two companies set every score |
-| **Openness** | Results can be checked and criticized by anyone | Only an executive summary of preliminary results is public. Run details remain internal, so the method must largely be taken on trust |
+| **Openness** | Results can be checked and criticized by anyone | Only an executive summary of preliminary results is public. Run details remain internal, so the method must largely be taken on trust. |
 | **Independence** | The testers do not build the products they test | Reviewed and run by the team that builds the Overseer |
 | **Live speed data** | Measured around the clock, across hosting services | Only seen during its own runs |
 
@@ -169,7 +170,7 @@ GnollBench is a small, internal tool, and in several respects the public benchma
 | **Small suites** | With 18 questions in the default suite, and a few dozen at most in a custom one, a few lucky or unlucky answers move the result |
 | **AI-drafted questions and answer keys** | Human review catches mistakes, but an AI's blind spots can still slip into the exam |
 | **Answer keys keep changing** | Improving an answer key makes the exam better, but results from before and after the change can no longer be averaged together |
-| **AI graders** | Graders from two companies balance each other, but every score still rests on AI judgment, however carefully it is constrained. Changing a grader starts a new series of results |
+| **AI graders** | Graders from two companies balance each other, but every score still rests on AI judgment, however carefully it is constrained. Changing a grader starts a new series of results. |
 | **AI-rated difficulty** | The ratings that make hard questions count more are themselves made by an AI |
 | **Mostly internal** | Only a summary of preliminary results is public. Run details can be requested, possibly anonymized, but outsiders cannot check them independently |
 | **Single questions only** | Longer conversations, spoiler-free mode, and web search are not measured |
@@ -212,7 +213,7 @@ For the practical outcome of this process, see [[/Guides/Choosing AI Model for G
 ## 🎲 Interesting Facts
 
 - 🧙‍♂️ **NetHack is a classic AI challenge.** The NetHack Learning Environment was released for AI research in 2020. In a 2021 competition built on it, hand-written bots beat the machine-learning entries by a wide margin.
-- 🤖 **A bot has ascended, but not a chatbot.** A hand-programmed bot called BotHack completed NetHack in 2015. Today's AI language models, playing by themselves, still get nowhere near.
+- 🤖 **First a bot, then a language model.** A hand-programmed bot called BotHack completed NetHack in 2015. In September 2026, an agent driven by OpenAI's GPT-6 Astra made what its operator believes is the first recorded ascension by an AI language model: a dwarven Valkyrie, on its third run, after 37,140 turns. It had free access to spoilers, the wiki, and the game's source code, and built its own tools along the way. A human still helped with setup and suggestions, and stopped and resumed its sessions.
 - 👩‍⚕️ **GnollBench's rating scale was first used on nurses.** The Behaviorally Anchored Rating Scale was developed by psychologists in 1963 for judging job performance, long before anyone graded an AI with it.
 - 🔢 **One test, 6,000 questions.** A single component of the Artificial Analysis index is over 300 times the size of GnollBench's default suite, and 120 times the largest suite GnollBench allows.
 - ⏱️ **Two kinds of speed.** Artificial Analysis measures how fast a hosting service delivers text. GnollBench measures how long the model itself spends on a whole answer, with the waiting time for lookups removed.
@@ -244,3 +245,4 @@ For the practical outcome of this process, see [[/Guides/Choosing AI Model for G
 - [HELM](https://crfm.stanford.edu/helm/)
 - [HealthBench](https://openai.com/index/healthbench/)
 - [BALROG: Benchmarking Agentic LLM and VLM Reasoning On Games](https://arxiv.org/abs/2411.13543)
+- [An LLM Beat NetHack](https://kenforthewin.github.io/blog/posts/llm-nethack-ascension/)
