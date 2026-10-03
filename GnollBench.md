@@ -4,17 +4,16 @@
 
 ## 📊 What GnollBench Is For
 
-GnollBench exists first of all to find and fix weaknesses in the Overseer itself, not merely to rank one AI model above another. Every run reports three results — Intelligence, Speed, and Cost — so a model's strengths and its price are visible side by side, and outcome figures show how often its answers were right, wrong, or honestly declined.
+GnollBench ranks AI models with regard to their **intelligence**, **speed**, and **cost**. Results are used to rank AI models' performance as the Gnoll Overseer, but they are also used to find bugs and improve the quality of the Overseer chat and GnollBench itself. 
 
 ## 🐺 GnollBench at a Glance
 
 | Item | Content |
 | :--- | :--- |
-| **Questions** | 18 in the standard suite, up to 50 |
-| **Graders** | Two AI graders from two companies |
-| **Results** | Intelligence, Speed, Cost, plus outcome figures |
+| **Questions** | 18 in the standard suite |
+| **Graders** | Two AI graders from two different AI providers |
+| **Results** | Intelligence, speed, and cost |
 | **Who runs it** | Administrators |
-| **Publication** | Preliminary results published as an executive summary; run details internal, available on request |
 
 ## 📖 Guides
 
@@ -24,8 +23,6 @@ GnollBench exists first of all to find and fix weaknesses in the Overseer itself
 | [[/Guides/Advanced Guide to GnollBench]] | Interested readers | How scoring, the grading panel, and repeated runs work |
 | [[/Guides/Technological Overview of GnollBench]] | Readers who know AI evaluation | Formulas, statistics, and comparability rules |
 | [[/Guides/Comparison of GnollBench and Popular AI Benchmarks]] | Anyone comparing benchmarks | How GnollBench compares with popular public AI benchmarks, and how they complement each other |
-
-> 💡 **Tip:** Not sure where to start? Read the introduction first. Each GnollBench guide links to the next level of depth.
 
 ## 📖 See Also
 
