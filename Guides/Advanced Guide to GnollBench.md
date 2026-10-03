@@ -15,7 +15,7 @@
 | **Standard suite** | 18 questions: 6 Simple, 6 Intermediate, 6 Advanced (custom suites up to 50) |
 | **Graded on** | Accuracy 55%, Completeness 25%, Conciseness 10%, Readability 10% |
 | **Results** | Intelligence Index, Speed Index, Cost, plus outcome figures |
-| **Who runs it** | The Overseer's administrators. Players cannot run it. Preliminary results have been published as an executive summary; per-run details (answers, grades, rubrics, diagnostics) remain for internal use, and interested parties can request results, which can be anonymized for that purpose |
+| **Who runs it** | The Overseer's administrators. Players cannot run it |
 | **Roles in a run** | Candidate; assessor and co-assessor (the grading panel); optional Second Reader or Reference Reader; optional claim verifier; optional report writer |
 | **Version described** | Harness version 45, scoring method version 13 |
 
@@ -39,11 +39,11 @@ A **suite** is a set of questions, at most 50. GnollBench ships with a standard 
 
 Every question has two difficulty labels: the **authored band** (Simple, Intermediate, or Advanced), chosen by whoever wrote the question, and the **assessed difficulty**, a number from 1 to 100 rated by an AI model that an administrator picks for the job.
 
-| Band | Assessed difficulty | Time limit |
-| :--- | :-: | :-: |
-| **Simple** | 1–35 | 7 minutes |
-| **Intermediate** | 36–70 | 10 minutes |
-| **Advanced** | 71–100 | 12 minutes |
+| Band | Assessed difficulty |
+| :--- | :-: |
+| **Simple** | 1–35 |
+| **Intermediate** | 36–70 |
+| **Advanced** | 71–100 |
 
 The assessed difficulty decides how much a question weighs in the final result, so a run cannot start until every question in the suite has one. Editing a question or its rubric clears the rating, because an edited question is a different question.
 
@@ -58,7 +58,7 @@ Each question also has a **rubric**, divided into labelled parts:
 | **SOURCE** | Where the rubric's author found its facts | ❌ No |
 | **BOARD FACTS** | In game snapshot suites only: facts quoted word for word from the snapshot | ✅ Yes |
 
-Only the required facts, the board facts, and the critical errors can ever cost an answer points. Scope, form, and source are notes for the grader. The SOURCE line records where the facts came from; it is not the list of correct citations, so an answer that cites another correct place is not marked down for it. A critical error must be contradicted by the rubric's facts or by the game board, and the CRITICAL ERROR part names the dangerous mistakes in advance.
+Only the required facts, the board facts, and the critical errors can ever cost an answer points. Scope, form, and source are notes for the grader. The SOURCE line records where the facts came from; it is not the list of correct citations, so an answer that cites another correct place is not marked down for it.
 
 ### 🗺️ Game Snapshot Suites
 
@@ -93,9 +93,7 @@ Runs with a single assessor remain possible. In such a run the assessor alone se
 
 The reader, the claim verifier, and the report writer are optional, and their findings are **reported, not applied**. This is deliberate: if a later pass could freely change a score, the result would depend on whichever AI spoke last, and it would no longer be reproducible. Instead, disagreements are counted, shown in the report, and left for a human to judge. The reader is also **blind**: it is not shown the panel's grades, so it judges independently instead of drifting toward them.
 
-There is one bounded exception. When only one panel member flags a critical error, the claim verifier's ruling on the quoted sentence settles it, as described under [[The Critical Error Ceiling|#the-critical-error-ceiling]]. The verifier never changes a level, never overrules two members who agree, and leaves the average alone when it cannot decide.
-
-> ℹ️ **Term — candidate:** The model taking GnollBench.
+There is one bounded exception: when only one panel member flags a critical error, the claim verifier's ruling on the quoted sentence settles it, as described under [[The Critical Error Ceiling|#the-critical-error-ceiling]].
 
 ## 🪜 The Stages of a GnollBench Run
 
@@ -148,14 +146,14 @@ $Quality = A^{0.55} \times C^{0.25} \times Cn^{0.10} \times R^{0.10}$
 
 ### 🛑 The Critical Error Ceiling
 
-If a grader finds a **critical error**, its quality score is capped at **25**, whatever the levels were. A critical error is a confidently stated falsehood that a player would act on to their harm, and that the rubric or the game board contradicts. Because this cap is so heavy, it has several safeguards:
+If a grader finds a **critical error**, its quality score is capped at **25**, whatever the levels were. A critical error is a confidently stated falsehood that a player would act on to their harm. Because this cap is so heavy, it has several safeguards:
 
 | Safeguard | Why |
 | :--- | :--- |
 | **Must be something the answer actually says** | Leaving something out is never a critical error |
 | **Must be contradicted by the answer key** | The rubric's facts or the game board must show the statement to be false. A statement the grader merely believes false from its own knowledge is recorded as a suspected falsehood for the claim verifier, not as a critical error |
 | **The grader must quote the offending sentence word for word** | The harness checks that the quote really appears in the answer, and ignores a critical error whose quote it cannot find |
-| **In a panel run, it must be confirmed** | A cap counts when both members flag it. When only one does, the claim verifier's ruling on the quoted sentence decides |
+| **In a panel run, it must be confirmed** | A single member's flag can be wrong, so a split is settled as shown below |
 | **A hedge is graded as a claim** | A statement the answer marks as uncertain ("I think…") loses Accuracy if it is wrong, but it is a critical error only if it recommends an action the rubric's CRITICAL ERROR part names |
 
 How a split between the two panel members is settled:
@@ -240,7 +238,7 @@ These figures are for reporting only: none of them feeds an index. They make gue
 
 ## ⚖️ GnollBench Fairness Safeguards
 
-A large share of GnollBench exists to make sure the grade reflects the answer, not a quirk of the grader.
+A large share of GnollBench exists to make sure the grade reflects the answer, not a quirk of the grader. Besides the two-company panel, the critical-error safeguards, and the not-attempted floor described above, these rules apply:
 
 | Safeguard | Rule |
 | :--- | :--- |
@@ -250,10 +248,6 @@ A large share of GnollBench exists to make sure the grade reflects the answer, n
 | **Single-count omissions** | Missing information lowers Completeness. It may not lower Accuracy as well |
 | **Question sets the scope** | If the rubric lists more than the question asked for, the extra points are noted as out of scope and cost nothing |
 | **Provider failures excluded** | If the AI company's service fails on a question, the answer is excluded, and the run publishes no indices at all, since an index over only the questions that happened to work would be misleading. A model that simply ends its turn without answering scores 0 for that question |
-| **Two-company panel** | Two assessors from two different providers grade every answer, and the score is their mean, so each grader's preference for its own company's models is balanced by the other's |
-| **No self-grading** | Neither panel member may be the model under test; such a run is refused |
-| **Confirmed critical errors** | A critical error must be contradicted by the rubric or the game board, and in a panel run a critical error flagged by only one member is upheld or lifted by the claim verifier's ruling |
-| **Honesty not punished** | An honest "not attempted" answer with nothing false in it scores at least 50, so admitting not knowing does not score below a substantially wrong guess |
 | **Same-company approval (single-grader runs only)** | If a single-assessor run's candidate and assessor come from the same provider, the run has to be explicitly acknowledged, and the report says so |
 | **Volume limits** | At most 5 runs per hour and 20 per day. GnollBench outputs are used only for evaluation, never for training any AI model, and every report carries a statement of that purpose |
 
@@ -304,11 +298,11 @@ A run can also have two **AI-written documents**: an **Executive Summary** and a
 
 ## 🚧 What GnollBench Does Not Measure
 
-GnollBench covers single questions asked in the chat's default configuration: the concise answering style, with source code references turned off, as for a default user. Several things that matter in the live chat are not measured yet:
+Several things that matter in the live chat are not measured yet:
 
 | What | Measured? |
 | :--- | :-: |
-| **Single questions** asked in the chat's default configuration, including source code references off | ✅ Yes |
+| **Single questions** asked in the chat's default configuration: the concise answering style, with source code references turned off, as for a default user | ✅ Yes |
 | **Conversations with several turns**, where earlier messages matter | ❌ Not yet |
 | **The wiki excerpts that the live chat adds** to a question automatically before the model sees it. In GnollBench, the model has to find everything through its tools | ❌ Not yet |
 | **Spoiler-free mode** | ❌ Not yet |

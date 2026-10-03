@@ -30,7 +30,7 @@ In a GnollBench run, a candidate model answers GnollHack questions with tool acc
 Three principles shape most of the design:
 
 - **The production configuration is the instrument.** The candidate runs under the production chat's own system prompt and tool set, not under a test prompt. Every score is therefore an empirical statement about what real users get, and every change to the prompt or the tool guides is a change to the measuring instrument.
-- **Scoring roles score; everything else advises.** The two panel members, or the single assessor of a single-assessor run, set the score. Everything else (reader verdicts, claim verification, consistency checks, re-grades, report documents) produces advisory evidence that is counted and reported but cannot move a score, because a metric that a later pass can freely revise is not reproducible. The single, bounded exception is the claim verifier settling a critical error that only one panel member flagged. It is bounded on purpose: it never sets a level, never overrides two agreeing members, and an undecided ruling keeps the average.
+- **Scoring roles score; everything else advises.** The two panel members, or the single assessor of a single-assessor run, set the score. Everything else (reader verdicts, claim verification, consistency checks, re-grades, report documents) produces advisory evidence that is counted and reported but cannot move a score, because a metric that a later pass can freely revise is not reproducible. The single, bounded exception is the claim verifier settling a critical error that only one panel member flagged; see [[Critical-Error Resolution|#critical-error-resolution]].
 - **Refuse rather than mislead.** When a number would not mean what it appears to mean, GnollBench withholds it: no indices for a run with provider failures, no pooled statistics for runs that are not comparable, no reproducibility figures below three runs.
 
 > ℹ️ **Term — instrument:** Everything that stands between the model and the number: the prompt, the tools, the corpus the tools read, the rubrics, the graders, and the scoring rules. Two results are comparable only if they were taken with the same instrument.
@@ -158,8 +158,7 @@ Most of the scoring method's revisions have been rules that constrain the judge,
 | **A rubric's format suggestion is not a Readability criterion** | It is recorded under a form marker and not deducted, since the production prompt asks for concise prose and the candidate should not be punished for obeying it |
 | **Unverifiable is not false** | A claim the rubric neither states nor contradicts goes to a list of unverified claims, quoted verbatim, and is never the basis of a deduction |
 | **The rubric's SOURCE line is provenance** | It records where the rubric's author found the facts, not the list of correct citations. A citation the SOURCE line does not name is a claim to verify, never a deduction by itself |
-| **Critical errors come only from the answer key or the board** | A claim the grader believes false from its own knowledge is a suspected-false unverified claim, not a critical error |
-| **Not attempted, uncertainty, and alternatives** | An honest abstention is flagged as not attempted, without changing the levels. A tentative claim is graded as the claim it makes. Alternatives offered instead of an answer earn no Completeness for that point, and each alternative is graded as a claim |
+| **Alternatives are not an answer** | Alternatives offered instead of an answer earn no Completeness for that point, and each alternative is graded as a claim |
 
 The markers make the instrument's own share of a shortfall measurable: the report counts how many out-of-scope and form points were recorded, and how many sit next to an unexplained deduction.
 
@@ -214,7 +213,7 @@ In a panel run, the two members already grade every answer, so the reader has a 
 
 ### 🔬 Claim Verifier
 
-An optional role with read-only tools checks individual statements against the wiki and the source code, under its own budget, scaled to the number of items it checks: 15 tool calls plus 1 per item, at most 30, with tool rounds and model calls scaled to match, and 300 seconds per answer, as listed in the harness limits table. It receives unverified and suspected-false claims, the quoted critical-error sentence, the sentences a grader charged as false when the answer is at Accuracy level 5 or below, and the assessor's own factual statements when a verdict is contested. In a panel run it runs once per answer, over the union of both members' charges, and records which member raised each item.
+An optional role with read-only tools checks individual statements against the wiki and the source code, under its own budget, scaled to the number of items it checks (see [[Candidate Execution|#candidate-execution]]). It receives unverified and suspected-false claims, the quoted critical-error sentence, the sentences a grader charged as false when the answer is at Accuracy level 5 or below, and the assessor's own factual statements when a verdict is contested. In a panel run it runs once per answer, over the union of both members' charges, and records which member raised each item.
 
 Each claim gets a verdict of **Supported**, **Refuted**, or **Indeterminate**, and the rules are strict:
 
@@ -227,7 +226,7 @@ Each claim gets a verdict of **Supported**, **Refuted**, or **Indeterminate**, a
 - A GnollHack wiki statement of the property in question is overridden only when the verdict names it and cites the code that overrides it; otherwise the verdict is Indeterminate.
 - Indeterminate is a normal outcome and is preferred to a guess.
 
-In a single-assessor run, when the verifier's findings contest a verdict, the assessor re-grades the answer once with the findings in hand. This **evidence-informed re-grade** is stored separately, may only withdraw deductions that the findings bear on, and feeds an advisory sensitivity figure. No scoring path reads it. A panel run has no such re-grade. The verifier's only effect on a score is its ruling on a critical-error quote in a panel run, which settles a split between the members, as described under [[Critical-Error Resolution|#critical-error-resolution]].
+In a single-assessor run, when the verifier's findings contest a verdict, the assessor re-grades the answer once with the findings in hand. This **evidence-informed re-grade** is stored separately, may only withdraw deductions that the findings bear on, and feeds an advisory sensitivity figure. No scoring path reads it. A panel run has no such re-grade.
 
 ## 📊 GnollBench Indices and Uncertainty
 
@@ -419,7 +418,7 @@ Rubrics in such suites open with **board facts**, each quotable from the snapsho
 
 ## ⚖️ Provider Terms Compliance
 
-GnollBench is internal evaluation, and technical controls keep it from resembling data harvesting: at most 50 questions per suite, 5 runs per hour, and 20 runs per day. Outputs are never used to train, fine-tune, or distill any model. Each run records a purpose statement that appears in its report. In a single-assessor run, a candidate and assessor that share a provider are rejected unless an administrator explicitly acknowledges the methodological caveat, and the acknowledgment is disclosed in the report. A panel run needs no such acknowledgment: it requires members from two providers, neither of them the model under test, and is balanced by construction. A report writer from the candidate's provider needs an explicit confirmation, and the model under test can never write its own reports.
+GnollBench is internal evaluation, and technical controls keep it from resembling data harvesting: at most 50 questions per suite, 5 runs per hour, and 20 runs per day. Outputs are never used to train, fine-tune, or distill any model. Each run records a purpose statement that appears in its report. In a single-assessor run, a candidate and assessor that share a provider are rejected unless an administrator explicitly acknowledges the methodological caveat, and the acknowledgment is disclosed in the report. A panel run needs no such acknowledgment, since its roster rules balance it by construction. A report writer from the candidate's provider needs an explicit confirmation, and the model under test can never write its own reports.
 
 Report documents can be shared with a tested model's provider at a limited level of disclosure, with peer models anonymized by default. Rubrics are never shared: a rubric that leaves the team can no longer measure any model that may have seen it.
 
