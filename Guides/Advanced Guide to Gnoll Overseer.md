@@ -10,11 +10,7 @@ While the [[/Guides/Introduction to Gnoll Overseer]] covers the basics, this gui
 
 One of the most powerful ways the Overseer helps you learn is by understanding your current game situation. When you open the Overseer from within a game, it receives a snapshot of your character's stats, your inventory, the surrounding dungeon map, and recent game messages (if **Send Game Context** is on).
 
-You can use this to your advantage in several ways:
-
-- **Survival Strategies:** If you are cornered by dangerous monsters and low on health, ask the Overseer what your best options are. It can check your inventory for escape items (like a wand of teleportation or a scroll of earth) and suggest the safest course of action.
-- **Item Identification:** Unsure if you should drink an unidentified potion or put on an unknown ring? The Overseer can look at your situation and suggest how to test items safely or deduce their identity from context clues.
-- **Navigating Hazards:** If you stumble into a room full of traps or a tricky dungeon branch, the Overseer can explain the dangers of your current location and how to proceed carefully.
+You can use this to your advantage in several ways. For example, if you are cornered by dangerous monsters and low on health, ask the Overseer what your best options are. It can check your inventory for escape items (like a [[/Items/wand of teleportation]] or a [[/Items/scroll of earth]]) and suggest the safest course of action.
 
 ## 📖 Deep Game Knowledge on Demand
 
