@@ -26,13 +26,9 @@ There are three ways to open Gnoll Overseer:
 
 | Access Method | What the Overseer Knows | Best For |
 |---|---|---|
-| **In-Game Menu** | ✅ A snapshot of your current game, if **Send Game Context** is on | Real-time tactical advice, item identification, and survival decisions during a game |
+| **In-Game Menu** | ✅ A snapshot of your current game, if **Send Game Context** is on | Real-time tactical advice and survival decisions during a game |
 | **About Menu** | 🟡 No game snapshot; with **Client Data Access** on, it can read your dumplogs, score log, and app logs on the device | App problems, save files, and troubleshooting, plus general game questions |
-| **Web Interface** | 🟡 No game snapshot | Your chat history on any device, your own API keys and models, and the web settings at [overseer.gnollhack.com](https://overseer.gnollhack.com) |
-
-- **From the in-game menu**, the chat is titled "GnollHack Gameplay" followed by your character's name, and the Overseer greets you without your typing anything.
-- **From the About page**, the chat opens in technical-support mode and is titled "GnollHack Assistance".
-- **On the web**, you sign in with the same account as in the game. The Overseer window in the game is the same app, so your chats appear in both places.
+| **Web Interface** | 🟡 No game snapshot | General gameplay advice |
 
 ## 📋 What You Need
 
@@ -59,15 +55,12 @@ You can customize the Overseer's behavior in the Gnoll Overseer section of the g
 | **Verbose Responses** | Switches between comprehensive explanations and concise tactical answers. | ❌ Off |
 | **Send Game Context** | Whether a snapshot of your game (stats, inventory, map, recent messages) is sent when you open the Overseer during play. | ✅ On |
 | **Client Data Access** | Whether the Overseer may read more data from the device, such as the full message history, your dumplogs, and app logs. | ✅ On |
-| **Game Actions** | Whether the Overseer may perform game actions for you. Not available yet. | ❌ Off |
 
-**Data Consent** shows whether you have accepted the AI Data Disclosure. Press **Revoke** to withdraw your consent; the disclosure appears again the next time you open the Overseer. In the game, tapping or clicking a setting's name opens a popup describing it.
-
-> ℹ️ **Note:** The web site has its own **Spoiler-Free Mode**, which is on by default. For chats opened from the game, the in-game **Allow Spoilers** setting wins.
+> ℹ️ **Note:** The website has its own **Spoiler-Free Mode**, which is on by default. For chats opened from the game, the in-game **Allow Spoilers** setting wins.
 
 ## 📖 Learn More
 
 - [[/Gnoll Overseer]] — All Gnoll Overseer guides in one place.
 - [[/Guides/Choosing AI Model for Gnoll Overseer]] — How to choose the right AI model.
-- [[/Guides/Chat Confidentiality Modes in Gnoll Overseer]] — Standard, Confidential, and Incognito chats.
 - [[/Guides/Advanced Guide to Gnoll Overseer]] — The tools, spoiler policy, chat features, and web settings in depth.
+- [[/Guides/Chat Confidentiality Modes in Gnoll Overseer]] — Standard, Confidential, and Incognito chats.
