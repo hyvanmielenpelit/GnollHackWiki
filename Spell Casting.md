@@ -35,7 +35,7 @@ Most spell schools use more than one attribute, and in that case they use the hi
 
 ### Armor Penalty to Spell Casting
 
-If a spell has a **somatic component**, using heavy armor incurs a spell casting penalty. If a spell has a somatic component usually depends on which magic school the spell belongs to. This fact is listed in the above list of magic schools.
+If a spell has a **somatic component**, using heavy armor incurs a spell casting penalty. Whether a spell has a somatic component depends only on its magic school: every spell of a school has one, or none of them do, as listed above.
 
 ## Spell Casting Success Chance
 
