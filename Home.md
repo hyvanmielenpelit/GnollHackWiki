@@ -90,6 +90,7 @@ The *Gnoll Overseer* is your in-game assistant for all things GnollHack. He is h
 
 - **[[Development Information]]** — Build instructions and similar information
 - **[[Technological Features]]** — Major features of GnollHack from the development technology perspective
+- **[[Development Timeline]]** — Important dates in GnollHack development
 
 ## 🤝 Contributions
 
