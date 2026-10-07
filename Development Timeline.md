@@ -8,7 +8,7 @@ This is the timeline of important dates in GnollHack development.
 | 4 Jun 2022 | Beta version for iOS | 4.1.0 Beta 4 | Xamarin.Forms + SkiaSharp | ❌ |
 | **18 Mar 2023** | **Android and iOS versions officially released** | 4.1.0 Build 40 | Xamarin.Forms + SkiaSharp | ❌ |
 | 12 Dec 2023 | GnollHack Account | 4.1.3 Build 24 | ASP.NET Core | ❌ |
-| 26 May 2024 | In-game GnollHack wiki support | 4.1.3 Build 52 | GitHub | ❌ |
+| 26 May 2024 | In-game GnollHack wiki support | 4.1.3 Build 52 | GitHub Repository Wiki | ❌ |
 | 30 Jul 2024 | Beta version for Windows | 4.2.0 Build 3 | .NET MAUI 8 | ❌ |
 | 21 Feb 2025 | Android and iOS versions migrated to .NET MAUI | 4.2.0 Build 24 | .NET MAUI 9 + SkiaSharp | ❌ |
 | **30 Apr 2025** | **Windows version released on Steam** | 4.2.0 Build 34 | .NET MAUI 9 + SkiaSharp | ❌ |
