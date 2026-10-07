@@ -1,4 +1,4 @@
-This is the timeline of important dates in GnollHack development.
+This is the timeline of important events in GnollHack development.
 
 | Date | Event | Version | Technology | AI |
 | :--- | :---- | :------ | :--------- | :-: |
