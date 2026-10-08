@@ -119,7 +119,8 @@ If you pray when it is unsafe, you will suffer the following consequences:
 
 - **Vile Creature**: You are forcefully rehumanized and take 1d20 damage.
 - **Gehennom**: Your god states they cannot help you. If your Alignment Record is 0 or less, your god will become angry.
-- **Too Soon / Too Naughty**: Your prayer fails. Your prayer timeout is increased by approximately 125 for Priests or 250 for others, your god becomes upset, and your Luck decreases by 3. If you pray on a wrong altar, the altar may curse any [[water|/Items/potion of water]] or [[holy symbols|/Items/holy symbol]] on it.
+- **Too Soon**: Your prayer fails. Your god's anger grows by one, your Luck decreases by 3, and your angry god punishes you. The punishment grows harsher with your god's anger and your bad Luck, from a mere feeling that your god is displeased to cursed items, a lost experience level or a bolt of lightning. Your prayer timeout is then set anew to a random value of around 300, or around 150 for Priests, which can also come out much larger. If you pray on a wrong altar, the altar may curse any [[water|/Items/potion of water]] or [[holy symbols|/Items/holy symbol]] on it.
+- **Too Naughty**: You pray while your Luck is negative, your god is angry, or your alignment record is negative. On an altar of another alignment your record counts for half, and on an altar of the opposing alignment it counts against you. Your prayer fails, your angry god punishes you in the same way, and your prayer timeout is set anew in the same way. The failed prayer does not lower your Luck or add to your god's anger by itself. If you pray on a wrong altar, the altar may curse any [[water|/Items/potion of water]] or [[holy symbols|/Items/holy symbol]] on it.
 - **Wrong Altar**: The altar may curse [[water|/Items/potion of water]] and [[holy symbols|/Items/holy symbol]] placed upon it. If so, you incur the same penalties as praying "Too Soon".
 
 ### Positive Outcomes

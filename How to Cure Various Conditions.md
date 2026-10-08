@@ -22,7 +22,15 @@ When a [[/Monsters/chickatrice]], [[/Monsters/cockatrice]], [[/Monsters/giant co
 - Use a [[/Items/jar of basilisk blood]]
 - Pray _(if it is safe to pray)_
 
-These will convey you also a 13-turn stoning resistance. Because you need to act quickly when the stoning occurs, most players keep a [[/Monsters/lizard]] corpse or a [[/Items/dragon fruit]] in open inventory when playing the game.
+These will convey you also a 13-turn stoning resistance. Stoning can also be cured in these ways, which do not give that resistance:
+
+- Quaff a [[/Items/potion of acid]] _(it burns you unless you are immune to acid)_
+- Eat the corpse of a monster whose corpse is acidic, such as an [[/Monsters/acid blob]]
+- Quaff from or apply to yourself [[/Artifacts/the Holy Grail]] while it is charged _(not while you are in an undead or demon form)_
+- Cast [[/Spells/Cure petrification]]
+- Cast [[/Spells/Stone to flesh]] at yourself
+
+Because you need to act quickly when the stoning occurs, most players keep a [[/Monsters/lizard]] corpse or a [[/Items/dragon fruit]] in open inventory when playing the game.
 
 Note that once the stoning process has started putting on an item that protects you from petrification, such as an [[/Items/amulet versus petrification]], does not protect you from being petrified. 
 

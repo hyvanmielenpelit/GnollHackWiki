@@ -94,7 +94,7 @@ You get [[maximum mana]] from:
 - [[Experience Level]] — You gain more mana as you level up.
 - [[Items]] — Some items increase your mana pool.
 
-Mana regenerates over time at the rate of `Max_Mana/640` per turn. Energy regeneration from items doubles the rate.
+Mana regenerates every turn. Without help, an empty mana pool refills in 240 turns, so each turn restores 1/240 of your maximum mana. With energy regeneration it refills in two thirds as many turns as your maximum mana, but in no more than 120 turns. Rapid, rapider and rapidest energy regeneration refill it in a third, a sixth and a twelfth as many turns as your maximum mana, but in no more than 60, 30 and 15 turns.
 
 ### Casting Time
 

@@ -106,7 +106,7 @@ Depending on how much prayer timeout is reduced, the player will see different m
 
 ### 4. Divine Gifts
 
-If you are in excellent standing (no anger, positive alignment, no prayer timeout, character level > 2, and Luck $\ge$ 0), there is a chance your god bestows a divine gift.
+If you are in excellent standing (no anger, an alignment record that is not negative, no prayer timeout, character level > 2, and Luck >= 0 without the bonus or penalty of any [[/Items/luckstone]] or other luck-changing item you carry), there is a chance your god bestows a divine gift.
 
 See [[Sacrifice Gifts]] for details.
 
