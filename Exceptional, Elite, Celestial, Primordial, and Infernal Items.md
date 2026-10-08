@@ -5,7 +5,7 @@
 In GnollHack, a weapon can have a quality modifier. The quality modifier increases the weapon's base damage.
 - **Exceptional** weapons deal 2x base damage
 - **Elite** weapons deal 3x base damage
-- **Celestial/Primordial/Infernal** weapons deal 4x base damage but can be used only by lawful/neutral/chaotic beings, respectively.
+- **Celestial/Primordial/Infernal** weapons deal 4x base damage but can be used only by lawful/neutral/chaotic beings, respectively. If your alignment does not match, you cannot wield such a weapon: trying shocks you for damage and uses up your turn.
 
 For example, a normal long sword deals 1d8 damage to small creatures and 1d12 to large creatures, while an exceptional long sword deals 2d8 damage to small creatures and 2d12 to large creatures.
 
