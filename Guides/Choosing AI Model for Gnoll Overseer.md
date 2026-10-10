@@ -1,6 +1,6 @@
 ![Gnoll Overseer](/uploads/Guides/Introduction%20to%20Gnoll%20Overseer/gnoll-overseer-avatar-frame-256x256-q85.webp)
 
-> 👉 **The Gnoll Overseer supports AI models from Anthropic, Google, and OpenAI. As of Overseer 1.1.1, three free system models are available. This page explains which one to choose, how to switch, and how to use a model of your own.**
+> 👉 **The Gnoll Overseer supports AI models from Anthropic, Google, and OpenAI. As October 10, 2026, three free system models are available. This page explains which one to choose, how to switch, and how to use a model of your own.**
 
 ## 🧠 Available Models
 
@@ -10,7 +10,7 @@ The three system models differ in their thinking level, provider, intelligence, 
 | :---- | :------------- | :------- | :----------- | :---- | :--- | :------- |
 | **GPT-5.6 Luna** | **High** | OpenAI | 🟡 Medium | 🟡 Medium | 🟢 Very low | Everyday questions |
 | **GPT-5.6 Luna** | **Max** | OpenAI | 🟢 High | 🔴 Slow | 🟢 Low | Hard questions |
-| **Gemini 3.7 Flash** | **Medium** | Google | 🟡 Medium | 🟢 Fast | 🟡 Medium | When you are in a hurry |
+| **Gemini 3.8 Flash** | **Medium** | Google | 🟡 Medium | 🟢 Fast | 🟡 Medium | When you are in a hurry |
 
 > ℹ️ **Note:** The system models are chosen by the Overseer's operator. The list can change, and the models offered to your account may differ from this table.
 
@@ -26,7 +26,7 @@ For difficult questions, use **GPT-5.6 Luna (Max)**. It is much slower than the 
 
 ### 🏃 Urgent Questions
 
-If you are in a hurry and the question is not too hard, use **Gemini 3.7 Flash (Medium)**. It is much faster than the GPT-5.6 Luna models and about as capable as GPT-5.6 Luna (High). However, it costs about 3–4 times more per token, so use it when speed matters most.
+If you are in a hurry and the question is not too hard, use **Gemini 3.8 Flash (Medium)**. It is much faster than the GPT-5.6 Luna models and about as capable as GPT-5.6 Luna (High). However, it costs about 3–4 times more per token, so use it when speed matters most.
 
 ## 🔀 Switching Models
 
