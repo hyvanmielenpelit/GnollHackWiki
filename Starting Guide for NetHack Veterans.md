@@ -83,11 +83,11 @@ GnollHack's late game is more difficult than NetHack's.
 | Mix spells (`Shift+x`) | New | Prepare spells using material components. |
 | View spell (`Alt+z`) | New | View details about your spells. |
 | Spell menu (`+`) | New | Open the spell management menu. |
-| Abilities (`Shift+a`) | New | View abilities gained from corpses or items. |
+| Abilities (`Shift+a`) | New | View your statistics, attributes, skills, and special abilities, as well as quests, achievements, and the dungeon overview. |
 | Character details (`}`) | New | View detailed stats, including alignment. |
-| Handedness (`Alt+h`) | New | Toggle left/right handedness for equipping. |
+| Handedness (`Alt+h`) | New | Toggle whether Swap weapons (`x`) swaps both your weapon and shield or only your right-hand weapon. |
 | Dig (`Ctrl+g`) | New | Quick command for digging. |
-| Commands menu (`Alt+c`) | New | Open the extended commands menu. |
+| Commands menu (`Alt+c`) | New | Open a menu of additional actions. |
 | Yell for pets (`Ctrl+y` / `Alt+y`) | New | Call your pets to your location. |
 
 
@@ -95,7 +95,6 @@ GnollHack's late game is more difficult than NetHack's.
 
 - [[Keyboard Shortcuts]] — Extensive guide to mobile and desktop controls and shortcuts
 - [[Keyboard Command Changes from NetHack]] — Key differences in commands from NetHack
-- [[Advanced Keyboard Features]] — Detailed information on advanced controls
 
 
 ## 💪 Part 3: Character Progression & Magic
@@ -144,7 +143,7 @@ GnollHack's late game is more difficult than NetHack's.
 - **Reach Weapons:** Polearms are significantly better, able to hit enemies 2 squares away in **all** directions, regardless of your skill level. Spears can also hit 2 squares away (via the apply command), provided you have at least "Basic" skill in Spears.
 - **Durable Missiles:** Missiles (like arrows) break very rarely. Uncursed missiles have only a 5% chance to break, and blessed missiles do not break unless the target's passive effect damages them!
 
-> 💡 **Tip:** You are encouraged to use ranged weapons first, and then swap to melee weapons (using the 0-turn Exchange weapons (`x`) command) when monsters close the gap!
+> 💡 **Tip:** You are encouraged to use ranged weapons first, and then swap to melee weapons (using the 0-turn Swap weapons (`x`) command) when monsters close the gap!
 
 
 ## 🎒 Part 5: Items, Equipment & Economy
@@ -248,11 +247,11 @@ GnollHack changes the initial inventory of almost every role to make the early g
 
 ### 👹 Monster Changes
 
-- **The Touch of Death:** High-level priests (like the High Priest in the Sanctum) can cast the Touch of Death. **You need Death Resistance** to survive this; Magic Resistance is no longer enough!
+- **The Touch of Death:** [[High priests|/Monsters/High priest]] (like the High Priest in the Sanctum) can cast the Touch of Death. Magic Resistance no longer protects you: **Death Resistance** makes you immune, and otherwise only a successful Magic Cancellation (MC) check saves you.
 - **Wizards and Liches:** High-level mage casters (like the [[/Monsters/Wizard of Yendor]]) can no longer cast the Touch of Death, so you do not need Death Resistance for them.
-- **Covetousness Removed:** Covetousness (teleporting to you to steal artifacts and teleporting to the stairs to heal) has been removed from all monsters *except* the Wizard of Yendor and high-level liches. Boss monsters are generally easier in this regard, but they often have new abilities and more HP to compensate.
+- **Covetousness Removed:** Covetousness (teleporting to you to steal artifacts and teleporting to the stairs to heal) has been removed from all monsters *except* the Wizard of Yendor. Boss monsters are generally easier in this regard, but they often have new abilities and more HP to compensate.
 - **Cockatrice Corpses Nerfed:** When you wield and hit an enemy with a [[/Monsters/Cockatrice]] corpse, the petrification effect must now pass the monster's MC to take effect.
-- **Fearless Undead:** Undead and mindless monsters will never flee from battle and are completely immune to fear.
+- **Fearless Undead:** Undead and mindless monsters are immune to fear, although garlic, Elbereth, and scrolls of scare monster can still drive undead away.
 - **Summon Nasties Nerfed:** The dreaded "summon nasties" monster spell has been heavily nerfed.
 - **Faster Scaling:** Higher level monsters appear quicker as you delve deeper compared to NetHack.
 - **Hire Mercenaries:** You can hire peaceful monsters to join your party. High Charisma makes this a highly effective way to acquire powerful allies.

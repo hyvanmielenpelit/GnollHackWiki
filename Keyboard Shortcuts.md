@@ -111,7 +111,7 @@
 | Ctrl+d | Kick | Kick an adjacent door, chest, monster, or other object. | Alternate key. |
 | Ctrl+e | Detect | Detect hidden features on the map. | [[Wizard mode]] only. |
 | Ctrl+f | Reveal map | Reveal the entire map of the current level. | [[Wizard mode]] only. |
-| Ctrl+g | Dig | Dig the ground or a wall (requires a pick-axe or other digging tool). | New in GnollHack. |
+| Ctrl+g | Dig | Dig down where you stand. With a wielded pick-axe or mattock, you dig through the floor; otherwise you dig grass, ground, or a grave by hand or with your wielded item. | New in GnollHack. |
 | Ctrl+h |  |  | |
 | Ctrl+i | Identify | Identify all items in your inventory. | [[Wizard mode]] only. |
 | Ctrl+j |  |  | |

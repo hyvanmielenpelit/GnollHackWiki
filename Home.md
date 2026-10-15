@@ -48,6 +48,8 @@ GnollHack is best understood as a modernized version of NetHack that makes the c
 ## ✨ Features
 
 - **[[Features]]** — Main features of GnollHack
+- **[[Detailed Features]]** — A complete reference of the gameplay changes GnollHack makes to NetHack
+- **[[How GnollHack differs from NetHack]]** — A side-by-side comparison of GnollHack and NetHack
 - **[[Desktop Features]]** — Take a look at the features that appear only on the desktop versions of GnollHack
 - **[[Auto-Stashing Algorithm]]** — Learn how GnollHack automatically sorts loot
 - **[[Save File Transfer]]** — How to move your save files across different devices and platforms

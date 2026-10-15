@@ -30,7 +30,7 @@ GnollHack can also be viewed as a NetHack remaster, adding the following modern 
 - **Graphics and animations** — Over 23000 64x96-pixel base tiles
 - **Sounds** — Over 1100 sound effects
 - **Music** — 37 music tracks
-- **Voiceovers** — 97 voice actors and over 5000 voiceover lines
+- **Voiceovers** — 96 voice actors and over 5000 voiceover lines
 - **Cross-platform support** — Android, iOS, macOS, and Windows
     - macOS can run the iOS version *(Macs with an M1 or later processor)*
 - **Modern UI**

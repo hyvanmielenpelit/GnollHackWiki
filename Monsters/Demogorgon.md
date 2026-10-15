@@ -44,6 +44,7 @@ St:24 Dx:20 Co:24 In:24 Wi:23 Ch:19
 4. Eschews silver items
 5. Eschews blessed items
 6. Does not eat
+7. Teleports next to you from time to time, but unlike the Wizard of Yendor, he does not retreat to the stairs to heal
 
 ## Corpse properties
 

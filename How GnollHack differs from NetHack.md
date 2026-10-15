@@ -23,7 +23,7 @@ NetHack uses a simple spell retention system where spells are eventually forgott
 | **Spell Variety** | 📜 ~40 standard spells | ✨ Over 200 new spells across 12 distinct spell schools |
 | **Preparation** | 📖 Read book to memorize | 🧪 Use the Mix command with material components (reagents) |
 | **Casting Depth** | 🎲 Simple chance to cast | ⏱️ Features casting times, tactical cooldowns, and somatic armor penalties |
-| **Learning Spells**| 📕 Read spellbooks | 🧑‍🏫 Read spellbooks or pay Priest and Artificer NPCs |
+| **Learning Spells**| 📕 Read spellbooks | 🧑‍🏫 Read spellbooks or pay priests, the Oracle, artificers, and some other NPCs to teach you |
 | **Management** | 📋 Basic listing | ⌨️ Sort, reorder, and assign numeric shortcuts (0–9) |
 
 ## ⚔️ Combat and Items
@@ -87,3 +87,5 @@ GnollHack's GUI on Windows:
 ## 📖 See Also
 
 - **[[Comparisons to Other Games]]**
+- **[[Detailed Features]]**
+- **[[Features]]**

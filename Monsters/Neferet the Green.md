@@ -33,6 +33,7 @@ St:15 Dx:18 Co:18 In:20 Wi:18 Ch:18
 
 1. Does not eschew cursed items
 2. Zombifiable and mummifiable corpse
+3. Teleports next to you from time to time, but unlike the Wizard of Yendor, she does not retreat to the stairs to heal
 
 ## Corpse properties
 

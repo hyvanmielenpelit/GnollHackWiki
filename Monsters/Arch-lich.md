@@ -39,6 +39,7 @@ St:18 Dx:13 Co:17 In:25 Wi:20 Ch:18
 2. Does not eschew cursed items
 3. Eschews blessed items
 4. Does not eat
+5. Teleports next to you from time to time, but unlike the Wizard of Yendor, it does not retreat to the stairs to heal
 
 ## Corpse properties
 

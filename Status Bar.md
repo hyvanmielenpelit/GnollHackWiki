@@ -58,7 +58,7 @@ Attribute scores are shown in the status bar in the ASCII user interface.
 ### [[Alignment|Alignments]]
 
 - Alignment is shown after the attribute scores in the ASCII user interface.
-- Alignment is not shown in the mobile user interface.
+- In the modern user interface, alignment is shown on the status bar when the **Desktop Status Bar** [[setting|Settings]] is on, which is the default on desktop. Otherwise, tap the status bar to open the status screen, which shows it.
 
 #### Label
 
