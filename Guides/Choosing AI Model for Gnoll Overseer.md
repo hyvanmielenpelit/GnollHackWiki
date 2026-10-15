@@ -1,32 +1,27 @@
 ![Gnoll Overseer](/uploads/Guides/Introduction%20to%20Gnoll%20Overseer/gnoll-overseer-avatar-frame-256x256-q85.webp)
 
-> 👉 **The Gnoll Overseer supports AI models from Anthropic, Google, and OpenAI. As October 10, 2026, three free system models are available. This page explains which one to choose, how to switch, and how to use a model of your own.**
+> 👉 **The Gnoll Overseer supports AI models from Anthropic, Google, and OpenAI. As October 15, 2026, two free system models are available. This page explains which one to choose, how to switch, and how to use a model of your own.**
 
 ## 🧠 Available Models
 
-The three system models differ in their thinking level, provider, intelligence, speed, and cost:
+The two system models differ in their thinking level, provider, intelligence, speed, and cost:
 
 | Model | Thinking Level | Provider | Intelligence | Speed | Cost | Best For |
 | :---- | :------------- | :------- | :----------- | :---- | :--- | :------- |
-| **GPT-5.6 Luna** | **High** | OpenAI | 🟡 Medium | 🟡 Medium | 🟢 Very low | Everyday questions |
-| **GPT-5.6 Luna** | **Max** | OpenAI | 🟢 High | 🔴 Slow | 🟢 Low | Hard questions |
+| **GPT-6 Luna** | **High** | OpenAI | 🟡 Medium | 🟡 Medium | 🟢 Very low | Most questions |
 | **Gemini 3.8 Flash** | **Medium** | Google | 🟡 Medium | 🟢 Fast | 🟡 Medium | When you are in a hurry |
 
 > ℹ️ **Note:** The system models are chosen by the Overseer's operator. The list can change, and the models offered to your account may differ from this table.
 
 ## 🎯 Choosing the Right Model
 
-### 📖 Everyday Questions
+### 📖 Most Questions
 
-For normal questions, **GPT-5.6 Luna (High)** is recommended. It is a very cheap but capable model, and it is also fairly fast. It answers most common questions accurately.
-
-### 🏆 Hard Questions
-
-For difficult questions, use **GPT-5.6 Luna (Max)**. It is much slower than the other two models, but also more intelligent, and it is still cheap to use. If you have a hard question and time to wait for the answer, this is the model to choose.
+For most questions, **GPT-6 Luna (High)** is recommended. It is a very cheap but capable model, and it is also fairly fast. It answers most common questions accurately.
 
 ### 🏃 Urgent Questions
 
-If you are in a hurry and the question is not too hard, use **Gemini 3.8 Flash (Medium)**. It is much faster than the GPT-5.6 Luna models and about as capable as GPT-5.6 Luna (High). However, it costs about 3–4 times more per token, so use it when speed matters most.
+If you are in a hurry and the question is not too hard, you may use **Gemini 3.8 Flash (Medium)**. It is faster than GPT-6 Luna.
 
 ## 🔀 Switching Models
 
