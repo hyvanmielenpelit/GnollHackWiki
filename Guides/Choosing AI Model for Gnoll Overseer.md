@@ -14,11 +14,11 @@
 
 ### 📖 Most Questions
 
-For most questions, **GPT-6 Luna (High)** or **GPT-5.6 Luna (Max)** is recommended. They answer most common questions accurately.
+For most questions, the recommended models are **GPT-6 Luna (High)** or **GPT-5.6 Luna (Max)**. They answer most common questions accurately.
 
 ### 🏆 Hard Questions
 
-For difficult questions, use **Gemini 4 Argon (Medium)**, if the other models fail to answer correctly.
+For difficult questions, you may use **Gemini 4 Argon (Medium)**, when the other models fail to answer correctly.
 
 ## 🔀 Switching Models
 
