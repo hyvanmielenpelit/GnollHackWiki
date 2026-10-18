@@ -1,3 +1,5 @@
+**Last updated:** 18 October 2026
+
 These Terms of Service ("Terms") govern your access to and use of **Gnoll Overseer** (the "Service"), an optional artificial intelligence (AI) chat assistant provided by **Hyvän mielen pelit ry**, operating in English as **Sound Mind Games** ("we", "us", or "our"). The Service is accessible through the GnollHack video game client and via our web interface at [overseer.gnollhack.com](https://overseer.gnollhack.com).
 
 By accessing or using Gnoll Overseer, you agree to be bound by these Terms, our [[Gnoll Overseer Privacy Policy]], and our [[Overseer AI Providers]] disclosures. If you do not agree to these Terms, do not use the Service.
