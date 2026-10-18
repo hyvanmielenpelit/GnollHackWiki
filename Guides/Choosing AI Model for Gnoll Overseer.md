@@ -1,28 +1,24 @@
 ![Gnoll Overseer](/uploads/Guides/Introduction%20to%20Gnoll%20Overseer/gnoll-overseer-avatar-frame-256x256-q85.webp)
 
-> 👉 **The Gnoll Overseer supports AI models from Anthropic, Google, and OpenAI. As October 15, 2026, three free system models are available. This page explains which one to choose, how to switch, and how to use a model of your own.**
+> 👉 **The Gnoll Overseer supports AI models from Anthropic, Google, and OpenAI. As October 18, 2026, three free system models are available. This page explains which one to choose, how to switch, and how to use a model of your own.**
 
 ## 🧠 Available Models
 
 | Model | Thinking Level | Provider | Intelligence | Speed | Cost | Best For |
 | :---- | :------------- | :------- | :----------- | :---- | :--- | :------- |
 | **GPT-6 Luna** | **High** | OpenAI | 🟡 Medium | 🟡 Medium | 🟢 Very low | Most questions |
-| **GPT-5.6 Luna** | **Max** | OpenAI | 🟢 High | 🔴 Slow | 🟢 Low | Hard questions |
-| **Gemini 3.8 Flash** | **Medium** | Google | 🟡 Medium | 🟢 Fast | 🟡 Medium | When you are in a hurry |
+| **GPT-5.6 Luna** | **Max** | OpenAI | 🟡 Medium | 🔴 Slow | 🟢 Low | Most questions |
+| **Gemini 4 Argon** | **Medium** | Google | 🟢 High | 🔴 Slow | 🔴 High | Hard questions |
 
 ## 🎯 Choosing the Right Model
 
 ### 📖 Most Questions
 
-For most questions, **GPT-6 Luna (High)** is recommended. It answers most common questions accurately.
+For most questions, **GPT-6 Luna (High)** or **GPT-5.6 Luna (Max)** is recommended. They answer most common questions accurately.
 
 ### 🏆 Hard Questions
 
-For difficult questions, use **GPT-5.6 Luna (Max)**. It is slower than the other two models, but it may be more intelligent.
-
-### 🏃 Urgent Questions
-
-If you are in a hurry and the question is not too hard, you may use **Gemini 3.8 Flash (Medium)**.
+For difficult questions, use **Gemini 4 Argon (Medium)**, if the other models fail to answer correctly.
 
 ## 🔀 Switching Models
 
