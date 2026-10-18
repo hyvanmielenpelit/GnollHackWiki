@@ -127,3 +127,5 @@ The *Gnoll Overseer* is your in-game assistant for all things GnollHack. He is h
 - **[[Terms and Conditions]]**
 - **[[AI Usage Policy]]**
 - **[[Overseer AI Providers]]**
+- **[[GnollHack Account Terms of Service]]**
+- **[[Gnoll Overseer Terms of Service]]**
