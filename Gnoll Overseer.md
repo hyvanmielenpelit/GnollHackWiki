@@ -24,6 +24,7 @@
 
 ## 📄 Legal and Privacy
 
+- [[Gnoll Overseer Terms of Service]] — What you are allowed to do with the Overseer service.
 - [[Overseer AI Providers]] — Which AI providers process your messages, what is sent to them, and your consent.
 - [[Gnoll Overseer Privacy Policy]] — What the Overseer stores, how it is protected, and how long it is kept.
 
