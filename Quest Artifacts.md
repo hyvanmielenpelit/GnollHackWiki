@@ -11,3 +11,5 @@
 * [[/Artifacts/The Platinum Yendorian Express Card]] — Tourist Quest Artifact
 * [[/Artifacts/The Orb of Fate]] — Valkyrie Quest Artifact
 * [[/Artifacts/The Eye of the Aethiopica]] — Wizard Quest Artifact
+
+On a [[bones level|Bones Files]], your own role's quest artifact is always an ordinary item, while another role's keeps its powers unless it already exists in your game.
