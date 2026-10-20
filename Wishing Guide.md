@@ -140,6 +140,8 @@ The probability of obtaining an artifact through wishing depends heavily on how 
 
 *(For 3 or more existing artifacts, the formula is exactly $2/n$, where $n$ is the number of already generated artifacts).*
 
+The same chance applies to the quest artifacts of the other roles. The quest artifact of the role you are playing can never be wished for, and the wish is still used up; see [[Quest Artifacts]].
+
 > 💡 **Example:** Wishing for `"Frost Brand"` early in the game (0 to 2 artifacts already generated) has a 100% success rate.
 
 ## 🛠️ Item Conditions and Modifiers

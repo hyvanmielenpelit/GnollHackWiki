@@ -36,3 +36,5 @@
 * [[/Artifacts/Trollsbane]]
 * [[/Artifacts/Vorpal Blade]]
 * [[/Artifacts/Werebane]]
+
+The quest artifacts of the other roles can be wished for too, but not the quest artifact of the role you are playing; see [[Quest Artifacts]].
