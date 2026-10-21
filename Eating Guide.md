@@ -87,7 +87,9 @@ When you fully consume a corpse, the game rolls a conveyance check. If multiple 
 
 ## ⚠️ Dangerous Food and Penalties
 
-GnollHack implements a sensory warning system that alerts characters to dangerous food items before eating them. These prompts will ask you if you want to eat the item anyway.
+A gnoll can smell dangerous food: before a gnoll eats something that could be tainted, rotten, poisonous or otherwise harmful, the game names the danger and asks whether to eat it anyway. The table below lists common warnings of this kind. Other characters get them only after reading a blessed scroll of food detection, and only until that sense first speaks up, whether to warn of a danger or to point out food that is unfamiliar to them. Without that sense of smell, the corpse confirmation option, which is on by default, asks before you eat a corpse whose properties or freshness you do not know, and warns you about a corpse you know to be rotten, unfresh or dangerous, such as a petrifying or poisonous corpse.
+
+Recognizing a corpse's properties is a different ability: gnolls and Healers have it from the start, Priests gain it at experience level 4, Archaeologists at 7 and Cavemen at 10. With it, examining a corpse lists what eating it does, even for a kind of monster you have never eaten.
 
 | Dangerous Food Type | Sensory Warning Prompt | Consequence of Eating |
 | :--- | :--- | :--- |

@@ -27,3 +27,5 @@
 ## Notes
 
 The Master Key of Thievery is Rogue Quest Artifact.
+
+A blessed Master Key helps any character who can hold it with trapped doors and boxes: when you unlock or lock a door or a box with it, it finds a trap there and lets you disarm it with certain success, and while you carry it, Untrap (`Alt+u`) on a door or a box always finds and disarms the trap. A Rogue gets the same help from it whenever it is not cursed. Its enhanced untrapping, listed above, is for Rogues only.

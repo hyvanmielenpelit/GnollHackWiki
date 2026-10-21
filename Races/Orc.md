@@ -26,8 +26,8 @@
 - Poison resistance
 - Reduced nutrition from elven waybread
 - Infravision
-- Orcs, goblins, ogres and other chaotic monsters, gnolls included, may be peaceful to you, as they may be to any chaotic character; none is always peaceful to you for being an orc
-- Humans, elves and dwarves are generated hostile to you, except those that are always peaceful, such as shopkeepers, priests and the watch
+- Orcs, goblins, ogres and other chaotic monsters, gnolls included, may be peaceful to you because you are chaotic like them; none is always peaceful to you for being an orc
+- Humans, elves and dwarves are generated hostile to you, except those that are always peaceful, such as shopkeepers, priests and the watch, and quest leaders and quest guardians
 
 ## ⚖️ Allowed Alignments
 

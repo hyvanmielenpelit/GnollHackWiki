@@ -29,7 +29,7 @@
 - Triple nutrition from tripe rations
 - Can eat bones
 - Gnolls are generated peaceful toward you, except undead gnolls and shoosuvas
-- Humans are generated hostile to you, except those that are always peaceful, such as shopkeepers, priests and the watch
+- Humans are generated hostile to you, except those that are always peaceful, such as shopkeepers, priests and the watch, and quest leaders and quest guardians
 - [[Hyenas|/Monsters/Hyena]] and [[/Monsters/Yeenaghu]] are always peaceful to you
 
 > ℹ️ **Note:** A [[/Items/Tripe ration]] gives a gnoll 600 nutrition instead of the usual 200. Bone items — and the corpses of animals — are familiar food to a gnoll, so eating them never prompts you to confirm that you want to taste something foul and unfamiliar. They still break the [[/Conducts/Vegetarian]] and [[/Conducts/Vegan]] conducts exactly as they do for any other race. Items made of leather and dragon hide are likewise not flagged as unfamiliar to a gnoll, but being a gnoll does not make them edible.
