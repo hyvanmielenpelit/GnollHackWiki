@@ -20,6 +20,7 @@
 | Level | Intrinsic |
 | :---: | :--- |
 | 1 | Stealth 👣, Speed 👟 |
+| 7 | Corpse property recognition |
 | 10 | Searching 🔍 |
 
 ## ❤️ Hit Points and Mana

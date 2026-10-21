@@ -24,7 +24,8 @@
 
 - Increased nutrition from cram ration
 - Infravision
-- Dwarves may be peaceful to you
+- Dwarves are generated peaceful toward you, except dwarf zombies and dwarf mummies
+- Orcs are generated hostile to you
 
 ## ⚖️ Allowed Alignments
 

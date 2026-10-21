@@ -24,7 +24,8 @@
 
 - Increased nutrition from elven waybread
 - Infravision
-- Elves may be peaceful to you
+- Elves are generated peaceful toward you, except elf zombies and elf mummies
+- Orcs and gnolls are generated hostile to you
 
 ## ⚡ Racial Intrinsics
 

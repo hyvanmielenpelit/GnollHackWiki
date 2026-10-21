@@ -22,7 +22,8 @@
 
 ## 🧬 Racial Traits
 
-- Humans do not have any special racial traits or abilities.
+- Humans do not have any special racial abilities.
+- Gnolls and orcs are generated hostile to you
 
 ## ⚖️ Allowed Alignments
 

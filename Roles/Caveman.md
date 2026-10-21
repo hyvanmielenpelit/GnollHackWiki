@@ -22,6 +22,7 @@
 | Level | Intrinsic |
 | :---: | :--- |
 | 7 | Speed 👟 |
+| 10 | Corpse property recognition |
 | 15 | Warning ⚠️ |
 
 ## ❤️ Hit Points and Mana

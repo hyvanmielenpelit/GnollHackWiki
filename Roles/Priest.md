@@ -21,6 +21,7 @@
 
 | Level | Intrinsic |
 | :---: | :--- |
+| 4 | Corpse property recognition |
 | 7 | Warning of undead ⚠️ |
 | 10 | Warning of demons ⚠️ |
 | 13 | Warning of angels ⚠️ |

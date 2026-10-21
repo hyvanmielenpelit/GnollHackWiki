@@ -14,12 +14,13 @@
 
 - Gains extra score from learnt spells of unrestricted schools
 - Special achievement is to successfully cast a healing or abjuration spell of level 9 or higher
+- Recognizes corpse properties from the start: examining a corpse lists what eating it does, even for a kind you have never eaten
 
 ## ⚡ Intrinsic Abilities
 
 | Level | Intrinsic |
 | :---: | :--- |
-| 1 | Poison resistance ☠️ |
+| 1 | Poison resistance ☠️, Corpse property recognition |
 | 7 | Lycanthropy resistance 🐺 |
 | 14 | Sickness resistance 🤢 |
 
