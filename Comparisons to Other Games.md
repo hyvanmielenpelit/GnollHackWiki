@@ -21,4 +21,5 @@
 
 | Article | Compared Games |
 |---------|----------------|
+| **[[GnollHack vs. Pathos vs. NetHack]]**<br /><small>👉 *Which modern NetHack experience is right for you?<br />👉 A beginner's guide to the differences in faithfulness and gameplay.*</small> | 🐺 GnollHack<br />📱 Pathos<br />🧙‍♂️ NetHack |
 | **[[Roguelike Comparison]]**<br /><small>👉 *A feature comparison of popular roguelike games.*</small> | 🧙‍♂️ NetHack<br />🐺 GnollHack<br />📱 Pathos<br />🗝️ Shattered Pixel Dungeon |

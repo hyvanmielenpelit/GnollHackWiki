@@ -11,9 +11,9 @@
 
 ## 📊 Feature Comparison
 
-The situation on 1 February 2026 is the following:
+The situation on 20 October 2026 is the following:
 
-![Roguelikes comparison table](/uploads/Roguelike%20Comparison/roguelikes-comparison-v10.webp)
+![Roguelikes comparison table](/uploads/Roguelike%20Comparison/roguelikes-comparison-v11.webp)
 
 ## 🖼️ Screenshots
 
@@ -51,4 +51,5 @@ A screenshot of Shattered Pixel Dungeon on Windows:
 
 ## 📖 See Also
 
+- **[[GnollHack vs. Pathos vs. NetHack]]**
 - **[[Comparisons to Other Games]]**
