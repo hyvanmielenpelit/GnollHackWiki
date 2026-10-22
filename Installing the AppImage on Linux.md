@@ -78,6 +78,7 @@ Saved games, settings and the game's log are in `~/.local/share/GnollHack`, not 
 ## 📖 See Also
 
 - [[Download]]
+- [[Linux Version]]
 - [[Save Game Compatibility]]
 
 ## 🔗 External Links

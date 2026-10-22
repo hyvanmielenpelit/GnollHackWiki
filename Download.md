@@ -28,6 +28,8 @@ Multiple download options are available, although we recommend getting the game 
 
 <a href="https://github.com/hyvanmielenpelit/GnollHack/releases">![Get release on GitHub](/uploads/Download/github-q90.webp)</a><br />
 
+ℹ️ [[More Information on Linux Version|Linux Version]]
+
 ℹ️ [[Installing the AppImage on Linux]]
 
 ## Additional Downloads
