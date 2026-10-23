@@ -19,8 +19,8 @@ The tables below show the situation on 20 October 2026.
 | -------- | :------ | :-------- | :----- | :---------------------- |
 | **Android** | ✅🆓<sup>1</sup> | ✅🆓 | ✅🆓 | ✅🆓 |
 | **iOS** | ✅🆓<sup>2</sup>  | ✅🆓 | ✅🆓 | ✅💲 |
-| **Linux** | ✅🆓+🚂💲<sup>3</sup> | ✅🆓+🚂🆓 | ❌ | ✅🆓+🚂💲 |
-| **macOS** | ✅🆓+🚂💲<sup>3</sup> | ✅🆓 | ❌ | ✅💲+🚂💲 |
+| **Linux** | ✅🆓+🚂💲<sup>3</sup> | ✅🆓+🚂🆓 | ❌ | 🚂💲 |
+| **macOS** | ✅🆓<sup>1</sup>+🚂💲<sup>3</sup> | ✅🆓 | ❌ | ✅💲+🚂💲 |
 | **Windows** | ✅🆓+🚂💲<sup>3</sup> | ✅🆓+🚂🆓 | ✅🆓 | ✅🆓+🚂💲 |
 | **Steam Deck** | 🚂💲<sup>3</sup> | 🚂🆓 | ❌ | 🚂💲 |
 | **Linux Server**<sup>4</sup> | ✅🆓 | ✅🆓 | ❌ | ❌ |
