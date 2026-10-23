@@ -33,7 +33,6 @@ The tables below show the situation on 20 October 2026.
 - <sup>1</sup> Various ports exist on GitHub
 - <sup>2</sup> iNetHack2
 - <sup>3</sup> NetHack Legacy
-- <sup>4</sup> Play over SSH
 
 ### 🌐 Localization
 
