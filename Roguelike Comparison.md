@@ -11,9 +11,54 @@
 
 ## 📊 Feature Comparison
 
-The situation on 20 October 2026 is the following:
+The tables below show the situation on 20 October 2026.
 
-![Roguelikes comparison table](/uploads/Roguelike%20Comparison/roguelikes-comparison-v11.webp)
+### 📦 Availability
+
+| Platform | NetHack | GnollHack | Pathos | Shattered Pixel Dungeon |
+| -------- | :------ | :-------- | :----- | :---------------------- |
+| **Android** | ✅🆓<sup>1</sup> | ✅🆓 | ✅🆓 | ✅🆓 |
+| **iOS** | ✅🆓<sup>2</sup>  | ✅🆓 | ✅🆓 | ✅💲 |
+| **Linux** | ✅🆓+🚂💲<sup>3</sup> | ✅🆓+🚂🆓 | ❌ | ✅🆓+🚂💲 |
+| **macOS** | ✅🆓+🚂💲<sup>3</sup> | ✅🆓 | ❌ | ✅💲+🚂💲 |
+| **Windows** | ✅🆓+🚂💲<sup>3</sup> | ✅🆓+🚂🆓 | ✅🆓 | ✅🆓+🚂💲 |
+| **Steam Deck** | 🚂💲<sup>3</sup> | 🚂🆓 | ❌ | 🚂💲 |
+| **Linux Server**<sup>4</sup> | ✅🆓 | ✅🆓 | ❌ | ❌ |
+
+- <sup>1</sup> Various ports exist on GitHub
+- <sup>2</sup> iNetHack2
+- <sup>3</sup> NetHack Legacy
+- <sup>4</sup> Play over SSH
+
+### 🌐 Localization
+
+| Feature | NetHack | GnollHack | Pathos | Shattered Pixel Dungeon |
+|---------|:-------:|:---------:|:------:|:-----------------------:|
+| **Multilingual** | ❌ | ❌ | ✅ | ✅ |
+
+### ✨ Features
+
+| Feature | NetHack | GnollHack | Pathos | Shattered Pixel Dungeon |
+|---------|:-------:|:---------:|:------:|:-----------------------:|
+| **Graphics** | ✅ Support varies by platform and solution | ✅ | ✅ | ✅ |
+| **Real animations** | ❌ | ✅ | ✅ | ✅ |
+| **Sound effects and music** | ❌ | ✅ | ✅ | ✅ |
+| **Voiceovers** | ❌ | ✅ | ❌ | ❌ |
+| **Difficulty levels** | ❌ | ✅ | ❌ | ❌ |
+| **In-game item information** | ❌ | ✅ | ✅ | ✅ |
+| **In-game hints** | ✅ But consulting the [[/Monsters/Oracle]] costs gold | ✅ | ✅ | ✅ |
+| **Full mobile UI**<sup>1</sup> | ❌ | ✅ | ✅ | ✅ |
+
+- <sup>1</sup> No on-screen keyboard
+
+### 🎯 Audience and History
+
+| Feature | NetHack | GnollHack | Pathos | Shattered Pixel Dungeon |
+|---------|:-------:|:---------:|:------:|:-----------------------:|
+| **Game complexity** | Hardcore | Hardcore-Midcore | Midcore | Midcore-Casual |
+| **Codebase based on** | Hack | NetHack 3.6.2 | Coded from scratch | Pixel Dungeon |
+| **Graphical user interface release year** | 1996 | 2023 | 2015 | 2012 |
+| **Main inspiration for game design** | Rogue | NetHack | NetHack | Brogue |
 
 ## 🖼️ Screenshots
 
