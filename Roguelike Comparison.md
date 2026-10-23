@@ -25,6 +25,10 @@ The tables below show the situation on 20 October 2026.
 | **Steam Deck** | 🚂💲<sup>3</sup> | 🚂🆓 | ❌ | 🚂💲 |
 | **Linux Server**<sup>4</sup> | ✅🆓 | ✅🆓 | ❌ | ❌ |
 
+- ✅ Official download (Google Play Store, Apple App Store, etc.)
+- 🆓 Free
+- 💲 Paid
+- 🚂 Available on Steam
 - <sup>1</sup> Various ports exist on GitHub
 - <sup>2</sup> iNetHack2
 - <sup>3</sup> NetHack Legacy
