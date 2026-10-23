@@ -12,14 +12,6 @@ Google Play and the Google Play logo are trademarks of Google LLC.
 
 ℹ️ [[More Information on iOS and macOS Version|iOS and macOS Version]]
 
-## Modern Windows
-
-<a href="https://store.steampowered.com/app/3558190/GnollHack/?utm_source=wiki">![Available on Steam](/uploads/Download/steam-q90.webp)</a><br />
-
-Multiple download options are available, although we recommend getting the game on **Steam**. Please click the link below for more information.
-
-ℹ️ [[More Information on Modern Windows Version|Modern Windows Version]]
-
 ## Linux
 
 <a href="https://store.steampowered.com/app/3558190/GnollHack/?utm_source=wiki">![Available on Steam](/uploads/Download/steam-q90.webp)</a><br />
@@ -27,6 +19,14 @@ Multiple download options are available, although we recommend getting the game 
 Multiple download options are available, although we recommend getting the game on **Steam**, which also covers the Steam Deck. Please click the link below for more information.
 
 ℹ️ [[More Information on Linux Version|Linux Version]]
+
+## Windows (Modern Version)
+
+<a href="https://store.steampowered.com/app/3558190/GnollHack/?utm_source=wiki">![Available on Steam](/uploads/Download/steam-q90.webp)</a><br />
+
+Multiple download options are available, although we recommend getting the game on **Steam**. Please click the link below for more information.
+
+ℹ️ [[More Information on Modern Windows Version|Modern Windows Version]]
 
 ## Additional Downloads
 
