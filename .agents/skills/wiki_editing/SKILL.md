@@ -63,6 +63,7 @@ When editing or creating pages for the GnollHack Wiki, follow these conventions 
 ## 4. Restrictions
 - **Reserved Folders**: Do not create, modify, or put anything in the `/gollum/` or `/.gollum/` directories. These are strictly reserved for wiki software functions and website files.
 - **Horizontal Lines**: Do not use horizontal lines (e.g., `---` or `***`) anywhere in the wiki. They are not needed in Markdown documents.
+- **"See Also" Sections**: Do not create "See Also" sections. Link related pages inline, where the text mentions them. Add a "See Also" section only for a few very important and necessary links that cannot be placed naturally in the text.
 - **Markdown Flavor**: The wiki uses Gollum-style Markdown, not GitHub Flavored Markdown. It does not support GitHub-style alerts (e.g., `> [!IMPORTANT]`, `> [!NOTE]`). Use standard Markdown blockquotes with bold text and colored unicode icons as the best alternatives:
   - Note: `> ℹ️ **Note:** This is a note.`
   - Tip: `> 💡 **Tip:** This is a tip.`
@@ -359,7 +360,7 @@ page-view tools. Two properties of those tools decide whether a fact is reachabl
 - **Page views can target a section by heading**, and a page that exists but is linked from
   nowhere the reader arrives at is effectively hidden. When a mechanic page explains something
   that many other pages state in one line (a saving throw, a resistance, a skill), link the
-  mechanic page from that line or from a "See Also" section, using the link rules in section 2.
+  mechanic page from that line, using the link rules in section 2.
 
 Do not write for the assistant at the expense of human readers; these are tie-breakers when
 two layouts are otherwise equal.

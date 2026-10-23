@@ -35,8 +35,3 @@ The agent asks you for the picture to use for the event images. You upload the f
 - Write the instruction sections for the AI agent without emojis.
 - Put the page's copiable prompt on this page, not on the instruction page, and add the page to [[Available Instructions|#available-instructions]].
 - Start the instruction page with a line that points to its prompt on this page.
-
-## 📖 See Also
-
-- [[/Development Information]]
-- [[/Creating Wiki Pages with AI Agents]]
