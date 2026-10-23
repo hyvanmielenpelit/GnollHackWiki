@@ -4,10 +4,10 @@ Each instruction page tells an AI agent, step by step, how to carry out one recu
 
 ## 📋 Available Instructions
 
-| Task | Instructions | What the Agent Produces |
-|------|--------------|-------------------------|
-| **Steam patch notes** | [[/Development/AI/Steam Patch Notes]] | A title and a BBCode list of changes for a Steam patch notes post, based on a GitHub release |
-| **Steam events and announcements** | [[/Development/AI/Steam Events and Announcements]] | The event type, title, subtitle, summary, and BBCode body for a Steam event, and its 800×450 cover image and 1920×622 header image |
+| Instructions | What the Agent Produces |
+|--------------|-------------------------|
+| [[/Development/AI/Steam Patch Notes]] | A title and a BBCode list of changes for a Steam patch notes post, based on a GitHub release |
+| [[/Development/AI/Steam Events and Announcements]] | The event type, title, subtitle, summary, and BBCode body for a Steam event, and its 800×450 cover image and 1920×622 header image |
 
 ## ⌨️ Copiable Prompts
 
