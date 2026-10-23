@@ -2,10 +2,11 @@
 
 ### [[Download]]
 
-* [[Android Version]]
-* [[iOS and macOS Version]]
-* [[Modern Windows Version]]
-* [[Linux Version]]
+* [[Android|Android Version]]
+* [[iOS|iOS and macOS Version]]
+* [[Linux|Linux Version]]
+* [[macOS|iOS and macOS Version]]
+* [[Windows|Modern Windows Version]]
 
 ### [[Tutorials]]
 
