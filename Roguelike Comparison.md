@@ -17,15 +17,16 @@ The tables below show the situation on 20 October 2026.
 
 | Platform | NetHack | GnollHack | Pathos | Shattered Pixel Dungeon |
 | -------- | :------ | :-------- | :----- | :---------------------- |
-| **Android** | ✅🆓<sup>1</sup> | ✅🆓 | ✅🆓 | ✅🆓 |
-| **iOS** | ✅🆓<sup>2</sup>  | ✅🆓 | ✅🆓 | ✅💲 |
-| **Linux** | ✅🆓+🚂💲<sup>3</sup> | ✅🆓+🚂🆓 | ❌ | 🚂💲 |
-| **macOS** | ✅🆓<sup>1</sup>+🚂💲<sup>3</sup> | ✅🆓 | ❌ | ✅💲+🚂💲 |
-| **Windows** | ✅🆓+🚂💲<sup>3</sup> | ✅🆓+🚂🆓 | ✅🆓 | ✅🆓+🚂💲 |
-| **Steam Deck** | 🚂💲<sup>3</sup> | 🚂🆓 | ❌ | 🚂💲 |
-| **Linux Server**<sup>4</sup> | ✅🆓 | ✅🆓 | ❌ | ❌ |
+| **Android** | 🛠️🆓<sup>1</sup> | ✅🏪🆓 | ✅🏪🆓 | ✅🏪🆓 |
+| **iOS** | 🛠️🏪🆓<sup>2</sup>  | ✅🏪🆓 | ✅🏪🆓 | ✅🏪💲 |
+| **Linux** | 🛠️🆓+🛠️🚂💲<sup>3</sup> | ✅🆓+✅🚂🆓 | ❌ | ✅🚂💲 |
+| **macOS** | 🛠️🆓<sup>1</sup>+🛠️🚂💲<sup>3</sup> | ✅🏪🆓 | ✅🏪🆓 | ✅🏪💲+✅🚂💲 |
+| **Windows** | ✅🆓+🛠️🚂💲<sup>3</sup> | ✅🆓+✅🚂🆓 | ✅🆓 | ✅🆓+✅🚂💲 |
+| **Steam Deck** | 🛠️🚂💲<sup>3</sup> | ✅🚂🆓 | ❌ | ✅🚂💲 |
 
-- ✅ Official download (Google Play Store, Apple App Store, etc.)
+- ✅ Official download
+- 🛠️ Unofficial download
+- 🏪 Available on Google Play Store or Apple App Store
 - 🆓 Free
 - 💲 Paid
 - 🚂 Available on Steam
