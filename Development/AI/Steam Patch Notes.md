@@ -1,12 +1,4 @@
-## User Command Prompt
-
-Remember to change the GnollHack version in the following command prompt:
-
-```
-Please generate Steam patch notes for GnollHack 3.8. Use the process detailed in "Development/AI/Steam Patch Notes.md" in the GnollHackWiki repository.
-```
-
-*(Note to AI agent: Skip the above text and proceed directly to the instructions below.)*
+The copiable prompt for these instructions is on the [[/Development/AI Instructions]] page.
 
 ## Generating Patch Notes
 

@@ -9,7 +9,7 @@ When modifying or creating wiki pages, always refer to the `wiki_editing` skill 
 - **Ingress**: If an article has an ingress, it must be styled as a block quote (`>`) starting with a `👉` emoji, followed by bold text (e.g., `> 👉 **This is the ingress.**`).
 - **Conclusions**: If an article has a conclusions or summary section, it should use the `💡` emoji (e.g., `## 💡 Conclusions` or `## 💡 Summary`).
 - **Lists**: Use a dash (`-`) for Markdown lists instead of an asterisk (`*`) by default.
-- **Images**: All images go under `/uploads/`, mirroring the page's directory path. The format must be WebP.
+- **Images**: All images go under `/uploads/`, mirroring the page's directory path. The format must be WebP, except for special-purpose images, such as reference examples on AI instructions pages, which may be JPG or PNG (see `wiki_editing` §3).
 - **Horizontal Lines**: Do not use horizontal lines (e.g., `---` or `***`) anywhere in the wiki. They are not needed in Markdown documents.
 - **No Source Code References**: Wiki pages are player documentation. Never cite source file paths, line numbers, or C identifiers (e.g., `src/zap.c`, `include/mondata.h`, `MR_FEAR`) on a page; state the mechanic in the game's own vocabulary and keep the evidence in the handoff report. Pages must stay human-readable and must not drift into AI-skill or specification style when they are improved from AI benchmarking results or analysis findings.
 - **Reserved Folders**: Do not modify the `/gollum/` or `/.gollum/` directories.
