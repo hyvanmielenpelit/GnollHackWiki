@@ -28,7 +28,7 @@ You can't disable auto-update in Steam, but if your saved games become invalid, 
 
 <a href="https://github.com/hyvanmielenpelit/GnollHack/releases">![Get release on GitHub](/uploads/Download/github-q90.webp)</a><br />
 
-- The AppImage package has the **.AppImage extension** (`GnollHack-<version>-x86_64.AppImage`).
+- The AppImage package has the **.AppImage extension**.
 - It is a single self-contained file that runs on most 64-bit (x86-64) Linux distributions without installation or administrator rights.
 - Install and run the game using these instructions: [[Installing the AppImage on Linux]]
 - The AppImage version of the game *doesn't* have built-in auto-update. You update it manually by downloading a newer version (or using an AppImage updater).
@@ -50,11 +50,3 @@ You can't disable auto-update in Steam, but if your saved games become invalid, 
 ### 3.1. Notes
 
 - Screen resolution and refresh rate can only be adjusted in the full-screen mode.
-
-## 4. More Information
-
-- [[Installing the AppImage on Linux]]
-- [[Desktop Features]]
-- [[Keyboard Shortcuts]]
-- [[Save Game Compatibility]]
-- [[Save File Transfer]]

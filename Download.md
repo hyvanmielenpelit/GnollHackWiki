@@ -24,13 +24,9 @@ Multiple download options are available, although we recommend getting the game 
 
 <a href="https://store.steampowered.com/app/3558190/GnollHack/?utm_source=wiki">![Available on Steam](/uploads/Download/steam-q90.webp)</a><br />
 
-Multiple download options are available, although we recommend getting the game on **Steam**, which also covers the Steam Deck. GnollHack for Linux is also available as an **AppImage** on GitHub.
-
-<a href="https://github.com/hyvanmielenpelit/GnollHack/releases">![Get release on GitHub](/uploads/Download/github-q90.webp)</a><br />
+Multiple download options are available, although we recommend getting the game on **Steam**, which also covers the Steam Deck. Please click the link below for more information.
 
 ℹ️ [[More Information on Linux Version|Linux Version]]
-
-ℹ️ [[Installing the AppImage on Linux]]
 
 ## Additional Downloads
 
