@@ -19,12 +19,12 @@ Please see the legend for icon meanings.
 | -------- | :------ | :-------- | :----- | :---------------------- |
 | **Android** | 📥<sup>GH</sup>: 🆓🛠️ | 🏪: 🆓✅ | 🏪: 🆓✅ | 📥<sup>GH</sup>: 🆓✅<br />🏪: 🆓✅ |
 | **iOS** | 🏪: 🆓🛠️<sup>iNH2</sup>  | 🏪: 🆓✅ | 🏪: 🆓✅ | 🏪: 💲✅ |
-| **Linux** | 📥: 🆓🛠️<br />🚂: 💲🛠️<sup>NH:L</sup> | 📥<sup>GH</sup>: 🆓✅<br />🚂: 🆓✅ | 📥: 🆓🛠️ | 📥<sup>GH</sup>: 🆓✅<br />🚂: 💲✅ |
+| **Linux** | 📥<sup>PKG</sup>: 🆓🛠️<br />🚂: 💲🛠️<sup>NH:L</sup> | 📥<sup>GH</sup>: 🆓✅<br />🚂: 🆓✅ | 📥<sup>GH</sup>: 🆓🛠️ | 📥<sup>GH</sup>: 🆓✅<br />🚂: 💲✅ |
 | **macOS** | 📥<sup>GH</sup>: 🆓🛠️<br />🚂: 💲🛠️<sup>NH:L</sup> | 🏪: 🆓✅ | 🏪: 🆓✅ | 📥<sup>GH</sup>: 🆓✅<br />🏪: 💲✅<br />🚂: 💲✅ |
-| **Windows** | 📥: 🆓✅<br />🚂: 💲🛠️<sup>NH:L</sup> | 📥<sup>GH</sup>: 🆓✅<br />🚂: 🆓✅ | 🚂: 💲✅🔜 | 📥<sup>GH</sup>: 🆓✅<br />🚂: 💲✅ |
-| **Steam Deck** | 🚂: 💲🛠️<sup>NH:L</sup> | 🚂: 🆓✅ | ❓ | 📥<sup>GH</sup>: 🆓✅<br />🚂: 💲✅ |
+| **Windows** | 📥<sup>web</sup>: 🆓✅<br />🚂: 💲🛠️<sup>NH:L</sup> | 📥<sup>GH</sup>: 🆓✅<br />🚂: 🆓✅ | 🚂: 💲✅🔜 | 📥<sup>GH</sup>: 🆓✅<br />🚂: 💲✅ |
+| **Steam Deck** | 🚂: 💲🛠️<sup>NH:L</sup> | 🚂: 🆓✅🔜 | ❓ | 📥<sup>GH</sup>: 🆓✅<br />🚂: 💲✅ |
 
-- 📥 Direct download (e.g. GitHub or website)
+- 📥 Direct download
 - 🏪 Available on Google Play Store or Apple App Store
 - 🚂 Available on Steam
 - 🆓 Free
@@ -36,6 +36,8 @@ Please see the legend for icon meanings.
 - <sup>GH</sup> GitHub
 - <sup>iNH2</sup> iNetHack2
 - <sup>NH:L</sup> NetHack Legacy
+- <sup>PKG</sup> Some distributions' package stores may contain a pre-compiled version
+- <sup>web</sup> Website
 
 ### 🌐 Localization
 
