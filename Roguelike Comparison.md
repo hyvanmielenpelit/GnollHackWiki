@@ -36,10 +36,10 @@ All GitHub downloads are free.
 | -------- | :------ | :-------- | :----- | :---------------------- |
 | **Android** | ✅ Unofficial | ❌ | ❌ | ✅ |
 | **iOS** | ❌ | ❌ | ❌ | ❌ |
-| **Linux** | ❌ | ✅ | ✅ | ✅ |
+| **Linux** | ✅ Unofficial | ✅ | ✅ | ✅ |
 | **macOS** | ✅ Unofficial | ❌ | ❌ | ✅ |
-| **Windows** | ❌ | ✅ | ❌ | ✅ |
-| **Steam Deck** | ❌ | ✅ Coming soon | ❓ | ✅ |
+| **Windows** | ✅ Unofficial | ✅ | ❌ | ✅ |
+| **Steam Deck** | ❓ | ✅ Coming soon | ❓ | ✅ |
 
 #### 🏠 Website
 
