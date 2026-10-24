@@ -25,9 +25,9 @@
 - ✅ Official download
 - 🛠️ Unofficial download
 - 🏪 Available on Google Play Store or Apple App Store
+- 🚂 Available on Steam
 - 🆓 Free
 - 💲 Paid
-- 🚂 Available on Steam
 - <sup>1</sup> Various ports exist on GitHub
 - <sup>2</sup> iNetHack2
 - <sup>3</sup> NetHack Legacy
