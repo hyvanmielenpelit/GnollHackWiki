@@ -61,17 +61,20 @@ All GitHub downloads are free.
 
 | Feature | NetHack | GnollHack | Pathos | Shattered Pixel Dungeon |
 |---------|:-------:|:---------:|:------:|:-----------------------:|
-| **Graphics** | ✅ Support varies by platform and solution | ✅ | ✅ | ✅ |
+| **Graphics** | ✅<sup>1</sup>  | ✅ | ✅ | ✅ |
 | **Real animations** | ❌ | ✅ | ✅ | ✅ |
 | **Sound effects and music** | ❌ | ✅ | ✅ | ✅ |
 | **Voiceovers** | ❌ | ✅ | ❌ | ❌ |
 | **Difficulty levels** | ❌ | ✅ | ❌ | ❌ |
 | **In-game item information** | ❌ | ✅ | ✅ | ✅ |
-| **In-game hints** | ✅ But consulting the [[/Monsters/Oracle]] costs gold | ✅ | ✅ | ✅ |
-| **Full mobile UI**<sup>1</sup> | ❌ | ✅ | ✅ | ✅ |
-| **Game Assistant** | ❌ | ✅ | ❌ | ❌ |
+| **In-game hints** | ✅<sup>2</sup>  | ✅ | ✅ | ✅ |
+| **Full mobile UI**<sup>3</sup> | ❌ | ✅ | ✅ | ✅ |
+| **Game Assistant** | ❌ | ✅<sup>4</sup> | ❌ | ❌ |
 
-- <sup>1</sup> No on-screen keyboard
+- <sup>1</sup> Support varies by platform and solution.
+- <sup>2</sup> But consulting the [[/Monsters/Oracle]] costs gold.
+- <sup>3</sup> No on-screen keyboard.
+- <sup>4</sup> The [[Gnoll Overseer]] uses frontier AI models for its advice.
 
 ### 🎯 Audience and History
 
