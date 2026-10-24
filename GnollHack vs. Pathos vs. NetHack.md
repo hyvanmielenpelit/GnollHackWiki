@@ -84,4 +84,4 @@ Both *GnollHack* and *Pathos* are **100% free** with no ads, microtransactions, 
 
 - **[GnollHack Official Website](https://gnollhack.com/)**
 - **[NetHack Official Website](https://www.nethack.org/)**
-- **[Pathos: NetHack Codex Official Website](https://pathos.azurewebsites.net/)**
+- **[Pathos: NetHack Codex Official Website](https://pathos-game.onrender.com/)**

@@ -6,39 +6,51 @@
 |------|-------------|----------|
 | **[NetHack](https://www.nethack.org/)** | A foundational, deeply complex roguelike first released in 1987. It is known for its intricate mechanics, where countless item interactions and emergent strategies are possible. | Hardcore players seeking a traditional, challenging text-based experience where survival relies on discovering the game's many secrets over multiple runs. |
 | **[GnollHack](https://gnollhack.com/)** | A modern remaster of NetHack 3.6.2 that bridges the gap between classic complexity and modern accessibility. It retains the deep ruleset of the original game but updates the experience with graphical tiles, animations, a full soundtrack, voiceovers, and difficulty settings. | Hardcore-to-midcore players who want to experience NetHack's depth with modern presentation and touch-friendly mobile controls. |
-| **[Pathos](https://pathos.azurewebsites.net/)** | A streamlined adaptation of the NetHack ruleset, coded from scratch for modern devices. It simplifies the user interface and inventory management while preserving the challenging core mechanics with standard graphical tiles and smooth touch controls. | Midcore players looking for an accessible entry point to classic roguelike mechanics on mobile or PC. |
+| **[Pathos](https://pathos-game.onrender.com/)** | A streamlined adaptation of the NetHack ruleset, coded from scratch for modern devices. It simplifies the user interface and inventory management while preserving the challenging core mechanics with standard graphical tiles and smooth touch controls. | Midcore players looking for an accessible entry point to classic roguelike mechanics on mobile or PC. |
 | **[Shattered Pixel Dungeon](https://shatteredpixel.com/)** | A highly polished, standalone roguelike originating from the Brogue lineage. It features streamlined gameplay, distinct hero classes with customizable skill trees, and charming pixel-art graphics. | Midcore-to-casual players looking for a visually appealing, intuitive, and engaging roguelike experience with a balanced difficulty curve. |
 
 ## 📊 Feature Comparison
 
 ### 📦 Availability
 
-Please see the legend for icon meanings.
+#### 🏪 Stores
+
+| Platform | Store | NetHack | GnollHack | Pathos | Shattered Pixel Dungeon |
+| -------- | :---- | :------ | :-------- | :----- | :---------------------- |
+| **Android** | **Google Play** | ❌ | ✅🆓 | ✅🆓 | ✅🆓 |
+| **iOS** | **App Store** | ✅🆓 Unofficial (iNetHack2) | ✅🆓 | ✅🆓 | ✅💲 |
+| **Linux** | **Steam** | ✅💲 Unofficial (NetHack: Legacy) | ✅🆓 | ❌ | ✅💲 |
+| **macOS** | **App Store** | ❌ | ✅🆓 | ✅🆓 | ✅💲 |
+| **macOS** | **Steam** | ✅💲 Unofficial (NetHack: Legacy) | ✅🆓 | ❌ | ✅💲 |
+| **Windows** | **Steam** | ✅💲 Unofficial (NetHack: Legacy) | ✅🆓 | ✅💲 Coming soon | ✅💲 |
+| **Steam Deck** | **Steam** | ✅💲 Unofficial (NetHack: Legacy) | ✅🆓 Coming soon | ❌ | ✅💲 |
+
+- 🆓 Free
+- 💲 Paid
+
+#### 🧑‍💻 GitHub
+
+All GitHub downloads are free.
 
 | Platform | NetHack | GnollHack | Pathos | Shattered Pixel Dungeon |
 | -------- | :------ | :-------- | :----- | :---------------------- |
-| **Android** | 📥<sup>GH</sup>: 🆓🛠️ | 🏪: 🆓✅ | 🏪: 🆓✅ | 📥<sup>GH</sup>: 🆓✅<br />🏪: 🆓✅ |
-| **iOS** | 🏪: 🆓🛠️<sup>iNH2</sup>  | 🏪: 🆓✅ | 🏪: 🆓✅ | 🏪: 💲✅ |
-| **Linux** | 📥<sup>PKG</sup>: 🆓🛠️<br />🚂: 💲🛠️<sup>NH:L</sup> | 📥<sup>GH</sup>: 🆓✅<br />🚂: 🆓✅ | 📥<sup>GH</sup>: 🆓🛠️ | 📥<sup>GH</sup>: 🆓✅<br />🚂: 💲✅ |
-| **macOS** | 📥<sup>GH</sup>: 🆓🛠️<br />🚂: 💲🛠️<sup>NH:L</sup> | 🏪: 🆓✅ | 🏪: 🆓✅ | 📥<sup>GH</sup>: 🆓✅<br />🏪: 💲✅<br />🚂: 💲✅ |
-| **Windows** | 📥<sup>web</sup>: 🆓✅<br />🚂: 💲🛠️<sup>NH:L</sup> | 📥<sup>GH</sup>: 🆓✅<br />🚂: 🆓✅ | 🚂: 💲✅🔜 | 📥<sup>GH</sup>: 🆓✅<br />🚂: 💲✅ |
-| **Steam Deck** | 🚂: 💲🛠️<sup>NH:L</sup> | 🚂: 🆓✅🔜 | ❓ | 📥<sup>GH</sup>: 🆓✅<br />🚂: 💲✅ |
+| **Android** | ✅ Unofficial | ❌ | ❌ | ✅ |
+| **iOS** | ❌ | ❌ | ❌ | ❌ |
+| **Linux** | ❌ | ✅ | ✅ | ✅ |
+| **macOS** | ✅ Unofficial | ❌ | ❌ | ✅ |
+| **Windows** | ❌ | ✅ | ❌ | ✅ |
+| **Steam Deck** | ❌ | ✅ Coming soon | ❓ | ✅ |
 
-- 📥 Direct download
-- 🏪 Available on Google Play Store or Apple App Store
-- 🚂 Available on Steam
-- 🆓 Free
-- 💲 Paid
-- ✅ Official download
-- 🛠️ Unofficial download
-- 🔜 Coming soon
-- ❓ Unknown
-- <sup>GH</sup> GitHub
-- <sup>iNH2</sup> iNetHack2
-- <sup>NH:L</sup> NetHack Legacy
-- <sup>PKG</sup> Some distributions' package stores may contain a pre-compiled version
-- <sup>web</sup> Website
+#### 🏠 Website
 
+| Platform | NetHack | GnollHack | Pathos | Shattered Pixel Dungeon |
+| -------- | :------ | :-------- | :----- | :---------------------- |
+| **Android** | ❌ | ❌ | ✅ | ❌ |
+| **iOS** | ❌ | ❌ | ❌ | ❌ |
+| **Linux** | ❌ | ❌ | ❌ | ❌ |
+| **macOS** | ❌ | ❌ | ❌ | ❌ |
+| **Windows** | ✅ | ❌ | ✅ | ❌ |
+|
 ### 🌐 Localization
 
 | Feature | NetHack | GnollHack | Pathos | Shattered Pixel Dungeon |
