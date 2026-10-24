@@ -16,7 +16,7 @@
 #### 🏪 Stores
 
 | Platform | Store | NetHack | GnollHack | Pathos | Shattered Pixel Dungeon |
-| -------- | :---- | :------ | :-------- | :----- | :---------------------- |
+| :------- | :---- | :------ | :-------- | :----- | :---------------------- |
 | **Android** | **Google Play** | ❌ | ✅🆓 | ✅🆓 | ✅🆓 |
 | **iOS** | **App Store** | ✅🆓 Unofficial (iNetHack2) | ✅🆓 | ✅🆓 | ✅💲 |
 | **Linux** | **Steam** | ✅💲 Unofficial (NetHack: Legacy) | ✅🆓 | ❌ | ✅💲 |
@@ -33,7 +33,7 @@
 All GitHub downloads are free.
 
 | Platform | NetHack | GnollHack | Pathos | Shattered Pixel Dungeon |
-| -------- | :------ | :-------- | :----- | :---------------------- |
+| :------- | :------ | :-------- | :----- | :---------------------- |
 | **Android** | ✅ Unofficial | ❌ | ❌ | ✅ |
 | **iOS** | ❌ | ❌ | ❌ | ❌ |
 | **Linux** | ✅ Unofficial | ✅ | ✅ | ✅ |
@@ -44,7 +44,7 @@ All GitHub downloads are free.
 #### 🏠 Website
 
 | Platform | NetHack | GnollHack | Pathos | Shattered Pixel Dungeon |
-| -------- | :------ | :-------- | :----- | :---------------------- |
+| -------- | :-----: | :-------: | :----: | :---------------------: |
 | **Android** | ❌ | ❌ | ✅ | ❌ |
 | **iOS** | ❌ | ❌ | ❌ | ❌ |
 | **Linux** | ❌ | ❌ | ❌ | ❌ |
