@@ -78,11 +78,11 @@ All GitHub downloads are free.
 
 ### 🎯 Audience and History
 
-| Feature | NetHack | GnollHack | Pathos | Shattered Pixel Dungeon |
-|---------|:-------:|:---------:|:------:|:-----------------------:|
+| Topic | NetHack | GnollHack | Pathos | Shattered Pixel Dungeon |
+| :---- | :-----: | :-------: | :----: | :---------------------: |
 | **Game complexity** | Hardcore | Hardcore-Midcore | Midcore | Midcore-Casual |
 | **Codebase based on** | Hack | NetHack 3.6.2 | Coded from scratch | Pixel Dungeon |
-| **Graphical user interface release year** | 1996 | 2023 | 2015 | 2012 |
+| **Graphical user interface release year** | 2002 | 2023 | 2015 | 2012 |
 | **Main inspiration for game design** | Rogue | NetHack | NetHack | Brogue |
 
 ## 🖼️ Screenshots
