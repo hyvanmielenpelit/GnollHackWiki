@@ -55,6 +55,7 @@ Please see the legend for icon meanings.
 | **In-game item information** | ❌ | ✅ | ✅ | ✅ |
 | **In-game hints** | ✅ But consulting the [[/Monsters/Oracle]] costs gold | ✅ | ✅ | ✅ |
 | **Full mobile UI**<sup>1</sup> | ❌ | ✅ | ✅ | ✅ |
+| **Game Assistant** | ❌ | ✅ | ❌ | ❌ |
 
 - <sup>1</sup> No on-screen keyboard
 
