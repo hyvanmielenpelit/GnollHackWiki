@@ -36,7 +36,7 @@ All GitHub downloads are free.
 | :------- | :------ | :-------- | :----- | :---------------------- |
 | **Android** | ✅ Unofficial | ❌ | ❌ | ✅ |
 | **iOS** | ❌ | ❌ | ❌ | ❌ |
-| **Linux** | ✅ Unofficial | ✅ | ✅ | ✅ |
+| **Linux** | ✅ Unofficial | ✅ | ✅ Unofficial | ✅ |
 | **macOS** | ✅ Unofficial | ❌ | ❌ | ✅ |
 | **Windows** | ✅ Unofficial | ✅ | ❌ | ✅ |
 | **Steam Deck** | ❓ | ✅ Coming soon | ❓ | ✅ |
