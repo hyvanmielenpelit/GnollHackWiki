@@ -50,7 +50,7 @@ All GitHub downloads are free.
 | **Linux** | ❌ | ❌ | ❌ | ❌ |
 | **macOS** | ❌ | ❌ | ❌ | ❌ |
 | **Windows** | ✅ | ❌ | ✅ | ❌ |
-|
+
 ### 🌐 Localization
 
 | Feature | NetHack | GnollHack | Pathos | Shattered Pixel Dungeon |
