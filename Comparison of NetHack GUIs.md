@@ -43,10 +43,11 @@
 
 ### 💡 Which One to Pick?
 
-| Feature | NetHack Windows GUI | NetHack 3D | GnollHack |
-|---------|---------------------|------------|---------------------------|
-| **Best for** | Purists seeking a lightweight, traditional experience. | Players wanting vanilla rules with a modern visual upgrade. | Players seeking a modern indie-game experience. |
-| **Details** | Acts primarily as a minimalist wrapper for terminal-style text and basic static 2D tiles. It preserves the classic NetHack experience with minimal modern distractions. Supports only Windows. | Features a toggle between a top-down perspective and a first-person dungeon crawler, as well as VR play on Meta Quest. Includes monster-shattering blood effects, dynamic lighting, and modern UI upgrades. Supports a wide range of operating systems. | Delivers a full, modern indie-game experience complete with voice acting, original music, high-resolution sprites, and animations. Fully supports mobile and desktop operating systems. |
+| GUI | Best for |
+| :-- | :------- |
+| **[NetHack Windows GUI](https://nethack.org/)** | Purists seeking a lightweight, traditional experience. |
+| **[NetHack 3D by JamesIV4](https://github.com/JamesIV4/nethack-3d)** | Players wanting vanilla rules with a modern visual upgrade. |
+| **[GnollHack](https://gnollhack.com/)** | Players seeking a modern indie-game experience. |
 
 ## 🖼️ Screenshots
 
@@ -62,7 +63,7 @@ NetHack 3D looks like this in the top-down overview mode, using the **Nevanda ti
 
 ![Screenshot of NetHack 3D](/uploads/Comparison%20of%20NetHack%20GUIs/nethack3d-ss-q85.webp)
 
-### 🐺 GnollHack (Modern Windows Client)
+### 🐺 GnollHack
 
 GnollHack has its own **custom tileset**. Its tiles vary in size. They are usually between 64x96 and 192x192 pixels in size, except for items that are 64x48 pixels in size.
 
