@@ -13,24 +13,29 @@
 
 ### 📦 Availability
 
+Please see the legend for icon meanings.
+
 | Platform | NetHack | GnollHack | Pathos | Shattered Pixel Dungeon |
 | -------- | :------ | :-------- | :----- | :---------------------- |
-| **Android** | 🛠️🆓<sup>1</sup> | ✅🏪🆓 | ✅🏪🆓 | ✅🏪🆓 |
-| **iOS** | 🛠️🏪🆓<sup>2</sup>  | ✅🏪🆓 | ✅🏪🆓 | ✅🏪💲 |
-| **Linux** | 🛠️🆓+🛠️🚂💲<sup>3</sup> | ✅🆓+✅🚂🆓 | ❌ | ✅🚂💲 |
-| **macOS** | 🛠️🆓<sup>1</sup>+🛠️🚂💲<sup>3</sup> | ✅🏪🆓 | ✅🏪🆓 | ✅🏪💲+✅🚂💲 |
-| **Windows** | ✅🆓+🛠️🚂💲<sup>3</sup> | ✅🆓+✅🚂🆓 | ✅🆓 | ✅🆓+✅🚂💲 |
-| **Steam Deck** | 🛠️🚂💲<sup>3</sup> | ✅🚂🆓 | ❌ | ✅🚂💲 |
+| **Android** | 📥<sup>GH</sup>: 🆓🛠️ | 🏪: 🆓✅ | 🏪: 🆓✅ | 📥<sup>GH</sup>: 🆓✅<br />🏪: 🆓✅ |
+| **iOS** | 🏪: 🆓🛠️<sup>iNH2</sup>  | 🏪: 🆓✅ | 🏪: 🆓✅ | 🏪: 💲✅ |
+| **Linux** | 📥: 🆓🛠️<br />🚂: 💲🛠️<sup>NH:L</sup> | 📥<sup>GH</sup>: 🆓✅<br />🚂: 🆓✅ | 📥: 🆓🛠️ | 📥<sup>GH</sup>: 🆓✅<br />🚂: 💲✅ |
+| **macOS** | 📥<sup>GH</sup>: 🆓🛠️<br />🚂: 💲🛠️<sup>NH:L</sup> | 🏪: 🆓✅ | 🏪: 🆓✅ | 📥<sup>GH</sup>: 🆓✅<br />🏪: 💲✅<br />🚂: 💲✅ |
+| **Windows** | 📥: 🆓✅<br />🚂: 💲🛠️<sup>NH:L</sup> | 📥<sup>GH</sup>: 🆓✅<br />🚂: 🆓✅ | 🚂: 💲✅🔜 | 📥<sup>GH</sup>: 🆓✅<br />🚂: 💲✅ |
+| **Steam Deck** | 🚂: 💲🛠️<sup>NH:L</sup> | 🚂: 🆓✅ | ❓ | 📥<sup>GH</sup>: 🆓✅<br />🚂: 💲✅ |
 
-- ✅ Official download
-- 🛠️ Unofficial download
+- 📥 Direct download (e.g. GitHub or website)
 - 🏪 Available on Google Play Store or Apple App Store
 - 🚂 Available on Steam
 - 🆓 Free
 - 💲 Paid
-- <sup>1</sup> Various ports exist on GitHub
-- <sup>2</sup> iNetHack2
-- <sup>3</sup> NetHack Legacy
+- ✅ Official download
+- 🛠️ Unofficial download
+- 🔜 Coming soon
+- ❓ Unknown
+- <sup>GH</sup> GitHub
+- <sup>iNH2</sup> iNetHack2
+- <sup>NH:L</sup> NetHack Legacy
 
 ### 🌐 Localization
 
