@@ -11,8 +11,6 @@
 
 ## 📊 Feature Comparison
 
-The tables below show the situation on 20 October 2026.
-
 ### 📦 Availability
 
 | Platform | NetHack | GnollHack | Pathos | Shattered Pixel Dungeon |
