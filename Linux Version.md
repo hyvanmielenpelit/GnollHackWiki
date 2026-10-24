@@ -21,7 +21,6 @@ You can't disable auto-update in Steam, but if your saved games become invalid, 
 
 #### 1.1.2. Steam Platform Features
 
-- **Save File Synchronization** — Sync your saved games across multiple PCs.
 - **Revert to Old Version** — You can revert to an old version using the Game Versions & Betas tab in the GnollHack properties in Steam *(see above)*.
 
 ### 1.2. AppImage
