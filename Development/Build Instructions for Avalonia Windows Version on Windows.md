@@ -23,8 +23,14 @@ For what the Avalonia port is and how its Windows and Linux flavors differ, see 
 3. Clone the [GnollHack repository](https://github.com/hyvanmielenpelit/GnollHack) — [[/Development/Clone Repository in Visual Studio]].
 4. [[/Development/Install Tile Sets and FMOD Sound Banks]]. The Avalonia port uses the **Desktop** sound banks.
 5. [[/Development/Install Secrets File]].
-6. [[/Development/Install Windows Subsystem for Linux]], and configure its SSH connection in Visual Studio under **Tools → Options → Cross Platform → Connection Manager** (Host Name `127.0.0.1`, Port `22`, and your WSL user name and password). WSL is needed only for the first native build, which stages the tile sets and sound banks; see [[Build the Native Solution|#1-build-the-native-solution]].
-7. The **Microsoft Edge WebView2 Runtime**, which shows in-game web pages such as this wiki. Windows 11 includes it; on Windows 10, install it from the [WebView2 download page](https://developer.microsoft.com/en-us/microsoft-edge/webview2/) if it is missing.
+6. [[/Development/Install Windows Subsystem for Linux]], and configure its SSH connection in Visual Studio under **Tools → Options → Cross Platform → Connection Manager** (Host Name `127.0.0.1`, Port `22`, and your WSL user name and password). WSL is needed for the first native build, which stages the tile sets and sound banks. The same build also compiles the Android libraries and the Linux data tools, which is why it needs WSL and the Visual Studio workloads for Android and Linux C++. Later builds can skip it; see [[Build the Native Solution|#1-build-the-native-solution]].
+7. Create the staging folders that the native build copies Android asset files to. It does not create all of them itself, and the build fails without them:
+
+    ```powershell
+    New-Item -ItemType Directory -Force C:\wsl-in\assetpack\Assets\tileset, C:\wsl-in\assetpack2, C:\wsl-in\assetpack-maui, C:\wsl-in\assetpack-maui2
+    ```
+
+8. The **Microsoft Edge WebView2 Runtime**, which shows in-game web pages such as this wiki. Windows 11 includes it; on Windows 10, install it from the [WebView2 download page](https://developer.microsoft.com/en-us/microsoft-edge/webview2/) if it is missing.
 
 ## 🛠️ Building
 
@@ -36,14 +42,16 @@ The Avalonia port on Windows uses the same native files as the WinUI 3 version: 
 
 1. Start the SSH server in WSL: `sudo service ssh start`.
 2. Open `win\win32\vs\GnollHack.sln` — [[/Development/Open GnollHack Solution in Visual Studio]].
-3. Select the **Android+Windows** (or **MauiAndroid**) solution platform, and the **Debug** or **Release** configuration.
+3. Select the **MauiAndroid** solution platform, and the **Debug** or **Release** configuration.
 4. Rebuild the solution.
 
-The same from the command line:
+> ℹ️ **Note:** Do not use **Android+Windows** for the Avalonia port. It also builds the legacy Xamarin projects, which need Visual Studio 2022, or Visual Studio 2026 with those projects unloaded, and the Avalonia port uses none of them. **MauiAndroid** builds everything else that **Android+Windows** does.
+
+The same from the command line, with the 64-bit MSBuild, which is the one Visual Studio itself uses:
 
 ```powershell
-$msbuild = & "${env:ProgramFiles(x86)}\Microsoft Visual Studio\Installer\vswhere.exe" -latest -requires Microsoft.Component.MSBuild -find MSBuild\**\Bin\MSBuild.exe
-& $msbuild win/win32/vs/GnollHack.sln /t:Rebuild /p:Configuration=Debug /p:Platform="Android+Windows"
+$msbuild = & "${env:ProgramFiles(x86)}\Microsoft Visual Studio\Installer\vswhere.exe" -latest -requires Microsoft.Component.MSBuild -find MSBuild\**\Bin\amd64\MSBuild.exe
+& $msbuild win/win32/vs/GnollHack.sln /t:Rebuild /p:Configuration=Debug /p:Platform=MauiAndroid
 ```
 
 Check that these files now exist under `win\win32\xpl\GnollHackM\Platforms\Windows\`:
@@ -53,7 +61,7 @@ Check that these files now exist under `win\win32\xpl\GnollHackM\Platforms\Windo
 - `banks\` — six `.bank` files
 - `tileset\` — three `.ghpng` files
 
-> 💡 **Tip:** After the first build, the **x64** solution platform is enough when only the C code or the game data changes. It needs no WSL, but it does not stage the tile sets and sound banks, and it does not convert the shared XAML files. Use **Android+Windows** again when those change.
+> 💡 **Tip:** After the first build, the **x64** solution platform is enough when only the C code or the game data changes. It needs no WSL, but it does not stage the tile sets and sound banks, and it does not convert the shared XAML files. Use **MauiAndroid** again when those change.
 
 ### 2. Build the Avalonia Port
 
@@ -98,10 +106,11 @@ Build the native solution in **Release** before a Release publish, so that the p
 | Symptom | Cause and fix |
 |:--------|:--------------|
 | The build fails to restore, or an unexpected .NET SDK is used | `dotnet` was run outside `Platforms\Avalonia`, or the pinned SDK or workload is not installed. Install them as described in [[Software|#software]]. |
-| The game starts without graphics or sound | The tile sets or sound banks were not staged. Rebuild the native solution with **Android+Windows**, and check the files listed in step 1. |
+| The game starts without graphics or sound | The tile sets or sound banks were not staged. Rebuild the native solution with **MauiAndroid**, and check the files listed in step 1. |
+| The native build fails copying files to `C:\wsl-in` | The staging folders are missing. Create them as described in [[Software|#software]]. |
 | The game does not start | `gnollhackwin.dll` or the FMOD libraries are missing from the output folder. Do step 1, and build the Avalonia port again. |
 | In-game web pages stay empty | The WebView2 runtime is missing. Install it. |
-| XAML changes do not appear | The shared XAML files were not converted. Rebuild the native solution with **Android+Windows**, then build the Avalonia port again. |
+| XAML changes do not appear | The shared XAML files were not converted. Rebuild the native solution with **MauiAndroid**, then build the Avalonia port again. |
 
 For general build problems, see [[/Development/Troubleshooting Building GnollHack with .NET MAUI]].
 

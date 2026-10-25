@@ -100,13 +100,13 @@ This starts it in the default distribution; add `-d <name>` for another one.
 The native solution compiles the game data for Linux in WSL, and stages the tile sets and sound banks. The Linux version uses the same `nhdat` game data file as the Android version.
 
 1. Open `win\win32\vs\GnollHack.sln` — [[/Development/Open GnollHack Solution in Visual Studio]].
-2. Select the **MauiAndroid** (or **Android+Windows**) solution platform. The **x64** platform is not enough, because it skips the WSL data pipeline.
+2. Select the **MauiAndroid** solution platform. The **x64** platform is not enough, because it skips the WSL data pipeline. Do not use **Android+Windows**: it also builds the legacy Xamarin projects, which need Visual Studio 2022, or Visual Studio 2026 with those projects unloaded, and the Linux version uses none of them.
 3. Select **Release**, and rebuild the solution.
 
-The same from the command line:
+The same from the command line, with the 64-bit MSBuild, which is the one Visual Studio itself uses. The 32-bit MSBuild in `MSBuild\Current\Bin` crashes on Visual Studio's Linux projects without printing anything:
 
 ```powershell
-$msbuild = & "${env:ProgramFiles(x86)}\Microsoft Visual Studio\Installer\vswhere.exe" -latest -requires Microsoft.Component.MSBuild -find MSBuild\**\Bin\MSBuild.exe
+$msbuild = & "${env:ProgramFiles(x86)}\Microsoft Visual Studio\Installer\vswhere.exe" -latest -requires Microsoft.Component.MSBuild -find MSBuild\**\Bin\amd64\MSBuild.exe
 & $msbuild win/win32/vs/GnollHack.sln /t:Rebuild /p:Configuration=Release /p:Platform=MauiAndroid
 ```
 
@@ -123,15 +123,16 @@ The same build writes the version header that the Linux game engine compiles aga
 The game engine for Linux, `libgnollhacklinux.so`, is built by the `gnollhacklinux` project, which no solution platform builds automatically. Build it separately, in the **Release** configuration:
 
 - **In Visual Studio:** right-click the **gnollhacklinux** project in Solution Explorer, and choose **Build**.
-- **From the command line:** use the 64-bit MSBuild in `Bin\amd64`. The 32-bit MSBuild that `vswhere` finds first crashes on Linux projects without printing anything.
+- **From the command line:** use the 64-bit MSBuild of step 2:
 
     ```powershell
-    $vs = & "${env:ProgramFiles(x86)}\Microsoft Visual Studio\Installer\vswhere.exe" -latest -property installationPath
-    $msbuild64 = Join-Path $vs 'MSBuild\Current\Bin\amd64\MSBuild.exe'
-    & $msbuild64 win/win32/vs/gnollhacklinux.vcxproj /t:Build /p:Configuration=Release /p:Platform=x64
+    $msbuild = & "${env:ProgramFiles(x86)}\Microsoft Visual Studio\Installer\vswhere.exe" -latest -requires Microsoft.Component.MSBuild -find MSBuild\**\Bin\amd64\MSBuild.exe
+    & $msbuild win/win32/vs/gnollhacklinux.vcxproj /t:Build /p:Configuration=Release /p:Platform=x64
     ```
 
 The build compiles and links against the sysroot, and copies the library to `win\win32\xpl\GnollHackM\Platforms\Linux\libs\libgnollhacklinux.so`. Rebuild it whenever the C code changes.
+
+The configuration matters because every build of the project, **Debug** or **Release**, copies its library to that folder, and the packaging script in step 4 ships whatever library is there. If you build Debug for debugging, build Release again before you build the packages.
 
 > ⚠️ **Warning:** `Could not connect to the remote system` means that the SSH server is not running, or that the Connection Manager settings are wrong. Repeat step 1. `error: the glibc 2.27 sysroot is missing` means that the distribution Visual Studio builds in has no sysroot. Run `Install-LinuxSysroot.ps1` for it.
 

@@ -25,7 +25,7 @@ Because the target framework is not `-windows`, `WINDOWS` is never defined, and 
 
 .NET MAUI has no Linux backend. Avalonia.Controls.Maui implements .NET MAUI's controls on Avalonia UI, so the same XAML pages and C# code run on Linux without a second user interface. Avalonia.Controls.Maui is built only for .NET 11 and .NET MAUI 11, and the build support for an external .NET MAUI backend exists only in the .NET MAUI 11 build tasks. The Avalonia port is therefore a .NET 11 app, while the shipped Android, iOS and WinUI 3 clients stay on .NET 10.
 
-Two `global.json` files keep the two SDKs apart. `GnollHackM\global.json` selects the SDK of the shipped clients. `Platforms\Avalonia\global.json` pins the Avalonia port's SDK and .NET MAUI workload set exactly (`rollForward: disable`), and allows a preview or release candidate, so `dotnet` must run in that folder for every Avalonia build.
+Two `global.json` files keep the two SDKs apart. `GnollHackM\global.json` selects the SDK of the shipped clients. `Platforms\Avalonia\global.json` pins the Avalonia port's SDK and .NET MAUI workload set, and allows a preview or release candidate, so `dotnet` must run in that folder for every Avalonia build.
 
 The Avalonia.Controls.Maui packages, and `Microsoft.Maui.Controls` for .NET 11, are referenced in `GnollHackM.csproj` and pinned together. Avalonia itself and Avalonia's web view package come with them.
 
