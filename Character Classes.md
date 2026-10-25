@@ -15,3 +15,7 @@ In GnollHack, you can choose one of the following 13 character classes:
 * [[/Roles/Tourist]] — Versatile traveler with many skills
 * [[/Roles/Valkyrie]] — Melee warrior with cold resistance
 * [[/Roles/Wizard]] — Arcane spell caster
+
+## 📖 See also
+
+- [[Skill Comparison]] — Comparison tables for how skills differ by character class.
