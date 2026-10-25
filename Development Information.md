@@ -2,7 +2,7 @@
 
 ## ℹ️ Overview
 
-GnollHack is actively developed for **Android**, **iOS**, and **Windows** using a modern **.NET MAUI** codebase. Legacy versions of the game (such as Xamarin.Forms and native Win32/ASCII clients) are deprecated and no longer maintained.
+GnollHack is actively developed for **Android**, **iOS**, **Windows**, and **Linux** using a modern **.NET MAUI** codebase. Legacy versions of the game (such as Xamarin.Forms and native Win32/ASCII clients) are deprecated and no longer maintained.
 
 Here is a quick directory of key design and structure documentation:
 
@@ -33,6 +33,10 @@ Detailed, step-by-step guides for compiling the modern application:
 - **Windows:** [[/Development/Build Instructions for WinUI3 Version on Windows (.NET MAUI)]]
 - **Android:** [[/Development/Build Instructions for Android Version on Windows (.NET MAUI)]]
 - **iOS:** [[/Development/Build Instructions for iOS Version on Windows (.NET MAUI)]]
+- **Linux (Avalonia):** [[/Development/Build Instructions for Avalonia Linux Version on Windows]] — AppImage and Steam
+- **Windows (Avalonia):** [[/Development/Build Instructions for Avalonia Windows Version on Windows]] — For developing and testing the Avalonia port
+
+> ℹ️ **Note:** The Linux version runs the same .NET MAUI app on Avalonia UI. See [[/Development/Avalonia Port]] for how it differs from the other modern clients.
 
 > ⚠️ **Warning (Common Pitfall):** Ensure that the .NET MAUI workload is fully installed inside Visual Studio. Missing platform workloads (Android/iOS) will cause project loading errors.
 
@@ -56,6 +60,7 @@ The table below summarizes support for the modern client. Note that emulator per
 | Android | .NET MAUI | Arm64, x64<sup>2</sup> | GnollHackM | GnollHackM | Yes<sup>4</sup> |
 | iOS / macOS<sup>6</sup> | .NET MAUI | Arm64 | GnollHackM | GnollHackM | Yes<sup>4</sup> |
 | Windows | .NET MAUI | x64, (Arm64<sup>3</sup>) | GnollHackM | GnollHackM | No<sup>5</sup> |
+| Linux<sup>7</sup> | .NET MAUI on Avalonia | x64 | GnollHackM | GnollHackM | N/A |
 
 - <sup>1</sup> Emulator support refers to whether the port is supported by popular cross-operating-system emulators.
 - <sup>2</sup> Android x64 binaries are used by Android emulators running on a Windows machine with an x64 CPU, such as the Google Play Games for PC emulator.
@@ -63,10 +68,10 @@ The table below summarizes support for the modern client. Note that emulator per
 - <sup>4</sup> May exhibit odd behavior or crash.
 - <sup>5</sup> GnollHack's modern Windows port (.NET MAUI) does not run on Wine or Proton because they do not support running WinUI 3 applications.
 - <sup>6</sup> The iOS version works also on macOS (on Macs with the M1 processor or later; we don't support Intel Macs). We don't plan on creating a separate macOS version at the moment.
+- <sup>7</sup> Built with `GnhAvalonia=true`, and released on Steam and as an AppImage. The same Avalonia build also runs on Windows, for development and testing only. See [[/Development/Avalonia Port]].
 
 ### 💻 Future Platform Support
 
-- **Linux** support for the modern client is planned using **Avalonia UI**, pending the maturity of the technology stack.
 - Currently, there are no plans to support *gaming consoles* or *controllers* (such as the Steam Deck).
 
 ## 📖 Background Articles
