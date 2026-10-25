@@ -74,7 +74,7 @@ GnollHack is best understood as a modernized version of NetHack that makes the c
 - **[[Bones Sharing]]** — You can share your dead characters with others *(modern versions only)*
 - **[[Save File Tracking]]** — The modern Windows version requires your save files to be tracked online to make them eligible for server posting
 
-## 🤖 AI Game Assistant
+## 🤖 Game Assistant
 
 The *Gnoll Overseer* is your in-game assistant for all things GnollHack. He is highly advanced and game-context-aware, able to answer complex questions with great accuracy.
 
