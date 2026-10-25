@@ -1,20 +1,40 @@
-## Combat and Miscellaneous Skills
+## Combat Skills
 
-| Skill | Arc | Bar | Cav | Hea | Kni | Mon | Pri | Ran | Rog | Sam | Tou | Val | Wiz |
-| :---- | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| **Dodge** | U / E | U / M | U / M | U / S | U / M | U / GM | U / S | U / S | U / GM | U / M | U / E | U / M | U / E |
-| **Bare-handed combat** | U / M | B / M | B / M | U / B | U / E | E / GM | U / S | U / S | U / M | B / GM | U / E | B / GM | U / B |
-| **Dual wielding** | U / M | U / GM | – | – | – | – | – | – | U / M | U / GM | U / E | B / GM | – |
-| **Martial arts** | – | – | – | – | – | U / GM | – | – | – | U / S | – | – | – |
-| **Shield** | – | U / E | U / E | – | B / GM | – | U / M | – | U / S | U / E | U / E | B / GM | – |
-| **Thrown weapon** | U / E | U / M | B / GM | U / S | U / E | U / GM | U / S | U / GM | B / GM | B / E | B / GM | U / E | U / S |
-| **Two-handed weapon** | U / E | U / GM | U / GM | – | U / GM | – | – | – | – | U / GM | U / E | – | – |
-| **Wand** | U / M | – | U / E | B / M | U / B | U / S | U / S | U / S | U / E | U / B | U / E | U / B | B / GM |
-| **Digging** | B / GM<sup>D</sup> | U / E | U / M<sup>D</sup> | – | –<sup>D</sup> | – | – | U / B | – | – | U / E | –<sup>D</sup> | – |
-| **Disarm trap** | U / M | U / S | U / B | U / S | U / B | U / B | – | B / M | B / GM | U / B | U / E | U / S | U / B |
-| **Riding** | – | U / M | – | – | B / GM | – | U / S | U / GM | U / S | U / E | U / E | U / E | U / B |
+| Class | Dodge | Bare-handed combat | Dual wielding | Martial arts | Shield | Thrown weapon | Two-handed weapon |
+| :---- | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| [[/Roles/Archaeologist]] | U / E | U / M | U / M | – | – | U / E | U / E |
+| [[/Roles/Barbarian]] | U / M | B / M | U / GM | – | U / E | U / M | U / GM |
+| [[/Roles/Caveman]] | U / M | B / M | – | – | U / E | B / GM | U / GM |
+| [[/Roles/Healer]] | U / S | U / B | – | – | – | U / S | – |
+| [[/Roles/Knight]] | U / M | U / E | – | – | B / GM | U / E | U / GM |
+| [[/Roles/Monk]] | U / GM | E / GM | – | U / GM | – | U / GM | – |
+| [[/Roles/Priest]] | U / S | U / S | – | – | U / M | U / S | – |
+| [[/Roles/Ranger]] | U / S | U / S | – | – | – | U / GM | – |
+| [[/Roles/Rogue]] | U / GM | U / M | U / M | – | U / S | B / GM | – |
+| [[/Roles/Samurai]] | U / M | B / GM | U / GM | U / S | U / E | B / E | U / GM |
+| [[/Roles/Tourist]] | U / E | U / E | U / E | – | U / E | B / GM | U / E |
+| [[/Roles/Valkyrie]] | U / M | B / GM | B / GM | – | B / GM | U / E | – |
+| [[/Roles/Wizard]] | U / E | U / B | – | – | – | U / S | – |
 
-### Racial Adjustments
+## Miscellaneous Skills
+
+| Class | Wand | Digging | Disarm trap | Riding |
+| :---- | :-: | :-: | :-: | :-: |
+| [[/Roles/Archaeologist]] | U / M | B / GM<sup>D</sup> | U / M | – |
+| [[/Roles/Barbarian]] | – | U / E | U / S | U / M |
+| [[/Roles/Caveman]] | U / E | U / M<sup>D</sup> | U / B | – |
+| [[/Roles/Healer]] | B / M | – | U / S | – |
+| [[/Roles/Knight]] | U / B | –<sup>D</sup> | U / B | B / GM |
+| [[/Roles/Monk]] | U / S | – | U / B | – |
+| [[/Roles/Priest]] | U / S | – | – | U / S |
+| [[/Roles/Ranger]] | U / S | U / B | B / M | U / GM |
+| [[/Roles/Rogue]] | U / E | – | B / GM | U / S |
+| [[/Roles/Samurai]] | U / B | – | U / B | U / E |
+| [[/Roles/Tourist]] | U / E | U / E | U / E | U / E |
+| [[/Roles/Valkyrie]] | U / B | –<sup>D</sup> | U / S | U / E |
+| [[/Roles/Wizard]] | B / GM | – | U / B | U / B |
+
+## Racial Adjustments
 
 <sup>D</sup> Dwarf: digging enhanced.
 
@@ -23,7 +43,7 @@
 - Dwarf Knight: U / GM
 - Dwarf Valkyrie: U / GM
 
-### Proficiency Levels
+## Proficiency Levels
 
 Each cell shows the starting level / maximum level.
 
