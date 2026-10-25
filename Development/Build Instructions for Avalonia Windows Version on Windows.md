@@ -108,6 +108,7 @@ For general build problems, see [[/Development/Troubleshooting Building GnollHac
 ## 📖 Learn More
 
 - [[/Development/Avalonia Port]]
+- [[/Development/Design Details of Windows Avalonia Port]]
 - [[/Development/Build Instructions for Avalonia Linux Version on Windows]]
 - [[/Development/Overview of Building GnollHack with .NET MAUI]]
 

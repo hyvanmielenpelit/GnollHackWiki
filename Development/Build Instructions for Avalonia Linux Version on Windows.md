@@ -43,20 +43,20 @@ One WSL distribution does all the Linux work. It is Visual Studio's Linux build 
 
 2. Set up the distribution as a build host as described in [[/Development/Install Windows Subsystem for Linux]]: the build tools, Bison, Flex, dos2unix, and the SSH server with password authentication.
 3. Configure the SSH connection in Visual Studio under **Tools → Options → Cross Platform → Connection Manager**: Host Name `127.0.0.1`, Port `22`, and your WSL user name and password. Visual Studio uses this connection for every Linux project, including the command-line builds below. WSL 2 forwards the port to the distribution.
-4. Install the glibc 2.27 sysroot. The script downloads three Ubuntu 18.04 packages from Ubuntu's archive, checks their SHA-256 values, and unpacks them to `/opt/gnollhack/sysroot-glibc-2.27`. It runs as root in WSL and asks for no password:
-
-    ```powershell
-    win\win32\xpl\GnollHackM\Platforms\Linux\Packaging\Install-LinuxSysroot.ps1
-    ```
-
-    It ends with `Sysroot ready`. Run it again in every other distribution you build in.
-
-5. Install the packaging tools in the distribution:
+4. Install the packaging tools in the distribution. The sysroot installer in the next step needs `curl` too:
 
     ```bash
     sudo apt update
     sudo apt install -y rsync binutils curl zsync
     ```
+
+5. Install the glibc 2.27 sysroot. The script downloads three Ubuntu 18.04 packages from Ubuntu's archive, checks their SHA-256 values, and unpacks them to `/opt/gnollhack/sysroot-glibc-2.27`. Then it builds a test library against the sysroot, and checks that it needs no newer glibc. It runs as root in WSL and asks for no password:
+
+    ```powershell
+    win\win32\xpl\GnollHackM\Platforms\Linux\Packaging\Install-LinuxSysroot.ps1
+    ```
+
+    It ends with `Sysroot ready`. Run it again in every other distribution you build in. If a tool is missing, it stops and prints the command that installs it.
 
 6. Download the pinned AppImage tools into the distribution. The packaging script never downloads anything; it checks the file names and SHA-256 values set at the top of `win\win32\xpl\GnollHackM\Platforms\Linux\Packaging\Build-LinuxPackages.ps1`. Run these commands in WSL, after checking that the versions and hashes still match that script:
 
@@ -116,7 +116,7 @@ Check that these files now exist under `win\win32\xpl\GnollHackM\Platforms\`:
 - `Windows\banks\` — six `.bank` files
 - `Windows\tileset\` — three `.ghpng` files
 
-You need to repeat this step only when the C code, the game data in `dat\`, the tile sets or the sound banks change.
+The same build writes the version header that the Linux game engine compiles against, so do this step before step 3. You need to repeat it only when the C code, the game data in `dat\`, the tile sets or the sound banks change.
 
 ### 3. Build the Linux Game Engine
 
@@ -240,6 +240,8 @@ Two files in the Linux build are committed to the repository rather than built e
 
 Both are in `win\win32\xpl\GnollHackM\Platforms\Linux\Packaging\`.
 
+`Build-LinuxSentryNative.ps1` also writes `Platforms\Linux\libs\libsentry.build.props`, which records the sentry-native version and the hashes of the library. Every build of the Avalonia port checks it against the Sentry .NET package and the Windows version's native crash reporter, which must use the same sentry-native version. A mismatch is an error in a Release publish or package build, and a warning otherwise.
+
 ## ❓ Troubleshooting
 
 | Symptom | Cause and fix |
@@ -255,12 +257,14 @@ Both are in `win\win32\xpl\GnollHackM\Platforms\Linux\Packaging\`.
 | `... is missing. Put the pinned file there` or a SHA-256 mismatch | The AppImage tools are missing or are the wrong version. Repeat step 6 of the WSL setup. |
 | `The WSL distribution '...' cannot run commands`, or the default distribution is Docker Desktop's | Install Ubuntu and make it the default with `wsl --set-default <name>`, or pass `-WslDistro <name>`. |
 | A wrong .NET SDK is used, or the `GnhAvalonia` build fails to restore | `dotnet` was run outside `Platforms\Avalonia`, or the pinned SDK or workload is not installed. |
+| `GNHSN011` to `GNHSN016` errors or warnings about `libsentry.so` | `libsentry.so` does not match the Sentry version the project uses. After a Sentry upgrade, rebuild it with `Build-LinuxSentryNative.ps1`, following `win\win32\xpl\gnhsentrywin\README.md`. For a local test build only, `-p:GnhAllowStaleSentryNative=true` turns the errors into warnings. |
 
 For general build problems, see [[/Development/Troubleshooting Building GnollHack with .NET MAUI]].
 
 ## 📖 Learn More
 
 - [[/Development/Avalonia Port]]
+- [[/Development/Design Details of Linux Avalonia Port]]
 - [[/Development/Build Instructions for Avalonia Windows Version on Windows]]
 - [[/Development/Overview of Building GnollHack with .NET MAUI]]
 - [[/Linux System Requirements]]

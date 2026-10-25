@@ -46,23 +46,21 @@ The Linux version comes in three packages, all made from one self-contained publ
 - **Steam depot content** — For the Steam Linux Runtime 4.0 by default, or 3.0 (sniper) on request.
 - **tar.gz** — The game as a plain folder, for testers.
 
-Every file in the packages must load on glibc 2.27 and the libstdc++ of GCC 8, which covers Ubuntu 18.04, Debian 10 and RHEL 8 and newer. The packaging script checks this and refuses to build packages that need anything newer. The player-facing requirements are in [[/Linux System Requirements]].
+The packages run on Ubuntu 18.04, Debian 10, RHEL 8 and newer distributions: every Linux binary is built against an old glibc, and the packaging script refuses files that need anything newer. The player-facing requirements are in [[/Linux System Requirements]], and how the floor is kept in [[Binary Compatibility|/Development/Design Details of Linux Avalonia Port#binary-compatibility]].
 
-## 🌐 Web View Engine on Linux
+## 🏗️ Design Details
 
-In-game web pages, such as this wiki and [[/Gnoll Overseer]], use the Chromium Embedded Framework (CEF), which ships with the game, so players need no web browser components. If CEF cannot start, the game falls back to WebKitGTK when the system has it.
+How the port is built inside, and why, is on two pages of its own:
 
-For testing, the environment variable `GNOLLHACK_WEBVIEW` selects the engine: `cef` or `native` (WebKitGTK). In developer mode, the setting can also be stored as a preference.
+- [[/Development/Design Details of Linux Avalonia Port]] — The whole design of the Avalonia port, shared by both flavors, and the Linux version's own parts: startup, rendering, the frame loop, input, fonts, the Essentials replacements, the built-in Chromium web view (CEF), crash reporting with Sentry, binary compatibility and the packages.
+- [[/Development/Design Details of Windows Avalonia Port]] — Where the Windows flavor differs from the Linux version, and how it compares with the WinUI 3 version.
 
-## ⚠️ Known Third-Party Issues
-
-Avalonia.Controls.Maui is younger than .NET MAUI's own backends, and GnollHack works around a number of its defects. The workarounds, with their symptoms and removal conditions, are recorded in the GnollHack repository:
-
-- `DEVEL/workarounds/avalonia.md` — Avalonia and Avalonia.Controls.Maui.
-- `DEVEL/workarounds/linux.md` — Linux, glibc and the Steam Linux Runtime.
+Avalonia.Controls.Maui is younger than .NET MAUI's own backends, and GnollHack works around a number of its defects. Both pages list the workarounds that apply, which are recorded with their symptoms and removal conditions in the GnollHack repository's `DEVEL/workarounds/` folder.
 
 ## 📖 Learn More
 
+- [[/Development/Design Details of Linux Avalonia Port]]
+- [[/Development/Design Details of Windows Avalonia Port]]
 - [[/Development/Build Instructions for Avalonia Linux Version on Windows]]
 - [[/Development/Build Instructions for Avalonia Windows Version on Windows]]
 - [[/Linux Version]]

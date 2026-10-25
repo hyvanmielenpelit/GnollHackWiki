@@ -84,6 +84,8 @@ These articles provide historical context and technical background. They are eas
 
 - [[/Development/Release Checklist]]
 - [[/Development/Native Libraries]]
+- [[/Development/Design Details of Linux Avalonia Port]] — The design of the Avalonia port and its Linux version, including CEF and Sentry
+- [[/Development/Design Details of Windows Avalonia Port]] — How the Windows flavor of the Avalonia port differs
 - [[/Development/Debugging Linux Version in WSL using Visual Studio Code]]
 - [[/Development/SkiaSharp Build Instructions]] — Describes custom SkiaSharp compilations (primarily for reference).
 
