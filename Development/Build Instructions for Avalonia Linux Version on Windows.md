@@ -11,7 +11,7 @@ For what the Avalonia port is and how it differs from the other modern clients, 
 
 ### 🛠️ Software
 
-1. [[/Development/Install Visual Studio 2026 for .NET MAUI Development]]. The **Linux and embedded development with C++** workload is required: the Linux game engine and the Linux data tools are Visual Studio Linux projects.
+1. [[/Development/Install Visual Studio 2026 for .NET MAUI Development]]. The **Linux and embedded development with C++** workload is required: the Linux game engine and the Linux data tools are Visual Studio Linux projects. The **Mobile development with C++** workload is not needed for the Linux version.
 2. Install the .NET SDK and the .NET MAUI workload of the Avalonia port. Their versions are pinned in `win\win32\xpl\GnollHackM\Platforms\Avalonia\global.json` and are newer than those of the other modern clients:
     - Download the SDK whose version is `sdk.version` in that file from the [.NET download page](https://dotnet.microsoft.com/en-us/download/dotnet), and install it. It can be a preview or release candidate.
     - Install the workload from that folder, so that the pinned workload version in the same file is used:
@@ -71,12 +71,6 @@ One WSL distribution does all the Linux work. It is Visual Studio's Linux build 
 
     The two hashes that `sha256sum` prints must equal `$AppImageToolSha256` and `$AppImageRuntimeSha256` in the script.
 
-7. Create the staging folders that the native solution copies assets to. It does not create them itself:
-
-    ```powershell
-    New-Item -ItemType Directory -Force C:\wsl-in\assetpack\Assets\tileset, C:\wsl-in\assetpack2, C:\wsl-in\assetpack-maui, C:\wsl-in\assetpack-maui2
-    ```
-
 ### ⚙️ Optional: Separate Build and Test Distributions
 
 You can also split the work between two distributions, for example an existing Ubuntu 20.04 on WSL 1 that Visual Studio already builds in, and a newer Ubuntu on WSL 2 for packaging and testing. Install the sysroot in the distribution that Visual Studio's Connection Manager points to, and in any distribution that runs the maintenance scripts. Then pass the distribution's name to each script with `-WslDistro`, for example `Build-LinuxPackages.ps1 -WslDistro Ubuntu-24.04`. Without `-WslDistro`, the scripts use the default WSL distribution, and print its name.
@@ -87,7 +81,7 @@ Run the commands from the repository root in PowerShell, unless a step says othe
 
 ### 1. Start the SSH Server
 
-Start the SSH server in the WSL distribution. It must run during steps 2 and 3:
+Start the SSH server in the WSL distribution. It must run during step 2:
 
 ```powershell
 wsl -u root -e /usr/sbin/service ssh start
@@ -97,46 +91,31 @@ This starts it in the default distribution; add `-d <name>` for another one.
 
 ### 2. Build the Native Solution
 
-The native solution compiles the game data for Linux in WSL, and stages the tile sets and sound banks. The Linux version uses the same `nhdat` game data file as the Android version.
+The **Linux** solution platform builds exactly what the Linux version needs. It compiles the game data for Linux in WSL, the same `nhdat` game data file as the Android version, and then the Linux game engine `libgnollhacklinux.so` against the sysroot, which it copies to `win\win32\xpl\GnollHackM\Platforms\Linux\libs\`. The tile sets and sound banks are read straight from `win\win32\tileset` and `win\win32\bank\Desktop`.
 
 1. Open `win\win32\vs\GnollHack.sln` — [[/Development/Open GnollHack Solution in Visual Studio]].
-2. Select the **MauiAndroid** solution platform. The **x64** platform is not enough, because it skips the WSL data pipeline. Do not use **Android+Windows**: it also builds the legacy Xamarin projects, which need Visual Studio 2022, or Visual Studio 2026 with those projects unloaded, and the Linux version uses none of them.
-3. Select **Release**, and rebuild the solution.
+2. Select the **Linux** solution platform and the **Release** configuration.
+3. Rebuild the solution.
 
 The same from the command line, with the 64-bit MSBuild, which is the one Visual Studio itself uses. The 32-bit MSBuild in `MSBuild\Current\Bin` crashes on Visual Studio's Linux projects without printing anything:
 
 ```powershell
 $msbuild = & "${env:ProgramFiles(x86)}\Microsoft Visual Studio\Installer\vswhere.exe" -latest -requires Microsoft.Component.MSBuild -find MSBuild\**\Bin\amd64\MSBuild.exe
-& $msbuild win/win32/vs/GnollHack.sln /t:Rebuild /p:Configuration=Release /p:Platform=MauiAndroid
+& $msbuild win/win32/vs/GnollHack.sln /t:Rebuild /p:Configuration=Release /p:Platform=Linux
 ```
 
 Check that these files now exist under `win\win32\xpl\GnollHackM\Platforms\`:
 
 - `Android\gnh\nhdat`
-- `Windows\banks\` — six `.bank` files
-- `Windows\tileset\` — three `.ghpng` files
+- `Linux\libs\libgnollhacklinux.so`
 
-The same build writes the version header that the Linux game engine compiles against, so do this step before step 3. You need to repeat it only when the C code, the game data in `dat\`, the tile sets or the sound banks change.
+Repeat this step when the C code or the game data in `dat\` changes.
 
-### 3. Build the Linux Game Engine
-
-The game engine for Linux, `libgnollhacklinux.so`, is built by the `gnollhacklinux` project, which no solution platform builds automatically. Build it separately, in the **Release** configuration:
-
-- **In Visual Studio:** right-click the **gnollhacklinux** project in Solution Explorer, and choose **Build**.
-- **From the command line:** use the 64-bit MSBuild of step 2:
-
-    ```powershell
-    $msbuild = & "${env:ProgramFiles(x86)}\Microsoft Visual Studio\Installer\vswhere.exe" -latest -requires Microsoft.Component.MSBuild -find MSBuild\**\Bin\amd64\MSBuild.exe
-    & $msbuild win/win32/vs/gnollhacklinux.vcxproj /t:Build /p:Configuration=Release /p:Platform=x64
-    ```
-
-The build compiles and links against the sysroot, and copies the library to `win\win32\xpl\GnollHackM\Platforms\Linux\libs\libgnollhacklinux.so`. Rebuild it whenever the C code changes.
-
-The configuration matters because every build of the project, **Debug** or **Release**, copies its library to that folder, and the packaging script in step 4 ships whatever library is there. If you build Debug for debugging, build Release again before you build the packages.
+The configuration matters because every build, **Debug** or **Release**, copies its game engine to `Platforms\Linux\libs\`, and the packaging script in step 3 ships whatever engine is there. This is how the game engine works on every platform: you can test either configuration, but build Release again before you build the packages.
 
 > ⚠️ **Warning:** `Could not connect to the remote system` means that the SSH server is not running, or that the Connection Manager settings are wrong. Repeat step 1. `error: the glibc 2.27 sysroot is missing` means that the distribution Visual Studio builds in has no sysroot. Run `Install-LinuxSysroot.ps1` for it.
 
-### 4. Build the Packages
+### 3. Build the Packages
 
 One script publishes the game for Linux and builds the packages:
 
@@ -166,6 +145,7 @@ The script's most useful parameters:
 |:----------|:-------|
 | **-Targets** | `AppImage`, `TarGz`, `Steam`, or several separated by commas. Default: all three. |
 | **-SkipPublish** | Uses the previous publish in `bin\Release\net11.0\linux-x64\publish\` instead of publishing again. |
+| **-NoSentryUpload** | Publishes without uploading debug symbols to Sentry. |
 | **-SteamRuntime** | `steamrt4` (default, Steam Linux Runtime 4.0) or `sniper` (Steam Linux Runtime 3.0). |
 | **-SteamAppId**, **-SteamDepotId**, **-SteamBranch**, **-BuildDescription** | Values for the SteamPipe build scripts. An empty value leaves its placeholder in the file. |
 | **-KeepDebugInfo** | Ships the game engine with its debug information. |
@@ -178,7 +158,7 @@ For example, to rebuild only the AppImage from the previous publish:
 win\win32\xpl\GnollHackM\Platforms\Linux\Packaging\Build-LinuxPackages.ps1 -Targets AppImage -SkipPublish
 ```
 
-> ℹ️ **Note:** If the `SENTRY_AUTH_TOKEN` environment variable is set, the publish uploads the debug symbols of the release to Sentry. To publish without uploading, run the publish yourself with `-p:GnhSentryUpload=false`, as shown in [[Publishing Without the Script|#publishing-without-the-script]], and then run the script with `-SkipPublish`.
+> ℹ️ **Note:** If the `SENTRY_AUTH_TOKEN` environment variable is set, the publish uploads the debug symbols of the release to Sentry. Add `-NoSentryUpload` to build packages without uploading, for example for testers.
 
 ## 🎮 Steam Upload
 
@@ -247,12 +227,14 @@ Both are in `win\win32\xpl\GnollHackM\Platforms\Linux\Packaging\`.
 
 | Symptom | Cause and fix |
 |:--------|:--------------|
-| `Missing '...\libgnollhacklinux.so'` | The game engine has not been built. Do step 3. |
+| `Missing '...\libgnollhacklinux.so'` | The game engine has not been built. Do step 2. |
 | `Could not connect to the remote system` | The SSH server in the WSL distribution is not running, or the Connection Manager settings are wrong. Do step 1. If Windows' own OpenSSH Server runs, it may hold port 22; stop it, or use another port for WSL. |
 | `error: the glibc 2.27 sysroot is missing` | Run `Install-LinuxSysroot.ps1` for the distribution that Visual Studio's Connection Manager points to. |
 | `Install-LinuxSysroot.ps1` reports that the distribution cannot extract packages | The distribution runs on WSL 1. Convert it with `wsl --set-version <name> 2`. |
 | MSBuild exits at once with no output when building `gnollhacklinux` | The 32-bit MSBuild was used. Use the one in `MSBuild\Current\Bin\amd64\`. |
-| The game starts without graphics or sound | The tile sets or sound banks were not staged. Rebuild the native solution with **MauiAndroid**, and check the files listed in step 2. |
+| Error `GNHNI001` | The game engine or the game data is missing. Do step 2. |
+| Error `GNHNI002` or `GNHNI003` | A sound bank or tile set file is missing. [[/Development/Install Tile Sets and FMOD Sound Banks]]. |
+| `MSB4057: The target "GetRecipeFile" does not exist` in a command-line build | A Linux project is missing its `AddSyntheticProjectReferencesForSolutionDependencies` setting; see `WA-BUILD-0003` in the repository's `DEVEL\workarounds\build_tooling.md`. |
 | `... needs GLIBC_2.xx, above the GLIBC_2.27 floor` | A library was built without the sysroot. Run `Install-LinuxSysroot.ps1` for the distribution that built it, and build the library again. |
 | `undefined reference to '...'` when linking a Linux library | The code calls a function that glibc 2.27 does not have. The build refuses it, because the game would crash on older Linux systems. |
 | `... is missing. Put the pinned file there` or a SHA-256 mismatch | The AppImage tools are missing or are the wrong version. Repeat step 6 of the WSL setup. |

@@ -25,7 +25,7 @@ Check [[appropriate build instructions|/Development Information]] for prerequisi
 
 1. Start **Visual Studio Community 2026**.
 2. Open `GnollHack.sln` located in the `win\win32\vs` directory.
-3. Select the **Android+Windows** configuration (or another configuration that matches your target platform).
+3. Select the **MauiAndroid** configuration (or another configuration that matches your target platform). In Visual Studio 2022, you can also use **Android+Windows**, which also builds the legacy Xamarin projects that Visual Studio 2026 cannot build.
 4. Rebuild the solution. 
 
 This builds the necessary native libraries (e.g., `gnollhackwin.dll` for Windows, `libgnollhackdroid.so` for Android, etc.) and copies them along with the core assets to the respective platform folders of the `GnollHackM` project. This also runs `makedefsdroid`, which converts the shared XAML files from `GnollHackX` to `GnollHackM` format. You must repeat this step whenever you change code in the native C core or modify XAML files in the `GnollHackX` folder.
@@ -35,11 +35,11 @@ This builds the necessary native libraries (e.g., `gnollhackwin.dll` for Windows
 You can also build the native solution from the command line:
 
 ```powershell
-$msbuild = & "${env:ProgramFiles(x86)}\Microsoft Visual Studio\Installer\vswhere.exe" -latest -requires Microsoft.Component.MSBuild -find MSBuild\**\Bin\MSBuild.exe
-& $msbuild win/win32/vs/GnollHack.sln /t:Rebuild /p:Configuration=Debug /p:Platform="Android+Windows"
+$msbuild = & "${env:ProgramFiles(x86)}\Microsoft Visual Studio\Installer\vswhere.exe" -latest -requires Microsoft.Component.MSBuild -find MSBuild\**\Bin\amd64\MSBuild.exe
+& $msbuild win/win32/vs/GnollHack.sln /t:Rebuild /p:Configuration=Debug /p:Platform=MauiAndroid
 ```
 
-The `Android+Windows` platform configuration builds both Android and Windows native libraries simultaneously. You can also use `x64` for Windows only, `ARM64` for Android only, or `iPhone` for iOS only.
+The `MauiAndroid` platform configuration builds both Android and Windows native libraries, and works with Visual Studio 2026 and 2022. `Android+Windows` builds the same and the legacy Xamarin projects, so use it with Visual Studio 2022 only; from the command line, select Visual Studio 2022's MSBuild by replacing `-latest` with `-version "[17.0,18.0)"`. You can also use `x64` for Windows only, or `iPhone` for iOS only. `ARM64` builds the Android libraries without the Windows one, but also the legacy Xamarin projects, so it too needs Visual Studio 2022.
 
 > ⚠️ **Warning:** For Android and iOS builds, start the SSH service in WSL first (`sudo service ssh start`), as `dlbdroid` generates the NetHack `nhdat` game data archive inside WSL.
 > For iOS builds, also ensure `vcremote` is running on the Mac and use the `iPhone` platform configuration.

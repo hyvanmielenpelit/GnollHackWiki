@@ -23,8 +23,8 @@ The flavor takes its native files and game data from `win\win32\xpl\GnollHackM\P
 | **libs\gnollhackwin.dll** | The game engine |
 | **libs\fmod.dll**, **fmodstudio.dll** and the other FMOD libraries | Sound |
 | **gnh\\** | The Windows-format `nhdat` and the other game data files |
-| **banks\\** | The Desktop sound banks, which the Linux version uses too |
-| **tileset\\** | The tile sets, which the Linux version uses too |
+
+The Desktop sound banks and the tile sets are taken from `win\win32\bank\Desktop` and `win\win32\tileset` directly, as in the Linux version, not from the copies under `Platforms\Windows` that the WinUI 3 version uses.
 
 The `libs\` folder is copied as a whole, so files that only the WinUI 3 version needs, such as its native crash reporter `gnhsentry.dll`, land in the output too. Avalonia's own Direct3D translation layer is named `av_libglesv2.dll`, so it does not clash with the WinUI 3 version's `libGLESv2.dll`. The native libraries load from the application folder by the default search, without the Linux version's resolver.
 

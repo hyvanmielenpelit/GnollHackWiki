@@ -36,7 +36,7 @@ cd win\win32\xpl\GnollHackM\Platforms\Avalonia
 dotnet build ..\..\GnollHackM.csproj -p:GnhAvalonia=true
 ```
 
-Without `-r`, the build targets the operating system it runs on, so this command builds the Windows flavor. The Linux flavor is published with `-r linux-x64`, which `Build-LinuxPackages.ps1` does for you. The native libraries, the game data, the tile sets and the sound banks come from the native solution `GnollHack.sln`, as for the other modern clients; see [[/Development/Overview of Building GnollHack with .NET MAUI]].
+Without `-r`, the build targets the operating system it runs on, so this command builds the Windows flavor. The Linux flavor is published with `-r linux-x64`, which `Build-LinuxPackages.ps1` does for you. The native libraries and the game data come from the native solution `GnollHack.sln`, as for the other modern clients; see [[/Development/Overview of Building GnollHack with .NET MAUI]]. The tile sets and sound banks are read straight from `win\win32\tileset` and `win\win32\bank\Desktop`, so neither flavor needs them staged.
 
 ## 🐧 Linux Packages
 
