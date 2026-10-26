@@ -2,7 +2,7 @@
 
 ## ℹ️ Overview
 
-GnollHack is actively developed for **Android**, **iOS**, **Windows**, and **Linux** using a modern **.NET MAUI** codebase. Legacy versions of the game (such as Xamarin.Forms and native Win32/ASCII clients) are deprecated and no longer maintained.
+GnollHack is actively developed for **Android**, **iOS**, **Windows**, and **Linux** using a modern **.NET MAUI** codebase. Legacy versions of the game (such as Xamarin.Forms and native Win32/ASCII clients) are deprecated and no longer maintained. The Linux version runs the same .NET MAUI app on Avalonia UI, through the [[/Development/Avalonia Port]].
 
 Here is a quick directory of key design and structure documentation:
 
@@ -35,8 +35,6 @@ Detailed, step-by-step guides for compiling the modern application:
 - **iOS:** [[/Development/Build Instructions for iOS Version on Windows (.NET MAUI)]]
 - **Linux (Avalonia):** [[/Development/Build Instructions for Avalonia Linux Version on Windows]] — AppImage and Steam
 - **Windows (Avalonia):** [[/Development/Build Instructions for Avalonia Windows Version on Windows]] — For developing and testing the Avalonia port
-
-> ℹ️ **Note:** The Linux version runs the same .NET MAUI app on Avalonia UI. See [[/Development/Avalonia Port]] for how it differs from the other modern clients.
 
 > ⚠️ **Warning (Common Pitfall):** Ensure that the .NET MAUI workload is fully installed inside Visual Studio. Missing platform workloads (Android/iOS) will cause project loading errors.
 
