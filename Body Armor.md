@@ -37,7 +37,7 @@ Dragon scale mails are changed from NetHack. They are heavier and incur a spell 
 - [[/Items/White dragon scale mail]] — No spell casting penalty
 - [[/Items/Yellow dragon scale mail]]
 
-Dragons sometimes drop dragon scales that can be crafted into dragon scale mails. Dragon scales are weaker versions of dragon scales mails, improving AC only by 3 and yielding merely one (usually the weakest) of the powers conferred by the corresponding dragon scale mail.
+When a killed dragon leaves a corpse, it may also drop its dragon scales, which can be crafted into dragon scale mails. The chance depends on the dragon's age: a dragon hatchling drops them 1 time in 5, except a gray dragon hatchling, which never drops them; an adult dragon drops them 1 time in 2; and an ancient dragon always drops them, as exceptional scales. A dragon that was brought back to life drops them only a tenth as often, and your own tame dragons never drop them. A dragon that leaves no corpse, for example because it was disintegrated, drops no scales either. Dragon scales are weaker versions of dragon scales mails, improving AC only by 3 and yielding merely one (usually the weakest) of the powers conferred by the corresponding dragon scale mail.
 
 - [[/Items/Black dragon scales]] — No death resistance
 - [[/Items/Blue dragon scales]]

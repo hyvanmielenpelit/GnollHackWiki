@@ -6,6 +6,8 @@ Nothing stops you from enhancing martial arts as soon as you have enough trainin
 
 Martial arts bonuses come on top of what you get from [[/Skills/bare-handed combat]]. The to-hit and damage bonuses in the table are totals with bare-handed combat at the same skill level, as the game's own skill screen shows them: each level above Unskilled gives +4 to hit and +3 damage from martial arts, and +3 to hit and +2 damage from bare-handed combat.
 
+Until your martial arts skill reaches Basic, a hit with your bare hands or with weapon gauntlets adds only half of your Strength damage bonus. From Basic on, it adds the full bonus.
+
 | Skill Level | Skill Slots to Advance | Training to Advance | To-Hit Bonus | Damage Bonus | Critical Strike Chance | Multistrike Chance |
 | :---------- | :--------------------: | :-----------------: | :----------: | :----------: | :--------------------: | :----------------: |
 | **Basic** | 2 | 140 | +7 | +5 | 60% | 10% |

@@ -113,7 +113,7 @@ You learn spells from:
 
 When learning a spell from a spell book, the following rules apply:
 - Opening a spell book you have not identified yet first tells you which spell it contains, identifies the book, and asks whether you want to continue, showing the spell's level and school. Declining costs only that one turn. A few special books only describe their topic at this point and must be read through to be identified.
-- Reading a **blessed spell book** gives you a 100% chance to learn the spell.
+- Reading a **blessed spell book** gives you a 100% chance to learn the spell, unless you are confused while reading it or the book has been polymorphed so often that it is too faint to read.
 - Reading an **uncursed spell book** succeeds when a roll of 1–20 does not exceed your *read ability*: the spell's casting attribute + 8 + your [[experience level]] + 4 for each [[skill level|Skills]] above Unskilled in the spell's school − 2 × the spell's level, and + 2 more if you have enhanced vision. Each point of read ability below 20 is a 5% chance to fail; at 20 or more the book cannot fail.
 - When your read ability is below 20 and you are not confused, the game warns you how difficult the spell book seems and asks whether to continue, so you can still back out.
 - Failing to learn from an uncursed spell book confuses you for a few turns half of the time, and, as a separate roll, the book crumbles to dust half of the time. A failure never paralyzes you.
