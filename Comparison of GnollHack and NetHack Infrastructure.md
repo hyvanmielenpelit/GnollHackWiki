@@ -48,7 +48,7 @@ The way each game connects to the broader internet reflects its era of design. N
 
 | Aspect | NetHack | GnollHack |
 |--------|---------|-----------|
-| **In-Game AI Assistant** | None | **Gnoll Overseer** — AI chat assistant powered by [Google AI](https://ai.google/), [Anthropic](https://www.anthropic.com/), and [OpenAI](https://openai.com/); provides gameplay hints, analyzes live game snapshots, and inspects both GnollHack and NetHack C source code and wikis via specialized custom tools. Runs on a dedicated US-hosted server. |
+| **In-Game AI Assistant** | None | **[[Gnoll Overseer]]** — AI chat assistant powered by [Google AI](https://ai.google/), [Anthropic](https://www.anthropic.com/), and [OpenAI](https://openai.com/); provides gameplay hints, analyzes live game snapshots, and inspects both GnollHack and NetHack C source code and wikis via specialized custom tools. Runs on a dedicated US-hosted server. |
 | **Event Announcements** | **Rodney** (IRC bot on [Libera.Chat](https://libera.chat/) `#nethack`), **Beholder** (bridges server events to IRC/Discord) | Built-in **Post Game Progress** sends real-time events to Discord `#player-log` channel |
 | **Info ∕ Spoiler Queries** | **Rodney** (`learndb` database), **Pinobot** (monster/item stats for variants) | **Gnoll Overseer** serves this role in-game, querying exact monster/item data structures, source definitions, and wiki archives for both games |
 | **Custom Webhooks** | N/A | Players and server admins can configure custom Discord webhook URLs to post progress to their own channels |
@@ -82,7 +82,7 @@ Both games can be played on public Linux servers via SSH. NetHack's server ecosy
 
 ## 🔬 AI Research
 
-NetHack holds a unique place in AI research. Because of its extreme difficulty, procedural generation, permadeath, and reliance on long-horizon planning, vanilla NetHack has become a "grand challenge" for artificial intelligence. Meta AI and Oxford University created the [**NetHack Learning Environment (NLE)**](https://github.com/facebookresearch/nle) as a major reinforcement learning benchmark, and the [**MiniHack**](https://minihack.readthedocs.io/) sandbox and [**BALROG**](https://huggingface.co/papers/2411.17122) LLM evaluation suite continue to drive active publications at top-tier conferences (ICLR, ICML). GnollHack is not currently used as an AI research benchmark.
+NetHack holds a unique place in AI research. Because of its extreme difficulty, procedural generation, permadeath, and reliance on long-horizon planning, vanilla NetHack has become a "grand challenge" for artificial intelligence. Meta AI and Oxford University created the [**NetHack Learning Environment (NLE)**](https://github.com/facebookresearch/nle) as a major reinforcement learning benchmark, and the [**MiniHack**](https://minihack.readthedocs.io/) sandbox and [**BALROG**](https://huggingface.co/papers/2411.17122) LLM evaluation suite continue to drive active publications at top-tier conferences (ICLR, ICML). While GnollHack is not used as an external reinforcement-learning benchmark, its developers run [[GnollBench]] internally — a domain-specific, agentic LLM benchmark that evaluates frontier AI models on grounded GnollHack mechanics and live game-state reasoning for the [[Gnoll Overseer]].
 
 ## 🛠️ Source Code and Development
 

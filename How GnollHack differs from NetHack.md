@@ -12,6 +12,7 @@ While NetHack relies on classic ASCII graphics and operates entirely without sou
 | **Audio** | ❌ No sound | 🔊 Immersive sound effects, a full [[music]] soundtrack, and [[voiceovers]] |
 | **Inventory Actions** | ⌨️ Memorize specific keys (`q` to quaff, `r` to read) | 🖱️ All common item actions are accessible by selecting the item in the inventory |
 | **Information** | ❓ Relies on external spoilers, hides damage numbers | 🔍 Detailed in-game stats and exact damage messaging |
+| **In-Game Assistant** | ❌ None | 🤖 Optional [[Gnoll Overseer]] assistant grounded in live game state and real game data |
 
 ## 🔮 A Reimagined Magic System
 
