@@ -1,6 +1,6 @@
 ---
 name: wiki_bulk_edits
-description: How to make the same mechanical edit across many GnollHackWiki pages safely. Covers the fact that no page generator or template exists, the repeating header-line fields on spell, monster and item pages, verifying a target article on disk before linking it, the CRLF and UTF-8-without-BOM requirements, a PowerShell regex recipe that preserves both, the Git Bash sed -i hazard, and the verification and handoff steps. Read before editing more than a handful of pages in one pass.
+description: How to make the same mechanical edit across many GnollHackWiki pages safely. Covers why pages are edited in place even though the GnollHack debug-build exporters produced the spell, monster and item format, the repeating header-line fields on spell, monster and item pages, verifying a target article on disk before linking it, the CRLF and UTF-8-without-BOM requirements, a PowerShell regex recipe that preserves both, the Git Bash sed -i hazard, and the verification and handoff steps. Read before editing more than a handful of pages in one pass.
 ---
 
 # Bulk Edits Across Many Wiki Pages
@@ -9,15 +9,36 @@ This skill covers a cross-page mechanical edit: the same line, field or link add
 changed on many pages in one pass. Single-page authoring conventions are in the
 `wiki_editing` skill, which this skill does not restate.
 
-## 1. There Is No Generator
+## 1. Pages Are Edited in Place
 
 Every page under `Spells/`, `Monsters/`, `Items/`, `Artifacts/` and the repository root is
-hand-maintained Markdown. The only scripts in the repository are editor settings under `.vs/`
-and `.vscode/`. There is no template, no data file and no code path that emits a page.
+maintained by hand in this repository. Nothing here generates a page: there is no build
+script, data file or page template (`.gollum/templates/layout.mustache` is the site layout),
+and `.vs/` and `.vscode/` are ignored editor settings. Nothing copies output into the
+repository from anywhere else either.
+
+The spell, monster and item format did come from the game. The GnollHack source
+(`C:\hmp\GnollHack`) has three wizard-mode commands, `#wizsavespells`, `#wizsavemonsters` and
+`#wizsaveitems` (`src/cmd.c`), which call `write_spells`, `write_monsters` and `write_items`
+in `src/do.c`. Each sends the in-game description screens through `write_putstr_ex` and
+writes one Markdown file per entry, plus index lists, into `spells_for_wiki/`,
+`monsters_for_wiki/` or `items_for_wiki/` under the game's working directory. Subtitles and
+headings become `## ` headings, and colon-aligned lines become the `- **Field:** value` lines
+of §2. The commands are compiled only into desktop DEBUG builds
+(`#if !defined(GNH_MOBILE) && defined(DEBUG)`), never into a released or mobile build.
+
+The exporters are not a deploy path:
+
+- Pages have been edited by hand since the export, and an export knows none of it. Copying a
+  fresh export over a page erases every edit made since.
+- Export file names use hyphens for spaces (`Abolish-magic-resistance.md`,
+  `Abjuration-spells.md`), while the repository has `Spells/Abolish magic resistance.md` and
+  `Abjuration Spells.md`. A copy adds duplicates instead of replacing pages.
 
 A cross-page change is therefore made in place, once per file. Never spend a step searching
-for a generator or a template, and state "edited in place" in the report so the next reader
-does not look either.
+this repository for a generator or a template, never regenerate a page from an export, and
+state "edited in place" in the report so the next reader does not look either. The source
+names above belong in this skill and in reports only; a wiki page never cites them (§9).
 
 ## 2. Repeating Header Lines
 
