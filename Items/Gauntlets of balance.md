@@ -25,3 +25,7 @@
 2. Rot-resistant
 3. Polymorph resistant
 4. Is weapon when worn
+
+## Notes
+
+Gauntlets of balance are never generated randomly and cannot be wished for. They are the base item of [[/Artifacts/The Gauntlets of Yin and Yang]], which a Monk receives as a crowning gift if that artifact does not already exist in the game.
