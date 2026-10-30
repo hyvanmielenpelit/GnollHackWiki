@@ -59,6 +59,7 @@ GnollHack is best understood as a modernized version of NetHack that makes the c
 
 - **[[Commands]]** — Commands available as clickable GUI buttons in the modern versions of the game.
 - **[[Keyboard Shortcuts]]** — GnollHack supports NetHack-style keyboard shortcuts, which are especially useful when playing with a physical keyboard 
+- **[[Steam Deck Controls]]** — How to play GnollHack with the Steam Deck's built-in controls
 
 ## ⚙️ Game Configuration
 

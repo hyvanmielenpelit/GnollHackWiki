@@ -105,7 +105,19 @@ The Settings screen itself is a single scrolling page. The headings below are th
 | **Show All** | On / Off | Off | Toggle for showing all messages. The same as tapping the message area in the game screen. |
 | **Walk Arrows** | On / Off | On | Determines if there are walk arrows when Travel Mode is disabled. |
 | **Default Auto-Center** | On / Off | On | Determines if the Auto-Center button in the game screen is enabled by default. |
-| **Show Keyboard Shortcuts** | On / Off | On *(Desktop)* / Off *(Mobile)* | Determines if keyboard shortcuts are shown in menus. |
+| **Show Keyboard Shortcuts** | On / Off | On *(Desktop)* / Off *(Mobile, Steam Deck)* | Determines if keyboard shortcuts are shown in menus. |
+
+### 🎮 Controller
+
+These settings appear in the Linux version, which supports game controllers. See [[Steam Deck Controls]].
+
+| Setting Name | Options / Values | Default | Description |
+| :----------- | :--------------: | :-----: | :---------- |
+| **Use Controller** | On / Off | On | Determines if you can play with a game controller or the Steam Deck's built-in controls. |
+| **Back Grip L4** | Command | Apply | Configures the command bound to the L4 back grip. Needs GnollHack's Steam Input layout. Appears only when the controller has back grips. |
+| **Back Grip L5** | Command | Cast | Configures the command bound to the L5 back grip. Needs GnollHack's Steam Input layout. Appears only when the controller has back grips. |
+| **Back Grip R4** | Command | Quick Cast | Configures the command bound to the R4 back grip. Needs GnollHack's Steam Input layout. Appears only when the controller has back grips. |
+| **Back Grip R5** | Command | Quick Zap | Configures the command bound to the R5 back grip. Needs GnollHack's Steam Input layout. Appears only when the controller has back grips. |
 
 ### 🖌️ Drawing
 
@@ -134,6 +146,8 @@ The Settings screen itself is a single scrolling page. The headings below are th
 ## 📱 Bar Commands Settings
 
 This section enables you to specify which commands are displayed in the command bar.
+
+When **Use Controller** is on, the **Trigger Quick Actions** section appears in place of this one. It sets the eight quick actions of the L2 and R2 triggers. See [[Steam Deck Controls]].
 
 ## 🔊 Volume Settings
 

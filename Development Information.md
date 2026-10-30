@@ -70,7 +70,8 @@ The table below summarizes support for the modern client. Note that emulator per
 
 ### 💻 Future Platform Support
 
-- Currently, there are no plans to support *gaming consoles* or *controllers* (such as the Steam Deck).
+- Currently, there are no plans to support *gaming consoles*.
+- *Game controllers* are supported in the Linux version, which is built for the Steam Deck, starting from version 3.32. The other versions do not have controller support yet. See [[Steam Deck Controls]].
 
 ## 📖 Background Articles
 
