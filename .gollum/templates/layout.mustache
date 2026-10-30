@@ -194,6 +194,75 @@
       word-wrap: break-word !important;       /* IE 5.5+ */
       overflow-wrap: break-word !important;
     }
+
+    /* =========================================================
+       Granular Column Widths Helper
+       ========================================================= */
+
+    .w-8  { width: 8% !important; }
+    .w-10 { width: 10% !important; }
+    .w-12 { width: 12% !important; }
+    .w-15 { width: 15% !important; }
+    .w-20 { width: 20% !important; }
+    .w-25 { width: 25% !important; }
+    .w-30 { width: 30% !important; }
+    .w-35 { width: 35% !important; }
+    .w-40 { width: 40% !important; }
+    .w-50 { width: 50% !important; }
+
+    /* =========================================================
+       Gnollhack Colors & Highlight Utilities
+       ========================================================= */
+
+    /* Text Color Utilities */
+    .wiki-table .text-gnollhack-yellow       { color: #ffd700 !important; }
+    .wiki-table .text-gnollhack-white        { color: #ffffff !important; }
+    .wiki-table .text-gnollhack-lightgray    { color: #bdbdbd !important; }
+    .wiki-table .text-gnollhack-green        { color: #00cd00 !important; }
+    .wiki-table .text-gnollhack-red          { color: #cd0000 !important; }
+    .wiki-table .text-gnollhack-orange       { color: #ff8c00 !important; }
+    .wiki-table .text-gnollhack-lightgreen   { color: #00ff00 !important; }
+
+    /* Cell Border Utilities */
+    .wiki-table .border-gnollhack        { border: 1px solid #e0e0e0 !important; }
+    .wiki-table .border-gnollhack-top    { border-top: 1px solid #e0e0e0 !important; }
+    .wiki-table .border-gnollhack-bottom { border-bottom: 1px solid #e0e0e0 !important; }
+    .wiki-table .border-gnollhack-left   { border-left: 1px solid #e0e0e0 !important; }
+    .wiki-table .border-gnollhack-right  { border-right: 1px solid #e0e0e0 !important; }
+
+    /* Row & Cell Background Fills */
+    .wiki-table .bg-gnollhack-default    { background-color: #1e1e1e !important; }
+    .wiki-table .bg-gnollhack-highlight  { background-color: #2d251e !important; }
+
+    /* =========================================================
+       Full-Table Theme - Gnollhack Classic
+       ========================================================= */
+    .wiki-table-gnollhack {
+      background-color: #1e1e1e !important;
+      border: 1px solid #e0e0e0 !important;
+      color: #bdbdbd !important;
+    }
+
+    /* Table Headers */
+    .wiki-table-gnollhack th {
+      background-color: #1e1e1e !important;
+      color: #ffd700 !important;
+      border: 1px solid #e0e0e0 !important;
+      font-weight: 600;
+    }
+
+    /* Body Cells Default */
+    .wiki-table-gnollhack td {
+      background-color: #1e1e1e !important;
+      color: #bdbdbd !important;
+      border: 1px solid #e0e0e0 !important;
+    }
+
+    /* Alternating Row Highlight */
+    .wiki-table-gnollhack tbody tr:nth-child(even) td {
+      background-color: #2d251e !important;
+    }
+
   </style>
 </head>
 <body>
