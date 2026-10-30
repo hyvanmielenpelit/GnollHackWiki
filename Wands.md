@@ -47,6 +47,16 @@ For example, a 0:3 wand has not been recharged and it has 3 charges left.
 
 ## Notes
 
+- You can learn about an unknown wand by engraving with it, which uses one charge, as a zap does. [[/Items/Wand of digging]], [[/Items/wand of fire]] and [[/Items/wand of lightning]] identify themselves. Other wands may show a message once you have written something; pressing Escape or entering nothing skips it. "Floor" stands for whatever surface you are on. Apart from striking's, you see these messages only if you are not blind:
+    - *The bugs on the floor slow down!* — [[/Items/wand of slow monster]]
+    - *The bugs on the floor speed up!* — [[/Items/wand of speed monster]]
+    - *The bugs on the floor stop moving!* — [[/Items/wand of sleep]] or [[/Items/wand of death]]; the message does not tell them apart
+    - *The bugs on the floor vanish!* — [[/Items/wand of disintegration]]
+    - *The bugs on the floor turn into grains of sand!* — [[/Items/wand of petrification]]
+    - *Suddenly, it seems that there are more bugs on the floor than before!* — [[/Items/wand of resurrection]]
+    - *The floor is riddled by bullet holes!* — [[/Items/wand of magic missile]]
+    - *A few ice cubes drop from the wand.* — [[/Items/wand of cold]]
+    - *The wand unsuccessfully fights your attempt to write!* — [[/Items/wand of striking]]
 - Some wands can be applied to an item  in the inventory to apply a magical effect onto it. Such wands are the following:
     - [[/Items/Wand of cancellation]]
     - [[/Items/Wand of cold]]
