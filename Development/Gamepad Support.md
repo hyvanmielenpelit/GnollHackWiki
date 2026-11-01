@@ -64,17 +64,18 @@ L1 and R1 are hold modifiers, and neither does anything on its own. L1 changes t
 | **D-pad** | Walk one step, repeating while held | | Zoom, minimap |
 | **Left stick** | Walk in 8 directions | | Run |
 | **Right stick** | Pan the map | | |
-| **L3** | Center the map on the hero | | |
+| **L3** | Run: the next direction runs, as the `Shift+g` prefix does; L3 again or B cancels | | Center the map on the hero |
 | **R3** | Toggles radial | | |
 | **L4, L5, R4, R5** | Configurable; by default Apply (`a`), Cast (`Shift+z`), Cast Quick and Zap Quick | | |
 
 ### ⚙️ Radial Menus and Quick Actions
 
-Radial menus stay open until an item is chosen or they are closed. Either stick selects, or the D-pad steps. A activates, B closes and L1/R1 change the page.
+Radial menus stay open until an item is chosen or they are closed, except for the direction radial below. Either stick selects, or the D-pad steps. A activates, B closes and L1/R1 change the page.
 
 - **Actions radial**: the current context commands with Skills, Polearm and Wield Last or Unwield, followed by the commands of the commands page, eight per page. This is how commands without a button of their own are reached, including the Extended Command. On the map it has all of them except Back to Game, the count pad and, outside wizard mode, the wizard commands. In position and direction prompts, L3 opens it without the commands.
 - **Toggles radial**: More Messages, Status Screen, Auto-Center, Look Mode, Auto-Dig, Ignore Stopping, Max Hit Points and Max Mana.
 - **Trigger quick actions**: L2 and R2 each have eight quick actions, set in Settings. The Set radial, or the R2 Action and L2 Action settings, pick which one the trigger runs when pressed alone, and the Quick radial runs one at once.
+- **Direction radial**: when a trigger's action asks for a direction while the trigger is still held, a violet, see-through radial opens. Select with a stick and release the trigger or press A to confirm; releasing with nothing selected cancels the command. D-pad Up answers up (`<`), D-pad Down answers down (`>`) and Y answers self. A stick already pushed when the radial opens counts at once. Actions with a menu first, such as Throw, ask for the direction with the ordinary prompt.
 
 | Trigger | Quick actions by default |
 |:--------|:-------------------------|
@@ -88,7 +89,7 @@ All of these are covered, and show their controls in a hint strip:
 - **Menus**: a gold focus selector, with row counts and row actions on a long A press, and X as OK. In an inventory menu, Menu flips between the item list and the equipment view.
 - **Yes/no prompts, message boxes, text windows, the count dialog and the tips**.
 - **Choosing a position**: the left stick moves the cursor, and the shoulder buttons and triggers jump between interesting spots and monsters.
-- **Choosing a direction**: a D-pad press picks it at once, or aim with the left stick and confirm with A.
+- **Choosing a direction**: a D-pad press picks it at once, or aim with the left stick and confirm with A. A prompt raised by a held trigger opens the direction radial instead.
 - **Text prompts**, such as wishing or naming, as far as text can be entered; see [[Text Entry|#text-entry]].
 - **More Messages and the Status Screen**, which scroll while the left stick still walks.
 - **Replays**: A pauses, L1/R1 and L2/R2 change the speed, D-pad Right steps forward, Y opens Go to Turn and B quits.
@@ -237,7 +238,7 @@ The script is evaluated directly through the web view, not through .NET MAUI's w
 
 ### 🚂 The Steam Input Layout
 
-GnollHack's layout, "GnollHack (Steam Deck)", is Steam's **Gamepad with Mouse Trackpad** template with the back grips bound to F2-F5 and gyro off. It ships with the game as an Action Manifest in the Linux Steam depot, in `steam_input/`, so no Steam account is attached to it and it is versioned with the code. The source files are in `win/win32/xpl/GnollHackM/Platforms/Linux/Packaging/steam/input/`.
+GnollHack's layout, "GnollHack (Steam Deck)", is Steam's **Gamepad with Mouse Trackpad** template with the left trackpad's click as L3, the back grips bound to F2-F5 and gyro off. It ships with the game as an Action Manifest in the Linux Steam depot, in `steam_input/`, so no Steam account is attached to it and it is versioned with the code. The source files are in `win/win32/xpl/GnollHackM/Platforms/Linux/Packaging/steam/input/`.
 
 ## ❓ Troubleshooting
 

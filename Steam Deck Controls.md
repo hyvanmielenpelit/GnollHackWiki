@@ -13,7 +13,7 @@ GnollHack reads the controls through Steam Input. If the controls do nothing in 
 
 If Steam Input is turned off for the game, turn it on in the game's Properties in Steam, under Controller.
 
-The back grips need GnollHack's own Steam Input layout. With the Gamepad with Mouse Trackpad template, everything except the back grips works.
+The back grips and the left trackpad's click need GnollHack's own Steam Input layout. With the Gamepad with Mouse Trackpad template, everything else works.
 
 > ℹ️ **Note:** Controller support is built for the Steam Deck. The same controls also work with a controller in the [[Linux Version]] on a desktop computer, and with an Xbox controller on Windows. The Android and iOS versions do not have controller support yet. See [[/Development/Gamepad Support]].
 
@@ -36,10 +36,10 @@ L1 and R1 do nothing on their own. They are hold modifiers that change what the 
 | **D-pad** | Walk one step per press, repeating while held; press two directions together to walk diagonally | | Up and Down zoom, Left toggles the minimap, and Right returns to normal zoom |
 | **Left stick** | Walk in eight directions | | Run in that direction |
 | **Right stick** | Pan the map | | |
-| **L3** | Center the map on your character | | |
+| **L3** | Run: your next direction on the left stick or the D-pad runs, as the Run prefix (`Shift+g`) does; L3 again or B cancels | | Center the map on your character |
 | **R3** | Toggles radial menu | | |
 
-Holding both L1 and R1 and pressing Y makes your character rest.
+Holding both L1 and R1 and pressing Y makes your character rest. Clicking the left trackpad does the same as pressing L3.
 
 ### 🎯 Trigger Quick Actions
 
@@ -52,6 +52,8 @@ L2 and R2 each have eight quick actions. You can change them in [[Settings]], un
 
 - The **Right Quick** and **Left Quick** radial menus run the action that you choose at once.
 - The **Set R2** and **Set L2** radial menus choose which action the trigger performs when you press it alone.
+
+If the assigned action asks for a direction while you still hold the trigger, the **Direction** radial menu opens. See [[Choosing a Direction|#choosing-a-direction]].
 
 ### 🕹️ Back Grips
 
@@ -75,9 +77,22 @@ When the game asks you to choose a position on the map:
 
 When the game asks for a direction, press the D-pad to choose it at once, or press two D-pad directions together for a diagonal. You can also aim with the left stick and confirm with A. L1 is up, R1 is down, and B cancels.
 
+When you hold L2 or R2 and its action asks for a direction, the violet **Direction** radial menu opens instead, and only until you release the trigger:
+
+| Control | Action |
+| :------ | :----- |
+| **Either stick** | Select a direction; a stick you are already pushing counts at once |
+| **Releasing the trigger** | Confirm the selected direction, or cancel the action if none is selected |
+| **A** | Confirm the selected direction |
+| **D-pad Up and Down** | Choose up (`<`) or down (`>`) at once |
+| **Y** | Choose yourself at once |
+| **B** | Cancel the action |
+
+An action that shows a menu first, such as Throw, asks for the direction in the usual way afterward.
+
 ## ⭕ Radial Menus
 
-A radial menu stays open until you choose an item or close it.
+A radial menu stays open until you choose an item or close it. The exception is the Direction radial menu, described in [[Choosing a Direction|#choosing-a-direction]].
 
 - Select an item with either stick, or step between items with the D-pad.
 - A activates the item, and B closes the menu.
