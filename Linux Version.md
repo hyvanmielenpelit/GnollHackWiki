@@ -9,6 +9,8 @@ GnollHack's Linux version has the following download options:
 
 <a href="https://store.steampowered.com/app/3558190/GnollHack/?utm_source=wiki">![Available on Steam](/uploads/Download/steam-q90.webp)</a><br />
 
+The Steam version also runs on the Steam Deck, where you can play with the Deck's built-in controls. See [[Steam Deck Controls]].
+
 #### 1.1.1. Auto-Update Can't Be Disabled
 
 You can't disable auto-update in Steam, but if your saved games become invalid, you can revert to a compatible version of GnollHack as follows:

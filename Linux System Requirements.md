@@ -125,7 +125,7 @@ When the game library can't load, GnollHack explains why in the terminal. If `ze
 
 The Steam version runs inside the Steam Linux Runtime, a container that Steam downloads and updates for you. It doesn't use your distribution's libraries, so most of the requirements above don't apply. You only need a 64-bit x86 computer on which the Steam client runs.
 
-On the Steam Deck, install GnollHack from Steam in Gaming Mode or Desktop Mode, as you would any other game.
+On the Steam Deck, install GnollHack from Steam in Gaming Mode or Desktop Mode, as you would any other game. You can then play with the Deck's built-in controls; see [[Steam Deck Controls]] for the setup and the controls.
 
 ## Where Your Games Are Saved
 

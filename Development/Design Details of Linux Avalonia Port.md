@@ -116,6 +116,17 @@ The map refresh rate setting offers 90 FPS in the Avalonia port, in addition to 
 
 The mouse uses the WinUI 3 version's desktop code: hover, at most 120 moves per second, and mouse wheel events, which Avalonia.Controls.Maui delivers as touch actions in WinUI's wheel units. The game's Windows cursor files are converted to Avalonia cursors at run time by `GHAvaloniaCursors`, using the 64-pixel cursors on high-density displays.
 
+## 🎮 Game Controllers
+
+The Linux version reads **Steam Input's virtual gamepad**, not the Steam Deck's own controller, so the player needs a Steam Input layout that outputs a gamepad. `GHEvdevGamepadBackend` reads the pad from `/dev/input/event*` with non-blocking reads on the UI thread, watches the folder with inotify for new pads, and never grabs a device. Steam may recreate the pad when an app starts, and the backend opens the new one by itself. With a keyboard and mouse layout no virtual pad exists, and the controls do nothing.
+
+- **Shared code**: `GHAvaloniaGamepad` polls `GHGamepadService` from the frame loop. The service, the page navigation and the button hints are in `GnollHackX\Gamepad\`, and the radial menus in `GnollHackX\Radial\`. This code is shared with the other clients, which have no backend yet.
+- **Back grips**: the virtual pad has no paddle buttons, so GnollHack's Steam Input layout sends the grips as F2 to F5, and `GHGamepadKeyBridge` turns them back into grips (WA-STEAM-0001).
+- **File dialogs**: Gaming Mode has no FileChooser portal, and its GTK dialogs take no controller input, so the game draws its own dialog there and whenever the last input came from a controller (WA-STEAM-0002).
+- **Avalonia Windows**: `GHXInputGamepadBackend` reads Xbox controllers through XInput. This flavor is for development and testing only, so it is not a test of what players get.
+
+The control scheme, the Steam Input layout and how to publish it are in the GnollHack repository's `DEVEL\gamepad_controls.md`. For testing on a device, see [[/Development/Testing Avalonia Linux Version on Steam Deck]].
+
 ## 🔤 Fonts
 
 The game's own fonts are added to the build as Avalonia resources, because Avalonia.Controls.Maui leaves .NET MAUI's font items out of it (WA-AVALONIA-0012). They are loaded by `GHAvaloniaFontRegistrar` instead of Avalonia.Controls.Maui's registrar, which misreads font names stored in UTF-16 (WA-AVALONIA-0011). The registrar also copies each font's Windows ascent and descent into its horizontal header: Avalonia lays out text with the horizontal header, while DirectWrite, and so the WinUI 3 version, uses the Windows metrics, and some fonts sat visibly higher on Linux than on Windows.
@@ -215,7 +226,7 @@ The web view forwards keys, characters, mouse buttons, mouse movement, the mouse
 
 - **Clipboard**: copy, cut and paste shortcuts are handled by the game through Avalonia's clipboard (WA-CEF-0003). Chromium's own X11 clipboard blocked the page on paste and did not reach the system clipboard on copy.
 - **File dialogs**: use Avalonia's file dialogs. Chromium's own portal dialog listed folders but no files when the page filtered by file type.
-- **Not supported**: input method composition inside the page (composed text arrives when it is committed), context menus and the on-screen keyboard.
+- **Not supported**: input method composition inside the page (composed text arrives when it is committed), context menus and an on-screen keyboard of the web view's own. In Gaming Mode, the controller opens Steam's on-screen keyboard for a text field.
 - **Escape** never reaches the page: the game window takes it first.
 
 ### 🔌 JavaScript Bridge
@@ -326,6 +337,7 @@ The Linux version works around defects in Avalonia, Avalonia.Controls.Maui, CEF,
 | **sentry.md** | WA-SENTRY-0003, 0004, 0005, 0006 |
 | **skiasharp.md** | WA-SKIASHARP-0009 |
 | **maui.md** | WA-MAUI-0027 |
+| **steam.md** | WA-STEAM-0001, 0002 |
 
 ## 📖 Learn More
 

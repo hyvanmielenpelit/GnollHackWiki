@@ -23,7 +23,7 @@
 | **macOS** | **App Store** | ❌ | ✅🆓 | ✅🆓 | ✅💲 |
 | **macOS** | **Steam** | ✅💲 Unofficial (NetHack: Legacy) | ✅🆓 | ❌ | ✅💲 |
 | **Windows** | **Steam** | ✅💲 Unofficial (NetHack: Legacy) | ✅🆓 | ✅💲 Coming soon | ✅💲 |
-| **Steam Deck** | **Steam** | ✅💲 Unofficial (NetHack: Legacy) | ✅🆓 Coming soon | ❌ | ✅💲 |
+| **Steam Deck** | **Steam** | ✅💲 Unofficial (NetHack: Legacy) | ✅🆓 | ❌ | ✅💲 |
 
 - 🆓 Free
 - 💲 Paid

@@ -91,6 +91,12 @@ See [[Voiceovers]].
 - [[Character Classes]] — Playable roles and starting equipment
 - [[Difficulty Levels]] — Detailed modifiers for difficulty ratings
 
+## 🤖 Game Assistant
+
+- **[[Gnoll Overseer]]** — A free, optional in-game AI assistant powered by frontier AI models and grounded in GnollHack's actual game data, source code, and wikis.
+- When opened during play, the Overseer reads your current stats, inventory, and surroundings to give spoiler-aware tactical advice — and stays completely out of the way if you prefer playing unaided.
+- Model accuracy, speed, and reliability are evaluated continuously with **[[GnollBench]]**, Gnoll Overseer's own multi-provider benchmark.
+
 ## 💻 Platform Support (Modern Graphical UI)
 
 - Android

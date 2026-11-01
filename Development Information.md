@@ -70,7 +70,8 @@ The table below summarizes support for the modern client. Note that emulator per
 
 ### 💻 Future Platform Support
 
-- Currently, there are no plans to support *gaming consoles* or *controllers* (such as the Steam Deck).
+- Currently, there are no plans to support *gaming consoles*.
+- *Game controllers* are supported on the Steam Deck, starting from version 3.32, and on desktop Linux and Windows, but not yet on Android and iOS. See [[Steam Deck Controls]] and [[/Development/Gamepad Support]].
 
 ## 📖 Background Articles
 
@@ -84,6 +85,7 @@ These articles provide historical context and technical background. They are eas
 - [[/Development/Native Libraries]]
 - [[/Development/Design Details of Linux Avalonia Port]] — The design of the Avalonia port and its Linux version, including CEF and Sentry
 - [[/Development/Design Details of Windows Avalonia Port]] — How the Windows flavor of the Avalonia port differs
+- [[/Development/Gamepad Support]] — How game controller support works, and what it covers and does not cover
 - [[/Development/Debugging Linux Version in WSL using Visual Studio Code]]
 - [[/Development/SkiaSharp Build Instructions]] — Describes custom SkiaSharp compilations (primarily for reference).
 

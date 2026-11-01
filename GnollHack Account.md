@@ -2,7 +2,7 @@
 
 *Modern Ports Only*
 
-If you register for a [GnollHack Account](https://account.gnollhack.com/), you can post your top scores to an online server, and also share [[Bones Files]] with other players.
+If you register for a [GnollHack Account](https://account.gnollhack.com/), you can post your top scores to an online server, share [[Bones Files]] with other players, transfer saves across devices with [[Save File Transfer]], and use the optional [[Gnoll Overseer]] in-game assistant.
 
 ## Setting up on Mobile
 
