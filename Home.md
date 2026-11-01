@@ -86,6 +86,7 @@ The *Gnoll Overseer* is your in-game assistant for all things GnollHack. He is h
 - **[[Troubleshooting]]** — How to solve various technical problems
 - **[[Emulator Support]]** — Learn about which emulators support GnollHack
 - **[[Save Game Compatibility]]** — Check which patches are compatible with each other
+- **[[Technical Systems]]** — How GnollHack's save recovery, save transfer and other technical systems work behind the scenes
 - **[[Version Identifier Letters]]** — Find out what letters are used to describe different versions of GnollHack
 
 ## 🛠️ Development

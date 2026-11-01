@@ -1,6 +1,6 @@
 > 👉 **These instructions set up a Steam Deck as a test device for the Linux version of GnollHack. You build the game on Windows as usual, copy it to the Deck over the network with one script, and start it from Gaming Mode, where Steam Input and the full-screen Deck experience are in play. Every run writes a log that you can follow live from Windows.**
 
-The Steam Deck runs the same Linux build as the AppImage and the Steam depot, so this setup tests exactly what players get. It is the fastest way to develop and test controller support: after the one-time setup, a change goes from Visual Studio to the Deck in one command.
+The Steam Deck runs the same Linux build as the AppImage and the Steam depot, so this setup tests exactly what players get. It is the fastest way to develop and test [[controller support|/Development/Gamepad Support]]: after the one-time setup, a change goes from Visual Studio to the Deck in one command.
 
 ## 📋 Prerequisites
 
