@@ -4,7 +4,9 @@
 
 ## 📊 What GnollBench Is For
 
-GnollBench ranks AI models with regard to their **intelligence**, **speed**, and **cost**. Results are used to rank AI models' performance as the Gnoll Overseer, but they are also used to find bugs and improve the quality of the Overseer chat and GnollBench itself. 
+In a permadeath roguelike, a single confident hallucination can end a promising run. GnollBench tests AI models under the exact instructions and lookup tools of the live [[Gnoll Overseer]] chat, using a two-provider AI grading panel and a source-grounded fact-checker to penalize dangerous mistakes.
+
+Beyond ranking models on **intelligence**, **speed**, and **cost** to select the best ones to offer players, GnollBench surfaces missing wiki facts and tool issues so the Overseer keeps getting sharper over time.
 
 ## 🐺 GnollBench at a Glance
 

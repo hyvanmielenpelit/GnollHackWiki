@@ -1,6 +1,6 @@
 ![Gnoll Overseer](/uploads/Guides/Introduction%20to%20Gnoll%20Overseer/gnoll-overseer-avatar-frame-256x256-q85.webp)
 
-> 👉 **Gnoll Overseer is a free, optional AI assistant for GnollHack. You can open it from the game menu, from the About page, or on the web. It gives grounded gameplay advice, inspects the game's mechanics and source code, and helps you with the app itself.**
+> 👉 **GnollHack is famously tough, and Gnoll Overseer is a free, optional AI assistant built to help you learn and master it. Open it from the game menu, the About page, or on the web for accurate tactical advice grounded in your live game, the game's own data and source code, and the wikis.**
 
 ## ✨ What Can Gnoll Overseer Do?
 

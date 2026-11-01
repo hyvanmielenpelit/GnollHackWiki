@@ -271,4 +271,5 @@ Altars are extremely useful and can belong to any alignment. There is always an 
 ## 📚 Further Reading
 
 - [[Intermediate Guide]] — Next steps for players who have mastered the basics
+- [[Gnoll Overseer]] — Optional in-game assistant that answers questions and gives spoiler-aware advice for your current game
 

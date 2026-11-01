@@ -14,6 +14,13 @@ This guide is for people who know NetHack but are new to GnollHack.
 
 - [[Starting Guide for NetHack Veterans]] — How to play GnollHack if you already know NetHack.
 
+## 🤖 Interactive In-Game Help
+
+Prefer asking questions while you play instead of searching through guides? The optional [[Gnoll Overseer]] assistant can explain mechanics and advise you on your current situation without spoiling surprises.
+
+- [[/Guides/Introduction to Gnoll Overseer]] — What the Overseer is, how to open it in-game, and how spoiler protection works.
+- [[/Guides/Advanced Guide to Gnoll Overseer]] — Using live game snapshots, item and monster lookups, and dumplog reviews to improve faster.
+
 ## 🌍 Online Sharing
 
 - [[Social Sharing Guide]] — How to share your game progress, top scores, bones files, and snapshots with other players.

@@ -28,7 +28,7 @@ If the probability check for other stackable items fails, you will receive exact
 
 ## ⚔️ Weapon Qualities
 
-Weapons have base quality probabilities. Note that Elite, Celestial, Primordial, and Infernal qualities always require positive luck. If the probability check fails, you will receive a normal quality weapon instead.
+Weapons have base quality probabilities. Note that Elite, Celestial, Primordial, and Infernal qualities always require non-negative luck. If the probability check fails, you will receive a normal quality weapon instead.
 
 | Quality Level | Success Chance |
 | :--- | :---: |
@@ -40,7 +40,7 @@ Weapons have base quality probabilities. Note that Elite, Celestial, Primordial,
 
 ## 🛡️ Armor Qualities
 
-Armor quality probabilities are generally much lower than weapons. However, some specific armors have *double* or *half* exceptionality modifiers. Positive luck is required for all of these qualities. If the probability check fails, you will receive a normal quality armor piece instead.
+Armor quality probabilities are generally much lower than weapons. However, some specific armors have *double* or *half* exceptionality modifiers. Non-negative luck is required for all of these qualities, except that armor with Double Exceptionality Chance gets Exceptional at any luck. Gauntlets, shoes, kicking boots, spiked boots, and spiked shields count as weapons here: they use the chances under *Weapon Qualities* instead of the table below, so they also get Exceptional at any luck. A wish cannot give a quality to helmets, cloaks, shirts, robes, bracers, dragon scale mail, or dragon scales. If the probability check fails, you will receive a normal quality armor piece instead.
 
 | Quality Level | Standard Chance | Double Chance | Half Chance |
 | :--- | :---: | :---: | :---: |
@@ -57,27 +57,27 @@ Armor quality probabilities are generally much lower than weapons. However, some
 
 ## 🪄 Wand Qualities
 
-Wands can only be Exceptional or Elite, and they require positive luck. They cannot be generated as Celestial, Primordial, or Infernal. If the probability check fails, you will receive a normal quality wand instead.
+Only wands of nothing, striking, magic missile, fire, cold, and lightning can have a quality, and then only Exceptional or Elite; every other wand always comes out normal. Non-negative luck is required. If the probability check fails, you will receive a normal quality wand instead.
 
 | Quality Level | Success Chance |
 | :--- | :---: |
 | **Exceptional** | 50% |
 | **Elite** | 25% |
 
-> 💡 **Example:** Wishing for a `"blessed elite wand of death"` has a 25% chance to grant the Elite quality (provided you have positive luck).
+> 💡 **Example:** Wishing for a `"blessed elite wand of fire"` has a 25% chance to grant the Elite quality (provided you have non-negative luck).
 
 ## 🪄 Elemental Enchantments
 
 You can wish for an elemental enchantment prefix (`freezing`, `flaming`, `electrified`, or `death-magical`) on weapons and armor that support it.
 
-- **Elemental Prefix:** 100% chance to obtain if you have positive luck. 
+- **Elemental Prefix:** 100% chance to obtain if you have non-negative luck. 
 - *Note:* If you wish for a `death-magical` enchantment on an item that cannot receive it, you will receive an `electrified` enchantment instead.
 
-> 💡 **Example:** Wishing for a `"freezing long sword"` is guaranteed to grant the freezing prefix as long as your luck is positive.
+> 💡 **Example:** Wishing for a `"freezing long sword"` is guaranteed to grant the freezing prefix as long as your luck is not negative.
 
 ## 🔮 Mythic and Legendary Affixes
 
-Wishing for Mythic and Legendary affixes requires positive luck to obtain specific powers. Without positive luck, you will only receive an item with one random affix (or none). 
+Keeping two affixes and obtaining a Rare affix both require non-negative luck. With negative luck, a wish that names its affixes keeps at most one of them, and only if it is Common. 
 
 ### Random Affixes
 
@@ -88,7 +88,7 @@ Wishing for Mythic and Legendary affixes requires positive luck to obtain specif
 
 ### Specific Affixes
 
-When wishing for specific affixes, the game distinguishes between **Common** affixes and **Rare** affixes (*of elemental protection, of the Last Alliance, of banishment, Witch-King's, Olympian, Jotunheimian,* and *Melnibonean*). Rare affixes individually only have a 33% chance to be successfully granted. 
+When wishing for specific affixes, the game distinguishes between **Common** affixes and **Rare** affixes (*of elemental protection, of the Last Alliance, of banishment, of sharpness, Stygian, Witch-King's, Olympian, Jotunheimian,* and *Melnibonean*). Rare affixes individually only have a 33% chance to be successfully granted. 
 
 #### Specific Mythic (One Affix)
 
@@ -163,7 +163,7 @@ Here are some examples of highly specific wishes that combine multiple mechanics
 
 | Wishing Prompt | Mechanics Explained |
 | :--- | :--- |
-| **`blessed +3 exceptional freezing long sword`** | Combines quality (Exceptional, 100% chance for weapons) and an elemental prefix (`freezing`, 100% chance with positive luck). |
+| **`blessed +3 exceptional freezing long sword`** | Combines quality (Exceptional, 100% chance for weapons) and an elemental prefix (`freezing`, 100% chance with non-negative luck). |
 | **`uncursed celestial splint mail of lightness`** | Combines celestial armor and a Mythic suffix. Splint mail has the *Double Exceptionality Chance* (boosting celestial from 5% to 10%). The common mythic suffix has a 100% chance to apply. |
 | **`blessed celestial Witch-King's plate mail of fire resistance`** | Highly complex legendary armor request. Getting this exact item requires succeeding the Celestial check (5%) AND the Legendary checks (11% chance to keep both affixes). The two checks run independently. |
 

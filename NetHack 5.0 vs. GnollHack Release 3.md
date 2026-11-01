@@ -27,7 +27,7 @@
 | :--- | :--- | :--- |
 | **Core Philosophy** | 📖 An uncompromising fantasy simulation that prioritizes mechanical depth, player discovery, and high-stakes survival. | ✨ A modern reimagining that lowers the barrier to entry by blending classic roguelike systems with contemporary RPG design and rich presentation. |
 | **Target Audience** | 🎖️ Purists, veterans, and fans of classic ASCII/keyboard-driven gaming. | 📱 Beginners, mobile gamers, and players seeking a fresh, audiovisual tactical experience. |
-| **Key Selling Points** | • **The Ultimate Classic:** The definitive version of the legendary 1987 roguelike.<br />• **Brutal Challenge:** Unforgiving permadeath and complex mechanics.<br />• **Classic Feel, New Polish:** Flawless modern stability and long-requested features like a built-in tutorial. | • **Audiovisual Overhaul:** Real 2D animations, voiceovers, and a full musical score.<br />• **ARPG Loot System:** Mythic affixes, elite weapon tiers, and 22 gear slots.<br />• **Accessibility:** 7 difficulty levels, optional permadeath, and streamlined UI. |
+| **Key Selling Points** | • **The Ultimate Classic:** The definitive version of the legendary 1987 roguelike.<br />• **Brutal Challenge:** Unforgiving permadeath and complex mechanics.<br />• **Classic Feel, New Polish:** Flawless modern stability and long-requested features like a built-in tutorial. | • **Audiovisual Overhaul:** Real 2D animations, voiceovers, and a full musical score.<br />• **ARPG Loot System:** Mythic affixes, elite weapon tiers, and 22 gear slots.<br />• **Accessibility:** 7 difficulty levels, optional permadeath, streamlined UI, and the optional [[Gnoll Overseer]] assistant. |
 | **Key Pain Points** | • **Archaic UI:** Requires memorizing dozens of obscure keyboard commands.<br />• **Spoiler Dependency:** Exact stats and mechanics are hidden; playing without external wikis is notoriously difficult.<br />• **Instant Deaths:** Features "unfair" instant deaths. | • **Inventory Management:** The massive amount of loot, 22 gear slots, and magic reagents can cause inventory fatigue.<br />• **System Complexity:** The deep mechanics can still be overwhelming to learn.<br />• **Grid-Based Pacing:** Despite modern graphics, it remains a methodical, turn-based grid game that may feel slow to action-roguelite fans. |
 | **Why Play Today?** | 📜 To play a historically significant masterpiece, modernized to run flawlessly today while preserving its hardcore 1980s ethos. | 🕹️ To enjoy the depth of a traditional roguelike wrapped in the presentation and quality-of-life standards of modern gaming. |
 
@@ -40,6 +40,7 @@
 | **Audio** | 🔇 No sound. | 🔊 Full soundtrack (14 original and 23 additional music tracks), sound effects, and 5,000+ voiceovers. |
 | **Controls** | ⌨️ Dozens of keyboard commands must be memorized (e.g., Quaff (`q`) and Read (`r`)). | 🖱️ Point-and-click commands and context menus. |
 | **Information Accessibility**| ❓ Relies heavily on external wikis/spoilers. Exact damage values and stats are hidden. | 🔍 The Examine (`Alt+x`) command shows detailed item stats, magical effects, and damage formulas in-game. Exact damage values are shown. |
+| **In-Game Assistant** | ❌ None. | 🤖 Optional [[Gnoll Overseer]] AI assistant reads your live game state and game data to give spoiler-aware tactical advice. |
 
 ## ⚔️ Gameplay & Mechanics
 

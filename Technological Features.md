@@ -11,6 +11,7 @@ GnollHack is not just another application; it is a profound technical achievemen
 - **Advanced Cross-Platform Architecture:** From a single unified .NET codebase and native bridge, GnollHack seamlessly targets Android, iOS, Windows, and macOS. This represents a massive reduction in platform-specific technical debt and maintenance overhead.
 - **High-Performance Multi-Threading:** To maintain high frame rates while executing complex game logic, GnollHack implements a sophisticated multi-threaded architecture. The native C game loop is completely decoupled from the MAUI UI and the hardware-accelerated [Skia](https://skia.org/) rendering threads, showcasing advanced synchronization and thread-safety patterns in .NET.
 - **Ecosystem Integration:** By integrating [SkiaSharp](https://github.com/mono/SkiaSharp) for GPU-accelerated 2D rendering and [FMOD](https://www.fmod.com/) for professional-grade audio middleware, GnollHack exemplifies how smoothly .NET MAUI can orchestrate industry-standard native libraries to deliver a rich multimedia experience.
+- **Grounded Agentic AI & Automated Evaluation:** Through **[[Gnoll Overseer]]**, GnollHack integrates an optional agentic AI assistant directly into the client, pairing frontier models with structured live game snapshots, C source code indexing, and dual-wiki retrieval, backed by **[[GnollBench]]**, a dedicated multi-provider evaluation harness that grades accuracy, penalizes dangerous hallucinations, and measures speed and cost.
 
 ## 💻 Technologies Behind GnollHack
 
@@ -37,3 +38,9 @@ GnollHack integrates a native C library based on [NetHack](https://www.nethack.o
 ### ⚡ Multi-Threaded
 
 GnollHack runs on two or three threads depending on the operating system (not counting FMOD threads). This allows GnollHack to run at high performance but requires us to implement several thread-safety features.
+
+### 🤖 Agentic AI & Benchmarking: Gnoll Overseer and GnollBench
+
+**[[Gnoll Overseer]]** is an optional full-stack AI game assistant built on ASP.NET Core (Web API + SignalR) and Angular. Rather than relying on ungrounded language model output, it executes structured tools over live client game snapshots, an in-memory C lexer and source index for both GnollHack and NetHack, exact monster/item/artifact definitions, and Lucene.NET wiki indexes — with configurable spoiler guardrails and encrypted/ephemeral chat modes. See [[/Guides/Technological Overview of Gnoll Overseer]].
+
+To keep advice trustworthy in a permadeath game, **[[GnollBench]]** evaluates candidate models against the production Overseer prompt and toolset using a multi-provider AI grading panel, an automated source-grounded claim verifier, and strict comparability rules across intelligence, latency, and cost. See [[/Guides/Technological Overview of GnollBench]].

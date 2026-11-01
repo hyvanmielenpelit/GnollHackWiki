@@ -59,6 +59,7 @@ GnollHack is best understood as a modernized version of NetHack that makes the c
 
 - **[[Commands]]** — Commands available as clickable GUI buttons in the modern versions of the game.
 - **[[Keyboard Shortcuts]]** — GnollHack supports NetHack-style keyboard shortcuts, which are especially useful when playing with a physical keyboard 
+- **[[Steam Deck Controls]]** — How to play GnollHack with the Steam Deck's built-in controls
 
 ## ⚙️ Game Configuration
 
@@ -76,10 +77,10 @@ GnollHack is best understood as a modernized version of NetHack that makes the c
 
 ## 🤖 Game Assistant
 
-The *Gnoll Overseer* is your in-game assistant for all things GnollHack. He is highly advanced and game-context-aware, able to answer complex questions with great accuracy.
+GnollHack is famously tough, so we built *Gnoll Overseer* to help you along. Powered by *frontier AI models* and grounded in real game data, it gives you accurate, high-quality tactical advice in every game situation. Learning to play GnollHack has never been easier! Got a question? Just ask the Overseer!
 
-- **[[Gnoll Overseer]]** — All guides to Gnoll Overseer, from getting started to advanced use and the technology behind the service
-- **[[GnollBench]]** — The Overseer's own AI benchmark
+- **[[Gnoll Overseer]]** — Advanced in-game AI assistant for all things GnollHack.
+- **[[GnollBench]]** — An AI benchmark measuring how AI models perform as the Gnoll Overseer.
 
 ## 📋 Technical Information
 

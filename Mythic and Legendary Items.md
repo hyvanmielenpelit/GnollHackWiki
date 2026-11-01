@@ -29,7 +29,7 @@
 | Melnibonean | Restores 2d6 + enchantment bonus hit points on hit, confers +5 + enchantment bonus to hit and +2d8 + enchantment bonus to damage, confers +50% plus 5% per enchantment level to all spell casting, and can be enchanted 50% more than normal | All except celestial weapons, thrown weapons, and ammunition | Rare |
 | Olympian | Triple base damage and can be enchanted 50% more than normal, cannot be cursed, counts as silver against silver-vulnerable monsters (+1d20 damage) | All except infernal, primordial, and demonic items | Rare |
 | Radiant | Acts as a light source | All except weapon-armor, thrown weapons, and ammunition | Common |
-| Stygian | Drains a level | All except celestial weapons | Common |
+| Stygian | Drains a level | All except celestial weapons | Rare |
 | Vampiric | Restores 2d6 + enchantment bonus hit points on hit | All except boots, thrown weapons, and ammunition | Common |
 | Witch-king's | Drains a level, confers +50% plus 5% per enchantment level to all spell casting, can be enchanted 50% more than normal | All except celestial weapons, thrown weapons, and ammunition | Rare |
 
@@ -50,9 +50,9 @@
 | of ogre slaying | Triple damage against ogres | All except boots and bludgeoning gauntlets | Common |
 | of orc slaying | Triple damage against orcs | All except orcish items, boots, and bludgeoning gauntlets | Common |
 | of providence | Confers luck | All except thrown weapons and ammunition | Common |
-| of reach | Has extended range | Polearms, spears, and lances | Common |
+| of reach | Has extended range | Polearms, spears, lances, and tridents | Common |
 | of returning | Returns to hand after being thrown | Thrown weapons | Common |
-| of sharpness | Has 35% chance of dealing damage equal to 15% of max HP | Slashing weapons | Common |
+| of sharpness | Has 35% chance of dealing damage equal to 15% of max HP | Slashing weapons | Rare |
 | of speed | Very fast speed | Melee weapons, boots, and gauntlets | Common |
 | of the Last Alliance | Triple damage against orcs, ogres, giants, and trolls, and prevents troll revival | All except orcish items, boots, and bludgeoning gauntlets | Rare |
 | of troll slaying | Triple damage against trolls, prevents troll revival | All except boots and bludgeoning gauntlets | Common |
@@ -73,7 +73,7 @@
 | Hyperborean | +25% max mana, confers +50% plus 5% per enchantment level to all spell casting, and can be enchanted 50% more than normal | All | Common |
 | Melnibonean | Mana regeneration, hit point regeneration, confers +50% plus 5% per enchantment level to all spell casting, and can be enchanted 50% more than normal | All | Rare |
 | Sorcerer's<sup>1</sup> | Sets the spell casting penalty to 0% | All | Common |
-| Stygian | Death and drain resistance | All | Common |
+| Stygian | Death and drain resistance | All | Rare |
 | Witch-king's | +25% max hit points, +25% max mana, confers +50% plus 5% per enchantment level to all spell casting, and can be enchanted 50% more than normal | All | Rare |
 
 - <sup>1</sup> Cannot appear with the *of sorcery* suffix on legendary items, nor on items with a low spell casting penalty.

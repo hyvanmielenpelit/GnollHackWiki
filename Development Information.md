@@ -70,7 +70,8 @@ The table below summarizes support for the modern client. Note that emulator per
 
 ### 💻 Future Platform Support
 
-- Currently, there are no plans to support *gaming consoles*. *Game controllers* are supported on the Steam Deck, desktop Linux and Windows, but not yet on Android and iOS; see [[/Development/Gamepad Support]].
+- Currently, there are no plans to support *gaming consoles*.
+- *Game controllers* are supported on the Steam Deck, starting from version 3.32, and on desktop Linux and Windows, but not yet on Android and iOS. See [[Steam Deck Controls]] and [[/Development/Gamepad Support]].
 
 ## 📖 Background Articles
 
