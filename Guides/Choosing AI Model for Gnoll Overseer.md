@@ -1,6 +1,6 @@
 ![Gnoll Overseer](/uploads/Guides/Introduction%20to%20Gnoll%20Overseer/gnoll-overseer-avatar-frame-256x256-q85.webp)
 
-> 👉 **The Gnoll Overseer supports AI models from Anthropic, Google, and OpenAI. As October 18, 2026, three free system models are available. This page explains which one to choose, how to switch, and how to use a model of your own.**
+> 👉 **The Gnoll Overseer supports AI models from Anthropic, Google, and OpenAI. As November 1, 2026, three free system models are available. This page explains which one to choose, how to switch, and how to use a model of your own.**
 
 ## 🧠 Available Models
 
@@ -9,6 +9,7 @@
 | **GPT-6 Luna** | **High** | OpenAI | 🟡 Medium | 🟡 Medium | 🟢 Very low | Most questions |
 | **GPT-5.6 Luna** | **Max** | OpenAI | 🟡 Medium | 🔴 Slow | 🟢 Low | Most questions |
 | **Gemini 4 Argon** | **Medium** | Google | 🟢 High | 🔴 Slow | 🔴 High | Hard questions |
+| **Claude Sonnet 5.5** | **Xhigh** | Anthropic | 🟢 High | 🟡 Medium | 🔴 Very high | Hard questions |
 
 ## 🎯 Choosing the Right Model
 
@@ -18,7 +19,7 @@ For most questions, the recommended models are **GPT-6 Luna (High)** or **GPT-5.
 
 ### 🏆 Hard Questions
 
-For difficult questions, you may use **Gemini 4 Argon (Medium)**, when the other models fail to answer correctly.
+For difficult questions, you may use **Gemini 4 Argon (Medium)** or **Claude Sonnet 5.5 (Xhigh)**, when the other models fail to answer correctly.
 
 ## 🔀 Switching Models
 
