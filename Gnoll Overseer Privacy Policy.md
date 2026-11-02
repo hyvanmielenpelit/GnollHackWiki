@@ -1,8 +1,8 @@
-> 👉 **This Privacy Policy pertains to the Gnoll Overseer AI Assistant, an optional AI-powered feature in the GnollHack app.**
+> 👉 **This Privacy Policy pertains to the Gnoll Overseer AI Advisor, an optional AI-powered feature in the GnollHack app.**
 
 ## Introduction
 
-The GnollHack app includes an optional AI-powered assistant called **Gnoll Overseer**, which processes user data to provide intelligent gameplay assistance and features. This document outlines what data is collected, how it is used, and your rights regarding this data.
+The GnollHack app includes an optional AI-powered gameplay advisor called **Gnoll Overseer**, which processes user data to provide intelligent gameplay assistance and features. This document outlines what data is collected, how it is used, and your rights regarding this data.
 
 Gnoll Overseer is an optional feature. If you do not use it, no data described in this document is collected.
 
@@ -51,7 +51,7 @@ When a chat session is initiated from within the GnollHack app, the following ga
 
 ### 5. Tool Calls
 
-When the AI assistant uses tools (e.g., looking up game information, searching the wiki), the following is recorded:
+When the AI advisor uses tools (e.g., looking up game information, searching the wiki), the following is recorded:
 
 | Data Point | Purpose |
 | :--- | :--- |

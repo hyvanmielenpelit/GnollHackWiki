@@ -21,7 +21,7 @@ The following policies refer to the main application policy. They exist for plat
 ## Services
 
 * **[[GnollHack Account Privacy Policy]]** — Details how we handle your data when you register and use a GnollHack account.
-* **[[Gnoll Overseer Privacy Policy]]** — Explains data collection and processing for the optional AI-powered Gnoll Overseer assistant.
+* **[[Gnoll Overseer Privacy Policy]]** — Explains data collection and processing for the optional AI-powered Gnoll Overseer advisor.
 
 ## Websites
 

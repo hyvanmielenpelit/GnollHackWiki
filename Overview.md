@@ -19,7 +19,7 @@ GnollHack is also a true [NetHack](https://en.wikipedia.org/wiki/NetHack) varian
 - Difficulty levels
 - In-game item and monster information
 - In-game hints and quest and gameplay guidance
-- Optional in-game AI assistant ([[Gnoll Overseer]])
+- Optional in-game AI advisor ([[Gnoll Overseer]])
 - Removal of unnecessary instant-death situations
 - Large number of new late-game monsters
 - Interesting late-game items
@@ -37,7 +37,7 @@ GnollHack can also be viewed as a NetHack remaster, adding the following modern 
 - **Modern UI**
     - Mobile touch-based UI on Android and iOS
     - Modern UI for desktop, adapted from the mobile UI
-- **Optional AI game assistant** — [[Gnoll Overseer]] offers opt-in tactical advice grounded in your live game state and real game data
+- **Optional AI advisor** — [[Gnoll Overseer]] offers opt-in tactical advice grounded in your live game state and real game data
 
 All graphics, sounds, music, and voiceovers in the game have been made by *real people*. No game art or audio is generated with AI.
 

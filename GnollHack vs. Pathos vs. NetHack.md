@@ -6,7 +6,7 @@
 | **Mobile & Touch UI** | ❌ None officially (relies on third-party ports with on-screen keyboards) | ✅ Native touch-first UI with context menus (no keyboard required) | ✅ Native touch-first UI with context menus (no keyboard required) |
 | **Graphics & Animations** | 🖥️ ASCII text or basic static 2D tiles | ✨ High-resolution 64x96–192x192 tiles with real [[animations]] | ✨ Retro 2D tile sets with animations |
 | **Audio** | 🔇 Silent | 🔊 Full [[music]] soundtrack, spatial sound effects, and 5,000+ [[voiceovers]] | 🔊 Sound effects and background music (no voiceovers) |
-| **Beginner Accessibility** | 💀 Brutal single difficulty; mandatory permadeath; requires external wikis | 🌟 7 [[difficulty levels]], optional non-permadeath modes, in-game stats, hints, and the [[Gnoll Overseer]] AI assistant | 📖 Built-in encyclopedia/codex; instant revive upon death (with a score/fame penalty) |
+| **Beginner Accessibility** | 💀 Brutal single difficulty; mandatory permadeath; requires external wikis | 🌟 7 [[difficulty levels]], optional non-permadeath modes, in-game stats, hints, and the [[Gnoll Overseer]] AI advisor | 📖 Built-in encyclopedia/codex; instant revive upon death (with a score/fame penalty) |
 
 ## 🧬 The Core Difference: True Fork vs. Reimagining
 
@@ -60,7 +60,7 @@ Both *GnollHack* and *Pathos* are **100% free** with no ads, microtransactions, 
 - 🐺 **Play GnollHack if:**
   - You want the **authentic *NetHack* experience**—with its legendary depth, emergent interactions, and classic dungeon branches—brought to life with a modern touchscreen UI.
   - You appreciate high production values, including **hand-drawn animated graphics, a full musical score, and over 5,000 lines of human voice acting**.
-  - You are a **new player** who wants selectable [[difficulty levels]], optional non-permadeath modes ([[Modern Mode]] and [[Casual Mode]]), and an in-game [[AI assistant|Gnoll Overseer]] to help you learn without constantly alt-tabbing to a wiki.
+  - You are a **new player** who wants selectable [[difficulty levels]], optional non-permadeath modes ([[Modern Mode]] and [[Casual Mode]]), and an in-game [[AI advisor|Gnoll Overseer]] to help you learn without constantly alt-tabbing to a wiki.
   - You are a ***NetHack* veteran** looking for a fresh tactical challenge with ARPG-style mythic loot, 200+ reagent-based spells, and expanded late-game content.
 
 - 📱 **Play Pathos: NetHack Codex if:**

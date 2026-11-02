@@ -192,7 +192,7 @@ When **Use Controller** is on, the **Trigger Quick Actions** section appears in 
 
 ## 🐺 Gnoll Overseer Settings
 
-These settings control the core in-game behavior of [[Gnoll Overseer|/Guides/Introduction to Gnoll Overseer]], the optional in-game AI assistant. The Overseer is free and fully opt-in: nothing is sent to it during play until you open it. Opening it from a game sends a snapshot of your game (if **Send Game Context** is on), and the Overseer greets you right away.
+These settings control the core in-game behavior of [[Gnoll Overseer|/Guides/Introduction to Gnoll Overseer]], the optional in-game AI advisor. The Overseer is free and fully opt-in: nothing is sent to it during play until you open it. Opening it from a game sends a snapshot of your game (if **Send Game Context** is on), and the Overseer greets you right away.
 
 | Setting Name | Options / Values | Default | Description |
 | :----------- | :--------------: | :-----: | :---------- |

@@ -1,6 +1,6 @@
 ![Gnoll Overseer](/uploads/Guides/Introduction%20to%20Gnoll%20Overseer/gnoll-overseer-avatar-frame-256x256-q85.webp)
 
-> 👉 **GnollHack is famously tough, and Gnoll Overseer is a free, optional AI assistant built to help you learn and master it. Open it from the game menu, the About page, or on the web for accurate tactical advice grounded in your live game, the game's own data and source code, and the wikis.**
+> 👉 **GnollHack is famously tough, and Gnoll Overseer is a free, optional AI advisor built to help you learn and master it. Open it from the game menu, the About page, or on the web for accurate tactical advice grounded in your live game, the game's own data and source code, and the wikis.**
 
 ## ✨ What Can Gnoll Overseer Do?
 
@@ -12,7 +12,7 @@
 
 ## 🆚 How It Differs From Generic AI Chatbots
 
-Although Gnoll Overseer connects to state-of-the-art AI models, it is a purpose-built assistant integrated into the game:
+Although Gnoll Overseer connects to state-of-the-art AI models, it is a purpose-built advisor integrated into the game:
 
 | Capability | Generic AI Chatbots | Gnoll Overseer |
 |---|---|---|

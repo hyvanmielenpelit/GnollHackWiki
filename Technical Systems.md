@@ -19,8 +19,8 @@
 
 ## 🤖 Gnoll Overseer
 
-- **[[/Guides/Chat Confidentiality Modes in Gnoll Overseer]]** — What the in-game assistant keeps about your chat in each privacy mode
-- **[[/Guides/Technological Overview of GnollBench]]** — How the assistant's AI benchmark is built and graded
+- **[[/Guides/Chat Confidentiality Modes in Gnoll Overseer]]** — What the in-game AI advisor keeps about your chat in each privacy mode
+- **[[/Guides/Technological Overview of GnollBench]]** — How the AI advisor's benchmark is built and graded
 
 ## 🏗️ Technology
 

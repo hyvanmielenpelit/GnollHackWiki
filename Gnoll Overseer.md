@@ -1,6 +1,6 @@
 ![Gnoll Overseer](/uploads/Guides/Introduction%20to%20Gnoll%20Overseer/gnoll-overseer-avatar-frame-256x256-q85.webp)
 
-> 👉 **GnollHack is famously tough, so we built the Gnoll Overseer to help you along. Powered by frontier AI models and grounded in real game data, this free, optional AI assistant is available right inside the game and at [overseer.gnollhack.com](https://overseer.gnollhack.com), giving you accurate, high-quality tactical advice in every game situation.**
+> 👉 **GnollHack is famously tough, so we built the Gnoll Overseer to help you along. Powered by frontier AI models and grounded in real game data, this free, optional AI advisor is available right inside the game and at [overseer.gnollhack.com](https://overseer.gnollhack.com), giving you accurate, high-quality tactical advice in every game situation.**
 
 ## ✨ Beyond Any Wiki
 

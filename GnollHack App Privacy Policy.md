@@ -171,6 +171,6 @@ If **Send Diagnostic Data** is enabled in the settings, the game will post the f
 - Device free storage space
 - Device total storage space
 
-### 3. Gnoll Overseer AI Assistant
+### 3. Gnoll Overseer AI Advisor
 
-The GnollHack app includes an optional AI-powered assistant called Gnoll Overseer. Its data collection and processing practices are described in a separate document: [[Gnoll Overseer Privacy Policy]].
+The GnollHack app includes an optional AI-powered gameplay advisor called Gnoll Overseer. Its data collection and processing practices are described in a separate document: [[Gnoll Overseer Privacy Policy]].

@@ -27,7 +27,7 @@ A GnollHack Account gives you access to the following online features, and only 
 - **Replays (Optional):** Uploading recordings of your games to the account server.
 - **Save File Tracking (Optional):** Registering save files with the account server so that game integrity can be checked to keep leaderboards and tournaments fair.
 - **Tournament Integration:** Linking your GnollHack Account to your username on **Junethack**, an annual community tournament operated by a third party.
-- **Access to Gnoll Overseer:** Signing in to **Gnoll Overseer**, our optional AI gameplay assistant, requires a GnollHack Account. Gnoll Overseer is governed by its own [[Gnoll Overseer Terms of Service]] and [[Gnoll Overseer Privacy Policy]], which apply in addition to these Terms whenever you access or use Gnoll Overseer. Where these Terms and the [[Gnoll Overseer Terms of Service]] could conflict regarding Gnoll Overseer, the [[Gnoll Overseer Terms of Service]] control for that service.
+- **Access to Gnoll Overseer:** Signing in to **Gnoll Overseer**, our optional AI gameplay advisor, requires a GnollHack Account. Gnoll Overseer is governed by its own [[Gnoll Overseer Terms of Service]] and [[Gnoll Overseer Privacy Policy]], which apply in addition to these Terms whenever you access or use Gnoll Overseer. Where these Terms and the [[Gnoll Overseer Terms of Service]] could conflict regarding Gnoll Overseer, the [[Gnoll Overseer Terms of Service]] control for that service.
 
 ## 3. Eligibility and Account Responsibility
 
@@ -90,7 +90,7 @@ We reserve the right to investigate suspected violations of these Terms and to t
   - **Removing or hiding content:** Removing, redacting, or hiding any User Content, including leaderboard entries, game records, dumplogs, bones files, and replays;
   - **Score ban:** Excluding your games from public leaderboards and scoring while leaving your account otherwise active;
   - **Bones ban:** Disabling bones file uploading or sharing for your account;
-  - **Blocking access to Gnoll Overseer:** Restricting or revoking your account's access to the Gnoll Overseer AI assistant;
+  - **Blocking access to Gnoll Overseer:** Restricting or revoking your account's access to the Gnoll Overseer AI gameplay advisor;
   - **Temporary lockout:** Temporarily suspending your ability to sign in to your account; and
   - **Permanent ban and termination:** Permanently banning you and terminating your GnollHack Account.
 - **Bans Apply to the Person:** A permanent ban applies to the individual person, not merely to the specific account that was banned. If you are banned, you may not create, acquire, or use another GnollHack Account, and we may refuse registration of or terminate any account we reasonably believe was created or used to evade a ban.

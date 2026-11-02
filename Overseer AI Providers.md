@@ -1,10 +1,10 @@
-> 👉 **Gnoll Overseer is an optional, user-initiated in-game AI assistant in GnollHack that connects in real time to frontier third-party artificial intelligence (AI) services to synthesize complex game rules and analyze live game situations.**
+> 👉 **Gnoll Overseer is an optional, user-initiated in-game AI gameplay advisor in GnollHack that connects in real time to frontier third-party artificial intelligence (AI) services to synthesize complex game rules and analyze live game situations.**
 
 ## Overview of Live AI Content Generation
 
-GnollHack features Gnoll Overseer to help players navigate the game's deep, intricate mechanics without needing to constantly search through external wiki pages or source code. When invoked by the player, the assistant uses live third-party generative AI models (with multi-provider and Bring-Your-Own-Key support) to answer questions in a text chat, synthesize rule interactions, and analyze live game snapshots or post-mortem dumplogs to provide tailored tactical advice in seconds.
+GnollHack features Gnoll Overseer to help players navigate the game's deep, intricate mechanics without needing to constantly search through external wiki pages or source code. When invoked by the player, the advisor uses live third-party generative AI models (with multi-provider and Bring-Your-Own-Key support) to answer questions in a text chat, synthesize rule interactions, and analyze live game snapshots or post-mortem dumplogs to provide tailored tactical advice in seconds.
 
-Overseer only generates text chat responses inside its dedicated assistant interface; it does not take actions in the game or generate visual, audio, or other in-game assets.
+Overseer only generates text chat responses inside its dedicated chat interface; it does not take actions in the game or generate visual, audio, or other in-game assets.
 
 ## Third-Party AI Service Providers
 
@@ -31,7 +31,7 @@ Overseer is instructed to stay strictly on GnollHack topics and supports configu
 
 | Policy Document | Scope & Relevance |
 |---|---|
-| [[Gnoll Overseer Privacy Policy]] | Detailed privacy, data retention, and deletion policy for the Gnoll Overseer assistant. |
+| [[Gnoll Overseer Privacy Policy]] | Detailed privacy, data retention, and deletion policy for the Gnoll Overseer advisor. |
 | [[AI Usage Policy]] | Policy regarding the use of generative artificial intelligence across GnollHack development, assets, and documentation. |
 | [[GnollHack App Privacy Policy]] | Application privacy policy covering all GnollHack game clients. |
 | [[GnollHack Steam App Privacy Policy]] | Specific privacy policy for the GnollHack Steam application. |

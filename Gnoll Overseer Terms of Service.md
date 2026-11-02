@@ -1,6 +1,6 @@
 **Last updated:** 18 October 2026
 
-These Terms of Service ("Terms") govern your access to and use of **Gnoll Overseer** (the "Service"), an optional artificial intelligence (AI) chat assistant provided by **Hyvän mielen pelit ry**, operating in English as **Sound Mind Games** ("we", "us", or "our"). The Service is accessible through the GnollHack video game client and via our web interface at [overseer.gnollhack.com](https://overseer.gnollhack.com).
+These Terms of Service ("Terms") govern your access to and use of **Gnoll Overseer** (the "Service"), an optional artificial intelligence (AI) gameplay advisor provided by **Hyvän mielen pelit ry**, operating in English as **Sound Mind Games** ("we", "us", or "our"). The Service is accessible through the GnollHack video game client and via our web interface at [overseer.gnollhack.com](https://overseer.gnollhack.com).
 
 By accessing or using Gnoll Overseer, you agree to be bound by these Terms, our [[Gnoll Overseer Privacy Policy]], and our [[Overseer AI Providers]] disclosures. If you do not agree to these Terms, do not use the Service.
 
@@ -10,7 +10,7 @@ To make these Terms as easy to understand as possible, here is a summary of the 
 
 - **GnollHack Only:** Gnoll Overseer exists solely to help you play and understand the game GnollHack. Do not use it as a general-purpose AI assistant for unrelated tasks (such as general coding, schoolwork, writing, or non-GnollHack questions).
 - **No Illegal Use:** You must never use the Service for any illegal purpose or to generate unlawful, harmful, or abusive content.
-- **Fair Use Only — Do Not Drain Our Credits:** We pay third-party AI providers for every message sent using our system models so that players can enjoy the assistant for free. Normal gameplay questions are welcome ("Fair Use"), but excessive, automated, or abusive usage designed or likely to exhaust our API credits or drive up our costs is strictly prohibited.
+- **Fair Use Only — Do Not Drain Our Credits:** We pay third-party AI providers for every message sent using our system models so that players can enjoy the advisor for free. Normal gameplay questions are welcome ("Fair Use"), but excessive, automated, or abusive usage designed or likely to exhaust our API credits or drive up our costs is strictly prohibited.
 - **We Can Suspend or Ban Abusive Accounts:** If you break these rules, use the chat for non-GnollHack topics, act illegally, or abuse our API credits, we may rate-limit, suspend, or permanently ban your account at any time.
 - **AI Can Make Mistakes:** AI responses are generated automatically and may be inaccurate. The Service is provided "as is" without warranties.
 
@@ -121,7 +121,7 @@ To the maximum extent permitted by law, you agree to defend, indemnify, and hold
 
 ## 14. General Provisions
 
-- **Changes to These Terms:** We may revise these Terms from time to time. When we make changes, we will update the "Last Updated" date at the top of this page. Your continued use of the Service after the updated Terms are posted constitutes your acceptance of the revised Terms.
+- **Changes to These Terms:** We may revise these Terms from time to time. When we make a change that affects the meaning or factual content of these Terms, we will update the "Last Updated" date at the top of this page. Wording changes that do not affect the meaning or factual content of these Terms do not update the date. Your continued use of the Service after the updated Terms are posted constitutes your acceptance of the revised Terms.
 - **Severability:** If any provision of these Terms is held to be invalid, illegal, or unenforceable by a court of competent jurisdiction, that provision shall be enforced to the maximum extent permissible and the remaining provisions of these Terms shall remain in full force and effect.
 - **No Waiver:** Our failure or delay in exercising any right, power, or remedy under these Terms (such as not immediately banning an account upon a violation) shall not operate as a waiver of that or any other right.
 - **Entire Agreement:** These Terms, together with the [[Gnoll Overseer Privacy Policy]], [[Overseer AI Providers]], and [[GnollHack Account Privacy Policy]], constitute the entire agreement between you and us regarding your use of the Gnoll Overseer Service.

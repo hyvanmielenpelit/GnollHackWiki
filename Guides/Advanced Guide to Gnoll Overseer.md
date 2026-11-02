@@ -4,7 +4,7 @@
 
 ## 🏆 Overview
 
-While the [[/Guides/Introduction to Gnoll Overseer]] covers the basics, this guide dives into how the AI assistant can help you become a better player. GnollHack is a game of discovery, survival, and complex interactions. The Overseer acts as a seasoned veteran sitting next to you, ready to offer advice, explain mechanics, and help you analyze your past games.
+While the [[/Guides/Introduction to Gnoll Overseer]] covers the basics, this guide dives into how the AI advisor can help you become a better player. GnollHack is a game of discovery, survival, and complex interactions. The Overseer acts as a seasoned veteran sitting next to you, ready to offer advice, explain mechanics, and help you analyze your past games.
 
 ## ⚔️ Real-Time Tactical Advice
 

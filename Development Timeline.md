@@ -17,7 +17,7 @@ This is the timeline of important events in GnollHack development.
 | 15–17 Jul 2025 | GnollHack wiki migrated to wiki.gnollhack.com | 4.2.0 Build 60 | Gollum | ❌ |
 | 11 Jul 2026 | Save files transferable between different devices | 4.3.0 Build 1 | – | ✅ |
 | **17 Jul 2026** | **Fully working macOS version released for Apple Silicon Macs** | 4.3.0 Build 4 | .NET MAUI 10 for iOS + SkiaSharp | ✅ |
-| 8 Aug 2026 | Gnoll Overseer, an in-game AI assistant, released | 4.3.0 Build 7 | Angular + ASP.NET Core | ✅ |
+| 8 Aug 2026 | Gnoll Overseer, an in-game AI advisor, released | 4.3.0 Build 7 | Angular + ASP.NET Core | ✅ |
 | 15–16 Sep 2026 | GnollBench, an AI benchmark, released | 4.3.0 Build 18 | Angular + ASP.NET Core | ✅ |
 
 - <sup>1</sup> If generative AI was used in the development of the feature, such as ChatGPT (OpenAI), Gemini (Google), or Claude (Anthropic).

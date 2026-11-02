@@ -81,7 +81,7 @@ Every run ends with three results, plus a set of outcome figures:
 | **🪙 Cost** | How much the run cost | Measured in usage fees |
 | **🎯 Outcomes** | How often the answer was right, partly right, wrong, or honestly declined, and how often dangerous errors occurred | Shown beside the three results; they do not change them |
 
-No single result decides everything. A brilliant model that takes minutes to answer, or one that is too expensive to offer, is not a good assistant. The models offered in the Overseer are chosen by weighing all three GnollBench results.
+No single result decides everything. A brilliant model that takes minutes to answer, or one that is too expensive to offer, is not a good advisor. The models offered in the Overseer are chosen by weighing all three GnollBench results.
 
 ## ⚖️ How GnollBench Stays Fair
 
