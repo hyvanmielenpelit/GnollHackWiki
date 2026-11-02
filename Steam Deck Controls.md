@@ -1,4 +1,4 @@
-> 👉 **This page explains how to play GnollHack with the Steam Deck's built-in controls, which are available starting from version 3.32. It covers setting up the controls in Steam, the controls on the map, the radial menus, and using the controller in menus, the wiki, and Gnoll Overseer.**
+> 👉 **This page explains how to play GnollHack with the Steam Deck's built-in controls, which are available starting from version 3.32. It covers setting up the controls in Steam, the controls on the map, the radial menus, and using the controller in menus, the wiki, and the Gnoll Overseer.**
 
 Button names on this page follow the Steam Deck. A strip of button hints at the bottom of the screen always shows what each button does at the moment, and it changes when you hold L1 or R1.
 

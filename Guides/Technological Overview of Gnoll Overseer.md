@@ -1,6 +1,6 @@
 ![Gnoll Overseer](/uploads/Guides/Introduction%20to%20Gnoll%20Overseer/gnoll-overseer-avatar-frame-256x256-q85.webp)
 
-> 👉 **A developer-oriented overview of the architecture, frameworks, tool execution engine, privacy framework, and design decisions behind Gnoll Overseer.**
+> 👉 **A developer-oriented overview of the architecture, frameworks, tool execution engine, privacy framework, and design decisions behind the Gnoll Overseer.**
 
 ## 🏗️ Architecture Overview
 

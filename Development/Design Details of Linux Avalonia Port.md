@@ -42,7 +42,7 @@ About 23 shared files branch on `GNH_AVALONIA` or `LINUX`, with about a hundred 
 - **Desktop input**: most branches are `WINDOWS || GNH_AVALONIA` pairs that reuse the WinUI 3 version's mouse hover, cursor and mouse wheel code.
 - **Platform identity**: `IsDesktop` is true, `IsLinux` is true on Linux, and the version pages show "Linux Avalonia" or "Windows Avalonia".
 - **Native library and files**: `GnollHackService.cs` names the game engine library, reads assets from the application folder instead of an app package, and takes its data folder from `GHAvaloniaPaths`.
-- **Web view and Gnoll Overseer**: see [[Web View Engine|#web-view-engine]].
+- **Web view and the Gnoll Overseer**: see [[Web View Engine|#web-view-engine]].
 
 Thread handling has no branches: shared code keeps marshaling to the UI thread with `MainThread.BeginInvokeOnMainThread`, while the Avalonia-only code uses Avalonia's `Dispatcher.UIThread` directly.
 
@@ -179,7 +179,7 @@ The game reads its own files only from the folder of the executable, and writes 
 
 ## 🌐 Web View Engine
 
-In-game web pages, such as this wiki and [[/Gnoll Overseer]], use the Chromium Embedded Framework (CEF), which ships with the game, so players need no web browser components. The managed bindings are CefGlue, and the native CEF build comes from a NuGet package; both are referenced in `GnollHackM.csproj` for Linux only, at matching versions. The code is in `Platforms\Avalonia\Cef\`, and none of it is compiled into the Windows flavor.
+In-game web pages, such as this wiki and the [[/Gnoll Overseer]], use the Chromium Embedded Framework (CEF), which ships with the game, so players need no web browser components. The managed bindings are CefGlue, and the native CEF build comes from a NuGet package; both are referenced in `GnollHackM.csproj` for Linux only, at matching versions. The code is in `Platforms\Avalonia\Cef\`, and none of it is compiled into the Windows flavor.
 
 ### 🔀 Engine Selection
 
@@ -231,7 +231,7 @@ The web view forwards keys, characters, mouse buttons, mouse movement, the mouse
 
 ### 🔌 JavaScript Bridge
 
-For [[/Gnoll Overseer]], each page gets a `window.GnollHackBridge` object before the page's own scripts run. It is defined outside the page's scripts, so the page's Content Security Policy does not apply to it. Messages from it reach the game only from the main frame, and the Overseer page accepts them only from its own origin. Scripts the game runs in the page are sent to CEF's renderer process directly, without .NET MAUI's `eval` wrapper, which the Overseer's Content Security Policy refuses (WA-MAUI-0027).
+For the [[/Gnoll Overseer]], each page gets a `window.GnollHackBridge` object before the page's own scripts run. It is defined outside the page's scripts, so the page's Content Security Policy does not apply to it. Messages from it reach the game only from the main frame, and the Overseer page accepts them only from its own origin. Scripts the game runs in the page are sent to CEF's renderer process directly, without .NET MAUI's `eval` wrapper, which the Overseer's Content Security Policy refuses (WA-MAUI-0027).
 
 ### 🧭 Navigation
 

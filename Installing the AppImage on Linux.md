@@ -73,7 +73,7 @@ Saved games, settings and the game's log are in `~/.local/share/GnollHack`, not 
 
 - A 64-bit (x86-64) Linux desktop with a working graphics driver (Mesa for AMD and Intel, or NVIDIA's driver). X11 and Wayland desktops both work.
 - Sound through PulseAudio or PipeWire, which most desktops use.
-- In-game web pages, such as this wiki and [[Gnoll Overseer]], use the Chromium engine built into the game, so no web browser components need to be installed.
+- In-game web pages, such as this wiki and the [[Gnoll Overseer]], use the Chromium engine built into the game, so no web browser components need to be installed.
 
 ## 📖 See Also
 

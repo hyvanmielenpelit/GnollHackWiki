@@ -16,6 +16,7 @@ When modifying or creating wiki pages, always refer to the `wiki_editing` skill 
 - **Reserved Folders**: Do not modify the `/gollum/` or `/.gollum/` directories.
 - **Mathematical Formulas (KaTeX)**: Use KaTeX notation only for complex mathematical formulas, and prefer plain text for simple expressions. All KaTeX formulas must start with `$` and end with `$`. For example: `$P = \frac{1}{10 + 2 \times G \times A}$`. Always leave an empty line before and after a KaTeX formula that is not an inline formula, but is on its own line.
 - **Arrows**: Use Unicode `→` instead of `->` and Unicode `←` instead of `<-`.
+- **The Gnoll Overseer**: Write "the Gnoll Overseer" and "the Overseer" with the definite article in running text, like "the Oracle" (capitalize "The" at the start of a sentence). Page names, link targets, URLs, code identifiers, name-only headings and table labels, and attributive uses such as "Gnoll Overseer guides" stay as they are.
 - **Legal and Compliance Documents**: Pages serving as legal disclosures (e.g., `[[Overseer AI Providers]]`, `[[Privacy Policy]]`, `[[Gnoll Overseer Privacy Policy]]`, `[[AI Usage Policy]]`) must NEVER use Unicode icons/emojis in section headings. `[[Overseer AI Providers]]` is directly linked from Steam's "Connects to 3rd-Party Service for AI Content Generation: OpenAI, Anthropic, and Google" store notice and must remain strictly focused on third-party legal disclosures, terms of service and privacy links, and data transmission policies without unnecessary gameplay guide links.
 
 ## Text Restoration

@@ -1,14 +1,14 @@
 **Last updated:** 18 October 2026
 
-These Terms of Service ("Terms") govern your access to and use of **Gnoll Overseer** (the "Service"), an optional artificial intelligence (AI) gameplay advisor provided by **Hyvän mielen pelit ry**, operating in English as **Sound Mind Games** ("we", "us", or "our"). The Service is accessible through the GnollHack video game client and via our web interface at [overseer.gnollhack.com](https://overseer.gnollhack.com).
+These Terms of Service ("Terms") govern your access to and use of the **Gnoll Overseer** (the "Service"), an optional artificial intelligence (AI) gameplay advisor provided by **Hyvän mielen pelit ry**, operating in English as **Sound Mind Games** ("we", "us", or "our"). The Service is accessible through the GnollHack video game client and via our web interface at [overseer.gnollhack.com](https://overseer.gnollhack.com).
 
-By accessing or using Gnoll Overseer, you agree to be bound by these Terms, our [[Gnoll Overseer Privacy Policy]], and our [[Overseer AI Providers]] disclosures. If you do not agree to these Terms, do not use the Service.
+By accessing or using the Gnoll Overseer, you agree to be bound by these Terms, our [[Gnoll Overseer Privacy Policy]], and our [[Overseer AI Providers]] disclosures. If you do not agree to these Terms, do not use the Service.
 
 ## 1. Plain-Language Summary
 
 To make these Terms as easy to understand as possible, here is a summary of the core rules. The full legal terms below control in the event of any conflict, but in short:
 
-- **GnollHack Only:** Gnoll Overseer exists solely to help you play and understand the game GnollHack. Do not use it as a general-purpose AI assistant for unrelated tasks (such as general coding, schoolwork, writing, or non-GnollHack questions).
+- **GnollHack Only:** The Gnoll Overseer exists solely to help you play and understand the game GnollHack. Do not use it as a general-purpose AI assistant for unrelated tasks (such as general coding, schoolwork, writing, or non-GnollHack questions).
 - **No Illegal Use:** You must never use the Service for any illegal purpose or to generate unlawful, harmful, or abusive content.
 - **Fair Use Only — Do Not Drain Our Credits:** We pay third-party AI providers for every message sent using our system models so that players can enjoy the advisor for free. Normal gameplay questions are welcome ("Fair Use"), but excessive, automated, or abusive usage designed or likely to exhaust our API credits or drive up our costs is strictly prohibited.
 - **We Can Suspend or Ban Abusive Accounts:** If you break these rules, use the chat for non-GnollHack topics, act illegally, or abuse our API credits, we may rate-limit, suspend, or permanently ban your account at any time.
@@ -22,10 +22,10 @@ To make these Terms as easy to understand as possible, here is a summary of the 
 
 ## 3. Permitted Use: Strictly Limited to GnollHack Assistance
 
-Gnoll Overseer is a specialized companion service provided exclusively to assist players with **GnollHack** (including its gameplay mechanics, items, monsters, dungeons, strategy, lore, user interface, troubleshooting, and underlying NetHack heritage as it relates to GnollHack).
+The Gnoll Overseer is a specialized companion service provided exclusively to assist players with **GnollHack** (including its gameplay mechanics, items, monsters, dungeons, strategy, lore, user interface, troubleshooting, and underlying NetHack heritage as it relates to GnollHack).
 
 - **Permitted Use:** You may use the Service only to ask questions, analyze in-game snapshots, and receive assistance directly related to playing or understanding GnollHack.
-- **Prohibition on Unrelated Use:** You are strictly prohibited from using Gnoll Overseer for any purpose other than GnollHack assistance. Prohibited off-topic uses include, without limitation:
+- **Prohibition on Unrelated Use:** You are strictly prohibited from using the Gnoll Overseer for any purpose other than GnollHack assistance. Prohibited off-topic uses include, without limitation:
   - Using the Service as a general-purpose chatbot, search engine, or productivity tool;
   - Generating, debugging, or translating software code unrelated to GnollHack;
   - Drafting essays, academic assignments, business emails, marketing copy, or creative writing unrelated to GnollHack;
@@ -34,7 +34,7 @@ Gnoll Overseer is a specialized companion service provided exclusively to assist
 
 ## 4. Fair Use Policy and Protection of API Credits
 
-As a non-profit organization, we fund system-provided AI models out of our own budget so that the GnollHack community can use Gnoll Overseer free of charge. Every prompt, attachment, tool call, and response processed by our system models consumes paid API credits from third-party providers.
+As a non-profit organization, we fund system-provided AI models out of our own budget so that the GnollHack community can use the Gnoll Overseer free of charge. Every prompt, attachment, tool call, and response processed by our system models consumes paid API credits from third-party providers.
 
 ### 4.1. Fair Use Permitted
 
@@ -69,7 +69,7 @@ You may use the Service only for lawful purposes and in accordance with these Te
 
 We reserve the full right to protect the integrity, legality, and financial sustainability of the Service.
 
-- **Right to Restrict, Suspend, or Ban:** We may, in our sole and absolute discretion, with or without prior notice or warning, rate-limit, restrict, suspend, or permanently ban your access to Gnoll Overseer or terminate your GnollHack account entirely if we reasonably believe that you have:
+- **Right to Restrict, Suspend, or Ban:** We may, in our sole and absolute discretion, with or without prior notice or warning, rate-limit, restrict, suspend, or permanently ban your access to the Gnoll Overseer or terminate your GnollHack account entirely if we reasonably believe that you have:
   - Used the Service for any illegal purpose or in violation of applicable law;
   - Used the Service for topics or tasks other than GnollHack assistance;
   - Engaged in excessive or abusive usage that wastes API credits, threatens our budget, or exceeds Fair Use;
@@ -81,7 +81,7 @@ We reserve the full right to protect the integrity, legality, and financial sust
 
 ## 7. Nature of AI Output and Disclaimers
 
-- **Probabilistic and Fallible Output:** Gnoll Overseer uses generative artificial intelligence models operated by third-party providers. AI systems generate responses probabilistically and may produce information that is inaccurate, incomplete, misleading, or entirely fabricated ("hallucinations"), even when searching game data or documentation. We do not warrant or guarantee the accuracy, completeness, or usefulness of any response provided by the Service.
+- **Probabilistic and Fallible Output:** The Gnoll Overseer uses generative artificial intelligence models operated by third-party providers. AI systems generate responses probabilistically and may produce information that is inaccurate, incomplete, misleading, or entirely fabricated ("hallucinations"), even when searching game data or documentation. We do not warrant or guarantee the accuracy, completeness, or usefulness of any response provided by the Service.
 - **No Professional Advice:** All outputs from the Service are provided strictly for video game entertainment and informational assistance regarding GnollHack. Nothing generated by the Service constitutes legal, medical, psychological, financial, or other professional advice. You must not rely on the Service for any real-world decision-making.
 - **Third-Party Processing:** As detailed in [[Overseer AI Providers]] and the [[Gnoll Overseer Privacy Policy]], your prompts, conversation history, and attached game context are transmitted to third-party AI providers (such as OpenAI, Anthropic, and Google) to generate responses. We are not responsible for the independent acts, omissions, downtime, or policy changes of those third-party providers.
 
@@ -93,7 +93,7 @@ We reserve the full right to protect the integrity, legality, and financial sust
 
 ## 9. Service Availability and Modifications
 
-Gnoll Overseer is an optional, complimentary feature. We reserve the right to modify, update, pause, restrict, or permanently discontinue the Service (or any specific AI model, provider, or feature within the Service) at any time, temporarily or permanently, with or without notice, and without any liability to you.
+The Gnoll Overseer is an optional, complimentary feature. We reserve the right to modify, update, pause, restrict, or permanently discontinue the Service (or any specific AI model, provider, or feature within the Service) at any time, temporarily or permanently, with or without notice, and without any liability to you.
 
 ## 10. Disclaimer of Warranties
 

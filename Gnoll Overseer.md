@@ -4,7 +4,7 @@
 
 ## ✨ Beyond Any Wiki
 
-Mastering a deep roguelike used to mean constantly pausing to dig through dozens of static wiki pages and hoping you did not miss a fatal detail. *Gnoll Overseer* is a groundbreaking technological innovation that helps you learn and master GnollHack far better than any wiki can on its own:
+Mastering a deep roguelike used to mean constantly pausing to dig through dozens of static wiki pages and hoping you did not miss a fatal detail. The *Gnoll Overseer* is a groundbreaking technological innovation that helps you learn and master GnollHack far better than any wiki can on its own:
 
 - **Sees your live game situation** — A wiki only explains mechanics in isolation. When opened during play, the Overseer reads your character's stats, inventory, surrounding map, and recent messages to give tailored tactical advice for the exact situation in front of you.
 - **Grounded in real game data** — Rather than guessing from general internet training data, the Overseer inspects GnollHack's actual item, monster, and artifact definitions, searches the game's source code, and cross-references both the GnollHack and NetHack wikis in seconds.
@@ -42,4 +42,4 @@ Learning to play and master GnollHack has never been easier! Got a question? Jus
 ## 📖 See Also
 
 - [[Settings|Settings#gnoll-overseer-settings]] — The Gnoll Overseer settings in the game.
-- [[GnollBench]] — Gnoll Overseer's own AI benchmark.
+- [[GnollBench]] — The Gnoll Overseer's own AI benchmark.

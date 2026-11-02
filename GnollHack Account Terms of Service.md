@@ -10,10 +10,10 @@ By creating, signing in to, or using a GnollHack Account, you agree to be bound 
 
 To make these Terms easy to read, here is a summary of the core rules. The full sections below control in case of any conflict, but in short:
 
-- **Free Online Account Only:** Your GnollHack Account is completely free and lets you post scores and dumplogs, appear on public leaderboards, share ghost-level "bones files" and replays, verify save integrity, link with the Junethack tournament, and sign in to Gnoll Overseer. The open-source license of the GnollHack game itself stays separate.
+- **Free Online Account Only:** Your GnollHack Account is completely free and lets you post scores and dumplogs, appear on public leaderboards, share ghost-level "bones files" and replays, verify save integrity, link with the Junethack tournament, and sign in to the Gnoll Overseer. The open-source license of the GnollHack game itself stays separate.
 - **Public Leaderboards Are Public:** When you play with a linked account, your username, character names, scores, game details, and end-of-game dumplogs are shown publicly on our website. If you delete your account later, your past game records are anonymized rather than erased so the leaderboard stays accurate.
 - **Play Fair and Obey the Law:** Do not use the Account Service for anything illegal, do not upload malware or tampered bones/save files, do not use hateful or impersonating names, and do not cheat or fake leaderboard scores.
-- **We Can Restrict or Ban Accounts:** If you break these rules, cheat, or abuse the servers, we can remove your content, exclude your scores from leaderboards, disable your bones sharing, block access to Gnoll Overseer, temporarily lock your sign-in, or permanently ban you.
+- **We Can Restrict or Ban Accounts:** If you break these rules, cheat, or abuse the servers, we can remove your content, exclude your scores from leaderboards, disable your bones sharing, block access to the Gnoll Overseer, temporarily lock your sign-in, or permanently ban you.
 - **Provided "As Is" for Free:** We run the Account Service as a non-profit organization at no cost to you, without warranties or promises that the servers will always be available.
 
 ## 2. Features Covered by Your GnollHack Account
@@ -27,7 +27,7 @@ A GnollHack Account gives you access to the following online features, and only 
 - **Replays (Optional):** Uploading recordings of your games to the account server.
 - **Save File Tracking (Optional):** Registering save files with the account server so that game integrity can be checked to keep leaderboards and tournaments fair.
 - **Tournament Integration:** Linking your GnollHack Account to your username on **Junethack**, an annual community tournament operated by a third party.
-- **Access to Gnoll Overseer:** Signing in to **Gnoll Overseer**, our optional AI gameplay advisor, requires a GnollHack Account. Gnoll Overseer is governed by its own [[Gnoll Overseer Terms of Service]] and [[Gnoll Overseer Privacy Policy]], which apply in addition to these Terms whenever you access or use Gnoll Overseer. Where these Terms and the [[Gnoll Overseer Terms of Service]] could conflict regarding Gnoll Overseer, the [[Gnoll Overseer Terms of Service]] control for that service.
+- **Access to the Gnoll Overseer:** Signing in to the **Gnoll Overseer**, our optional AI gameplay advisor, requires a GnollHack Account. The Gnoll Overseer is governed by its own [[Gnoll Overseer Terms of Service]] and [[Gnoll Overseer Privacy Policy]], which apply in addition to these Terms whenever you access or use the Gnoll Overseer. Where these Terms and the [[Gnoll Overseer Terms of Service]] could conflict regarding the Gnoll Overseer, the [[Gnoll Overseer Terms of Service]] control for that service.
 
 ## 3. Eligibility and Account Responsibility
 
@@ -72,7 +72,7 @@ Even where conduct is not independently unlawful, you must not misuse the Accoun
 ## 6. Public Visibility and Privacy
 
 - **What Is Public:** Leaderboards and game listings on the GnollHack Account website are open to the public. When you post games with your GnollHack Account, your **account username**, **character names**, **scores**, **game details and statistics**, and **plain-text and HTML dumplogs** are publicly visible to anyone on the internet. If you enable bones file sharing, your dead character's ghost, character name, and items may also appear inside other players' games. Do not include your real name, contact details, or other sensitive personal information in your username or character names.
-- **Privacy Policies:** How we collect, store, use, and protect your personal data is explained in our [[GnollHack Account Privacy Policy]] and [[GnollHack App Privacy Policy]] (and, when you use Gnoll Overseer, the [[Gnoll Overseer Privacy Policy]]).
+- **Privacy Policies:** How we collect, store, use, and protect your personal data is explained in our [[GnollHack Account Privacy Policy]] and [[GnollHack App Privacy Policy]] (and, when you use the Gnoll Overseer, the [[Gnoll Overseer Privacy Policy]]).
 - **Self-Service Data Access and Deletion:** You can download a copy of your personal data and permanently delete your GnollHack Account at any time through the Personal Data page on [account.gnollhack.com](https://account.gnollhack.com).
 
 ## 7. Third-Party Services and Platform Terms
@@ -90,7 +90,7 @@ We reserve the right to investigate suspected violations of these Terms and to t
   - **Removing or hiding content:** Removing, redacting, or hiding any User Content, including leaderboard entries, game records, dumplogs, bones files, and replays;
   - **Score ban:** Excluding your games from public leaderboards and scoring while leaving your account otherwise active;
   - **Bones ban:** Disabling bones file uploading or sharing for your account;
-  - **Blocking access to Gnoll Overseer:** Restricting or revoking your account's access to the Gnoll Overseer AI gameplay advisor;
+  - **Blocking access to the Gnoll Overseer:** Restricting or revoking your account's access to the Gnoll Overseer AI gameplay advisor;
   - **Temporary lockout:** Temporarily suspending your ability to sign in to your account; and
   - **Permanent ban and termination:** Permanently banning you and terminating your GnollHack Account.
 - **Bans Apply to the Person:** A permanent ban applies to the individual person, not merely to the specific account that was banned. If you are banned, you may not create, acquire, or use another GnollHack Account, and we may refuse registration of or terminate any account we reasonably believe was created or used to evade a ban.
@@ -138,7 +138,7 @@ If you are not using the Account Service as a consumer under mandatory consumer 
 ## 15. General Provisions
 
 - **Severability:** If any provision of these Terms is held to be invalid, illegal, or unenforceable by a court of competent jurisdiction, that provision shall be enforced to the maximum extent permissible and the remaining provisions of these Terms shall remain in full force and effect.
-- **Entire Agreement:** These Terms, together with the [[GnollHack Account Privacy Policy]], the [[GnollHack App Privacy Policy]], and [[Terms and Conditions]] (and, when you use Gnoll Overseer, the [[Gnoll Overseer Terms of Service]] and [[Gnoll Overseer Privacy Policy]]), constitute the entire agreement between you and us regarding your GnollHack Account and the Account Service.
+- **Entire Agreement:** These Terms, together with the [[GnollHack Account Privacy Policy]], the [[GnollHack App Privacy Policy]], and [[Terms and Conditions]] (and, when you use the Gnoll Overseer, the [[Gnoll Overseer Terms of Service]] and [[Gnoll Overseer Privacy Policy]]), constitute the entire agreement between you and us regarding your GnollHack Account and the Account Service.
 - **No Waiver:** Our failure or delay in exercising any right, power, or remedy under these Terms (such as not immediately sanctioning or banning an account upon a violation) shall not operate as a waiver of that or any other right.
 - **Assignment:** You may not assign, delegate, or transfer these Terms or your GnollHack Account to any other person without our prior written consent. We may assign these Terms in connection with a reorganization, merger, or transfer of the GnollHack project to another non-profit or successor organization.
 - **Controlling Language:** These Terms are drafted in English. If these Terms are translated into any other language for convenience, the English version controls in the event of any conflict or ambiguity.

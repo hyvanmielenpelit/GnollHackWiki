@@ -1,8 +1,8 @@
 ![Gnoll Overseer](/uploads/Guides/Introduction%20to%20Gnoll%20Overseer/gnoll-overseer-avatar-frame-256x256-q85.webp)
 
-> 👉 **GnollHack is famously tough, and Gnoll Overseer is a free, optional AI advisor built to help you learn and master it. Open it from the game menu, the About page, or on the web for accurate tactical advice grounded in your live game, the game's own data and source code, and the wikis.**
+> 👉 **GnollHack is famously tough, and the Gnoll Overseer is a free, optional AI advisor built to help you learn and master it. Open it from the game menu, the About page, or on the web for accurate tactical advice grounded in your live game, the game's own data and source code, and the wikis.**
 
-## ✨ What Can Gnoll Overseer Do?
+## ✨ What Can the Gnoll Overseer Do?
 
 - **Answer questions with source-grounded precision**: Ask about monsters, items, spells, artifacts, dungeon branches, or complex mechanics. The Overseer queries the GnollHack and NetHack source code, inspects exact data definitions, and searches both the GnollHack Wiki and the NetHack Wiki.
 - **Understand your current game situation**: When opened during a game, the Overseer reads a snapshot of your character's stats, inventory, surrounding dungeon map, and recent messages, and tailors its advice to your situation.
@@ -12,7 +12,7 @@
 
 ## 🆚 How It Differs From Generic AI Chatbots
 
-Although Gnoll Overseer connects to state-of-the-art AI models, it is a purpose-built advisor integrated into the game:
+Although the Gnoll Overseer connects to state-of-the-art AI models, it is a purpose-built advisor integrated into the game:
 
 | Capability | Generic AI Chatbots | Gnoll Overseer |
 |---|---|---|
@@ -22,7 +22,7 @@ Although Gnoll Overseer connects to state-of-the-art AI models, it is a purpose-
 
 ## 🏁 How to Access It
 
-There are three ways to open Gnoll Overseer:
+There are three ways to open the Gnoll Overseer:
 
 | Access Method | What the Overseer Knows | Best For |
 |---|---|---|

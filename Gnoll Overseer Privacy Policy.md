@@ -2,13 +2,13 @@
 
 ## Introduction
 
-The GnollHack app includes an optional AI-powered gameplay advisor called **Gnoll Overseer**, which processes user data to provide intelligent gameplay assistance and features. This document outlines what data is collected, how it is used, and your rights regarding this data.
+The GnollHack app includes an optional AI-powered gameplay advisor called the **Gnoll Overseer**, which processes user data to provide intelligent gameplay assistance and features. This document outlines what data is collected, how it is used, and your rights regarding this data.
 
-Gnoll Overseer is an optional feature. If you do not use it, no data described in this document is collected.
+The Gnoll Overseer is an optional feature. If you do not use it, no data described in this document is collected.
 
 ## Data Collected and Its Purpose
 
-When you interact with Gnoll Overseer, the following data is collected and securely stored on a server located in the **United States**.
+When you interact with the Gnoll Overseer, the following data is collected and securely stored on a server located in the **United States**.
 
 ### 1. Account and Authentication Data
 
@@ -94,13 +94,13 @@ If you choose to report an AI-generated message, the following data is sent via 
 
 ## Third-Party AI Providers
 
-Gnoll Overseer utilizes third-party AI services to process user messages and generate responses. The AI providers that may be used include, but are not limited to:
+The Gnoll Overseer utilizes third-party AI services to process user messages and generate responses. The AI providers that may be used include, but are not limited to:
 
 - **Google** (e.g., Gemini)
 - **OpenAI** (e.g., ChatGPT)
 - **Anthropic** (e.g., Claude)
 
-When you send a message to Gnoll Overseer, your message content, conversation history, and any attached game context data are transmitted to the selected AI provider for processing. Data processing by these third-party providers is governed by their respective Privacy Policies and Terms of Service.
+When you send a message to the Gnoll Overseer, your message content, conversation history, and any attached game context data are transmitted to the selected AI provider for processing. Data processing by these third-party providers is governed by their respective Privacy Policies and Terms of Service.
 
 By using the Gnoll Overseer feature, you consent to your data being shared with and processed by these third-party services.
 

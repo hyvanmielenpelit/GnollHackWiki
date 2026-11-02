@@ -50,7 +50,7 @@ The way each game connects to the broader internet reflects its era of design. N
 |--------|---------|-----------|
 | **In-Game AI Advisor** | None | **[[Gnoll Overseer]]** — AI chat advisor powered by [Google AI](https://ai.google/), [Anthropic](https://www.anthropic.com/), and [OpenAI](https://openai.com/); provides gameplay hints, analyzes live game snapshots, and inspects both GnollHack and NetHack C source code and wikis via specialized custom tools. Runs on a dedicated US-hosted server. |
 | **Event Announcements** | **Rodney** (IRC bot on [Libera.Chat](https://libera.chat/) `#nethack`), **Beholder** (bridges server events to IRC/Discord) | Built-in **Post Game Progress** sends real-time events to Discord `#player-log` channel |
-| **Info ∕ Spoiler Queries** | **Rodney** (`learndb` database), **Pinobot** (monster/item stats for variants) | **Gnoll Overseer** serves this role in-game, querying exact monster/item data structures, source definitions, and wiki archives for both games |
+| **Info ∕ Spoiler Queries** | **Rodney** (`learndb` database), **Pinobot** (monster/item stats for variants) | The **Gnoll Overseer** serves this role in-game, querying exact monster/item data structures, source definitions, and wiki archives for both games |
 | **Custom Webhooks** | N/A | Players and server admins can configure custom Discord webhook URLs to post progress to their own channels |
 
 ## 🌐 Community Platforms

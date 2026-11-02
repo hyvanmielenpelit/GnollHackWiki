@@ -1,6 +1,6 @@
 ![Gnoll Overseer](/uploads/Guides/Introduction%20to%20Gnoll%20Overseer/gnoll-overseer-avatar-frame-256x256-q85.webp)
 
-> 👉 **Unlock the full potential of Gnoll Overseer to speed up your learning and master the deep mechanics of GnollHack.**
+> 👉 **Unlock the full potential of the Gnoll Overseer to speed up your learning and master the deep mechanics of GnollHack.**
 
 ## 🏆 Overview
 

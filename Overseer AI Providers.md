@@ -1,14 +1,14 @@
-> 👉 **Gnoll Overseer is an optional, user-initiated in-game AI gameplay advisor in GnollHack that connects in real time to frontier third-party artificial intelligence (AI) services to synthesize complex game rules and analyze live game situations.**
+> 👉 **The Gnoll Overseer is an optional, user-initiated in-game AI gameplay advisor in GnollHack that connects in real time to frontier third-party artificial intelligence (AI) services to synthesize complex game rules and analyze live game situations.**
 
 ## Overview of Live AI Content Generation
 
-GnollHack features Gnoll Overseer to help players navigate the game's deep, intricate mechanics without needing to constantly search through external wiki pages or source code. When invoked by the player, the advisor uses live third-party generative AI models (with multi-provider and Bring-Your-Own-Key support) to answer questions in a text chat, synthesize rule interactions, and analyze live game snapshots or post-mortem dumplogs to provide tailored tactical advice in seconds.
+GnollHack features the Gnoll Overseer to help players navigate the game's deep, intricate mechanics without needing to constantly search through external wiki pages or source code. When invoked by the player, the advisor uses live third-party generative AI models (with multi-provider and Bring-Your-Own-Key support) to answer questions in a text chat, synthesize rule interactions, and analyze live game snapshots or post-mortem dumplogs to provide tailored tactical advice in seconds.
 
-Overseer only generates text chat responses inside its dedicated chat interface; it does not take actions in the game or generate visual, audio, or other in-game assets.
+The Overseer only generates text chat responses inside its dedicated chat interface; it does not take actions in the game or generate visual, audio, or other in-game assets.
 
 ## Third-Party AI Service Providers
 
-The Gnoll Overseer service connects to external third-party AI service providers to generate responses to user inquiries. The third-party AI providers utilized by Gnoll Overseer include:
+The Gnoll Overseer service connects to external third-party AI service providers to generate responses to user inquiries. The third-party AI providers utilized by the Gnoll Overseer include:
 
 | Provider | Corporate Entity | Official Website | Terms of Service / Use | Privacy Policy |
 |---|---|---|---|---|
@@ -25,7 +25,7 @@ The Gnoll Overseer service connects to external third-party AI service providers
 
 ## Content Safety and Moderation
 
-Overseer is instructed to stay strictly on GnollHack topics and supports configurable spoiler controls, so players receive only the level of assistance they want. All communications with third-party AI providers are also subject to automated content filtering and safety guardrails (blocking hate speech, harassment, sexually explicit content, and dangerous material) to maintain compliance with GnollHack's age ratings and platform store policies. For technical details on safety threshold enforcement, see [[/Development/AI Safety Settings]].
+The Overseer is instructed to stay strictly on GnollHack topics and supports configurable spoiler controls, so players receive only the level of assistance they want. All communications with third-party AI providers are also subject to automated content filtering and safety guardrails (blocking hate speech, harassment, sexually explicit content, and dangerous material) to maintain compliance with GnollHack's age ratings and platform store policies. For technical details on safety threshold enforcement, see [[/Development/AI Safety Settings]].
 
 ## Relevant Policies
 
