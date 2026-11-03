@@ -32,11 +32,13 @@ GnollHack can also be viewed as a NetHack remaster, adding the following modern 
 - **Sounds** — Over 1100 sound effects
 - **Music** — 37 music tracks
 - **Voiceovers** — 96 voice actors and over 5000 voiceover lines
-- **Cross-platform support** — Android, iOS, macOS, and Windows
+- **Cross-platform support** — Android, iOS, Linux, macOS, and Windows
     - macOS can run the iOS version *(Macs with an M1 or later processor)*
+    - The Linux version also runs on the Steam Deck
 - **Modern UI**
     - Mobile touch-based UI on Android and iOS
     - Modern UI for desktop, adapted from the mobile UI
+    - Game controller support with radial menus on the Steam Deck, Linux, and Windows
 - **Optional AI advisor** — The [[Gnoll Overseer]] offers opt-in tactical advice grounded in your live game state and real game data
 
 All graphics, sounds, music, and voiceovers in the game have been made by *real people*. No game art or audio is generated with AI.

@@ -6,7 +6,7 @@ GnollHack can be played from start to finish with a game controller on the **Ste
 
 Controller support is built into the shared C# frontend, so all platforms use the same controls, radial menus and on-screen hints. Each platform only adds a small backend that reads the controller. The game never takes input away from the other devices: the first controller press switches the game into controller mode, and touch, the mouse or a key switches it back.
 
-> ℹ️ **Note:** Windows and desktop Linux support was added on November 1, 2026, so it reaches players with the first release made after that date. Steam Deck support came first and is already in the Steam version.
+> ℹ️ **Note:** Windows and desktop Linux support was added on November 1, 2026. Steam Deck support came first.
 
 The full reference for every button, setting and environment variable is `DEVEL/gamepad_controls.md` in the GnollHack repository.
 

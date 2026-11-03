@@ -127,6 +127,12 @@ The Steam version runs inside the Steam Linux Runtime, a container that Steam do
 
 On the Steam Deck, install GnollHack from Steam in Gaming Mode or Desktop Mode, as you would any other game. You can then play with the Deck's built-in controls; see [[Steam Deck Controls]] for the setup and the controls.
 
+## Game Controllers
+
+On a desktop computer, you can play both the Steam version and the AppImage with a game controller. GnollHack reads the controller directly from the system's input devices, so it needs no extra drivers or software. Xbox controllers have been tested, and PlayStation, Nintendo, and other gamepads that report standard gamepad controls should also work. Controllers can be plugged in while the game is running.
+
+If a controller does nothing, your user account may not have permission to read the controller's input device. See [[Steam Deck Controls]] for the controls.
+
 ## Where Your Games Are Saved
 
 GnollHack keeps saved games, settings, and other data in your home folder:

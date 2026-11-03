@@ -101,8 +101,11 @@ See [[Voiceovers]].
 
 - Android
 - iOS
+- Linux (including the Steam Deck)
 - macOS
 - Windows
+
+Game controllers are supported on the Steam Deck, Linux, and Windows. See [[Steam Deck Controls]].
 
 ## 🖱️ Desktop and Technology
 

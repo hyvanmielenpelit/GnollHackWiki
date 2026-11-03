@@ -6,6 +6,10 @@
 
 The desktop versions support playing entirely with [[Keyboard Shortcuts]], just like in the original NetHack. This allows for fast, efficient, and classic roguelike control without requiring mouse interaction for most gameplay tasks.
 
+## 🎮 Game Controllers
+
+You can also play with a game controller: an Xbox or other XInput controller on Windows, or a gamepad on Linux. The controls are the same as on the Steam Deck, with radial menus and on-screen button hints. See [[Steam Deck Controls]].
+
 ## 🖱️ Mouse Button Quick Actions
 
 You can configure quick actions for the **Right Mouse Button** and **Middle Mouse Button** in the [[Settings]] screen.
