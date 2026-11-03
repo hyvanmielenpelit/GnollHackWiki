@@ -38,7 +38,7 @@
 | **Native OS Support** | Windows | Android, Linux (+Steam Deck), macOS, Windows, and Meta Quest | Android, iOS, Linux (+Steam Deck), macOS, and Windows |
 | **Web Browser Support** | ❌ | ✅ | ❌ |
 | **Game version** | Vanilla NetHack 5.0 | Vanilla NetHack 5.0 or 3.6.7, or Slash'EM | GnollHack |
-| **Release year** | 2002 | 2026 | Mobile: 2023, Desktop: 2025 |
+| **Release year** | 2002 | 2026 | Mobile: 2023, Desktop: 2025, Steam Deck: 2026 |
 | **Download** | [NetHack website](https://www.nethack.org/) | [GitHub](https://github.com/JamesIV4/nethack-3d/releases/latest) or [play in a web browser](https://jamesiv4.github.io/nethack-3d/) | [Google Play Store](https://play.google.com/store/apps/details?id=com.soundmindentertainment.gnollhack), [Apple App Store](https://apps.apple.com/app/gnollhack/id1626979951), [Steam](https://store.steampowered.com/app/3558190/GnollHack/?utm_source=wiki), [GitHub](https://github.com/hyvanmielenpelit/GnollHack/releases), [GnollHack website](https://gnollhack.com/) |
 
 ### 💡 Which One to Pick?
