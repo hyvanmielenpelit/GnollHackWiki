@@ -8,10 +8,9 @@ Before building, complete the following setup steps:
 
 1. [[/Development/Install Visual Studio 2026 for .NET MAUI Development]]
 2. [[/Development/Install Windows Subsystem for Linux]] *(required for Android and iOS builds to generate game data)*
-3. [[/Development/Install vcremote for Static iOS Library Project]] *(required for iOS builds)*
-4. [[/Development/Install PuTTY and PSCP and Create Download Scripts for Static iOS Library Project]] *(required for iOS builds)*
-5. [[/Development/Install Tile Sets and FMOD Sound Banks]]
-6. [[/Development/Install Secrets File]]
+3. [[/Development/Set Up SSH Access to the Mac for Native Libraries]] *(required for iOS builds)*
+4. [[/Development/Install Tile Sets and FMOD Sound Banks]]
+5. [[/Development/Install Secrets File]]
 
 ## 1. Build Native Libraries and Core Assets (GnollHack.sln)
 
@@ -42,7 +41,7 @@ $msbuild = & "${env:ProgramFiles(x86)}\Microsoft Visual Studio\Installer\vswhere
 The `MauiAndroid` platform configuration builds both Android and Windows native libraries, and works with Visual Studio 2026 and 2022. `Android+Windows` builds the same and the legacy Xamarin projects, so use it with Visual Studio 2022 only; from the command line, select Visual Studio 2022's MSBuild by replacing `-latest` with `-version "[17.0,18.0)"`. You can also use `x64` for Windows only, or `iPhone` for iOS only. `ARM64` builds the Android libraries without the Windows one, but also the legacy Xamarin projects, so it too needs Visual Studio 2022.
 
 > ⚠️ **Warning:** For Android and iOS builds, start the SSH service in WSL first (`sudo service ssh start`), as `dlbdroid` generates the NetHack `nhdat` game data archive inside WSL.
-> For iOS builds, also ensure `vcremote` is running on the Mac and use the `iPhone` platform configuration.
+> For iOS builds, use the `iPhone` platform configuration and make sure the Mac is awake and reachable over SSH, since the iOS library is compiled there. No `vcremote` is needed on the Mac.
 
 ## 2. Build GnollHackM
 

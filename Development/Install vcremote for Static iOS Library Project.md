@@ -1,3 +1,5 @@
+> 🛑 **Caution:** This page is no longer needed for GnollHack. The Windows build compiles the iOS library on the Mac over SSH, without `vcremote`. See [[/Development/Set Up SSH Access to the Mac for Native Libraries]].
+
 ## Overview
 
 **vcremote** is needed for building iOS Static Library projects.

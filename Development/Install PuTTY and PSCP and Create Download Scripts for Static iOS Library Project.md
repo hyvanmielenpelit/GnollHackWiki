@@ -1,3 +1,5 @@
+> 🛑 **Caution:** This page is no longer needed for GnollHack. The Windows build copies the iOS library back from the Mac itself over SSH, without PuTTY, PSCP or download scripts. See [[/Development/Set Up SSH Access to the Mac for Native Libraries]].
+
 ## 1. Overview
 
 This is needed to download the library file from Mac to Windows using **pscp** that comes with PuTTY.
