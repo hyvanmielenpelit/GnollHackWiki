@@ -26,7 +26,7 @@
 * [[Monsters]]
 * [[Dungeon Layout]]
 
-### Game Assistant
+### Game Advisor
 
 * [[Gnoll Overseer]]
 * [[GnollBench]]

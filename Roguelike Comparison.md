@@ -69,7 +69,7 @@ All GitHub downloads are free.
 | **In-game item information** | ❌ | ✅ | ✅ | ✅ |
 | **In-game hints** | ✅<sup>2</sup>  | ✅ | ✅ | ✅ |
 | **Full mobile UI**<sup>3</sup> | ❌ | ✅ | ✅ | ✅ |
-| **Game Assistant** | ❌ | ✅<sup>4</sup> | ❌ | ❌ |
+| **Game Advisor** | ❌ | ✅<sup>4</sup> | ❌ | ❌ |
 
 - <sup>1</sup> Support varies by platform and solution.
 - <sup>2</sup> But consulting the [[/Monsters/Oracle]] costs gold.

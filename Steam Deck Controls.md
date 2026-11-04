@@ -1,8 +1,10 @@
-> 👉 **This page explains how to play GnollHack with the Steam Deck's built-in controls, which are available starting from version 3.32. It covers setting up the controls in Steam, the controls on the map, the radial menus, and using the controller in menus, the wiki, and Gnoll Overseer.**
+> 👉 **This page explains how to play GnollHack with the Steam Deck's built-in controls, which are available starting from version 3.32, and with a game controller on Windows and Linux. It covers setting up the controls, the controls on the map, the radial menus, and using the controller in menus, the wiki, and the Gnoll Overseer.**
 
-Button names on this page follow the Steam Deck. A strip of button hints at the bottom of the screen always shows what each button does at the moment, and it changes when you hold L1 or R1.
+Button names on this page follow the Steam Deck; see [[Button Names on Other Controllers|#button-names-on-other-controllers]]. A strip of button hints at the bottom of the screen always shows what each button does at the moment, and it changes when you hold L1 or R1.
 
-## 🏁 Setting Up the Controls
+Touching the screen, using the mouse, or pressing a keyboard key returns the game to its usual on-screen buttons until you use the controller again.
+
+## 🏁 Setting Up the Steam Deck
 
 The **Use Controller** setting is on by default, so you only need to install GnollHack from Steam and start it. The setting is in [[Settings]], under Controller.
 
@@ -15,9 +17,35 @@ If Steam Input is turned off for the game, turn it on in the game's Properties i
 
 The back grips and the left trackpad's click need GnollHack's own Steam Input layout. With the Gamepad with Mouse Trackpad template, everything else works.
 
-> ℹ️ **Note:** Controller support is built for the Steam Deck. The same controls also work with a controller in the [[Linux Version]] on a desktop computer, and with an Xbox controller on Windows. The Android and iOS versions do not have controller support yet. See [[/Development/Gamepad Support]].
+## 🎮 Controllers on Windows and Linux
 
-Touching the screen, using the mouse, or pressing a keyboard key returns the game to its usual on-screen buttons until you use the controller again.
+You can also play with a game controller on the [[Modern Windows Version]] and the [[Linux Version]] on a desktop computer. The controls are the same as on the Steam Deck. Connect the controller and press any button, and the game switches to controller mode. The Controller section of [[Settings]] appears once the game has detected a controller.
+
+| Controller | Windows | Linux |
+| :--------- | :------ | :---- |
+| **Xbox and other XInput controllers** | ✅ Supported | ✅ Supported |
+| **PlayStation and Nintendo controllers** | Only if Steam presents them as XInput controllers; not tested | Should work; not tested |
+| **Other gamepads** | Only XInput controllers | Should work if the gamepad reports standard gamepad controls; not tested |
+
+If a controller does nothing on Windows, it may not be an XInput controller. On Linux, your user account may not have permission to read the controller.
+
+Some features are available only on the Steam Deck:
+
+- **Back grips:** Paddles on other controllers, such as the Xbox Elite controllers, are not read.
+- **On-screen keyboard:** When the game asks you to type text, such as a wish or a name, type it on a keyboard.
+
+The Android and iOS versions do not have controller support yet. For more details, see [[/Development/Gamepad Support]].
+
+### 🏷️ Button Names on Other Controllers
+
+The buttons work by position: A is the bottom face button, B the right, X the left, and Y the top. The button hints at the bottom of the screen show the labels of the controller you are using, such as Cross and Circle on a PlayStation controller.
+
+| Steam Deck | Xbox Controller |
+| :--------- | :-------------- |
+| **L1 and R1** | LB and RB |
+| **L2 and R2** | LT and RT |
+| **View** | View (Back) |
+| **Menu** | Menu (Start) |
 
 ## 🗺️ Controls on the Map
 
@@ -162,7 +190,7 @@ While you are typing text, the D-pad and the left stick move the text cursor, L2
 
 ## 📁 File Dialogs
 
-In Gaming Mode, attaching, importing, sharing, and saving files use a file dialog that works with the controller.
+In Gaming Mode, and on any platform while you are using the controller, attaching, importing, sharing, and saving files use a file dialog that works with the controller.
 
 | Control | Action |
 | :------ | :----- |

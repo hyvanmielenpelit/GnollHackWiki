@@ -1,10 +1,10 @@
 ![Gnoll Overseer](/uploads/Guides/Introduction%20to%20Gnoll%20Overseer/gnoll-overseer-avatar-frame-256x256-q85.webp)
 
-> 👉 **A developer-oriented overview of the architecture, frameworks, tool execution engine, privacy framework, and design decisions behind Gnoll Overseer.**
+> 👉 **A developer-oriented overview of the architecture, frameworks, tool execution engine, privacy framework, and design decisions behind the Gnoll Overseer.**
 
 ## 🏗️ Architecture Overview
 
-The Gnoll Overseer is a full-stack web application that provides an AI-powered assistant for GnollHack players. It is split into three primary layers:
+The Gnoll Overseer is a full-stack web application that provides an AI-powered game advisor for GnollHack players. It is split into three primary layers:
 
 1. **ASP.NET Core Backend** — REST API controllers, a SignalR hub for real-time streaming, the AI provider abstraction layer, the tool execution engine, background indexing, the privacy framework, and automated data retention maintenance.
 2. **Angular Frontend** — A single-page application (SPA) providing the chat interface, avatar animation engine, chat search and Trash, in-app release notes, settings, API key and model management, and the admin dashboard.

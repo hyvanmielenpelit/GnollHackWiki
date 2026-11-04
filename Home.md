@@ -59,7 +59,7 @@ GnollHack is best understood as a modernized version of NetHack that makes the c
 
 - **[[Commands]]** — Commands available as clickable GUI buttons in the modern versions of the game.
 - **[[Keyboard Shortcuts]]** — GnollHack supports NetHack-style keyboard shortcuts, which are especially useful when playing with a physical keyboard 
-- **[[Steam Deck Controls]]** — How to play GnollHack with the Steam Deck's built-in controls
+- **[[Steam Deck Controls]]** — How to play GnollHack with the Steam Deck's built-in controls or a game controller on Windows and Linux
 
 ## ⚙️ Game Configuration
 
@@ -75,11 +75,11 @@ GnollHack is best understood as a modernized version of NetHack that makes the c
 - **[[Bones Sharing]]** — You can share your dead characters with others *(modern versions only)*
 - **[[Save File Tracking]]** — The modern Windows version requires your save files to be tracked online to make them eligible for server posting
 
-## 🤖 Game Assistant
+## 🤖 Game Advisor
 
-GnollHack is famously tough, so we built *Gnoll Overseer* to help you along. Powered by *frontier AI models* and grounded in real game data, it gives you accurate, high-quality tactical advice in every game situation. Learning to play GnollHack has never been easier! Got a question? Just ask the Overseer!
+GnollHack is famously tough, so we built the *Gnoll Overseer* to help you along. Powered by *frontier AI models* and grounded in real game data, it gives you accurate, high-quality tactical advice in every game situation. Learning to play GnollHack has never been easier! Got a question? Just ask the Overseer!
 
-- **[[Gnoll Overseer]]** — Advanced in-game AI assistant for all things GnollHack.
+- **[[Gnoll Overseer]]** — Advanced in-game AI advisor for all things GnollHack.
 - **[[GnollBench]]** — An AI benchmark measuring how AI models perform as the Gnoll Overseer.
 
 ## 📋 Technical Information

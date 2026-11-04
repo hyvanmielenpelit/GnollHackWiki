@@ -124,7 +124,7 @@ These articles provide historical context and technical background. They are eas
 
 ## 🐺 Gnoll Overseer
 
-- [[/Guides/Technological Overview of Gnoll Overseer]] — The technology stack of Gnoll Overseer, our AI-powered game assistant.
+- [[/Guides/Technological Overview of Gnoll Overseer]] — The technology stack of the Gnoll Overseer, our AI-powered game advisor.
 
 ## 🤖 AI
 

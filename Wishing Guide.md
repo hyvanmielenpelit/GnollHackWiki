@@ -154,6 +154,7 @@ You can prepend condition modifiers to your wish (e.g., `"blessed rustproof long
 | **Damage Proofing** | `rustproof`, `fireproof`, `corrodeproof`, `rotproof`, `fixed` | 100% chance if your luck is **non-negative**. <br> If your luck is negative, the request is ignored and the item generates normally. |
 | **Poisoned** | `poisoned` | 100% chance on applicable weapons if your luck is **non-negative**. <br> If your luck is negative, the request is ignored. |
 | **Greased** | `greased` | 100% chance, regardless of luck. |
+| **Material** | `silver`, `adamantium` and other wishable materials | Takes effect only when the item type accepts that material. A boomerang, dart or shuriken accepts no material other than its own, so the word is ignored: `silver dart` gives an iron dart and `adamantium boomerang` a wooden one. Materials that cannot be wished for, such as `wax` and `ice`, are not recognized, nor are `wood` and `lead` (write `wooden` and `leaden`). A wish like `wax dart`, `wood boomerang` or `silver wand of digging` is refused with *Nothing fitting that description exists in the game.* |
 
 > 💡 **Example:** Wishing for a `"blessed rustproof long sword"` with negative luck will result in a **cursed**, non-rustproof long sword. Wishing for a `"greased cursed long sword"` will always give you exactly what you asked for.
 

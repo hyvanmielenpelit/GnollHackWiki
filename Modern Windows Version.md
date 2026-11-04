@@ -67,7 +67,15 @@ In the case of multiple GPUs, in **Windows Settings → System → Display → G
 
 - Screen resolution and refresh rate can only be adjusted in the full-screen mode.
 
-## 5. More Information
+## 5. Game Controllers
+
+You can play the modern Windows version with an Xbox controller or another XInput-compatible controller. Connect the controller and press any button, and the game switches to controller mode. The controls are the same as on the Steam Deck; see [[Steam Deck Controls]].
+
+- Up to four controllers can be connected, and they can be plugged in while the game is running. The last controller you use is the active one.
+- Only XInput controllers are supported. PlayStation and Nintendo controllers may work if Steam presents them as XInput controllers, but this has not been tested.
+- There is no on-screen keyboard, so type text, such as a wish or a name, on a keyboard.
+
+## 6. More Information
 
 - [[System Requirements for Modern Windows Port|/Development/System Requirements for Modern Windows Port (.NET MAUI ∕ WinUI 3)]]
 - [[CPU and GPU Usage Modes in Modern Windows Port|/Development/CPU and GPU Usage Modes in Modern Windows Port (.NET MAUI ∕ WinUI 3)]]

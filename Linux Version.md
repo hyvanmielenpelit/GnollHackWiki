@@ -9,7 +9,7 @@ GnollHack's Linux version has the following download options:
 
 <a href="https://store.steampowered.com/app/3558190/GnollHack/?utm_source=wiki">![Available on Steam](/uploads/Download/steam-q90.webp)</a><br />
 
-The Steam version also runs on the Steam Deck, where you can play with the Deck's built-in controls. See [[Steam Deck Controls]].
+The Steam version also runs on the Steam Deck, where you can play with the Deck's built-in controls. On a desktop computer, both the Steam version and the AppImage can be played with a game controller, such as an Xbox controller. See [[Steam Deck Controls]].
 
 #### 1.1.1. Auto-Update Can't Be Disabled
 
@@ -38,7 +38,7 @@ You can't disable auto-update in Steam, but if your saved games become invalid, 
 
 - A 64-bit (x86-64) Linux desktop with a working graphics driver (Mesa for AMD and Intel, or NVIDIA's driver). X11 and Wayland desktops both work.
 - Sound through PulseAudio or PipeWire, which most desktops use.
-- In-game web pages, such as this wiki and [[Gnoll Overseer]], use the Chromium engine built into the game, so no web browser components need to be installed.
+- In-game web pages, such as this wiki and the [[Gnoll Overseer]], use the Chromium engine built into the game, so no web browser components need to be installed.
 
 ### 📖 See Also
 

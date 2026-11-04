@@ -348,9 +348,9 @@ When referencing or comparing different games and NetHack variants, use the foll
 - **No Heading Icons**: Never use Unicode emojis/icons in headings on legal, privacy, or compliance documents.
 - **Cross-References**: Cross-link exclusively to relevant first-party legal, policy, and safety pages (such as `[[Gnoll Overseer Privacy Policy]]`, `[[AI Usage Policy]]`, `[[GnollHack Steam App Privacy Policy]]`, or `[[/Development/AI Safety Settings]]`). Avoid linking to general gameplay guides.
 
-## 16. How Gnoll Overseer Retrieves Wiki Content
+## 16. How the Gnoll Overseer Retrieves Wiki Content
 
-The Gnoll Overseer AI assistant answers player questions from this wiki through search and
+The Gnoll Overseer AI advisor answers player questions from this wiki through search and
 page-view tools. Two properties of those tools decide whether a fact is reachable:
 
 - **Search is heading-scoped.** Search hits are excerpts under individual headings, scored by
@@ -362,7 +362,7 @@ page-view tools. Two properties of those tools decide whether a fact is reachabl
   that many other pages state in one line (a saving throw, a resistance, a skill), link the
   mechanic page from that line, using the link rules in section 2.
 
-Do not write for the assistant at the expense of human readers; these are tie-breakers when
+Do not write for the advisor at the expense of human readers; these are tie-breakers when
 two layouts are otherwise equal.
 
 ## 17. Improving Pages from Benchmark Findings
