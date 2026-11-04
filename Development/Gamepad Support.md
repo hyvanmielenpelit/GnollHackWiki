@@ -57,8 +57,8 @@ L1 and R1 are hold modifiers, and neither does anything on its own. L1 changes t
 | **X** | Pick Up (`,`) | Pick Up and Stash (`;`) | |
 | **Y** | Repeat (`Ctrl+a`) | Wait (`.`) | |
 | **L1 + R1 + Y** | Rest | | |
-| **R2** | Assigned action, by default Fire (`f`) | Right Quick radial | Set R2 radial |
-| **L2** | Assigned action, by default Kick (`k`) | Set L2 radial | Left Quick radial |
+| **R2** | Command set in Settings, by default By Role: Cast Quick, Polearm or Fire | Right Quick radial | |
+| **L2** | Command set in Settings, by default Kick (`k`) | | Left Quick radial |
 | **Menu** | Game menu | Abilities (`Shift+a`) | |
 | **View** | Inventory (`i`) | | Equipment (`*`) |
 | **D-pad** | Walk one step, repeating while held | | Zoom, minimap |
@@ -66,21 +66,22 @@ L1 and R1 are hold modifiers, and neither does anything on its own. L1 changes t
 | **Right stick** | Pan the map | | |
 | **L3** | Run: the next direction runs, as the `Shift+g` prefix does; L3 again or B cancels | | Center the map on the hero |
 | **R3** | Toggles radial | | |
-| **L4, L5, R4, R5** | Configurable; by default Apply (`a`), Cast (`Shift+z`), Cast Quick and Zap Quick | | |
+| **L4, L5, R4, R5** | Configurable; by default Pick-axe (`Alt+Shift+x`), Polearm (`Alt+Shift+p`), Cast Quick and Zap Quick | | |
 
 ### ⚙️ Radial Menus and Quick Actions
 
-Radial menus stay open until an item is chosen or they are closed, except for the direction radial below. Either stick selects, or the D-pad steps. A activates, B closes and L1/R1 change the page.
+Radial menus stay open until an item is chosen or they are closed, except for the direction radial while its trigger is held. Either stick selects, or the D-pad steps. A activates, B closes and L1/R1 change the page.
 
-- **Actions radial**: the current context commands with Skills, Polearm and Wield Last or Unwield, followed by the commands of the commands page, eight per page. This is how commands without a button of their own are reached, including the Extended Command. On the map it has all of them except Back to Game, the count pad and, outside wizard mode, the wizard commands. In position and direction prompts, L3 opens it without the commands.
+- **Actions radial**: the current context commands with Skills, Polearm and Wield Last or Unwield, followed by the commands of the commands page, eight per page. This is how commands without a button of their own are reached, including the Extended Command. On the map it has all of them except Back to Game, the count pad and, outside wizard mode, the wizard commands. In position prompts, L3 opens it without the commands.
 - **Toggles radial**: More Messages, Status Screen, Auto-Center, Look Mode, Auto-Dig, Ignore Stopping, Max Hit Points and Max Mana.
-- **Trigger quick actions**: L2 and R2 each have eight quick actions, set in Settings. The Set radial, or the R2 Action and L2 Action settings, pick which one the trigger runs when pressed alone, and the Quick radial runs one at once.
-- **Direction radial**: when a trigger's action asks for a direction while the trigger is still held, a violet, see-through radial opens. Select with a stick and release the trigger or press A to confirm; releasing with nothing selected cancels the command. D-pad Up answers up (`<`), D-pad Down answers down (`>`) and Y answers self. A stick already pushed when the radial opens counts at once. Actions with a menu first, such as Throw, ask for the direction with the ordinary prompt.
+- **Quick radials**: L1 + R2 opens Right Quick and R1 + L2 opens Left Quick. Each has eight actions, set in Settings, and runs the chosen one at once, with the direction radial if it asks for a direction. R2 and L2 alone run their own commands, set with the R2 Action and L2 Action settings.
+- **Direction radial**: when a command asks for a direction, a violet, see-through radial opens. Select with a stick and press A to confirm. D-pad Up answers up (`<`), D-pad Down answers down (`>`) and Y answers self. While a trigger is held through its own command's prompt, a stick already pushed when the radial opens counts at once, releasing the trigger confirms, and releasing with nothing selected cancels the command. Force Fight, a prefix, does not open it.
+- **Command radial**: A on a picker of commands in Settings shows its commands, eight per page, opening on the page with the current one. L1/R1 change the page, a stick or the D-pad selects, A sets and B closes.
 
-| Trigger | Quick actions by default |
+| Radial | Actions by default |
 |:--------|:-------------------------|
-| **R2** | Fire (`f`), Swap (`x`), Chat (`Shift+c`), Throw (`t`), Cast (`Shift+z`), Cast Quick, Zap (`z`), Zap Quick |
-| **L2** | Kick (`k`), Drop Items, Pray (`Alt+p`), Yell (`Alt+y`), Engrave (`Shift+e`), 2-Weapon, Pick-axe (`Alt+Shift+x`), Polearm (`Alt+Shift+p`) |
+| **Right Quick** | 2-Weapon, Swap (`x`), Chat (`Shift+c`), Throw (`t`), Cast (`Shift+z`), Cast Quick, Zap (`z`), Zap Quick |
+| **Left Quick** | Apply (`a`), Drop Items, Drop Types (`Shift+d`), Pray (`Alt+p`), Yell (`Alt+y`), Engrave (`Shift+e`), Pick-axe (`Alt+Shift+x`), Polearm (`Alt+Shift+p`) |
 
 ### 💬 In-Game Prompts
 
@@ -89,7 +90,7 @@ All of these are covered, and show their controls in a hint strip:
 - **Menus**: a gold focus selector, with row counts and row actions on a long A press, and X as OK. In an inventory menu, Menu flips between the item list and the equipment view.
 - **Yes/no prompts, message boxes, text windows, the count dialog and the tips**.
 - **Choosing a position**: the left stick moves the cursor, and the shoulder buttons and triggers jump between interesting spots and monsters.
-- **Choosing a direction**: a D-pad press picks it at once, or aim with the left stick and confirm with A. A prompt raised by a held trigger opens the direction radial instead.
+- **Choosing a direction**: the direction radial; see above.
 - **Text prompts**, such as wishing or naming, as far as text can be entered; see [[Text Entry|#text-entry]].
 - **More Messages and the Status Screen**, which scroll while the left stick still walks.
 - **Replays**: A pauses, L1/R1 and L2/R2 change the speed, D-pad Right steps forward, Y opens Go to Turn and B quits.
@@ -100,7 +101,7 @@ All of these are covered, and show their controls in a hint strip:
 |:-----|:---------|
 | **Main menu** | ✅ Focus over the buttons and the mode switches, with shortcut buttons |
 | **Game menu** | ✅ Focus navigation |
-| **Settings** | ✅ Every row: switches, pickers, sliders and text fields, with L1/R1 jumping between sections |
+| **Settings** | ✅ Every row: switches, pickers, sliders and text fields, with L1/R1 jumping between sections. A on a picker of commands opens a paged radial, and A on a list of three or more opens a scrolling list |
 | **About, Reset, Import/Export, Vault, Version** | ✅ Focus navigation |
 | **Library, Oracle, Music, Snapshots, Achievements, Save Transfer** | ✅ Focus over the rows and buttons |
 | **Top Scores, Replays** | ✅ List selection, except multiple selection in Replays |
@@ -121,8 +122,9 @@ The **Controller** section of Settings appears only when a controller can be use
 
 - **Use Controller** turns the whole feature off.
 - **Hide Command Bar**, on by default, hides the command bar and the menus' OK and Cancel buttons while the controller is the active input. They keep their space, so nothing on the screen moves.
+- **R2 Action and L2 Action** set what the triggers run when pressed alone, to any command the bar buttons can hold, None, or **By Role**, R2's default, which runs Cast Quick for Healers, Monks, Priests and Wizards, Polearm for Knights, and Fire for the others.
 - **Back Grip L4, L5, R4 and R5** set the grips' commands, and appear only when the controller has grips.
-- **Trigger Quick Actions** is a section of its own, set to any command the bar buttons can hold. It appears while the Controller section is shown and Use Controller is on. Bar Commands is then hidden if Hide Command Bar is on, and shown next to it if off.
+- **Quick Radials** is a section of its own, setting the eight actions of each Quick radial to any command the bar buttons can hold. It appears while the Controller section is shown and Use Controller is on. Bar Commands is then hidden if Hide Command Bar is on, and shown next to it if off.
 
 ## ❌ What Is Not Covered
 
@@ -196,7 +198,7 @@ Input travels from a backend through a shared service to whichever page is on to
 | **File dialogs** | An in-page dialog that takes the controller | `GHFileDialogHost`, `FileDialogView` |
 | **On-screen keyboard** | Opens Steam's keyboard next to the field | `GHScreenKeyboard`, `GHAvaloniaSteamKeyboard` |
 
-Most of this is in `win/win32/xpl/GnollHackX/GnollHackX/Gamepad/`. The Windows XInput backend is in `GnollHackM/Gamepad/`, and the platform glue in `GnollHackM/Platforms/Avalonia/` and `GnollHackM/Platforms/Windows/`.
+Most of this is in `win/win32/xpl/GnollHackX/GnollHackX/Gamepad/`. The Windows XInput backend is `GnollHackM/GHXInputGamepadBackend.cs`, and the platform glue in `GnollHackM/Platforms/Avalonia/` and `GnollHackM/Platforms/Windows/`.
 
 ### 🔌 Backends
 

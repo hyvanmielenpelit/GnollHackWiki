@@ -21,7 +21,7 @@ The following options are available:
 | **Cast** | Casts your configured **Quick Spell** at the target (configurable in the cast menu). |
 | **Fire** | Fires or throws your quivered ranged weapon or projectile at the target (automatically swapping to the correct launcher if autoswapping is enabled and needed). |
 | **Zap** | Zaps your configured **Quick Wand** at the target (configurable in the item action screen of the inventory). |
-| **Polearm** | Attacks the target with a polearm (automatically swapping to it if autoswapping is enabled). |
+| **Polearm** | Attacks the target with a polearm (automatically swapping to it if autoswapping is enabled). If you are not wielding one and have none as your alternate weapon, it wields one from your inventory. |
 
 ### ⚙️ Role-Specific Defaults
 
