@@ -10,7 +10,8 @@ This is the timeline of important events in GnollHack development.
 | 12 Dec 2023 | GnollHack Account | 4.1.3 Build 24 | ASP.NET Core | ❌ |
 | 26 May 2024 | In-game GnollHack wiki support | 4.1.3 Build 52 | GitHub Repository Wiki | ❌ |
 | 30 Jul 2024 | Beta version for Windows | 4.2.0 Build 3 | .NET MAUI 8 | ❌ |
-| 21 Feb 2025 | Android and iOS versions migrated to .NET MAUI | 4.2.0 Build 24 | .NET MAUI 9 + SkiaSharp | ❌ |
+| 21 Feb 2025 | Migration of Android and iOS versions to .NET MAUI started | 4.2.0 Build 24 | .NET MAUI 9 + SkiaSharp | ❌ |
+| 20 Apr 2025 | Android and iOS versions fully migrated to .NET MAUI, with Build 31 being the last Xamarin.Forms version | 4.2.0 Build 32 | .NET MAUI 9 + SkiaSharp | ❌ |
 | **30 Apr 2025** | **Windows version released on Steam** | 4.2.0 Build 34 | .NET MAUI 9 + SkiaSharp | ❌ |
 | 3 Jun 2025 | Windows version available on GitHub as an MSIX package | 4.2.0 Build 46 | .NET MAUI 9 + SkiaSharp | ❌ |
 | 13 Jul 2025 | GPU acceleration fixed in unpackaged Windows version (Steam) | 4.2.0 Build 59 | SkiaSharp | ❌ |
