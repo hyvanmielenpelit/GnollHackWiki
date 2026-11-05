@@ -86,6 +86,7 @@ These articles provide historical context and technical background. They are eas
 - [[/Development/Release Checklist]]
 - [[/Development/Native Libraries]]
 - [[/Development/Design Details of Linux Avalonia Port]] — The design of the Avalonia port and its Linux version, including CEF and Sentry
+- [[/Development/Design Details of macOS Avalonia Port]] — How the macOS version of the Avalonia port differs, including Metal, WKWebView, Sentry and the app bundle
 - [[/Development/Design Details of Windows Avalonia Port]] — How the Windows flavor of the Avalonia port differs
 - [[/Development/Gamepad Support]] — How game controller support works, and what it covers and does not cover
 - [[/Development/Debugging Linux Version in WSL using Visual Studio Code]]

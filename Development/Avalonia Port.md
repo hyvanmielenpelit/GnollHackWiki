@@ -53,9 +53,10 @@ The packages run on Ubuntu 18.04, Debian 10, RHEL 8 and newer distributions: eve
 
 ## 🏗️ Design Details
 
-How the port is built inside, and why, is on two pages of its own:
+How the port is built inside, and why, is on three pages of its own:
 
-- [[/Development/Design Details of Linux Avalonia Port]] — The whole design of the Avalonia port, shared by both flavors, and the Linux version's own parts: startup, rendering, the frame loop, input, fonts, the Essentials replacements, the built-in Chromium web view (CEF), crash reporting with Sentry, binary compatibility and the packages.
+- [[/Development/Design Details of Linux Avalonia Port]] — The whole design of the Avalonia port, shared by all flavors, and the Linux version's own parts: startup, rendering, the frame loop, input, fonts, the Essentials replacements, the built-in Chromium web view (CEF), crash reporting with Sentry, binary compatibility and the packages.
+- [[/Development/Design Details of macOS Avalonia Port]] — Where the macOS version differs from the Linux version: Metal rendering, the menu bar, the Option key, Apple's game controllers, WKWebView, crash reporting and the signed and notarized app bundle.
 - [[/Development/Design Details of Windows Avalonia Port]] — Where the Windows flavor differs from the Linux version, and how it compares with the WinUI 3 version.
 
 Avalonia.Controls.Maui is younger than .NET MAUI's own backends, and GnollHack works around a number of its defects. Both pages list the workarounds that apply, which are recorded with their symptoms and removal conditions in the GnollHack repository's `DEVEL/workarounds/` folder.
@@ -63,6 +64,7 @@ Avalonia.Controls.Maui is younger than .NET MAUI's own backends, and GnollHack w
 ## 📖 Learn More
 
 - [[/Development/Design Details of Linux Avalonia Port]]
+- [[/Development/Design Details of macOS Avalonia Port]]
 - [[/Development/Design Details of Windows Avalonia Port]]
 - [[/Development/Build Instructions for Avalonia Linux Version on Windows]]
 - [[/Development/Build Instructions for Avalonia Windows Version on Windows]]

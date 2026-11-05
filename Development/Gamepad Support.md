@@ -277,6 +277,7 @@ Setting up a Deck for testing is explained in [[/Development/Testing Avalonia Li
 
 - [[/Development/Testing Avalonia Linux Version on Steam Deck]]
 - [[/Development/Design Details of Linux Avalonia Port]]
+- [[/Development/Design Details of macOS Avalonia Port]]
 - [[/Development/Avalonia Port]]
 - [[/Commands]]
 - [[/Development Information]]

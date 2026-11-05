@@ -106,6 +106,7 @@ Most Avalonia and Avalonia.Controls.Maui workarounds of the Linux version apply 
 
 - [[/Development/Avalonia Port]]
 - [[/Development/Design Details of Linux Avalonia Port]]
+- [[/Development/Design Details of macOS Avalonia Port]]
 - [[/Development/Build Instructions for Avalonia Windows Version on Windows]]
 
 ## 🔗 External Links

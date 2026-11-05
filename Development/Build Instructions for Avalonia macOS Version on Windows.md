@@ -251,6 +251,7 @@ For general build problems, see [[/Development/Troubleshooting Building GnollHac
 ## 📖 Learn More
 
 - [[/Development/Avalonia Port]]
+- [[/Development/Design Details of macOS Avalonia Port]]
 - [[/Development/Set Up SSH Access to the Mac for Native Libraries]]
 - [[/Development/Build Instructions for Avalonia Linux Version on Windows]]
 - [[/Development/Enroll for Apple Development Program (Mac)]]
