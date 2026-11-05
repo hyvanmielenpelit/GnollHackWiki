@@ -16,7 +16,7 @@ This is the timeline of important events in GnollHack development.
 | 13 Jul 2025 | GPU acceleration fixed in unpackaged Windows version (Steam) | 4.2.0 Build 59 | SkiaSharp | ❌ |
 | 15–17 Jul 2025 | GnollHack wiki migrated to wiki.gnollhack.com | 4.2.0 Build 60 | Gollum | ❌ |
 | 11 Jul 2026 | Save files transferable between different devices | 4.3.0 Build 1 | – | ✅ |
-| **17 Jul 2026** | **Fully working macOS version released for Apple Silicon Macs** | 4.3.0 Build 4 | .NET MAUI 10 for iOS + SkiaSharp | ✅ |
+| **17 Jul 2026** | **Fully working macOS version released for Apple Silicon Macs** | 4.3.0 Build 4 | .NET MAUI 10 for iOS (Designed for iPad) + SkiaSharp | ✅ |
 | 8 Aug 2026 | The Gnoll Overseer, an in-game AI advisor, released | 4.3.0 Build 7 | Angular + ASP.NET Core | ✅ |
 | 15–16 Sep 2026 | GnollBench, an AI benchmark, released | 4.3.0 Build 18 | Angular + ASP.NET Core | ✅ |
 | **22 Oct 2026** | **Linux version released on Steam and as an AppImage** | 4.3.0 Build 29 | .NET MAUI on Avalonia UI + SkiaSharp | ✅ |
