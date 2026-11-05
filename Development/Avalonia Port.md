@@ -1,33 +1,34 @@
-> 👉 **The Avalonia port is GnollHack's modern .NET MAUI client running on Avalonia UI instead of the platform UI frameworks of Android, iOS and Windows. It brings the modern client to Linux and the Steam Deck, and it also runs on Windows for development and testing.**
+> 👉 **The Avalonia port is GnollHack's modern .NET MAUI client running on Avalonia UI instead of the platform UI frameworks of Android, iOS and Windows. It brings the modern client to Linux, the Steam Deck and macOS, and it also runs on Windows for development and testing.**
 
 ## ℹ️ Overview
 
-GnollHack's modern client is a single .NET MAUI app, `GnollHackM`. On Android, iOS and Windows, .NET MAUI draws it with each platform's own UI framework, such as WinUI 3 on Windows. .NET MAUI has no Linux backend of its own, so the Linux version uses **Avalonia.Controls.Maui**, which implements .NET MAUI's controls on top of [Avalonia UI](https://avaloniaui.net/). Avalonia runs on Linux, Windows and macOS, so the same build also runs on Windows.
+GnollHack's modern client is a single .NET MAUI app, `GnollHackM`. On Android, iOS and Windows, .NET MAUI draws it with each platform's own UI framework, such as WinUI 3 on Windows. .NET MAUI has no Linux backend of its own, so the Linux version uses **Avalonia.Controls.Maui**, which implements .NET MAUI's controls on top of [Avalonia UI](https://avaloniaui.net/). Avalonia runs on Linux, Windows and macOS, so the same build also runs as a native Mac app, and on Windows.
 
-The Avalonia port is not a separate code base. It is the same `GnollHackM.csproj`, the same C# code and the same XAML pages, built with the MSBuild property `GnhAvalonia=true`. Code that only the Avalonia port needs is in `win\win32\xpl\GnollHackM\Platforms\Avalonia\`, and files that only one operating system's version ships are in `Platforms\Linux\` and `Platforms\MacOS\`.
+The Avalonia port is not a separate code base. It is the same `GnollHackM.csproj`, the same C# code and the same XAML pages, built with the MSBuild property `GnhAvalonia=true`. Code that only the Avalonia port needs is in `win\win32\xpl\GnollHackM\Platforms\Avalonia\`, and files that only the Linux or macOS version ships are in `Platforms\Linux\` and `Platforms\MacOS\`.
 
 ## 🖥️ Flavors
 
-The Avalonia port is built in two flavors, one for each operating system:
+The Avalonia port is built in three flavors, one for each operating system:
 
-| | 🐧 Linux | 🪟 Windows |
-|:--|:--|:--|
-| **Purpose** | Released to players | Development and testing only |
-| **Distribution** | Steam (also on the Steam Deck), and an AppImage on GitHub | A self-contained folder for testers; Windows players get the WinUI 3 version |
-| **Runtime identifier** | `linux-x64` | `win-x64` |
-| **Game engine** | `libgnollhacklinux.so` | `gnollhackwin.dll`, the same as the WinUI 3 version |
-| **Game data (`nhdat`)** | The Linux-format file of the Android version | The Windows-format file of the WinUI 3 version |
-| **Sound banks** | Desktop | Desktop |
-| **Window system** | X11, and XWayland on Wayland desktops | Avalonia's Windows backend |
-| **Rendering** | OpenGL through GLX, with a software fallback | Avalonia's Windows renderer |
-| **In-game web pages** | Chromium (CEF), built into the game; WebKitGTK as a fallback | Microsoft Edge WebView2 |
-| **Crash reporting** | Sentry, including native crashes | None |
-| **Saved games and settings** | `~/.local/share/GnollHack` | `%LOCALAPPDATA%\GnollHack-Avalonia` |
-| **Build instructions** | [[/Development/Build Instructions for Avalonia Linux Version on Windows]] | [[/Development/Build Instructions for Avalonia Windows Version on Windows]] |
+| | 🐧 Linux | 🍎 macOS | 🪟 Windows |
+|:--|:--|:--|:--|
+| **Purpose** | Released to players | Released to players | Development and testing only |
+| **Distribution** | Steam (also on the Steam Deck), and an AppImage on GitHub | Steam, as a signed and notarized `GnollHack.app` | A self-contained folder for testers; Windows players get the WinUI 3 version |
+| **Runtime identifier** | `linux-x64` | `osx-arm64` (Apple Silicon only) | `win-x64` |
+| **Game engine** | `libgnollhacklinux.so` | `libgnollhackmac.dylib` | `gnollhackwin.dll`, the same as the WinUI 3 version |
+| **Game data (`nhdat`)** | The Linux-format file of the Android version | The same file as the Linux version | The Windows-format file of the WinUI 3 version |
+| **Sound banks** | Desktop | Desktop | Desktop |
+| **Window system** | X11, and XWayland on Wayland desktops | Avalonia's macOS backend | Avalonia's Windows backend |
+| **Rendering** | OpenGL through GLX, with a software fallback | Metal, then OpenGL, then software; the Metal Rendering setting chooses OpenGL | Avalonia's Windows renderer |
+| **In-game web pages** | Chromium (CEF), built into the game; WebKitGTK as a fallback | WKWebView, built into macOS | Microsoft Edge WebView2 |
+| **Game controllers** | evdev, and Steam Input on the Steam Deck | Apple's GameController framework | XInput |
+| **Crash reporting** | Sentry, including native crashes | Sentry, managed exceptions only | None |
+| **Saved games and settings** | `~/.local/share/GnollHack` | `~/Library/Application Support/GnollHack` | `%LOCALAPPDATA%\GnollHack-Avalonia` |
+| **Build instructions** | [[/Development/Build Instructions for Avalonia Linux Version on Windows]] | [[/Development/Build Instructions for Avalonia macOS Version on Windows]] | [[/Development/Build Instructions for Avalonia Windows Version on Windows]] |
 
-Both flavors are built on Windows. The Linux flavor also needs WSL, which compiles the game engine and the game data, assembles the packages, and can run the game for testing.
+All three flavors are built on Windows. The Linux flavor also needs WSL, which compiles the game engine and the game data, assembles the packages, and can run the game for testing. The macOS flavor needs WSL for the game data and a Mac reached over SSH, which compiles the game engine, builds, signs and notarizes the app, and runs it for testing.
 
-A macOS flavor for Apple Silicon Macs (`osx-arm64`) is in preparation. It is packaged as a signed and notarized `GnollHack.app` for Steam and a DMG download, and built on Windows with a Mac reached over SSH: [[/Development/Build Instructions for Avalonia macOS Version on Windows]]. It reports crashes to Sentry, without native crash capture yet, draws with Metal, and shows web pages with the system's WebKit.
+The macOS version was released on Steam on November 5, 2026, in version 3.37. Players' information is on [[/macOS Version]].
 
 ## 🧑‍💻 Building
 
@@ -38,7 +39,7 @@ cd win\win32\xpl\GnollHackM\Platforms\Avalonia
 dotnet build ..\..\GnollHackM.csproj -p:GnhAvalonia=true
 ```
 
-Without `-r`, the build targets the operating system it runs on, so this command builds the Windows flavor. The Linux flavor is published with `-r linux-x64`, which `Build-LinuxPackages.ps1` does for you. The native libraries and the game data come from the native solution `GnollHack.sln`, as for the other modern clients; see [[/Development/Overview of Building GnollHack with .NET MAUI]]. The tile sets and sound banks are read straight from `win\win32\tileset` and `win\win32\bank\Desktop`, so neither flavor needs them staged.
+Without `-r`, the build targets the operating system it runs on, so this command builds the Windows flavor. The Linux flavor is published with `-r linux-x64`, which `Build-LinuxPackages.ps1` does for you, and the macOS flavor with `-r osx-arm64`, which `Build-MacPackage.ps1` does. The native libraries and the game data come from the native solution `GnollHack.sln`, as for the other modern clients; see [[/Development/Overview of Building GnollHack with .NET MAUI]]. The tile sets and sound banks are read straight from `win\win32\tileset` and `win\win32\bank\Desktop`, so no flavor needs them staged.
 
 ## 🐧 Linux Packages
 
@@ -67,6 +68,7 @@ Avalonia.Controls.Maui is younger than .NET MAUI's own backends, and GnollHack w
 - [[/Development/Build Instructions for Avalonia Windows Version on Windows]]
 - [[/Development/Build Instructions for Avalonia macOS Version on Windows]]
 - [[/Linux Version]]
+- [[/macOS Version]]
 - [[/Development Information]]
 
 ## 🔗 External Links

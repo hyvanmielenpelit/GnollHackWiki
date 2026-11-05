@@ -5,7 +5,7 @@
 * [[Android|Android Version]]
 * [[iOS|iOS and macOS Version]]
 * [[Linux|Linux Version]]
-* [[macOS|iOS and macOS Version]]
+* [[macOS|macOS Version]]
 * [[Windows|Modern Windows Version]]
 
 ### [[Tutorials]]

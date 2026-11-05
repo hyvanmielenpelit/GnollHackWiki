@@ -49,7 +49,7 @@ Both *GnollHack* and *Pathos* are **100% free** with no ads, microtransactions, 
 | **Android** | ⚠️ Unofficial ports only | ✅ Official on **Google Play** | ✅ Official on **Google Play** |
 | **iOS (iPhone / iPad)** | ⚠️ Unofficial ports only (e.g., *iNetHack2*) | ✅ Official on **Apple App Store** | ✅ Official on **Apple App Store** |
 | **Windows** | ✅ Official download from `nethack.org` | ✅ Official on **Steam** | ✅ Official on **Microsoft Store** and desktop installer. Coming to Steam. |
-| **macOS** | ✅ Official download / Homebrew | ✅ Runs on Apple Silicon Macs (M1+) via App Store | ❌ No native macOS app |
+| **macOS** | ✅ Official download / Homebrew | ✅ Official on **Steam** for Apple Silicon Macs (M1+); the iOS version also runs on them via App Store | ❌ No native macOS app |
 | **Linux** | ✅ Official support. Many distributions' package managers may include a prebuilt binary. | ✅ Official on **Steam** | ⚠️ Unofficial ports only |
 | **Cross-Device Cloud Saves** | ❌ Only when playing ASCII via SSH on public servers | ✅ Built-in cloud [[Save File Transfer]] across Android, iOS, and Windows | ❌ Local saves only |
 | **Bones Sharing** | ⚠️ Requires public SSH servers or third-party *Hearse* tool | ✅ Automatic cross-platform [[Bones Sharing]] via [[GnollHack Account]] | ✅ Built-in revenant/bones sharing |

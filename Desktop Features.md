@@ -8,7 +8,7 @@ The desktop versions support playing entirely with [[Keyboard Shortcuts]], just 
 
 ## 🎮 Game Controllers
 
-You can also play with a game controller: an Xbox or other XInput controller on Windows, or a gamepad on Linux. The controls are the same as on the Steam Deck, with radial menus and on-screen button hints. See [[Steam Deck Controls]].
+You can also play with a game controller: an Xbox or other XInput controller on Windows, a gamepad on Linux, or an Xbox, PlayStation, or other gamepad on macOS. The controls are the same as on the Steam Deck, with radial menus and on-screen button hints. See [[Steam Deck Controls]].
 
 ## 🖱️ Mouse Button Quick Actions
 

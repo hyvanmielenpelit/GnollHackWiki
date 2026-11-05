@@ -57,22 +57,23 @@ The table below summarizes support for the modern client. Note that emulator per
 | Platform | Technology | CPU Arch | Solution | Projects | Emulator Support<sup>1</sup> |
 |:---------|:-----------|:---------|:---------|:---------|:----------------------------:|
 | Android | .NET MAUI | Arm64, x64<sup>2</sup> | GnollHackM | GnollHackM | Yes<sup>4</sup> |
-| iOS / macOS<sup>6</sup> | .NET MAUI | Arm64 | GnollHackM | GnollHackM | Yes<sup>4</sup> |
+| iOS<sup>6</sup> | .NET MAUI | Arm64 | GnollHackM | GnollHackM | Yes<sup>4</sup> |
 | Windows | .NET MAUI | x64, (Arm64<sup>3</sup>) | GnollHackM | GnollHackM | No<sup>5</sup> |
 | Linux<sup>7</sup> | .NET MAUI on Avalonia | x64 | GnollHackM | GnollHackM | N/A |
+| macOS<sup>7</sup> | .NET MAUI on Avalonia | Arm64 | GnollHackM | GnollHackM | N/A |
 
 - <sup>1</sup> Emulator support refers to whether the port is supported by popular cross-operating-system emulators.
 - <sup>2</sup> Android x64 binaries are used by Android emulators running on a Windows machine with an x64 CPU, such as the Google Play Games for PC emulator.
 - <sup>3</sup> .NET MAUI supports Arm64 on Windows, but we have not built Arm64 binaries because we do not have a Windows test device with an Arm64 CPU.
 - <sup>4</sup> May exhibit odd behavior or crash.
 - <sup>5</sup> GnollHack's modern Windows port (.NET MAUI) does not run on Wine or Proton because they do not support running WinUI 3 applications.
-- <sup>6</sup> The iOS version works also on macOS (on Macs with the M1 processor or later; we don't support Intel Macs). A separate macOS version, built with the Avalonia port, is in preparation; see [[/Development/Avalonia Port]].
-- <sup>7</sup> Built with `GnhAvalonia=true`, and released on Steam and as an AppImage. The same Avalonia build also runs on Windows, for development and testing only. See [[/Development/Avalonia Port]].
+- <sup>6</sup> The iOS version from the App Store works also on macOS (on Macs with the M1 processor or later; we don't support Intel Macs).
+- <sup>7</sup> Built with `GnhAvalonia=true`. The Linux version is released on Steam and as an AppImage, and the macOS version, for Apple Silicon Macs, on Steam. The same Avalonia build also runs on Windows, for development and testing only. See [[/Development/Avalonia Port]].
 
 ### 💻 Future Platform Support
 
 - Currently, there are no plans to support *gaming consoles*.
-- *Game controllers* are supported on the Steam Deck, starting from version 3.32, and on desktop Linux and Windows, but not yet on Android and iOS. See [[Steam Deck Controls]] and [[/Development/Gamepad Support]].
+- *Game controllers* are supported on the Steam Deck, starting from version 3.32, and on desktop Linux, macOS and Windows, but not yet on Android and iOS. See [[Steam Deck Controls]] and [[/Development/Gamepad Support]].
 
 ## 📖 Background Articles
 

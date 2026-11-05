@@ -1,4 +1,4 @@
-> 👉 **This page explains how to play GnollHack with the Steam Deck's built-in controls, which are available starting from version 3.32, and with a game controller on Windows and Linux. It covers setting up the controls, the controls on the map, the radial menus, and using the controller in menus, the wiki, and the Gnoll Overseer.**
+> 👉 **This page explains how to play GnollHack with the Steam Deck's built-in controls, which are available starting from version 3.32, and with a game controller on Windows, Linux, and macOS. It covers setting up the controls, the controls on the map, the radial menus, and using the controller in menus, the wiki, and the Gnoll Overseer.**
 
 Button names on this page follow the Steam Deck; see [[Button Names on Other Controllers|#button-names-on-other-controllers]]. A strip of button hints at the bottom of the screen always shows what each button does at the moment, and it changes when you hold L1 or R1.
 
@@ -17,24 +17,25 @@ If Steam Input is turned off for the game, turn it on in the game's Properties i
 
 The back grips and the left trackpad's click need GnollHack's own Steam Input layout. With the Gamepad with Mouse Trackpad template, everything else works.
 
-## 🎮 Controllers on Windows and Linux
+## 🎮 Controllers on Windows, Linux, and macOS
 
-You can also play with a game controller on the [[Modern Windows Version]] and the [[Linux Version]] on a desktop computer. The controls are the same as on the Steam Deck. Connect the controller and press any button, and the game switches to controller mode. The Controller section of [[Settings]] appears once the game has detected a controller.
+You can also play with a game controller on the [[Modern Windows Version]], the [[Linux Version]] on a desktop computer, and the [[macOS Version]] from Steam. The controls are the same as on the Steam Deck. Connect the controller and press any button, and the game switches to controller mode. The Controller section of [[Settings]] appears once the game has detected a controller.
 
-| Controller | Windows | Linux |
-| :--------- | :------ | :---- |
-| **Xbox and other XInput controllers** | ✅ Supported | ✅ Supported |
-| **PlayStation and Nintendo controllers** | Only if Steam presents them as XInput controllers; not tested | Should work; not tested |
-| **Other gamepads** | Only XInput controllers | Should work if the gamepad reports standard gamepad controls; not tested |
+| Controller | Windows | Linux | macOS |
+| :--------- | :------ | :---- | :---- |
+| **Xbox and other XInput controllers** | ✅ Supported | ✅ Supported | ✅ Supported |
+| **PlayStation controllers** | Only if Steam presents them as XInput controllers; not tested | Should work; not tested | ✅ Supported |
+| **Nintendo controllers** | Only if Steam presents them as XInput controllers; not tested | Should work; not tested | Not tested |
+| **Other gamepads** | Only XInput controllers | Should work if the gamepad reports standard gamepad controls; not tested | Controllers that macOS supports as gamepads |
 
-If a controller does nothing on Windows, it may not be an XInput controller. On Linux, your user account may not have permission to read the controller.
+If a controller does nothing on Windows, it may not be an XInput controller. On Linux, your user account may not have permission to read the controller. On macOS, pair a wireless controller in System Settings → Bluetooth first.
 
 Some features are available only on the Steam Deck:
 
 - **Back grips:** Paddles on other controllers, such as the Xbox Elite controllers, are not read.
 - **On-screen keyboard:** When the game asks you to type text, such as a wish or a name, type it on a keyboard.
 
-The Android and iOS versions do not have controller support yet. For more details, see [[/Development/Gamepad Support]].
+The Android and iOS versions do not have controller support yet, and neither does the iOS version running on a Mac. For more details, see [[/Development/Gamepad Support]].
 
 ### 🏷️ Button Names on Other Controllers
 

@@ -16,7 +16,7 @@
 | :--- | :--- | :--- |
 | **Release Date** | 📅 May 2, 2026 | 📅 July 11, 2026 (Version 3.1) |
 | **Modern OS Support**<sup>1</sup> | • Linux<sup>2</sup><br />• Windows | • Android<br />• iOS<br />• Linux<br />• macOS<br />• Windows |
-| **Store Availability** | ❌ None | • **Steam** (Windows)<br />• **Google Play Store** (Android)<br />• **Apple App Store** (iOS and macOS) |
+| **Store Availability** | ❌ None | • **Steam** (Linux, macOS, and Windows)<br />• **Google Play Store** (Android)<br />• **Apple App Store** (iOS and macOS) |
 
 - <sup>1</sup> Official precompiled binaries exist and can be downloaded from official sources.
 - <sup>2</sup> Depends on availability in Linux distributions' package repositories.
