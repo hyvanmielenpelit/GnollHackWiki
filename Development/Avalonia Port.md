@@ -27,6 +27,8 @@ The Avalonia port is built in two flavors, one for each operating system:
 
 Both flavors are built on Windows. The Linux flavor also needs WSL, which compiles the game engine and the game data, assembles the packages, and can run the game for testing.
 
+A macOS flavor for Apple Silicon Macs (`osx-arm64`) is in preparation. It is packaged as a signed and notarized `GnollHack.app` for Steam and a DMG download, and built on Windows with a Mac reached over SSH: [[/Development/Build Instructions for Avalonia macOS Version on Windows]].
+
 ## 🧑‍💻 Building
 
 The Avalonia port uses a newer .NET SDK than the other modern clients. Its SDK and .NET MAUI workload versions are pinned in `Platforms\Avalonia\global.json`, and every `dotnet` command for the Avalonia port must run in that folder, for example:
@@ -63,6 +65,7 @@ Avalonia.Controls.Maui is younger than .NET MAUI's own backends, and GnollHack w
 - [[/Development/Design Details of Windows Avalonia Port]]
 - [[/Development/Build Instructions for Avalonia Linux Version on Windows]]
 - [[/Development/Build Instructions for Avalonia Windows Version on Windows]]
+- [[/Development/Build Instructions for Avalonia macOS Version on Windows]]
 - [[/Linux Version]]
 - [[/Development Information]]
 
