@@ -40,8 +40,10 @@ $msbuild = & "${env:ProgramFiles(x86)}\Microsoft Visual Studio\Installer\vswhere
 
 The `MauiAndroid` platform configuration builds both Android and Windows native libraries, and works with Visual Studio 2026 and 2022. `Android+Windows` builds the same and the legacy Xamarin projects, so use it with Visual Studio 2022 only; from the command line, select Visual Studio 2022's MSBuild by replacing `-latest` with `-version "[17.0,18.0)"`. You can also use `x64` for Windows only, or `iPhone` for iOS only. `ARM64` builds the Android libraries without the Windows one, but also the legacy Xamarin projects, so it too needs Visual Studio 2022.
 
+To build every library version at once, use `Any CPU`. It is the platform normally used for a full build, and for checking that everything still builds: it builds the Windows, Android, iOS, macOS and Linux libraries. It compiles the iOS and macOS libraries on the Mac, so a fully successful build needs the Mac awake and reachable over SSH; without a Mac, use the other platforms. It also builds the legacy Xamarin projects, so it needs Visual Studio 2022.
+
 > ⚠️ **Warning:** For Android and iOS builds, start the SSH service in WSL first (`sudo service ssh start`), as `dlbdroid` generates the NetHack `nhdat` game data archive inside WSL.
-> For iOS builds, use the `iPhone` platform configuration and make sure the Mac is awake and reachable over SSH, since the iOS library is compiled there. No `vcremote` is needed on the Mac.
+> For iOS builds, use the `iPhone` or `Any CPU` platform configuration and make sure the Mac is awake and reachable over SSH, since the iOS library is compiled there. No `vcremote` is needed on the Mac.
 
 ## 2. Build GnollHackM
 

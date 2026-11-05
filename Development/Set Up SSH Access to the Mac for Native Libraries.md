@@ -2,7 +2,7 @@
 
 ## 📖 Overview
 
-When you build `GnollHack.sln` with a solution platform that includes an Apple engine library, such as **iPhone** for `libgnollhackios.a` or **macOS** for `libgnollhackmac.dylib`, Visual Studio copies the engine sources to the Mac over SSH, compiles them there with Xcode's clang, and copies the library back to Windows. No `vcremote` and no PuTTY or PSCP download scripts are needed. **Pair to Mac** is still needed for the .NET MAUI iOS app itself, as described in [[/Development/Build Instructions for iOS Version on Windows (.NET MAUI)]].
+When you build `GnollHack.sln` with a solution platform that includes an Apple engine library, such as **iPhone** for `libgnollhackios.a`, **macOS** for `libgnollhackmac.dylib`, or **Any CPU** for both, Visual Studio copies the engine sources to the Mac over SSH, compiles them there with Xcode's clang, and copies the library back to Windows. No `vcremote` and no PuTTY or PSCP download scripts are needed. **Pair to Mac** is still needed for the .NET MAUI iOS app itself, as described in [[/Development/Build Instructions for iOS Version on Windows (.NET MAUI)]].
 
 The build connects to the Mac under the SSH host alias `gnollhack-mac`. It never prompts for anything, so it needs a key without a passphrase, and the Mac's host key must already be accepted.
 
