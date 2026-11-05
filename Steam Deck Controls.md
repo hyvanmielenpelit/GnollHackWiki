@@ -57,8 +57,8 @@ L1 and R1 do nothing on their own. They are hold modifiers that change what the 
 | **B** | Search (`s`); first closes an open overlay, and interrupts an ongoing activity | Search 20 times | |
 | **X** | Pick Up (`,`) | Pick Up and Stash (`;`) | |
 | **Y** | Repeat (`Ctrl+a`) | Wait (`.`) | |
-| **R2** | The action assigned to R2, by default Fire (`f`) | Right Quick radial menu | Set R2 radial menu |
-| **L2** | The action assigned to L2, by default Kick (`k`) | Set L2 radial menu | Left Quick radial menu |
+| **R2** | R2's command, by default By Role: Cast Quick for spellcasters, Polearm for Knights, Fire for the others | Right Quick radial menu | |
+| **L2** | L2's command, by default Kick (`k`) | | Left Quick radial menu |
 | **Menu** | Game menu | Abilities (`Shift+a`) | |
 | **View** | Inventory (`i`) | | Equipment (`*`) |
 | **D-pad** | Walk one step per press, repeating while held; press two directions together to walk diagonally | | Up and Down zoom, Left toggles the minimap, and Right returns to normal zoom |
@@ -69,23 +69,24 @@ L1 and R1 do nothing on their own. They are hold modifiers that change what the 
 
 Holding both L1 and R1 and pressing Y makes your character rest. Clicking the left trackpad does the same as pressing L3.
 
-### 🎯 Trigger Quick Actions
+### 🎯 Trigger Commands
 
-L2 and R2 each have eight quick actions. You can change them in [[Settings]], under Trigger Quick Actions.
+R2 and L2 each run a command when you press them alone, by default Fire and Kick. You can set them to any command, or None, in [[Settings]], under Controller. To choose one, press A on the row: a radial menu of every command opens. L1 and R1 change the page, a stick selects, A sets it, and B closes. Left and Right on the row step through the commands one at a time.
 
-| Trigger | Default Quick Actions | Assigned by Default |
-| :------ | :-------------------- | :------------------ |
-| **R2** | Fire, Swap, Chat, Throw, Cast, Quick Cast, Zap, Quick Zap | Fire |
-| **L2** | Kick, Drop Items, Pray, Yell, Engrave, Two-Weapon, Pick-axe, Polearm | Kick |
+If the command asks for a direction while you still hold the trigger, the **Direction** radial menu opens. See [[Choosing a Direction|#choosing-a-direction]]. Force Fight does not open it, because it is a prefix: press the trigger, then a direction on the left stick or the D-pad. Any other button after it gives an invalid direction message.
 
-- The **Right Quick** and **Left Quick** radial menus run the action that you choose at once.
-- The **Set R2** and **Set L2** radial menus choose which action the trigger performs when you press it alone.
+### ⚙️ Quick Radials
 
-If the assigned action asks for a direction while you still hold the trigger, the **Direction** radial menu opens. See [[Choosing a Direction|#choosing-a-direction]].
+L1 + R2 opens the **Right Quick** radial menu, and R1 + L2 opens the **Left Quick** radial menu. The action that you choose runs at once, and if it asks for a direction, the Direction radial menu opens. You can change their eight actions in [[Settings]], under Quick Radials. You choose them the same way.
+
+| Radial Menu | Default Actions |
+| :---------- | :-------------- |
+| **Right Quick** | Two-Weapon, Swap, Chat, Throw, Cast, Quick Cast, Zap, Quick Zap |
+| **Left Quick** | Apply, Drop Items, Drop Types, Pray, Yell, Engrave, Pick-axe, Polearm |
 
 ### 🕹️ Back Grips
 
-L4, L5, R4, and R5 default to Apply, Cast, Quick Cast, and Quick Zap. You can change them in [[Settings]], under Controller.
+L4, L5, R4, and R5 default to Pick-axe, Polearm, Quick Cast, and Quick Zap. You can change them in [[Settings]], under Controller.
 
 ### 📍 Choosing a Position
 
@@ -103,24 +104,21 @@ When the game asks you to choose a position on the map:
 
 ### 🧭 Choosing a Direction
 
-When the game asks for a direction, press the D-pad to choose it at once, or press two D-pad directions together for a diagonal. You can also aim with the left stick and confirm with A. L1 is up, R1 is down, and B cancels.
-
-When you hold L2 or R2 and its action asks for a direction, the violet **Direction** radial menu opens instead, and only until you release the trigger:
+When the game asks for a direction, the violet **Direction** radial menu opens:
 
 | Control | Action |
 | :------ | :----- |
-| **Either stick** | Select a direction; a stick you are already pushing counts at once |
-| **Releasing the trigger** | Confirm the selected direction, or cancel the action if none is selected |
+| **Either stick, or D-pad Left and Right** | Select a direction |
 | **A** | Confirm the selected direction |
 | **D-pad Up and Down** | Choose up (`<`) or down (`>`) at once |
 | **Y** | Choose yourself at once |
 | **B** | Cancel the action |
 
-An action that shows a menu first, such as Throw, asks for the direction in the usual way afterward.
+If you hold L2 or R2 and its command asks for a direction, releasing the trigger confirms the selected direction, or cancels the action if none is selected, and a stick you are already pushing counts at once.
 
 ## ⭕ Radial Menus
 
-A radial menu stays open until you choose an item or close it. The exception is the Direction radial menu, described in [[Choosing a Direction|#choosing-a-direction]].
+A radial menu stays open until you choose an item or close it. The exception is the Direction radial menu while its trigger is held, described in [[Choosing a Direction|#choosing-a-direction]].
 
 - Select an item with either stick, or step between items with the D-pad.
 - A activates the item, and B closes the menu.
@@ -130,7 +128,7 @@ The radial menus on the map are:
 
 - **Actions:** The actions available on your square, followed by pages of all commands. X switches between the two.
 - **Toggles:** More Messages, Status Screen, Auto-Center, Look Mode, Auto-Dig, Ignore Stopping, Max Hit Points, and Max Mana.
-- **Quick and Set:** The trigger radial menus described in [[Trigger Quick Actions|#trigger-quick-actions]].
+- **Left Quick and Right Quick:** The radial menus described in [[Quick Radials|#quick-radials]].
 
 ## 📜 Menus and Dialogs
 
