@@ -13,4 +13,6 @@
 
 ### macOS
 
+- The iOS version also runs on Macs with Apple Silicon (M1 or later).
 - **Please *disable* Automatic Updates in the App Store Settings/Preferences.**
+- GnollHack also has a native macOS version on Steam, which we recommend for Macs. See [[macOS Version]].

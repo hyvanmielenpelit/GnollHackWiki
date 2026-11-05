@@ -1,12 +1,12 @@
-> 👉 **This page describes how game controller support works in GnollHack, which platforms and controllers it covers, and what it does not cover yet. It reflects the state of the code on November 1, 2026 (version 3.35).**
+> 👉 **This page describes how game controller support works in GnollHack, which platforms and controllers it covers, and what it does not cover yet. It reflects the state of the code on November 5, 2026 (version 3.37).**
 
 ## ℹ️ Overview
 
-GnollHack can be played from start to finish with a game controller on the **Steam Deck**, which is the primary target. The same controls also work with an **Xbox controller** on **Windows** and with a controller on **desktop Linux**. **Android** and **iOS** have no controller support yet.
+GnollHack can be played from start to finish with a game controller on the **Steam Deck**, which is the primary target. The same controls also work with an **Xbox controller** on **Windows**, and with a controller on **desktop Linux** and on **macOS**. **Android** and **iOS** have no controller support yet.
 
 Controller support is built into the shared C# frontend, so all platforms use the same controls, radial menus and on-screen hints. Each platform only adds a small backend that reads the controller. The game never takes input away from the other devices: the first controller press switches the game into controller mode, and touch, the mouse or a key switches it back.
 
-> ℹ️ **Note:** Windows and desktop Linux support was added on November 1, 2026. Steam Deck support came first.
+> ℹ️ **Note:** Windows and desktop Linux support was added on November 1, 2026, and macOS support on November 5, 2026. Steam Deck support came first.
 
 The full reference for every button, setting and environment variable is `DEVEL/gamepad_controls.md` in the GnollHack repository.
 
@@ -18,6 +18,7 @@ The full reference for every button, setting and environment variable is `DEVEL/
 | **Desktop Linux** | Avalonia Linux | evdev: physical pads, and Steam's virtual pads when started from Steam | ❌<sup>1</sup> | ❌<sup>2</sup> |
 | **Windows** | WinUI 3 | XInput | ❌ | ❌ |
 | **Windows (development)** | Avalonia Windows, not released | XInput | ❌<sup>1</sup> | ❌ |
+| **macOS** | Avalonia macOS | Apple's GameController framework | ❌<sup>1</sup> | ❌ |
 | **Android** | .NET MAUI | ❌ Not supported | | |
 | **iOS, and iOS on macOS** | .NET MAUI | ❌ Not supported | | |
 
@@ -30,15 +31,17 @@ On a Steam Deck, the controls only work when the game is started from Steam. Gam
 
 ## 🎮 Supported Controllers
 
-| Controller | Steam Deck | Desktop Linux | Windows |
-|:-----------|:-----------|:--------------|:--------|
-| **Steam Deck's own controls** | ✅ Through Steam Input | | |
-| **Xbox and XInput-compatible** | Through Steam Input | ✅ Tested | ✅ Tested |
-| **PlayStation** | Through Steam Input | Should work, not tested | Only if Steam presents it as an XInput pad, not tested |
-| **Nintendo** | Through Steam Input | Should work, not tested | Only if Steam presents it as an XInput pad, not tested |
-| **Other gamepads** | Through Steam Input | Should work when the device reports standard gamepad controls, not tested | Only XInput devices |
+| Controller | Steam Deck | Desktop Linux | Windows | macOS |
+|:-----------|:-----------|:--------------|:--------|:------|
+| **Steam Deck's own controls** | ✅ Through Steam Input | | | |
+| **Xbox and XInput-compatible** | Through Steam Input | ✅ Tested | ✅ Tested | ✅ Supported |
+| **PlayStation** | Through Steam Input | Should work, not tested | Only if Steam presents it as an XInput pad, not tested | ✅ Supported: DualShock 4 and DualSense |
+| **Nintendo** | Through Steam Input | Should work, not tested | Only if Steam presents it as an XInput pad, not tested | Not tested |
+| **Other gamepads** | Through Steam Input | Should work when the device reports standard gamepad controls, not tested | Only XInput devices | Controllers that macOS supports with an extended gamepad profile, such as MFi controllers |
 
 On Linux, a device counts as a gamepad when it has a south face button and left stick axes. Motion sensor devices are skipped, and Valve's own physical controllers are never read directly. Sony controllers have their X and Y buttons swapped to the positions the game expects.
+
+On macOS, a controller paired in System Settings → Bluetooth or connected by USB is read when it has an extended gamepad profile, and others are skipped. It works when switched on before or during the game. The Home button keeps its macOS action.
 
 The buttons are positional, not printed labels: A is the south button, B the east, X the west and Y the north. The on-screen hints draw the labels of the controller in use, such as Cross and Circle on PlayStation or B and A on Nintendo. A Nintendo controller read directly on desktop Linux has not been tested, and its X and Y may come out reversed. Button names on this page follow the Steam Deck; on an Xbox controller L1/R1 are LB/RB, L2/R2 are LT/RT, View is Back and Menu is Start.
 
@@ -135,7 +138,7 @@ The **Controller** section of Settings appears only when a controller can be use
 
 ### ⌨️ Text Entry
 
-By default, only the Steam Deck in Gaming Mode opens an on-screen keyboard. On Windows and desktop Linux, and in the Deck's Desktop Mode without Steam + X, text must be typed on a keyboard. This affects:
+By default, only the Steam Deck in Gaming Mode opens an on-screen keyboard. On Windows, desktop Linux and macOS, and in the Deck's Desktop Mode without Steam + X, text must be typed on a keyboard. This affects:
 
 - **Text prompts in the game**, such as wishing, engraving and naming. A is OK and submits what has been typed so far, and B cancels or, when wishing, picks at random. Some prompts also offer a list of choices with X.
 - **Text fields on pages**, such as Settings and the name page, where A only focuses the field.
@@ -252,8 +255,9 @@ GnollHack's layout, "GnollHack (Steam Deck)", is Steam's **Gamepad with Mouse Tr
 | **No Controller section in Settings** | No controller has been detected in this session. Connect the controller and open Settings again. |
 | **A controller does nothing on desktop Linux** | The user may not have access to the device. Look for `open=EACCES` on the `GAMEPAD dev` lines of the game's standard error. |
 | **A controller does nothing on Windows** | It may not be an XInput device. Only XInput controllers are read. |
+| **A controller does nothing on macOS** | It may not have an extended gamepad profile. Look for a `GAMEPAD gc skip` line in the game's log. |
 
-On Linux, every run writes lines starting with `GAMEPAD` to standard error at startup and on every hot-plug, naming each device and why it was accepted or skipped. They also reach the game's log when its debug logging is on. `GNOLLHACK_GAMEPAD_LOG=raw` additionally logs every input event. On Windows, only failures are logged.
+On Linux, every run writes lines starting with `GAMEPAD` to standard error at startup and on every hot-plug, naming each device and why it was accepted or skipped. They also reach the game's log when its debug logging is on. `GNOLLHACK_GAMEPAD_LOG=raw` additionally logs every input event. On macOS, the game writes a `GAMEPAD gc` line for each controller that connects, disconnects or is skipped; started outside Terminal, these go to `~/Library/Logs/GnollHack/GnollHack.log`. On Windows, only failures are logged.
 
 ## 🧪 Testing
 

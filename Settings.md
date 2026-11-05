@@ -109,7 +109,7 @@ The Settings screen itself is a single scrolling page. The headings below are th
 
 ### 🎮 Controller
 
-These settings appear on the Steam Deck, and on desktop Linux and Windows once a controller has been detected. See [[Steam Deck Controls]].
+These settings appear on the Steam Deck, and on desktop Linux, macOS, and Windows once a controller has been detected. See [[Steam Deck Controls]].
 
 | Setting Name | Options / Values | Default | Description |
 | :----------- | :--------------: | :-----: | :---------- |
@@ -233,7 +233,9 @@ These settings control the core in-game behavior of the [[Gnoll Overseer|/Guides
 | **Mipmapping on Map** | On / Off | Off | Toggles whether mipmapping is used in map rendering. Mostly obsolete. |
 | **Adjust Rectangles** | On / Off | On | Toggles whether the game adjusts tile rectangles to prevent Skia from drawing non-existing lines between tiles. |
 | **Fix Filtering** | On / Off | On *(iOS)* / Off *(Others)* | Adjusts texture coordinates to prevent graphics filtering artifacts on some devices. |
+| **Metal Rendering** | On / Off | On *(macOS)* / Off *(iOS)* | *(iOS and macOS only)* **Off:** The game is drawn with OpenGL (OpenGL ES on iOS), which Apple has deprecated but which still works.<br>**On:** The game is drawn with Metal, Apple's current graphics interface.<br>On macOS, the change takes effect when GnollHack is started next time. On iOS, it takes effect when the next game or replay starts. |
 | **Disable Windows Key** | On / Off | Off | *(Windows only)* Prevents the Windows key from opening the Start menu, to avoid accidental focus loss during gameplay. |
+| **Allow Option Keys** | On / Off | Off | *(macOS only)* **Off:** Option works as Alt, so Option and a key is that key's Alt command.<br>**On:** Option and a key types the character your keyboard layout puts there when it is a regular character, such as `@` on Option+2 in the Finnish layout. Other Option combinations remain Alt commands. |
 | **Default Vi-Keys** | On / Off | Off | **Off**: The default setting for the `number_pad` option is `2` (numbers for movement).<br>**On**: The default setting is `0` (vi-keys for movement). |
 | **On Switching Apps** | Save Game / Checkpoint | Save Game | **Save Game**: The game is automatically saved and restored when the player returns. Menus close.<br>**Checkpoint**: The game creates a checkpoint and doesn't close menus, but recovers to checkpoint if terminated. |
 | **Map GPU Cache** | Number | Varies | Determines the cache size for Skia GPU rendering for the map. Large numbers can lead to out of memory. |

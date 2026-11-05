@@ -105,7 +105,7 @@ See [[Voiceovers]].
 - macOS
 - Windows
 
-Game controllers are supported on the Steam Deck, Linux, and Windows. See [[Steam Deck Controls]].
+Game controllers are supported on the Steam Deck, Linux, macOS, and Windows. See [[Steam Deck Controls]].
 
 ## 🖱️ Desktop and Technology
 

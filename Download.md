@@ -6,11 +6,11 @@ Google Play and the Google Play logo are trademarks of Google LLC.
 
 ℹ️ [[More Information on Android Version|Android Version]]
 
-## iOS & macOS
+## iOS
 
 <a href="https://apps.apple.com/app/gnollhack/id1626979951">![Download on the App Store](/uploads/Download/app-store-q90.webp)</a>
 
-ℹ️ [[More Information on iOS and macOS Version|iOS and macOS Version]]
+ℹ️ [[More Information on iOS Version|iOS and macOS Version]]
 
 ## Linux
 
@@ -19,6 +19,14 @@ Google Play and the Google Play logo are trademarks of Google LLC.
 Multiple download options are available, although we recommend getting the game on **Steam**, which also covers the Steam Deck. Please click the link below for more information.
 
 ℹ️ [[More Information on Linux Version|Linux Version]]
+
+## macOS
+
+<a href="https://store.steampowered.com/app/3558190/GnollHack/?utm_source=wiki">![Available on Steam](/uploads/Download/steam-q90.webp)</a><br />
+
+We recommend getting the native macOS version on **Steam**. The iOS version from the App Store also runs on Macs with Apple Silicon. Please click the link below for more information.
+
+ℹ️ [[More Information on macOS Version|macOS Version]]
 
 ## Windows (Modern Version)
 
