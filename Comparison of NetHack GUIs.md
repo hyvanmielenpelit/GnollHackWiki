@@ -72,3 +72,4 @@ GnollHack has its own **custom tileset**. Its tiles vary in size. They are usual
 ## 📖 See Also
 
 - **[[Comparisons to Other Games]]**
+- **[[Graphical NetHack Ports and Variants]]**
