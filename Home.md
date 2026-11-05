@@ -8,7 +8,7 @@ GnollHack is the modern way to play [NetHack](https://www.nethack.org/), one of 
 
 - **100% free:** No ads or in-app purchases
 - **Play anywhere:** Windows, macOS, Linux, iOS, Android, and Steam Deck
-- **Play your way:** Full support for touch, mouse, keyboard, gamepad, and Steam Deck's built-in controls.
+- **Play your way:** Full touch, mouse, keyboard, and gamepad support, including Steam Deck controls
 
 > ### ⭐⭐⭐⭐⭐
 >
