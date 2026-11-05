@@ -56,6 +56,19 @@ Entries are in alphabetical order within each category, and a project can appear
 | **NetHack 3D (web version)** ⭐<br /><small>The browser version of NetHack 3D. It plays vanilla NetHack 5.0, NetHack 3.6.7, or SLASH'EM in 3D without installing anything.</small> | 🟢 **In active development** | Free | [NetHack 3D](https://jamesiv4.github.io/nethack-3d/): web browsers, including mobile | 🔇 |
 | **NetHack Browser Edition**<br /><small>Vanilla NetHack 3.6.7 in the web browser, with several tile sets, a text mode, and optional cloud saves. It has a few sound effects but no music.</small> | 🟡 Maintained | Free | [roguelike.run](https://roguelike.run/): desktop and mobile web browsers | 🔇 |
 
+## 🎖️ Scoreboards and Tournaments
+
+The [NetHack Scoreboard](https://nethackscoreboard.org/) is the NetHack community's leaderboard across servers and variants, and [[Junethack]] is the community's cross-variant tournament, held every June. Both read the game logs of a fixed list of servers, such as the NAO and Hardfought public servers, so a game you play on your own device counts only if the port reports it to one of those servers. These projects on this page have their games counted:
+
+| Port or Variant | NetHack Scoreboard | Junethack | How Games Are Counted |
+| :-- | :-: | :-: | :-- |
+| **GnollHack** ⭐ | ✅ Yes | ✅ Yes | Every build except the [[Legacy Windows Version]] can post finished games to the [[GnollHack Account]] server, which both sites track. The NetHack Scoreboard needs [[Classic Mode]] and [[/Difficulties/Expert]] difficulty or higher. For Junethack, link your Junethack username to your GnollHack Account and turn on [[Tournament Mode]]. GnollHack games on the Hardfought servers are counted as well. |
+| **Hardfought web terminal** | ✅ Yes | ✅ Yes | Games on all three Hardfought servers, including the variants with tiles, such as xNetHack, EvilHack, SpliceHack, and UnNetHack. |
+| **NAO web terminal** | ✅ Yes | ✅ Yes | The NetHack Scoreboard counts both NetHack 5.0 and 3.6 games; Junethack 2026 counted only NetHack 5.0. |
+| **NetHack Tiles Client** | ✅ Yes | ✅ Yes | The games run on the NAO and Hardfought servers, so they count the same as games in their web terminals. |
+
+The other projects on this page, including NetHack 3D, VoxHack, DartHack, and the official NetHack 5.0 download, keep their games on your own device, and neither site counts them. EvilHack and xNetHack games count only when played on Hardfought, not in their Windows downloads.
+
 ## 🏆 Most Developed Interfaces
 
 Judged only by the work put into the graphical interface itself, not by gameplay changes, server hosting, or other development, these projects stand out:
@@ -72,6 +85,7 @@ Judged only by the work put into the graphical interface itself, not by gameplay
 | **To play on a phone or tablet** | GnollHack, DartHack, NetHack Android, iNethack2, or NetHack 3D |
 | **To play without installing anything** | NetHack 3D (web version) or NetHack Browser Edition |
 | **To play online on a public server** | The NAO or Hardfought web terminals, or the NetHack Tiles Client |
+| **To compete on the NetHack Scoreboard or in Junethack** | GnollHack, the NAO or Hardfought web terminals, or the NetHack Tiles Client |
 | **Virtual reality or first-person 3D** | NetHack 3D on Meta Quest, or VoxHack |
 | **A NetHack variant with graphics** | EvilHack, GnollHack, or xNetHack |
 | **To play in Japanese** | DartHack or NetHackJP |
