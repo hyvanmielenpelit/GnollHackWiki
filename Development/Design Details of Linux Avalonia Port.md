@@ -4,7 +4,7 @@ For what the Avalonia port is, see [[/Development/Avalonia Port]]. For building 
 
 ## ℹ️ Overview
 
-The Linux version is the `linux-x64` flavor of the Avalonia port. Most of its design is shared with the Windows flavor, which is built from the same project with the same code; this page describes all of it. The Windows flavor's differences are on [[/Development/Design Details of Windows Avalonia Port]].
+The Linux version is the `linux-x64` flavor of the Avalonia port. Most of its design is shared with the Windows flavor, which is built from the same project with the same code; this page describes all of it. The macOS version's differences are on [[/Development/Design Details of macOS Avalonia Port]], and the Windows flavor's on [[/Development/Design Details of Windows Avalonia Port]].
 
 In this page, `Platforms\` means `win\win32\xpl\GnollHackM\Platforms\`. The Avalonia C# code that every flavor compiles is in `Platforms\Avalonia\`. `Platforms\Linux\` holds the C# that only the Linux version compiles, including the CEF code in `Platforms\Linux\Cef\`, and the files that only the Linux version ships.
 
@@ -54,7 +54,7 @@ GnollHack writes its own `Main`, in `AvaloniaDesktopProgram.cs`, instead of usin
 2. **HarfBuzzSharp is preloaded** with `RTLD_NOW` (WA-SKIASHARP-0009). With FreeType 2.14 and later, fontconfig loads the system HarfBuzz globally while it scans fonts, and HarfBuzzSharp's lazily bound calls would then go to the system copy and abort.
 3. **fontconfig is configured**, before any other thread starts, because changing the environment is not safe while another thread reads it. See [[Fonts|#fonts]].
 4. **A native library resolver** is installed for `fmod`, `fmodstudio` and `sentry`. See [[Game Engine, Data and Sound|#game-engine-data-and-sound]].
-5. **Avalonia starts** with X11 options (see [[Window|#window]]) and a 1 GiB Skia GPU resource budget, and runs the .NET MAUI app.
+5. **Avalonia starts** with X11 options (see [[Window|#window]]) and a 1.5 GiB Skia GPU resource budget, and runs the .NET MAUI app.
 6. **CEF shuts down** after the window has closed and Avalonia has returned.
 
 `MauiProgram.CreateMauiApp` then sets up the .NET MAUI side, in this order:
@@ -91,7 +91,7 @@ The game's SkiaSharp views are drawn by GnollHack's own Avalonia controls rather
 - **GPU views** (`SKGLView`, which includes the map): `GHAvaloniaGLControl` keeps one GPU surface per pixel size and paints into it on Avalonia's render thread, then draws a snapshot of it onto Avalonia's canvas. It skips the paint when the game has sent no new render data, so a replay of the same frame costs nothing. Under the software renderer it paints into a CPU surface instead.
 - **CPU views** (`SKCanvasView`): `GHAvaloniaCanvasControl` paints on the UI thread, outside Avalonia's render pass, and hands the finished image to the render thread (WA-AVALONIA-0010). GnollHack's views read and write .NET MAUI properties while they paint, which is not allowed during Avalonia's render pass. Paint requests are merged into one, run after layout, and a view that asks for another paint from its own paint waits behind input.
 
-All GPU views share Avalonia's single Skia GPU context, so GnollHack does not manage that context's resource cache as it does on the other clients; the 1 GiB budget set at startup takes its place. GPU surfaces are released through `GHGLResourceGraveyard`, which disposes them only on the render thread with the context current. It also disposes resources of a context that Avalonia has already replaced, since Skia would otherwise free only their CPU side.
+All GPU views share Avalonia's single Skia GPU context, so GnollHack does not manage that context's resource cache as it does on the other clients; the 1.5 GiB budget set at startup takes its place. GPU surfaces are released through `GHGLResourceGraveyard`, which disposes them only on the render thread with the context current. It also disposes resources of a context that Avalonia has already replaced, since Skia would otherwise free only their CPU side.
 
 Avalonia.Controls.Maui's own Skia handlers have defects that GnollHack's handlers work around: their property mappers do nothing (WA-AVALONIA-0002), aligned views collapse to zero size (WA-AVALONIA-0003), and they raise no mouse hover (WA-AVALONIA-0009). The files are in `Platforms\Avalonia\Rendering\`.
 
@@ -342,6 +342,7 @@ The Linux version works around defects in Avalonia, Avalonia.Controls.Maui, CEF,
 ## 📖 Learn More
 
 - [[/Development/Avalonia Port]]
+- [[/Development/Design Details of macOS Avalonia Port]]
 - [[/Development/Design Details of Windows Avalonia Port]]
 - [[/Development/Build Instructions for Avalonia Linux Version on Windows]]
 - [[/Linux System Requirements]]
