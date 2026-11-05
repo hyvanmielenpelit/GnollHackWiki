@@ -22,7 +22,7 @@ The Avalonia port is built in three flavors, one for each operating system:
 | **Rendering** | OpenGL through GLX, with a software fallback | Metal, then OpenGL, then software; the Metal Rendering setting chooses OpenGL | Avalonia's Windows renderer |
 | **In-game web pages** | Chromium (CEF), built into the game; WebKitGTK as a fallback | WKWebView, built into macOS | Microsoft Edge WebView2 |
 | **Game controllers** | evdev, and Steam Input on the Steam Deck | Apple's GameController framework | XInput |
-| **Crash reporting** | Sentry, including native crashes | Sentry, managed exceptions only | None |
+| **Crash reporting** | Sentry, including native crashes | Sentry, including native crashes | None |
 | **Saved games and settings** | `~/.local/share/GnollHack` | `~/Library/Application Support/GnollHack` | `%LOCALAPPDATA%\GnollHack-Avalonia` |
 | **Build instructions** | [[/Development/Build Instructions for Avalonia Linux Version on Windows]] | [[/Development/Build Instructions for Avalonia macOS Version on Windows]] | [[/Development/Build Instructions for Avalonia Windows Version on Windows]] |
 

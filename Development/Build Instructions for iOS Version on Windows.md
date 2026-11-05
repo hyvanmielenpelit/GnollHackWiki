@@ -148,7 +148,7 @@ On the Windows computer,
 2. Start **Windows Subsystem for Linux (WSL)** from the start menu.
 3. In WSL, **start SSH** by typing `sudo service ssh start`.
 4. Set **GnollHackX.iOS** as a startup project. If you need to do this, you need also restart Visual Studio.
-5. Select **iPhone** or **Any CPU** as your solution platform in the menu bar. Any CPU will also [[build the Android project|/Development/Build Instructions for Android Version on Windows]].
+5. Select **iPhone** or **Any CPU** as your solution platform in the menu bar. Any CPU will also [[build the Android project|/Development/Build Instructions for Android Version on Windows]], and the Windows, Linux and macOS engine libraries.
 6. Select **Debug** as your solution configuration in the menu bar.
 7. Select your **iOS device** in the menu bar.
 8. [[/Development/Rebuild Solution]].
