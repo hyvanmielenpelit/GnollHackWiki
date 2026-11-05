@@ -6,7 +6,7 @@ For what the Avalonia port is, see [[/Development/Avalonia Port]]. For building 
 
 The Linux version is the `linux-x64` flavor of the Avalonia port. Most of its design is shared with the Windows flavor, which is built from the same project with the same code; this page describes all of it. The Windows flavor's differences are on [[/Development/Design Details of Windows Avalonia Port]].
 
-In this page, `Platforms\` means `win\win32\xpl\GnollHackM\Platforms\`. The Avalonia-only C# code is in `Platforms\Avalonia\`, the CEF code in `Platforms\Avalonia\Cef\`, and the files that only the Linux version ships in `Platforms\Linux\`.
+In this page, `Platforms\` means `win\win32\xpl\GnollHackM\Platforms\`. The Avalonia C# code that every flavor compiles is in `Platforms\Avalonia\`. `Platforms\Linux\` holds the C# that only the Linux version compiles, including the CEF code in `Platforms\Linux\Cef\`, and the files that only the Linux version ships.
 
 ## 🏗️ Project Structure
 
@@ -179,7 +179,7 @@ The game reads its own files only from the folder of the executable, and writes 
 
 ## 🌐 Web View Engine
 
-In-game web pages, such as this wiki and the [[/Gnoll Overseer]], use the Chromium Embedded Framework (CEF), which ships with the game, so players need no web browser components. The managed bindings are CefGlue, and the native CEF build comes from a NuGet package; both are referenced in `GnollHackM.csproj` for Linux only, at matching versions. The code is in `Platforms\Avalonia\Cef\`, and none of it is compiled into the Windows flavor.
+In-game web pages, such as this wiki and the [[/Gnoll Overseer]], use the Chromium Embedded Framework (CEF), which ships with the game, so players need no web browser components. The managed bindings are CefGlue, and the native CEF build comes from a NuGet package; both are referenced in `GnollHackM.csproj` for Linux only, at matching versions. The code is in `Platforms\Linux\Cef\`, and none of it is compiled into the Windows flavor.
 
 ### 🔀 Engine Selection
 

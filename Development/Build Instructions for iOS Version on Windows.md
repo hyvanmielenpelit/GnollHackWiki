@@ -1,5 +1,7 @@
 > 🛑 **Caution:** This document describes the legacy iOS workflow. For the current build instructions, see [[/Development/Build Instructions for iOS Version on Windows (.NET MAUI)]].
 
+> ℹ️ **Note:** `libgnollhackios.a` is now built on the Mac over SSH, without `vcremote` or PuTTY and PSCP, so the vcremote and download script steps below no longer apply. See [[/Development/Set Up SSH Access to the Mac for Native Libraries]].
+
 ## 1. Preparations
 
 ### 1.1. Devices
