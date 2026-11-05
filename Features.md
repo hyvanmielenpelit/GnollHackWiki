@@ -97,6 +97,15 @@ See [[Voiceovers]].
 - When opened during play, the Overseer reads your current stats, inventory, and surroundings to give spoiler-aware tactical advice — and stays completely out of the way if you prefer playing unaided.
 - Model accuracy, speed, and reliability are evaluated continuously with **[[GnollBench]]**, the Gnoll Overseer's own multi-provider benchmark.
 
+## 🎮 Steam Deck and Game Controllers
+
+- Play the whole game with the Steam Deck's built-in controls, starting from version 3.32, or with a game controller on Windows, Linux, and macOS.
+- Radial menus put every command within reach, and a strip of button hints at the bottom of the screen always shows what each button does.
+- The controller also works in menus, settings, the in-app wiki, and the Gnoll Overseer chat.
+- Xbox controllers work on all three desktop platforms, and PlayStation controllers are also supported on macOS.
+
+See [[Steam Deck and Controller Support|Steam Deck Controls]].
+
 ## 💻 Platform Support (Modern Graphical UI)
 
 - Android

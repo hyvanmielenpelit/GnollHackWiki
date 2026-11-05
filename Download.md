@@ -16,7 +16,7 @@ Google Play and the Google Play logo are trademarks of Google LLC.
 
 <a href="https://store.steampowered.com/app/3558190/GnollHack/?utm_source=wiki">![Available on Steam](/uploads/Download/steam-q90.webp)</a><br />
 
-Multiple download options are available, although we recommend getting the game on **Steam**, which also covers the Steam Deck. Please click the link below for more information.
+Multiple download options are available, although we recommend getting the game on **Steam**, which also covers the Steam Deck. You can play both the Steam version and the AppImage with a game controller, such as an Xbox controller. Please click the link below for more information.
 
 ℹ️ [[More Information on Linux Version|Linux Version]]
 
@@ -24,15 +24,23 @@ Multiple download options are available, although we recommend getting the game 
 
 <a href="https://store.steampowered.com/app/3558190/GnollHack/?utm_source=wiki">![Available on Steam](/uploads/Download/steam-q90.webp)</a><br />
 
-We recommend getting the native macOS version on **Steam**. The iOS version from the App Store also runs on Macs with Apple Silicon. Please click the link below for more information.
+We recommend getting the native macOS version on **Steam**. The Steam version supports game controllers, such as Xbox and PlayStation controllers. The iOS version from the App Store also runs on Macs with Apple Silicon. Please click the link below for more information.
 
 ℹ️ [[More Information on macOS Version|macOS Version]]
+
+## Steam Deck
+
+<a href="https://store.steampowered.com/app/3558190/GnollHack/?utm_source=wiki">![Available on Steam](/uploads/Download/steam-q90.webp)</a><br />
+
+Get GnollHack on **Steam** and play it with the Steam Deck's built-in controls. Controller support is on by default, with radial menus and on-screen button hints.
+
+ℹ️ [[More Information on Steam Deck Controls|Steam Deck Controls]]
 
 ## Windows (Modern Version)
 
 <a href="https://store.steampowered.com/app/3558190/GnollHack/?utm_source=wiki">![Available on Steam](/uploads/Download/steam-q90.webp)</a><br />
 
-Multiple download options are available, although we recommend getting the game on **Steam**. Please click the link below for more information.
+Multiple download options are available, although we recommend getting the game on **Steam**. You can play with an Xbox controller or another XInput controller. Please click the link below for more information.
 
 ℹ️ [[More Information on Modern Windows Version|Modern Windows Version]]
 

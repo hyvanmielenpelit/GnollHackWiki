@@ -38,7 +38,7 @@ GnollHack can also be viewed as a NetHack remaster, adding the following modern 
 - **Modern UI**
     - Mobile touch-based UI on Android and iOS
     - Modern UI for desktop, adapted from the mobile UI
-    - Game controller support with radial menus on the Steam Deck, Linux, macOS, and Windows
+- **Steam Deck and game controllers** — Play with the Steam Deck's built-in controls, or with a game controller such as an Xbox controller on Linux, macOS, and Windows, using radial menus and on-screen button hints (see [[Steam Deck Controls]])
 - **Optional AI advisor** — The [[Gnoll Overseer]] offers opt-in tactical advice grounded in your live game state and real game data
 
 All graphics, sounds, music, and voiceovers in the game have been made by *real people*. No game art or audio is generated with AI.

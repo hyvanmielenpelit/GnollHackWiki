@@ -4,9 +4,11 @@
 
 <small>*Disclaimer: GnollHack doesn't use AI art in the game. It's only used on the wiki as illustrations. Please see our [[AI Usage Policy]].*</small>
 
-GnollHack is a modern evolution of the legendary [NetHack](https://www.nethack.org/) — one of the deepest and greatest roguelikes ever created. It takes the limitless depth and emergent gameplay of the original and elevates them with a modern UI, animated tile graphics, sound effects, music, and voiceovers. Whether you're a curious newcomer or a seasoned NetHack veteran, GnollHack delivers the definitive modern NetHack experience — freely available on both mobile and desktop.
+GnollHack is the modern way to play [NetHack](https://www.nethack.org/), one of the deepest and greatest roguelikes ever created. It takes the limitless depth and emergent gameplay of the original and elevates them with a modern UI, animated tile graphics, sound effects, music, and voiceovers, while preserving most of NetHack's core mechanics and complexity. This makes it an ideal choice for NetHack veterans seeking a graphical upgrade with expanded mechanics. Its modern interface and cross-platform support also help newcomers experience traditional roguelike gameplay with minimal friction.
 
-GnollHack is best understood as a modernized version of NetHack that makes the classic experience more approachable for today’s players. It preserves the core mechanics and depth of NetHack while presenting them in a modern package, making it an ideal introduction to NetHack for modern gamers.
+- **100% free:** No ads or in-app purchases
+- **Play anywhere:** Windows, macOS, Linux, iOS, Android, and Steam Deck
+- **Controller support:** GnollHack fully supports the Steam Deck's built-in controls, and you can play the desktop versions with an Xbox controller or other gamepad.
 
 > ### ⭐⭐⭐⭐⭐
 >
@@ -33,6 +35,7 @@ GnollHack is best understood as a modernized version of NetHack that makes the c
 ## 🏁 Getting Started
 
 - **[[Download]]** — Download and installation instructions for GnollHack
+- **[[Steam Deck and Controller Support|Steam Deck Controls]]** — Play with the Steam Deck's built-in controls or a game controller, such as an Xbox controller
 - **[[Tutorials]]** — Learn to play GnollHack
 - **[[Choosing the Right Gameplay Mode]]** *(modern versions only)*
 - **[[Choosing the Right Difficulty Level]]**
