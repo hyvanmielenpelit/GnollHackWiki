@@ -35,10 +35,13 @@ Create or extend the file `config` in the `.ssh` folder of your Windows user pro
 ```text
 Host gnollhack-mac
     HostName <the Mac's host name or IP address>
+    HostKeyAlias gnollhack-mac
     User <your Mac user name>
     IdentityFile ~/.ssh/gnollhack_mac
     IdentitiesOnly yes
 ```
+
+`HostKeyAlias` makes `ssh` remember the Mac's host key under the alias instead of under its address, so the Mac stays trusted when its address changes, for example when you take it to another network. See [[When the Mac's Address Changes|#when-the-macs-address-changes]].
 
 > 💡 **Tip:** Replace both placeholders, angle brackets included. An unreplaced `<...>` makes `ssh` stop with "invalid quotes" or "extra arguments at end of line". The user name is the short name that `whoami` prints on the Mac.
 
@@ -78,9 +81,23 @@ sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
 sudo xcodebuild -license accept
 ```
 
+## 🌐 When the Mac's Address Changes
+
+The Mac's address is entered in one place only: the `HostName` line of the `gnollhack-mac` entry in `%USERPROFILE%\.ssh\config`. Nothing in the GnollHack repository or in Visual Studio holds it. When the address changes, for example because you moved to another location:
+
+1. Find the Mac's new IP address on the Mac under **System Settings → Network**, or with `ipconfig getifaddr en0` in Terminal (`en1` if `en0` prints nothing).
+2. Open `%USERPROFILE%\.ssh\config` in Notepad, replace the address on the `HostName` line, and save.
+3. Run the test in step 5.
+
+No rebuild or Visual Studio restart is needed: `ssh` reads the config file on every connection.
+
+If your entry has no `HostKeyAlias` line, because you set it up before this page recommended one, the Mac's key is trusted under the old address only, and the build fails with `error GNHAB006` until the key is accepted again. Add the `HostKeyAlias gnollhack-mac` line now, then run `ssh gnollhack-mac` once and answer `yes`. After that, address changes need only the `HostName` edit.
+
+> 💡 **Tip:** To avoid editing the address at all, give the Mac a fixed address on each network you use, for example a DHCP reservation on your router, or set `HostName` to the Mac's local network name, shown under **System Settings → General → Sharing → Local hostname**, such as `Your-MacBook.local`. Windows resolves `.local` names on most home networks, but not on all of them, so an IP address is the more reliable choice.
+
 ## ⚙️ Using Another Alias
 
-The build uses the alias `gnollhack-mac` unless you name another one, for example to build on a second Mac. Add a second `Host` entry to the config file, set it up as above, and tell the build which alias to use in either of these ways:
+The build uses the alias `gnollhack-mac` unless you name another one, for example to build on a second Mac. Add a second `Host` entry to the config file, with its own `HostKeyAlias` set to the new alias, set it up as above, and tell the build which alias to use in either of these ways:
 
 - Set the environment variable `GNOLLHACK_MAC_SSH_HOST` to the alias (see [[/Development/How to Add Environment Variable on Windows]]), then restart Visual Studio.
 - When building from the command line with MSBuild, add `/p:GnhAppleExtraArgs="-SshHost <alias>"`.
@@ -92,7 +109,8 @@ The alias may contain only letters, digits, and the characters `.`, `_`, `@` and
 - **`Permission denied`** in the test: the key is not in `~/.ssh/authorized_keys` on the Mac. Repeat step 4.
 - **The test asks for a password**: the `IdentityFile` line does not point to the key, or the key is not installed on the Mac. Check step 3, then repeat step 4.
 - **`ssh` reports a bad configuration option, "invalid quotes" or "extra arguments at end of line"**: the config file has a BOM or an unreplaced placeholder. Check step 3.
-- **The build stops with `error GNHAB006: Cannot connect to the Mac`**: the Mac is asleep or unreachable, Remote Login is off, or the alias does not log in without a password. Run the test in step 5.
+- **The build stops with `error GNHAB006: Cannot connect to the Mac`**: the Mac is asleep or unreachable, its address has changed, Remote Login is off, or the alias does not log in without a password. Check the address as in [[When the Mac's Address Changes|#when-the-macs-address-changes]], then run the test in step 5.
+- **`ssh` warns that the remote host identification has changed**: with `HostKeyAlias` set, another computer answered at that address, or the Mac's system was reinstalled. Find out which before you remove the old key with `ssh-keygen -R gnollhack-mac` and accept the new one.
 - **The build stops with `error GNHAB007`**: the SDK is not available on the Mac. Follow step 6.
 
 On the Mac, the build works in the `gnollhack-build` folder of your home folder, in one subfolder for each platform, configuration and checkout, such as `ios-Debug-mypc-1a2b3c4d`. Deleting any of them is safe: the next build recreates it and compiles everything again. The macOS packaging uses `package-in` and `package` in the same folder. `package/<version>-<build>` holds the build results, the Steam depot content included, until the next build of the same version replaces them.

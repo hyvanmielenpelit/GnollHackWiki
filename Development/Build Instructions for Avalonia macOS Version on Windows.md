@@ -100,7 +100,7 @@ Sign in to the Mac as the user that the SSH alias `gnollhack-mac` logs in as: th
 | **Key ID** | Names the API key | The Team Keys table | With the `.p8` |
 | **Issuer ID** | Names the team's API account | Above the Team Keys table | With the `.p8` |
 | **Signing keychain password** | Lets the build unlock the signing keychain | `~/.gnollhack/signing-keychain-password`, made in step 2 | None needed: if it is lost, make a new keychain with steps 2–4 |
-| **SSH alias `gnollhack-mac`** | Lets the Windows computer reach the Mac | `%USERPROFILE%\.ssh\config` on Windows | — |
+| **SSH alias `gnollhack-mac`** | Lets the Windows computer reach the Mac | `%USERPROFILE%\.ssh\config` on Windows. Its `HostName` line is the Mac's address, the only place it is entered | — |
 | **Steam app ID and macOS depot ID** | Fill in the SteamPipe build scripts | Steamworks → the app → SteamPipe → Depots | Not secret |
 
 When the setup works, move the `.p12`, the `.p8` and the request file into the team's secure storage and delete them from `~/DeveloperIDMac`: the signing keychain holds everything the build needs.
@@ -240,7 +240,7 @@ A depot uploaded from Windows installs with every file marked executable, which 
 | `GNHMP004` | `-Targets Steam` without `-SteamAppId` and `-SteamDepotId`, or `-NotaryProfile` without a Developer ID `-SigningIdentity`. |
 | `GNHMP005` | A path or the SSH alias contains a space or another character the script does not accept. The alias may not contain `@`. |
 | `GNHMP006` | `dotnet publish` failed; its errors are above. A missing tile set or sound bank shows as `GNHNI002` or `GNHNI003`. |
-| `GNHMP008` or `GNHAB006`: cannot connect to the Mac | The Mac is asleep, Remote Login is off, or the SSH key is not set up. See [[/Development/Set Up SSH Access to the Mac for Native Libraries]]. |
+| `GNHMP008` or `GNHAB006`: cannot connect to the Mac | The Mac is asleep, its address has changed, Remote Login is off, or the SSH key is not set up. See [[/Development/Set Up SSH Access to the Mac for Native Libraries]], which also tells where to enter a new address. |
 | `GNHMP010` | Packaging on the Mac failed. The `GNHMP1nn` error above it names the step. |
 | `GNHMP012` | A file of the Steam content differs after the copy to Windows. Run the build again. |
 | The game started from Steam is not treated as the Steam version | The launch option has no arguments. Set them to `-store steam`. |
