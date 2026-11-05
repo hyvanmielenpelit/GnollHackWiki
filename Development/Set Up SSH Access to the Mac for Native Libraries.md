@@ -1,4 +1,4 @@
-> 👉 **The Windows build of GnollHack compiles the iOS and macOS engine libraries on a Mac over SSH. This page sets up the key-based SSH access that the build needs, once for each Windows computer.**
+> 👉 **The Windows build of GnollHack compiles the iOS and macOS engine libraries, and packages the macOS app, on a Mac over SSH. This page sets up the key-based SSH access that the build needs, once for each Windows computer.**
 
 ## 📖 Overview
 
@@ -85,7 +85,7 @@ The build uses the alias `gnollhack-mac` unless you name another one, for exampl
 - Set the environment variable `GNOLLHACK_MAC_SSH_HOST` to the alias (see [[/Development/How to Add Environment Variable on Windows]]), then restart Visual Studio.
 - When building from the command line with MSBuild, add `/p:GnhAppleExtraArgs="-SshHost <alias>"`.
 
-The alias may contain only letters, digits, and the characters `.`, `_`, `@` and `-`.
+The alias may contain only letters, digits, and the characters `.`, `_`, `@` and `-`. The macOS packaging script does not accept `@`, so give a Mac you package on a plain alias.
 
 ## ❓ Troubleshooting
 
@@ -95,4 +95,4 @@ The alias may contain only letters, digits, and the characters `.`, `_`, `@` and
 - **The build stops with `error GNHAB006: Cannot connect to the Mac`**: the Mac is asleep or unreachable, Remote Login is off, or the alias does not log in without a password. Run the test in step 5.
 - **The build stops with `error GNHAB007`**: the SDK is not available on the Mac. Follow step 6.
 
-On the Mac, the build works in the `gnollhack-build` folder of your home folder, in one subfolder for each platform, configuration and checkout, such as `ios-Debug-mypc-1a2b3c4d`. Deleting any of them is safe: the next build recreates it and compiles everything again.
+On the Mac, the build works in the `gnollhack-build` folder of your home folder, in one subfolder for each platform, configuration and checkout, such as `ios-Debug-mypc-1a2b3c4d`. Deleting any of them is safe: the next build recreates it and compiles everything again. The macOS packaging uses `package-in` and `package` in the same folder. `package/<version>-<build>` holds the build results, the Steam depot content included, until the next build of the same version replaces them.

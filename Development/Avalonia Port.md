@@ -4,7 +4,7 @@
 
 GnollHack's modern client is a single .NET MAUI app, `GnollHackM`. On Android, iOS and Windows, .NET MAUI draws it with each platform's own UI framework, such as WinUI 3 on Windows. .NET MAUI has no Linux backend of its own, so the Linux version uses **Avalonia.Controls.Maui**, which implements .NET MAUI's controls on top of [Avalonia UI](https://avaloniaui.net/). Avalonia runs on Linux, Windows and macOS, so the same build also runs on Windows.
 
-The Avalonia port is not a separate code base. It is the same `GnollHackM.csproj`, the same C# code and the same XAML pages, built with the MSBuild property `GnhAvalonia=true`. Code that only the Avalonia port needs is in `win\win32\xpl\GnollHackM\Platforms\Avalonia\`, and files that only the Linux version ships are in `Platforms\Linux\`.
+The Avalonia port is not a separate code base. It is the same `GnollHackM.csproj`, the same C# code and the same XAML pages, built with the MSBuild property `GnhAvalonia=true`. Code that only the Avalonia port needs is in `win\win32\xpl\GnollHackM\Platforms\Avalonia\`, and files that only one operating system's version ships are in `Platforms\Linux\` and `Platforms\MacOS\`.
 
 ## 🖥️ Flavors
 
@@ -27,7 +27,7 @@ The Avalonia port is built in two flavors, one for each operating system:
 
 Both flavors are built on Windows. The Linux flavor also needs WSL, which compiles the game engine and the game data, assembles the packages, and can run the game for testing.
 
-A macOS flavor for Apple Silicon Macs (`osx-arm64`) is in preparation. It is packaged as a signed and notarized `GnollHack.app` for Steam and a DMG download, and built on Windows with a Mac reached over SSH: [[/Development/Build Instructions for Avalonia macOS Version on Windows]].
+A macOS flavor for Apple Silicon Macs (`osx-arm64`) is in preparation. It is packaged as a signed and notarized `GnollHack.app` for Steam and a DMG download, and built on Windows with a Mac reached over SSH: [[/Development/Build Instructions for Avalonia macOS Version on Windows]]. It reports crashes to Sentry, without native crash capture yet, draws with Metal, and shows web pages with the system's WebKit.
 
 ## 🧑‍💻 Building
 

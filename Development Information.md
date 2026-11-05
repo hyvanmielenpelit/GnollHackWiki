@@ -35,6 +35,7 @@ Detailed, step-by-step guides for compiling the modern application:
 - **iOS:** [[/Development/Build Instructions for iOS Version on Windows (.NET MAUI)]]
 - **Linux (Avalonia):** [[/Development/Build Instructions for Avalonia Linux Version on Windows]] — AppImage and Steam
 - **Windows (Avalonia):** [[/Development/Build Instructions for Avalonia Windows Version on Windows]] — For developing and testing the Avalonia port
+- **macOS (Avalonia):** [[/Development/Build Instructions for Avalonia macOS Version on Windows]] — GnollHack.app, DMG and Steam, signed and notarized; not released yet
 
 > ⚠️ **Warning (Common Pitfall):** Ensure that the .NET MAUI workload is fully installed inside Visual Studio. Missing platform workloads (Android/iOS) will cause project loading errors.
 
@@ -65,7 +66,7 @@ The table below summarizes support for the modern client. Note that emulator per
 - <sup>3</sup> .NET MAUI supports Arm64 on Windows, but we have not built Arm64 binaries because we do not have a Windows test device with an Arm64 CPU.
 - <sup>4</sup> May exhibit odd behavior or crash.
 - <sup>5</sup> GnollHack's modern Windows port (.NET MAUI) does not run on Wine or Proton because they do not support running WinUI 3 applications.
-- <sup>6</sup> The iOS version works also on macOS (on Macs with the M1 processor or later; we don't support Intel Macs). We don't plan on creating a separate macOS version at the moment.
+- <sup>6</sup> The iOS version works also on macOS (on Macs with the M1 processor or later; we don't support Intel Macs). A separate macOS version, built with the Avalonia port, is in preparation; see [[/Development/Avalonia Port]].
 - <sup>7</sup> Built with `GnhAvalonia=true`, and released on Steam and as an AppImage. The same Avalonia build also runs on Windows, for development and testing only. See [[/Development/Avalonia Port]].
 
 ### 💻 Future Platform Support
