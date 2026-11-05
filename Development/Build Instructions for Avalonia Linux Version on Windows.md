@@ -168,7 +168,7 @@ The Steam content is built for the Steam Linux Runtime 4.0 by default, with the 
 win\win32\xpl\GnollHackM\Platforms\Linux\Packaging\Build-LinuxPackages.ps1 -Targets Steam -SteamAppId <app ID> -SteamDepotId <Linux depot ID> -SteamBranch <branch> -BuildDescription '<description>'
 ```
 
-Then upload it with `steamcmd` in the WSL distribution, from the copy in the WSL home that the script names in its summary, so that the executable permissions survive. The copy under `bin\LinuxPackages\` on Windows has lost them.
+Then upload it with ContentBuilder or `steamcmd` on Windows, from `bin\LinuxPackages\`, or with `steamcmd` in the WSL distribution from the copy the script names. A depot uploaded from Windows installs with every file marked executable, so both work.
 
 ```bash
 cd ~/.cache/gnollhack-packaging/stage-<version>/out/steam

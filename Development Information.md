@@ -35,6 +35,7 @@ Detailed, step-by-step guides for compiling the modern application:
 - **iOS:** [[/Development/Build Instructions for iOS Version on Windows (.NET MAUI)]]
 - **Linux (Avalonia):** [[/Development/Build Instructions for Avalonia Linux Version on Windows]] — AppImage and Steam
 - **Windows (Avalonia):** [[/Development/Build Instructions for Avalonia Windows Version on Windows]] — For developing and testing the Avalonia port
+- **macOS (Avalonia):** [[/Development/Build Instructions for Avalonia macOS Version on Windows]] — GnollHack.app, DMG and Steam, signed and notarized; not released yet
 
 > ⚠️ **Warning (Common Pitfall):** Ensure that the .NET MAUI workload is fully installed inside Visual Studio. Missing platform workloads (Android/iOS) will cause project loading errors.
 
