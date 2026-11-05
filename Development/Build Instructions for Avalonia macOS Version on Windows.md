@@ -62,7 +62,7 @@ The script publishes the game for `osx-arm64` as a single executable, copies it 
 
 The app icon comes from `Resources\AppIcon\macOS\appicon-macos.png` in `GnollHackM`. `Platforms\MacOS\Packaging\New-MacAppIcon.ps1` composes it from the two layers of the iOS icon, the gradient and the shield, as the rounded square that macOS expects. If either layer changes, run the script again and commit the new image.
 
-> ℹ️ **Note:** If the `SENTRY_AUTH_TOKEN` environment variable is set, the publish uploads the debug symbols of the release to Sentry. Add `-NoSentryUpload` for test builds.
+> ℹ️ **Note:** If the `SENTRY_AUTH_TOKEN` environment variable is set, the publish uploads the debug symbols of the release to Sentry, including the game engine's `.dSYM`, which the engine build makes beside `libgnollhackmac.dylib`. Add `-NoSentryUpload` for test builds.
 
 ## 🧪 Testing on the Mac
 
@@ -74,6 +74,8 @@ The app icon comes from `Resources\AppIcon\macOS\appicon-macos.png` in `GnollHac
     ```bash
     GNOLLHACK_SENTRY_TEST=1 ~/gnollhack-dev/GnollHack.app/Contents/MacOS/GnollHackM
     ```
+
+    To check native crash reports, build the engine in Debug, the only configuration with `#crashtest`, then start a wizard-mode game and use `#crashtest`; the report reaches Sentry at the next start.
 
 ## 🔏 Signing Setup on the Mac
 
