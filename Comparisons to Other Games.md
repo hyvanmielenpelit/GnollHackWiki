@@ -1,6 +1,8 @@
 ![Comparisons to Other Games](/uploads/Comparison%20to%20Other%20Games/comparison-to-other-games-q85.webp)
 
-> 👉 **This page contains articles comparing GnollHack to vanilla NetHack, other NetHack variants, and other roguelike games.**
+## ⚡ At a Glance
+
+**GnollHack** is the only full-depth, graphically modernized traditional roguelike that is *100% free across Steam, iOS, and Android*, delivering uncompromising NetHack complexity with *native support for every screen and controller you own*. No other traditional roguelike achieves the same.
 
 ## 🧙‍♂️ NetHack
 
