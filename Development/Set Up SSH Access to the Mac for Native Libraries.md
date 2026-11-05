@@ -95,4 +95,4 @@ The alias may contain only letters, digits, and the characters `.`, `_`, `@` and
 - **The build stops with `error GNHAB006: Cannot connect to the Mac`**: the Mac is asleep or unreachable, Remote Login is off, or the alias does not log in without a password. Run the test in step 5.
 - **The build stops with `error GNHAB007`**: the SDK is not available on the Mac. Follow step 6.
 
-On the Mac, the build works in the `gnollhack-build` folder of your home folder. Deleting it is safe: the next build recreates it and compiles everything again.
+On the Mac, the build works in the `gnollhack-build` folder of your home folder, in one subfolder for each platform, configuration and checkout, such as `ios-Debug-mypc-1a2b3c4d`. Deleting any of them is safe: the next build recreates it and compiles everything again.
