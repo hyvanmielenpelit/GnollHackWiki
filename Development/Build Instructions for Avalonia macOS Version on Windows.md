@@ -45,6 +45,8 @@ win\win32\xpl\GnollHackM\Platforms\MacOS\Packaging\Build-MacPackage.ps1 -Targets
 
 The script publishes the game for `osx-arm64` as a single executable, copies it to the Mac, and builds `GnollHack.app` there. The game data, sound banks and tile sets go to `Contents/Resources`. Without signing options, the app is signed *ad hoc*: it runs on the Mac that built it, but not on other Macs. `-DevCopy` puts it at `~/gnollhack-dev/GnollHack.app` on the Mac.
 
+The app icon comes from `Resources\AppIcon\macOS\appicon-macos.png` in `GnollHackM`. `Platforms\MacOS\Packaging\New-MacAppIcon.ps1` composes it from the two layers of the iOS icon, the gradient and the shield, as the rounded square that macOS expects. If either layer changes, run the script again and commit the new image.
+
 > ℹ️ **Note:** If the `SENTRY_AUTH_TOKEN` environment variable is set, the publish uploads the debug symbols of the release to Sentry. Add `-NoSentryUpload` for test builds.
 
 ## 🧪 Testing on the Mac
