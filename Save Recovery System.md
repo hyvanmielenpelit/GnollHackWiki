@@ -36,7 +36,7 @@ In the table, `<name>` stands for a user number followed by the character's name
 
 The **Load Saved Game** list does not show the backup, temporary and tracking files, so they never appear as extra characters.
 
-Starting a new game with the name of a saved character and answering **Yes** to **Overwrite Existing Character?** deletes all of these files for that name, so the new character never starts from the old one's backup.
+Starting a new game with the name of a saved character and answering **Yes** to **Overwrite Existing Character?** deletes all of these files for that name, so the new character never starts from the old one's backup. A new character cannot take the name of a character in the other mode, tournament or regular, nor the name of a game that did not end properly; recover or delete that game first.
 
 ## 🛟 The Backup Save File
 
@@ -162,7 +162,7 @@ These protections apply to [[Save File Transfer]] and to importing. The [[Save T
 - **Download verification:** The save file, backup and tracking record are checked for size and hash, and the save file is validated, before anything is placed in the save folder.
 - **Safe order:** The local files are put in place before the tracking record is used up. If cleaning up the cloud or local copies fails afterward, you get a warning and the verified game stays safe.
 - **Backup after a download:** If the upload contained no separate backup, a new one is made from the downloaded save file.
-- **Import validation:** An imported file must pass validation and is stored as `<name>.i`, so importing never overwrites your regular save file. Loading it makes the game non-scoring for good.
+- **Import validation:** An imported file must pass validation and is stored as `<name>.i`, so importing never overwrites your regular save file. Loading an imported game asks before it replaces a regular saved game of the same name. Loading it makes the game non-scoring for good.
 
 ### 🪦 For Bones Files
 
