@@ -85,6 +85,7 @@ These articles provide historical context and technical background. They are eas
 
 - [[/Development/Release Checklist]]
 - [[/Development/Native Libraries]]
+- [[/Development/Building iOS and macOS Native Libraries over SSH]] — How the iOS and macOS engine libraries are built on a Mac over SSH, and how to fix the build
 - [[/Development/Design Details of Avalonia Port]] — The design shared by all flavors of the Avalonia port, its decisions and its shared files
 - [[/Development/Design Details of Linux Avalonia Port]] — The Linux version's own design, including CEF, crash handling and the packages
 - [[/Development/Design Details of macOS Avalonia Port]] — The macOS version's own design, including Metal, WKWebView and the app bundle

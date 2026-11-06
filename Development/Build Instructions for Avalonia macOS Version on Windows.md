@@ -240,7 +240,7 @@ A depot uploaded from Windows installs with every file marked executable, which 
 | `GNHMP004` | `-Targets Steam` without `-SteamAppId` and `-SteamDepotId`, or `-NotaryProfile` without a Developer ID `-SigningIdentity`. |
 | `GNHMP005` | A path or the SSH alias contains a space or another character the script does not accept. The alias may not contain `@`. |
 | `GNHMP006` | `dotnet publish` failed; its errors are above. A missing tile set or sound bank shows as `GNHNI002` or `GNHNI003`. |
-| `GNHMP008` or `GNHAB006`: cannot connect to the Mac | The Mac is asleep, its address has changed, Remote Login is off, or the SSH key is not set up. See [[/Development/Set Up SSH Access to the Mac for Native Libraries]], which also tells where to enter a new address. |
+| `GNHMP008` or `GNHAB006`: cannot connect to the Mac | The Mac is asleep, its address has changed, Remote Login is off, or the SSH key is not set up. See [[/Development/Set Up SSH Access to the Mac for Native Libraries]], which also tells where to enter a new address. The other `GNHAB` errors are on [[/Development/Building iOS and macOS Native Libraries over SSH]]. |
 | `GNHMP010` | Packaging on the Mac failed. The `GNHMP1nn` error above it names the step. |
 | `GNHMP012` | A file of the Steam content differs after the copy to Windows. Run the build again. |
 | The game started from Steam is not treated as the Steam version | The launch option has no arguments. Set them to `-store steam`. |
@@ -253,6 +253,7 @@ For general build problems, see [[/Development/Troubleshooting Building GnollHac
 - [[/Development/Avalonia Port]]
 - [[/Development/Design Details of macOS Avalonia Port]]
 - [[/Development/Set Up SSH Access to the Mac for Native Libraries]]
+- [[/Development/Building iOS and macOS Native Libraries over SSH]]
 - [[/Development/Build Instructions for Avalonia Linux Version on Windows]]
 - [[/Development/Enroll for Apple Development Program (Mac)]]
 
