@@ -11,7 +11,7 @@ What the Avalonia port is and which flavors exist is on [[/Development/Avalonia 
 | **Runtime** | CoreCLR with the JIT, self-contained, not trimmed, not compiled ahead of time |
 | **Flavors** | `linux-x64`, `osx-arm64` and `win-x64`; see [[Flavors|/Development/Avalonia Port#flavors]] |
 | **Shared code** | `Platforms\Avalonia\`, plus `#if GNH_AVALONIA` branches in shared files, most of them in `GHApp.cs`, `OverseerPage.xaml.cs`, `SwitchableCanvasView.xaml.cs` and `MauiProgram.cs` |
-| **Flavor code** | `Platforms\Linux\` and `Platforms\MacOS\`; the Windows flavor has none |
+| **Flavor code** | `Platforms\Linux\`, `Platforms\MacOS\` and `Platforms\WindowsAvalonia\` |
 | **Paths** | `Platforms\` means `win\win32\xpl\GnollHackM\Platforms\` in the GnollHack repository |
 
 ## 🧱 Layers
@@ -27,18 +27,18 @@ What the Avalonia port is and which flavors exist is on [[/Development/Avalonia 
 
 ## ⚙️ Build Configuration Per Flavor
 
-Every flavor defines `GNH_MAUI`, `GNH_AVALONIA`, `USE_SPAN_FOR_SUBSTRING` and `CORECLR`, and the target framework is plain `net11.0`, so `WINDOWS` is never defined and no WinUI 3 code is compiled.
+Every flavor defines `GNH_MAUI`, `GNH_AVALONIA`, `USE_SPAN_FOR_SUBSTRING` and `CORECLR`, and the target framework is plain `net11.0`, so `WINDOWS` is never defined and no WinUI 3 code is compiled. The Windows flavor has `WINDOWS_AVALONIA` instead.
 
 | | 🐧 Linux | 🍎 macOS | 🪟 Windows |
 |:--|:--|:--|:--|
-| **Extra symbols** | `LINUX`, `SENTRY` | `MACOS`, `SENTRY` | None |
-| **Platform folders compiled** | `Avalonia\`, `Linux\` | `Avalonia\`, `MacOS\` | `Avalonia\` |
+| **Extra symbols** | `LINUX`, `SENTRY` | `MACOS`, `SENTRY` | `WINDOWS_AVALONIA`, `SENTRY` |
+| **Platform folders compiled** | `Avalonia\`, `Linux\` | `Avalonia\`, `MacOS\` | `Avalonia\`, `WindowsAvalonia\` |
 | **Game engine** | `libgnollhacklinux.so`, built in WSL | `libgnollhackmac.dylib`, built on a Mac over SSH | `gnollhackwin.dll`, the WinUI 3 version's |
 | **Game data** | The Android version's `nhdat` | The same as Linux | The WinUI 3 version's Windows-format `nhdat` |
 | **Publish** | Self-contained folder | Self-contained single file, in an app bundle | Self-contained folder |
 | **Native libraries** | Loaded by exact file name by a resolver in `Main` | Loaded from the app's folder by a resolver in `Main` | Default search |
-| **One instance, saving on termination signals** | Yes | Yes | No |
-| **Crash reporting** | Sentry, .NET and native | Sentry, .NET and native | None |
+| **One instance, saving on termination signals** | Yes | Yes | One instance; Windows has no termination signals, and a logoff ends Avalonia's lifetime, after which the game saves |
+| **Crash reporting** | Sentry, .NET and native | Sentry, .NET and native | Sentry, .NET and native |
 
 ## 🧠 Design Decisions
 
@@ -57,7 +57,7 @@ Every flavor defines `GNH_MAUI`, `GNH_AVALONIA`, `USE_SPAN_FOR_SUBSTRING` and `C
 | **Fonts** | GnollHack's own font registrar, which copies each font's Windows metrics | Avalonia.Controls.Maui misreads some font names, and text should sit where DirectWrite puts it in the WinUI 3 version |
 | **Crash reporting** | The core Sentry .NET SDK, plus sentry-native started by GnollHack | The .NET SDK starts native crash capture only in builds compiled ahead of time; see [[Crash Reporting|#crash-reporting]] |
 | **Data folder** | One per flavor, apart from the WinUI 3 version's | Testing the Avalonia port on Windows never touches the WinUI 3 version's saved games |
-| **One process per data folder** | `instance.lock` in the data folder, on Linux and macOS | A second copy would write the same saved games |
+| **One process per data folder** | `instance.lock` in the data folder, on every flavor | A second copy would write the same saved games |
 
 ## 🚀 Startup
 
@@ -67,8 +67,8 @@ Every flavor defines `GNH_MAUI`, `GNH_AVALONIA`, `USE_SPAN_FOR_SUBSTRING` and `C
 |:-----|:--|:--|:--|:--|
 | **CEF helper processes exit** | Yes | — | — | Chromium starts them from the game's own executable |
 | **HarfBuzzSharp preload** | Yes | — | — | Must bind before fontconfig loads the system HarfBuzz |
-| **Log redirection** | — | Yes | — | Started from Finder or Steam, the game has no terminal |
-| **Instance lock, termination signals** | Yes | Yes | — | Nothing may start in a second copy |
+| **Log redirection** | — | Yes | Yes | Started from Finder, Explorer or Steam, the game has no terminal |
+| **Instance lock, termination signals** | Yes | Yes | Instance lock | Nothing may start in a second copy |
 | **fontconfig setup** | Yes | — | — | The environment must be changed before other threads start |
 | **Native library resolver** | Yes | Yes | — | Must be in place before the first P/Invoke |
 
@@ -99,15 +99,15 @@ All live in `Platforms\Avalonia\Essentials\`, installed by `GHAvaloniaEssentials
 | API | 🐧 Linux | 🍎 macOS | 🪟 Windows |
 |:----|:--|:--|:--|
 | **Preferences** | `preferences.json` in the data folder, written shortly after a change and at exit | Same | Same |
-| **Secure storage** | AES-GCM encrypted `securestore.bin`, key from `/etc/machine-id` | Key from the hardware UUID | Key from the computer's name |
-| **Battery** | `/sys/class/power_supply` | IOKit's power sources | Always full, on mains |
+| **Secure storage** | AES-GCM encrypted `securestore.bin`, key from `/etc/machine-id` | Key from the hardware UUID | `securestore.bin` protected with Windows' data protection (DPAPI) for the current user |
+| **Battery** | `/sys/class/power_supply` | IOKit's power sources | `GetSystemPowerStatus`, with battery saver |
 | **Device information** | Platform "Linux", model from DMI | Platform macOS, the Mac's model identifier | Platform "WindowsAvalonia", so the game's Windows checks, which mean WinUI 3, stay false |
 | **Device display** | Follows the window's screen; refresh rate from the frame loop | Density from the window's render scaling | Same as Linux |
-| **Browser** | Steam's overlay browser when present, otherwise the system's | The system's | The system's |
+| **Browser** | Steam's overlay browser when present, otherwise the system's | The system's | The same as Linux |
 | **File picker** | The system's dialog; the game's own with a controller or in Steam's Gaming Mode | Same | Same |
 | **Share** | A file to a save dialog, several to a folder, text to the clipboard | Same | Same |
 
-The secure storage is obfuscation-level only on every flavor: it uses neither the macOS keychain nor Windows' data protection. App information, connectivity and the launcher are plain desktop implementations.
+On Linux and macOS the secure storage is obfuscation-level only: it does not use the macOS keychain. On Windows, a store in the older format, keyed by the computer's name, is converted to data protection the first time it is read. App information, connectivity and the launcher are plain desktop implementations.
 
 ## 📁 Files and Folders
 
@@ -116,8 +116,8 @@ The game reads its own files from the executable's folder, or from `Contents/Res
 | | 🐧 Linux | 🍎 macOS | 🪟 Windows |
 |:--|:--|:--|:--|
 | **Data folder** | `~/.local/share/GnollHack` | `~/Library/Application Support/GnollHack` | `%LOCALAPPDATA%\GnollHack-Avalonia` |
-| **Besides the game's files** | `preferences.json`, `securestore.bin`, `instance.lock`, `sentry-native/`, `sentry-dotnet/`, `cef/`, `fontconfig/`, `fonts/` (AppImage only) | The same, without `cef/`, `fontconfig/` and `fonts/` | `preferences.json`, `securestore.bin`, `WebView2\` |
-| **Log** | Standard output | `~/Library/Logs/GnollHack/GnollHack.log` | Standard output |
+| **Besides the game's files** | `preferences.json`, `securestore.bin`, `instance.lock`, `sentry-native/`, `sentry-dotnet/`, `cef/`, `fontconfig/`, `fonts/` (AppImage only) | The same, without `cef/`, `fontconfig/` and `fonts/` | `preferences.json`, `securestore.bin`, `instance.lock`, `sentry-native\`, `sentry-dotnet\`, `Logs\`, `WebView2\` |
+| **Log** | Standard output | `~/Library/Logs/GnollHack/GnollHack.log` | `%LOCALAPPDATA%\GnollHack-Avalonia\Logs\GnollHack.log`, unless started with a console |
 
 ## 🌐 Web View
 
@@ -133,7 +133,7 @@ The game reads its own files from the executable's folder, or from `Contents/Res
 
 ## 🐞 Crash Reporting
 
-Linux and macOS report to Sentry; the Windows flavor does not.
+All three flavors report to Sentry. The Windows flavor uses the WinUI 3 version's `gnhsentry.dll` for native crashes.
 
 - **.NET exceptions**: the core Sentry .NET SDK, started by `GHAvaloniaSentry`; the .NET MAUI integration does not work on Avalonia.
 - **Native crashes**: sentry-native's `inproc` backend, started by GnollHack before the .NET SDK, with the .NET SDK's own native SDK turned off. Its scope is mirrored from the .NET SDK, so a native crash carries the game's crash context.
@@ -202,7 +202,8 @@ The files of `Platforms\Avalonia\`, which every flavor compiles.
 | **GHAvaloniaWebView.cs** | Avalonia's native web view: WebView2, WKWebView or WebKitGTK |
 | **GHAvaloniaOverseerHost.cs** | The Gnoll Overseer page's web view host |
 | **GHAvaloniaWebScriptHost.cs**, **Web\gamepad_web.js** | Controller navigation in web pages |
-| **GHAvaloniaSentry.cs** | The Sentry .NET SDK on Linux and macOS |
+| **GHAvaloniaSentry.cs** | The Sentry .NET SDK on every flavor |
+| **GHAvaloniaSteamOverlay.cs**, **GHAvaloniaPresentKeepAlive.cs** | Whether Steam's overlay is in the process; the visual that keeps frames coming for it on Windows |
 
 ### 🧰 Essentials
 
