@@ -108,7 +108,6 @@ GnollHack is famously tough, so we built the *Gnoll Overseer* to help you along.
 ## 📝 Wiki Development
 
 - **[[Editing the Wiki]]** — How to edit the GnollHack Wiki
-- **[[Creating Wiki Pages with AI Agents]]** — You can use the Antigravity Standalone App to create wiki pages with AI agents
 
 ## 💡 Additional Information
 
