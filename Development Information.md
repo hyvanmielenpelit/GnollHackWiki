@@ -67,7 +67,7 @@ The table below summarizes support for the modern client. Note that emulator per
 - <sup>3</sup> .NET MAUI supports Arm64 on Windows, but we have not built Arm64 binaries because we do not have a Windows test device with an Arm64 CPU.
 - <sup>4</sup> May exhibit odd behavior or crash.
 - <sup>5</sup> GnollHack's modern Windows port (.NET MAUI) does not run on Wine or Proton because they do not support running WinUI 3 applications.
-- <sup>6</sup> The iOS version from the App Store works also on macOS (on Macs with the M1 processor or later; we don't support Intel Macs).
+- <sup>6</sup> The iOS version from the App Store works also on macOS (on Macs with the M1 processor or later; we don't support Intel Macs). It has some quirks on a Mac, so the native macOS version on Steam is the recommended way to play on macOS.
 - <sup>7</sup> Built with `GnhAvalonia=true`. The Linux version is released on Steam and as an AppImage, and the macOS version, for Apple Silicon Macs, on Steam. The same Avalonia build also runs on Windows, for development and testing only. See [[/Development/Avalonia Port]].
 
 ### 💻 Future Platform Support

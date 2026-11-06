@@ -24,7 +24,7 @@ Multiple download options are available, although we recommend getting the game 
 
 <a href="https://store.steampowered.com/app/3558190/GnollHack/?utm_source=wiki">![Available on Steam](/uploads/Download/steam-q90.webp)</a><br />
 
-We recommend getting the native macOS version on **Steam**. The Steam version supports game controllers, such as Xbox and PlayStation controllers. The iOS version from the App Store also runs on Macs with Apple Silicon. Please click the link below for more information.
+We recommend getting the native macOS version on **Steam**. The Steam version supports game controllers, such as Xbox and PlayStation controllers. The iOS version from the App Store also runs on Macs with Apple Silicon, but it has some quirks on a Mac, so the Steam version is the recommended way to play on macOS. Please click the link below for more information.
 
 ℹ️ [[More Information on macOS Version|macOS Version]]
 

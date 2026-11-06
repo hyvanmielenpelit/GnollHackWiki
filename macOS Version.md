@@ -1,11 +1,11 @@
-> 👉 **GnollHack has a native macOS version on Steam for Macs with Apple Silicon. The iOS version from the App Store also runs on these Macs.**
+> 👉 **GnollHack has a native macOS version on Steam for Macs with Apple Silicon, which is the recommended way to play on a Mac. The iOS version from the App Store also runs on these Macs, but it has some quirks there.**
 
 ## 1. Download Options
 
 GnollHack's macOS version has the following download options:
 
 - **Steam** — Recommended download option. A native Mac app, with full keyboard, mouse, and game controller support.
-- **App Store** — The iOS version, which also runs on Macs with Apple Silicon.
+- **App Store** — The iOS version, which also runs on Macs with Apple Silicon, but has some quirks on a Mac.
 
 ### 1.1. Steam
 
@@ -32,6 +32,7 @@ You can't disable auto-update in Steam, but if your saved games become invalid, 
 <a href="https://apps.apple.com/app/gnollhack/id1626979951">![Download on the App Store](/uploads/Download/app-store-q90.webp)</a><br />
 
 - This is the iOS version of GnollHack, which macOS runs on Macs with Apple Silicon.
+- It works on a Mac, but it is made for iPhones and iPads, so it has some quirks. We recommend the Steam version for playing on macOS.
 - **Please *disable* Automatic Updates in the App Store Settings/Preferences.**
 - It does not support game controllers.
 - More information: [[iOS and macOS Version]]

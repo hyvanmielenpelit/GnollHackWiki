@@ -33,7 +33,7 @@ GnollHack can also be viewed as a NetHack remaster, adding the following modern 
 - **Music** — 37 music tracks
 - **Voiceovers** — 96 voice actors and over 5000 voiceover lines
 - **Cross-platform support** — Android, iOS, Linux, macOS, and Windows
-    - Native macOS version on Steam *(Macs with an M1 or later processor)*, which can also run the iOS version
+    - Native macOS version on Steam *(Macs with an M1 or later processor)*, the recommended way to play on a Mac; these Macs can also run the iOS version, with some quirks
     - The Linux version also runs on the Steam Deck
 - **Modern UI**
     - Mobile touch-based UI on Android and iOS
