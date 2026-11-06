@@ -85,9 +85,12 @@ These articles provide historical context and technical background. They are eas
 
 - [[/Development/Release Checklist]]
 - [[/Development/Native Libraries]]
-- [[/Development/Design Details of Linux Avalonia Port]] — The design of the Avalonia port and its Linux version, including CEF and Sentry
-- [[/Development/Design Details of macOS Avalonia Port]] — How the macOS version of the Avalonia port differs, including Metal, WKWebView, Sentry and the app bundle
-- [[/Development/Design Details of Windows Avalonia Port]] — How the Windows flavor of the Avalonia port differs
+- [[/Development/Building iOS and macOS Native Libraries over SSH]] — How the iOS and macOS engine libraries are built on a Mac over SSH, and how to fix the build
+- [[/Development/Design Details of Avalonia Port]] — The design shared by all flavors of the Avalonia port, its decisions and its shared files
+- [[/Development/Design Details of Linux Avalonia Port]] — The Linux version's own design, including CEF, crash handling and the packages
+- [[/Development/Design Details of macOS Avalonia Port]] — The macOS version's own design, including Metal, WKWebView and the app bundle
+- [[/Development/Design Details of Windows Avalonia Port]] — The Windows flavor for development and testing
+- [[/Development/Native Crash Reporting in Avalonia Port]] — How the Linux and macOS versions report native crashes to Sentry, and how Sentry is updated
 - [[/Development/Gamepad Support]] — How game controller support works, and what it covers and does not cover
 - [[/Development/Debugging Linux Version in WSL using Visual Studio Code]]
 - [[/Development/SkiaSharp Build Instructions]] — Describes custom SkiaSharp compilations (primarily for reference).

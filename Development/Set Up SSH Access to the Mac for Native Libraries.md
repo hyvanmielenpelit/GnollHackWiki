@@ -2,13 +2,14 @@
 
 ## 📖 Overview
 
-When you build `GnollHack.sln` with a solution platform that includes an Apple engine library, such as **iPhone** for `libgnollhackios.a`, **macOS** for `libgnollhackmac.dylib`, or **Any CPU** for both, Visual Studio copies the engine sources to the Mac over SSH, compiles them there with Xcode's clang, and copies the library back to Windows. No `vcremote` and no PuTTY or PSCP download scripts are needed. **Pair to Mac** is still needed for the .NET MAUI iOS app itself, as described in [[/Development/Build Instructions for iOS Version on Windows (.NET MAUI)]].
+When you build `GnollHack.sln` with a solution platform that includes an Apple engine library, such as **iPhone** for `libgnollhackios.a`, **macOS** for `libgnollhackmac.dylib`, or **Any CPU** for both, Visual Studio copies the engine sources to the Mac over SSH, compiles them there with Xcode's clang, and copies the library back to Windows. No `vcremote` and no PuTTY or PSCP download scripts are needed. **Pair to Mac** is still needed for the .NET MAUI iOS app itself, as described in [[/Development/Build Instructions for iOS Version on Windows (.NET MAUI)]]. For how the build works, which [[solution platforms|/Development/Building iOS and macOS Native Libraries over SSH#solution-platforms]] build each library, and what to do when it fails, see [[/Development/Building iOS and macOS Native Libraries over SSH]].
 
 The build connects to the Mac under the SSH host alias `gnollhack-mac`. It never prompts for anything, so it needs a key without a passphrase, and the Mac's host key must already be accepted.
 
 ## 📋 Prerequisites
 
 - A Mac with [Xcode](https://apps.apple.com/us/app/xcode/id497799835) installed, reachable from the Windows computer over the network.
+- The Mac kept awake while you build, as in [[Prepare the Mac|/Development/Building iOS and macOS Native Libraries over SSH#1-prepare-the-mac]]: a sleeping Mac cannot be reached.
 - The OpenSSH Client on Windows. It is part of Windows: if `ssh` is not found in PowerShell, install it under **Settings → System → Optional features**.
 
 ## 1. Turn On Remote Login on the Mac
@@ -81,6 +82,8 @@ sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
 sudo xcodebuild -license accept
 ```
 
+If your Xcode has another name, such as `Xcode 26.app` when you keep several versions, put its path in the first command, in quotes if it has a space.
+
 ## 🌐 When the Mac's Address Changes
 
 The Mac's address is entered in one place only: the `HostName` line of the `gnollhack-mac` entry in `%USERPROFILE%\.ssh\config`. Nothing in the GnollHack repository or in Visual Studio holds it. When the address changes, for example because you moved to another location:
@@ -112,5 +115,7 @@ The alias may contain only letters, digits, and the characters `.`, `_`, `@` and
 - **The build stops with `error GNHAB006: Cannot connect to the Mac`**: the Mac is asleep or unreachable, its address has changed, Remote Login is off, or the alias does not log in without a password. Check the address as in [[When the Mac's Address Changes|#when-the-macs-address-changes]], then run the test in step 5.
 - **`ssh` warns that the remote host identification has changed**: with `HostKeyAlias` set, another computer answered at that address, or the Mac's system was reinstalled. Find out which before you remove the old key with `ssh-keygen -R gnollhack-mac` and accept the new one.
 - **The build stops with `error GNHAB007`**: the SDK is not available on the Mac. Follow step 6.
+
+For the build's other errors, see [[Troubleshooting|/Development/Building iOS and macOS Native Libraries over SSH#troubleshooting]].
 
 On the Mac, the build works in the `gnollhack-build` folder of your home folder, in one subfolder for each platform, configuration and checkout, such as `ios-Debug-mypc-1a2b3c4d`. Deleting any of them is safe: the next build recreates it and compiles everything again. The macOS packaging uses `package-in` and `package` in the same folder. `package/<version>-<build>` holds the build results, the Steam depot content included, until the next build of the same version replaces them.

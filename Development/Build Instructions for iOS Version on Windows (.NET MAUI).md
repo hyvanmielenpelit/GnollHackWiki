@@ -12,7 +12,7 @@ You need the following devices to follow these instructions:
 ### 📋 Prerequisites for Native Library Build
 
 1. [[/Development/Install Windows Subsystem for Linux]] — WSL with SSH is needed because `dlbdroid` generates the `nhdat` game data archive inside WSL.
-2. [[/Development/Set Up SSH Access to the Mac for Native Libraries]] — key-based SSH access to the Mac is needed for building the C++ static library (`libgnollhackios.a`), which the build compiles on the Mac with Xcode and copies back to Windows. No `vcremote` is needed on the Mac.
+2. [[/Development/Set Up SSH Access to the Mac for Native Libraries]] — key-based SSH access to the Mac is needed for building the C++ static library (`libgnollhackios.a`), which the build compiles on the Mac with Xcode and copies back to Windows. No `vcremote` is needed on the Mac. How the build works, and its troubleshooting: [[/Development/Building iOS and macOS Native Libraries over SSH]].
 
 1. Start the SSH service in WSL: `sudo service ssh start`
 2. Ensure the Mac is awake and reachable over SSH (the C++ static library project `gnollhackios.vcxproj` copies the native C code to the Mac and compiles it there).
