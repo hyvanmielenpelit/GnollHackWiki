@@ -9,7 +9,7 @@
 | AI Asset Type ↓ / Use Allowed → | GnollHack | Stores<sup>1</sup> | Gnoll Overseer | Other Contexts<sup>2</sup> |
 | :------------------------------ | :-------: | :---------------------: | :------------: | :------------------------: |
 | Image | ❌ | ❌<sup>3</sup> / ✅<sup>4</sup> | ✅ | ✅ |
-| Text<sup>5, 6</sup> | ❌ | ✅ | ✅ | ✅ |
+| Text<sup>5</sup> | ❌ | ✅<sup>6</sup> | ✅ | ✅ |
 | Voice | ❌ | ❌ | ✅ | ✅ |
 | Music | ❌ | ❌ | ❌ | ✅ |
 | Video | ❌ | ❌ | ✅ | ✅ |
