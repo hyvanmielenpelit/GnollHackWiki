@@ -36,6 +36,8 @@ In the table, `<name>` stands for a user number followed by the character's name
 
 The **Load Saved Game** list does not show the backup, temporary and tracking files, so they never appear as extra characters.
 
+Starting a new game with the name of a saved character and answering **Yes** to **Overwrite Existing Character?** deletes all of these files for that name, so the new character never starts from the old one's backup.
+
 ## 🛟 The Backup Save File
 
 ### 🛠️ How the Backup Is Created
