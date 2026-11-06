@@ -76,7 +76,7 @@ Run it again whenever a build cannot connect: it tests everything the build need
 
 ### 3. Set Up WSL
 
-The engine includes `date_unix.h` from the platform folder, which the WSL data pipeline writes. The solution build therefore needs a WSL distribution set up as Visual Studio's Linux build host, as in steps 1–3 of [[WSL Distribution|/Development/Build Instructions for Avalonia Linux Version on Windows#wsl-distribution]]. Start its SSH server before you build:
+The engine includes `date_unix.h` from the platform folder, which the WSL data pipeline writes. The solution build therefore needs a WSL distribution set up as Visual Studio's Linux build host, as in steps 1.3.1–1.3.3 of [[WSL Distribution|/Development/Build Instructions for Avalonia Linux Version on Windows#1-3-wsl-distribution]]. Start its SSH server before you build:
 
 ```powershell
 wsl -u root -e /usr/sbin/service ssh start
