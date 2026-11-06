@@ -143,7 +143,7 @@ It publishes the game for `linux-x64` in the Release configuration, assembles th
 | **GnollHack-&lt;version&gt;-x86_64.AppImage** | The AppImage for the GitHub release |
 | **GnollHack-&lt;version&gt;-x86_64.AppImage.zsync** | Update information for AppImage updaters; upload it to the same release |
 | **GnollHack-&lt;version&gt;-linux-x64.tar.gz** | The game as a plain folder, for testers |
-| **SHA256SUMS** | Checksums of the AppImage and the tar.gz |
+| **GnollHack-&lt;version&gt;-linux-x64.SHA256SUMS** | Checksums of the AppImage and the tar.gz |
 | **steam\\** | The Steam depot content and the SteamPipe build scripts |
 
 The script also leaves a staged copy in WSL, in `~/.cache/gnollhack-packaging/stage-<version>/`, which sections 3 and 4 use.

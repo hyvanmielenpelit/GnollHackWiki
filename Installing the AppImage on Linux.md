@@ -2,7 +2,7 @@
 
 ## 📥 Downloading the AppImage
 
-Download `GnollHack-<version>-x86_64.AppImage` from the [GitHub releases](https://github.com/hyvanmielenpelit/GnollHack/releases). A release also lists a `.zsync` file and `SHA256SUMS`, which are for AppImage updaters and for checking the download; to play, you need only the `.AppImage` file.
+Download `GnollHack-<version>-x86_64.AppImage` from the [GitHub releases](https://github.com/hyvanmielenpelit/GnollHack/releases). A release also lists a `.zsync` file and `GnollHack-<version>-linux-x64.SHA256SUMS`, which are for AppImage updaters and for checking the download; to play, you need only the `.AppImage` file.
 
 > ℹ️ **Note:** We recommend getting the game on [Steam](https://store.steampowered.com/app/3558190/GnollHack/?utm_source=wiki), which also covers the Steam Deck. Steam installs and updates the game for you, so this page does not apply to the Steam version.
 

@@ -250,7 +250,7 @@ The script signs every program file of the app with the hardened runtime, sends 
 |:-------|:---------|
 | **GnollHack-&lt;version&gt;-macos-arm64.dmg** | The download, with the app and a link to Applications |
 | **GnollHack-&lt;version&gt;-macos-arm64.zip** | The zipped app |
-| **SHA256SUMS** | Checksums of the DMG and the zip |
+| **GnollHack-&lt;version&gt;-macos-arm64.SHA256SUMS** | Checksums of the DMG and the zip |
 | **BUILD-INFO** | The commit, the signing identity and Apple's notarization submission IDs |
 | **steam\\** | With the `Steam` target: the depot content in `steam\content\`, and the build scripts `app_build_mac.vdf` and `depot_build_mac.vdf` |
 
