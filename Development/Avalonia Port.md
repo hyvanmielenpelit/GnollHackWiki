@@ -53,16 +53,18 @@ The packages run on Ubuntu 18.04, Debian 10, RHEL 8 and newer distributions: eve
 
 ## 🏗️ Design Details
 
-How the port is built inside, and why, is on three pages of its own:
+How the port is built inside, and why, is on four pages of its own:
 
-- [[/Development/Design Details of Linux Avalonia Port]] — The whole design of the Avalonia port, shared by all flavors, and the Linux version's own parts: startup, rendering, the frame loop, input, fonts, the Essentials replacements, the built-in Chromium web view (CEF), crash reporting with Sentry, binary compatibility and the packages.
-- [[/Development/Design Details of macOS Avalonia Port]] — Where the macOS version differs from the Linux version: Metal rendering, the menu bar, the Option key, Apple's game controllers, WKWebView, crash reporting and the signed and notarized app bundle.
-- [[/Development/Design Details of Windows Avalonia Port]] — Where the Windows flavor differs from the Linux version, and how it compares with the WinUI 3 version.
+- [[/Development/Design Details of Avalonia Port]] — The design that all flavors share: the build, startup, rendering, the frame loop, input, the Essentials replacements, files, web views, crash reporting, and the shared files.
+- [[/Development/Design Details of Linux Avalonia Port]] — The Linux version's own parts: X11 and GLX, Steam Input, the built-in Chromium web view (CEF), native crash handling, binary compatibility and the packages.
+- [[/Development/Design Details of macOS Avalonia Port]] — The macOS version's own parts: Metal rendering, the menu bar, the Option key, Apple's game controllers, WKWebView and the signed and notarized app bundle.
+- [[/Development/Design Details of Windows Avalonia Port]] — The Windows flavor for development and testing, and how it compares with the WinUI 3 version.
 
-Avalonia.Controls.Maui is younger than .NET MAUI's own backends, and GnollHack works around a number of its defects. Both pages list the workarounds that apply, which are recorded with their symptoms and removal conditions in the GnollHack repository's `DEVEL/workarounds/` folder.
+Avalonia.Controls.Maui is younger than .NET MAUI's own backends, and GnollHack works around a number of its defects. The workarounds are recorded with their symptoms and removal conditions in the GnollHack repository's [workaround register](https://github.com/hyvanmielenpelit/GnollHack/tree/master/DEVEL/workarounds).
 
 ## 📖 Learn More
 
+- [[/Development/Design Details of Avalonia Port]]
 - [[/Development/Design Details of Linux Avalonia Port]]
 - [[/Development/Design Details of macOS Avalonia Port]]
 - [[/Development/Design Details of Windows Avalonia Port]]
@@ -77,3 +79,4 @@ Avalonia.Controls.Maui is younger than .NET MAUI's own backends, and GnollHack w
 
 - [Avalonia UI](https://avaloniaui.net/)
 - [.NET MAUI](https://dotnet.microsoft.com/en-us/apps/maui)
+- [GnollHack workaround register](https://github.com/hyvanmielenpelit/GnollHack/tree/master/DEVEL/workarounds)

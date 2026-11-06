@@ -223,6 +223,8 @@ Both are in `win\win32\xpl\GnollHackM\Platforms\Linux\Packaging\`.
 
 `Build-LinuxSentryNative.ps1` also writes `Platforms\Linux\libs\libsentry.build.props`, which records the sentry-native version and the hashes of the library. Every build of the Avalonia port checks it against the Sentry .NET package and the Windows version's native crash reporter, which must use the same sentry-native version. A mismatch is an error in a Release publish or package build, and a warning otherwise.
 
+The license texts of CEF and Chromium that the packages ship are in `Platforms\Linux\licenses\cef\`. Refresh them with every CEF update.
+
 ## ❓ Troubleshooting
 
 | Symptom | Cause and fix |
