@@ -4,7 +4,7 @@
 
 GnollHack's modern client is a single .NET MAUI app, `GnollHackM`. On Android, iOS and Windows, .NET MAUI draws it with each platform's own UI framework, such as WinUI 3 on Windows. .NET MAUI has no Linux backend of its own, so the Linux version uses **Avalonia.Controls.Maui**, which implements .NET MAUI's controls on top of [Avalonia UI](https://avaloniaui.net/). Avalonia runs on Linux, Windows and macOS, so the same build also runs as a native Mac app, and on Windows.
 
-The Avalonia port is not a separate code base. It is the same `GnollHackM.csproj`, the same C# code and the same XAML pages, built with the MSBuild property `GnhAvalonia=true`. Code that only the Avalonia port needs is in `win\win32\xpl\GnollHackM\Platforms\Avalonia\`, and files that only the Linux or macOS version ships are in `Platforms\Linux\` and `Platforms\MacOS\`.
+The Avalonia port is not a separate code base. It is the same `GnollHackM.csproj`, the same C# code and the same XAML pages, built with the MSBuild property `GnhAvalonia=true`. Code that only the Avalonia port needs is in `win\win32\xpl\GnollHackM\Platforms\Avalonia\`, and files that only the Linux, macOS or Windows version uses are in `Platforms\Linux\`, `Platforms\MacOS\` and `Platforms\WindowsAvalonia\`.
 
 ## 🖥️ Flavors
 
@@ -12,17 +12,17 @@ The Avalonia port is built in three flavors, one for each operating system:
 
 | | 🐧 Linux | 🍎 macOS | 🪟 Windows |
 |:--|:--|:--|:--|
-| **Purpose** | Released to players | Released to players | Development and testing only |
+| **Purpose** | Released to players | Released to players | Development and testing; an alternative Windows version, not released yet |
 | **Distribution** | Steam (also on the Steam Deck), and an AppImage on GitHub | Steam, as a signed and notarized `GnollHack.app` | A self-contained folder for testers; Windows players get the WinUI 3 version |
 | **Runtime identifier** | `linux-x64` | `osx-arm64` (Apple Silicon only) | `win-x64` |
 | **Game engine** | `libgnollhacklinux.so` | `libgnollhackmac.dylib` | `gnollhackwin.dll`, the same as the WinUI 3 version |
 | **Game data (`nhdat`)** | The Linux-format file of the Android version | The same file as the Linux version | The Windows-format file of the WinUI 3 version |
 | **Sound banks** | Desktop | Desktop | Desktop |
 | **Window system** | X11, and XWayland on Wayland desktops | Avalonia's macOS backend | Avalonia's Windows backend |
-| **Rendering** | OpenGL through GLX, with a software fallback | Metal, then OpenGL, then software; the Metal Rendering setting chooses OpenGL | Avalonia's Windows renderer |
+| **Rendering** | OpenGL through GLX, with a software fallback | Metal, then OpenGL, then software; the Metal Rendering setting chooses OpenGL | Direct3D 11 through ANGLE, on the window's DXGI swap chain |
 | **In-game web pages** | Chromium (CEF), built into the game; WebKitGTK as a fallback | WKWebView, built into macOS | Microsoft Edge WebView2 |
 | **Game controllers** | evdev, and Steam Input on the Steam Deck | Apple's GameController framework | XInput |
-| **Crash reporting** | Sentry, including native crashes | Sentry, including native crashes | None |
+| **Crash reporting** | Sentry, including native crashes | Sentry, including native crashes | Sentry, including native crashes |
 | **Saved games and settings** | `~/.local/share/GnollHack` | `~/Library/Application Support/GnollHack` | `%LOCALAPPDATA%\GnollHack-Avalonia` |
 | **Build instructions** | [[/Development/Build Instructions for Avalonia Linux Version on Windows]] | [[/Development/Build Instructions for Avalonia macOS Version on Windows]] | [[/Development/Build Instructions for Avalonia Windows Version on Windows]] |
 
@@ -58,7 +58,7 @@ How the port is built inside, and why, is on four pages of its own:
 - [[/Development/Design Details of Avalonia Port]] — The design that all flavors share: the build, startup, rendering, the frame loop, input, the Essentials replacements, files, web views, crash reporting, and the shared files.
 - [[/Development/Design Details of Linux Avalonia Port]] — The Linux version's own parts: X11 and GLX, Steam Input, the built-in Chromium web view (CEF), native crash handling, binary compatibility and the packages.
 - [[/Development/Design Details of macOS Avalonia Port]] — The macOS version's own parts: Metal rendering, the menu bar, the Option key, Apple's game controllers, WKWebView and the signed and notarized app bundle.
-- [[/Development/Design Details of Windows Avalonia Port]] — The Windows flavor for development and testing, and how it compares with the WinUI 3 version.
+- [[/Development/Design Details of Windows Avalonia Port]] — The Windows flavor: the swap chain the Steam overlay needs, its own executable and log, and how it compares with the WinUI 3 version.
 - [[/Development/Native Crash Reporting in Avalonia Port]] — How the Linux and macOS versions report native crashes to Sentry, from startup to the report, and what a Sentry update rebuilds.
 
 Avalonia.Controls.Maui is younger than .NET MAUI's own backends, and GnollHack works around a number of its defects. The workarounds are recorded with their symptoms and removal conditions in the GnollHack repository's [workaround register](https://github.com/hyvanmielenpelit/GnollHack/tree/master/DEVEL/workarounds).

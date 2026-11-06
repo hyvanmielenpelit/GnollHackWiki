@@ -76,7 +76,9 @@ dotnet build ..\..\GnollHackM.csproj -p:GnhAvalonia=true
 & win\win32\xpl\GnollHackM\bin\Debug\net11.0\win-x64\GnollHackM.exe
 ```
 
-Saved games and settings go to `%LOCALAPPDATA%\GnollHack-Avalonia`, apart from those of the WinUI 3 version.
+Saved games and settings go to `%LOCALAPPDATA%\GnollHack-Avalonia`, apart from those of the WinUI 3 version. No console window opens: the game's output goes to `%LOCALAPPDATA%\GnollHack-Avalonia\Logs\GnollHack.log`, and the previous run's to `GnollHack.previous.log`.
+
+> 💡 **Tip:** `--win-composition=<mode>` on the command line, or the environment variable `GNOLLHACK_WIN_COMPOSITION`, picks how the window is drawn, for testing: `dxgi` (the default), `winui`, `dcomp`, `redirect`, `wgl`, or `avalonia` for Avalonia's own defaults. The log's `GnollHack: Windows composition request` line shows what was applied.
 
 **2.3.2. Attach the debugger**, if needed: in Visual Studio, choose **Debug → Attach to Process**, and select `GnollHackM.exe` with the **Managed (.NET Core, .NET 5+)** code type.
 
@@ -117,6 +119,8 @@ For general build problems, such as a locked file, see [[/Development/Troublesho
 | Problem | Fix |
 |:--------|:----|
 | **Pressing Start in Visual Studio runs the WinUI 3 version** | `GnollHackM.sln` builds and starts the WinUI 3 version. Start the Avalonia port from its output folder, and attach the debugger, as in section 2.3. |
+| **No console output** | The game is a GUI program. Read `%LOCALAPPDATA%\GnollHack-Avalonia\Logs\GnollHack.log` |
+| **"GnollHack is already running"** | Another copy uses the same data folder. Close it first; only one copy may run at a time |
 | **The game does not start** | The FMOD libraries are missing from the output folder. Do section 2.1, and build the Avalonia port again. |
 | **A change to the C code does not show in the game** | The native solution was not built after the change. Do section 2.1, and build the Avalonia port again. |
 | **In-game web pages stay empty** | The WebView2 runtime is missing. Do step 1.2.7. |

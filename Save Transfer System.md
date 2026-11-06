@@ -23,7 +23,7 @@ Cloud saves are stored separately for each group of compatible game versions. A 
 ## 📤 How an Upload Works
 
 1. **Checking the connection:** The game checks your internet connection and the GnollHack server. If the server cannot be reached, you can cancel or continue, but a tracked game may then fail to register.
-2. **Checking the cloud:** The game looks for locks and existing cloud saves of the same character. If a lock is less than one hour old, you can abort or override it. Older locks are removed. If a cloud save of the character already exists, you must confirm before continuing.
+2. **Checking the cloud:** The game looks for locks on cloud saves of the same character. If a lock is less than one hour old, you can abort or override it. Older locks are removed. An earlier cloud save of the same character is kept, because each upload goes into a folder of its own.
 3. **Checking the save file:** The save file must exist, pass validation and have a readable header.
 4. **Creating the lock:** The game uploads a lock with a unique ID and reads it back. If the ID does not match, the upload stops.
 5. **Handling tracking:** On the desktop versions, the existing tracking record is included. On Android and iOS, a tracked game is registered with the server, which creates the record and refuses a save that has already been uploaded. A game must be played further before it can be uploaded again.
@@ -61,7 +61,7 @@ If a download fails or you cancel it before the files are placed, the game remov
 ## ⚠️ Limits of the System
 
 - **Transfers are not backups:** A transfer moves your only copy. Use **About → Manage Files → Export Saved Games** if you want an extra copy.
-- **Older cloud copies stay:** An upload does not remove an earlier cloud save of the same character, although the confirmation says that it will be replaced. Both copies then appear in the download list.
+- **Several cloud saves of one character:** An upload does not remove an earlier cloud save of the same character, so both appear in the download list. Downloading one of them onto a device that already has a save of that name asks before replacing it.
 - **A missing tracking record on the desktop versions:** If you continue such an upload without tracking, the save file still says that it is tracked, so its download fails the tracking status check with *"Tracked status mismatch"*. If you see the **Tracking Token Missing** question, it is safest to answer **No**.
 - **An interrupted upload can leave two copies:** If the app dies after the upload but before the local files are deleted, the game exists both locally and in the cloud.
 
