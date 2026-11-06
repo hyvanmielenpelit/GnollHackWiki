@@ -19,14 +19,17 @@
 | :------- | :---- | :------ | :-------- | :----- | :---------------------- |
 | **Android** | **Google Play** | ❌ | ✅🆓 | ✅🆓 | ✅🆓 |
 | **iOS** | **App Store** | ✅🆓 Unofficial (iNetHack2) | ✅🆓 | ✅🆓 | ✅💲 |
-| **Linux** | **Steam** | ✅💲 Unofficial (NetHack: Legacy) | ✅🆓 | ❌ | ✅💲 |
+| **Linux** | **Steam** | ✅💲 Unofficial (NetHack: Legacy) | ✅🆓 | ⚠️💲 Through Proton | ✅💲 |
 | **macOS** | **App Store** | ❌ | ✅🆓 | ✅🆓 | ✅💲 |
 | **macOS** | **Steam** | ✅💲 Unofficial (NetHack: Legacy) | ✅🆓 | ❌ | ✅💲 |
-| **Windows** | **Steam** | ✅💲 Unofficial (NetHack: Legacy) | ✅🆓 | ✅💲 Coming soon | ✅💲 |
-| **Steam Deck** | **Steam** | ✅💲 Unofficial (NetHack: Legacy) | ✅🆓 | ❌ | ✅💲 |
+| **Windows** | **Steam** | ✅💲 Unofficial (NetHack: Legacy) | ✅🆓 | ✅💲 | ✅💲 |
+| **Steam Deck** | **Steam** | ✅💲 Unofficial (NetHack: Legacy) | ✅🆓 | ⚠️💲 Through Proton | ✅💲 |
 
 - 🆓 Free
 - 💲 Paid
+- ⚠️ Not a native version: the Windows version runs through Proton
+
+> ℹ️ **Note:** Most Windows games on Steam can also be played on Linux and the Steam Deck through **Proton**, Valve's compatibility layer for running Windows games, but not on macOS. Pathos's Steam version is Windows-only, so it can be played on Linux and the Steam Deck this way, but not on a Mac. GnollHack's Windows version does not run on Proton, but GnollHack has a native [[Linux Version]] on Steam, which is also the version the Steam Deck runs. Pathos's Steam edition was released on November 4, 2026; its other versions remain free.
 
 #### 🧑‍💻 GitHub
 
@@ -39,7 +42,7 @@ All GitHub downloads are free.
 | **Linux** | ✅ Unofficial | ✅ | ✅ Unofficial | ✅ |
 | **macOS** | ✅ Unofficial | ❌ | ❌ | ✅ |
 | **Windows** | ✅ Unofficial | ✅ | ❌ | ✅ |
-| **Steam Deck** | ❓ | ✅ Coming soon | ❓ | ✅ |
+| **Steam Deck** | ❓ | ❌ Get it on Steam | ❓ | ✅ |
 
 #### 🏠 Website
 
@@ -75,6 +78,17 @@ All GitHub downloads are free.
 - <sup>2</sup> But consulting the [[/Monsters/Oracle]] costs gold.
 - <sup>3</sup> No on-screen keyboard.
 - <sup>4</sup> The [[Gnoll Overseer]] uses frontier AI models for its advice.
+
+### 🎮 Controller Support
+
+A game has real controller support when it reads the controller itself and has an interface built for it. A game without it can often still be played with a controller on Steam, because Steam Input can map the buttons to keys and the mouse, but then the controller merely *works*: you move a mouse cursor with a stick and press buttons that stand in for keys.
+
+| Game | Controller Support | Details |
+| :--- | :----------------- | :------ |
+| **NetHack** | ❌ None | Keyboard and mouse only. NetHack: Legacy on Steam has no controller support either. |
+| **GnollHack** | ✅ Dedicated | Radial menus, on-screen button hints, and controller navigation of every menu, the settings, this wiki, and the [[Gnoll Overseer]]. Works with the Steam Deck's built-in controls and with controllers such as Xbox controllers on Windows, Linux, and macOS. Not available on Android or iOS. See [[Steam Deck Controls]]. |
+| **Pathos** | ⚠️ Partial | Steam lists partial controller support, and the Steam page mentions controller support on the Steam Deck. The interface is designed for touch first. |
+| **Shattered Pixel Dungeon** | ✅ Dedicated | Built into the game since 2022, with an analog stick cursor, button bindings, and radial menus. |
 
 ### 🎯 Audience and History
 

@@ -42,18 +42,22 @@ Pathos was written from the ground up by solo developer Callan Hodgskin to make 
 
 ## 💻 Platform Availability and Ecosystem
 
-Both *GnollHack* and *Pathos* are **100% free** with no ads, microtransactions, or paywalls.
+*GnollHack* is **100% free** on every platform, Steam included, with no ads, microtransactions, or paywalls. *Pathos* is free on Android, iOS, the Microsoft Store, and its own website, but its enhanced Steam edition is **paid**.
 
 | Platform / Feature | 🧙‍♂️ NetHack | 🐺 GnollHack | 📱 Pathos: NetHack Codex |
 | :--- | :--- | :--- | :--- |
 | **Android** | ⚠️ Unofficial ports only | ✅ Official on **Google Play** | ✅ Official on **Google Play** |
 | **iOS (iPhone / iPad)** | ⚠️ Unofficial ports only (e.g., *iNetHack2*) | ✅ Official on **Apple App Store** | ✅ Official on **Apple App Store** |
-| **Windows** | ✅ Official download from `nethack.org` | ✅ Official on **Steam** | ✅ Official on **Microsoft Store** and desktop installer. Coming to Steam. |
-| **macOS** | ✅ Official download / Homebrew | ✅ Official on **Steam** for Apple Silicon Macs (M1+); the iOS version also runs on them via App Store | ❌ No native macOS app |
-| **Linux** | ✅ Official support. Many distributions' package managers may include a prebuilt binary. | ✅ Official on **Steam** | ⚠️ Unofficial ports only |
-| **Cross-Device Cloud Saves** | ❌ Only when playing ASCII via SSH on public servers | ✅ Built-in cloud [[Save File Transfer]] across Android, iOS, and Windows | ❌ Local saves only |
+| **Windows** | ✅ Official download from `nethack.org` | ✅ Official on **Steam** (free) | ✅ Free on **Microsoft Store** and as a desktop installer; **paid** on **Steam** |
+| **macOS** | ✅ Official download / Homebrew | ✅ Native app on **Steam** (free) for Apple Silicon Macs (M1+), since November 2026; the iOS version also runs on them via App Store | ❌ No native macOS app. The Steam version is Windows-only, and Proton is not available on macOS. |
+| **Linux** | ✅ Official support. Many distributions' package managers may include a prebuilt binary. | ✅ Native [[Linux Version]] on **Steam** (free), also available as an AppImage | ⚠️ No native version. The Windows version on **Steam** (paid) runs through Proton, and an unofficial community port exists. |
+| **Steam Deck** | ⚠️ Unofficial ports only | ✅ Native on **Steam** (free), with built-in [[Steam Deck Controls]] | ⚠️ The Windows version on **Steam** (paid) runs through Proton; the store page mentions controller support on the Steam Deck |
+| **Game Controllers** | ❌ None; keyboard and mouse only | ✅ Dedicated controller interface with radial menus, on-screen button hints, and controller navigation of every menu, on the Steam Deck, Windows, Linux, and macOS (not on Android or iOS) | ⚠️ Partial: Steam lists partial controller support, and the interface is designed for touch first |
+| **Cross-Device Cloud Saves** | ❌ Only when playing ASCII via SSH on public servers | ✅ Built-in cloud [[Save File Transfer]] across Android, iOS, and Windows | ⚠️ Steam Cloud sync on the Steam version; local saves elsewhere |
 | **Bones Sharing** | ⚠️ Requires public SSH servers or third-party *Hearse* tool | ✅ Automatic cross-platform [[Bones Sharing]] via [[GnollHack Account]] | ✅ Built-in revenant/bones sharing |
-| **Language Support** | 🌐 English only | 🌐 English only | 🌐 Translated into multiple languages |
+| **Language Support** | <img src="/uploads/GnollHack%20vs.%20Pathos%20vs.%20NetHack/us-flag.webp" alt="US Flag" height="13" /> English only | <img src="/uploads/GnollHack%20vs.%20Pathos%20vs.%20NetHack/us-flag.webp" alt="US Flag" height="13" /> English only | 🌐 Translated into multiple languages |
+
+> ℹ️ **Note:** Most Windows games on Steam can also be played on Linux and the Steam Deck through **Proton**, Valve's compatibility layer for running Windows games. That is how Pathos runs there. Proton is not available on macOS. GnollHack's Windows version does not run on Proton, but it does not need to: GnollHack has a native [[Linux Version]] on Steam, which is also the version the Steam Deck runs.
 
 ## 💡 Which One Should You Play?
 
@@ -62,6 +66,7 @@ Both *GnollHack* and *Pathos* are **100% free** with no ads, microtransactions, 
   - You appreciate high production values, including **hand-drawn animated graphics, a full musical score, and over 5,000 lines of human voice acting**.
   - You are a **new player** who wants selectable [[difficulty levels]], optional non-permadeath modes ([[Modern Mode]] and [[Casual Mode]]), and an in-game [[AI advisor|Gnoll Overseer]] to help you learn without constantly alt-tabbing to a wiki.
   - You are a ***NetHack* veteran** looking for a fresh tactical challenge with ARPG-style mythic loot, 200+ reagent-based spells, and expanded late-game content.
+  - You want to play **for free on Steam** on Windows, a Mac, Linux, or the Steam Deck, or **with a game controller** (see [[Steam Deck Controls]]).
 
 - 📱 **Play Pathos: NetHack Codex if:**
   - You want a **lighter, faster-paced adaptation** inspired by *NetHack* that doesn't require learning *NetHack*'s quirks, alignment rules, or survival hazards.

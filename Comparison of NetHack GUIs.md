@@ -26,7 +26,7 @@
 | Feature | NetHack Windows GUI | NetHack 3D | GnollHack |
 |---------|---------------------|------------|---------------------------|
 | **User interface** | Very basic UI with modal text windows. | Modern graphical UI with a HUD, a scalable minimap, and customizable hotbars. | Modern graphical UI with high-definition UI graphics. |
-| **Input and controls** | Keyboard-centric. Uses numpad or vi-keys for movement. Very rudimentary mouse support. | Keyboard and mouse, controller (with radial action menus), and touch controls. Tracked controllers are supported in VR. | Modern keyboard, touch, and mouse support tailored for point-and-click gameplay. Controller support (with radial action menus) on the Steam Deck, Linux, macOS, and Windows. |
+| **Input and controls** | Keyboard-centric. Uses numpad or vi-keys for movement. Very rudimentary mouse support. No game controller support. | Keyboard and mouse, controller (with radial action menus), and touch controls. Tracked controllers are supported in VR. | Modern keyboard, touch, and mouse support tailored for point-and-click gameplay. Controller support (with radial action menus) on the Steam Deck, Linux, macOS, and Windows. |
 | **Inventory management** | The inventory is a text menu where items are bound to letters. Since NetHack 5.0, selecting an item in the inventory opens a menu of context-sensitive item actions. Otherwise, the player must first use an appropriate command, such as Quaff (`q`) for drinking. | Graphical inventory with item categories. Most common item commands are accessible directly through the inventory screen. | Animated, graphical inventory. Most common item commands are accessible directly through the inventory screen. |
 | **Targeting system** | Keyboard directional cursor. | Mostly keyboard directional cursor, but mouse and touch can be used in the far look mode. | Modern support for mouse and touch. Also supports a keyboard directional cursor. |
 | **Configuration** | Global options can be set through a text-based configuration file. Game-specific options can be set through an in-game menu. | GUI settings and selected startup options (such as autopickup and pet names) can be set through in-game menus. Game-specific options can be configured through an in-game menu. | Most settings can be set through a modern in-game settings menu. Game-specific options can be set through an in-game menu. Also exposes global options through a text-based configuration file. |
@@ -38,7 +38,7 @@
 | **Native OS Support** | Windows | Android, Linux (+Steam Deck), macOS, Windows, and Meta Quest | Android, iOS, Linux (+Steam Deck), macOS, and Windows |
 | **Web Browser Support** | ❌ | ✅ | ❌ |
 | **Game version** | Vanilla NetHack 5.0 | Vanilla NetHack 5.0 or 3.6.7, or Slash'EM | GnollHack |
-| **Release year** | 2002 | 2026 | Mobile: 2023, Desktop: 2025, Steam Deck: 2026 |
+| **Release year** | 2002 | 2026 | Mobile: 2023, Windows: 2025, Steam Deck and native macOS & Linux: 2026 |
 | **Download** | [NetHack website](https://www.nethack.org/) | [GitHub](https://github.com/JamesIV4/nethack-3d/releases/latest) or [play in a web browser](https://jamesiv4.github.io/nethack-3d/) | [Google Play Store](https://play.google.com/store/apps/details?id=com.soundmindentertainment.gnollhack), [Apple App Store](https://apps.apple.com/app/gnollhack/id1626979951), [Steam](https://store.steampowered.com/app/3558190/GnollHack/?utm_source=wiki), [GitHub](https://github.com/hyvanmielenpelit/GnollHack/releases), [GnollHack website](https://gnollhack.com/) |
 
 ### 💡 Which One to Pick?
