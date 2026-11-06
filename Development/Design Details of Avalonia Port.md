@@ -49,12 +49,12 @@ Every flavor defines `GNH_MAUI`, `GNH_AVALONIA`, `USE_SPAN_FOR_SUBSTRING` and `C
 | **One project** | A build property on `GnollHackM.csproj`, not a fork | One code base for every client |
 | **Runtime** | CoreCLR with the JIT, self-contained | No .NET installation needed, and the same runtime as the WinUI 3 version. Why it is not trimmed or compiled ahead of time is not recorded |
 | **Entry point** | GnollHack's own `Main` | Some setup must run before Avalonia starts; see [[Startup|#startup]] |
-| **Skia views** | GnollHack's own Avalonia controls and handlers | Avalonia.Controls.Maui's handlers have layout and hover defects, and paint inside Avalonia's render pass, where GnollHack's views cannot touch .NET MAUI properties |
+| **Skia views** | GnollHack's own Avalonia controls and handlers | Avalonia.Controls.Maui's canvas control cannot paint inside the frame callback, so a frame would wait for Avalonia's 16 ms timer, and both Skia controls must measure zero for .NET MAUI's layout |
 | **GPU memory** | Avalonia's single Skia context with a fixed budget: 1.5 GiB, 2 GiB on macOS | Avalonia owns the context, so the budget replaces the cache management of the other clients; a full cache would re-upload textures every frame |
 | **Frame pacing** | GnollHack's own frame loop and refresh-rate estimate | Avalonia reports neither when a frame is presented nor the display's refresh rate |
 | **Keyboard** | Keys are routed at the window, before any control | The game gets Tab, the arrow keys and Alt before Avalonia uses them for focus and access keys, as with the WinUI 3 version's keyboard hook |
 | **Essentials** | GnollHack's own implementations in .NET MAUI's static facades | Avalonia.Controls.Maui's own throw an exception for most APIs |
-| **Fonts** | GnollHack's own font registrar, which copies each font's Windows metrics | Avalonia.Controls.Maui misreads some font names, and text should sit where DirectWrite puts it in the WinUI 3 version |
+| **Fonts** | GnollHack's own font registrar, which copies each font's Windows metrics | Text should sit where DirectWrite puts it in the WinUI 3 version |
 | **Crash reporting** | The core Sentry .NET SDK, plus sentry-native started by GnollHack | The .NET SDK starts native crash capture only in builds compiled ahead of time; see [[Crash Reporting|#crash-reporting]] |
 | **Data folder** | One per flavor, apart from the WinUI 3 version's | Testing the Avalonia port on Windows never touches the WinUI 3 version's saved games |
 | **One process per data folder** | `instance.lock` in the data folder, on every flavor | A second copy would write the same saved games |
@@ -163,7 +163,7 @@ The files of `Platforms\Avalonia\`, which every flavor compiles.
 
 | File | Role |
 |:-----|:-----|
-| **GHAvaloniaMargin.cs**, **GHAvaloniaLayoutInput.cs**, **GHAvaloniaAlignment.cs** | Margins, input transparency and alignment as .NET MAUI defines them |
+| **GHAvaloniaAlignment.cs** | Room for the vertical scroll bar |
 | **GHAvaloniaControlTheming.cs**, **GHAvaloniaPickerTheming.cs** | Control and picker colors matching the WinUI 3 version |
 | **GHAvaloniaFocusGuard.cs** | Keeps keyboard focus on controls a pointer could reach |
 
@@ -173,7 +173,7 @@ The files of `Platforms\Avalonia\`, which every flavor compiles.
 |:-----|:-----|
 | **Rendering\GHAvaloniaGLViewHandler.cs**, **Rendering\GHAvaloniaGLControl.cs** | GPU views |
 | **Rendering\GHAvaloniaCanvasViewHandler.cs**, **Rendering\GHAvaloniaCanvasControl.cs** | CPU views, painted outside the render pass |
-| **Rendering\GHAvaloniaPointerHover.cs**, **Rendering\GHAvaloniaTouchTracker.cs** | Mouse hover; touches that Avalonia.Controls.Maui loses |
+| **Rendering\GHAvaloniaTouchTracker.cs** | Touches that Avalonia.Controls.Maui loses |
 | **Rendering\GHGLResourceGraveyard.cs**, **Rendering\GHRefCountedImage.cs** | GPU disposal on the render thread; images shared with draw operations |
 
 ### ⏱️ Frame Loop and Display
