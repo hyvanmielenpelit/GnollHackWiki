@@ -90,6 +90,7 @@ These articles provide historical context and technical background. They are eas
 - [[/Development/Design Details of Linux Avalonia Port]] — The Linux version's own design, including CEF, crash handling and the packages
 - [[/Development/Design Details of macOS Avalonia Port]] — The macOS version's own design, including Metal, WKWebView and the app bundle
 - [[/Development/Design Details of Windows Avalonia Port]] — The Windows flavor for development and testing
+- [[/Development/Native Crash Reporting in Avalonia Port]] — How the Linux and macOS versions report native crashes to Sentry, and how Sentry is updated
 - [[/Development/Gamepad Support]] — How game controller support works, and what it covers and does not cover
 - [[/Development/Debugging Linux Version in WSL using Visual Studio Code]]
 - [[/Development/SkiaSharp Build Instructions]] — Describes custom SkiaSharp compilations (primarily for reference).

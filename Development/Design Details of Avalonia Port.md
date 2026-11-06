@@ -140,6 +140,8 @@ Linux and macOS report to Sentry; the Windows flavor does not.
 - **Sending**: a native crash report is saved at the crash and posted unchanged to Sentry at the next start, so no field that only native events have is lost.
 - **One sentry-native version** on Linux, macOS and WinUI 3, checked at build time by `GnhSentryNative.targets`.
 
+The whole mechanism, and how the native libraries follow a Sentry update, is on [[/Development/Native Crash Reporting in Avalonia Port]].
+
 ## 📁 Shared Files
 
 The files of `Platforms\Avalonia\`, which every flavor compiles.
@@ -235,6 +237,7 @@ Avalonia, Avalonia.Controls.Maui, .NET MAUI, SkiaSharp and Sentry have defects t
 - [[/Development/Design Details of Linux Avalonia Port]]
 - [[/Development/Design Details of macOS Avalonia Port]]
 - [[/Development/Design Details of Windows Avalonia Port]]
+- [[/Development/Native Crash Reporting in Avalonia Port]]
 - [[/Development/Gamepad Support]]
 
 ## 🔗 External Links

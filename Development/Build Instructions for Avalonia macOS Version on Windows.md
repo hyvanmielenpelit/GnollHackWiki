@@ -304,7 +304,7 @@ win\win32\xpl\GnollHackM\Platforms\MacOS\Packaging\Build-MacSentryNative.ps1
 
 It links `libsentry-native.a` from the Sentry NuGet package into a universal arm64 and x86_64 dylib on the Mac, over the same SSH alias as the packaging, checks it, and copies it back with sentry-native's license to `Platforms\MacOS\licenses\sentry-native\`. It downloads nothing: GnollHackM must have been restored first, so that the Sentry package is in the NuGet package folder. Its errors are printed as `Build-MacSentryNative.ps1 : error GNHMS0nn: ...`.
 
-It also writes `libgnhsentry.build.props` beside the library, which every macOS build of GnollHackM checks against the Sentry package: a mismatch is an error in a Release publish or a package build, and a warning otherwise.
+It also writes `libgnhsentry.build.props` beside the library, which every macOS build of GnollHackM checks against the Sentry package: a mismatch is an error in a Release publish or a package build, and a warning otherwise. The whole upgrade, across all three platforms, is summarized in [[Updating Sentry|/Development/Native Crash Reporting in Avalonia Port#updating-sentry]].
 
 ## ⚙️ Packaging Script Options
 

@@ -78,6 +78,7 @@ Only what differs from the shared [[Startup|/Development/Design Details of Avalo
 - **`libgnhsentry.dylib`**: the Sentry package's static library, linked unchanged into a universal dynamic library on the Mac; `libgnhsentry.build.props` records the versions the build checks.
 - **Tags and testing**: every event has `macos.package` set to `steam`, `bundle` or `unbundled`; `GNOLLHACK_SENTRY_TEST=1` sends one test message at start.
 - **Debug symbols**: a Release publish uploads `libgnhsentry.dylib` and the engine's dSYM itself, because Sentry's build integration uploads dSYMs only for iOS and Mac Catalyst.
+- **The whole mechanism**, and how `libgnhsentry.dylib` follows a Sentry update, is on [[/Development/Native Crash Reporting in Avalonia Port]].
 
 ## 📦 App Bundle
 
@@ -137,6 +138,7 @@ Defects in third-party components are worked around and recorded in the GnollHac
 - [[/Development/Design Details of Avalonia Port]]
 - [[/Development/Design Details of Linux Avalonia Port]]
 - [[/Development/Design Details of Windows Avalonia Port]]
+- [[/Development/Native Crash Reporting in Avalonia Port]]
 - [[/Development/Avalonia Port]]
 - [[/Development/Build Instructions for Avalonia macOS Version on Windows]]
 

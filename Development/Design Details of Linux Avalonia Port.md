@@ -82,9 +82,10 @@ The managed bindings are CefGlue, and the native CEF build comes from a NuGet pa
 
 The shared model is in [[Crash Reporting|/Development/Design Details of Avalonia Port#crash-reporting]]. On Linux:
 
-- **sentry-native**: `libsentry.so`, built without a network transport, started by `GHAvaloniaSentryNative`.
+- **sentry-native**: `libsentry.so`, built without a network transport, started by `GHSentryNative`, with its Linux options set by `GHAvaloniaSentryNative`.
 - **Signal stacks**: `SIGILL`, `SIGTRAP`, `SIGBUS` and `SIGFPE` run on the thread's own stack, because CoreCLR's chained handler overflows the alternate stack; `SIGSEGV` keeps it, for native stack overflows.
 - **Tags**: `linux.package` (`appimage`, `steam` or `other`), `linux.container` (`pressure-vessel` inside Steam's container), `linux.session` (such as `x11` or `wayland`) and `linux.glibc`.
+- **The whole mechanism**, and how `libsentry.so` follows a Sentry update, is on [[/Development/Native Crash Reporting in Avalonia Port]].
 - **Missing libraries**: `NativeLibraryPreflightLinux` reports a native library that fails to load, explains it on standard error and in a dialog, naming the glibc versions when glibc is too old, and exits. No Avalonia window exists yet at that point.
 
 ## 🐧 Binary Compatibility
@@ -138,7 +139,7 @@ Paths are relative to `Platforms\Linux\` unless the row says otherwise.
 
 | File | Role |
 |:-----|:-----|
-| **GHAvaloniaSentryNative.cs** | Starts sentry-native and sets its signal strategy |
+| **GHAvaloniaSentryNative.cs** | sentry-native's signal strategy, `SA_ONSTACK` flags and handler check |
 | **NativeLibraryPreflightLinux.cs** | Missing-library report |
 | **GHIBusDestroyReplyFilter.cs** | Keeps a harmless IBus reply out of Sentry |
 | **libs\libsentry.so**, **libs\libsentry.build.props**, **licenses\sentry-native\LICENSE**, **licenses\sentry-native\LICENSE-libunwind** | sentry-native, the version record the build checks, and its licenses |
@@ -163,6 +164,7 @@ The Linux version works around defects in CEF, Steam, the Steam Linux Runtime an
 - [[/Development/Avalonia Port]]
 - [[/Development/Design Details of macOS Avalonia Port]]
 - [[/Development/Design Details of Windows Avalonia Port]]
+- [[/Development/Native Crash Reporting in Avalonia Port]]
 - [[/Development/Build Instructions for Avalonia Linux Version on Windows]]
 - [[/Linux System Requirements]]
 
