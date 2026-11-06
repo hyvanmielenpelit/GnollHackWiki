@@ -72,7 +72,7 @@ The Windows flavor's own C# is in `Platforms\WindowsAvalonia\`; `Platforms\Windo
 | **.NET** | .NET 11, SDK pinned in `Platforms\Avalonia\global.json` | .NET 10, SDK pinned in `GnollHackM\global.json` |
 | **Game engine and data** | `gnollhackwin.dll`, Windows-format `nhdat` | The same |
 | **Rendering** | ANGLE on the window's DXGI swap chain | SkiaSharp on a `SwapChainPanel`, or a XAML `Canvas` without GPU acceleration |
-| **GPU** | The high-performance GPU, unless Windows' per-app setting says Power saving | Windows' default adapter, usually the integrated one on a hybrid laptop unless the per-app setting says High performance; a one-time "Multiple GPUs" alert says so |
+| **GPU** | The high-performance GPU, unless Windows' per-app setting says Power saving, chosen through Avalonia's adapter callback | The same rule while GPU Acceleration is on, applied by initializing ANGLE's display on that GPU before SkiaSharp creates it; with GPU Acceleration off, Windows' default GPU |
 | **Steam overlay** | Draws over the game; tested on the map in November 2026 | Does not appear |
 | **Web view** | WebView2 through Avalonia | WebView2 through .NET MAUI |
 | **Crash reporting** | Sentry, including native crashes | The same |

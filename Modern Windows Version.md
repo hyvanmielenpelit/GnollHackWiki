@@ -37,23 +37,26 @@ Click 🛠️ [[Troubleshooting Modern Windows Version (Steam)]] 🛠️ for tro
 - The icon of GnollHack installed using the MSIX package will have a blue background.
 - The MSIX version of the game *doesn't* have auto-update. You update it manually by installing a newer version.
 
-## 2. Integrated GPU Used by Default
+## 2. Dedicated GPU Used by Default
 
-By default, GnollHack uses the integrated GPU to render its graphics.
+If your computer has both an integrated and a dedicated GPU, GnollHack draws the game on the dedicated (high-performance) GPU by itself, as long as **GPU Acceleration** is on in GnollHack's settings, which it is by default. You don't need to change anything in Windows.
 
-## 3. Enabling Dedicated GPU
+With **GPU Acceleration** off, GnollHack uses the GPU Windows chooses for it, usually the integrated one.
+
+## 3. Choosing the GPU in Windows
+
+You can still choose the GPU for GnollHack in **Windows Settings → System → Display → Graphics**:
+
+- **Power Saving** — GnollHack uses the integrated GPU, which saves battery.
+- **High Performance** — GnollHack uses the dedicated GPU, also with **GPU Acceleration** off.
 
 ### 3.1. Steam Version
 
-In the case of multiple GPUs, in **Windows Settings → System → Display → Graphics**, please add:
-
-- **Desktop App (`C:\Program Files (x86)\Steam\steamapps\common\GnollHack\GnollHackM.exe`) → GPU Preference:** **High Performance** — Uses the dedicated GPU.
+Add the desktop app `C:\Program Files (x86)\Steam\steamapps\common\GnollHack\GnollHackM.exe` there and choose its **GPU Preference**.
 
 ### 3.2. MSIX Version
 
-In the case of multiple GPUs, in **Windows Settings → System → Display → Graphics**, please add:
-
-- **GnollHack (Microsoft Store App) → GPU Preference:** **High Performance** — Uses the dedicated GPU.
+Add **GnollHack (Microsoft Store App)** there and choose its **GPU Preference**.
 
 ## 4. Recommended GnollHack Graphics Settings
 
