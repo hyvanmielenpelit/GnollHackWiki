@@ -13,6 +13,9 @@ Entries are in alphabetical order within each section. A project with a listing 
 | Icon | Meaning |
 | :-: | :-- |
 | ⭐ | One of the projects with the most work put into its graphical interface; see [[Most Developed Interfaces|#most-developed-interfaces]]. |
+| 🏪 | Listed in an online store, such as Steam, itch.io, Google Play, or the App Store; see [[Online Stores|#online-stores]]. |
+| 💾 | Can be downloaded and installed without a store, for example from GitHub or the project's website; see [[Install on Your Device|#install-on-your-device]]. |
+| 🌍 | Can be played in a web browser; see [[Play in a Web Browser|#play-in-a-web-browser]]. |
 | 🟢 | **In active development**: An established project, with public builds for at least nine months, new builds within the last six months, and ongoing feature work. |
 | 🧪 | **Experiment**: A new project whose first public build is less than nine months old. It may grow into an established project or be abandoned quickly; experiments that keep getting updates move to In active development after nine months. |
 | 🟡 | **Maintained**: Updated within the last two years, but only occasionally, such as bug fix releases. |
@@ -22,32 +25,30 @@ Entries are in alphabetical order within each section. A project with a listing 
 
 ## 📋 At a Glance
 
-| Port or Variant | Status | Audio | Price | Runs On |
-| :-- | :-: | :-: | :-- | :-- |
-| [[DartHack|#darthack]] | 🧪 | 🔇 | Free, with ads | Android |
-| [[GnollHack|#gnollhack]] ⭐ | 🟢 | 🎵 | Free | Windows, macOS, Linux, Steam Deck, Android, iPhone, iPad |
-| [[iNethack2|#inethack2]] | 🟡 | 🔇 | Free | iPhone, iPad, Apple silicon Mac |
-| [[VoxHack|#voxhack]] | 🧪 | 🎵 | Free, or pay what you want | Windows |
-| [[ZeldHack for NetHack|#zeldhack-for-nethack]] | 🟡 | 🎵 | Free | Windows |
-| [[BlissHack|#blisshack]] | 🧪 | 🔇 | Free | Windows, macOS (Apple silicon) |
-| [[EvilHack|#evilhack]] | 🟢 | 🔇 | Free | Windows |
-| [[NetHack 3D|#nethack-3d]] ⭐ | 🟢 | 🔇 | Free | Windows, macOS, Linux, Steam Deck, Android, Meta Quest |
-| [[NetHack 5.0 (official)|#nethack-5-0-official]] | 🟢 | 🔇 | Free | Windows, MS-DOS |
-| [[NetHack Android|#nethack-android]] | 🟢 | 🔇 | Free | Android |
-| [[NetHack Cocoa|#nethack-cocoa]] | 🟢 | 🔇 | Free | macOS 12 or later |
-| [[NetHack Tiles Client|#nethack-tiles-client]] | 🧪 | 🔇 | Free | Windows, macOS, Linux |
-| [[NetHackJP|#nethackjp]] | 🧪 | 🔇 | Free | Windows, Linux |
-| [[xNetHack|#xnethack]] | 🟢 | 🔇 | Free | Windows |
-| [[BlissHack (web version)|#blisshack-web-version]] | 🧪 | 🔇 | Free | Web browsers |
-| [[Hardfought web terminal|#hardfought-web-terminal]] | 🟢 | 🔇 | Free | Web browsers |
-| [[NAO web terminal|#nao-web-terminal]] | 🟢 | 🔇 | Free | Web browsers |
-| [[NetHack 3D (web version)|#nethack-3d-web-version]] ⭐ | 🟢 | 🔇 | Free | Web browsers, including mobile |
-| [[NetHack Browser Edition|#nethack-browser-edition]] | 🟡 | 🔇 | Free | Desktop and mobile web browsers |
-| [[nethack.app|#nethack-app]] | 🧪 | 🔇 | Free | Web browsers |
-| [[VectHack|#vecthack]] | 🧪 | 🔇 | Free | Web browsers |
-| [[WebHack|#webhack]] | 🧪 | 🔇 | Free | Web browsers |
+| Port or Variant | Get It | Status | Audio | Price | Runs On |
+| :-- | :-: | :-: | :-: | :-- | :-- |
+| [[BlissHack|#blisshack]] | 💾 [[🌍|#blisshack-web-version]] | 🧪 | 🔇 | Free | Windows, macOS (Apple silicon), web browsers |
+| [[DartHack|#darthack]] | 🏪 | 🧪 | 🔇 | Free, with ads | Android |
+| [[EvilHack|#evilhack]] | 💾 | 🟢 | 🔇 | Free | Windows |
+| [[GnollHack|#gnollhack]] ⭐ | 🏪 💾 | 🟢 | 🎵 | Free | Windows, macOS, Linux, Steam Deck, Android, iPhone, iPad |
+| [[Hardfought web terminal|#hardfought-web-terminal]] | 🌍 | 🟢 | 🔇 | Free | Web browsers |
+| [[iNethack2|#inethack2]] | 🏪 | 🟡 | 🔇 | Free | iPhone, iPad, Apple silicon Mac |
+| [[NAO web terminal|#nao-web-terminal]] | 🌍 | 🟢 | 🔇 | Free | Web browsers |
+| [[NetHack 3D|#nethack-3d]] ⭐ | 💾 [[🌍|#nethack-3d-web-version]] | 🟢 | 🔇 | Free | Windows, macOS, Linux, Steam Deck, Android, Meta Quest, web browsers (including mobile) |
+| [[NetHack 5.0 (official)|#nethack-5-0-official]] | 💾 | 🟢 | 🔇 | Free | Windows, MS-DOS |
+| [[NetHack Android|#nethack-android]] | 💾 | 🟢 | 🔇 | Free | Android |
+| [[NetHack Browser Edition|#nethack-browser-edition]] | 🌍 | 🟡 | 🔇 | Free | Desktop and mobile web browsers |
+| [[NetHack Cocoa|#nethack-cocoa]] | 💾 | 🟢 | 🔇 | Free | macOS 12 or later |
+| [[NetHack Tiles Client|#nethack-tiles-client]] | 💾 | 🧪 | 🔇 | Free | Windows, macOS, Linux |
+| [[nethack.app|#nethack-app]] | 🌍 | 🧪 | 🔇 | Free | Web browsers |
+| [[NetHackJP|#nethackjp]] | 💾 | 🧪 | 🔇 | Free | Windows, Linux |
+| [[VectHack|#vecthack]] | 🌍 | 🧪 | 🔇 | Free | Web browsers |
+| [[VoxHack|#voxhack]] | 🏪 💾 | 🧪 | 🎵 | Free, or pay what you want | Windows |
+| [[WebHack|#webhack]] | 🌍 | 🧪 | 🔇 | Free | Web browsers |
+| [[xNetHack|#xnethack]] | 💾 | 🟢 | 🔇 | Free | Windows |
+| [[ZeldHack for NetHack|#zeldhack-for-nethack]] | 🏪 | 🟡 | 🎵 | Free | Windows |
 
-## 🛒 Online Stores
+## 🏪 Online Stores
 
 ### DartHack
 
