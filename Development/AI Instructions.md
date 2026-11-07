@@ -8,6 +8,7 @@ Each instruction page tells an AI agent, step by step, how to carry out one recu
 |--------------|-------------------------|
 | [[/Development/AI/Steam Patch Notes]] | A title and a BBCode list of changes for a Steam patch notes post, based on a GitHub release |
 | [[/Development/AI/Steam Events and Announcements]] | The event type, title, subtitle, summary, and BBCode body for a Steam event, and its 800×450 cover image and 1920×622 header image |
+| [[/Development/AI/Graphical NetHack Ports Scan]] | An updated [[/Graphical NetHack Ports and Variants]] page, with new projects added, statuses rechecked, and the last web scan date set, and a report of the changes and their sources |
 
 ## ⌨️ Copiable Prompts
 
@@ -28,6 +29,16 @@ Please create a Steam event for GnollHack about [TOPIC]. Use the process detaile
 ```
 
 The agent asks you for the picture to use for the event images. You upload the finished images yourself in the Steam event editor.
+
+### 🔍 Graphical NetHack Ports Scan
+
+Run this in Claude Code in the Claude desktop app, with the GnollHackWiki repository as the working directory. The prompt needs no changes:
+
+```text
+Please run a web scan for new and updated graphical NetHack ports and variants, and update "Graphical NetHack Ports and Variants.md". Use the process detailed in "Development/AI/Graphical NetHack Ports Scan.md" in the GnollHackWiki repository.
+```
+
+The agent leaves the updated page uncommitted and reports every change with its source, so you can review it before committing.
 
 ## 🛠️ Adding New Instructions
 
