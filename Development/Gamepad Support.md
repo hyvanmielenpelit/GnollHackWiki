@@ -1,4 +1,4 @@
-> 👉 **This page describes how game controller support works in GnollHack, which platforms and controllers it covers, and what it does not cover yet. It reflects the state of the code on November 5, 2026 (version 3.37).**
+> 👉 **This page describes how game controller support works in GnollHack, which platforms and controllers it covers, and what it does not cover yet. It reflects the state of the code on November 7, 2026 (version 3.40).**
 
 ## ℹ️ Overview
 
@@ -73,11 +73,11 @@ L1 and R1 are hold modifiers, and neither does anything on its own. L1 changes t
 
 ### ⚙️ Radial Menus and Quick Actions
 
-Radial menus stay open until an item is chosen or they are closed, except for the direction radial while its trigger is held. Either stick selects, or the D-pad steps. A activates, B closes and L1/R1 change the page.
+Radial menus stay open until an item is chosen or they are closed, except for the direction radial while its trigger is held. Either stick selects, or D-pad Left/Right step and Up/Down jump to the top and bottom slots. A activates, B closes, Menu closes the radial and opens the game menu, and L1/R1 change the page.
 
-- **Actions radial**: the current context commands with Skills, Polearm and Wield Last or Unwield, followed by the commands of the commands page, eight per page. This is how commands without a button of their own are reached, including the Extended Command. On the map it has all of them except Back to Game, the count pad and, outside wizard mode, the wizard commands. In position prompts, L3 opens it without the commands.
+- **Actions radial**: the current context commands, followed by the commands pages, eight slots per page. The first is the **Quick Commands** page: Rest, Search 20 and Extended, then Skills, Polearm and Wield Last or Unwield when their buttons would show, each in its own slot, and Quick Command 1 and 2 in the West and Northwest slots. The other commands of the commands page follow in alphabetical order. This is how commands without a button of their own are reached. On the map it has all of them except Back to Game, the count pad and, outside wizard mode, the wizard commands. X switches between the context page and the Quick Commands page. In position prompts, L3 opens it without the commands.
 - **Toggles radial**: More Messages, Status Screen, Auto-Center, Look Mode, Auto-Dig, Ignore Stopping, Max Hit Points and Max Mana.
-- **Quick radials**: L1 + R2 opens Right Quick and R1 + L2 opens Left Quick. Each has eight actions, set in Settings, and runs the chosen one at once, with the direction radial if it asks for a direction. R2 and L2 alone run their own commands, set with the R2 Action and L2 Action settings.
+- **Quick radials**: L1 + R2 opens Right Quick and R1 + L2 opens Left Quick, and pressing the trigger again closes them. Each has eight actions, set in Settings, and runs the chosen one at once, with the direction radial if it asks for a direction. R2 and L2 alone run their own commands, set with the R2 Action and L2 Action settings.
 - **Direction radial**: when a command asks for a direction, a violet, see-through radial opens. Select with a stick and press A to confirm. D-pad Up answers up (`<`), D-pad Down answers down (`>`) and Y answers self. While a trigger is held through its own command's prompt, a stick already pushed when the radial opens counts at once, releasing the trigger confirms, and releasing with nothing selected cancels the command. Force Fight, a prefix, does not open it.
 - **Command radial**: A on a picker of commands in Settings shows its commands, eight per page, opening on the page with the current one. L1/R1 change the page, a stick or the D-pad selects, A sets and B closes.
 
@@ -104,7 +104,7 @@ All of these are covered, and show their controls in a hint strip:
 |:-----|:---------|
 | **Main menu** | ✅ Focus over the buttons and the mode switches, with shortcut buttons |
 | **Game menu** | ✅ Focus navigation |
-| **Settings** | ✅ Every row: switches, pickers, sliders and text fields, with L1/R1 jumping between sections. A on a picker of commands opens a paged radial, and A on a list of three or more opens a scrolling list |
+| **Settings** | ✅ Every row: switches, pickers, sliders and text fields, with L1/R1 jumping between sections. A on a picker of commands opens a paged radial, and A on a list of two or more opens a scrolling list |
 | **About, Reset, Import/Export, Vault, Version** | ✅ Focus navigation |
 | **Library, Oracle, Music, Snapshots, Achievements, Save Transfer** | ✅ Focus over the rows and buttons |
 | **Top Scores, Replays** | ✅ List selection, except multiple selection in Replays |
@@ -126,6 +126,7 @@ The **Controller** section of Settings appears only when a controller can be use
 - **Use Controller** turns the whole feature off.
 - **Hide Command Bar**, on by default, hides the command bar and the menus' OK and Cancel buttons while the controller is the active input. They keep their space, so nothing on the screen moves.
 - **R2 Action and L2 Action** set what the triggers run when pressed alone, to any command the bar buttons can hold, None, or **By Role**, R2's default, which runs Cast Quick for Healers, Monks, Priests and Wizards, Polearm for Knights, and Fire for the others.
+- **Quick Command 1 and 2** set the commands in the West and Northwest slots of the Actions radial's Quick Commands page, to any command the bar buttons can hold or None, the default. They run as a Quick radial's action does.
 - **Back Grip L4, L5, R4 and R5** set the grips' commands, and appear only when the controller has grips.
 - **Quick Radials** is a section of its own, setting the eight actions of each Quick radial to any command the bar buttons can hold. It appears while the Controller section is shown and Use Controller is on. Bar Commands is then hidden if Hide Command Bar is on, and shown next to it if off.
 
@@ -156,7 +157,7 @@ By default, only the Steam Deck in Gaming Mode opens an on-screen keyboard. On W
 
 ### 🎛️ Customization
 
-There is no free button remapping. Only the back grips and the trigger actions can be changed in the game. Everything else is fixed, although Steam Input's own remapping can change what the buttons send on Steam.
+There is no free button remapping. Only the trigger actions, the Quick radials' slots, the two quick commands and the back grips can be changed in the game. Everything else is fixed, although Steam Input's own remapping can change what the buttons send on Steam.
 
 ### 🚂 Steam Input
 
@@ -191,7 +192,7 @@ Input travels from a backend through a shared service to whichever page is on to
 
 | Layer | What it does | Code |
 |:------|:-------------|:-----|
-| **Backends** | Read the hardware and report buttons, sticks and triggers | `GHEvdevGamepadBackend`, `GHXInputGamepadBackend`, `GHGamepadKeyBridge` |
+| **Backends** | Read the hardware and report buttons, sticks and triggers | `GHEvdevGamepadBackend`, `GHXInputGamepadBackend`, `GHGameControllerBackend`, `GHGamepadKeyBridge` |
 | **Frame glue** | Registers the backends and polls the service once per UI frame | `GHAvaloniaGamepad`, `GHWinUIGamepad` |
 | **Service** | Applies the gates, tracks presses, derives triggers and stick directions, and routes the events | `GHGamepadService`, `GHGamepadButtonTracker`, `GHGamepadControllerSelector`, `GHGamepadPressRouter` |
 | **Pages** | Handle focus and actions | `IGHGamepadHandlingPage`, `GHGamepadPageNavigator`, `GHGamepadFocusList` |
@@ -201,12 +202,13 @@ Input travels from a backend through a shared service to whichever page is on to
 | **File dialogs** | An in-page dialog that takes the controller | `GHFileDialogHost`, `FileDialogView` |
 | **On-screen keyboard** | Opens Steam's keyboard next to the field | `GHScreenKeyboard`, `GHAvaloniaSteamKeyboard` |
 
-Most of this is in `win/win32/xpl/GnollHackX/GnollHackX/Gamepad/`. The Windows XInput backend is `GnollHackM/GHXInputGamepadBackend.cs`, and the platform glue in `GnollHackM/Platforms/Avalonia/` and `GnollHackM/Platforms/Windows/`.
+Most of this is in `win/win32/xpl/GnollHackX/GnollHackX/Gamepad/`. The Windows XInput backend is `GnollHackM/GHXInputGamepadBackend.cs`. The evdev backend is in `GnollHackM/Platforms/Linux/` and the GameController backend in `GnollHackM/Platforms/MacOS/`, and the platform glue is in `GnollHackM/Platforms/Avalonia/` and `GnollHackM/Platforms/Windows/`.
 
 ### 🔌 Backends
 
 - **evdev (Linux)** reads `/dev/input/event*` directly and never grabs a device. It watches `/dev/input` with inotify, so plugged-in controllers appear by themselves, and so does the new virtual pad when Steam recreates it. It honors the device lists Steam sets to hide the controllers it wraps. On a Steam launch it also reads the file that names the real controller behind each virtual pad, which decides the hint labels.
 - **XInput (Windows)** calls `xinput1_4.dll`, a part of Windows. It polls connected slots every frame, and checks one empty slot every 0.5 seconds, so hot-plugging works for up to four controllers.
+- **GameController (macOS)** reads controllers through Apple's GameController framework. It reads the controller list every frame, so a controller works when switched on before or during the game, and skips controllers without an extended gamepad profile.
 - **Back-grip key bridge (Avalonia)** is an auxiliary backend. Steam's virtual pad has no paddle buttons, so GnollHack's layout sends the grips as the keys F2, F3, F4 and F5, and the bridge turns those back into grip presses (WA-STEAM-0001). It runs by default only on a Steam Deck started from Steam.
 
 ### 🚦 The Service
@@ -243,7 +245,7 @@ The script is evaluated directly through the web view, not through .NET MAUI's w
 
 ### 🚂 The Steam Input Layout
 
-GnollHack's layout, "GnollHack (Steam Deck)", is Steam's **Gamepad with Mouse Trackpad** template with the left trackpad's click as L3, the back grips bound to F2-F5 and gyro off. It ships with the game as an Action Manifest in the Linux Steam depot, in `steam_input/`, so no Steam account is attached to it and it is versioned with the code. The source files are in `win/win32/xpl/GnollHackM/Platforms/Linux/Packaging/steam/input/`.
+GnollHack's layout, "GnollHack (Steam Deck)", is Steam's **Gamepad with Mouse Trackpad** template with the right trackpad's click as the left mouse button instead of R3, the left trackpad's click as L3, the back grips bound to F2-F5 and gyro off. It ships with the game as an Action Manifest in the Linux Steam depot, in `steam_input/`, so no Steam account is attached to it and it is versioned with the code. The source files are in `win/win32/xpl/GnollHackM/Platforms/Linux/Packaging/steam/input/`.
 
 ## ❓ Troubleshooting
 
