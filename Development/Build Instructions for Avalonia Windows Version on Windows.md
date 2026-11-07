@@ -78,7 +78,7 @@ dotnet build ..\..\GnollHackM.csproj -p:GnhAvalonia=true
 
 Saved games and settings go to `%LOCALAPPDATA%\GnollHack-Avalonia`, apart from those of the WinUI 3 version. No console window opens: the game's output goes to `%LOCALAPPDATA%\GnollHack-Avalonia\Logs\GnollHack.log`, and the previous run's to `GnollHack.previous.log`.
 
-> 💡 **Tip:** `--win-composition=<mode>` on the command line, or the environment variable `GNOLLHACK_WIN_COMPOSITION`, picks how the window is drawn, for testing: `dxgi` (the default), `winui`, `dcomp`, `redirect`, `wgl`, or `avalonia` for Avalonia's own defaults. The log's `GnollHack: Windows composition request` line shows what was applied.
+> 💡 **Tip:** `--win-composition=<mode>` on the command line, or the environment variable `GNOLLHACK_WIN_COMPOSITION`, picks how the window is drawn, for testing: `dxgi` (the default), `winui`, `dcomp`, `redirect`, `wgl`, or `avalonia` for Avalonia's own defaults. The log's `GnollHack: Windows composition request` line shows what was applied. Likewise `--win-gpu=<mode>` or `GNOLLHACK_WIN_GPU` picks the GPU: `auto` (the default: the high-performance GPU unless Windows' per-app graphics setting says Power saving), `dedicated`, `integrated`, or `avalonia` for Avalonia's own first adapter; the `GnollHack: Windows GPU` log line names the adapter chosen.
 
 **2.3.2. Attach the debugger**, if needed: in Visual Studio, choose **Debug → Attach to Process**, and select `GnollHackM.exe` with the **Managed (.NET Core, .NET 5+)** code type.
 

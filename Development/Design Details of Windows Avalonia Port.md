@@ -28,6 +28,7 @@ The design that every flavor shares is on [[/Development/Design Details of Avalo
 | **Why it exists** | A Windows build of the Avalonia port, for testing and as an alternative to the WinUI 3 version | The quickest loop for an Avalonia change: it builds with `dotnet` alone, starts without WSL, and Visual Studio can attach its debugger to the process. Unlike WinUI 3, it can give the Steam overlay a swap chain to draw on |
 | **`WINDOWS_AVALONIA`, not `WINDOWS`** | Plain `net11.0`, not a `-windows` target framework, with a symbol of its own | `WINDOWS` marks the WinUI 3 version's code; for the same reason the platform name is "WindowsAvalonia", so `GHApp.IsWindows` stays false and `GHApp.IsWindowsAvalonia` is the run-time check |
 | **Composition** | `LowLatencyDxgiSwapChain`, then `WinUIComposition`, then `RedirectionSurface` | Steam's overlay draws on a window swap chain's `Present`. Avalonia's default, Windows composition, never presents one, so the overlay never appeared with it (WA-STEAM-0003). In the Steam overlay test of November 2026 the swap chain also ran the map faster |
+| **GPU** | The high-performance GPU, unless Windows' per-app graphics setting for the executable says Power saving | Avalonia otherwise takes the first adapter Windows lists, which is the integrated GPU on most hybrid laptops; in November 2026 the map ran GPU-bound at 40 fps there instead of 60 |
 | **Overlay keep-alive** | While Steam's overlay library is loaded, a 1 × 1 visual is redrawn about 30 times a second on pages that draw nothing | Avalonia presents only when something changed, so the overlay could not open over a still menu |
 | **Screen resolution** | The WinUI 3 version's display mode change, made with `CDS_FULLSCREEN` | The mode ends with the process, so a crash cannot leave the desktop at the game's resolution |
 | **Secure storage** | Windows' data protection (DPAPI) for the current user | A key from the computer's name could be rebuilt by anyone; a store in the older format is converted the first time it is read |
@@ -39,12 +40,13 @@ The design that every flavor shares is on [[/Development/Design Details of Avalo
 
 ## 📁 Files
 
-The Windows flavor's own C# is in `Platforms\WindowsAvalonia\`; `Platforms\Windows\` is the WinUI 3 version's, and the Avalonia build never compiles it. Paths are relative to `Platforms\` except the last three:
+The Windows flavor's own C# is in `Platforms\WindowsAvalonia\`; `Platforms\Windows\` is the WinUI 3 version's, and the Avalonia build never compiles it. Paths are relative to `Platforms\` except the last five:
 
 | File | Role |
 |:-----|:-----|
 | **WindowsAvalonia\GHWindowsStderrLog.cs** | Standard output and error, the engine's included, to `Logs\GnollHack.log` |
 | **WindowsAvalonia\GHAvaloniaWindowsKeyHook.cs** | The low-level keyboard hook behind Disable Windows Key |
+| **WindowsAvalonia\GHWindowsGpuSelection.cs** | Chooses the GPU Avalonia renders on, and reports it to the performance test |
 | **WindowsAvalonia\appicon.ico**, **WindowsAvalonia\Packaging\New-WindowsAppIcon.ps1** | The executable's icon, and the script that makes it from `Resources\AppIcon\appicon.png` |
 | **Windows\libs\\** | The game engine, gnollhackwin.dll, built by `win\win32\vs\gnollhackwin.vcxproj` and not in Git; `gnhsentry.dll`; FMOD's `fmod.dll`, `fmodstudio.dll` and its other libraries |
 | **Windows\gnh\\** | The Windows-format `nhdat` and the other game data files |
@@ -52,8 +54,12 @@ The Windows flavor's own C# is in `Platforms\WindowsAvalonia\`; `Platforms\Windo
 | **win\win32\xpl\GnollHackM\GHXInputGamepadBackend.cs** | XInput controllers, shared with the WinUI 3 version |
 | **win\win32\xpl\GnollHackM\NativeLibraryPreflightWindows.cs** | Why a native library failed to load, and the Smart App Control tag of crash reports; shared with the WinUI 3 version |
 | **win\win32\xpl\GnollHackM\GHSentryNative.cs** | sentry-native through `gnhsentry.dll`, shared with the WinUI 3 version |
+| **win\win32\xpl\GnollHackM\GHDxgiAdapters.cs** | The Direct3D adapter list and the high-performance and power-saving adapters, shared with the WinUI 3 version |
+| **win\win32\xpl\GnollHackM\GHWindowsGpuChoice.cs** | The GPU rule and the "Multiple GPUs" alert rule, without Windows calls, so the unit tests can check them |
 
 - **Composition switch**: `--win-composition=<mode>` or `GNOLLHACK_WIN_COMPOSITION` picks `dxgi`, `winui`, `dcomp`, `redirect`, `wgl` or `avalonia` (Avalonia's own defaults), for testing. The log's `GnollHack: Windows composition request` line names the render timer that was applied.
+
+- **GPU switch**: `--win-gpu=<mode>` or `GNOLLHACK_WIN_GPU` picks `auto` (the default: the high-performance GPU unless Windows says Power saving), `dedicated`, `integrated` or `avalonia` (Avalonia's own first adapter), for testing. The log's `GnollHack: Windows GPU` line names the adapter that was chosen. The choice applies only to ANGLE on Direct3D 11, so with `--win-composition=wgl` it applies only when OpenGL is unavailable, and ARM64 builds keep Avalonia's own rule.
 
 - **`libs\` is copied whole**, so files only the WinUI 3 version needs, such as its native crash reporter `gnhsentry.dll`, land in the output too. Avalonia's own Direct3D translation layer is named `av_libglesv2.dll`, so it does not clash with the WinUI 3 version's `libGLESv2.dll`.
 
@@ -66,6 +72,7 @@ The Windows flavor's own C# is in `Platforms\WindowsAvalonia\`; `Platforms\Windo
 | **.NET** | .NET 11, SDK pinned in `Platforms\Avalonia\global.json` | .NET 10, SDK pinned in `GnollHackM\global.json` |
 | **Game engine and data** | `gnollhackwin.dll`, Windows-format `nhdat` | The same |
 | **Rendering** | ANGLE on the window's DXGI swap chain | SkiaSharp on a `SwapChainPanel`, or a XAML `Canvas` without GPU acceleration |
+| **GPU** | The high-performance GPU, unless Windows' per-app setting says Power saving, chosen through Avalonia's adapter callback | The same rule while GPU Acceleration is on, applied by initializing ANGLE's display on that GPU before SkiaSharp creates it; with GPU Acceleration off, Windows' default GPU |
 | **Steam overlay** | Draws over the game; tested on the map in November 2026 | Does not appear |
 | **Web view** | WebView2 through Avalonia | WebView2 through .NET MAUI |
 | **Crash reporting** | Sentry, including native crashes | The same |
