@@ -27,7 +27,7 @@ You can't disable auto-update in Steam, but if your saved games become invalid, 
 
 ### 1.2. AppImage
 
-<a href="https://github.com/hyvanmielenpelit/GnollHack/releases">![Get release on GitHub](/uploads/Download/github-q90.webp)</a><br />
+<a href="https://github.com/hyvanmielenpelit/GnollHack/releases">![Download on GitHub](/uploads/Download/github-download-q90.webp)</a><br />
 
 - The AppImage package has the **.AppImage extension**.
 - It is a single self-contained file that runs on most 64-bit (x86-64) Linux distributions without installation or administrator rights.

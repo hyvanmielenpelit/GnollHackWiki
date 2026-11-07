@@ -29,7 +29,7 @@ Click 🛠️ [[Troubleshooting Modern Windows Version (Steam)]] 🛠️ for tro
 
 ### 1.2. MSIX Installer
 
-<a href="https://github.com/hyvanmielenpelit/GnollHack/releases">![Get release on GitHub](/uploads/Download/github-q90.webp)</a><br />
+<a href="https://github.com/hyvanmielenpelit/GnollHack/releases">![Download on GitHub](/uploads/Download/github-download-q90.webp)</a><br />
 
 - The MSIX package has the **.msix extension**.
 - Install the game using these instructions: [[/Development/Installing MSIX Packages on Windows 10 and 11]]

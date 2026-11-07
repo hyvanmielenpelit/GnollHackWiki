@@ -30,7 +30,7 @@ You can't disable auto-update in Steam, but if your saved games become invalid, 
 
 ### 1.2. DMG
 
-<a href="https://github.com/hyvanmielenpelit/GnollHack/releases">![Get release on GitHub](/uploads/Download/github-q90.webp)</a><br />
+<a href="https://github.com/hyvanmielenpelit/GnollHack/releases">![Download on GitHub](/uploads/Download/github-download-q90.webp)</a><br />
 
 - The disk image has the **.dmg extension**; the macOS download is the file ending in `macos-arm64.dmg`.
 - It contains the same native Mac app as the Steam version, signed and notarized by Apple.
