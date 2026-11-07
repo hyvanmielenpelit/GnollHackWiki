@@ -88,17 +88,103 @@ Judged only by the work put into the graphical interface itself, not by gameplay
 
 ## 💡 Which One to Pick?
 
-| If you want... | Consider |
-| :-- | :-- |
-| **Both music and sound effects** | GnollHack, VoxHack, or ZeldHack for NetHack |
-| **Vanilla NetHack 5.0 with graphics** | NetHack 3D, NetHack Cocoa (macOS), NetHack Android, DartHack (Android), BlissHack, nethack.app, VectHack, WebHack, or NetHack 5.0 (official) |
-| **To play on a phone or tablet** | GnollHack, DartHack, NetHack Android, iNethack2, or NetHack 3D |
-| **To play without installing anything** | NetHack 3D (web version), BlissHack (web version), nethack.app, VectHack, WebHack, or NetHack Browser Edition |
-| **To play online on a public server** | The NAO or Hardfought web terminals, or the NetHack Tiles Client |
-| **To compete on the NetHack Scoreboard or in Junethack** | GnollHack, the NAO or Hardfought web terminals, or the NetHack Tiles Client |
-| **Virtual reality or first-person 3D** | NetHack 3D on Meta Quest, VoxHack, VectHack, or WebHack |
-| **A NetHack variant with graphics** | EvilHack, GnollHack, or xNetHack |
-| **To play in Japanese** | DartHack or NetHackJP |
+Each list starts with the projects that have the most developed interfaces, followed by the other established projects and then the newest ones, which are still experiments.
+
+### By Device
+
+**iPhone or iPad**
+
+1. GnollHack
+2. NetHack 3D (web version)
+3. iNethack2
+4. NetHack Browser Edition
+
+**Android phone or tablet**
+
+1. GnollHack
+2. NetHack 3D
+3. NetHack Android
+4. DartHack
+
+**Mac (Apple silicon)**
+
+1. GnollHack
+2. NetHack 3D
+3. iNethack2 
+4. NetHack Cocoa
+5. BlissHack
+
+**Steam Deck**
+
+1. GnollHack
+2. NetHack 3D
+
+**Web browser, with nothing to install**
+
+1. NetHack 3D (web version)
+2. NetHack Browser Edition
+3. BlissHack (web version)
+4. nethack.app
+5. VectHack
+6. WebHack
+
+### By Game and Language
+
+**Vanilla NetHack 5.0**
+
+1. NetHack 3D
+2. NAO web terminal
+3. NetHack 5.0 (official)
+4. NetHack Android
+5. NetHack Cocoa
+6. BlissHack
+7. DartHack
+8. nethack.app
+9. VectHack
+10. WebHack
+
+**A NetHack variant**
+
+1. GnollHack
+2. NetHack 3D (SLASH'EM)
+3. EvilHack
+4. Hardfought web terminal (several variants with tiles, including SpliceHack and UnNetHack)
+5. xNetHack
+
+**Japanese text**
+
+1. DartHack
+2. NetHackJP
+
+### By Look and Sound
+
+**Both music and sound effects**
+
+1. GnollHack
+2. ZeldHack for NetHack
+3. VoxHack
+
+**Virtual reality or first-person 3D**
+
+1. NetHack 3D (virtual reality on Meta Quest)
+2. VectHack
+3. VoxHack
+4. WebHack
+
+### Online Play
+
+**Playing on a public server**
+
+1. Hardfought web terminal
+2. NAO web terminal
+3. NetHack Tiles Client
+
+**Competing on the NetHack Scoreboard or in Junethack**
+
+1. GnollHack
+2. Hardfought web terminal
+3. NAO web terminal
+4. NetHack Tiles Client
 
 ## 🔴 Unmaintained and Not Listed
 
