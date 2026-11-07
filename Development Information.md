@@ -1,56 +1,27 @@
 ![Development information](/uploads/Development%20Information/development-information.webp)
 
+> 👉 **The starting point for GnollHack developers: how to build the game, how it is designed, and how to test it.**
+
 ## ℹ️ Overview
 
-GnollHack is actively developed for **Android**, **iOS**, **Windows**, and **Linux** using a modern **.NET MAUI** codebase. Legacy versions of the game (such as Xamarin.Forms and native Win32/ASCII clients) are deprecated and no longer maintained. The Linux version runs the same .NET MAUI app on Avalonia UI, through the [[/Development/Avalonia Port]].
-
-Here is a quick directory of key design and structure documentation:
-
-- [[/Development/Repository Structure]]
-- [[/Development/Related Repositories]]
-
-## 🧑‍💻 Modern Client Development (.NET MAUI)
-
-This is the primary technology stack for GnollHack development. It compiles a single C# codebase targeting mobile and desktop platforms.
+GnollHack is actively developed for **Android**, **iOS**, **Windows**, **Linux** and **macOS** as one **.NET MAUI** app. On Linux and macOS, the app runs on Avalonia UI through the [[/Development/Avalonia Port]], which also runs on Windows for development and testing. The legacy clients, the Xamarin.Forms mobile versions and the native Win32 and ASCII versions, are no longer maintained.
 
 > 📢 **Important:** If you are new to the codebase, **you must read this first**:
 > - **[[/Development/Overview of Building GnollHack with .NET MAUI]]** — Explains how the native C library, the C# wrapper, and build-time tools interact. Skipping this is the #1 reason developers struggle to build the game.
 
-### ⚙️ Essential Guides & Setup
+## 🛠️ Building GnollHack
 
-These files contain complex development instructions that may require some time to digest:
+[[/Development/Build Instructions]] has everything for building the game: setting up a Windows computer, the build instructions of every modern client from Windows and Android to the Avalonia versions for Linux and macOS, the native libraries and assets built apart from the clients, troubleshooting, and the release checklist.
 
-- [[/Development/Instructions for Developing GnollHackM Project (.NET MAUI)]]
-- [[/Development/Updating Tileset for GnollHackM (.NET MAUI)]]
-- [[/Development/Known Working Build Setups]]
+## 🏗️ Design and Architecture
 
-> 💡 **Tip:** Before setting up your machine, check the [[/Development/Known Working Build Setups]] to ensure your OS and SDK versions match a verified configuration.
+[[/Development/Design Details]] explains how the game is built inside, and why: the architecture of the modern clients, the repository structure, the Avalonia port and the design details of its Linux, macOS and Windows flavors, native crash reporting, game controller support, and the history of the clients.
 
-### 🛠️ Modern Client Build Instructions
+## 🧪 Testing and Debugging
 
-Detailed, step-by-step guides for compiling the modern application:
+[[/Development/Testing and Debugging]] collects the tools for testing the game: Developer Mode and Wizard Mode, debugging the Avalonia port, testing on a Steam Deck and a Mac, and where each version keeps its files.
 
-- **Windows:** [[/Development/Build Instructions for WinUI3 Version on Windows (.NET MAUI)]]
-- **Android:** [[/Development/Build Instructions for Android Version on Windows (.NET MAUI)]]
-- **iOS:** [[/Development/Build Instructions for iOS Version on Windows (.NET MAUI)]]
-- **Linux (Avalonia):** [[/Development/Build Instructions for Avalonia Linux Version on Windows]] — AppImage and Steam
-- **Windows (Avalonia):** [[/Development/Build Instructions for Avalonia Windows Version on Windows]] — For developing and testing the Avalonia port
-- **macOS (Avalonia):** [[/Development/Build Instructions for Avalonia macOS Version on Windows]] — GnollHack.app, DMG and Steam, signed and notarized; not released yet
-
-> ⚠️ **Warning (Common Pitfall):** Ensure that the .NET MAUI workload is fully installed inside Visual Studio. Missing platform workloads (Android/iOS) will cause project loading errors.
-
-### ❓ Troubleshooting & Technical Reference
-
-- [[/Development/Troubleshooting Building GnollHack with .NET MAUI]] — Covers Xamarin-to-MAUI SDK issues, MSBuild path conflicts, and keystore errors.
-- [[/Development/Data File Locations (WinUI 3 Version – .NET MAUI)]] — Shows where settings and save files are stored.
-- [[/Development/System Requirements for Modern Windows Port (.NET MAUI ∕ WinUI 3)]]
-- [[/Development/CPU and GPU Usage Modes in Modern Windows Port (.NET MAUI ∕ WinUI 3)]]
-
-### ℹ️ Additional Information
-
-- [[/Development/Installing MSIX Packages on Windows 10 and 11]]
-
-## 🖥️ Modern Client Supported Platforms
+## 🖥️ Supported Platforms
 
 The table below summarizes support for the modern client. Note that emulator performance varies, and platform support is subject to CPU architecture availability.
 
@@ -75,58 +46,9 @@ The table below summarizes support for the modern client. Note that emulator per
 - Currently, there are no plans to support *gaming consoles*.
 - *Game controllers* are supported on the Steam Deck, starting from version 3.32, and on desktop Linux, macOS and Windows, but not yet on Android and iOS. See [[Steam Deck Controls]] and [[/Development/Gamepad Support]].
 
-## 📖 Background Articles
+## 🛑 Legacy Clients
 
-These articles provide historical context and technical background. They are easy to digest and are highly recommended for developers who want to understand the choices behind our architecture.
-
-- [[/Development/Mobile Version Development History (Xamarin.Forms)]] — The history of early mobile client versions of GnollHack.
-
-## 📋 Additional Technical Information
-
-- [[/Development/Release Checklist]]
-- [[/Development/Native Libraries]]
-- [[/Development/Building iOS and macOS Native Libraries over SSH]] — How the iOS and macOS engine libraries are built on a Mac over SSH, and how to fix the build
-- [[/Development/Design Details of Avalonia Port]] — The design shared by all flavors of the Avalonia port, its decisions and its shared files
-- [[/Development/Design Details of Linux Avalonia Port]] — The Linux version's own design, including CEF, crash handling and the packages
-- [[/Development/Design Details of macOS Avalonia Port]] — The macOS version's own design, including Metal, WKWebView and the app bundle
-- [[/Development/Design Details of Windows Avalonia Port]] — The Windows flavor for development and testing
-- [[/Development/Native Crash Reporting in Avalonia Port]] — How the Linux and macOS versions report native crashes to Sentry, and how Sentry is updated
-- [[/Development/Gamepad Support]] — How game controller support works, and what it covers and does not cover
-- [[/Development/Debugging Linux Version in WSL using Visual Studio Code]]
-- [[/Development/SkiaSharp Build Instructions]] — Describes custom SkiaSharp compilations (primarily for reference).
-
-## 🛑 Legacy Clients (Obsolete)
-
-> 🛑 **Caution:** The following sections describe legacy versions and ports that are no longer actively supported or maintained. They are kept here for historical reference only. Do not use these targets for active feature development.
-
-### 📱 Legacy Mobile Ports (Xamarin.Forms)
-
-- [[/Development/Build Instructions for Android Version on Windows]]
-- [[/Development/Android Version Building Checklist]]
-- [[/Development/Build Instructions for iOS Version on Windows]]
-
-### 🖥️ Legacy Windows Ports (1990s UI Style)
-
-- [[/Development/Build Instructions for ASCII Version on Windows]] — Win32 Console Application
-- [[/Development/Build Instructions for Windows GUI Version on Windows]] — Win32 Application with ComCtl32 Controls
-
-### 💻 Legacy Linux Port
-
-- [[/Development/Build Instructions for ASCII Version on Linux]]
-
-### 📋 Legacy Clients Support Table
-
-| Platform | Technology | CPU Arch | Solution | Projects | Emulator Support<sup>1</sup> |
-|:---------|:-----------|:---------|:---------|:---------|:----------------------------:|
-| Android | Xamarin.Forms | Arm64 | GnollHack | GnollHackX, GnollHackX.Android | Yes<sup>3</sup> |
-| iOS | Xamarin.Forms | Arm64 | GnollHack | GnollHackX, GnollHackX.iOS | Yes<sup>3</sup> |
-| Windows | ASCII | x64 | GnollHack | GnollHack | Yes |
-| Windows | ComCtl32 Controls | x64 | GnollHack | GnollHackW | Yes |
-| Linux | ASCII | x64 | N/A<sup>2</sup> | N/A<sup>2</sup> | N/A |
-
-- <sup>1</sup> Emulator support refers to whether the port is supported by popular cross-operating-system emulators.
-- <sup>2</sup> The Linux version is built on Linux as described in [[/Development/Build Instructions for ASCII Version on Linux]].
-- <sup>3</sup> May exhibit odd behavior or crash.
+The build instructions of the legacy clients, which are kept for historical reference only, are on [[/Development/Legacy Client Development]].
 
 ## 🐺 Gnoll Overseer
 

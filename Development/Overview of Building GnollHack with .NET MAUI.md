@@ -18,7 +18,7 @@ Building the native solution compiles the C core game engine and prepares the tr
 
 ### Prerequisites
 
-Check [[appropriate build instructions|/Development Information]] for prerequisites.
+Check [[appropriate build instructions|/Development/Build Instructions]] for prerequisites.
 
 ### Building
 
@@ -59,7 +59,7 @@ GnollHackM is the .NET MAUI version of GnollHack.
 
 1. Start **Visual Studio Community 2026**.
 2. Open `GnollHackM.sln` that is located in the `win\win32\xpl\GnollHackM` directory.
-3. Build `GnollHackM`, which is the .NET MAUI version of GnollHack, using [[appropriate build instructions|/Development Information]].
+3. Build `GnollHackM`, which is the .NET MAUI version of GnollHack, using [[appropriate build instructions|/Development/Build Instructions]].
 
 This builds the .NET MAUI version of the game. You need to repeat this step whenever you change things in XAML or the managed C# code.
 

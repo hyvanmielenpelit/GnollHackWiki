@@ -138,9 +138,9 @@ All three flavors report to Sentry. The Windows flavor uses the WinUI 3 version'
 - **.NET exceptions**: the core Sentry .NET SDK, started by `GHAvaloniaSentry`; the .NET MAUI integration does not work on Avalonia.
 - **Native crashes**: sentry-native's `inproc` backend, started by GnollHack before the .NET SDK, with the .NET SDK's own native SDK turned off. Its scope is mirrored from the .NET SDK, so a native crash carries the game's crash context.
 - **Sending**: a native crash report is saved at the crash and posted unchanged to Sentry at the next start, so no field that only native events have is lost.
-- **One sentry-native version** on Linux, macOS and WinUI 3, checked at build time by `GnhSentryNative.targets`.
+- **One sentry-native version** on WinUI 3 and every Avalonia flavor, checked at build time by `GnhSentryNative.targets`.
 
-The whole mechanism, and how the native libraries follow a Sentry update, is on [[/Development/Native Crash Reporting in Avalonia Port]].
+The whole mechanism is on [[/Development/Design Details of Native Crash Reporting]], and how the native libraries follow a Sentry update on [[/Development/Build Instructions for Native Crash Reporting]].
 
 ## 📁 Shared Files
 
@@ -238,8 +238,9 @@ Avalonia, Avalonia.Controls.Maui, .NET MAUI, SkiaSharp and Sentry have defects t
 - [[/Development/Design Details of Linux Avalonia Port]]
 - [[/Development/Design Details of macOS Avalonia Port]]
 - [[/Development/Design Details of Windows Avalonia Port]]
-- [[/Development/Native Crash Reporting in Avalonia Port]]
+- [[/Development/Design Details of Native Crash Reporting]]
 - [[/Development/Gamepad Support]]
+- [[/Development/Design Details]]
 
 ## 🔗 External Links
 

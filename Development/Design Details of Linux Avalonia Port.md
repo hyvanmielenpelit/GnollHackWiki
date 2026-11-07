@@ -85,7 +85,7 @@ The shared model is in [[Crash Reporting|/Development/Design Details of Avalonia
 - **sentry-native**: `libsentry.so`, built without a network transport, started by `GHSentryNative`, with its Linux options set by `GHAvaloniaSentryNative`.
 - **Signal stacks**: `SIGILL`, `SIGTRAP`, `SIGBUS` and `SIGFPE` run on the thread's own stack, because CoreCLR's chained handler overflows the alternate stack; `SIGSEGV` keeps it, for native stack overflows.
 - **Tags**: `linux.package` (`appimage`, `steam` or `other`), `linux.container` (`pressure-vessel` inside Steam's container), `linux.session` (such as `x11` or `wayland`) and `linux.glibc`.
-- **The whole mechanism**, and how `libsentry.so` follows a Sentry update, is on [[/Development/Native Crash Reporting in Avalonia Port]].
+- **The whole mechanism** is on [[/Development/Design Details of Native Crash Reporting]], and how `libsentry.so` is rebuilt on [[Build libsentry.so|/Development/Build Instructions for Native Crash Reporting#4-build-libsentry-so]].
 - **Missing libraries**: `NativeLibraryPreflightLinux` reports a native library that fails to load, explains it on standard error and in a dialog, naming the glibc versions when glibc is too old, and exits. No Avalonia window exists yet at that point.
 
 ## 🐧 Binary Compatibility
@@ -164,9 +164,10 @@ The Linux version works around defects in CEF, Steam, the Steam Linux Runtime an
 - [[/Development/Avalonia Port]]
 - [[/Development/Design Details of macOS Avalonia Port]]
 - [[/Development/Design Details of Windows Avalonia Port]]
-- [[/Development/Native Crash Reporting in Avalonia Port]]
+- [[/Development/Design Details of Native Crash Reporting]]
 - [[/Development/Build Instructions for Avalonia Linux Version on Windows]]
 - [[/Linux System Requirements]]
+- [[/Development/Design Details]]
 
 ## 🔗 External Links
 

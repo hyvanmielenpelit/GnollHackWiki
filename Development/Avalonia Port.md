@@ -59,7 +59,7 @@ How the port is built inside, and why, is on four pages of its own:
 - [[/Development/Design Details of Linux Avalonia Port]] — The Linux version's own parts: X11 and GLX, Steam Input, the built-in Chromium web view (CEF), native crash handling, binary compatibility and the packages.
 - [[/Development/Design Details of macOS Avalonia Port]] — The macOS version's own parts: Metal rendering, the menu bar, the Option key, Apple's game controllers, WKWebView and the signed and notarized app bundle.
 - [[/Development/Design Details of Windows Avalonia Port]] — The Windows flavor: the swap chain the Steam overlay needs, its own executable and log, and how it compares with the WinUI 3 version.
-- [[/Development/Native Crash Reporting in Avalonia Port]] — How the Linux and macOS versions report native crashes to Sentry, from startup to the report, and what a Sentry update rebuilds.
+- [[/Development/Design Details of Native Crash Reporting]] — How GnollHack reports native crashes to Sentry on every desktop client, and how its libraries follow a Sentry update.
 
 Avalonia.Controls.Maui is younger than .NET MAUI's own backends, and GnollHack works around a number of its defects. The workarounds are recorded with their symptoms and removal conditions in the GnollHack repository's [workaround register](https://github.com/hyvanmielenpelit/GnollHack/tree/master/DEVEL/workarounds).
 
@@ -75,6 +75,7 @@ Avalonia.Controls.Maui is younger than .NET MAUI's own backends, and GnollHack w
 - [[/Linux Version]]
 - [[/macOS Version]]
 - [[/Development Information]]
+- [[/Development/Design Details]]
 
 ## 🔗 External Links
 
