@@ -114,10 +114,13 @@ These settings appear on the Steam Deck, and on desktop Linux, macOS, and Window
 | Setting Name | Options / Values | Default | Description |
 | :----------- | :--------------: | :-----: | :---------- |
 | **Use Controller** | On / Off | On | Determines if you can play with a game controller or the Steam Deck's built-in controls. |
+| **Hide Command Bar** | On / Off | On | Hides the command bar and the OK and Cancel buttons of menus while you are using the controller. They keep their space, so nothing on the screen moves. When off, the **Bar Commands** section is also shown. |
 | **R2 Action** | Command | By Role | The command R2 runs when pressed alone. **By Role** runs Cast Quick for Healers, Monks, Priests and Wizards, whose new games start with Magic Arrow or Minor Healing as the quick spell, or Cast while no quick spell is set; Polearm for Knights; and Fire for the others. |
 | **L2 Action** | Command | Kick | The command L2 runs when pressed alone. By Role works here too. |
-| **Back Grip L4** | Command | Apply | Configures the command bound to the L4 back grip. Needs GnollHack's Steam Input layout. Appears only when the controller has back grips. |
-| **Back Grip L5** | Command | Cast | Configures the command bound to the L5 back grip. Needs GnollHack's Steam Input layout. Appears only when the controller has back grips. |
+| **Quick Command 1** | Command | None | A command on the Quick Commands page of the Actions radial menu, which L1 + A opens during a game. It sits in the west slot. |
+| **Quick Command 2** | Command | None | A command on the Quick Commands page of the Actions radial menu. It sits in the northwest slot. |
+| **Back Grip L4** | Command | Pick-axe | Configures the command bound to the L4 back grip. Needs GnollHack's Steam Input layout. Appears only when the controller has back grips. |
+| **Back Grip L5** | Command | Polearm | Configures the command bound to the L5 back grip. Needs GnollHack's Steam Input layout. Appears only when the controller has back grips. |
 | **Back Grip R4** | Command | Quick Cast | Configures the command bound to the R4 back grip. Needs GnollHack's Steam Input layout. Appears only when the controller has back grips. |
 | **Back Grip R5** | Command | Quick Zap | Configures the command bound to the R5 back grip. Needs GnollHack's Steam Input layout. Appears only when the controller has back grips. |
 
@@ -149,7 +152,7 @@ These settings appear on the Steam Deck, and on desktop Linux, macOS, and Window
 
 This section enables you to specify which commands are displayed in the command bar.
 
-When **Use Controller** is on, the **Quick Radials** section appears in place of this one. It sets the eight actions of the Left Quick and Right Quick radial menus. See [[Steam Deck Controls]].
+When the Controller section is shown and **Use Controller** is on, a **Quick Radials** section appears before this one. It sets the eight actions of the Left Quick and Right Quick radial menus. This section is then hidden if **Hide Command Bar** is on. See [[Steam Deck Controls]].
 
 ## 🔊 Volume Settings
 

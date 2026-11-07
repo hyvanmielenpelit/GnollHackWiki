@@ -15,7 +15,7 @@ GnollHack reads the controls through Steam Input. If the controls do nothing in 
 
 If Steam Input is turned off for the game, turn it on in the game's Properties in Steam, under Controller.
 
-The back grips and the left trackpad's click need GnollHack's own Steam Input layout. With the Gamepad with Mouse Trackpad template, everything else works.
+The back grips and the left trackpad's click need GnollHack's own Steam Input layout. The Gamepad with Mouse Trackpad template also sends the right trackpad's click as R3, which opens the Toggles radial menu, rather than as a mouse click. Everything else works with the template.
 
 ## 🎮 Controllers on Windows, Linux, and macOS
 
@@ -68,7 +68,7 @@ L1 and R1 do nothing on their own. They are hold modifiers that change what the 
 | **L3** | Run: your next direction on the left stick or the D-pad runs, as the Run prefix (`Shift+g`) does; L3 again or B cancels | | Center the map on your character |
 | **R3** | Toggles radial menu | | |
 
-Holding both L1 and R1 and pressing Y makes your character rest. Clicking the left trackpad does the same as pressing L3.
+Holding both L1 and R1 and pressing Y makes your character rest, and pressing R2 or L2 runs that trigger's command. Clicking the left trackpad does the same as pressing L3.
 
 ### 🎯 Trigger Commands
 
@@ -78,7 +78,7 @@ If the command asks for a direction while you still hold the trigger, the **Dire
 
 ### ⚙️ Quick Radials
 
-L1 + R2 opens the **Right Quick** radial menu, and R1 + L2 opens the **Left Quick** radial menu. The action that you choose runs at once, and if it asks for a direction, the Direction radial menu opens. You can change their eight actions in [[Settings]], under Quick Radials. You choose them the same way.
+L1 + R2 opens the **Right Quick** radial menu, and R1 + L2 opens the **Left Quick** radial menu. The action that you choose runs at once, and if it asks for a direction, the Direction radial menu opens. Pressing the trigger again closes the radial menu. You can change their eight actions in [[Settings]], under Quick Radials. You choose them the same way.
 
 | Radial Menu | Default Actions |
 | :---------- | :-------------- |
@@ -121,13 +121,13 @@ If you hold L2 or R2 and its command asks for a direction, releasing the trigger
 
 A radial menu stays open until you choose an item or close it. The exception is the Direction radial menu while its trigger is held, described in [[Choosing a Direction|#choosing-a-direction]].
 
-- Select an item with either stick, or step between items with the D-pad.
-- A activates the item, and B closes the menu.
+- Select an item with either stick, or step between items with D-pad Left and Right. D-pad Up and Down jump to the top and bottom items.
+- A activates the item, and B closes the menu. Menu closes the menu and opens the game menu.
 - L1 and R1 change the page.
 
 The radial menus on the map are:
 
-- **Actions:** The actions available on your square, followed by pages of all commands. X switches between the two.
+- **Actions:** The actions available on your square, followed by pages of commands. The first of them is the **Quick Commands** page: Rest, Search 20 times, Extended Command, and Skills, Polearm, and Wield Last or Unwield when they are available. Its west and northwest slots hold Quick Command 1 and Quick Command 2, which you can set in [[Settings]], under Controller. The other commands follow in alphabetical order. X switches between the actions on your square and the Quick Commands page.
 - **Toggles:** More Messages, Status Screen, Auto-Center, Look Mode, Auto-Dig, Ignore Stopping, Max Hit Points, and Max Mana.
 - **Left Quick and Right Quick:** The radial menus described in [[Quick Radials|#quick-radials]].
 
@@ -144,9 +144,11 @@ The radial menus on the map are:
 | **L1 and R1** | Jump between sections in menus |
 | **L2 and R2** | First or last row in menus |
 
-The main menu, Settings, Library, Top Scores, Replays, and other pages work the same way: the focus moves over the rows and the buttons, A presses the focused one, and B goes back. On the main menu, B does nothing.
+In a yes/no prompt, Y answers Yes and X answers No when the prompt offers them.
 
-During a replay, A pauses, L1 and R1 change the speed, and B quits.
+The main menu, Settings, Library, Top Scores, Replays, and other pages work the same way: the focus moves over the rows and the buttons, A presses the focused one, and B goes back. On the main menu, B does nothing, and X starts Play Game, Y opens About, Menu opens Settings, and View opens the Vault. In Settings, L1 and R1 jump between sections, Left and Right change the focused setting, and X shows its explanation.
+
+During a replay, A pauses, L1 and R1 or L2 and R2 change the speed, D-pad Right steps forward, Y opens Go to Turn, and B quits.
 
 ## ⌨️ Typing Text
 
