@@ -131,6 +131,7 @@ For general build problems, such as a locked file, see [[/Development/Troublesho
 - [[/Development/Design Details of Windows Avalonia Port]]
 - [[/Development/Build Instructions for Avalonia Linux Version on Windows]]
 - [[/Development/Overview of Building GnollHack with .NET MAUI]]
+- [[/Development/Build Instructions]]
 
 ## 🔗 External Links
 

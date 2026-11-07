@@ -95,7 +95,7 @@ GnollHack is famously tough, so we built the *Gnoll Overseer* to help you along.
 
 ## 🛠️ Development
 
-- **[[Development Information]]** — Build instructions and similar information
+- **[[Development Information]]** — Build instructions, design details, and testing and debugging
 - **[[Technological Features]]** — Major features of GnollHack from the development technology perspective
 - **[[Development Timeline]]** — Important dates in GnollHack development
 

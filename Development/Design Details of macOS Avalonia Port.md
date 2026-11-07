@@ -141,6 +141,7 @@ Defects in third-party components are worked around and recorded in the GnollHac
 - [[/Development/Native Crash Reporting in Avalonia Port]]
 - [[/Development/Avalonia Port]]
 - [[/Development/Build Instructions for Avalonia macOS Version on Windows]]
+- [[/Development/Design Details]]
 
 ## 🔗 External Links
 

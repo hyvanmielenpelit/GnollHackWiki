@@ -91,6 +91,7 @@ The Windows flavor's workarounds are in the shared Avalonia code and recorded wi
 - [[/Development/Design Details of Linux Avalonia Port]]
 - [[/Development/Design Details of macOS Avalonia Port]]
 - [[/Development/Build Instructions for Avalonia Windows Version on Windows]]
+- [[/Development/Design Details]]
 
 ## 🔗 External Links
 

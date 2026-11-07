@@ -300,6 +300,7 @@ For general build problems, such as a locked file, see [[/Development/Troublesho
 - [[/Development/Build Instructions for Avalonia Windows Version on Windows]]
 - [[/Linux System Requirements]]
 - [[/Installing the AppImage on Linux]]
+- [[/Development/Build Instructions]]
 
 ## 🔗 External Links
 

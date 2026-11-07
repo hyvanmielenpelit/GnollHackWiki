@@ -240,6 +240,7 @@ Avalonia, Avalonia.Controls.Maui, .NET MAUI, SkiaSharp and Sentry have defects t
 - [[/Development/Design Details of Windows Avalonia Port]]
 - [[/Development/Native Crash Reporting in Avalonia Port]]
 - [[/Development/Gamepad Support]]
+- [[/Development/Design Details]]
 
 ## 🔗 External Links
 

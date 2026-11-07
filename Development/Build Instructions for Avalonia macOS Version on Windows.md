@@ -404,6 +404,7 @@ For general build problems, such as a locked file, see [[/Development/Troublesho
 - [[/Development/Building iOS and macOS Native Libraries over SSH]]
 - [[/Development/Build Instructions for Avalonia Linux Version on Windows]]
 - [[/Development/Enroll for Apple Development Program (Mac)]]
+- [[/Development/Build Instructions]]
 
 ## 🔗 External Links
 

@@ -75,6 +75,7 @@ Avalonia.Controls.Maui is younger than .NET MAUI's own backends, and GnollHack w
 - [[/Linux Version]]
 - [[/macOS Version]]
 - [[/Development Information]]
+- [[/Development/Design Details]]
 
 ## 🔗 External Links
 

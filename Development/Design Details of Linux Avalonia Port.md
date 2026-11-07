@@ -167,6 +167,7 @@ The Linux version works around defects in CEF, Steam, the Steam Linux Runtime an
 - [[/Development/Native Crash Reporting in Avalonia Port]]
 - [[/Development/Build Instructions for Avalonia Linux Version on Windows]]
 - [[/Linux System Requirements]]
+- [[/Development/Design Details]]
 
 ## 🔗 External Links
 
