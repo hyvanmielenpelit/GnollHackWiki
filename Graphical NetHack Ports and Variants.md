@@ -1,10 +1,10 @@
-> 👉 **Looking for a graphical way to play NetHack? This page lists graphical NetHack ports and variants that have working, ready-to-play builds and have been updated within the last two years, grouped by whether you install them or play them in a web browser.**
+> 👉 **Looking for a graphical way to play NetHack? This page lists graphical NetHack ports and variants that have working, ready-to-play builds and have been updated within the last two years, grouped by whether you get them from an online store, download them from elsewhere, or play them in a web browser.**
 
 ## 📖 About This List
 
 Every entry runs on the NetHack code base, shows the game with graphics such as tiles, isometric views, or 3D, has a build you can install or play without compiling anything, and has been updated since November 2024. Text-only builds, source-only projects, ports that have been superseded by a newer one, and games that are merely inspired by NetHack are left out; projects that were checked but dropped are listed in [[Unmaintained and Not Listed|#unmaintained-and-not-listed]].
 
-Entries are in alphabetical order within each section. A project that has both an installable version and a browser version has an entry in each section. Store listings, prices, and download links change over time.
+Entries are in alphabetical order within each section. A project with a listing in an online store is under Online Stores, together with its other downloads. A project that has both an installable version and a browser version has an entry in each section. Store listings, prices, and download links change over time.
 
 **Last web scan:** November 7, 2026. Each scan rechecks every entry on this page and searches the web, including the r/nethack subreddit, for new projects.
 
@@ -24,20 +24,20 @@ Entries are in alphabetical order within each section. A project that has both a
 
 | Port or Variant | Status | Audio | Price | Runs On |
 | :-- | :-: | :-: | :-- | :-- |
-| [[BlissHack|#blisshack]] | 🧪 | 🔇 | Free | Windows, macOS (Apple silicon) |
 | [[DartHack|#darthack]] | 🧪 | 🔇 | Free, with ads | Android |
-| [[EvilHack|#evilhack]] | 🟢 | 🔇 | Free | Windows |
 | [[GnollHack|#gnollhack]] ⭐ | 🟢 | 🎵 | Free | Windows, macOS, Linux, Steam Deck, Android, iPhone, iPad |
 | [[iNethack2|#inethack2]] | 🟡 | 🔇 | Free | iPhone, iPad, Apple silicon Mac |
+| [[VoxHack|#voxhack]] | 🧪 | 🎵 | Free, or pay what you want | Windows |
+| [[ZeldHack for NetHack|#zeldhack-for-nethack]] | 🟡 | 🎵 | Free | Windows |
+| [[BlissHack|#blisshack]] | 🧪 | 🔇 | Free | Windows, macOS (Apple silicon) |
+| [[EvilHack|#evilhack]] | 🟢 | 🔇 | Free | Windows |
 | [[NetHack 3D|#nethack-3d]] ⭐ | 🟢 | 🔇 | Free | Windows, macOS, Linux, Steam Deck, Android, Meta Quest |
 | [[NetHack 5.0 (official)|#nethack-5-0-official]] | 🟢 | 🔇 | Free | Windows, MS-DOS |
 | [[NetHack Android|#nethack-android]] | 🟢 | 🔇 | Free | Android |
 | [[NetHack Cocoa|#nethack-cocoa]] | 🟢 | 🔇 | Free | macOS 12 or later |
 | [[NetHack Tiles Client|#nethack-tiles-client]] | 🧪 | 🔇 | Free | Windows, macOS, Linux |
 | [[NetHackJP|#nethackjp]] | 🧪 | 🔇 | Free | Windows, Linux |
-| [[VoxHack|#voxhack]] | 🧪 | 🎵 | Free, or pay what you want | Windows |
 | [[xNetHack|#xnethack]] | 🟢 | 🔇 | Free | Windows |
-| [[ZeldHack for NetHack|#zeldhack-for-nethack]] | 🟡 | 🎵 | Free | Windows |
 | [[BlissHack (web version)|#blisshack-web-version]] | 🧪 | 🔇 | Free | Web browsers |
 | [[Hardfought web terminal|#hardfought-web-terminal]] | 🟢 | 🔇 | Free | Web browsers |
 | [[NAO web terminal|#nao-web-terminal]] | 🟢 | 🔇 | Free | Web browsers |
@@ -47,15 +47,7 @@ Entries are in alphabetical order within each section. A project that has both a
 | [[VectHack|#vecthack]] | 🧪 | 🔇 | Free | Web browsers |
 | [[WebHack|#webhack]] | 🧪 | 🔇 | Free | Web browsers |
 
-## 💾 Install on Your Device
-
-### BlissHack
-
-🧪 **Experiment** · Free · 🔇
-
-A newcomer-friendly version of vanilla NetHack 5.0, with the official tiles by default, an ASCII mode, a graphical status display, and a customizable action bar. In alpha.
-
-- [GitHub](https://github.com/lightmain/BlissHack/releases): Windows, macOS (Apple silicon)
+## 🛒 Online Stores
 
 ### DartHack
 
@@ -64,14 +56,6 @@ A newcomer-friendly version of vanilla NetHack 5.0, with the official tiles by d
 A touch-optimized Android port of vanilla NetHack 5.0 with a customizable virtual gamepad, support for custom tile sets, and English and Japanese text.
 
 - [Google Play](https://play.google.com/store/apps/details?id=jp.satokiyo.darthack): Android
-
-### EvilHack
-
-🟢 **In active development** · Free · 🔇
-
-A challenging NetHack 3.6 variant. The Windows download includes a graphical version with tiles, and a custom tile set is offered alongside it.
-
-- [GitHub](https://github.com/k21971/EvilHack/releases): Windows
 
 ### GnollHack
 
@@ -91,6 +75,41 @@ A NetHack variant with an animated, high-resolution 2D interface, voice acting, 
 An iOS port of vanilla NetHack 3.6.7 with several tile sets and an ASCII mode. Last updated in March 2025.
 
 - [App Store](https://apps.apple.com/app/inethack2/id962114968): iPhone, iPad, Apple silicon Mac
+
+### VoxHack
+
+🧪 **Experiment** · Pay what you want on itch.io, free on GitHub · 🎵
+
+NetHack 3.7 in a first-person 3D voxel world, built on the Luanti engine. In early alpha, with frequent new builds.
+
+- [itch.io](https://mreveryday.itch.io/voxhack): Windows
+- [GitHub](https://github.com/MrEveryDay98/VoxHack/releases): Windows, with every build available as a free download
+
+### ZeldHack for NetHack
+
+🟡 Maintained · Free · 🎵
+
+A ready-to-play Windows package of vanilla NetHack 3.6.7 with music, sound effects, and a 32×32 tile set inspired by the first Zelda game. It needs no setup beyond unzipping it.
+
+- [itch.io](https://lspixel.itch.io/zeldhack-for-nethack-ready-to-play): Windows
+
+## 💾 Install on Your Device
+
+### BlissHack
+
+🧪 **Experiment** · Free · 🔇
+
+A newcomer-friendly version of vanilla NetHack 5.0, with the official tiles by default, an ASCII mode, a graphical status display, and a customizable action bar. In alpha.
+
+- [GitHub](https://github.com/lightmain/BlissHack/releases): Windows, macOS (Apple silicon)
+
+### EvilHack
+
+🟢 **In active development** · Free · 🔇
+
+A challenging NetHack 3.6 variant. The Windows download includes a graphical version with tiles, and a custom tile set is offered alongside it.
+
+- [GitHub](https://github.com/k21971/EvilHack/releases): Windows
 
 ### NetHack 3D
 
@@ -141,15 +160,6 @@ An unofficial Japanese translation of NetHack 5.0, with a graphical interface on
 
 - [GitHub](https://github.com/satokiyon/NetHackJP/releases): Windows, Linux
 
-### VoxHack
-
-🧪 **Experiment** · Pay what you want on itch.io, free on GitHub · 🎵
-
-NetHack 3.7 in a first-person 3D voxel world, built on the Luanti engine. In early alpha, with frequent new builds.
-
-- [itch.io](https://mreveryday.itch.io/voxhack): Windows
-- [GitHub](https://github.com/MrEveryDay98/VoxHack/releases): Windows, with every build available as a free download
-
 ### xNetHack
 
 🟢 **In active development** · Free · 🔇
@@ -157,14 +167,6 @@ NetHack 3.7 in a first-person 3D voxel world, built on the Luanti engine. In ear
 A NetHack variant that refines and expands the vanilla game. The Windows download includes a graphical version with tiles.
 
 - [GitHub](https://github.com/copperwater/xNetHack/releases): Windows
-
-### ZeldHack for NetHack
-
-🟡 Maintained · Free · 🎵
-
-A ready-to-play Windows package of vanilla NetHack 3.6.7 with music, sound effects, and a 32×32 tile set inspired by the first Zelda game. It needs no setup beyond unzipping it.
-
-- [itch.io](https://lspixel.itch.io/zeldhack-for-nethack-ready-to-play): Windows
 
 ## 🌍 Play in a Web Browser
 

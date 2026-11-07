@@ -80,7 +80,7 @@ Check each candidate against the Listing Criteria on the project's own pages, ne
 
 ## Step 5: Update the Page
 
-- Put each project in Install on Your Device, Play in a Web Browser, or both, in alphabetical order within the section. A project distributed in several ways has one entry per section, listing every place to get it.
+- Put each installable project in Online Stores if it has a listing in an online store, such as Steam, itch.io, Google Play, or the App Store, and otherwise in Install on Your Device. A project with a browser version also gets an entry in Play in a Web Browser. Keep the entries in alphabetical order within each section. A project distributed in several ways has one entry per section, listing every place to get it, so a store entry also lists the project's GitHub or website downloads.
 - Write each entry in the form of the existing ones: a `###` heading with the name, a first line `[⭐ ]Status · Price · Audio icon`, a description of one or two sentences, and a list of links in the form `- [Store or site](URL): Platforms`. The description says what the project is, which NetHack version or variant it plays, and what is special about its graphics.
 - Add a row to the At a Glance table for each new entry, in the same order as the entries, and remove the row of a dropped entry. Its first cell links to the entry's heading anchor (`wiki_editing` section 2).
 - Never invent facts. Write only what the project's own pages state.

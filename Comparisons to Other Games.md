@@ -14,7 +14,7 @@ On Steam, GnollHack runs natively on Windows, macOS, Linux, and the Steam Deck, 
 | **[[How GnollHack differs from NetHack]]**<br /><small>👉 *A detailed article describing the differences.*</small> | 🧙‍♂️ NetHack<br />🐺 GnollHack |
 | **[[Comparison of GnollHack and NetHack Infrastructure]]**<br /><small>👉 *A meta-level comparison of the ecosystems and infrastructure surrounding the games.*</small> | 🧙‍♂️ NetHack<br />🐺 GnollHack |
 | **[[Comparison of NetHack GUIs]]**<br /><small>👉 *A feature comparison of the graphical user interfaces.*</small> | 🪟 NetHack Windows GUI<br />🧊 NetHack 3D<br />🐺 GnollHack |
-| **[[Graphical NetHack Ports and Variants]]**<br /><small>👉 *Where to get a graphical version of NetHack.<br />👉 Installable versions and browser play.*</small> | 🧙‍♂️ NetHack ports<br />😈 NetHack variants |
+| **[[Graphical NetHack Ports and Variants]]**<br /><small>👉 *Where to get a graphical version of NetHack.<br />👉 Online stores, other downloads, and browser play.*</small> | 🧙‍♂️ NetHack ports<br />😈 NetHack variants |
 
 ## 😈 NetHack Variants
 
