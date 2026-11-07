@@ -6,7 +6,7 @@ These instructions update the [[/Graphical NetHack Ports and Variants]] page by 
 
 1. Read `.agents/skills/wiki_editing/SKILL.md` and the whole `Graphical NetHack Ports and Variants.md` page.
 2. Find the line on the page that starts with `**Last web scan:**`. Its date is the start of the search window, and today is its end. If the line is missing, stop and ask the user.
-3. Note the listing criteria in the page's "About This List" section and the status definitions in its "Icons Used on This Page" table. If they disagree with these instructions, stop and report the disagreement to the user instead of choosing one. Listing criterion 6 and the "Projects Left Out on Purpose" section are not stated on the page, and their absence there is not a disagreement.
+3. Note the listing criteria in the page's "About This List" section and the status definitions in its "Icons Used on This Page" table. If they disagree with these instructions, stop and report the disagreement to the user instead of choosing one. The "Projects Left Out on Purpose" section is not stated on the page, and its absence there is not a disagreement.
 
 ## Listing Criteria
 
@@ -17,16 +17,12 @@ Every entry in the main tables of the page must meet all of these conditions:
 3. It has a build that can be installed or played without compiling anything.
 4. It has been updated within the last two years.
 5. It has not been superseded by a newer port of the same project.
-6. It does not bundle art or music taken from another game series. A project that does is never named on the page, not even in the closing table; mention it in the report only.
 
 A project that was checked and fails a criterion goes to the closing table ("Unmaintained and Not Listed") only when it is well known enough that a reader would look for it. Name the others in the report only.
 
 ## Projects Left Out on Purpose
 
-These projects were left out by an editorial decision. Do not list them, do not name them anywhere on the page, and do not suggest adding them in the report. Report them only if they have changed in a way a reader of the page would care about, such as a new graphical interface of their own:
-
-- ZeldHack for NetHack (itch.io).
-- Minor one-person repackages of projects that are already listed or already in the closing table, such as the itch.io repack of Falcon's Eye (including its macOS and Amiga builds), GnollHack: Web edition, and Nethack for Playdate.
+Minor one-person repackages of projects that are already listed or already in the closing table, such as the itch.io repack of Falcon's Eye (including its macOS and Amiga builds), GnollHack: Web edition, and Nethack for Playdate, were left out by an editorial decision. Do not list them, do not name them anywhere on the page, and do not suggest adding them in the report. Report them only if they have changed in a way a reader of the page would care about, such as a new graphical interface of their own.
 
 ## Status Rules
 
@@ -34,8 +30,8 @@ Decide each project's status from the facts on the scan date. Evaluate the rows 
 
 | Facts on the Scan Date | Status | Where It Goes |
 |------------------------|--------|---------------|
-| No update in over two years | Unmaintained | Closing table, reason `Unmaintained: [what it is], last updated in [year].` |
-| First public build under 9 months old, and no new build for 6 months | Abandoned experiment | Closing table, reason `Abandoned experiment: [what it is], no update since [Month Year].` |
+| No update in over two years | Unmaintained | Closing table, reason `Unmaintained: [What it is], last updated in [year].` |
+| First public build under 9 months old, and no new build for 6 months | Abandoned experiment | Closing table, reason `Abandoned experiment: [What it is], no update since [Month Year].` |
 | First public build under 9 months old | Experiment | Main tables |
 | New builds within 6 months and ongoing feature work | In active development | Main tables |
 | Otherwise (updated within two years, but only occasionally) | Maintained | Main tables |
@@ -91,13 +87,15 @@ Check each candidate against the Listing Criteria on the project's own pages, ne
 - "Most Developed Interfaces" is a judgment. Do not add projects to it or remove projects from it; suggest changes in the report instead.
 - Set the date on the `**Last web scan:**` line to the scan date, in the form `Month D, YYYY`.
 - In the first paragraph of "About This List", change the month and year in "has been updated since [Month Year]" to two years before the scan date.
+- Write correct US English grammar, following "Grammar and Capitalization" in `wiki_editing` section 6. Start every sentence and the text in every table cell with a capital letter. A name styled with a lowercase first letter, such as iNethack2, xNetHack, itch.io, or nethack.app, keeps its styling: it may start a table cell, but rephrase a sentence in running text so that it does not start with one. After a label and a colon, such as a status name, "Unmaintained", or a "Where to Get It" link, start the definition, reason, or platform list with a capital letter; inside a running sentence, the word after a colon stays lowercase.
+- Before finishing, reread the whole page, not only the rows you changed, and fix every grammar and capitalization error you find. Check especially that each verb agrees with its subject, that each list in a description is grammatical and unambiguous, and that the paragraphs and tables you updated still read as complete sentences.
 - Follow `wiki_editing`, and then run its closing step (section 18) for line endings and encoding.
 
 ## Step 6: Report to the User
 
 Report in the chat, not on any page:
 
-1. Every change, one line each, with the URL that proves it.
+1. Every change, one line each, with the URL that proves it. List grammar and capitalization fixes separately, without URLs.
 2. Every status change, with the dates it rests on, and a table of the first-build and latest-build dates and the status of every entry in the main tables, including the public servers and web versions.
 3. The candidates that were not listed, with the reason, and the candidates to watch.
 4. The sources that could not be read.

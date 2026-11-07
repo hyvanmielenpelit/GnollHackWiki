@@ -90,6 +90,12 @@ When editing or creating pages for the GnollHack Wiki, follow these conventions 
 - **Leucrotta**: Always spell the monster name as "Leucrotta" (with a 'u') and never "Leocrotta" (which is the NetHack spelling).
 - **The Hand of Elbereth**: Never use the term "the Hand of Elbereth" in a generic sense when referring to crowning (unrelated to the character's alignment). Only use "the Hand of Elbereth" when specifically referring to the crowning title for Lawful characters. For generic cases, simply use "crowning" or "crowned".
 - **Special Favor**: Always use the term "special favor" on the wiki instead of the internal C code term "pat on the head".
+- **Grammar and Capitalization**: Write correct US English grammar: subject-verb agreement, complete and unambiguous lists, and no comma before "but" when it joins two verbs that share one subject. Start every sentence, and the text in every table cell, with a capital letter.
+  - A name whose own styling starts with a lowercase letter keeps that styling, for example iNethack2, xNetHack, itch.io, and nethack.app. A table cell that starts with such a name, or with a link whose text is such a name, is correct as it is.
+  - In running text, rephrase a sentence so that such a name does not start it: write "WebHack and the online mode of nethack.app keep their games", not "nethack.app keeps its games".
+  - When a colon follows a label and the text after it defines, explains, or lists what the label names, start that text with a capital letter: a term and its definition (`**Experiment**: A new project…`), a status and its reason (`🔴 Unmaintained: Last updated in 2021.`), or a link and the platforms it serves (`[NAO](…): Web browsers`). A name styled in lowercase, such as macOS or iPhone, keeps its styling there too.
+  - Inside a running sentence, write the word after a colon in lowercase, unless it is a proper name or the colon introduces two or more complete sentences.
+  - Before finishing, read every sentence and table cell you wrote or changed, and fix any grammar or capitalization error you notice elsewhere on the same page.
 
 ## 7. Game Stats Conventions
 - **Strength Values**: When writing or verifying strength values that exceed 18, convert the C macros correctly:

@@ -13,10 +13,10 @@ Entries are in alphabetical order within each category, and a project can appear
 | Icon | Meaning |
 | :-: | :-- |
 | ⭐ | One of the projects with the most work put into its graphical interface; see [[Most Developed Interfaces|#most-developed-interfaces]]. |
-| 🟢 | **In active development**: an established project, with public builds for at least nine months, new builds within the last six months, and ongoing feature work. |
-| 🧪 | **Experiment**: a new project whose first public build is less than nine months old. It may grow into an established project or be abandoned quickly; experiments that keep getting updates move to In active development after nine months. |
-| 🟡 | **Maintained**: updated within the last two years, but only occasionally, such as bug fix releases. |
-| 🔴 | **Unmaintained**: no update in over two years. Such ports are listed only in the closing section. |
+| 🟢 | **In active development**: An established project, with public builds for at least nine months, new builds within the last six months, and ongoing feature work. |
+| 🧪 | **Experiment**: A new project whose first public build is less than nine months old. It may grow into an established project or be abandoned quickly; experiments that keep getting updates move to In active development after nine months. |
+| 🟡 | **Maintained**: Updated within the last two years, but only occasionally, such as bug fix releases. |
+| 🔴 | **Unmaintained**: No update in over two years. Such ports are listed only in the closing section. |
 | 🎵 | Has both sound effects and music. |
 | 🔇 | Has only sound effects, only music, a few sound cues, or no audio at all. |
 
@@ -28,6 +28,7 @@ Entries are in alphabetical order within each category, and a project can appear
 | **GnollHack** ⭐<br /><small>A NetHack variant with an animated, high-resolution 2D interface, voice acting, and support for touch, mouse, keyboard, and game controllers.</small> | 🟢 **In active development** | Free | [Steam](https://store.steampowered.com/app/3558190/GnollHack/?utm_source=wiki): Windows, macOS, Linux, Steam Deck<br />[Google Play](https://play.google.com/store/apps/details?id=com.soundmindentertainment.gnollhack): Android<br />[App Store](https://apps.apple.com/app/gnollhack/id1626979951): iPhone, iPad, Mac | 🎵 |
 | **iNethack2**<br /><small>An iOS port of vanilla NetHack 3.6.7 with several tile sets and an ASCII mode. Last updated in March 2025.</small> | 🟡 Maintained | Free | [App Store](https://apps.apple.com/app/inethack2/id962114968): iPhone, iPad, Apple silicon Mac | 🔇 |
 | **VoxHack**<br /><small>NetHack 3.7 in a first-person 3D voxel world, built on the Luanti engine. In early alpha, with frequent new builds.</small> | 🧪 **Experiment** | Pay what you want | [itch.io](https://mreveryday.itch.io/voxhack): Windows | 🎵 |
+| **ZeldHack for NetHack**<br /><small>A ready-to-play Windows package of vanilla NetHack 3.6.7 with music, sound effects, and a 32×32 tile set inspired by the first Zelda game. It needs no setup beyond unzipping it.</small> | 🟡 Maintained | Free | [itch.io](https://lspixel.itch.io/zeldhack-for-nethack-ready-to-play): Windows | 🎵 |
 
 ## 🌐 Dedicated Websites
 
@@ -56,14 +57,14 @@ Entries are in alphabetical order within each category, and a project can appear
 
 | Port or Variant | Status | Price | Where to Play | Sound & Music |
 | :-- | :-- | :-- | :-- | :-: |
-| **BlissHack (web version)**<br /><small>The browser version of BlissHack. It plays vanilla NetHack 5.0 with tiles without installing anything.</small> | 🧪 **Experiment** | Free | [BlissHack](https://lightmain.github.io/BlissHack/): web browsers | 🔇 |
-| **Hardfought web terminal**<br /><small>Browser play on the Hardfought public servers in North America, Europe, and Australia. Tiles are available for several variants, including xNetHack, EvilHack, SpliceHack, and UnNetHack, when `OPTIONS=vt_tiledata` is set in the options file. Requires a free account.</small> | 🟢 **In active development** | Free | [Hardfought](https://www.hardfought.org/hterm/): web browsers | 🔇 |
-| **NAO web terminal**<br /><small>Browser play on the nethack.alt.org (NAO) public server, with vanilla NetHack 5.0 and 3.6 and a choice of tile sets. Requires a free account.</small> | 🟢 **In active development** | Free | [NAO](https://alt.org/nethack/hterm/): web browsers | 🔇 |
-| **NetHack 3D (web version)** ⭐<br /><small>The browser version of NetHack 3D. It plays vanilla NetHack 5.0, NetHack 3.6.7, or SLASH'EM in 3D without installing anything.</small> | 🟢 **In active development** | Free | [NetHack 3D](https://jamesiv4.github.io/nethack-3d/): web browsers, including mobile | 🔇 |
-| **NetHack Browser Edition**<br /><small>Vanilla NetHack 3.6.7 in the web browser, with several tile sets, a text mode, and optional cloud saves. It has a few sound effects but no music.</small> | 🟡 Maintained | Free | [roguelike.run](https://roguelike.run/): desktop and mobile web browsers | 🔇 |
-| **nethack.app**<br /><small>An unofficial web port of vanilla NetHack 5.0 with the layout of NetHack Cocoa, painted 64-pixel tiles, the classic tiles, or ASCII. It works offline once loaded, and an online mode in beta keeps games across devices and adds them to public high scores.</small> | 🧪 **Experiment** | Free | [nethack.app](https://nethack.app/offline/): web browsers | 🔇 |
-| **VectHack**<br /><small>Vanilla NetHack 5.0 in the web browser, drawn as glowing arcade vector graphics, with monsters as rotating letterforms and dungeons as wireframe geometry, and orbital and first-person cameras. The same site also plays Angband, Larn, and Moria.</small> | 🧪 **Experiment** | Free | [vecthack.net](https://vecthack.net/): web browsers | 🔇 |
-| **WebHack**<br /><small>A browser interface for vanilla NetHack 5.0 that reinterprets the classic ASCII art in first-person 3D. The games run on its own server, which keeps a global high score ladder. In open beta.</small> | 🧪 **Experiment** | Free | [webhackgame.com](https://webhackgame.com/): web browsers | 🔇 |
+| **BlissHack (web version)**<br /><small>The browser version of BlissHack. It plays vanilla NetHack 5.0 with tiles, and there is nothing to install.</small> | 🧪 **Experiment** | Free | [BlissHack](https://lightmain.github.io/BlissHack/): Web browsers | 🔇 |
+| **Hardfought web terminal**<br /><small>Browser play on the Hardfought public servers in North America, Europe, and Australia. Tiles are available for several variants, including xNetHack, EvilHack, SpliceHack, and UnNetHack, when `OPTIONS=vt_tiledata` is set in the options file. Requires a free account.</small> | 🟢 **In active development** | Free | [Hardfought](https://www.hardfought.org/hterm/): Web browsers | 🔇 |
+| **NAO web terminal**<br /><small>Browser play on the nethack.alt.org (NAO) public server, with vanilla NetHack 5.0 and 3.6 and a choice of tile sets. Requires a free account.</small> | 🟢 **In active development** | Free | [NAO](https://alt.org/nethack/hterm/): Web browsers | 🔇 |
+| **NetHack 3D (web version)** ⭐<br /><small>The browser version of NetHack 3D. It plays vanilla NetHack 5.0, NetHack 3.6.7, or SLASH'EM in 3D without installing anything.</small> | 🟢 **In active development** | Free | [NetHack 3D](https://jamesiv4.github.io/nethack-3d/): Web browsers, including mobile | 🔇 |
+| **NetHack Browser Edition**<br /><small>Vanilla NetHack 3.6.7 in the web browser, with several tile sets, a text mode, and optional cloud saves. It has a few sound effects but no music.</small> | 🟡 Maintained | Free | [roguelike.run](https://roguelike.run/): Desktop and mobile web browsers | 🔇 |
+| **nethack.app**<br /><small>An unofficial web port of vanilla NetHack 5.0 with the layout of NetHack Cocoa and a choice of painted 64-pixel tiles, the classic tiles, or ASCII. It works offline once loaded, and an online mode, in beta, keeps your games available across devices and adds them to public high scores.</small> | 🧪 **Experiment** | Free | [nethack.app](https://nethack.app/offline/): Web browsers | 🔇 |
+| **VectHack**<br /><small>Vanilla NetHack 5.0 in the web browser, drawn as glowing arcade vector graphics: monsters are rotating letterforms and dungeons are wireframe geometry, seen through an orbital or a first-person camera. The same site also plays Angband, Larn, and Moria.</small> | 🧪 **Experiment** | Free | [vecthack.net](https://vecthack.net/): Web browsers | 🔇 |
+| **WebHack**<br /><small>A browser interface for vanilla NetHack 5.0 that reinterprets the classic ASCII art in first-person 3D. The games run on its own server, which keeps a global high score ladder. In open beta.</small> | 🧪 **Experiment** | Free | [webhackgame.com](https://webhackgame.com/): Web browsers | 🔇 |
 
 ## 🎖️ Scoreboards and Tournaments
 
@@ -76,7 +77,7 @@ The [NetHack Scoreboard](https://nethackscoreboard.org/) is the NetHack communit
 | **NAO web terminal** | ✅ Yes | ✅ Yes | The NetHack Scoreboard counts both NetHack 5.0 and 3.6 games; Junethack 2026 counted only NetHack 5.0. |
 | **NetHack Tiles Client** | ✅ Yes | ✅ Yes | The games run on the NAO and Hardfought servers, so they count the same as games in their web terminals. |
 
-The other projects on this page, including NetHack 3D, VoxHack, DartHack, and the official NetHack 5.0 download, keep their games on your own device, and neither site counts them. The online mode of nethack.app and WebHack keep their games on their own servers, with high score lists that the NetHack Scoreboard does not read. EvilHack and xNetHack games count only when played on Hardfought, not in their Windows downloads.
+The other projects on this page, including NetHack 3D, VoxHack, DartHack, and the official NetHack 5.0 download, keep their games on your own device, and neither site counts them. WebHack and the online mode of nethack.app keep their games on their own servers, with high score lists that the NetHack Scoreboard does not read. EvilHack and xNetHack games count only when played on Hardfought, not in their Windows downloads.
 
 ## 🏆 Most Developed Interfaces
 
@@ -89,7 +90,7 @@ Judged only by the work put into the graphical interface itself, not by gameplay
 
 | If you want... | Consider |
 | :-- | :-- |
-| **Both music and sound effects** | GnollHack or VoxHack |
+| **Both music and sound effects** | GnollHack, VoxHack, or ZeldHack for NetHack |
 | **Vanilla NetHack 5.0 with graphics** | NetHack 3D, NetHack Cocoa (macOS), NetHack Android, DartHack (Android), BlissHack, nethack.app, VectHack, WebHack, or NetHack 5.0 (official) |
 | **To play on a phone or tablet** | GnollHack, DartHack, NetHack Android, iNethack2, or NetHack 3D |
 | **To play without installing anything** | NetHack 3D (web version), BlissHack (web version), nethack.app, VectHack, WebHack, or NetHack Browser Edition |
@@ -101,14 +102,14 @@ Judged only by the work put into the graphical interface itself, not by gameplay
 
 ## 🔴 Unmaintained and Not Listed
 
-These projects were checked but left out of the lists above. Unmaintained ports may still work, but have had no update in over two years.
+These projects were checked but left out of the lists above. Unmaintained ports may still work but have had no update in over two years.
 
 | Project | Why It Is Not Listed |
 | :-- | :-- |
-| **Vulture for NetHack** | 🔴 Unmaintained: an isometric interface for NetHack 3.6.6 whose last game update was in 2021. Still sold on Steam and itch.io. |
-| **NetHackCocoa (Mac App Store)** | 🔴 Unmaintained: last updated in 2021. Its NetHack 5.0 successor on GitHub is listed above as NetHack Cocoa. |
-| **NetHack 3.6 (Microsoft Store)** | 🔴 Unmaintained: an official NetHack 3.6.6 build from 2019. The current official release is NetHack 5.0, listed above. |
-| **NetHack Live** | 🔴 Unmaintained: a public server with a tile-based web interface, last updated in 2024. |
+| **Vulture for NetHack** | 🔴 Unmaintained: An isometric interface for NetHack 3.6.6 whose last game update was in 2021. Still sold on Steam and itch.io. |
+| **NetHackCocoa (Mac App Store)** | 🔴 Unmaintained: Last updated in 2021. Its NetHack 5.0 successor on GitHub is listed above as NetHack Cocoa. |
+| **NetHack 3.6 (Microsoft Store)** | 🔴 Unmaintained: An official NetHack 3.6.6 build from 2019. The current official release is NetHack 5.0, listed above. |
+| **NetHack Live** | 🔴 Unmaintained: A public server with a tile-based web interface, last updated in 2024. |
 | **BrowserHack** | 🔴 Unmaintained: NetHack 3.4.3 in the web browser, last updated in 2015. |
 | **Falcon's Eye, Vulture's Eye, Vulture's Claw** | Superseded by Vulture for NetHack. A browser port of Falcon's Eye exists but is left out for the same reason. |
 | **NetHack for Android by gurrhack** | Superseded by NetHack Android, listed above. |
