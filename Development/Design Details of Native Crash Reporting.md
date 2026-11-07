@@ -185,19 +185,7 @@ A Release publish uploads the symbols that Sentry needs to name the engine's fun
 
 ## ⚠️ Workarounds
 
-Each is recorded, with its symptom, cause and removal condition, in the GnollHack repository's [Sentry workaround register](https://github.com/hyvanmielenpelit/GnollHack/blob/master/DEVEL/workarounds/sentry.md):
-
-| ID | Workaround |
-|:---|:-----------|
-| **WA-SENTRY-0001** | inproc's unhandled-exception filter does not chain to the filter it displaced |
-| **WA-SENTRY-0002** | Native faults under managed frames never reach inproc's crash handler |
-| **WA-SENTRY-0003** | Sentry .NET captures no native crashes in JIT desktop builds |
-| **WA-SENTRY-0004** | `SentrySdk.CaptureEnvelope` can drop native-only event fields |
-| **WA-SENTRY-0005** | inproc's `SA_ONSTACK` handlers overflow the alternate stack for CoreCLR's chained handlers |
-| **WA-SENTRY-0006** | `UploadDebugInfoToSentry` uploads ELF symbols only for Android |
-| **WA-SENTRY-0007** | Sentry.Maui invokes the `UseSentry` options callback twice |
-| **WA-SENTRY-0009** | A failing exception processor sends the event without its exception |
-| **WA-SENTRY-0011** | `UploadDebugInfoToSentry` uploads dSYMs only for iOS and Mac Catalyst |
+The defects in Sentry .NET, Sentry.Maui and sentry-native that this design works around are recorded, with their symptoms, causes and removal conditions, in the GnollHack repository's workaround register, in [sentry.md](https://github.com/hyvanmielenpelit/GnollHack/blob/master/DEVEL/workarounds/sentry.md). The register is kept current as workarounds are added and removed; the `WA-SENTRY` numbers on this page refer to its entries.
 
 ## 📁 Files
 
