@@ -1,6 +1,6 @@
 ---
 name: wiki-bulk-edits
-description: How to make the same mechanical edit across many GnollHackWiki pages safely. Covers the fact that no page generator or template exists, the repeating header-line fields on spell, monster and item pages, verifying a target article on disk before linking it, the CRLF and UTF-8-without-BOM requirements, a PowerShell regex recipe that preserves both, the Git Bash sed -i hazard, and the verification and handoff steps. Read before editing more than a handful of pages in one pass.
+description: How to make the same mechanical edit across many GnollHackWiki pages safely. Covers why pages are edited in place even though the GnollHack debug-build exporters produced the spell, monster and item format, the repeating header-line fields on spell, monster and item pages, verifying a target article on disk before linking it, the CRLF and UTF-8-without-BOM requirements, a PowerShell regex recipe that preserves both, the Git Bash sed -i hazard, and the verification and handoff steps. Read before editing more than a handful of pages in one pass.
 ---
 
 The full skill lives in this repository's tool-neutral agent directory (`.agents/`),

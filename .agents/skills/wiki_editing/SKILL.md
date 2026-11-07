@@ -1,20 +1,20 @@
 ---
 name: wiki_editing
-description: Instructions and conventions for editing the GnollHack Wiki Markdown pages and handling images.
+description: "Instructions and conventions for editing the GnollHack Wiki Markdown pages: formatting, wikilinks, images, icons, writing style and tone, and the closing encoding check."
 ---
 
 # GnollHack Wiki Editing Guidelines
 
-When editing or creating pages for the GnollHack Wiki, follow these conventions optimized for AI agents like Gemini 3.5 Flash.
+When editing or creating pages for the GnollHack Wiki, follow these conventions. Read section 19, Writing Style, before writing any prose: the formatting rules below say how a page looks, and section 19 says how it reads.
 
 ## 1. File and Heading Structure
 - **Page Titles**: The wiki automatically uses the filename (without `.md`) as the page title. Never start a page with an `H1` (`#`) or `H2` (`##`) heading that is identical to the page's name (the filename without extension). In such cases, omit the heading completely, as it is implied and provided to the page from the filename. Use a single `H1` heading (`#`) on the very first line ONLY if you need a custom title that differs from the filename (e.g., incorrect filename casing or special pages like the home page). In most cases, an H1 is not needed. Never apply a Unicode icon to `H1` (`#`) headings.
 - **Section Headings**: Use only `H2` (`##`) and lower for all other section headings.
 - **Spacing**: Always place an empty line before and after all headings (except before the `H1` at the very beginning of the file). This explicitly includes `H2` (`##`) and `H3` (`###`) headings, which must have an empty line above and below them.
 - **Subdirectories**: Group files into subdirectories (e.g., `/Monsters/`, `/Items/`) to prevent naming conflicts and organize content.
-- **Ingress**: If an article has an ingress, it must be styled as a block quote (`>`) starting with a `👉` emoji, followed by bold text (e.g., `> 👉 **This is the ingress.**`).
+- **Ingress**: If an article has an ingress, it must be styled as a block quote (`>`) starting with a `👉` emoji, followed by bold text (e.g., `> 👉 **This is the ingress.**`). An ingress is optional and one sentence long. It states something about the subject ("Auto-stashing puts the items you pick up into the best container you carry."), never about the page ("This page details…", "This guide explains…"). Leave it out on short pages and on pages whose first paragraph already does the job. An existing two-sentence ingress needs no change unless the page is being rewritten.
 - **Lists**: Use a dash (`-`) for Markdown lists instead of an asterisk (`*`) by default.
-- **Closing Link Sections**: Keep wiki pages and external websites in separate sections at the end of a page. A `## 📖 Learn More` or `## 📖 See Also` section lists only wikilinks to other pages of this wiki. External links (standard Markdown links to other websites) go into their own `## 🔗 External Links` section, placed after it as the last section of the page. Use `## 📖 References` instead when the links are the sources that the page's facts are based on. The icon marks the destination: a book icon means the links stay inside this wiki, and a link icon means they leave it. The same icons apply to an `H3` link subsection inside a longer page. Never mix wikilinks and external links in one list.
+- **Closing Link Sections**: Keep wiki pages and external websites in separate sections at the end of a page. A `## 📖 Learn More` or `## 📖 See Also` section lists only wikilinks to other pages of this wiki. External links (standard Markdown links to other websites) go into their own `## 🔗 External Links` section, placed after it as the last section of the page. Use `## 📖 References` instead when the links are the sources that the page's facts are based on. The icon marks the destination: a book icon means the links stay inside this wiki, and a link icon means they leave it. The same icons apply to an `H3` link subsection inside a longer page. Never mix wikilinks and external links in one list. A closing section is the exception, not the default: section 4 and `AGENTS.md` allow it only for a few essential links that cannot be placed inline, and a hub page that lists the articles of its series is the other case where one belongs. Never add a `### 📖 Learn More` block after each section of a page; link the pages inline where the text mentions them.
 - **Curating Closing Links**: Closing link sections are rigorously curated, not exhaustive. List only the pages a reader of this article would genuinely want next: its direct prerequisites and follow-ups, the pages it depends on, and the pages that answer the obvious next question. Leave out anything only vaguely related; a page that merely shares a topic area, or that is listed for completeness, buries the links that matter and makes the section worth less than a shorter one would be. A link to a hub page is always acceptable when the article belongs to a series that the hub hosts. Prefer a short list; when in doubt, leave the link out.
 
 ## 2. Wikilinks (Gollum Syntax)
@@ -71,6 +71,7 @@ When editing or creating pages for the GnollHack Wiki, follow these conventions 
   - Important: `> 📢 **Important:** This is important.`
   - Warning: `> ⚠️ **Warning:** This is a warning.`
   - Caution: `> 🛑 **Caution:** This is caution.`
+- **Callout Count**: Callouts are for the few things a reader must not miss. Use at most a handful per page, and never one per example: several examples of the same option go in one code block, with a short comment line above each.
 - **HTML Lists**: Gollum does not support HTML lists (such as `<ul>` and `<li>` tags). Avoid using them in Markdown files, including inside tables. Instead, represent list items in tables using Unicode bullets (e.g., `• `) separated by HTML line breaks (`<br />`).
 - **Source Code References**: The wiki is player documentation, not developer documentation. Never cite the game's source code on a page: no file paths (such as `src/zap.c` or `include/mondata.h`), no line numbers, and no C identifiers such as macros, struct fields, enum constants or function names (such as `MR_FEAR` or `save_adj`). State the mechanic in the game's own vocabulary instead, writing "monsters that are immune to fear" rather than "monsters with `MR_FEAR`". Reading the code to establish a fact is correct and expected, but the citation belongs in the implementation plan or the handoff report, never on the page. The only exception is a page under `Development/` that documents the repository itself, where naming a file the reader is meant to open is the point.
 - **AI Instructions**: When writing instructions intended to be read by an AI agent, do not include any emojis in the instruction sections.
@@ -95,7 +96,7 @@ When editing or creating pages for the GnollHack Wiki, follow these conventions 
   - In running text, rephrase a sentence so that such a name does not start it: write "WebHack and the online mode of nethack.app keep their games", not "nethack.app keeps its games".
   - When a colon follows a label and the text after it defines, explains, or lists what the label names, start that text with a capital letter: a term and its definition (`**Experiment**: A new project…`), a status and its reason (`🔴 Unmaintained: Last updated in 2021.`), or a link and the platforms it serves (`[NAO](…): Web browsers`). A name styled in lowercase, such as macOS or iPhone, keeps its styling there too.
   - Inside a running sentence, write the word after a colon in lowercase, unless it is a proper name or the colon introduces two or more complete sentences.
-  - Before finishing, read every sentence and table cell you wrote or changed, and fix any grammar or capitalization error you notice elsewhere on the same page.
+  - Before finishing, read every sentence and table cell you wrote or changed, and fix any grammar or capitalization error you notice elsewhere on the same page. Fixing an error means fixing that error: keep the rest of the sentence, and the writer's voice, as they are. Do not rewrite a human-written page into the house register while correcting it.
 
 ## 7. Game Stats Conventions
 - **Strength Values**: When writing or verifying strength values that exceed 18, convert the C macros correctly:
@@ -111,7 +112,7 @@ When editing or creating pages for the GnollHack Wiki, follow these conventions 
 
 ## 9. Recommended Unicode Icons
 
-When editing or creating headings for pages, always use appropriate Unicode icons/emojis immediately after the heading markers (`## ` or `### `) to maintain a rich, consistent visual aesthetic across the wiki. Use this verified list as a guide. **Exceptions**:
+Put one Unicode icon immediately after the heading marker of every `H2` (`## `) heading. On `H3` (`### `) headings, use an icon only on long reference pages where it helps the reader scan; never use one on `H4` or deeper headings. This rule applies to headings you write or rewrite; do not strip icons from an existing page as a side effect of an unrelated edit. Use this verified list as a guide. **Exceptions**:
 - Never use Unicode icons in headings that start with a number (such as `1.`, `2.`, `3.`, or `### 1. Heading Name`).
 - Never apply a Unicode icon to H1 (`#`) headings (custom page titles).
 - Never use Unicode icons in headings in Privacy Policy, Terms of Service, and other legal documents.
@@ -261,7 +262,7 @@ When editing or creating headings for pages, always use appropriate Unicode icon
 
 ## 10. Recommended Unicode Icons for Other Uses
 
-When formatting inline content, tables, lists, or callouts, use appropriate Unicode icons/emojis to maintain readability and visual distinction:
+Use the icons below where they carry meaning: the callout icon at the start of a callout, a status marker (✅ ❌ 🟢 🔴) in a table cell or list item, an alignment or curse marker where the page is about alignments or curse status. Do not start every table cell or list item with an icon for decoration.
 
 - **Alerts & Callouts** (for blockquotes `>`):
   - Note: `ℹ️` (`> ℹ️ **Note:** ...`)
@@ -438,3 +439,45 @@ Both outputs go in the handoff report: the number of files the closing step norm
 (ideally `0`, which means every edit was already correct), and an empty drift check. A
 non-empty drift check names a tracked file with the wrong endings; fix it with the same
 recipe and say so.
+
+## 19. Writing Style
+
+Pages are written for players by people who know the game. Write the way an experienced
+player explains a mechanic to another player: plainly and specifically, and then stop. The
+formatting rules above say how a page looks; this section says how it reads.
+
+- **Facts over adjectives.** Give the number, the name, the condition. Write "over 23,000
+  tiles drawn for GnollHack", not "a wealth of beautiful graphics". If a sentence still
+  says something after you delete its adjectives, delete them.
+- **Words to avoid.** Comprehensive, seamless(ly), robust, immersive, groundbreaking,
+  testament, profound, elevate, unleash, delve, vast array, wealth of, state-of-the-art,
+  game-changer, cutting-edge. Also avoid superlatives nobody can check, such as "no other
+  roguelike achieves the same".
+- **Constructions to avoid.**
+  - "X is not just Y; it is Z" and "not only… but also…".
+  - "Whether you want to… or…, …".
+  - A rhetorical question answered with an exclamation ("Got a question? Just ask!").
+  - Lists of three adjectives or three parallel clauses used for rhythm.
+  - Sentences about the page itself ("This page outlines…", "In this guide, you will…").
+  - Addressing anyone but players and contributors ("For CTOs and technical leads…").
+- **Dashes.** `**Label** — description` is fine in a list of links, as on the Home page.
+  In running text, use a comma, a colon, parentheses, or a new sentence instead of an em
+  dash.
+- **Bold labels.** Use `- **Label:** text` bullets only when the items really are labeled
+  terms. A list of plain statements is a plain list, and bold is for the one or two words
+  in a paragraph a reader must not miss.
+- **Structure follows content.** A short page can be a few paragraphs with no headings. Go
+  no deeper than `H3`, except on long reference pages. Use a table only when the data has
+  real columns; a two-column "Fact | Value" table of four rows reads better as a sentence.
+- **Promotional pages too.** Pages that introduce GnollHack (Overview, Features, the
+  Gnoll Overseer) may be enthusiastic, but every claim rests on a fact the page states.
+- **Do not invent anything.** No made-up facts, numbers, quotes, or examples. Every
+  configuration or command example must be checked against the game, and its caption must
+  describe what it actually does. If something cannot be checked, leave it out or say it is
+  unverified.
+- **Keep the existing voice.** When you edit a page someone wrote by hand, change what the
+  task needs and leave the rest of the wording alone. Section 6 says the same about
+  grammar fixes.
+
+Before finishing, reread every paragraph you wrote and cut anything a player would skim
+past.
