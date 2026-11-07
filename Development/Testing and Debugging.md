@@ -14,6 +14,7 @@
 
 - [[/Development/Testing Avalonia Linux Version on Steam Deck]] — The Steam Deck as a test device for the Linux version, with one-command deployment and a live log
 - [[Testing on the Mac|/Development/Build Instructions for Avalonia macOS Version on Windows#3-testing-on-the-mac]] — Running a test build of the macOS version on the Mac
+- [[Test Crash Reporting|/Development/Build Instructions for Native Crash Reporting#9-test-crash-reporting]] — Checking that test messages and native crash reports reach Sentry
 
 ## 📁 Files and Installs
 

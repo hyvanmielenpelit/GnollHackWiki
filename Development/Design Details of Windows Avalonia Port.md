@@ -80,6 +80,15 @@ The Windows flavor's own C# is in `Platforms\WindowsAvalonia\`; `Platforms\Windo
 | **Data folder** | `%LOCALAPPDATA%\GnollHack-Avalonia` | The app's own data folder |
 | **Distribution** | A zipped folder | MSIX and Steam |
 
+## 🐞 Crash Reporting
+
+The shared model is in [[Crash Reporting|/Development/Design Details of Avalonia Port#crash-reporting]]. On Windows:
+
+- **sentry-native**: `gnhsentry.dll`, the same file as the WinUI 3 version's, with GnollHack's crash shim: a filter that keeps CoreCLR's unhandled-exception filter in the chain, and a vectored handler that reports faults in the game engine, SkiaSharp, FMOD and ANGLE under .NET code. Its module list names the WinUI 3 version's ANGLE files, not this flavor's `av_libglesv2.dll`.
+- **Tags**: `windows.package` (`steam` or `unbundled`), `windows.sac_state` (the Smart App Control state), and `native_load.file` and `native_load.win32_error` when a native library fails to load.
+- **Debug symbols**: a Release publish uploads `gnollhackwin.pdb` and, from the computer that built the committed DLL, `gnhsentry.pdb`.
+- **The whole mechanism** is on [[/Development/Design Details of Native Crash Reporting]], and how `gnhsentry.dll` is rebuilt on [[Build gnhsentry.dll|/Development/Build Instructions for Native Crash Reporting#3-build-gnhsentry-dll]].
+
 ## ⚠️ Workarounds
 
 The Windows flavor's workarounds are in the shared Avalonia code and recorded with the others; see [[Workarounds|/Development/Design Details of Avalonia Port#workarounds]].
@@ -91,6 +100,7 @@ The Windows flavor's workarounds are in the shared Avalonia code and recorded wi
 - [[/Development/Design Details of Linux Avalonia Port]]
 - [[/Development/Design Details of macOS Avalonia Port]]
 - [[/Development/Build Instructions for Avalonia Windows Version on Windows]]
+- [[/Development/Design Details of Native Crash Reporting]]
 - [[/Development/Design Details]]
 
 ## 🔗 External Links

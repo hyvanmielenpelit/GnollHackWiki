@@ -21,6 +21,7 @@ You need the following devices to follow these instructions:
 6. Select **Debug** as your solution configuration. You can also use **Release**, when you plan to build a release build.
 7. Rebuild the GnollHack solution.
     - This will compile the native C library (`gnollhackwin.dll`) and copy it together with FMOD runtime DLLs to `win\win32\xpl\GnollHackM\Platforms\Windows\libs`.
+    - The native crash reporter `gnhsentry.dll` in the same folder is committed to the repository and not built here. It is rebuilt only as in [[Build gnhsentry.dll|/Development/Build Instructions for Native Crash Reporting#3-build-gnhsentry-dll]].
     - It will also create the NetHack game data file called `nhdat` in Windows format, and copy it together with `defaults.gnh`, `license`, `symbols`, `sysconf`, `xcredits`, and `record` to `win\win32\xpl\GnollHackM\Platforms\Windows\gnh`.
     - (It will also build ASCII and GUI versions of GnollHack. You may want to check out [[/Development/Build Instructions for ASCII Version on Windows]] and [[/Development/Build Instructions for Windows GUI Version on Windows]] for reference.)
 8. Locate `GnollHackM.sln` in `win\win32\xpl\GnollHackM` directory and open it in Visual Studio.

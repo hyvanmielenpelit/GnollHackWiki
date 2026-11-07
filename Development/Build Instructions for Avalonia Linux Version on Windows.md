@@ -218,7 +218,7 @@ Two files of the Linux version are committed to the repository rather than built
 
 **5.2.1. Rebuild the save recovery utility** `Platforms\Linux\gnh\recover` with `Build-LinuxRecover.ps1`, after a change to the recovery utility or to the save file format it reads.
 
-**5.2.2. Rebuild the native crash reporter** `Platforms\Linux\libs\libsentry.so` with `Build-LinuxSentryNative.ps1`, after a Sentry upgrade, following `win\win32\xpl\gnhsentrywin\README.md`. It also needs `cmake`, `g++` and `git`, and prints the `git clone` command for the sentry-native version it expects. It writes `libsentry.build.props` beside the library, which every build checks against the Sentry .NET package and the Windows version's crash reporter: a mismatch is an error in a Release publish or a package build, and a warning otherwise. The whole upgrade, across all three platforms, is summarized in [[Updating Sentry|/Development/Native Crash Reporting in Avalonia Port#updating-sentry]].
+**5.2.2. Rebuild the native crash reporter** `Platforms\Linux\libs\libsentry.so` with `Build-LinuxSentryNative.ps1`, after a Sentry upgrade. It also needs `cmake`, `g++` and `git`. What it checks and writes, and what to do after a Sentry update, is in [[Build libsentry.so|/Development/Build Instructions for Native Crash Reporting#4-build-libsentry-so]].
 
 ### 5.3. Refresh the CEF License Texts
 

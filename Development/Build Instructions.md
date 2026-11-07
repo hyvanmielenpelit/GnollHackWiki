@@ -53,7 +53,7 @@ The Avalonia clients use a newer .NET SDK than the others, pinned in `win\win32\
 These are built apart from the clients, and the clients use the results:
 
 - [[/Development/Building iOS and macOS Native Libraries over SSH]] — How the iOS and macOS game engines are compiled on a Mac over SSH, and how to fix that build
-- [[Updating Sentry|/Development/Native Crash Reporting in Avalonia Port#updating-sentry]] — How the native crash reporting libraries are rebuilt when the Sentry packages are updated
+- [[/Development/Build Instructions for Native Crash Reporting]] — Rebuilding the three native crash reporting libraries, the build-time check, and updating Sentry
 - [[/Development/SkiaSharp Build Instructions]] — Custom SkiaSharp builds, mainly for reference
 - [[/Development/Updating Tileset for GnollHackM (.NET MAUI)]] — Making a new tile set for the modern clients
 - [[/Development/Verify Mobile Sound Banks]] — Matching the mobile sound banks with the checksums the apps verify

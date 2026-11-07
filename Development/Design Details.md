@@ -38,7 +38,7 @@ The Avalonia port runs the modern client on Avalonia UI, which brings it to Linu
 
 ## 🧩 Cross-Platform Systems
 
-- [[/Development/Native Crash Reporting in Avalonia Port]] — How native crashes are reported to Sentry, and how Sentry is updated
+- [[/Development/Design Details of Native Crash Reporting]] — How native crashes are reported to Sentry on every client, how the parts fit together, and why
 - [[/Development/Gamepad Support]] — How game controller support works, and what it covers and does not cover
 - [[/Technical Systems]] — How save recovery, save transfer and the other technical systems work, explained for players
 

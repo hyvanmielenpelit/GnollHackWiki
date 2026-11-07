@@ -82,6 +82,15 @@ Saved games and settings go to `%LOCALAPPDATA%\GnollHack-Avalonia`, apart from t
 
 **2.3.2. Attach the debugger**, if needed: in Visual Studio, choose **Debug → Attach to Process**, and select `GnollHackM.exe` with the **Managed (.NET Core, .NET 5+)** code type.
 
+**2.3.3. Check crash reporting**, if needed, by starting the game once with a test message. It needs the team's secrets file in the build, or a DSN in the `SENTRY_DSN` environment variable:
+
+```powershell
+$env:GNOLLHACK_SENTRY_TEST = '1'
+& win\win32\xpl\GnollHackM\bin\Debug\net11.0\win-x64\GnollHackM.exe
+```
+
+✅ The event appears in Sentry as "Sentry test from …" with the tag `windows.package=unbundled`. Native crashes are tested as in [[Test Crash Reporting|/Development/Build Instructions for Native Crash Reporting#9-test-crash-reporting]].
+
 ## 3. Making a Folder for Testers
 
 A self-contained publish includes the .NET runtime, so it runs on a Windows computer without the SDK. There is no installer for the Avalonia port on Windows.
@@ -112,6 +121,7 @@ For general build problems, such as a locked file, see [[/Development/Troublesho
 | **The build fails to restore, or an unexpected .NET SDK is used** | `dotnet` was run outside `Platforms\Avalonia`. Run it there, as in step 2.2.1. |
 | **Error `GNHNI001`** | The game engine or the game data is missing. Do section 2.1. |
 | **Error `GNHNI002` or `GNHNI003`** | A sound bank or tile set file is missing. Do step 1.2.5. |
+| **`GNHSN001` to `GNHSN006`** errors or warnings about `gnhsentry.dll` | `gnhsentry.dll` does not match the Sentry version the project uses. Rebuild it as in [[Build gnhsentry.dll|/Development/Build Instructions for Native Crash Reporting#3-build-gnhsentry-dll]]. For a local test build only, `-p:GnhAllowStaleSentryNative=true` turns the errors into warnings. |
 | **XAML changes do not appear** | The shared XAML files were not converted. Rebuild the native solution with **MauiAndroid** (it needs WSL), then build the Avalonia port again. |
 
 ### 🔧 Running
@@ -131,6 +141,7 @@ For general build problems, such as a locked file, see [[/Development/Troublesho
 - [[/Development/Design Details of Windows Avalonia Port]]
 - [[/Development/Build Instructions for Avalonia Linux Version on Windows]]
 - [[/Development/Overview of Building GnollHack with .NET MAUI]]
+- [[/Development/Build Instructions for Native Crash Reporting]]
 - [[/Development/Build Instructions]]
 
 ## 🔗 External Links

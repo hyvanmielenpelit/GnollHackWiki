@@ -296,15 +296,13 @@ win\win32\xpl\GnollHackM\Platforms\MacOS\Packaging\New-MacAppIcon.ps1
 
 It composes `Resources\AppIcon\macOS\appicon-macos.png` in `GnollHackM` from the two layers, as the rounded square that macOS expects. The packaging turns it into `GnollHack.icns`.
 
-**7.2. Rebuild the native crash reporter** `Platforms\MacOS\libs\libgnhsentry.dylib` after a Sentry upgrade, or after an edit of `gnhsentry.def` in `win\win32\xpl\gnhsentrywin\` or of `gnhsentry.exports` in `Platforms\MacOS\Packaging\`. Follow `win\win32\xpl\gnhsentrywin\README.md`, which runs:
+**7.2. Rebuild the native crash reporter** `Platforms\MacOS\libs\libgnhsentry.dylib` after a Sentry upgrade, or after an edit of `gnhsentry.def` in `win\win32\xpl\gnhsentrywin\` or of `gnhsentry.exports` in `Platforms\MacOS\Packaging\`. It uses the same SSH alias as the packaging:
 
 ```powershell
 win\win32\xpl\GnollHackM\Platforms\MacOS\Packaging\Build-MacSentryNative.ps1
 ```
 
-It links `libsentry-native.a` from the Sentry NuGet package into a universal arm64 and x86_64 dylib on the Mac, over the same SSH alias as the packaging, checks it, and copies it back with sentry-native's license to `Platforms\MacOS\licenses\sentry-native\`. It downloads nothing: GnollHackM must have been restored first, so that the Sentry package is in the NuGet package folder. Its errors are printed as `Build-MacSentryNative.ps1 : error GNHMS0nn: ...`.
-
-It also writes `libgnhsentry.build.props` beside the library, which every macOS build of GnollHackM checks against the Sentry package: a mismatch is an error in a Release publish or a package build, and a warning otherwise. The whole upgrade, across all three platforms, is summarized in [[Updating Sentry|/Development/Native Crash Reporting in Avalonia Port#updating-sentry]].
+What it checks and writes, and what to do after a Sentry update, is in [[Build libgnhsentry.dylib|/Development/Build Instructions for Native Crash Reporting#5-build-libgnhsentry-dylib]].
 
 ## ⚙️ Packaging Script Options
 
