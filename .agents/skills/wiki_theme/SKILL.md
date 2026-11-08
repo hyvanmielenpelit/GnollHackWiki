@@ -72,11 +72,20 @@ is dark only; there is no light mode.
   bar), `#search-query`, `.breadcrumb`, block quotes, tables (`th`, even rows, borders),
   `pre` and inline `code`, Rouge tokens, `hr`, `kbd`, `.katex`, `.toc` and `.toc-title`,
   `.Box` and `#wiki-header`, the sidebar and footer.
-- Width: Gollum nests a second 1012px `container-lg` (`.main-content`) inside the panel.
-  From 1012px up, `body > .container-lg` is widened to 1110px with a 16px inline gutter, so
-  the 1078px panel (32px padding and 1px border per side) holds the full inner container.
-  Going wider also means overriding `.main-content`; with the sidebar, the text column is
-  already about 87 characters per line.
+- Width: tables get a wide column while prose keeps a readable line length.
+  - From 1012px up, `body > .container-lg` is at most 1312px with a 16px inline gutter, so
+    the panel reaches 1280px (Primer's `xl`) in windows of about 1330px and wider.
+    Gollum's inner `container-lg` (`.main-content`) has no cap there, and the sidebar is
+    `col-md-3`'s 25% but at most 260px, so the text column holds about 938px.
+  - Paragraphs, lists, definition lists and block quotes that are direct children of the
+    page body are capped at `38em`, about 88 characters of 17px Lato (7.3px per character
+    on average). Blocks holding a table, a code block or display math are not capped.
+    The page body is a size container (`container-type: inline-size`), so an image in a
+    capped paragraph is limited by `100cqi`, the column, not by the paragraph.
+  - Code in tables breaks anywhere (`overflow-wrap: anywhere`), so a long path or
+    identifier does not hold a table wider than its column.
+  - Breakpoints: 768px, sidebar beside the text; 1012px, floating panel and fixed sidebar;
+    about 1330px, the panel at full width. Media queries count the scrollbar.
 - After any Gollum upgrade, re-run the visual checks (section 7): new Primer variables or
   hard-coded colors show up there first.
 

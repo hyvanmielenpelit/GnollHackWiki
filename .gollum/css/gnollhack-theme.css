@@ -456,6 +456,22 @@
     color: var(--gh-prose);
   }
 
+  /* Prose in the page body is capped at about 88 characters per line; tables, code
+     blocks and display math keep the full column. */
+  #wiki-body .main-content > .markdown-body > :is(p, ul, ol, dl, blockquote):not(:has(table, pre, .katex-display)) {
+    max-width: 38em;
+  }
+
+  /* The page body is a size container, so an image in a capped paragraph can still
+     fill the column. */
+  #wiki-body .main-content > .markdown-body {
+    container-type: inline-size;
+  }
+
+  #wiki-body .main-content > .markdown-body > p img {
+    max-width: 100cqi;
+  }
+
   /* Block quotes, including the ingress and caution quotes */
   .markdown-body blockquote {
     padding: 0.75em 1.1em;
@@ -494,6 +510,12 @@
 
   .markdown-body table tr:nth-child(2n) {
     background-color: var(--gh-row-alt);
+  }
+
+  /* Code in a table breaks anywhere, so a long path or identifier does not widen
+     the table. */
+  .markdown-body table code {
+    overflow-wrap: anywhere !important;
   }
 
   /* Code blocks */
@@ -736,12 +758,26 @@
 
 /* Desktop: the panel floats above the background art. */
 @media screen and (min-width: 1012px) {
-  /* The panel is at most 1078px wide: Gollum's inner 1012px container-lg plus the
-     panel's padding and border. The inline padding keeps a gutter beside it in
-     narrower windows. */
+  /* The panel is at most 1280px wide, with a 16px gutter beside it in narrower
+     windows. */
   body > .container-lg {
-    max-width: 1110px;
+    max-width: 1312px;
     padding-inline: 16px;
+  }
+
+  /* Gollum's inner container-lg would hold the page content at 1012px. */
+  #wiki-body .main-content {
+    max-width: none;
+  }
+
+  /* The sidebar is a quarter of the width, at most 260px, so the page text gets the
+     rest. */
+  #wiki-body .main-content > .markdown-body.col-md-9 {
+    width: max(75%, 100% - 260px);
+  }
+
+  #wiki-sidebar.col-md-3 {
+    width: min(25%, 260px);
   }
 
   #wiki-wrapper {
