@@ -456,22 +456,6 @@
     color: var(--gh-prose);
   }
 
-  /* Prose in the page body is capped at about 88 characters per line; tables, code
-     blocks and display math keep the full column. */
-  #wiki-body .main-content > .markdown-body > :is(p, ul, ol, dl, blockquote):not(:has(table, pre, .katex-display)) {
-    max-width: 38em;
-  }
-
-  /* The page body is a size container, so an image in a capped paragraph can still
-     fill the column. */
-  #wiki-body .main-content > .markdown-body {
-    container-type: inline-size;
-  }
-
-  #wiki-body .main-content > .markdown-body > p img {
-    max-width: 100cqi;
-  }
-
   /* Block quotes, including the ingress and caution quotes */
   .markdown-body blockquote {
     padding: 0.75em 1.1em;
@@ -758,10 +742,11 @@
 
 /* Desktop: the panel floats above the background art. */
 @media screen and (min-width: 1012px) {
-  /* The panel is at most 1280px wide, with a 16px gutter beside it in narrower
-     windows. */
+  /* The panel is at most 1153px wide, so the text column beside the sidebar is
+     811px: the widest table's wrapped width, about 110 characters per line. A 16px
+     gutter sits beside the panel in narrower windows. */
   body > .container-lg {
-    max-width: 1312px;
+    max-width: 1185px;
     padding-inline: 16px;
   }
 

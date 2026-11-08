@@ -72,20 +72,19 @@ is dark only; there is no light mode.
   bar), `#search-query`, `.breadcrumb`, block quotes, tables (`th`, even rows, borders),
   `pre` and inline `code`, Rouge tokens, `hr`, `kbd`, `.katex`, `.toc` and `.toc-title`,
   `.Box` and `#wiki-header`, the sidebar and footer.
-- Width: tables get a wide column while prose keeps a readable line length.
-  - From 1012px up, `body > .container-lg` is at most 1312px with a 16px inline gutter, so
-    the panel reaches 1280px (Primer's `xl`) in windows of about 1330px and wider.
-    Gollum's inner `container-lg` (`.main-content`) has no cap there, and the sidebar is
-    `col-md-3`'s 25% but at most 260px, so the text column holds about 938px.
-  - Paragraphs, lists, definition lists and block quotes that are direct children of the
-    page body are capped at `38em`, about 88 characters of 17px Lato (7.3px per character
-    on average). Blocks holding a table, a code block or display math are not capped.
-    The page body is a size container (`container-type: inline-size`), so an image in a
-    capped paragraph is limited by `100cqi`, the column, not by the paragraph.
+- Width: the text column is as wide as the widest table needs, and text fills it.
+  - From 1012px up, `body > .container-lg` is at most 1185px with a 16px inline gutter, so
+    the panel reaches 1153px in windows of about 1200px and wider. Gollum's inner
+    `container-lg` (`.main-content`) has no cap there, and the sidebar is `col-md-3`'s 25%
+    but at most 260px, so the text column holds 811px.
+  - 811px is the widest table's wrapped (min-content) width, Hit Point and Mana
+    Regeneration Rates; at 17px Lato (7.3px per character on average) it is about 110
+    characters per line. A wider panel lengthens every line of prose; a narrower one makes
+    the widest tables scroll. Re-measure when a wider table is added.
   - Code in tables breaks anywhere (`overflow-wrap: anywhere`), so a long path or
     identifier does not hold a table wider than its column.
-  - Breakpoints: 768px, sidebar beside the text; 1012px, floating panel and fixed sidebar;
-    about 1330px, the panel at full width. Media queries count the scrollbar.
+  - Breakpoints: 768px, sidebar beside the text; 1012px, floating panel and the 260px
+    sidebar cap; about 1200px, the panel at full width. Media queries count the scrollbar.
 - After any Gollum upgrade, re-run the visual checks (section 7): new Primer variables or
   hard-coded colors show up there first.
 
