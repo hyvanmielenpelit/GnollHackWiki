@@ -273,7 +273,7 @@ Use the icons below where they carry meaning: the callout icon at the start of a
   - Caution: `🛑` (`> 🛑 **Caution:** ...`)
 
 - **Document Structure**:
-  - Ingress: `👉` (`> 👉 **Welcome...**` at the top of a page)
+  - Ingress: `👉` (`> 👉 **Auto-stashing puts the items you pick up into the best container you carry.**` at the top of a page; see section 1)
   - Conclusions / Summary: `💡` (e.g., `## 💡 Conclusions`)
 
 - **User Interface & Interaction Controls**:
