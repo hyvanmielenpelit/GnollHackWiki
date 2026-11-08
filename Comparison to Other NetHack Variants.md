@@ -14,7 +14,7 @@ UnNetHack has optional challenges that you set in the configuration file. Marath
 
 GnollHack has its own interface for mobile and desktop devices. You manage the inventory by tapping or clicking: selecting an item opens a menu of the actions that apply to it, such as Wield or Put On, and common actions are on an on-screen command bar. The map uses [[animated high-resolution tiles|Improved Graphical Interface]] instead of ASCII, and the game has a [[soundtrack|Music]] and [[voice acting|Voiceovers]].
 
-The three variants are played with NetHack's keyboard commands. EvilHack's Windows download, listed in [[Graphical NetHack Ports and Variants]], has a tty version and a GUI version, and UnNetHack has come with a tiles interface for Windows, using the DawnHack tiles, since version 3.6.1. dNetHack is supported only on Unix, or on Windows through WSL. All three can be played online on the Hardfought servers.
+The three variants are played with NetHack's keyboard commands. EvilHack's Windows download has a tty version and a GUI version, and UnNetHack has come with a tiles interface for Windows, using the DawnHack tiles, since version 3.6.1. dNetHack is supported only on Unix, or on Windows through WSL. All three can be played online on the Hardfought servers.
 
 ## ⚙️ Systems and Mechanics
 
