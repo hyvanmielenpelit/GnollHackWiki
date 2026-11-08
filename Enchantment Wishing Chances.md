@@ -1,4 +1,4 @@
-> 👉 **This page details the exact odds of successfully wishing for enchanted items in GnollHack, explaining why wishing for a +5 weapon usually results in a +0 item.**
+> 👉 **Wishing for a +5 weapon in GnollHack usually gives you a +0 item, because a wish for too high an enchantment fails.**
 
 When you wish for an enchanted item (like a weapon or armor) with a specific enchantment level, such as a "+3 long sword", the game performs a safety check. If you ask for an enchantment that is deemed too high by the game's internal random rolls, your wish "evaporates," and you are given a +0 item instead.
 

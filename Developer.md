@@ -4,12 +4,12 @@
 
 ## About Sound Mind Games
 
-**Sound Mind Games** (Hyvän mielen pelit ry) is a Finnish non-profit organization providing flexible internships and work try-outs in the IT, media, and game sectors. The organization offers a supportive environment where individuals navigating mental health challenges can gain practical experience and collaborate on high-quality, real-world projects at their own pace. In our community, participants hone their professional skills, rebuild their confidence, and create pathways to meaningful careers.
+**Sound Mind Games** (Hyvän mielen pelit ry) is a Finnish non-profit organization that offers flexible internships and work try-outs in the IT, media, and game sectors. People facing mental health challenges work on real projects together at their own pace. The practical experience, skills, and confidence they gain help them move on to working life.
 
 - [Visit Hyvän mielen pelit ry Website](https://hyvanmielenpelit.fi/) (In Finnish)
 
 ## Sponsor Us
 
-When you sponsor Sound Mind Games, you aren't just supporting the creation of amazing games — you are championing mental wellbeing and helping extraordinary creators build successful futures.
+Sponsoring Sound Mind Games supports both its games and the mental wellbeing and careers of the people who make them.
 
 - [Sponsor Us](https://hyvanmielenpelit.fi/tule-mukaan/pienkannatusjaseneksi/in-english) (In English, links to the relevant page on the Sound Mind Games website)

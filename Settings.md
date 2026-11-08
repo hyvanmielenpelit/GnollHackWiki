@@ -1,6 +1,6 @@
 ![settings](/uploads/Settings/settings.webp)
 
-> 👉 **These settings relate to GnollHack's modern ports only.**
+> 👉 **The settings on GnollHack's Settings screen are available only in the modern ports.**
 
 ## 💡 Built-In Setting Descriptions
 

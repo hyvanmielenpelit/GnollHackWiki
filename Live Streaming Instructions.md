@@ -2,7 +2,7 @@ These are instructions on live streaming GnollHack games on Twitch or YouTube.
 
 ## Twitch Settings
 
-In Twitch, you need to enable **Store past broadcasts** in Account Settings -> Channel and Videos. Otherwise, Twitch does not save your streams for later watching.
+In Twitch, you need to enable **Store past broadcasts** in Account Settings → Channel and Videos. Otherwise, Twitch does not save your streams for later watching.
 
 ## YouTube Settings
 

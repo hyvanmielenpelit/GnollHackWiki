@@ -1,4 +1,4 @@
-> 👉 **This page explains how to play GnollHack with the Steam Deck's built-in controls, which are available starting from version 3.32, and with a game controller, such as an Xbox controller, on Windows, Linux, and macOS. It covers setting up the controls, the controls on the map, the radial menus, and using the controller in menus, the wiki, and the Gnoll Overseer.**
+> 👉 **GnollHack can be played with the Steam Deck's built-in controls starting from version 3.32, and with a game controller, such as an Xbox controller, on Windows, Linux, and macOS.**
 
 Button names on this page follow the Steam Deck; see [[Button Names on Other Controllers|#button-names-on-other-controllers]]. A strip of button hints at the bottom of the screen always shows what each button does at the moment, and it changes when you hold L1 or R1.
 

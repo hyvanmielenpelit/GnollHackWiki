@@ -2,7 +2,7 @@
 
 ## ⚡ At a Glance
 
-**GnollHack** is the only full-depth, graphically modernized traditional roguelike that is *100% free across Steam, iOS, and Android*, delivering uncompromising NetHack complexity with *native support for every screen and controller you own*. No other traditional roguelike achieves the same.
+**GnollHack** is a free graphical version of NetHack on Steam, iOS, and Android that keeps the full depth of the original and supports touch, mouse, keyboard, and game controllers.
 
 On Steam, GnollHack runs natively on Windows, macOS, Linux, and the Steam Deck, with a dedicated controller interface that has radial menus and on-screen button hints.
 

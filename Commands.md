@@ -1,4 +1,4 @@
-> 👉 **This page lists only the commands that appear in the modern user interface, organized into categories.**
+> 👉 **GnollHack's modern user interface has commands for inventory, combat, equipment, movement, spellcasting, religion, and more.**
 
 ## 🎒 Inventory and Item Management
 

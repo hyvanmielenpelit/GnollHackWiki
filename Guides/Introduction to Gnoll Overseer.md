@@ -12,7 +12,7 @@
 
 ## 🆚 How It Differs From Generic AI Chatbots
 
-Although the Gnoll Overseer connects to state-of-the-art AI models, it is a purpose-built advisor integrated into the game:
+Although the Gnoll Overseer connects to frontier AI models, it is a purpose-built advisor integrated into the game:
 
 | Capability | Generic AI Chatbots | Gnoll Overseer |
 |---|---|---|

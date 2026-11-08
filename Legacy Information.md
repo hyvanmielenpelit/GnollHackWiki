@@ -1,4 +1,4 @@
-> 👉 **These pages relate only to the legacy versions of GnollHack**
+> 👉 **GnollHack's legacy versions are the ASCII version, played on public servers, and the legacy Windows version.**
 
 ## 🏛️ ASCII Legacy Version
 

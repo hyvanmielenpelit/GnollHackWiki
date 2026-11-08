@@ -1,4 +1,4 @@
-> 👉 **This page compares different graphical user interfaces for NetHack, including the official Windows GUI, NetHack 3D, and GnollHack.**
+> 👉 **The official NetHack Windows GUI, NetHack 3D, and GnollHack differ in graphics, sound, controls, and the platforms they run on.**
 
 ## 📖 Overview
 

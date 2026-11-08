@@ -6,13 +6,13 @@ An Armory is a GnollHack-specific special room designed as a military depot. It 
 
 ## 🗺️ Generation
 
-Armories are randomly generated starting from dungeon level 4 up to Medusa's level. The generation chance is 1 in 2 if fewer than 5 armory boxes have been created in the game so far; otherwise, it is 1 in 6. The room is always lit and has entering sound effects (`SFX_ENTER_ARMORY`).
+Armories are randomly generated starting from dungeon level 4 up to Medusa's level. The generation chance is 1 in 2 if fewer than 5 armory boxes have been created in the game so far; otherwise, it is 1 in 6. The room is always lit and plays a sound effect when you enter it.
 
 ## 📦 Contents
 
 Every square in an Armory has a 1 in 20 chance to contain an anvil dungeon feature. The room contains several containers ([[chests|/Items/Chest]], [[large boxes|/Items/Large box]], and [[weapon racks|/Items/Weapon rack]]) containing random [[/weapons]] and [[/armor]]. 
 
-These container items are marked with the `no_pickup` flag, meaning the containers themselves cannot be picked up or moved. Underneath one of the primary [[chests|/Items/Chest]] is a hidden engraving of `Gilthoniel` (or `Morgoth` if the room is generated in Gehennom).
+The containers themselves cannot be picked up or moved. Underneath one of the primary [[chests|/Items/Chest]] is a hidden engraving of `Gilthoniel` (or `Morgoth` if the room is generated in Gehennom).
 
 ### 🗡️ Special Artifact Weapon
 

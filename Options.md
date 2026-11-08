@@ -1,6 +1,6 @@
 ![options](/uploads/Options/options2.webp)
 
-> 👉 **GnollHack provides a vast array of configuration options that allow you to customize the user interface, gameplay mechanics, controls, and audio settings to fit your playstyle. This page serves as a comprehensive reference for all available options, whether you are playing on a modern graphical port or a classic terminal interface.**
+> 👉 **GnollHack's options file sets interface, gameplay, control, and sound options, in the modern versions and in the legacy ASCII, Curses, and Windows versions.**
 
 ## 🔗 Useful Links
 
@@ -9,7 +9,7 @@
 
 ## 💡 Configuration Examples
 
-Here are some of the most common configuration examples to help you customize your options file.
+These are two of the most common changes people make to their options file.
 
 ### ⌨️ Number Pad Movement
 
@@ -21,7 +21,7 @@ If you have a keyboard with a numeric keypad, you can configure it to move in al
 OPTIONS=number_pad:value
 ```
 
-> 💡 **Example — Enable standard 8-direction movement on the numeric keypad:**
+> 💡 **Example:** Enable standard 8-direction movement on the numeric keypad:
 > 
 > ```
 > OPTIONS=number_pad:1
@@ -38,7 +38,7 @@ OPTIONS=autopickup
 OPTIONS=pickup_types:characters
 ```
 
-> 💡 **Example — Turn on autopickup and only pick up gold ($), scrolls (?), potions (!), and wands (/):**
+> 💡 **Example:** Turn on autopickup and only pick up gold (`$`), scrolls (`?`), potions (`!`), and wands (`/`):
 > 
 > ```
 > OPTIONS=autopickup
@@ -53,8 +53,8 @@ OPTIONS=pickup_types:characters
 | **crawl_interval** | *(varies)* | `125` | Delay in milliseconds between animation steps when the player or a monster is crawling. Lowering this speeds up crawling. |
 | **dark_room** | `true` / `false` | `true` | Renders floors and features that have been explored but are currently out of line of sight in a darker shade to distinguish them from active vision. |
 | **detailed_weights** | `true` / `false` | `false` | Displays small object weights using more precise units: ounces (`oz`) for the imperial system or grams (`g`) for the metric system, rather than standard pounds (`lbs`) or kilograms (`kg`). |
-| **herewindow** | `true` / `false` | `true` | If enabled, displays a floating window listing all objects present on the player's current tile (the modern .NET MAUI frontend handles auto-placement and renders this window in the SkiaSharp map layer). |
-| **hitpointbar** | `true` / `false` | `false` | Draws a color-changing health bar (green-to-red) background behind the HP text in the status panel (fully supported in the .NET MAUI frontend via the Settings page toggle). |
+| **herewindow** | `true` / `false` | `true` | If enabled, displays a floating window listing all objects present on the player's current tile. In the modern versions, the window is placed automatically and drawn on the map. |
+| **hitpointbar** | `true` / `false` | `false` | Draws a color-changing health bar (green-to-red) background behind the HP text in the status panel. The modern versions also have a toggle for it on the Settings page. |
 | **implicit_uncursed** | `true` / `false` | `true` | Omit the "uncursed" label from inventory descriptions to keep menus cleaner, showing only "blessed" or "cursed" tags. |
 | **inventory_weights_last** | `true` / `false` | `true` | Appends item weights in parentheses after the item name in menus rather than before it. |
 | **last_item_show_duration** | *(varies)* | `3` | Number of turns that the Last Item context button remains visible in the modern GUI. |
@@ -203,7 +203,7 @@ OPTIONS=pickup_types:characters
 
 ## 🏛️ Legacy Versions
 
-> ℹ️ **Note:** These options are shared across multiple legacy interfaces (such as ASCII, Curses, and/or the Legacy Windows GUI). They are not used by the modern .NET MAUI frontend.
+> ℹ️ **Note:** These options are shared across multiple legacy interfaces (such as ASCII, Curses, and/or the Legacy Windows GUI). The modern versions do not use them.
 > <sup>1</sup> Ports: **A** = ASCII, **C** = Curses, **W** = Legacy Windows GUI.
 
 | Option Name | Values | Default | Description | Ports<sup>1</sup> |
@@ -301,7 +301,7 @@ OPTIONS=pickup_types:characters
 
 ## 🪟 Legacy Windows GUI
 
-> ℹ️ **Note:** These options are specific to the legacy Windows GUI port (`GnollHackW.exe`). They are not applicable to the modern .NET MAUI frontend.
+> ℹ️ **Note:** These options are specific to the legacy Windows GUI port (`GnollHackW.exe`). The modern versions do not use them.
 
 | Option Name | Values | Default | Description |
 | :---------- | :----: | :-----: | :---------- |
@@ -315,12 +315,12 @@ OPTIONS=pickup_types:characters
 | **font_size_text** | *(varies)* | *(varies)* | Sets the font size (in points) for plain text popups and encyclopedia windows. |
 | **font_status** | *(varies)* | *(varies)* | Selects the font family used in the character status window. |
 | **font_text** | *(varies)* | *(varies)* | Selects the font family used inside plain text popups and helper windows. |
-| **fullscreen** | `true` / `false` | `false` | Toggles whether the client launches in full screen or windowed mode. (Unsupported in the legacy win32 GUI port; supported only in WinCE and modern C# MAUI configurations.) |
+| **fullscreen** | `true` / `false` | `false` | Toggles whether the client launches in full screen or windowed mode. (Not supported by the legacy Windows GUI; supported only in the Windows CE version and the modern versions.) |
 | **map_mode** | *(varies)* | *(varies)* | Configures the scaling and rendering mode of the graphical map tiles (such as stretched, centered, or pixel-perfect scaling). |
 | **menu_tab_sep** | `true` / `false` | `false` | Uses tab characters instead of spaces to format and align columns inside menus. |
 | **msghistory** | *(varies)* | `20` | Sets the maximum number of recent game messages retained in scrollable message history. |
 | **news** | `true` / `false` | `true` | Displays the server news and update text when starting the game. |
-| **palette** | *(varies)* | *(varies)* | Selects the color palette template used for drawing text and window interfaces. (Non-functional; legacy win32 color adjustments are a stub in the Windows GUI port.) |
+| **palette** | *(varies)* | *(varies)* | Selects the color palette template used for drawing text and window interfaces. (Has no effect in the legacy Windows GUI.) |
 | **perm_invent** | `true` / `false` | `false` | If enabled, displays a persistent inventory sidebar panel, allowing you to see your items at a glance without opening a menu. |
 | **popup_dialog** | `true` / `false` | `false` | If enabled, displays text prompts and questions in modal popup dialog boxes instead of writing them to the message line. |
 | **preferred_screen_scale** | *(varies)* | *(varies)* | Sets the default display scale percentage for high-DPI monitors. |
@@ -353,23 +353,23 @@ OPTIONS=pickup_types:characters
 | **asksavedisk** | `true` / `false` | `false` | Deprecated floppy disk option: prompts the user to insert a save disk before saving. |
 | **BIOS** | `true` / `false` | `false` | Deprecated MSDOS option: forces using raw IBM ROM BIOS screen write calls. |
 | **checkspace** | `true` / `false` | `true` | Deprecated floppy disk option: checks for sufficient free disk space before saving. |
-| **cursesgraphics** | *(varies)* | *(varies)* | Obsolete/broken Curses option: no parsing implementation exists in the options configuration (setting it raises an "Unknown option" error). The Curses port uses ACS graphics unconditionally. |
-| **dungeon** | *(varies)* | *(varies)* | Obsolete option: defined in compile-time configuration array but not parsed or handled. NetHack 3.6 / GnollHack uses symset files rather than configuring individual characters in options. |
-| **effects** | *(varies)* | *(varies)* | Obsolete option: defined in compile-time configuration array but not parsed or handled. NetHack 3.6 / GnollHack uses symset files rather than configuring individual characters in options. |
+| **cursesgraphics** | *(varies)* | *(varies)* | Obsolete/broken Curses option: the game does not accept it (setting it raises an "Unknown option" error). The Curses port uses ACS graphics unconditionally. |
+| **dungeon** | *(varies)* | *(varies)* | Obsolete option: the game does not read or use it. NetHack 3.6 / GnollHack uses symset files rather than configuring individual characters in options. |
+| **effects** | *(varies)* | *(varies)* | Obsolete option: the game does not read or use it. NetHack 3.6 / GnollHack uses symset files rather than configuring individual characters in options. |
 | **fast_map** | `true` / `false` | `true` | Deprecated console option: uses a high-performance, less flexible map rendering algorithm. |
 | **flush** | `true` / `false` | `false` | Deprecated Amiga option: flushes keyboard buffer inputs. |
 | **font_size_map** | *(varies)* | *(varies)* | Obsolete option: sets the font size for text map overlays. |
 | **large_font** | `true` / `false` | `false` | Obsolete console option: enables high-density large font mode. |
 | **Macgraphics** | *(varies)* | *(varies)* | Obsolete ASCII option: supported only on classic Mac OS configurations; unsupported and compiled out on modern ports. |
-| **monsters** | *(varies)* | *(varies)* | Obsolete option: defined in compile-time configuration array but not parsed or handled. NetHack 3.6 / GnollHack uses symset files rather than configuring individual characters in options. |
-| **objects** | *(varies)* | *(varies)* | Obsolete option: defined in compile-time configuration array but not parsed or handled. NetHack 3.6 / GnollHack uses symset files rather than configuring individual characters in options. |
+| **monsters** | *(varies)* | *(varies)* | Obsolete option: the game does not read or use it. NetHack 3.6 / GnollHack uses symset files rather than configuring individual characters in options. |
+| **objects** | *(varies)* | *(varies)* | Obsolete option: the game does not read or use it. NetHack 3.6 / GnollHack uses symset files rather than configuring individual characters in options. |
 | **page_wait** | `true` / `false` | `true` | Deprecated Macintosh option: waits for mouse click between text page displays. |
 | **preload_tiles** | `true` / `false` | `true` | Obsolete memory option: preloads tileset graphic files into RAM at launch. |
 | **rawio** | `true` / `false` | `false` | Deprecated MSDOS option: enables raw keyboard input polling. |
 | **softkeyboard** | `true` / `false` | `false` | Obsolete option: displays a software keyboard helper overlay on touch screen devices. |
 | **soundcard** | *(varies)* | *(varies)* | Deprecated MSDOS option: selects active sound card hardware registers. |
 | **suppress_alert** | *(varies)* | *(varies)* | Obsolete version option: suppresses notifications regarding version mismatches and feature updates. |
-| **timed_delay** | `true` / `false` | `true` | Obsolete ASCII option: intended to control short animation pauses, but is mapped to flags.nap which is not referenced anywhere in the core engine (animation pacing is handled dynamically on the frontends). |
-| **traps** | *(varies)* | *(varies)* | Obsolete option: defined in compile-time configuration array but not parsed or handled. NetHack 3.6 / GnollHack uses symset files rather than configuring individual characters in options. |
+| **timed_delay** | `true` / `false` | `true` | Obsolete ASCII option: intended to control short animation pauses, but it has no effect, because each version of the game times its animations itself. |
+| **traps** | *(varies)* | *(varies)* | Obsolete option: the game does not read or use it. NetHack 3.6 / GnollHack uses symset files rather than configuring individual characters in options. |
 | **wraptext** | `true` / `false` | `false` | Obsolete layout option: wraps text blocks inside popups and menus. |
 

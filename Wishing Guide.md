@@ -1,6 +1,6 @@
 ![wishing-guide](/uploads/Wishing%20Guide/wishing-guide.webp)
 
-> 👉 **This guide explains the mechanics and probabilities of wishing for items in GnollHack, including item qualities, affixes, multiple quantities, and artifacts.**
+> 👉 **In GnollHack, a wish can ask for item qualities, affixes, multiple quantities, and artifacts, each with its own chance of success.**
 
 ## 📦 Quantities
 

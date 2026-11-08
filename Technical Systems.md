@@ -1,4 +1,4 @@
-> 👉 **This page collects the articles that explain how GnollHack's technical systems work behind the scenes, from protecting your saved games to sharing data online.**
+> 👉 **GnollHack's technical systems work behind the scenes, from protecting your saved games to sharing data online.**
 
 ## 💾 Saved Games
 

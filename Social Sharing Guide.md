@@ -1,10 +1,10 @@
 ![Social Sharing Guide](/uploads/Social%20Sharing%20Guide/social-sharing-guide-q85.webp)
 
-> 👉 **Sharing your adventures, triumphs, and even your most spectacular defeats in GnollHack is a fantastic way to connect with the community, learn new strategies, and leave your mark on the world of roguelikes. Whether you want to post live updates of your journey, share ghost levels with other players, or showcase your high scores on global scoreboards, GnollHack has built-in features to make social sharing seamless and engaging.**
+> 👉 **GnollHack can post your progress to Discord, send top scores and bones files to the GnollHack Account server, and export snapshots and replays that you can share anywhere.**
 
 ## 🌍 GnollHack Discord Server
 
-The **[GnollHack Discord Server](https://discord.gg/cQuExnzUQy)** is the central hub for the community and developers. You can use the following channels to connect with others:
+The **[GnollHack Discord Server](https://discord.gg/cQuExnzUQy)** is where the community and the developers meet. Its main channels:
 
 | Channel | Purpose |
 | :--- | :--- |
@@ -15,95 +15,84 @@ The **[GnollHack Discord Server](https://discord.gg/cQuExnzUQy)** is the central
 
 ## ⚙️ Built-in Sharing Features
 
-GnollHack offers several integrated systems to help you share your game data automatically or manually:
+Progress posts, top scores and bones files go out automatically once you turn them on. Snapshots and replays are shared only when you choose to.
 
 | Feature | What it Shares | Requirements | How to Enable / Use |
 | :--- | :--- | :--- | :--- |
 | **Automated Progress** | Live game log updates (levels, achievements, deaths) | None | Enable **Post Game Progress** under **Forum Posting Settings** in [[Settings]]. |
 | **Top Scores** | High scores, final stats, and HTML dumplogs | [[GnollHack Account]] | Enable **Post Top Scores** under **Server Posting Settings** in [[Settings]]. |
 | **Bones Files** | Dead character's inventory, stats, and ghost | [[GnollHack Account]] | Enable **Share Bones Files** under **Server Posting Settings** in [[Settings]]. |
-| **In-Game Snapshots** | Active game stats, inventory, and full HTML log | None | Use extended command `#snapshot` or **Snapshot** button in the game menu. View via **Vault** → **Snapshots** and tap **Share**. |
+| **In-Game Snapshots** | Active game stats, inventory, and full HTML log | None | Use extended command `#snapshot` or **Take Snapshot** in the game menu. View via **Vault** → **Snapshots** and tap **Share**. |
 | **Replays** | Recorded gameplay inputs and logs | None | Enable **Record Game** under **Replay Settings** in [[Settings]]. View via **Vault** → **Replays** and tap **Share**. |
 
-### 📢 Automated Discord Game Progress
+### Automated Discord Game Progress
 
-You can configure GnollHack to automatically post live updates of your character's major events (such as levels gained, achievements unlocked, or cause of death) directly to the **GnollHack Discord's #player-log** channel.
+With **Post Game Progress** on, the game posts your character's major events, such as levels gained, achievements unlocked, and the cause of death, to the **#player-log** channel on the GnollHack Discord. [[Share Your Progress to Discord Server Channel]] has the setup steps.
 
-- Enable **Post Game Progress** under the **Forum Posting Settings** in the game's [[Settings]].
+### Posting Top Scores and Scoreboards
 
-### 🏆 Posting Top Scores & Scoreboards
+When your game ends:
 
-Veteran players can showcase their completed games and ascensions to the wider NetHack community. When your game ends:
+- If you have registered a [[GnollHack Account]] and turned on **Post Top Scores** under **Server Posting Settings**, the game sends your score and final stats to the GnollHack Account server.
+- The server makes the results public, so the [NetHack Scoreboard](https://nethackscoreboard.org) and [Junethack](https://junethack.net) pick up and display your games automatically.
+- On the account website, you and other players can look at recent games, overall win rates, and the full HTML dumplogs.
 
-- If you have registered a [[GnollHack Account]] and enabled **Post Top Scores** under **Server Posting Settings**, the game posts your score and final stats to the GnollHack Account server.
-- The server publicly exposes the game results, which allows the [NetHack Scoreboard](https://nethackscoreboard.org) and [Junethack](https://junethack.net) to automatically track and display your achievements.
-- On the account website, you and other players can view recent games, overall win rate statistics, and even inspect detailed HTML dumplogs.
+> ℹ️ **Note:** External scoreboards track a game properly only if server posting was enabled from its start.
 
-> ℹ️ **Note:** Only games played with server posting enabled from the start will be properly tracked on external scoreboards.
+### Bones Sharing
 
-### 🪦 Bones Sharing
+When your character dies in Classic mode, the body, inventory, and ghost can be uploaded to the server as a "bones file". Other players may then download it and meet your ghost in their own games.
 
-When your character dies in Classic mode, their dead body, inventory, and ghost can be uploaded as a "bones file" to the server. Other players might then download this file and encounter your ghost in their own games!
+Uploading needs a [[GnollHack Account]] and **Share Bones Files** turned on under **Server Posting Settings**. [[Bones Sharing]] explains how ghost levels work.
 
-- This requires a [[GnollHack Account]] and having **Share Bones Files** enabled under **Server Posting Settings**.
-- For more details on how ghost levels work, read the [[Bones Sharing]] guide.
+### In-Game Snapshots
 
-### 📸 In-Game Snapshots
+A snapshot is a detailed log of the game you are playing: your inventory, attributes, status effects, conducted actions, and the recent message log. You can take one at any time, and it shares your game state without recording a full replay.
 
-If you want to share a detailed log of your active game (your inventory, attributes, conducted actions, and game log), you can take a snapshot at any time:
+- To take one, use the extended command `#snapshot` or press **Take Snapshot** in the **Game Menu**.
+- To view your snapshots, go to **Vault** on the main screen and tap **Snapshots**. Tapping a snapshot opens its HTML dumplog.
+- To share one, tap **Share** at the bottom of the snapshot viewer. Your device's sharing sheet opens, and you can send the file to Discord, Reddit, email, or another app.
 
-- Use the extended command `#snapshot` or press the **Take Snapshot** button in the **Game Menu**.
-- To view your snapshots, go to **Vault** on the main screen and tap **Snapshots**. Tapping on a snapshot will display its detailed HTML dumplog.
-- At the bottom of the snapshot viewer, you can tap the native **Share** button to export the snapshot file directly to Discord, Reddit, email, or other applications using your device's sharing sheet.
+### Replays
 
-> 💡 **Tip:** Snapshots capture your entire inventory, status effects, and recent message log. They are the best way to share your game state without recording a full replay.
+You can record your games and share the replays, or download and watch other players' runs. To record, turn on **Record Game** under **Replay Settings** in [[Settings]].
 
-### 📹 Replays
+You can share a replay through cloud storage or as a ZIP file.
 
-You can record your gameplay and share the replays with other players, or download and watch their runs. To enable recording:
+**Cloud storage**
 
-- Enable **Record Game** under **Replay Settings** in [[Settings]] to let the client record your gameplay.
+To share:
 
-#### 🕹️ Replay Sharing Workflows
+- Set up a custom **Cloud Storage** connection and turn on **Auto-Upload to Cloud** in [[Settings]], and replays upload automatically.
+- Or go to **Vault** → **Replays**, select a local replay, and tap **Upload**.
 
-The game supports two different methods for sharing and playing back recorded games:
+To watch:
 
-##### ☁️ Cloud Storage
+- Go to **Vault** → **Replays** and pick **Cloud** in the folder picker.
+- Select the replay you want and tap **Download**.
+- Switch the folder picker back to **Downloaded** and play the run from there.
 
-###### 📤 How to Upload / Share
+**ZIP file**
 
-- Configure a custom **Cloud Storage** connection and enable **Auto-Upload to Cloud** in the [[Settings]] to automatically upload replays.
-- Alternatively, go to **Vault** → **Replays**, select a local replay, and tap the **Upload** button.
-
-###### 📥 How to Watch
-
-- Go to **Vault** → **Replays** and select **Cloud** from the folder picker.
-- Select the replay you want to watch and tap **Download**.
-- Switch the folder picker back to **Downloaded** to play and watch the downloaded run.
-
-##### 📦 Manual ZIP Archive
-
-###### 📤 How to Upload / Share
+To share:
 
 - Go to **Vault** → **Replays**.
-- Select the local replay you want to share and tap **Share**. This builds a `.zip` archive and opens your device's sharing sheet to export the file.
+- Select the local replay and tap **Share**. The game packs it into a `.zip` archive and opens your device's sharing sheet.
 
-###### 📥 How to Watch
+To watch:
 
-- Download the shared `.zip` replay file to your device.
+- Download the shared `.zip` file to your device.
 - On the main screen, go to **About** → **Manage Files** and tap **Import Replays**.
-- Select the `.zip` file to extract and validate the replay.
-- Go back to the main screen, open **Vault** → **Replays**, and select the imported replay to watch the run.
+- Select the `.zip` file. The game extracts and validates the replay.
+- Back on the main screen, open **Vault** → **Replays** and select the imported replay.
 
-> ⚠️ **Warning:** Replay files should generally match your current game version to ensure accurate playback. Older replays may not play correctly on newer versions.
+> ⚠️ **Warning:** Replay files should generally match your current game version. Older replays may not play correctly on newer versions.
 
-## 💡 Tips
+## 📷 Taking Screenshots
 
-### 📷 Taking Clean Screenshots
+You can also take a screenshot yourself, for example with `Win+Shift+S` on Windows or your mobile device's usual buttons, and post it in the `#playing-gnollhack`, `#snapshots`, or `#memes-and-pics` channel of the GnollHack Discord server. Two settings help:
 
-If you want to manually capture a screenshot (e.g., using `Win+Shift+S` on Windows or your mobile device's default buttons) to post in the `#playing-gnollhack`, `#snapshots`, or `#memes-and-pics` channel of the GnollHack Discord server, you can take the following advice into account:
+- **Hide Message History** under **System Settings** in [[Settings]] temporarily hides the message box, so more of the map and UI shows.
+- Status bar settings such as **Show Score** and **Show XP** let you choose how much information the screenshot shows.
 
-- You may enable **Hide Message History** under **System Settings** in the [[Settings]] to temporarily hide the message box, allowing a cleaner view of the map and UI.
-- You can customize the status bar layout using settings like **Show Score** and **Show XP** to choose exactly how much information is shown in your screenshot.
-
-> 💡 **Tip:** When sharing a screenshot to ask for help, make sure your inventory or relevant stats are visible if they are pertinent to your question.
+If you are asking for help, make sure the inventory or stats that matter to your question are visible.

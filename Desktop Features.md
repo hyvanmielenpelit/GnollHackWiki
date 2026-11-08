@@ -1,10 +1,10 @@
 ![Desktop Features](/uploads/Desktop%20Features/desktop-features-q85.webp)
 
-> 👉 **This page outlines the user interface features, mouse button quick actions, and settings optimized exclusively for the desktop versions of GnollHack.**
+> 👉 **The desktop versions of GnollHack add full keyboard play, configurable mouse buttons, a wider status bar, and their own defaults for several settings.**
 
 ## ⌨️ Keyboard Shortcuts
 
-The desktop versions support playing entirely with [[Keyboard Shortcuts]], just like in the original NetHack. This allows for fast, efficient, and classic roguelike control without requiring mouse interaction for most gameplay tasks.
+On desktop, you can play the whole game with [[Keyboard Shortcuts]], as in NetHack.
 
 ## 🎮 Game Controllers
 
@@ -12,24 +12,22 @@ You can also play with a game controller: an Xbox or other XInput controller on 
 
 ## 🖱️ Mouse Button Quick Actions
 
-You can configure quick actions for the **Right Mouse Button** and **Middle Mouse Button** in the [[Settings]] screen.
-
-The following options are available:
+In the [[Settings]] screen, you can give the **Right Mouse Button** and the **Middle Mouse Button** each a quick action:
 
 | Quick Action Option | Description |
 | :--- | :--- |
-| **Default / By Role** | Executes a default action based on your character class. For details, see [[Character Classes]]. |
+| **Default / By Role** | Runs the default action for your character class. For details, see [[Character Classes]]. |
 | **Off** | Disables clicks on the configured button. |
-| **Look** | Performs a look command at the target tile (equivalent to Far Look (`/`)). |
-| **Move** | Commands your character to travel or move to the clicked tile. |
-| **Cast** | Casts your configured **Quick Spell** at the target (configurable in the cast menu). |
-| **Fire** | Fires or throws your quivered ranged weapon or projectile at the target (automatically swapping to the correct launcher if autoswapping is enabled and needed). |
-| **Zap** | Zaps your configured **Quick Wand** at the target (configurable in the item action screen of the inventory). |
-| **Polearm** | Attacks the target with a polearm (automatically swapping to it if autoswapping is enabled). If you are not wielding one and have none as your alternate weapon, it wields one from your inventory. |
+| **Look** | Looks at the target tile, the same as Far Look (`/`). |
+| **Move** | Travels or moves your character to the clicked tile. |
+| **Cast** | Casts your **Quick Spell** at the target. You set the Quick Spell in the cast menu. |
+| **Fire** | Fires or throws your quivered ranged weapon or projectile at the target. If autoswapping is on, it switches to the correct launcher when needed. |
+| **Zap** | Zaps your **Quick Wand** at the target. You set the Quick Wand in the item action screen of the inventory. |
+| **Polearm** | Attacks the target with a polearm, switching to it if autoswapping is on. If you are not wielding one and have none as your alternate weapon, it wields one from your inventory. |
 
-### ⚙️ Role-Specific Defaults
+### Role-Specific Defaults
 
-When set to **Default / By Role**, the game determines the click action dynamically depending on the selected character class:
+With **Default / By Role**, the click action depends on your character class:
 
 | Character Class / Role | Right Click Default | Middle Click Default |
 | :--------------------- | :-----------------: | :------------------: |
@@ -39,27 +37,27 @@ When set to **Default / By Role**, the game determines the click action dynamica
 
 ## ⚙️ Settings Enabled on Desktop by Default
 
-Several gameplay settings are *optimized specifically for desktop play*. You can customize these in the [[Settings]] screen:
+These settings have different defaults on desktop and on mobile. You can change them in the [[Settings]] screen:
 
 | Setting Name | Default Value | Description |
 | :--- | :--- | :--- |
-| **Single Commands Page** | **On** (Desktop) <br> **Off** (Mobile) | Displays all commands in the More Commands launcher on a single, unified page (on mobile devices, these commands are paginated instead). |
-| **OK on Double Click** | **On** (Desktop) <br> **Off** (Mobile) | Allows double-clicking an item in menus to automatically select it and press the OK button. |
-| **On Switching Apps** | **Checkpoint** (Desktop) <br> **Save Game** (Mobile) | Controls how the game state is handled when the window loses focus. **Checkpoint** creates a background checkpoint without closing open menus or exiting; **Save Game** saves the game and returns to the main menu. |
-| **Desktop Status Bar** | **On** (Desktop) <br> **Off** (Mobile) | Utilizes extra screen width on desktop monitors. Directly displays all 6 **Attribute Scores** and **Alignment** with icons. Includes toggles to show **Score** and **XP** on the status bar.<br>*(On mobile, attributes and alignment are hidden from the status bar).* |
-| **Desktop Buttons** | **On** (Desktop) <br> **Off** (Mobile) | Shows dedicated **Stats** and **Equipment** buttons in the bottom-left and bottom-right corners of the main screen. On mobile, or when disabled, these are accessed by clicking/tapping the top-left and top-right corners of the screen. |
-| **Show Keyboard Shortcuts** | **On** (Desktop) <br> **Off** (Mobile) | Displays keyboard shortcut indicators directly on action buttons to assist with keyboard navigation. |
+| **Single Commands Page** | **On** (Desktop) <br> **Off** (Mobile) | Shows all commands of the More Commands launcher on one page. On mobile, they are split over several pages instead. |
+| **OK on Double Click** | **On** (Desktop) <br> **Off** (Mobile) | Double-clicking an item in a menu selects it and presses the OK button. |
+| **On Switching Apps** | **Checkpoint** (Desktop) <br> **Save Game** (Mobile) | What the game does when its window loses focus. **Checkpoint** saves a checkpoint in the background without closing open menus or exiting; **Save Game** saves the game and returns to the main menu. |
+| **Desktop Status Bar** | **On** (Desktop) <br> **Off** (Mobile) | Uses the extra width of a desktop screen to show all 6 **Attribute Scores** and **Alignment** with icons, and has toggles to show **Score** and **XP** on the status bar.<br>On mobile, attributes and alignment are not shown on the status bar. |
+| **Desktop Buttons** | **On** (Desktop) <br> **Off** (Mobile) | Shows **Stats** and **Equipment** buttons in the bottom-left and bottom-right corners of the main screen. On mobile, or when the setting is off, you open them by clicking or tapping the top-left and top-right corners of the screen. |
+| **Show Keyboard Shortcuts** | **On** (Desktop) <br> **Off** (Mobile) | Shows each action button's keyboard shortcut on the button. |
 
 ## 🔍 More Commands Search Filter
 
-In the More Commands menu, desktop players have access to a real-time search filter text input. You can type directly in the search field to filter and locate specific commands using your keyboard, bypassing manual scroll navigation.
+On desktop, the More Commands menu has a search field. Type in it to filter the commands as you type, instead of scrolling through the list.
 
 ## 🖱️ Menu Navigation
 
-In various menu screens, right-clicking an item acts as a **Long Tap** (which on mobile opens context menus, item details, or extra options).
+In menus, right-clicking an item works like a **Long Tap** on mobile, which opens a context menu, item details, or extra options.
 
 ## 🖥️ Windowed Mode
 
-The **Windowed Mode** setting allows desktop users to toggle between full-screen mode and windowed mode.
+The **Windowed Mode** setting switches the game between full-screen and windowed mode.
 
-> ⚠️ **Warning:** Changing this setting requires you to restart the game to take effect.
+> ⚠️ **Warning:** The change takes effect only after you restart the game.

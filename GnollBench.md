@@ -6,7 +6,7 @@
 
 In a permadeath roguelike, a single confident hallucination can end a promising run. GnollBench tests AI models under the exact instructions and lookup tools of the live [[Gnoll Overseer]] chat, using a two-provider AI grading panel and a source-grounded fact-checker to penalize dangerous mistakes.
 
-Beyond ranking models on **intelligence**, **speed**, and **cost** to select the best ones to offer players, GnollBench surfaces missing wiki facts and tool issues so the Overseer keeps getting sharper over time.
+GnollBench ranks models on intelligence, speed, and cost to select the best ones to offer players. It also finds missing wiki facts and tool issues so that they can be fixed.
 
 ## 🐺 GnollBench at a Glance
 

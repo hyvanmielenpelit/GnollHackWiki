@@ -1,4 +1,4 @@
-> 👉 **This page details the auto-stashing mechanics, algorithm, options, and commands in GnollHack.**
+> 👉 **Auto-stashing puts the items you pick up, or choose from your inventory, into the best container you carry.**
 
 ## 📖 Overview
 
@@ -33,11 +33,11 @@ When you pick up items with the Pick Up and Stash (`;`) command or run the Autos
 | **2c** | [[/Items/Bag of the Glutton]] | Food-based weight reduction: potions or normally edible comestibles. |
 | **3** | [[/Items/Bag of Holding]] | General-purpose magic bag that reduces the weight of all items placed within it. |
 | **4** | Normal Bags | Non-magical containers such as a [[/Items/Sack]] or an [[/Items/Oilskin Sack]]. |
-| **5** | Fallback Magic Bags | If the item does not match any specific category (e.g. food in [[/Items/Bag of Wizardry]]), but a magic bag is the only container available, the algorithm defaults to using them in this order: [[/Items/Bag of Treasure Hauling]] -> [[/Items/Bag of Wizardry]] -> [[/Items/Bag of the Glutton]]. |
+| **5** | Fallback Magic Bags | If the item does not match any specific category (e.g. food in [[/Items/Bag of Wizardry]]), but a magic bag is the only container available, the algorithm defaults to using them in this order: [[/Items/Bag of Treasure Hauling]] → [[/Items/Bag of Wizardry]] → [[/Items/Bag of the Glutton]]. |
 
 ### 🛡️ Magical Explosion Safety Check
 
-To prevent catastrophic magical explosions that destroy both the magic bag and its contents, the algorithm performs a safety check:
+To prevent magical explosions that destroy both the magic bag and its contents, the algorithm performs a safety check:
 - It **never** auto-stashes a cancellation hazard (like a [[/Items/Wand of Cancellation]] or items with the magic-bag-destroying flag) into any magic bag.
 - If either the item's type or the [[/Items/Wand of Cancellation]] is **unidentified**, the algorithm plays it safe and treats **all wands** as potential cancellation hazards, stashing them only in normal sacks.
 

@@ -1,6 +1,6 @@
 ![resistances-and-saving-throws](/uploads/Resistances%20and%20Saving%20Throws/resistances-and-saving-throws.webp)
 
-> 👉 **This guide covers the various kinds of resistances to special attacks in GnollHack.**
+> 👉 **GnollHack's resistances to special attacks fall into six categories, which work similarly for players and monsters.**
 
 ## 📖 Overview
 

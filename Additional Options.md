@@ -1,14 +1,14 @@
 ![Additional Options](/uploads/Additional%20Options/additional-options-v2-q85.webp)
 
-> 👉 **This page details advanced configuration settings available in the GnollHack options file, explaining their functionality, syntax, and compatibility with the modern graphical client.**
+> 👉 **Besides `OPTIONS` lines, the options file accepts menu colors, status highlights, message filters, autopickup exceptions, key bindings, and map symbols.**
 
-For instructions on how to locate and modify the options file, see [[Accessing Options File]]. For general options, see [[Options]].
+For where the options file is and how to edit it, see [[Accessing Options File]]. The ordinary options are on [[Options]].
 
 ## ⚙️ Fully-Supported in Modern Versions
 
 ### 🎨 MENUCOLOR
 
-The `MENUCOLOR` configuration allows you to colorize specific lines in menus and inventory screens based on regular expression matches.
+`MENUCOLOR` colors the lines in menus and inventory screens that match a regular expression.
 
 **Syntax:**
 
@@ -17,33 +17,22 @@ MENUCOLOR="regular expression" = color
 MENUCOLOR="regular expression" = color&attribute
 ```
 
-> 💡 **Example — Highlight blessed items in green:**
-> 
-> ```
-> MENUCOLOR=" blessed " = green
-> ```
+**Examples:**
 
-> 💡 **Example — Highlight cursed items in red:**
-> 
-> ```
-> MENUCOLOR=" cursed " = red
-> ```
-
-> 💡 **Example — Highlight worn cursed items in orange and underline them:**
-> 
-> ```
-> MENUCOLOR=" cursed .* (being worn)" = orange&underline
-> ```
-
-> 💡 **Example — Mark spells that cannot be recalled in gray (black):**
-> 
-> ```
-> MENUCOLOR="(You cannot recall this spell)" = black
-> ```
+```
+# Highlight blessed items in green
+MENUCOLOR=" blessed " = green
+# Highlight cursed items in red
+MENUCOLOR=" cursed " = red
+# Highlight worn cursed items in orange and underline them
+MENUCOLOR=" cursed .* (being worn)" = orange&underline
+# Show spells that cannot be recalled in gray (black)
+MENUCOLOR="(You cannot recall this spell)" = black
+```
 
 ### 📊 HILITE_STATUS
 
-The `HILITE_STATUS` configuration defines color highlights for stats displayed in the status window or bar (such as hit points, mana, hunger status, and attributes). Highlighting thresholds can be based on percentages, values, or text states.
+`HILITE_STATUS` colors the stats in the status window or bar, such as hit points, mana, hunger status, and attributes. A highlight can depend on a percentage, a value, or a text state.
 
 **Syntax:**
 
@@ -52,32 +41,25 @@ HILITE_STATUS=field/value/color
 HILITE_STATUS=field/value/color&attribute
 ```
 
-> 💡 **Example — HP bar highlighting based on percentage ranges:**
-> 
-> ```
-> HILITE_STATUS=hitpoints/100%/gray&normal
-> HILITE_STATUS=hitpoints/<100%/green&normal
-> HILITE_STATUS=hitpoints/<66%/yellow&normal
-> HILITE_STATUS=hitpoints/<50%/orange&normal
-> HILITE_STATUS=hitpoints/<33%/red&bold
-> HILITE_STATUS=hitpoints/<15%/red&inverse
-> ```
+**Examples:**
 
-> 💡 **Example — Hunger status warnings:**
-> 
-> ```
-> HILITE_STATUS=hunger/satiated/yellow/hungry/orange/weak/red&bold/fainting/red&inverse
-> ```
-
-> 💡 **Example — Attribute improvements or penalties:**
-> 
-> ```
-> HILITE_STATUS=characteristics/up/green/down/red
-> ```
+```
+# Hit points by percentage range
+HILITE_STATUS=hitpoints/100%/gray&normal
+HILITE_STATUS=hitpoints/<100%/green&normal
+HILITE_STATUS=hitpoints/<66%/yellow&normal
+HILITE_STATUS=hitpoints/<50%/orange&normal
+HILITE_STATUS=hitpoints/<33%/red&bold
+HILITE_STATUS=hitpoints/<15%/red&inverse
+# Hunger status warnings
+HILITE_STATUS=hunger/satiated/yellow/hungry/orange/weak/red&bold/fainting/red&inverse
+# Attribute improvements in green, penalties in red
+HILITE_STATUS=characteristics/up/green/down/red
+```
 
 ### 💬 MSGTYPE
 
-The `MSGTYPE` configuration lets you manage how specific messages in the game message log are handled, using regular expression matching. You can choose to show, hide, stop (prompt with a `--More--` page block), or suppress repeats for matching messages.
+`MSGTYPE` decides what happens to messages that match a regular expression: they can be shown, hidden, stopped with a `--More--` prompt, or kept from repeating.
 
 **Syntax:**
 
@@ -91,27 +73,20 @@ The supported actions are:
 - `stop` (or `more`): Force the player to press `--More--` or tap to acknowledge the message.
 - `norep`: Suppress the message if it is an exact repeat of the previous message.
 
-> 💡 **Example — Force a pause when a monster is nearby:**
-> 
-> ```
-> MSGTYPE=stop "You see here a .*"
-> ```
+**Examples:**
 
-> 💡 **Example — Suppress repetitive spam messages:**
-> 
-> ```
-> MSGTYPE=norep "You swap places with your pet."
-> ```
-
-> 💡 **Example — Hide trivial environment messages:**
-> 
-> ```
-> MSGTYPE=hide "You hear a faint sloshing sound."
-> ```
+```
+# Pause on every "You see here a ..." message
+MSGTYPE=stop "You see here a .*"
+# Suppress repeats of the message when you swap places with your pet
+MSGTYPE=norep "You swap places with .*"
+# Hide a trivial environment message
+MSGTYPE=hide "You hear a faint sloshing sound."
+```
 
 ### 🎒 AUTOPICKUP_EXCEPTION
 
-The `AUTOPICKUP_EXCEPTION` configuration defines custom inclusion and exclusion rules for picking up items automatically. These exceptions override the generic `pickup_types` settings.
+`AUTOPICKUP_EXCEPTION` adds items that autopickup always picks up or never picks up. These exceptions override the `pickup_types` setting.
 
 **Syntax:**
 
@@ -120,28 +95,20 @@ AUTOPICKUP_EXCEPTION="<pattern>"   # Automatically picks up items matching the p
 AUTOPICKUP_EXCEPTION="!<pattern>"  # Excludes items matching the pattern from autopickup
 ```
 
-> 💡 **Example — Always pick up gold pieces (even if other coins are ignored):**
-> 
-> ```
-> AUTOPICKUP_EXCEPTION="gold piece"
-> ```
+**Examples:**
 
-> 💡 **Example — Always pick up potions of extra healing:**
-> 
-> ```
-> AUTOPICKUP_EXCEPTION="potion of extra healing"
-> ```
-
-> 💡 **Example — Never pick up heavy boulders or loadstones:**
-> 
-> ```
-> AUTOPICKUP_EXCEPTION="!loadstone"
-> AUTOPICKUP_EXCEPTION="!boulder"
-> ```
+```
+# Always pick up gold
+AUTOPICKUP_EXCEPTION="gold piece"
+# Always pick up potions of extra healing
+AUTOPICKUP_EXCEPTION="potion of extra healing"
+# Never pick up loadstones
+AUTOPICKUP_EXCEPTION="!loadstone"
+```
 
 ### ⌨️ BINDINGS
 
-The `BINDINGS` configuration allows hardware keyboard users to remap key presses to standard game commands or menu shortcuts. This is particularly useful when playing on desktop platforms (Windows) or using a physical keyboard connected to a mobile device.
+`BINDINGS` maps a key on a hardware keyboard to a game command or a menu shortcut. It is useful on desktop platforms (Windows) and with a physical keyboard connected to a mobile device.
 
 **Syntax:**
 
@@ -149,25 +116,22 @@ The `BINDINGS` configuration allows hardware keyboard users to remap key presses
 BINDINGS=key:command
 ```
 
-> 💡 **Example — Map the `x` key to the drop (`d`) command:**
-> 
-> ```
-> BINDINGS=x:d
-> ```
+The command is the extended command name, such as `look` or `drop`, not the key that normally runs it.
 
-> 💡 **Example — Map the `v` key to the look (`:`) command:**
-> 
-> ```
-> BINDINGS=v:look
-> ```
+**Example:**
+
+```
+# Map the v key to the look (:) command
+BINDINGS=v:look
+```
 
 ## 🖥️ Only Supported in ASCII Mode in Modern Version
 
-These settings are fully utilized when a modern version of the game is switched to **ASCII mode** via the in-game settings.
+These settings take effect when a modern version of the game is switched to **ASCII mode** in the in-game settings.
 
 ### 🧱 SYMBOLS
 
-The `SYMBOLS` configuration allows you to redefine individual symbols used to represent walls, floors, corridors, and other map terrain when displaying the map in text mode.
+`SYMBOLS` changes the character used for a wall, floor, corridor, or other map terrain when the map is shown as text.
 
 **Syntax:**
 
@@ -175,24 +139,21 @@ The `SYMBOLS` configuration allows you to redefine individual symbols used to re
 SYMBOLS=S_symbolname:character
 ```
 
-You can choose symbol sets like `IBMGraphics_2` or `DECgraphics` in your main `OPTIONS` line:
+You can also choose a whole symbol set, such as `IBMGraphics_2` or `DECgraphics`, in your main `OPTIONS` line:
 `OPTIONS=symset:IBMGraphics_2`
 
-> 💡 **Example — Change vertical wall display to a custom vertical bar character:**
-> 
-> ```
-> SYMBOLS=S_vwall:|
-> ```
+**Examples:**
 
-> 💡 **Example — Change floor representation to a dot:**
-> 
-> ```
-> SYMBOLS=S_room:.
-> ```
+```
+# Show vertical walls as a vertical bar
+SYMBOLS=S_vwall:|
+# Show the floor as a dot
+SYMBOLS=S_room:.
+```
 
 ### 🪨 BOULDER
 
-The `BOULDER` configuration sets the character symbol specifically representing boulders on the map in ASCII graphics mode.
+`BOULDER` sets the character for boulders on the map in ASCII mode.
 
 **Syntax:**
 
@@ -200,14 +161,11 @@ The `BOULDER` configuration sets the character symbol specifically representing 
 BOULDER=character
 ```
 
-> 💡 **Example — Set the boulder symbol to a capital `O`:**
-> 
-> ```
-> BOULDER=O
-> ```
+**Examples:**
 
-> 💡 **Example — Set the boulder symbol to a percent sign:**
-> 
-> ```
-> BOULDER=%
-> ```
+```
+# Show boulders as a capital O
+BOULDER=O
+# Show boulders as a percent sign
+BOULDER=%
+```

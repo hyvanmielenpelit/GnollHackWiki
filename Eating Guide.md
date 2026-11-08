@@ -1,6 +1,6 @@
 ![Eating Guide](/uploads/Eating%20Guide/eating-guide-q85.webp)
 
-> 👉 **This guide covers hunger states, comestibles, corpse attribute/level gains, dangerous foods, and brain-eating mechanics in GnollHack.**
+> 👉 **In GnollHack, what you eat decides your hunger state, and some foods raise your attributes or level while others are dangerous.**
 
 ## 🍗 Hunger and Nutrition States
 

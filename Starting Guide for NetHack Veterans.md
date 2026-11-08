@@ -1,6 +1,6 @@
 ![Starting Guide for NetHack Veterans](/uploads/Starting%20Guide%20for%20NetHack%20Veterans/starting-guide-for-nethack-veterans-q85.webp)
 
-> 👉 **GnollHack introduces major enhancements to NetHack 3.6.2, including modern graphics, full audio, an overhauled UI, and significant gameplay rebalances. If you are an experienced NetHack player transitioning to GnollHack, this guide highlights the crucial mechanical, interface, and strategic changes you need to know to survive and thrive.**
+> 👉 **GnollHack changes enough of NetHack 3.6.2 that a veteran should know the new interface, combat, magic, and equipment rules before the first game.**
 
 
 ## 🎖️ Part 1: Transitioning to GnollHack
@@ -8,27 +8,25 @@
 
 ### ❓ Why Play GnollHack?
 
-If you are a NetHack veteran, you might be wondering why you should play GnollHack over vanilla NetHack or other popular variants. Here are the main highlights that make GnollHack a unique experience:
+Compared with vanilla NetHack and the other popular variants, these are the changes a veteran notices first:
 
-- **A True Modern Port:** GnollHack is not just a gameplay mod; it is a complete technological modernization. It features high-resolution graphics, animations, an overhauled multi-layered tile engine, a modern graphical user interface (GUI) optimized for both desktop and mobile devices, and a full musical score, along with thousands of sound effects and voiceovers.
-- **Respect for Your Time:** The pacing and quality of life are vastly improved. The leveling curve is faster, and the dungeons are slightly shorter. Notably, Gehennom has **no mazes** except on special levels! Constant stealing from shops has been replaced with a stronger economy.
-- **Improved Combat:** Ranged combat has been significantly buffed to be a viable primary choice, but firing missiles or throwing weapons at an enemy in melee range carries a heavy to-hit penalty (40; 32 for crossbows). You are encouraged to swap between ranged and melee weapons (which no longer costs a turn) as enemies close the gap.
-- **Improved Mechanics:** You can dual-wield artifacts and wear robes over body armor. Magic Cancellation (MC) works differently, and Magic Resistance no longer blocks death effects (you need Death Resistance!), which makes gear choices much more interesting.
-- **Expanded Equipment Slots:** GnollHack gives you 22 equipment slots to customize your character. In addition to the classics, you can now equip [[Bracers]], wear [[Robes]] over your body armor, and equip up to 5 [[Miscellaneous Items]] simultaneously (such as belts, earrings, eyeglasses, or wings).
-- **In-Game Item Information:** You can now use the Examine items to view exact item stats, damage formulas, and magical effects directly within the game.
-- **Vastly Increased Loot:** You will encounter vastly increased options in loot, such as powerful [[Mythic and Legendary Items]].
-
-> 💡 **Tip:** If you are overwhelmed by the long, repetitive mazes of vanilla NetHack's Gehennom, you will be happy to know that GnollHack has removed all non-special mazes from Gehennom, allowing you to descend and fight boss monsters much faster!
+- **A modern port:** GnollHack has high-resolution graphics, animations, a multi-layered tile engine, a graphical user interface (GUI) for both desktop and mobile devices, and a full musical score, along with thousands of sound effects and voiceovers.
+- **A faster game:** The leveling curve is faster, and the dungeons are slightly shorter. Gehennom has **no mazes** except on special levels, so you reach its boss monsters much sooner. A stronger economy replaces constant stealing from shops.
+- **Ranged combat:** Ranged weapons are strong enough to be your main choice, but firing missiles or throwing weapons at an enemy in melee range carries a heavy to-hit penalty (40; 32 for crossbows). Swapping between ranged and melee weapons no longer costs a turn, so switch as enemies close in.
+- **Other rule changes:** You can dual-wield artifacts. Magic Cancellation (MC) works differently, and Magic Resistance no longer blocks death effects; for those you need Death Resistance.
+- **More equipment slots:** There are 22 equipment slots. Besides the classic ones, you can equip [[Bracers]], wear [[Robes]] over your body armor, and equip up to 5 [[Miscellaneous Items]] at once (such as belts, earrings, eyeglasses, or wings).
+- **Item information in the game:** Examine shows an item's exact stats, damage formulas, and magical effects.
+- **More loot:** Many more powerful items, such as [[Mythic and Legendary Items]], turn up as loot.
 
 **What should you try first?**
 
-We recommend trying out a spellcasting class like a [[/Roles/Wizard]] or a hybrid like an [[/Roles/Archaeologist]] (who now starts with a [[/Items/hand crossbow]]!) to experience the new spell system and ranged combat mechanics. Alternatively, try out the new [[/Races/Gnoll]] race to see their specialized starting gear.
+A spellcaster such as a [[/Roles/Wizard]], or a hybrid such as an [[/Roles/Archaeologist]] (who now starts with a [[/Items/hand crossbow]]), shows you the new spell system and ranged combat. You can also try the new [[/Races/Gnoll]] race and its own starting gear.
 
 
 ### 📖 Learn More
 
 - [[How GnollHack differs from NetHack]] — Detailed summary of key differences from vanilla NetHack
-- [[Comparison to Other NetHack Variants]] — Comprehensive comparison of GnollHack to other major variants
+- [[Comparison to Other NetHack Variants]] — How GnollHack compares with other major variants
 
 
 ### 🕹️ Gameplay Mode

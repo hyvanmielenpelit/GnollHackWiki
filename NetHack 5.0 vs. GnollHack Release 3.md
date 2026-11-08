@@ -1,12 +1,12 @@
 ![NetHack 5.0 vs. GnollHack Release 3](/uploads/NetHack%205/nethack5-vs-gnollhack3-q85.webp)
 
-> 👉 **Which one should you play? This page compares mainline *NetHack 5.0* (the traditional hardcore classic) and *GnollHack Release 3* (the modern, visual variant) to help you choose the right style of dungeon crawl.**
+> 👉 **NetHack 5.0 continues the classic keyboard-driven game, while GnollHack Release 3 is a NetHack 3.6.2 variant with modern graphics, sound, and controls.**
 
 ## 🧬 How They Are Related
 
 - **Mainline vs. Fork:** **NetHack 5.0** is the direct continuation of the original 1987 classic. **GnollHack** is a major "fork" (variant) that split off from the older NetHack 3.6.2 codebase.
 - **Shared Roots:** Both games share the same fundamental dungeon structures and basic monster classes.
-- **The Divergence:** NetHack 5.0 refines the hardcore, classic keyboard-driven experience, while GnollHack rebuilds the engine to support modern graphics, music, sounds, voiceovers, touchscreen-friendly controls, and mobile operating systems.
+- **Where They Differ:** NetHack 5.0 refines the classic keyboard-driven game, while GnollHack rebuilds the engine to support modern graphics, music, sounds, voiceovers, touchscreen-friendly controls, and mobile operating systems.
 
 > ℹ️ **Note:** GnollHack uses a dual versioning scheme. The modern port's version 3.x translates directly to the core version 4.3.0 Build x. For example, modern port version 3.1 corresponds to core version 4.3.0 Build 1. *GnollHack Release 3* refers to modern port versions 3.x and to core versions 4.3.0 Build x.
 
@@ -27,9 +27,9 @@
 | :--- | :--- | :--- |
 | **Core Philosophy** | 📖 An uncompromising fantasy simulation that prioritizes mechanical depth, player discovery, and high-stakes survival. | ✨ A modern reimagining that lowers the barrier to entry by blending classic roguelike systems with contemporary RPG design and rich presentation. |
 | **Target Audience** | 🎖️ Purists, veterans, and fans of classic ASCII/keyboard-driven gaming. | 📱 Beginners, mobile gamers, and players seeking a fresh, audiovisual tactical experience. |
-| **Key Selling Points** | • **The Ultimate Classic:** The definitive version of the legendary 1987 roguelike.<br />• **Brutal Challenge:** Unforgiving permadeath and complex mechanics.<br />• **Classic Feel, New Polish:** Flawless modern stability and long-requested features like a built-in tutorial. | • **Audiovisual Overhaul:** Real 2D animations, voiceovers, and a full musical score.<br />• **ARPG Loot System:** Mythic affixes, elite weapon tiers, and 22 gear slots.<br />• **Accessibility:** 7 difficulty levels, optional permadeath, streamlined UI, and the optional [[Gnoll Overseer]] AI advisor. |
+| **Key Selling Points** | • **The Original:** The latest official version of the 1987 roguelike.<br />• **Hard:** Permadeath and complex mechanics.<br />• **Classic Feel, New Features:** Long-requested features such as a built-in tutorial. | • **Audiovisual Overhaul:** Real 2D animations, voiceovers, and a full musical score.<br />• **ARPG Loot System:** Mythic affixes, elite weapon tiers, and 22 gear slots.<br />• **Accessibility:** 7 difficulty levels, optional permadeath, streamlined UI, and the optional [[Gnoll Overseer]] AI advisor. |
 | **Key Pain Points** | • **Archaic UI:** Requires memorizing dozens of obscure keyboard commands.<br />• **Spoiler Dependency:** Exact stats and mechanics are hidden; playing without external wikis is notoriously difficult.<br />• **Instant Deaths:** Features "unfair" instant deaths. | • **Inventory Management:** The massive amount of loot, 22 gear slots, and magic reagents can cause inventory fatigue.<br />• **System Complexity:** The deep mechanics can still be overwhelming to learn.<br />• **Grid-Based Pacing:** Despite modern graphics, it remains a methodical, turn-based grid game that may feel slow to action-roguelite fans. |
-| **Why Play Today?** | 📜 To play a historically significant masterpiece, modernized to run flawlessly today while preserving its hardcore 1980s ethos. | 🕹️ To enjoy the depth of a traditional roguelike wrapped in the presentation and quality-of-life standards of modern gaming. |
+| **Why Play Today?** | To play the classic game as its developers continue it today, with its 1980s design intact. | To play a traditional roguelike with the depth of NetHack and the presentation and conveniences of a modern game. |
 
 ## ⚖️ High-Level Comparison
 
@@ -78,9 +78,9 @@
 
 ## 💡 Conclusions
 
-📜 **Play NetHack 5.0 if:** You want the quintessential, brutal, classic ASCII roguelike experience. It is the definitive update to the traditional formula, perfect for purists who enjoy meticulous resource management and a steep, unforgiving learning curve.
+**Play NetHack 5.0 if:** You want the classic ASCII game in its latest official version, with careful resource management and a steep learning curve.
 
-🕹️ **Play GnollHack Release 3 if:** You want a deeply tactical, modern RPG experience with beautiful graphics, music, and voice acting. It massively improves the gameplay experience by introducing ARPG-style loot, seven difficulty levels, and a vast new spell system.
+**Play GnollHack Release 3 if:** You want NetHack's depth with tile graphics, music, voice acting, seven difficulty levels, ARPG-style loot, and a much larger spell system.
 
 ## 📖 See Also
 

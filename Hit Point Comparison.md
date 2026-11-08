@@ -1,4 +1,4 @@
-> 👉 **This page compares the starting hit points and hit point growth of all character classes and races in GnollHack.**
+> 👉 **Starting hit points and hit point growth in GnollHack depend on both your character class and your race.**
 
 ## ❤️ Hit Points by Character Class
 

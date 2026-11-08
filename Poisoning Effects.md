@@ -1,15 +1,15 @@
 ![Poisoning Effects](/uploads/Poisoning%20Effects/poisoning-effects-q85.webp)
 
-> 👉 **This page provides a comprehensive list of all poisoning effects in GnollHack, detailing what happens when a character has poison resistance versus when they lack it.**
+> 👉 **Poison resistance makes you immune to most poisoning effects in GnollHack; without it, poison drains your attributes and hit points.**
 
 ## 🍎 Consuming Poisonous Food, Corpses, and Objects
 
 When eating items, corpses, or even objects (e.g., when polymorphed into a metallivore) that are poisonous:
 
-- **Standard Poisonous Items (`EDIBLETYPE_POISONOUS`):**
+- **Standard Poisonous Items:**
   - **Without Resistance:** You lose **1-4 points of strength** and take **1-15 HP** of poison damage.
   - **With Resistance:** You are completely immune ("You seem unaffected by the poison.").
-- **Deadly Poisonous Items (`EDIBLETYPE_DEADLY_POISONOUS`):**
+- **Deadly Poisonous Items:**
   - **Without Resistance:** The effects are much more severe. You lose **2-12 points of strength** and take **5-100 HP** of poison damage.
   - **With Resistance:** You are completely immune.
 
@@ -19,14 +19,14 @@ When a monster strikes you with a poisonous natural attack (such as a bite or st
 
 ### 🐍 Natural Attacks (Bite, Sting)
 
-Poisonous natural attacks can use one of three damage types, which determines the stat they drain: **Strength** (`AD_DRST`), **Dexterity** (`AD_DRDX`), or **Constitution** (`AD_DRCO`).
+A poisonous natural attack drains one of three stats, depending on its damage type: **Strength**, **Dexterity**, or **Constitution**.
 
-- **Without Resistance:** You are poisoned. You take **6-15 HP** of poison damage, and have a **5% to 15% chance** (depending on the monster's level: 5% for levels 1-2, 10% for levels 3-5, 15% for levels 6+) to lose **1-3 points** of the specific stat tied to the attack's damage type. If the attacking monster is level 9 or higher, there is a **10% chance** the poison will trigger a "deadly poison" strike, inflicting massive damage ([see below](#deadly-poison-mechanics)).
+- **Without Resistance:** You are poisoned. You take **6-15 HP** of poison damage, and have a **5% to 15% chance** (depending on the monster's level: 5% for levels 1-2, 10% for levels 3-5, 15% for levels 6+) to lose **1-3 points** of the specific stat tied to the attack's damage type. If the attacking monster is level 9 or higher, there is a **10% chance** the poison will trigger a "deadly poison" strike, inflicting massive damage ([[see below|#deadly-poison-mechanics]]).
 - **With Resistance:** The poison is fully neutralized ("The poison doesn't seem to affect you."). You only take the standard physical damage from the attack itself.
 
 ### 🏹 Thrown Poisoned Weapons (Arrows, Darts)
 
-- **Without Resistance:** You take **2-12 HP** (`2d6`) of poison damage and have a **10% chance** to lose **1 point of Strength**. Thrown weapons actually *never* trigger the massive deadly poison strike (contrary to some beliefs!).
+- **Without Resistance:** You take **2-12 HP** (`2d6`) of poison damage and have a **10% chance** to lose **1 point of Strength**. Thrown weapons *never* trigger the deadly poison strike.
 - **With Resistance:** The poison is fully neutralized.
 
 ### 🗡️ Melee Attacks with Poisoned Weapons (e.g., Orcish Dagger)
@@ -53,7 +53,7 @@ When walking through or being caught in a localized poison gas cloud (e.g., from
 When drinking from a fountain that has been tainted with poison:
 
 - **Without Resistance:** The water is tainted, and you lose **2-5 points of strength** and take **1-10 HP** of poison damage.
-- **With Resistance:** You notice the water tastes bitter, but you suffer no ill effects whatsoever.
+- **With Resistance:** You notice the water tastes bitter, but you suffer no ill effects.
 
 ## 🧪 Potion of Poison
 
@@ -61,7 +61,7 @@ A [[/Items/Potion of poison]] has a dangerous effect when quaffed or when it sha
 
 - **Without Resistance:** Quaffing one causes you to take immediate poison damage and lose points from a random stat (e.g., strength, dexterity). The stat loss can be 1-12 points depending on the potion's BUC status. If one shatters near you, the vapors cause you to lose up to 5 HP (though this vapor damage won't drop your HP below 1).
 - **With Resistance:** You are completely immune to the damage and stat loss when quaffing ("However, you are unaffected by the poison.") and take no damage from shattered potions.
-- **Note:** Quaffing a potion of poison cures hallucination and lycanthropy regardless of whether you have poison resistance or not!
+- **Note:** Quaffing a potion of poison cures hallucination and lycanthropy whether or not you have poison resistance.
 
 ## 📖 Contact-Poisoned Spellbooks
 
@@ -82,4 +82,4 @@ The chances for a poison attack to trigger this massive deadly damage are as fol
 
 ## 🛡️ Acquiring Poison Resistance
 
-Poison resistance is one of the most critical intrinsics to acquire early in the game to avoid dying to massive poison damage or gradual HP depletion from poisoned [[darts|/Items/Dart]], spiked pits, and monster attacks. It can be gained safely by eating certain corpses (if you already have poison resistance or a means to survive the initial meal), wearing an [[Amulet versus Poison|/Items/Amulet versus poison]], wearing a [[Ring of Poison Resistance|/Items/Ring of poison resistance]], or playing specific roles (e.g., [[Healers|/Roles/Healer]], [[Barbarians|/Roles/Barbarian]]) that start with or acquire the resistance as they level up.
+Poison resistance is worth getting early in the game, to avoid dying to massive poison damage or gradual HP depletion from poisoned [[darts|/Items/Dart]], spiked pits, and monster attacks. It can be gained safely by eating certain corpses (if you already have poison resistance or a means to survive the initial meal), wearing an [[Amulet versus Poison|/Items/Amulet versus poison]], wearing a [[Ring of Poison Resistance|/Items/Ring of poison resistance]], or playing specific roles (e.g., [[Healers|/Roles/Healer]], [[Barbarians|/Roles/Barbarian]]) that start with or acquire the resistance as they level up.

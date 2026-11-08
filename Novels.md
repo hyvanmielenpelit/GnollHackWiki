@@ -1,4 +1,4 @@
-> 👉 **This page lists all the readable novels in GnollHack.**
+> 👉 **GnollHack has 41 readable novels, all from Sir Terry Pratchett's Discworld series.**
 
 ## 📖 Overview
 

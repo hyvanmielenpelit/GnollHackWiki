@@ -1,19 +1,19 @@
-> 👉 **This page provides a comparison between NetHack, GnollHack, Pathos, and Shattered Pixel Dungeon, highlighting their features, target audiences, and user interfaces.**
+> 👉 **NetHack, GnollHack, Pathos, and Shattered Pixel Dungeon differ in depth, presentation, and the players they are made for.**
 
 ## 📖 Overview
 
 | Game | Description | Audience |
 |------|-------------|----------|
-| **[NetHack](https://www.nethack.org/)** | A foundational, deeply complex roguelike first released in 1987. It is known for its intricate mechanics, where countless item interactions and emergent strategies are possible. | Hardcore players seeking a traditional, challenging text-based experience where survival relies on discovering the game's many secrets over multiple runs. |
-| **[GnollHack](https://gnollhack.com/)** | A modern remaster of NetHack 3.6.2 that bridges the gap between classic complexity and modern accessibility. It retains the deep ruleset of the original game but updates the experience with graphical tiles, animations, a full soundtrack, voiceovers, and difficulty settings. | Hardcore-to-midcore players who want to experience NetHack's depth with modern presentation and touch-friendly mobile controls. |
-| **[Pathos](https://pathos-game.onrender.com/)** | A streamlined adaptation of the NetHack ruleset, coded from scratch for modern devices. It simplifies the user interface and inventory management while preserving the challenging core mechanics with standard graphical tiles and smooth touch controls. | Midcore players looking for an accessible entry point to classic roguelike mechanics on mobile or PC. |
-| **[Shattered Pixel Dungeon](https://shatteredpixel.com/)** | A highly polished, standalone roguelike originating from the Brogue lineage. It features streamlined gameplay, distinct hero classes with customizable skill trees, and charming pixel-art graphics. | Midcore-to-casual players looking for a visually appealing, intuitive, and engaging roguelike experience with a balanced difficulty curve. |
+| **[NetHack](https://www.nethack.org/)** | A complex roguelike first released in 1987. Its items interact in countless ways, which leaves room for emergent strategies. | Hardcore players who want a traditional, challenging text-based game, where survival depends on discovering its many secrets over multiple runs. |
+| **[GnollHack](https://gnollhack.com/)** | A modern remaster of NetHack 3.6.2. It keeps the original game's ruleset and adds graphical tiles, animations, a full soundtrack, voiceovers, and difficulty settings. | Hardcore-to-midcore players who want NetHack's depth with modern presentation and touch-friendly mobile controls. |
+| **[Pathos](https://pathos-game.onrender.com/)** | An adaptation of the NetHack ruleset, coded from scratch for modern devices. It simplifies the user interface and inventory management but keeps the challenging core mechanics, and it has standard graphical tiles and touch controls. | Midcore players who want an easy way into classic roguelike mechanics on mobile or PC. |
+| **[Shattered Pixel Dungeon](https://shatteredpixel.com/)** | A standalone roguelike from the Brogue lineage, with streamlined gameplay, distinct hero classes with customizable skill trees, and pixel-art graphics. | Midcore-to-casual players who want an intuitive roguelike with a balanced difficulty curve. |
 
 ## 📊 Feature Comparison
 
 ### 📦 Availability
 
-#### 🏪 Stores
+#### Stores
 
 | Platform | Store | NetHack | GnollHack | Pathos | Shattered Pixel Dungeon |
 | :------- | :---- | :------ | :-------- | :----- | :---------------------- |
@@ -31,7 +31,7 @@
 
 > ℹ️ **Note:** Most Windows games on Steam can also be played on Linux and the Steam Deck through **Proton**, Valve's compatibility layer for running Windows games, but not on macOS. Pathos's Steam version is Windows-only, so it can be played on Linux and the Steam Deck this way, but not on a Mac. GnollHack's Windows version does not run on Proton, but GnollHack has a native [[Linux Version]] on Steam, which is also the version the Steam Deck runs. Pathos's Steam edition was released on November 4, 2026; its other versions remain free.
 
-#### 🧑‍💻 GitHub
+#### GitHub
 
 All GitHub downloads are free.
 
@@ -44,7 +44,7 @@ All GitHub downloads are free.
 | **Windows** | ✅ Unofficial | ✅ | ❌ | ✅ |
 | **Steam Deck** | ❓ | ❌ Get it on Steam | ❓ | ✅ |
 
-#### 🏠 Website
+#### Website
 
 | Platform | NetHack | GnollHack | Pathos | Shattered Pixel Dungeon |
 | -------- | :-----: | :-------: | :----: | :---------------------: |
@@ -103,13 +103,13 @@ A game has real controller support when it reads the controller itself and has a
 
 ### 🏛️ NetHack
 
-#### ⌨️ NetHack's Traditional ASCII UI
+#### NetHack's Traditional ASCII UI
 
 A screenshot of NetHack's traditional ASCII (text-based) UI:
 
 ![NetHack ASCII UI](/uploads/Roguelike%20Comparison/nethack-ascii-screenshot.webp)
 
-#### 🖥️ NetHack Windows GUI
+#### NetHack Windows GUI
 
 A screenshot of NetHack Windows GUI with the Nevanda tileset (32x32-pixel tiles):
 

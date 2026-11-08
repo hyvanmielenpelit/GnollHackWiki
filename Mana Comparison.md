@@ -1,4 +1,4 @@
-> 👉 **This page compares the starting mana and mana growth of all character classes and races in GnollHack.**
+> 👉 **Starting mana and mana growth in GnollHack depend on your character class, your race, and your Intelligence and Wisdom.**
 
 ## 🔮 Mana by Character Class
 

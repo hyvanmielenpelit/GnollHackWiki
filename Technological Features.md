@@ -1,46 +1,43 @@
 ![Engineering Achievements](/uploads/Technological%20Features/engineering-achievements-q85.webp)
 
-> 👉 **GnollHack is an ambitious open-source project that bridges the gap between decades-old legacy C code and modern cross-platform development paradigms, serving as a rare and powerful showcase of [.NET MAUI](https://github.com/dotnet/maui)'s capabilities in game development.**
+> 👉 **GnollHack is an open-source game that runs NetHack's C game engine inside a .NET MAUI app, built for Android, iOS, Linux, macOS, and Windows from one codebase.**
 
-## 🏆 Engineering Achievements
+## 🏆 Engineering Highlights
 
-GnollHack is not just another application; it is a profound technical achievement that demonstrates the true power and flexibility of [modern .NET](https://dotnet.microsoft.com/). For CTOs, technical leads, and senior developers looking to understand the limits of cross-platform UI frameworks, GnollHack stands as a testament to what is possible when legacy architecture meets state-of-the-art tooling.
-
-- **Legacy Modernization at Scale:** We have successfully integrated [NetHack](https://www.nethack.org/)'s sprawling, multi-decade C codebase into a modern [C#/.NET](https://dotnet.microsoft.com/en-us/languages/csharp) environment. This proves that vast legacy systems can be preserved, modernized, and distributed across contemporary platforms without rewriting the core business logic from scratch.
-- **.NET MAUI as a Game Engine:** While [.NET MAUI](https://github.com/dotnet/maui) is traditionally seen as a framework for business apps, GnollHack pushes it to the edge. We utilize .NET MAUI to drive a complex, highly-interactive 2D game, proving its viability for high-performance, non-standard UI requirements.
-- **Advanced Cross-Platform Architecture:** From a single unified .NET codebase and native bridge, GnollHack seamlessly targets Android, iOS, Linux, macOS, and Windows. This represents a massive reduction in platform-specific technical debt and maintenance overhead.
-- **High-Performance Multi-Threading:** To maintain high frame rates while executing complex game logic, GnollHack implements a sophisticated multi-threaded architecture. The native C game loop is completely decoupled from the MAUI UI and the hardware-accelerated [Skia](https://skia.org/) rendering threads, showcasing advanced synchronization and thread-safety patterns in .NET.
-- **Ecosystem Integration:** By integrating [SkiaSharp](https://github.com/mono/SkiaSharp) for GPU-accelerated 2D rendering and [FMOD](https://www.fmod.com/) for professional-grade audio middleware, GnollHack exemplifies how smoothly .NET MAUI can orchestrate industry-standard native libraries to deliver a rich multimedia experience.
-- **Grounded Agentic AI & Automated Evaluation:** Through the **[[Gnoll Overseer]]**, GnollHack integrates an optional agentic AI advisor directly into the client, pairing frontier models with structured live game snapshots, C source code indexing, and dual-wiki retrieval, backed by **[[GnollBench]]**, a dedicated multi-provider evaluation harness that grades accuracy, penalizes dangerous hallucinations, and measures speed and cost.
+- **NetHack's C code in a .NET app:** The game logic is [NetHack](https://www.nethack.org/)'s decades-old C code, extended for GnollHack, built as a native library and called from [C#](https://dotnet.microsoft.com/en-us/languages/csharp). The rules were carried over, not rewritten.
+- **.NET MAUI as a game engine:** [.NET MAUI](https://github.com/dotnet/maui) is usually used for business apps. GnollHack uses it to run an interactive 2D game.
+- **One codebase for five platforms:** The same [.NET](https://dotnet.microsoft.com/) code and native bridge build the Android, iOS, Linux, macOS, and Windows versions, so there is little platform-specific code to maintain.
+- **Separate threads:** The C game loop runs apart from the .NET MAUI UI thread and the [Skia](https://skia.org/) rendering threads, which keeps the frame rate up while the game works out a turn.
+- **Native libraries:** [SkiaSharp](https://github.com/mono/SkiaSharp) draws the 2D graphics with GPU acceleration, and [FMOD](https://www.fmod.com/) plays sound and music.
+- **AI advisor and benchmark:** The optional [[Gnoll Overseer]], built into the game client, answers players' questions with frontier AI models, using the live game state, the game's C source code, and the GnollHack and NetHack wikis. [[GnollBench]] tests models from several AI providers, grades them on accuracy, speed, and cost, and penalizes dangerous mistakes.
 
 ## 💻 Technologies Behind GnollHack
 
-### 📱 UI Framework: .NET MAUI
+### UI Framework: .NET MAUI
 
 _(Originally Xamarin.Forms)_
 
-GnollHack is one of the very few games developed with [.NET MAUI](https://github.com/dotnet/maui), which is primarily a cross-platform app creation framework. GnollHack extends the boundaries of .NET MAUI by implementing a fully fledged 2D game. .NET MAUI allows GnollHack to run on Android, iOS, and Windows. On Linux and macOS, the same .NET MAUI app runs on [Avalonia UI](https://avaloniaui.net/).
+GnollHack is one of very few games made with [.NET MAUI](https://github.com/dotnet/maui), which is mainly a framework for cross-platform apps; GnollHack uses it to build a full 2D game. .NET MAUI runs GnollHack on Android, iOS, and Windows. On Linux and macOS, the same .NET MAUI app runs on [Avalonia UI](https://avaloniaui.net/).
 
-.NET MAUI allows us to quickly and effectively develop a complex UI for GnollHack, using a multitude of premade controls, such as text entries, multiline text boxes, in-game web views, and dynamically sizing layouts.
+Its ready-made controls, such as text entries, multiline text boxes, in-game web views, and layouts that size themselves to their content, make a complex UI quick to build.
 
-### 🎨 Graphics Drawing Engine: SkiaSharp
+### Graphics Drawing Engine: SkiaSharp
 
-GnollHack utilizes the highly effective [SkiaSharp](https://github.com/mono/SkiaSharp), which is built upon Google's [Skia](https://skia.org/) graphics drawing engine, to draw its graphics in a fast and battery-efficient way. SkiaSharp offers a developer-friendly API to draw bitmaps, shapes, and text on a canvas, which can be GPU accelerated.
+GnollHack draws its graphics with [SkiaSharp](https://github.com/mono/SkiaSharp), which is built on Google's [Skia](https://skia.org/) graphics engine and is fast and easy on the battery. SkiaSharp draws bitmaps, shapes, and text on a canvas, optionally with GPU acceleration.
 
-### 🎵 Sound Middleware: FMOD
+### Sound Middleware: FMOD
 
-GnollHack integrates [FMOD](https://www.fmod.com/) — a commercial cross-platform audio library — on all platforms as sound middleware, which is a major technological advancement, exemplifying that FMOD can be integrated with .NET MAUI for playing sounds and music.
+GnollHack plays its sound and music with [FMOD](https://www.fmod.com/), a commercial cross-platform audio library, on all platforms.
+### Native C Code Integration
 
-### 🧩 Native C Code Integration
+The game logic is a native C library based on [NetHack](https://www.nethack.org/)'s source code. The same library works on every supported platform.
 
-GnollHack integrates a native C library based on [NetHack](https://www.nethack.org/)'s source code into modern frameworks. This native C library integration works on all supported platforms.
+### Multi-Threaded
 
-### ⚡ Multi-Threaded
+GnollHack runs on two or three threads, depending on the operating system, not counting FMOD's own threads. That keeps the game fast, but it means the code needs several thread-safety measures.
 
-GnollHack runs on two or three threads depending on the operating system (not counting FMOD threads). This allows GnollHack to run at high performance but requires us to implement several thread-safety features.
+### Agentic AI & Benchmarking: Gnoll Overseer and GnollBench
 
-### 🤖 Agentic AI & Benchmarking: Gnoll Overseer and GnollBench
+The [[Gnoll Overseer]] is an optional full-stack AI advisor built on ASP.NET Core (Web API + SignalR) and Angular. Its tools work on live game snapshots sent by the client, an in-memory C lexer and source index for both GnollHack and NetHack, the exact monster, item, and artifact definitions, and Lucene.NET indexes of the wikis. Spoiler guardrails are configurable, and chats can use encrypted or ephemeral modes. See [[/Guides/Technological Overview of Gnoll Overseer]].
 
-The **[[Gnoll Overseer]]** is an optional full-stack AI advisor built on ASP.NET Core (Web API + SignalR) and Angular. Rather than relying on ungrounded language model output, it executes structured tools over live client game snapshots, an in-memory C lexer and source index for both GnollHack and NetHack, exact monster/item/artifact definitions, and Lucene.NET wiki indexes — with configurable spoiler guardrails and encrypted/ephemeral chat modes. See [[/Guides/Technological Overview of Gnoll Overseer]].
-
-To keep advice trustworthy in a permadeath game, **[[GnollBench]]** evaluates candidate models against the production Overseer prompt and toolset using a multi-provider AI grading panel, an automated source-grounded claim verifier, and strict comparability rules across intelligence, latency, and cost. See [[/Guides/Technological Overview of GnollBench]].
+Because one wrong answer can end a permadeath game, [[GnollBench]] tests candidate models with the same prompt and tools the live Overseer uses. A panel of AI graders from several providers scores the answers, an automated verifier checks their claims against the source code, and strict comparability rules apply to intelligence, latency, and cost. See [[/Guides/Technological Overview of GnollBench]].

@@ -1,10 +1,10 @@
 ![Features](/uploads/Features/features-q85.webp)
 
-> 👉 **GnollHack brings a wealth of modern features to the classic NetHack formula, significantly enhancing both the presentation and gameplay.**
+> 👉 **GnollHack adds graphics, sound, voiceovers, a new spell system, more equipment, and modern controls to NetHack, and changes many of its rules.**
 
 ## 🖥️ Graphics
 
-- Large 64x96 tiles featuring many advanced capabilities, such as several tile layers on one square and monsters that span multiple squares, up to 192x192 pixels in size.
+- Large 64x96 tiles, with several tile layers on one square and monsters that span multiple squares, up to 192x192 pixels in size.
 - Over 23,000 tiles, all drawn by real artists specifically for GnollHack.
 
 See [[Improved Graphical Interface]].
@@ -24,7 +24,7 @@ See [[Advanced Sound System]].
 
 ## 🎵 Music
 
-- An atmospheric soundtrack of 37 music tracks that changes with the dungeon branch, special level, and situation. 14 of the tracks were composed specifically for GnollHack.
+- A soundtrack of 37 music tracks that changes with the dungeon branch, special level, and situation. 14 of the tracks were composed specifically for GnollHack.
 
 See [[Music]].
 
@@ -40,10 +40,7 @@ See [[Voiceovers]].
 - Spells are prepared with Mix (`Shift+x`) from material components, called reagents. Each preparation gives a set number of castings, and spells are never forgotten.
 - Over 200 spells in 12 spell schools and 14 spell levels, from minor cantrips to level 12.
 
-### 📖 Learn More
-
-- [[Spells]] — Full spell lists, levels, and statistics
-- [[Spell Casting]] — Detailed spellcasting mechanics, somatic armor penalties, and casting chances
+See [[Spells]] and [[Spell Casting]].
 
 ## 🎒 Items and Equipment
 
@@ -51,22 +48,14 @@ See [[Voiceovers]].
 - Wear a robe over your body armor, and equip bracers and up to five miscellaneous items.
 - Every common item action is available directly from the inventory, and Examine (`Alt+x`) shows an item's exact statistics.
 
-### 📖 Learn More
-
-- [[Items]] — Overview of new items and materials
-- [[Artifacts]] — Information on quest artifacts and unique objects
-- [[Mythic and Legendary Items]] — Guide to item prefix and suffix affixes
-- [[Exceptional, Elite, Celestial, Primordial, and Infernal Items]] — Guide to upgraded weapon quality classes
+See [[Items]], [[Artifacts]], [[Mythic and Legendary Items]], and [[Exceptional, Elite, Celestial, Primordial, and Infernal Items]].
 
 ## ⚔️ Combat and Skills
 
 - NetHack's weapon skills are merged into 12 weapon skills, which can be raised as high as Grand Master and increase your chance of critical hits.
 - Launchers add their own damage to the missiles they fire, swapping between two weapon sets does not take a turn, and you can dual-wield artifacts and weapon-shields.
 
-### 📖 Learn More
-
-- [[Skills]] — List of consolidated skills, prestige skills, and level requirements
-- [[Changing Between Two Sets of Weapon and Shield]] — How weapon sets work
+See [[Skills]] and [[Changing Between Two Sets of Weapon and Shield]].
 
 ## 👹 Monsters and Pets
 
@@ -74,10 +63,7 @@ See [[Voiceovers]].
 - Chat with non-player characters: shopkeepers identify items, priests heal you and cure sickness, and some peaceful monsters can be hired to join your party.
 - Pets find their way to you with the same pathfinding as the travel command, and their hit points are shown on the status lines.
 
-### 📖 Learn More
-
-- [[Monsters]] — Detailed bestiary of monsters, bosses, and alignment modifiers
-- [[/Items/Manuals/Understanding Pets and Hirelings]] — Guide to pets, hirelings, and their commands
+See [[Monsters]] and [[/Items/Manuals/Understanding Pets and Hirelings]].
 
 ## 🌟 Progression and Game Modes
 
@@ -85,16 +71,12 @@ See [[Voiceovers]].
 - The titular [[/Races/Gnoll]] replaces the gnome as a playable race.
 - Seven difficulty levels from Standard to Grand Master, and a choice of [[gameplay modes|Choosing the Right Gameplay Mode]].
 
-### 📖 Learn More
-
-- [[Races]] — Playable races and racial traits
-- [[Character Classes]] — Playable roles and starting equipment
-- [[Difficulty Levels]] — Detailed modifiers for difficulty ratings
+See [[Races]], [[Character Classes]], and [[Difficulty Levels]].
 
 ## 🤖 AI Advisor
 
-- **[[Gnoll Overseer]]** — A free, optional in-game AI advisor powered by frontier AI models and grounded in GnollHack's actual game data, source code, and wikis.
-- When opened during play, the Overseer reads your current stats, inventory, and surroundings to give spoiler-aware tactical advice — and stays completely out of the way if you prefer playing unaided.
+- The **[[Gnoll Overseer]]** is a free, optional in-game AI advisor that uses frontier AI models together with GnollHack's game data, source code, and wikis.
+- When you open it during play, the Overseer reads your current stats, inventory, and surroundings to give spoiler-aware tactical advice. It stays out of the way if you prefer playing unaided.
 - Model accuracy, speed, and reliability are evaluated continuously with **[[GnollBench]]**, the Gnoll Overseer's own multi-provider benchmark.
 
 ## 🎮 Steam Deck and Game Controllers
