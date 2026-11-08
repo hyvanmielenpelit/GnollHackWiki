@@ -1,30 +1,15 @@
 ![Comparisons to Other Games](/uploads/Comparison%20to%20Other%20Games/comparison-to-other-games-q85.webp)
 
-## ⚡ At a Glance
+## 🧙‍♂️ NetHack and Its Variants
 
-**GnollHack** is a free graphical version of NetHack on Steam, iOS, and Android that keeps the full depth of the original and supports touch, mouse, keyboard, and game controllers.
+- **[[NetHack 5.0 vs. GnollHack Release 3]]** — Which of the two current releases to play, and where to get each.
+- **[[How GnollHack differs from NetHack]]** — The rule changes a NetHack 3.6 player will notice, from spells and combat to equipment slots and gold.
+- **[[Comparison of GnollHack and NetHack Infrastructure]]** — What runs around each game: accounts, scoreboards, bones sharing, servers, and bots.
+- **[[Comparison of NetHack GUIs]]** — NetHack's own Windows interface and NetHack 3D next to GnollHack.
+- **[[Graphical NetHack Ports and Variants]]** — The maintained graphical versions of NetHack and its variants that you can play without compiling anything.
+- **[[Comparison to Other NetHack Variants]]** — How EvilHack, UnNetHack, and dNetHack differ from GnollHack and from each other.
 
-On Steam, GnollHack runs natively on Windows, macOS, Linux, and the Steam Deck, with a dedicated controller interface that has radial menus and on-screen button hints.
+## 🎲 Other Roguelikes
 
-## 🧙‍♂️ NetHack
-
-| Article | Compared Games |
-|---------|----------------|
-| **[[NetHack 5.0 vs. GnollHack Release 3]]**<br /><small>👉 *Which one should you play?<br />👉 A comparison of the latest releases.*</small> | 🧙‍♂️ NetHack 5.0<br />🐺 GnollHack Release 3 |
-| **[[How GnollHack differs from NetHack]]**<br /><small>👉 *A detailed article describing the differences.*</small> | 🧙‍♂️ NetHack<br />🐺 GnollHack |
-| **[[Comparison of GnollHack and NetHack Infrastructure]]**<br /><small>👉 *A meta-level comparison of the ecosystems and infrastructure surrounding the games.*</small> | 🧙‍♂️ NetHack<br />🐺 GnollHack |
-| **[[Comparison of NetHack GUIs]]**<br /><small>👉 *A feature comparison of the graphical user interfaces.*</small> | 🪟 NetHack Windows GUI<br />🧊 NetHack 3D<br />🐺 GnollHack |
-| **[[Graphical NetHack Ports and Variants]]**<br /><small>👉 *Where to get a graphical version of NetHack.<br />👉 Online stores, other downloads, and browser play.*</small> | 🧙‍♂️ NetHack ports<br />😈 NetHack variants |
-
-## 😈 NetHack Variants
-
-| Article | Compared Games |
-|---------|----------------|
-| **[[Comparison to Other NetHack Variants]]**<br /><small>👉 *A comparison of design philosophies.*</small> | 🐺 GnollHack<br />🐙 dNetHack<br />😈 EvilHack<br />🎲 UnNetHack |
-
-## 🎲 Roguelikes
-
-| Article | Compared Games |
-|---------|----------------|
-| **[[GnollHack vs. Pathos vs. NetHack]]**<br /><small>👉 *Which modern NetHack experience is right for you?<br />👉 A beginner's guide to the differences in faithfulness and gameplay.*</small> | 🐺 GnollHack<br />📱 Pathos<br />🧙‍♂️ NetHack |
-| **[[Roguelike Comparison]]**<br /><small>👉 *A feature comparison of popular roguelike games.*</small> | 🧙‍♂️ NetHack<br />🐺 GnollHack<br />📱 Pathos<br />🗝️ Shattered Pixel Dungeon |
+- **[[GnollHack vs. Pathos vs. NetHack]]** — Pathos: NetHack Codex uses NetHack's monsters and items but was written from scratch, with rules of its own.
+- **[[Roguelike Comparison]]** — Adds Shattered Pixel Dungeon to NetHack, GnollHack, and Pathos, with prices per store and controller support.

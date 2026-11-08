@@ -1,10 +1,10 @@
-> 👉 **Many graphical NetHack ports and variants have working, ready-to-play builds and have been updated within the last two years; you get them from an online store, download them from elsewhere, or play them in a web browser.**
+> 👉 **You can play NetHack and several of its variants with graphics without compiling anything, from an online store, a download page, or a web browser.**
 
 ## 📖 About This List
 
 Every entry runs on the NetHack code base, shows the game with graphics such as tiles, isometric views, or 3D, has a build you can install or play without compiling anything, and has been updated since November 2024. Text-only builds, source-only projects, ports that have been superseded by a newer one, and games that are merely inspired by NetHack are left out; projects that were checked but dropped are listed in [[Unmaintained and Not Listed|#unmaintained-and-not-listed]].
 
-Entries are in alphabetical order within each section. A project with a listing in an online store is under Online Stores, together with its other downloads. A project that has both an installable version and a browser version has an entry in each section. Store listings, prices, and download links change over time.
+Entries are in alphabetical order within each section. A project with a listing in an online store is under Online Stores, together with its other downloads. A project that has both an installable version and a browser version has an entry in each section.
 
 ## 🔣 Icons Used on This Page
 
@@ -246,14 +246,14 @@ The other projects on this page, including NetHack 3D, VoxHack, DartHack, and th
 
 ## 🏆 Most Developed Interfaces
 
-Judged only by the work put into the graphical interface itself, not by gameplay changes, server hosting, or other development, these projects stand out:
+Counting only the work on the graphical interface itself, not gameplay changes or server hosting, these projects are the furthest along:
 
-- **GnollHack** — Over 23,000 hand-drawn animated tiles, 37 music tracks, over 1,100 sound effects, and over 5,000 voiced lines, in a custom interface built for touch, mouse, keyboard, and game controllers. The interface has been developed since 2019 and runs on Android, iOS, Linux, macOS, Windows, and the Steam Deck.
+- **GnollHack** — Over 23,000 animated tiles, 37 music tracks, over 1,100 sound effects, and over 5,000 voiced lines, in a custom interface built for touch, mouse, keyboard, and game controllers. The interface has been developed since 2019 and runs on Android, iOS, Linux, macOS, Windows, and the Steam Deck.
 - **NetHack 3D** — A full 3D renderer with overhead, first-person, and virtual reality views, several built-in tile sets, and sound effects, developed since 2025. It runs in web browsers and on Android, Linux, macOS, Windows, and Meta Quest, and has frequent releases.
 
 ## 💡 Which One to Pick?
 
-Each list starts with the projects that have the most developed interfaces, followed by the other established projects and then the newest ones, which are still experiments.
+In each list, the projects under Most Developed Interfaces come first, then the other established projects, then the experiments.
 
 ### By Device
 
