@@ -72,6 +72,11 @@ is dark only; there is no light mode.
   bar), `#search-query`, `.breadcrumb`, block quotes, tables (`th`, even rows, borders),
   `pre` and inline `code`, Rouge tokens, `hr`, `kbd`, `.katex`, `.toc` and `.toc-title`,
   `.Box` and `#wiki-header`, the sidebar and footer.
+- Width: Gollum nests a second 1012px `container-lg` (`.main-content`) inside the panel.
+  From 1012px up, `body > .container-lg` is widened to 1110px with a 16px inline gutter, so
+  the 1078px panel (32px padding and 1px border per side) holds the full inner container.
+  Going wider also means overriding `.main-content`; with the sidebar, the text column is
+  already about 87 characters per line.
 - After any Gollum upgrade, re-run the visual checks (section 7): new Primer variables or
   hard-coded colors show up there first.
 

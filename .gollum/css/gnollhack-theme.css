@@ -736,6 +736,14 @@
 
 /* Desktop: the panel floats above the background art. */
 @media screen and (min-width: 1012px) {
+  /* The panel is at most 1078px wide: Gollum's inner 1012px container-lg plus the
+     panel's padding and border. The inline padding keeps a gutter beside it in
+     narrower windows. */
+  body > .container-lg {
+    max-width: 1110px;
+    padding-inline: 16px;
+  }
+
   #wiki-wrapper {
     --gh-panel-pad: 32px;
     margin: 32px 0 48px;
