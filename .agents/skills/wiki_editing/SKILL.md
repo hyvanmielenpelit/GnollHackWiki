@@ -5,7 +5,7 @@ description: "Instructions and conventions for editing the GnollHack Wiki Markdo
 
 # GnollHack Wiki Editing Guidelines
 
-When editing or creating pages for the GnollHack Wiki, follow these conventions. Read section 19, Writing Style, before writing any prose: the formatting rules below say how a page looks, and section 19 says how it reads.
+When editing or creating pages for the GnollHack Wiki, follow these conventions. Read section 19, Writing Style, before writing any prose: the formatting rules below say how a page looks, and section 19 says how it reads. Section 20 says when and how a page states the date or version it is valid for.
 
 ## 1. File and Heading Structure
 - **Page Titles**: The wiki automatically uses the filename (without `.md`) as the page title. Never start a page with an `H1` (`#`) or `H2` (`##`) heading that is identical to the page's name (the filename without extension). In such cases, omit the heading completely, as it is implied and provided to the page from the filename. Use a single `H1` heading (`#`) on the very first line ONLY if you need a custom title that differs from the filename (e.g., incorrect filename casing or special pages like the home page). In most cases, an H1 is not needed. Never apply a Unicode icon to `H1` (`#`) headings.
@@ -14,7 +14,7 @@ When editing or creating pages for the GnollHack Wiki, follow these conventions.
 - **Subdirectories**: Group files into subdirectories (e.g., `/Monsters/`, `/Items/`) to prevent naming conflicts and organize content.
 - **Ingress**: If an article has an ingress, it must be styled as a block quote (`>`) starting with a `👉` emoji, followed by bold text (e.g., `> 👉 **This is the ingress.**`). An ingress is optional and one sentence long. It states something about the subject ("Auto-stashing puts the items you pick up into the best container you carry."), never about the page ("This page details…", "This guide explains…"). Leave it out on short pages and on pages whose first paragraph already does the job. An existing two-sentence ingress needs no change unless the page is being rewritten.
 - **Lists**: Use a dash (`-`) for Markdown lists instead of an asterisk (`*`) by default.
-- **Closing Link Sections**: Keep wiki pages and external websites in separate sections at the end of a page. A `## 📖 Learn More` or `## 📖 See Also` section lists only wikilinks to other pages of this wiki. External links (standard Markdown links to other websites) go into their own `## 🔗 External Links` section, placed after it as the last section of the page. Use `## 📖 References` instead when the links are the sources that the page's facts are based on. The icon marks the destination: a book icon means the links stay inside this wiki, and a link icon means they leave it. The same icons apply to an `H3` link subsection inside a longer page. Never mix wikilinks and external links in one list. A closing section is the exception, not the default: section 4 and `AGENTS.md` allow it only for a few essential links that cannot be placed inline, and a hub page that lists the articles of its series is the other case where one belongs. Never add a `### 📖 Learn More` block after each section of a page; link the pages inline where the text mentions them.
+- **Closing Link Sections**: Keep wiki pages and external websites in separate sections at the end of a page. A `## 📖 Learn More` or `## 📖 See Also` section lists only wikilinks to other pages of this wiki. External links (standard Markdown links to other websites) go into their own `## 🔗 External Links` section, placed after it, as the last section of the page except for a Validity section (section 20). Use `## 📖 References` instead when the links are the sources that the page's facts are based on. The icon marks the destination: a book icon means the links stay inside this wiki, and a link icon means they leave it. The same icons apply to an `H3` link subsection inside a longer page. Never mix wikilinks and external links in one list. A closing section is the exception, not the default: section 4 and `AGENTS.md` allow it only for a few essential links that cannot be placed inline, and a hub page that lists the articles of its series is the other case where one belongs. Never add a `### 📖 Learn More` block after each section of a page; link the pages inline where the text mentions them.
 - **Curating Closing Links**: Closing link sections are rigorously curated, not exhaustive. List only the pages a reader of this article would genuinely want next: its direct prerequisites and follow-ups, the pages it depends on, and the pages that answer the obvious next question. Leave out anything only vaguely related; a page that merely shares a topic area, or that is listed for completeness, buries the links that matter and makes the section worth less than a shorter one would be. A link to a hub page is always acceptable when the article belongs to a series that the hub hosts. Prefer a short list; when in doubt, leave the link out.
 
 ## 2. Wikilinks (Gollum Syntax)
@@ -275,6 +275,7 @@ Use the icons below where they carry meaning: the callout icon at the start of a
 - **Document Structure**:
   - Ingress: `👉` (`> 👉 **Auto-stashing puts the items you pick up into the best container you carry.**` at the top of a page; see section 1)
   - Conclusions / Summary: `💡` (e.g., `## 💡 Conclusions`)
+  - Validity: `📅` (`## 📅 Validity`, the last section; see section 20)
 
 - **User Interface & Interaction Controls**:
   - Keyboard Shortcuts / Keys / Commands: `⌨️`
@@ -481,3 +482,54 @@ formatting rules above say how a page looks; this section says how it reads.
 
 Before finishing, reread every paragraph you wrote and cut anything a player would skim
 past.
+
+## 20. Validity
+
+A few pages describe things that change often enough that a reader needs to know when the
+page was checked: which AI models are offered, benchmark settings and versions, the results
+of a web scan, known working build setups, library versions in a design, or a feature that is
+still being developed. Such a page says once, in a last section of its own, when its content
+was checked and for which version.
+
+- **Only where it is critical.** Add the section only when the date or version is part of
+  what the reader needs to judge the page, because the content is expected to change from
+  one release or month to the next. Most pages do not need one, including pages with an
+  occasional "at the moment" or "not yet" about a stable fact, pages about game mechanics,
+  and hub pages. When in doubt, leave it out.
+- **Only a date that means something.** The date is the day the facts were checked, or a
+  date the content is tied to, such as a scan or a benchmark version. Never use a date only
+  because a line was written then, or because of an unrelated event such as a wiki
+  migration. If no such date is known, do not add the section.
+- **Heading and place:** `## 📅 Validity`, the very last section of the page, after any
+  See Also, Learn More or External Links section.
+- **Content:** as short as possible: "As of version 3.39." Add a date only when the content
+  is tied to one rather than to a game version, and add other versions only when the page
+  depends on several, such as a library or benchmark version. Nothing else: no explanation
+  of what was checked or why it may change. Examples:
+  - "As of version 3.39."
+  - "As of November 1, 2026."
+  - "As of version 3.39, with Sentry 6.12.1 and sentry-native 0.17.2."
+  - "As of harness version 45 and scoring method version 13 (October 2026)."
+- **Nowhere else.** Do not put "As of …" in the ingress, in a callout at the top, or in
+  running text when it repeats the page's validity date. A sentence-level note about a
+  third-party tool's own version, such as which Xcode goes with which .NET SDK, may stay
+  where it is.
+- **Which version:** never name a version newer than the latest release on GitHub. Find it
+  with
+  `gh release list --repo hyvanmielenpelit/GnollHack --exclude-drafts --exclude-pre-releases --limit 1`.
+  Write the client version, as in "version 3.39": GitHub's "4.3.0 Build N" is client
+  version "3.N". The version number on `master` (`ApplicationDisplayVersion` in
+  `GnollHackM.csproj`, `EDITLEVEL` in `include/patchlevel.h`) is not released and is never
+  named on a page.
+- **Release or `master`:** check whether `master` has changed what the page describes since
+  the release tag, for example with `git log 4.3.0-39..origin/master -- <relevant paths>`.
+  If nothing relevant has changed, write the release ("As of version 3.39."); this is
+  preferred. If something has, write "As of the development code on `master`, <date>."
+- **Steam-only builds:** some builds were released only on Steam, such as 3.37 (4.3.0
+  Build 37), the macOS release. History may name them, but the latest GitHub release is the
+  reference for a Validity section.
+- **Dates:** US format, "November 7, 2026". When you edit such a page without re-checking
+  its facts, leave the date alone.
+- **Out of scope:** history ("released on …", "since …"), feature-introduction versions
+  ("starting from version 3.32"), AI instruction pages, and legal pages, which keep their
+  "Last updated" line at the top.

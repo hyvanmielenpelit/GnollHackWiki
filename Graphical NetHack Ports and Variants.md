@@ -6,8 +6,6 @@ Every entry runs on the NetHack code base, shows the game with graphics such as 
 
 Entries are in alphabetical order within each section. A project with a listing in an online store is under Online Stores, together with its other downloads. A project that has both an installable version and a browser version has an entry in each section. Store listings, prices, and download links change over time.
 
-**Last web scan:** November 7, 2026. Each scan rechecks every entry on this page and searches the web, including the r/nethack subreddit, for new projects.
-
 ## 🔣 Icons Used on This Page
 
 | Icon | Meaning |
@@ -376,3 +374,7 @@ These projects were checked but left out of the lists above. Unmaintained ports 
 
 - [[Comparison of NetHack GUIs]]
 - [[Comparisons to Other Games]]
+
+## 📅 Validity
+
+**Last web scan:** November 7, 2026.

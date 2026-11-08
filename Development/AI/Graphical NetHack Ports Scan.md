@@ -5,7 +5,7 @@ These instructions update the [[/Graphical NetHack Ports and Variants]] page by 
 ## Before You Start
 
 1. Read `.agents/skills/wiki_editing/SKILL.md` and the whole `Graphical NetHack Ports and Variants.md` page.
-2. Find the line on the page that starts with `**Last web scan:**`. Its date is the start of the search window, and today is its end. If the line is missing, stop and ask the user.
+2. Find the `**Last web scan:**` line in the page's `## 📅 Validity` section, which is the last section of the page. Its date is the start of the search window, and today is its end. If the line is missing, stop and ask the user.
 3. Note the listing criteria in the page's "About This List" section and the status definitions in its "Icons Used on This Page" table. If they disagree with these instructions, stop and report the disagreement to the user instead of choosing one. The "Projects Left Out on Purpose" section is not stated on the page, and its absence there is not a disagreement.
 
 ## Listing Criteria
@@ -87,7 +87,7 @@ Check each candidate against the Listing Criteria on the project's own pages, ne
 - Update every other place on the page that names projects: the At a Glance table, the Scoreboards and Tournaments list and the paragraph under it, the "Which One to Pick?" section, and the closing table.
 - In "Which One to Pick?", add each new or returning project to every numbered list it fits, and remove a dropped project from every list. Order each list by group: the projects in "Most Developed Interfaces" first, then the other In active development and Maintained projects, and then the Experiments, in alphabetical order within each group. When a project's status changes, move it to its new group. Add a note in parentheses only when the list needs it, such as "(web version)", "(Apple silicon)", or the variant a project plays. Each name links to its entry, as in the existing items. Do not add or remove lists or headings; suggest changes in the report instead.
 - "Most Developed Interfaces" is a judgment. Do not add projects to it or remove projects from it; suggest changes in the report instead.
-- Set the date on the `**Last web scan:**` line to the scan date, in the form `Month D, YYYY`.
+- Set the date on the `**Last web scan:**` line in the `## 📅 Validity` section to the scan date, in the form `Month D, YYYY`.
 - In the first paragraph of "About This List", change the month and year in "has been updated since [Month Year]" to two years before the scan date.
 - Write correct US English grammar, following "Grammar and Capitalization" in `wiki_editing` section 6. Start every sentence and the text in every table cell with a capital letter. A name styled with a lowercase first letter, such as iNethack2, xNetHack, itch.io, or nethack.app, keeps its styling: it may start a table cell or a list item, but rephrase a sentence in running text so that it does not start with one. After a label and a colon, such as a status name, "Unmaintained", or a link in an entry's link list, start the definition, reason, or platform list with a capital letter; inside a running sentence, the word after a colon stays lowercase.
 - Before finishing, reread the whole page, not only the rows you changed, and fix every grammar and capitalization error you find. Check especially that each verb agrees with its subject, that each list in a description is grammatical and unambiguous, and that the paragraphs and tables you updated still read as complete sentences.

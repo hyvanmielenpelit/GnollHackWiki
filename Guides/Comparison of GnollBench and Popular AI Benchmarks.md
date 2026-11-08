@@ -2,8 +2,6 @@
 
 > 👉 **GnollBench, the Gnoll Overseer's AI benchmarking system, measures how well the Overseer works with a given model, while public benchmarks such as those of Artificial Analysis measure what a model can do in general.**
 
-> ℹ️ **Note:** Public benchmarks change quickly. They are described here as of September 2026, so check each benchmark's own pages, linked at the end, for current details. GnollBench is described as of October 2026: harness version 45 and scoring method version 13.
-
 ## 📖 Two Different Questions
 
 All AI benchmarks give models a fixed set of tasks and turn the results into numbers. Where they differ is the question the numbers answer.
@@ -215,3 +213,7 @@ The models this process selected for the Overseer are listed in [[/Guides/Choosi
 - [HealthBench](https://openai.com/index/healthbench/)
 - [BALROG: Benchmarking Agentic LLM and VLM Reasoning On Games](https://arxiv.org/abs/2411.13543)
 - [An LLM Beat NetHack](https://kenforthewin.github.io/blog/posts/llm-nethack-ascension/)
+
+## 📅 Validity
+
+Public benchmarks as of September 2026. GnollBench as of harness version 45 and scoring method version 13 (October 2026).

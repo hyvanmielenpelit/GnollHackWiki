@@ -4,7 +4,7 @@
 
 ## 🧠 Available Models
 
-As of November 1, 2026, three free system models are available. The Overseer's models are benchmarked with [[/GnollBench]].
+Three free system models are available. The Overseer's models are benchmarked with [[/GnollBench]].
 
 | Model | Thinking Level | Provider | Intelligence | Speed | Cost | Best For |
 | :---- | :------------- | :------- | :----------- | :---- | :--- | :------- |
@@ -42,3 +42,7 @@ Your API key is stored encrypted on the Overseer server. If you use Confidential
 - [[/Gnoll Overseer]]
 - [[/Guides/Introduction to Gnoll Overseer]]
 - [[/Guides/Advanced Guide to Gnoll Overseer]]
+
+## 📅 Validity
+
+As of November 1, 2026.

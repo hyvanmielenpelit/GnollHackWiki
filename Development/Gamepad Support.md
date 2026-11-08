@@ -1,4 +1,4 @@
-> 👉 **As of version 3.40 (November 7, 2026), GnollHack supports game controllers on the Steam Deck, Windows, desktop Linux and macOS, but not yet on Android or iOS.**
+> 👉 **GnollHack supports game controllers on the Steam Deck, Windows, desktop Linux and macOS, but not yet on Android or iOS.**
 
 ## ℹ️ Overview
 
@@ -283,3 +283,7 @@ Setting up a Deck for testing is explained in [[/Development/Testing Avalonia Li
 - [[/Development/Avalonia Port]]
 - [[/Commands]]
 - [[/Development Information]]
+
+## 📅 Validity
+
+As of version 3.39.

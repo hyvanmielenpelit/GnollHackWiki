@@ -2,8 +2,6 @@
 
 Building the native crash reporting libraries, the build-time check, updating Sentry and testing are on [[/Development/Build Instructions for Native Crash Reporting]]. Paths on this page are in the GnollHack repository: `xpl` stands for `win/win32/xpl`, and a path that starts with `Platforms/` is in `xpl/GnollHackM/`.
 
-> ℹ️ **Note:** This page reflects the code on November 7, 2026 (version 3.40), with Sentry 6.12.1 and sentry-native 0.17.2.
-
 ## ℹ️ Overview
 
 Two Sentry SDKs run in the same process:
@@ -181,7 +179,7 @@ A Release publish uploads the symbols that Sentry needs to name the engine's fun
 - **`libsentry.so`'s own symbols** are not uploaded, so frames inside it have no function names.
 - **On Linux, CEF** could replace sentry-native's handlers, and the game can only detect that, not undo it.
 - **On Windows**, the vectored handler covers only the modules in its list.
-- **Sentry .NET 7.0** makes `ScopeObserver`, `EnableScopeSync` and `CrashedLastRun` internal, and this design sets all three. As of November 7, 2026, 7.0 is still a release candidate (7.0.0-rc.3). Updating to it needs another way to copy the scope into sentry-native and to report the crashed session.
+- **Sentry .NET 7.0** makes `ScopeObserver`, `EnableScopeSync` and `CrashedLastRun` internal, and this design sets all three. Sentry .NET 7.0 is still a release candidate (7.0.0-rc.3). Updating to it needs another way to copy the scope into sentry-native and to report the crashed session.
 
 ## ⚠️ Workarounds
 
@@ -224,3 +222,7 @@ The defects in Sentry .NET, Sentry.Maui and sentry-native that this design works
 - [GnollHack workaround register: sentry.md](https://github.com/hyvanmielenpelit/GnollHack/blob/master/DEVEL/workarounds/sentry.md)
 - [sentry-native](https://github.com/getsentry/sentry-native)
 - [Sentry .NET](https://github.com/getsentry/sentry-dotnet)
+
+## 📅 Validity
+
+As of version 3.39, with Sentry 6.12.1 and sentry-native 0.17.2.

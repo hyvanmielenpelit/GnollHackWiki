@@ -2,8 +2,6 @@
 
 > 👉 **In a standard GnollBench run, each answer is graded against its question's rubric by two assessors from two different AI companies, and harder questions weigh more in the final result.**
 
-> ℹ️ **Note:** This article describes GnollBench as of October 2026: harness version 45 and scoring method version 13. Figures such as limits and thresholds may change in later versions.
-
 > ℹ️ **Note:** This is part 2 of the three GnollBench guides. Part 1, [[/Guides/Introduction to GnollBench]], is for newcomers. Part 2, **Advanced Guide to GnollBench**, explains scoring, grading, and repeated runs. Part 3, [[/Guides/Technological Overview of GnollBench]], gives the formulas and statistics.
 
 ## 🐺 GnollBench at a Glance
@@ -358,3 +356,7 @@ Several things that matter in the live chat are not measured yet:
 - [[/Guides/Comparison of GnollBench and Popular AI Benchmarks]] — How GnollBench relates to well-known public AI benchmarks.
 - [[/Guides/Choosing AI Model for Gnoll Overseer]] — Which model to pick for which task.
 - [[/Guides/Technological Overview of Gnoll Overseer]] — The architecture of the Overseer service.
+
+## 📅 Validity
+
+As of harness version 45 and scoring method version 13 (October 2026).

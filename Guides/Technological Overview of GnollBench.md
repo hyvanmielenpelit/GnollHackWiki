@@ -2,8 +2,6 @@
 
 > 👉 **GnollBench is a domain-specific, agentic, rubric-graded evaluation in which a candidate model answers GnollHack questions under the production chat's system prompt and tools, and a two-company panel of judge models grades each answer.**
 
-> ℹ️ **Note:** This article describes GnollBench as of October 2026: harness version 45 and scoring method version 13. Figures such as limits and thresholds may change in later versions.
-
 > ℹ️ **Note:** This is part 3 of the three GnollBench guides. Part 1, [[/Guides/Introduction to GnollBench]], is for newcomers. Part 2, [[/Guides/Advanced Guide to GnollBench]], explains scoring, grading, and repeated runs. Part 3, **Technological Overview of GnollBench**, gives the formulas and statistics.
 
 ## 🐺 GnollBench at a Glance
@@ -488,3 +486,7 @@ Report documents can be shared with a tested model's provider at a limited level
 - [[/Guides/Advanced Guide to GnollBench]] — The intermediate GnollBench guide to scoring, grading, and repeated runs.
 - [[/Guides/Comparison of GnollBench and Popular AI Benchmarks]] — How GnollBench relates to well-known public AI benchmarks.
 - [[/Guides/Technological Overview of Gnoll Overseer]] — The architecture of the Overseer service, including the tools a GnollBench candidate uses.
+
+## 📅 Validity
+
+As of harness version 45 and scoring method version 13 (October 2026).
