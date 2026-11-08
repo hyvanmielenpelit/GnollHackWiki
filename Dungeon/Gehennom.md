@@ -1,25 +1,15 @@
-> 👉 **Gehennom is the fiery, unforgiving underworld that makes up the second half of the game. It is a grueling test of endurance, resistance, and navigation.**
+> 👉 **Gehennom is the lower half of the dungeon, home to demon lords, powerful undead and the Wizard of Yendor.**
 
-**Location:** Begins immediately below the [[/Dungeon/Underground Castle]] (which is at level 24–25). Gehennom spans 18–20 levels.
+Gehennom begins directly below the [[/Dungeon/Underground Castle]], which is on level 24 or 25, and is 18 to 20 levels deep. [[/Dungeon Layout]] gives the depth of each of its special levels.
 
-It is the domain of demon lords, powerful undead, and the dreaded [[/Monsters/Wizard of Yendor]].
-
-## ℹ️ Characteristics
-
-- **Environment:** There is no natural light. Fire traps and lava are omnipresent. Fire resistance is practically mandatory for survival.
+The ordinary levels between the special ones are caverns. Half of them are lit, and two in three have lava along the edges of the map and a lava river across it. Fire traps are generated at random only in Gehennom, and there at least one random trap in five is a fire trap, so fire resistance is close to a requirement.
 
 ## 🚩 Special Levels and Branches
 
-Gehennom is home to numerous unique locations and challenges:
-- **[[/Dungeon/Valley of the Dead]]**: The very first level of Gehennom, packed with graves, undead, and a temple to Moloch.
-- **Demon Lairs**: You will encounter the domains of several demon lords, including [[/Dungeon/Dis]], [[/Dungeon/Maladomini]], [[/Dungeon/Jubilex's Realm]], [[/Dungeon/Orcus Town]], [[/Dungeon/Lair of Tarrasque]], and [[/Dungeon/Yeenaghu's Domain]].
-- **[[/Dungeon/Vlad's Tower]]**: Branches upwards from the middle of Gehennom.
-- **[[/Dungeon/Wizard's Tower]]**: A heavily guarded structure where the [[/Monsters/Wizard of Yendor]] waits with the [[/Artifacts/Book of the Dead]].
-- **[[/Dungeon/Fake Wizard's Towers]]**: Two decoy towers, one of which contains the portal to the true [[/Dungeon/Wizard's Tower]].
-- **[[/Dungeon/Plane of the Modron]]** & **[[/Dungeon/Hellish Pastures]]**: Unique GnollHack branches accessible via portals in Gehennom.
-- **The Vibrating Square:** A hidden, unremarkable-looking square on the lowest regular level of Gehennom. You must find it to perform the Invocation.
-- **[[/Dungeon/Moloch's Sanctum]]**: The final level of Gehennom, accessed only after performing the Invocation on the vibrating square.
-
-
-
-
+- [[/Dungeon/Valley of the Dead]] is the first level, full of graves and undead, with a temple of Moloch.
+- [[/Dungeon/Dis]], [[/Dungeon/Maladomini]], [[/Dungeon/Jubilex's Realm]], [[/Dungeon/Orcus Town]] and [[/Dungeon/Yeenaghu's Domain]] are the domains of demon lords.
+- [[/Dungeon/Lair of Tarrasque]] belongs to the [[/Monsters/Tarrasque]], a unique monster but not a demon lord.
+- The stairs up to [[/Dungeon/Vlad's Tower]] are in the middle of Gehennom.
+- [[/Dungeon/Plane of the Modron]] and [[/Dungeon/Hellish Pastures]] are GnollHack branches, reached through portals.
+- The [[/Monsters/Wizard of Yendor]] waits with the [[/Artifacts/Book of the Dead]] in the heavily guarded [[/Dungeon/Wizard's Tower]]. Its entrance is a portal in one of the two decoy [[/Dungeon/Fake Wizard's Towers]].
+- The vibrating square is a hidden square on the lowest ordinary level, which is a maze. You must find it to perform the Invocation, which opens the way down to [[/Dungeon/Moloch's Sanctum]], the last level.

@@ -1,8 +1,8 @@
 ![public-servers](/uploads/Public%20Servers/public-servers.webp)
 
 You can play the text version of GnollHack on public servers over SSH. Two types of servers are available:
-* [[GnollHack Servers]] — We have proprietary GnollHack servers for a streamlined online play experience.
-* [[Hardfought Servers]] — GnollHack is also available on Hardfought servers, which host most NetHack variants.
+- [[GnollHack Servers]] — We have proprietary GnollHack servers for a streamlined online play experience.
+- [[Hardfought Servers]] — GnollHack is also available on Hardfought servers, which host most NetHack variants.
 
 ## SSH Clients
 

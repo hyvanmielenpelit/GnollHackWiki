@@ -1,18 +1,5 @@
-> 👉 **GnollHack introduces dynamic animations for characters, spell effects, and environmental hazards to bring the turn-based roguelike world to life.**
-
-## 🎬 In-Game Animations
+> 👉 **GnollHack animates its characters, spell effects, explosions and most traps.**
 
 ![Elven Ranger Fire Animation](/uploads/Animations/elven_ranger-export.webp)
 
-### 🏃 Action & Movement Animations
-
-- **Animation support** — Support for both stand animations (like moving fire) and action animations (such as an attack with a sword swing).
-- **Character action animations** — All characters have attack and kick animations. Spellcasters also have spell casting animations.
-
-### 💥 Explosion & Effect Animations
-
-- **Effect animations** — Explosions, rays, swallow graphics, and special effects are fully animated.
-
-### 🪤 Trap & Hazard Animations
-
-- **Trap animations** — Most traps in the game have been animated.
+There are two kinds of animation: stand animations, such as moving fire, and action animations, such as the swing of a sword in an attack. Every character has attack and kick animations, and spellcasters also have one for casting a spell. Explosions, rays, the swallow graphics and other special effects are animated too.

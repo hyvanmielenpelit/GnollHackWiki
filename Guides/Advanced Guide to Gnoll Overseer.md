@@ -1,28 +1,22 @@
 ![Gnoll Overseer](/uploads/Guides/Introduction%20to%20Gnoll%20Overseer/gnoll-overseer-avatar-frame-256x256-q85.webp)
 
-> 👉 **Unlock the full potential of the Gnoll Overseer to speed up your learning and master the deep mechanics of GnollHack.**
-
-## 🏆 Overview
-
-While the [[/Guides/Introduction to Gnoll Overseer]] covers the basics, this guide dives into how the AI advisor can help you become a better player. GnollHack is a game of discovery, survival, and complex interactions. The Overseer acts as a seasoned veteran sitting next to you, ready to offer advice, explain mechanics, and help you analyze your past games.
+> 👉 **The Gnoll Overseer looks up game data, source code, and the wikis with tools on its server, and reads your live game and past records with tools on your device.**
 
 ## ⚔️ Real-Time Tactical Advice
 
-One of the most powerful ways the Overseer helps you learn is by understanding your current game situation. When you open the Overseer from within a game, it receives a snapshot of your character's stats, your inventory, the surrounding dungeon map, and recent game messages (if **Send Game Context** is on).
+When you open the Overseer from a game with **Send Game Context** on, it receives a snapshot of your character's stats, your inventory, the surrounding dungeon map, and recent game messages. This setting and the other basics are in the [[/Guides/Introduction to Gnoll Overseer]].
 
-You can use this to your advantage in several ways. For example, if you are cornered by dangerous monsters and low on health, ask the Overseer what your best options are. It can check your inventory for escape items (like a [[/Items/wand of teleportation]] or a [[/Items/scroll of earth]]) and suggest the safest course of action.
+If you are cornered by dangerous monsters and low on health, ask the Overseer what your options are. It can check your inventory for escape items, such as a [[/Items/wand of teleportation]] or a [[/Items/scroll of earth]], and suggest the safest course of action.
 
 ## 📖 Deep Game Knowledge on Demand
 
-GnollHack has hundreds of monsters, items, artifacts, and hidden mechanics. Memorizing all of them takes time. The Overseer can provide exact details whenever you need them, acting as an interactive encyclopedia.
+GnollHack has hundreds of monsters, items, artifacts, and hidden mechanics, and the Overseer can look up the exact details of any of them whenever you need them.
 
-- **Monster and Item Stats:** Ask about specific enemies before engaging them in combat. The Overseer can tell you their resistances, attack types, and speed, helping you decide whether to fight or flee.
-- **Complex Mechanics:** If you don't understand how a game mechanic works (like spellcasting success rates, armor class calculations, or prayer timeouts), the Overseer can break down the exact rules for you.
-- **Strategic Advice:** Ask which skills to train, which weapons suit your role, or what to prepare before entering difficult areas like Gehennom.
+- Before you engage a monster, ask for its resistances, attack types, and speed to decide whether to fight or flee.
+- For a mechanic you don't understand, like spellcasting success rates, armor class calculations, or prayer timeouts, the Overseer can lay out the exact rules.
+- It also gives strategic advice: which skills to train, which weapons suit your role, or what to prepare before entering difficult areas like Gehennom.
 
 ## 🧰 The Overseer's Toolkit
-
-Behind the scenes, the Overseer uses specialized tools to answer your questions and understand your game.
 
 ### 🌐 Game Knowledge and Reference (Server-Side)
 
@@ -66,17 +60,17 @@ Both **Client Data Access** in the game's [[Settings|/Settings#gnoll-overseer-se
 
 ## 📈 Learning from Past Mistakes
 
-Every death in GnollHack is a learning opportunity. The Overseer can read your past game records and help you understand what went wrong.
+The Overseer can read the records of your past games and help you understand what went wrong. In the app, it reads your own dumplogs directly from the device. On the web, attach the dumplog file (`.txt` or `.html`) to your message.
 
-- **In the app:** The Overseer reads your own dumplogs directly from the device.
-- **On the web:** Attach the dumplog file (`.txt` or `.html`) to your message.
-- **Strategic Adjustments:** Based on your past games, the Overseer can suggest changes to your playstyle, such as being more careful with encumbrance, managing your health better, or using your role's abilities more effectively.
+Based on your past games, it can also suggest changes to your playstyle, such as being more careful with encumbrance, managing your health better, or using your role's abilities more effectively. For example, you can ask:
 
-> 💡 **Example:** "Why did my last character die?" — "Look at my last three dumplogs. What mistakes do I keep making?" — "Compare my best and worst games as a Valkyrie."
+- "Why did my last character die?"
+- "Look at my last three dumplogs. What mistakes do I keep making?"
+- "Compare my best and worst games as a Valkyrie."
 
 ## 🤫 Managing Spoilers While Learning
 
-A significant part of learning GnollHack is discovering things on your own. The Overseer follows a spoiler policy so that it does not ruin surprises unless you want it to.
+Part of learning GnollHack is discovering things on your own, so the Overseer follows a spoiler policy and does not ruin surprises unless you want it to.
 
 | Policy Level | Information Scope | Overseer Behavior |
 |---|---|---|
@@ -91,13 +85,11 @@ Spoilers are controlled in two places:
 - **In the game:** **Allow Spoilers** in the game's [[Settings|/Settings#gnoll-overseer-settings]], off by default.
 - **On the web:** **Spoiler-Free Mode** in the web settings, on by default.
 
-For chats opened from the game, the in-game setting wins. The chat shows a **No spoilers** or **Spoilers** badge, so you can always see which applies. Keeping spoilers off is recommended for new players who want to experience the joy of discovery, while turning them on helps players who want to study the game's mechanics in depth.
+For chats opened from the game, the in-game setting wins. The chat shows a **No spoilers** or **Spoilers** badge, so you can always see which applies. Keep spoilers off if you are new and want to find things out yourself, and turn them on if you want to study the game's mechanics in depth.
 
 ## ⚙️ Tailoring the Experience
 
-You can customize the Overseer to suit your learning style:
-
-- **Verbose Responses:** Turn this in-game setting on if you prefer comprehensive explanations of game mechanics, or leave it off for concise, tactical answers. It exists in the game only.
+- **Verbose Responses:** Turn this in-game setting on if you prefer detailed explanations of game mechanics, or leave it off for short, tactical answers. It exists in the game only.
 - **Pinning:** Use the pin icon to keep a chat at the top of your chat list and protect it from automatic deletion. This is useful for long-term strategies, checklists, and explanations you want to refer back to.
 - **Your Own API Key:** If you hit the usage limits of the system models or want a different model, add your own key on the **API Keys** page, then select **Models → Add Model**. Anthropic, Google, and OpenAI are supported. You then pay your provider for what you use, and the provider's own limits apply. See [[/Guides/Choosing AI Model for Gnoll Overseer]].
 
@@ -134,9 +126,6 @@ You can customize the Overseer to suit your learning style:
 
 ## 📖 Learn More
 
-- [[/Gnoll Overseer]] — All Gnoll Overseer guides in one place.
-- [[/Guides/Introduction to Gnoll Overseer]] — What the Gnoll Overseer is and how to access it.
-- [[/Guides/Choosing AI Model for Gnoll Overseer]] — How to choose the right AI model.
-- [[/Guides/Chat Confidentiality Modes in Gnoll Overseer]] — Standard, Confidential, and Incognito chats.
-- [[/Guides/Technological Overview of Gnoll Overseer]] — The architecture behind the Overseer, for developers.
-- [[/Settings]] — All in-game settings, including the Gnoll Overseer section.
+- [[/Gnoll Overseer]]
+- [[/Guides/Technological Overview of Gnoll Overseer]]
+- [[/Settings]]

@@ -40,6 +40,7 @@ To participate in [Junethack](https://junethack.net/) using the **modern ports o
 ### Resulting Restrictions
 
 Enabling the **[[tournament mode]]** will result in the following restrictions:
+
 - **Classic mode** (permadeath) is enabled.
 - **Expert difficulty** is the minimum difficulty.
 - **Post Top Scores** is enabled.

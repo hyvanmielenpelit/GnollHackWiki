@@ -435,55 +435,38 @@
 
 ## 🧬 Mana Calculation Formulas
 
-This section explains the formulas used by the game engine to calculate starting mana (energy) and level-up mana progression.
-
 ### Starting Mana
 
-Starting mana is determined when the character is created. It consists of fixed and random components determined by class and race, plus the stat mana bonus at level 1.
+Starting mana is set when the character is created. The class and the race each give a fixed amount and roll a die, and the Intelligence and Wisdom bonus for level 1 is added on top:
 
-$\text{Starting Mana} = \text{Class Initial Mana} + \text{Race Initial Mana} + \text{Class Starting Random} + \text{Race Starting Random} + \text{Stat Mana Bonus}(1)$
+$\text{Starting Mana} = \text{Class Initial Mana} + \text{Race Initial Mana} + \text{Class Starting Roll} + \text{Race Starting Roll} + \text{Stat Mana Bonus}(1)$
 
-Where:
-- $\text{Class Initial Mana}$ is the starting *infix* field in the class's energy advancement configuration.
-- $\text{Race Initial Mana}$ is the starting *infix* field in the race's energy advancement configuration.
-- $\text{Class Starting Random}$ is rolled if *inrnd* is greater than 0: $\text{rnd}(\text{Class Starting Random Range})$.
-- $\text{Race Starting Random}$ is rolled if *inrnd* is greater than 0: $\text{rnd}(\text{Race Starting Random Range})$.
-- $\text{Stat Mana Bonus}(1)$ is the Intelligence and Wisdom mana bonus at level 1.
-- The average starting random component for a range parameter $N \gt 0$ is $\frac{N + 1}{2.0}$.
+*Class Initial Mana* and *Race Initial Mana* are the class's and the race's fixed starting mana, and the two rolls are their random starting mana. In the class and race tables above, Archaeologist's 1d4+3 means 3 fixed mana and a roll of a four-sided die. Each roll is a number from 1 to the size of the die, (size + 1) / 2 on average. A class or race with no starting die adds nothing random.
 
 ### Intelligence and Wisdom Mana Bonus
 
-The Intelligence and Wisdom mana bonus is applied at every experience level (including level 1) and is calculated using the following formula:
+At every experience level, including level 1, Intelligence and Wisdom add this bonus:
 
-$\text{Stat Mana Bonus}(L) = \lfloor \frac{\max\left(0.0, \frac{2 \times \text{Int} + \text{Wis}}{3.0} - 1.0\right) \times (L + 3)}{6.0} \rfloor$
+$\text{Stat Mana Bonus}(L) = \lfloor \frac{\max\left(0, \frac{2 \times \text{Int} + \text{Wis}}{3} - 1\right) \times (L + 3)}{6} \rfloor$
 
-Where:
-- $\text{Int}$ is the active Intelligence score of the character.
-- $\text{Wis}$ is the active Wisdom score of the character.
-- $\text{L}$ is the experience level of the character.
+*Int* and *Wis* are the character's current Intelligence and Wisdom, and *L* is the experience level. Intelligence counts twice as much as Wisdom, and the bonus is never negative.
 
 ### Mana Gained Per Level
 
-Each time the character gains a level (from level 2 to level 50), they receive a random increase in mana determined by two independent dice rolls for class and race:
+Each new level, from level 2 up to level 50, adds the class's and the race's fixed mana per level and one roll of each one's mana die:
 
-$\text{Mana Gain} = \text{Class lofix} + \text{Race lofix} + \text{rnd}(\text{Class lornd}) + \text{rnd}(\text{Race lornd})$
+$\text{Mana Gain} = \text{Class Fixed Gain} + \text{Race Fixed Gain} + \text{Class Roll} + \text{Race Roll}$
 
-Where:
-- $\text{Class lofix}$ and $\text{Race lofix}$ are the fixed minimum increases for the class and race, respectively.
-- $\text{Class lornd}$ and $\text{Race lornd}$ are the random range parameters (die sizes) for the class and race.
-- $\text{rnd}(N)$ generates a random integer in the range $[1, N]$ with uniform probability. If $N \le 0$, no roll is made and the term is $0$.
-- The average base gain per level is:
-  $\text{Gain}_{\text{avg}} = \text{Class lofix} + \text{Race lofix} + \frac{\text{Class lornd} + 1}{2.0} + \frac{\text{Race lornd} + 1}{2.0} = \text{Class lofix} + \text{Race lofix} + \frac{\text{Class lornd} + \text{Race lornd}}{2.0} + 1.0$ (when both range parameters are $\gt 0$).
+A class or race with no die adds only its fixed gain. When both have a die, the average gain per level, with *Class Die* and *Race Die* as the sizes of the two dice, is:
 
-> ⚠️ **Note on UI Display:** In the game UI, the combined advancement is represented as a single combined die: `+1d(Class lornd + Race lornd + 1) + (Class lofix + Race lofix - 1)`. While this single-die approximation has a slightly wider range than rolling two independent dice, it yields the same average base gain per level.
+$\text{Gain}_{\text{avg}} = \text{Class Fixed Gain} + \text{Race Fixed Gain} + \frac{\text{Class Die} + \text{Race Die}}{2} + 1$
+
+> ⚠️ **Note on UI Display:** The game UI shows the class and race gain as one combined die: +1d(Class Die + Race Die + 1) + (Class Fixed Gain + Race Fixed Gain - 1). It has the same maximum as the two real rolls, but a lower minimum, and its average is 1 lower than the real average gain (0.5 lower when only one of them has a die).
 
 ### Total Expected Mana at Level L
 
-At experience level $L$ (where $1 \le L \le 20$), the expected maximum mana is:
+The progression tables above give the expected maximum mana at levels 1 to 20:
 
 $\text{Expected Mana}(L) = \text{Starting Mana}\_{\text{avg}} + (L - 1) \times \text{Gain}\_{\text{avg}} + \text{Stat Mana Bonus}(L)$
 
-Where:
-- $\text{Starting Mana}_{\text{avg}}$ is the average starting mana of the class and race: $\text{Class Initial Mana} + \text{Race Initial Mana} + \text{Class Starting Random Average} + \text{Race Starting Random Average}$.
-- $\text{Gain}_{\text{avg}}$ is the average mana gained per level.
-- $\text{Stat Mana Bonus}(L)$ is computed using the average Intelligence and Wisdom scores for the class and race (subject to the race's attribute caps).
+*Starting Mana avg* is the class's and the race's fixed starting mana plus the average of both starting dice, and *Gain avg* is the average gain per level. The stat bonus uses the average Intelligence and Wisdom of the class and race, limited by the race's attribute maximums.

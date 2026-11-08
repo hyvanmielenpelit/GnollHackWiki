@@ -1,6 +1,6 @@
 ![GnollBench](/uploads/GnollBench/gnollbench-logo-256-v3.webp)
 
-> 👉 **GnollBench is the Gnoll Overseer's AI benchmarking system: a domain-specific, agentic, rubric-graded evaluation. This page describes it for readers who are familiar with model evaluation: the harness, the scoring model, the two-company grading panel, the grader protocol, the advisory evidence layer, run comparability, and the statistics used for repeated runs and for comparing conditions and models.**
+> 👉 **GnollBench is a domain-specific, agentic, rubric-graded evaluation in which a candidate model answers GnollHack questions under the production chat's system prompt and tools, and a two-company panel of judge models grades each answer.**
 
 > ℹ️ **Note:** This article describes GnollBench as of October 2026: harness version 45 and scoring method version 13. Figures such as limits and thresholds may change in later versions.
 

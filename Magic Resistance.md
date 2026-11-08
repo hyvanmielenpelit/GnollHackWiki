@@ -2,7 +2,7 @@
 
 ## ✨ Effects of Magic Resistance
 
-Magic resistance provides several benefits, protecting the player from various hazards. 
+Magic resistance provides several benefits, protecting the player from various hazards. It is one of the six categories in [[Resistances and Saving Throws]].
 
 ### 🧙 Monster Spells
 
@@ -100,7 +100,3 @@ Magic resistance does *not* protect you from:
 - [[/Items/Wand of polymorph]] zapped at yourself
 - [[/Spells/Polymorph other]] spell cast at yourself
 - Polymorph from drinking a [[/Items/potion of polymorph]]
-
-## 📖 See Also
-
-- [[Resistances and Saving Throws]]

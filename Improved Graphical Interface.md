@@ -1,4 +1,4 @@
-> 👉 **GnollHack features a heavily modernized graphical user interface with enhanced tile layers, dynamic updates, and high-resolution sprites, designed for optimal visual clarity.**
+> 👉 **GnollHack's tile interface draws several layers on each square, uses up to 16 dungeon tilesets and tiles larger than one square, and puts clarity ahead of artistic style.**
 
 ## 📱 Android Screenshot
 

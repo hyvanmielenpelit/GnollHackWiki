@@ -6,7 +6,7 @@
 | :-- | :----------- | :---------- |
 | **[NetHack Windows GUI](https://nethack.org/)** | The official NetHack GUI for Windows. | A very basic GUI with static 2D tiles. |
 | **[NetHack 3D by JamesIV4](https://github.com/JamesIV4/nethack-3d)** | A web-based 3rd party 3D GUI. | A 3D GUI with low-resolution pixel graphics, sounds, special effects, and VR support. |
-| **[GnollHack](https://gnollhack.com/)** | A modern roguelike game, based on the NetHack codebase. | A modern GUI with animated 2D graphics, sounds, music, and voiceovers. |
+| **[GnollHack](https://gnollhack.com/)** | A roguelike game based on the NetHack codebase. | A modern GUI with animated 2D graphics, sounds, music, and voiceovers. |
 
 ## 📊 Feature Comparison
 
@@ -15,9 +15,9 @@
 | Feature | NetHack Windows GUI | NetHack 3D | GnollHack |
 |---------|---------------------|------------|---------------------------|
 | **Visual perspective** | 2D top-down grid. Zooming in and out isn't possible, but a fit-to-screen mode scales the map to the window. | 3D perspective supporting a top-down view, a first-person mode, and a terminal view. VR modes are available on Meta Quest. Zooming in and out is possible. | High-resolution 2D top-down grid. Zooming in and out is possible. |
-| **Graphics and engine** | Traditional static 2D tilesets (typically 16x16 or 32x32 pixels). | Renders traditional 2D tilesets (such as the Nevanda tileset) as camera-facing elements inside a 3D dungeon. Ten tilesets are built in, custom tilesets can be imported, and a 3D ASCII mode is also available. | Advanced 2D graphical engine featuring massive tiles (between 64x96 and 192x192 pixels) and multiple layers. The tileset has over 23,000 base tiles.<sup>1</sup> |
+| **Graphics and engine** | Traditional static 2D tilesets (typically 16x16 or 32x32 pixels). | Renders traditional 2D tilesets (such as the Nevanda tileset) as camera-facing elements inside a 3D dungeon. Ten tilesets are built in, custom tilesets can be imported, and a 3D ASCII mode is also available. | 2D tiles between 64x96 and 192x192 pixels, drawn in multiple layers. The tileset has over 23,000 base tiles.<sup>1</sup> |
 | **Animations and effects** | None. | Defeated monsters can shatter into pieces with blood mist and splatter. Also features dynamic lighting, animated movement, floating damage indicators, and first-person weapon visuals. | Character animations (attacking, kicking, etc.), animated dungeon features, and spell effects. |
-| **Sound support** | Basic sound effects for musical instruments, squeaky boards, and gaining or losing experience levels (new in NetHack 5.0). Limited support for custom sound mapping. | Sound effects for exploration and combat. Custom sound packs can be created and edited in the game. | Advanced sound system featuring 1,100+ sound effects, 37 music tracks, and full voice acting (96 voice actors, 5,000+ voiceover lines). |
+| **Sound support** | Basic sound effects for musical instruments, squeaky boards, and gaining or losing experience levels (new in NetHack 5.0). Limited support for custom sound mapping. | Sound effects for exploration and combat. Custom sound packs can be created and edited in the game. | Over 1,100 sound effects, 37 music tracks, and voice acting by 96 voice actors (over 5,000 voiceover lines). See [[Advanced Sound System]]. |
 
 - <sup>1</sup> "Over 23,000 base tiles" means that GnollHack has over $23000 \times 64 \times 96$ pixels of custom tile graphics. That's over 141,312,000 pixels, which means *over 17 full 4K screens* of custom tile graphics. Some of these graphics are auto-generated, such as statue graphics, by our custom Tile Set Compiler. Animations also take up a lot of space.
 
@@ -26,10 +26,10 @@
 | Feature | NetHack Windows GUI | NetHack 3D | GnollHack |
 |---------|---------------------|------------|---------------------------|
 | **User interface** | Very basic UI with modal text windows. | Modern graphical UI with a HUD, a scalable minimap, and customizable hotbars. | Modern graphical UI with high-definition UI graphics. |
-| **Input and controls** | Keyboard-centric. Uses numpad or vi-keys for movement. Very rudimentary mouse support. No game controller support. | Keyboard and mouse, controller (with radial action menus), and touch controls. Tracked controllers are supported in VR. | Modern keyboard, touch, and mouse support tailored for point-and-click gameplay. Controller support (with radial action menus) on the Steam Deck, Linux, macOS, and Windows. |
+| **Input and controls** | Keyboard-centric. Uses numpad or vi-keys for movement. Very rudimentary mouse support. No game controller support. | Keyboard and mouse, controller (with radial action menus), and touch controls. Tracked controllers are supported in VR. | Keyboard, touch, and mouse, with point-and-click play. Controller support (with radial action menus) on the Steam Deck, Linux, macOS, and Windows. |
 | **Inventory management** | The inventory is a text menu where items are bound to letters. Since NetHack 5.0, selecting an item in the inventory opens a menu of context-sensitive item actions. Otherwise, the player must first use an appropriate command, such as Quaff (`q`) for drinking. | Graphical inventory with item categories. Most common item commands are accessible directly through the inventory screen. | Animated, graphical inventory. Most common item commands are accessible directly through the inventory screen. |
-| **Targeting system** | Keyboard directional cursor. | Mostly keyboard directional cursor, but mouse and touch can be used in the far look mode. | Modern support for mouse and touch. Also supports a keyboard directional cursor. |
-| **Configuration** | Global options can be set through a text-based configuration file. Game-specific options can be set through an in-game menu. | GUI settings and selected startup options (such as autopickup and pet names) can be set through in-game menus. Game-specific options can be configured through an in-game menu. | Most settings can be set through a modern in-game settings menu. Game-specific options can be set through an in-game menu. Also exposes global options through a text-based configuration file. |
+| **Targeting system** | Keyboard directional cursor. | Mostly keyboard directional cursor, but mouse and touch can be used in the far look mode. | Mouse and touch, and also a keyboard directional cursor. |
+| **Configuration** | Global options can be set through a text-based configuration file. Game-specific options can be set through an in-game menu. | GUI settings and selected startup options (such as autopickup and pet names) can be set through in-game menus. Game-specific options can be configured through an in-game menu. | Most settings can be set through an in-game settings menu. Game-specific options can be set through an in-game menu. Also exposes global options through a text-based configuration file. |
 
 ### 📦 Availability and Versions
 
@@ -43,11 +43,11 @@
 
 ### 💡 Which One to Pick?
 
-| GUI | Best for |
+| GUI | Pick it for |
 | :-- | :------- |
-| **[NetHack Windows GUI](https://nethack.org/)** | Purists seeking a lightweight, traditional experience. |
-| **[NetHack 3D by JamesIV4](https://github.com/JamesIV4/nethack-3d)** | Players wanting vanilla rules with a modern visual upgrade. |
-| **[GnollHack](https://gnollhack.com/)** | Players seeking a modern indie-game experience. |
+| **[NetHack Windows GUI](https://nethack.org/)** | Vanilla NetHack 5.0 on Windows with the official interface: static tiles, played mostly with the keyboard. |
+| **[NetHack 3D by JamesIV4](https://github.com/JamesIV4/nethack-3d)** | Vanilla rules in 3D, including in a web browser and in VR on Meta Quest. |
+| **[GnollHack](https://gnollhack.com/)** | A game with its own rules on top of NetHack, with animated graphics, music, and voiceovers, on phones and tablets as well as desktop. |
 
 ## 🖼️ Screenshots
 

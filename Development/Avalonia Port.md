@@ -53,7 +53,7 @@ The packages run on Ubuntu 18.04, Debian 10, RHEL 8 and newer distributions: eve
 
 ## 🏗️ Design Details
 
-How the port is built inside, and why, is on four pages of its own:
+How the port is built inside, and why, is on five pages of its own:
 
 - [[/Development/Design Details of Avalonia Port]] — The design that all flavors share: the build, startup, rendering, the frame loop, input, the Essentials replacements, files, web views, crash reporting, and the shared files.
 - [[/Development/Design Details of Linux Avalonia Port]] — The Linux version's own parts: X11 and GLX, Steam Input, the built-in Chromium web view (CEF), native crash handling, binary compatibility and the packages.
@@ -65,15 +65,7 @@ Avalonia.Controls.Maui is younger than .NET MAUI's own backends, and GnollHack w
 
 ## 📖 Learn More
 
-- [[/Development/Design Details of Avalonia Port]]
-- [[/Development/Design Details of Linux Avalonia Port]]
-- [[/Development/Design Details of macOS Avalonia Port]]
-- [[/Development/Design Details of Windows Avalonia Port]]
-- [[/Development/Build Instructions for Avalonia Linux Version on Windows]]
-- [[/Development/Build Instructions for Avalonia Windows Version on Windows]]
-- [[/Development/Build Instructions for Avalonia macOS Version on Windows]]
 - [[/Linux Version]]
-- [[/macOS Version]]
 - [[/Development Information]]
 - [[/Development/Design Details]]
 

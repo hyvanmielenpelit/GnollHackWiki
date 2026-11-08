@@ -4,17 +4,17 @@
 
 ## 📦 Quantities
 
-When wishing for multiple items at once (e.g., "3 potions of healing" or "20 +2 arrows"), the quantity you receive depends on the item type and its stackability.
+How many items you get when you wish for several at once, such as "3 potions of healing" or "20 +2 arrows", depends on the item type:
 
-| Item Type | Rules & Maximum Quantity |
+| Item Type | Maximum Quantity |
 | :--- | :--- |
-| **Ammunition & Missiles** | Guaranteed up to **20** per wish (e.g., arrows, bolts, rocks). |
-| **Candles** | Guaranteed up to **7** per wish. |
-| **Gems** | Hard limited to **1** per wish, despite being stackable. |
-| **Non-stackable Items** | Hard limited to **1** per wish (e.g., weapons, armor, most tools, artifacts). |
-| **Other Stackable Items** | Success is based on a probability check (see table below). Capped at **5** per wish (e.g., potions, scrolls). |
+| **Ammunition & Missiles** | Up to **20** per wish, always (e.g., arrows, bolts, rocks). |
+| **Candles** | Up to **7** per wish, always. |
+| **Gems** | **1** per wish, although they stack. |
+| **Non-stackable Items** | **1** per wish (e.g., weapons, armor, most tools, artifacts). |
+| **Other Stackable Items** | Up to **5** per wish, with a chance to get only one (e.g., potions, scrolls). |
 
-If the probability check for other stackable items fails, you will receive exactly **1** item instead of the requested amount. The success chances are:
+For other stackable items, the game rolls once against the chance below. If the roll fails, you get exactly **1** item:
 
 | Requested Quantity | Success Chance |
 | :---: | :---: |
@@ -24,11 +24,9 @@ If the probability check for other stackable items fails, you will receive exact
 | 4 | 33% |
 | 5 | 17% |
 
-> 💡 **Example:** Wishing for `"3 potions of full healing"` gives you a 50% chance to get all 3; otherwise you receive exactly 1. Wishing for `"20 arrows"` guarantees you 20 arrows.
-
 ## ⚔️ Weapon Qualities
 
-Weapons have base quality probabilities. Note that Elite, Celestial, Primordial, and Infernal qualities always require non-negative luck. If the probability check fails, you will receive a normal quality weapon instead.
+Elite, Celestial, Primordial, and Infernal weapons need non-negative luck. If the roll fails, you get a weapon of normal quality.
 
 | Quality Level | Success Chance |
 | :--- | :---: |
@@ -36,11 +34,9 @@ Weapons have base quality probabilities. Note that Elite, Celestial, Primordial,
 | **Elite** | 80% |
 | **Celestial / Primordial / Infernal** | 25% |
 
-> 💡 **Example:** Wishing for an `"exceptional long sword"` will always succeed in granting the Exceptional quality.
-
 ## 🛡️ Armor Qualities
 
-Armor quality probabilities are generally much lower than weapons. However, some specific armors have *double* or *half* exceptionality modifiers. Non-negative luck is required for all of these qualities, except that armor with Double Exceptionality Chance gets Exceptional at any luck. Gauntlets, shoes, kicking boots, spiked boots, and spiked shields count as weapons here: they use the chances under *Weapon Qualities* instead of the table below, so they also get Exceptional at any luck. A wish cannot give a quality to helmets, cloaks, shirts, robes, bracers, dragon scale mail, or dragon scales. If the probability check fails, you will receive a normal quality armor piece instead.
+Armor gets a quality less often than weapons do. All armor qualities need non-negative luck, except that armor with the double chance gets Exceptional at any luck. Gauntlets, shoes, kicking boots, spiked boots, and spiked shields count as weapons here: they use the chances under *Weapon Qualities*, so they also get Exceptional at any luck. A wish cannot give a quality to helmets, cloaks, shirts, robes, bracers, dragon scale mail, or dragon scales. If the roll fails, you get armor of normal quality.
 
 | Quality Level | Standard Chance | Double Chance | Half Chance |
 | :--- | :---: | :---: | :---: |
@@ -48,36 +44,24 @@ Armor quality probabilities are generally much lower than weapons. However, some
 | **Elite** | 25% | 50% | 12.5% |
 | **Celestial / Primordial / Infernal** | 5% | 10% | 2.5% |
 
-### Specific Exceptionality Modifiers
-
-- **Double Exceptionality Chance:** This modifier significantly increases the probability of rolling high-tier qualities. It is applied natively to the following standard armors: [[/Items/splint mail]], [[/Items/banded mail]], [[/Items/chain mail]], [[/Items/scale mail]], [[/Items/studded leather armor]], [[/Items/ring mail]], and [[/Items/leather armor]].
-- **Half Exceptionality Chance:** This modifier decreases the probability of rolling high-tier qualities to balance highly advanced materials. It is intrinsically applied to items made of *mithril, adamantium, orichalcum*, and *hard crystal*.
-
-> 💡 **Example:** Wishing for `"elite splint mail"` uses the Double Chance column (50%), whereas `"elite dwarvish mithril-coat"` uses the Half Chance column (12.5%).
+These armors have the double chance: [[/Items/splint mail]], [[/Items/banded mail]], [[/Items/chain mail]], [[/Items/scale mail]], [[/Items/studded leather armor]], [[/Items/ring mail]], and [[/Items/leather armor]]. Armor made of *mithril, adamantium, orichalcum*, or *hard crystal* has the half chance. The half chance lowers only Elite and the higher qualities; Exceptional stays at 50%.
 
 ## 🪄 Wand Qualities
 
-Only wands of nothing, striking, magic missile, fire, cold, and lightning can have a quality, and then only Exceptional or Elite; every other wand always comes out normal. Non-negative luck is required. If the probability check fails, you will receive a normal quality wand instead.
+Only wands of nothing, striking, magic missile, fire, cold, and lightning can have a quality, and then only Exceptional or Elite; every other wand always comes out normal. You need non-negative luck, and if the roll fails, the wand is of normal quality.
 
 | Quality Level | Success Chance |
 | :--- | :---: |
 | **Exceptional** | 50% |
 | **Elite** | 25% |
 
-> 💡 **Example:** Wishing for a `"blessed elite wand of fire"` has a 25% chance to grant the Elite quality (provided you have non-negative luck).
-
 ## 🪄 Elemental Enchantments
 
-You can wish for an elemental enchantment prefix (`freezing`, `flaming`, `electrified`, or `death-magical`) on weapons and armor that support it.
-
-- **Elemental Prefix:** 100% chance to obtain if you have non-negative luck. 
-- *Note:* If you wish for a `death-magical` enchantment on an item that cannot receive it, you will receive an `electrified` enchantment instead.
-
-> 💡 **Example:** Wishing for a `"freezing long sword"` is guaranteed to grant the freezing prefix as long as your luck is not negative.
+On weapons and armor that can have one, you can wish for an elemental enchantment: `freezing`, `flaming`, `electrified`, or `death-magical`. You always get it if your luck is non-negative. If you ask for `death-magical` on an item that cannot have it, you get `electrified` instead.
 
 ## 🔮 Mythic and Legendary Affixes
 
-Keeping two affixes and obtaining a Rare affix both require non-negative luck. With negative luck, a wish that names its affixes keeps at most one of them, and only if it is Common. 
+Keeping two affixes and getting a Rare affix both need non-negative luck. With negative luck, a wish that names its affixes keeps at most one of them, and only if it is Common.
 
 ### Random Affixes
 
@@ -88,34 +72,23 @@ Keeping two affixes and obtaining a Rare affix both require non-negative luck. W
 
 ### Specific Affixes
 
-When wishing for specific affixes, the game distinguishes between **Common** affixes and **Rare** affixes (*of elemental protection, of the Last Alliance, of banishment, of sharpness, Stygian, Witch-King's, Olympian, Jotunheimian,* and *Melnibonean*). Rare affixes individually only have a 33% chance to be successfully granted. 
+A wish that names its affixes treats **Common** and **Rare** affixes differently. The Rare ones are *of elemental protection, of the Last Alliance, of banishment, of sharpness, Stygian, Witch-King's, Olympian, Jotunheimian,* and *Melnibonean*.
 
-#### Specific Mythic (One Affix)
+With one named affix (Mythic), a Common affix always succeeds and a Rare one only 33% of the time. If it fails, the item has no affix.
 
-| Affix Type | Success Chance |
-| :--- | :---: |
-| **Common Affix** | 100% |
-| **Rare Affix** | 33% |
+With two named affixes (Legendary), the game first rolls a 33% chance to keep both. If that roll fails, only one of the two remains. Each remaining affix is then checked on its own (100% for Common, 33% for Rare). The chance to get both affixes is:
 
-*(If this fails, the item is generated normally without the affix).*
-
-#### Specific Legendary (Two Affixes)
-
-When requesting a Legendary item with two specific affixes, there is an initial **33%** chance to be allowed to keep both affixes. Then, each affix is individually evaluated based on its rarity (100% for Common, 33% for Rare).
-
-| Requested Affixes | Success Chance (Both) |
+| Requested Affixes | Chance to Get Both |
 | :--- | :---: |
 | **Two Common Affixes** | 33% |
 | **One Common + One Rare Affix** | 11% |
 | **Two Rare Affixes** | ~3.7% (1/27) |
 
-*(If you fail the initial check, or one of the affix checks fails, the item will be generated with only one specific affix (Mythic) or no affixes (Normal)).*
-
-> 💡 **Example:** Wishing for a `"long sword of orc slaying"` (Specific Mythic, Common) has a 100% chance to grant the affix. Wishing for `"Witch-King's plate mail of fire resistance"` (Specific Legendary, 1 Rare + 1 Common) has an 11% chance to successfully grant both affixes.
+When the roll for both, or one of the affix checks, fails, the item ends up with one of the affixes (Mythic) or none (Normal).
 
 ## 🪢 Belts of Giant Strength
 
-When wishing for a specific belt of giant strength, the chance of successfully obtaining it depends on its strength level. If the check fails, you will receive a [[/Items/Belt of hill giant strength]] instead.
+The stronger the belt of giant strength you wish for, the less likely you are to get it. If the roll fails, you get a [[/Items/Belt of hill giant strength]] instead.
 
 | Belt Type | Success Chance |
 | :--- | :---: |
@@ -127,7 +100,7 @@ When wishing for a specific belt of giant strength, the chance of successfully o
 
 ## 👑 Artifact Wishing
 
-The probability of obtaining an artifact through wishing depends heavily on how many artifacts have already been generated in the current game.
+The chance to get an artifact from a wish depends on how many artifacts the current game has already generated.
 
 | Generated Artifacts | Success Chance |
 | :---: | :---: |
@@ -138,36 +111,38 @@ The probability of obtaining an artifact through wishing depends heavily on how 
 | 6 | 33% |
 | 7 | 29% |
 
-*(For 3 or more existing artifacts, the formula is exactly $2/n$, where $n$ is the number of already generated artifacts).*
+With 3 or more artifacts already generated, the chance is 2/n, where n is the number of those artifacts.
 
 The same chance applies to the quest artifacts of the other roles. The quest artifact of the role you are playing can never be wished for, and the wish is still used up; see [[Quest Artifacts]].
 
-> 💡 **Example:** Wishing for `"Frost Brand"` early in the game (0 to 2 artifacts already generated) has a 100% success rate.
-
 ## 🛠️ Item Conditions and Modifiers
 
-You can prepend condition modifiers to your wish (e.g., `"blessed rustproof long sword"`). Some conditions are always guaranteed, while others will fail or even backfire if your luck is negative.
+Words such as `blessed` or `rustproof` in front of the item name set its condition, as in `"blessed rustproof long sword"`. Some always work. Others fail, or even backfire, if your luck is negative. The chance of getting the enchantment you ask for, such as +3, is on [[Enchantment Wishing Chances]].
 
 | Modifier Type | Wishing Terms | Success Chance & Rules |
 | :--- | :--- | :--- |
-| **Beautitude** | `blessed`, `uncursed` | 100% chance if your luck is **non-negative**. <br> ⚠️ *Warning:* If you wish for these with negative luck, the item will be generated as **cursed** instead (unless intrinsically uncurseable). |
+| **Beatitude** | `blessed`, `uncursed` | 100% chance if your luck is **non-negative**. <br> ⚠️ *Warning:* If you wish for these with negative luck, the item will be generated as **cursed** instead (unless it cannot be cursed). |
 | **Damage Proofing** | `rustproof`, `fireproof`, `corrodeproof`, `rotproof`, `fixed` | 100% chance if your luck is **non-negative**. <br> If your luck is negative, the request is ignored and the item generates normally. |
 | **Poisoned** | `poisoned` | 100% chance on applicable weapons if your luck is **non-negative**. <br> If your luck is negative, the request is ignored. |
 | **Greased** | `greased` | 100% chance, regardless of luck. |
 | **Material** | `silver`, `adamantium` and other wishable materials | Takes effect only when the item type accepts that material. A boomerang, dart or shuriken accepts no material other than its own, so the word is ignored: `silver dart` gives an iron dart and `adamantium boomerang` a wooden one. Materials that cannot be wished for, such as `wax` and `ice`, are not recognized, nor are `wood` and `lead` (write `wooden` and `leaden`). A wish like `wax dart`, `wood boomerang` or `silver wand of digging` is refused with *Nothing fitting that description exists in the game.* |
 
-> 💡 **Example:** Wishing for a `"blessed rustproof long sword"` with negative luck will result in a **cursed**, non-rustproof long sword. Wishing for a `"greased cursed long sword"` will always give you exactly what you asked for.
+## 📝 Examples
 
-## 📝 Complex Wishing Examples
-
-Here are some examples of highly specific wishes that combine multiple mechanics from this guide.
-
-| Wishing Prompt | Mechanics Explained |
+| Wish | What You Get |
 | :--- | :--- |
-| **`blessed +3 exceptional freezing long sword`** | Combines quality (Exceptional, 100% chance for weapons) and an elemental prefix (`freezing`, 100% chance with non-negative luck). |
-| **`uncursed celestial splint mail of lightness`** | Combines celestial armor and a Mythic suffix. Splint mail has the *Double Exceptionality Chance* (boosting celestial from 5% to 10%). The common mythic suffix has a 100% chance to apply. |
-| **`blessed celestial Witch-King's plate mail of fire resistance`** | Highly complex legendary armor request. Getting this exact item requires succeeding the Celestial check (5%) AND the Legendary checks (11% chance to keep both affixes). The two checks run independently. |
-
-## ℹ️ More Information
-
-- [[Enchantment Wishing Chances]] — Learn about success chances when wishing for item enchantments
+| **`3 potions of full healing`** | All 3 with a 50% chance, otherwise 1. |
+| **`20 arrows`** | Always 20 arrows. |
+| **`exceptional long sword`** | Always Exceptional. |
+| **`elite splint mail`** | Elite with a 50% chance (double chance). |
+| **`elite dwarvish mithril-coat`** | Elite with a 12.5% chance (half chance). |
+| **`blessed elite wand of fire`** | Elite with a 25% chance, if your luck is non-negative. |
+| **`freezing long sword`** | Always freezing, if your luck is non-negative. |
+| **`long sword of orc slaying`** | Always has the affix, which is Common. |
+| **`Witch-King's plate mail of fire resistance`** | Both affixes with an 11% chance (one Rare, one Common). |
+| **`Frost Brand`** | Always, if 0 to 2 artifacts have been generated so far. |
+| **`blessed rustproof long sword`** with negative luck | A **cursed** long sword that is not rustproof. |
+| **`greased cursed long sword`** | Always exactly what you asked for. |
+| **`blessed +3 exceptional freezing long sword`** | Exceptional always (a weapon), and freezing always with non-negative luck. |
+| **`uncursed celestial splint mail of lightness`** | Celestial with a 10% chance instead of 5%, because splint mail has the double chance. The Common suffix always applies. |
+| **`blessed celestial Witch-King's plate mail of fire resistance`** | Celestial with a 5% chance and both affixes with an 11% chance. The two rolls are independent. |

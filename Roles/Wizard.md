@@ -1,6 +1,6 @@
 ![Wizard](/uploads/Roles/Wizard/wizard-q85.webp)
 
-> 👉 **The Wizard is a powerful spell caster who starts with several magical items and is capable of mastering various spell schools.**
+> 👉 **The Wizard is a spell caster who starts with magic arrow, shield and four random spells, and can reach Grand Master in five spell schools.**
 
 ## 📋 Character Creation
 

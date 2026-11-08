@@ -1,4 +1,4 @@
-> 👉 **Looking for a graphical way to play NetHack? This page lists graphical NetHack ports and variants that have working, ready-to-play builds and have been updated within the last two years, grouped by whether you get them from an online store, download them from elsewhere, or play them in a web browser.**
+> 👉 **Many graphical NetHack ports and variants have working, ready-to-play builds and have been updated within the last two years; you get them from an online store, download them from elsewhere, or play them in a web browser.**
 
 ## 📖 About This List
 

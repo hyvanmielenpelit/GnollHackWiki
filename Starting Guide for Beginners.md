@@ -1,39 +1,31 @@
 ![Starting Guide for Beginners](/uploads/Starting%20Guide%20for%20Beginners/starting-guide-for-beginners-q85.webp)
 
-> 👉 **Welcome to the Starting Guide for Beginners. This guide will help you understand the basics of GnollHack, choose your first character, and survive the dangerous depths of the dungeon.**
+> 👉 **Like NetHack, GnollHack is a dungeon-exploration role-playing game: you go down to the bottom of the dungeon, take the Amulet of Yendor from the sanctuary of Moloch, and bring it back to your god.**
 
-GnollHack, like NetHack, is a dungeon-exploration role-playing game where you descend to the bottom of the dungeon, gathering items, experience, and new skills. Your goal is to complete the main quest — to retrieve the Amulet of Yendor from the sanctuary of Moloch and return it to your god. On the way, you will meet many dangerous monsters (such as the Medusa whose mere gaze will turn you to stone), traps, and puzzles until you have achieved your goal.
+On the way down you collect items, gain experience, and learn new skills. You also run into traps, puzzles, and many dangerous monsters, such as Medusa, whose gaze alone turns you to stone.
 
-## 🗺️ Part 1: Starting Your Journey
+## 🗺️ Starting Your Journey
 
 ### 💀 Permadeath
 
-The modern version of GnollHack has two modes for permadeath:
+The modern version of GnollHack has two modes that decide what happens when you die; both are described, together with casual mode, in [[Choosing the Right Gameplay Mode]].
 
 | Mode | Description |
 |---|---|
-| 🟢 **Modern Mode** | You respawn at a certain altar upon death. This is the default mode and highly recommended for beginners. |
+| 🟢 **Modern Mode** | You respawn at a certain altar when you die. This is the default mode, and the best one for beginners. |
 | 🔴 **Classic Mode** | Death is permanent. Once dead, you will need to start the game again from the beginning. |
-
-### 📖 Learn More
-
-- [[Choosing the Right Gameplay Mode]] — Guide to selecting modern, casual, or classic modes
 
 ### 🌟 Difficulty
 
-We recommend that you start playing GnollHack using the **[[/Difficulties/Standard]]** difficulty. On Standard difficulty, monsters are slightly weaker, and you start with helpful resources.
+We recommend that you start on **[[/Difficulties/Standard]]**, the easiest of the seven difficulty levels. On Standard, monsters deal 35% of normal damage and you deal 350%, and you start with four scrolls of identify, a scroll of remove curse, and a wand of probing. When you want a harder game, [[Choosing the Right Difficulty Level]] helps you pick one.
 
-### 📖 Learn More
+## 🎭 Character Creation
 
-- [[Choosing the Right Difficulty Level]] — Tips on finding the best challenge level for you
-
-## 🎭 Part 2: Character Creation
-
-Your character is defined by three main choices: Class (Role), Race, and Alignment.
+You choose a class (role), a race, and an alignment for your character.
 
 ### 🛡️ Classes (Roles)
 
-GnollHack features the same classes as NetHack. They are often called _roles_. 
+GnollHack has the same classes as NetHack, often called _roles_.
 
 | Class | Combat Style | Alignment | Description |
 | :---- | :----------- | :-------- | :---------- |
@@ -42,18 +34,18 @@ GnollHack features the same classes as NetHack. They are often called _roles_.
 | **[[/Roles/Caveman]]** | Melee | Lawful, Neutral | A strong melee warrior that uses basic weapons, such as clubs and slings. He can practice cannibalism without divine punishment. |
 | **[[/Roles/Healer]]** | Spell-Caster | Neutral | A lightly equipped physician, who starts with lots of money, healing spells, healing items, and a wand of sleep. |
 | **[[/Roles/Knight]]** | Melee | Lawful | A heavily armored warrior, who is able to ride on his horse and use a lance for jousting his enemies. Follows a special conduct of honor. |
-| **[[/Roles/Monk]]** | Miscellaneous | Any | A martial artist with movement spells. Cannot wear body armor or a shield and is restricted to vegetarian food. Gains resistances as they level up. |
+| **[[/Roles/Monk]]** | Miscellaneous | Any | A martial artist with movement spells. Body armor gives a -30 to-hit penalty, and body armor or a shield takes away the Monk's AC and MC bonuses. Loses alignment for eating meat. Gains resistances as they level up. |
 | **[[/Roles/Priest]]** | Spell-Caster | Any | An armored zealot skilled in clerical and healing spells. Can naturally identify an item's blessed/uncursed/cursed status on inspection. A lawful Priest can cast [[Celestial spells]], a neutral Priest [[Nature spells]], and a chaotic Priest [[Necromancy spells]]. |
 | **[[/Roles/Ranger]]** | Ranged | Neutral, Chaotic | A lightly armored archer, who is adept at ranged combat, searching, and disarming traps. |
 | **[[/Roles/Rogue]]** | Melee & Ranged | Chaotic | A lightly armored and cunning thug skilled at both melee and ranged combat, poison, and disarming traps. Can backstab fleeing monsters. |
 | **[[/Roles/Samurai]]** | Melee & Ranged | Lawful | A strong melee warrior, who is also adept at ranged combat. [Some item names show up in Japanese](https://nethackwiki.com/wiki/Samurai#Japanese_names_for_items). |
-| **[[/Roles/Tourist]]** | Miscellaneous | Neutral | A lightly equipped wanderer starting with darts, a golf bat, and an expensive camera. Usually considered a hard class. |
+| **[[/Roles/Tourist]]** | Miscellaneous | Neutral | A lightly equipped wanderer starting with darts, a golf club, and an expensive camera. Usually considered a hard class. |
 | **[[/Roles/Valkyrie]]** | Melee | Lawful, Neutral | A strong female melee warrior, who starts with cold resistance and stealth. |
 | **[[/Roles/Wizard]]** | Spell-Caster | Neutral, Chaotic | A mighty spell-caster proficient in arcane and enchantment spells. Starts with a considerable amount of magic items and spells. |
 
 ### 🧑 Races
 
-GnollHack features 5 races with different attributes and special abilities.
+There are five races, each with its own attribute maximums and special abilities.
 
 | Race | Playable Classes | Max Attributes | Alignment | Special Abilities |
 | :--- | :--------------- | :------------- | :-------- | :---------------- |
@@ -65,7 +57,7 @@ GnollHack features 5 races with different attributes and special abilities.
 
 ### ⚖️ Alignment
 
-GnollHack has 3 alignments to choose from. Not all alignments are available to all classes and races.
+There are three alignments. Not every class and race can take every alignment; the tables above show which ones they can.
 
 | Alignment | Conduct Rules | Peaceful Monsters |
 | :-------- | :------------ | :---------------- |
@@ -73,117 +65,79 @@ GnollHack has 3 alignments to choose from. Not all alignments are available to a
 | **[[Neutral]]** | Cannot murder peaceful humans. | Gnomes, some animals. |
 | **[[Chaotic]]** | Mostly no penalties for committing "evil" actions. | Some chaotic monsters, like orcs. |
 
-## 🎒 Part 3: Survival Fundamentals
-
-### 🎒 Essential Survival Tips for Beginners
-
-If you are new to GnollHack, these essential tips will help you survive the early game:
-
-- 🐶 **Rely on Your Pet:** You start with a pet (a little dog, kitten, or pony). Let your pet fight monsters for you in the early levels. It is stronger than you initially and will grow in power as it eats the monsters it defeats.
-- 🐌 **Take Your Time:** GnollHack is a turn-based game. Nothing happens until you make a move. If you are in a dangerous situation, stop and think about your options, inventory, and spells.
-- 🚪 **Use Doors Wisely:** If you are low on health, find a room, close the door, and rest (`.` key) until you recover.
-- 🔍 **Explore Fully:** Try to explore the entire level and find all items before descending to the next floor. 
-- ⚠️ **Beware of Cursed Items:** Never equip an item you haven't identified unless you are prepared to be permanently stuck with a cursed item. 
-- ⚖️ **Watch Your Weight (Encumbrance):** Carrying too many items will make you Burdened, Stressed, or Strained. This slows you down significantly, making you an easy target for fast monsters. Drop heavy items you don't need in a safe spot, such as a chest.
-- ✍️ **Engraving "Elbereth":** You can use the Engrave command (keyboard shortcut: `Shift+e`) to write the word `Elbereth` on the floor. Many monsters are frightened by this word and will refuse to attack you in melee while you stand on it. You can write in the dust using your fingers, or use a hard item for a more permanent engraving.
+## 🎒 Survival Fundamentals
 
 ### 🕹️ Commands & Interface
 
-You can find some of the available commands in the bottom command row. There's also a More Commands icon, which opens a command launcher. GnollHack has plenty of commands available, so don't be overwhelmed by them but learn them at a steady pace.
+The bottom command row shows some of the commands, and the More Commands icon opens a command launcher. GnollHack has plenty of commands available, so don't be overwhelmed by them but learn them at a steady pace. The **Simple Command Layout** option in the settings controls how many commands you see; turn it off to get more of them.
 
-> 💡 **Tip:** You can control the number of available commands through the **Simple Command Layout** option in the settings. If you disable it, you will get more commands than in the simple mode.
+> ℹ️ **Note:** Keyboard shortcuts on this wiki are written in lowercase. A single letter, such as `e`, is the normal key, and combinations are joined with a plus sign: `Shift+e`, `Alt+e`, `Alt+Shift+e`.
 
-## ⚔️ Part 4: Combat & Mechanics
+### 🎒 Survival Tips
+
+- You start with a pet: a little dog, a kitten, or a pony. On the first levels it is stronger than you, so let it do the fighting. It grows stronger as it eats the monsters it kills.
+- GnollHack is turn-based, and nothing happens until you move. In a dangerous spot, stop and think through your options, inventory, and spells.
+- When your health is low, find a room, close the door, and rest (`.`) until you recover.
+- Explore the whole level and pick up its items before you go down to the next one.
+- Never put on or wield an item you have not identified, unless you are ready to be stuck with it if it is cursed.
+- Carrying too much makes you Burdened, Stressed, or Strained ([[encumbrance]]). That slows you down a lot, and fast monsters catch you easily. Leave heavy things you do not need in a safe spot, such as a chest.
+- Engrave (`Shift+e`) the word `Elbereth` on the floor, and many monsters will be too frightened to attack you in melee while you stand on it. Writing in the dust with your fingers works, but an engraving made with a hard item lasts longer. `Elbereth` is one of the [[Runewords]].
+
+## ⚔️ Combat & Mechanics
 
 ### 🛡️ Armor Class and Magic Cancellation
 
-Wearing armor gives you defensive and magical protections:
+Armor lowers your Armor Class (AC), which makes it harder for monsters to hit you. **Lower AC is better**: -5 AC is much better than 10 AC.
 
-- **Armor Class (AC):** Makes it more difficult for monsters to hit you. **Lower AC is better** (e.g., -5 AC is much better than 10 AC).
-- **Magic Cancellation (MC):** Gives you a chance to resist special monster attacks, such as lycanthropy or level draining. MC does nothing against spells.
-- **Magic Resistance:** Gain immunity to many spells from specific items.
+Armor also gives Magic Cancellation (MC), a chance to resist special monster attacks such as lycanthropy or level draining. MC does nothing against spells. Some items give [[magic resistance]], which makes you immune to many spells.
 
-### 📖 Learn More
-
-- [[Armor]] — Overview of armor categories, slots, and properties
-- [[Armor Class (AC) and Magic Cancellation (MC)]] — Calculations for AC, MC tiers, and protective gear
-- [[Resistances and Saving Throws]] — How to gain resistances and protect against elements/death
+The details are on [[Armor]], [[Armor Class (AC) and Magic Cancellation (MC)]], and [[Resistances and Saving Throws]].
 
 ### 🔍 Item Identification
 
-Items in GnollHack can be *blessed*, *uncursed*, or *cursed*. If you wield a cursed weapon or put on a cursed wearable item, it will stick to you and you cannot remove it. Items can also have many hidden negative effects. Therefore, it is highly recommended to **identify items before you use them**.
+[[Items]] in GnollHack can be *blessed*, *uncursed*, or *cursed*. A cursed weapon you wield, or a cursed item you put on, sticks to you and cannot be removed, and items can also have hidden negative effects. So **identify items before you use them**.
 
-- 🐕 **Pet Testing:** Drop an item on the ground. Pets will not step over cursed items, and if they do, the game will state they do it "reluctantly".
-- ⛪ **Altars:** Dropping items on an altar will immediately identify their blessed/uncursed/cursed status. A black flash means cursed, no flash means uncursed, and an amber flash means blessed.
-- 📜 **Scrolls & Wands:** You can read a [[/Items/scroll of identify]] or zap a [[/Items/wand of identify]] to identify one or more items.
-- 🏪 **Shops:** Shopkeeper will identify items for a fee. Experienced players can also guess an item's identity based on its shop price.
-- 🏛️ **Oracle:** The Oracle will identify items for a fee.
-- 🪨 **Touchstones:** Applying a [[/Items/touchstone]] to a gem identifies the gem, as long as the touchstone has charges left; each identification uses one charge. Its blessed or cursed status does not matter for this, but a cursed touchstone shatters the gem instead about one time in five.
-
-### 📖 Learn More
-
-- [[Items]] — List of item categories and properties
-- [[/Rooms/Shops]] — Guide to shops, item pricing, and shopkeeper behaviors
-- [[/Rooms/Temple]] — Details on temples, priests, and altar services
+- Drop an item on the ground where your pet walks. Pets avoid stepping on cursed items, and when a pet has to step over one anyway, the game says it does so "reluctantly".
+- Any altar, including the one in a [[/Rooms/temple]], shows the status of items dropped on it at once: a black flash means cursed, an amber flash blessed, and no flash uncursed.
+- Read a [[/Items/scroll of identify]] or zap a [[/Items/wand of identify]] to identify one or more items.
+- Shopkeeper will identify items for a fee, and so will [[the Oracle|/Monsters/Oracle]]. Experienced players can also guess an item's identity from its price in [[/Rooms/shops]].
+- Applying a [[/Items/touchstone]] to a gem identifies the gem, as long as the touchstone has charges left; each identification uses one charge. Its blessed or cursed status does not matter for this, but a cursed touchstone shatters the gem instead about one time in five.
 
 ### ⚔️ Combat
 
-#### Melee Combat
+If you move into a monster, you attack it with your melee [[weapon|Weapons]].
 
-If you try to move to a square occupied by a monster, you will attack it with your melee weapon.
+You can fire missiles and throw weapons in the 8 basic directions. To fire, wield the matching launcher: a bow for arrows, a crossbow for bolts, a sling for sling stones. Put the ammunition in your quiver with Quiver (`Shift+q`), then shoot with Fire (`f`). Throw (`t`) throws a weapon from your inventory, and the item's examine information shows how far it can be thrown.
 
-#### Ranged Combat with a Launcher
+Keep your melee weapon in one weapon set and your ranged weapon in the other. Swap (`x`) switches between them and does not cost a turn.
 
-You can fire missiles to 8 basic directions. You need to wield a matching launcher (e.g., a bow for arrows, a crossbow for bolts, a sling for sling stones). 
-
-- **Swapping:** Click Swap (shortcut: `x`) to change weapon sets. It is best to keep your melee weapon in one set and your ranged weapon in the second set. This will not cost you a turn.
-- **Quivering & Firing:** Use the Quiver command (`Shift+q`) to prepare ammo. Use Fire (`f`) to shoot.
-- **Range & Accuracy:** You get to-hit penalties depending on the range. Firing at melee range gives a massive to-hit penalty (-40, or -32 for crossbows).
-- **Autopickup:** You automatically pick up fired missiles by default to save time.
-
-> ℹ️ **Note:** Keyboard shortcuts on this wiki are written in lowercase notation. A single letter (e.g. `e`) represents the normal key. Combination shortcuts are written with a plus sign `+` and lowercase letters (e.g. `Shift+e`, `Alt+e`, `Alt+Shift+e`).
-
-#### Ranged Combat with Throwing Weapons
-
-You can throw items to 8 basic directions. The throwing distance is listed in the item's examine information.
-
-- **Throwing:** Use the Throw command (`t`) to throw a weapon from your inventory.
-- **Accuracy:** Throwing weapons at melee range gives a large to-hit penalty (-40).
-- **Autopickup:** You automatically pick up thrown weapons by default.
-
-### 📖 Learn More
-
-- [[Weapons]] — Overview of weapon categories and quality tiers
+Your chance to hit depends on the range. At melee range the penalty is large: -40 for fired and thrown weapons, and -32 for crossbows. By default you pick up your fired missiles and thrown weapons automatically.
 
 ### 🍗 Eating & Nutrition
 
-You become hungry over time. You should eat the corpses of monsters you slay (unless you are a vegetarian monk). **Most corpses rot quickly, so eat them immediately.** If you eat a rotten or tainted corpse, you will become deathly sick and die within a few turns unless you Pray (`Alt+p`) to your god.
+You become hungry over time, so eat the corpses of the monsters you kill (a Monk loses alignment for eating meat). **Most corpses rot quickly, so eat them immediately.** A corpse that has been dead too long is tainted: eating it gives you food poisoning, which kills you within 10 to 19 turns unless you Pray (`Alt+p`) to your god.
 
-#### What to Eat and What to Avoid
+Some monsters, such as [[kobolds|/Monsters/Kobold]], are poisonous, and you need poison resistance to eat them. The table lists common cases; the [[Eating Guide]] has many more.
 
 | 🟢 Safe / Beneficial | 🔴 Dangerous / Harmful |
 |---|---|
 | **Normal animals:** [[Jackals|/Monsters/Jackal]], [[sewer rats|/Monsters/Sewer rat]] | **[[Cockatrices|/Monsters/Cockatrice]]:** Do not eat or touch without gloves (instant petrification) |
 | **Fruits:** Good vegetarian food | **[[Zombies|/Monsters/Human zombie]] & [[Mummies|/Monsters/Human mummy]]:** Always rotten |
-| **Mushrooms:** Some are safe, ⚠️ others poisonous | **[[Bats|/Monsters/Bat]]:** Makes you stunned |
+| **Mushrooms:** Some are safe, others poisonous | **[[Bats|/Monsters/Bat]]:** Makes you stunned |
 | **Acidic corpses:** Safe, but you lose a few HP | **Teleporting monsters:** Gives teleportitis |
 | **Wraith corpses:** Grants an experience level | **Shapeshifters:** Makes you polymorph |
 | **[[Floating Eye|/Monsters/Floating eye]] / [[Panther Cap|/Items/Panther cap]]:** Grants blind telepathy | **Your own race:** Unless you are a Caveman or Orc (cannibalism) |
 | **[[Lizards|/Monsters/Lizard]]:** Cures petrification, never rots | |
 
-> ⚠️ **Warning:** Do not eat when you are overly satisfied. You might choke and die!
-> 
-> ℹ️ **Note:** Some monsters are poisonous. You need poison resistance to eat them (e.g., [[kobolds|/Monsters/Kobold]]).
+> ⚠️ **Warning:** Do not eat when you are Satiated. You can choke to death.
 
-## 🔮 Part 5: Magic, Skills & Religion
+## 🔮 Magic, Skills & Religion
 
 ### 🪄 Spell Casting
 
-Spells in GnollHack require a material component. You must first Mix spells (`Shift+x`), which gives you a number of castings. Then, you can Cast spell (`Shift+z`).
+Spells in GnollHack require a material component. First you Mix spells (`Shift+x`), which gives you a number of castings, and then you Cast spell (`Shift+z`).
 
-Spell success depends on your experience level, the spell's level, your magic school skill, your attributes (Int/Wis/Cha), and the armor you wear (heavy armor penalizes casting).
-
-#### Spell Commands and Their Keyboard Shortcuts
+Whether a spell succeeds depends on your experience level, the spell's level, your skill in its magic school, your Intelligence, Wisdom, or Charisma, and your armor, since heavy armor penalizes casting (see [[Spell Casting]]).
 
 | Key | Action | Use |
 |:---:|---|---|
@@ -194,82 +148,40 @@ Spell success depends on your experience level, the spell's level, your magic sc
 | `Shift+s` | Skills | Increase skill levels in magic schools. |
 | `.` | Target yourself | Target yourself when casting. |
 
-Spells range in levels from minor cantrip (c), major cantrip (C), to levels 1–12. You do not forget spells over time. You usually need at least Basic skill in a magic school to cast its spells. Fighter-type classes that have no access to magic schools have little reason to learn spells, except maybe some cantrips.
-
-### 📖 Learn More
-
-- [[Spell Casting]] — Detailed spellcasting mechanics, somatic armor penalties, and casting chances
+Spell levels go from minor cantrip (c) and major cantrip (C) up to levels 1–12. You never forget a spell once you know it. To cast the spells of a magic school you usually need at least Basic skill in it, so fighter-type classes with no access to magic schools have little reason to learn spells, except maybe some cantrips.
 
 ### 📈 Skills
 
-You gain **1 skill slot** every time you level up. You can spend them by using the Skills (`Shift+s`) command. You must first train a skill by successfully hitting with a weapon or casting a spell before you can level it up. 
+You gain **1 skill slot** every time you level up, and you spend slots on [[skills]] with the Skills (`Shift+s`) command. Before you can advance a skill, you must train it by fighting with weapons of that skill or by casting spells. Magic school skills are the exception: each of their levels has a minimum experience level, and reaching it is enough, so you do not necessarily need to train them by casting.
 
-> ℹ️ **Note:** **Magic school skills are an exception:** they have a minimum experience level requirement when they can be increased, meaning you do not necessarily need to train them by casting spells—attaining a certain experience level is enough.
+There are 6 skill levels: **Unskilled**, **Basic**, **Skilled**, **Expert**, **Master**, and **Grand Master**. Not all classes can reach the top level in every skill. Higher weapon skills generally give better to-hit and damage bonuses. Each level of a magic school adds +100% to your casting chance and lowers the mana cost, and reaching Basic removes the casting penalties.
 
-There are 6 levels of proficiency for skills: **Unskilled**, **Basic**, **Skilled**, **Expert**, **Master**, and **Grand Master**. Note that not all classes can reach the maximum level in every skill.
+The number of skill slots an advancement costs depends on the kind of skill:
 
-When advancing a skill, the cost in skill slots varies depending on the type of skill being upgraded. The benefits of higher skill levels generally include improved hit/damage bonuses for weapons, and a +100% cast chance with lower mana cost for magic schools per level (removing penalties at Basic).
+| Advancement | Normal Weapons, Dual-Weapon, Two-Handed, Wands | Magic Schools, Dodge, Shield, Digging, Riding, Disarm Trap | Bare-Handed Combat | Martial Arts |
+|---|:---:|:---:|:---:|:---:|
+| **Unskilled → Basic** | 1 | 1 | 1 | 2 |
+| **Basic → Skilled** | 2 | 1 | 1 | 3 |
+| **Skilled → Expert** | 3 | 2 | 1 | 3 |
+| **Expert → Master** | 4 | 2 | 2 | 3 |
+| **Master → Grand Master** | 5 | 3 | 2 | 4 |
 
-#### Normal Weapons, Dual-Weapon, Two-Handed, and Wands
-
-| Advancement | Cost |
-|---|---|
-| **Unskilled → Basic** | 1 slot |
-| **Basic → Skilled** | 2 slots |
-| **Skilled → Expert** | 3 slots |
-| **Expert → Master** | 4 slots |
-| **Master → Grand Master** | 5 slots |
-
-#### Magic School Skills, Dodge, Shield, Digging, Riding, and Disarm Trap
-
-| Advancement | Cost |
-|---|---|
-| **Unskilled → Basic** | 1 slot |
-| **Basic → Skilled** | 1 slot |
-| **Skilled → Expert** | 2 slots |
-| **Expert → Master** | 2 slots |
-| **Master → Grand Master** | 3 slots |
-
-#### Bare-Handed Combat and Martial Arts
-
-| Advancement | Bare-Handed Cost | Martial Arts Cost |
-|---|---|---|
-| **Unskilled → Basic** | 1 slot | 2 slots |
-| **Basic → Skilled** | 1 slot | 3 slots |
-| **Skilled → Expert** | 1 slot | 3 slots |
-| **Expert → Master** | 2 slots | 3 slots |
-| **Master → Grand Master** | 2 slots | 4 slots |
-
-When you have enough trained experience and available skill slots, a green skill icon or a green "Skill" text will appear on your screen to notify you.
-
-### 📖 Learn More
-
-- [[Skills]] — List of all weapon, spell, and auxiliary skills
+When you have enough training and free skill slots, a green skill icon or a green "Skill" text appears on your screen.
 
 ### 🙏 Praying and Altars
 
-#### Praying
+In an emergency, such as low health, sickness, or petrification, you can Pray (`Alt+p`) to your god for help. [[Praying]] explains when it is safe.
 
-You can **Pray** (`Alt+p`) to your god for help in emergencies (low health, sickness, petrification). 
+> 🛑 **Caution:** Praying is not always safe, because of a delay called the prayer timeout. The first safe time to pray is usually turn 301, and you must wait 50–1000 turns between prayers.
 
-> 🛑 **Caution:** It is not always safe to pray! There is a "prayer timeout" delay. The first safe time to pray is usually turn 301, and you must wait 50–1000 turns between prayers.
+Altars can belong to any alignment, and the starting room on dungeon level 1 always has one of yours. On an altar of your own alignment, Offer (`Alt+o`) fresh monster corpses to please your god. This can raise your luck, or your god may give you a powerful artifact weapon ([[sacrifice gifts]]). A [[/Items/wand of create monster]] is very useful for this.
 
-#### Altars
+Sacrificing on an altar of another alignment might convert it to your god. The chance is 50% at experience level 4 and about 70–85% at higher experience levels.
 
-Altars are extremely useful and can belong to any alignment. There is always an altar of your alignment in the starting room on dungeon level 1.
+To make holy water, drop uncursed [[potions of water|/Items/potion of water]] on your own altar and pray. Dip (`Alt+d`) an item into holy water to bless it or remove its curse.
 
-- **Identify Blessedness of Items:** Drop items on any altar to check their blessed/uncursed/cursed status.
-- **Sacrificing:** Offer (`Alt+o`) fresh monster corpses on an altar of *your* alignment to please your god. This can increase your luck or gift you powerful **Artifact** weapons. A [[/Items/wand of create monster]] is very useful here.
-- **Converting Altars:** If an altar is the wrong alignment, sacrificing on it might convert it to your god. The chance to convert an altar is 50% at experience level 4 and about 70–85% at higher experience levels.
-- **Holy Water:** Drop uncursed [[potions of water|/Items/potion of water]] on your altar and pray. They will become holy water. You can dip (`Alt+d`) items into holy water to bless them or remove curses.
+## 📖 Further Reading
 
-### 📖 Learn More
-
-- [[Praying]] — Divine assistance, luck mechanics, and safety guidelines
-- [[Sacrifice Gifts]] — Artifact weapons granted by gods for offerings
-
-## 📚 Further Reading
-
-- [[Intermediate Guide]] — Next steps for players who have mastered the basics
-- [[Gnoll Overseer]] — Optional in-game AI advisor that answers questions and gives spoiler-aware advice for your current game
+- [[Intermediate Guide]]
+- [[Gnoll Overseer]]
 

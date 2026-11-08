@@ -8,12 +8,12 @@ Different HP regeneration effects don't stack. The game will always use the best
 
 | HP Regeneration State | Turns to Full Health | Approx. HP Regenerated per Turn | With Mummy Rot |
 | :-------------------- | :------------------: | :-----------------------------: | :------------: |
-| Default | $320$ | $\text{Max HP} / 320$ | $-\text{Max HP} / 960$ |
-| Regeneration | $\max(1, \min(\lfloor\text{Max HP}\rfloor, 160))$ | $\approx \max(1, \text{Max HP}/160)$ | $0$ |
-| Rapid Regeneration | $\max(1, \min(\lfloor\text{Max HP}/2\rfloor, 80))$ | $\approx \max(2, \text{Max HP}/80)$ | $+1$ |
-| Rapider Regeneration | $\max(1, \min(\lfloor\text{Max HP}/4\rfloor, 40))$ | $\approx \max(4, \text{Max HP}/40)$ | $+2$ |
-| Rapidest Regeneration | $\max(1, \min(\lfloor\text{Max HP}/8\rfloor, 20))$ | $\approx \max(8, \text{Max HP}/20)$ | $+3$ |
-| Divine Regeneration | $\max(1, \min(\lfloor\text{Max HP}/16\rfloor, 10))$ | $\approx \max(16, \text{Max HP}/10)$ | $+4$ |
+| Default | 320 | $\text{Max HP} / 320$ | $-\text{Max HP} / 960$ |
+| Regeneration | $\max(1, \min(\lfloor\text{Max HP}\rfloor, 160))$ | $\approx \max(1, \text{Max HP}/160)$ | 0 |
+| Rapid Regeneration | $\max(1, \min(\lfloor\text{Max HP}/2\rfloor, 80))$ | $\approx \max(2, \text{Max HP}/80)$ | +1 |
+| Rapider Regeneration | $\max(1, \min(\lfloor\text{Max HP}/4\rfloor, 40))$ | $\approx \max(4, \text{Max HP}/40)$ | +2 |
+| Rapidest Regeneration | $\max(1, \min(\lfloor\text{Max HP}/8\rfloor, 20))$ | $\approx \max(8, \text{Max HP}/20)$ | +3 |
+| Divine Regeneration | $\max(1, \min(\lfloor\text{Max HP}/16\rfloor, 10))$ | $\approx \max(16, \text{Max HP}/10)$ | +4 |
 
 
 ## Mana Regeneration Rate
@@ -26,7 +26,7 @@ Different mana regeneration effects don't stack. The game will always use the be
 
 | Mana Regeneration State | Turns to Full Mana | Approx. Mana Regenerated per Turn |
 | :---------------------- | :----------------: | :-------------------------------: |
-| Default | $240$ | $\text{Max Mana} / 240$ |
+| Default | 240 | $\text{Max Mana} / 240$ |
 | Energy Regeneration | $\max(1, \min(\lfloor 2 \times \text{Max Mana}/3 \rfloor, 120))$ | $\approx \max(1.5, \text{Max Mana}/120)$ |
 | Rapid Energy Regeneration | $\max(1, \min(\lfloor\text{Max Mana}/3\rfloor, 60))$ | $\approx \max(3, \text{Max Mana}/60)$ |
 | Rapider Energy Regeneration | $\max(1, \min(\lfloor\text{Max Mana}/6\rfloor, 30))$ | $\approx \max(6, \text{Max Mana}/30)$ |

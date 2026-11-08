@@ -1,4 +1,4 @@
-> 👉 **GnollHack keeps several layers of copies of your game, so a crash, a killed app, a full disk or a damaged file rarely costs you your character. This page explains which files the game keeps, how the backup save file is created and used, and lists every protection the game applies to your save file, level files and related files.**
+> 👉 **GnollHack keeps several copies of your game, a checkpoint, an earlier save file and a backup save file, so a crash, a killed app, a full disk or a damaged file rarely costs you your character.**
 
 ## 📖 How Your Game Is Stored
 

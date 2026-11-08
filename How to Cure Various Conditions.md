@@ -92,7 +92,7 @@ If you have had your experience level drained, you can restore the loss as follo
 - Drink an uncursed [[/Items/potion of restore ability]] to regain *one* lost experience level.
 - Eat a blessed [[/Items/cloudberry]] to regain all lost experience levels.
 - Eat an uncursed [[/Items/cloudberry]] to regain *one* lost experience level.
-- Drink a blessed [[Items/potion of full healing]] to regain *one* lost experience level.
+- Drink a blessed [[/Items/potion of full healing]] to regain *one* lost experience level.
 
 ## Maximum Hit Point Loss
 

@@ -9,7 +9,4 @@
 - [[GnollHack Account]] integration.
 - Support for replays.
 
-## 📖 See Also
-
-- [[Modern Windows Version]]
-- [[Legacy Windows Version]]
+Each version has its own page: [[Modern Windows Version]] and [[Legacy Windows Version]].

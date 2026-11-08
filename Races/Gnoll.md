@@ -1,6 +1,6 @@
 ![Gnoll](/uploads/Races/Gnoll/gnoll-q85.webp)
 
-> 👉 **Gnolls are a versatile, highly perceptive race with a keen smell and taste for tripe, who start with lycanthropy immunity, can appraise food and corpses by scent, eat what other races will not, and enjoy the favor of Yeenaghu.**
+> 👉 **Gnolls take the place of gnomes as a playable race in GnollHack and have the favor of Yeenaghu, the Demon Lord of Gnolls.**
 
 ## 💪 Attribute Scores
 
@@ -32,7 +32,7 @@
 - Humans are generated hostile to you, except those that are always peaceful, such as shopkeepers, priests and the watch, and quest leaders and quest guardians
 - [[Hyenas|/Monsters/Hyena]] and [[/Monsters/Yeenaghu]] are always peaceful to you
 
-> ℹ️ **Note:** A [[/Items/Tripe ration]] gives a gnoll 600 nutrition instead of the usual 200. Bone items — and the corpses of animals — are familiar food to a gnoll, so eating them never prompts you to confirm that you want to taste something foul and unfamiliar. They still break the [[/Conducts/Vegetarian]] and [[/Conducts/Vegan]] conducts exactly as they do for any other race. Items made of leather and dragon hide are likewise not flagged as unfamiliar to a gnoll, but being a gnoll does not make them edible.
+> ℹ️ **Note:** A [[/Items/Tripe ration]] gives a gnoll 600 nutrition instead of the usual 200. Bone items and the corpses of animals are familiar food to a gnoll, so eating them never prompts you to confirm that you want to taste something foul and unfamiliar. They still break the [[/Conducts/Vegetarian]] and [[/Conducts/Vegan]] conducts exactly as they do for any other race. Items made of leather and dragon hide are likewise not flagged as unfamiliar to a gnoll, but being a gnoll does not make them edible.
 
 ## 🧞 Yeenaghu's Favor
 
@@ -44,7 +44,7 @@ Yeenaghu, the Demon Lord of Gnolls, is always peaceful to a gnoll. Chat with him
 
 Your first wish from Yeenaghu is always granted once one of those conditions is met. A further wish is possible but rarer each time: after n wishes the chance on a qualifying chat is 1 in 3·n (1 in 3 for the second wish, 1 in 6 for the third, and so on). If he is not pleased, he says so and departs without granting anything.
 
-> 💡 **Tip:** The [[/Artifacts/Howling Flail]] is the gnoll racial artifact gift, so a praying gnoll who receives it gains a reliable way to ask Yeenaghu for a wish regardless of alignment record or luck.
+> 💡 **Tip:** The [[/Artifacts/Howling Flail]] is the gnoll racial artifact gift, so a praying gnoll who receives it can get a first wish from Yeenaghu regardless of alignment record or luck. Later wishes still have only the 1 in 3·n chance.
 
 ## ⚖️ Allowed Alignments
 

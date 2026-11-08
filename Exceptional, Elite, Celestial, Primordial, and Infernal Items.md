@@ -30,7 +30,7 @@ Most items that can be used as weapons in combat can have weapon quality modifie
 In GnollHack, a piece of armor can have a quality modifier. The quality modifier gives bonus to the armor's AC and MC. The following armor can have quality modifiers:
 
 - [[Body armor]] — Non-magical and semi-magical body armor only
-- [[Shields]] — All shields including the [[shield of reflection]]
+- [[Shields]] — All shields including the [[/Items/shield of reflection]]
 - [[Boots]] — All boots including magical boots
 - [[Gloves]] — All gloves including magical gloves
 

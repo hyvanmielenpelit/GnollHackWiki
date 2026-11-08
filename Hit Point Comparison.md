@@ -435,50 +435,36 @@
 
 ## 🧬 HP Calculation Formulas
 
-This section explains the formulas used by the game engine to calculate starting hit points and level-up hit point progression.
-
 ### Starting Hit Points
 
-Starting hit points are determined when the character is created. They do not have a random component at character start (initialization random dice parameters are set to 0 for all classes and races).
+Starting hit points are set when the character is created and have no random part: no class or race rolls a die for them. They are the class's and the race's fixed starting hit points plus the Constitution bonus for level 1:
 
 $\text{Starting HP} = \text{Class Initial HP} + \text{Race Initial HP} + \lfloor \text{Con HP Bonus} \rfloor$
 
-Where:
-- **Class Initial HP** is the starting *infix* field in the class's HP advancement configuration.
-- **Race Initial HP** is the starting *infix* field in the race's HP advancement configuration.
-- **Con HP Bonus** is the flat HP bonus per level derived from the character's starting Constitution.
-
 ### Constitution HP Bonus
 
-The Constitution HP bonus is applied at every experience level (including level 1) and is calculated using the following formula:
+Constitution adds a bonus at every experience level, including level 1:
 
-$\text{Con HP Bonus} = \max\left(-2.0, \frac{\min(25, \text{Con}) - 7}{2.0}\right)$
+$\text{Con HP Bonus} = \max\left(-2, \frac{\min(25, \text{Con}) - 7}{2}\right)$
 
-Where:
-- **Con** is the current Constitution score of the character (capped at 25).
-- If **Con** $\lt 3$, the minimum bonus remains $-2.0$.
-- The resulting bonus is a multiple of $0.5$ (e.g., $18$ Con yields a bonus of $+5.5$).
+*Con* is the character's current Constitution. Constitution above 25 counts as 25, and below 3 the bonus stays at -2. The bonus is a multiple of 0.5: Constitution 18 gives +5.5 hit points per level.
 
 ### Hit Points Gained Per Level
 
-Each time the character gains a level (from level 2 to level 50), they receive a random increase in hit points determined by two independent dice rolls for class and race:
+Each new level, from level 2 up to level 50, adds the class's and the race's fixed hit points per level and one roll of each one's hit point die:
 
-$\text{HP Gain} = \text{Class lofix} + \text{Race lofix} + \text{rnd}(\text{Class lornd}) + \text{rnd}(\text{Race lornd})$
+$\text{HP Gain} = \text{Class Fixed Gain} + \text{Race Fixed Gain} + \text{Class Roll} + \text{Race Roll}$
 
-Where:
-- **Class lofix** is the fixed minimum increase for the class (which is $0$ for all classes).
-- **Race lofix** is the fixed minimum increase for the race (which is $1$ for all races).
-- **Class lornd** and **Race lornd** are the random range parameters (die sizes) for the class and race.
-- $\text{rnd}(N)$ generates a random integer in the range $[1, N]$ with uniform probability. If $N \le 0$, no roll is made and the term is $0$.
-- The average base gain per level is:
-  $\text{Gain}_{\text{avg}} = \text{Class lofix} + \text{Race lofix} + \frac{\text{Class lornd} + 1}{2.0} + \frac{\text{Race lornd} + 1}{2.0} = \text{Class lofix} + \text{Race lofix} + \frac{\text{Class lornd} + \text{Race lornd}}{2.0} + 1.0$
-  
-> ⚠️ **Note on UI Display:** In the game UI, the combined advancement is represented as a single combined die: `+1d(Class lornd + Race lornd + 1) + (Class lofix + Race lofix - 1)`. While this single-die approximation has a slightly wider range (`[1, Class lornd + Race lornd + 1]` vs `[3, Class lornd + Race lornd + 1]` for Archaeologist + Human), it yields the same average base gain per level.
+The class's fixed gain is 0 for every class. The race's fixed gain is 1, except for the Elf, which gets a fixed 2 and rolls no die. Each roll is a number from 1 to the size of the die, (size + 1) / 2 on average. When both the class and the race have a die, the average gain per level, with *Class Die* and *Race Die* as the sizes of the two dice, is:
+
+$\text{Gain}_{\text{avg}} = \text{Class Fixed Gain} + \text{Race Fixed Gain} + \frac{\text{Class Die} + \text{Race Die}}{2} + 1$
+
+> ⚠️ **Note on UI Display:** The game UI shows the class and race gain as one combined die: +1d(Class Die + Race Die + 1) + (Class Fixed Gain + Race Fixed Gain - 1). It has the same maximum as the two real rolls, but a lower minimum, and its average is 1 lower than the real average gain (0.5 lower for an Elf). For an Archaeologist Human, the UI shows +1d11, 1 to 11 and 6 on average, while the real gain is 3 to 11 and 7 on average.
 
 ### Total Expected Hit Points at Level L
 
-At experience level $L$ (where $1 \le L \le 20$), the expected maximum hit points are:
+The progression tables above give the expected maximum hit points at levels 1 to 20:
 
 $\text{Expected HP}(L) = (\text{Class Initial HP} + \text{Race Initial HP}) + (L - 1) \times \text{Gain}_{\text{avg}} + \lfloor \text{Con HP Bonus} \times L \rfloor$
 
-> ℹ️ **Note:** The floor truncation $\lfloor \dots \rfloor$ is applied directly to the total accumulated Constitution bonus (i.e. casting the float `Con HP Bonus * L` to an integer).
+> ℹ️ **Note:** The fraction is dropped from the whole Constitution bonus, Con HP Bonus × L, not from each level's share, and a negative total is rounded toward zero.

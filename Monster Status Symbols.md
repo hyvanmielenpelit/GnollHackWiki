@@ -1,5 +1,3 @@
-# Monster Status Symbols
-
 In GnollHack, monsters may have small status symbols attached to their sprites in the game UI. These icons provide important information about the monster's current state, level, hunger, or relationship to the player.
 
 ## Generic Monster Status Symbols

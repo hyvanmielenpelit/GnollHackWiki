@@ -1,12 +1,7 @@
-> 👉 **GnollHack plays over 1,100 sounds through FMOD, with volume and panning that depend on distance and obstacles.**
+> 👉 **GnollHack has over 1,100 different game sounds.**
 
-## 🔊 Sound Engine Features
+How loud a sound is, and from which side you hear it, depends on the distance and the obstacles between its source and your character. A sound can also move with its source, such as the buzzing of [[killer bees|/Monsters/Killer bee]] as they fly.
 
-- **Large Sound Set:** Over 1,100 different game sounds.
-- **Spatial Sounds:** Sound volume and panning depend on the distance and obstacles between the sound source and the player character.
-- **Movable Sound Sources:** Sounds can move with their source, such as the buzzing of killer bees as they fly.
-- **Internal Sound Sets:** Sound sets allow more complex effects, such as footsteps that change with your worn boots and the floor material (e.g., wood, stone, ice).
+Sound sets combine sounds into more complex effects. Your footsteps, for example, change with the boots you wear and with the floor under them, such as wood, stone or ice.
 
-## 🛠️ Audio Technology & Middleware
-
-- **Audio Middleware:** Sounds are managed and played using [FMOD](https://www.fmod.com/), an industry-standard sound system also used in commercial games such as *World of Warcraft* and *Celeste*.
+The sounds are played with the [FMOD](https://www.fmod.com/) sound engine, which commercial games such as *World of Warcraft* and *Celeste* also use.

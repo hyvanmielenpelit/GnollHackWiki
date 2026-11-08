@@ -40,9 +40,7 @@ You can't disable auto-update in Steam, but if your saved games become invalid, 
 - Sound through PulseAudio or PipeWire, which most desktops use.
 - In-game web pages, such as this wiki and the [[Gnoll Overseer]], use the Chromium engine built into the game, so no web browser components need to be installed.
 
-### 📖 See Also
-
-- [[Linux System Requirements]] — An in-depth article about the system requirements on Linux.
+The system requirements on Linux are covered in depth in [[Linux System Requirements]].
 
 ## 3. Recommended GnollHack Graphics Settings
 

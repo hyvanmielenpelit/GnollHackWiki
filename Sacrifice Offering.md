@@ -1,12 +1,10 @@
 ![Sacrifice Offering](/uploads/Sacrifice%20Offering/sacrifice-offering-q85.webp)
 
-> 👉 **Sacrificing is a core gameplay mechanic in GnollHack. By using the Offer (`Alt+o`) command while standing on an altar, you can sacrifice a corpse to appease your god, manipulate altar alignments, and obtain divine gifts.**
-
-To offer a sacrifice, you must be standing on an altar.
+> 👉 **Standing on an altar, you can Offer (`Alt+o`) a fresh corpse to calm your god, shorten your prayer timeout, raise your Luck, convert the altar, or receive a gift.**
 
 ## 📖 Overview
 
-The only primary items offered on an altar are **corpses**. They must be fresh, meaning they were killed within the last 50 turns<sup>1</sup>. If you attempt to sacrifice old corpses or other items, the game will reject them or ignore the offering.
+Apart from the Amulet of Yendor and its fakes, only **corpses** can be sacrificed, and only fresh ones, killed within the last 50 turns<sup>1</sup>. Anything else is refused or has no effect.
 
 | Attempted Offering | Condition | Message Seen by Player | Result |
 | :--- | :--- | :--- | :--- |
@@ -18,16 +16,13 @@ The only primary items offered on an altar are **corpses**. They must be fresh, 
 
 ## 🧟 Rotten vs. Fresh Corpses
 
-When dealing with corpses, the game distinguishes between being "rotten" (for eating) and being "fresh" (for sacrificing). This distinction is especially important for undead corpses (such as zombies, vampires, and mummies).
+"Rotten" and "fresh" are separate questions. Rotten is about eating: an undead corpse (a zombie, vampire or mummy, for example) always counts as rotten and makes you sick, however recently it was killed. Fresh is about sacrificing and depends only on age: killed within the last 50 turns.
 
-- **Eating (Rotten):** The game considers undead corpses inherently tainted. If you attempt to eat one, it is treated as "rotten" and will make you sick, regardless of when the monster was killed.
-- **Sacrificing (Fresh):** The sacrifice mechanic ignores food taint. A corpse is considered "fresh" for sacrificing strictly based on its age—specifically, if the monster was killed within the last 50 turns. 
-
-Therefore, a newly killed undead corpse is "rotten" for eating but "fresh" for sacrificing. You can successfully sacrifice these fresh undead corpses for their full value (plus the alignment bonus for Lawful and Neutral players) without any penalty.
+So a newly killed undead corpse is rotten to eat but fresh to sacrifice. It gives its full value, plus the bonus for Lawful and Neutral characters, with no penalty.
 
 ## 💨 Offering Consumption Messages
 
-When a valid fresh corpse is successfully offered, it is consumed and a message is displayed based on your character's status:
+An accepted corpse disappears with one of these messages:
 
 | Alignment | Blind | Hallucinating | Message Seen by Player |
 | :--- | :---: | :---: | :--- |
@@ -38,18 +33,18 @@ When a valid fresh corpse is successfully offered, it is consumed and a message 
 
 ## 🎚️ Corpse Value
 
-The value of a corpse determines its efficacy:
+Every effect below scales with the corpse's value:
 
 | Corpse State / Condition | Sacrifice Value | Notes |
 | :--- | :--- | :--- |
-| **Fresh Corpse** | `Difficulty + 1` | Default value for any corpse killed within the last 50 turns. |
-| **Old Corpse** | `0` | Any corpse killed more than 50 turns ago. Sacrificing this usually does nothing, unless it is undead ([see below](#undead-corpses)). |
+| **Fresh Corpse** | `Difficulty + 1` | Any corpse killed within the last 50 turns. |
+| **Old Corpse** | `0` | Any corpse killed more than 50 turns ago. Usually does nothing; [[undead corpses|#undead-corpses]] are the exception. |
 | **Partially Eaten Corpse** | Scaled proportionally | Value is reduced based on the remaining nutrition of the corpse. |
 | **Maximum Value** | Capped at `24` | |
 
 ### 🧟 Undead Corpses
 
-Sacrificing an undead corpse provides different values and outcomes depending on the player's alignment and the corpse's freshness:
+Lawful and Neutral characters get 1 extra point for an undead corpse, even an old one:
 
 | Player Alignment | Corpse Freshness | Final Sacrifice Value | Outcome / Result |
 | :--- | :--- | :--- | :--- |
@@ -60,15 +55,15 @@ Sacrificing an undead corpse provides different values and outcomes depending on
 
 ## 🛐 Sacrificing on a Co-Aligned Altar
 
-When sacrificing a fresh, valid corpse on an altar of your own alignment, your god evaluates the offering. The effects are resolved in the following priority order:
+On an altar of your own alignment, the sacrifice goes to the first of steps 1 to 5 that applies. Step 6 can happen on top of step 3 or step 5.
 
 ### 1. Decreasing Anger
 
-If your god is angry, the corpse value reduces their anger:
+If your god is angry, the anger drops by:
 
-$$\text{Anger Reduction} = \frac{\text{Corpse Value} \times (2 \text{ if Chaotic else } 3)}{24}$$
+$\text{Anger Reduction} = \frac{\text{Corpse Value} \times (2 \text{ if Chaotic else } 3)}{24}$
 
-Depending on how much anger is reduced, the player will see different messages:
+The message tells you whether any anger is left.
 
 | Outcome | Message Seen by Player | Hallucinating Message | Luck Effect |
 | :--- | :--- | :--- | :--- |
@@ -78,17 +73,13 @@ Depending on how much anger is reduced, the player will see different messages:
 
 ### 2. Decreasing Alignment Penalty
 
-If you are not angry but have a negative alignment record, a valuable corpse will increase your alignment by the corpse's value (up to 0).
-
-| Condition | Message Seen by Player | Effect |
-| :--- | :--- | :--- |
-| **Negative Alignment Record** | *"You feel partially absolved."* | Alignment record increased by corpse value (up to 0) |
+If your god is not angry but your alignment record is negative, the record rises by the corpse's value, but not above 0, and you *"feel partially absolved."*
 
 ### 3. Decreasing Prayer Timeout
 
-If you are in good standing but your prayer timeout is active, the timeout is reduced:
+Otherwise, if your prayer timeout is above 0, it drops by:
 
-$$\text{Timeout Reduction} = \frac{\text{Corpse Value} \times (500 \text{ if Chaotic else } 300)}{24 \times (2 \text{ if Priest else } 1)}$$
+$\text{Timeout Reduction} = \frac{\text{Corpse Value} \times (500 \text{ if Chaotic else } 300)}{24 \times (2 \text{ if Priest else } 1)}$
 
 | Character Class | Character Alignment | Max Turn Reduction (Value 24) | Turn Reduction per Value Point |
 | :--- | :--- | :--- | :--- |
@@ -97,7 +88,7 @@ $$\text{Timeout Reduction} = \frac{\text{Corpse Value} \times (500 \text{ if Cha
 | **Non-Priest** | Chaotic | 500 turns | 20.8 turns |
 | **Non-Priest** | Lawful / Neutral | 300 turns | 12.5 turns |
 
-Depending on how much prayer timeout is reduced, the player will see different messages:
+You can tell from the message whether it reached 0.
 
 | Outcome | Message Seen by Player | Hallucinating Message | Luck Effect |
 | :--- | :--- | :--- | :--- |
@@ -106,17 +97,16 @@ Depending on how much prayer timeout is reduced, the player will see different m
 
 ### 4. Divine Gifts
 
-If you are in excellent standing (no anger, an alignment record that is not negative, no prayer timeout, character level > 2, and Luck >= 0 without the bonus or penalty of any [[/Items/luckstone]] or other luck-changing item you carry), there is a chance your god bestows a divine gift.
-
-See [[Sacrifice Gifts]] for details.
+With no anger, an alignment record that is not negative and no prayer timeout, you may get a gift if you are experience level 3 or higher and your Luck is 0 or more, not counting a [[/Items/luckstone]] or any other item you carry that changes Luck. [[Sacrifice Gifts]] has the odds and the possible items.
 
 ### 5. Increasing Luck
 
-If no timeout or anger was reduced, and no gift was granted, your Luck is increased:
+If no gift comes, your Luck rises by:
 
-$$\text{Luck Increase} = \frac{\text{Corpse Value} \times 10}{48}$$
+$\text{Luck Increase} = \frac{\text{Corpse Value} \times 10}{48}$
 
-When your Luck increases (corpse value 5 or higher), you will see one of the following messages based on your status:
+A corpse value of 5 or more raises it by at least 1, and you see one of these messages:
+
 - **Normal:** *"You glimpse a four-leaf clover at your feet."*
 - **Blind:** *"You think something brushed your foot."*
 - **Hallucinating:** *"You see crabgrass at your feet. A funny thing in a dungeon."*
@@ -132,26 +122,19 @@ When your Luck increases (corpse value 5 or higher), you will see one of the fol
 
 ### 6. Blessing Special Items
 
-If you are in good standing (meaning your god is not angry and your alignment record is not negative) or if your sacrifice reduced your prayer timeout, the first unblessed special praying item (like a [[/Items/holy symbol]] or [[/Items/prayerstone]]) in your inventory will be automatically blessed. This happens as long as the sacrifice was not used to appease an angry god or fix a negative alignment.
-
-- Message: *"[Item] softly glows with a [light blue] aura."*
+When the sacrifice goes to your prayer timeout (step 3) or to your Luck (step 5), the first unblessed special praying item in your inventory, such as a [[/Items/holy symbol]] or a [[/Items/prayerstone]], becomes blessed: *"[Item] softly glows with a [light blue] aura."* This does not happen when the sacrifice calms an angry god, fixes a negative alignment record or brings a gift.
 
 ## ⚖️ Sacrificing on a Cross-Aligned Altar
 
-When you offer a fresh sacrifice on an altar of a different alignment, the outcome is determined by your current standing with your own god.
+On an altar of another alignment, your alignment record decides what you try: with a record of 0 or more you try to convert the altar, and with a negative record you try to convert yourself.
 
 ### 🔄 Converting the Altar to Your Alignment
 
-If your own god is **NOT angry** with you, you will attempt to convert the cross-aligned altar to your own alignment.
+The chance of converting the altar depends on your experience level:
 
-The probability of success is:
+$\text{Success Chance} = \frac{\text{Level} + 2}{\text{Level} + 8}$
 
-$$\text{Success Chance} = \frac{\text{Level} + 2}{\text{Level} + 8}$$
-
-> ℹ️ **Note:** Unaligned "godless" altars outside Gehennom convert at a 100% rate.
-
-On aligned altars, both outcomes begin with the message:
-*"You sense a conflict between [Your God] and [Altar God]."*
+Unaligned "godless" altars outside Gehennom always convert. On an aligned altar, both outcomes start with *"You sense a conflict between [Your God] and [Altar God]."*
 
 | Outcome | Effect | Message Addition |
 | :--- | :--- | :--- |
@@ -171,83 +154,73 @@ On aligned altars, both outcomes begin with the message:
 
 ### 🔄 Converting Yourself to the Alignment of the Altar
 
-If your own god **IS angry** with you (or if you sacrifice at Moloch's altar in Gehennom), you can attempt to convert yourself to the altar's alignment.
-
-Unlike converting an altar, the success chance formula does **not** play a role here. Instead, the outcome is strictly determined by the following conditions:
-- **Successful Conversion**: You have **not** converted your alignment before, and the altar has an alignment.
-- **Failed Conversion**: You **have** already converted before, or you attempt to convert to Moloch outside Gehennom.
+You try this when your alignment record is negative, and always when you sacrifice at Moloch's altar in Gehennom. There is no roll. You succeed if you have never converted before and the altar belongs to an aligned god. You fail if you have converted before or the altar is Moloch's. On a godless altar, nothing happens and the corpse stays.
 
 | Outcome | Effect | Message |
 | :--- | :--- | :--- |
 | **Successful Conversion** | • Alignment base becomes the altar's alignment. <br> • Luck decreases by 3. <br> • Prayer timeout increases by 300 turns (150 for Priests). | *"You have a strong feeling that [Your God] is angry... [Altar God] accepts your allegiance."* |
-| **Failed Conversion** | • God's anger increases by 3. <br> • Alignment record decreases by 5. <br> • Luck decreases by 5. <br> • Wisdom drops by 2. <br> • You are smitten by your god ([see below](#divine-anger-smite-outcomes)). | *"[Altar God] rejects your sacrifice!"* <br> *"Suffer, infidel!"* |
-
-> ⚠️ **Warning:** Trying to convert yourself is an extreme religious action. A failed conversion results in severe penalties and a direct smite from your god!
+| **Failed Conversion** | • God's anger increases by 3. <br> • Alignment record decreases by 5. <br> • Luck decreases by 5. <br> • Wisdom drops by 2. <br> • Outside Gehennom, your god smites you (see [[Divine Anger and Smite Outcomes|#divine-anger-smite-outcomes]]). | *"[Altar God] rejects your sacrifice!"* <br> *"Suffer, infidel!"* |
 
 ## 🦄 Special Sacrifices
 
 ### 🧑‍🤝‍🧑 Sacrificing Your Own Race
 
-Sacrificing a corpse of your own race is a major offense. Depending on your alignment and the altar's alignment, it can result in severe divine punishment, the destruction of the altar, or the summoning of a potentially hostile demon lord.
-
-For a detailed breakdown of the mechanics, penalties, and demon summoning rules, see **[[Same-Race Sacrifice]]**.
+Depending on your alignment and the altar's, a corpse of your own race can bring your god's punishment, destroy the altar, or summon a demon lord who may be hostile. [[Same-Race Sacrifice]] covers the details.
 
 ### 🐕 Sacrificing Pets
 
-Sacrificing a tame creature is a betrayal of loyalty.
-- **Outcome**: Your alignment record decreases by 3, the corpse value is set to -1 (triggering your god's anger), and you permanently aggravate monsters.
-- Message: *"So this is how you repay loyalty?"*
+Offering the corpse of a tame creature gives *"So this is how you repay loyalty?"* Your alignment record drops by 3, you aggravate monsters permanently, and the corpse value becomes -1, which angers the altar's god.
 
 ### 🦄 Sacrificing Unicorns
 
-Sacrificing unicorns yields highly alignment-dependent effects:
+The result depends on how the unicorn's alignment compares with the altar's and yours:
 
 | Altar Alignment | Unicorn Alignment | Outcome | Message |
 | :--- | :--- | :--- | :--- |
-| **Same as Unicorn** | Any | Gravely insults the altar. Wisdom is reduced, corpse value is set to -5 (triggers god's wrath). | *"Such an action is an insult to [law/balance/chaos]!"* |
-| **Same as Player** | Different from Altar & Player | Very good action. Alignment increases by 5, corpse value is increased by 3. | *"You feel thoroughly on the right path."* (or *"appropriately aligned"*) |
-| **Different from Player** | Same as Player | Player's alignment record is reset to -1. Corpse value is set to 1. | *None* |
+| **Same as Unicorn** | Any | Wisdom drops by 1 and the corpse value becomes -5, which angers the altar's god. | *"Such an action is an insult to [law/balance/chaos]!"* |
+| **Same as Player** | Different from Altar & Player | Alignment record rises by 5 and the corpse value by 3. | *"You feel appropriately [lawful/neutral/chaotic]."* (or *"You feel you are thoroughly on the right path."* when your alignment record is at its limit) |
+| **Different from Player** | Same as Player | Your alignment record is set to -1 and the corpse value to 1, so you try to [[convert yourself|#converting-yourself-to-the-alignment-of-the-altar]] to the altar's alignment. | *None* |
 | **Any** | Cross-aligned to both Altar and Player | Ordinary sacrifice. Corpse value is increased by 3. | *None* |
 
 ## ⚡ Divine Anger & Smite Outcomes
 
-When a god is angered (either by offering a highly offensive sacrifice, or via a direct divine smite known as `angrygods`—which is triggered by severe transgressions like attacking a peaceful priest, desecrating an altar, or breaking major taboos), a random number from **$0$ to $\text{maxanger} - 1$** is rolled. 
+A god smites you after an offering it finds offensive (such as a pet, a unicorn of the altar's alignment, or a fake Amulet you know is fake), a failed attempt to convert yourself, or a same-race sacrifice by a Lawful or Neutral character. A failed prayer can do the same; see [[Praying]].
 
-The `maxanger` value is calculated differently depending on whether you anger your own god or a cross-aligned god, and is strictly bounded between $1$ and $15$:
+The god rolls a number from 0 to one less than its maximum anger. Maximum anger is at least 1 and at most 15, and it is calculated differently for your own god and for a cross-aligned god.
 
 ### Angering a Cross-Aligned God
 
-$$ \text{maxanger} = \left\lfloor \frac{\text{Alignment Record}}{2} \right\rfloor + L $$
+$\text{Maximum Anger} = \left\lfloor \frac{\text{Alignment Record}}{2} \right\rfloor + L$
 
 Where $L$ is the Luck modifier:
 
-$$ L = \begin{cases} - \lfloor \frac{\text{Luck}}{3} \rfloor & \text{if } \text{Luck} > 0 \\ - \text{Luck} & \text{if } \text{Luck} \le 0 \end{cases} $$
+$L = \begin{cases} - \lfloor \frac{\text{Luck}}{3} \rfloor & \text{if } \text{Luck} > 0 \\ - \text{Luck} & \text{if } \text{Luck} \le 0 \end{cases}$
 
 ### Angering Your Own God
 
-$$ \text{maxanger} = (3 \times \text{God's Anger}) + L $$
+$\text{Maximum Anger} = (3 \times \text{God's Anger}) + L$
 
 Where $L$ is the Luck modifier:
 
-$$ L = \begin{cases} - \lfloor \frac{\text{Luck}}{3} \rfloor & \text{if } \text{Luck} > 0 \text{ or Alignment Record} \ge 4 \text{ (Strident)} \\ - \text{Luck} & \text{otherwise} \end{cases} $$
+$L = \begin{cases} - \lfloor \frac{\text{Luck}}{3} \rfloor & \text{if } \text{Luck} > 0 \text{ or Alignment Record} \ge 4 \text{ (Strident)} \\ - \text{Luck} & \text{otherwise} \end{cases}$
 
 ### Outcome
 
-The outcome of the divine smite is chosen based on this roll:
+The roll decides what the god does:
 
 | Roll Result | Effect | Message |
 | :--: | :--- | :--- |
 | **0 or 1** | God is displeased. No stat or mechanical penalty. | *"You feel that [God Name] is displeased."* (or *"bummed"*) |
-| **2 or 3** | Player loses 1 Wisdom and 1 experience level. | *"Thou hast strayed from the path/art arrogant, [mortal/creature]. Thou must relearn thy lessons!"* |
-| **4 or 5** | Random items in inventory are cursed. Black glow surrounds player. | *"Thou hast angered me."* |
-| **6** | Player is punished (a heavy iron ball is attached to their leg). If already punished, random items are cursed instead. | *"Thou hast angered me."* |
-| **7 or 9** | Hostile minion is summoned. Only triggers if the god is of your original alignment but you have converted away; otherwise, it falls through to case 8. | *"Thou hast strayed from the path, [mortal/creature]. Thou shalt pay for thine indiscretion!"* |
-| **8** | Hostile minion is summoned. | *"Thou durst scorn/call upon me? Then die, [mortal/creature]!"* |
-| **10+** | Player is directly smitten with magical damage or a lightning bolt. | *"Thou hast angered me."* |
+| **2 or 3** | You lose 1 Wisdom and 1 experience level. | *"Thou hast strayed from the path/art arrogant, [mortal/creature]. Thou must relearn thy lessons!"* |
+| **4 or 5** | Random items in your inventory are cursed, and a black glow surrounds you. | *"Thou hast angered me."* |
+| **6** | You are punished: a heavy iron ball is chained to your leg. If you already are, random items are cursed instead. | *"Thou hast angered me."* |
+| **7 or 9** | A hostile minion is summoned. This happens only if the god is that of your original alignment and you have converted away; otherwise the roll counts as 8. | *"Thou hast strayed from the path, [mortal/creature]. Thou shalt pay for thine indiscretion!"* |
+| **8** | A hostile minion is summoned. | *"Thou durst scorn/call upon me? Then die, [mortal/creature]!"* |
+| **10+** | A lightning bolt strikes you, then a wide-angle disintegration beam. Reflection or shock immunity stops the bolt, and disintegration resistance stops the beam; otherwise each one kills you. | *"Thou hast angered me."* |
 
 ## 👑 The Amulet of Yendor
 
-Sacrificing the real Amulet of Yendor is the method of completing the game:
+You win the game by sacrificing the real Amulet of Yendor on the right altar:
 
 | Altar Type & Location | Altar Alignment | Amulet Consumed? | Game Outcome | Key Messages & Effects |
 | :--- | :--- | :---: | :--- | :--- |
@@ -260,15 +233,11 @@ Sacrificing the real Amulet of Yendor is the method of completing the game:
 
 ### 🪙 Fake Amulet of Yendor
 
-The consequences of sacrificing a fake Amulet of Yendor depend heavily on whether you **know** it is a fake (it has been identified as a "cheap plastic imitation") or if you genuinely **believed** it was real (it remains unidentified). 
-
-Since the gods cannot be fooled, a fake amulet is **never consumed** when sacrificed:
+A fake Amulet of Yendor is **never consumed**. What happens depends on whether you **know** it is a fake (it is identified as a "cheap plastic imitation") or offered it believing it was real (it is unidentified):
 
 | Altar Type | Fake Amulet Identified? | Amulet Consumed? | Game Outcome | Key Effects & Consequences | Message |
 | :--- | :---: | :---: | :--- | :--- | :--- |
 | **Normal Altar** | ❌ | ❌ | **Game Continues** | Treated as if you offered the real Amulet on a normal altar (see above). No thunderclap or penalty. | *"You feel an urge to return..."* or *"You feel ashamed."* |
 | **Normal Altar** | ✅ | ❌ | **Game Continues** | Thunderclap. Luck -3, alignment -1, god's anger +3. Your god gets upset. | *"You hear a nearby thunderclap."* <br> *(plus "Oh, no." if deaf)* |
 | **High Altar** | ❌ | ❌ | **Game Continues** | Thunderclap. You identify the fake amulet and realize your mistake. Luck -1. | *"You hear a nearby thunderclap."* <br> *"You realize you have made a mistake."* (or *"boo-boo"* if hallucinating) |
-| **High Altar** | ✅ | ❌ | **Game Continues** | Thunderclap. Luck -3, alignment -1, god's anger +3. Your god gets upset. On a cross-aligned high altar, this also triggers the devastating high altar desecration smite. | *"You hear a nearby thunderclap."* <br> *(plus "Oh, no." if deaf)* |
-
-> ⚠️ **Warning:** Deliberately sacrificing a fake amulet you **know** is a fake is extremely dangerous. The gods punish this just as harshly on normal and high altars — and on a cross-aligned high altar, the owning god will directly smite you with lightning.
+| **High Altar** | ✅ | ❌ | **Game Continues** | Thunderclap. Luck -3, alignment -1, god's anger +3. Your god gets upset. On a cross-aligned high altar, the altar's god also strikes you with lightning and a disintegration beam, as for desecrating a high altar. | *"You hear a nearby thunderclap."* <br> *(plus "Oh, no." if deaf)* |

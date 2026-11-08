@@ -1,38 +1,16 @@
 ![Praying](/uploads/Praying/praying-q85.webp)
 
-> 👉 **Praying is an essential mechanic in GnollHack that allows you to call upon your god for help, healing, or special favors when you are in trouble. However, praying too often or when your god is angry can have severe consequences.**
+> 👉 **A prayer at the right time gets your god to fix your troubles and sometimes grants a special favor, while a prayer too soon or to an angry god gets you punished.**
 
-## Introduction
+You can pray at any time with Pray (`Alt+p`). What happens depends on your troubles, your alignment record, your Luck and how long ago you last prayed.
 
-You can pray to your god at any time using the Pray (`Alt+p`) command. When you pray, the outcome heavily depends on your current situation, your alignment record, your luck, and how recently you last prayed. If done correctly, praying can save you from certain death; if done carelessly, it can anger your god and result in severe penalties.
+## Prayer Timeout
 
-## When is it Safe to Pray? — Prayer Timeout
-
-The primary factor determining if a prayer is safe is your **Prayer Timeout**. This timeout acts as a hidden cooldown counter that decreases by 1 every game turn.
-
-### Initial Value
-
-At the start of the game, your character begins with an initial prayer timeout of:
-
-| Role | Initial Prayer Timeout |
-| :--- | :--------------------: |
-| Priests | 150 turns |
-| Other roles | 300 turns |
-
-### Value after a Prayer 
-
-Every time you pray successfully, your prayer timeout is set to a randomized value using the following base values:
-
-| Role | Base Value |
-| :--- | :--------------------: |
-| Priests | 175 turns |
-| Other roles | 350 turns |
-
-Actual values are detailed in the [Prayer Timeout Randomization](#prayer-timeout-randomization) and [95% Chance Safe Thresholds](#95-chance-safe-thresholds) sections below.
+Whether a prayer is safe depends mostly on your **prayer timeout**, a hidden counter that goes down by 1 every turn. It starts at 300, or at 150 for Priests. Each successful prayer sets it to a new random value based on 350, or 175 for Priests; see [[Prayer Timeout Randomization|#prayer-timeout-randomization]] below.
 
 ### Troubles
 
- Your current "Troubles" determine how low this timeout counter needs to drop before it is safe to pray again. For example, if your timeout is set to 350, you only need to wait 150 turns for it to drop to 200 before you can safely pray to fix a **Major Trouble**. However, you would have to wait the full 350 turns for the timeout to reach 0 to safely pray when you have **No Trouble**.
+How low the timeout must be depends on your troubles. If a prayer sets it to 350, you can pray again for a **major trouble** after 150 turns, when it is down to 200. With **no trouble** you have to wait the full 350 turns, until it reaches 0.
 
 | Trouble Level | Condition | Safe Timeout Threshold |
 | :--- | :--- | :--- |
@@ -40,36 +18,28 @@ Actual values are detailed in the [Prayer Timeout Randomization](#prayer-timeout
 | **Minor Trouble** | You are facing a severe but non-lethal issue. | Timeout $\le$ 100 |
 | **No Trouble** | You are not in any immediate danger. | Timeout $\le$ 0 |
 
-> ℹ️ **Note:** If you have killed the Wizard of Yendor or have been [[crowned|Crowning]], your prayer timeout is penalized with massive increases (approximately +500 for Priests or +1000 for other roles, per violation), making it much harder to pray safely.
+Once you have killed the Wizard of Yendor, and again once you have been [[crowned|Crowning]], every successful prayer adds roughly another 1000 turns to the new timeout, or 500 for Priests, for each of the two.
 
 ### Prayer Timeout Randomization
 
-The prayer timeout **base values** are applied to a highly randomized function called `rnz()` to determine the actual timeout. The `rnz()` function scales the base value up or down randomly. It has a 50% chance to multiply the base value and a 50% chance to divide it, using a randomly generated multiplier. The maximum possible multiplier increases as your character levels up, and therefore the possible range of your prayer timeout becomes wider at higher levels.
+After a successful prayer, the base value is either multiplied or divided by a random factor, with even odds. The largest factor the game can roll grows as your character gains levels, so at high levels the timeout can land further from the base value.
 
-### 95% Chance Safe Thresholds
+Those large factors come up rarely, under 5% of the time, so they do not change the 95th percentile. At every experience level from 1 to 50, 95% of successful prayers leave a timeout of at most 1229 turns, or 614 for Priests. That is the wait until the timeout reaches 0, which a prayer with no trouble needs; with a [[major or minor trouble|#troubles]] you can pray once it is down to 200 or 100.
 
-However, because the extreme multipliers in the `rnz()` function only trigger rarely (under 5% of the time), the 95th percentile of your resulting prayer timeout is actually unaffected by your character level. In 95% of successful prayers, your timeout will be less than or equal to the following number of turns, regardless of your character's experience level:
-
-| Experience Level | Priest | Other Roles |
-| :--: | :--: | :--: |
-| **1–50** | 614 | 1229 |
-
-These figures are the turns until the timeout reaches **0**, which is what a prayer with **No Trouble** requires. In **Major Trouble** a prayer is already safe once the timeout is **≤ 200**, and in **Minor Trouble** once it is **≤ 100** — see [Troubles](#troubles) above.
-
-> 💡 **Tip:** You can know whether it is currently safe to pray when a blessed [[/Items/holy symbol]] or a blessed [[/Items/prayerstone]] is shimmering.
+> 💡 **Tip:** A blessed [[/Items/holy symbol]] or a blessed [[/Items/prayerstone]] shimmers while it is safe to pray.
 
 ### Unsafe Conditions
 
-Even if your timeout has elapsed, praying under the following conditions is considered unsafe and will result in a negative outcome:
+These make a prayer fail even when the timeout is low enough:
 
-- **Too Naughty**: If your Luck is negative, your God's anger is greater than 0, or your Alignment Record is negative.
-- **Gehennom**: It is **never** safe to pray in Gehennom. Your god will not hear you, and doing so might anger them.
-- **Wrong Altar**: Praying on an altar dedicated to a god of a different alignment than your own.
-- **Vile Creature**: If you are transformed into an undead monster and pray on a Lawful altar (or a Neutral altar with a 10% chance), your god will view you as an abomination.
+- **Too Naughty**: Your Luck is negative, your god's anger is above 0, or your alignment record is negative.
+- **Gehennom**: Prayers never work in Gehennom. Your god will not hear you, and praying there might anger them.
+- **Wrong Altar**: You pray on an altar of a god of another alignment than yours.
+- **Vile Creature**: You are polymorphed into an undead monster and pray on a Lawful altar, or on a Neutral altar with a 10% chance.
 
 ## Types of Troubles
 
-The game categorizes your problems into Major and Minor troubles. When your god decides to help you, they prioritize fixing these troubles based on severity.
+Your god fixes your worst trouble first. Major troubles are worse than minor ones, and each table below lists its troubles from worst to least bad.
 
 ### Major Troubles
 
@@ -79,10 +49,10 @@ The game categorizes your problems into Major and Minor troubles. When your god 
 | **Slimed** | You are turning into green slime. |
 | **Strangled** | You are wearing an [[/Items/amulet of strangulation]]. |
 | **Lava** | You are trapped in lava. |
-| **Sick** | You have a terminal illness or food poisoning. |
-| **Food Poisoned** | You are suffering from severe food poisoning. |
-| **Mummy Rot** | You are afflicted with mummy rot. |
-| **Starving** | Your hunger level is at Starving or worse. |
+| **Sick** | You have a terminal illness. |
+| **Food Poisoned** | You have food poisoning. |
+| **Mummy Rot** | You have mummy rot. |
+| **Starving** | Your hunger status is Weak or worse. |
 | **Region** | You are trapped in a stinking cloud. |
 | **Hit** | Your HP is critically low: 5 or less, or at most one third of your maximum HP, where the maximum counts as no more than 15 times your experience level. |
 | **Lycanthrope** | You have contracted lycanthropy. |
@@ -115,21 +85,19 @@ The game categorizes your problems into Major and Minor troubles. When your god 
 
 ### Negative Outcomes
 
-If you pray when it is unsafe, you will suffer the following consequences:
+An unsafe prayer ends in one of these ways:
 
-- **Vile Creature**: You are forcefully rehumanized and take 1d20 damage.
+- **Vile Creature**: You are forced back into your normal form and take 1d20 damage.
 - **Gehennom**: Your god states they cannot help you. If your Alignment Record is 0 or less, your god will become angry.
-- **Too Soon**: Your prayer fails. Your god's anger grows by one, your Luck decreases by 3, and your angry god punishes you. The punishment grows harsher with your god's anger and your bad Luck, from a mere feeling that your god is displeased to cursed items, a lost experience level or a bolt of lightning. Your prayer timeout is then set anew to a random value of around 300, or around 150 for Priests, which can also come out much larger. If you pray on a wrong altar, the altar may curse any [[water|/Items/potion of water]] or [[holy symbols|/Items/holy symbol]] on it.
-- **Too Naughty**: You pray while your Luck is negative, your god is angry, or your alignment record is negative. On an altar of another alignment your record counts for half, and on an altar of the opposing alignment it counts against you. Your prayer fails, your angry god punishes you in the same way, and your prayer timeout is set anew in the same way. The failed prayer does not lower your Luck or add to your god's anger by itself. If you pray on a wrong altar, the altar may curse any [[water|/Items/potion of water]] or [[holy symbols|/Items/holy symbol]] on it.
+- **Too Soon**: Your prayer fails. Your god's anger grows by one, your Luck decreases by 3, and your angry god punishes you. The punishment grows harsher with your god's anger and your bad Luck, from a feeling that your god is displeased to cursed items, a lost experience level or a bolt of lightning. Your prayer timeout is then set anew to a random value of around 300, or around 150 for Priests, which can also come out much larger.
+- **Too Naughty**: You pray while your Luck is negative, your god is angry, or your alignment record is negative. On an altar of another alignment your record counts for half, and on an altar of the opposing alignment it counts against you. Your prayer fails, your angry god punishes you in the same way, and your prayer timeout is set anew in the same way. The failed prayer does not lower your Luck or add to your god's anger by itself.
 - **Wrong Altar**: The altar may curse [[water|/Items/potion of water]] and [[holy symbols|/Items/holy symbol]] placed upon it. If so, you incur the same penalties as praying "Too Soon".
 
 ### Positive Outcomes
 
-If you pray safely, your god will be pleased. If you pray while standing on your own altar, your god will bless any [[holy symbols|/Items/holy symbol]] or [[prayerstones|/Items/prayerstone]] you are carrying, as well as any [[water|/Items/potion of water]] or [[holy symbols|/Items/holy symbol]] placed on the altar.
+A safe prayer pleases your god. On an altar of your own god, your god also blesses one [[holy symbol|/Items/holy symbol]] or [[prayerstone|/Items/prayerstone]] you carry that is not yet blessed, and any [[water|/Items/potion of water]] or [[holy symbols|/Items/holy symbol]] lying on the altar.
 
-Your god will then decide how many troubles to fix based on a random roll tied to your Luck and whether you are standing on an altar.
-
-**Trouble Fixing Actions:**
+How many troubles get fixed is decided by a random roll, which is higher with good Luck and on an altar:
 
 | Action Level | Result |
 | :----------: | :----- |
@@ -143,16 +111,17 @@ Your god will then decide how many troubles to fix based on a random roll tied t
 
 ### Special Favors
 
-A "special favor" is granted by your god. It occurs when you achieve an Action Level of 5, or if you pray with absolutely no troubles while maintaining an Alignment Record of at least 14 (Devout).
+You get a special favor on Action Level 5, or when you pray with no troubles at all and an alignment record of at least 14 (Devout).
 
-The favor granted is determined by rolling a random number between `0` and `(Luck + 6) / 2`. The possible outcomes are:
+Which favor you get is a random roll from 0 to ⌊(Luck + 6) / 2⌋ − 1:
 
 | Roll | Effect |
 | :--: | :----- |
+| **0** | Nothing. |
 | **1** | Repairs and uncurses or blesses your wielded weapon. |
 | **2** | Increases your max HP by 5 (or restores a drained level), heals you to full HP, cures blindness and hunger, and resets negative Luck to 0. |
-| **3** | Provides a hint for the Castle tune (if applicable), then grants the effects of Roll #2. |
+| **3** | Gives a hint for the Castle tune if you still need one; otherwise the same as roll 2. |
 | **4** | Uncurses all cursed items in your inventory. |
 | **5** | Grants intrinsic Telepathy, Speed, Stealth, or Protection. |
 | **6** | Grants a spellbook (preferring unknown spells). |
-| **7 or 8** | Crowns you. This requires an Alignment Record of at least 20 (Pious). See the [[Crowning]] wiki page for detailed information on the mechanics and artifacts granted. |
+| **7 or 8** | Crowns you, if your alignment record is at least 20 (Pious) and you have not been crowned yet; otherwise the same as roll 6. [[Crowning]] describes the intrinsics and gifts. |

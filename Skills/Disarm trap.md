@@ -2,7 +2,7 @@
 
 ### Trap Types
 
-#### Simple traps
+### Simple traps
 
 | Trap | Item Granted on Disarm |
 | :--- | :--------------------- |
@@ -13,7 +13,7 @@
 | Door trap | |
 | Squeaky board | [[/Items/Piece of wood]] |
 
-#### Complex traps
+### Complex traps
 
 | Trap | Item Granted on Disarm |
 | :--- | :--------------------- |
@@ -24,7 +24,7 @@
 | Rust trap | [[/Items/Potion of water]] |
 | Sleep gas trap | [[/Items/Wand of sleep]] |
 
-#### Minor magical traps
+### Minor magical traps
 
 | Trap | Item Granted on Disarm |
 | :--- | :--------------------- |
@@ -33,7 +33,7 @@
 | Statue trap | |
 | Teleport trap | [[/Items/Wand of teleportation]] |
 
-#### Major magical traps
+### Major magical traps
 
 | Trap | Item Granted on Disarm |
 | :--- | :--------------------- |

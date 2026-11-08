@@ -1,4 +1,4 @@
-> 👉 **This page contains a list of instructions for AI agents that assist with the development and release of GnollHack.**
+> 👉 **AI agents that assist with the development and release of GnollHack follow written instructions for three recurring tasks: Steam patch notes, Steam events, and the scan of graphical NetHack ports.**
 
 Each instruction page tells an AI agent, step by step, how to carry out one recurring task. To start a task, copy its prompt from [[Copiable Prompts|#copiable-prompts]], fill in the bracketed parts, and paste it to your AI agent. The agent needs access to the GnollHackWiki repository, and for some tasks also to the GnollHack repository.
 

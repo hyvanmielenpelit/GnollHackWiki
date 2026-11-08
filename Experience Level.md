@@ -1,7 +1,5 @@
 ![experience-level-q85](/uploads/Experience%20Level/experience-level-q85.webp)
 
-## Experience Level
-
 **Experience level** tells how strong and experienced your character is. Each character starts at experience level 1.
 
 Each experience level gives you:

@@ -1,4 +1,4 @@
-> 👉 **Most magical items in GnollHack hide behind a randomized appearance that changes from game to game. This page explains exactly which items are shuffled, which ones always look the same, and what pool of appearances each item can be drawn from.**
+> 👉 **Most magical items in GnollHack hide behind a randomized appearance that changes from game to game.**
 
 ## 🔍 How Appearance Randomization Works
 
@@ -53,7 +53,7 @@ Several appearance pools contain more entries than there are real items, and a f
 | **Amulets** | 15 | 15 | — |
 | **Spellbooks** | 266 | 266 | — |
 
-Artifacts sit outside this system entirely. Their appearances are hard-coded and identical in every game — see [[Artifacts|#artifacts]].
+Artifacts sit outside this system entirely. Their appearances are hard-coded and identical in every game; see [[Artifacts|#artifacts]].
 
 ## 🧪 Potions
 
@@ -367,7 +367,7 @@ Wand materials are shuffled together with the appearance, so the material is alw
 
 | Appearance | Always is |
 |---|---|
-| **plutonium** | [[/Artifacts/The Rod of Disjunction]] (base item never generates) |
+| **plutonium** | The wand of disjunction, base item of [[/Artifacts/The Rod of Disjunction]]. It never generates, and the Rod itself shows as a **black metal wand**. |
 
 > 💡 **Tip:** The [[/Items/wand of nothing]] gets a random zap behavior at the start of each game. In half of all games it is a no-direction wand and in the other half it asks for a direction. This means the direction prompt alone does not reliably rule the wand of nothing in or out.
 
@@ -465,7 +465,7 @@ Because material is shuffled together with the appearance, a "wooden ring" reall
 
 | Appearance | Always is |
 |---|---|
-| **golden runed** | [[/Artifacts/The Ruling Ring of Yendor]] (base item never generates) |
+| **golden runed** | The ring of supreme power, base item of [[/Artifacts/The Ruling Ring of Yendor]]. It never generates, and the Ring itself shows as a **plain golden ring**. |
 | **ruby** | [[/Artifacts/The Ring of Conflict]] |
 | **three-ruby-studded** | [[/Artifacts/The Ring of Three Wishes]] |
 | **serpent-shaped** | [[/Artifacts/The Serpent Ring of Set]] |
@@ -1090,13 +1090,13 @@ Fourteen artifacts have no description of their own and simply borrow the look o
 
 Because these artifacts have no description of their own, the name you see follows the base item's own identification state. Once you have identified luckstones, [[/Artifacts/The Gladstone]] reads exactly "luckstone"; once katanas are known, [[/Artifacts/Snickersnee]] reads "katana".
 
-Thirteen of the fourteen are famous and still print their name on sight, so the disguise is only skin deep. **[[/Artifacts/The Emerald Sword]] is the sole exception** — the one artifact in the game that both looks like an ordinary item and keeps its name hidden until you wield it. Even it is not truly plain, since its fixed exceptional quality and gemstone material are visible from the start, and no ordinary two-handed sword can be made of gemstone.
+Thirteen of the fourteen are famous and still print their name on sight, so the look fools no one. **[[/Artifacts/The Emerald Sword]] is the sole exception**: the one artifact in the game that both looks like an ordinary item and keeps its name hidden until you wield it. Even it is not truly plain, since its fixed exceptional quality and gemstone material are visible from the start, and no ordinary two-handed sword can be made of gemstone.
 
 ### Other tells before identification
 
 Even when an artifact's appearance is shared with an ordinary item, several other signals give it away.
 
-- **Quality prefix.** Every artifact has a fixed quality that is shown as soon as you see it: 22 are elite and 12 are exceptional. See [[Exceptional, Elite, Celestial, Primordial, and Infernal Items]].
+- **Quality prefix.** Most artifacts have a fixed quality that is shown as soon as you see it: 27 are elite and 15 are exceptional, and the other 18 are of normal quality. See [[Exceptional, Elite, Celestial, Primordial, and Infernal Items]].
 - **Mythic prefix.** Thirteen artifacts carry a fixed mythic prefix or suffix and therefore read "mythic" or "legendary" until identified: [[/Artifacts/Grimtooth]], [[/Artifacts/Orcrist]], [[/Artifacts/Dragonbane]], [[/Artifacts/Demonbane]], [[/Artifacts/Werebane]], [[/Artifacts/Giantslayer]], [[/Artifacts/Ogresmasher]], [[/Artifacts/Trollsbane]], [[/Artifacts/The Mace of Saint Cuthbert]], [[/Artifacts/The Tooth of Tarrasque]], [[/Artifacts/The Mitre of Holiness]], [[/Artifacts/The Mattock of the Titans]] and [[/Artifacts/The Maul of the Titans]]. See [[Mythic and Legendary Items]].
 - **Special material.** Seven artifacts override their base material, which shows in the name: [[/Artifacts/Demonbane]] (silver), [[/Artifacts/Sunsword]] (crystal), [[/Artifacts/The Emerald Sword]] (gemstone), [[/Artifacts/The Tooth of Tarrasque]] (tooth), [[/Artifacts/Ruby Rod of Asmodeus]] (gemstone), [[/Artifacts/The Mattock of the Titans]] (adamantium) and [[/Artifacts/The Platinum Yendorian Express Card]] (platinum). See [[Object Materials]].
 - **Shop price.** Shops price an artifact from the artifact's own value even when it is unidentified, so an unidentified artifact is quoted in the thousands.

@@ -1,6 +1,6 @@
 ![GnollBench](/uploads/GnollBench/gnollbench-logo-256-v3.webp)
 
-> 👉 **GnollBench is the Gnoll Overseer's AI benchmarking system. This in-depth guide shows how its questions and answer keys are built, which AI roles take part in a run, how an answer turns into a score, and why a single run is never the whole story.**
+> 👉 **In a standard GnollBench run, each answer is graded against its question's rubric by two assessors from two different AI companies, and harder questions weigh more in the final result.**
 
 > ℹ️ **Note:** This article describes GnollBench as of October 2026: harness version 45 and scoring method version 13. Figures such as limits and thresholds may change in later versions.
 

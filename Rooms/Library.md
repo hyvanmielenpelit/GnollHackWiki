@@ -1,17 +1,13 @@
-> 👉 **A Library is a scholarly special room packed with books and guarded by magic-using monsters.**
+> 👉 **A library is a GnollHack special room with bookshelves, spellbooks and scrolls, guarded by one of four groups of monsters.**
 
-## ℹ️ Description
+Libraries are generated at random from dungeon level 8 down. The floor is parquet. One square in five has a [[/Items/bookshelf]], and of the other squares, one in five has a spellbook or a scroll lying on it (one in four from level 12 down). About a quarter of these are spellbooks, which makes a library worth finding for a spellcaster.
 
-A Library is a GnollHack-specific special room focused heavily on knowledge and magic. The floor is dotted with spellbooks and scrolls, making it a highly desirable location for spellcasting roles. However, it is heavily guarded by intelligent, magic-using monsters.
+Each square has a 1 in 2 chance of a monster, so about half the room is occupied. The group depends on the depth:
 
-## 🗺️ Generation
+| Dungeon Level | Group |
+| :--- | :--- |
+| 8–9 | [[Gnomish wizards|/Monsters/Gnomish wizard]] or [[gnoll wardens|/Monsters/Gnoll warden]], equally likely |
+| 10–12 | [[/Monsters/Liches]] (1 in 2), gnomish wizards (1 in 4) or gnoll wardens (1 in 4) |
+| 13 and deeper | Liches (3 in 4) or [[tentacled ones|/Monsters/Tentacled one]] (1 in 4) |
 
-Libraries can be generated randomly as a special room. The room is distinct for having a high concentration of reading material scattered on the floor. 
-
-The library is guarded by one of four groups of intelligent monsters:
-- [[Gnomish wizards|/Monsters/Gnomish wizard]]
-- [[Gnoll wardens|/Monsters/Gnoll warden]]
-- [[Liches|/Monsters/Lich]]
-- [[Tentacled ones|/Monsters/Tentacled one]] (Mind flayers, etc.)
-
-Monsters are typically placed somewhat sparsely, with roughly one monster generated for every two squares.
+The monster in the middle of the room, if there is one, leads the group: a [[/Monsters/gnoll supreme warden]] for the gnoll wardens, and a [[/Monsters/demilich]] instead of a [[/Monsters/lich]] for the liches from level 13 down. A lich group is mostly [[imps|/Monsters/Imp]] and [[quasits|/Monsters/Quasit]], with some liches among them. Tentacled ones are GnollHack's mind flayers.

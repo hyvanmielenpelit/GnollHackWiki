@@ -1,26 +1,24 @@
 ![Crowning](/uploads/Crowning/crowning.webp)
 
-> 👉 **Crowning is a unique, one-time event in GnollHack where a deity blesses an exceptionally faithful and lucky character, granting them a special title, a suite of permanent intrinsics, a powerful gift and an extra weapon skill slot.**
+> 👉 **A god can crown a pious and very lucky character once per game, which gives a title, nine permanent intrinsics, a gift that depends on the role and an extra weapon skill slot.**
 
 ## 📋 Crowning Requirements
 
-To be crowned by their deity, a character must satisfy the following absolute prerequisites during prayer:
+Crowning is one of the special favors a successful [[prayer|Praying]] can bring. You can be crowned only once, and only with an alignment record of at least **20** (Pious).
 
-- **Maximum Alignment**: The character's alignment record must be exactly **20** (Pious status).
-- **Not Yet Crowned**: Crowning is a one-time event per character.
-- **High Luck**: Luck must be at least **+10** (or **+6** if the player already possesses all other intrinsic divine gifts: Telepathy, Speed, Stealth, and maximum divine protection). The game determines the favor received by generating a random number according to the formula:
-  
-  $$ \text{Result} = \text{random}\left(0, \lfloor \frac{\text{Luck} + 6}{2} \rfloor - 1\right) $$
-  
-  If the result is 7 or 8 (or 5 if all other gifts are maxed), the character is crowned.
+You also need Luck of at least **+10**, or **+6** if you already have all the other gifts a god can give: intrinsic Telepathy, Speed and Stealth, and maximum divine protection. The favor is chosen by a random roll:
 
-### 📈 Crowning Chances
+$\text{Result} = \text{random}\left(0, \lfloor \frac{\text{Luck} + 6}{2} \rfloor - 1\right)$
 
-The probability of being crowned depends heavily on whether the character has any **troubles** (such as being hungry, low on health, or afflicted with status conditions) when praying. 
+A result of 7 or 8 crowns you. If you already have all the other gifts, a result of 5 crowns you too.
 
-#### 🟢 Scenario 1: Character has NO troubles
+## 📈 Crowning Chances
 
-If the character prays while completely healthy and unburdened by problems, they bypass the deity's troubleshooting logic entirely. In this scenario, **an altar is not required**, and the character has the highest possible chance of being crowned:
+Your chances depend mostly on whether you have any **troubles**, such as hunger, low hit points or a status condition, when you pray.
+
+### Without Troubles
+
+With no troubles, your god skips fixing them and goes straight to the favor roll. You do not need an altar, and your chances are the best you can get:
 
 | Luck | Base Chance | Chance (All Gifts Maxed)* |
 | :--: | :---------: | :-----------------------: |
@@ -35,13 +33,14 @@ If the character prays while completely healthy and unburdened by problems, they
 | **≤ +5** | 0% | 0% |
 
 *\* The character already possesses intrinsic Telepathy, Speed, Stealth, and maximum divine protection.*
-> ℹ️ **Note:** The probability of crowning with all gifts maxed paradoxically **drops** when your Luck increases from +7 to +8 (from 16.7% down to 14.3%). This is a quirk of the game's internal random number generator logic.
 
-#### 🟡 Scenario 2: Character HAS troubles
+With all gifts maxed, the chance **drops** from 16.7% to 14.3% when Luck goes from +7 to +8. At +8 the roll runs from 0 to 6 instead of 0 to 5, and only the 5 crowns you, so the chance falls from 1 in 6 to 1 in 7.
 
-If the character has troubles (e.g., they are wounded or hungry), praying will typically just fix those troubles. To have a chance at crowning while having troubles, **the character must be on a co-aligned altar**. Praying without an altar when in trouble has a **0%** chance of crowning.
+### With Troubles
 
-Being on an altar inside a temple (a **shrine**) slightly increases the odds over a non-temple altar.
+If you have troubles, such as wounds or hunger, a prayer usually just fixes them. To have any chance of crowning while in trouble, **you must pray on a co-aligned altar**. Without an altar the chance is **0%**.
+
+An altar inside a temple (a **shrine**) gives slightly better odds than an altar elsewhere.
 
 | Luck | Base Chance (Altar) | Base Chance (Shrine) | Chance (All Gifts Maxed)* (Altar) | Chance (All Gifts Maxed)* (Shrine) |
 | :--: | :-----------------: | :------------------: | :-------------------------------: | :--------------------: |
@@ -56,11 +55,12 @@ Being on an altar inside a temple (a **shrine**) slightly increases the odds ove
 | **≤ +5** | 0% | 0% | 0% | 0% |
 
 *\* The character already possesses intrinsic Telepathy, Speed, Stealth, and maximum divine protection.*
-> ℹ️ **Note:** The probability of crowning with all gifts maxed paradoxically **drops** when your Luck increases from +7 to +8 (e.g., from 10.6% down to 9.5% on a shrine). This is a quirk of the game's internal random number generator logic.
+
+The same drop from +7 to +8 shows here, for example from 10.6% to 9.5% on a shrine, for the same reason.
 
 ## 🧬 Intrinsics Granted
 
-Crowning permanently grants the character the following intrinsics (acquired via divine favor):
+Crowning gives these intrinsics permanently:
 
 - See invisible
 - Fire resistance (Weak, 50%)
@@ -78,7 +78,7 @@ Crowning permanently grants the character the following intrinsics (acquired via
 | :--- | :--- |
 | **Skill Credit** | Grants 1 extra weapon skill slot/credit. |
 | **Weapon Skill Unrestriction** | Unrestricts the weapon skill of the gifted weapon. |
-| ⚠️ **Permanent Prayer Timeout Increase** | As a negative side effect, the crowning increases subsequent prayer timeouts significantly, by a random amount of up to 1000 turns (500 turns for a [[/Roles/Priest]]). |
+| ⚠️ **Permanent Prayer Timeout Increase** | Every later successful prayer adds a random amount of about 1000 turns (500 turns for a [[/Roles/Priest]]) to the prayer timeout. |
 
 ## 👑 Crowning Titles
 

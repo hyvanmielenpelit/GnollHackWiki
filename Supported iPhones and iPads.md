@@ -1,5 +1,3 @@
-## Supported iPhones and iPads
-
 GnollHack requires an iPhone or iPad with **3 GB or more RAM**. Devices with 2 GB RAM are no longer supported.
 - **iPad**: 7th gen (2019) or later
 - **iPad Air**: 3rd gen (2019) or later

@@ -21,7 +21,7 @@ All ordinary body armor can be mythic and legendary.
 
 ## Materials
 
-Ordinary body armor is typically generated from iron, but some items (like elven, dwarvish, and orcish variants) may use specific materials based on their origins. Mithril-coats are made of mithril. Dragon scale mails are made from dragon hide. Materials affect weight, color, and certain interactions in the game.
+Ordinary body armor is typically generated from iron, but the leather armors and the leather jacket are made of leather, gnollish bone mail is made of bone, and plate mails, chain mail and ring mail are sometimes made of rarer materials, such as mithril or orichalcum. Mithril-coats are made of mithril. Dragon scale mails are made from dragon hide. Materials affect weight, color, and certain interactions in the game.
 
 ## Dragon scale mails and dragon scales
 
@@ -37,7 +37,7 @@ Dragon scale mails are changed from NetHack. They are heavier and incur a spell 
 - [[/Items/White dragon scale mail]] — No spell casting penalty
 - [[/Items/Yellow dragon scale mail]]
 
-When a killed dragon leaves a corpse, it may also drop its dragon scales, which can be crafted into dragon scale mails. The chance depends on the dragon's age: a dragon hatchling drops them 1 time in 5, except a gray dragon hatchling, which never drops them; an adult dragon drops them 1 time in 2; and an ancient dragon always drops them, as exceptional scales. A dragon that was brought back to life drops them only a tenth as often, and your own tame dragons never drop them. A dragon that leaves no corpse, for example because it was disintegrated, drops no scales either. Dragon scales are weaker versions of dragon scales mails, improving AC only by 3 and yielding merely one (usually the weakest) of the powers conferred by the corresponding dragon scale mail.
+When a killed dragon leaves a corpse, it may also drop its dragon scales, which can be crafted into dragon scale mails. The chance depends on the dragon's age: a dragon hatchling drops them 1 time in 5, except a gray dragon hatchling, which never drops them; an adult dragon drops them 1 time in 2; and an ancient dragon always drops them, as exceptional scales. A dragon that was brought back to life drops them only a tenth as often, and your own tame dragons never drop them. A dragon that leaves no corpse, for example because it was disintegrated, drops no scales either. Dragon scales are weaker versions of dragon scale mails, improving AC only by 3 and yielding merely one (usually the weakest) of the powers conferred by the corresponding dragon scale mail.
 
 - [[/Items/Black dragon scales]] — No death resistance
 - [[/Items/Blue dragon scales]]

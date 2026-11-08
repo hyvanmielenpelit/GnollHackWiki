@@ -1,8 +1,9 @@
-Polearms can be applied to hit targets *SQRT(8)* squares away on all skill levels. They cannot be used as a melee weapon.
+Polearms can be applied to hit targets *SQRT(8)* squares away on all skill levels. They cannot be used effectively as a melee weapon unless you are riding: a melee hit on foot does only 1–2 damage.
 
 ## Simple Polearms
 
-These polearms are mostly unchanged from NetHack.
+These polearms are mostly unchanged from NetHack, except for the ancus, which is new.
+
 - [[/Items/Partisan]]
 - [[/Items/Ranseur]]
 - [[/Items/Spetum]]

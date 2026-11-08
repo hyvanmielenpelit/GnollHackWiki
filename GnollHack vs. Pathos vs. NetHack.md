@@ -1,89 +1,65 @@
+> 👉 **GnollHack is a fork of NetHack 3.6.2 that keeps its rules and dungeon, while Pathos: NetHack Codex is a separate game, written from scratch, that borrows NetHack's monsters and items.**
+
 ## ⚡ At a Glance
 
-| Feature | 🧙‍♂️ NetHack | 🐺 GnollHack | 📱 Pathos: NetHack Codex |
+| Feature | NetHack | GnollHack | Pathos: NetHack Codex |
 | :--- | :--- | :--- | :--- |
-| **Faithfulness to NetHack** | 💯 100% (The original) | ✅ **High** — Authentic *NetHack* engine, dungeon layout, and emergent mechanics, expanded with modern RPG depth | ⚠️ **Moderate** — Uses *NetHack* names and themes, but features completely rewritten rules and mechanics |
-| **Mobile & Touch UI** | ❌ None officially (relies on third-party ports with on-screen keyboards) | ✅ Native touch-first UI with context menus (no keyboard required) | ✅ Native touch-first UI with context menus (no keyboard required) |
-| **Graphics & Animations** | 🖥️ ASCII text or basic static 2D tiles | ✨ High-resolution 64x96–192x192 tiles with real [[animations]] | ✨ Retro 2D tile sets with animations |
-| **Audio** | 🔇 Silent | 🔊 Full [[music]] soundtrack, spatial sound effects, and 5,000+ [[voiceovers]] | 🔊 Sound effects and background music (no voiceovers) |
-| **Beginner Accessibility** | 💀 Brutal single difficulty; mandatory permadeath; requires external wikis | 🌟 7 [[difficulty levels]], optional non-permadeath modes, in-game stats, hints, and the [[Gnoll Overseer]] AI advisor | 📖 Built-in encyclopedia/codex; instant revive upon death (with a score/fame penalty) |
+| **Relation to NetHack** | The original game | A fork of NetHack 3.6.2: the same engine, dungeon layout, and interactions, with more added to combat, loot, and magic | Written from scratch: NetHack's names and themes, but its own rules and mechanics |
+| **Mobile & Touch UI** | ❌ None officially; third-party ports use on-screen keyboards | ✅ Native touch UI with context menus; no keyboard needed | ✅ Native touch UI with context menus; no keyboard needed |
+| **Graphics & Animations** | ASCII text or basic static 2D tiles | High-resolution tiles from 64x96 to 192x192 pixels, with [[animations]] | Retro 2D tile sets with animations |
+| **Audio** | No sound | A [[music]] soundtrack, spatial sound effects, and over 5,000 [[voiceovers]] | Sound effects and background music, no voiceovers |
+| **Help for Beginners** | One difficulty, permadeath only; players rely on external wikis | 7 [[difficulty levels]], optional modes without permadeath, stats and hints in the game, and the [[Gnoll Overseer]] AI advisor | A built-in encyclopedia (the Codex); instant revive after death, with a score and fame penalty |
 
-## 🧬 The Core Difference: True Fork vs. Reimagining
+## 🧬 Fork or Rewrite
 
-New players often assume *GnollHack* and *Pathos* are simply different graphical skins over the same game. In reality, they are built on completely different foundations:
+GnollHack and Pathos can look like two graphical skins on the same game, but only GnollHack runs NetHack's code. It is a direct fork of NetHack 3.6.2, so NetHack's simulation still runs under the graphics, and almost all of the interactions behind the saying "the DevTeam thinks of everything" work as they do in vanilla NetHack. The dungeon is NetHack's: the Dungeons of Doom, the Gnomish Mines, Sokoban, Vlad's Tower, your role's Quest, Gehennom, and the Elemental Planes. GnollHack keeps that depth on small screens with context menus and detailed item descriptions, and it changes combat, loot, and magic; [[How GnollHack differs from NetHack]] lists the changes.
 
-### 🐺 GnollHack: Authentic NetHack Engine, Modernized
-
-Because GnollHack is a direct fork of *NetHack 3.6.2*, the original simulation is still running underneath the graphics:
-
-- **True Emergent Gameplay:** Almost all of the classic "the DevTeam thinks of everything" interactions work just as they do in vanilla NetHack.
-- **Faithful Dungeon Topology:** You explore the authentic NetHack world—the Dungeons of Doom, the Gnomish Mines, Sokoban, Vlad's Tower, the class-specific Quest, Gehennom, and the Elemental Planes.
-- **Expanded, Not Simplified:** Rather than stripping away NetHack's mechanical richness to fit mobile screens, GnollHack makes that depth accessible through context-sensitive menus, detailed in-game item descriptions, and an overhaul of combat, loot, and magic.
-
-### 📱 Pathos: A Streamlined Adaptation from Scratch
-
-Pathos was written from the ground up by solo developer Callan Hodgskin to make a fast, approachable mobile roguelike inspired by *NetHack*:
-
-- **A Different Ruleset:** While you will recognize familiar NetHack monsters (like grid bugs, mind flayers, and liches) and items (like bags of holding and scrolls of identify), the math and mechanics behind them are written from scratch. Strategies learned on the NetHack Wiki frequently do not apply to Pathos.
-- **Streamlined Systems:** Pathos replaces several complex NetHack pillars with simpler RPG mechanics. For example, NetHack's intricate three-alignment religion, prayer, and sacrifice system is replaced by a single **Karma** resource, and elemental resistances work on a percentage scale rather than NetHack's intrinsic/extrinsic property system.
-- **Sandbox & Party Features:** Because it is built on its own engine, Pathos offers features outside the traditional NetHack scope, such as controlling a party of up to six adventurers, local co-op, crafting workbenches, and alternative campaign modules (like overworld adventures).
+Pathos was written from scratch by its solo developer, Callan Hodgskin, as a mobile roguelike inspired by NetHack. You will recognize monsters such as grid bugs, mind flayers, and liches, and items such as bags of holding and scrolls of identify, but the math behind them is Pathos's own, and strategies from the NetHack Wiki often do not apply. Several systems are simpler. A single **Karma** resource replaces NetHack's three-alignment religion, prayer, and sacrifice, and elemental resistances are percentages instead of intrinsic and extrinsic properties. Its own engine also lets Pathos do things NetHack does not: you can control a party of up to six adventurers, play local co-op, use crafting workbenches, and play other campaign modules, such as overworld adventures.
 
 ## ⚔️ Gameplay and Mechanics Comparison
 
-| System | 🧙‍♂️ NetHack | 🐺 GnollHack | 📱 Pathos: NetHack Codex |
+| System | NetHack | GnollHack | Pathos: NetHack Codex |
 | :--- | :--- | :--- | :--- |
-| **Religion & Alignment** | ⚖️ Lawful, Neutral, and Chaotic gods; altar sacrifices, prayer timeouts, and crowning gifts | ⚖️ Faithful *NetHack* deity, altar, and prayer system, expanded with temple services for gold | ☯️ Simplified **Karma** points gained by killing enemies and spent at shrines |
-| **Magic & Spells** | 🧠 Memorize spellbooks; spells fade from memory over time (~40 spells) | 🔮 Prepare 200+ spells using material reagents; spells are **never forgotten** | ⭐ Read spellbooks to learn and upgrade spells up to 3 stars; uses mana |
-| **Loot & Equipment** | 🗡️ Standard items with `+1`/`+2` enchantments; 7 armor/weapon slots | 💎 ARPG-style loot with quality tiers, mythic/legendary affixes, and **22 equipment slots** | 🛠️ Standard items with crafting workbenches to scrap and forge gear |
-| **Identification** | ❓ Tedious price-ID, engraving-ID, and blind-testing; relies on external spoilers | 🔍 Plentiful identification scrolls/wands, paid NPC identification, and detailed in-game item stats | 📖 Built-in Codex shows item pools; NPCs and shrines can identify gear |
-| **Lethality & Insta-Deaths** | ☠️ Sudden, unforgiving instant deaths (drowning, stoning, sickness, choking) | ⏳ Many instant deaths are **delayed by several turns**, giving you a fair chance to react | ⚖️ More predictable damage scaling and fewer obscure instant-death traps |
-| **Permadeath & Modes** | 🔴 Mandatory permadeath only | 🟢 Choose between strict permadeath ([[Classic Mode]]) or checkpoint resurrection ([[Modern Mode]]) | 🟡 Instant revive on the spot whenever you die, at the cost of leaderboard eligibility |
-| **Difficulty Settings** | ❌ 1 fixed, brutal difficulty | ✅ **7 [[difficulty levels]]** (from beginner-friendly *Standard* to *Grand Master*) | ❌ 1 standard difficulty per campaign module |
+| **Religion & Alignment** | Lawful, neutral, and chaotic gods; altar sacrifice, prayer timeouts, and crowning gifts | NetHack's gods, altars, and prayer, plus temple services paid with gold | **Karma** points, gained by killing enemies and spent at shrines |
+| **Magic & Spells** | About 40 spells, memorized from spellbooks, which fade from memory over time | Over 200 spells, prepared with material reagents and never forgotten | Spells learned and upgraded from spellbooks, up to 3 stars; uses mana |
+| **Loot & Equipment** | Standard items with `+1` or `+2` enchantments; 7 armor and weapon slots | ARPG-style loot with quality tiers and mythic and legendary affixes; 22 equipment slots | Standard items; crafting workbenches scrap and forge gear |
+| **Identification** | Price identification, engrave-testing, and blind-testing, or external spoilers | Many identification scrolls and wands, paid identification by NPCs, and detailed item stats in the game | The built-in Codex shows item pools; NPCs and shrines can identify gear |
+| **Instant Deaths** | Drowning, stoning, sickness, and choking can kill you at once | Many instant deaths are delayed by several turns, so you can react | More predictable damage scaling and fewer obscure instant-death traps |
+| **Permadeath & Modes** | Permadeath only | Permadeath in [[Classic Mode]], or resurrection at a checkpoint in [[Modern Mode]] | Instant revive on the spot after every death, but the game can no longer enter the leaderboard |
+| **Difficulty Settings** | One fixed difficulty | 7 [[difficulty levels]], from *Standard* to *Grand Master* | One standard difficulty per campaign module |
 
 ## 💻 Platform Availability and Ecosystem
 
-*GnollHack* is **100% free** on every platform, Steam included, with no ads, microtransactions, or paywalls. *Pathos* is free on Android, iOS, the Microsoft Store, and its own website, but its enhanced Steam edition is **paid**.
+GnollHack is free on every platform, Steam included, with no ads, microtransactions, or paywalls; see [[Download]]. Pathos is free on Android, iOS, the Microsoft Store, and its own website, but its enhanced Steam edition costs money.
 
-| Platform / Feature | 🧙‍♂️ NetHack | 🐺 GnollHack | 📱 Pathos: NetHack Codex |
+| Platform / Feature | NetHack | GnollHack | Pathos: NetHack Codex |
 | :--- | :--- | :--- | :--- |
-| **Android** | ⚠️ Unofficial ports only | ✅ Official on **Google Play** | ✅ Official on **Google Play** |
-| **iOS (iPhone / iPad)** | ⚠️ Unofficial ports only (e.g., *iNetHack2*) | ✅ Official on **Apple App Store** | ✅ Official on **Apple App Store** |
-| **Windows** | ✅ Official download from `nethack.org` | ✅ Official on **Steam** (free) | ✅ Free on **Microsoft Store** and as a desktop installer; **paid** on **Steam** |
-| **macOS** | ✅ Official download / Homebrew | ✅ Native app on **Steam** (free) for Apple Silicon Macs (M1+), since November 2026; the iOS version also runs on them via App Store | ❌ No native macOS app. The Steam version is Windows-only, and Proton is not available on macOS. |
-| **Linux** | ✅ Official support. Many distributions' package managers may include a prebuilt binary. | ✅ Native [[Linux Version]] on **Steam** (free), also available as an AppImage | ⚠️ No native version. The Windows version on **Steam** (paid) runs through Proton, and an unofficial community port exists. |
-| **Steam Deck** | ⚠️ Unofficial ports only | ✅ Native on **Steam** (free), with built-in [[Steam Deck Controls]] | ⚠️ The Windows version on **Steam** (paid) runs through Proton; the store page mentions controller support on the Steam Deck |
-| **Game Controllers** | ❌ None; keyboard and mouse only | ✅ Dedicated controller interface with radial menus, on-screen button hints, and controller navigation of every menu, on the Steam Deck, Windows, Linux, and macOS (not on Android or iOS) | ⚠️ Partial: Steam lists partial controller support, and the interface is designed for touch first |
-| **Cross-Device Cloud Saves** | ❌ Only when playing ASCII via SSH on public servers | ✅ Built-in cloud [[Save File Transfer]] across Android, iOS, and Windows | ⚠️ Steam Cloud sync on the Steam version; local saves elsewhere |
-| **Bones Sharing** | ⚠️ Requires public SSH servers or third-party *Hearse* tool | ✅ Automatic cross-platform [[Bones Sharing]] via [[GnollHack Account]] | ✅ Built-in revenant/bones sharing |
-| **Language Support** | <img src="/uploads/GnollHack%20vs.%20Pathos%20vs.%20NetHack/us-flag.webp" alt="US Flag" height="13" /> English only | <img src="/uploads/GnollHack%20vs.%20Pathos%20vs.%20NetHack/us-flag.webp" alt="US Flag" height="13" /> English only | 🌐 Translated into multiple languages |
+| **Android** | Unofficial ports only | ✅ Google Play | ✅ Google Play |
+| **iOS (iPhone / iPad)** | Unofficial ports only, such as iNetHack2 | ✅ Apple App Store | ✅ Apple App Store |
+| **Windows** | ✅ Official download from `nethack.org` | ✅ Steam (free) | ✅ Free on the Microsoft Store and as a desktop installer; paid on Steam |
+| **macOS** | ✅ Official download or Homebrew | ✅ Native app on Steam (free) for Apple Silicon Macs (M1 or later) since November 2026; the iOS version from the App Store also runs on them | ❌ No native macOS app. The Steam version is Windows-only, and Proton is not available on macOS. |
+| **Linux** | ✅ Official support. Many distributions' package managers may include a prebuilt binary. | ✅ Native [[Linux Version]] on Steam (free), also available as an AppImage | No native version. The Windows version on Steam (paid) runs through Proton, and there is an unofficial community port. |
+| **Steam Deck** | Unofficial ports only | ✅ Native on Steam (free), with built-in [[Steam Deck Controls]] | The Windows version on Steam (paid) runs through Proton; the store page mentions controller support on the Steam Deck |
+| **Game Controllers** | ❌ None; keyboard and mouse only | ✅ A controller interface with radial menus, on-screen button hints, and controller navigation of every menu, on the Steam Deck, Windows, Linux, and macOS (not on Android or iOS) | Partial: Steam lists partial controller support, and the interface is made for touch first |
+| **Cross-Device Cloud Saves** | ❌ Only when playing ASCII over SSH on public servers | ✅ [[Save File Transfer]] through the cloud, across Android, iOS, Linux, macOS, and Windows | Steam Cloud sync on the Steam version; local saves elsewhere |
+| **Bones Sharing** | Only on public SSH servers or with the third-party Hearse tool | ✅ Automatic cross-platform [[Bones Sharing]] with a [[GnollHack Account]] | ✅ Built-in revenant (bones) sharing |
+| **Language Support** | <img src="/uploads/GnollHack%20vs.%20Pathos%20vs.%20NetHack/us-flag.webp" alt="US Flag" height="13" /> English only | <img src="/uploads/GnollHack%20vs.%20Pathos%20vs.%20NetHack/us-flag.webp" alt="US Flag" height="13" /> English only | Translated into multiple languages |
 
-> ℹ️ **Note:** Most Windows games on Steam can also be played on Linux and the Steam Deck through **Proton**, Valve's compatibility layer for running Windows games. That is how Pathos runs there. Proton is not available on macOS. GnollHack's Windows version does not run on Proton, but it does not need to: GnollHack has a native [[Linux Version]] on Steam, which is also the version the Steam Deck runs.
+> ℹ️ **Note:** Proton, Valve's compatibility layer, runs most Windows games from Steam on Linux and the Steam Deck, and that is how Pathos runs there. GnollHack's Windows version does not run on Proton, and it does not need to: the native [[Linux Version]] on Steam is also the version the Steam Deck runs.
 
 ## 💡 Which One Should You Play?
 
-- 🐺 **Play GnollHack if:**
-  - You want the **authentic *NetHack* experience**—with its legendary depth, emergent interactions, and classic dungeon branches—brought to life with a modern touchscreen UI.
-  - You appreciate high production values, including **hand-drawn animated graphics, a full musical score, and over 5,000 lines of human voice acting**.
-  - You are a **new player** who wants selectable [[difficulty levels]], optional non-permadeath modes ([[Modern Mode]] and [[Casual Mode]]), and an in-game [[AI advisor|Gnoll Overseer]] to help you learn without constantly alt-tabbing to a wiki.
-  - You are a ***NetHack* veteran** looking for a fresh tactical challenge with ARPG-style mythic loot, 200+ reagent-based spells, and expanded late-game content.
-  - You want to play **for free on Steam** on Windows, a Mac, Linux, or the Steam Deck, or **with a game controller** (see [[Steam Deck Controls]]).
+GnollHack is the choice if you want NetHack's rules, interactions, and dungeon branches with a touchscreen UI, hand-drawn animated graphics, a musical score, and over 5,000 lines of human voice acting. New players can pick one of the [[difficulty levels]], play without permadeath in [[Modern Mode]] or [[Casual Mode]], and ask the in-game [[AI advisor|Gnoll Overseer]] instead of switching to a wiki; [[Starting Guide for Beginners]] covers the first steps. NetHack veterans get ARPG-style mythic loot, over 200 reagent-based spells, and more late-game content. It is free on Steam for Windows, Mac, Linux, and the Steam Deck, and you can play it with a game controller there (see [[Steam Deck Controls]]).
 
-- 📱 **Play Pathos: NetHack Codex if:**
-  - You want a **lighter, faster-paced adaptation** inspired by *NetHack* that doesn't require learning *NetHack*'s quirks, alignment rules, or survival hazards.
-  - You want to experiment with **multi-character party control**, co-op multiplayer, or custom campaign modules.
-  - You need a game localized into a language other than English.
+Pathos: NetHack Codex is lighter and faster. It is inspired by NetHack but does not ask you to learn NetHack's quirks, alignment rules, or survival hazards. Pick it for party control of several characters, co-op multiplayer, or custom campaign modules, or if you need a game in a language other than English.
 
-- 🧙‍♂️ **Play Vanilla NetHack if:**
-  - You are a **traditionalist** who prefers playing with a physical keyboard and ASCII characters in a terminal (or on public SSH servers like Hardfought), and you enjoy mastering an uncompromising 1980s classic alongside the community wiki.
+Vanilla NetHack is for players who like a physical keyboard and ASCII characters in a terminal or on public SSH servers such as Hardfought, and who want to learn the 1980s original with the community wiki at hand.
+
+For NetHack 5.0 in particular, see [[NetHack 5.0 vs. GnollHack Release 3]]. [[Roguelike Comparison]] adds Shattered Pixel Dungeon to these three.
 
 ## 📖 See Also
 
 - **[[Comparisons to Other Games]]**
-- **[[How GnollHack differs from NetHack]]**
-- **[[NetHack 5.0 vs. GnollHack Release 3]]**
-- **[[Roguelike Comparison]]**
-- **[[Starting Guide for Beginners]]**
-- **[[Download]]**
 
 ## 🔗 External Links
 

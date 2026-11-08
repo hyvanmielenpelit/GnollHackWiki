@@ -1,70 +1,38 @@
-> 👉 **Runewords are magical words engraved on the floor that grant special properties, protections, or mechanics to players, monsters, and items.**
+> 👉 **A runeword is a word engraved on the floor that scares monsters away from you or keeps them from taking the items on its square.**
 
-## ℹ️ Overview
+GnollHack has three runewords:
+- [[Elbereth|#elbereth]] scares most hostile monsters and keeps them from attacking you. It works outside [[/Dungeon/Gehennom]] and the Endgame.
+- [[Gilthoniel|#gilthoniel]] keeps monsters from picking up the items on its square outside Gehennom.
+- [[Morgoth|#morgoth]] does the same inside Gehennom.
 
-Runewords in GnollHack are special words that can be engraved on the floor. Depending on the runeword and the player's current branch of the dungeon, they can frighten hostile monsters or protect items on the ground from being picked up.
+## 📝 How to Engrave
 
-There are three runewords in GnollHack:
-- **[Elbereth](#elbereth)**: Frightens hostile monsters and prevents them from attacking. Works *outside* [[/Dungeon/Gehennom]].
-- **[Gilthoniel](#gilthoniel)**: Protects items from being looted by monsters *outside* [[/Dungeon/Gehennom]].
-- **[Morgoth](#morgoth)**: Protects items from being looted by monsters *inside* [[/Dungeon/Gehennom]].
+Use Engrave (`Shift+e`), then press `-` to write with your fingers or the inventory letter of the tool you want to use, such as a wand or a weapon. Fingers write in the dust, or in blood if you are a demon or vampire. Type the word exactly as it is spelled, for example `Elbereth`, and press **Enter**.
 
+If you engrave Elbereth often, set **Quick Engrave Text** to `Elbereth` and **Quick Engrave Style** to "Always finger" in the game options. Engrave quick (`Alt+Shift+e`) then writes it without any prompts.
 
-## 📝 Engraving Mechanics
-
-### 🚀 Step-by-Step Guide: How to Engrave
-
-There are two primary ways to engrave runewords on the floor: **Manual Engraving** and **Quick Engrave**.
-
-#### 1️⃣ Manual Engraving: Engrave Command
-
-Use the **Engrave** command (`E`) if you want to engrave a specific word or use a specific item from your inventory.
-
-| Step | Action | Example (Writing in Dust) |
-| :--- | :--- | :--- |
-| **1. Initiate** | Press the **Engrave** command (`E`). | Press `E` |
-| **2. Select Tool** | Press `-` to use your fingers (writes in dust, or in blood if you are a demon or vampire), or press the inventory letter of a tool (e.g., a wand or weapon). | Press `-` |
-| **3. Enter Text** | Type the runeword exactly as spelled (e.g., `Elbereth` or `Gilthoniel`). | Type `Elbereth` |
-| **4. Confirm** | Press **Enter** to write the text on the floor. | Press **Enter** |
-
-#### 2️⃣ Quick Engrave (Preset Writing)
-
-You can automate the engraving process a bit with the **Quick Engrave** command. It is used as follows:
-
-| Step | Action / Example |
-| :--- | :--- |
-| **Setup Settings** | In the game options, set **Quick Engrave Text** to `Elbereth` and **Quick Engrave Style** to "Always finger". |
-| **Execute Command** | Press the **Engrave quick** command (`Alt+Shift+e`). The preset text will be engraved instantly without any prompts. |
-
-### ⏱️ Engraving Speed
-
-When engraving a runeword, the speed depends on the method and the tool used. Engraving with soft methods or highly specialized tools is much faster than carving into the floor with standard items. Thus, the time required to engrave is classified into two categories:
+### Engraving Speed
 
 | Engraving Speed | Extra Turns Required | Engraving Methods / Tools |
 | :--- | :--- | :--- |
-| **Fast** | 0 extra turns (instant) | Writing in dust (fingers), writing in blood, using a [[/Items/magic marker]], a [[/Items/wand of fire]], a [[/Items/wand of lightning]], or carving with an uncursed [[/Items/athame]]. |
+| **Fast** | 1 extra turn per 10 characters: none for `Elbereth` and `Morgoth`, 1 for `Gilthoniel` | Writing in dust (fingers), writing in blood, using a [[/Items/magic marker]], a [[/Items/wand of fire]], a [[/Items/wand of lightning]], or carving with an uncursed [[/Items/athame]]. |
 | **Slow** | 1 extra turn per character (e.g., 8 turns for "Elbereth") | Carving with standard [[weapons]], [[rings]], or [[Gems and Stones]]. |
 
-> ⚠️ **Warning:** Slow engraving takes a total of 9 turns (the action turn plus 8 extra turns) for an 8-character word like "Elbereth". If you attempt to engrave slowly in the presence of hostile monsters, they will get multiple free turns to attack you while you are paralyzed.
-
+> ⚠️ **Warning:** Carving "Elbereth" slowly takes 9 turns in all, the action turn plus 8 extra turns. Hostile monsters nearby get those turns to attack you while you cannot act.
 
 ## 🧹 Erosion and Smudging
 
-The permanence of an engraving—how easily it is erased or smudged by physical actions (like fighting or monsters walking over it)—depends entirely on the tool or method used to write it.
-
-### 🛡️ Engraving Permanence
-
-Engravings are classified into three levels of permanence:
+How easily fighting, walking or monsters smudge an engraving depends on how it was written:
 
 | Permanence | Engraving Methods / Tools | Smudging Mechanics |
 | :--- | :--- | :--- |
-| **Soft (Dust / Blood)** | Writing in dust (fingers), or writing in blood (when using fingers in demon or vampire form). | Highly susceptible to erosion. Physical actions erode the exact number of characters listed in the table below. Both mediums have a 4% (1 in 25) chance per character to scramble/mix up the message upon writing. |
-| **Hard (Carved / Ink)** | Standard [[weapons]], [[rings]], [[Gems and Stones]], an [[/Items/athame]], or a [[/Items/magic marker]]. | Highly resistant to erosion. When a physical action occurs, there is only a very small random chance (typically around 5% to 10%) that a **single** character is eroded, regardless of the action's normal severity. |
-| **Burned** | A [[/Items/wand of fire]] or [[/Items/wand of lightning]]. | Completely permanent. Burned engravings cannot be smudged or eroded by physical actions or monster movement. |
+| **Soft (Dust / Blood)** | Writing in dust (fingers), or writing in blood (when using fingers in demon or vampire form). | Each physical action erodes the number of characters listed in the next table. When you write, each character also has a 4% (1 in 25) chance to come out scrambled. |
+| **Hard (Carved / Ink)** | Standard [[weapons]], [[rings]], [[Gems and Stones]], an [[/Items/athame]], or a [[/Items/magic marker]]. | A physical action has only a small chance, around 5% to 10%, to erode a character, and never more than one. |
+| **Burned** | A [[/Items/wand of fire]] or [[/Items/wand of lightning]]. | Physical actions and monster movement never smudge it, unless it is burned into ice. |
 
-### ⚔️ Player and Monster Erosion Actions
+### Erosion by Actions
 
-Performing physical actions on the square containing an engraving causes characters to be eroded from the text (based on its permanence level). A word is completely wiped out when all characters are erased.
+These actions erode a soft engraving on their square by the number of characters shown. The engraving is gone once every character has been erased.
 
 | Action / Event | Base Characters Eroded (For Soft Engravings) |
 | :--- | :--- |
@@ -78,99 +46,57 @@ Performing physical actions on the square containing an engraving causes charact
 | Walking, jumping, or sliding over the square | 1 to 5 characters |
 | Monster stepping onto the square | 1 character |
 
-> ℹ️ **Note:** The runewords `Gilthoniel` and `Morgoth` are magically protected and are completely immune to all forms of erosion and smudging from both player actions and monster movement.
-
+Your actions and monsters walking over the square never smudge `Gilthoniel` or `Morgoth`, however they were written.
 
 ## 🔮 Elbereth
 
-`Elbereth` is the classic protective warding runeword. Standing on an active `Elbereth` engraving prevents most hostile monsters from attacking the player in melee.
+While you stand on an `Elbereth` engraving, most hostile monsters will not attack you in melee. A monster that tries to step onto your square or attack you is frightened and flees for a random number of turns. The engraving does nothing while you are not standing on it.
 
-### ⚙️ Mechanics
+The engraving must be the word and nothing else, with every letter intact. Case does not matter, so "elbereth" works as well as "Elbereth".
 
-- **Activation**: The player must be standing on the square containing the engraving. An empty `Elbereth` square is inactive and will not block or frighten monsters.
-- **Effect**: Most hostile monsters attempting to move onto the square or attack the player will be frightened, causing them to turn around and flee for a random number of turns.
-- **Strict Spelling**: The engraving must match the word strictly case-insensitively (e.g., "elbereth" or "Elbereth").
+Elbereth does **not** stop missiles or spells. A monster that is fleeing from your Elbereth cannot use its ranged attacks while it is next to you, and is much less likely to use them from farther away.
 
-> ℹ️ **Note:** Elbereth will **not** protect you from any missile or spell attack. Partial exceptions exist where Elbereth will still protect you from non-melee; no monster already fleeing from you due to Elbereth can use its ranged attacks while adjacent, and are much less likely to do so even when not adjacent.
+Elbereth does not work in [[/Dungeon/Gehennom]] or anywhere in the Endgame, which means the [[/Dungeon/Elemental Planes]] and the Astral Plane.
 
-### 🚫 Limitations
+### Monsters That Ignore Elbereth
 
-#### 🔀 Branch Restrictions
+- Unique monsters, including the major bosses, the unique demons and the [[/Monsters/Wizard of Yendor]]
+- Lawful minions and [[/Monsters/Angel]]s
+- The Riders: Death, Famine and Pestilence
+- Shopkeepers, inside or outside their shop and even when polymorphed
+- Vault guards, even when polymorphed
+- Aligned priests inside their own temple, smiths inside their own smithy, and NPCs inside their own rooms
+- Blind monsters
+- Peaceful monsters
+- Humans and elves, the `@` monsters
+- [[/Monsters/Minotaur]]s, [[/Monsters/Baphomet]] and [[/Monsters/Yacc]]
 
-`Elbereth` does not work in [[/Dungeon/Gehennom]] or anywhere in the Endgame — the [[/Dungeon/Elemental Planes]] and the Astral Plane.
+### The Hypocrite Penalty
 
-#### 🛡️ Immune Monsters
+Attacking a monster while you stand on `Elbereth` gets you the message *"You feel like a hypocrite."* You lose 5 points of alignment record, or 1 to 5 points if your record is 5 or lower, and the engraving fades at once (*"The engraving beneath you fades."*). It fades even if it was burned into the floor with a wand.
 
-The following monsters ignore the effects of `Elbereth`:
+The penalty applies only when the monster you attack is one that Elbereth scares, or a peaceful one. Attacking an immune monster, such as a [[/Monsters/Minotaur]] or a unique boss, from the square does not trigger it. Every kind of attack counts:
+- Melee attacks with a weapon or bare hands.
+- Throwing items or firing arrows and bolts from a launcher. A hit always counts; a miss counts 33% of the time.
+- Zapping offensive wands or casting spells at the monster.
+- Kicking the monster, or hurting it with an explosion or another area effect.
 
-| Monster / Category | Reason / Condition |
-| :--- | :--- |
-| **Unique monsters** | Includes all major bosses and unique demons. |
-| **The [[/Monsters/Wizard of Yendor]]** | Often called Rodney, he ignores all scaring. |
-| **Lawful minions and [[/Monsters/Angel]]s** | Divinely resistant to Elbereth. |
-| **The Riders** | Death, Famine, and Pestilence. |
-| **Shopkeepers** | Ignore Elbereth regardless of whether they are inside their shop or polymorphed. |
-| **Vault guards** | Ignore Elbereth (even if polymorphed). |
-| **Aligned priests** | When inside their own temple. |
-| **Smiths** | When inside their own smithy. |
-| **NPCs** | When inside their own rooms. |
-| **Blind monsters** | They cannot see the engraving. |
-| **Peaceful monsters** | They will not attack or move towards you anyway. |
-| **Humans and Elves** | Represented by the `@` monster class symbol. |
-| **[[/Monsters/Minotaur]]s, [[/Monsters/Baphomet]], and [[/Monsters/Yacc]]** | Have an innate ability to ignore Elbereth. |
+### Conduct and Achievement
 
-#### 🗡️ The Hypocrite Penalty
-
-`Elbereth` is a request for peace. If you abuse this sanctuary by attacking a monster while standing on an `Elbereth` engraving, you will be penalized for being a hypocrite.
-
-When this happens:
-1. You receive a message: *"You feel like a hypocrite."*
-2. You incur an **alignment penalty of up to -5 points** (specifically, a -5 drop if your alignment is good, or a random drop between -1 and -5 if it is already low).
-3. The `Elbereth` engraving immediately fades away completely (you receive the message: *"The engraving beneath you fades."*).
-
-##### What triggers the penalty?
-Any active offensive action against an Elbereth-vulnerable (or peaceful) monster while standing on the runeword will trigger the Hypocrite Penalty. This includes:
-- **Melee attacks**: Hitting with weapons or bare hands.
-- **Ranged attacks**: Throwing items or firing projectiles (arrows, bolts) from launchers. (If the projectile hits, it triggers the penalty; if it misses, there is a 33% chance to trigger it anyway).
-- **Wands and Spells**: Zapping offensive wands or casting spells directly at the monster.
-- **Other actions**: Kicking a monster, or triggering explosions/area-of-effect hazards that damage them.
-
-> ⚠️ **Warning:** The Hypocrite Penalty causes the engraving to instantly disappear, **even if it was burned permanently into the floor with a wand**. This is the only way a burned engraving can be erased.
-
-> ℹ️ **Note:** You are only penalized if the monster you attack respects `Elbereth` (i.e. is scared by it) or if the monster is peaceful. Attacking an immune monster (like a [[/Monsters/Minotaur]] or a unique boss) from an `Elbereth` square will not trigger the penalty.
-
-### 🏆 Conduct and Achievements
-
-- **Conduct**: Engraving `Elbereth` even once breaks the [[/Conducts/Elberethless]] conduct. Remaining "Elberethless" throughout the entire game is recorded at the end of the game and increases the base conduct score by 10 points upon ascension.
-- **Achievements**: Engraving `Elbereth` for the first time in a run unlocks the **Engraved Elbereth** achievement and logs the event in the live log.
+Engraving `Elbereth` even once breaks the [[/Conducts/Elberethless]] conduct. Staying Elberethless for the whole game is recorded at the end of the game and adds 10 points to the base conduct score on ascension. Your first `Elbereth` of a game also unlocks the **Engrave Elbereth** achievement and is noted in the live log.
 
 ## ✨ Gilthoniel
 
-`Gilthoniel` is a runeword of protection designed to secure items on the floor from being looted.
+Outside [[/Dungeon/Gehennom]], hostile monsters and pets cannot pick up items or eat food on a square engraved with `Gilthoniel`. Shopkeepers, vault guards and the [[/Monsters/Wizard of Yendor]] ignore it and loot the square freely.
 
-### ⚙️ Mechanics
-
-- **Looting Protection**: Hostile monsters and pets are prevented from picking up items or eating food on a square engraved with `Gilthoniel`.
-- **Branch Restrictions**: This protective effect only functions outside [[/Dungeon/Gehennom]].
-- **Exceptions**: Shopkeepers, vault guards, and the [[/Monsters/Wizard of Yendor]] ignore this restriction and can loot items from a `Gilthoniel` square freely.
-- **Erosion Immunity**: Engravings of `Gilthoniel` are immune to all forms of smudging and erosion.
-- **Natural Generation**: When an Armory room is generated outside Gehennom, a [[/Items/chest]] or [[/Items/large box]] in the room is created with `Gilthoniel` written underneath it.
+When an [[/Rooms/Armory]] is generated, a [[/Items/chest]] or [[/Items/large box]] in it gets `Gilthoniel` written underneath, or `Morgoth` if the armory is in Gehennom.
 
 ## 😈 Morgoth
 
-`Morgoth` is the dark equivalent of Gilthoniel, used to protect items inside the depths of Gehennom.
-
-### ⚙️ Mechanics
-
-- **Looting Protection**: Hostile monsters and pets are prevented from picking up items or eating food on a square engraved with `Morgoth`.
-- **Branch Restrictions**: This protective effect only functions inside [[/Dungeon/Gehennom]].
-- **Exceptions**: Shopkeepers, vault guards, and the [[/Monsters/Wizard of Yendor]] are immune to the looting prevention and can pick up items from a `Morgoth` square.
-- **Erosion Immunity**: `Morgoth` engravings are immune to all forms of smudging and erosion.
+`Morgoth` works like Gilthoniel, but only inside [[/Dungeon/Gehennom]]. Hostile monsters and pets cannot pick up items or eat food on its square, while shopkeepers, vault guards and the [[/Monsters/Wizard of Yendor]] can.
 
 ## 🎨 Visual Effects
 
-In the graphical versions of GnollHack (Android, iOS, and modern Windows ports), active runewords are visually distinguished on the map:
-- **Pulsing Magic Glow**: When a runeword is active in its current branch, its text pulses with a magical shine effect.
-  - **Outside Gehennom**: Engravings of `Elbereth` and `Gilthoniel` pulse. `Morgoth` does not.
-  - **Inside Gehennom**: Engravings of `Morgoth` pulse. `Elbereth` and `Gilthoniel` do not.
-- This pulsing glow serves as a direct indicator to the player that the runeword's active warding or looting protection is currently functioning at that location.
+In the graphical versions of GnollHack (Android, iOS, macOS, Linux and the modern Windows version), a runeword that works in the current branch pulses with a magical shine on the map. Outside Gehennom, `Elbereth` and `Gilthoniel` pulse and `Morgoth` does not. Inside Gehennom, only `Morgoth` pulses.
+
+The glow checks only the branch and the exact spelling, so it can mislead in two cases: an `Elbereth` in the Endgame pulses although it does not work there, and "elbereth" written in lowercase works without pulsing.

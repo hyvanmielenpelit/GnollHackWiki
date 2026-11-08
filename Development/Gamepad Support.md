@@ -1,4 +1,4 @@
-> 👉 **This page describes how game controller support works in GnollHack, which platforms and controllers it covers, and what it does not cover yet. It reflects the state of the code on November 7, 2026 (version 3.40).**
+> 👉 **As of version 3.40 (November 7, 2026), GnollHack supports game controllers on the Steam Deck, Windows, desktop Linux and macOS, but not yet on Android or iOS.**
 
 ## ℹ️ Overview
 

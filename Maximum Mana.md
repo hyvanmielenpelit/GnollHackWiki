@@ -19,10 +19,10 @@ Mana_From_Race_And_Class
 Additionally, intelligence and wisdom contribute to the maximum mana as follows:
 
 ```
-Mana_From_Int_And_Wis = (Int * 2/3 + Wis * 1/3) * (Level + 3) / 6
+Mana_From_Int_And_Wis = (Int * 2/3 + Wis * 1/3 - 1) * (Level + 3) / 6
 ```
 
-The higher of intelligence and wisdom is used in the above formula.
+Both intelligence and wisdom are used in the above formula, and intelligence counts twice as much as wisdom. The result is rounded down, and it is never negative.
 
 ## Mana from Items
 

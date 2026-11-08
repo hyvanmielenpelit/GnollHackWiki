@@ -1,6 +1,7 @@
 ## Gems
 
-Gems are the same as in NetHack:
+Gems are the same as in NetHack, except for the new gem of seeing:
+
 - [[/Items/Dilithium crystal]]
 - [[/Items/Diamond]]
 - [[/Items/Black pearl]]

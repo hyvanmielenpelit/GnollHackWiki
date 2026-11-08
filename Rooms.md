@@ -1,6 +1,6 @@
 ![Lindisse](/uploads/Rooms/lindisse-q85.webp)
 
-> 👉 **Rooms are the main feature of the Dungeons of Doom. This page lists the various room types that can appear in GnollHack.**
+> 👉 **Rooms are the main feature of the Dungeons of Doom, and besides ordinary rooms and shops, GnollHack has themed special rooms, rooms run by an NPC, and small closets.**
 
 ## 📖 Common Rooms
 

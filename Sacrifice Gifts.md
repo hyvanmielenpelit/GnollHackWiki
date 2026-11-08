@@ -2,58 +2,58 @@
 
 > 👉 **A sacrifice gift is a reward from your god for offering a fresh, acceptable corpse at an altar.**
 
-In GnollHack, gods occasionally reward their followers with special items when they are particularly pleased with a sacrifice. These items are typically powerful artifacts or, in some cases, high-quality utility and power items as replacement rewards.
+The gift is usually an artifact. When no suitable artifact is left, your god gives you a powerful ordinary item instead.
 
-## Requirements for a Gift
+## 📜 Requirements for a Gift
 
-Not every sacrifice yields a gift. To have a chance of receiving one, you must meet the following criteria:
+Gifts come only from an altar of your own alignment. A sacrifice on a cross-aligned altar never gives one, whether or not it converts the altar. You also need:
 
-* **Level:** Your character level must be 3 or higher.
-* **Luck:** Your luck must be 0 or higher (non-negative).
-* **Prayer timeout:** Your prayer timeout must already be 0. While it is above 0, a sacrifice reduces the timeout instead of offering a gift.
-* **Alignment:** You must be sacrificing at an altar of your own alignment (or you are converting a cross-aligned altar, though gifts are usually only given when you are in good standing).
+- experience level 3 or higher
+- Luck 0 or higher, not counting luckstones and other items that change Luck
+- a prayer timeout of 0; while it is above 0, the sacrifice reduces the timeout instead
+- a god who is not angry and an alignment record that is not negative, because the sacrifice goes toward fixing those first
 
-If these conditions are met, the chance of receiving a gift is based on the following formula:
+When all of these hold, the chance of a gift is:
 
 $\cfrac{1}{10 + (2 × \text{Gifts} × \text{Artifacts})}$
 
 where
+
 - $\text{Gifts}$ is the number of previous gifts.
 - $\text{Artifacts}$ is the total number of artifacts generated in the game.
 
-This means your first gift is relatively easy to obtain (a 1 in 10 chance), but subsequent gifts become progressively rarer, especially as more artifacts are generated in the game.
+The first gift is a 1 in 10 chance. After that, the chance drops with both the number of gifts you have received and the number of artifacts in the game. A sacrifice that gives no gift raises your Luck instead; see [[Sacrifice Offering]].
 
-## The Gift's Properties
+## ✨ The Gift's Properties
 
-When your god bestows a gift, they will say:
+Your god says *"Use my gift wisely!"* and the item appears at your feet.
 
-> *"Use my gift wisely!"*
+- It is never cursed.
+- Weapons, armor and weapon-tools are made erosion-proof.
+- An artifact keeps its normal random enchantment, except that a negative one is raised to +0. A replacement item comes fully charged, and with a positive enchantment if it can be enchanted.
+- A bow, crossbow or sling comes with **50 blessed silver arrows, crossbow bolts or sling bullets**. They are erosion-proof and enchanted +0 to +3.
+- The skill of a gifted weapon becomes unrestricted, so you can train it even if your role could not before.
 
-The object will appear at your feet. A sacrifice gift has several advantageous properties:
+## 👑 Guaranteed First Gifts
 
-* It is automatically **uncursed** (and its curse status is known).
-* It is made **erosion-proof** (rustproof, fireproof, etc.).
-* Its **enchantment** is maximized or improved (e.g., weapons will typically be highly enchanted).
-* If the item is a launcher (such as a bow, crossbow, or sling), your god will also gift you **50 blessed silver arrows, crossbow bolts, or sling bullets** to go with it. These projectiles will also be erosion-proof and enchanted (+0 to +3).
-* Your weapon skill for the gifted weapon type will be automatically unrestricted, allowing you to train it if you couldn't before.
+A few roles have an artifact that their god always picks first, as long as it does not exist yet. The artifact must match the altar's alignment, so only characters of that alignment get it:
 
-## Guaranteed First Gifts
+| Role | Alignment | Guaranteed Gift |
+| :--- | :--- | :--- |
+| **Barbarian** | Neutral | [[/Artifacts/Cleaver]] |
+| **Samurai** | Lawful | [[/Artifacts/Snickersnee]], then [[/Artifacts/the Kusanagi]] |
+| **Valkyrie** | Neutral | [[/Artifacts/Mjollnir]] |
+| **Wizard** | Neutral | [[/Artifacts/Magicbane]] |
 
-Only certain role and alignment combinations have a **guaranteed first sacrifice gift**—a specific artifact that their god will always prioritize giving them first, provided it hasn't already been generated elsewhere:
+A chaotic Barbarian or Wizard and a lawful Valkyrie get random gifts. A Samurai gets the Kusanagi as soon as Snickersnee exists, so it is the second gift, or the first if Snickersnee was already found elsewhere.
 
-* **Barbarian**: [[/Artifacts/Cleaver]]
-* **Samurai**: [[/Artifacts/Snickersnee]]
-* **Valkyrie**: [[/Artifacts/Mjollnir]]
-* **Wizard**: [[/Artifacts/Magicbane]]
-* **Gnoll** (Race): [[/Artifacts/Howling Flail]]
+Gnolls have no guaranteed sacrifice gift. The [[/Artifacts/Howling Flail]] is a Gnoll [[crowning]] gift; by sacrifice it is only one of the random unaligned gifts.
 
 ### Monk Weapon Restriction
 
-Monks are dedicated to unarmed combat. As a result, their god **will never gift them weapon artifacts**. Monks only receive non-weapon artifacts, such as rings. 
+A Monk's god never gives a weapon artifact. Only the non-weapon artifacts can be chosen: [[/Artifacts/the Holy Grail]], the four artifact rings, and [[/Artifacts/the Rod of Disjunction]], which is a wand.
 
-Because there are no randomly generatable neutral non-weapon artifacts in the game, a fallback mechanism triggers for Neutral Monks. Instead of receiving a replacement item, they are guaranteed to receive an unaligned non-weapon artifact as their first gift, bypassing the normal rules.
-
-Here are the possible first sacrifice gifts for a Monk by alignment:
+None of these is neutral, so a Neutral Monk's first gift comes from the unaligned ones, which other characters can get only from their second gift on. The possible first gifts are:
 
 | Alignment | Possible First Gifts |
 | :--- | :--- |
@@ -61,81 +61,79 @@ Here are the possible first sacrifice gifts for a Monk by alignment:
 | **Neutral** | [[/Artifacts/The Rod of Disjunction]], [[/Artifacts/The Ring of Conflict]], [[/Artifacts/The Ring of Three Wishes]], [[/Artifacts/The Ruling Ring of Yendor]] |
 | **Chaotic** | [[/Artifacts/The Serpent Ring of Set]] |
 
-## Eligible Sacrifice Gifts by Alignment
+## ⚖️ Eligible Sacrifice Gifts by Alignment
 
-If you do not have a guaranteed first gift, or if you have already received your guaranteed first gift, your god will select a random artifact from the pool of eligible artifacts. 
+Without a guaranteed gift, your god picks a random artifact that does not exist yet. Your first gift is one of your alignment's artifacts if any is left. From the second gift on, unaligned artifacts can be picked too.
 
-On your **first gift**, only artifacts matching your alignment can be selected. From your **second gift onwards**, your god can also gift **unaligned artifacts**.
-
-Also note that your god will never gift you an item belonging to a race hostile to yours (e.g., Elves cannot receive Orcish weapons like [[/Artifacts/Grimtooth]], and Orcs cannot receive Elven weapons like [[/Artifacts/Orcrist]] or [[/Artifacts/Sting]]).
-
-Here are the eligible artifacts that can be obtained via sacrifice:
+Your god also skips artifacts tied to a race that yours hates. Humans and elves never get [[/Artifacts/Grimtooth]], the [[/Artifacts/Crossbow of the Gnoll Lords]] or the [[/Artifacts/Howling Flail]], and orcs never get [[/Artifacts/Orcrist]] or [[/Artifacts/Sting]].
 
 ### Lawful Gifts
 
-* [[/Artifacts/Demonbane]] (Silver long sword)
-* [[/Artifacts/Grayswandir]] (Silver saber)
-* [[/Artifacts/Snickersnee]] (Katana)
-* [[/Artifacts/Sunsword]] (Long sword)
-* [[/Artifacts/The Katana of Masamune]] (Katana)
-* [[/Artifacts/The Kusanagi]] (Tsurugi)
-* [[/Artifacts/The Mace of Saint Cuthbert]] (Mace)
-* [[/Artifacts/The Holy Grail]] (Grail of healing)
+- [[/Artifacts/Demonbane]] (Silver long sword)
+- [[/Artifacts/Grayswandir]] (Silver saber)
+- [[/Artifacts/Snickersnee]] (Katana)
+- [[/Artifacts/Sunsword]] (Long sword)
+- [[/Artifacts/The Katana of Masamune]] (Katana)
+- [[/Artifacts/The Kusanagi]] (Tsurugi)
+- [[/Artifacts/The Mace of Saint Cuthbert]] (Mace)
+- [[/Artifacts/The Holy Grail]] (Grail of healing)
 
 ### Neutral Gifts
 
-* [[/Artifacts/Cleaver]] (Battle axe)
-* [[/Artifacts/Mjollnir]] (Heavy war hammer)
-* [[/Artifacts/Magicbane]] (Athame)
-* [[/Artifacts/Orcrist]] (Elven broadsword)
-* [[/Artifacts/Sting]] (Elven runedagger)
-* [[/Artifacts/Vorpal Blade]] (Long sword)
-* [[/Artifacts/The Emerald Sword]] (Two-handed sword)
+- [[/Artifacts/Cleaver]] (Battle axe)
+- [[/Artifacts/Mjollnir]] (Heavy war hammer)
+- [[/Artifacts/Magicbane]] (Athame)
+- [[/Artifacts/Orcrist]] (Elven broadsword)
+- [[/Artifacts/Sting]] (Elven runedagger)
+- [[/Artifacts/Vorpal Blade]] (Long sword)
+- [[/Artifacts/The Emerald Sword]] (Two-handed sword)
 
 ### Chaotic Gifts
 
-* [[/Artifacts/Stormbringer]] (Runesword)
-* [[/Artifacts/Grimtooth]] (Orcish dagger)
-* [[/Artifacts/The Serpent Ring of Set]] (Ring)
-* [[/Artifacts/The Nine Lives Stealer]] (Long sword)
+- [[/Artifacts/Stormbringer]] (Runesword)
+- [[/Artifacts/Mournblade]] (Runesword)
+- [[/Artifacts/Grimtooth]] (Orcish dagger)
+- [[/Artifacts/The Serpent Ring of Set]] (Ring)
+- [[/Artifacts/The Nine Lives Stealer]] (Long sword)
 
 ### Unaligned Gifts (Eligible from the 2nd Gift onwards)
 
-* [[/Artifacts/Frost Brand]] (Long sword)
-* [[/Artifacts/Fire Brand]] (Long sword)
-* [[/Artifacts/Dragonbane]] (Broadsword)
-* [[/Artifacts/Werebane]] (Silver saber)
-* [[/Artifacts/Giantslayer]] (Long sword)
-* [[/Artifacts/Ogresmasher]] (War hammer)
-* [[/Artifacts/Trollsbane]] (Morning star)
-* [[/Artifacts/Crossbow of the Gnoll Lords]] (Repeating heavy crossbow - *Gnolls only*)
-* [[/Artifacts/Howling Flail]] (Runed flail)
-* [[/Artifacts/Luck Blade]] (Ornate broadsword)
-* [[/Artifacts/The Ruling Ring of Yendor]] (Ring)
-* [[/Artifacts/The Ring of Three Wishes]] (Ring)
-* [[/Artifacts/The Ring of Conflict]] (Ring)
-* [[/Artifacts/The Rod of Disjunction]] (Wand)
-* [[/Artifacts/The Staff-Sling of the Ancients]] (Staff-sling)
-* [[/Artifacts/The Mattock of the Titans]] (Dwarvish mattock)
-* [[/Artifacts/The Maul of the Titans]] (Two-handed club)
+- [[/Artifacts/Frost Brand]] (Long sword)
+- [[/Artifacts/Fire Brand]] (Long sword)
+- [[/Artifacts/Dragonbane]] (Broadsword)
+- [[/Artifacts/Werebane]] (Silver saber)
+- [[/Artifacts/Giantslayer]] (Long sword)
+- [[/Artifacts/Ogresmasher]] (War hammer)
+- [[/Artifacts/Trollsbane]] (Morning star)
+- [[/Artifacts/Crossbow of the Gnoll Lords]] (Repeating heavy crossbow; not for humans or elves)
+- [[/Artifacts/Howling Flail]] (Runed flail; not for humans or elves)
+- [[/Artifacts/Luck Blade]] (Ornate broadsword)
+- [[/Artifacts/The Ruling Ring of Yendor]] (Ring)
+- [[/Artifacts/The Ring of Three Wishes]] (Ring)
+- [[/Artifacts/The Ring of Conflict]] (Ring)
+- [[/Artifacts/The Rod of Disjunction]] (Wand)
+- [[/Artifacts/The Staff-Sling of the Ancients]] (Staff-sling)
+- [[/Artifacts/The Mattock of the Titans]] (Dwarvish mattock)
+- [[/Artifacts/The Maul of the Titans]] (Two-handed club)
 
-## Replacement Items
+## 🧰 Replacement Items
 
-If you are chosen to receive a gift, but the game cannot generate a suitable artifact (for example, if all eligible artifacts have already been created, or if you are a Monk and no non-weapon artifacts are available), your god will gift you a high-quality replacement item. 
+When a gift is due but no suitable artifact is left, for example because all the eligible ones already exist, or because you are a Monk and every non-weapon artifact is taken, you get a replacement item. The game goes through this list in order and stops at the first row whose condition you meet and whose 50% roll succeeds:
 
-The replacement item is selected dynamically based on **beneficial properties your character currently lacks**. The game evaluates properties in the following order:
+| Order | Condition | Item |
+| :---: | :--- | :--- |
+| **1** | Strength below 19, and you carry no belt of giant strength | [[/Items/Belt of storm giant strength]] |
+| **2** | No reflection, and you carry no item that gives it | [[/Items/Bracers of reflection]] |
+| **3** | No magic resistance, and you carry no cloak of magic resistance | [[/Items/Cloak of magic resistance]] |
+| **4** | Not very fast, and you carry no gloves of haste or speed boots | [[/Items/Gloves of haste]] or [[/Items/Speed boots]] |
+| **5** | No life saving, and you carry no amulet of life saving | [[/Items/Amulet of life saving]] |
+| **6** | No flying, and you carry no wings of flying | [[/Items/Wings of flying]] |
+| **7** | No death resistance, and you carry nothing that protects from undeath | [[/Items/Ring of protection from undeath]] |
 
-1. **Strength Enhancement:** If your strength is below 19 and you are not carrying a giant strength belt, you receive a [[/Items/Belt of storm giant strength]] (50% chance).
-2. **Reflection:** If you do not have reflection and do not carry an item providing it, you receive [[/Items/Bracers of reflection]] (50% chance).
-3. **Magic Resistance:** If you do not have magic resistance and do not carry a cloak of magic resistance, you receive a [[/Items/Cloak of magic resistance]] (50% chance).
-4. **Speed:** If you do not have very fast speed and do not carry gloves of haste or speed boots, you receive [[/Items/Gloves of haste]] or [[/Items/Speed boots]] (50% chance).
-5. **Life Saving:** If you do not have life saving and do not carry an amulet of life saving, you receive an [[/Items/Amulet of life saving]] (50% chance).
-6. **Flying:** If you do not have flying and do not carry wings of flying, you receive [[/Items/Wings of flying]] (50% chance).
-7. **Death Resistance:** If you do not have death resistance and do not carry protection from undeath, you receive a [[/Items/Ring of protection from undeath]] (50% chance).
+If none of these is given, you get one of the following at random:
 
-If none of the above rules apply (or the 50% checks fail), you will receive one of the following items at random:
-* [[/Items/Belt of storm giant strength]] (if your strength is below 25)
-* [[/Items/Wand of death]] or [[/Items/Wand of disintegration]]
-* [[/Items/Magic marker]]
-* [[/Items/Potion of gain level]]
-* [[/Items/Potion of lightning speed]] or [[/Items/Potion of greater regeneration]]
+- [[/Items/Belt of storm giant strength]] (if your Strength is below 24 and you do not carry one)
+- [[/Items/Wand of death]] or [[/Items/Wand of disintegration]]
+- [[/Items/Magic marker]]
+- [[/Items/Potion of gain level]]
+- [[/Items/Potion of lightning speed]] or [[/Items/Potion of greater regeneration]]

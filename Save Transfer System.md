@@ -1,4 +1,4 @@
-> 👉 **The Save Transfer system moves a saved game between devices through cloud storage. It is built so that a lost connection, a closed app or a damaged file never leaves you without a copy of your game. This page explains how transfers work and how they protect your files. For step-by-step instructions, see [[Save File Transfer]].**
+> 👉 **The Save Transfer system moves a saved game between devices through cloud storage and deletes the old copy only after the new one has been verified, so a lost connection, a closed app or a damaged file never leaves you without a copy of your game.**
 
 ## 📖 Overview
 

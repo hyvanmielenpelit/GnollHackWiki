@@ -1,6 +1,6 @@
 ![GnollBench](/uploads/GnollBench/gnollbench-logo-256-v3.webp)
 
-> 👉 **GnollBench is the exam that every AI model has to pass before it is offered to players in the Gnoll Overseer. This page explains, in plain language, what it is, how it works, and why it exists.**
+> 👉 **GnollBench is the exam that every AI model has to pass before it is offered to players in the Gnoll Overseer.**
 
 > ℹ️ **Note:** This is part 1 of the three GnollBench guides. Part 1, **Introduction to GnollBench**, is for newcomers. Part 2, [[/Guides/Advanced Guide to GnollBench]], explains scoring, grading, and repeated runs. Part 3, [[/Guides/Technological Overview of GnollBench]], gives the formulas and statistics.
 
@@ -18,13 +18,9 @@
 
 ## 🎯 Why GnollBench Exists
 
-GnollBench exists for three reasons, in this order of importance:
+GnollBench has three purposes, and the most important one is making the Overseer's chat better. GnollBench uses the same instructions and the same lookup tools as the real chat, so when a model gives a wrong answer, the developers can find out why: maybe a wiki page is missing a fact, or a tool returned something confusing. Then they fix it for everyone.
 
-| Priority | Goal | What it means for players |
-| :--- | :--- | :--- |
-| **1st** | Making the Overseer's chat better | GnollBench uses the very same instructions and the very same lookup tools as the real chat. When a model gives a wrong answer, the developers can find out why: maybe a wiki page is missing a fact, or a tool returned something confusing. Then they fix it for everyone. |
-| **2nd** | Making GnollBench itself better | A test is only useful if it is fair and accurate, so GnollBench is checked and improved too. |
-| **3rd** | Finding the best models | The grades show which models are smart enough, fast enough, and cheap enough to be offered to players. |
+The second purpose is making GnollBench itself better, because a test is only useful if it is fair and accurate. The third is finding the best models: the grades show which models are smart enough, fast enough, and cheap enough to be offered to players.
 
 ## 🪜 How a GnollBench Run Works
 
@@ -34,13 +30,6 @@ A GnollBench run has four steps:
 2. **The model answers every question.** It may search the wiki and look up monsters and items, just like the Overseer does when you chat with it.
 3. **Two AIs from different companies mark each answer.** Each compares the answer with the rubric written for that question, without seeing the other's mark, and the grade is their average.
 4. **The marks are combined** into a few final grades for the whole run.
-
-> 💡 **Example:** This is an illustrative question, not one from the real suite, walking through the four steps above. Suppose the question was "Is it safe to attack a cockatrice bare-handed?"
->
-> 1. The question is part of the suite chosen for the run.
-> 2. The model answers, perhaps searching the wiki for "cockatrice".
-> 3. Both graders mark the answer against its rubric, and the answer's grade is the average of their two marks. A confident "yes" would be wrong and dangerous: touching a [[/Monsters/cockatrice]] petrifies.
-> 4. The mark for this question becomes part of the run's final grades.
 
 ## 💯 What GnollBench Grades
 
@@ -53,16 +42,13 @@ Each answer is graded on four things:
 | **Conciseness** | Does it get to the point without padding? | A little |
 | **Readability** | Is it clear and easy to follow? | A little |
 
-There is one extra rule for dangerous mistakes:
+One more rule covers dangerous mistakes:
 
 > ⚠️ **Warning:** If an answer confidently tells the player something false that would hurt them if they acted on it, such as advice that gets their character killed, this is a **critical error**, and the answer can only receive a low grade, however good the rest of it is. The falsehood must be one that the answer key, or the game situation the question is about, shows to be false; a grader's own hunch is not enough.
 
-A few details keep this rule fair:
+Suppose an answer is well written, complete, and correct in every detail but one: it says that a cockatrice is safe to hit bare-handed. The answer key warns about exactly this, because touching a [[/Monsters/cockatrice]] petrifies, and a player who trusted the answer would lose their character. That is a critical error, and the answer scores low.
 
-- **The two graders must agree, or the fact-checker decides.** If only one of the two graders sees a critical error, a fact-checking AI looks the sentence up in the game's wiki and source code and settles it. If it cannot decide, the two grades are simply averaged.
-- **A hedged "I think…" is graded as an ordinary claim.** If it is wrong it loses points, but it is not a critical error unless it recommends one of the dangerous actions the answer key warns about.
-
-> 💡 **Example:** An answer is well written, complete, and correct in every detail but one: it says that a cockatrice is safe to hit bare-handed. The answer key warns about exactly this: touching a cockatrice petrifies, so a player who trusted the answer would lose their character. That is a critical error, and the answer scores low.
+Normally both graders have to see a critical error. If only one of them does, a fact-checking AI looks the sentence up in the game's wiki and source code and settles it; if the fact-checker cannot decide, the two grades are simply averaged. A hedged "I think…" is graded as an ordinary claim: if it is wrong it loses points, but it is not a critical error unless it recommends one of the dangerous actions the answer key warns about.
 
 ### 🙋 Honesty Pays
 
@@ -76,16 +62,16 @@ Every run ends with three results, plus a set of outcome figures:
 
 | Result | What it measures | Worth knowing |
 | :--- | :--- | :--- |
-| **🧠 Intelligence** | How good the answers were | Hard questions count for more than easy ones |
-| **🏃 Speed** | How quickly the model answered | Only the model's own thinking time counts, not the time spent waiting for wiki searches |
-| **🪙 Cost** | How much the run cost | Measured in usage fees |
-| **🎯 Outcomes** | How often the answer was right, partly right, wrong, or honestly declined, and how often dangerous errors occurred | Shown beside the three results; they do not change them |
+| **Intelligence** | How good the answers were | Hard questions count for more than easy ones |
+| **Speed** | How quickly the model answered | Only the model's own thinking time counts, not the time spent waiting for wiki searches |
+| **Cost** | How much the run cost | Measured in usage fees |
+| **Outcomes** | How often the answer was right, partly right, wrong, or honestly declined, and how often dangerous errors occurred | Shown beside the three results; they do not change them |
 
-No single result decides everything. A brilliant model that takes minutes to answer, or one that is too expensive to offer, is not a good advisor. The models offered in the Overseer are chosen by weighing all three GnollBench results.
+The models offered in the Overseer are chosen by weighing all three results, so a model with excellent answers can still be passed over if it takes minutes to answer or costs too much to offer.
 
 ## ⚖️ How GnollBench Stays Fair
 
-An exam marked by an AI needs safeguards, and GnollBench has several:
+Because the answers are marked by AIs, GnollBench has these safeguards:
 
 | Safeguard | What it means |
 | :--- | :--- |
@@ -116,18 +102,7 @@ An exam marked by an AI needs safeguards, and GnollBench has several:
 | **Rubric** | The answer key of one question. It lists the facts a good answer must contain and the mistakes that would be dangerous. |
 | **Suite** | A set of GnollBench questions that belong together. It is the "exam paper." |
 
-## 💡 Summary
-
-- GnollBench is an exam for AI models: same questions, an answer key, and comparable grades.
-- Its first purpose is to find and fix problems in the Overseer's chat. Comparing models comes after that.
-- Two AI graders from two companies mark every answer, and the grade is their average.
-- Answers are graded mostly on accuracy. Dangerous false advice is punished hard, and honestly admitting not knowing is not punished.
-- Each run reports intelligence, speed, and cost.
-- Several safeguards keep GnollBench fair.
-
 ## 📖 Learn More
 
 - [[/GnollBench]] — All GnollBench guides in one place.
-- [[/Guides/Advanced Guide to GnollBench]] — The next step in the GnollBench series: how scoring, grading, and repeated runs work.
-- [[/Guides/Technological Overview of GnollBench]] — The technical details of GnollBench, for readers who know AI evaluation.
 - [[/Guides/Comparison of GnollBench and Popular AI Benchmarks]] — How GnollBench relates to well-known public AI benchmarks.

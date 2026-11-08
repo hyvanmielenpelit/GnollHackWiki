@@ -1,15 +1,10 @@
-> 👉 **A Deserted shop is a treacherous special room disguised as a standard shop, hiding a dangerous [[Gargantuan Mimic|/Monsters/Gargantuan Mimic]].**
+> 👉 **A deserted shop looks like an ordinary shop, but it has no shopkeeper and some of its wares are mimics.**
 
-## ℹ️ Description
+A deserted shop is a GnollHack special room. It has a parquet or marble floor and is stocked like a randomly chosen kind of shop, but the merchandise includes mimics disguised as items:
 
-A Deserted shop is a GnollHack-specific special room designed to trick unsuspecting adventurers. To the casual observer, it appears to be a normal shop, complete with parquet-style or marble floors and several items. However, the shop is completely deserted and has no shopkeeper. 
+- One is a [[/Monsters/Gargantuan Mimic]] carrying a [[/Items/wand of identify]].
+- One is a [[/Monsters/giant mimic]] carrying a [[/Items/wand of town portal]].
+- Each remaining square in the shop has a 1 in 4 chance of an ordinary mimic.
 
-Instead, the shop houses mimics disguised as merchandise, including:
-- **One Gargantuan Mimic:** A deadly [[Gargantuan Mimic|/Monsters/Gargantuan Mimic]] that is guaranteed to drop a [[wand of identify|/Items/Wand of identify]] when defeated.
-- **One Giant Mimic:** A powerful [[giant mimic|/Monsters/Giant mimic]] that is guaranteed to drop a [[wand of town portal|/Items/Wand of town portal]] when defeated.
-- **Standard Mimics:** Other items in the shop have a 1 in 4 chance of being regular mimics waiting to ambush you.
-
-## 🗺️ Generation
-
-The Deserted shop is a one-of-a-kind special room, meaning it can generate only once per game. It has a chance to generate randomly in place of a normal shop in the Dungeons of Doom on levels eligible for shops (between level 2 and Medusa's level). It mimics the structure of a real shop (a room with exactly one door and no stairs) and always generates unlit.
+A game has at most one deserted shop, on a level between 10 and 20 of the Dungeons of Doom, and that level gets no ordinary shop. Like a real shop, it is a room with exactly one door and no stairs. It is always unlit.
 

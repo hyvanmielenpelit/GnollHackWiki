@@ -103,4 +103,4 @@
 
 | Skill | Starting Level | Maximum Level |
 | :--- | :---: | :---: |
-| [[/Skills/Flail]] | Unskilled | Grand Master |
+| [[/Skills/Flail]] | Basic | Grand Master |

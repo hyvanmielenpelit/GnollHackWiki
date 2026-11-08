@@ -1,12 +1,8 @@
-> 👉 **GnollHack boasts a rich, atmospheric soundtrack featuring over 35 musical tracks and original compositions composed specifically for the game.**
+> 👉 **GnollHack's soundtrack has over 35 tracks, 14 of them composed for the game.**
 
-## 🎹 Soundtrack Overview
-
-GnollHack features a wide variety of music that changes depending on the dungeon branch, special levels, active room types, and game situations (e.g., normal shops vs. angry shopkeepers). The music is designed to enhance the game's atmosphere and make each area feel distinct.
+The music changes with the dungeon branch, the special level, the kind of room you are in and the situation. A shop, for example, has different music once the shopkeeper is angry.
 
 ## 🎼 Composer Credits
-
-The soundtrack includes compositions from the following creators:
 
 | Composer | No. of Tracks | Origin | Website Link |
 | :------- | :-----------: | :-------------- | :----------- |

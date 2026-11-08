@@ -1,133 +1,100 @@
 ![Intermediate Guide](/uploads/Intermediate%20Guide/intermediate-guide-q85.webp)
 
-> 👉 **Welcome to the Intermediate Guide. This guide builds upon the basics from the [[Starting Guide for Beginners]] to help you survive the deeper dungeon.**
+> 👉 **Once you leave the first few levels, collect resistances, carry a cure for stoning and sickness, and fight paralyzing monsters from a distance.**
 
-## 🗺️ Part 1: Navigating the Dungeon
+## 🗺️ Navigating the Dungeon
 
-### ⛰️ Dungeon Branches
+### Dungeon Branches
 
-The dungeon in GnollHack is not just a single straight line down; it features several branching paths.
+Several branches split off from the main dungeon. [[Dungeon Layout]] shows all of them, level by level.
 
-| Dungeon Branch / Area | Area / Entrance Found In | Description |
+| Branch or Level | Entrance | Description |
 |:---|:---|:---|
-| **[[/Dungeon/Dungeons of Doom]]** | The starting branch | The main dungeon branch. You start on level 1 and must descend to find the [[/Items/Amulet of Yendor]]. Stick to this path initially. The deeper you go, the harder the monsters become. |
-| **[[/Dungeon/Gnomish Mines]]** | [[/Dungeon/Dungeons of Doom]] (levels 2-4) | A mostly unlit cavernous branch populated primarily by gnomes and dwarves. |
-| **[[/Dungeon/Mine Town]]** | [[/Dungeon/Gnomish Mines]] (levels 5-8) | A guaranteed town level within the Gnomish Mines, featuring multiple [[/Rooms/Shops]] and a [[/Rooms/Temple]] with a Priest. It is an excellent place to identify items and buy gear. |
-| **[[/Dungeon/Sokoban]]** | [[/Dungeon/Dungeons of Doom]] (levels 6-10) | A puzzle branch where you must push boulders into pits to advance. Completing it yields a valuable reward (a [[/Items/Bag of holding]] or an [[/Items/Amulet of reflection]]). |
-| **[[/Dungeon/Quest]]** | [[/Dungeon/Dungeons of Doom]] (levels 11-16) | A unique branch tailored to your [[Character Classes]]. You must be at least experience level 14 to enter it. |
-| **[[/Dungeon/Gehennom]]** | [[/Dungeon/Dungeons of Doom]] (levels 25-29) | The late-game hellish branch of the dungeon. Unlike NetHack, GnollHack has removed the tedious mazes from Gehennom, making it much more enjoyable and fast-paced to explore. |
+| **[[/Dungeon/Dungeons of Doom]]** | Where you start | The main dungeon. You start on level 1 and go down to find the [[/Items/Amulet of Yendor]]. Stay on it at first; monsters get harder the deeper you go. |
+| **[[/Dungeon/Gnomish Mines]]** | [[/Dungeon/Dungeons of Doom]], levels 2-4 | Mostly unlit caves, where most of the inhabitants are gnomes and dwarves. |
+| **[[/Dungeon/Mine Town]]** | [[/Dungeon/Gnomish Mines]], levels 5-8 | A town level that is always there, with several [[/Rooms/Shops]] and a [[/Rooms/Temple]] with a priest. A good place to identify items and buy gear. |
+| **[[/Dungeon/Sokoban]]** | [[/Dungeon/Dungeons of Doom]], levels 6-10 | A puzzle branch: you push boulders into pits to get through each level. Finishing it gives you a [[/Items/bag of holding]] or an [[/Items/amulet of reflection]]. |
+| **[[/Dungeon/Quest]]** | [[/Dungeon/Dungeons of Doom]], levels 11-16 | A branch of its own for each role (see [[Character Classes]]). You need experience level 14 to enter. |
+| **[[/Dungeon/Gehennom]]** | [[/Dungeon/Dungeons of Doom]], levels 25-29 | The late-game branch. Unlike NetHack, GnollHack has taken the mazes out of Gehennom, so it is much quicker to get through. |
 
-### 📖 Learn More
+### NPCs and Merchants
 
-- [[Dungeon Layout]] — Complete overview of all branches, levels, and structures
+Several NPCs identify items for a fee or buy gear you have no use for.
 
-### 👤 NPCs and Merchants
-
-You will encounter various specialized NPCs who can identify items or buy your unwanted gear.
-
-| NPC Type | Services Offered |
-|:---|:---|
-| **General Storekeeper** | Buys and sells a wide variety of items. Can identify any item for a fee in [[/Rooms/Shops]]. |
-| **Specialized Shopkeeper** | E.g., bookstores. They can only identify the types of items they sell in [[/Rooms/Shops]]. |
-| **Artificer** | Resides in the [[/Rooms/Laboratory]] and will gladly buy your expensive (but perhaps useless to your class) spellbooks. |
-| **Geologist** | A specialized NPC who buys gems. Sell them your identified valuable gems for a massive profit in the [[/Rooms/Workshop]]. |
-| **Oracle** | Can identify items for a fee and provides game hints in [[/Dungeon/Delphi]]. |
-| **Priest** | Found in [[/Rooms/Temple]]s. They can bless and curse items for a fee, and they sell protection (extrinsic AC) if you donate large sums of money. |
-| **Smith** | Provides many useful services and can identify weapons and armor for a fee in the [[/Rooms/Smithy]]. |
-
-
-## 🤝 Part 2: Companions & Mercenaries
-
-### 🤝 Hiring Mercenaries
-
-You can interact with peaceful monsters (using the Chat `C` command) and **hire them as mercenaries**. You must pay them gold, but having heavily armed soldiers fighting alongside you makes the early and mid-game significantly easier.
-
-### 🐾 Pet Management
-
-The [[Starting Guide for Beginners]] advises you to rely on your pet, but to survive the mid-game, you need to actively manage and grow them into powerful companions.
-
-- **Feeding and Starvation:** Pets have a hunger timer. If they go too long without eating, they become confused and weakened and will eventually die of starvation.
-- **Equipping Pets:** Intelligent pets with hands can wield weapons and wear armor. You can equip them using the Chat `C` command.
-- **Gaining Resistances:** Just like you, pets can gain intrinsic resistances (like fire, cold, shock, or poison resistance) by eating the right monster corpses. Strategic feeding can make your pet incredibly resilient.
-- **Calling Them Back:** If your pet wanders off, use the Yell (`Y`) command to call them back to your location.
-
-## ⚔️ Part 3: Combat, Dangers & Resistances
-
-### ⚠️ Dangerous Early-Game Monsters
-
-| Monster | Danger | Survival Strategy |
+| NPC | Where | Services |
 |:---|:---|:---|
-| **[[/Monsters/Cockatrice]]** | Instant death (petrification) upon physical contact. | **Never touch them bare-handed.** Wear gloves before hitting them in melee. Do not eat their corpses. If you fall into a pit while carrying a cockatrice corpse, you will turn to stone and die. |
-| **[[/Monsters/Floating eye]]** | Passive paralysis. If you hit them in melee, you will be paralyzed for many turns while other monsters kill you. | **Use ranged combat.** Shoot them with arrows, darts, or spells. Alternatively, apply a blindfold before hitting them (you cannot be paralyzed if you cannot see them). |
-| **[[/Monsters/Gelatinous cube]]** | Paralyzing attacks and passive paralysis. If you hit them in melee or they hit you, you will be paralyzed for many turns. | **Use ranged combat.** Keep your distance and use ranged weapons or attack wands. |
-| **[[/Monsters/Ghast]]** | Paralyzing attacks and terminal disease (sickness). Their melee attacks can paralyze you for several turns and cause a fatal illness that will quickly kill you if not treated. | **Cure sickness immediately.** Have a noncursed [[/Items/Unicorn horn]], [[/Items/Fig]], or [[/Items/Jar of medicinal salve]] ready, or know the [[/Spells/Cure sickness]] spell. Kill them from a distance. |
-| **[[/Monsters/Ghoul]]** | Paralyzing attacks. Their melee attacks can paralyze you for several turns. | **Use ranged combat.** Keep your distance and kill them before they can get into melee range. |
-| **[[/Monsters/Nymphs]]** | Item theft. | They will steal your items and teleport away. Kill them with ranged attacks before they get close. |
+| **General storekeeper** | [[/Rooms/Shops]] | Buys and sells all kinds of items, and identifies any item for a fee. |
+| **Specialized shopkeeper** | [[/Rooms/Shops]] | Runs a shop such as a bookstore, and identifies only the kinds of items it sells. |
+| **Artificer** | [[/Rooms/Laboratory]] | Buys spellbooks, including expensive ones your role cannot use. |
+| **Geologist** | [[/Rooms/Workshop]] | Buys gems. Identify your valuable gems first, then sell them here. |
+| **Oracle** | [[/Dungeon/Delphi]] | Identifies items for a fee and gives hints about the game. |
+| **Priest** | [[/Rooms/Temple]] | Blesses and curses items for a fee. If you donate a large sum, the priest gives you protection, which improves your AC. |
+| **Smith** | [[/Rooms/Smithy]] | Identifies weapons and armor for a fee, and offers other paid services, such as repairs and quality upgrades. |
 
-> 💡 **Tip:** Paralysis is extremely dangerous throughout the entire game. Obtain Free Action (paralysis resistance) as early as possible to prevent monsters from hitting you helplessly.
+## 🤝 Companions and Mercenaries
 
-### 📖 Learn More
+### Hiring Mercenaries
 
-- [[Monsters]] — Full bestiary and encounter difficulty modifiers
+You can Chat (`Shift+c`) with a peaceful monster and hire it as a mercenary. Mercenaries want gold, but a few heavily armed soldiers on your side make the early and middle game much easier.
 
-### 🧬 Key Resistances
+### Pet Management
 
-As you descend deeper, obtaining key resistances is vital for survival.
+The [[Starting Guide for Beginners]] tells you to rely on your pet. To keep it alive in the middle game, you have to look after it and help it grow stronger.
 
-| Resistance | Effect | How to Gain As Intrinsic<sup>1</sup> | How to Gain As Extrinsic<sup>2</sup> |
+- A pet has a hunger timer. If it goes too long without eating, it becomes confused and weak, and in the end it starves to death.
+- Intelligent pets with hands can wield weapons and wear armor. You hand them equipment with Chat (`Shift+c`).
+- Like you, pets gain intrinsic resistances, such as fire, cold, shock, or poison resistance, by eating the right corpses.
+- If your pet wanders off, Yell (`Alt+y`) calls it back to you.
+
+## ⚔️ Combat, Dangers and Resistances
+
+### Dangerous Early-Game Monsters
+
+| Monster | Danger | What to Do |
+|:---|:---|:---|
+| **[[/Monsters/Cockatrice]]** | Touching it turns you to stone, and you die. | Never touch one bare-handed: put on gloves before you fight it in melee. Do not eat its corpse. If you wield a cockatrice corpse as a weapon, falling into a pit makes you touch it, and you turn to stone even with gloves on. |
+| **[[/Monsters/Floating eye]]** | Hitting it in melee paralyzes you for many turns, while other monsters attack you. | Shoot it with arrows, darts, or spells. If you must hit it, apply a blindfold first: it cannot paralyze you if you cannot see it. |
+| **[[/Monsters/Gelatinous cube]]** | Paralyzes you when it hits you and when you hit it in melee, for many turns each time. | Keep your distance and use ranged weapons or attack wands. |
+| **[[/Monsters/Ghast]]** | Its hits can paralyze you for several turns and give you a terminal illness that kills you quickly unless you cure it. | Kill it from a distance. Have a noncursed [[/Items/unicorn horn]], a [[/Items/fig]], or a [[/Items/jar of medicinal salve]] ready, or know the [[/Spells/Cure sickness]] spell, and cure the illness at once. |
+| **[[/Monsters/Ghoul]]** | Its hits can paralyze you for several turns. | Kill it before it gets into melee range. |
+| **[[/Monsters/Nymphs]]** | They steal your items and teleport away. | Kill them with ranged attacks before they get close. |
+
+Four of these six can paralyze you, and paralysis stays deadly for the whole game, because monsters keep hitting you while you cannot move. Get free action as early as you can. The rest are on [[Monsters]].
+
+### Key Resistances
+
+An intrinsic resistance is your own and does not come from an item; an extrinsic one is granted by an item. [[Resistances and Saving Throws]] gives the exact rates and the saving throw rules.
+
+| Resistance | Effect | Intrinsic Sources | Extrinsic Sources |
 |:---|:---|:---|:---|
-| **Poison Resistance** | Protects against poison darts, traps, and poisonous monster attacks or corpses (e.g., kobolds). | Starting as certain races/roles (e.g., [[/Races/Orc]], [[/Roles/Barbarian]], [[/Roles/Healer]]), or gaining levels in specific roles. | [[/Items/Amulet versus poison]], [[/Items/Ring of poison resistance]], or [[/Items/Green dragon scale mail]]. |
-| **Sleep Resistance** | Prevents being put to sleep by wands or traps. | Eating corpses (e.g., [[/Monsters/Elf]], [[/Monsters/Orange dragon]]), starting as a [[/Roles/Monk]], or gaining levels as an [[/Races/Elf]]. | [[/Items/Orange dragon scale mail]]. |
-| **Free Action** | Grants complete immunity to paralysis attacks, which would otherwise leave you helpless. | Gaining levels as an [[/Races/Elf]]. | [[/Items/Ring of free action]], or [[/Items/Orange dragon scale mail]]. |
-| **Death Resistance** | Essential for surviving late-game insta-death attacks (such as the Finger of Death spell or a [[/Items/wand of death]]). | Gaining levels as a [[/Roles/Priest]]. | [[/Items/Ring of protection from undeath]], [[/Items/Amulet versus undeath]], [[/Items/Gown of the archbishops]], or [[/Items/Black dragon scale mail]]. |
-| **Magic Resistance** | Protects you from polymorph traps and most monster spells. *Note that Magic Resistance does *not* protect against death attacks.* | ❌ | [[/Items/Cloak of magic resistance]], [[/Items/Gray dragon scale mail]], or certain artifacts. |
-| **Reflection** | Bounces ray attacks (like dragon breath and wands) back at the caster. | ❌ | [[/Items/Amulet of reflection]], [[/Items/Shield of reflection]], or [[/Items/Silver dragon scale mail]]. |
+| **Poison Resistance** | Protects against poison darts and traps, poisonous monster attacks, and poisonous corpses such as kobolds. | Starting as certain races or roles, for example an [[/Races/Orc]], a [[/Roles/Barbarian]], or a [[/Roles/Healer]], or gaining levels in some roles. | [[/Items/Amulet versus poison]], [[/Items/ring of poison resistance]], or [[/Items/green dragon scale mail]]. |
+| **Sleep Resistance** | Wands and traps cannot put you to sleep. | Eating corpses such as an [[/Monsters/elf]] or an [[/Monsters/orange dragon]], starting as a [[/Roles/Monk]], or reaching experience level 3 as an [[/Races/Elf]]. | [[/Items/Orange dragon scale mail]]. |
+| **Free Action** | Makes you immune to paralysis attacks. | Reaching experience level 6 as an [[/Races/Elf]]. | [[/Items/Ring of free action]] or [[/Items/orange dragon scale mail]]. |
+| **Death Resistance** | Protects you from the instant-death attacks of the late game, such as the [[/Spells/Finger of death]] spell or a [[/Items/wand of death]]. | Reaching experience level 19 as a [[/Roles/Priest]]. | [[/Items/Ring of protection from undeath]], [[/Items/amulet versus undeath]], [[/Items/gown of the archbishops]], or [[/Items/black dragon scale mail]]. |
+| **Magic Resistance** | Protects you from polymorph traps and most monster spells, but not from death attacks. | ❌ | [[/Items/Cloak of magic resistance]], [[/Items/gray dragon scale mail]], or certain artifacts. |
+| **Reflection** | Bounces rays, such as dragon breath and wand zaps, back the way they came. | ❌ | [[/Items/Amulet of reflection]], [[/Items/shield of reflection]], or [[/Items/silver dragon scale mail]]. |
 
-- <sup>1</sup> *Intrinsic* is an innate ability that doesn't come from an item.
-- <sup>2</sup> *Extrinsic* is an ability granted by an item.
+## 💎 Item Quality and Upgrades
 
-### 📖 Learn More
+Weapons, armor, and wands can come in a quality tier above normal:
 
-- [[Resistances and Saving Throws]] — Comprehensive calculations, rates, and saving throw rules
-
-## 🛠️ Part 4: Items, Gear & Upgrades
-
-### 💎 Item Quality and Tier Upgrades
-
-Weapons, armor, and wands in GnollHack can possess quality modifiers that drastically improve their performance:
-
-| Quality Tier | Weapons | Body Armor | Wands | Alignment & Restrictions |
+| Quality Tier | Weapons | Body Armor | Wands | Restrictions |
 |:---|:---|:---|:---|:---|
 | **Exceptional** | 2x base damage | -4 AC, +1 MC | 2x base damage | None |
 | **Elite** | 3x base damage | -8 AC, +2 MC | 3x base damage | None |
 | **Celestial / Primordial / Infernal** | 4x base damage | -12 AC, +4 MC | — | Lawful / Neutral / Chaotic only |
 
-> ℹ️ **Note:** Other armor pieces (shields, boots, gloves) also receive AC and MC scaling based on their quality.
+Shields, boots, gloves, and other armor pieces also get better AC and MC with quality; [[Exceptional, Elite, Celestial, Primordial, and Infernal Items]] has the numbers. A smith will repair damaged gear, rustproof items, and raise the quality of weapons and armor, all for gold.
 
-You can visit a **Smith** NPC to repair damaged gear, rustproof items, and upgrade weapon and armor quality for a gold fee. For more details, see [[Exceptional, Elite, Celestial, Primordial, and Infernal Items]].
+Weapons and armor can also carry random affixes, which [[Mythic and Legendary Items]] describes. See also [[Items]], [[Weapons]], and [[Armor]].
 
-### 📖 Learn More
+## 🩹 Status Conditions and Curing
 
-- [[Items]] — List of all item categories and materials
-- [[Weapons]] — Overview of weapon categories and quality tiers
-- [[Armor]] — Overview of armor categories, slots, and properties
-- [[Exceptional, Elite, Celestial, Primordial, and Infernal Items]] — Full breakdown of quality multipliers and scaling
-- [[Mythic and Legendary Items]] — Guide to randomized weapon and armor affixes
-
-## 🩹 Part 5: Status Conditions & Curing
-
-### 🩹 Status Conditions & Curing Strategies
-
-The deeper dungeon holds many debilitating status conditions. Knowing how to cure them instantly can save your run:
-
-| Status Condition | Cure / Mitigation |
+| Condition | Cure or Prevention |
 |:---|:---|
-| **Mummy Rot / Sickness** | Eat a [[/Items/Fig]], use a [[/Items/Jar of medicinal salve]], apply a noncursed [[/Items/Unicorn horn]], or cast a [[/Spells/Cure sickness]] spell. |
-| **Stoning / Petrification** | **Act in 1 turn:** Eat a [[/Monsters/Lizard]] corpse or a noncursed [[/Items/Dragon fruit]], or use a [[/Items/Jar of basilisk blood]]. Always keep one in open inventory! |
-| **Lycanthropy** | Eat a [[/Items/Sprig of wolfsbane]] (requires poison resistance), drink holy water, or pray. |
-| **Intelligence Drain** | **Prevent:** Wear a helmet (blocks 90% of attacks), a [[/Items/Nose ring of cerebral safeguarding]], or a [[/Items/Ring of sustain ability]]. **Restore:** Drink a [[/Items/Potion of restore ability]] or eat a [[/Items/Cloudberry]]. |
+| **Mummy Rot / Sickness** | Eat a [[/Items/fig]], use a [[/Items/jar of medicinal salve]], apply a noncursed [[/Items/unicorn horn]], or cast [[/Spells/Cure sickness]]. |
+| **Stoning / Petrification** | Delayed stoning kills you after 5 turns. Eat a [[/Monsters/lizard]] corpse or a noncursed [[/Items/dragon fruit]], or use a [[/Items/jar of basilisk blood]]. Keep one in your main inventory, not in a container. |
+| **Lycanthropy** | Eat a [[/Items/sprig of wolfsbane]], drink holy water, or pray. Wolfsbane is poisonous, so without poison resistance it also costs you Strength and hit points. |
+| **Intelligence Drain** | A helmet blocks 90% of these attacks, and a [[/Items/nose ring of cerebral safeguarding]] or a [[/Items/ring of sustain ability]] also protects you. To get lost Intelligence back, drink a [[/Items/potion of restore ability]] or eat a [[/Items/cloudberry]]. |
 
-### 📖 Learn More
-
-- [[How to Cure Various Conditions]] — Step-by-step methods to recover from all harmful statuses
-- [[Conditions]] — Complete mechanics and stats for sickness, stoning, blindness, and more
+[[How to Cure Various Conditions]] covers every other harmful status, and [[Conditions]] explains how sickness, stoning, blindness, and the rest work.

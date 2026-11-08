@@ -1,12 +1,12 @@
 ![GnollBench](/uploads/GnollBench/gnollbench-logo-256-v3.webp)
 
-> 👉 **The Gnoll Overseer's AI benchmarking system is called GnollBench. This page puts it side by side with well-known public AI benchmarks, such as those of Artificial Analysis, and shows what each is good at, where each falls short, and why they work best together.**
+> 👉 **GnollBench, the Gnoll Overseer's AI benchmarking system, measures how well the Overseer works with a given model, while public benchmarks such as those of Artificial Analysis measure what a model can do in general.**
 
 > ℹ️ **Note:** Public benchmarks change quickly. They are described here as of September 2026, so check each benchmark's own pages, linked at the end, for current details. GnollBench is described as of October 2026: harness version 45 and scoring method version 13.
 
 ## 📖 Two Different Questions
 
-From a distance, all AI benchmarks look alike: give AI models a fixed set of tasks, and turn the results into numbers. The important difference is **which question the numbers answer**.
+All AI benchmarks give models a fixed set of tasks and turn the results into numbers. Where they differ is the question the numbers answer.
 
 | | Public benchmarks | GnollBench |
 | :--- | :--- | :--- |
@@ -15,17 +15,11 @@ From a distance, all AI benchmarks look alike: give AI models a fixed set of tas
 | **Subject** | Mathematics, science, coding, office work, and more | GnollHack only |
 | **Made for** | Everyone who has to choose a model | The Overseer's developers |
 
-> 💡 **Example:** A public index cannot tell you whether a model gives sound advice about fighting a cockatrice. GnollBench cannot tell you whether a model is any good at law or physics.
-
-**Neither question can be answered with the other's tool.** That is why this page treats GnollBench as a complement to public benchmarks, not as a rival.
-
-> 💡 **Tip:** Think of hiring. Public benchmarks are the applicant's **school grades**: broad, standardized, and comparable across everyone. GnollBench is the **trial day at the actual workplace**: narrow, but it shows how the applicant does *this* job with *these* tools. A sensible employer looks at both.
-
-New to the topic? [[/Guides/Introduction to GnollBench]] explains what GnollBench is in plain language.
+A public index cannot tell you whether a model gives sound advice about fighting a cockatrice, and GnollBench cannot tell you whether a model is any good at law or physics. Neither question can be answered with the other's tool, so GnollBench complements the public benchmarks rather than competing with them. [[/Guides/Introduction to GnollBench]] explains GnollBench itself for newcomers.
 
 ## 🌍 The Public Benchmarks in Brief
 
-There are hundreds of AI benchmarks. The ones below are well known, and each represents a different way of testing.
+There are hundreds of AI benchmarks. The ones below are well known, and each tests in a different way.
 
 | Benchmark | Who decides what is "good" | In one sentence |
 | :--- | :--- | :--- |
@@ -48,54 +42,44 @@ There are hundreds of AI benchmarks. The ones below are well known, and each rep
 | **Coding** | 20% | Write programs that pass tests |
 | **Scientific reasoning** | 20% | Solve very hard science problems |
 
-- **Size:** the ten tests range from 66 long tasks to **6,000 short questions**.
-- **Grading:** program tests for code, an AI "answer checker" for short answers, and panels of several AI judges for open-ended work.
-- **Reliability:** Artificial Analysis estimates that the index is accurate to **within ±1%**, based on repeated runs.
-- **Speed and price** are tracked separately and continuously: each hosted model is called **eight times a day**, and the site shows the typical result of the last 72 hours.
+The ten tests range from 66 long tasks to 6,000 short questions. Code is graded by program tests, short answers by an AI "answer checker", and open-ended work by panels of several AI judges. From repeated runs, Artificial Analysis estimates that the index is accurate to within ±1%. Speed and price are tracked separately and continuously: each hosted model is called eight times a day, and the site shows the typical result of the last 72 hours.
 
-> 💡 **Interesting catch:** One of the ten tests *subtracts* points for a wrong answer, while "I don't know" costs nothing. A model that bluffs scores worse than one that admits ignorance. GnollBench's critical error rule, described below, comes from the same worry, and GnollBench now goes the same way on honesty: an honest, specific "I could not verify this" scores at least 50 out of 100, about as much as a substantially wrong answer and at least twice as much as a dangerously wrong one.
+One of the ten tests subtracts points for a wrong answer, while "I don't know" costs nothing, so a model that bluffs scores worse than one that admits ignorance. GnollBench's critical error rule comes from the same worry, and GnollBench now treats honesty the same way: an honest, specific "I could not verify this" scores at least 50 out of 100, about as much as a substantially wrong answer and at least twice as much as a dangerously wrong one.
 
 ### 🗳️ Arena
 
-[Arena](https://arena.ai/) started in 2023 as Chatbot Arena at the University of California, Berkeley, was later called LMArena, and has carried its current name since January 2026. **It has no answer key at all:**
+[Arena](https://arena.ai/) started in 2023 as Chatbot Arena at the University of California, Berkeley, was later called LMArena, and has carried its current name since January 2026. It has no answer key. A visitor asks anything they like, two anonymous models answer, and the visitor votes for the better answer before learning which models they were. Millions of such votes are turned into ratings, much like chess ratings.
 
-1. A visitor asks anything they like.
-2. Two anonymous models answer.
-3. The visitor votes for the better answer, and only then learns which models they were.
-
-Millions of such votes are turned into ratings, much like chess ratings.
-
-> ⚠️ **The catch:** Arena measures what people **prefer**, which is valuable and hard to measure any other way. But a preferred answer is not always a **correct** one. A confident, nicely formatted answer can win the vote while being wrong.
+Arena measures what people prefer, which is hard to measure any other way, but a preferred answer is not always a correct one: a confident, nicely formatted answer can win the vote while being wrong.
 
 ### 🎓 Expert Exams
 
 These are very hard questions written by specialists, with answers that can be checked exactly. Well-known ones are **Humanity's Last Exam**, **GPQA Diamond**, and [Epoch AI's](https://epoch.ai/benchmarks) **FrontierMath**.
 
-- **Secret questions.** FrontierMath has 338 problems, and only twelve of them are public. Models cannot have seen the rest during training.
-- **Many repeats.** Epoch AI runs most models 16 times on GPQA Diamond, to average out luck.
+FrontierMath has 338 problems, and only twelve of them are public, so models cannot have seen the rest during training. Epoch AI runs most models 16 times on GPQA Diamond to average out luck.
 
-> 💡 **Interesting catch:** Even experts make mistakes. In June 2026, Epoch AI released a major FrontierMath update that fixed errors in **42% of the problems**. Every benchmark, large or small, needs its answer keys checked. GnollBench has routines for that too.
+Specialists make mistakes too. In June 2026, Epoch AI released a major FrontierMath update that fixed errors in 42% of the problems. GnollBench also has routines for checking its answer keys.
 
 ### 🔬 LiveBench and HELM
 
-- [LiveBench](https://livebench.ai/) fights memorization by **regularly replacing its questions** with new ones drawn from recent material. Answers are checked against exact solutions, with **no AI judge** involved.
-- [HELM](https://crfm.stanford.edu/helm/), from Stanford University, takes the broadest view: many situations measured in many ways, not only accuracy. Its hallmark is **transparency**: every question and every model reply is published.
+- [LiveBench](https://livebench.ai/) fights memorization by regularly replacing its questions with new ones drawn from recent material. Answers are checked against exact solutions, with no AI judge involved.
+- [HELM](https://crfm.stanford.edu/helm/), from Stanford University, takes the broadest view: many situations measured in many ways, not only accuracy. It is also transparent, publishing every question and every model reply.
 
 ### 🩺 HealthBench
 
-[HealthBench](https://openai.com/index/healthbench/), published by OpenAI, is **GnollBench's closest relative in method**. It consists of 5,000 health conversations, and 262 physicians wrote a separate checklist for each one: **48,562 criteria** in all, each worth a number of points. An AI grader goes through every checklist.
+[HealthBench](https://openai.com/index/healthbench/), published by OpenAI, is the benchmark closest to GnollBench in method. It consists of 5,000 health conversations, and 262 physicians wrote a separate checklist for each one: 48,562 criteria in all, each worth a number of points. An AI grader goes through every checklist.
 
-> 💡 **Interesting catch:** Can an AI grader be trusted? HealthBench's authors tested this, and found that their AI grader agreed with physicians about as often as **physicians agree with each other**. GnollBench works the same way on a far smaller scale, but has no such study behind it, and its checklists are usually drafted by an AI and reviewed by the developers, not written by outside experts.
+HealthBench's authors tested whether their AI grader could be trusted, and found that it agreed with physicians about as often as physicians agree with each other. GnollBench grades the same way on a far smaller scale, but has no such study behind it, and its checklists are usually drafted by an AI and reviewed by the developers, not written by outside experts.
 
 ### 🕹️ BALROG
 
-[BALROG](https://arxiv.org/abs/2411.13543) is **the closest relative in subject**. It makes AI models *play* games, the hardest of them NetHack, and scores how far they get.
+[BALROG](https://arxiv.org/abs/2411.13543) is the closest in subject: it makes AI models play games, the hardest of them NetHack, and scores how far they get.
 
-- In the original 2024 study, the best models averaged **under 2%** of the way through NetHack.
-- A [blog report from January 2026](https://kenforthewin.github.io/blog/posts/nethack-agent/) described a best run that reached dungeon level 10, still only **about an eighth** of the way by BALROG's measure.
-- In [September 2026](https://kenforthewin.github.io/blog/posts/llm-nethack-ascension/), the same author reported that an AI agent had **ascended**, winning the game outright, though outside BALROG's own test setup.
+- In the original 2024 study, the best models averaged under 2% of the way through NetHack.
+- A [blog report from January 2026](https://kenforthewin.github.io/blog/posts/nethack-agent/) described a best run that reached dungeon level 10, still only about an eighth of the way by BALROG's measure.
+- In [September 2026](https://kenforthewin.github.io/blog/posts/llm-nethack-ascension/), the same author reported that an AI agent had ascended, winning the game outright, though outside BALROG's own test setup.
 
-> ℹ️ **Note:** GnollBench tests something different. It does not ask the model to play the game, but to **advise a human** who plays it.
+GnollBench does not ask a model to play the game, but to advise a human who plays it.
 
 ## 📊 Side-by-Side Comparison
 
@@ -106,14 +90,12 @@ These are very hard questions written by specialists, with answers that can be c
 | **Main purpose** | Improve one product | Compare models for everyone | Rank models by human preference | Track the limits of AI ability |
 | **What is tested** | The model inside the real Overseer chat | The model under neutral conditions | The model as a chat partner | The model by itself |
 | **Subject** | GnollHack | Agents, coding, knowledge, science | Whatever visitors ask | Science, mathematics, knowledge |
-| **Size** | **18 questions** in the default suite; custom suites of any size up to 50 | Thousands of items | Millions of votes | Hundreds to thousands of questions |
+| **Size** | 18 questions in the default suite; custom suites of any size up to 50 | Thousands of items | Millions of votes | Hundreds to thousands of questions |
 | **Who writes the questions** | Usually an AI that can consult the game's source code and this wiki; the developers review them | Artificial Analysis and outside authors | The visitors | Subject specialists |
 | **Who writes the answer keys** | Usually an AI, from the same sources; improved between runs in the light of the results | The authors of each test | There are none | Subject specialists |
 | **Tools for the model** | 16 of the Overseer's 31 tools: the lookups for the wikis, game data, and source code | Code and web tools in the agent tests | Usually none | Usually none |
 
-> ℹ️ **Note:** The Overseer's other tools are left out of the exam because they do not suit a fixed test. They read the player's own game and files, search GitHub or the server's game records, or hand work to helper AIs.
-
-> ℹ️ **Note:** When a suite is built around a game situation, that situation is normally captured from a **real game** with the game's own snapshot export.
+The Overseer's other tools are left out of the exam because they do not suit a fixed test: they read the player's own game and files, search GitHub or the server's game records, or hand work to helper AIs. When a suite is built around a game situation, that situation is normally captured from a real game with the game's own snapshot export.
 
 ### 📏 How It Is Measured
 
@@ -126,11 +108,11 @@ These are very hard questions written by specialists, with answers that can be c
 | **Cost** | Estimated cost of each run, per role | Price lists, and the cost of running the index | Not measured | Usually not measured |
 | **Results** | Preliminary results published as an executive summary; run details internal, available on request | Public | Public | Public |
 
-> ℹ️ **Term — AI judge:** An AI model that grades another AI model's answers. It is fast and cheap, but it has blind spots of its own, which is why benchmarks that use one surround it with checks.
+An AI judge, a model that grades another model's answers, is fast and cheap, but it has blind spots of its own, which is why benchmarks that use one surround it with checks.
 
 ## ✨ What Is Unique About GnollBench
 
-> 📢 **Important:** Few of these ideas are unique one by one, and the last column shows related ideas elsewhere. What is unusual is **their combination, and the purpose they serve**: making one product better.
+Few of these ideas are unique on their own, and the last column lists related ideas elsewhere. What is unusual is the combination, and that it serves one purpose: making one product better.
 
 | Feature | What it means | A related idea elsewhere |
 | :--- | :--- | :--- |
@@ -144,11 +126,11 @@ These are very hard questions written by specialists, with answers that can be c
 | **Real game situations** | Questions can be tied to a situation captured from a live game: "what should I do *here*?" | BALROG also puts models into real game states, as players |
 | **The exam examines itself** | Questions that everyone passes, or whose scores jump around, are flagged for a human, and answer keys are improved between runs | Expert exams retire or repair questions too, as FrontierMath did |
 
-> 💡 **Example:** Suppose a model answers a question about a wand wrongly. For a ranking benchmark, that is one lost point. For GnollBench it is a lead: was the fact missing from this wiki? Did a lookup tool return something confusing? Once the cause is fixed, **every** model in the Overseer answers better. A failed question is often worth more to the developers than a passed one.
+> 💡 **Example:** Suppose a model answers a question about a wand wrongly. For a ranking benchmark, that is one lost point. For GnollBench it is a lead: was the fact missing from this wiki, or did a lookup tool return something confusing? Once the cause is fixed, every model in the Overseer answers better, so a failed question is often worth more to the developers than a passed one.
 
 ## 💪 Where the Public Benchmarks Are Stronger
 
-GnollBench is a small, internal tool, and in several respects the public benchmarks are simply better.
+GnollBench is a small, internal tool, and in these respects the public benchmarks are better:
 
 | Strength | Public benchmarks | GnollBench |
 | :--- | :--- | :--- |
@@ -159,7 +141,7 @@ GnollBench is a small, internal tool, and in several respects the public benchma
 | **Independence** | The testers do not build the products they test | Reviewed and run by the team that builds the Overseer |
 | **Live speed data** | Measured around the clock, across hosting services | Only seen during its own runs |
 
-> ⚠️ **The catch with a small exam:** Repeating a short exam many times tells you how *steady* a model is, but it never makes the exam any *bigger*. The uncertainty that comes from having few questions can only be reduced by adding questions. GnollBench allows custom suites larger than the default 18, but even the largest stays far below the size of a public benchmark.
+Repeating a short exam many times shows how steady a model is, but it never makes the exam any bigger: the uncertainty that comes from having few questions can only be reduced by adding questions. GnollBench allows custom suites larger than the default 18, but even the largest stays far below the size of a public benchmark.
 
 ## 🚧 Limitations on Both Sides
 
@@ -167,7 +149,7 @@ GnollBench is a small, internal tool, and in several respects the public benchma
 
 | Limitation | Why it matters |
 | :--- | :--- |
-| **Small suites** | With 18 questions in the default suite, and a few dozen at most in a custom one, a few lucky or unlucky answers move the result |
+| **Small suites** | With 18 questions in the default suite, and 50 at most in a custom one, a few lucky or unlucky answers move the result |
 | **AI-drafted questions and answer keys** | Human review catches mistakes, but an AI's blind spots can still slip into the exam |
 | **Answer keys keep changing** | Improving an answer key makes the exam better, but results from before and after the change can no longer be averaged together |
 | **AI graders** | Graders from two companies balance each other, but every score still rests on AI judgment, however carefully it is constrained. Changing a grader starts a new series of results. |
@@ -182,54 +164,41 @@ GnollBench is a small, internal tool, and in several respects the public benchma
 | :--- | :--- |
 | **Contamination** | Published questions end up in training data, and scores rise without models getting smarter |
 | **Saturation** | Once the best models score near the top, the benchmark stops telling them apart |
-| **Neutral conditions are nobody's conditions** | A product's own instructions and tools can change a model's behavior a great deal |
+| **Neutral conditions** | A product's own instructions and tools can change a model's behavior a great deal |
 | **Preference is not correctness** | In vote-based rankings, a confident wrong answer can beat a careful right one |
 | **An average hides the details** | A high overall index can conceal a weak spot in exactly the area you need |
 | **Versions move** | When the contents of an index change, old and new scores cannot be compared directly |
 
-> ℹ️ **Term — contamination:** When a benchmark's questions and answers have leaked into the material an AI model was trained on. The model then "remembers" answers instead of working them out, like a student who saw the exam paper in advance.
+Contamination means that a benchmark's questions and answers have leaked into the material a model was trained on. The model then "remembers" answers instead of working them out, like a student who saw the exam paper in advance. Saturation means that a benchmark has become too easy for the best models: if everyone scores 98%, the exam no longer shows who is better.
 
-> ℹ️ **Term — saturation:** When a benchmark has become too easy for the best models. If everyone scores 98%, the exam no longer shows who is better.
-
-> ℹ️ **Note:** The last limitation applies to GnollBench just as much. It deals with it by recording the exact conditions of every run and refusing to average runs whose conditions differ.
+GnollBench has the version problem too. It records the exact conditions of every run and refuses to average runs whose conditions differ.
 
 ## 🤝 How They Complement Each Other
 
-In practice, the two kinds of benchmark form a chain:
+In practice, the two kinds of benchmark are used one after the other:
 
-1. **Public benchmarks make the shortlist.** Nobody can test every model on everything. Public figures on ability, speed, and price show which models deserve a closer look.
-2. **GnollBench tests the shortlist inside the real product.** It shows how each candidate behaves with the Overseer's instructions and tools, on GnollHack questions.
-3. **The findings improve the product.** Wrong answers lead to fixes in this wiki, in the tools, and in the instructions, which helps whichever model a player picks.
+1. Public benchmarks make the shortlist. Nobody can test every model on everything, and public figures on ability, speed, and price show which models deserve a closer look.
+2. GnollBench tests the shortlist inside the real product, showing how each candidate behaves with the Overseer's instructions and tools on GnollHack questions.
+3. Wrong answers lead to fixes in this wiki, in the tools, and in the instructions, which helps whichever model a player picks.
 
-**The chain needs both ends:**
+Either kind alone misses something:
 
 | If you only looked at... | You would miss that... |
 | :--- | :--- |
 | **Public benchmarks** | A top-ranked model can still do poorly in a narrow subject where it has to look things up with unfamiliar tools |
-| **GnollBench** | A model that does well has shown that it is a good GnollHack advisor, **and nothing more** |
+| **GnollBench** | A model that does well has shown that it is a good GnollHack advisor, and nothing more |
 
-For the practical outcome of this process, see [[/Guides/Choosing AI Model for Gnoll Overseer]].
+The models this process selected for the Overseer are listed in [[/Guides/Choosing AI Model for Gnoll Overseer]].
 
 ## 🎲 Interesting Facts
 
-- 🧙‍♂️ **NetHack is a classic AI challenge.** The NetHack Learning Environment was released for AI research in 2020. In a 2021 competition built on it, hand-written bots beat the machine-learning entries by a wide margin.
-- 🤖 **First a bot, then a language model.** A hand-programmed bot called BotHack completed NetHack in 2015. In September 2026, an agent driven by OpenAI's GPT-6 Astra made what its operator believes is the first recorded ascension by an AI language model: a dwarven Valkyrie, on its third run, after 37,140 turns. It had free access to spoilers, the wiki, and the game's source code, and built its own tools along the way. A human still helped with setup and suggestions, and stopped and resumed its sessions.
-- 👩‍⚕️ **GnollBench's rating scale was first used on nurses.** The Behaviorally Anchored Rating Scale was developed by psychologists in 1963 for judging job performance, long before anyone graded an AI with it.
-- 🔢 **One test, 6,000 questions.** A single component of the Artificial Analysis index is over 300 times the size of GnollBench's default suite, and 120 times the largest suite GnollBench allows.
-- ⏱️ **Two kinds of speed.** Artificial Analysis measures how fast a hosting service delivers text. GnollBench measures how long the model itself spends on a whole answer, with the waiting time for lookups removed.
-- 📚 **GnollBench is an open-book exam.** The model may search the wiki during the test, just as it does in the live chat. Having memorized the material matters less than finding and using it correctly, which also makes contamination less of a worry.
-- 🔺 **The same triangle.** Artificial Analysis and GnollBench both settled on the same three-way view of a model: quality, speed, and cost.
-
-## 💡 Summary
-
-| | Public benchmarks | GnollBench |
-| :--- | :--- | :--- |
-| **Answers the question** | How capable is this model in general? | How well does the Overseer work with this model? |
-| **Biggest strengths** | Large, broad, open, independent | Tests the real product, punishes dangerous advice, checks answers against the game, finds things to fix |
-| **Biggest weaknesses** | Contamination, saturation, neutral conditions | Small suites, AI grading, mostly internal results |
-| **Role in the chain** | Pick the candidates | Check them where it counts for GnollHack players |
-
-**They complement each other and do not replace each other.**
+- The NetHack Learning Environment was released for AI research in 2020. In a 2021 competition built on it, hand-written bots beat the machine-learning entries by a wide margin.
+- A hand-programmed bot called BotHack completed NetHack in 2015. In September 2026, an agent driven by OpenAI's GPT-6 Astra made what its operator believes is the first recorded ascension by an AI language model: a dwarven Valkyrie, on its third run, after 37,140 turns. It had free access to spoilers, the wiki, and the game's source code, and built its own tools along the way. A human still helped with setup and suggestions, and stopped and resumed its sessions.
+- GnollBench's rating scale, the Behaviorally Anchored Rating Scale, was developed by psychologists in 1963 for judging job performance and was first used on nurses, long before anyone graded an AI with it.
+- With 6,000 questions, a single component of the Artificial Analysis index is over 300 times the size of GnollBench's default suite, and 120 times the largest suite GnollBench allows.
+- Artificial Analysis measures how fast a hosting service delivers text. GnollBench measures how long the model itself spends on a whole answer, with the waiting time for lookups removed.
+- GnollBench is an open-book exam: the model may search the wiki during the test, just as it does in the live chat. Having memorized the material matters less than finding and using it correctly, which also makes contamination less of a worry.
+- Artificial Analysis and GnollBench both settled on the same three-way view of a model: quality, speed, and cost.
 
 ## 📖 Learn More
 
