@@ -52,10 +52,10 @@ NetHack players identify items with scrolls and the spell of identify, by shop p
 | **Attributes** | Attributes rise slowly and semi-randomly through hidden "exercise" | Exercise is gone; eating certain corpses or fruits, such as a banana, raises an attribute at once |
 | **Difficulty** | One difficulty; in the non-scoring explore mode you can refuse to die | 7 [[difficulty levels]] and several gameplay modes, some without permadeath |
 | **Random Monsters** | Each monster's difficulty is capped by the dungeon level and your experience level, but the rest of its group is not checked, so soldier ants can arrive several at a time early on | Monsters come as encounters, and the cap applies to the whole group |
-| **Gold** | Shops, temple donations for protection, the Oracle's consultations, and bribes demanded by demon lords | Through Chat (`Shift+c`), gold also pays for identification by the Oracle and NPCs, healing and cures by priests, spell lessons, and peace with angry watchmen |
+| **Gold** | Shops, temple donations for protection, the Oracle's consultations, and bribes demanded by demon lords | Besides the paid identification and spell lessons above, gold buys healing and cures from priests and peace with angry watchmen |
 | **Pets** | Pets step toward you square by square, can get stuck behind obstacles, and follow your trail when out of sight | Pets find a path back to you. You can tell them to hold position, drop items, and wear or wield gear, and you can hire mercenaries |
 
-In NetHack, Chat mostly gets you a monster's sound or a line of text. In GnollHack it is how you deal with NPCs, monsters, and pets: the paid services and pet commands above are all chosen there.
+In NetHack, Chat mostly gets you a monster's sound or a line of text. In GnollHack, Chat (`Shift+c`) is how you deal with NPCs, monsters, and pets: the paid services and pet commands above are all chosen there.
 
 ## 📈 GnollHack Development Key Figures
 

@@ -60,8 +60,8 @@ NetHack and the text version of GnollHack can be played over SSH on public Linux
 |--------|---------|-----------|
 | **Primary Servers** | NAO ([`nethack.alt.org`](https://alt.org/nethack/)), [Hardfought](https://www.hardfought.org/) (US/EU/AU) | GnollHack's own server (`server.gnollhack.com`), also on Hardfought |
 | **Access Methods** | SSH, Telnet, web terminal | SSH for the text version; the GnollHack app on each platform for the graphical one |
-| **Server Management** | `dgamelaunch` (community open-source) | GnollHack's own server software, based on dgamelaunch |
-| **Live Spectating** | Built into dgamelaunch (SSH `w` key) | The `w` key in the main menu of GnollHack's own server and of Hardfought; not in the app |
+| **Server Management** | `dgamelaunch` (community open-source) | Its own software, based on dgamelaunch |
+| **Live Spectating** | Built into dgamelaunch (SSH `w` key) | The `w` key in the main menu, on both servers; not in the app |
 
 ## 🎬 Game Recording and Replays
 
@@ -69,7 +69,7 @@ NetHack and the text version of GnollHack can be played over SSH on public Linux
 |--------|---------|-----------|
 | **Recording Format** | `ttyrec` (terminal recording, server-side) | Built-in input recording (`Record Game` setting) |
 | **Replay Access** | Web-based ttyrec browsers (`browsettyrec`) on NAO and Hardfought | A replay viewer in the app; replays can be uploaded to the cloud automatically or exported as a ZIP file |
-| **Livestreaming** | Streaming software such as OBS, to Twitch or YouTube | The same kind of software; [[Streaming guides|Live Streaming Instructions]] show the setup in Twitch Studio, Streamlabs OBS, and OBS Studio |
+| **Livestreaming** | Streaming software such as OBS, to Twitch or YouTube | The same, with [[Streaming guides|Live Streaming Instructions]] for Twitch Studio, Streamlabs OBS, and OBS Studio |
 
 ## 🔬 AI Research
 

@@ -50,7 +50,7 @@ GnollHack is free on every platform, Steam included, with no ads or microtransac
 
 If you want NetHack's rules and dungeon but some help while you learn them, GnollHack has the easier [[difficulty levels]], [[Modern Mode]] and [[Casual Mode]] without permadeath, and the in-game [[AI advisor|Gnoll Overseer]] to ask instead of a wiki; [[Starting Guide for Beginners]] covers the first steps. NetHack players find the same dungeon there, with reworked loot and magic and more late-game content.
 
-Pathos is the one with party play, local co-op, other campaigns, and translations. Knowing NetHack helps less in it, because its rules are its own.
+Pathos is the only one of the three with party play, local co-op, other campaigns, and translations. Knowing NetHack helps less there, because its rules are its own.
 
 Vanilla NetHack is still the way to play the 1980s original on a physical keyboard, in a terminal or on public servers such as Hardfought, with the community wiki for reference.
 

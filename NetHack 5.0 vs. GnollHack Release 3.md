@@ -35,11 +35,11 @@ Gold, loot, equipment slots, ranged combat, pets, and the smaller rule changes a
 
 ## 🌐 Online Play and Leaderboard Support
 
-NetHack 5.0 and GnollHack can both be played in a terminal over SSH on public servers, and games played there appear on the [NetHack Scoreboard](https://nethackscoreboard.org/), an online leaderboard for NetHack variants. The GnollHack servers run the text version of the game, which came before the graphical clients; see [[Public Servers]]. Only GnollHack also sends games played in its own clients to the scoreboard, through the [[GnollHack Account]] server.
+NetHack 5.0 and GnollHack can both be played in a terminal over SSH on public servers, and games played there appear on the [NetHack Scoreboard](https://nethackscoreboard.org/), an online leaderboard for NetHack variants. The GnollHack servers run the text version of the game, which came before the graphical clients; see [[Public Servers]]. Games played in the GnollHack apps reach the scoreboard as well, through the [[GnollHack Account]] server; NetHack 5.0 games count only when they are played on a server.
 
 ## 💡 Which One to Play
 
-NetHack 5.0 is the official game: one difficulty, permadeath, mostly keyboard play, and a tutorial level to learn it with. GnollHack Release 3 is the better fit if you want to choose a difficulty level or play without permadeath, or if you play on a phone or tablet. The price is more to manage: 22 [[equipment slots]], more loot to sort, and reagents to mix before you can cast.
+NetHack 5.0 is the official game: one difficulty, permadeath, mostly keyboard play, and a tutorial level to learn it with. GnollHack Release 3 is the better fit if you want to choose a difficulty level or play without permadeath, or if you play on a phone or tablet. The price is more to manage: 22 [[equipment slots]] to fill, items with quality tiers and affixes to compare, and reagents to mix before you can cast.
 
 ## 📅 Validity
 

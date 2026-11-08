@@ -6,10 +6,10 @@
 | :--- | :------------ | :------- | :--------------- | :------- | :--------- |
 | **[NetHack](https://www.nethack.org/)** | 1987 | Hack | Rogue | ASCII text; tiles in some interfaces, such as the Windows GUI, released in 2002 | Hardcore |
 | **[GnollHack](https://gnollhack.com/)** | 2023, on mobile; developed since July 2019 | A fork of NetHack 3.6.2 | NetHack | Animated high-resolution tiles | Hardcore–Midcore |
-| **[Pathos](https://pathos-game.onrender.com/)** | 2015 | Written from scratch, with its own rules | NetHack | 2D tiles; the Steam edition has four tile sets: two in pixel art, one semi-realistic, and one ASCII-style | Midcore |
+| **[Pathos](https://pathos-game.onrender.com/)** | 2015 | Written from scratch, with [[its own rules|GnollHack vs. Pathos vs. NetHack]] | NetHack | 2D tiles; the Steam edition has four tile sets: two in pixel art, one semi-realistic, and one ASCII-style | Midcore |
 | **[Shattered Pixel Dungeon](https://shatteredpixel.com/)** | 2014 | A fork of Pixel Dungeon | Brogue | Pixel art | Midcore–Casual |
 
-Pathos borrows NetHack's monsters and items, but [[its rules are its own|GnollHack vs. Pathos vs. NetHack]]. Shattered Pixel Dungeon has six heroes, each with two subclasses and over 25 talents to spend points on.
+Shattered Pixel Dungeon has six heroes, each with two subclasses and over 25 talents to spend points on.
 
 ## 📦 Availability
 
