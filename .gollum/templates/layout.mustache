@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" data-color-mode="dark" data-dark-theme="dark" data-light-theme="dark">
 <head>
   <!-- Google Tag Manager -->
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -13,8 +13,12 @@
   <meta name="MobileOptimized" content="width">
   <meta name="HandheldFriendly" content="true">
   <meta name="viewport" content="width=device-width">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#0e0c0a">
   {{#sprockets_stylesheet_tag}}app{{/sprockets_stylesheet_tag}}
   {{#sprockets_stylesheet_tag}}print print{{/sprockets_stylesheet_tag}}
+  <link rel="preload" href="/.gollum/fonts/cinzel-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="{{#asset_url}}/.gollum/css/gnollhack-theme.css{{/asset_url}}{{^asset_url}}/.gollum/css/gnollhack-theme.css{{/asset_url}}">
 
 
   {{#css}}<link rel="stylesheet" type="text/css" href="{{custom_css}}" media="all">{{/css}}
@@ -179,25 +183,6 @@
   <meta name="msapplication-square150x150logo" content="/.gollum/favicon/mstile-150x150.png" />
   <meta name="msapplication-wide310x150logo" content="/.gollum/favicon/mstile-310x150.png" />
   <meta name="msapplication-square310x310logo" content="/.gollum/favicon/mstile-310x310.png" />
-
-  <style>
-    @media (max-width: 767px) {
-      #wiki-sidebar {
-        margin-top: 50px;
-        box-shadow: 0px 0px 2px 2px rgb(0 0 0 / 50%);
-      }
-    }
-
-    /* Force word wrap on code blocks to prevent horizontal overflow */
-    pre, code {
-      white-space: pre-wrap !important;       /* CSS 3 */
-      white-space: -moz-pre-wrap !important;  /* Mozilla */
-      white-space: -pre-wrap !important;      /* Opera 4-6 */
-      white-space: -o-pre-wrap !important;    /* Opera 7 */
-      word-wrap: break-word !important;       /* IE 5.5+ */
-      overflow-wrap: break-word !important;
-    }
-  </style>
 </head>
 <body>
   <!-- Google Tag Manager (noscript) -->

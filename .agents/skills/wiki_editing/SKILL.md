@@ -16,6 +16,20 @@ When editing or creating pages for the GnollHack Wiki, follow these conventions.
 - **Lists**: Use a dash (`-`) for Markdown lists instead of an asterisk (`*`) by default.
 - **Closing Link Sections**: Keep wiki pages and external websites in separate sections at the end of a page. A `## 📖 Learn More` or `## 📖 See Also` section lists only wikilinks to other pages of this wiki. External links (standard Markdown links to other websites) go into their own `## 🔗 External Links` section, placed after it, as the last section of the page except for a Validity section (section 20). Use `## 📖 References` instead when the links are the sources that the page's facts are based on. The icon marks the destination: a book icon means the links stay inside this wiki, and a link icon means they leave it. The same icons apply to an `H3` link subsection inside a longer page. Never mix wikilinks and external links in one list. A closing section is the exception, not the default: section 4 and `AGENTS.md` allow it only for a few essential links that cannot be placed inline, and a hub page that lists the articles of its series is the other case where one belongs. Never add a `### 📖 Learn More` block after each section of a page; link the pages inline where the text mentions them.
 - **Curating Closing Links**: Closing link sections are rigorously curated, not exhaustive. List only the pages a reader of this article would genuinely want next: its direct prerequisites and follow-ups, the pages it depends on, and the pages that answer the obvious next question. Leave out anything only vaguely related; a page that merely shares a topic area, or that is listed for completeness, buries the links that matter and makes the section worth less than a shorter one would be. A link to a hub page is always acceptable when the article belongs to a series that the hub hosts. Prefer a short list; when in doubt, leave the link out.
+- **Meta Description Overrides**: The wiki chooses each page's search-engine description (the meta description) from the page's ingress, first paragraph, or opening list. A page can set its own instead with a `description:` front matter key.
+  - **When**: Only when the chosen text does not describe the page, for example on a page of parallel sections with no introduction. Prefer fixing the page itself: add an ingress or write a better first paragraph.
+  - **Syntax**: The very first lines of the file, holding a single `description:` key, always double-quoted on one line. Never use a `>` or `|` block scalar: it fails to parse. Write plain text; `&` is fine, Markdown and HTML are not.
+  - **Content**: At most 160 characters, about the page's subject, in US English.
+  - **No other keys**: Any other key renders as a visible metadata table at the top of the page, and `title:` loses to the page's H1 anyway.
+  - **Line endings**: CRLF in the working tree is fine, because Git stores LF; front matter stored with CRLF in the index would fail to parse.
+  - **Gnoll Overseer**: The advisor reads the raw `.md` files and does not strip front matter, so it sees the override as part of the page.
+  - **Example**: `Download.md` starts with:
+
+    ```
+    ---
+    description: "Downloads for GnollHack: get the game for Android, iOS, Linux, macOS, Steam Deck, and Windows from Google Play, the App Store, Steam, or GitHub."
+    ---
+    ```
 
 ## 2. Wikilinks (Gollum Syntax)
 - **Syntax**: Use Gollum-style wikilinks: `[[Alias|Page Name]]` or `[[Page Name]]`. **IMPORTANT**: The alias always comes first and the page name comes last!
@@ -62,7 +76,7 @@ When editing or creating pages for the GnollHack Wiki, follow these conventions.
 
 ## 4. Restrictions
 - **Reserved Folders**: Do not create, modify, or put anything in the `/gollum/` or `/.gollum/` directories. These are strictly reserved for wiki software functions and website files.
-- **Horizontal Lines**: Do not use horizontal lines (e.g., `---` or `***`) anywhere in the wiki. They are not needed in Markdown documents.
+- **Horizontal Lines**: Do not use horizontal lines (e.g., `---` or `***`) anywhere in the wiki. They are not needed in Markdown documents. The one exception is the pair of `---` lines that delimits a meta description override (section 1).
 - **"See Also" Sections**: Do not create "See Also" sections. Link related pages inline, where the text mentions them. Add a "See Also" section only for a few very important and necessary links that cannot be placed naturally in the text.
 - **Markdown Flavor**: The wiki uses Gollum-style Markdown, not GitHub Flavored Markdown. It does not support GitHub-style alerts (e.g., `> [!IMPORTANT]`, `> [!NOTE]`). Use standard Markdown blockquotes with bold text and colored unicode icons as the best alternatives:
   - Note: `> ℹ️ **Note:** This is a note.`
@@ -414,7 +428,7 @@ $fixed = @()
 foreach ($line in (& git -C $root status --porcelain --untracked-files=all)) {
     $rel = $line.Substring(3).Trim('"')
     if ($rel -match ' -> ') { $rel = ($rel -split ' -> ')[-1] }
-    if ([IO.Path]::GetExtension($rel) -notin @('.md', '.mustache')) { continue }
+    if ([IO.Path]::GetExtension($rel) -notin @('.md', '.mustache', '.css', '.txt')) { continue }
     $p = Join-Path $root ($rel -replace '/', '\')
     if (-not (Test-Path -LiteralPath $p)) { continue }
     $bytes = [IO.File]::ReadAllBytes($p)

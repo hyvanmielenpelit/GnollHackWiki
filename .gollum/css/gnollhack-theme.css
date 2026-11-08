@@ -1,0 +1,777 @@
+/*
+ * GnollHack Wiki theme: "Smoked-Obsidian & Burnished-Gold".
+ *
+ * A dark-only skin over Gollum 6 and its Primer CSS, matching the GnollHack
+ * marketing site, GnollHack Account, and Gnoll Overseer. The palette and the
+ * fonts are the marketing site's.
+ *
+ * layout.mustache links this file through {{#asset_url}}, which appends
+ * ?v=<content hash>, so the file keeps its name when its content changes.
+ *
+ * Every rule except @font-face, the :root tokens, and the code word-wrap rule
+ * is screen-only, so printing keeps Gollum's light print look.
+ */
+
+/* ---------------------------------------------------------------------------
+ * Fonts (latin subset; other characters fall back to system fonts)
+ * ------------------------------------------------------------------------- */
+
+@font-face {
+  font-family: "Cinzel";
+  font-style: normal;
+  font-weight: 600 800;
+  font-display: swap;
+  src: url("../fonts/cinzel-latin-wght-normal.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/lato-latin-400-normal.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Lato";
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/lato-latin-400-italic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/lato-latin-700-normal.woff2") format("woff2");
+}
+
+/* ---------------------------------------------------------------------------
+ * Design tokens
+ * ------------------------------------------------------------------------- */
+
+:root {
+  --gh-page-bg: #000000;
+  --gh-header-bg: #0e0c0a;
+  --gh-surface: rgba(16, 15, 14, 0.94);
+  --gh-surface-solid: #12100d;
+  --gh-surface-raised: #1a1713;
+  --gh-border: rgba(212, 168, 83, 0.32);
+  --gh-border-strong: rgba(242, 202, 112, 0.64);
+  --gh-gold: #f3ce72;
+  --gh-gold-strong: #dfb046;
+  --gh-ivory: #fbf5e8;
+  --gh-prose: #ede7db;
+  --gh-muted: #c8beaa;
+  --gh-quote-bg: rgba(243, 206, 114, 0.06);
+  --gh-code-bg: rgba(0, 0, 0, 0.45);
+  --gh-th-bg: rgba(212, 160, 23, 0.15);
+  --gh-row-alt: rgba(255, 255, 255, 0.03);
+  --gh-font-sans: "Lato", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --gh-font-display: "Cinzel", Georgia, serif;
+  --gh-font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+}
+
+@media screen {
+
+  /* -------------------------------------------------------------------------
+   * Primer color variables. The selector (0,2,1) outranks Primer's
+   * [data-color-mode=dark][data-dark-theme=dark] (0,2,0). Primer's
+   * --color-prettylights-* and semantic success/danger/attention colors keep
+   * their dark-theme values.
+   * ----------------------------------------------------------------------- */
+
+  html[data-color-mode][data-dark-theme] {
+    /* Canvas */
+    --color-canvas-default: var(--gh-surface-solid);
+    --color-canvas-default-transparent: rgba(18, 16, 13, 0);
+    --color-canvas-overlay: var(--gh-surface-raised);
+    --color-canvas-inset: #0b0a09;
+    --color-canvas-subtle: var(--gh-surface-raised);
+    --color-page-header-bg: var(--gh-header-bg);
+    --color-primer-canvas-backdrop: rgba(0, 0, 0, 0.8);
+    --color-primer-canvas-sticky: rgba(14, 12, 10, 0.95);
+
+    /* Text */
+    --color-fg-default: var(--gh-prose);
+    --color-fg-muted: var(--gh-muted);
+    --color-fg-subtle: var(--gh-muted);
+    --color-fg-on-emphasis: #1f1204;
+    --color-primer-fg-disabled: rgba(200, 190, 170, 0.5);
+
+    /* Accent */
+    --color-accent-fg: var(--gh-gold);
+    --color-accent-emphasis: var(--gh-gold-strong);
+    --color-accent-muted: rgba(243, 206, 114, 0.4);
+    --color-accent-subtle: rgba(243, 206, 114, 0.12);
+
+    /* Borders */
+    --color-border-default: var(--gh-border);
+    --color-border-muted: rgba(212, 168, 83, 0.2);
+    --color-border-subtle: rgba(212, 168, 83, 0.16);
+    --color-primer-border-active: var(--gh-gold-strong);
+
+    /* Neutral fills: counters, menu hover, tooltips */
+    --color-neutral-muted: rgba(200, 190, 170, 0.2);
+    --color-neutral-subtle: rgba(200, 190, 170, 0.08);
+    --color-neutral-emphasis: var(--gh-muted);
+    --color-neutral-emphasis-plus: var(--gh-prose);
+    --color-counter-border: rgba(0, 0, 0, 0);
+
+    /* Shadows and focus */
+    --color-shadow-medium: 0 3px 6px rgba(0, 0, 0, 0.6);
+    --color-shadow-large: 0 16px 38px rgba(0, 0, 0, 0.62), 0 2px 8px rgba(0, 0, 0, 0.45);
+    --color-shadow-extra-large: 0 16px 48px rgba(0, 0, 0, 0.7);
+    --color-overlay-shadow: 0 0 0 1px var(--gh-border), 0 16px 38px rgba(0, 0, 0, 0.62);
+    --color-primer-shadow-inset: 0 0 transparent;
+    --color-primer-shadow-focus: 0 0 0 3px rgba(243, 206, 114, 0.35);
+
+    /* Default buttons: the marketing site's secondary button */
+    --color-btn-text: var(--gh-ivory);
+    --color-btn-bg: rgba(10, 10, 10, 0.45);
+    --color-btn-border: var(--gh-border-strong);
+    --color-btn-shadow: 0 0 transparent;
+    --color-btn-inset-shadow: 0 0 transparent;
+    --color-btn-hover-bg: rgba(223, 176, 70, 0.14);
+    --color-btn-hover-border: var(--gh-gold);
+    --color-btn-active-bg: rgba(223, 176, 70, 0.22);
+    --color-btn-active-border: var(--gh-gold);
+    --color-btn-selected-bg: rgba(223, 176, 70, 0.18);
+    --color-btn-focus-bg: rgba(10, 10, 10, 0.45);
+    --color-btn-focus-border: var(--gh-gold);
+    --color-btn-focus-shadow: 0 0 0 3px rgba(243, 206, 114, 0.35);
+    --color-btn-shadow-active: inset 0 0.15em 0.3em rgba(0, 0, 0, 0.3);
+    --color-btn-shadow-input-focus: 0 0 0 0.2em rgba(243, 206, 114, 0.35);
+    --color-btn-counter-bg: rgba(243, 206, 114, 0.2);
+
+    /* Primary buttons: the marketing site's gold call to action */
+    --color-btn-primary-text: #1f1204;
+    --color-btn-primary-bg: var(--gh-gold-strong);
+    --color-btn-primary-border: #c58a22;
+    --color-btn-primary-shadow: 0 0 transparent;
+    --color-btn-primary-inset-shadow: 0 0 transparent;
+    --color-btn-primary-hover-bg: var(--gh-gold);
+    --color-btn-primary-hover-border: #c58a22;
+    --color-btn-primary-selected-bg: var(--gh-gold-strong);
+    --color-btn-primary-selected-shadow: 0 0 transparent;
+    --color-btn-primary-disabled-text: rgba(31, 18, 4, 0.6);
+    --color-btn-primary-disabled-bg: rgba(223, 176, 70, 0.5);
+    --color-btn-primary-disabled-border: rgba(197, 138, 34, 0.5);
+    --color-btn-primary-focus-bg: var(--gh-gold-strong);
+    --color-btn-primary-focus-border: #c58a22;
+    --color-btn-primary-focus-shadow: 0 0 0 3px rgba(243, 206, 114, 0.4);
+    --color-btn-primary-icon: #1f1204;
+    --color-btn-primary-counter-bg: rgba(31, 18, 4, 0.2);
+
+    /* Outline buttons (history and compare pages) */
+    --color-btn-outline-text: var(--gh-gold);
+    --color-btn-outline-hover-text: var(--gh-ivory);
+    --color-btn-outline-hover-bg: rgba(223, 176, 70, 0.14);
+    --color-btn-outline-hover-border: var(--gh-gold);
+    --color-btn-outline-hover-shadow: 0 0 transparent;
+    --color-btn-outline-hover-inset-shadow: 0 0 transparent;
+    --color-btn-outline-hover-counter-bg: rgba(243, 206, 114, 0.2);
+    --color-btn-outline-selected-text: #1f1204;
+    --color-btn-outline-selected-bg: var(--gh-gold-strong);
+    --color-btn-outline-selected-border: var(--gh-gold-strong);
+    --color-btn-outline-selected-shadow: 0 0 transparent;
+    --color-btn-outline-disabled-text: rgba(243, 206, 114, 0.5);
+    --color-btn-outline-disabled-bg: rgba(0, 0, 0, 0);
+    --color-btn-outline-disabled-counter-bg: rgba(243, 206, 114, 0.05);
+    --color-btn-outline-focus-border: var(--gh-gold);
+    --color-btn-outline-focus-shadow: 0 0 0 3px rgba(243, 206, 114, 0.35);
+    --color-btn-outline-counter-bg: rgba(243, 206, 114, 0.12);
+
+    /* Header and search */
+    --color-header-bg: var(--gh-header-bg);
+    --color-header-text: var(--gh-ivory);
+    --color-header-logo: var(--gh-ivory);
+    --color-header-divider: var(--gh-border-strong);
+    --color-header-search-bg: var(--gh-surface-raised);
+    --color-header-search-border: var(--gh-border-strong);
+    --color-search-keyword-hl: rgba(223, 176, 70, 0.4);
+    --color-input-disabled-bg: rgba(200, 190, 170, 0.06);
+
+    /* Mobile menu (SelectMenu) and menus */
+    --color-select-menu-backdrop-border: var(--gh-border-strong);
+    --color-select-menu-tap-highlight: rgba(223, 176, 70, 0.2);
+    --color-select-menu-tap-focus-bg: rgba(223, 176, 70, 0.22);
+    --color-menu-bg-active: var(--gh-surface-raised);
+  }
+
+  /* -------------------------------------------------------------------------
+   * Page, background art, and the content panel
+   * ----------------------------------------------------------------------- */
+
+  /* The root carries the page color; body stays transparent so the fixed
+     background art (z-index: -1) paints above the root background. */
+  html[data-color-mode] {
+    color-scheme: dark;
+    background-color: var(--gh-page-bg);
+    color: var(--gh-prose);
+    accent-color: var(--gh-gold-strong);
+    scrollbar-color: rgba(206, 162, 76, 0.45) #0b0a09;
+  }
+
+  body {
+    background-color: transparent;
+    color: var(--gh-prose);
+    font-family: var(--gh-font-sans);
+    font-size: 17px;
+    line-height: 1.6;
+    text-align: left;
+  }
+
+  /* A fixed pseudo-element instead of background-attachment: fixed, which
+     iOS ignores. */
+  body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
+    background:
+      linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.85)),
+      url("../images/gnoll-illustration-darkened-bottom-w1920-q60.webp") center top / cover no-repeat var(--gh-page-bg);
+  }
+
+  ::selection {
+    background-color: rgba(223, 176, 70, 0.32);
+    color: var(--gh-ivory);
+  }
+
+  /* Phones and tablets: the panel runs edge to edge. */
+  #wiki-wrapper {
+    --gh-panel-pad: 8px;
+    margin: 0;
+    padding: 0 var(--gh-panel-pad) 24px;
+    background-color: var(--gh-surface);
+    border: 0 solid var(--gh-border);
+    border-bottom-width: 1px;
+    border-radius: 0;
+    box-shadow: 0 16px 38px rgba(0, 0, 0, 0.62), 0 2px 8px rgba(0, 0, 0, 0.45);
+  }
+
+  #wiki-wrapper > #error {
+    padding-top: 24px;
+  }
+
+  #wiki-wrapper #footer {
+    margin-bottom: 0;
+    color: var(--gh-muted);
+    font-size: 15px;
+  }
+
+  #page-info-toggle {
+    cursor: pointer;
+  }
+
+  /* -------------------------------------------------------------------------
+   * Headings
+   * ----------------------------------------------------------------------- */
+
+  h1,
+  .header-title,
+  .markdown-body h1,
+  .markdown-body h2,
+  .markdown-body h3 {
+    font-family: var(--gh-font-display);
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
+  }
+
+  h1,
+  .header-title,
+  .markdown-body h1 {
+    color: var(--gh-gold);
+  }
+
+  #wiki-wrapper .header-title {
+    font-size: clamp(1.75rem, 1.2rem + 2vw, 2.5rem);
+  }
+
+  .markdown-body h1 {
+    border-bottom-color: var(--gh-border);
+  }
+
+  .markdown-body h2,
+  .markdown-body h3 {
+    color: var(--gh-ivory);
+  }
+
+  /* The h2 rule: 2px of gold fading out at both ends. */
+  .markdown-body h2 {
+    padding-bottom: 0.35em;
+    border-bottom: 0;
+  }
+
+  .markdown-body h2::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 2px;
+    border-radius: 2px;
+    background: linear-gradient(90deg, transparent, var(--gh-gold-strong), transparent);
+    pointer-events: none;
+  }
+
+  .markdown-body h4,
+  .markdown-body h5,
+  .markdown-body h6 {
+    font-family: var(--gh-font-sans);
+    font-weight: 700;
+    color: var(--gh-ivory);
+  }
+
+  /* Gollum's black link icon beside headings, tinted ivory. */
+  h1 .anchor::before,
+  h2 .anchor::before,
+  h3 .anchor::before,
+  h4 .anchor::before,
+  h5 .anchor::before,
+  h6 .anchor::before {
+    filter: invert(0.92) sepia(0.35);
+  }
+
+  /* -------------------------------------------------------------------------
+   * Links and focus
+   * ----------------------------------------------------------------------- */
+
+  .markdown-body a,
+  .markdown-body a:visited,
+  .breadcrumb a,
+  .breadcrumb a:visited,
+  #footer a,
+  #footer a:visited,
+  #wiki-wrapper .search-results a,
+  #wiki-wrapper .Box-row a:not(.btn) {
+    color: var(--gh-gold);
+    text-decoration: none;
+  }
+
+  .markdown-body a:hover,
+  .breadcrumb a:hover,
+  #footer a:hover,
+  #wiki-wrapper .search-results a:hover,
+  #wiki-wrapper .Box-row a:not(.btn):hover {
+    color: var(--gh-ivory);
+    text-decoration: underline;
+  }
+
+  /* Links to missing pages keep Primer's danger color. */
+  .markdown-body a.absent,
+  .markdown-body a.absent:visited {
+    color: var(--color-danger-fg);
+  }
+
+  a:focus-visible,
+  button:focus-visible,
+  summary:focus-visible,
+  [role=button]:focus-visible,
+  input[type=checkbox]:focus-visible,
+  .btn:focus-visible,
+  .btn-primary:focus-visible {
+    outline: 2px solid var(--gh-gold);
+    outline-offset: 2px;
+    box-shadow: none;
+  }
+
+  /* -------------------------------------------------------------------------
+   * Navigation bar
+   * ----------------------------------------------------------------------- */
+
+  #head {
+    margin-inline: calc(-1 * var(--gh-panel-pad));
+    padding-inline: var(--gh-panel-pad);
+    background-color: var(--gh-header-bg);
+    border-bottom: 1px solid var(--gh-border-strong);
+  }
+
+  nav.actions {
+    background-color: var(--gh-header-bg);
+  }
+
+  /* #head draws the bar's single bottom border; Primer's border-bottom
+     utility on the nav is !important, so this is too. */
+  #head > nav.actions.border-bottom {
+    border-bottom-color: transparent !important;
+  }
+
+  nav.actions .btn {
+    font-weight: 700;
+  }
+
+  nav.actions .btn-sm {
+    font-size: 14px;
+  }
+
+  nav.actions .btn:hover,
+  nav.actions [open] > .btn {
+    color: var(--gh-gold);
+  }
+
+  #search-query {
+    font-size: 14px;
+    color: var(--gh-ivory);
+    caret-color: var(--gh-ivory);
+    background-color: var(--gh-surface-raised);
+    border-color: var(--gh-border-strong);
+  }
+
+  #search-query::placeholder {
+    color: var(--gh-muted);
+    opacity: 1;
+  }
+
+  #search-query:focus,
+  #search-query:focus-visible {
+    border-color: var(--gh-gold);
+    outline: 2px solid var(--gh-gold);
+    outline-offset: 1px;
+    box-shadow: 0 0 0 4px rgba(243, 206, 114, 0.2);
+  }
+
+  .breadcrumb {
+    color: var(--gh-muted);
+    font-size: 15px;
+  }
+
+  .breadcrumb-item::after {
+    border-right-color: var(--gh-border-strong);
+  }
+
+  /* -------------------------------------------------------------------------
+   * Page content
+   * ----------------------------------------------------------------------- */
+
+  .markdown-body {
+    font-family: var(--gh-font-sans);
+    font-size: inherit;
+    line-height: 1.6;
+    color: var(--gh-prose);
+  }
+
+  /* Block quotes, including the ingress and caution quotes */
+  .markdown-body blockquote {
+    padding: 0.75em 1.1em;
+    color: var(--gh-prose);
+    background-color: var(--gh-quote-bg);
+    border-left: 3px solid var(--gh-gold);
+    border-radius: 0 8px 8px 0;
+  }
+
+  /* Tables scroll horizontally inside their container, as in Primer. */
+  .markdown-body table {
+    display: block;
+    overflow: auto;
+    border-color: var(--gh-border);
+  }
+
+  .markdown-body table tfoot {
+    border-top-color: var(--gh-border);
+  }
+
+  .markdown-body table th,
+  .markdown-body table td {
+    border-color: var(--gh-border);
+  }
+
+  .markdown-body table th {
+    font-family: var(--gh-font-sans);
+    font-weight: 700;
+    color: var(--gh-gold);
+    background-color: var(--gh-th-bg);
+  }
+
+  .markdown-body table tr {
+    background-color: transparent;
+  }
+
+  .markdown-body table tr:nth-child(2n) {
+    background-color: var(--gh-row-alt);
+  }
+
+  /* Code blocks */
+  .markdown-body pre,
+  .markdown-body pre.highlight {
+    padding: 12px 14px;
+    font-family: var(--gh-font-mono);
+    font-size: 0.88em;
+    line-height: 1.5;
+    color: var(--gh-prose);
+    background-color: var(--gh-code-bg);
+    border: 1px solid var(--gh-border);
+    border-radius: 8px;
+  }
+
+  /* Inline code */
+  .markdown-body code,
+  .markdown-body tt {
+    padding: 0.15em 0.4em;
+    font-family: var(--gh-font-mono);
+    font-size: 0.88em;
+    color: var(--gh-ivory);
+    background-color: rgba(255, 255, 255, 0.08);
+    border-radius: 4px;
+  }
+
+  .markdown-body pre code,
+  .markdown-body pre tt {
+    padding: 0;
+    font-size: inherit;
+    color: inherit;
+    background-color: transparent;
+    border-radius: 0;
+  }
+
+  /* Rouge syntax tokens, colored with Primer's dark prettylights palette */
+  .markdown-body .highlight .err {
+    color: inherit;
+    background-color: transparent;
+  }
+
+  .markdown-body .highlight .c,
+  .markdown-body .highlight .ch,
+  .markdown-body .highlight .cm,
+  .markdown-body .highlight .c1,
+  .markdown-body .highlight .cs,
+  .markdown-body .highlight .cpf,
+  .markdown-body .highlight .gc,
+  .markdown-body .highlight .gg,
+  .markdown-body .highlight .go {
+    color: var(--color-prettylights-syntax-comment);
+    background-color: transparent;
+  }
+
+  .markdown-body .highlight .gp {
+    color: var(--gh-muted);
+  }
+
+  .markdown-body .highlight .k,
+  .markdown-body .highlight .kc,
+  .markdown-body .highlight .kd,
+  .markdown-body .highlight .kn,
+  .markdown-body .highlight .kp,
+  .markdown-body .highlight .kr,
+  .markdown-body .highlight .kt,
+  .markdown-body .highlight .kv,
+  .markdown-body .highlight .o,
+  .markdown-body .highlight .ow,
+  .markdown-body .highlight .cp {
+    color: var(--color-prettylights-syntax-keyword);
+  }
+
+  .markdown-body .highlight .m,
+  .markdown-body .highlight .mb,
+  .markdown-body .highlight .mf,
+  .markdown-body .highlight .mh,
+  .markdown-body .highlight .mi,
+  .markdown-body .highlight .mo,
+  .markdown-body .highlight .mx,
+  .markdown-body .highlight .il,
+  .markdown-body .highlight .na,
+  .markdown-body .highlight .nb,
+  .markdown-body .highlight .no,
+  .markdown-body .highlight .ni,
+  .markdown-body .highlight .bp,
+  .markdown-body .highlight .ss {
+    color: var(--color-prettylights-syntax-constant);
+  }
+
+  .markdown-body .highlight .s,
+  .markdown-body .highlight .sa,
+  .markdown-body .highlight .sb,
+  .markdown-body .highlight .sc,
+  .markdown-body .highlight .sd,
+  .markdown-body .highlight .s2,
+  .markdown-body .highlight .se,
+  .markdown-body .highlight .sh,
+  .markdown-body .highlight .si,
+  .markdown-body .highlight .sx,
+  .markdown-body .highlight .s1,
+  .markdown-body .highlight .dl {
+    color: var(--color-prettylights-syntax-string);
+  }
+
+  .markdown-body .highlight .sr {
+    color: var(--color-prettylights-syntax-string-regexp);
+  }
+
+  .markdown-body .highlight .nv,
+  .markdown-body .highlight .vc,
+  .markdown-body .highlight .vg,
+  .markdown-body .highlight .vi,
+  .markdown-body .highlight .vm {
+    color: var(--color-prettylights-syntax-variable);
+  }
+
+  .markdown-body .highlight .nc,
+  .markdown-body .highlight .nd,
+  .markdown-body .highlight .ne,
+  .markdown-body .highlight .nf,
+  .markdown-body .highlight .fm,
+  .markdown-body .highlight .gu {
+    color: var(--color-prettylights-syntax-entity);
+  }
+
+  .markdown-body .highlight .nf {
+    font-weight: normal;
+  }
+
+  .markdown-body .highlight .nt {
+    color: var(--color-prettylights-syntax-entity-tag);
+  }
+
+  .markdown-body .highlight .nn {
+    color: var(--gh-prose);
+  }
+
+  .markdown-body .highlight .gh {
+    color: var(--color-prettylights-syntax-constant);
+    font-weight: bold;
+  }
+
+  .markdown-body .highlight .gd,
+  .markdown-body .highlight .gd .x {
+    color: var(--color-prettylights-syntax-markup-deleted-text);
+    background-color: var(--color-prettylights-syntax-markup-deleted-bg);
+  }
+
+  .markdown-body .highlight .gi,
+  .markdown-body .highlight .gi .x {
+    color: var(--color-prettylights-syntax-markup-inserted-text);
+    background-color: var(--color-prettylights-syntax-markup-inserted-bg);
+  }
+
+  .markdown-body .highlight .gr,
+  .markdown-body .highlight .gt {
+    color: var(--color-prettylights-syntax-brackethighlighter-unmatched);
+  }
+
+  .markdown-body .highlight .w {
+    color: inherit;
+  }
+
+  .markdown-body hr {
+    height: 2px;
+    margin: 28px 0;
+    background-color: transparent;
+    background-image: linear-gradient(90deg, transparent, var(--gh-gold-strong), transparent);
+    border: 0;
+  }
+
+  .markdown-body kbd {
+    padding: 2px 6px;
+    font: 0.82em/1.3 var(--gh-font-mono);
+    color: var(--gh-ivory);
+    background-color: var(--gh-surface-raised);
+    border: 1px solid rgba(212, 168, 83, 0.45);
+    border-bottom-color: rgba(212, 168, 83, 0.62);
+    border-radius: 6px;
+    box-shadow: inset 0 -1px 0 rgba(212, 168, 83, 0.45), 0 1px 2px rgba(0, 0, 0, 0.6);
+  }
+
+  .markdown-body .katex {
+    color: inherit;
+  }
+
+  /* Table of contents ([[_TOC_]] and the TOC sidebar) */
+  .markdown-body .toc {
+    background-color: var(--gh-surface-raised);
+    border-color: var(--gh-border);
+  }
+
+  .markdown-body .toc-title {
+    color: var(--gh-muted);
+    border-bottom-color: var(--gh-border);
+  }
+
+  .flash .octicon {
+    fill: currentColor;
+  }
+
+  .dotted-spinner {
+    border-left-color: var(--gh-gold);
+    border-bottom-color: var(--gh-gold);
+  }
+
+  /* -------------------------------------------------------------------------
+   * Sidebar, header, footer, and boxes
+   * ----------------------------------------------------------------------- */
+
+  .Box,
+  #wiki-header {
+    background-color: var(--gh-surface-solid);
+    border: 1px solid var(--gh-border);
+    border-radius: 10px;
+  }
+
+  #wiki-header {
+    margin-bottom: 16px;
+    padding: 0 16px;
+  }
+
+  #sidebar-content {
+    font-size: 16px;
+  }
+
+  #sidebar-content h2 {
+    font-size: 1.3em;
+  }
+
+  #sidebar-content h3 {
+    font-size: 1.1em;
+  }
+
+  #footer-content {
+    font-size: 15px;
+    color: var(--gh-muted);
+  }
+}
+
+/* Desktop: the panel floats above the background art. */
+@media screen and (min-width: 1012px) {
+  #wiki-wrapper {
+    --gh-panel-pad: 32px;
+    margin: 32px 0 48px;
+    padding-bottom: 32px;
+    border-width: 1px;
+    border-radius: 14px;
+  }
+
+  #head {
+    padding-bottom: 12px;
+    border-radius: 13px 13px 0 0;
+  }
+}
+
+/* Phones: the sidebar stacks below the page, set apart by a gap and a shadow. */
+@media screen and (max-width: 767px) {
+  #wiki-sidebar {
+    margin-top: 50px;
+    box-shadow: 0px 0px 2px 2px rgb(0 0 0 / 50%);
+  }
+}
+
+/* Unconditional, so printed code wraps too. */
+/* Force word wrap on code blocks to prevent horizontal overflow */
+pre, code {
+  white-space: pre-wrap !important;       /* CSS 3 */
+  white-space: -moz-pre-wrap !important;  /* Mozilla */
+  white-space: -pre-wrap !important;      /* Opera 4-6 */
+  white-space: -o-pre-wrap !important;    /* Opera 7 */
+  word-wrap: break-word !important;       /* IE 5.5+ */
+  overflow-wrap: break-word !important;
+}
+
+/* High-contrast modes: no background art; system colors apply. */
+@media (forced-colors: active) {
+  body::before {
+    display: none;
+  }
+}

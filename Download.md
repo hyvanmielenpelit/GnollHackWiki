@@ -1,3 +1,7 @@
+---
+description: "Downloads for GnollHack: get the game for Android, iOS, Linux, macOS, Steam Deck, and Windows from Google Play, the App Store, Steam, or GitHub."
+---
+
 ## Android
 
 <a href="https://play.google.com/store/apps/details?id=com.soundmindentertainment.gnollhack">![Get it on Google Play](/uploads/Download/google-play-q90.webp)</a>
