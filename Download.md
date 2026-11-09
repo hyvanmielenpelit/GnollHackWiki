@@ -1,5 +1,5 @@
 ---
-description: "Downloads for GnollHack: get the game for Android, iOS, Linux, macOS, Steam Deck, and Windows from Google Play, the App Store, Steam, or GitHub."
+description: "Downloads for GnollHack: Get the game for Android, iOS, Linux, macOS, Steam Deck, and Windows from Google Play, the App Store, Steam, or GitHub."
 ---
 
 ## Android

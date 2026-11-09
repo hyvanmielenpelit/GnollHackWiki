@@ -19,7 +19,7 @@ When editing or creating pages for the GnollHack Wiki, follow these conventions.
 - **Meta Description Overrides**: The wiki chooses each page's search-engine description (the meta description) from the page's ingress, first paragraph, or opening list. A page can set its own instead with a `description:` front matter key.
   - **When**: Only when the chosen text does not describe the page, for example on a page of parallel sections with no introduction. Prefer fixing the page itself: add an ingress or write a better first paragraph.
   - **Syntax**: The very first lines of the file, holding a single `description:` key, always double-quoted on one line. Never use a `>` or `|` block scalar: it fails to parse. Write plain text; `&` is fine, Markdown and HTML are not.
-  - **Content**: At most 160 characters, about the page's subject, in US English.
+  - **Content**: At most 160 characters, about the page's subject, in US English. Start the text after a colon with a capital letter, as in the example below (section 6).
   - **No other keys**: Any other key renders as a visible metadata table at the top of the page, and `title:` loses to the page's H1 anyway.
   - **Line endings**: CRLF in the working tree is fine, because Git stores LF; front matter stored with CRLF in the index would fail to parse.
   - **Gnoll Overseer**: The advisor reads the raw `.md` files and does not strip front matter, so it sees the override as part of the page.
@@ -27,7 +27,7 @@ When editing or creating pages for the GnollHack Wiki, follow these conventions.
 
     ```
     ---
-    description: "Downloads for GnollHack: get the game for Android, iOS, Linux, macOS, Steam Deck, and Windows from Google Play, the App Store, Steam, or GitHub."
+    description: "Downloads for GnollHack: Get the game for Android, iOS, Linux, macOS, Steam Deck, and Windows from Google Play, the App Store, Steam, or GitHub."
     ---
     ```
 
@@ -108,8 +108,8 @@ When editing or creating pages for the GnollHack Wiki, follow these conventions.
 - **Grammar and Capitalization**: Write correct US English grammar: subject-verb agreement, complete and unambiguous lists, and no comma before "but" when it joins two verbs that share one subject. Start every sentence, and the text in every table cell, with a capital letter.
   - A name whose own styling starts with a lowercase letter keeps that styling, for example iNethack2, xNetHack, itch.io, and nethack.app. A table cell that starts with such a name, or with a link whose text is such a name, is correct as it is.
   - In running text, rephrase a sentence so that such a name does not start it: write "WebHack and the online mode of nethack.app keep their games", not "nethack.app keeps its games".
-  - When a colon follows a label and the text after it defines, explains, or lists what the label names, start that text with a capital letter: a term and its definition (`**Experiment**: A new project…`), a status and its reason (`🔴 Unmaintained: Last updated in 2021.`), or a link and the platforms it serves (`[NAO](…): Web browsers`). A name styled in lowercase, such as macOS or iPhone, keeps its styling there too.
-  - Inside a running sentence, write the word after a colon in lowercase, unless it is a proper name or the colon introduces two or more complete sentences.
+  - Prefer a capital letter after a colon, everywhere: in running text, in list items and table cells, in headings, and in `description:` front matter. This covers a term and its definition (`**Experiment**: A new project…`), a status and its reason (`🔴 Unmaintained: Last updated in 2021.`), a link and the platforms it serves (`[NAO](…): Web browsers`), a subject and a clause about it (`Downloads for GnollHack: Get the game…`), and a sentence that a colon continues (`One thing matters most: Keep your pet close.`). A name styled in lowercase, such as macOS or iPhone, keeps its styling there too.
+  - The one exception is a short inline series of common nouns that finishes the sentence, such as "It resists three elements: fire, cold, and shock." Keep that series in lowercase.
   - Before finishing, read every sentence and table cell you wrote or changed, and fix any grammar or capitalization error you notice elsewhere on the same page. Fixing an error means fixing that error: keep the rest of the sentence, and the writer's voice, as they are. Do not rewrite a human-written page into the house register while correcting it.
 
 ## 7. Game Stats Conventions
