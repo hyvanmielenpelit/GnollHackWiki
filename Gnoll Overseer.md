@@ -21,6 +21,10 @@ The Overseer needs a [[GnollHack Account]] and an internet connection. It is fre
 3. [[/Guides/Advanced Guide to Gnoll Overseer]] — The tools, spoiler policy, chat features, and web settings in depth.
 4. [[/Guides/Chat Confidentiality Modes in Gnoll Overseer]] — Standard, Confidential, and Incognito chats, and what each one protects.
 
+## 🆚 Comparison
+
+- [[/Guides/What Makes Gnoll Overseer Special]] — What sets the Overseer apart from other AI game assistants, and where they are ahead.
+
 ## 🏗️ Technical Background
 
 - [[/Guides/Technological Overview of Gnoll Overseer]] — The architecture, frameworks, and tools behind the Overseer service.
