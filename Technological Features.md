@@ -41,3 +41,10 @@ GnollHack runs on two or three threads, depending on the operating system, not c
 The [[Gnoll Overseer]] is an optional full-stack AI advisor built on ASP.NET Core (Web API + SignalR) and Angular. Its tools work on live game snapshots sent by the client, an in-memory C lexer and source index for both GnollHack and NetHack, the exact monster, item, and artifact definitions, and Lucene.NET indexes of the wikis. Spoiler guardrails are configurable, and chats can use encrypted or ephemeral modes. See [[/Guides/Technological Overview of Gnoll Overseer]].
 
 Because one wrong answer can end a permadeath game, [[GnollBench]] tests candidate models with the same prompt and tools the live Overseer uses. A panel of AI graders from several providers scores the answers, an automated verifier checks their claims against the source code, and strict comparability rules apply to intelligence, latency, and cost. See [[/Guides/Technological Overview of GnollBench]].
+
+## 📖 Learn More
+
+- [[/Guides/GnollHack, Gnoll Overseer, and GnollBench for Software Engineers]] — A technical overview of how GnollHack, the Gnoll Overseer, and GnollBench are built and tested.
+- [[/Guides/Technological Overview of Gnoll Overseer]] — Architecture and tools of the Gnoll Overseer service.
+- [[/Guides/Technological Overview of GnollBench]] — Scoring model, grading panel, and statistics of GnollBench.
+- [[/Development/Avalonia Port]] — How the modern .NET MAUI client runs on Linux, the Steam Deck, and macOS via Avalonia UI.
