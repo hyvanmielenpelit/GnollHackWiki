@@ -76,7 +76,9 @@ is dark only; there is no light mode.
   the page root and `body` (the root carries the page color, `body` stays transparent),
   `body::before` (the fixed background art; `background-attachment: fixed` is ignored on
   iOS), `#wiki-wrapper` (the content panel), headings and the gold `h2` rule, the heading
-  anchor icon (`filter`), links and focus outlines, `#head` and `nav.actions` (the navigation
+  anchor icon (`filter`; in page text a masked block, at most 16px, muted and gold on
+  hover, centered in the gutter left of the heading, whose width is `--gh-heading-gutter`:
+  16px below 1012px, 32px from there up), links and focus outlines, `#head` and `nav.actions` (the navigation
   bar), the phone menu button (`summary.btn-invisible`) and its masked icon, the phone menu
   (`.SelectMenu` section labels, current page name, items), `#search-query` (a recessed
   field with a magnifier icon), `.breadcrumb`, block quotes, tables (`th`, even rows,
@@ -163,8 +165,9 @@ rules inside it.
   scroll; wide tables scroll inside their container.
 - Desktop browser emulation reproduces neither iOS Safari's zoom on focused fields nor iOS
   font fallback; check those on a real iPhone.
-- The `@media (forced-colors: active)` block drops the background art and keeps the menu
-  button's masked icon in `ButtonText`; system colors apply.
+- The `@media (forced-colors: active)` block drops the background art, keeps the menu
+  button's masked icon in `ButtonText` and the heading link icon in `LinkText`; system
+  colors apply.
 
 ## 8. Font Subset
 
