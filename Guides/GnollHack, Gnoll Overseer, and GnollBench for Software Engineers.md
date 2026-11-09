@@ -1,166 +1,179 @@
 # Shipping a Cross-Platform Roguelike and Its AI Advisor with .NET MAUI, Avalonia UI, and Frontier AI Models
 
-*How a Finnish non-profit wrapped a 500,000-line C game engine in .NET MAUI and Avalonia UI, built a free in-game AI advisor backed by 31 tools, and created a multi-judge benchmark to keep its advice honest.*
+> 👉 **How a Finnish nonprofit wrapped a 500,000-line C game engine in .NET MAUI and Avalonia UI, built a free in-game AI advisor with 31 tools, and created a multi-judge benchmark to keep its advice honest.**
 
-**By Sound Mind Games (Hyvän mielen pelit ry)** · 8 min read
+**By Sound Mind Games (Hyvän mielen pelit ry)**
 
-![GnollHack Windows Client](/uploads/Comparison%20of%20NetHack%20GUIs/gnollhack-windows-q85.webp)
-*GnollHack running on Windows. The same .NET MAUI and C# codebase runs on Android, iOS, Linux, macOS, and the Steam Deck.*
+![GnollHack on a desktop, a tablet, and a phone](/uploads/Guides/GnollHack,%20Gnoll%20Overseer,%20and%20GnollBench%20for%20Software%20Engineers/gnollhack-cross-platform-q85.webp)
+*GnollHack on a desktop, a tablet, and a phone. One C engine and one C# codebase serve Android, iOS, Linux, macOS, Windows, and the Steam Deck.*
 
-> **At a glance:** [GnollHack](https://gnollhack.com/) is a free, open-source graphical remaster and variant of the 1987 roguelike classic [NetHack](https://www.nethack.org/). Instead of Unity or Unreal, it runs on **.NET MAUI**, **Avalonia UI**, **SkiaSharp**, and **FMOD** over a 500,000-line C99 core. It also ships with the **[[/Gnoll Overseer]]**, a free in-game advisor powered by frontier AI models, and **[[/GnollBench]]**, a domain-specific AI benchmark that grades models against the game's C source code.
+In NetHack, one wrong move can end a character that took days to build. Eat the wrong corpse, touch the wrong monster bare-handed, or pray too soon, and the run is over. There is no reload. So when we put an AI advisor inside our NetHack-based game, we had to answer an uncomfortable question: How do you know the advice is right?
 
-When most developers think of [.NET MAUI](https://github.com/dotnet/maui) and [Avalonia UI](https://avaloniaui.net/), they think of enterprise forms and business software. When game developers start a cross-platform 2D project, they almost always reach for Unity, Godot, or Unreal.
+This is the story of how we built that advisor, how we test it, and the unusual stack it runs on. When most developers think of [.NET MAUI](https://github.com/dotnet/maui) and [Avalonia UI](https://avaloniaui.net/), they think of enterprise forms and business software. When game developers start a cross-platform 2D project, they usually reach for Unity, Godot, or Unreal.
 
-For the past seven years, our team at [[Sound Mind Games|/Developer]] (Hyvän mielen pelit ry, a Finnish non-profit working in gaming and mental health) took a different route. We built **GnollHack**, a graphical remaster and expansion of NetHack, on top of .NET MAUI, Avalonia UI, and SkiaSharp, and shipped it on [Steam](https://store.steampowered.com/app/3558190/GnollHack/?utm_source=wiki) (Windows, Linux, macOS, and Steam Deck), [Google Play](https://play.google.com/store/apps/details?id=com.soundmindentertainment.gnollhack), and the [App Store](https://apps.apple.com/app/gnollhack/id1626979951).
+For the past seven years, our team at [[Sound Mind Games|/Developer]] (Hyvän mielen pelit ry, a Finnish nonprofit working on gaming and mental health) took a different route. We built [GnollHack](https://gnollhack.com/), a free, open-source graphical remaster and expansion of the 1987 roguelike [NetHack](https://www.nethack.org/), on .NET MAUI, Avalonia UI, and SkiaSharp. It ships on [Steam](https://store.steampowered.com/app/3558190/GnollHack/?utm_source=wiki) (Windows, Linux, macOS, and Steam Deck), [Google Play](https://play.google.com/store/apps/details?id=com.soundmindentertainment.gnollhack), and the [App Store](https://apps.apple.com/app/gnollhack/id1626979951).
 
-Along the way, we faced a classic design problem: NetHack is famous for having decades of hidden rules, and looking up ten wiki tabs mid-fight breaks the flow of the game, especially on mobile or a handheld. To solve that, we built the **[[/Gnoll Overseer]]**, an opt-in AI advisor inside the game that gives players free access to frontier models from Anthropic, Google, and OpenAI. And because a single confident wrong answer in a permadeath game can kill a character that took days to build, we engineered **[[/GnollBench]]**, an evaluation system that tests models under the live product's exact prompt and tools.
+NetHack is famous for decades of hidden rules, and looking things up in ten wiki tabs mid-fight breaks the flow of the game, especially on a phone or a handheld. So we built the **[[/Gnoll Overseer]]**, an opt-in AI advisor inside the game that gives players free access to frontier models from Anthropic, Google, and OpenAI. Because a single confident wrong answer can kill a character, we also built **[[/GnollBench]]**, a benchmark that tests models under the live product's own prompt and tools.
 
-Here is how the architecture fits together, how the benchmark works, and how we used coding agents to build the AI stack while keeping the game itself human-made.
+Below is how the architecture fits together, how the benchmark scores answers, and how we use coding agents to build the AI stack while the game itself stays human-made.
 
-## Why Build a Game in .NET MAUI and Avalonia UI?
+## 🐺 Why Build a Game in .NET MAUI and Avalonia UI?
 
-NetHack was first released in 1987. Its C codebase models thousands of item, monster, and dungeon interactions. Rewriting those rules in C# would have meant years of introducing subtle bugs into mechanics that players have relied on for decades.
+NetHack's C codebase models thousands of interactions between items, monsters, and dungeon features. Rewriting those rules in C# would have meant years of introducing subtle bugs into mechanics that players have relied on for decades.
 
-Instead, we kept the C99 core intact, extended it for GnollHack, and compiled it as a native library on every platform (`gnollhackwin.dll`, `libgnollhackdroid.so`, `libgnollhackios.a`, `libgnollhacklinux.so`, and `libgnollhackmac.dylib`). A shared C# layer communicates with the C engine through P/Invoke.
+Instead, we kept the C99 core, extended it for GnollHack, and compiled it as a native library on every platform (`gnollhackwin.dll`, `libgnollhackdroid.so`, `libgnollhackios.a`, `libgnollhacklinux.so`, and `libgnollhackmac.dylib`). A shared C# layer talks to the engine through P/Invoke.
 
-Why use .NET MAUI for the frontend instead of a traditional game engine?
+We chose .NET MAUI over a game engine for three reasons:
 
-1. **A traditional roguelike is heavily UI-driven.** Inventory screens, spell mixing menus, item comparison tables, message logs, settings, and embedded web views take up as much screen time as the dungeon map. .NET MAUI provides mature layouts, text rendering, and native controls out of the box.
-2. **SkiaSharp and FMOD handle the game loop.** [SkiaSharp](https://github.com/mono/SkiaSharp) draws the 2D dungeon canvas at 60 to 90 FPS with GPU acceleration, while [FMOD](https://www.fmod.com/) plays spatial audio, music, and voiceovers. The C game engine runs on its own background thread, separate from the .NET MAUI UI thread and the Skia rendering thread, so turn calculations never block animations.
-3. **Avalonia UI closes the desktop gap.** .NET MAUI targets Android, iOS, and Windows (via WinUI 3), but it has no official Linux backend, and Windows WinUI 3 apps do not run under Valve's Proton compatibility layer on the Steam Deck. Rather than maintaining a second UI codebase, our [[/Development/Avalonia Port]] compiles the exact same `GnollHackM.csproj` and XAML pages with `-p:GnhAvalonia=true` on top of `Avalonia.Controls.Maui` and .NET 11. That single MSBuild property brings native builds to Linux, the Steam Deck, and Apple Silicon macOS.
+1. **A traditional roguelike is mostly UI.** Inventory screens, spell menus, item comparison tables, message logs, settings, and embedded web views take up as much screen time as the dungeon map. .NET MAUI provides mature layouts, text rendering, and native controls out of the box.
+2. **SkiaSharp and FMOD cover the game parts.** [SkiaSharp](https://github.com/mono/SkiaSharp) draws the 2D dungeon with GPU acceleration at 60 FPS or more (up to 90 FPS in the Avalonia builds), and [FMOD](https://www.fmod.com/) plays sound effects, music, and voiceovers. The C engine runs on its own thread, so turn calculations never block the UI or the animations.
+3. **Avalonia UI closes the desktop gap.** .NET MAUI targets Android, iOS, and Windows (through WinUI 3), but it has no official Linux backend, and WinUI 3 apps do not run under Valve's Proton compatibility layer on the Steam Deck. Instead of maintaining a second UI codebase, our [[/Development/Avalonia Port]] compiles the same `GnollHackM.csproj` and XAML pages with `-p:GnhAvalonia=true` on top of `Avalonia.Controls.Maui` and .NET 11, while the Android, iOS, and Windows clients stay on .NET 10. That one MSBuild property gives us native builds for Linux, the Steam Deck, and Apple Silicon Macs, rendering through OpenGL on Linux, Metal on macOS, and Direct3D 11 through ANGLE on Windows.
 
-| Metric / Component | GnollHack Implementation |
-| :--- | :--- |
-| **Native Game Engine** | ~500,000 lines of C99 (forked from NetHack 3.6.2 in July 2019) |
-| **Managed Client Code** | ~180,000 lines of C# and XAML in a single .NET MAUI project |
-| **UI Backends** | .NET MAUI (Android, iOS, WinUI 3) and `Avalonia.Controls.Maui` (Linux, macOS, Steam Deck) |
-| **Graphics & Audio** | Over 23,000 hand-drawn 64×96 base tiles via SkiaSharp; over 1,100 sounds, 37 music tracks, and over 5,000 voiceover lines (96 voice actors in 111 roles) via FMOD |
-| **Scale & Distribution** | Over 11,000 commits; ~2,000 monthly players; 4.6★ on Google Play; 100% free with no ads or microtransactions |
+GnollHack in numbers:
 
-![GnollHack on Android](/uploads/Improved%20Graphical%20Interface/android-screenshot.webp)
-*GnollHack on Android. All 23,000+ tiles and 5,000+ voiceover lines in the game are created by human artists and voice actors.*
+- **Engine:** About 500,000 lines of C99, forked from NetHack 3.6.2 in July 2019.
+- **Client:** About 180,000 lines of C# and XAML in one shared codebase.
+- **UI backends:** .NET MAUI for Android, iOS, and Windows; `Avalonia.Controls.Maui` for Linux, macOS, and the Steam Deck.
+- **Content:** Over 23,000 64×96 base tiles, over 1,100 sound effects, 37 music tracks, and over 5,000 voiceover lines recorded by 96 voice actors in 111 roles. All of it was made by artists, composers, and voice actors, not by generative AI.
+- **Project:** Over 11,000 commits, about 2,000 monthly players (most of them on mobile), and a 4.6★ rating on Google Play. The game is free, with no ads or microtransactions.
 
-## Gnoll Overseer: Free Frontier AI Inside a Game Client
+## 🧙 Gnoll Overseer: Free Frontier AI Inside a Game Client
 
-In a typical playthrough of 50,000 turns, a player will run into situations where three or four obscure mechanics interact at once: monster resistances, character intrinsics, cursed gear, and prayer timeouts. Reading separate wiki articles for each piece is slow.
+A typical GnollHack playthrough lasts about 50,000 turns over several days. Along the way, a player runs into situations where three or four obscure mechanics interact at once: monster resistances, character intrinsics, cursed gear, and prayer timeouts. Reading a separate wiki article for each one is slow.
 
-![Gnoll Overseer](/uploads/Guides/Introduction%20to%20Gnoll%20Overseer/gnoll-overseer-avatar-frame-256x256-q85.webp)
+![The Gnoll Overseer answering a question in the game](/uploads/Guides/GnollHack,%20Gnoll%20Overseer,%20and%20GnollBench%20for%20Software%20Engineers/gnoll-overseer-chat-q85.webp)
+*The Gnoll Overseer answering a question about boots. The header of the answer shows the model and its thinking level.*
 
-The **[[/Gnoll Overseer]]** is an optional advisor embedded in the game client (and available on the web at [overseer.gnollhack.com](https://overseer.gnollhack.com)). What makes it unusual in gaming is both its cost model and its architecture:
+The **[[/Gnoll Overseer]]** is an optional advisor built into the game client, and it is also available on the web at [overseer.gnollhack.com](https://overseer.gnollhack.com). What sets it apart from most in-game assistants is both its cost model and its architecture:
 
-- **Free frontier models, plus Bring Your Own Key (BYOK):** Players get free access to system models from OpenAI, Google, and Anthropic (such as GPT-6 Luna, Gemini 4 Argon, and Claude Sonnet 5.5), or they can add their own API key (encrypted at rest with AES-256-GCM) to choose from a catalog of 30 model configurations.
-- **Live game snapshots from the C engine:** When a player opens the Overseer during a run, the C engine writes a plain-text snapshot of the game state: character attributes, equipment, inventory with container contents, the visible dungeon map with a coordinate legend, recent messages, discoveries, and conducts.
-- **31 specialized tools (20 server-side, 11 client-side):** Rather than relying on what a language model remembers from training, the Overseer looks up facts before answering. On the server (.NET 10, ASP.NET Core, and SignalR), 20 tools query monster, item, and artifact definitions, search ~5,400 pages across the GnollHack and NetHack wikis via Lucene.NET, and inspect an in-memory C lexer index of both the GnollHack and NetHack source trees. When needed, the main model can delegate multi-step research to three parallel specialist sub-agents (the Wiki Researcher, the Source Investigator, and the Game Data Analyst).
-- **Bidirectional native WebView bridge:** Inside the game, the Angular 22 chat frontend runs inside a platform WebView (WebView2 on Windows, `WKWebView` on iOS and macOS, Android WebView on Android, and Chromium Embedded Framework on Linux). When the AI needs more information from the player's device, the server sends a `tool_client_request` event over SignalR, the Angular app calls into the native C# client over the platform bridge, and the client returns data from 11 device tools, including refreshed game snapshots, full message logs, past character dumplogs, and crash logs.
-- **Spoiler guardrails and privacy modes:** By default, spoiler protection checks the player's discovery log so the advisor does not ruin unencountered bosses or puzzle solutions. Players can also switch chats between Standard, Confidential (encrypted at rest, internet tools off, and permanently destroyed on deletion), and Incognito (held in server memory only, never written to disk).
+- **Free frontier models, or bring your own key:** Players get free system models from OpenAI, Google, and Anthropic, such as GPT-6 Luna, Gemini 4 Argon, and Claude Sonnet 5.5. They can also add their own API key, encrypted at rest with AES-256-GCM, and choose from a catalog of 32 models.
+- **Live game snapshots from the C engine:** When a player opens the Overseer during a game, the C engine writes a plain-text snapshot of the game state: attributes, equipment, inventory with container contents, the visible map with a coordinate legend, recent messages, discoveries, and conducts.
+- **31 tools, 20 on the server and 11 on the device:** The Overseer looks facts up instead of relying on what the model remembers from training. On the server (.NET 10, ASP.NET Core, and SignalR), tools query monster, item, and artifact definitions, search nearly 5,000 pages of the GnollHack and NetHack wikis with Lucene.NET, and read an in-memory index of both games' C source code, built with a C lexer. A tool policy sets the order of sources: the game snapshot first, then the knowledge base, the wiki and game data, the source code, GitHub, and the web. For multi-step research, the main model can hand work to three specialist sub-agents that run in parallel (the Wiki Researcher, the Source Investigator, and the Game Data Analyst). Players turn them on in the settings.
+- **A two-way bridge into the native app:** In the game, the Angular 22 chat runs inside a platform WebView: WebView2 on Windows, `WKWebView` on iOS and macOS, Android WebView on Android, and Chromium Embedded Framework on Linux. When the model needs something from the player's device, the server sends a `tool_client_request` event over SignalR, the Angular app calls into the C# client through the platform bridge, and one of the 11 device tools returns the data: a fresh game snapshot, the full message history, dumplogs of past characters, or the game's panic and app logs.
+- **Spoiler protection and privacy modes:** By default, the Overseer checks what the player has already discovered, so it does not spoil unseen bosses or puzzle solutions. Each chat can be Standard, Confidential (encrypted at rest, internet tools off, and permanently destroyed on deletion), or Incognito (kept in server memory only and never written to disk).
 
-For a deeper look at the backend and client bridge, see the [[/Guides/Technological Overview of Gnoll Overseer]].
+For the server design and the client bridge in more detail, see the [[/Guides/Technological Overview of Gnoll Overseer]].
 
-## GnollBench: Benchmarking AI When Wrong Advice Kills Characters
+## 👑 GnollBench: Benchmarking AI When Wrong Advice Kills Characters
 
-Public AI leaderboards like [Artificial Analysis](https://artificialanalysis.ai/) or [Arena](https://arena.ai/) answer a general question: *"How capable is this model across math, coding, and general chat?"* They cannot tell you whether a model will confidently advise a player to punch a cockatrice bare-handed (which turns the character to stone) or misread a C bitmask in GnollHack's source code.
+Public AI leaderboards such as [Artificial Analysis](https://artificialanalysis.ai/) and [Arena](https://arena.ai/) answer a general question: How capable is this model at math, coding, and general chat? They cannot tell you whether a model will confidently tell a player to fight a cockatrice bare-handed (which turns the character to stone), or whether it can read a bitmask in GnollHack's C source correctly.
 
-![GnollBench](/uploads/GnollBench/gnollbench-wide-v3-256.webp)
-
-To measure how models actually perform as the Overseer, we built **[[/GnollBench]]**. Its design follows three engineering rules that set it apart from standard benchmarks:
+To measure how models actually perform as the Overseer, we built **[[/GnollBench]]**. Three design rules set it apart from general benchmarks.
 
 ### 1. The Production Configuration Is the Instrument
 
-A candidate model in GnollBench is not tested under a simplified benchmark prompt. It receives the **exact production system prompt** and **16 read-only production lookup tools** (wiki search, monster/item/artifact stats, knowledge base, and C source code inspection) with the same per-question budgets as the live chat. When a model fails a question in GnollBench, it exposes a real failure mode that players would hit, often pointing us to a missing fact on the wiki or a tool description that needs clarification.
+A candidate model is not tested with a simplified benchmark prompt. It gets the **exact production system prompt** and the **16 read-only lookup tools** the live chat uses: wiki search, monster, item, and artifact data, the knowledge base, and C source code inspection. When a model fails a question, the failure is one that players would hit too, and it often points to a missing fact on the wiki or a tool description that needs to be clearer.
 
-### 2. A Two-Company Blind Grading Panel Plus a Source-Code Verifier
+### 2. A Blind Grading Panel from Two Providers, Plus a Source-Code Verifier
 
-Using a single AI model to grade another AI model introduces same-family bias: Models tend to favor outputs written by models from their own provider. GnollBench addresses this with a multi-role pipeline:
+When one AI model grades another, it tends to favor answers written by models from its own provider. GnollBench spreads grading over several roles:
 
-| Role | Responsibility in a GnollBench Run |
-| :--- | :--- |
-| **Candidate** | Answers suites of 18+ GnollHack questions (Simple, Intermediate, Advanced), or questions bound to a real exported game snapshot, using the production tools. |
-| **Assessor & Co-Assessor (The Panel)** | Two judge models from **two different AI providers** (neither from the candidate's model family when avoidable, and never the model under test). Both grade every answer concurrently and **blind** to each other against a detailed rubric. Their average sets the quality score. |
-| **Reference Reader** | A third model from a third provider that grades every answer blind as an anchor to measure agreement between graders and flag disputed verdicts for human review, without altering the score. |
-| **Claim Verifier** | An independent agent with read-only tools that checks unverified claims and contested sentences directly against the GnollHack C source code and wiki, requiring exact file and line citations. |
+- **Candidate:** Answers the questions of one or more suites with the production tools. A standard suite has 18 questions, six each at the Simple, Intermediate, and Advanced levels. A suite can also be built from a real exported game snapshot, with questions about that exact game.
+- **Assessor and Co-Assessor (the panel):** Two judge models from **two different providers**, never the model under test. Both grade every answer at the same time, **blind** to each other, against a detailed rubric. Their average sets the quality score.
+- **Reference Reader:** An optional third judge from a third provider. It grades every answer blind as an anchor for measuring how well the judges agree, and it flags disputed verdicts for human review. It never changes a score.
+- **Claim Verifier:** An optional agent with read-only tools that checks unverified and disputed claims against the C source, the wiki, or the game snapshot. Every verdict must cite its evidence, such as the deciding lines of a source file.
 
-### 3. Non-Compensatory Scoring, Critical-Error Caps, and Rewarding Honesty
+### 3. Non-Compensatory Scoring, a Cap on Critical Errors, and a Reward for Honesty
 
-Each answer is graded on a 0–6 Behaviorally Anchored Rating Scale across four dimensions: **Accuracy (55%)**, **Completeness (25%)**, **Conciseness (10%)**, and **Readability (10%)**. Instead of an arithmetic average, where a polite, well-structured answer could still get a passing grade despite being wrong, GnollBench combines the dimensions with a **weighted geometric mean**:
+Each answer is graded from 0 to 6 on a behaviorally anchored rating scale in four dimensions: **Accuracy (55%)**, **Completeness (25%)**, **Conciseness (10%)**, and **Readability (10%)**. Under an arithmetic mean, a polite, well-structured answer could pass despite being wrong. GnollBench combines the dimensions with a **weighted geometric mean** instead:
 
 $Q = A^{0.55} \cdot C^{0.25} \cdot Cn^{0.10} \cdot R^{0.10}$
 
-If Accuracy drops to level 1 (15 points) while every other dimension is a perfect level 6 (100 points), the geometric mean pulls the score down to **35**, compared to 53 under an arithmetic mean.
+If Accuracy drops to level 1 (15 points) while every other dimension is at a perfect level 6 (100 points), the geometric mean pulls the score down to **35**. An arithmetic mean would give 53.
 
-On top of that, two rules shape how models handle uncertainty:
+Two more rules decide how a model should handle uncertainty:
 
-- **The Critical Error Ceiling (25 / 100):** If an answer states a confident falsehood that would harm a player who acted on it (contradicted by the rubric or the game board, and quoted verbatim by the grader), the answer's score is capped at **25**. If the two panel judges split on whether a critical error occurred, the Claim Verifier checks the quoted sentence against the C source code and wiki to uphold or overturn the cap.
-- **The Honesty Floor (50 / 100):** Standard benchmarks often punish a model for saying *"I don't know,"* which rewards guessing. In GnollBench, if a model searches the tools, cannot verify a fact, states nothing false, and honestly reports what it could not verify, the answer is marked **Not Attempted** and receives a floor score of **50**, twice as much as a dangerous bluff.
+- **The critical-error ceiling (25 of 100):** If an answer confidently states a falsehood that would hurt a player who acted on it, the score is capped at **25**. The falsehood must be contradicted by the rubric or the game board, and the grader must quote the sentence word for word. If the two panel judges disagree on whether a critical error occurred, the Claim Verifier checks the quoted sentence against the source code and the wiki to uphold or overturn the cap.
+- **The honesty floor (50 of 100):** Most benchmarks punish a model for saying *"I don't know,"* which rewards guessing. In GnollBench, an answer that says it could not find or verify the information, and gives no value or recommendation in its place, is marked **Not Attempted**. If it makes no critical error and its Accuracy is level 5 or higher, it scores at least **50**, twice the most a dangerous bluff can get. With a correct answer worth about 92 points, this means that a model should answer only when it is at least about 37% sure, if being wrong would be dangerous.
 
-### What GnollBench Revealed Across Frontier Models
+### What GnollBench Showed Across Frontier Models
 
-GnollBench tracks three headline metrics: **Intelligence Index** (difficulty-weighted quality with a 95% confidence interval), **Speed** (model thinking time with tool execution time subtracted), and **Cost**. It refuses to publish an index if a provider error interrupted any question in the run.
+GnollBench reports three headline metrics: the **Intelligence Index** (difficulty-weighted quality, with a 95% confidence interval), **Speed** (the model's own time per answer, with tool execution time subtracted), and **Cost**. It publishes no index for a run in which a provider error stopped a question.
 
-In our October 2026 engineering review across a 36-question battery (two 18-question suites, graded by a panel of Claude 5 Opus and GPT-5.6 Sol with Gemini 3.8 Flash as Reference Reader and Claim Verifier), the trade-offs between intelligence, speed, and cost were clear:
+For our October 2026 engineering review, we ran nine model configurations through a 36-question battery (two 18-question suites). Claude Opus 5 and GPT-5.6 Sol formed the panel, and Gemini 3.8 Flash served as the Reference Reader and the Claim Verifier. Costs are the candidate's cost for one pass through the battery at catalog prices on October 11, 2026.
 
-| Candidate Model (Thinking Level) | Provider | Intelligence Index (0–100) | Mean Time / Question | Battery Cost (36 Questions) |
+| Candidate Model (Thinking Level) | Provider | Intelligence Index (0–100) | Mean Time per Question | Battery Cost (36 Questions) |
 | :--- | :--- | :-: | :-: | :-: |
 | **GPT-6 Astra (medium)** | OpenAI | **87** | 21.2 s | $6.97 |
 | **GPT-6 Luna (max)** | OpenAI | **83** | 74.3 s | $0.24 |
 | **GPT-6 Luna (high)** | OpenAI | **83** | 28.2 s | $0.11 |
 | **GPT-5.6 Luna (max)** | OpenAI | **82** | 48.3 s | $0.37 |
-| **Claude 5.5 Haiku (xhigh)** | Anthropic | **81** | 45.4 s | $0.30 |
+| **Claude Haiku 5.5 (xhigh)** | Anthropic | **81** | 45.4 s | $0.30 |
 | **GPT-5.6 Luna (high)** | OpenAI | **81** | 25.8 s | $0.21 |
-| **Claude 5.5 Sonnet (high)** | Anthropic | **79** | 16.5 s | $2.15 |
-| **Claude 5.5 Opus (medium)** | Anthropic | **79** | 27.2 s | $4.03 |
-| **Claude 5.5 Sonnet (medium)** | Anthropic | **76** | **10.5 s** | $1.40 |
+| **Claude Sonnet 5.5 (high)** | Anthropic | **79** | 16.5 s | $2.15 |
+| **Claude Opus 5.5 (medium)** | Anthropic | **79** | 27.2 s | $4.03 |
+| **Claude Sonnet 5.5 (medium)** | Anthropic | **76** | **10.5 s** | $1.40 |
 
-Plotting Intelligence against Cost immediately showed our best cost-performance trade-offs: **GPT-6 Luna (high)** delivered an Intelligence Index of 83 at just **`$0.11`** for the 36-question battery (~28 seconds per question), nearly matching the top-scoring **GPT-6 Astra (medium)** (87 at **`$6.97`**) at less than one-sixtieth of the cost. Meanwhile, another strong contender, **GPT-6.1 Sol (medium)**, scored 86.4 in a separate run at 19.3 seconds per question, but failed twice with provider errors during earlier battery runs, which GnollBench's integrity rules caught before we made it a default for players.
+![GnollBench Intelligence Index against cost per question](/uploads/Guides/GnollHack,%20Gnoll%20Overseer,%20and%20GnollBench%20for%20Software%20Engineers/gnollbench-intelligence-vs-cost-q85.webp)
+*Intelligence against cost per question, on a log scale. The dotted line is the Pareto frontier: GPT-6 Astra (medium), GPT-6 Luna (max), and GPT-6 Luna (high).*
 
-For the full statistical model, comparability rules, and a comparison with public benchmarks like Artificial Analysis, HealthBench, and BALROG, see the [[/Guides/Technological Overview of GnollBench]] and [[/Guides/Comparison of GnollBench and Popular AI Benchmarks]].
+Plotting intelligence against cost showed the trade-offs at once. **GPT-6 Luna (high)** reached an Intelligence Index of 83 for **$0.11** per battery, about 28 seconds per question. The top scorer, **GPT-6 Astra (medium)**, reached 87 for **$6.97**, more than 60 times the cost. Some of these differences fall within the 95% confidence intervals, so the frontier is a guide rather than a final ranking. GPT-6 Luna (high) is also the model we suggest players start with in [[/Guides/Choosing AI Model for Gnoll Overseer]].
 
-## How We Use Coding Agents (and Where We Don't)
+Reliability counts too. **GPT-6.1 Sol (medium)** scored 86.4 at 19.3 seconds per question in a separate run, but two of its battery runs failed on provider errors. Because GnollBench publishes no index for an interrupted run, those failures showed up in the results instead of hiding inside an average.
 
-We draw a clear line between the **GnollHack game** and the **AI companion ecosystem** around it, as detailed in our [[/AI Usage Policy]]:
+For the full statistical model, the comparability rules, and a comparison with public benchmarks such as Artificial Analysis, HealthBench, and BALROG, see the [[/Guides/Technological Overview of GnollBench]] and [[/Guides/Comparison of GnollBench and Popular AI Benchmarks]].
 
-| Area | GnollHack (The Game) | Gnoll Overseer & GnollBench |
-| :--- | :--- | :--- |
-| **Primary Coder** | Human developer | Autonomous AI coding agents |
-| **AI's Role** | Assistant, code reviewer, edge-case finder, and Sentry crash investigator | Writes all application code under human architectural review |
-| **Human's Role** | Lead architect, C/C# programmer, and game designer | System architect, implementation plan reviewer, and QA tester |
-| **Art, Music & Voiceovers** | **100% human-made** (real artists, composers, and 96 voice actors) | Promotional and web illustrations produced with generative AI tools |
+## 🛠️ How We Use Coding Agents, and Where We Don't
 
-On the engineering side, two workflows made working with coding agents (primarily Claude Code, alongside Google Antigravity and OpenAI Codex) practical across a complex multi-platform stack:
+We draw a clear line between the **GnollHack game** and the **AI tools** around it:
+
+- **In GnollHack itself**, a human developer writes the code and is its lead architect and game designer. AI works as an assistant: a code reviewer, an edge-case checker, a research aid, an expert helper for difficult tasks, and an investigator of crash reports in Sentry. All art, music, and voiceovers are made by people.
+- **In the Gnoll Overseer and GnollBench**, autonomous AI coding agents write all of the code. A human is the system architect, reviews every implementation plan, and tests the result. Promotional and web illustrations for them are made with generative AI tools.
+
+The rules are in our [[/AI Usage Policy]]. Our main coding agent is Claude Code, and our shared agent instructions also support Google Antigravity and OpenAI Codex. Two workflows made coding agents practical on a stack this mixed.
 
 ### 1. Evidence-Based Crash Analysis Across C and C# with Sentry MCP
 
-Because GnollHack runs a C99 engine inside a .NET MAUI and Avalonia host, a production crash can originate in C, in C#, or inside one of the underlying frameworks. We integrated `Sentry.Maui` and `sentry-native` so that both layers report into a **single unified Sentry event**, combining 82 breadcrumb sites and a 40-entry debug ring buffer from the C engine with 162 breadcrumb sites, memory/disk telemetry, and scope synchronization (`EnableScopeSync`) from the C# app.
+GnollHack runs a C99 engine inside a .NET MAUI or Avalonia host, so a production crash can start in C, in C#, or inside one of the frameworks underneath. Both layers report to Sentry. The C# app uses Sentry's .NET SDK. When the C engine reports an error, the report carries the engine's last 40 debug messages and the current game state, and both layers add breadcrumbs. Hard native crashes are caught by `sentry-native`, and `EnableScopeSync` hands it the latest .NET context, so even those reports show what the player was doing.
 
-When an issue appears in Sentry, our coding agent connects via the **Sentry MCP** server and follows a strict crash-analysis skill:
+![One Sentry event with evidence from the C engine and the C# app](/uploads/Guides/GnollHack,%20Gnoll%20Overseer,%20and%20GnollBench%20for%20Software%20Engineers/sentry-one-event-two-layers-q85.webp)
+*How the C engine and the C# app contribute evidence to the same Sentry event. From our October 2026 engineering review.*
 
-1. It reads every event, breadcrumb, and native/managed stack trace from Sentry.
-2. It cross-references the trace against **9 framework repositories checked out on local disk** alongside our own code: `.NET MAUI`, `.NET runtime`, `.NET Android`, `.NET iOS`, `WinUI`, `CsWinRT`, `SkiaSharp`, `Skia`, and `HarfBuzz`.
-3. The skill forces the agent to end its report with a binary **Yes or No** on whether the root cause is proven by the evidence. Guessing is forbidden. If the answer is *No*, the agent recommends targeted `debugprint()` calls for the next release. If *Yes*, it either fixes our bug or drafts an upstream issue with a minimal reproduction (such as diagnosing that a recurring `"Window was already deactivated"` crash on iOS and Windows was thrown by `.NET MAUI`'s `Window.cs` on repeated activation events, or filing upstream issues like `dotnet/maui #31315`).
+When an issue appears in Sentry, our coding agent connects through the **Sentry MCP** server and follows a crash-analysis skill:
+
+1. It reads every event of the issue, with breadcrumbs, extras, and native and managed stack traces.
+2. It reads our code next to **nine framework repositories checked out on local disk**: .NET MAUI, the .NET runtime, .NET for Android, .NET for iOS, WinUI, CsWinRT, SkiaSharp, Skia, and HarfBuzz. When a stack trace ends in framework code, the agent keeps reading.
+3. It must end its report with a plain **Yes or No**: Was a definitive root cause found? Speculation does not count. If the answer is No, the agent proposes targeted debug logging, wizard-mode test scenarios, and what to watch for in the next reports. If it is Yes, it fixes our bug or drafts an upstream issue with a minimal reproduction.
+
+For example, a recurring "Window was already deactivated" exception from iOS and Windows turned out to be thrown by .NET MAUI itself when window activation events re-enter. It is reported upstream as [dotnet/maui#31315](https://github.com/dotnet/maui/issues/31315), and our client works around it until a fix ships. Every such workaround is recorded in a register in the repository, with the upstream issue and the condition for removing it.
 
 ### 2. On-Demand Agent Skills and a Shared Plans Repository
 
-To keep coding agents effective without filling up their context windows, we keep always-on session rules small (~7,000 tokens) and store **57 modular skills** (~210,000 words across client architecture, server patterns, build pipelines, and benchmark analysis) that load **only on demand**. For example, our `build-pipeline` skill documents every step and trap of building the native C solution, WSL game data archives, and .NET MAUI targets so that an agent, or a framework engineer investigating one of our bug reports, can build the entire project from a clean clone.
+To keep coding agents effective without filling their context windows, we keep the rules loaded into every session small (under 10,000 tokens) and put everything else into more than 60 modular skills, over 250,000 words on client architecture, server patterns, build pipelines, and benchmark analysis. A skill loads **only when a task needs it**. For example, our `build-pipeline` skill documents every step and trap of building the native C solution, the game data, and the .NET MAUI targets. With it, an agent, or a framework engineer checking one of our bug reports, can build the whole project from a clean clone.
 
-Every non-trivial feature follows a six-step workflow:
+Every non-trivial feature follows the same six steps:
 
 1. **Research:** Read-only sub-agents inspect the live codebase.
-2. **Plan:** The agent writes a versioned implementation plan into a shared Git repository (`plans`) that syncs across machines, sessions, and agent tools.
-3. **Approve:** A human architect reviews and approves the plan before a single source file is touched.
-4. **Execute:** Coding sub-agents implement the changes, with each sub-agent assigned exclusively to its own files.
-5. **Verify:** The main agent runs the compiler and test suites.
-6. **Commit:** Only a human commits and pushes production code.
+2. **Plan:** The agent writes a versioned implementation plan into a shared Git repository, so the plan follows the work across computers, sessions, and agent tools.
+3. **Approve:** A human architect reviews and approves the plan before any source file is touched.
+4. **Execute:** Coding sub-agents implement the changes, each one working only on its own files.
+5. **Verify:** The main agent, not the sub-agents, runs the build and the tests.
+6. **Commit:** Agents commit and push only when a human asks them to.
 
-## Try It Out or Explore the Code
+## 💡 What We Learned
 
-If you are a .NET developer curious about pushing .NET MAUI and Avalonia UI into 60–90 FPS game rendering, an AI engineer interested in tool-using agents and domain-specific evaluation, or a fan of deep RPGs, everything we built is open and free to explore:
+- **Keep the legacy core and wrap it.** A 1987 C engine, compiled as a native library under a modern C# UI, kept decades of tested game rules intact.
+- **Give the model tools, not trust.** The Overseer looks facts up in the wiki, the game data, and the source code instead of answering from memory.
+- **Benchmark the product, not the model.** Testing with the production prompt and tools finds the failures players would actually see.
+- **Make honesty pay.** A cap on dangerous errors and a floor for honest abstentions teach the benchmark to prefer "I could not verify this" over a confident guess.
+- **Make agents prove their conclusions.** A crash report that must answer Yes or No keeps an agent from presenting a guess as a root cause.
 
-- **Play GnollHack (100% free, no ads, no microtransactions):** Available on [Steam](https://store.steampowered.com/app/3558190/GnollHack/?utm_source=wiki) (Windows, Linux, macOS, Steam Deck), [Google Play](https://play.google.com/store/apps/details?id=com.soundmindentertainment.gnollhack), the [App Store](https://apps.apple.com/app/gnollhack/id1626979951), and [GitHub Releases](https://github.com/hyvanmielenpelit/GnollHack/releases).
-- **Try the Gnoll Overseer:** Open it inside the game or on the web at [overseer.gnollhack.com](https://overseer.gnollhack.com).
-- **Browse the Source Code:**
-  - Game client & C engine: [github.com/hyvanmielenpelit/GnollHack](https://github.com/hyvanmielenpelit/GnollHack)
-  - Gnoll Overseer & GnollBench server: [github.com/hyvanmielenpelit/MobileGnollHackLogger](https://github.com/hyvanmielenpelit/MobileGnollHackLogger)
-- **Read the Technical Deep-Dives on the Wiki:**
-  - [[/Technological Features]] & [[/Development/Avalonia Port]]
-  - [[/Guides/Technological Overview of Gnoll Overseer]]
-  - [[/Guides/Technological Overview of GnollBench]] & [[/Guides/Comparison of GnollBench and Popular AI Benchmarks]]
-  - [[/Development/Design Details of Native Crash Reporting]]
+Everything described here is open source: the game, the C engine, the Overseer, and GnollBench.
+
+## 📖 Learn More
+
+- [[/Technological Features]] and [[/Development/Avalonia Port]]
+- [[/Guides/Technological Overview of Gnoll Overseer]]
+- [[/Guides/Technological Overview of GnollBench]] and [[/Guides/Comparison of GnollBench and Popular AI Benchmarks]]
+- [[/Development/Design Details of Native Crash Reporting]]
+
+## 🔗 External Links
+
+- **Play GnollHack:** [Steam](https://store.steampowered.com/app/3558190/GnollHack/?utm_source=wiki) (Windows, Linux, macOS, and Steam Deck), [Google Play](https://play.google.com/store/apps/details?id=com.soundmindentertainment.gnollhack), the [App Store](https://apps.apple.com/app/gnollhack/id1626979951), and [GitHub Releases](https://github.com/hyvanmielenpelit/GnollHack/releases)
+- **Try the Gnoll Overseer:** In the game, or on the web at [overseer.gnollhack.com](https://overseer.gnollhack.com)
+- **Game client and C engine:** [github.com/hyvanmielenpelit/GnollHack](https://github.com/hyvanmielenpelit/GnollHack)
+- **Gnoll Overseer and GnollBench server:** [github.com/hyvanmielenpelit/MobileGnollHackLogger](https://github.com/hyvanmielenpelit/MobileGnollHackLogger)
+
+## 📅 Validity
+
+As of version 3.39 and November 9, 2026.
