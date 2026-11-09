@@ -418,12 +418,60 @@
     line-height: 20px;
   }
 
-  /* The phone menu button gets the same raised fill as the other buttons. */
+  /* The phone menu button: the raised fill of the other buttons, 44 x 40px. */
   #head summary.btn-invisible {
+    display: block;
+    width: 44px;
+    height: 40px;
+    padding: 9px 11px;
     color: var(--gh-ivory);
     background-color: var(--gh-btn-bg);
     border: 1px solid var(--gh-btn-border);
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 236, 190, 0.07);
+  }
+
+  /* Gollum's "☰" is not in the Lato subset, so its fallback font set its size and
+     baseline; a masked block in the text color replaces it. The span keeps its
+     aria-label. */
+  #head summary.btn-invisible > span {
+    display: block;
+    width: 20px;
+    height: 20px;
+    font-size: 0;
+    background-color: currentColor;
+    -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath d='M2 4.5h16M2 10h16M2 15.5h16' stroke='%23000' stroke-width='2.2' stroke-linecap='round'/%3E%3C/svg%3E") center / 20px 20px no-repeat;
+    mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath d='M2 4.5h16M2 10h16M2 15.5h16' stroke='%23000' stroke-width='2.2' stroke-linecap='round'/%3E%3C/svg%3E") center / 20px 20px no-repeat;
+  }
+
+  /* Phone menu: gold section labels, the current page name as text, and 44px items.
+     The labels' Primer .h6 utility is !important, so their size and weight are too. */
+  #head .SelectMenu-divider h2 {
+    font-size: 13px !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--gh-gold);
+  }
+
+  #head .SelectMenu-divider > div {
+    margin-top: 2px;
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--gh-ivory);
+  }
+
+  #head .SelectMenu-item {
+    padding: 12px 16px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    color: var(--gh-ivory);
+  }
+
+  @media (hover: hover) {
+    #head .SelectMenu-item:hover {
+      color: var(--gh-gold);
+    }
   }
 
   @media (hover: hover) {
@@ -433,10 +481,11 @@
     }
   }
 
+  /* 16px: iOS Safari zooms in on focused fields with smaller text and stays zoomed. */
   #search-query {
     min-height: 32px;
     padding: 5px 12px 5px 34px;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 20px;
     color: var(--gh-ivory);
     caret-color: var(--gh-ivory);
@@ -821,6 +870,23 @@
     margin-top: 50px;
     box-shadow: 0px 0px 2px 2px rgb(0 0 0 / 50%);
   }
+
+  /* Phone bar controls are 40px tall, matching the menu button. */
+  #search-query {
+    min-height: 40px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+  }
+
+  /* The bar's last cell holds only desktop buttons; collapsed, the search field ends
+     as far from the right edge as the menu button starts from the left. */
+  #head > nav.actions > .TableObject-item--primary {
+    padding-right: 0 !important;
+  }
+
+  #head > nav.actions > .TableObject-item:last-child {
+    padding: 0 !important;
+  }
 }
 
 /* Unconditional, so printed code wraps too. */
@@ -838,5 +904,10 @@ pre, code {
 @media (forced-colors: active) {
   body::before {
     display: none;
+  }
+
+  #head summary.btn-invisible > span {
+    forced-color-adjust: none;
+    background-color: ButtonText;
   }
 }

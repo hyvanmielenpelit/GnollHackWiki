@@ -18,8 +18,9 @@ marketing site, GnollHack Account, and Gnoll Overseer. `wiki_editing` section 4 
 - `.gollum/images/gnoll-illustration-darkened-bottom-w1920-q60.webp`: the background art, a
   byte copy from the GnollHack Account site's `wwwroot/img/`.
 - `.gollum/templates/layout.mustache`: `<html lang="en" data-color-mode="dark"
-  data-dark-theme="dark" data-light-theme="dark">`, the `color-scheme` and `theme-color`
-  metas, a preload of the Cinzel font, and the theme `<link>` right after Gollum's `app` and
+  data-dark-theme="dark" data-light-theme="dark">`, the viewport meta
+  (`width=device-width, initial-scale=1`, which must never disable zoom with
+  `maximum-scale` or `user-scalable`), the `color-scheme` and `theme-color` metas, a preload of the Cinzel font, and the theme `<link>` right after Gollum's `app` and
   `print` stylesheets, so that it overrides Primer.
 
 The code that versions and caches these files is in the GnollHackWikiConfig repository
@@ -76,10 +77,19 @@ is dark only; there is no light mode.
   `body::before` (the fixed background art; `background-attachment: fixed` is ignored on
   iOS), `#wiki-wrapper` (the content panel), headings and the gold `h2` rule, the heading
   anchor icon (`filter`), links and focus outlines, `#head` and `nav.actions` (the navigation
-  bar), the phone menu button (`summary.btn-invisible`), `#search-query` (a recessed field
-  with a magnifier icon), `.breadcrumb`, block quotes, tables (`th`, even rows, borders),
-  `pre` and inline `code`, Rouge tokens, `hr`, `kbd`, `.katex`, `.toc` and `.toc-title`,
-  `.Box` and `#wiki-header`, the sidebar and footer.
+  bar), the phone menu button (`summary.btn-invisible`) and its masked icon, the phone menu
+  (`.SelectMenu` section labels, current page name, items), `#search-query` (a recessed
+  field with a magnifier icon), `.breadcrumb`, block quotes, tables (`th`, even rows,
+  borders), `pre` and inline `code`, Rouge tokens, `hr`, `kbd`, `.katex`, `.toc` and
+  `.toc-title`, `.Box` and `#wiki-header`, the sidebar and footer.
+- The search field's text is 16px on every width: iOS Safari zooms in on any focused field
+  with smaller text and does not zoom back out. Keep every text field at 16px or more.
+- The phone menu button is 44 × 40px with a 20px icon drawn by a CSS mask, not a font
+  glyph, so its centering does not depend on fallback font metrics. Below 768px the search
+  field is 40px tall to match.
+- Below 768px the bar's last cell (desktop-only buttons) and the search cell's right
+  padding are collapsed, so both bar gutters are 16px. Recheck after a Gollum upgrade that
+  this cell is still empty on phones.
 - Default buttons (`.btn`) are styled through Primer's `--color-btn-*` variables as a raised
   tonal fill (`--gh-btn-bg`) with a faint edge, on every page, not only in the navigation
   bar. Outline buttons (`.btn-outline`) take the same fill and edge with their own gold
@@ -149,9 +159,12 @@ rules inside it.
 - Pages to check: Home, Download, an item page and a monster page, Skill Comparison
   (tables), a Development page with code, Scoring (KaTeX), Options (ingress), search,
   overview, latest changes, history, and a missing page. Check each at 1280px and 375px
-  wide. At 375px there is no horizontal page scroll; wide tables scroll inside their
-  container.
-- The `@media (forced-colors: active)` block drops the background art; system colors apply.
+  wide, and at 375px also the phone menu, open. At 375px there is no horizontal page
+  scroll; wide tables scroll inside their container.
+- Desktop browser emulation reproduces neither iOS Safari's zoom on focused fields nor iOS
+  font fallback; check those on a real iPhone.
+- The `@media (forced-colors: active)` block drops the background art and keeps the menu
+  button's masked icon in `ButtonText`; system colors apply.
 
 ## 8. Font Subset
 
