@@ -1,6 +1,6 @@
 ---
 name: wiki-editing
-description: "Instructions and conventions for editing the GnollHack Wiki Markdown pages: formatting, wikilinks, images, icons, writing style and tone, and the closing encoding check."
+description: "Instructions and conventions for editing the GnollHack Wiki Markdown pages: Formatting, wikilinks, images, icons, writing style and tone, and the closing encoding check."
 ---
 
 The full skill lives in this repository's tool-neutral agent directory (`.agents/`),
