@@ -60,6 +60,13 @@
   --gh-surface-raised: #1a1713;
   --gh-border: rgba(212, 168, 83, 0.32);
   --gh-border-strong: rgba(242, 202, 112, 0.64);
+  --gh-border-subtle: rgba(212, 168, 83, 0.24);
+  --gh-border-control: #7a6743;
+  --gh-btn-bg: #2a241b;
+  --gh-btn-hover-bg: #352d21;
+  --gh-btn-active-bg: #1e1a14;
+  --gh-btn-border: rgba(212, 168, 83, 0.28);
+  --gh-field-bg: #090807;
   --gh-gold: #f3ce72;
   --gh-gold-strong: #dfb046;
   --gh-ivory: #fbf5e8;
@@ -128,21 +135,21 @@
     --color-primer-shadow-inset: 0 0 transparent;
     --color-primer-shadow-focus: 0 0 0 3px rgba(243, 206, 114, 0.35);
 
-    /* Default buttons: the marketing site's secondary button */
+    /* Default buttons: a raised tonal fill; the label identifies the button */
     --color-btn-text: var(--gh-ivory);
-    --color-btn-bg: rgba(10, 10, 10, 0.45);
-    --color-btn-border: var(--gh-border-strong);
-    --color-btn-shadow: 0 0 transparent;
-    --color-btn-inset-shadow: 0 0 transparent;
-    --color-btn-hover-bg: rgba(223, 176, 70, 0.14);
-    --color-btn-hover-border: var(--gh-gold);
-    --color-btn-active-bg: rgba(223, 176, 70, 0.22);
-    --color-btn-active-border: var(--gh-gold);
-    --color-btn-selected-bg: rgba(223, 176, 70, 0.18);
-    --color-btn-focus-bg: rgba(10, 10, 10, 0.45);
+    --color-btn-bg: var(--gh-btn-bg);
+    --color-btn-border: var(--gh-btn-border);
+    --color-btn-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+    --color-btn-inset-shadow: inset 0 1px 0 rgba(255, 236, 190, 0.07);
+    --color-btn-hover-bg: var(--gh-btn-hover-bg);
+    --color-btn-hover-border: rgba(243, 206, 114, 0.5);
+    --color-btn-active-bg: var(--gh-btn-active-bg);
+    --color-btn-active-border: rgba(243, 206, 114, 0.5);
+    --color-btn-selected-bg: var(--gh-btn-active-bg);
+    --color-btn-focus-bg: var(--gh-btn-bg);
     --color-btn-focus-border: var(--gh-gold);
     --color-btn-focus-shadow: 0 0 0 3px rgba(243, 206, 114, 0.35);
-    --color-btn-shadow-active: inset 0 0.15em 0.3em rgba(0, 0, 0, 0.3);
+    --color-btn-shadow-active: inset 0 1px 3px rgba(0, 0, 0, 0.6);
     --color-btn-shadow-input-focus: 0 0 0 0.2em rgba(243, 206, 114, 0.35);
     --color-btn-counter-bg: rgba(243, 206, 114, 0.2);
 
@@ -188,9 +195,9 @@
     --color-header-bg: var(--gh-header-bg);
     --color-header-text: var(--gh-ivory);
     --color-header-logo: var(--gh-ivory);
-    --color-header-divider: var(--gh-border-strong);
-    --color-header-search-bg: var(--gh-surface-raised);
-    --color-header-search-border: var(--gh-border-strong);
+    --color-header-divider: var(--gh-border-subtle);
+    --color-header-search-bg: var(--gh-field-bg);
+    --color-header-search-border: var(--gh-border-control);
     --color-search-keyword-hl: rgba(223, 176, 70, 0.4);
     --color-input-disabled-bg: rgba(200, 190, 170, 0.06);
 
@@ -248,7 +255,7 @@
     margin: 0;
     padding: 0 var(--gh-panel-pad) 24px;
     background-color: var(--gh-surface);
-    border: 0 solid var(--gh-border);
+    border: 0 solid var(--gh-border-subtle);
     border-bottom-width: 1px;
     border-radius: 0;
     box-shadow: 0 16px 38px rgba(0, 0, 0, 0.62), 0 2px 8px rgba(0, 0, 0, 0.45);
@@ -389,7 +396,7 @@
     margin-inline: calc(-1 * var(--gh-panel-pad));
     padding-inline: var(--gh-panel-pad);
     background-color: var(--gh-header-bg);
-    border-bottom: 1px solid var(--gh-border-strong);
+    border-bottom: 1px solid var(--gh-border-subtle);
   }
 
   nav.actions {
@@ -402,25 +409,41 @@
     border-bottom-color: transparent !important;
   }
 
-  nav.actions .btn {
-    font-weight: 700;
-  }
-
+  /* Bar controls are 32px tall: a 24px minimum target (WCAG 2.5.8) with room
+     to spare, and the search field matches. */
   nav.actions .btn-sm {
+    padding: 5px 14px;
     font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
   }
 
-  nav.actions .btn:hover,
-  nav.actions [open] > .btn {
-    color: var(--gh-gold);
+  /* The phone menu button gets the same raised fill as the other buttons. */
+  #head summary.btn-invisible {
+    color: var(--gh-ivory);
+    background-color: var(--gh-btn-bg);
+    border: 1px solid var(--gh-btn-border);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 236, 190, 0.07);
+  }
+
+  @media (hover: hover) {
+    nav.actions .btn:hover,
+    nav.actions [open] > .btn {
+      color: var(--gh-gold);
+    }
   }
 
   #search-query {
+    min-height: 32px;
+    padding: 5px 12px 5px 34px;
     font-size: 14px;
+    line-height: 20px;
     color: var(--gh-ivory);
     caret-color: var(--gh-ivory);
-    background-color: var(--gh-surface-raised);
-    border-color: var(--gh-border-strong);
+    background: var(--gh-field-bg) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16' fill='none' stroke='%23c8beaa' stroke-width='1.6' stroke-linecap='round'%3E%3Ccircle cx='7' cy='7' r='4.75'/%3E%3Cpath d='M10.5 10.5l3.5 3.5'/%3E%3C/svg%3E") 12px center / 16px 16px no-repeat;
+    border: 1px solid var(--gh-border-control);
+    border-radius: 6px;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.6);
   }
 
   #search-query::placeholder {
@@ -433,7 +456,7 @@
     border-color: var(--gh-gold);
     outline: 2px solid var(--gh-gold);
     outline-offset: 1px;
-    box-shadow: 0 0 0 4px rgba(243, 206, 114, 0.2);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.6), 0 0 0 4px rgba(243, 206, 114, 0.2);
   }
 
   .breadcrumb {
@@ -443,6 +466,13 @@
 
   .breadcrumb-item::after {
     border-right-color: var(--gh-border-strong);
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .btn,
+    #search-query {
+      transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease, box-shadow 0.15s ease;
+    }
   }
 
   /* -------------------------------------------------------------------------
@@ -713,7 +743,7 @@
   .Box,
   #wiki-header {
     background-color: var(--gh-surface-solid);
-    border: 1px solid var(--gh-border);
+    border: 1px solid var(--gh-border-subtle);
     border-radius: 10px;
   }
 
@@ -773,8 +803,14 @@
     border-radius: 14px;
   }
 
+  /* Primer's padding utilities on the nav are !important, so this is too. */
+  #head > nav.actions {
+    padding-top: 16px !important;
+    padding-bottom: 16px !important;
+  }
+
   #head {
-    padding-bottom: 12px;
+    padding-bottom: 0;
     border-radius: 13px 13px 0 0;
   }
 }

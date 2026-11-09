@@ -40,6 +40,13 @@ marketing site when that changes. The theme's `:root` tokens:
 | `--gh-surface-raised` | `#1a1713` |
 | `--gh-border` | `rgba(212, 168, 83, 0.32)` |
 | `--gh-border-strong` | `rgba(242, 202, 112, 0.64)` |
+| `--gh-border-subtle` | `rgba(212, 168, 83, 0.24)` |
+| `--gh-border-control` | `#7a6743` |
+| `--gh-btn-bg` | `#2a241b` |
+| `--gh-btn-hover-bg` | `#352d21` |
+| `--gh-btn-active-bg` | `#1e1a14` |
+| `--gh-btn-border` | `rgba(212, 168, 83, 0.28)` |
+| `--gh-field-bg` | `#090807` |
 | `--gh-gold` | `#f3ce72` |
 | `--gh-gold-strong` | `#dfb046` |
 | `--gh-ivory` | `#fbf5e8` |
@@ -69,9 +76,14 @@ is dark only; there is no light mode.
   `body::before` (the fixed background art; `background-attachment: fixed` is ignored on
   iOS), `#wiki-wrapper` (the content panel), headings and the gold `h2` rule, the heading
   anchor icon (`filter`), links and focus outlines, `#head` and `nav.actions` (the navigation
-  bar), `#search-query`, `.breadcrumb`, block quotes, tables (`th`, even rows, borders),
+  bar), the phone menu button (`summary.btn-invisible`), `#search-query` (a recessed field
+  with a magnifier icon), `.breadcrumb`, block quotes, tables (`th`, even rows, borders),
   `pre` and inline `code`, Rouge tokens, `hr`, `kbd`, `.katex`, `.toc` and `.toc-title`,
   `.Box` and `#wiki-header`, the sidebar and footer.
+- Default buttons (`.btn`) are styled through Primer's `--color-btn-*` variables as a raised
+  tonal fill (`--gh-btn-bg`) with a faint edge, on every page, not only in the navigation
+  bar. Outline buttons (`.btn-outline`) take the same fill and edge with their own gold
+  text; primary buttons keep the gold fill.
 - Width: the text column is as wide as the widest table needs, and text fills it.
   - From 1012px up, `body > .container-lg` is at most 1185px with a 16px inline gutter, so
     the panel reaches 1153px in windows of about 1200px and wider. Gollum's inner
@@ -119,10 +131,18 @@ rules inside it.
 
 - The target is WCAG AA: 4.5:1 for body text, links, table text, quotes, code, buttons, the
   breadcrumb and the sidebar; 3:1 for headings of 24px or larger and for UI borders.
-- `--gh-border` (about 1.9:1) is for decorative borders only; controls use
-  `--gh-border-strong`.
+- `--gh-border` (1.9:1 against the panel on tables, 2.0:1 against code blocks) is for
+  decorative borders only.
+- Container outlines (the panel, `.Box`, `#wiki-header`, the navigation bar's divider) use
+  `--gh-border-subtle`: 1.70:1 at the panel edge against black, matching GnollHack Account's
+  panel.
+- Buttons are identified by their text label and their raised fill, so their border is
+  decorative (WCAG 2.2 SC 1.4.11 needs no boundary there).
+- Text fields use `--gh-border-control`: 3.67:1 against the field and 3.58:1 against the
+  navigation bar, above the 3:1 that SC 1.4.11 needs.
 - Measured on the theme: body text 15.7:1, links 12.7:1, `th` 10.1:1, even rows 14.8:1,
-  inline code 12.8:1, buttons 18.1:1, muted text 10.3:1, syntax tokens at least 7.9:1.
+  inline code 12.8:1, button labels 14.1:1 (gold hover label 9.0:1), the search placeholder
+  10.9:1, muted text 10.3:1, syntax tokens at least 7.9:1.
 - Check with a contrast script in the browser that composites each element's alpha
   backgrounds from the root down over black, and compares the result with the element's
   text color.
