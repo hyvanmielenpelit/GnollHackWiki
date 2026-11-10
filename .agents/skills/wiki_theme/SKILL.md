@@ -12,8 +12,8 @@ marketing site, GnollHack Account, and Gnoll Overseer. `wiki_editing` section 4 
 ## 1. The Files
 
 - `.gollum/css/gnollhack-theme.css`: the theme.
-- `.gollum/fonts/`: Cinzel (variable, weights 600-800) and Lato (400, 400 italic, 700, 700
-  italic), as latin-subset `.woff2` files. Cinzel is a byte copy from the marketing site's
+- `.gollum/fonts/`: Cinzel (variable, weights 600-800) and Lato (Regular and Italic at 400,
+  Heavy and Heavy Italic at 800), as latin-subset `.woff2` files. Cinzel is a byte copy from the marketing site's
   `wwwroot/fonts/`. Lato is version 2.015 (`lato2-latin-*.woff2`), subset with fontTools
   from the official Lato 2.0 TTFs (`Lato2OFL.zip` from latofonts.com) to the same code
   points as Google's latin subset, with default OpenType features and hinting kept.
@@ -182,16 +182,19 @@ rules inside it.
 
 - The fonts hold the latin subset only. Other characters (emoji, `∕`, `×`, arrows, math)
   fall back to system fonts. Each Lato `@font-face` declares the subset's `unicode-range`.
-- Lato is the four faces of a text family: regular, italic, bold and bold italic. Every
-  weight the page uses must map onto one of them, or the browser borrows the nearest face
-  (a 500 renders as 400, a 600 as 700) or fakes bold on an italic face.
+- Lato is the four faces of a text family: regular and italic at 400, and the bold pair
+  at 800, Heavy and Heavy Italic. Heavy was chosen over Bold (700) from side-by-side
+  screenshots of real pages, because it stands out more against the 400 body text. Every
+  weight the page uses must map onto one of the faces, or the browser borrows the nearest
+  face (a 500 renders as 400, a 600 or 700 as 800) or fakes bold on an italic face.
 - Primer sets weights through `--base-text-weight-*` (`strong` and `b` semibold, `.btn`
   and `.Counter` medium). The theme's `:root` maps light, normal and medium to 400, and
-  semibold and bold to 700. Theme rules use only 400 and 700.
+  semibold and bold to 800. Theme rules for Lato text use only 400 and 800; `h3` and
+  above are Cinzel, whose own 600-800 range is separate.
 - A browser downloads a face only when a page renders text in it, so the bold italic file
   costs nothing on the many pages without bold italic. The regular face is on every page
   and is preloaded; the others are not.
-- Adding a weight (Lato 2.0 also has Hairline, Thin, Light, Medium, Semibold, Heavy and
+- Adding a weight (Lato 2.0 also has Hairline, Thin, Light, Medium, Semibold, Bold and
   Black) adds a file to every page that uses it. Add one only for a visible design need,
   together with the rules that use it, and subset it the same way.
 - Before changing weights, scan rendered pages for the computed `font-weight` and

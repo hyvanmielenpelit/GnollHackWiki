@@ -24,9 +24,9 @@
   src: url("../fonts/cinzel-latin-wght-normal.woff2") format("woff2");
 }
 
-/* Lato: regular, italic, bold and bold italic. Every weight the page asks for maps
-   onto one of these (see the --base-text-weight-* tokens), so the browser never
-   synthesizes bold or italic. unicode-range lists the subset's code points. */
+/* Lato: Regular and Italic (400), Heavy and Heavy Italic (800). Every weight the page
+   asks for maps onto one of these (see the --base-text-weight-* tokens), so the browser
+   never synthesizes bold or italic. unicode-range lists the subset's code points. */
 @font-face {
   font-family: "Lato";
   font-style: normal;
@@ -52,9 +52,9 @@
 @font-face {
   font-family: "Lato";
   font-style: normal;
-  font-weight: 700;
+  font-weight: 800;
   font-display: swap;
-  src: url("../fonts/lato2-latin-700-normal.woff2") format("woff2");
+  src: url("../fonts/lato2-latin-800-normal.woff2") format("woff2");
   unicode-range: U+0020-007E, U+00A0-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC,
     U+2013-2014, U+2018-201A, U+201C-201E, U+2022, U+2026, U+2039-203A, U+2044, U+20AC,
     U+2122, U+2212;
@@ -63,9 +63,9 @@
 @font-face {
   font-family: "Lato";
   font-style: italic;
-  font-weight: 700;
+  font-weight: 800;
   font-display: swap;
-  src: url("../fonts/lato2-latin-700-italic.woff2") format("woff2");
+  src: url("../fonts/lato2-latin-800-italic.woff2") format("woff2");
   unicode-range: U+0020-007E, U+00A0-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC,
     U+2013-2014, U+2018-201A, U+201C-201E, U+2022, U+2026, U+2039-203A, U+2044, U+20AC,
     U+2122, U+2212;
@@ -108,8 +108,8 @@
   --base-text-weight-light: 400;
   --base-text-weight-normal: 400;
   --base-text-weight-medium: 400;
-  --base-text-weight-semibold: 700;
-  --base-text-weight-bold: 700;
+  --base-text-weight-semibold: 800;
+  --base-text-weight-bold: 800;
 }
 
 @media screen {
@@ -364,7 +364,7 @@
   .markdown-body h5,
   .markdown-body h6 {
     font-family: var(--gh-font-sans);
-    font-weight: 700;
+    font-weight: 800;
     color: var(--gh-ivory);
   }
 
@@ -481,7 +481,7 @@
   nav.actions .btn-sm {
     padding: 5px 14px;
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 800;
     line-height: 20px;
   }
 
@@ -514,7 +514,7 @@
      The labels' Primer .h6 utility is !important, so their size and weight are too. */
   #head .SelectMenu-divider h2 {
     font-size: 13px !important;
-    font-weight: 700 !important;
+    font-weight: 800 !important;
     letter-spacing: 0.08em;
     text-transform: uppercase;
     color: var(--gh-gold);
@@ -530,7 +530,7 @@
   #head .SelectMenu-item {
     padding: 12px 16px;
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 800;
     line-height: 20px;
     color: var(--gh-ivory);
   }
@@ -629,7 +629,7 @@
 
   .markdown-body table th {
     font-family: var(--gh-font-sans);
-    font-weight: 700;
+    font-weight: 800;
     color: var(--gh-gold);
     background-color: var(--gh-th-bg);
   }
