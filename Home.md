@@ -58,10 +58,6 @@ GnollHack is the modern way to play [NetHack](https://www.nethack.org/), one of 
 - **[[Save File Transfer]]** — How to move your save files across different devices and platforms
 - **[[Game Quirks]]** — Some non-obvious quirks where the game may behave in surprising ways
 
-## 📚 Articles
-
-- **[[Articles]]** — In-depth articles for gamers, software developers, and AI practitioners
-
 ## 📖 Reference
 
 - **[[Commands]]** — Commands available as clickable GUI buttons in the modern versions of the game.
@@ -102,6 +98,7 @@ GnollHack is famously tough, so we built the *Gnoll Overseer* to help you along.
 - **[[Development Information]]** — Build instructions, design details, and testing and debugging
 - **[[Technological Features]]** — Major features of GnollHack from the development technology perspective
 - **[[Development Timeline]]** — Important dates in GnollHack development
+- **[[Articles for Software Developers]]** — In-depth articles for gamers, software developers, and AI practitioners
 
 ## 🤝 Contributions
 
