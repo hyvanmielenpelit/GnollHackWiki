@@ -9,6 +9,8 @@ GnollHack is actively developed for **Android**, **iOS**, **Windows**, **Linux**
 > 📢 **Important:** If you are new to the codebase, **you must read this first**:
 > - **[[/Development/Overview of Building GnollHack with .NET MAUI]]** — Explains how the native C library, the C# wrapper, and build-time tools interact. Skipping this is the #1 reason developers struggle to build the game.
 
+For an introduction to the whole stack, from the C engine in .NET MAUI and Avalonia UI to the Gnoll Overseer and GnollBench, read [[Shipping a Cross-Platform Roguelike and Its AI Advisor with .NET MAUI, Avalonia UI, and Frontier AI Models|/Guides/GnollHack, Gnoll Overseer, and GnollBench for Software Engineers]]. [[Articles]] lists more articles for developers.
+
 ## 🛠️ Building GnollHack
 
 [[/Development/Build Instructions]] has everything for building the game: setting up a Windows computer, the build instructions of every modern client from Windows and Android to the Avalonia versions for Linux and macOS, the native libraries and assets built apart from the clients, troubleshooting, and the release checklist.

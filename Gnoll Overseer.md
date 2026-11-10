@@ -28,6 +28,7 @@ The Overseer needs a [[GnollHack Account]] and an internet connection. It is fre
 ## 🏗️ Technical Background
 
 - [[/Guides/Technological Overview of Gnoll Overseer]] — The architecture, frameworks, and tools behind the Overseer service.
+- [[/Guides/GnollHack, Gnoll Overseer, and GnollBench for Software Engineers]] — How the Overseer, GnollBench, and the cross-platform client are built, for software engineers.
 
 ## 📄 Legal and Privacy
 

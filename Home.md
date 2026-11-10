@@ -58,6 +58,10 @@ GnollHack is the modern way to play [NetHack](https://www.nethack.org/), one of 
 - **[[Save File Transfer]]** — How to move your save files across different devices and platforms
 - **[[Game Quirks]]** — Some non-obvious quirks where the game may behave in surprising ways
 
+## 📚 Articles
+
+- **[[Articles]]** — In-depth articles for gamers, software developers, and AI practitioners
+
 ## 📖 Reference
 
 - **[[Commands]]** — Commands available as clickable GUI buttons in the modern versions of the game.
