@@ -19,13 +19,13 @@ Below is how the architecture fits together, how the benchmark scores answers, a
 
 ## 🐺 Why Build a Game in .NET MAUI and Avalonia UI?
 
-NetHack's C codebase models thousands of interactions between items, monsters, and dungeon features. Rewriting those rules in C# would have meant years of introducing subtle bugs into mechanics that players have relied on for decades.
+NetHack's C/C++ codebase has about 500,000 lines of code and models thousands of interactions between items, monsters, and dungeon features. Rewriting those rules in C# would have been a massive work and meant years of introducing subtle bugs into mechanics that players have relied on for decades.
 
-Instead, we kept the C core, extended it for GnollHack, and compiled it as a native library on every platform. A shared C# layer talks to the engine through P/Invoke.
+Instead, we kept the C/C++ core, extended it for GnollHack, and compiled it as a native library on every platform. A shared C# layer talks to the engine through P/Invoke.
 
 ### Why Xamarin.Forms and SkiaSharp
 
-GnollHack was forked from NetHack 3.6.2 in July 2019 and was at first a Windows desktop game, whose graphics engine was written with GDI+. When we began developing the mobile version, we spent about six months searching for the right technologies, and in May 2021 we started a new client on Xamarin.Forms and SkiaSharp. We chose them over a game engine for these reasons:
+GnollHack was forked from NetHack 3.6.2 in July 2019 and was at first a Windows desktop game based on NetHack's official graphical Windows port (`NetHackW.exe`). We extended wrote its graphics engine with GDI+. When we began developing the mobile version, we spent about six months searching for the right technologies, and in May 2021 we started a new client on Xamarin.Forms and SkiaSharp. We chose them over a game engine for these reasons:
 
 1. **Development in Visual Studio.** We wanted to build the C engine and the client in Visual Studio, and to debug C and C# code in the same session. That ruled out engines that are used through their own editor, such as Unity and Godot.
 2. **One codebase for Android and iOS.** Xamarin.Forms shared about 95% of the code between the two. Once the Android version was ready, the iOS version took about two weeks.
