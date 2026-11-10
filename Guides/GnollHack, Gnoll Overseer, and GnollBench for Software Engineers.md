@@ -15,7 +15,7 @@ Our team at [[Sound Mind Games|/Developer]] (Hyvän mielen pelit ry, a Finnish n
 
 NetHack is famous for decades of hidden rules, and looking things up in ten wiki tabs mid-fight breaks the flow of the game, especially on a phone or a handheld. So we built the **[[/Gnoll Overseer]]**, an opt-in AI advisor inside the game that gives players free access to frontier models from Anthropic, Google, and OpenAI. Because a single confident wrong answer can kill a character, we also built **[[/GnollBench]]**, a benchmark that tests models under the live product's own prompt and tools.
 
-Below is how the architecture fits together, how the benchmark scores answers, and how we use coding agents to build the AI stack while the game itself stays human-made.
+Below is how the architecture fits together, how the benchmark scores answers, and how we use coding agents for most of our code while the game's C engine, art, music, and voiceovers stay human-made.
 
 ## 🐺 Why Build a Game in .NET MAUI and Avalonia UI?
 
@@ -145,16 +145,18 @@ For the full statistical model, the comparability rules, and a comparison with p
 
 ## 🛠️ How We Use Coding Agents, and Where We Don't
 
-We draw a clear line between the **GnollHack game** and the **AI tools** around it:
+Coding agents have improved quickly, and with the release of Claude Opus 5.5 we moved to an agentic workflow: AI agents write most of our code, and human developers supervise them. How far that goes depends on the codebase:
 
-- **In GnollHack itself**, a human developer writes the code and is its lead architect and game designer. AI works as an assistant: a code reviewer, an edge-case checker, a research aid, an expert helper for difficult tasks, and an investigator of crash reports in Sentry. All art, music, and voiceovers are made by people.
-- **In the Gnoll Overseer and GnollBench**, autonomous AI coding agents write all of the code. A human is the system architect, reviews every implementation plan, and tests the result. Promotional and web illustrations for them are made with generative AI tools.
+- **GnollHack's C engine** is the one place where a human developer still has to write the code, because the C code is complex and fragile. Even there, AI agents review the code and check it for edge-case errors, and they help with research, difficult tasks, and crash reports from Sentry.
+- **Most of our other codebases** are written in modern languages such as C# and TypeScript, and there coding agents write most of the code. The Gnoll Overseer and GnollBench are written entirely by agents. Detailed agent skills let the agents write large amounts of code quickly with few errors. The agents also write unit tests and check that their changes have not caused regressions. A human is the system architect, reviews every implementation plan, and tests the result.
 
-The rules are in our [[/AI Usage Policy]]. Our main coding agent is Claude Code, and our shared agent instructions also support Google Antigravity and OpenAI Codex. Two workflows made coding agents practical on a stack this mixed.
+All art, music, and voiceovers in the game are made by people. On the other hand, many pieces of art used by the Gnoll Overseer and GnollBench are made with generative AI tools. Our AI usage guidelines are detailed in our [[/AI Usage Policy]].
+
+Our main coding harness is Claude Code, but the AI skills in our GitHub repositories also support Google Antigravity and OpenAI Codex.
 
 ### 1. Evidence-Based Crash Analysis Across C and C# with Sentry MCP
 
-GnollHack runs a C99 engine inside a .NET MAUI or Avalonia host, so a production crash can start in C, in C#, or inside one of the frameworks underneath. Both layers report to Sentry. The C# app uses Sentry's .NET SDK. When the C engine reports an error, the report carries the engine's last 40 debug messages and the current game state, and both layers add breadcrumbs. Hard native crashes are caught by `sentry-native`, and `EnableScopeSync` hands it the latest .NET context, so even those reports show what the player was doing.
+GnollHack runs a C99 engine inside a .NET MAUI or Avalonia host, so a production crash can start in C, in C#, or inside one of the frameworks underneath. Both layers report to Sentry, the error reporting service we are using with GnollHack. The C# app uses Sentry's .NET SDK. When the C engine reports an error, the report carries the engine's last 40 debug messages and the current game state, and both layers add breadcrumbs. Hard native crashes are caught by `sentry-native`, and `EnableScopeSync` hands it the latest .NET context, so even those reports show what the player was doing.
 
 ![One Sentry event with evidence from the C engine and the C# app](/uploads/Guides/GnollHack,%20Gnoll%20Overseer,%20and%20GnollBench%20for%20Software%20Engineers/sentry-one-event-two-layers-q85.webp)
 *How the C engine and the C# app contribute evidence to the same Sentry event. From our October 2026 engineering review.*
@@ -162,10 +164,8 @@ GnollHack runs a C99 engine inside a .NET MAUI or Avalonia host, so a production
 When an issue appears in Sentry, our coding agent connects through the **Sentry MCP** (Model Context Protocol) server and follows a crash-analysis skill:
 
 1. It reads every event of the issue, with breadcrumbs, extras, and native and managed stack traces.
-2. It reads our code next to **nine framework repositories checked out on local disk**: .NET MAUI, the .NET runtime, .NET for Android, .NET for iOS, WinUI, CsWinRT, SkiaSharp, Skia, and HarfBuzz. When a stack trace ends in framework code, the agent keeps reading.
-3. It must end its report with a plain **Yes or No**: Was a definitive root cause found? Speculation does not count. If the answer is No, the agent proposes targeted debug logging, wizard-mode test scenarios, and what to watch for in the next reports. If it is Yes, it fixes our bug or drafts an upstream issue with a minimal reproduction.
-
-For example, a recurring "Window was already deactivated" exception from iOS and Windows turned out to be thrown by .NET MAUI itself when window activation events re-enter. It is reported upstream as [dotnet/maui#31315](https://github.com/dotnet/maui/issues/31315), and our client works around it until a fix ships. Every such workaround is recorded in a register in the repository, with the upstream issue and the condition for removing it.
+2. It reads our code next to **nine framework repositories checked out on local disk**: .NET MAUI, the .NET runtime, .NET for Android, .NET for iOS, WinUI, CsWinRT, SkiaSharp, Skia, and HarfBuzz. Lately, also Avalonia UI repositories have also joined the crowd. When a stack trace ends in framework code, the agent keeps reading.
+3. It must end its report with a plain **Yes or No**: Was a definitive root cause found? Speculation does not count. If the answer is No, the agent proposes targeted debug logging, wizard-mode test scenarios, and what to watch for in the next reports. If it is Yes, it fixes the bug or drafts an upstream issue with a minimal reproduction code snippet or creates an entire reproduction repository on GitHub.
 
 ### 2. On-Demand Agent Skills and a Shared Plans Repository
 
