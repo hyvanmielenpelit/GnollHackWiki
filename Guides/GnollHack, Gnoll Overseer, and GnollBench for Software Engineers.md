@@ -11,7 +11,7 @@ In NetHack, one wrong move can end a character that took days to build. Eat the 
 
 That question shaped the advisor and the benchmark behind it. The stack they run on is unusual as well. Most developers know [.NET MAUI](https://github.com/dotnet/maui) and [Avalonia UI](https://avaloniaui.net/) from enterprise forms and business software, and game developers starting a cross-platform 2D project usually reach for Unity, Godot, or Unreal.
 
-Our team at [[Sound Mind Games|/Developer]] (Hyvän mielen pelit ry, a Finnish nonprofit working on gaming and mental health) took a different route. We built [GnollHack](https://gnollhack.com/), a free, open-source graphical remaster and expansion of the 1987 roguelike [NetHack](https://www.nethack.org/), on **Xamarin.Forms** (which is today succeeded by .NET MAUI) and **SkiaSharp**. In 2026, we integrated Avalonia UI to the game as the cross-platform desktop renderer for .NET MAUI controls on Linux and macOS. The game ships on [Steam](https://store.steampowered.com/app/3558190/GnollHack/?utm_source=wiki) (Windows, Linux, macOS, and Steam Deck), [Google Play](https://play.google.com/store/apps/details?id=com.soundmindentertainment.gnollhack), and the [App Store](https://apps.apple.com/app/gnollhack/id1626979951).
+Our team at [[Sound Mind Games|/Developer]] (Hyvän mielen pelit ry, a Finnish nonprofit working on gaming and mental health) took a different route. We built [GnollHack](https://gnollhack.com/), a free, open-source graphical remaster and expansion of the 1987 roguelike [NetHack](https://www.nethack.org/), on **Xamarin.Forms** and **SkiaSharp**, and migrated it to **.NET MAUI**, the successor of Xamarin.Forms, by April 2025. In 2026, we integrated Avalonia UI into the game as the cross-platform desktop renderer for .NET MAUI controls on Linux and macOS. The game ships on [Steam](https://store.steampowered.com/app/3558190/GnollHack/?utm_source=wiki) (Windows, Linux, macOS, and Steam Deck), [Google Play](https://play.google.com/store/apps/details?id=com.soundmindentertainment.gnollhack), and the [App Store](https://apps.apple.com/app/gnollhack/id1626979951).
 
 NetHack is famous for decades of hidden rules, and looking things up in ten wiki tabs mid-fight breaks the flow of the game, especially on a phone or a handheld. So we built the **[[/Gnoll Overseer]]**, an opt-in AI advisor inside the game that gives players free access to frontier models from Anthropic, Google, and OpenAI. Because a single confident wrong answer can kill a character, we also built **[[/GnollBench]]**, a benchmark that tests models under the live product's own prompt and tools.
 
@@ -23,11 +23,29 @@ NetHack's C codebase models thousands of interactions between items, monsters, a
 
 Instead, we kept the C core, extended it for GnollHack, and compiled it as a native library on every platform. A shared C# layer talks to the engine through P/Invoke.
 
-We chose Xamarin.Forms/.NET MAUI and SkiaSharp over a game engine for three reasons:
+### Why Xamarin.Forms and SkiaSharp
 
-1. **Cross-platform UI library.** We didn't want program UI controls manually and Xamarin.Forms / .NET MAUI provided a cross-platform UI library for every platform, something that was missing from many game engines we tried out.
-2. **SkiaSharp and FMOD cover the game parts.** [SkiaSharp](https://github.com/mono/SkiaSharp) draws the 2D dungeon with GPU acceleration at 60 FPS or more (up to 90 FPS in the Avalonia builds), and [FMOD](https://www.fmod.com/) plays sound effects, music, and voiceovers. The C engine runs on its own thread, so turn calculations never block the UI or the animations.
-3. **Avalonia UI closes the desktop gap.** On its own, .NET MAUI targets Android, iOS, and Windows (through WinUI 3). It has no official Linux backend, and WinUI 3 apps do not run under Valve's Proton compatibility layer on the Steam Deck. Instead of maintaining a second UI codebase, we compile the same `GnollHackM.csproj` and XAML pages with `-p:GnhAvalonia=true` on top of `Avalonia.Controls.Maui` and .NET 11 in our [[/Development/Avalonia port]], while the Android, iOS, and Windows clients stay on .NET 10. That one MSBuild property gives us native builds for Linux, the Steam Deck, and Apple Silicon Macs, rendering through OpenGL on Linux, Metal on macOS, and Direct3D 11 through ANGLE on Windows.
+GnollHack was forked from NetHack 3.6.2 in July 2019 and was at first a Windows desktop game, whose graphics engine was written with GDI+. When we began developing the mobile version, we spent about six months searching for the right technologies, and in May 2021 we started a new client on Xamarin.Forms and SkiaSharp. We chose them over a game engine for these reasons:
+
+1. **Development in Visual Studio.** We wanted to build the C engine and the client in Visual Studio, and to debug C and C# code in the same session. That ruled out engines that are used through their own editor, such as Unity and Godot.
+2. **One codebase for Android and iOS.** Xamarin.Forms shared about 95% of the code between the two. Once the Android version was ready, the iOS version took about two weeks.
+3. **Cross-platform UI library.** We didn't want to program UI controls manually, and Xamarin.Forms provided a UI control library for both platforms, something that was missing from most of the technologies we tried out. It also gave access to device features such as file sharing and preferences.
+4. **Backing by Microsoft.** Xamarin.Forms was well established, and Microsoft was already building its successor, .NET MAUI.
+5. **Interoperability with C.** .NET can call a native C library and marshal its data to C# and back.
+6. **SkiaSharp resembles GDI+.** That made the graphics engine of the Windows client easy to port. SkiaSharp also drew the main screen at about 30 FPS on the CPU and 60 FPS on the GPU, even on low-end devices.
+7. **FMOD could be made to work.** [FMOD](https://www.fmod.com/), our sound middleware, has a Unity integration for Mono and C#, which Xamarin also uses, and we could build on it to get FMOD working on Android and iOS.
+
+C# was also a language we had used for 15 years.
+
+### From Xamarin.Forms to .NET MAUI
+
+The Android version entered beta in April 2022 and the iOS version in June 2022, and both were officially released on March 18, 2023. Work on the .NET MAUI client began in August 2023. Its first release was the Windows version, which entered beta on July 30, 2024, on .NET MAUI 8. The Android and iOS versions moved from Xamarin.Forms to .NET MAUI between February and April 2025, and the Windows version was released on Steam on April 30, 2025.
+
+Today, [SkiaSharp](https://github.com/mono/SkiaSharp) draws the 2D dungeon with GPU acceleration at 60 FPS or more (up to 90 FPS in the Avalonia builds), and FMOD plays sound effects, music, and voiceovers. The C engine runs on its own thread, so turn calculations never block the UI or the animations.
+
+### Avalonia UI on Linux and macOS
+
+In GnollHack, .NET MAUI itself runs the Android, iOS, and Windows clients, the last through WinUI 3. .NET MAUI has no official Linux backend, and WinUI 3 apps do not run under Valve's Proton compatibility layer on the Steam Deck. Instead of maintaining a second UI codebase, we compile the same `GnollHackM.csproj` and XAML pages with `-p:GnhAvalonia=true` on top of `Avalonia.Controls.Maui` and .NET 11 in our [[/Development/Avalonia Port]], while the Android, iOS, and Windows clients stay on .NET 10. That one MSBuild property gives us native builds for Linux, the Steam Deck, and Apple Silicon Macs, rendering through OpenGL on Linux and Metal on macOS. The Linux version was released on Steam on October 22, 2026, and the macOS version on November 5, 2026. The same build also runs on Windows, through Direct3D 11 and ANGLE, for development and testing.
 
 GnollHack in numbers:
 
@@ -152,7 +170,7 @@ Every non-trivial feature follows the same six steps:
 
 ## 💡 What We Learned
 
-- **Keep the legacy core and wrap it.** A 1987 C engine, compiled as a native library under a modern C# UI, kept decades of tested game rules intact.
+- **Keep the legacy core and wrap it.** NetHack's C engine, compiled as a native library under a modern C# UI, kept decades of tested game rules intact.
 - **Give the model tools, not trust.** The Overseer looks facts up in the wiki, the game data, and the source code instead of answering from memory.
 - **Benchmark the product, not the model.** Testing with the production prompt and tools finds the failures players would actually see.
 - **Make honesty pay.** A cap on dangerous errors and a floor for honest abstentions make "I could not verify this" score higher than a confident guess.
