@@ -17,7 +17,7 @@ NetHack is famous for decades of hidden rules, and looking things up in ten wiki
 
 Below is how the architecture fits together, how the benchmark scores answers, and how we use coding agents for most of our code while the game's C engine, art, music, and voiceovers stay human-made.
 
-## 🐺 Why Build a Game in .NET MAUI and Avalonia UI?
+## Why Build a Game in .NET MAUI and Avalonia UI?
 
 NetHack's C/C++ codebase has about 500,000 lines of code and models thousands of interactions between items, monsters, and dungeon features. Rewriting those rules in C# would have been a massive amount of work and meant years of introducing subtle bugs into mechanics that players have relied on for decades.
 
@@ -55,7 +55,7 @@ GnollHack in numbers:
 - **Content:** Over 23,000 base tiles of 64×96 pixels, over 1,100 sound effects, 37 music tracks, and over 5,000 voiceover lines recorded by 96 voice actors in 111 roles. All of it was made by artists, composers, and voice actors, not by generative AI.
 - **Project:** Over 11,000 commits, about 4,000 monthly players (most of them on mobile), and a 4.6★ rating on Google Play. The game is free, with no ads or microtransactions.
 
-## 🧙 Gnoll Overseer: Free Frontier AI Inside a Game Client
+## Gnoll Overseer: Free Frontier AI Inside a Game Client
 
 A typical GnollHack playthrough lasts about 50,000 turns over several days. Along the way, a player runs into situations where three or four obscure mechanics interact at once: monster resistances, character intrinsics, cursed gear, and prayer timeouts. Reading a separate wiki article for each one is slow.
 
@@ -84,7 +84,7 @@ In the game, the chat runs in WebView2 on Windows, `WKWebView` on iOS and macOS,
 
 For more detail on the server design and the client bridge, see the [[/Guides/Technological Overview of Gnoll Overseer]].
 
-## 👑 GnollBench: Benchmarking AI When Wrong Advice Kills Characters
+## GnollBench: Benchmarking AI When Wrong Advice Kills Characters
 
 Public AI leaderboards such as [Artificial Analysis](https://artificialanalysis.ai/) and [Arena](https://arena.ai/) answer a general question: How capable is this model at math, coding, and general chat? They cannot tell you whether a model will confidently tell a player to fight a cockatrice bare-handed (which turns the character to stone), or whether it can read a bitmask in GnollHack's C source correctly.
 
@@ -143,7 +143,7 @@ Reliability counts too. **GPT-6.1 Sol (medium)** scored 86.4 at 19.3 seconds per
 
 For the full statistical model, the comparability rules, and a comparison with public benchmarks such as Artificial Analysis, HealthBench, and BALROG, see the [[/Guides/Technological Overview of GnollBench]] and the [[/Guides/Comparison of GnollBench and Popular AI Benchmarks]].
 
-## 🛠️ How We Use Coding Agents, and Where We Don't
+## How We Use Coding Agents, and Where We Don't
 
 Coding agents have improved quickly, and with the release of Claude Opus 5.5, we moved to an agentic workflow: AI agents write most of our code, and human developers supervise them. How far that goes depends on the codebase:
 
@@ -181,7 +181,7 @@ One skill governs how every non-trivial change is made: our implementation plann
 
 Agents commit and push to a project repository only when a human asks them to.
 
-## 💡 Summary
+## Summary
 
 GnollHack keeps NetHack's C engine as a native library and runs a shared C# client on top of it. We started the client on Xamarin.Forms and SkiaSharp in 2021, migrated it to .NET MAUI by April 2025, and brought it to Linux, the Steam Deck, and macOS in 2026 through Avalonia UI, all from one codebase.
 
@@ -191,20 +191,30 @@ GnollBench measures how well a model does that job. It tests each model with the
 
 Coding agents now write most of our code under human supervision, and the C engine is the exception. Two workflows support this: crash analysis that must end with a Yes or No on the root cause, and an implementation planning skill that requires a human-approved plan before any non-trivial change.
 
-## 📖 Learn More
+## Play GnollHack
 
-- [[/Technological Features]] and [[/Development/Avalonia Port]]
-- [[/Guides/Technological Overview of Gnoll Overseer]]
-- [[/Guides/Technological Overview of GnollBench]] and [[/Guides/Comparison of GnollBench and Popular AI Benchmarks]]
-- [[/Development/Design Details of Native Crash Reporting]]
+- [Steam](https://store.steampowered.com/app/3558190/GnollHack/?utm_source=wiki-article) — Windows, macOS, Linux, and Steam Deck
+- [Google Play](https://play.google.com/store/apps/details?id=com.soundmindentertainment.gnollhack) — Android
+- [App Store](https://apps.apple.com/app/gnollhack/id1626979951) — iOS and iPadOS
 
-## 🔗 External Links
+## Try the Gnoll Overseer
 
-- **Play GnollHack:** [Steam](https://store.steampowered.com/app/3558190/GnollHack/?utm_source=wiki) (Windows, Linux, macOS, and Steam Deck), [Google Play](https://play.google.com/store/apps/details?id=com.soundmindentertainment.gnollhack), the [App Store](https://apps.apple.com/app/gnollhack/id1626979951), and [GitHub Releases](https://github.com/hyvanmielenpelit/GnollHack/releases)
-- **Try the Gnoll Overseer:** In the game, or on the web at [overseer.gnollhack.com](https://overseer.gnollhack.com)
-- **Game client and C engine:** [github.com/hyvanmielenpelit/GnollHack](https://github.com/hyvanmielenpelit/GnollHack)
-- **Gnoll Overseer and GnollBench server:** [github.com/hyvanmielenpelit/MobileGnollHackLogger](https://github.com/hyvanmielenpelit/MobileGnollHackLogger)
+- In the game with the **Overseer** menu button
+- On the web at [overseer.gnollhack.com](https://overseer.gnollhack.com)
 
-## 📅 Validity
+Using the Gnoll Overseer requires a free [GnollHack account](https://account.gnollhack.com/).
 
-As of version 3.39 and November 9, 2026.
+## GitHub Repositories
+
+- [GnollHack](https://github.com/hyvanmielenpelit/GnollHack)
+- [GnollHack Account and Gnoll Overseer](https://github.com/hyvanmielenpelit/MobileGnollHackLogger)
+
+## Learn More
+
+- [[/Technological Features]]
+- [[/Guides/What Makes Gnoll Overseer Special]]
+- [[/Guides/Comparison of GnollBench and Popular AI Benchmarks]]
+
+## Validity
+
+As of version 3.39 and November 10, 2026.
