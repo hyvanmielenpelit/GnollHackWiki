@@ -149,7 +149,8 @@
   <meta property="og:site_name" content="GnollHack Wiki" />
   <meta property="og:title" content="{{title}}" />
   <meta property="og:description" content="{{description}}" />
-  <meta property="og:url" content="https://wiki.gnollhack.com/{{escaped_url_path}}" />
+  {{^noindex}}{{#canonical_url}}<link rel="canonical" href="{{canonical_url}}" />{{/canonical_url}}{{/noindex}}
+  <meta property="og:url" content="{{#canonical_url}}{{canonical_url}}{{/canonical_url}}{{^canonical_url}}https://wiki.gnollhack.com/{{escaped_url_path}}{{/canonical_url}}" />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="https://wiki.gnollhack.com/.gollum/images/gnollhack-wiki-og-v3.jpg" />
   <meta property="og:image:width" content="1200" />
