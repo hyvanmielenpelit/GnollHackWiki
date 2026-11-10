@@ -66,9 +66,21 @@ The **[[/Gnoll Overseer]]** is an optional advisor built into the game client, a
 
 - **Free frontier models, or bring your own key:** Players get free system models from OpenAI, Google, and Anthropic. They can also add their own API key.
 - **Live game snapshots from the C engine:** When a player opens the Overseer during a game, the C engine writes a plain-text snapshot of the game state that covers attributes, equipment, inventory and container contents, the visible map with a coordinate legend, recent messages, discoveries, and conducts.
-- **31 tools, 20 on the server and 11 on the device:** The Overseer looks up facts instead of relying on what the model remembers from training. On the server (ASP.NET Core and SignalR), tools query monster, item, and artifact definitions, search nearly 5,000 pages of the GnollHack and NetHack wikis with Lucene.NET, and read an in-memory index of both games' C source code, built with a C lexer. A tool policy sets the order of sources: the game snapshot first, then the knowledge base, the wiki and game data, the source code, GitHub, and the web. For multi-step research, the main model can hand work to three specialist sub-agents that run in parallel (the Wiki Researcher, the Source Investigator, and the Game Data Analyst). Players turn them on in the settings.
-- **A two-way bridge into the native app:** In the game, the Angular AI chat interface runs inside the platform's WebView, which is WebView2 on Windows, `WKWebView` on iOS and macOS, Android WebView on Android, and the Chromium Embedded Framework on Linux. When the model needs something from the player's device, the server sends a `tool_client_request` event over SignalR, the Angular app calls into the C# client through the platform bridge, and one of the 11 device tools returns the data: a fresh game snapshot, the full message history, the dumplogs (end-of-game reports) of past characters, or the game's panic and app logs.
+- **31 tools, 20 on the server and 11 on the device:** The Overseer looks up facts instead of relying on what the model remembers from training. The server tools query monster, item, and artifact definitions, search nearly 5,000 pages of the GnollHack and NetHack wikis, and read the C source code of both games. The device tools return data from the player's own device, such as a fresh game snapshot, the full message history, the dumplogs (end-of-game reports) of past characters, and the game's panic and app logs. A tool policy sets the order of sources: the game snapshot first, then the knowledge base, the wiki and game data, the source code, GitHub, and the web. For multi-step research, the main model can hand work to three specialist sub-agents that run in parallel (the Wiki Researcher, the Source Investigator, and the Game Data Analyst). Players turn them on in the settings.
 - **Spoiler protection and privacy modes:** By default, the Overseer checks what the player has already discovered, so it does not spoil unseen bosses or puzzle solutions. Each chat can be Standard, Confidential (encrypted at rest, internet tools off, and permanently destroyed on deletion), or Incognito (kept in server memory only and never written to disk).
+
+### Technology Stack
+
+The Overseer is a web application that the game embeds:
+
+| Layer | Technology | Role |
+| :--- | :--- | :--- |
+| **Frontend** | Angular and TypeScript | A single-page chat application. The same app runs in a web browser and inside the game. |
+| **Backend** | ASP.NET Core with SignalR, and SQL Server through Entity Framework Core | Calls the AI providers, runs the server tools, and streams each answer to the chat as it is written. |
+| **Knowledge sources** | Lucene.NET, and an in-memory source code index built with a custom C lexer | Full-text search of both wikis, and lookups in the C source code of GnollHack and NetHack. |
+| **GnollHack integration** | The platform's WebView, with a two-way JavaScript bridge to the C# client | Shows the chat inside the game and lets the server call the device tools. |
+
+In the game, the chat runs in WebView2 on Windows, `WKWebView` on iOS and macOS, Android WebView on Android, and the Chromium Embedded Framework on Linux. When the model needs something from the player's device, the server sends a request to the chat over SignalR, the chat passes it to the C# client through the bridge, and the result travels back the same way.
 
 For more detail on the server design and the client bridge, see the [[/Guides/Technological Overview of Gnoll Overseer]].
 
