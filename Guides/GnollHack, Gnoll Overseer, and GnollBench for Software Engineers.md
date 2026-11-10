@@ -19,13 +19,13 @@ Below is how the architecture fits together, how the benchmark scores answers, a
 
 ## 🐺 Why Build a Game in .NET MAUI and Avalonia UI?
 
-NetHack's C/C++ codebase has about 500,000 lines of code and models thousands of interactions between items, monsters, and dungeon features. Rewriting those rules in C# would have been a massive work and meant years of introducing subtle bugs into mechanics that players have relied on for decades.
+NetHack's C/C++ codebase has about 500,000 lines of code and models thousands of interactions between items, monsters, and dungeon features. Rewriting those rules in C# would have been a massive amount of work and meant years of introducing subtle bugs into mechanics that players have relied on for decades.
 
 Instead, we kept the C/C++ core, extended it for GnollHack, and compiled it as a native library on every platform. A shared C# layer talks to the engine through P/Invoke.
 
 ### Why Xamarin.Forms and SkiaSharp
 
-GnollHack was forked from NetHack 3.6.2 in July 2019 and was at first a Windows desktop game based on NetHack's official graphical Windows port (`NetHackW.exe`). We extended wrote its graphics engine with GDI+. When we began developing the mobile version, we spent about six months searching for the right technologies, and in May 2021 we started a new client on Xamarin.Forms and SkiaSharp. We chose them over a game engine for these reasons:
+GnollHack was forked from NetHack 3.6.2 in July 2019 and was first purely a text-based ASCII game. In 2020 and 2021, we wrote the first version of the game's graphical port, which was based on NetHack's graphical Windows version that used simple 2D tiles (`NetHackW.exe`). We extended it and wrote a new graphics engine with GDI+. That version of GnollHack was released on January 22, 2021. Shortly after that, we began developing the mobile version, and we spent about five months searching for the right technologies, and in May 2021 we started programming a new client with Xamarin.Forms and SkiaSharp. We chose them over a game engine for these reasons:
 
 1. **Development in Visual Studio.** We wanted to build the C engine and the client in Visual Studio, and to debug C and C# code in the same session. That ruled out engines that are used through their own editor, such as Unity and Godot.
 2. **One codebase for Android and iOS.** Xamarin.Forms shared about 95% of the code between the two. Once the Android version was ready, the iOS version took about two weeks.
@@ -33,19 +33,19 @@ GnollHack was forked from NetHack 3.6.2 in July 2019 and was at first a Windows 
 4. **Backing by Microsoft.** Xamarin.Forms was well established, and Microsoft was already building its successor, .NET MAUI.
 5. **Interoperability with C.** .NET can call a native C library and marshal its data to C# and back.
 6. **SkiaSharp resembles GDI+.** That made the graphics engine of the Windows client easy to port. SkiaSharp also drew the main screen at about 30 FPS on the CPU and 60 FPS on the GPU, even on low-end devices.
-7. **FMOD could be made to work.** [FMOD](https://www.fmod.com/), our sound middleware, has a Unity integration for Mono and C#, which Xamarin also uses, and we could build on it to get FMOD working on Android and iOS.
+7. **FMOD could be made to work.** [FMOD](https://www.fmod.com/), our sound middleware, has a Unity integration for Mono and C#, which Xamarin also used, and we could build on it to get FMOD working on Android and iOS.
 
 C# was also a language we had used for 15 years.
 
 ### From Xamarin.Forms to .NET MAUI
 
-The Android version entered beta in April 2022 and the iOS version in June 2022, and both were officially released on March 18, 2023. Work on the .NET MAUI client began in August 2023. Its first release was the Windows version, which entered beta on July 30, 2024, on .NET MAUI 8. The Android and iOS versions moved from Xamarin.Forms to .NET MAUI between February and April 2025, and the Windows version was released on Steam on April 30, 2025.
+The Android version entered beta in April 2022 and the iOS version in June 2022, and both were officially released on March 18, 2023. Work on the .NET MAUI client began in August 2023. Its first release was the Windows version, which entered beta on July 30, 2024, on .NET MAUI 8. The Android and iOS versions moved from Xamarin.Forms to .NET MAUI between February and April 2025, and performance enhancements in .NET 9 allowed us to release a non-beta Windows version on Steam on April 30, 2025.
 
 Today, [SkiaSharp](https://github.com/mono/SkiaSharp) draws the 2D dungeon with GPU acceleration at 60 FPS or more (up to 90 FPS in the Avalonia builds), and FMOD plays sound effects, music, and voiceovers. The C engine runs on its own thread, so turn calculations never block the UI or the animations.
 
 ### Avalonia UI on Linux and macOS
 
-In GnollHack, .NET MAUI itself runs the Android, iOS, and Windows clients, the last through WinUI 3. .NET MAUI has no official Linux backend, and WinUI 3 apps do not run under Valve's Proton compatibility layer on the Steam Deck. Instead of maintaining a second UI codebase, we compile the same `GnollHackM.csproj` and XAML pages with `-p:GnhAvalonia=true` on top of `Avalonia.Controls.Maui` and .NET 11 in our [[/Development/Avalonia Port]], while the Android, iOS, and Windows clients stay on .NET 10. That one MSBuild property gives us native builds for Linux, the Steam Deck, and Apple Silicon Macs, rendering through OpenGL on Linux and Metal on macOS. The Linux version was released on Steam on October 22, 2026, and the macOS version on November 5, 2026. The same build also runs on Windows, through Direct3D 11 and ANGLE, for development and testing.
+In GnollHack, .NET MAUI itself runs the Android, iOS, and Windows clients, the last through WinUI 3. .NET MAUI has no official Linux backend, and WinUI 3 apps do not run under Valve's Proton compatibility layer on the Steam Deck. Instead of maintaining a second UI codebase, we compile the same `GnollHackM.csproj` and XAML pages with `Avalonia.Controls.Maui` in our [[/Development/Avalonia Port]]. It gives us native builds for Linux, the Steam Deck, and Apple Silicon Macs, rendering through OpenGL on Linux and Metal on macOS. The Linux version was released on Steam on October 22, 2026, and the macOS version on November 5, 2026. The same build also runs on Windows, through Direct3D 11 and ANGLE, for development and testing.
 
 GnollHack in numbers:
 
@@ -53,7 +53,7 @@ GnollHack in numbers:
 - **Client:** About 180,000 lines of C# and XAML in one shared codebase.
 - **UI backends:** .NET MAUI for Android, iOS, and Windows; `Avalonia.Controls.Maui` for Linux, macOS, and the Steam Deck.
 - **Content:** Over 23,000 base tiles of 64×96 pixels, over 1,100 sound effects, 37 music tracks, and over 5,000 voiceover lines recorded by 96 voice actors in 111 roles. All of it was made by artists, composers, and voice actors, not by generative AI.
-- **Project:** Over 11,000 commits, about 2,000 monthly players (most of them on mobile), and a 4.6★ rating on Google Play. The game is free, with no ads or microtransactions.
+- **Project:** Over 11,000 commits, about 4,000 monthly players (most of them on mobile), and a 4.6★ rating on Google Play. The game is free, with no ads or microtransactions.
 
 ## 🧙 Gnoll Overseer: Free Frontier AI Inside a Game Client
 
@@ -64,10 +64,10 @@ A typical GnollHack playthrough lasts about 50,000 turns over several days. Alon
 
 The **[[/Gnoll Overseer]]** is an optional advisor built into the game client, and it is also available on the web at [overseer.gnollhack.com](https://overseer.gnollhack.com). What sets it apart from most in-game assistants is both its cost model and its architecture:
 
-- **Free frontier models, or bring your own key:** Players get free system models from OpenAI, Google, and Anthropic, such as GPT-6 Luna, Gemini 4 Argon, and Claude Sonnet 5.5. They can also add their own API key, encrypted at rest with AES-256-GCM, and choose from a catalog of 32 models.
+- **Free frontier models, or bring your own key:** Players get free system models from OpenAI, Google, and Anthropic. They can also add their own API key.
 - **Live game snapshots from the C engine:** When a player opens the Overseer during a game, the C engine writes a plain-text snapshot of the game state that covers attributes, equipment, inventory and container contents, the visible map with a coordinate legend, recent messages, discoveries, and conducts.
-- **31 tools, 20 on the server and 11 on the device:** The Overseer looks up facts instead of relying on what the model remembers from training. On the server (.NET 10, ASP.NET Core, and SignalR), tools query monster, item, and artifact definitions, search nearly 5,000 pages of the GnollHack and NetHack wikis with Lucene.NET, and read an in-memory index of both games' C source code, built with a C lexer. A tool policy sets the order of sources: the game snapshot first, then the knowledge base, the wiki and game data, the source code, GitHub, and the web. For multi-step research, the main model can hand work to three specialist sub-agents that run in parallel (the Wiki Researcher, the Source Investigator, and the Game Data Analyst). Players turn them on in the settings.
-- **A two-way bridge into the native app:** In the game, the Angular 22 chat runs inside the platform's WebView, which is WebView2 on Windows, `WKWebView` on iOS and macOS, Android WebView on Android, and the Chromium Embedded Framework on Linux. When the model needs something from the player's device, the server sends a `tool_client_request` event over SignalR, the Angular app calls into the C# client through the platform bridge, and one of the 11 device tools returns the data: a fresh game snapshot, the full message history, the dumplogs (end-of-game reports) of past characters, or the game's panic and app logs.
+- **31 tools, 20 on the server and 11 on the device:** The Overseer looks up facts instead of relying on what the model remembers from training. On the server (ASP.NET Core and SignalR), tools query monster, item, and artifact definitions, search nearly 5,000 pages of the GnollHack and NetHack wikis with Lucene.NET, and read an in-memory index of both games' C source code, built with a C lexer. A tool policy sets the order of sources: the game snapshot first, then the knowledge base, the wiki and game data, the source code, GitHub, and the web. For multi-step research, the main model can hand work to three specialist sub-agents that run in parallel (the Wiki Researcher, the Source Investigator, and the Game Data Analyst). Players turn them on in the settings.
+- **A two-way bridge into the native app:** In the game, the Angular AI chat interface runs inside the platform's WebView, which is WebView2 on Windows, `WKWebView` on iOS and macOS, Android WebView on Android, and the Chromium Embedded Framework on Linux. When the model needs something from the player's device, the server sends a `tool_client_request` event over SignalR, the Angular app calls into the C# client through the platform bridge, and one of the 11 device tools returns the data: a fresh game snapshot, the full message history, the dumplogs (end-of-game reports) of past characters, or the game's panic and app logs.
 - **Spoiler protection and privacy modes:** By default, the Overseer checks what the player has already discovered, so it does not spoil unseen bosses or puzzle solutions. Each chat can be Standard, Confidential (encrypted at rest, internet tools off, and permanently destroyed on deletion), or Incognito (kept in server memory only and never written to disk).
 
 For more detail on the server design and the client bridge, see the [[/Guides/Technological Overview of Gnoll Overseer]].
