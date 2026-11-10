@@ -98,7 +98,7 @@ GnollHack is famously tough, so we built the *Gnoll Overseer* to help you along.
 - **[[Development Information]]** — Build instructions, design details, and testing and debugging
 - **[[Technological Features]]** — Major features of GnollHack from the development technology perspective
 - **[[Development Timeline]]** — Important dates in GnollHack development
-- **[[Articles for Software Developers]]** — In-depth articles for gamers, software developers, and AI practitioners
+- **[[Articles for Software Developers]]** — Long-form articles on how GnollHack, its clients, and its AI advisor are built
 
 ## 🤝 Contributions
 
