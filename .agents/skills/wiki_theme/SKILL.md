@@ -12,16 +12,20 @@ marketing site, GnollHack Account, and Gnoll Overseer. `wiki_editing` section 4 
 ## 1. The Files
 
 - `.gollum/css/gnollhack-theme.css`: the theme.
-- `.gollum/fonts/`: Cinzel (variable, weights 600-800) and Lato (400, 400 italic, 700), as
-  latin-subset `.woff2` files, byte copies from the marketing site's `wwwroot/fonts/`.
+- `.gollum/fonts/`: Cinzel (variable, weights 600-800) and Lato (400, 400 italic, 700, 700
+  italic), as latin-subset `.woff2` files. Cinzel is a byte copy from the marketing site's
+  `wwwroot/fonts/`. Lato is version 2.015 (`lato2-latin-*.woff2`), subset with fontTools
+  from the official Lato 2.0 TTFs (`Lato2OFL.zip` from latofonts.com) to the same code
+  points as Google's latin subset, with default OpenType features and hinting kept.
   `Cinzel-OFL.txt` and `Lato-OFL.txt` are the fonts' licenses and stay beside them.
 - `.gollum/images/gnoll-illustration-darkened-bottom-w1920-q60.webp`: the background art, a
   byte copy from the GnollHack Account site's `wwwroot/img/`.
 - `.gollum/templates/layout.mustache`: `<html lang="en" data-color-mode="dark"
   data-dark-theme="dark" data-light-theme="dark">`, the viewport meta
   (`width=device-width, initial-scale=1`, which must never disable zoom with
-  `maximum-scale` or `user-scalable`), the `color-scheme` and `theme-color` metas, a preload of the Cinzel font, and the theme `<link>` right after Gollum's `app` and
-  `print` stylesheets, so that it overrides Primer.
+  `maximum-scale` or `user-scalable`), the `color-scheme` and `theme-color` metas, preloads
+  of the Cinzel font and the regular Lato face, and the theme `<link>` right after Gollum's
+  `app` and `print` stylesheets, so that it overrides Primer.
 
 The code that versions and caches these files is in the GnollHackWikiConfig repository
 (`lib/gnollhack_assets.rb`, `config.rb`).
@@ -96,19 +100,24 @@ is dark only; there is no light mode.
   tonal fill (`--gh-btn-bg`) with a faint edge, on every page, not only in the navigation
   bar. Outline buttons (`.btn-outline`) take the same fill and edge with their own gold
   text; primary buttons keep the gold fill.
-- Width: the text column is as wide as the widest table needs, and text fills it.
-  - From 1012px up, `body > .container-lg` is at most 1185px with a 16px inline gutter, so
-    the panel reaches 1153px in windows of about 1200px and wider. Gollum's inner
+- Width: the text column fits the Home page's disclaimer on one line and the widest
+  table, and text fills it.
+  - From 1012px up, `body > .container-lg` is at most 1235px with a 16px inline gutter, so
+    the panel reaches 1203px in windows of about 1250px and wider. Gollum's inner
     `container-lg` (`.main-content`) has no cap there, and the sidebar is `col-md-3`'s 25%
-    but at most 260px, so the text column holds 811px.
-  - 811px is the widest table's wrapped (min-content) width, Hit Point and Mana
-    Regeneration Rates; at 17px Lato (7.3px per character on average) it is about 110
-    characters per line. A wider panel lengthens every line of prose; a narrower one makes
-    the widest tables scroll. Re-measure when a wider table is added.
+    but at most 260px, so the text column holds 860px.
+  - The Home page's disclaimer (small italic Lato 2.0) is 786px wide on one line in
+    Chromium at 1x and 2x, but Windows at 175% display scaling renders it about 4% wider;
+    860px keeps it on one line there with room to spare.
+  - The widest table's wrapped (min-content) width is 809px, Hit Point and Mana
+    Regeneration Rates, set by its KaTeX formulas, not by Lato. At 17px Lato 2.0 (7.8px per
+    character on average) the column is about 111 characters per line. A wider panel
+    lengthens every line of prose; a narrower one wraps the disclaimer and makes the widest
+    tables scroll. Re-measure when a wider table is added.
   - Code in tables breaks anywhere (`overflow-wrap: anywhere`), so a long path or
     identifier does not hold a table wider than its column.
   - Breakpoints: 768px, sidebar beside the text; 1012px, floating panel and the 260px
-    sidebar cap; about 1200px, the panel at full width. Media queries count the scrollbar.
+    sidebar cap; about 1250px, the panel at full width. Media queries count the scrollbar.
 - After any Gollum upgrade, re-run the visual checks (section 7): new Primer variables or
   hard-coded colors show up there first.
 
@@ -169,10 +178,24 @@ rules inside it.
   button's masked icon in `ButtonText` and the heading link icon in `LinkText`; system
   colors apply.
 
-## 8. Font Subset
+## 8. Font Subset and Weights
 
-The fonts hold the latin subset only. Other characters (emoji, `∕`, `×`, arrows, math) fall
-back to system fonts.
+- The fonts hold the latin subset only. Other characters (emoji, `∕`, `×`, arrows, math)
+  fall back to system fonts. Each Lato `@font-face` declares the subset's `unicode-range`.
+- Lato is the four faces of a text family: regular, italic, bold and bold italic. Every
+  weight the page uses must map onto one of them, or the browser borrows the nearest face
+  (a 500 renders as 400, a 600 as 700) or fakes bold on an italic face.
+- Primer sets weights through `--base-text-weight-*` (`strong` and `b` semibold, `.btn`
+  and `.Counter` medium). The theme's `:root` maps light, normal and medium to 400, and
+  semibold and bold to 700. Theme rules use only 400 and 700.
+- A browser downloads a face only when a page renders text in it, so the bold italic file
+  costs nothing on the many pages without bold italic. The regular face is on every page
+  and is preloaded; the others are not.
+- Adding a weight (Lato 2.0 also has Hairline, Thin, Light, Medium, Semibold, Heavy and
+  Black) adds a file to every page that uses it. Add one only for a visible design need,
+  together with the rules that use it, and subset it the same way.
+- Before changing weights, scan rendered pages for the computed `font-weight` and
+  `font-style` of every Lato text element, and check that each combination has a face.
 
 ## 9. Encoding
 

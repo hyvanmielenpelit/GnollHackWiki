@@ -3,7 +3,7 @@
  *
  * A dark-only skin over Gollum 6 and its Primer CSS, matching the GnollHack
  * marketing site, GnollHack Account, and Gnoll Overseer. The palette and the
- * fonts are the marketing site's.
+ * font families are the marketing site's; Lato is version 2.015.
  *
  * layout.mustache links this file through {{#asset_url}}, which appends
  * ?v=<content hash>, so the file keeps its name when its content changes.
@@ -24,12 +24,18 @@
   src: url("../fonts/cinzel-latin-wght-normal.woff2") format("woff2");
 }
 
+/* Lato: regular, italic, bold and bold italic. Every weight the page asks for maps
+   onto one of these (see the --base-text-weight-* tokens), so the browser never
+   synthesizes bold or italic. unicode-range lists the subset's code points. */
 @font-face {
   font-family: "Lato";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("../fonts/lato-latin-400-normal.woff2") format("woff2");
+  src: url("../fonts/lato2-latin-400-normal.woff2") format("woff2");
+  unicode-range: U+0020-007E, U+00A0-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC,
+    U+2013-2014, U+2018-201A, U+201C-201E, U+2022, U+2026, U+2039-203A, U+2044, U+20AC,
+    U+2122, U+2212;
 }
 
 @font-face {
@@ -37,7 +43,10 @@
   font-style: italic;
   font-weight: 400;
   font-display: swap;
-  src: url("../fonts/lato-latin-400-italic.woff2") format("woff2");
+  src: url("../fonts/lato2-latin-400-italic.woff2") format("woff2");
+  unicode-range: U+0020-007E, U+00A0-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC,
+    U+2013-2014, U+2018-201A, U+201C-201E, U+2022, U+2026, U+2039-203A, U+2044, U+20AC,
+    U+2122, U+2212;
 }
 
 @font-face {
@@ -45,7 +54,21 @@
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url("../fonts/lato-latin-700-normal.woff2") format("woff2");
+  src: url("../fonts/lato2-latin-700-normal.woff2") format("woff2");
+  unicode-range: U+0020-007E, U+00A0-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC,
+    U+2013-2014, U+2018-201A, U+201C-201E, U+2022, U+2026, U+2039-203A, U+2044, U+20AC,
+    U+2122, U+2212;
+}
+
+@font-face {
+  font-family: "Lato";
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/lato2-latin-700-italic.woff2") format("woff2");
+  unicode-range: U+0020-007E, U+00A0-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC,
+    U+2013-2014, U+2018-201A, U+201C-201E, U+2022, U+2026, U+2039-203A, U+2044, U+20AC,
+    U+2122, U+2212;
 }
 
 /* ---------------------------------------------------------------------------
@@ -79,6 +102,14 @@
   --gh-font-sans: "Lato", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   --gh-font-display: "Cinzel", Georgia, serif;
   --gh-font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+
+  /* Primer's weight scale, mapped onto the two Lato weights. Primer sets strong
+     and b to semibold, buttons and counters to medium. */
+  --base-text-weight-light: 400;
+  --base-text-weight-normal: 400;
+  --base-text-weight-medium: 400;
+  --base-text-weight-semibold: 700;
+  --base-text-weight-bold: 700;
 }
 
 @media screen {
@@ -857,11 +888,12 @@
 
 /* Desktop: the panel floats above the background art. */
 @media screen and (min-width: 1012px) {
-  /* The panel is at most 1153px wide, so the text column beside the sidebar is
-     811px: the widest table's wrapped width, about 110 characters per line. A 16px
-     gutter sits beside the panel in narrower windows. */
+  /* The panel is at most 1203px wide, so the text column beside the sidebar is
+     860px: the Home page's disclaimer fits on one line with room to spare, and so
+     does the widest table, at about 111 characters per line. A 16px gutter sits
+     beside the panel in narrower windows. */
   body > .container-lg {
-    max-width: 1185px;
+    max-width: 1235px;
     padding-inline: 16px;
   }
 
