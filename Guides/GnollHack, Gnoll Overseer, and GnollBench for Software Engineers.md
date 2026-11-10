@@ -181,6 +181,16 @@ One skill governs how every non-trivial change is made: our implementation plann
 
 Agents commit and push to a project repository only when a human asks them to.
 
+## 💡 Summary
+
+GnollHack keeps NetHack's C engine as a native library and runs a shared C# client on top of it. We started the client on Xamarin.Forms and SkiaSharp in 2021, migrated it to .NET MAUI by April 2025, and brought it to Linux, the Steam Deck, and macOS in 2026 through Avalonia UI, all from one codebase.
+
+The Gnoll Overseer adds an optional AI advisor to that client. It is a web application that the game embeds, it reads a live snapshot of the game from the C engine, and it looks facts up with its 31 tools instead of relying on the model's memory.
+
+GnollBench measures how well a model does that job. It tests each model with the production prompt and tools, grades the answers with a blind panel of judges from two providers, and scores them so that a dangerous error caps the score and an honest admission of not knowing keeps a floor.
+
+Coding agents now write most of our code under human supervision, and the C engine is the exception. Two workflows support this: crash analysis that must end with a Yes or No on the root cause, and an implementation planning skill that requires a human-approved plan before any non-trivial change.
+
 ## 📖 Learn More
 
 - [[/Technological Features]] and [[/Development/Avalonia Port]]
