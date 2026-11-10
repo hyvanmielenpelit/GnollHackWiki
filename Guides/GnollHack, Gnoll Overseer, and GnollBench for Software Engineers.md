@@ -98,8 +98,8 @@ A candidate model is not tested with a simplified benchmark prompt. It gets the 
 
 When one AI model grades another, it tends to favor answers written by models from its own provider. GnollBench spreads grading over several roles:
 
-- **Candidate:** Answers the questions of one or more suites with the production tools. A standard suite has 18 questions, six each at the Simple, Intermediate, and Advanced levels. A suite can also be built from a real exported game snapshot, with questions about that exact game.
-- **Assessor and Co-Assessor (the panel):** Two judge models from **two different providers**, never the model under test. Both grade every answer at the same time, **blind** to each other, against a detailed rubric. Their average sets the quality score.
+- **Candidate (the model under test):** Answers the questions of one or more suites with the production tools. A standard suite has 18 questions, six each at the Simple, Intermediate, and Advanced levels. A suite can also be built from a real exported game snapshot, with questions about that exact game.
+- **Assessor and Co-Assessor (the panel):** Two judge models from **two different providers**, with at least one model from a provider different from that of the model under test. Both grade every answer at the same time, **blind** to each other, against a detailed rubric (expected answer criteria). Their average sets the quality score.
 - **Reference Reader:** An optional third judge from a third provider. It grades every answer blind as an anchor for measuring how well the judges agree, and it flags disputed verdicts for human review. It never changes a score.
 - **Claim Verifier:** An optional agent with read-only tools that checks unverified and disputed claims against the C source, the wiki, or the game snapshot. Every verdict must cite its evidence, such as the deciding lines of a source file.
 
