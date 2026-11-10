@@ -171,24 +171,15 @@ When an issue appears in Sentry, our coding agent connects through the **Sentry 
 
 To keep coding agents effective without filling their context windows, the rules loaded into every session stay small (under 10,000 tokens), and everything else goes into more than 60 modular skills, over 250,000 words on client architecture, server patterns, build pipelines, and benchmark analysis. A skill loads **only when a task needs it**. For example, our `build-pipeline` skill documents every step and trap of building the native C solution, the game data, and the .NET MAUI targets. With it, an agent, or a framework engineer checking one of our bug reports, can build the whole project from a clean clone.
 
-Every non-trivial feature follows the same six steps:
+One skill governs how every non-trivial change is made: our implementation planning skill, `agent-implementation-planning`. It requires a written plan, approved by a human, before an agent changes more than one file, a public interface or database schema, or anything that crosses a build step. Single-file fixes need no plan. The work goes through five phases:
 
-1. **Research:** Read-only sub-agents inspect the live codebase.
-2. **Plan:** The agent writes a versioned implementation plan into a shared Git repository, so the plan follows the work across computers, sessions, and agent tools.
-3. **Approve:** A human architect reviews and approves the plan before any source file is touched.
-4. **Execute:** Coding sub-agents implement the changes, each one working only on its own files.
-5. **Verify:** The main agent, not the sub-agents, runs the build and the tests.
-6. **Commit:** Agents commit and push only when a human asks them to.
+1. **Research:** The agent reads the affected code and its dependencies without modifying any file. It works from the source code, not from earlier plans, which may describe rejected or outdated designs.
+2. **Plan:** The agent writes the plan as a Markdown document in a fixed format: the affected files, the proposed changes in dependency order, the work assigned to sub-agents, the risks, and the verification plan. The plan must be complete enough for an implementer that has none of the planning session's context. It is saved in a shared Git repository of plans, so it follows the work across computers, sessions, and agent tools, and a revision becomes a new version instead of overwriting the old one.
+3. **Approve:** The agent stops, and a human architect reviews the plan. No project file is edited before the plan is approved.
+4. **Execute:** The agent implements the plan step by step and tracks its progress in a checklist. Coding sub-agents edit files, each one only its own, but they never build or test.
+5. **Verify:** The main agent runs the builds, the tests, and the linters itself, and writes a walkthrough of what changed and what was tested, with a commit description for the work.
 
-## 💡 What We Learned
-
-- **Keep the legacy core and wrap it.** NetHack's C engine, compiled as a native library under a modern C# UI, kept decades of tested game rules intact.
-- **Give the model tools, not trust.** The Overseer looks facts up in the wiki, the game data, and the source code instead of answering from memory.
-- **Benchmark the product, not the model.** Testing with the production prompt and tools finds the failures players would actually see.
-- **Make honesty pay.** A cap on dangerous errors and a floor for honest abstentions make "I could not verify this" score higher than a confident guess.
-- **Make agents prove their conclusions.** A crash report that must answer Yes or No keeps an agent from presenting a guess as a root cause.
-
-Everything described here is open source: the game, the C engine, the Overseer, and GnollBench.
+Agents commit and push to a project repository only when a human asks them to.
 
 ## 📖 Learn More
 
