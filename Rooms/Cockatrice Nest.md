@@ -8,6 +8,6 @@ A Cockatrice Nest is one of the most dangerous special rooms in the game. The ex
 
 Cockatrice nests have a 1 in 8 chance of generating on eligible levels starting from dungeon level 15, provided that [[cockatrices|/Monsters/Cockatrice]] have not been genocided or made extinct. The room is typically small and densely packed.
 
-## 🪨 Contents
+## 🗿 Contents
 
 Roughly 1 in 3 squares in a Cockatrice Nest contains a [[statue|/Items/Statue]] of a random monster. These [[statues|/Items/Statue]] function as item containers and can contain a variety of random objects.

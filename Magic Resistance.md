@@ -16,7 +16,7 @@ Magic resistance protects the player from the following spells cast by monsters:
 - **Open wounds**: Damage taken from the spell is halved.
 - **Psi bolt**: Damage taken from the spell is halved.
 
-### 🪤 Traps
+### 🕳️ Traps
 
 Magic resistance protects the player from the effects of certain traps:
 

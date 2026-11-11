@@ -10,7 +10,7 @@ Bones files are saved levels where an earlier dead character may have risen as a
 - **Another monster instead of a ghost.** A character killed in melee by a [[/Monsters/spectre]], [[/Monsters/barrow wight]] or [[/Monsters/ghoul]] normally rises as that same monster. One killed in melee by any other wraith rises as a plain [[/Monsters/wraith]], and one killed in melee by any mummy rises as a mummy of their own race. A human killed in melee by a vampire in its own vampire form rises as a plain [[/Monsters/vampire]]; characters of other races become a ghost as usual. A character who is drained below experience level 1 by a life-draining attack, or killed by a missile the monster threw or fired, also becomes a ghost as usual. A character who died of mummy rot rises as a mummy of their own race, and one who turned into green slime remains as a [[/Monsters/green slime]]. If that kind of monster had been genocided in the dead character's game, a ghost appears instead; if it has been genocided in your own game, the monster is gone from the level when you arrive, and so is everything it carried. Like a ghost, the monster bears the character's name, has their experience level and is asleep when you arrive. It carries the dead character's possessions in its inventory and wears what it can, and there is no grave. A mummy also gets a mummy wrapping if it did not already have one.
 - **A statue.** A character who was turned to stone leaves a statue named after them, with their possessions inside it. There is no ghost and no grave.
 
-## 🪦 Digging Up a Grave
+## ⚰️ Digging Up a Grave
 
 Digging up a grave changes some characters' alignment:
 

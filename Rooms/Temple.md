@@ -34,7 +34,7 @@ Peaceful aligned priests offer several services to characters in exchange for go
   - Your prayer timeout status.
   - Your current Luck value.
 
-### 🪄 Teach Spells
+### ✨ Teach Spells
 
 Teaches clerical spells to the player if the player does not already know them. The available spells depend on the temple's alignment:
 

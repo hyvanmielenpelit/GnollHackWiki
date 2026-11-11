@@ -45,7 +45,7 @@
 | [[/Items/Food ration]] | 3 | Substituted with [[/Items/tripe ration]] for [[/Races/Gnoll]] |
 | [[/Items/Leather armor]] | 1 | Substituted with [[/Items/gnollish leather armor]] for [[/Races/Gnoll]] |
 
-## 🪄 Starting Spells
+## ✨ Starting Spells
 
 - 1 Random [[Nature spell|/Nature Spells]] (level -1–4)
 

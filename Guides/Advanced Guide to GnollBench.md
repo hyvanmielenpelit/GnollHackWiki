@@ -89,7 +89,7 @@ The reader, the claim verifier, and the report writer are optional, and their fi
 
 There is one bounded exception: when only one panel member flags a critical error, the claim verifier's ruling on the quoted sentence settles it, as described under [[The Critical Error Ceiling|#the-critical-error-ceiling]].
 
-## 🪜 The Stages of a GnollBench Run
+## 🔢 The Stages of a GnollBench Run
 
 A run proceeds in three stages, with an optional fourth:
 
@@ -207,7 +207,7 @@ Each answer gets a speed score from 1 to 100, and the Speed Index is their plain
 
 The Speed Index only makes sense between runs with the same thinking level, since a model that is told to think longer will of course be slower.
 
-### 🪙 Cost
+### 💰 Cost
 
 Every run records the tokens used by each role and converts them to money using the prices in force at the time of the run. The cost is shown per role, so you can see separately what the candidate cost and what the grading cost. The report writer's documents are costed separately, outside the run's own cost.
 

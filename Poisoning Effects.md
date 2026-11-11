@@ -25,7 +25,7 @@ If you are poison resistant, you take only the attack's normal damage ("The pois
 
 A poisoned weapon, thrown (arrows, darts) or used in melee (such as an orcish dagger), deals 2d6 (2–12) poison damage and has a 10% chance to take 1 point of Strength. Neither kind ever causes a deadly poison strike. Poison resistance cancels the poison completely.
 
-## 🪤 Traps
+## 🕳️ Traps
 
 Poisoned [[dart|/Items/Dart]] traps, poisoned needles, and spiked pits with poisoned spikes deal 2d6 (2–12) poison damage. Darts and needles also have a 10% chance to take 1 point of Constitution, and spiked pits a 10% chance to take 1 point of Strength. Poison resistance stops the poison, but you still take the physical damage of the dart or the spikes.
 

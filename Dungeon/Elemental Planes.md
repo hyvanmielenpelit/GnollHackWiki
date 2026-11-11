@@ -4,7 +4,7 @@
 
 After securing the Amulet of Yendor from [[/Dungeon/Moloch's Sanctum]] and performing the invocation, players must ascend back up through the dungeon to level 1 and take the staircase up.
 
-## 🪜 The Sequence
+## 🔢 The Sequence
 
 The player must traverse five distinct planes in strict order:
 
@@ -14,7 +14,7 @@ The player must traverse five distinct planes in strict order:
 4. [Plane of Water](#plane-of-water)
 5. [The Astral Plane](#the-astral-plane)
 
-## 🪨 Plane of Earth
+## ⛰️ Plane of Earth
 
 > 👉 **A claustrophobic realm of solid rock where players must dig their way forward.**
 

@@ -40,7 +40,7 @@ When editing or creating pages for the GnollHack Wiki, follow these conventions.
   - Emojis and other special characters removed.
   - Cleaned up so there are no leading or trailing dashes, and no consecutive dashes (e.g., `--` becomes `-`).
   - The end result should have only lowercase letters, numbers, and dashes.
-  - Example: For a heading `## 🪨 Plane of Earth`, the in-page section link should be `[[Plane of Earth|#plane-of-earth]]`.
+  - Example: For a heading `## ⛰️ Plane of Earth`, the in-page section link should be `[[Plane of Earth|#plane-of-earth]]`.
 - **Paths**: All wikilinks pointing to a page in a subfolder (e.g., `[[/Items/potion of healing]]`, `[[/Artifacts/Vorpal Blade]]`) must start with a slash (`/`), regardless of whether the source file is located in the root directory or in a subdirectory. If a link points to a page in the root directory (e.g., `[[Home]]`), it should not start with a slash, *unless* the source document is in a subdirectory (e.g. `Rooms/`), in which case the link targeting the root page must start with a leading slash (e.g. `[[/Rings]]` or `[[/Weapons]]`).
 - **No Backticks with Wikilinks**: Never wrap wikilinks in backticks (e.g., write `[[Page Name]]` or `[[/Items/potion of healing]]`, never `` `[[Page Name]]` `` or `` `[[/Items/potion of healing]]` ``). In Gollum markdown, wrapping a wikilink in backticks prevents it from rendering as a clickable hyperlink and displays it as literal code text instead.
 - **File Extensions**: Do not include the `.md` extension in wikilinks.
@@ -131,6 +131,7 @@ Put one Unicode icon immediately after the heading marker of every `H2` (`## `) 
 - Never use Unicode icons in headings that start with a number (such as `1.`, `2.`, `3.`, or `### 1. Heading Name`).
 - Never apply a Unicode icon to H1 (`#`) headings (custom page titles).
 - Never use Unicode icons in headings in Privacy Policy, Terms of Service, and other legal documents.
+- Use only emoji from Emoji 12.0 (2019) or earlier. Windows 10's emoji font stops at Emoji 12.0 and shows a newer emoji as an empty box. In particular, never use U+1FA83 to U+1FAFF (magic wand, coin, rock, window, ladder, headstone, and so on) or U+1F6DF (ring buoy). The scan in section 18 finds them.
 
 - **General Guides & Meta Info**:
   - General Info / Overview (General articles): `📖` or `ℹ️`
@@ -152,7 +153,7 @@ Put one Unicode icon immediately after the heading marker of every `H2` (`## `) 
   - Core Attributes (General): `💪` or `🧬`
   - Strength: `💪`
   - Dexterity: `🎯` or `🤸`
-  - Constitution / Health: `🔋` or `🪵`
+  - Constitution / Health: `🔋`
   - Intelligence: `🧠`
   - Wisdom: `📖` or `🦉`
   - Charisma: `✨` or `👑`
@@ -176,12 +177,11 @@ Put one Unicode icon immediately after the heading marker of every `H2` (`## `) 
   - Samurai: `⚔️`
   - Tourist: `📸`
   - Valkyrie: `⚡`
-  - Wizard: `🪄`
+  - Wizard: `🧙`
 - **Playable Races**:
   - Human: `🧑`
   - Dwarf: `⛏️`
   - Elf: `🧝`
-  - Gnome: `🧙`
   - Gnoll: `🐺`
   - Orc: `👹`
 - **Dungeon Exploration & Gameplay**:
@@ -193,16 +193,16 @@ Put one Unicode icon immediately after the heading marker of every `H2` (`## `) 
   - Entrance / Entry: `🚪`
   - Drawbridge: `🌉`
   - Gnomish Mines: `⛏️`
-  - Sokoban / Puzzles: `🧩` or `🪨`
+  - Sokoban / Puzzles: `🧩`
   - Portals / The Quest: `🌀`
   - Requirements / Entry Requirements: `📜` or `🕯️`
   - Astral Plane: `🌌`
-  - Plane Sequence: `🪜`
+  - Plane Sequence: `🔢`
   - Gehennom: `🔥` or `😈`
   - Towns / Shops / Merchants: `🏪` or `🏛️`
   - Altars / Temples / Sacrifice / Praying: `⛪` or `🕯️` or `🛐` or `🩸`
   - Fountains: `⛲`
-  - Traps / Hazards: `🪤` or `🕳️` or `🕸️` or `⚠️`
+  - Traps / Hazards: `🕳️` or `🕸️` or `⚠️`
   - Movement / Travel: `🚶` or `🏃` or `👟`
   - Encumbrance / Carrying Capacity: `🎒` or `🏋️`
   - Companion / Pets / Canines / Felines: `🐾` or `🐶` or `🐱`
@@ -217,7 +217,7 @@ Put one Unicode icon immediately after the heading marker of every `H2` (`## `) 
     - Vlad the Impaler: `🧛`
     - Medusa: `🐍`
     - Orcus: `🐐`
-    - Baalzebub: `🪰`
+    - Baalzebub: `🦟`
     - Dispater, Yacc: `😈`
     - Jubilex: `🦠`
     - Yeenaghu: `🐺`
@@ -230,7 +230,7 @@ Put one Unicode icon immediately after the heading marker of every `H2` (`## `) 
   - Wearable Items / Equipment Screen: `👕` or `🛡️` or `🎒`
   - Body Armor / Shirts / Robes / Uniforms: `👕` or `🥋` or `🧥`
   - Shields: `🛡️`
-  - Helms / Headwear: `🪖`
+  - Helms / Headwear: `⛑️`
   - Cloaks / Capes: `🧥`
   - Gloves / Gauntlets: `🧤`
   - Boots / Shoes / Footwear: `🥾`
@@ -246,10 +246,10 @@ Put one Unicode icon immediately after the heading marker of every `H2` (`## `) 
   - Diluted Potions: `🧪` or `💧`
   - Evaporation / Destruction: `💨` or `💥`
   - Scrolls: `📜`
-  - Wands: `🪄`
+  - Wands: `✨`
   - Spellbooks / Books: `📕` or `📖`
   - Tools / Miscellaneous Items: `🛠️` or `🧰`
-  - Gems / Precious Stones / Touchstones: `💎` or `🪨`
+  - Gems / Precious Stones / Touchstones: `💎`
   - Artifacts / Special Gifts: `✨` or `👑`
   - Starting Items: `🏁`
   - Wishing / Genies: `🧞` or `✨`
@@ -263,14 +263,14 @@ Put one Unicode icon immediately after the heading marker of every `H2` (`## `) 
   - Status Conditions (General): `🩹` or `🤒`
   - Sickness / Mummy Rot: `🤢` or `🤒`
   - Poison / Poisoning / Deadly Venom: `☠️` or `🤢`
-  - Petrification / Stone: `🗿` or `🪨`
+  - Petrification / Stone: `🗿`
   - Lycanthropy: `🐺`
   - Curses / Negative Effects: `💀` or `🖤` or `❌`
   - Blessings / Holy / Uncursed: `⭐` or `💛` or `👼`
   - Blindness: `🙈` or `🕶️`
   - Stun / Confusion: `🌀` or `💫`
   - Hallucination: `🌈` or `🍄`
-  - Bones Files / Player Graves / Death: `🪦` or `💀`
+  - Bones Files / Player Graves / Death: `⚰️` or `💀`
 - **Audio & Sound**:
   - Soundtracks / Music / Audio Systems: `🎵` or `🔊` or `🎹`
   - Voiceovers / Dialogue: `🗣️` or `🎙️`
@@ -322,7 +322,7 @@ Use the icons below where they carry meaning: the callout icon at the start of a
   - Female: `♀️`
 
 - **Economy & Value**:
-  - Gold / Price / Cost / Shop purchases: `🪙` or `💰`
+  - Gold / Price / Cost / Shop purchases: `💰`
 
 - **Arrows**:
   - Use Unicode `→` instead of `->`
@@ -346,7 +346,7 @@ When referencing or comparing different games and NetHack variants, use the foll
 
 - **NetHack / NetHack 5.0**: `🧙‍♂️` (Wizard)
 - **GnollHack / GnollHack Release 3**: `🐺` (Wolf)
-- **NetHack Windows GUI**: `🪟` (Window)
+- **NetHack Windows GUI**: `🖥️` (Desktop Computer)
 - **NetHack 3D**: `🧊` (3D Cube)
 - **dNetHack**: `🐙` (Octopus)
 - **EvilHack**: `😈` (Devil)
@@ -451,10 +451,41 @@ Then confirm nothing tracked has drifted:
 git -C $root ls-files --eol | Select-String -NotMatch 'w/crlf|w/-text'
 ```
 
-Both outputs go in the handoff report: the number of files the closing step normalized
-(ideally `0`, which means every edit was already correct), and an empty drift check. A
-non-empty drift check names a tracked file with the wrong endings; fix it with the same
-recipe and say so.
+Then confirm no page uses an emoji Windows 10 cannot draw:
+
+```powershell
+$root = 'C:\hmp\GnollHackWiki'
+# Code points added in Emoji 13.0 or later, which Windows 10's Segoe UI Emoji lacks.
+$ranges = @(
+    @(0x1F6D6, 0x1F6DF), @(0x1F6FB, 0x1F6FF), @(0x1F7F0, 0x1F7F0), @(0x1F90C, 0x1F90C),
+    @(0x1F972, 0x1F972), @(0x1F977, 0x1F979), @(0x1F9A3, 0x1F9A4), @(0x1F9AB, 0x1F9AD),
+    @(0x1F9CB, 0x1F9CC), @(0x1FA74, 0x1FA77), @(0x1FA7B, 0x1FA7F), @(0x1FA83, 0x1FA8F),
+    @(0x1FA96, 0x1FAFF)
+)
+$hits = foreach ($f in Get-ChildItem -LiteralPath $root -Recurse -File -Filter *.md) {
+    if ($f.FullName -match '\\(\.git|\.agents|\.claude|gollum|\.gollum)\\') { continue }
+    $n = 0
+    foreach ($line in [IO.File]::ReadAllLines($f.FullName)) {
+        $n++
+        for ($i = 0; $i -lt $line.Length; $i++) {
+            if (-not [char]::IsHighSurrogate($line[$i])) { continue }
+            $cp = [char]::ConvertToUtf32($line[$i], $line[$i + 1]); $i++
+            foreach ($r in $ranges) {
+                if ($cp -ge $r[0] -and $cp -le $r[1]) {
+                    '{0}:{1}: U+{2:X5}' -f $f.FullName.Substring($root.Length + 1), $n, $cp
+                }
+            }
+        }
+    }
+}
+"Emoji 13+ characters found: $(@($hits).Count)"; $hits
+```
+
+All three outputs go in the handoff report: the number of files the closing step
+normalized (ideally `0`, which means every edit was already correct), an empty drift
+check, and an emoji count of `0`. A non-empty drift check names a tracked file with the
+wrong endings; fix it with the same recipe and say so. A non-zero emoji count names each
+page, line, and code point; replace the icon with one from section 9.
 
 ## 19. Writing Style
 

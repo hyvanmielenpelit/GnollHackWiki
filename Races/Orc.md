@@ -38,4 +38,4 @@
 - 🪓 [[/Roles/Barbarian]]
 - 🏹 [[/Roles/Ranger]]
 - 🗡️ [[/Roles/Rogue]]
-- 🪄 [[/Roles/Wizard]]
+- 🧙 [[/Roles/Wizard]]

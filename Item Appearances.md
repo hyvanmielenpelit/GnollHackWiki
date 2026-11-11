@@ -267,7 +267,7 @@ The 27 shuffled scroll types are:
 
 See also [[Scrolls]].
 
-## 🪄 Wands
+## ✨ Wands
 
 The 32 shuffled wand types share a pool of **35 appearances**, so three appearances belong to nothing in any given game.
 
@@ -584,7 +584,7 @@ The manual has no appearance at all and is always shown by its real name. See al
 
 Armor is shuffled in small, tight groups. Each group below is a closed pool: an appearance from one group can never appear on an item from another group.
 
-### 🪖 Helmets (4)
+### ⛑️ Helmets (4)
 
 | Appearance | Possible items |
 |---|---|
@@ -654,7 +654,7 @@ See also [[Armor]], [[Helms]], [[Cloaks]], [[Robes]], [[Bracers]], [[Shirts]], [
 
 Only one weapon group is shuffled.
 
-### 🪄 Staves (6)
+### ✨ Staves (6)
 
 | Appearance | Possible items |
 |---|---|
@@ -757,7 +757,7 @@ The nine mushroom types are shuffled together with their materials.
 
 All other comestibles, including [[/Items/slime mold]], [[/Items/food ration]] and the various globs, have fixed appearances or none at all. See [[Comestibles]] and [[Eating Guide]].
 
-## 🪨 Gems, Glass, and Gray Stones
+## 💎 Gems, Glass, and Gray Stones
 
 Gems are **not** shuffled. Instead, every gem has a fixed color, and each color is shared by a valuable gem, several less valuable gems and one worthless piece of glass. This is the identification puzzle for gems.
 

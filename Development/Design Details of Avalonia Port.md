@@ -29,7 +29,7 @@ What the Avalonia port is and which flavors exist is on [[/Development/Avalonia 
 
 Every flavor defines `GNH_MAUI`, `GNH_AVALONIA`, `USE_SPAN_FOR_SUBSTRING` and `CORECLR`, and the target framework is plain `net11.0`, so `WINDOWS` is never defined and no WinUI 3 code is compiled. The Windows flavor has `WINDOWS_AVALONIA` instead.
 
-| | 🐧 Linux | 🍎 macOS | 🪟 Windows |
+| | 🐧 Linux | 🍎 macOS | 🖥️ Windows |
 |:--|:--|:--|:--|
 | **Extra symbols** | `LINUX`, `SENTRY` | `MACOS`, `SENTRY` | `WINDOWS_AVALONIA`, `SENTRY` |
 | **Platform folders compiled** | `Avalonia\`, `Linux\` | `Avalonia\`, `MacOS\` | `Avalonia\`, `WindowsAvalonia\` |
@@ -63,7 +63,7 @@ Every flavor defines `GNH_MAUI`, `GNH_AVALONIA`, `USE_SPAN_FOR_SUBSTRING` and `C
 
 `Main` is in `AvaloniaDesktopProgram.cs`. These steps run before Avalonia starts, in this order:
 
-| Step | 🐧 Linux | 🍎 macOS | 🪟 Windows | Why first |
+| Step | 🐧 Linux | 🍎 macOS | 🖥️ Windows | Why first |
 |:-----|:--|:--|:--|:--|
 | **CEF helper processes exit** | Yes | — | — | Chromium starts them from the game's own executable |
 | **HarfBuzzSharp preload** | Yes | — | — | Must bind before fontconfig loads the system HarfBuzz |
@@ -96,7 +96,7 @@ Every flavor defines `GNH_MAUI`, `GNH_AVALONIA`, `USE_SPAN_FOR_SUBSTRING` and `C
 
 All live in `Platforms\Avalonia\Essentials\`, installed by `GHAvaloniaEssentials`:
 
-| API | 🐧 Linux | 🍎 macOS | 🪟 Windows |
+| API | 🐧 Linux | 🍎 macOS | 🖥️ Windows |
 |:----|:--|:--|:--|
 | **Preferences** | `preferences.json` in the data folder, written shortly after a change and at exit | Same | Same |
 | **Secure storage** | AES-GCM encrypted `securestore.bin`, key from `/etc/machine-id` | Key from the hardware UUID | `securestore.bin` protected with Windows' data protection (DPAPI) for the current user |
@@ -113,7 +113,7 @@ On Linux and macOS the secure storage is obfuscation-level only: it does not use
 
 The game reads its own files from the executable's folder, or from `Contents/Resources` inside a macOS app bundle, and writes only to its data folder, which `GHAvaloniaPaths` resolves:
 
-| | 🐧 Linux | 🍎 macOS | 🪟 Windows |
+| | 🐧 Linux | 🍎 macOS | 🖥️ Windows |
 |:--|:--|:--|:--|
 | **Data folder** | `~/.local/share/GnollHack` | `~/Library/Application Support/GnollHack` | `%LOCALAPPDATA%\GnollHack-Avalonia` |
 | **Besides the game's files** | `preferences.json`, `securestore.bin`, `instance.lock`, `sentry-native/`, `sentry-dotnet/`, `cef/`, `fontconfig/`, `fonts/` (AppImage only) | The same, without `cef/`, `fontconfig/` and `fonts/` | `preferences.json`, `securestore.bin`, `instance.lock`, `sentry-native\`, `sentry-dotnet\`, `Logs\`, `WebView2\` |
@@ -121,7 +121,7 @@ The game reads its own files from the executable's folder, or from `Contents/Res
 
 ## 🌐 Web View
 
-| | 🐧 Linux | 🍎 macOS | 🪟 Windows |
+| | 🐧 Linux | 🍎 macOS | 🖥️ Windows |
 |:--|:--|:--|:--|
 | **Engine** | CEF, built into the game; WebKitGTK as a fallback | WKWebView, part of macOS | Microsoft Edge WebView2, which must be installed |
 | **Drawn as** | An ordinary Avalonia control | A native view above all Avalonia content | A native window above all Avalonia content |

@@ -31,7 +31,7 @@ The Avalonia port runs the modern client on Avalonia UI, which brings it to Linu
 - [[/Development/Design Details of macOS Avalonia Port]] — The macOS version's own design, including Metal, WKWebView and the app bundle
 - [[/Development/Design Details of Windows Avalonia Port]] — The Windows flavor, for development and testing, and an alternative Windows version
 
-## 🪟 WinUI 3 Version
+## 🖥️ WinUI 3 Version
 
 - [[CPU and GPU Usage Modes in Modern Windows Port|/Development/CPU and GPU Usage Modes in Modern Windows Port (.NET MAUI ∕ WinUI 3)]] — How the Windows version draws with and without GPU acceleration
 - [[System Requirements for Modern Windows Port|/Development/System Requirements for Modern Windows Port (.NET MAUI ∕ WinUI 3)]]

@@ -299,7 +299,7 @@ OPTIONS=pickup_types:characters
 | **windowborders** | `0` (off) / `1` (on) / `2` (auto) | `2` (auto) | Configures window borders: `0` hides all borders, `1` forces borders on all windows, `2` draws borders automatically if terminal width/height allows. |
 | **windowcolors** | *(varies)* | *(varies)* | Configures custom foreground and background colors for specific Curses window panels. |
 
-## 🪟 Legacy Windows GUI
+## 🖥️ Legacy Windows GUI
 
 > ℹ️ **Note:** These options are specific to the legacy Windows GUI port (`GnollHackW.exe`). The modern versions do not use them.
 

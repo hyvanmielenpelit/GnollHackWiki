@@ -402,7 +402,7 @@
 | 19 | 265.0 | 298.0 |
 | 20 | 278.0 | 312.5 |
 
-### 🪄 Wizard
+### 🧙 Wizard
 
 **Hit Points Per Level by Race:**
 

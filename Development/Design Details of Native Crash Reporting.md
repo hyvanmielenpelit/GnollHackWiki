@@ -69,7 +69,7 @@ A native crash goes through these steps:
 
 ## 🚀 Startup
 
-### 🪟 WinUI 3
+### 🖥️ WinUI 3
 
 From `MauiProgram.CreateMauiApp`:
 
@@ -93,7 +93,7 @@ From `MauiProgram.CreateMauiApp`, in `GHAvaloniaSentry.Init`, on Linux, macOS an
 
 ### ⚙️ Crash Handlers per Operating System
 
-| | 🪟 Windows | 🐧 Linux | 🍎 macOS |
+| | 🖥️ Windows | 🐧 Linux | 🍎 macOS |
 |:--|:--|:--|:--|
 | **Before `sentry_init`** | The current unhandled-exception filter is recorded | The handler strategy is set to `CHAIN_AT_START` | Nothing |
 | **After `sentry_init`** | GnollHack's filter is put in front of sentry-native's, and the vectored handler is added | `SA_ONSTACK` is cleared on `SIGILL`, `SIGTRAP`, `SIGBUS` and `SIGFPE`; `SIGSEGV` keeps the alternate stack, for native stack overflows | Nothing |
@@ -112,7 +112,7 @@ From `MauiProgram.CreateMauiApp`, in `GHAvaloniaSentry.Init`, on Linux, macOS an
 
 | | What Reaches sentry-native |
 |:--|:--|
-| **🪟 Windows** | A fault in a native module that the game called from .NET code reaches sentry-native through the vectored handler, when the module is one of `gnollhackwin.dll`, `libSkiaSharp.dll`, `fmod.dll`, `fmodstudio.dll`, `libEGL.dll`, `libGLESv2.dll` and `SkiaSharp.Views.WinUI.Native.dll`. Any other unhandled exception, except a .NET one, reaches it through the filter, which then passes it on to CoreCLR's filter, so an unhandled .NET exception still raises `AppDomain.UnhandledException` |
+| **🖥️ Windows** | A fault in a native module that the game called from .NET code reaches sentry-native through the vectored handler, when the module is one of `gnollhackwin.dll`, `libSkiaSharp.dll`, `fmod.dll`, `fmodstudio.dll`, `libEGL.dll`, `libGLESv2.dll` and `SkiaSharp.Views.WinUI.Native.dll`. Any other unhandled exception, except a .NET one, reaches it through the filter, which then passes it on to CoreCLR's filter, so an unhandled .NET exception still raises `AppDomain.UnhandledException` |
 | **🐧 Linux** | With `CHAIN_AT_START`, CoreCLR's own handler runs first, and sentry-native reports only what CoreCLR leaves unhandled; `SIGABRT` is never passed on |
 | **🍎 macOS** | CoreCLR receives faults in managed code through Mach exception ports before any signal is raised, so every signal that reaches sentry-native is a native crash |
 

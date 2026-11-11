@@ -46,7 +46,7 @@ Armor gets a quality less often than weapons do. All armor qualities need non-ne
 
 These armors have the double chance: [[/Items/splint mail]], [[/Items/banded mail]], [[/Items/chain mail]], [[/Items/scale mail]], [[/Items/studded leather armor]], [[/Items/ring mail]], and [[/Items/leather armor]]. Armor made of *mithril, adamantium, orichalcum*, or *hard crystal* has the half chance. The half chance lowers only Elite and the higher qualities; Exceptional stays at 50%.
 
-## 🪄 Wand Qualities
+## ✨ Wand Qualities
 
 Only wands of nothing, striking, magic missile, fire, cold, and lightning can have a quality, and then only Exceptional or Elite; every other wand always comes out normal. You need non-negative luck, and if the roll fails, the wand is of normal quality.
 
@@ -55,7 +55,7 @@ Only wands of nothing, striking, magic missile, fire, cold, and lightning can ha
 | **Exceptional** | 50% |
 | **Elite** | 25% |
 
-## 🪄 Elemental Enchantments
+## ✨ Elemental Enchantments
 
 On weapons and armor that can have one, you can wish for an elemental enchantment: `freezing`, `flaming`, `electrified`, or `death-magical`. You always get it if your luck is non-negative. If you ask for `death-magical` on an item that cannot have it, you get `electrified` instead.
 
@@ -86,7 +86,7 @@ With two named affixes (Legendary), the game first rolls a 33% chance to keep bo
 
 When the roll for both, or one of the affix checks, fails, the item ends up with one of the affixes (Mythic) or none (Normal).
 
-## 🪢 Belts of Giant Strength
+## 💪 Belts of Giant Strength
 
 The stronger the belt of giant strength you wish for, the less likely you are to get it. If the roll fails, you get a [[/Items/Belt of hill giant strength]] instead.
 

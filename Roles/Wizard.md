@@ -51,7 +51,7 @@ Additionally, there are random chances to start with one of the following extra 
 **Racial Variations:**
 - [[/Races/Elf]] Wizards also start with a random musical instrument (e.g. [[/Items/wooden flute]], [[/Items/brass horn]], [[/Items/wooden harp]], [[/Items/bell]], [[/Items/bugle]], or [[/Items/leather drum]]).
 
-## 🪄 Starting Spells
+## ✨ Starting Spells
 
 - [[/Spells/Magic arrow]]
 - [[/Spells/Shield]]

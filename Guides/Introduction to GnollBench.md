@@ -22,7 +22,7 @@ GnollBench has three purposes, and the most important one is making the Overseer
 
 The second purpose is making GnollBench itself better, because a test is only useful if it is fair and accurate. The third is finding the best models: the grades show which models are smart enough, fast enough, and cheap enough to be offered to players.
 
-## 🪜 How a GnollBench Run Works
+## 🔢 How a GnollBench Run Works
 
 A GnollBench run has four steps:
 

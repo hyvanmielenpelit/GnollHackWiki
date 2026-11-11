@@ -133,7 +133,7 @@ Some monsters, such as [[kobolds|/Monsters/Kobold]], are poisonous, and you need
 
 ## 🔮 Magic, Skills & Religion
 
-### 🪄 Spell Casting
+### ✨ Spell Casting
 
 Spells in GnollHack require a material component. First you Mix spells (`Shift+x`), which gives you a number of castings, and then you Cast spell (`Shift+z`).
 

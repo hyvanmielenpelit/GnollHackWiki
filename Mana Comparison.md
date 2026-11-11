@@ -402,7 +402,7 @@
 | 19 | 88.5 | 61 |
 | 20 | 92.5 | 64 |
 
-### 🪄 Wizard
+### 🧙 Wizard
 
 **Mana Per Level by Race:**
 

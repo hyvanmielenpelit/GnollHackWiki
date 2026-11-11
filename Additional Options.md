@@ -151,7 +151,7 @@ SYMBOLS=S_vwall:|
 SYMBOLS=S_room:.
 ```
 
-### 🪨 BOULDER
+### ⛰️ BOULDER
 
 `BOULDER` sets the character for boulders on the map in ASCII mode.
 

@@ -165,7 +165,7 @@ Ordinary equipment can come with mythic or legendary properties, such as demon s
 - Fired [[ammunition]] breaks only 1 time in 20, and blessed ammunition normally never breaks.
 - [[/Artifacts/Cleaver]]'s arc attack no longer hits peaceful or tame creatures, and [[/Artifacts/Stormbringer]] no longer makes you attack them.
 
-### 🪄 Magic Items and Tools
+### ✨ Magic Items and Tools
 
 - [[Reagents]] are a new item class (`9`), used for preparing spells.
 - A [[/Items/unicorn horn]] always works, but it uses a charge each time you apply it and cannot restore lost attribute points.

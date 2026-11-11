@@ -474,7 +474,7 @@ Immunity to sliming attacks (namely, the green slime).
 ### Granted by Items
 - [[/Items/Red dragon scale mail]]
 
-## 🪨 Stoning Resistance
+## 🗿 Stoning Resistance
 
 Immunity to petrification attacks.
 

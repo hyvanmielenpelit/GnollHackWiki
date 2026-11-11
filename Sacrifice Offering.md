@@ -231,7 +231,7 @@ You win the game by sacrificing the real Amulet of Yendor on the right altar:
 | **Normal Altar** | Cross-Aligned | ❌ | **Game Continues** | You are prevented from sacrificing. <br> *"You feel ashamed."* (or *"homesick"* if hallucinating). |
 | **Normal Altar** | Moloch (Unaligned) | ❌ | **Game Continues** | You are prevented from sacrificing. Moloch gets upset. |
 
-### 🪙 Fake Amulet of Yendor
+### 📿 Fake Amulet of Yendor
 
 A fake Amulet of Yendor is **never consumed**. What happens depends on whether you **know** it is a fake (it is identified as a "cheap plastic imitation") or offered it believing it was real (it is unidentified):
 

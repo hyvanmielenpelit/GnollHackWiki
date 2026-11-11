@@ -65,7 +65,7 @@ Additionally, there is a random chance to start with one of the following (mutua
 - 20.0% chance: [[/Items/Magic marker]]
 - 8.0% chance: [[/Items/Oil lamp]] (+1 enchantment)
 
-## 🪄 Starting Spells
+## ✨ Starting Spells
 
 - [[/Spells/Minor healing]]
 - [[/Spells/Create food]]

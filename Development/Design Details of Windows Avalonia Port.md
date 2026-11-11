@@ -65,7 +65,7 @@ The Windows flavor's own C# is in `Platforms\WindowsAvalonia\`; `Platforms\Windo
 
 ## ⚖️ Compared with the WinUI 3 Version
 
-| | 🪟 Windows Avalonia | 🪟 WinUI 3 |
+| | 🖥️ Windows Avalonia | 🖥️ WinUI 3 |
 |:--|:--|:--|
 | **Purpose** | Development, testing, and an alternative Windows version | Released to players |
 | **User interface** | .NET MAUI on Avalonia.Controls.Maui | .NET MAUI on WinUI 3 |

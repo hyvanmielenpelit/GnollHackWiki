@@ -38,7 +38,7 @@ The **Load Saved Game** list does not show the backup, temporary and tracking fi
 
 Starting a new game with the name of a saved character and answering **Yes** to **Overwrite Existing Character?** deletes all of these files for that name, so the new character never starts from the old one's backup. A new character cannot take the name of a character in the other mode, tournament or regular, nor the name of a game that did not end properly; recover or delete that game first.
 
-## 🛟 The Backup Save File
+## 💾 The Backup Save File
 
 ### 🛠️ How the Backup Is Created
 
@@ -139,7 +139,7 @@ The earlier save file is offered only if it is readable, has a compatible versio
 - **Items in use:** An item that was being used up when the game ended abruptly, such as a potion you were drinking, is finished off on load (*"Finishing off potion of healing..."*). This stops a crash from giving you the item back. The [[/Items/Amulet of Yendor]], the Candelabrum, the Bell, the Book of the Dead, artifacts and containers are exempt, so they cannot be lost this way.
 - **Tracking check:** On the desktop versions, the game verifies the save file with [[Save File Tracking]] if it is tracked. If the check fails, you can mark the save as unsuccessfully tracked or return to the main menu. Returning leaves the save file in place.
 
-### 🪟 With Several Windows
+### 🖥️ With Several Windows
 
 - **One window per character:** On Windows and Linux, each character has an instance lock. Starting a character that is already being played in another window is refused with a message, because both windows would share the same files.
 - **No false crashes:** A character running in another window is listed as **[Running in another window]**. It is not offered for crash recovery, and its files cannot be deleted.
@@ -164,7 +164,7 @@ These protections apply to [[Save File Transfer]] and to importing. The [[Save T
 - **Backup after a download:** If the upload contained no separate backup, a new one is made from the downloaded save file.
 - **Import validation:** An imported file must pass validation and is stored as `<name>.i`, so importing never overwrites your regular save file. Loading an imported game asks before it replaces a regular saved game of the same name. Loading it makes the game non-scoring for good.
 
-### 🪦 For Bones Files
+### ⚰️ For Bones Files
 
 - **Temporary file:** A [[bones file|Bones Sharing]] is written under a temporary `.bn` name and renamed when complete, so another game never reads a half-written file.
 - **Discarding unusable bones:** Bones files that fail the version check or do not match the level are discarded, and the level is generated normally.

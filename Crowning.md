@@ -159,7 +159,7 @@ Gifted a blessed, erodeproof, +2 to +5 weapon (a Dwarvish Axe if they are a Dwar
 
 > ℹ️ **Note:** The **Valkyrie** also receives a tame, saddled [[/Monsters/Pegasus]] (if pets are allowed) and unrestricts the [[/Skills/Axe]] skill (if a Dwarf) or [[/Skills/Sword]] skill (otherwise), regardless of alignment.
 
-### 🪄 Wizard
+### 🧙 Wizard
 
 Gifted a [[/Items/Golden chest]] containing:
 

@@ -256,7 +256,7 @@ The Speed Index is the unweighted mean of $S$. Difficulty enters through the tar
 
 The Speed Index is comparable only within one thinking level and one timing mode. It also saturates for fast models, so the cross-model view lets the speed axis be chosen: mean model time per question (the default), total model time for the suite, median time to first token (TTFT P50), or the Speed Index, which carries a saturation warning when at least half the answers score 100.
 
-### 🪙 Cost
+### 💰 Cost
 
 Token usage is recorded per role (candidate, assessor, co-assessor, Second or Reference Reader, claim verifier, synthesis, co-assessor synthesis) and priced from a snapshot of the price list taken at run time, including long-context pricing and the service tier the provider actually served. An unknown price is reported as unknown, never as zero. The report writer's documents are costed outside the run.
 

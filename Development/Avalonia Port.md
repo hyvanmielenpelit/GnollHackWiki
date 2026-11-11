@@ -10,7 +10,7 @@ The Avalonia port is not a separate code base. It is the same `GnollHackM.csproj
 
 The Avalonia port is built in three flavors, one for each operating system:
 
-| | 🐧 Linux | 🍎 macOS | 🪟 Windows |
+| | 🐧 Linux | 🍎 macOS | 🖥️ Windows |
 |:--|:--|:--|:--|
 | **Purpose** | Released to players | Released to players | Development and testing; an alternative Windows version, not released yet |
 | **Distribution** | Steam (also on the Steam Deck), and an AppImage on GitHub | Steam, as a signed and notarized `GnollHack.app` | A self-contained folder for testers; Windows players get the WinUI 3 version |

@@ -57,7 +57,7 @@ Additionally:
 - Starts with 1001-2000 gold pieces.
 - There is a 4.0% (1 in 25) chance to also start with: [[/Items/Oil lamp]] (+1 enchantment)
 
-## 🪄 Starting Spells
+## ✨ Starting Spells
 
 - [[/Spells/Minor healing]]
 - [[/Spells/Healing]]

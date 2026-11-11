@@ -45,4 +45,4 @@
 
 - ⛪ [[/Roles/Priest]]
 - 🏹 [[/Roles/Ranger]]
-- 🪄 [[/Roles/Wizard]]
+- 🧙 [[/Roles/Wizard]]

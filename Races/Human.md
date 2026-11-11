@@ -45,4 +45,4 @@
 - ⚔️ [[/Roles/Samurai]]
 - 📸 [[/Roles/Tourist]]
 - ⚡ [[/Roles/Valkyrie]]
-- 🪄 [[/Roles/Wizard]]
+- 🧙 [[/Roles/Wizard]]

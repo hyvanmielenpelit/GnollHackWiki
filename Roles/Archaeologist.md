@@ -53,7 +53,7 @@ Additionally, there is a random chance to start with one of the following (mutua
 - 22.5% chance: [[/Items/Oil lamp]] (+1 enchantment)
 - 6.75% chance: [[/Items/Magic marker]]
 
-## 🪄 Starting Spells
+## ✨ Starting Spells
 
 - 1 Random [[Divination spell|/Divination Spells]] (level -1–4)
 
