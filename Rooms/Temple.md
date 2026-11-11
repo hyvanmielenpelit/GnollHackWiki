@@ -12,6 +12,10 @@ Temples generate randomly in the [[/Dungeon/Dungeons of Doom]] between level 9 a
 
 Each temple contains a central stationary altar dedicated to a random deity ([[/lawful]], [[/neutral]], or [[/chaotic]]), tended by a peaceful [[aligned priest|/Monsters/Aligned priest]] of the matching alignment.
 
+## 👻 Untended Temples
+
+A temple without a priest is untended. When you enter an untended temple outside the Quest, you may have an eerie feeling, feel that you are being watched, or feel a shiver run down your spine. One time in five, a hostile [[/Monsters/ghost]] with a random name also appears next to you, and unless you resist fear, you are frightened and cannot move for 3 turns.
+
 ## 🛠️ Services
 
 Peaceful aligned priests offer several services to characters in exchange for gold pieces:

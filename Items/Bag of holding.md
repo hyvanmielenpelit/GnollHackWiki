@@ -6,4 +6,4 @@
 
 ## Description
 
-Reduces the weight of contents by half
+Reduces the weight of its contents: an uncursed bag to half and a blessed bag to a quarter, while a cursed bag doubles it.

@@ -9,3 +9,5 @@
 ## Description
 
 Causes boulders to drop from above at and around the reader's location.
+
+Reading it in [[/Dungeon/Sokoban]] costs 1 point of Luck.

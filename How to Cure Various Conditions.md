@@ -63,7 +63,7 @@ Note that once the stoning process has started putting on an item that protects 
 
 ## Polymorph (Self)
 
-- You will return back to your normal form when your hit points go to 0.
+- You will return back to your normal form when your hit points in the polymorphed form go to 0. While you are unchanging, for example while wearing an [[/Items/amulet of unchanging]], you do not return: you die when they go to 0.
 - You can cancel yourself with a [[/Items/wand of cancellation]].
 
 ## Polymorph (Pet)

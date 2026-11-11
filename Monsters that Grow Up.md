@@ -70,3 +70,7 @@
 
 - Modrons drones can grow up to the next level modron drone, except for [[/Monsters/Modron Pentadrone]].
 - Hierarch modrons can grow up to the next level hierarch modron, except for [[/Monsters/Modron Secundus]] and [[/Monsters/Modron Primus]].
+
+## Level Limit
+
+A monster that gains levels by killing other monsters stops at one and a half times its base level, rounded down. The base level is the hit dice shown on the monster's page; the level at the top of the page is the monster's difficulty, which can differ. A [[/Monsters/ki-rin]], with 16 hit dice, stops at level 24. There are three exceptions: the limit is never below level 5, a monster that can still grow up into a bigger form can always reach that form's level, and a monster of one of the player roles, such as a valkyrie, can reach level 50. A [[/Items/potion of gain level]] that is not cursed, or a [[/Monsters/wraith]] corpse eaten by a pet, can raise a monster's level past the limit; a monster of one of the player roles still stops at level 50, and a pet gains levels from a wraith corpse only up to 15 levels above its base level.

@@ -38,7 +38,8 @@ St:18 Dx:9 Co:18 In:1 Wi:1 Ch:1
 ## Corpse properties
 
 1. Touching petrifies
-2. May confer poison resistance (66.7% chance)
+2. Eating it turns you to stone and kills you at once, unless you have stoning resistance or are polymorphed into a golem, which turns into a stone golem instead
+3. May confer poison resistance (66.7% chance)
 
 ## Picture
 

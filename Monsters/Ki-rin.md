@@ -39,6 +39,7 @@ St:20 Dx:16 Co:20 In:24 Wi:21 Ch:23
 1. Vulnerable to cursed weapons
 2. Eschews cursed items
 3. Does not eat
+4. Gains levels by killing only up to level 24; see [[/Monsters that Grow Up]]
 
 ## Corpse properties
 

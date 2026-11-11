@@ -1,9 +1,9 @@
 ## Armor: Mail
 
-- **Weight:** 34 lbs
+- **Weight:** 30 lbs
 - **Base value:** 4000 gold
 - **Material:** Mithril
-- **Base armor class bonus:** -10
+- **Base armor class bonus:** -12
 - **Magic cancellation:** +8
 - **Spell casting penalty:** -390% (somatic spells only)
 - **Safe enchantable level:** +3 or below

@@ -9,8 +9,8 @@ It consists of 4 levels, each presenting a room filled with [[boulders|/Items/Bo
 - **Restrictions:** 
   - You cannot dig through walls or floors.
   - Teleportation (both self and monsters) is disabled.
-  - Jumping or levitating over pits without filling them incurs heavy luck penalties.
-  - Breaking [[boulders|/Items/Boulder]] or squeezing past them by shrinking is penalized.
+  - You cannot float over the pits and holes: even if you are levitating or flying, air currents pull you down into them.
+  - Each of the following costs 1 point of Luck: jumping, being hurtled through the air, reading a [[/Items/scroll of earth]], breaking or polymorphing a [[boulder|/Items/Boulder]], squeezing past a boulder, and pushing a boulder aside while polymorphed into a giant.
 - **Monsters:** High density of randomly generated monsters, often including sleeping ones. Because of the strict no-teleport and no-digging rules, combat must be handled carefully.
 
 ## 🧩 The Puzzles

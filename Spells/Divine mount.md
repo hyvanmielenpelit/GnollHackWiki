@@ -16,4 +16,4 @@
 
 ## Description
 
-Summons a permanent ki-rin
+Summons a permanent [[/Monsters/ki-rin]], which comes with a saddle. A ki-rin has 16 hit dice and gains levels by killing only up to level 24; see [[/Monsters that Grow Up]].

@@ -2,6 +2,8 @@
 
 In GnollHack, certain weapons, tools, and pieces of armor can be generated with a material different from its normal material.
 
+A wish for an item in one of these materials works only when the item type accepts that material; see the Material row of [[Wishing Guide]].
+
 ## Armor
 
 Most typical special materials give the following effects:

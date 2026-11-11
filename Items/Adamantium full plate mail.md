@@ -3,7 +3,7 @@
 - **Weight:** 60 lbs
 - **Base value:** 4000 gold
 - **Material:** Adamantium
-- **Base armor class bonus:** -11
+- **Base armor class bonus:** -14
 - **Magic cancellation:** +5
 - **Spell casting penalty:** -450% (somatic spells only)
 - **Safe enchantable level:** +3 or below

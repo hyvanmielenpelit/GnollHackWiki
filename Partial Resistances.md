@@ -139,6 +139,10 @@ Reduces lightning damage, chance to protect equipment.
 | :---- | :---: | :--------: |
 | [[/Roles/Valkyrie]] | 15 | 50% |
 
+## ➕ Stacking
+
+For damage, resistances to the same element do not add up: only the strongest one you have counts. A second source of 50% resistance still gives 50%, and 50% together with 75% gives 75%. Full resistance takes away all damage of that element. In the list of your attributes, a weaker resistance that a stronger one of the same element covers is shown as *latently*, for example *latently weakly (50%) fire resistant*; it counts again if you lose the stronger one.
+
 ## 📖 See Also
 
 - [[Resistances and Saving Throws]]

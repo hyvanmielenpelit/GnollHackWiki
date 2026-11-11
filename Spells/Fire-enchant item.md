@@ -16,4 +16,4 @@
 
 ## Description
 
-Fire-enchants one suitable item
+Fire-enchants one suitable item: a weapon or a weapon-tool such as a pick-axe, but not a launcher such as a bow; any kind of gauntlets, shoes, kicking boots, spiked boots or a spiked shield, which also fight as weapons; a rock, flint stone or pebble; or a bag or quiver that makes ammunition. From a stack, it enchants at most three. On a cold-enchanted item, it removes the cold enchantment instead. See [[/Elemental Enchantments]].

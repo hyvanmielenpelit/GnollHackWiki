@@ -40,6 +40,7 @@ St:9 Dx:9 Co:9 In:10 Wi:3 Ch:6
 2. Does not eschew cursed items
 3. Eschews blessed items
 4. Does not eat
+5. Can appear next to you, with a random name, when you enter an untended [[/Rooms/temple]]
 
 ## Corpse properties
 

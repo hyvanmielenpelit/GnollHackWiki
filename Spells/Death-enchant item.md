@@ -16,4 +16,4 @@
 
 ## Description
 
-Death-enchants one suitable item
+Death-enchants one suitable item: a weapon, a weapon-tool, or armor that also fights as a weapon, but not a launcher, made of bone, tooth, glass or crystal. From a stack, it enchants only one. See [[/Elemental Enchantments]].

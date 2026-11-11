@@ -141,6 +141,10 @@ Dilutes a dipped potion. No special effect.
 
 You can dip a long sword into a magic fountain, and there's a 1/4 chance that the sword is converted into [[/Artifacts/Excalibur]]. This requires, however, that you are lawful and at least experience level 5.
 
+## Blanking Scrolls and Spellbooks
+
+Dipping a scroll into any fountain turns it into a [[/Items/scroll of blank paper]]. Dipping a spellbook into any fountain except a fountain of poison turns it into a [[/Items/Spellbooks/spellbook of blank paper]]. A sink or a pool blanks both in the same way. A greased item, a scroll of mail, and an indestructible item, such as the Book of the Dead, are not blanked. To write on a blank scroll or spellbook, see [[/Items/magic marker]].
+
 ## Diluting Potions
 
 Because of the different types of fountains, it is not as easy to dilute potions in GnollHack as it is in NetHack. However, you can utilize the following methods to dilute your potions:
