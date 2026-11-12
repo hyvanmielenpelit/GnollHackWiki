@@ -1,4 +1,4 @@
-> 👉 **AI agents that assist with the development and release of GnollHack follow written instructions for three recurring tasks: Steam patch notes, Steam events, and the scan of graphical NetHack ports.**
+> 👉 **AI agents that assist with the development and release of GnollHack follow written instructions for four recurring tasks: Steam patch notes, Steam events, the scan of graphical NetHack ports, and the analysis of website traffic.**
 
 Each instruction page tells an AI agent, step by step, how to carry out one recurring task. To start a task, copy its prompt from [[Copiable Prompts|#copiable-prompts]], fill in the bracketed parts, and paste it to your AI agent. The agent needs access to the GnollHackWiki repository, and for some tasks also to the GnollHack repository.
 
@@ -9,6 +9,7 @@ Each instruction page tells an AI agent, step by step, how to carry out one recu
 | [[/Development/AI/Steam Patch Notes]] | A title and a BBCode list of changes for a Steam patch notes post, based on a GitHub release |
 | [[/Development/AI/Steam Events and Announcements]] | The event type, title, subtitle, summary, and BBCode body for a Steam event, and its 800×450 cover image and 1920×622 header image |
 | [[/Development/AI/Graphical NetHack Ports Scan]] | An updated [[/Graphical NetHack Ports and Variants]] page, with new projects added, statuses rechecked, and the last web scan date set, and a report of the changes and their sources |
+| [[/Development/AI/Website Traffic Analysis]] | A report on the visitors of wiki.gnollhack.com, gnollhack.com, and account.gnollhack.com for a date range: data quality, automated traffic, audience, acquisition, behavior, the account registration funnel, and recommendations for marketing, content, and tracking |
 
 ## ⌨️ Copiable Prompts
 
@@ -39,6 +40,16 @@ Please run a web scan for new and updated graphical NetHack ports and variants, 
 ```
 
 The agent leaves the updated page uncommitted and reports every change with its source, so you can review it before committing.
+
+### 📊 Website Traffic Analysis
+
+Run this in Claude Code in the Claude desktop app, with the Google Analytics MCP server connected and the GnollHackWiki repository as the working directory. Replace the bracketed part with a date range, or delete it to analyze the last 30 complete days:
+
+```text
+Please analyze the website traffic of wiki.gnollhack.com, gnollhack.com, and account.gnollhack.com for [DATE RANGE, OR DELETE TO USE THE LAST 30 DAYS]. Use the process detailed in "Development/AI/Website Traffic Analysis.md" in the GnollHackWiki repository.
+```
+
+Remove a site from the prompt to analyze fewer sites. In Claude Code, the same task also runs with `/wiki-traffic-analysis`, optionally followed by a date range such as `last 90 days` or `2026-10-01 to 2026-10-31`. The agent reports in the chat and changes nothing.
 
 ## 🛠️ Adding New Instructions
 
