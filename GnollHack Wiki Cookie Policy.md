@@ -12,17 +12,17 @@ The wiki stores the following in your browser:
 | `_ga_` followed by an ID | Google Analytics, only after Accept | Keeps the state of the current visit | Up to 2 years |
 | `cookieConsentChoice` (local storage, not a cookie) | The wiki | Remembers Accept or Decline; needed for the notice to work; never sent anywhere | Until changed or cleared in the browser |
 
-The two cookies are set for the gnollhack.com domain, so gnollhack.com and its other subdomains can also read them.
+The two cookies are set for wiki.gnollhack.com only, so gnollhack.com and its other sites cannot read them.
 
 ## What Google Analytics collects
 
-Google Analytics collects the pages you view and when, the site that referred you, your browser, device and operating system, your language, and an approximate location (country and city). Your IP address reaches Google when Google Tag Manager and Google Analytics load, and Google uses it to derive that location. Google states that Google Analytics 4 does not log or store IP addresses.
+Google Analytics collects the pages you view and when, the site that referred you, your browser, device and operating system, your language, and an approximate location (country and city). It also records how you use the pages: how far you scroll, the links you follow to other sites, the files you download, what you search for on the wiki, when you use a form, and whether you play an embedded video. Your IP address reaches Google when Google Tag Manager and Google Analytics load, and Google uses it to derive the approximate location. Google states that Google Analytics 4 does not log or store IP addresses.
 
 The `_ga` cookie holds a random ID that lets Google Analytics recognize repeat visits from the same browser. We do not use it to find out who you are.
 
 ## Who receives the data
 
-The data is sent to Google (Google Ireland Limited, and Google LLC in the United States), which processes it for us. Google also uses the data, aggregated and de-identified, for modeling and benchmarking in Google Analytics, and Google's technical support can access it when needed to solve a technical problem. We do not share it with Google to improve Google's other products and services. Google may process it on servers outside the European Union, including in the United States. See [Google's Privacy Policy](https://policies.google.com/privacy) and [how Google uses information from sites that use its services](https://policies.google.com/technologies/partner-sites).
+The data is sent to Google (Google Ireland Limited, and Google LLC in the United States), which processes it for us under the [Google Ads Data Processing Terms](https://business.safety.google/adsprocessorterms/). Google also uses the data, aggregated and de-identified, for modeling and benchmarking in Google Analytics, and Google's technical support can access it when needed to solve a technical problem. We do not share it with Google to improve Google's other products and services. Google may process it on servers outside the European Union, including in the United States. Those transfers rely on the EU-US Data Privacy Framework, with the EU Standard Contractual Clauses as the fallback. See [Google's Privacy Policy](https://policies.google.com/privacy) and [how Google uses information from sites that use its services](https://policies.google.com/technologies/partner-sites).
 
 ## Your choice
 

@@ -229,5 +229,11 @@ pages; run the closing check in `wiki_editing` section 18. `.woff2` and `.webp` 
   only Google Analytics because Google Analytics 4 is the container's only tag.
 - When the container's tags change, update the notice text, the cookie pattern in the
   script, and `GnollHack Wiki Cookie Policy.md` together.
+- The Cookie Policy also states Google Analytics account and property settings: the Google
+  Ads Data Processing Terms are accepted, the data sharing settings (modeling contributions
+  and technical support on, Google products and services off), Google signals off, and
+  enhanced measurement on with all seven events. The Google tag in the container sets
+  `cookie_domain` to `wiki.gnollhack.com`, so the page says the cookies are set for the wiki
+  only. When one of these changes, update the page.
 - To test Accept locally, use a container ID that does not exist (in a scratch clone), so
   no page view reaches the production property.
