@@ -10,12 +10,12 @@ Three free system models are available. The Overseer's models are benchmarked wi
 | :---- | :------------- | :------- | :----------- | :---- | :--- | :------- |
 | **GPT-6 Luna** | **High** | OpenAI | 🟡 Medium | 🟡 Medium | 🟢 Very low | Most questions |
 | **GPT-5.6 Luna** | **Max** | OpenAI | 🟡 Medium | 🔴 Slow | 🟢 Low | Most questions |
-| **Gemini 4 Argon** | **Medium** | Google | 🟢 High | 🔴 Slow | 🔴 High | Hard questions |
-| **Claude Sonnet 5.5** | **Xhigh** | Anthropic | 🟢 High | 🟡 Medium | 🔴 Very high | Hard questions |
+| **Gemini 4 Hydrogen** | **Medium** | Google | 🟢 High | 🟢 Fast | 🟡 Medium | Hard questions |
+| **Claude Sonnet 5.5** | **Xhigh** | Anthropic | 🟢 High | 🟡 Medium | 🔴 High | Hard questions |
 
 ## 🎯 Choosing the Right Model
 
-Start with **GPT-6 Luna (High)** or **GPT-5.6 Luna (Max)**. They answer most common questions accurately. For a difficult question that they fail to answer correctly, try **Gemini 4 Argon (Medium)** or **Claude Sonnet 5.5 (Xhigh)**.
+Start with **GPT-6 Luna (High)** or **GPT-5.6 Luna (Max)**. They answer most common questions accurately. For a difficult question that they fail to answer correctly, try **Gemini 4 Hydrogen (Medium)** or **Claude Sonnet 5.5 (Xhigh)**.
 
 ## 🔀 Switching Models
 
