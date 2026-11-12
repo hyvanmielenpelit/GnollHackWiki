@@ -366,7 +366,7 @@ When referencing or comparing different games and NetHack variants, use the foll
 
 ## 15. Legal and Store Compliance Documents
 
-- **Scope**: Includes `Privacy Policy.md`, `Gnoll Overseer Privacy Policy.md`, `GnollHack App Privacy Policy.md`, `GnollHack Steam App Privacy Policy.md`, `GnollHack Android App Privacy Policy.md`, `GnollHack iOS App Privacy Policy.md`, `GnollHack Account Privacy Policy.md`, `AI Usage Policy.md`, and `Overseer AI Providers.md`.
+- **Scope**: Includes `Privacy Policy.md`, `Gnoll Overseer Privacy Policy.md`, `GnollHack App Privacy Policy.md`, `GnollHack Steam App Privacy Policy.md`, `GnollHack Android App Privacy Policy.md`, `GnollHack iOS App Privacy Policy.md`, `GnollHack Account Privacy Policy.md`, `GnollHack Wiki Cookie Policy.md`, `GnollHack.com Cookie Policy.md`, `GnollHack Account Cookie Policy.md`, `AI Usage Policy.md`, and `Overseer AI Providers.md`.
 - **Steam Store Disclosures (`Overseer AI Providers.md`)**: `Overseer AI Providers.md` is a legally binding disclosure document linked directly from the Steam store notice **"Connects to 3rd-Party Service for AI Content Generation: OpenAI, Anthropic, and Google"**. It must remain strictly focused on live third-party AI content generation disclosures, identifying legal entities, providing direct links to external Terms of Service and Privacy Policies, disclosing data transmission scope and local encryption, detailing automated content safety guardrails, and establishing opt-in consent. Do not include gameplay guide text, model benchmarking tables, or non-legal wiki links in this document.
 - **No Heading Icons**: Never use Unicode emojis/icons in headings on legal, privacy, or compliance documents.
 - **Cross-References**: Cross-link exclusively to relevant first-party legal, policy, and safety pages (such as `[[Gnoll Overseer Privacy Policy]]`, `[[AI Usage Policy]]`, `[[GnollHack Steam App Privacy Policy]]`, or `[[/Development/AI Safety Settings]]`). Avoid linking to general gameplay guides.
@@ -429,7 +429,7 @@ $fixed = @()
 foreach ($line in (& git -C $root status --porcelain --untracked-files=all)) {
     $rel = $line.Substring(3).Trim('"')
     if ($rel -match ' -> ') { $rel = ($rel -split ' -> ')[-1] }
-    if ([IO.Path]::GetExtension($rel) -notin @('.md', '.mustache', '.css', '.txt')) { continue }
+    if ([IO.Path]::GetExtension($rel) -notin @('.md', '.mustache', '.css', '.js', '.txt')) { continue }
     $p = Join-Path $root ($rel -replace '/', '\')
     if (-not (Test-Path -LiteralPath $p)) { continue }
     $bytes = [IO.File]::ReadAllBytes($p)

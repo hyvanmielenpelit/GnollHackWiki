@@ -1,6 +1,6 @@
 ---
 name: wiki_theme
-description: "How the GnollHack wiki theme is built and changed: gnollhack-theme.css, its fonts and background art, Primer variable overrides, the dark color mode in layout.mustache, automatic content-hash versioning with {{#asset_url}}, the cache rules, and the visual and contrast checks. Read before changing the wiki's look or anything in .gollum/."
+description: "How the GnollHack wiki theme is built and changed: gnollhack-theme.css, its fonts and background art, Primer variable overrides, the dark color mode in layout.mustache, the cookie consent notice and its script, automatic content-hash versioning with {{#asset_url}}, the cache rules, and the visual and contrast checks. Read before changing the wiki's look or anything in .gollum/."
 ---
 
 # GnollHack Wiki Theme
@@ -25,7 +25,11 @@ marketing site, GnollHack Account, and Gnoll Overseer. `wiki_editing` section 4 
   (`width=device-width, initial-scale=1`, which must never disable zoom with
   `maximum-scale` or `user-scalable`), the `color-scheme` and `theme-color` metas, preloads
   of the Cinzel font and the regular Lato face, and the theme `<link>` right after Gollum's
-  `app` and `print` stylesheets, so that it overrides Primer.
+  `app` and `print` stylesheets, so that it overrides Primer. It also holds the cookie
+  consent notice (`#consentDiv`, the first element in `<body>`) and the Cookie Settings
+  button (`#cookieSettings`, after the content); both start `hidden` (section 10).
+- `.gollum/js/gnollhack-consent.js`: the cookie consent script, loaded with `defer` right
+  after the theme `<link>`; the only place Google Tag Manager is loaded (section 10).
 
 The code that versions and caches these files is in the GnollHackWikiConfig repository
 (`lib/gnollhack_assets.rb`, `config.rb`).
@@ -146,7 +150,9 @@ is dark only; there is no light mode.
 
 Every theme rule except the `@font-face` rules, the `:root` tokens, and the code word-wrap
 rule is inside `@media screen`, so printing keeps Gollum's light print stylesheet. Keep new
-rules inside it.
+rules inside it. The one other exception is the `@media print` rule that hides the cookie
+consent notice and the Cookie Settings button (`.gh-consent`, `.gh-cookie-settings`), so a
+notice left open is not printed.
 
 ## 7. Accessibility and Visual Checks
 
@@ -202,6 +208,26 @@ rules inside it.
 
 ## 9. Encoding
 
-`.css`, `.mustache` and the OFL `.txt` files are CRLF in the working tree, like pages; run
-the closing check in `wiki_editing` section 18. `.woff2` and `.webp` are binary
+`.css`, `.js`, `.mustache` and the OFL `.txt` files are CRLF in the working tree, like
+pages; run the closing check in `wiki_editing` section 18. `.woff2` and `.webp` are binary
 (`.gitattributes`).
+
+## 10. Cookie Consent
+
+- Google Tag Manager is loaded only by `gnollhack-consent.js`, after an explicit Accept.
+  The container ID is the notice's `data-gtm-id` attribute in `layout.mustache`. Never add a
+  tag snippet or a `<noscript>` frame to `layout.mustache`.
+- The choice is kept in `localStorage` under `cookieConsentChoice` (`accepted` or
+  `declined`). It is separate from the marketing site's choice, which lives on its own
+  origin.
+- Accept and Decline keep the same classes and appearance: equal prominence is a legal
+  requirement, not a style choice.
+- Cookie Settings must keep reopening the notice, on every page. The script unhides it, so
+  visitors without JavaScript, who get no tags, see no inert button.
+- Withdrawal deletes Google Analytics cookies only (`/^_(ga|gid|gat)(_|$)/`), on the host
+  and every parent domain, and reloads the page so running tags stop. The pattern covers
+  only Google Analytics because Google Analytics 4 is the container's only tag.
+- When the container's tags change, update the notice text, the cookie pattern in the
+  script, and `GnollHack Wiki Cookie Policy.md` together.
+- To test Accept locally, use a container ID that does not exist (in a scratch clone), so
+  no page view reaches the production property.

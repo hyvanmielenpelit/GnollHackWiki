@@ -26,3 +26,5 @@ The following policies refer to the main application policy. They exist for plat
 ## Websites
 
 * **[[GnollHack.com Cookie Policy]]** — Information about how we use cookies and tracking tags on our website.
+* **[[GnollHack Account Cookie Policy]]** — Cookies and tags on account.gnollhack.com.
+* **[[GnollHack Wiki Cookie Policy]]** — Information about how we use cookies and tracking tags on this wiki.

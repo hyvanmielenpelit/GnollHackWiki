@@ -884,6 +884,72 @@
     font-size: 15px;
     color: var(--gh-muted);
   }
+
+  /* -------------------------------------------------------------------------
+   * Cookie consent notice and Cookie Settings button
+   * ----------------------------------------------------------------------- */
+
+  .gh-consent {
+    position: fixed;
+    z-index: 1040;
+    bottom: 16px;
+    left: 16px;
+    width: min(calc(100vw - 32px), 340px);
+    padding: 14px 16px;
+    border: 1px solid var(--gh-border-strong);
+    border-radius: 12px;
+    background-color: var(--gh-surface-solid);
+    box-shadow: 0 14px 36px rgba(0, 0, 0, 0.78);
+    color: var(--gh-prose);
+    font-family: var(--gh-font-sans);
+    font-size: 14px;
+    line-height: 1.45;
+  }
+
+  .gh-consent[hidden],
+  .gh-cookie-settings[hidden] {
+    display: none;
+  }
+
+  .gh-consent-text {
+    margin-bottom: 10px;
+  }
+
+  .gh-consent-text a {
+    color: var(--gh-gold);
+    font-weight: 800;
+  }
+
+  .gh-consent-buttons {
+    display: flex;
+    gap: 8px;
+  }
+
+  .gh-consent-buttons .btn {
+    flex: 1 1 0;
+    min-height: 40px;
+  }
+
+  .gh-cookie-settings {
+    padding: 8px 16px 24px;
+    text-align: center;
+  }
+
+  .gh-link-button {
+    padding: 4px 10px;
+    border: 0;
+    border-radius: 6px;
+    background-color: var(--gh-surface);
+    color: var(--gh-muted);
+    font: inherit;
+    font-size: 14px;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .gh-link-button:hover {
+    color: var(--gh-gold);
+  }
 }
 
 /* Desktop: the panel floats above the background art. */
@@ -956,6 +1022,11 @@
   #head > nav.actions > .TableObject-item:last-child {
     padding: 0 !important;
   }
+
+  /* An open consent notice must not cover the end of the page: its height plus 32px. */
+  body:has(> .gh-consent:not([hidden])) > .gh-cookie-settings {
+    padding-bottom: 254px;
+  }
 }
 
 /* Unconditional, so printed code wraps too. */
@@ -983,5 +1054,17 @@ pre, code {
   #wiki-body .markdown-body :is(h1, h2, h3, h4, h5, h6) > .anchor:not(.edit)::before {
     forced-color-adjust: none;
     background-color: LinkText;
+  }
+
+  .gh-consent {
+    border: 1px solid CanvasText;
+  }
+}
+
+/* A consent notice left open is not printed. */
+@media print {
+  .gh-consent,
+  .gh-cookie-settings {
+    display: none !important;
   }
 }
