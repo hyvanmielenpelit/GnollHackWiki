@@ -22,7 +22,7 @@ The `_ga` cookie holds a random ID that lets Google Analytics recognize repeat v
 
 ## Who receives the data
 
-The data is sent to Google (Google Ireland Limited, and Google LLC in the United States), which processes it for us. Google may process it on servers outside the European Union, including in the United States. See [Google's Privacy Policy](https://policies.google.com/privacy) and [how Google uses information from sites that use its services](https://policies.google.com/technologies/partner-sites).
+The data is sent to Google (Google Ireland Limited, and Google LLC in the United States), which processes it for us. Google also uses the data, aggregated and de-identified, for modeling and benchmarking in Google Analytics, and Google's technical support can access it when needed to solve a technical problem. We do not share it with Google to improve Google's other products and services. Google may process it on servers outside the European Union, including in the United States. See [Google's Privacy Policy](https://policies.google.com/privacy) and [how Google uses information from sites that use its services](https://policies.google.com/technologies/partner-sites).
 
 ## Your choice
 
