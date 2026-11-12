@@ -45,4 +45,4 @@ Your API key is stored encrypted on the Overseer server. If you use Confidential
 
 ## 📅 Validity
 
-As of November 1, 2026.
+As of November 13, 2026.
