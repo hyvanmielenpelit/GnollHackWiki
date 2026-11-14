@@ -121,8 +121,8 @@ These settings appear on the Steam Deck, and on desktop Linux, macOS, and Window
 | **Quick Command 2** | Command | None | A command on the Quick Commands page of the Actions radial menu. It sits in the northwest slot. |
 | **Back Grip L4** | Command | Pick-axe | Configures the command bound to the L4 back grip. Needs GnollHack's Steam Input layout. Appears only when the controller has back grips. |
 | **Back Grip L5** | Command | Polearm | Configures the command bound to the L5 back grip. Needs GnollHack's Steam Input layout. Appears only when the controller has back grips. |
-| **Back Grip R4** | Command | Quick Cast | Configures the command bound to the R4 back grip. Needs GnollHack's Steam Input layout. Appears only when the controller has back grips. |
-| **Back Grip R5** | Command | Quick Zap | Configures the command bound to the R5 back grip. Needs GnollHack's Steam Input layout. Appears only when the controller has back grips. |
+| **Back Grip R4** | Command | Cast Quick Spell | Configures the command bound to the R4 back grip. Needs GnollHack's Steam Input layout. Appears only when the controller has back grips. |
+| **Back Grip R5** | Command | Zap Quick Wand | Configures the command bound to the R5 back grip. Needs GnollHack's Steam Input layout. Appears only when the controller has back grips. |
 
 ### 🖌️ Drawing
 

@@ -1,6 +1,12 @@
 > 👉 **GnollHack can be played with the Steam Deck's built-in controls starting from version 3.32, and with a game controller, such as an Xbox controller, on Windows, Linux, and macOS.**
 
+![Steam Deck front view with every control labeled](/uploads/Steam%20Deck%20Controls/steam-deck-front.webp)
+
+*Controls of the Steam Deck.*
+
 Button names on this page follow the Steam Deck; see [[Button Names on Other Controllers|#button-names-on-other-controllers]]. A strip of button hints at the bottom of the screen always shows what each button does at the moment, and it changes when you hold L1 or R1.
+
+![The hint strip with no button held, with L1 held, and with R1 held](/uploads/Steam%20Deck%20Controls/hint-strip.webp)
 
 Touching the screen, using the mouse, or pressing a keyboard key returns the game to its usual on-screen buttons until you use the controller again.
 
@@ -41,32 +47,42 @@ The Android and iOS versions do not have controller support yet, and neither doe
 
 The buttons work by position: A is the bottom face button, B the right, X the left, and Y the top. The button hints at the bottom of the screen show the labels of the controller you are using, such as Cross and Circle on a PlayStation controller.
 
-| Steam Deck | Xbox Controller |
-| :--------- | :-------------- |
-| **L1 and R1** | LB and RB |
-| **L2 and R2** | LT and RT |
-| **View** | View (Back) |
-| **Menu** | Menu (Start) |
+| Button | Steam Deck | Xbox | PlayStation | Nintendo |
+| :----- | :--------- | :--- | :---------- | :------- |
+| **Face buttons** | <img src="/uploads/Steam%20Deck%20Controls/glyph-a.webp" alt="A" height="22" style="vertical-align: middle" /> <img src="/uploads/Steam%20Deck%20Controls/glyph-b.webp" alt="B" height="22" style="vertical-align: middle" /> <img src="/uploads/Steam%20Deck%20Controls/glyph-x.webp" alt="X" height="22" style="vertical-align: middle" /> <img src="/uploads/Steam%20Deck%20Controls/glyph-y.webp" alt="Y" height="22" style="vertical-align: middle" /> A, B, X, Y | <img src="/uploads/Steam%20Deck%20Controls/glyph-a.webp" alt="A" height="22" style="vertical-align: middle" /> <img src="/uploads/Steam%20Deck%20Controls/glyph-b.webp" alt="B" height="22" style="vertical-align: middle" /> <img src="/uploads/Steam%20Deck%20Controls/glyph-x.webp" alt="X" height="22" style="vertical-align: middle" /> <img src="/uploads/Steam%20Deck%20Controls/glyph-y.webp" alt="Y" height="22" style="vertical-align: middle" /> A, B, X, Y | <img src="/uploads/Steam%20Deck%20Controls/glyph-ps-cross.webp" alt="Cross" height="22" style="vertical-align: middle" /> <img src="/uploads/Steam%20Deck%20Controls/glyph-ps-circle.webp" alt="Circle" height="22" style="vertical-align: middle" /> <img src="/uploads/Steam%20Deck%20Controls/glyph-ps-square.webp" alt="Square" height="22" style="vertical-align: middle" /> <img src="/uploads/Steam%20Deck%20Controls/glyph-ps-triangle.webp" alt="Triangle" height="22" style="vertical-align: middle" /> Cross, Circle, Square, Triangle | <img src="/uploads/Steam%20Deck%20Controls/glyph-b.webp" alt="B" height="22" style="vertical-align: middle" /> <img src="/uploads/Steam%20Deck%20Controls/glyph-a.webp" alt="A" height="22" style="vertical-align: middle" /> <img src="/uploads/Steam%20Deck%20Controls/glyph-y.webp" alt="Y" height="22" style="vertical-align: middle" /> <img src="/uploads/Steam%20Deck%20Controls/glyph-x.webp" alt="X" height="22" style="vertical-align: middle" /> B, A, Y, X |
+| **Bumpers** | <img src="/uploads/Steam%20Deck%20Controls/glyph-l1.webp" alt="L1" height="22" style="vertical-align: middle" /> <img src="/uploads/Steam%20Deck%20Controls/glyph-r1.webp" alt="R1" height="22" style="vertical-align: middle" /> L1, R1 | <img src="/uploads/Steam%20Deck%20Controls/glyph-lb.webp" alt="LB" height="22" style="vertical-align: middle" /> <img src="/uploads/Steam%20Deck%20Controls/glyph-rb.webp" alt="RB" height="22" style="vertical-align: middle" /> LB, RB | <img src="/uploads/Steam%20Deck%20Controls/glyph-l1.webp" alt="L1" height="22" style="vertical-align: middle" /> <img src="/uploads/Steam%20Deck%20Controls/glyph-r1.webp" alt="R1" height="22" style="vertical-align: middle" /> L1, R1 | <img src="/uploads/Steam%20Deck%20Controls/glyph-n-l.webp" alt="L" height="22" style="vertical-align: middle" /> <img src="/uploads/Steam%20Deck%20Controls/glyph-n-r.webp" alt="R" height="22" style="vertical-align: middle" /> L, R |
+| **Triggers** | <img src="/uploads/Steam%20Deck%20Controls/glyph-l2.webp" alt="L2" height="22" style="vertical-align: middle" /> <img src="/uploads/Steam%20Deck%20Controls/glyph-r2.webp" alt="R2" height="22" style="vertical-align: middle" /> L2, R2 | <img src="/uploads/Steam%20Deck%20Controls/glyph-lt.webp" alt="LT" height="22" style="vertical-align: middle" /> <img src="/uploads/Steam%20Deck%20Controls/glyph-rt.webp" alt="RT" height="22" style="vertical-align: middle" /> LT, RT | <img src="/uploads/Steam%20Deck%20Controls/glyph-l2.webp" alt="L2" height="22" style="vertical-align: middle" /> <img src="/uploads/Steam%20Deck%20Controls/glyph-r2.webp" alt="R2" height="22" style="vertical-align: middle" /> L2, R2 | <img src="/uploads/Steam%20Deck%20Controls/glyph-zl.webp" alt="ZL" height="22" style="vertical-align: middle" /> <img src="/uploads/Steam%20Deck%20Controls/glyph-zr.webp" alt="ZR" height="22" style="vertical-align: middle" /> ZL, ZR |
+| **Stick clicks** | <img src="/uploads/Steam%20Deck%20Controls/glyph-l3.webp" alt="L3" height="22" style="vertical-align: middle" /> <img src="/uploads/Steam%20Deck%20Controls/glyph-r3.webp" alt="R3" height="22" style="vertical-align: middle" /> L3, R3 | <img src="/uploads/Steam%20Deck%20Controls/glyph-ls.webp" alt="LS" height="22" style="vertical-align: middle" /> <img src="/uploads/Steam%20Deck%20Controls/glyph-rs.webp" alt="RS" height="22" style="vertical-align: middle" /> LS, RS | <img src="/uploads/Steam%20Deck%20Controls/glyph-l3.webp" alt="L3" height="22" style="vertical-align: middle" /> <img src="/uploads/Steam%20Deck%20Controls/glyph-r3.webp" alt="R3" height="22" style="vertical-align: middle" /> L3, R3 | <img src="/uploads/Steam%20Deck%20Controls/glyph-l3.webp" alt="L3" height="22" style="vertical-align: middle" /> <img src="/uploads/Steam%20Deck%20Controls/glyph-r3.webp" alt="R3" height="22" style="vertical-align: middle" /> L3, R3 |
+| **Back grips** | <img src="/uploads/Steam%20Deck%20Controls/glyph-l4.webp" alt="L4" height="22" style="vertical-align: middle" /> <img src="/uploads/Steam%20Deck%20Controls/glyph-l5.webp" alt="L5" height="22" style="vertical-align: middle" /> <img src="/uploads/Steam%20Deck%20Controls/glyph-r4.webp" alt="R4" height="22" style="vertical-align: middle" /> <img src="/uploads/Steam%20Deck%20Controls/glyph-r5.webp" alt="R5" height="22" style="vertical-align: middle" /> L4, L5, R4, R5 | <img src="/uploads/Steam%20Deck%20Controls/glyph-p3.webp" alt="P3" height="22" style="vertical-align: middle" /> <img src="/uploads/Steam%20Deck%20Controls/glyph-p4.webp" alt="P4" height="22" style="vertical-align: middle" /> <img src="/uploads/Steam%20Deck%20Controls/glyph-p1.webp" alt="P1" height="22" style="vertical-align: middle" /> <img src="/uploads/Steam%20Deck%20Controls/glyph-p2.webp" alt="P2" height="22" style="vertical-align: middle" /> P3, P4, P1, P2 | <img src="/uploads/Steam%20Deck%20Controls/glyph-l4.webp" alt="L4" height="22" style="vertical-align: middle" /> <img src="/uploads/Steam%20Deck%20Controls/glyph-l5.webp" alt="L5" height="22" style="vertical-align: middle" /> <img src="/uploads/Steam%20Deck%20Controls/glyph-r4.webp" alt="R4" height="22" style="vertical-align: middle" /> <img src="/uploads/Steam%20Deck%20Controls/glyph-r5.webp" alt="R5" height="22" style="vertical-align: middle" /> L4, L5, R4, R5 | <img src="/uploads/Steam%20Deck%20Controls/glyph-l4.webp" alt="L4" height="22" style="vertical-align: middle" /> <img src="/uploads/Steam%20Deck%20Controls/glyph-l5.webp" alt="L5" height="22" style="vertical-align: middle" /> <img src="/uploads/Steam%20Deck%20Controls/glyph-r4.webp" alt="R4" height="22" style="vertical-align: middle" /> <img src="/uploads/Steam%20Deck%20Controls/glyph-r5.webp" alt="R5" height="22" style="vertical-align: middle" /> L4, L5, R4, R5 |
+| **View and Menu** | <img src="/uploads/Steam%20Deck%20Controls/glyph-view.webp" alt="View" height="22" style="vertical-align: middle" /> <img src="/uploads/Steam%20Deck%20Controls/glyph-menu.webp" alt="Menu" height="22" style="vertical-align: middle" /> View, Menu | <img src="/uploads/Steam%20Deck%20Controls/glyph-view.webp" alt="View" height="22" style="vertical-align: middle" /> <img src="/uploads/Steam%20Deck%20Controls/glyph-menu.webp" alt="Menu" height="22" style="vertical-align: middle" /> View (Back), Menu (Start) | <img src="/uploads/Steam%20Deck%20Controls/glyph-view.webp" alt="Create" height="22" style="vertical-align: middle" /> <img src="/uploads/Steam%20Deck%20Controls/glyph-menu.webp" alt="Options" height="22" style="vertical-align: middle" /> Create, Options | <img src="/uploads/Steam%20Deck%20Controls/glyph-view.webp" alt="Minus" height="22" style="vertical-align: middle" /> <img src="/uploads/Steam%20Deck%20Controls/glyph-menu.webp" alt="Plus" height="22" style="vertical-align: middle" /> Minus, Plus |
+
+On Nintendo controllers, the letters follow the buttons' positions, so the bottom face button reads B.
 
 ## 🗺️ Controls on the Map
 
 L1 and R1 do nothing on their own. They are hold modifiers that change what the other buttons do. The game's commands and their keyboard shortcuts are listed in [[Commands]].
 
+![What each control does on the map with no button held](/uploads/Steam%20Deck%20Controls/map-controls.webp)
+
+![What the controls do on the map while L1 is held](/uploads/Steam%20Deck%20Controls/map-controls-l1.webp)
+
+![What the controls do on the map while R1 is held](/uploads/Steam%20Deck%20Controls/map-controls-r1.webp)
+
 | Control | Alone | With L1 Held | With R1 Held |
 | :------ | :---- | :----------- | :----------- |
-| **A** | The action available on your square; opens the Actions radial menu if there are several | Commands radial menu | |
-| **B** | Search (`s`); first closes an open overlay, and interrupts an ongoing activity | Search 20 times | |
-| **X** | Pick Up (`,`) | Pick Up and Stash (`;`) | |
-| **Y** | Repeat (`Ctrl+a`) | Wait (`.`) | |
-| **R2** | R2's command, by default By Role: Cast Quick for spellcasters, Polearm for Knights, Fire for the others | Right Quick radial menu | |
-| **L2** | L2's command, by default Kick (`k`) | | Left Quick radial menu |
-| **Menu** | Game menu | Abilities (`Shift+a`) | |
-| **View** | Inventory (`i`) | | Equipment (`*`) |
-| **D-pad** | Walk one step per press, repeating while held; press two directions together to walk diagonally | | Up and Down zoom, Left toggles the minimap, and Right returns to normal zoom |
-| **Left stick** | Walk in eight directions | | Run in that direction |
-| **Right stick** | Pan the map | | |
-| **L3** | Run: your next direction on the left stick or the D-pad runs, as the Run prefix (`Shift+g`) does; L3 again or B cancels | | Center the map on your character |
-| **R3** | Toggles radial menu | | |
+| <img src="/uploads/Steam%20Deck%20Controls/glyph-a.webp" alt="A" height="22" style="vertical-align: middle" /> **A** | The action available on your square; opens the Actions radial menu if there are several | Commands radial menu | |
+| <img src="/uploads/Steam%20Deck%20Controls/glyph-b.webp" alt="B" height="22" style="vertical-align: middle" /> **B** | Search (`s`); first closes an open overlay, and interrupts an ongoing activity | Search 20 times | |
+| <img src="/uploads/Steam%20Deck%20Controls/glyph-x.webp" alt="X" height="22" style="vertical-align: middle" /> **X** | Pick Up (`,`) | Pick Up and Stash (`;`) | |
+| <img src="/uploads/Steam%20Deck%20Controls/glyph-y.webp" alt="Y" height="22" style="vertical-align: middle" /> **Y** | Repeat (`Ctrl+a`) | Wait (`.`) | |
+| <img src="/uploads/Steam%20Deck%20Controls/glyph-r2.webp" alt="R2" height="22" style="vertical-align: middle" /> **R2** | R2's command, by default By Role: Cast Quick for spellcasters, Polearm for Knights, Fire for the others | Right Quick radial menu | |
+| <img src="/uploads/Steam%20Deck%20Controls/glyph-l2.webp" alt="L2" height="22" style="vertical-align: middle" /> **L2** | L2's command, by default Kick (`k`) | | Left Quick radial menu |
+| <img src="/uploads/Steam%20Deck%20Controls/glyph-menu.webp" alt="Menu" height="22" style="vertical-align: middle" /> **Menu** | Game menu | Abilities (`Shift+a`) | |
+| <img src="/uploads/Steam%20Deck%20Controls/glyph-view.webp" alt="View" height="22" style="vertical-align: middle" /> **View** | Inventory (`i`) | | Equipment (`*`) |
+| <img src="/uploads/Steam%20Deck%20Controls/glyph-dpad.webp" alt="D-pad" height="22" style="vertical-align: middle" /> **D-pad** | Walk one step per press, repeating while held; press two directions together to walk diagonally | | Up and Down zoom, Left toggles the minimap, and Right returns to normal zoom |
+| <img src="/uploads/Steam%20Deck%20Controls/glyph-lstick.webp" alt="Left stick" height="22" style="vertical-align: middle" /> **Left stick** | Walk in eight directions | | Run in that direction |
+| <img src="/uploads/Steam%20Deck%20Controls/glyph-rstick.webp" alt="Right stick" height="22" style="vertical-align: middle" /> **Right stick** | Pan the map | | |
+| <img src="/uploads/Steam%20Deck%20Controls/glyph-l3.webp" alt="L3" height="22" style="vertical-align: middle" /> **L3** | Run: your next direction on the left stick or the D-pad runs, as the Run prefix (`Shift+g`) does; L3 again or B cancels | | Center the map on your character |
+| <img src="/uploads/Steam%20Deck%20Controls/glyph-r3.webp" alt="R3" height="22" style="vertical-align: middle" /> **R3** | Toggles radial menu | | |
 
 Holding both L1 and R1 and pressing Y makes your character rest, and pressing R2 or L2 runs that trigger's command. Clicking the left trackpad does the same as pressing L3.
 
@@ -80,14 +96,18 @@ If the command asks for a direction while you still hold the trigger, the **Dire
 
 L1 + R2 opens the **Right Quick** radial menu, and R1 + L2 opens the **Left Quick** radial menu. The action that you choose runs at once, and if it asks for a direction, the Direction radial menu opens. Pressing the trigger again closes the radial menu. You can change their eight actions in [[Settings]], under Quick Radials. You choose them the same way.
 
+![The Left Quick and Right Quick radial menus with their default actions](/uploads/Steam%20Deck%20Controls/radial-quick.webp)
+
 | Radial Menu | Default Actions |
 | :---------- | :-------------- |
-| **Right Quick** | Two-Weapon, Swap, Chat, Throw, Cast, Quick Cast, Zap, Quick Zap |
+| **Right Quick** | 2-Weapon, Swap, Chat, Throw, Cast, Cast Quick, Zap, Zap Quick |
 | **Left Quick** | Apply, Drop Items, Drop Types, Pray, Yell, Engrave, Pick-axe, Polearm |
 
 ### 🕹️ Back Grips
 
-L4, L5, R4, and R5 default to Pick-axe, Polearm, Quick Cast, and Quick Zap. You can change them in [[Settings]], under Controller.
+L4, L5, R4, and R5 default to Pick-axe, Polearm, Cast Quick, and Zap Quick. You can change them in [[Settings]], under Controller.
+
+![The top edge with L1, L2, R1, and R2, and the back with the back grips and their default commands](/uploads/Steam%20Deck%20Controls/steam-deck-top-back.webp)
 
 ### 📍 Choosing a Position
 
@@ -95,25 +115,27 @@ When the game asks you to choose a position on the map:
 
 | Control | Action |
 | :------ | :----- |
-| **Left stick** | Move the cursor; a full push jumps eight squares |
-| **Right stick** | Pan the map |
-| **A** | Select |
-| **B** | Cancel |
-| **L1 and R1** | Previous and next interesting spot |
-| **L2 and R2** | Previous and next monster |
-| **Y** | Put the cursor on your character |
+| <img src="/uploads/Steam%20Deck%20Controls/glyph-lstick.webp" alt="Left stick" height="22" style="vertical-align: middle" /> **Left stick** | Move the cursor; a full push jumps eight squares |
+| <img src="/uploads/Steam%20Deck%20Controls/glyph-rstick.webp" alt="Right stick" height="22" style="vertical-align: middle" /> **Right stick** | Pan the map |
+| <img src="/uploads/Steam%20Deck%20Controls/glyph-a.webp" alt="A" height="22" style="vertical-align: middle" /> **A** | Select |
+| <img src="/uploads/Steam%20Deck%20Controls/glyph-b.webp" alt="B" height="22" style="vertical-align: middle" /> **B** | Cancel |
+| <img src="/uploads/Steam%20Deck%20Controls/glyph-l1.webp" alt="L1" height="22" style="vertical-align: middle" /> <img src="/uploads/Steam%20Deck%20Controls/glyph-r1.webp" alt="R1" height="22" style="vertical-align: middle" /> **L1 and R1** | Previous and next interesting spot |
+| <img src="/uploads/Steam%20Deck%20Controls/glyph-l2.webp" alt="L2" height="22" style="vertical-align: middle" /> <img src="/uploads/Steam%20Deck%20Controls/glyph-r2.webp" alt="R2" height="22" style="vertical-align: middle" /> **L2 and R2** | Previous and next monster |
+| <img src="/uploads/Steam%20Deck%20Controls/glyph-y.webp" alt="Y" height="22" style="vertical-align: middle" /> **Y** | Put the cursor on your character |
 
 ### 🧭 Choosing a Direction
 
 When the game asks for a direction, the violet **Direction** radial menu opens:
 
+<img src="/uploads/Steam%20Deck%20Controls/radial-direction.webp" alt="The Direction radial menu for Fire, with East selected" width="600" />
+
 | Control | Action |
 | :------ | :----- |
-| **Either stick, or D-pad Left and Right** | Select a direction |
-| **A** | Confirm the selected direction |
-| **D-pad Up and Down** | Choose up (`<`) or down (`>`) at once |
-| **Y** | Choose yourself at once |
-| **B** | Cancel the action |
+| <img src="/uploads/Steam%20Deck%20Controls/glyph-lstick.webp" alt="Left stick" height="22" style="vertical-align: middle" /> <img src="/uploads/Steam%20Deck%20Controls/glyph-rstick.webp" alt="Right stick" height="22" style="vertical-align: middle" /> <img src="/uploads/Steam%20Deck%20Controls/glyph-dpad-left.webp" alt="D-pad Left" height="22" style="vertical-align: middle" /> <img src="/uploads/Steam%20Deck%20Controls/glyph-dpad-right.webp" alt="D-pad Right" height="22" style="vertical-align: middle" /> **Either stick, or D-pad Left and Right** | Select a direction |
+| <img src="/uploads/Steam%20Deck%20Controls/glyph-a.webp" alt="A" height="22" style="vertical-align: middle" /> **A** | Confirm the selected direction |
+| <img src="/uploads/Steam%20Deck%20Controls/glyph-dpad-up.webp" alt="D-pad Up" height="22" style="vertical-align: middle" /> <img src="/uploads/Steam%20Deck%20Controls/glyph-dpad-down.webp" alt="D-pad Down" height="22" style="vertical-align: middle" /> **D-pad Up and Down** | Choose up (`<`) or down (`>`) at once |
+| <img src="/uploads/Steam%20Deck%20Controls/glyph-y.webp" alt="Y" height="22" style="vertical-align: middle" /> **Y** | Choose yourself at once |
+| <img src="/uploads/Steam%20Deck%20Controls/glyph-b.webp" alt="B" height="22" style="vertical-align: middle" /> **B** | Cancel the action |
 
 If you hold L2 or R2 and its command asks for a direction, releasing the trigger confirms the selected direction, or cancels the action if none is selected, and a stick you are already pushing counts at once.
 
@@ -121,28 +143,35 @@ If you hold L2 or R2 and its command asks for a direction, releasing the trigger
 
 A radial menu stays open until you choose an item or close it. The exception is the Direction radial menu while its trigger is held, described in [[Choosing a Direction|#choosing-a-direction]].
 
+![The Actions radial menu on its Quick Commands page, with Rest selected and its parts labeled](/uploads/Steam%20Deck%20Controls/radial-actions.webp)
+
 - Select an item with either stick, or step between items with D-pad Left and Right. D-pad Up and Down jump to the top and bottom items.
 - A activates the item, and B closes the menu. Menu closes the menu and opens the game menu.
 - L1 and R1 change the page.
 
 The radial menus on the map are:
 
-- **Actions:** The actions available on your square, followed by pages of commands. The first of them is the **Quick Commands** page: Rest, Search 20 times, Extended Command, and Skills, Polearm, and Wield Last or Unwield when they are available. Its west and northwest slots hold Quick Command 1 and Quick Command 2, which you can set in [[Settings]], under Controller. The other commands follow in alphabetical order. X switches between the actions on your square and the Quick Commands page.
+- **Actions:** The actions available on your square, followed by pages of commands. The first of them is the **Quick Commands** page: Rest, Search 20, Extended, and Skills, Polearm, and Wield Last or Unwield when they are available. Its west and northwest slots hold Quick Command 1 and Quick Command 2, which you can set in [[Settings]], under Controller. The other commands follow in alphabetical order. X switches between the actions on your square and the Quick Commands page.
 - **Toggles:** More Messages, Status Screen, Auto-Center, Look Mode, Auto-Dig, Ignore Stopping, Max Hit Points, and Max Mana.
+
+  <img src="/uploads/Steam%20Deck%20Controls/radial-toggles.webp" alt="The Toggles radial menu, with Auto-Center selected" width="600" />
+
+  *The Toggles radial menu, with Auto-Center selected.*
+
 - **Left Quick and Right Quick:** The radial menus described in [[Quick Radials|#quick-radials]].
 
 ## 📜 Menus and Dialogs
 
 | Control | Action |
 | :------ | :----- |
-| **Left stick, D-pad** | Move the focus; in menus, D-pad Left and Right change the page |
-| **Right stick** | Scroll |
-| **A** | Confirm or select the focused item; hold A on a menu row for its count or actions |
-| **B** | Cancel, close, or go back |
-| **X** | Accept the selection in menus |
-| **Y** | Select or unselect all items in menus that allow selecting several |
-| **L1 and R1** | Jump between sections in menus |
-| **L2 and R2** | First or last row in menus |
+| <img src="/uploads/Steam%20Deck%20Controls/glyph-lstick.webp" alt="Left stick" height="22" style="vertical-align: middle" /> <img src="/uploads/Steam%20Deck%20Controls/glyph-dpad.webp" alt="D-pad" height="22" style="vertical-align: middle" /> **Left stick, D-pad** | Move the focus; in menus, D-pad Left and Right change the page |
+| <img src="/uploads/Steam%20Deck%20Controls/glyph-rstick.webp" alt="Right stick" height="22" style="vertical-align: middle" /> **Right stick** | Scroll |
+| <img src="/uploads/Steam%20Deck%20Controls/glyph-a.webp" alt="A" height="22" style="vertical-align: middle" /> **A** | Confirm or select the focused item; hold A on a menu row for its count or actions |
+| <img src="/uploads/Steam%20Deck%20Controls/glyph-b.webp" alt="B" height="22" style="vertical-align: middle" /> **B** | Cancel, close, or go back |
+| <img src="/uploads/Steam%20Deck%20Controls/glyph-x.webp" alt="X" height="22" style="vertical-align: middle" /> **X** | Accept the selection in menus |
+| <img src="/uploads/Steam%20Deck%20Controls/glyph-y.webp" alt="Y" height="22" style="vertical-align: middle" /> **Y** | Select or unselect all items in menus that allow selecting several |
+| <img src="/uploads/Steam%20Deck%20Controls/glyph-l1.webp" alt="L1" height="22" style="vertical-align: middle" /> <img src="/uploads/Steam%20Deck%20Controls/glyph-r1.webp" alt="R1" height="22" style="vertical-align: middle" /> **L1 and R1** | Jump between sections in menus |
+| <img src="/uploads/Steam%20Deck%20Controls/glyph-l2.webp" alt="L2" height="22" style="vertical-align: middle" /> <img src="/uploads/Steam%20Deck%20Controls/glyph-r2.webp" alt="R2" height="22" style="vertical-align: middle" /> **L2 and R2** | First or last row in menus |
 
 In a yes/no prompt, Y answers Yes and X answers No when the prompt offers them.
 
@@ -162,17 +191,17 @@ Web pages, such as this wiki, open in the game's in-app browser, where a gold fo
 
 | Control | Action |
 | :------ | :----- |
-| **D-pad, left stick** | Move to the nearest link or control in that direction |
-| **Right stick** | Scroll |
-| **A** | Follow a link, press a button, or edit a text field |
-| **B** | End a text edit, close an open menu, go back, or close the browser |
-| **X** | Go forward |
-| **Y** | Edit the page's search field |
-| **L1 and R1** | Previous and next section heading |
-| **L2 and R2** | Page up and page down |
-| **L3** | Top of the page |
-| **View** | Move between the article, the sidebar, and the toolbar |
-| **Menu** | Close the browser |
+| <img src="/uploads/Steam%20Deck%20Controls/glyph-dpad.webp" alt="D-pad" height="22" style="vertical-align: middle" /> <img src="/uploads/Steam%20Deck%20Controls/glyph-lstick.webp" alt="Left stick" height="22" style="vertical-align: middle" /> **D-pad, left stick** | Move to the nearest link or control in that direction |
+| <img src="/uploads/Steam%20Deck%20Controls/glyph-rstick.webp" alt="Right stick" height="22" style="vertical-align: middle" /> **Right stick** | Scroll |
+| <img src="/uploads/Steam%20Deck%20Controls/glyph-a.webp" alt="A" height="22" style="vertical-align: middle" /> **A** | Follow a link, press a button, or edit a text field |
+| <img src="/uploads/Steam%20Deck%20Controls/glyph-b.webp" alt="B" height="22" style="vertical-align: middle" /> **B** | End a text edit, close an open menu, go back, or close the browser |
+| <img src="/uploads/Steam%20Deck%20Controls/glyph-x.webp" alt="X" height="22" style="vertical-align: middle" /> **X** | Go forward |
+| <img src="/uploads/Steam%20Deck%20Controls/glyph-y.webp" alt="Y" height="22" style="vertical-align: middle" /> **Y** | Edit the page's search field |
+| <img src="/uploads/Steam%20Deck%20Controls/glyph-l1.webp" alt="L1" height="22" style="vertical-align: middle" /> <img src="/uploads/Steam%20Deck%20Controls/glyph-r1.webp" alt="R1" height="22" style="vertical-align: middle" /> **L1 and R1** | Previous and next section heading |
+| <img src="/uploads/Steam%20Deck%20Controls/glyph-l2.webp" alt="L2" height="22" style="vertical-align: middle" /> <img src="/uploads/Steam%20Deck%20Controls/glyph-r2.webp" alt="R2" height="22" style="vertical-align: middle" /> **L2 and R2** | Page up and page down |
+| <img src="/uploads/Steam%20Deck%20Controls/glyph-l3.webp" alt="L3" height="22" style="vertical-align: middle" /> **L3** | Top of the page |
+| <img src="/uploads/Steam%20Deck%20Controls/glyph-view.webp" alt="View" height="22" style="vertical-align: middle" /> **View** | Move between the article, the sidebar, and the toolbar |
+| <img src="/uploads/Steam%20Deck%20Controls/glyph-menu.webp" alt="Menu" height="22" style="vertical-align: middle" /> **Menu** | Close the browser |
 
 The right trackpad stays a mouse on these pages.
 
@@ -184,10 +213,10 @@ When you are in the writing area:
 
 | Control | Action |
 | :------ | :----- |
-| **L2** | Go to the model selector |
-| **R2** | Go to the text entry |
-| **Y** | Open the model selector |
-| **X** | Write in the text entry |
+| <img src="/uploads/Steam%20Deck%20Controls/glyph-l2.webp" alt="L2" height="22" style="vertical-align: middle" /> **L2** | Go to the model selector |
+| <img src="/uploads/Steam%20Deck%20Controls/glyph-r2.webp" alt="R2" height="22" style="vertical-align: middle" /> **R2** | Go to the text entry |
+| <img src="/uploads/Steam%20Deck%20Controls/glyph-y.webp" alt="Y" height="22" style="vertical-align: middle" /> **Y** | Open the model selector |
+| <img src="/uploads/Steam%20Deck%20Controls/glyph-x.webp" alt="X" height="22" style="vertical-align: middle" /> **X** | Write in the text entry |
 
 While you are typing text, the D-pad and the left stick move the text cursor, L2 and R2 go to the start and end of the text, and B ends the typing. With nothing else to do, B leaves the page after a confirmation.
 
@@ -197,12 +226,12 @@ In Gaming Mode, and on any platform while you are using the controller, attachin
 
 | Control | Action |
 | :------ | :----- |
-| **D-pad, left stick** | Move between rows and buttons |
-| **Right stick** | Scroll |
-| **A** | Open a place or folder, select a file, or save to a place |
-| **X** | Attach the selected files |
-| **B** | Go up a level, then cancel |
-| **L2 and R2** | First or last row |
-| **Menu** | Cancel |
+| <img src="/uploads/Steam%20Deck%20Controls/glyph-dpad.webp" alt="D-pad" height="22" style="vertical-align: middle" /> <img src="/uploads/Steam%20Deck%20Controls/glyph-lstick.webp" alt="Left stick" height="22" style="vertical-align: middle" /> **D-pad, left stick** | Move between rows and buttons |
+| <img src="/uploads/Steam%20Deck%20Controls/glyph-rstick.webp" alt="Right stick" height="22" style="vertical-align: middle" /> **Right stick** | Scroll |
+| <img src="/uploads/Steam%20Deck%20Controls/glyph-a.webp" alt="A" height="22" style="vertical-align: middle" /> **A** | Open a place or folder, select a file, or save to a place |
+| <img src="/uploads/Steam%20Deck%20Controls/glyph-x.webp" alt="X" height="22" style="vertical-align: middle" /> **X** | Attach the selected files |
+| <img src="/uploads/Steam%20Deck%20Controls/glyph-b.webp" alt="B" height="22" style="vertical-align: middle" /> **B** | Go up a level, then cancel |
+| <img src="/uploads/Steam%20Deck%20Controls/glyph-l2.webp" alt="L2" height="22" style="vertical-align: middle" /> <img src="/uploads/Steam%20Deck%20Controls/glyph-r2.webp" alt="R2" height="22" style="vertical-align: middle" /> **L2 and R2** | First or last row |
+| <img src="/uploads/Steam%20Deck%20Controls/glyph-menu.webp" alt="Menu" height="22" style="vertical-align: middle" /> **Menu** | Cancel |
 
 Files can be attached and imported from Pictures, GnollHack Screenshots, Documents, Downloads, and SD cards. Saved files go to a `GnollHack` folder under Documents, Downloads, or an SD card, and saving never overwrites an existing file.
