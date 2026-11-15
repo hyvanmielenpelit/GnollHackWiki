@@ -92,7 +92,7 @@ To measure how models actually perform as the Overseer, we built **[[/GnollBench
 
 ### 1. The Production Configuration Is the Instrument
 
-A candidate model is not tested with a simplified benchmark prompt. It gets the **exact production system prompt** and the **16 read-only lookup tools** the live chat uses: wiki search; monster, item, and artifact data; the knowledge base; and C source code inspection. When a model fails a question, the failure is one that players would hit too, and it often points to a missing fact on the wiki or a tool description that needs to be clearer.
+A candidate model is not tested with a simplified benchmark prompt. It gets the **exact production system prompt** and the **17 read-only lookup tools** the live chat uses: wiki search; monster, item, and artifact data; the knowledge base; and C source code inspection. When a model fails a question, the failure is one that players would hit too, and it often points to a missing fact on the wiki or a tool description that needs to be clearer.
 
 ### 2. A Blind Grading Panel from Two Providers, Plus a Source-Code Verifier
 

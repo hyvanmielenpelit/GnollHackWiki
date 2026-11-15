@@ -91,7 +91,7 @@ GnollBench does not ask a model to play the game, but to advise a human who play
 | **Size** | 18 questions in the default suite; custom suites of any size up to 50 | Thousands of items | Millions of votes | Hundreds to thousands of questions |
 | **Who writes the questions** | Usually an AI that can consult the game's source code and this wiki; the developers review them | Artificial Analysis and outside authors | The visitors | Subject specialists |
 | **Who writes the answer keys** | Usually an AI, from the same sources; improved between runs in the light of the results | The authors of each test | There are none | Subject specialists |
-| **Tools for the model** | 16 of the Overseer's 31 tools: the lookups for the wikis, game data, and source code | Code and web tools in the agent tests | Usually none | Usually none |
+| **Tools for the model** | 17 of the Overseer's 31 tools: the lookups for the wikis, game data, and source code | Code and web tools in the agent tests | Usually none | Usually none |
 
 The Overseer's other tools are left out of the exam because they do not suit a fixed test: they read the player's own game and files, search GitHub or the server's game records, or hand work to helper AIs. When a suite is built around a game situation, that situation is normally captured from a real game with the game's own snapshot export.
 

@@ -15,7 +15,7 @@
 | **Results** | Intelligence Index, Speed Index, Cost, plus outcome figures |
 | **Who runs it** | The Overseer's administrators. Preliminary results have been published as an executive summary; per-run details (answers, grades, rubrics, diagnostics) remain for internal use, and interested parties can request results, which can be anonymized for that purpose. This article describes the method only |
 | **Roles in a run** | Candidate; assessor and co-assessor (the two-company grading panel); optional Second Reader or Reference Reader; optional claim verifier; optional report writer |
-| **Candidate tools** | 16 read-only tools |
+| **Candidate tools** | 17 read-only tools |
 | **Per-question limits** | 45 tool calls, 22 tool rounds, 28 model calls, timeout 420 / 600 / 720 s by difficulty band |
 | **Comparability** | 27 keys of 4 kinds, resolved to 4 outcomes (Tier A, B, C, or not comparable) |
 | **Minimum runs** | Reproducibility figures need at least 3 runs; item analysis needs at least 4 |
@@ -41,7 +41,7 @@ Each question is an independent single-turn agentic task. The candidate receives
 
 Source code references are disallowed by default because that is the production default: a user's own setting for them is off unless the user turns it on. The two values give the candidate opposite instructions (cite files and lines, or never cite them), so they produce different system prompts. Since harness version 44 the default matches production; runs up to harness version 43 graded the *allowed* branch.
 
-Sixteen read-only tools are available: search and page view for the GnollHack wiki and the NetHack wiki, the wiki's monster and item lookups, the curated knowledge base, monster, item, and artifact statistics, and the source code tools (search, file view, function and constant definitions, definition search, file listing). One deliberate difference from live chat is that no wiki context is pre-injected into the question; retrieval is entirely the candidate's own work.
+Seventeen read-only tools are available: search and page view for the GnollHack wiki and the NetHack wiki, an overview of a wiki's articles, the wiki's monster and item lookups, the curated knowledge base, monster, item, and artifact statistics, and the source code tools (search, file view, function and constant definitions, definition search, file listing). One deliberate difference from live chat is that no wiki context is pre-injected into the question; retrieval is entirely the candidate's own work.
 
 Two roles run under their own per-question budgets:
 
