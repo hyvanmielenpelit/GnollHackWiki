@@ -82,6 +82,8 @@ GnollHack is the modern way to play [NetHack](https://www.nethack.org/), one of 
 
 GnollHack is famously tough, so we built the *Gnoll Overseer* to help you along. It is an optional in-game AI advisor that uses frontier AI models together with your live game situation and the game's own data to answer your questions and give tactical advice.
 
+Gnoll Overseer is the world's only in-game tactical advisor that grounds frontier AI models directly in live engine telemetry and the game's actual source code, with full multi-provider and Bring-Your-Own-Key support.
+
 - **[[Gnoll Overseer]]** — Advanced in-game AI advisor for all things GnollHack.
 - **[[GnollBench]]** — An AI benchmark measuring how AI models perform as the Gnoll Overseer.
 
