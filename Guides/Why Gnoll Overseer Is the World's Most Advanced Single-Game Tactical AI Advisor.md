@@ -68,7 +68,7 @@ Before any AI model is offered in the Overseer, it must pass **GnollBench**, an 
 
 Unlike big-tech ecosystems designed to harvest telemetry, the Overseer offers [[three chat modes|/Guides/Chat Confidentiality Modes in Gnoll Overseer]]: **Standard**, **Confidential** (stored using per-chat envelope encryption with internet-reaching tools disabled, and **crypto-shredded** by destroying the encryption key upon deletion), and **Incognito** (held strictly in RAM and never written to disk), alongside outbound DLP secret masking and malware scanning.
 
-## 💡 The Verdict: A Finnish Non-Profit Out-Engineering the Giants
+## 💡 The Verdict
 
 To be fair, if a player wants a voice-activated companion that follows them across *Call of Duty*, *Minecraft*, and *Candy Crush*, or tunes their graphics card fan curves offline, Microsoft, Google, and NVIDIA have built [[impressive horizontal tools|/Guides/What Makes Gnoll Overseer Special#where-other-assistants-are-ahead]].
 
