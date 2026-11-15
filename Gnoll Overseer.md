@@ -10,7 +10,7 @@ When you open it during play, it sees your character's stats, inventory, the sur
 
 Spoiler protection is on by default, so the Overseer does not tell you about things you have not discovered yet. It can also read one of your past dumplogs and explain what went wrong.
 
-Gnoll Overseer is the world's only in-game tactical advisor that grounds frontier AI models directly in live engine telemetry and the game's actual source code, with full multi-provider and Bring-Your-Own-Key support.
+Gnoll Overseer is the world's only in-game tactical advisor that grounds frontier AI models directly in the game's actual source code, with full multi-provider and Bring-Your-Own-Key support.
 
 ## ℹ️ Requirements
 
