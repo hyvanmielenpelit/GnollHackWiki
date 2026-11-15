@@ -2,6 +2,8 @@
 
 ![Steam Deck front view with every control labeled](/uploads/Steam%20Deck%20Controls/steam-deck-front.webp)
 
+![The top edge with L1, L2, R1, and R2, and the back with the back grips and their default commands](/uploads/Steam%20Deck%20Controls/steam-deck-top-back.webp)
+
 *Controls of the Steam Deck.*
 
 Button names on this page follow the Steam Deck; see [[Button Names on Other Controllers|#button-names-on-other-controllers]]. A strip of button hints at the bottom of the screen always shows what each button does at the moment, and it changes when you hold L1 or R1.
