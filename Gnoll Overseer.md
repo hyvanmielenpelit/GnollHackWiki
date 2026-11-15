@@ -26,6 +26,7 @@ The Overseer needs a [[GnollHack Account]] and an internet connection. It is fre
 ## 🆚 Comparison
 
 - [[/Guides/What Makes Gnoll Overseer Special]] — What sets the Overseer apart from other AI game assistants, and where they are ahead.
+- [[/Guides/Why Gnoll Overseer Is the World's Most Advanced Single-Game Tactical AI Advisor]] — How the Overseer compares with general chatbots, big tech gaming assistants, and esports coaching overlays.
 
 ## 🏗️ Technical Background
 
