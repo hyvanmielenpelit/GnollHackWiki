@@ -10,8 +10,9 @@ Most remarkably, it was not built by a trillion-dollar tech giant. It was create
 
 ## 📊 At-a-Glance Comparison
 
-| Feature / Capability | **Gnoll Overseer** *(Sound Mind Games)* | **Generic AI Chatbots** *(ChatGPT, Gemini, Claude Web)* | **Enterprise OS & Hardware Overlays** *(Microsoft Gaming Copilot, Google Play Sidekick, NVIDIA G-Assist, Razer AVA)* | **Esports Coaching Overlays** *(CoachCamel, iTero AI, Mobalytics)* |
+| Feature / Capability | **Gnoll Overseer** | **Generic AI Chatbots** | **Enterprise OS & Hardware Overlays** | **Esports Coaching Overlays** |
 | :--- | :--- | :--- | :--- | :--- |
+| **Products** | Gnoll Overseer, by Sound Mind Games | ChatGPT, Gemini, Claude Web | Microsoft Gaming Copilot, Google Play Sidekick, NVIDIA G-Assist, Razer AVA | CoachCamel, iTero AI, Mobalytics |
 | **Primary Scope** | Single-game mastery (*GnollHack* / *NetHack*) | General-purpose conversation | Multi-game OS overlays & PC hardware tuning | Competitive multiplayer match telemetry |
 | **How It Sees Your Game** | **Direct C-engine state snapshot** + bidirectional native client bridge (11 device tools) | **Blind** (Requires manual typing or uploading screenshots) | **External screen-scraping** (Vision Mode screenshots / video stream) | **External API hooks** (Match KDA, gold, draft lobby) |
 | **Sees Hidden State?** *(Bags, intrinsics, timers)* | **Yes** (Full inventory contents, prayer status, discoveries, dungeon overview) | **No** | **No** (Only knows what is visibly drawn on screen at that second) | **Partial** (Only public match events exposed by client API) |

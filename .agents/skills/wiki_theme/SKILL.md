@@ -63,7 +63,7 @@ marketing site when that changes. The theme's `:root` tokens:
 | `--gh-muted` | `#c8beaa` |
 | `--gh-quote-bg` | `rgba(243, 206, 114, 0.06)` |
 | `--gh-code-bg` | `rgba(0, 0, 0, 0.45)` |
-| `--gh-th-bg` | `rgba(212, 160, 23, 0.15)` |
+| `--gh-th-bg` | `rgba(243, 206, 114, 0.08)` |
 | `--gh-row-alt` | `rgba(255, 255, 255, 0.03)` |
 | `--gh-font-sans` | `"Lato", system-ui, …, sans-serif` |
 | `--gh-font-display` | `"Cinzel", Georgia, serif` |
@@ -89,9 +89,10 @@ is dark only; there is no light mode.
   16px below 1012px, 32px from there up), links and focus outlines, `#head` and `nav.actions` (the navigation
   bar), the phone menu button (`summary.btn-invisible`) and its masked icon, the phone menu
   (`.SelectMenu` section labels, current page name, items), `#search-query` (a recessed
-  field with a magnifier icon), `.breadcrumb`, block quotes, tables (`th`, even rows,
-  borders), `pre` and inline `code`, Rouge tokens, `hr`, `kbd`, `.katex`, `.toc` and
-  `.toc-title`, `.Box` and `#wiki-header`, the sidebar and footer.
+  field with a magnifier icon), `.breadcrumb`, block quotes, tables (`th`, bottom-aligned,
+  with a gold rule under the header, even rows, borders), `pre` and inline `code`, Rouge
+  tokens, `hr`, `kbd`, `.katex`, `.toc` and `.toc-title`, `.Box` and `#wiki-header`, the
+  sidebar and footer.
 - The search field's text is 16px on every width: iOS Safari zooms in on any focused field
   with smaller text and does not zoom back out. Keep every text field at 16px or more.
 - The phone menu button is 44 × 40px with a 20px icon drawn by a CSS mask, not a font
@@ -167,7 +168,7 @@ notice left open is not printed.
   decorative (WCAG 2.2 SC 1.4.11 needs no boundary there).
 - Text fields use `--gh-border-control`: 3.67:1 against the field and 3.58:1 against the
   navigation bar, above the 3:1 that SC 1.4.11 needs.
-- Measured on the theme: body text 15.7:1, links 12.7:1, `th` 10.1:1, even rows 14.8:1,
+- Measured on the theme: body text 15.7:1, links 12.7:1, `th` 11.0:1, even rows 14.8:1,
   inline code 12.8:1, button labels 14.1:1 (gold hover label 9.0:1), the search placeholder
   10.9:1, muted text 10.3:1, syntax tokens at least 7.9:1.
 - Check with a contrast script in the browser that composites each element's alpha

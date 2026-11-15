@@ -97,7 +97,7 @@
   --gh-muted: #c8beaa;
   --gh-quote-bg: rgba(243, 206, 114, 0.06);
   --gh-code-bg: rgba(0, 0, 0, 0.45);
-  --gh-th-bg: rgba(212, 160, 23, 0.15);
+  --gh-th-bg: rgba(243, 206, 114, 0.08);
   --gh-row-alt: rgba(255, 255, 255, 0.03);
   --gh-font-sans: "Lato", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   --gh-font-display: "Cinzel", Georgia, serif;
@@ -631,7 +631,13 @@
     font-family: var(--gh-font-sans);
     font-weight: 800;
     color: var(--gh-gold);
+    vertical-align: bottom;
     background-color: var(--gh-th-bg);
+  }
+
+  /* The gold rule between the header and the body */
+  .markdown-body table thead th {
+    border-bottom: 2px solid var(--gh-border-strong);
   }
 
   .markdown-body table tr {
