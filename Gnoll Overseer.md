@@ -10,8 +10,6 @@ When you open it during play, it sees your character's stats, inventory, the sur
 
 Spoiler protection is on by default, so the Overseer does not tell you about things you have not discovered yet. It can also read one of your past dumplogs and explain what went wrong.
 
-Gnoll Overseer is the world's only in-game tactical advisor that grounds frontier AI models directly in the game's actual source code, with full multi-provider and Bring-Your-Own-Key support.
-
 ## ℹ️ Requirements
 
 The Overseer needs a [[GnollHack Account]] and an internet connection. It is free with the system models; if you use your own API key, your AI provider bills you. You can open it from the in-game menu, the About page, or the web. It uses models from Anthropic, Google, and OpenAI.
@@ -24,6 +22,8 @@ The Overseer needs a [[GnollHack Account]] and an internet connection. It is fre
 4. [[/Guides/Chat Confidentiality Modes in Gnoll Overseer]] — Standard, Confidential, and Incognito chats, and what each one protects.
 
 ## 🆚 Comparison
+
+Gnoll Overseer is the world's only in-game tactical advisor that grounds frontier AI models directly in the game's actual source code, with full multi-provider and Bring-Your-Own-Key support.
 
 - [[/Guides/What Makes Gnoll Overseer Special]] — What sets the Overseer apart from other AI game assistants, and where they are ahead.
 - [[/Guides/Why Gnoll Overseer Is the World's Most Advanced Single-Game Tactical AI Advisor]] — How the Overseer compares with general chatbots, big tech gaming assistants, and esports coaching overlays.
