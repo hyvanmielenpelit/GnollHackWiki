@@ -7,6 +7,7 @@
 | **Graphics** | ASCII text or static 2D tiles | High-resolution tiles from 64x96 to 192x192 pixels, with [[animations]] | 2D tiles with animations; the Steam edition has four tile sets: two in pixel art, one semi-realistic, and one ASCII-style |
 | **Audio** | NetHack 5.0 has a few sound effects (musical instruments, squeaky boards, gaining or losing a level) and no music | A [[music]] soundtrack, spatial sound effects, and over 5,000 [[voiceovers]] | Sound effects and background music, no voiceovers |
 | **Help for Beginners** | A tutorial level in NetHack 5.0; for the rest, players rely on external wikis | Stats and hints in the game, and the [[Gnoll Overseer]] AI advisor | A built-in encyclopedia (the Codex) |
+| **Verb-Based Actions** | ✅ **Yes:** You pick a command, such as Quaff (`q`) or Read (`r`), and then the item. In NetHack 5.0, selecting an item in the inventory also opens a menu of actions for it. | ✅ **Yes:** NetHack's commands on the keyboard and on the on-screen command bar. Selecting an item in the inventory also opens a menu of the actions that apply to it. | ❌ **No:** You select an item, a map square, or a character, and an action panel offers the actions that apply. A hardware keyboard has shortcuts for some of them. |
 
 GnollHack and Pathos have touch interfaces with context menus, so neither needs a keyboard on a phone or tablet. NetHack has no official mobile version, and third-party ports use on-screen keyboards.
 
