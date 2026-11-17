@@ -6,7 +6,7 @@
 
 GnollHack is the modern way to play [NetHack](https://www.nethack.org/), one of the deepest and greatest roguelikes ever created. It takes the limitless depth and emergent gameplay of the original and elevates them with a modern UI, animated tile graphics, sound effects, music, and voiceovers, while preserving most of NetHack's core mechanics and complexity. This makes it an ideal choice for NetHack veterans seeking a graphical upgrade with expanded mechanics. Its modern interface and cross-platform support also help newcomers experience traditional roguelike gameplay with minimal friction.
 
-- **100% free:** No ads or in-app purchases
+- **100% free:** No ads or in-app purchases on Steam, Google Play, or App Store
 - **Play anywhere:** Windows, macOS, Linux, iOS, Android, and Steam Deck
 - **Play your way:** Full touch, mouse, keyboard, and gamepad support, including Steam Deck controls
 
