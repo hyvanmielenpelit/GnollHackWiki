@@ -32,6 +32,7 @@ Entries are in alphabetical order within each section. A project with a listing 
 | [[Hardfought web terminal|#hardfought-web-terminal]] | 🌍 | 🟢 | 🔇 | Free | Web browsers |
 | [[iNethack2|#inethack2]] | 🏪 | 🟡 | 🔇 | Free | iPhone, iPad, Apple silicon Mac |
 | [[NAO web terminal|#nao-web-terminal]] | 🌍 | 🟢 | 🔇 | Free | Web browsers |
+| [[neohack|#neohack]] | 🌍 | 🧪 | 🔇 | Free | Desktop and mobile web browsers |
 | [[NetHack 3D|#nethack-3d]] ⭐ | 💾 [[🌍|#nethack-3d-web-version]] | 🟢 | 🔇 | Free | Windows, macOS, Linux, Steam Deck, Android, Meta Quest, web browsers (including mobile) |
 | [[NetHack 5.0 (official)|#nethack-5-0-official]] | 💾 | 🟢 | 🔇 | Free | Windows, MS-DOS |
 | [[NetHack Android|#nethack-android]] | 💾 | 🟢 | 🔇 | Free | Android |
@@ -193,6 +194,14 @@ Browser play on the nethack.alt.org (NAO) public server, with vanilla NetHack 5.
 
 - [NAO](https://alt.org/nethack/hterm/): Web browsers
 
+### neohack
+
+🧪 **Experiment** · Free · 🔇
+
+Vanilla NetHack 5.0 in the web browser, drawn with animated pixel-art sprites, with a switch to classic NetHack symbols and touch controls for phones. It adds a few helpers that vanilla NetHack does not have, such as auto-explore and clicking a square to walk there, and AI agents and player-written bots can play it too. It can be installed as a web app for offline play. In alpha.
+
+- [neohack.dev](https://neohack.dev/): Desktop and mobile web browsers
+
 ### NetHack 3D (web version)
 
 ⭐ 🟢 **In active development** · Free · 🔇
@@ -242,7 +251,7 @@ The [NetHack Scoreboard](https://nethackscoreboard.org/) is the NetHack communit
 - **NAO web terminal:** The NetHack Scoreboard counts both NetHack 5.0 and 3.6 games; Junethack 2026 counted only NetHack 5.0.
 - **NetHack Tiles Client:** The games run on the NAO and Hardfought servers, so they count the same as games in their web terminals.
 
-The other projects on this page, including NetHack 3D, VoxHack, DartHack, and the official NetHack 5.0 download, keep their games on your own device, and neither site counts them. WebHack and the online mode of nethack.app keep their games on their own servers, with high score lists that the NetHack Scoreboard does not read. EvilHack and xNetHack games count only when played on Hardfought, not in their Windows downloads.
+The other projects on this page, including NetHack 3D, VoxHack, DartHack, and the official NetHack 5.0 download, keep their games on your own device, and neither site counts them. WebHack and the online mode of nethack.app keep their games on their own servers, with high score lists that the NetHack Scoreboard does not read, and neohack keeps its own public ledger of games, which neither site reads. EvilHack and xNetHack games count only when played on Hardfought, not in their Windows downloads.
 
 ## 🏆 Most Developed Interfaces
 
@@ -289,9 +298,10 @@ In each list, the projects under Most Developed Interfaces come first, then the 
 1. [[NetHack 3D (web version)|#nethack-3d-web-version]]
 2. [[NetHack Browser Edition|#nethack-browser-edition]]
 3. [[BlissHack (web version)|#blisshack-web-version]]
-4. [[nethack.app|#nethack-app]]
-5. [[VectHack|#vecthack]]
-6. [[WebHack|#webhack]]
+4. [[neohack|#neohack]]
+5. [[nethack.app|#nethack-app]]
+6. [[VectHack|#vecthack]]
+7. [[WebHack|#webhack]]
 
 ### By Game and Language
 
@@ -304,9 +314,10 @@ In each list, the projects under Most Developed Interfaces come first, then the 
 5. [[NetHack Cocoa|#nethack-cocoa]]
 6. [[BlissHack|#blisshack]]
 7. [[DartHack|#darthack]]
-8. [[nethack.app|#nethack-app]]
-9. [[VectHack|#vecthack]]
-10. [[WebHack|#webhack]]
+8. [[neohack|#neohack]]
+9. [[nethack.app|#nethack-app]]
+10. [[VectHack|#vecthack]]
+11. [[WebHack|#webhack]]
 
 **A NetHack variant**
 
