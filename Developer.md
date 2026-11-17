@@ -1,10 +1,10 @@
 ![Sound Mind Games Logo](/uploads/Developer/soundmindgames-logo-square-256x256-rounded.webp)
 
-> 👉 **GnollHack is developed by *Sound Mind Games* (Hyvän mielen pelit ry), a Finnish non-profit organization.**
+> 👉 **GnollHack is developed by *Sound Mind Games* (Hyvän mielen pelit ry), a Finnish nonprofit organization.**
 
 ## About Sound Mind Games
 
-**Sound Mind Games** (Hyvän mielen pelit ry) is a Finnish non-profit organization that offers flexible internships and work try-outs in the IT, media, and game sectors. People facing mental health challenges work on real projects together at their own pace. The practical experience, skills, and confidence they gain help them move on to working life.
+**Sound Mind Games** (Hyvän mielen pelit ry) is a Finnish nonprofit organization that offers work trials and subsidized jobs in IT, media, and game development for people navigating mental health challenges.
 
 - [Visit Hyvän mielen pelit ry Website](https://hyvanmielenpelit.fi/) (In Finnish)
 
