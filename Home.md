@@ -10,6 +10,8 @@ GnollHack is the modern way to play [NetHack](https://www.nethack.org/), one of 
 - **Play anywhere:** Windows, macOS, Linux, iOS, Android, and Steam Deck
 - **Play your way:** Full touch, mouse, keyboard, and gamepad support, including Steam Deck controls
 
+Developed and funded by [[Sound Mind Games|Developer]], a Finnish nonprofit, GnollHack embraces a rare and generous pricing model: It is 100% free on all three major app stores with no monetization at all — something no other roguelike, and very few games in general, can afford to do.
+
 > ### ⭐⭐⭐⭐⭐
 >
 > *"I've never experienced a game like this and I absolutely love it. No two runs will ever be the same, allowing for huge amounts of replayability. Probably the best mobile game I've ever played."*
