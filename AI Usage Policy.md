@@ -40,7 +40,7 @@ Programmers may use generative AI, including AI agents, to:
 
 Generative AI, including AI agents, may be used to:
 
-1. Generate documentation (e.g., document the game code and create pages in the GnollHack Wiki)
+1. Generate documentation (e.g., document the game code and create pages on the GnollHack Wiki)
 2. Verify that documentation is correct (i.e., compare documentation with the game code)
 3. Check and correct the grammar of documentation
 4. Apply styling to documentation
