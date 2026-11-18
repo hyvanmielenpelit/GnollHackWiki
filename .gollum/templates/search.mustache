@@ -1,0 +1,54 @@
+<div id="wiki-wrapper" class="results">
+  <div id="head">
+    {{>navbar}}
+
+    <h1 class="header-title text-center text-md-left py-4">
+      {{#has_query}}Search results for “{{query_value}}”{{/has_query}}{{^has_query}}Search{{/has_query}}
+    </h1>
+  </div>
+
+<div class="gh-search">
+{{#has_results}}
+  <p class="gh-search-summary" role="status">{{result_summary}}{{#paged}}. Showing {{first_result}}–{{last_result}}{{/paged}}</p>
+
+  <ol class="gh-search-results" start="{{first_result}}">
+  {{#results}}
+    <li class="gh-search-result">
+      <h2><a href="{{href}}">{{{title_html}}}</a></h2>
+      {{#folder}}<p class="gh-search-folder">{{folder}}</p>{{/folder}}
+      <p class="gh-search-snippet">{{{snippet_html}}}</p>
+    </li>
+  {{/results}}
+  </ol>
+
+  {{#paged}}
+  <nav class="gh-search-pages" aria-label="Search result pages">
+    {{#previous_page_path}}<a class="btn" href="{{previous_page_path}}" rel="prev">Previous page</a>{{/previous_page_path}}
+    {{#next_page_path}}<a class="btn" href="{{next_page_path}}" rel="next">Next page</a>{{/next_page_path}}
+  </nav>
+  {{/paged}}
+{{/has_results}}
+
+{{#no_results}}
+  <p class="gh-search-summary" role="status">No pages contain all of these words.</p>
+  {{#has_did_you_mean}}
+  <p class="gh-search-did-you-mean-label">Did you mean:</p>
+  <ul class="gh-search-did-you-mean">
+    {{#did_you_mean}}
+    <li><a href="{{url}}">{{title}}</a></li>
+    {{/did_you_mean}}
+  </ul>
+  {{/has_did_you_mean}}
+{{/no_results}}
+
+{{^has_query}}
+  <p class="gh-search-summary">Type a word or a page title in the search field.</p>
+{{/has_query}}
+</div>
+
+<div id="footer" class="mt-4">
+  <a class="btn" href="#">Back to top</a>
+</div>
+
+</div>
+</div>

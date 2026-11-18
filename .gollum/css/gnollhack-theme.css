@@ -592,6 +592,210 @@
   }
 
   /* -------------------------------------------------------------------------
+   * Search: the field's suggestion list and the search results page
+   * ----------------------------------------------------------------------- */
+
+  /* Visually hidden; screen readers still read it. */
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    clip-path: inset(50%);
+    white-space: nowrap;
+    border: 0;
+  }
+
+  nav.actions search {
+    display: block;
+  }
+
+  /* The suggestion list is positioned against the form. */
+  #search-form {
+    position: relative;
+  }
+
+  /* Primer's overflow-x-scroll on the bar would clip the open list; the utility
+     is !important, so this is too. */
+  nav.actions:has(.gh-search-suggestions:not([hidden])) {
+    overflow: visible !important;
+  }
+
+  /* The clear button, which Primer hides: a masked cross in the muted text color,
+     20px wide for a usable target. */
+  #search-query::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    margin: 0 -6px 0 6px;
+    background-color: var(--gh-muted);
+    -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M4 4l8 8M12 4l-8 8' stroke='%23000' stroke-width='1.8' stroke-linecap='round'/%3E%3C/svg%3E") center / 14px 14px no-repeat;
+    mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M4 4l8 8M12 4l-8 8' stroke='%23000' stroke-width='1.8' stroke-linecap='round'/%3E%3C/svg%3E") center / 14px 14px no-repeat;
+    cursor: pointer;
+  }
+
+  #search-query::-webkit-search-cancel-button:hover {
+    background-color: var(--gh-gold);
+  }
+
+  /* The suggestion list opens under the field, above the page, so nothing moves.
+     white-space undoes the bar cell's nowrap, so long titles wrap. */
+  .gh-search-suggestions {
+    position: absolute;
+    z-index: 1020;
+    top: calc(100% + 4px);
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 4px;
+    list-style: none;
+    color: var(--gh-prose);
+    font-size: 16px;
+    line-height: 20px;
+    text-align: left;
+    white-space: normal;
+    background-color: var(--gh-surface-raised);
+    border: 1px solid var(--gh-border-strong);
+    border-radius: 8px;
+    box-shadow: 0 16px 38px rgba(0, 0, 0, 0.62), 0 2px 8px rgba(0, 0, 0, 0.45);
+  }
+
+  .gh-search-suggestions[hidden] {
+    display: none;
+  }
+
+  .gh-search-suggestions [role=option] {
+    display: flex;
+    align-items: center;
+    min-height: 36px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    overflow-wrap: anywhere;
+    cursor: pointer;
+  }
+
+  @media (hover: hover) {
+    .gh-search-suggestions [role=option]:hover {
+      color: var(--gh-gold);
+      background-color: var(--color-neutral-subtle);
+    }
+  }
+
+  /* The active option: a gold bar at the start and a gold tint. */
+  .gh-search-suggestions [role=option][aria-selected=true] {
+    color: var(--gh-ivory);
+    background-color: var(--color-select-menu-tap-focus-bg);
+    box-shadow: inset 3px 0 0 var(--gh-gold);
+  }
+
+  /* The results page; its side padding lines the text up with the page title. */
+  #wiki-wrapper .gh-search {
+    padding: 24px calc(var(--gh-heading-gutter) - var(--gh-panel-pad)) 0;
+  }
+
+  .gh-search-summary {
+    margin: 0 0 20px;
+    color: var(--gh-muted);
+    font-size: 15px;
+  }
+
+  .gh-search a:not(.btn),
+  .gh-search a:not(.btn):visited {
+    color: var(--gh-gold);
+    text-decoration: none;
+  }
+
+  .gh-search a:not(.btn):hover {
+    color: var(--gh-ivory);
+    text-decoration: underline;
+  }
+
+  .gh-search-results {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .gh-search-result + .gh-search-result {
+    margin-top: 18px;
+    padding-top: 18px;
+    border-top: 1px solid var(--gh-border-subtle);
+  }
+
+  .gh-search-result h2 {
+    margin: 0;
+    font-family: var(--gh-font-sans);
+    font-size: 19px;
+    font-weight: 800;
+    line-height: 1.35;
+    overflow-wrap: anywhere;
+  }
+
+  .gh-search-folder {
+    margin: 2px 0 0;
+    color: var(--gh-muted);
+    font-size: 14px;
+  }
+
+  .gh-search-snippet {
+    margin: 6px 0 0;
+    color: var(--gh-prose);
+    font-size: 16px;
+    line-height: 1.55;
+    overflow-wrap: break-word;
+  }
+
+  /* An empty folder or snippet line takes no space. */
+  .gh-search-folder:empty,
+  .gh-search-snippet:empty {
+    display: none;
+  }
+
+  .gh-search mark {
+    padding: 0 0.1em;
+    color: inherit;
+    background-color: var(--color-search-keyword-hl);
+    border-radius: 3px;
+  }
+
+  .gh-search-did-you-mean-label {
+    margin: 0 0 6px;
+  }
+
+  .gh-search-did-you-mean {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 20px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-weight: 800;
+  }
+
+  /* Previous and Next are 40px tall, like the phone bar controls. */
+  .gh-search-pages {
+    display: flex;
+    gap: 12px;
+    margin-top: 28px;
+  }
+
+  .gh-search-pages .btn {
+    min-height: 40px;
+    padding: 9px 16px;
+    font-size: 15px;
+    font-weight: 800;
+    line-height: 20px;
+  }
+
+  .gh-search-pages [rel=next] {
+    margin-left: auto;
+  }
+
+  /* -------------------------------------------------------------------------
    * Page content
    * ----------------------------------------------------------------------- */
 
@@ -1029,6 +1233,11 @@
     padding: 0 !important;
   }
 
+  /* Phone suggestions are 44px tall. */
+  .gh-search-suggestions [role=option] {
+    min-height: 44px;
+  }
+
   /* An open consent notice must not cover the end of the page: its height plus 32px. */
   body:has(> .gh-consent:not([hidden])) > .gh-cookie-settings {
     padding-bottom: 254px;
@@ -1064,6 +1273,27 @@ pre, code {
 
   .gh-consent {
     border: 1px solid CanvasText;
+  }
+
+  #search-query::-webkit-search-cancel-button {
+    forced-color-adjust: none;
+    background-color: ButtonText;
+  }
+
+  .gh-search-suggestions {
+    border: 1px solid CanvasText;
+  }
+
+  .gh-search-suggestions [role=option][aria-selected=true] {
+    forced-color-adjust: none;
+    color: HighlightText;
+    background-color: Highlight;
+  }
+
+  .gh-search mark {
+    forced-color-adjust: none;
+    color: MarkText;
+    background-color: Mark;
   }
 }
 
