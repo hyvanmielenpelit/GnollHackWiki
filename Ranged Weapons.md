@@ -18,6 +18,8 @@ The only bow that fires shots faster than 1 shot per turn is:
 
 - [[/Items/Galadhrim bow]]
 
+For each skill level above Basic, its chance of a second arrow in a turn rises by 25%, so at Grand Master it always fires two arrows per turn. The average damage shown when you examine a bow is per turn and counts every arrow of the turn. Divide it by the arrows per turn for the damage of one arrow.
+
 ## Crossbows
 
 The following crossbows fire 1 shot per turn:

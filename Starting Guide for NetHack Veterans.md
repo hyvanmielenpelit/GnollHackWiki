@@ -93,7 +93,7 @@ Armor penalizes spells with a somatic component. In heavy armor you cannot cast 
 
 Bows and crossbows are good enough to be your main weapons. Firing or throwing at an enemy next to you, however, carries a to-hit penalty of 40 (32 with a crossbow). Shoot while monsters approach, and when they reach you, change to your melee weapon with Swap weapons (`x`).
 
-Missiles such as arrows rarely break. An uncursed one has a 5% chance, and a blessed one breaks only if the target's passive effect damages it.
+Missiles such as arrows rarely break. An uncursed +0 one without erosion has a 5% chance. Against a monster whose passive effect or explosion can damage it, other than a disenchanter, such as a balor's fire or a gas spore's explosion, a missile that hits breaks at least two times in three, and even a blessed one breaks at least one time in three.
 
 [[Polearms]] are much better than in NetHack: they hit enemies two squares away in **all** directions, whatever your skill level. A spear can also hit two squares away when applied, once you have at least Basic skill in Spears.
 

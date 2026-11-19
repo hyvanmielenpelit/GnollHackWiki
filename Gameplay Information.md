@@ -47,6 +47,7 @@
 ## 👹 Monsters
 
 - [[Monsters]] — Learn about monsters in GnollHack.
+- [[Monster Traits]] — What the classifications on monster pages, such as thick hide, do.
 - [[Monsters that Grow Up]] — Certain monsters can grow up to a stronger type of monster.
 
 ## 🗺️ Dungeon

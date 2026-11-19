@@ -9,7 +9,7 @@ The Underground Castle is the major mid-game milestone.
 - **Layout:** A massive, moated castle occupying the center of the level, adorned with red carpets and red banners. The only entrance is a retractable drawbridge. 
 - **Inhabitants:** The castle is garrisoned by hordes of [[soldiers|/Monsters/Soldier]], [[lieutenants|/Monsters/Lieutenant]], [[captains|/Monsters/Captain]], and four dragons guarding the storerooms. The throne room is guarded by a [[gazer|/Monsters/Gazer]] and decorated with statues of various racial kings (dwarf, elf, gnome, gnoll).
 - **Amenities:** The castle features a smithy and two NPC rooms inhabited by a [[/Monsters/hermit]] and an artificer.
-- **The Gate to Gehennom:** The back exit of the castle contains the stairs leading to Gehennom, ominously marked with a sign "Keep Out - Gate to Gehennom Closed". The gate is guarded by [[skeleton kings|/Monsters/Skeleton king]] and fire traps.
+- **The Gate to Gehennom:** The back exit of the castle contains the stairs leading to Gehennom, ominously marked with a sign "Keep Out - Gate to Gehennom Closed". The gate is guarded by [[skeleton kings|/Monsters/Skeleton king]] and fire traps. The stairs are at the castle's east end, under a boulder in one of two corners, with fire traps around them and a member of the lich family in an open sarcophagus in the other corner. The trap doors in the long hall east of the throne room also drop you straight into Gehennom.
 - **Loot:** Deep inside the castle lies a [[chest|/Items/Chest]] containing a guaranteed **[[/Items/wand of wishing]]**.
 
 ## 🚪 Entrance
