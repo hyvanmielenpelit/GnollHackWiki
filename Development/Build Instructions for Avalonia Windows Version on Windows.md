@@ -12,9 +12,9 @@ For what the Avalonia port is, see [[/Development/Avalonia Port]]. How the Windo
 
 **1.2.1. Install Visual Studio 2026** as described in [[/Development/Install Visual Studio 2026 for .NET MAUI Development]], with **Desktop development with C++**, including its **MSVC v143** and **Windows 11 SDK** components, and **.NET desktop development**.
 
-**1.2.2. Install the .NET SDK of the Avalonia port.** Its version is `sdk.version` in `win\win32\xpl\GnollHackM\Platforms\Avalonia\global.json`, and is newer than that of the other modern clients. Download that version from the [.NET download page](https://dotnet.microsoft.com/en-us/download/dotnet) and install it. It can be a preview or a release candidate.
+**1.2.2. Install the .NET SDK of the Avalonia port.** Its version is `sdk.version` in `win\win32\xpl\GnollHackM\global.json`, which pins the SDK for every modern client. Download that version from the [.NET download page](https://dotnet.microsoft.com/en-us/download/dotnet) and install it. It can be a preview or a release candidate.
 
-**1.2.3. Install the .NET MAUI workload** from the same folder, so that the workload version pinned in `global.json` is used:
+**1.2.3. Install the .NET MAUI workload** from that folder, or any folder below it, so that the workload version pinned in `global.json` is used. Run it in a PowerShell window opened as administrator:
 
 ```powershell
 cd win\win32\xpl\GnollHackM\Platforms\Avalonia
@@ -57,7 +57,7 @@ $msbuild = & "${env:ProgramFiles(x86)}\Microsoft Visual Studio\Installer\vswhere
 
 ### 2.2. Build the Avalonia Port
 
-**2.2.1. Build the project** with `dotnet` from `Platforms\Avalonia`, so that its `global.json` selects the pinned SDK. The `GnhAvalonia=true` property switches the project to the Avalonia port:
+**2.2.1. Build the project** with `dotnet` from `Platforms\Avalonia`, so that `win\win32\xpl\GnollHackM\global.json` selects the pinned SDK. The `GnhAvalonia=true` property switches the project to the Avalonia port:
 
 ```powershell
 cd win\win32\xpl\GnollHackM\Platforms\Avalonia
@@ -66,7 +66,7 @@ dotnet build ..\..\GnollHackM.csproj -p:GnhAvalonia=true
 
 ✅ The game is in `win\win32\xpl\GnollHackM\bin\Debug\net11.0\win-x64\`, with its native libraries and game data. Add `-c Release` for a Release build, which lands in `bin\Release\net11.0\win-x64\`.
 
-> ⚠️ **Warning:** Never run `dotnet` for the Avalonia port from the repository root or from `GnollHackM`. Other `global.json` files, or none, select a different SDK there, and the build fails or uses the wrong one.
+> ⚠️ **Warning:** Never run `dotnet` for the Avalonia port from the repository root, or any other folder outside `win\win32\xpl\GnollHackM`. No `global.json` pins the SDK there, and the build fails or uses the wrong one.
 
 ### 2.3. Run the Game
 
@@ -116,7 +116,7 @@ For general build problems, such as a locked file, see [[/Development/Troublesho
 
 | Problem | Fix |
 |:--------|:----|
-| **`A compatible .NET SDK was not found`** | The SDK pinned in `Platforms\Avalonia\global.json` is not installed. Do step 1.2.2. |
+| **`A compatible .NET SDK was not found`** | The SDK pinned in `win\win32\xpl\GnollHackM\global.json` is not installed. Do step 1.2.2. |
 | **`NETSDK1147`**: a workload must be installed | The .NET MAUI workload was installed from another folder, so for another SDK. Do step 1.2.3. |
 | **The build fails to restore, or an unexpected .NET SDK is used** | `dotnet` was run outside `Platforms\Avalonia`. Run it there, as in step 2.2.1. |
 | **Error `GNHNI001`** | The game engine or the game data is missing. Do section 2.1. |

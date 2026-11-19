@@ -21,9 +21,9 @@ For what the Avalonia port is, see [[/Development/Avalonia Port]]. How the macOS
 
 **1.2.1. Install Visual Studio 2026** as described in [[/Development/Install Visual Studio 2026 for .NET MAUI Development]], with the **Linux and embedded development with C++** workload. The game data is compiled by Visual Studio Linux projects in WSL.
 
-**1.2.2. Install the .NET SDK of the Avalonia port.** Its version is `sdk.version` in `win\win32\xpl\GnollHackM\Platforms\Avalonia\global.json`, and is newer than that of the other modern clients. Download that version from the [.NET download page](https://dotnet.microsoft.com/en-us/download/dotnet) and install it. It can be a preview or a release candidate.
+**1.2.2. Install the .NET SDK of the Avalonia port.** Its version is `sdk.version` in `win\win32\xpl\GnollHackM\global.json`, which pins the SDK for every modern client. Download that version from the [.NET download page](https://dotnet.microsoft.com/en-us/download/dotnet) and install it. It can be a preview or a release candidate.
 
-**1.2.3. Install the .NET MAUI workload** from the same folder, so that the workload version pinned in `global.json` is used:
+**1.2.3. Install the .NET MAUI workload** from that folder, or any folder below it, so that the workload version pinned in `global.json` is used. Run it in a PowerShell window opened as administrator:
 
 ```powershell
 cd win\win32\xpl\GnollHackM\Platforms\Avalonia
@@ -98,7 +98,7 @@ It publishes the game for `osx-arm64` as a single executable, copies it to the M
 
 ✅ The script ends with `Test copy: ~/gnollhack-dev/GnollHack.app`, where `-DevCopy` put the app on the Mac.
 
-> ℹ️ **Note:** If the `SENTRY_AUTH_TOKEN` environment variable is set, the publish uploads the debug symbols of the release to Sentry, including the game engine's `.dSYM`. `-NoSentryUpload` keeps a test build from uploading.
+> ℹ️ **Note:** If the `SENTRY_AUTH_TOKEN` environment variable is set, the publish uploads the debug symbols of the release to Sentry, including the game engine's `.dSYM`. `-NoSentryUpload` keeps a test build from uploading. To set up a computer for the upload, see [[/Development/Set Up Sentry Symbol Upload]].
 
 ## 3. Testing on the Mac
 
@@ -352,7 +352,7 @@ For general build problems, such as a locked file, see [[/Development/Troublesho
 
 | Problem | Fix |
 |:--------|:----|
-| **`A compatible .NET SDK was not found`** | The SDK pinned in `Platforms\Avalonia\global.json` is not installed. Do step 1.2.2. |
+| **`A compatible .NET SDK was not found`** | The SDK pinned in `win\win32\xpl\GnollHackM\global.json` is not installed. Do step 1.2.2. |
 | **`NETSDK1147`**: a workload must be installed | The .NET MAUI workload was installed from another folder, so for another SDK. Do step 1.2.3. |
 | **`GNHNI002`** or **`GNHNI003`** | A sound bank or tile set file is missing. Do step 1.2.5. |
 | **`GNHMP003`**: `ApplicationDisplayVersion or ApplicationVersion was not found in GnollHackM.csproj` | The script takes the version and the build number from these two properties. Check that `GnollHackM.csproj` has both, each with a value. |

@@ -23,6 +23,7 @@ Do these once on a new computer, in this order:
 5. [[/Development/Set Up SSH Access to the Mac for Native Libraries]] — For the iOS and macOS clients, whose game engine is compiled on a Mac
 6. [[/Development/Install Tile Sets and FMOD Sound Banks]]
 7. [[/Development/Install Secrets File]]
+8. [[/Development/Set Up Sentry Symbol Upload]] — For release builds, so that crash reports show source lines
 
 Smaller how-tos that the instructions refer to:
 
@@ -44,7 +45,7 @@ Smaller how-tos that the instructions refer to:
 | **macOS** | .NET MAUI on Avalonia | WSL; a Mac with Apple Silicon over SSH; the Avalonia port's .NET SDK | Steam, signed and notarized | [[/Development/Build Instructions for Avalonia macOS Version on Windows]] |
 | **Windows (Avalonia)** | .NET MAUI on Avalonia | The Avalonia port's .NET SDK | Not released; a folder for testers | [[/Development/Build Instructions for Avalonia Windows Version on Windows]] |
 
-The Avalonia clients use a newer .NET SDK than the others, pinned in `win\win32\xpl\GnollHackM\Platforms\Avalonia\global.json`; see [[/Development/Avalonia Port]].
+Every modern client uses the .NET SDK pinned in `win\win32\xpl\GnollHackM\global.json`; see [[/Development/Avalonia Port]].
 
 > ⚠️ **Warning (Common Pitfall):** Make sure that the .NET MAUI workload is fully installed in Visual Studio. A missing platform workload (Android or iOS) causes project loading errors.
 

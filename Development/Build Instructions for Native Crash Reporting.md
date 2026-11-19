@@ -150,6 +150,8 @@ Most Sentry .NET releases ship a newer sentry-native, and two of the three libra
 
 A Release build uploads debug symbols to Sentry when the `SENTRY_AUTH_TOKEN` environment variable is set and the build publishes, archives or makes a package; an Android Release build that Visual Studio starts uploads them too. Sentry CLI reads the token, and the organization and project from `SENTRY_ORG` and `SENTRY_PROJECT`, from the environment; the token is never passed on a command line. What is uploaded for each client is in [[Debug Symbols|/Development/Design Details of Native Crash Reporting#debug-symbols]].
 
+To set up a computer for the upload, see [[/Development/Set Up Sentry Symbol Upload]].
+
 - **`-p:GnhSentryUpload=true`** uploads from any Release build; **`-p:GnhSentryUpload=false`** turns the upload off.
 - **`-NoSentryUpload`** on the Linux and macOS packaging scripts turns it off, for example for a build for testers.
 - **Windows**: `gnollhackwin.pdb` is uploaded only when its debug ID matches the DLL's, and `gnhsentry.pdb` only when its hash matches the manifest's. Otherwise the build warns that the symbols were not uploaded.

@@ -51,8 +51,8 @@ GnollHackM is the .NET MAUI version of GnollHack.
 
 ### Prerequisites
 
-- Install .NET SDK 10.0 from https://dotnet.microsoft.com/en-us/download/dotnet/10.0
-- Install .NET MAUI 10.0 workload using `dotnet workload install maui` in PowerShell
+- Install the .NET SDK named by `sdk.version` in `win\win32\xpl\GnollHackM\global.json`, from https://dotnet.microsoft.com/en-us/download/dotnet
+- Install the .NET MAUI workload pinned by `win\win32\xpl\GnollHackM\global.json`, with `dotnet workload install maui` run in that folder
 - [[/Development/Install Visual Studio 2026 for .NET MAUI Development]]
 
 ### Building

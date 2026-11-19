@@ -69,7 +69,7 @@ The Windows flavor's own C# is in `Platforms\WindowsAvalonia\`; `Platforms\Windo
 |:--|:--|:--|
 | **Purpose** | Development, testing, and an alternative Windows version | Released to players |
 | **User interface** | .NET MAUI on Avalonia.Controls.Maui | .NET MAUI on WinUI 3 |
-| **.NET** | .NET 11, SDK pinned in `Platforms\Avalonia\global.json` | .NET 10, SDK pinned in `GnollHackM\global.json` |
+| **.NET** | .NET 11, SDK pinned in `GnollHackM\global.json` | The same |
 | **Game engine and data** | `gnollhackwin.dll`, Windows-format `nhdat` | The same |
 | **Rendering** | ANGLE on the window's DXGI swap chain | SkiaSharp on a `SwapChainPanel`, or a XAML `Canvas` without GPU acceleration |
 | **GPU** | The high-performance GPU, unless Windows' per-app setting says Power saving, chosen through Avalonia's adapter callback | The same rule while GPU Acceleration is on, applied by initializing ANGLE's display on that GPU before SkiaSharp creates it; with GPU Acceleration off, Windows' default GPU |

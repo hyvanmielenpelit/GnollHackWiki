@@ -21,9 +21,9 @@ For what the Avalonia port is, see [[/Development/Avalonia Port]]. How the Linux
 
 **1.2.1. Install Visual Studio 2026** as described in [[/Development/Install Visual Studio 2026 for .NET MAUI Development]], with the **Linux and embedded development with C++** workload. The Linux game engine and data tools are Visual Studio Linux projects.
 
-**1.2.2. Install the .NET SDK of the Avalonia port.** Its version is `sdk.version` in `win\win32\xpl\GnollHackM\Platforms\Avalonia\global.json`, and is newer than that of the other modern clients. Download that version from the [.NET download page](https://dotnet.microsoft.com/en-us/download/dotnet) and install it. It can be a preview or a release candidate.
+**1.2.2. Install the .NET SDK of the Avalonia port.** Its version is `sdk.version` in `win\win32\xpl\GnollHackM\global.json`, which pins the SDK for every modern client. Download that version from the [.NET download page](https://dotnet.microsoft.com/en-us/download/dotnet) and install it. It can be a preview or a release candidate.
 
-**1.2.3. Install the .NET MAUI workload** from the same folder, so that the workload version pinned in `global.json` is used:
+**1.2.3. Install the .NET MAUI workload** from that folder, or any folder below it, so that the workload version pinned in `global.json` is used. Run it in a PowerShell window opened as administrator:
 
 ```powershell
 cd win\win32\xpl\GnollHackM\Platforms\Avalonia
@@ -84,6 +84,8 @@ sha256sum appimagetool-1.9.1-x86_64.AppImage type2-runtime-20251108-x86_64
 
 ✅ The two hashes equal `$AppImageToolSha256` and `$AppImageRuntimeSha256` in the script.
 
+The packaging script checks these two files before it publishes, so a missing or wrong file stops it at once.
+
 ### 1.4. Optional: Separate Build and Test Distributions
 
 You can split the work between two distributions, for example an existing Ubuntu 20.04 on WSL 1 that Visual Studio already builds in, and a newer Ubuntu on WSL 2 for packaging and testing. Install the sysroot (step 1.3.5) in the distribution that Visual Studio's Connection Manager points to, and in any distribution that runs the packaging or maintenance scripts. Pass the distribution's name to each script with `-WslDistro`, for example `Build-LinuxPackages.ps1 -WslDistro Ubuntu-24.04`; without it, the scripts use the default distribution and print its name.
@@ -134,7 +136,7 @@ win\win32\xpl\GnollHackM\Platforms\Linux\Packaging\Build-LinuxPackages.ps1
 
 It publishes the game for `linux-x64` in the Release configuration, assembles the packages in the WSL distribution under `~/.cache/gnollhack-packaging/`, and stops if any file needs a newer glibc or libstdc++ than the oldest version the game supports. Its options are in [[Packaging Script Options|#packaging-script-options]].
 
-> ℹ️ **Note:** If the `SENTRY_AUTH_TOKEN` environment variable is set, the publish uploads the debug symbols of the release to Sentry. Add `-NoSentryUpload` to build packages without uploading, for example for testers.
+> ℹ️ **Note:** If the `SENTRY_AUTH_TOKEN` environment variable is set, the publish uploads the debug symbols of the release to Sentry. Add `-NoSentryUpload` to build packages without uploading, for example for testers. To set up a computer for the upload, see [[/Development/Set Up Sentry Symbol Upload]].
 
 **2.3.2. Find the packages** in `win\win32\xpl\GnollHackM\bin\LinuxPackages\<version>\`, where the version is `ApplicationDisplayVersion.ApplicationVersion` from `GnollHackM.csproj`:
 
@@ -143,7 +145,7 @@ It publishes the game for `linux-x64` in the Release configuration, assembles th
 | **GnollHack-&lt;version&gt;-x86_64.AppImage** | The AppImage for the GitHub release |
 | **GnollHack-&lt;version&gt;-x86_64.AppImage.zsync** | Update information for AppImage updaters; upload it to the same release |
 | **GnollHack-&lt;version&gt;-linux-x64.tar.gz** | The game as a plain folder, for testers |
-| **GnollHack-&lt;version&gt;-linux-x64.SHA256SUMS** | Checksums of the AppImage and the tar.gz |
+| **GnollHack-&lt;version&gt;-linux-x64.SHA256SUMS** | Checksums of the AppImage and the tar.gz in this folder, also when an earlier run built one of them |
 | **steam\\** | The Steam depot content and the SteamPipe build scripts |
 
 The script also leaves a staged copy in WSL, in `~/.cache/gnollhack-packaging/stage-<version>/`, which sections 3 and 4 use.
@@ -203,7 +205,7 @@ steamcmd +login <Steam user> +run_app_build "$PWD/app_build_linux.vdf" +quit
 
 ### 5.1. Publish Without Packaging
 
-To check that the code compiles for Linux, publish without the packaging script. Run `dotnet` from `Platforms\Avalonia`, so that its `global.json` selects the pinned SDK:
+To check that the code compiles for Linux, publish without the packaging script. Run `dotnet` from `Platforms\Avalonia`, so that `win\win32\xpl\GnollHackM\global.json` selects the pinned SDK:
 
 ```powershell
 cd win\win32\xpl\GnollHackM\Platforms\Avalonia
@@ -234,7 +236,7 @@ The parameters of `Build-LinuxPackages.ps1`:
 | **-SkipPublish** | Uses the previous publish in `bin\Release\net11.0\linux-x64\publish\` instead of publishing again. |
 | **-NoSentryUpload** | Publishes without uploading debug symbols to Sentry. Has no effect with `-SkipPublish`. |
 | **-SteamRuntime** | `steamrt4` (default, Steam Linux Runtime 4.0) or `sniper` (Steam Linux Runtime 3.0). |
-| **-SteamAppId**, **-SteamDepotId**, **-SteamBranch**, **-BuildDescription** | Values for the SteamPipe build scripts. An empty value leaves its placeholder in the file. |
+| **-SteamAppId**, **-SteamDepotId**, **-SteamBranch**, **-BuildDescription** | Values for the SteamPipe build scripts. An empty app or depot ID leaves its placeholder in the file; an empty branch sets the build live on no branch, and an empty description is allowed. |
 | **-KeepDebugInfo** | Ships the game engine with its debug information. The copy in `Platforms\Linux\libs\` keeps it either way. |
 | **-RunbookPath** | A Markdown file added to the tar.gz as `README-LINUX-TEST.md`. |
 | **-OutputRoot** | The folder that receives the `<version>` folder of packages. Default: `bin\LinuxPackages`. |
@@ -254,9 +256,9 @@ For general build problems, such as a locked file, see [[/Development/Troublesho
 
 | Problem | Fix |
 |:--------|:----|
-| **`A compatible .NET SDK was not found`** | The SDK pinned in `Platforms\Avalonia\global.json` is not installed. Do step 1.2.2. |
+| **`A compatible .NET SDK was not found`** | The SDK pinned in `win\win32\xpl\GnollHackM\global.json` is not installed. Do step 1.2.2. |
 | **`NETSDK1147`**: a workload must be installed | The .NET MAUI workload was installed from another folder, so for another SDK. Do step 1.2.3. |
-| **A wrong .NET SDK is used, or the `GnhAvalonia` build fails to restore** | `dotnet` was run outside `Platforms\Avalonia`, where other `global.json` files, or none, select a different SDK. |
+| **A wrong .NET SDK is used, or the `GnhAvalonia` build fails to restore** | `dotnet` was run outside `win\win32\xpl\GnollHackM` and the folders below it, where no `global.json` pins the SDK. |
 | **`The WSL distribution '...' cannot run commands`**, or the default distribution is Docker Desktop's | Install Ubuntu and make it the default with `wsl --set-default <name>`, or pass `-WslDistro <name>`. |
 | **`wsl.exe was not found`** | WSL is not installed. Do step 1.3.1. |
 | **`Install-LinuxSysroot.ps1` reports that the distribution cannot extract packages** | The distribution runs on WSL 1. Convert it with `wsl --set-version <name> 2`. |

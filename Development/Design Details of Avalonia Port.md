@@ -7,7 +7,7 @@ What the Avalonia port is and which flavors exist is on [[/Development/Avalonia 
 | | |
 |:--|:--|
 | **What** | `GnollHackM.csproj` built with `-p:GnhAvalonia=true`, running .NET MAUI on Avalonia.Controls.Maui |
-| **.NET** | .NET 11, with the SDK pinned in `Platforms\Avalonia\global.json`; the Android, iOS and WinUI 3 clients stay on .NET 10 |
+| **.NET** | .NET 11, with the SDK pinned in `win\win32\xpl\GnollHackM\global.json`, as for the Android, iOS and WinUI 3 clients |
 | **Runtime** | CoreCLR with the JIT, self-contained, not trimmed, not compiled ahead of time |
 | **Flavors** | `linux-x64`, `osx-arm64` and `win-x64`; see [[Flavors|/Development/Avalonia Port#flavors]] |
 | **Shared code** | `Platforms\Avalonia\`, plus `#if GNH_AVALONIA` branches in shared files, most of them in `GHApp.cs`, `OverseerPage.xaml.cs`, `SwitchableCanvasView.xaml.cs` and `MauiProgram.cs` |
@@ -45,7 +45,7 @@ Every flavor defines `GNH_MAUI`, `GNH_AVALONIA`, `USE_SPAN_FOR_SUBSTRING` and `C
 | Decision | Choice | Why |
 |:---------|:-------|:----|
 | **UI backend** | Avalonia.Controls.Maui | .NET MAUI has no Linux backend; the same XAML pages and C# run without a second user interface |
-| **.NET version** | .NET 11 for the Avalonia port only | Avalonia.Controls.Maui, and the build support for an external .NET MAUI backend, exist only for .NET MAUI 11. Two `global.json` files keep the shipped clients on .NET 10 |
+| **.NET version** | .NET 11 | Avalonia.Controls.Maui, and the build support for an external .NET MAUI backend, exist only for .NET MAUI 11. Every client now builds with the SDK pinned in `GnollHackM\global.json` |
 | **One project** | A build property on `GnollHackM.csproj`, not a fork | One code base for every client |
 | **Runtime** | CoreCLR with the JIT, self-contained | No .NET installation needed, and the same runtime as the WinUI 3 version. Why it is not trimmed or compiled ahead of time is not recorded |
 | **Entry point** | GnollHack's own `Main` | Some setup must run before Avalonia starts; see [[Startup|#startup]] |
@@ -156,7 +156,6 @@ The files of `Platforms\Avalonia\`, which every flavor compiles.
 | **GHAvaloniaShutdown.cs** | Ends the process with the game saved |
 | **GHAvaloniaPaths.cs** | Data folder and read-only asset folders |
 | **PlatformServiceAvalonia.cs** | The platform service of the Avalonia target |
-| **global.json** | Pins the .NET 11 SDK and the .NET MAUI workload set |
 | **app.manifest** | Windows only: supported operating systems, per-monitor DPI awareness |
 
 ### 📐 Layout and Theming

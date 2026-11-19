@@ -32,7 +32,7 @@ The macOS version was released on Steam on November 5, 2026, in version 3.37. Pl
 
 ## 🧑‍💻 Building
 
-The Avalonia port uses a newer .NET SDK than the other modern clients. Its SDK and .NET MAUI workload versions are pinned in `Platforms\Avalonia\global.json`, and every `dotnet` command for the Avalonia port must run in that folder, for example:
+The Avalonia port uses the same .NET SDK as the other modern clients. Its SDK and .NET MAUI workload versions are pinned in `win\win32\xpl\GnollHackM\global.json`, and every `dotnet` command for the Avalonia port must run in that folder or a folder below it, such as `Platforms\Avalonia`, for example:
 
 ```powershell
 cd win\win32\xpl\GnollHackM\Platforms\Avalonia

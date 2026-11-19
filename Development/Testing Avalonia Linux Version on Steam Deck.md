@@ -68,6 +68,8 @@ sudo systemctl enable --now sshd
 
 > ℹ️ **Note:** Nothing appears while you type a password, not even dots. This is normal. Type it and press `Enter`.
 
+> ℹ️ **Note:** If `passwd` asks for a **current** password, the `deck` user already has one. Use it if you know it. If you do not, skip `passwd`, and once the SSH server runs, follow [[6b. Without the Deck Password|#6b-without-the-deck-password]] instead of step 6. The `sudo systemctl` line needs the password too, but if the SSH server is already running (the deploy script reaches the Deck and stops only at the one-time SSH setup), you do not need it.
+
 You do not need the Deck's keyboard after this step. The rest of the setup happens on the computer.
 
 ### 4. Create an SSH Key in WSL
@@ -101,10 +103,59 @@ On the first run, it stops at the connection check, because the Deck does not kn
 wsl -d Ubuntu-20.04 ssh-copy-id -o HostKeyAlias=steamdeck deck@192.168.1.20
 ```
 
+Below the command, the script also prints the fingerprint of the identity it sees at that address, and the command that shows the Deck's own fingerprint.
+
 Run the command it printed. It asks two things:
 
-1. `Are you sure you want to continue connecting (yes/no)?` — type `yes`. This remembers the Deck's identity under the name `steamdeck`.
+1. `Are you sure you want to continue connecting (yes/no)?` — before you answer, check that the device at that address is your Deck. On the Deck, in Konsole, run
+
+   ```bash
+   ssh-keygen -lf /etc/ssh/ssh_host_ed25519_key.pub
+   ```
+
+   It prints a fingerprint that starts with `SHA256:`. If it equals the one the script and the question show, type `yes`. This remembers the Deck's identity under the name `steamdeck`. If it does not, type `no` and find out which device answered.
 2. `deck@...'s password:` — enter the password you set in step 3. This is the last time you need it.
+
+The setup is now done.
+
+### 6b. Without the Deck Password
+
+If the `deck` user already has a password that you do not know, but the SSH server is running, install the key from the Deck itself instead of with `ssh-copy-id`.
+
+1. On the computer, show your public key. It is one line that starts with `ssh-ed25519`:
+
+   ```powershell
+   wsl -d <distro> cat ~/.ssh/id_ed25519.pub
+   ```
+
+   This is the **public** half of the key, which is safe to copy. Never copy `id_ed25519` without `.pub`.
+2. Get that line to the Deck: for example, write it into a note or an email to yourself that you open in the Deck's web browser in Desktop Mode, or copy it to a USB stick.
+3. On the Deck, in Konsole, add it to the keys the Deck accepts. Replace `<the line>` with the whole line, keeping the single quotes around it. To paste in Konsole, press **Ctrl+Shift+V**.
+
+   ```bash
+   mkdir -p ~/.ssh && chmod 700 ~/.ssh && echo '<the line>' >> ~/.ssh/authorized_keys && chmod 600 ~/.ssh/authorized_keys
+   ```
+
+4. Check that the Deck has the right key. On the Deck:
+
+   ```bash
+   ssh-keygen -lf ~/.ssh/authorized_keys
+   ```
+
+   and on the computer:
+
+   ```powershell
+   wsl -d <distro> ssh-keygen -lf ~/.ssh/id_ed25519.pub
+   ```
+
+   Both print the same fingerprint.
+5. Trust the Deck's identity. On the computer, with the Deck's address from step 5:
+
+   ```powershell
+   wsl -d <distro> ssh -o HostKeyAlias=steamdeck deck@<address> true
+   ```
+
+   It asks `Are you sure you want to continue connecting (yes/no)?`. Compare the fingerprint it shows with the one `ssh-keygen -lf /etc/ssh/ssh_host_ed25519_key.pub` prints on the Deck, as in step 6, and type `yes` only if they are equal. It asks for no password.
 
 The setup is now done.
 
@@ -214,6 +265,7 @@ The Deck can stay in Gaming Mode the whole time: deploys work in either mode, as
 | **Cannot reach ...** (`Connection timed out`) | The Deck is asleep, on another network, or its address has changed. Wake it, check its network, and check its address in **Settings → Internet**. |
 | **The one-time SSH setup ... is missing** (`Host key verification failed` or `Permission denied`) | The Deck does not know your key yet. Run the `ssh-copy-id` command that the script printed, as in step 6 of the setup. |
 | `ssh-copy-id: ERROR: No identities found` | The WSL distribution has no SSH key. Do step 4 of the setup. |
+| `passwd: Authentication token manipulation error`, or **Authentication failure** at the current password | The `deck` user already has a password, and this is not it. If you do not know it, install the key as in [[6b. Without the Deck Password|#6b-without-the-deck-password]]. |
 | **The device at ... is not the one trusted as 'steamdeck'** | A different device answered at the Deck's address, or the Deck was reinstalled. Find out which before you trust the new identity. A second Deck needs its own `-HostKeyAlias`. |
 | **GnollHackM is running on the Deck** | Quit the game, or add `-Force`. |
 | **No staged build at ...** | The version has not been built yet. Run `Build-LinuxPackages.ps1`, or pass the staged version with `-Version`. The message lists the versions that are staged. |
