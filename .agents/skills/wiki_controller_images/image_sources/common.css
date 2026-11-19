@@ -1,0 +1,59 @@
+/* Fonts and shared tokens for the Steam Deck Controls image templates. Fonts load by file URL,
+   so build_images.py runs Chrome with --allow-file-access-from-files. */
+
+/* Wiki typography: diagram labels and titles */
+@font-face {
+  font-family: "WikiLato";
+  font-weight: 400;
+  src: url("file:///C:/hmp/GnollHackWiki/.gollum/fonts/lato2-latin-400-normal.woff2") format("woff2");
+}
+@font-face {
+  font-family: "WikiLato";
+  font-weight: 800;
+  src: url("file:///C:/hmp/GnollHackWiki/.gollum/fonts/lato2-latin-800-normal.woff2") format("woff2");
+}
+@font-face {
+  font-family: "WikiCinzel";
+  font-weight: 400 900;
+  src: url("file:///C:/hmp/GnollHackWiki/.gollum/fonts/cinzel-latin-wght-normal.woff2") format("woff2");
+}
+
+/* Game fonts: radial menus, hint strip and button badges */
+@font-face {
+  font-family: "GHImmortal";
+  src: url("file:///C:/hmp/GnollHack/win/win32/xpl/GnollHackX/GnollHackX/Assets/Immortal-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "GHLato";
+  src: url("file:///C:/hmp/GnollHack/win/win32/xpl/GnollHackX/GnollHackX/Assets/Lato-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "GHLatoBold";
+  src: url("file:///C:/hmp/GnollHack/win/win32/xpl/GnollHackX/GnollHackX/Assets/Lato-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "GHUnderwood";
+  src: url("file:///C:/hmp/GnollHack/win/win32/xpl/GnollHackX/GnollHackX/Assets/uwch.ttf") format("truetype");
+}
+
+/* Wiki theme tokens (.gollum/css/gnollhack-theme.css :root) */
+:root {
+  --gold: #f3ce72;
+  --gold-strong: #dfb046;
+  --prose: #ede7db;
+  --muted: #c8beaa;
+  --surface: #12100d;
+  --surface-raised: #1a1713;
+  --border: rgba(212, 168, 83, 0.32);
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  overflow: hidden;
+}
+
+svg {
+  display: block;
+}

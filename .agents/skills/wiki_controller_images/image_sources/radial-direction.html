@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Direction radial</title>
+<link rel="stylesheet" href="common.css">
+<script src="gh.js"></script>
+</head>
+<body>
+<!-- The Direction radial (GamePage.Gamepad.cs, BuildGamepadDirectionRadial) for Fire, opened
+     without a held trigger, with East highlighted. It is see-through, so a faint grid stands in for
+     the map behind it. -->
+<svg id="figure" xmlns="http://www.w3.org/2000/svg"></svg>
+<script>
+GH.mount(600, 600, () => {
+  const g = GH.radialGeometry(600, 600, 464);
+  const names = ["North", "Northeast", "East", "Southeast", "South", "Southwest", "West", "Northwest"];
+  const icons = ["arrow_up", "arrow_upright", "arrow_right", "arrow_downright", "arrow_down", "arrow_downleft", "arrow_left", "arrow_upleft"];
+  const def = {
+    id: "dir", accent: "violet", seeThrough: true, title: "Direction", highlight: 2, promptVerb: "Fire",
+    slots: names.map((n, i) => ({ label: n, icon: icons[i] + ".png" })),
+    hints: [["a", "Select"], ["b", "Cancel"], ["dpad-up", "Upwards"], ["dpad-down", "Downwards"], ["y", "Self"]]
+  };
+  let grid = "";
+  for (let v = 64; v < 1200; v += 64)
+    grid += `<path d="M${v} 2V1198M2 ${v}H1198" stroke="rgba(255,255,255,0.05)" stroke-width="2"/>`;
+  return GH.panel(0, 0, 1200, 1200) + `<g>${grid}</g>` + GH.radial(def, g);
+});
+</script>
+</body>
+</html>

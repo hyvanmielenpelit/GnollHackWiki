@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Button glyph</title>
+<link rel="stylesheet" href="common.css">
+<script src="gh.js"></script>
+</head>
+<body>
+<!-- One button badge, 44 device pixels tall, at the top-left corner; ?name= picks the button
+     (GH.BUTTONS). build_images.py crops the screenshot to the badge's width. -->
+<svg id="figure" xmlns="http://www.w3.org/2000/svg"></svg>
+<script>
+const name = new URLSearchParams(location.search).get("name");
+const h = 44;
+const w = GH.measureBadge(name, h);
+GH.mount(48, 22, () => GH.badge(name, w / 2, h / 2, h, false));
+</script>
+</body>
+</html>

@@ -1,12 +1,12 @@
-> 👉 **GnollHack supports game controllers on the Steam Deck, Windows, desktop Linux and macOS, but not yet on Android or iOS.**
+> 👉 **GnollHack supports game controllers on the Steam Deck, Windows, desktop Linux, macOS, Android and iOS.**
 
 ## ℹ️ Overview
 
-GnollHack can be played from start to finish with a game controller on the **Steam Deck**, which is the primary target. The same controls also work with an **Xbox controller** on **Windows**, and with a controller on **desktop Linux** and on **macOS**. **Android** and **iOS** have no controller support yet.
+GnollHack can be played from start to finish with a game controller on the **Steam Deck**, which is the primary target. The same controls also work with an **Xbox controller** on **Windows**, with a controller on **desktop Linux** and on **macOS**, with a USB or Bluetooth controller on **Android**, and with any controller that iOS supports on **iOS**.
 
 Controller support is built into the shared C# frontend, so all platforms use the same controls, radial menus and on-screen hints. Each platform only adds a small backend that reads the controller. The game never takes input away from the other devices: the first controller press switches the game into controller mode, and touch, the mouse or a key switches it back.
 
-> ℹ️ **Note:** Windows and desktop Linux support was added on November 1, 2026, and macOS support on November 5, 2026. Steam Deck support came first.
+> ℹ️ **Note:** Windows and desktop Linux support was added on November 1, 2026, macOS support on November 5, 2026, Android support on November 17, 2026, and iOS support on November 18, 2026. Steam Deck support came first.
 
 The full reference for every button, setting and environment variable is `DEVEL/gamepad_controls.md` in the GnollHack repository.
 
@@ -19,11 +19,13 @@ The full reference for every button, setting and environment variable is `DEVEL/
 | **Windows** | WinUI 3 | XInput | ❌ | ❌ |
 | **Windows (development)** | Avalonia Windows, not released | XInput | ❌<sup>1</sup> | ❌ |
 | **macOS** | Avalonia macOS | Apple's GameController framework | ❌<sup>1</sup> | ❌ |
-| **Android** | .NET MAUI | ❌ Not supported | | |
-| **iOS, and iOS on macOS** | .NET MAUI | ❌ Not supported | | |
+| **Android** | .NET MAUI | Android's key and joystick motion events | ❌ | ✅ Android's keyboard |
+| **iOS** | .NET MAUI | Apple's GameController framework | ❌ | ✅ The iOS keyboard |
 
 - <sup>1</sup> With `GNOLLHACK_GAMEPAD_KEYS=on`, the keys F2-F5 act as the grips on any Avalonia build. This is meant for testing.
 - <sup>2</sup> With `GNOLLHACK_STEAM_KEYBOARD=on`, Steam's keyboard is allowed in any Linux session.
+
+The iOS version running on macOS uses the same code as on iOS, but it has not been tested with a controller.
 
 Only the Steam Deck is recognized as such, by its Valve model name. Another device running SteamOS counts as desktop Linux: it reads the virtual pad, but by default gets neither Steam's keyboard nor the grips.
 
@@ -31,17 +33,21 @@ On a Steam Deck, the controls only work when the game is started from Steam. Gam
 
 ## 🎮 Supported Controllers
 
-| Controller | Steam Deck | Desktop Linux | Windows | macOS |
-|:-----------|:-----------|:--------------|:--------|:------|
-| **Steam Deck's own controls** | ✅ Through Steam Input | | | |
-| **Xbox and XInput-compatible** | Through Steam Input | ✅ Tested | ✅ Tested | ✅ Supported |
-| **PlayStation** | Through Steam Input | Should work, not tested | Only if Steam presents it as an XInput pad, not tested | ✅ Supported: DualShock 4 and DualSense |
-| **Nintendo** | Through Steam Input | Should work, not tested | Only if Steam presents it as an XInput pad, not tested | Not tested |
-| **Other gamepads** | Through Steam Input | Should work when the device reports standard gamepad controls, not tested | Only XInput devices | Controllers that macOS supports with an extended gamepad profile, such as MFi controllers |
+| Controller | Steam Deck | Desktop Linux | Windows | macOS | Android | iOS |
+|:-----------|:-----------|:--------------|:--------|:------|:--------|:----|
+| **Steam Deck's own controls** | ✅ Through Steam Input | | | | | |
+| **Xbox and XInput-compatible** | Through Steam Input | ✅ Tested | ✅ Tested | ✅ Supported | ✅ Supported | ✅ Supported |
+| **PlayStation** | Through Steam Input | Should work, not tested | Only if Steam presents it as an XInput pad, not tested | ✅ Supported: DualShock 4 and DualSense | ✅ Supported | ✅ Supported: DualShock 4 and DualSense |
+| **Nintendo** | Through Steam Input | Should work, not tested | Only if Steam presents it as an XInput pad, not tested | Not tested | Not tested | Not tested |
+| **Other gamepads** | Through Steam Input | Should work when the device reports standard gamepad controls, not tested | Only XInput devices | Controllers that macOS supports with an extended gamepad profile, such as MFi controllers | Devices that report themselves as a gamepad, or as a joystick with an X axis, such as USB-C clip-on controllers | Controllers that iOS supports with an extended gamepad profile, such as clip-on and MFi controllers |
 
 On Linux, a device counts as a gamepad when it has a south face button and left stick axes. Motion sensor devices are skipped, and Valve's own physical controllers are never read directly. Sony controllers have their X and Y buttons swapped to the positions the game expects.
 
 On macOS, a controller paired in System Settings → Bluetooth or connected by USB is read when it has an extended gamepad profile, and others are skipped. It works when switched on before or during the game. The Home button keeps its macOS action.
+
+On Android, a controller is any device that is not virtual and reports itself as a gamepad, or as a joystick with an X axis, connected by USB or Bluetooth. Android reports the right stick and the triggers on different axes for different controllers, so each controller gets an axis layout chosen from the axes it reports. The glyph style comes from the USB vendor ID, then from the device name. The Guide button is never consumed, so it always goes home.
+
+On iOS, a controller is read when it has an extended gamepad profile, such as a clip-on controller, or an Xbox, DualShock 4, DualSense or Nintendo Switch controller, and others are skipped. The Home button and an Xbox controller's Share button keep their iOS actions. With Use Controller on, the game disables the system gestures of the Menu and View buttons, which iOS would otherwise wait for before passing a press on.
 
 The buttons are positional, not printed labels: A is the south button, B the east, X the west and Y the north. The on-screen hints draw the labels of the controller in use, such as Cross and Circle on PlayStation or B and A on Nintendo. A Nintendo controller read directly on desktop Linux has not been tested, and its X and Y may come out reversed. Button names on this page follow the Steam Deck; on an Xbox controller L1/R1 are LB/RB, L2/R2 are LT/RT, View is Back and Menu is Start.
 
@@ -51,7 +57,7 @@ Several controllers can be connected at once, but they do not play separately. T
 
 ### 🗺️ On the Map
 
-L1 and R1 are hold modifiers, and neither does anything on its own. L1 changes the right-side controls and R1 the left-side controls. A hint strip always shows the current layer.
+L1 and R1 are hold modifiers, and neither does anything on its own. L1 changes the right-side controls and R1 the left-side controls. A hint strip always shows the current layer. Holding one shoulder, pressing the other and releasing either with nothing pressed in between opens a Quick radial: L1 then R1 opens Right Quick, and R1 then L1 opens Left Quick. Any other press while both are held, such as Y for Rest, cancels that.
 
 | Control | Alone | L1 held | R1 held |
 |:--------|:------|:--------|:--------|
@@ -60,12 +66,14 @@ L1 and R1 are hold modifiers, and neither does anything on its own. L1 changes t
 | **X** | Pick Up (`,`) | Pick Up and Stash (`;`) | |
 | **Y** | Repeat (`Ctrl+a`) | Wait (`.`) | |
 | **L1 + R1 + Y** | Rest | | |
-| **R2** | Command set in Settings, by default By Role: Cast Quick, Polearm or Fire | Right Quick radial | |
-| **L2** | Command set in Settings, by default Kick (`k`) | | Left Quick radial |
+| **R2** | Command set in Settings, by default By Role: Cast Quick, Polearm or Fire | L1 + R2 Action, by default Cast (`Shift+z`) | |
+| **L2** | Command set in Settings, by default Kick (`k`) | | R1 + L2 Action, by default Throw (`t`) |
+| **R1** | Modifier | Right Quick radial, on release | |
+| **L1** | Modifier | | Left Quick radial, on release |
 | **Menu** | Game menu | Abilities (`Shift+a`) | |
 | **View** | Inventory (`i`) | | Equipment (`*`) |
 | **D-pad** | Walk one step, repeating while held | | Zoom, minimap |
-| **Left stick** | Walk in 8 directions | | Run |
+| **Left stick** | Walk in 8 directions; with Aim and Confirm, aim, and A moves | | Run; with Aim and Confirm, aim, and A runs |
 | **Right stick** | Pan the map | | |
 | **L3** | Run: the next direction runs, as the `Shift+g` prefix does; L3 again or B cancels | | Center the map on the hero |
 | **R3** | Toggles radial | | |
@@ -73,12 +81,13 @@ L1 and R1 are hold modifiers, and neither does anything on its own. L1 changes t
 
 ### ⚙️ Radial Menus and Quick Actions
 
-Radial menus stay open until an item is chosen or they are closed, except for the direction radial while its trigger is held. Either stick selects, or D-pad Left/Right step and Up/Down jump to the top and bottom slots. A activates, B closes, Menu closes the radial and opens the game menu, and L1/R1 change the page.
+Radial menus stay open until an item is chosen or they are closed, except for the direction radial while its trigger is held. Either stick selects, or D-pad Left/Right step and Up/Down jump to the top and bottom slots. The center hub describes the highlighted command. A activates, B closes, Menu closes the radial and opens the game menu, and L1/R1 change the page. In a Quick radial, the shoulder pressed second to open it closes it.
 
 - **Actions radial**: the current context commands, followed by the commands pages, eight slots per page. The first is the **Quick Commands** page: Rest, Search 20 and Extended, then Skills, Polearm and Wield Last or Unwield when their buttons would show, each in its own slot, and Quick Command 1 and 2 in the West and Northwest slots. The other commands of the commands page follow in alphabetical order. This is how commands without a button of their own are reached. On the map it has all of them except Back to Game, the count pad and, outside wizard mode, the wizard commands. X switches between the context page and the Quick Commands page. In position prompts, L3 opens it without the commands.
 - **Toggles radial**: More Messages, Status Screen, Auto-Center, Look Mode, Auto-Dig, Ignore Stopping, Max Hit Points and Max Mana.
-- **Quick radials**: L1 + R2 opens Right Quick and R1 + L2 opens Left Quick, and pressing the trigger again closes them. Each has eight actions, set in Settings, and runs the chosen one at once, with the direction radial if it asks for a direction. R2 and L2 alone run their own commands, set with the R2 Action and L2 Action settings.
-- **Direction radial**: when a command asks for a direction, a violet, see-through radial opens. Select with a stick and press A to confirm. D-pad Up answers up (`<`), D-pad Down answers down (`>`) and Y answers self. While a trigger is held through its own command's prompt, a stick already pushed when the radial opens counts at once, releasing the trigger confirms, and releasing with nothing selected cancels the command. Force Fight, a prefix, does not open it.
+- **Quick radials**: Holding L1 and pressing R1 opens Right Quick, and holding R1 and pressing L1 opens Left Quick, when a shoulder is released. Pressing the second shoulder again closes them. Each has eight actions, set in Settings, and runs the chosen one at once, with the direction radial if it asks for a direction.
+- **Trigger commands**: R2 and L2 alone run their own commands, set with the R2 Action and L2 Action settings. With the other side's shoulder held, each runs a secondary command, set with L1 + R2 Action and R1 + L2 Action. When a trigger's command is Cast Quick, its hint names the quick spell, and while R2 is Cast Quick, the hint strip also shows L1 + R2's command.
+- **Direction radial**: when a command asks for a direction, a violet, see-through radial opens. Select with a stick and press A to confirm. D-pad Up answers up (`<`), D-pad Down answers down (`>`) and Y answers self. While a trigger is held through its own command's prompt, alone or with a shoulder, a stick already pushed when the radial opens counts at once, releasing the trigger confirms, and releasing with nothing selected cancels the command. Force Fight, a prefix, does not open it.
 - **Command radial**: A on a picker of commands in Settings shows its commands, eight per page, opening on the page with the current one. L1/R1 change the page, a stick or the D-pad selects, A sets and B closes.
 
 | Radial | Actions by default |
@@ -112,7 +121,7 @@ All of these are covered, and show their controls in a hint strip:
 | **Name page** | ✅ Starts on the name field |
 | **Wiki and other web pages** | ✅ A gold focus ring moves between the page's links and controls |
 | **Gnoll Overseer chat** | ✅ The page is divided into zones, and the composer, model selector and text cursor all work |
-| **File dialogs** | ✅ An in-page dialog replaces the system's: always in Gaming Mode, and elsewhere while the controller is the active input |
+| **File dialogs** | ✅ An in-page dialog replaces the system's: always in Gaming Mode, and on Windows, Linux and macOS while the controller is the active input |
 | **Message popups** | ✅ On every page |
 | **Tombstone** | 🟡 Either A or B dismisses it |
 | **Editor, performance suite** | 🟡 Developer pages; B closes them, and nothing else works |
@@ -121,25 +130,28 @@ On most pages with a scrolling list, the right stick scrolls it and L2/R2 go to 
 
 ### ⚙️ Settings
 
-The **Controller** section of Settings appears only when a controller can be used: on a Steam Deck started from Steam from the start, and elsewhere once a controller has been detected in the session.
+The **Controller** section of Settings appears only when a controller can be used: on a Steam Deck started from Steam from the start, and elsewhere, Android and iOS included, once a controller has been detected in the session.
 
 - **Use Controller** turns the whole feature off.
 - **Hide Command Bar**, on by default, hides the command bar and the menus' OK and Cancel buttons while the controller is the active input. They keep their space, so nothing on the screen moves.
+- **Hint Size**, from 100% to 200%, enlarges every hint strip, the hint bar below radial menus and their L1/R1 page chips. A game page strip that runs out of width shrinks back toward 100%, and the one-line strips of the Wiki, the Overseer and the file dialogs first drop their last hints.
+- **Aim and Confirm** makes the left stick only aim on the map: the square next to the hero in that direction is outlined, red over a hostile monster in view. A moves there, and holding A keeps walking. R1 + A, or L3 and then A, runs once. Releasing the stick ends the aim. The D-pad and the position and direction prompts are unchanged.
 - **R2 Action and L2 Action** set what the triggers run when pressed alone, to any command the bar buttons can hold, None, or **By Role**, R2's default, which runs Cast Quick for Healers, Monks, Priests and Wizards, Polearm for Knights, and Fire for the others.
-- **Quick Command 1 and 2** set the commands in the West and Northwest slots of the Actions radial's Quick Commands page, to any command the bar buttons can hold or None, the default. They run as a Quick radial's action does.
+- **L1 + R2 Action and R1 + L2 Action** set each trigger's secondary command, run with the other side's shoulder held, by default Cast (`Shift+z`) and Throw (`t`). They take the same choices as R2 Action and L2 Action.
 - **Back Grip L4, L5, R4 and R5** set the grips' commands, and appear only when the controller has grips.
-- **Quick Radials** is a section of its own, setting the eight actions of each Quick radial to any command the bar buttons can hold. It appears while the Controller section is shown and Use Controller is on. Bar Commands is then hidden if Hide Command Bar is on, and shown next to it if off.
+- **Actions Radial** is a section of its own, with **Quick Command 1 and 2**. They set the commands in the West and Northwest slots of the Actions radial's Quick Commands page, to any command the bar buttons can hold or None, the default, and run as a Quick radial's action does. The section follows Controller and is shown whenever Controller is.
+- **Quick Radials** is a section of its own, between Actions Radial and Bar Commands, setting the eight actions of each Quick radial to any command the bar buttons can hold. It appears while the Controller section is shown and Use Controller is on. Bar Commands is then hidden if Hide Command Bar is on, and shown next to it if off.
 
 ## ❌ What Is Not Covered
 
 ### 📱 Platforms
 
-- **Android and iOS** have no backend, so the controller code is compiled for them but never receives any input. This includes the iOS version running on macOS. On Android, any D-pad key codes the system produces are treated as ordinary keyboard keys, which is not controller support.
+- **The iOS version running on macOS** is not tested. It runs the same code as on iOS, and the app does not declare controller support to macOS, so macOS offers it no Game Control settings.
 - **Xamarin.Forms and the other legacy clients** are not supported.
 
 ### ⌨️ Text Entry
 
-By default, only the Steam Deck in Gaming Mode opens an on-screen keyboard. On Windows, desktop Linux and macOS, and in the Deck's Desktop Mode without Steam + X, text must be typed on a keyboard. This affects:
+By default, only the Steam Deck in Gaming Mode, Android and iOS open an on-screen keyboard, and Android and iOS do not open it while a hardware keyboard is connected. On Windows, desktop Linux and macOS, and in the Deck's Desktop Mode without Steam + X, text must be typed on a keyboard. This affects:
 
 - **Text prompts in the game**, such as wishing, engraving and naming. A is OK and submits what has been typed so far, and B cancels or, when wishing, picks at random. Some prompts also offer a list of choices with X.
 - **Text fields on pages**, such as Settings and the name page, where A only focuses the field.
@@ -174,7 +186,11 @@ The in-page dialog deliberately does less than the system's:
 - It saves only to a `GnollHack` folder under Documents or Downloads, or on Linux on removable media, and never overwrites a file. A second copy gets a new name.
 - It cannot change a file. Anything else is done in Desktop Mode or with the mouse.
 
-On the unreleased Avalonia Windows build, A on the Overseer's `+` opens Windows' own dialog, which a controller cannot use.
+On the unreleased Avalonia Windows build, A on the Overseer's `+` opens Windows' own dialog, which a controller cannot use. Android and iOS have no in-page dialog and always open the system's.
+
+### 🌐 Web Pages
+
+On Android, only the game menu's Wiki and the Overseer open in the in-app browser, and every other web link opens the system browser, without the focus ring. On iOS, the Overseer uses the in-app browser, and the game menu's Wiki does so only while Use Controller is on and a controller has been seen in the session. Otherwise the Wiki, like every other web link, opens the system browser, which holds the controller back while it is up.
 
 ### 📋 Smaller Gaps
 
@@ -192,23 +208,25 @@ Input travels from a backend through a shared service to whichever page is on to
 
 | Layer | What it does | Code |
 |:------|:-------------|:-----|
-| **Backends** | Read the hardware and report buttons, sticks and triggers | `GHEvdevGamepadBackend`, `GHXInputGamepadBackend`, `GHGameControllerBackend`, `GHGamepadKeyBridge` |
-| **Frame glue** | Registers the backends and polls the service once per UI frame | `GHAvaloniaGamepad`, `GHWinUIGamepad` |
+| **Backends** | Read the hardware and report buttons, sticks and triggers | `GHEvdevGamepadBackend`, `GHXInputGamepadBackend`, `GHGameControllerBackend`, `GHAndroidGamepadBackend`, `GHiOSGamepadBackend`, `GHGamepadKeyBridge`; the shared mapping files `GHAndroidGamepadMapping`, `GHAndroidGamepadDevice` and `GHAppleGamepadMapping` |
+| **Frame glue** | Registers the backends and polls the service once per UI frame | `GHAvaloniaGamepad`, `GHWinUIGamepad`, `GHAndroidGamepad`, `GHiOSGamepad` |
 | **Service** | Applies the gates, tracks presses, derives triggers and stick directions, and routes the events | `GHGamepadService`, `GHGamepadButtonTracker`, `GHGamepadControllerSelector`, `GHGamepadPressRouter` |
 | **Pages** | Handle focus and actions | `IGHGamepadHandlingPage`, `GHGamepadPageNavigator`, `GHGamepadFocusList` |
 | **Game page** | Map controls, dialogs and radial menus | `GamePage.Gamepad.cs`, `GamePage.GamepadDialogs.cs`, `GamePage.Radial.cs`, `Radial/` |
 | **Hints and focus** | Draw the button badges and the focus highlight | `GHGamepadHintRenderer`, `GHGamepadGlyphs`, `GHGamepadFocusGlow` |
-| **Web pages** | Move a focus ring inside the page | `GHWebGamepadNavigator`, `gamepad_web.js`, `GHAvaloniaWebScriptHost`, `GHWinUIWebScriptHost` |
+| **Web pages** | Move a focus ring inside the page | `GHWebGamepadNavigator`, `gamepad_web.js`, `GHAvaloniaWebScriptHost`, `GHWinUIWebScriptHost`, `GHAndroidWebScriptHost`, `GHiOSWebScriptHost` |
 | **File dialogs** | An in-page dialog that takes the controller | `GHFileDialogHost`, `FileDialogView` |
-| **On-screen keyboard** | Opens Steam's keyboard next to the field | `GHScreenKeyboard`, `GHAvaloniaSteamKeyboard` |
+| **On-screen keyboard** | Opens Steam's, Android's or the iOS keyboard for the field | `GHScreenKeyboard`, `GHAvaloniaSteamKeyboard`, `GHAndroidScreenKeyboard`, `GHiOSScreenKeyboard` |
 
-Most of this is in `win/win32/xpl/GnollHackX/GnollHackX/Gamepad/`. The Windows XInput backend is `GnollHackM/GHXInputGamepadBackend.cs`. The evdev backend is in `GnollHackM/Platforms/Linux/` and the GameController backend in `GnollHackM/Platforms/MacOS/`, and the platform glue is in `GnollHackM/Platforms/Avalonia/` and `GnollHackM/Platforms/Windows/`.
+Most of this is in `win/win32/xpl/GnollHackX/GnollHackX/Gamepad/`. The Windows XInput backend is `GnollHackM/GHXInputGamepadBackend.cs`. The evdev backend is in `GnollHackM/Platforms/Linux/` and the GameController backend in `GnollHackM/Platforms/MacOS/`, and the platform glue is in `GnollHackM/Platforms/Avalonia/` and `GnollHackM/Platforms/Windows/`. The Android and iOS backends, with their glue, keyboards and web script hosts, are in `GnollHackM/Platforms/Android/` and `GnollHackM/Platforms/iOS/`.
 
 ### 🔌 Backends
 
 - **evdev (Linux)** reads `/dev/input/event*` directly and never grabs a device. It watches `/dev/input` with inotify, so plugged-in controllers appear by themselves, and so does the new virtual pad when Steam recreates it. It honors the device lists Steam sets to hide the controllers it wraps. On a Steam launch it also reads the file that names the real controller behind each virtual pad, which decides the hint labels.
 - **XInput (Windows)** calls `xinput1_4.dll`, a part of Windows. It polls connected slots every frame, and checks one empty slot every 0.5 seconds, so hot-plugging works for up to four controllers.
 - **GameController (macOS)** reads controllers through Apple's GameController framework. It reads the controller list every frame, so a controller works when switched on before or during the game, and skips controllers without an extended gamepad profile.
+- **Android** reads Android's key and joystick motion events. Modal pages have windows of their own, so their window callback is wrapped to pass the same events on (WA-MAUI-0013). The backend starts a second after the first frame. Each controller gets an axis layout from the axes it reports (`Standard`, `RxRyStick` or `LinuxGamepad`), and a controller with analog triggers has its L2 and R2 keys ignored. With Use Controller off it consumes nothing, so the buttons do what Android's own handling does.
+- **iOS** reads controllers through Apple's GameController framework, resolving each controller's buttons and axes when it connects and reading them every frame. It starts a second after the first frame. With Use Controller on, it disables the system gestures of the Menu and View buttons, and on iOS 18 and later adds a `GCEventInteraction` to the window while a controller is connected, so that UIKit does not act on the controller too. While a view controller other than the game's own pages is presented, such as a share sheet, a file picker or the system browser, the controller is held back.
 - **Back-grip key bridge (Avalonia)** is an auxiliary backend. Steam's virtual pad has no paddle buttons, so GnollHack's layout sends the grips as the keys F2, F3, F4 and F5, and the bridge turns those back into grip presses (WA-STEAM-0001). It runs by default only on a Steam Deck started from Steam.
 
 ### 🚦 The Service
@@ -235,7 +253,7 @@ If a frame fails, the error is logged at most once every 10 seconds, and 30 fail
 
 ### 👁️ Controller Mode
 
-The service tracks whether the last input came from the controller, and pages use this to show or hide the controller's interface. On pages and in dialogs, the press that enters controller mode only reveals the focus and the hints, so it cannot activate something the player did not see. On the map, in radial menus, targeting prompts and replays, and on pages that use the keyboard adapter, the first press already acts, and so do the sticks. While editing a web page's text field, A, B, L1/R1 and L2/R2 act too. Touch, moving the mouse or a key leaves controller mode, and a controller press returns to it.
+The service tracks whether the last input came from the controller, and pages use this to show or hide the controller's interface. On pages and in dialogs, the press that enters controller mode only reveals the focus and the hints, so it cannot activate something the player did not see. On the map, in radial menus, targeting prompts and replays, and on pages that use the keyboard adapter, the first press already acts, and so do the sticks. While editing a web page's text field, A, B, L1/R1 and L2/R2 act too. Touch, moving the mouse or a key leaves controller mode, and a controller press returns to it. Typing on Steam's, Android's or the iOS keyboard keeps controller mode. On Avalonia, the first pointer move after the pointer re-enters the window does not end it, as happens when Steam's overlay goes away.
 
 ### 🌐 Web Pages
 
@@ -258,20 +276,23 @@ GnollHack's layout, "GnollHack (Steam Deck)", is Steam's **Gamepad with Mouse Tr
 | **A controller does nothing on desktop Linux** | The user may not have access to the device. Look for `open=EACCES` on the `GAMEPAD dev` lines of the game's standard error. |
 | **A controller does nothing on Windows** | It may not be an XInput device. Only XInput controllers are read. |
 | **A controller does nothing on macOS** | It may not have an extended gamepad profile. Look for a `GAMEPAD gc skip` line in the game's log. |
+| **A controller does nothing on Android** | It may not report itself as a gamepad. Look for `GAMEPAD android` lines in `adb logcat -d`: a `skip` line names a device that was not taken as a controller. |
+| **A controller does nothing on iOS** | It may not have an extended gamepad profile. Look for a `GAMEPAD ios skip` line in the debugger's output, or in the app log with debug logging on. |
+| **Controller mode ends unexpectedly** | Look for the `GAMEPAD inactive: <cause>` line, which names the key, pointer, touch or setting that ended it. |
 
-On Linux, every run writes lines starting with `GAMEPAD` to standard error at startup and on every hot-plug, naming each device and why it was accepted or skipped. They also reach the game's log when its debug logging is on. `GNOLLHACK_GAMEPAD_LOG=raw` additionally logs every input event. On macOS, the game writes a `GAMEPAD gc` line for each controller that connects, disconnects or is skipped; started outside Terminal, these go to `~/Library/Logs/GnollHack/GnollHack.log`. On Windows, only failures are logged.
+On Linux, every run writes lines starting with `GAMEPAD` to standard error at startup and on every hot-plug, naming each device and why it was accepted or skipped. They also reach the game's log when its debug logging is on. `GNOLLHACK_GAMEPAD_LOG=raw` additionally logs every input event. On macOS, the game writes a `GAMEPAD gc` line for each controller that connects, disconnects or is skipped; started outside Terminal, these go to `~/Library/Logs/GnollHack/GnollHack.log`. On Android, the `GAMEPAD android` lines go to logcat, which `adb logcat -d | Select-String 'GAMEPAD'` filters, and with debug logging on also to the app log. On iOS, the `GAMEPAD ios` lines go to standard error, which the debugger's output shows, and with debug logging on also to the app log, which About, View App Log shows on the device. Every build writes `GAMEPAD inactive: <cause>` when controller mode ends, to standard error and as a Sentry breadcrumb. On Windows, only failures and `GAMEPAD inactive` are logged.
 
 ## 🧪 Testing
 
 A change to what a controller does or shows is not considered verified until it has been tested on a real device:
 
 - **Shared controller code** is tested on the Steam Deck in Gaming Mode.
-- **Code specific to one platform** is tested on that platform.
+- **Code specific to one platform** is tested on that platform. Android and iOS code is tested on a phone or tablet with a real controller. A test on an iPhone does not cover the iPad app running on a Mac.
 - **Before a release**, the Windows WinUI 3 build gets a short smoke test on an Xbox controller.
 
 The Avalonia Windows build is a backup for an unavailable Deck, but it cannot speak for evdev, Steam Input, the grips, Steam's keyboard or Gaming Mode.
 
-Unit tests in `win/win32/xpl/GnollHackTests/` cover the decoding and logic: the evdev protocol, decoder and device filter (with the capability data of Steam's virtual pad, measured on a Deck, and raw dumps as fixtures), press tracking, routing, controller selection, stick math, button labels, the key bridge, radial geometry and selection, web navigation, and file dialogs. They do not replace a device.
+Unit tests in `win/win32/xpl/GnollHackTests/` cover the decoding and logic: the evdev protocol, decoder and device filter (with the capability data of Steam's virtual pad, measured on a Deck, and raw dumps as fixtures), the Android key and axis mapping and controller state, the Apple glyph mapping, press tracking, routing, controller selection, stick math, button labels, the key bridge, radial geometry and selection, web navigation, and file dialogs. They do not replace a device.
 
 Setting up a Deck for testing is explained in [[/Development/Testing Avalonia Linux Version on Steam Deck]].
 
@@ -286,4 +307,4 @@ Setting up a Deck for testing is explained in [[/Development/Testing Avalonia Li
 
 ## 📅 Validity
 
-As of version 3.39.
+As of version 3.42.

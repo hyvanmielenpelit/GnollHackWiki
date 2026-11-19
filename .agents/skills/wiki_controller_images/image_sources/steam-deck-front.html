@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Steam Deck front</title>
+<link rel="stylesheet" href="common.css">
+<script src="gh.js"></script>
+<script src="deck.js"></script>
+</head>
+<body>
+<!-- The front of the Steam Deck with every control labeled -->
+<svg id="figure" xmlns="http://www.w3.org/2000/svg"></svg>
+<script>
+GH.mount(860, 280, () => {
+  const deck = DECK.front({ id: "front", x: 300, y: 84, width: 1120 });
+  const P = DECK.C;
+  const L = 266, R = 1454;          /* label column edges */
+  let s = deck.svg;
+  const callout = (text, side, labelY, target) => {
+    const t = deck.at(target[0], target[1]);
+    const x0 = side === "left" ? L : R;
+    s += DECK.leader(x0, labelY, t[0], t[1]);
+    s += DECK.label(text, side === "left" ? x0 - 14 : x0 + 14, labelY, side === "left" ? "end" : "start");
+  };
+  const stickEdge = (p, deg) => [p.x + Math.sin(deg * Math.PI / 180) * p.cap, p.y - Math.cos(deg * Math.PI / 180) * p.cap];
+  /* Left side, top to bottom */
+  callout("View", "left", 34, [P.view.x - P.view.w / 2 + 3, P.view.y]);
+  callout("D-pad", "left", deck.at(0, P.dpad.y)[1], [P.dpad.x - P.dpad.arm, P.dpad.y]);
+  callout("Left stick (L3)", "left", 236, stickEdge(P.lstick, 225));
+  callout("Left trackpad", "left", deck.at(0, P.ltrackpad.y + P.ltrackpad.s / 2)[1], [P.ltrackpad.x, P.ltrackpad.y + P.ltrackpad.s / 2]);
+  callout("Steam", "left", 420, [P.steam.x - P.steam.w / 2, P.steam.y]);
+  /* Right side */
+  callout("Menu", "right", 34, [P.menu.x + P.menu.w / 2 - 3, P.menu.y]);
+  callout("A, B, X, Y", "right", deck.at(0, P.abxy.y)[1], [P.abxy.x + P.abxy.d + P.abxy.r, P.abxy.y]);
+  callout("Right stick (R3)", "right", 236, stickEdge(P.rstick, 135));
+  callout("Right trackpad", "right", deck.at(0, P.rtrackpad.y + P.rtrackpad.s / 2)[1], [P.rtrackpad.x + P.rtrackpad.s, P.rtrackpad.y + P.rtrackpad.s / 2]);
+  callout("Quick Access (…)", "right", 420, [P.qam.x + P.qam.w / 2, P.qam.y]);
+  return s;
+});
+</script>
+</body>
+</html>

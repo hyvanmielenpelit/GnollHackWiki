@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Controls on the map</title>
+<link rel="stylesheet" href="common.css">
+<script src="gh.js"></script>
+<script src="deck.js"></script>
+</head>
+<body>
+<!-- What each control does on the map: ?layer=alone, l1 (L1 held) or r1 (R1 held). The callouts
+     shorten the "Controls on the Map" table of Steam Deck Controls.md. Every callout keeps its place
+     in all three images; a held layer dims the controls it does not change. -->
+<svg id="figure" xmlns="http://www.w3.org/2000/svg"></svg>
+<script>
+const LAYERS = {
+  alone: {
+    title: "Alone",
+    lines: {
+      l2: "Kick", l1: "More (hold)", view: "Inventory", dpad: "Walk", lstick: "Walk", l3: "Run",
+      r2: "By Role", r1: "More (hold)", menu: "Game menu", a: "Act or Actions radial", b: "Search", x: "Pick Up",
+      y: "Repeat", rstick: "Pan the map", r3: "Toggles radial"
+    }
+  },
+  l1: {
+    title: "Hold", held: "l1",
+    lines: {
+      l1: "Held", r2: "Cast", r1: "Right Quick radial", menu: "Abilities", a: "Commands radial", b: "Search 20 times",
+      x: "Pick Up and Stash", y: "Wait"
+    }
+  },
+  r1: {
+    title: "Hold", held: "r1",
+    lines: {
+      r1: "Held", l2: "Throw", l1: "Left Quick radial", view: "Equipment", dpad: "Zoom and minimap", lstick: "Run", l3: "Center the map"
+    }
+  }
+};
+
+const CONTROLS = ["l1", "l2", "r1", "r2", "view", "menu", "dpad", "lstick", "rstick", "ltrackpad", "rtrackpad", "steam", "qam", "a", "b", "x", "y"];
+
+GH.mount(860, 300, () => {
+  const layer = LAYERS[new URLSearchParams(location.search).get("layer") || "alone"];
+  const lines = layer.lines;
+  const color = layer.held ? DECK.COLORS.gold : DECK.COLORS.label;
+  /* Controls with a callout stay bright; in a held layer the rest are dimmed */
+  const lit = { l1: ["l1"], l2: ["l2"], r1: ["r1"], r2: ["r2"], view: ["view"], menu: ["menu"], dpad: ["dpad"],
+    lstick: ["lstick"], l3: ["lstick"], rstick: ["rstick"], r3: ["rstick"], a: ["a"], b: ["b"], x: ["x"], y: ["y"] };
+  let bright = [];
+  Object.keys(lines).forEach(k => { bright = bright.concat(lit[k]); });
+  const dim = layer.held ? CONTROLS.filter(c => bright.indexOf(c) < 0) : [];
+  const deck = DECK.front({ id: "map", x: 430, y: 200, width: 860, shoulders: true, dim, gold: layer.held ? [layer.held] : [] });
+  const P = DECK.C;
+  let s = deck.svg;
+
+  /* Title */
+  if (layer.held) {
+    const w = GH.measure(layer.title, GH.FONTS.wikiBold, 36);
+    const bw = GH.measureBadge(layer.held, 44);
+    const x = 860 - (w + 16 + bw) / 2;
+    s += GH.text(layer.title, x, 58 + GH.FONTS.wikiBold.cap * 18, GH.FONTS.wikiBold, 36, DECK.COLORS.gold);
+    s += GH.badge(layer.held, x + w + 16 + bw / 2, 58, 44, true);
+  } else {
+    s += GH.text(layer.title, 860, 58 + GH.FONTS.wikiBold.cap * 18, GH.FONTS.wikiBold, 36, DECK.COLORS.label, "middle");
+  }
+
+  const L = 390, R = 1330;
+  const badgeH = 38;
+  /* One callout block: its lines [button, key in lines], the line its leader starts from, the target */
+  const block = (side, y0, entries, target) => {
+    const present = entries.filter(e => lines[e[1]]);
+    if (present.length === 0)
+      return;
+    const edge = side === "left" ? L : R;
+    const badgeCenter = side === "left" ? edge - 30 : edge + 30;
+    const textEdge = side === "left" ? edge - 64 : edge + 64;
+    let leaderY = null;
+    entries.forEach((e, i) => {
+      const y = y0 + i * 44;
+      if (!lines[e[1]])
+        return;
+      if (leaderY === null)
+        leaderY = y;
+      s += GH.badge(e[0], badgeCenter, y, badgeH, layer.held === e[0]);
+      s += DECK.label(lines[e[1]], textEdge, y, side === "left" ? "end" : "start", color);
+    });
+    const t = deck.at(target[0], target[1]);
+    s += DECK.leader(edge, leaderY, t[0], t[1]);
+  };
+  const stickEdge = (p, deg) => [p.x + Math.sin(deg * Math.PI / 180) * p.cap, p.y - Math.cos(deg * Math.PI / 180) * p.cap];
+
+  /* The shoulders have one leader per line */
+  const shoulder = (side, y, button, key, target) => block(side, y, [[button, key]], target);
+  shoulder("left", 106, "l2", "l2", [100, -22]);
+  shoulder("left", 150, "l1", "l1", [44, 0]);
+  shoulder("right", 106, "r2", "r2", [900, -22]);
+  shoulder("right", 150, "r1", "r1", [956, 0]);
+
+  block("left", 230, [["view", "view"]], [P.view.x - P.view.w / 2 + 3, P.view.y]);
+  block("left", 277, [["dpad", "dpad"]], [P.dpad.x - P.dpad.arm, P.dpad.y]);
+  block("left", 324, [["lstick", "lstick"], ["l3", "l3"]], stickEdge(P.lstick, 225));
+  block("right", 230, [["menu", "menu"]], [P.menu.x + P.menu.w / 2 - 3, P.menu.y]);
+  block("right", 277, [["b", "b"], ["a", "a"], ["x", "x"], ["y", "y"]], [P.abxy.x + P.abxy.d + P.abxy.r, P.abxy.y]);
+  block("right", 453, [["rstick", "rstick"], ["r3", "r3"]], stickEdge(P.rstick, 135));
+  return s;
+});
+</script>
+</body>
+</html>

@@ -73,6 +73,7 @@ When editing or creating pages for the GnollHack Wiki, follow these conventions.
   - Transparent backgrounds (no white backgrounds).
   - 12-pixel rounded corners for sharp-cornered images.
   - Dimensions: Square (512x512), Horizontal (Width 512), Vertical (Height 512).
+- **Generated Images**: The images under `uploads/Steam Deck Controls/` are rendered from the templates of the `wiki_controller_images` skill. Invoke that skill before changing one.
 - **Link Syntax**: Use standard Markdown image syntax referencing the absolute path: `![Alt Text](/uploads/Path/To/image.webp)`. Any spaces in the image path must be URL-encoded as `%20` (e.g., `![Alt Text](/uploads/Path/To%20Some/image.webp)`).
 
 ## 4. Restrictions

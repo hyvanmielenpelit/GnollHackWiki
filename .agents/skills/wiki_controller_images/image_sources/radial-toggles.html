@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Toggles radial</title>
+<link rel="stylesheet" href="common.css">
+<script src="gh.js"></script>
+</head>
+<body>
+<!-- The Toggles radial (GamePage.Gamepad.cs, BuildGamepadTogglesRadial) with Auto-Center
+     highlighted. States are the defaults: Auto-Center and Auto-Dig on, the others off. -->
+<svg id="figure" xmlns="http://www.w3.org/2000/svg"></svg>
+<script>
+GH.mount(600, 600, () => {
+  const g = GH.radialGeometry(600, 600, 464);
+  const def = {
+    id: "toggles", accent: "gold", title: "Toggles", highlight: 1,
+    slots: [
+      { label: "Status Screen", icon: "you.png", toggle: false, description: "Shows the full status of your character" },
+      { label: "Auto-Center", icon: "stone-autocenter-on.png", toggle: true, description: "Keeps the map centered on your character" },
+      { label: "Max Hit Points", orb: "red", toggle: false, description: "Shows your maximum hit points in the health orb" },
+      { label: "Look Mode", icon: "stone-look-off.png", toggle: false, description: "Map clicks look instead of acting" },
+      { label: "More Messages", icon: "messages.png", toggle: false, description: "Shows the message history; the right stick scrolls it" },
+      { label: "Ignore Stopping", icon: "stone-ignore-off.png", toggle: false, description: "Traveling is not interrupted by items, doors or engravings" },
+      { label: "Max Mana", orb: "blue", toggle: false, description: "Shows your maximum mana in the mana orb" },
+      { label: "Auto-Dig", icon: "stone-autodig-on.png", toggle: true, description: "Moving digs when you wield a digging tool" }
+    ],
+    hints: [["a", "Toggle"], ["b", "Close"]]
+  };
+  return GH.panel(0, 0, 1200, 1200) + GH.radial(def, g);
+});
+</script>
+</body>
+</html>

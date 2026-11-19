@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Hint strip</title>
+<link rel="stylesheet" href="common.css">
+<script src="gh.js"></script>
+</head>
+<body>
+<!-- The map's hint strip in three states (GamePage.Gamepad.cs, BuildGamepadHints), drawn with the
+     Steam Deck badges at the game's label size of 14 CSS pixels -->
+<svg id="figure" xmlns="http://www.w3.org/2000/svg"></svg>
+<script>
+const ROWS = [
+  ["Alone", [
+    { buttons: ["a"], label: "Actions" }, { buttons: ["b"], label: "Search" }, { buttons: ["x"], label: "Pick up" },
+    { buttons: ["y"], label: "Repeat" }, { buttons: ["l2"], label: "Kick" }, { buttons: ["r2"], label: "Fire" },
+    { buttons: ["l1"], label: "More", hold: true, lineBreakBefore: true }, { buttons: ["r1"], label: "More", hold: true },
+    { buttons: ["l3"], label: "Run" }, { buttons: ["r3"], label: "Toggles" }, { buttons: ["menu"], label: "Game menu" },
+    { buttons: ["view"], label: "Inventory" }]],
+  ["L1 held", [
+    { buttons: ["l1"], hold: true, highlight: true }, { buttons: ["a"], label: "Commands" }, { buttons: ["b"], label: "Search 20" },
+    { buttons: ["x"], label: "Stash" }, { buttons: ["y"], label: "Wait" }, { buttons: ["r2"], label: "Cast" },
+    { buttons: ["r1"], label: "Quick" }, { buttons: ["menu"], label: "Abilities" }]],
+  ["R1 held", [
+    { buttons: ["r1"], hold: true, highlight: true }, { buttons: ["view"], label: "Equipment" }, { buttons: ["l2"], label: "Throw" },
+    { buttons: ["l1"], label: "Quick" }, { buttons: ["dpad"], label: "Zoom" }, { buttons: ["lstick"], label: "Run" }, { buttons: ["l3"], label: "Center" }]]
+];
+
+GH.mount(860, 198, () => {
+  const fontSize = 28;
+  let body = "";
+  let y = 34;
+  ROWS.forEach(([name, hints]) => {
+    const row = GH.hintRow(hints, fontSize, 230, y);
+    body += row.svg;
+    body += GH.text(name, 44, y + row.height / 2 + GH.FONTS.wikiBold.cap * 30 / 2, GH.FONTS.wikiBold, 30, "#f3ce72");
+    y += row.height + 26;
+  });
+  return GH.panel(0, 0, 1720, 396).replace('fill="#12100d"', 'fill="#1a1713"') + body;
+});
+</script>
+</body>
+</html>

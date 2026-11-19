@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Actions radial</title>
+<link rel="stylesheet" href="common.css">
+<script src="gh.js"></script>
+<script src="deck.js"></script>
+</head>
+<body>
+<!-- The Actions radial on its Quick Commands page (GamePage.Gamepad.cs, BuildGamepadActionsRadial)
+     with Rest highlighted, and callouts naming its parts. Quick Command 1 and 2 are None, their
+     default, so the west and northwest slots are empty. The page dots count the Quick Commands page
+     and the nine Commands pages of the default command layout. -->
+<svg id="figure" xmlns="http://www.w3.org/2000/svg"></svg>
+<script>
+GH.mount(860, 450, () => {
+  const g = GH.radialGeometry(860, 450, 336);
+  const def = {
+    id: "actions", accent: "gold", title: "Quick Commands", highlight: 0,
+    slots: [
+      { label: "Rest", icon: "rest.png" }, { label: "Search 20", icon: "search20.png" },
+      { label: "Extended", icon: "extended.png" }, { label: "Skills", icon: "skill.png" },
+      { label: "Polearm", icon: "polearm.png" }, { label: "Wield Last", icon: "wield.png" }, null, null
+    ],
+    dots: { count: 10, current: 0 },
+    chips: { prev: "Context", next: "Commands 1/9" },
+    hints: [["a", "Select"], ["b", "Close"], ["x", "Context"]]
+  };
+  let s = GH.panel(300, 20, 1120, 860) + GH.radial(def, g);
+
+  const F = GH.FONTS;
+  const L = 280, R = 1440;
+  const callout = (text, side, labelY, t) => {
+    const x0 = side === "left" ? L : R;
+    s += DECK.leader(x0, labelY, t[0], t[1]);
+    s += DECK.label(text, side === "left" ? x0 - 14 : x0 + 14, labelY, side === "left" ? "end" : "start");
+  };
+  const titleSize = g.pageTitleFont;
+  const titleW = GH.measure(def.title, F.immortal, titleSize);
+  const titleY = g.pageTitleBaseline - F.immortal.cap * titleSize / 2;
+  const chipY = g.cy - g.hintFont * 0.6;
+  const bw = GH.measureBadge("l1", g.badgeHeight);
+  const hintTotal = (() => {
+    const fs = g.hintFont;
+    let total = 0;
+    def.hints.forEach((h, i) => {
+      total += GH.measureBadge(h[0], g.badgeHeight) + fs * 0.4 + GH.measure(h[1], F.lato, fs) + (i > 0 ? fs * 1.4 : 0);
+    });
+    return total;
+  })();
+  const at = (deg, r) => GH.polar(g.cx, g.cy, deg, r);
+
+  callout("Page title", "left", titleY, [g.cx - titleW / 2 - 10, titleY]);
+  const nw = at(315, g.ro);
+  callout("Empty slot", "left", nw[1], nw);
+  callout("Previous page", "left", chipY, [g.cx - g.chipOffsetX - bw / 2, chipY]);
+  const sw = at(225, g.ro);
+  callout("Slot", "left", sw[1], sw);
+  callout("Hint bar", "left", g.hintY, [g.cx - hintTotal / 2 - 10, g.hintY]);
+
+  const lastDot = g.cx + 4.5 * g.dotSpacing + g.dotR + 6;
+  callout("Page dots", "right", 52, [lastDot, g.dotsY]);
+  const n = at(14, 0.97 * g.ro);
+  callout("Highlighted slot", "right", n[1] - g.highlightOffset, [n[0], n[1] - g.highlightOffset]);
+  callout("Next page", "right", chipY, [g.cx + g.chipOffsetX + bw / 2, chipY]);
+  const hub = at(118, g.hubR);
+  callout("Hub", "right", hub[1] + 52, hub);
+  return s;
+});
+</script>
+</body>
+</html>

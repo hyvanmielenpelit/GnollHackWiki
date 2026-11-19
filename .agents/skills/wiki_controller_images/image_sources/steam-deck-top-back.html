@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Steam Deck top and back</title>
+<link rel="stylesheet" href="common.css">
+<script src="gh.js"></script>
+<script src="deck.js"></script>
+</head>
+<body>
+<!-- Left: the top edge with L1, L2, R1 and R2. Right: the back, seen from behind, with the back
+     grips and their default commands (GHApp.DefaultGamepadGripCommand). -->
+<svg id="figure" xmlns="http://www.w3.org/2000/svg"></svg>
+<script>
+GH.mount(860, 210, () => {
+  const C = DECK.COLORS;
+  let s = `<defs>${DECK.defs("tb")}</defs>`;
+
+  /* Top edge */
+  const top = DECK.top({ id: "tb", x: 40, y: 150, width: 500 });
+  s += top.svg;
+  const shoulder = (button, word, u, v, labelY, above) => {
+    const t = top.at(u, v);
+    const bw = GH.measureBadge(button, 38);
+    const x = t[0] - 19;
+    s += DECK.leaderV(t[0], above ? labelY + 24 : labelY - 24, t[0], t[1]);
+    s += GH.badge(button, x + bw / 2 - 19 + 19, labelY, 38, false);
+    s += DECK.label(word, x + bw + 12, labelY, "start");
+  };
+  shoulder("l2", "Trigger", 100, 10, 96, true);
+  shoulder("l1", "Bumper", 100, 152, 296, false);
+  shoulder("r2", "Trigger", 900, 10, 96, true);
+  shoulder("r1", "Bumper", 900, 152, 296, false);
+  s += DECK.label("Top edge, front side down", 290, 384, "middle", C.muted, 28);
+
+  /* Back, seen from behind */
+  const back = DECK.back({ id: "tb", x: 880, y: 70, width: 600 });
+  s += back.svg;
+  const grip = (button, command, side, labelY) => {
+    const p = DECK.PADDLES[button];
+    const t = back.at(side === "left" ? p.x : p.x + p.w, p.y + p.h / 2);
+    const edge = side === "left" ? 850 : 1510;
+    s += DECK.leader(edge, labelY, t[0], t[1]);
+    const bw = GH.measureBadge(button, 38);
+    const cx = side === "left" ? edge - 12 - bw / 2 : edge + 12 + bw / 2;
+    s += GH.badge(button, cx, labelY, 38, false);
+    s += DECK.label(command, side === "left" ? edge - 12 : edge + 12, labelY + 42, side === "left" ? "end" : "start");
+  };
+  grip("r4", "Cast Quick", "left", 150);
+  grip("r5", "Zap Quick", "left", 280);
+  grip("l4", "Pick-axe", "right", 150);
+  grip("l5", "Polearm", "right", 280);
+  s += DECK.label("Back, seen from behind", 1180, 384, "middle", C.muted, 28);
+  return s;
+});
+</script>
+</body>
+</html>

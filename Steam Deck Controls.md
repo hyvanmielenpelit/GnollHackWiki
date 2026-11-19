@@ -1,4 +1,4 @@
-> 👉 **GnollHack can be played with the Steam Deck's built-in controls starting from version 3.32, and with a game controller, such as an Xbox controller, on Windows, Linux, and macOS.**
+> 👉 **GnollHack can be played with the Steam Deck's built-in controls starting from version 3.32, and with a game controller, such as an Xbox controller, on Windows, Linux, macOS, Android, and iOS.**
 
 ![Steam Deck front view with every control labeled](/uploads/Steam%20Deck%20Controls/steam-deck-front.webp)
 
@@ -8,9 +8,11 @@
 
 Button names on this page follow the Steam Deck; see [[Button Names on Other Controllers|#button-names-on-other-controllers]]. A strip of button hints at the bottom of the screen always shows what each button does at the moment, and it changes when you hold L1 or R1.
 
-![The hint strip with no button held, with L1 held, and with R1 held](/uploads/Steam%20Deck%20Controls/hint-strip.webp)
+![The hint strip with no button held, with L1 held, and with R1 held](/uploads/Steam%20Deck%20Controls/hint-strip-v2.webp)
 
 Touching the screen, using the mouse, or pressing a keyboard key returns the game to its usual on-screen buttons until you use the controller again.
+
+To make the button hints larger, set **Hint Size** in [[Settings]], under Controller, from 100% to 200%.
 
 ## 🏁 Setting Up the Steam Deck
 
@@ -25,25 +27,25 @@ If Steam Input is turned off for the game, turn it on in the game's Properties i
 
 The back grips and the left trackpad's click need GnollHack's own Steam Input layout. The Gamepad with Mouse Trackpad template also sends the right trackpad's click as R3, which opens the Toggles radial menu, rather than as a mouse click. Everything else works with the template.
 
-## 🎮 Controllers on Windows, Linux, and macOS
+## 🎮 Controllers on Other Platforms
 
-You can also play with a game controller on the [[Modern Windows Version]], the [[Linux Version]] on a desktop computer, and the [[macOS Version]] from Steam. The controls are the same as on the Steam Deck. Connect the controller and press any button, and the game switches to controller mode. The Controller section of [[Settings]] appears once the game has detected a controller.
+You can also play with a game controller on the [[Modern Windows Version]], the [[Linux Version]] on a desktop computer, the [[macOS Version]] from Steam, the [[Android Version]], and the [[iOS version|iOS and macOS Version]] on iPhones and iPads. On Android, USB and Bluetooth controllers work, including USB-C clip-on controllers. On iOS, the controllers that iOS supports as gamepads work. The controls are the same as on the Steam Deck. Connect the controller and press any button, and the game switches to controller mode. The Controller section of [[Settings]] appears once the game has detected a controller.
 
-| Controller | Windows | Linux | macOS |
-| :--------- | :------ | :---- | :---- |
-| **Xbox and other XInput controllers** | ✅ Supported | ✅ Supported | ✅ Supported |
-| **PlayStation controllers** | Only if Steam presents them as XInput controllers; not tested | Should work; not tested | ✅ Supported |
-| **Nintendo controllers** | Only if Steam presents them as XInput controllers; not tested | Should work; not tested | Not tested |
-| **Other gamepads** | Only XInput controllers | Should work if the gamepad reports standard gamepad controls; not tested | Controllers that macOS supports as gamepads |
+| Controller | Windows | Linux | macOS | Android | iOS |
+| :--------- | :------ | :---- | :---- | :------ | :-- |
+| **Xbox and other XInput controllers** | ✅ Supported | ✅ Supported | ✅ Supported | ✅ Supported | ✅ Supported |
+| **PlayStation controllers** | Only if Steam presents them as XInput controllers; not tested | Should work; not tested | ✅ Supported | ✅ Supported | ✅ Supported |
+| **Nintendo controllers** | Only if Steam presents them as XInput controllers; not tested | Should work; not tested | Not tested | Not tested | Not tested |
+| **Other gamepads** | Only XInput controllers | Should work if the gamepad reports standard gamepad controls; not tested | Controllers that macOS supports as gamepads | Controllers that Android supports as gamepads | Controllers that iOS supports as gamepads |
 
-If a controller does nothing on Windows, it may not be an XInput controller. On Linux, your user account may not have permission to read the controller. On macOS, pair a wireless controller in System Settings → Bluetooth first.
+If a controller does nothing on Windows, it may not be an XInput controller. On Linux, your user account may not have permission to read the controller. On macOS, pair a wireless controller in System Settings → Bluetooth first. On Android and iOS, pair a wireless controller in the device's Bluetooth settings first, and check that **Use Controller** is on in [[Settings]], under Controller.
 
-Some features are available only on the Steam Deck:
+Some features are not available on every platform:
 
-- **Back grips:** Paddles on other controllers, such as the Xbox Elite controllers, are not read.
-- **On-screen keyboard:** When the game asks you to type text, such as a wish or a name, type it on a keyboard.
+- **Back grips:** Only on the Steam Deck. Paddles on other controllers, such as the Xbox Elite controllers, are not read.
+- **On-screen keyboard:** On the Steam Deck, Android, and iOS. On Windows, desktop Linux, and macOS, when the game asks you to type text, such as a wish or a name, type it on a keyboard.
 
-The Android and iOS versions do not have controller support yet, and neither does the iOS version running on a Mac. For more details, see [[/Development/Gamepad Support]].
+The iOS version also runs on a Mac and uses the same controller code there, but it has not been tested with a controller. For more details, see [[/Development/Gamepad Support]].
 
 ### 🏷️ Button Names on Other Controllers
 
@@ -62,13 +64,13 @@ On Nintendo controllers, the letters follow the buttons' positions, so the botto
 
 ## 🗺️ Controls on the Map
 
-L1 and R1 do nothing on their own. They are hold modifiers that change what the other buttons do. The game's commands and their keyboard shortcuts are listed in [[Commands]].
+L1 and R1 do nothing on their own. They are hold modifiers that change what the other buttons do. The one exception: holding one of them, pressing the other, and releasing either with nothing pressed in between opens a Quick radial menu. The game's commands and their keyboard shortcuts are listed in [[Commands]].
 
 ![What each control does on the map with no button held](/uploads/Steam%20Deck%20Controls/map-controls.webp)
 
-![What the controls do on the map while L1 is held](/uploads/Steam%20Deck%20Controls/map-controls-l1.webp)
+![What the controls do on the map while L1 is held](/uploads/Steam%20Deck%20Controls/map-controls-l1-v2.webp)
 
-![What the controls do on the map while R1 is held](/uploads/Steam%20Deck%20Controls/map-controls-r1.webp)
+![What the controls do on the map while R1 is held](/uploads/Steam%20Deck%20Controls/map-controls-r1-v2.webp)
 
 | Control | Alone | With L1 Held | With R1 Held |
 | :------ | :---- | :----------- | :----------- |
@@ -76,27 +78,31 @@ L1 and R1 do nothing on their own. They are hold modifiers that change what the 
 | <img src="/uploads/Steam%20Deck%20Controls/glyph-b.webp" alt="B" height="22" style="vertical-align: middle" /> | Search (`s`); first closes an open overlay, and interrupts an ongoing activity | Search 20 times | |
 | <img src="/uploads/Steam%20Deck%20Controls/glyph-x.webp" alt="X" height="22" style="vertical-align: middle" /> | Pick Up (`,`) | Pick Up and Stash (`;`) | |
 | <img src="/uploads/Steam%20Deck%20Controls/glyph-y.webp" alt="Y" height="22" style="vertical-align: middle" /> | Repeat (`Ctrl+a`) | Wait (`.`) | |
-| <img src="/uploads/Steam%20Deck%20Controls/glyph-r2.webp" alt="R2" height="22" style="vertical-align: middle" /> | R2's command, by default By Role: Cast Quick for spellcasters, Polearm for Knights, Fire for the others | Right Quick radial menu | |
-| <img src="/uploads/Steam%20Deck%20Controls/glyph-l2.webp" alt="L2" height="22" style="vertical-align: middle" /> | L2's command, by default Kick (`k`) | | Left Quick radial menu |
+| <img src="/uploads/Steam%20Deck%20Controls/glyph-r2.webp" alt="R2" height="22" style="vertical-align: middle" /> | R2's command, by default By Role: Cast Quick for spellcasters, Polearm for Knights, Fire for the others | L1 + R2 Action, by default Cast (`Shift+z`) | |
+| <img src="/uploads/Steam%20Deck%20Controls/glyph-l2.webp" alt="L2" height="22" style="vertical-align: middle" /> | L2's command, by default Kick (`k`) | | R1 + L2 Action, by default Throw (`t`) |
+| <img src="/uploads/Steam%20Deck%20Controls/glyph-r1.webp" alt="R1" height="22" style="vertical-align: middle" /> | Hold modifier | Right Quick radial menu, when you release a shoulder button | |
+| <img src="/uploads/Steam%20Deck%20Controls/glyph-l1.webp" alt="L1" height="22" style="vertical-align: middle" /> | Hold modifier | | Left Quick radial menu, when you release a shoulder button |
 | <img src="/uploads/Steam%20Deck%20Controls/glyph-menu.webp" alt="Menu" height="22" style="vertical-align: middle" /> **Menu** | Game menu | Abilities (`Shift+a`) | |
 | <img src="/uploads/Steam%20Deck%20Controls/glyph-view.webp" alt="View" height="22" style="vertical-align: middle" /> **View** | Inventory (`i`) | | Equipment (`*`) |
 | <img src="/uploads/Steam%20Deck%20Controls/glyph-dpad.webp" alt="D-pad" height="22" style="vertical-align: middle" /> **D-pad** | Walk one step per press, repeating while held; press two directions together to walk diagonally | | Up and Down zoom, Left toggles the minimap, and Right returns to normal zoom |
-| <img src="/uploads/Steam%20Deck%20Controls/glyph-lstick.webp" alt="Left stick" height="22" style="vertical-align: middle" /> **Left stick** | Walk in eight directions | | Run in that direction |
+| <img src="/uploads/Steam%20Deck%20Controls/glyph-lstick.webp" alt="Left stick" height="22" style="vertical-align: middle" /> **Left stick** | Walk in eight directions; with [[Aim and Confirm|#aim-and-confirm]] on, aim, and A moves | | Run in that direction; with Aim and Confirm on, aim, and A runs |
 | <img src="/uploads/Steam%20Deck%20Controls/glyph-rstick.webp" alt="Right stick" height="22" style="vertical-align: middle" /> **Right stick** | Pan the map | | |
 | <img src="/uploads/Steam%20Deck%20Controls/glyph-l3.webp" alt="L3" height="22" style="vertical-align: middle" /> | Run: your next direction on the left stick or the D-pad runs, as the Run prefix (`Shift+g`) does; L3 again or B cancels | | Center the map on your character |
 | <img src="/uploads/Steam%20Deck%20Controls/glyph-r3.webp" alt="R3" height="22" style="vertical-align: middle" /> | Toggles radial menu | | |
 
-Holding both L1 and R1 and pressing Y makes your character rest, and pressing R2 or L2 runs that trigger's command. Clicking the left trackpad does the same as pressing L3.
+Holding both L1 and R1 and pressing Y makes your character rest, and pressing R2 or L2 runs that trigger's command. Pressing Y there also keeps the Quick radial menu from opening when you release the shoulder buttons. Clicking the left trackpad does the same as pressing L3.
 
 ### 🎯 Trigger Commands
 
-R2 and L2 each run a command when you press them alone, by default Fire and Kick. You can set them to any command, or None, in [[Settings]], under Controller. To choose one, press A on the row: a radial menu of every command opens. L1 and R1 change the page, a stick selects, A sets it, and B closes. Left and Right on the row step through the commands one at a time.
+R2 and L2 each run a command when you press them alone, by default Fire and Kick. Each trigger also has a second command, which runs when you press it with the other side's shoulder button held: **L1 + R2 Action**, by default Cast (`Shift+z`), and **R1 + L2 Action**, by default Throw (`t`). You can set all four to any command, or None, in [[Settings]], under Controller. To choose one, press A on the row: a radial menu of every command opens. L1 and R1 change the page, a stick selects, A sets it, and B closes. Left and Right on the row step through the commands one at a time.
+
+When a trigger's command is Cast Quick, its button hint names your quick spell, such as Cast Minor Healing. While R2 is Cast Quick, the hint strip also shows the L1 + R2 command.
 
 If the command asks for a direction while you still hold the trigger, the **Direction** radial menu opens. See [[Choosing a Direction|#choosing-a-direction]]. Force Fight does not open it, because it is a prefix: press the trigger, then a direction on the left stick or the D-pad. Any other button after it gives an invalid direction message.
 
 ### ⚙️ Quick Radials
 
-L1 + R2 opens the **Right Quick** radial menu, and R1 + L2 opens the **Left Quick** radial menu. The action that you choose runs at once, and if it asks for a direction, the Direction radial menu opens. Pressing the trigger again closes the radial menu. You can change their eight actions in [[Settings]], under Quick Radials. You choose them the same way.
+Hold L1, press R1, and release either of them to open the **Right Quick** radial menu. Hold R1, press L1, and release either of them to open the **Left Quick** radial menu. Pressing another button while you hold both, such as Y to rest, keeps the radial menu from opening. The action that you choose runs at once, and if it asks for a direction, the Direction radial menu opens. Pressing the shoulder button that you pressed second again closes the radial menu. You can change their eight actions in [[Settings]], under Quick Radials. You choose them the same way.
 
 ![The Left Quick and Right Quick radial menus with their default actions](/uploads/Steam%20Deck%20Controls/radial-quick.webp)
 
@@ -110,6 +116,10 @@ L1 + R2 opens the **Right Quick** radial menu, and R1 + L2 opens the **Left Quic
 L4, L5, R4, and R5 default to Pick-axe, Polearm, Cast Quick, and Zap Quick. You can change them in [[Settings]], under Controller.
 
 ![The top edge with L1, L2, R1, and R2, and the back with the back grips and their default commands](/uploads/Steam%20Deck%20Controls/steam-deck-top-back.webp)
+
+### 🚶 Aim and Confirm
+
+With **Aim and Confirm** on in [[Settings]], under Controller, the left stick does not move your character. It aims instead: the square next to your character in that direction is outlined, in red when a hostile monster you can see is there. Press A to move there, and hold A to keep walking. To run, press R1 + A, or press L3 and then A. Releasing the stick ends the aim, and with the stick centered, A does what it usually does. The D-pad and the prompts for choosing a position or a direction work as before.
 
 ### 📍 Choosing a Position
 
@@ -139,7 +149,7 @@ When the game asks for a direction, the violet **Direction** radial menu opens:
 | <img src="/uploads/Steam%20Deck%20Controls/glyph-y.webp" alt="Y" height="22" style="vertical-align: middle" /> | Choose yourself at once |
 | <img src="/uploads/Steam%20Deck%20Controls/glyph-b.webp" alt="B" height="22" style="vertical-align: middle" /> | Cancel the action |
 
-If you hold L2 or R2 and its command asks for a direction, releasing the trigger confirms the selected direction, or cancels the action if none is selected, and a stick you are already pushing counts at once.
+If you hold L2 or R2, alone or with a shoulder button, and its command asks for a direction, releasing the trigger confirms the selected direction, or cancels the action if none is selected, and a stick you are already pushing counts at once.
 
 ## ⭕ Radial Menus
 
@@ -147,13 +157,13 @@ A radial menu stays open until you choose an item or close it. The exception is 
 
 ![The Actions radial menu on its Quick Commands page, with Rest selected and its parts labeled](/uploads/Steam%20Deck%20Controls/radial-actions.webp)
 
-- Select an item with either stick, or step between items with D-pad Left and Right. D-pad Up and Down jump to the top and bottom items.
-- A activates the item, and B closes the menu. Menu closes the menu and opens the game menu.
+- Select an item with either stick, or step between items with D-pad Left and Right. D-pad Up and Down jump to the top and bottom items. The center of the menu describes what the selected command does.
+- A activates the item, and B closes the menu. Menu closes the menu and opens the game menu. In a Quick radial menu, the shoulder button that you pressed second to open it also closes it.
 - L1 and R1 change the page.
 
 The radial menus on the map are:
 
-- **Actions:** The actions available on your square, followed by pages of commands. The first of them is the **Quick Commands** page: Rest, Search 20, Extended, and Skills, Polearm, and Wield Last or Unwield when they are available. Its west and northwest slots hold Quick Command 1 and Quick Command 2, which you can set in [[Settings]], under Controller. The other commands follow in alphabetical order. X switches between the actions on your square and the Quick Commands page.
+- **Actions:** The actions available on your square, followed by pages of commands. The first of them is the **Quick Commands** page: Rest, Search 20, Extended, and Skills, Polearm, and Wield Last or Unwield when they are available. Its west and northwest slots hold Quick Command 1 and Quick Command 2, which you can set in [[Settings]], under Actions Radial. The other commands follow in alphabetical order. X switches between the actions on your square and the Quick Commands page.
 - **Toggles:** More Messages, Status Screen, Auto-Center, Look Mode, Auto-Dig, Ignore Stopping, Max Hit Points, and Max Mana.
 
   <img src="/uploads/Steam%20Deck%20Controls/radial-toggles.webp" alt="The Toggles radial menu, with Auto-Center selected" width="600" />
@@ -187,9 +197,11 @@ In Gaming Mode, pressing A on a text field opens Steam's on-screen keyboard. The
 
 In Desktop Mode, pressing A only focuses the field. Press the Steam button and X to open the keyboard by hand.
 
+On Android and iOS, pressing A on a text field opens the system's own on-screen keyboard, and a prompt to type something opens it by itself, as in Gaming Mode. It does not open while a hardware keyboard is connected. Typing on it keeps the game in controller mode.
+
 ## 🌐 The Wiki and Web Pages
 
-Web pages, such as this wiki, open in the game's in-app browser, where a gold focus ring moves between the links and controls on the page.
+Web pages, such as this wiki, open in the game's in-app browser, where a gold focus ring moves between the links and controls on the page. On Android, only the Wiki in the game menu and the [[Gnoll Overseer]] use the in-app browser. On iOS, the Gnoll Overseer uses it, and so does the Wiki in the game menu once you have used a controller in the session. Other links on Android and iOS open the system's browser.
 
 | Control | Action |
 | :------ | :----- |
@@ -224,7 +236,7 @@ While you are typing text, the D-pad and the left stick move the text cursor, L2
 
 ## 📁 File Dialogs
 
-In Gaming Mode, and on any platform while you are using the controller, attaching, importing, sharing, and saving files use a file dialog that works with the controller.
+In Gaming Mode, and on Windows, Linux, and macOS while you are using the controller, attaching, importing, sharing, and saving files use a file dialog that works with the controller. Android and iOS use the system's own file dialogs.
 
 | Control | Action |
 | :------ | :----- |

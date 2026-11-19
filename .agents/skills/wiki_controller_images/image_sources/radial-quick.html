@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Quick radials</title>
+<link rel="stylesheet" href="common.css">
+<script src="gh.js"></script>
+</head>
+<body>
+<!-- The Left Quick and Right Quick radials (GamePage.Gamepad.cs, BuildGamepadQuickRadial) with their
+     default slots (GHApp.cs, _defaultGamepadLTSlots and _defaultGamepadRTSlots); nothing highlighted -->
+<svg id="figure" xmlns="http://www.w3.org/2000/svg"></svg>
+<script>
+const LEFT = [["Apply", "apply"], ["Drop Items", "dropmany"], ["Drop Types", "droptypes"], ["Pray", "pray"],
+  ["Yell", "yell"], ["Engrave", "engrave"], ["Pick-axe", "pickaxe"], ["Polearm", "polearm"]];
+const RIGHT = [["2-Weapon", "twoweap"], ["Swap", "swap"], ["Chat", "chat"], ["Throw", "throw"],
+  ["Cast", "cast"], ["Cast Quick", "quickcast"], ["Zap", "zap"], ["Zap Quick", "zapquick"]];
+
+GH.mount(860, 450, () => {
+  const one = (id, title, slots, x) => {
+    const g = GH.radialGeometry(x + 425, 450, 360);
+    return GH.panel(x, 0, 850, 900) + GH.radial({
+      id, accent: "gold", title, idleName: title, highlight: -1,
+      slots: slots.map(s => ({ label: s[0], icon: s[1] + ".png" })),
+      hints: [["a", "Use"], ["b", "Close"]]
+    }, g);
+  };
+  return one("left", "Left Quick", LEFT, 0) + one("right", "Right Quick", RIGHT, 870);
+});
+</script>
+</body>
+</html>
