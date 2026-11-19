@@ -23,10 +23,6 @@ You can't disable auto-update in Steam, but if your saved games become invalid, 
 
 - **Revert to Old Version** — You can revert to an old version using the Game Versions & Betas tab in the GnollHack properties in Steam *(see above)*.
 
-#### 1.1.3. Troubleshooting
-
-Click 🛠️ [[Troubleshooting Modern Windows Version (Steam)]] 🛠️ for troubleshooting information.
-
 ### 1.2. MSIX Installer
 
 <a href="https://github.com/hyvanmielenpelit/GnollHack/releases">![Download on GitHub](/uploads/Download/github-download-q90.webp)</a><br />
