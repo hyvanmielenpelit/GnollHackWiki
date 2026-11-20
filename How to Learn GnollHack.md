@@ -18,7 +18,7 @@ In-game hints appear automatically on [[/Difficulties/Standard]] through [[/Diff
 
 ## 🐺 Ask the Gnoll Overseer
 
-The [[Gnoll Overseer]] is a free, optional in-game AI advisor that you can open from the game menu whenever you want something explained for your current situation. It requires a [[GnollHack Account]] and an internet connection. See [[/Guides/Introduction to Gnoll Overseer]] for how to open and use it.
+The [[Gnoll Overseer]] is a free, optional in-game AI advisor that you can open from the game menu whenever you want something explained for your current situation. It requires a free [[GnollHack Account]] and an internet connection. See [[/Guides/Introduction to Gnoll Overseer]] for how to open and use it.
 
 ## 🏁 Next Steps
 

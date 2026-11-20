@@ -10,6 +10,7 @@
 
 ### [[Tutorials]]
 
+* [[How to Learn GnollHack]]
 * [[Compact Beginner's Guide (PDF)|/uploads/Tutorials/GnollHack_Mobile_Guide_v2.pdf]]
 * [[Starting Guide for Beginners]]
 * [[Starting Guide for NetHack Veterans]]
