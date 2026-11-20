@@ -4,6 +4,7 @@
 
 These guides are for people who are new to GnollHack and NetHack.
 
+- [[How to Learn GnollHack]] — Recommended modes, difficulty, and settings for your first time playing a traditional roguelike.
 - [[Compact Beginner's Guide (PDF)|/uploads/Tutorials/GnollHack_Mobile_Guide_v2.pdf]] — A short, colorful, mobile-friendly introduction to GnollHack for modern gamers.
 - [[Starting Guide for Beginners]] — Familiarize yourself with the basics of GnollHack.
 - [[Intermediate Guide]] — Next steps for beginners.
