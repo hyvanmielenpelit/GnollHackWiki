@@ -6,7 +6,7 @@
 | :--- | :------------ | :------- | :--------------- | :------- | :--------- |
 | **[NetHack](https://www.nethack.org/)** | 1987 | Hack | Rogue | ASCII text; tiles in some interfaces, such as the Windows GUI, released in 2002 | Hardcore |
 | **[GnollHack](https://gnollhack.com/)** | 2023, on mobile; developed since July 2019 | A fork of NetHack 3.6.2 | NetHack | Animated high-resolution tiles | Hardcore–Midcore |
-| **[Pathos](https://pathos-game.onrender.com/)** | 2015 | Written from scratch, with [[its own rules|GnollHack vs. Pathos vs. NetHack]] | NetHack | 2D tiles; the Steam edition has four tile sets: two in pixel art, one semi-realistic, and one ASCII-style | Midcore |
+| **[Pathos](https://pathos-game.onrender.com/)** | 2015 | Written from scratch, with [[its own rules|GnollHack vs. Pathos vs. NetHack]] | NetHack and SLASH'EM | 2D tiles; the Steam edition has four tile sets: two in pixel art, one semi-realistic, and one ASCII-style | Midcore |
 | **[Shattered Pixel Dungeon](https://shatteredpixel.com/)** | 2014 | A fork of Pixel Dungeon | Brogue | Pixel art | Midcore–Casual |
 
 Shattered Pixel Dungeon has six heroes, each with two subclasses and over 25 talents to spend points on.
@@ -29,7 +29,7 @@ Shattered Pixel Dungeon has six heroes, each with two subclasses and over 25 tal
 - 💲 Paid
 - ⚠️ Not a native version: the Windows version runs through Proton
 
-Pathos's Steam edition was released on November 4, 2026. Pathos is free on Google Play, the App Store, the Microsoft Store, and its website.
+Pathos's Steam edition was released on November 4, 2026. Pathos is free on Google Play, the App Store, the Microsoft Store, and its website, and it also runs on Xbox.
 
 > ℹ️ **Note:** **Proton**, Valve's compatibility layer, runs most Windows games from Steam on Linux and the Steam Deck, but not on macOS. GnollHack's Windows version does not run on Proton; the Steam Deck runs its native [[Linux Version]] instead.
 
@@ -60,7 +60,9 @@ None of the four games has an iOS download outside the App Store. Only NetHack a
 | **Full mobile UI**<sup>4</sup> | ❌ | ✅ | ✅ | ✅ |
 | **Game Advisor** | ❌ | ✅<sup>5</sup> | ❌ | ❌ |
 | **Several languages** | ❌ | ❌ | ✅ | ✅ |
-| **Party play and local co-op** | ❌ | ❌ | ✅<sup>6</sup> | ❌ |
+| **Party play and co-op** | ❌ | ❌ | ✅<sup>6</sup> | ❌ |
+| **Real-time mode** | ❌ | ❌ | ✅ | ❌ |
+| **Map editor** | ❌ | ❌ | ✅ | ❌ |
 | **Plays in a web browser** | ✅<sup>7</sup> | ❌ | ✅ | ❌ |
 
 - <sup>1</sup> All four games have sound effects, but NetHack 5.0 has only a few (musical instruments, squeaky boards, gaining or losing a level), and no music.
@@ -68,7 +70,7 @@ None of the four games has an iOS download outside the App Store. Only NetHack a
 - <sup>3</sup> But consulting the [[/Monsters/Oracle]] costs gold.
 - <sup>4</sup> No on-screen keyboard.
 - <sup>5</sup> The [[Gnoll Overseer]] uses frontier AI models for its advice.
-- <sup>6</sup> A party of up to six heroes, and split-screen co-op.
+- <sup>6</sup> A party of up to six heroes, split-screen co-op, and co-op over a network.
 - <sup>7</sup> On public servers such as NAO and Hardfought, in a web terminal.
 
 ## 🎮 Controller Support
@@ -110,4 +112,4 @@ The Windows GUI with the Nevanda tileset, which has 32x32-pixel tiles:
 
 ## 📅 Validity
 
-The GnollHack details are valid for GnollHack 3.39 (4.3.0 Build 39), checked on November 8, 2026. The store listings, prices, and platforms of NetHack, Pathos, and Shattered Pixel Dungeon were checked on the same day.
+The GnollHack details are valid for GnollHack 3.39 (4.3.0 Build 39), checked on November 8, 2026. The store listings, prices, and platforms of NetHack, Pathos, and Shattered Pixel Dungeon were checked on the same day. The Pathos features follow its developer's list of differences from NetHack, as of November 20, 2026.
