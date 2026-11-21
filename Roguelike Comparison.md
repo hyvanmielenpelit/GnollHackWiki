@@ -18,8 +18,6 @@
 | **Shattered Pixel Dungeon** | Pixel art | Midcore–Casual |
 | **Dungeon Crawl Stone Soup** | ASCII text in the console version; 2D tiles in the tiles version and in a web browser | Hardcore–Midcore |
 
-Shattered Pixel Dungeon has six heroes, each with two subclasses and over 25 talents to spend points on.
-
 ## 📦 Availability
 
 ### Stores
