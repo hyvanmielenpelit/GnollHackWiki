@@ -5,7 +5,7 @@
 | Game | First Release | Based On | Main Inspiration |
 | :--- | :------------ | :------- | :--------------- |
 | **[NetHack](https://www.nethack.org/)** | 1987 | [Hack](https://en.wikipedia.org/wiki/Hack_(video_game)) | [Rogue](https://en.wikipedia.org/wiki/Rogue_(video_game)) |
-| **[GnollHack](https://gnollhack.com/)** | 2023, on mobile; developed since July 2019 | A fork of NetHack 3.6.2 | NetHack |
+| **[GnollHack](https://gnollhack.com/)** | 2023: Mobile. Developed since July 2019. | A fork of NetHack 3.6.2 | NetHack |
 | **[Pathos](https://pathos-game.onrender.com/)** | 2015 | Written from scratch, with [[its own rules|GnollHack vs. Pathos vs. NetHack]] | NetHack and [SLASH'EM](https://nethackwiki.com/wiki/SLASH%27EM) |
 | **[Shattered Pixel Dungeon](https://shatteredpixel.com/)** | 2014 | A fork of [Pixel Dungeon](https://en.wikipedia.org/wiki/Pixel_Dungeon) | [Brogue](https://en.wikipedia.org/wiki/Brogue_(video_game)) |
 | **[Dungeon Crawl Stone Soup](https://crawl.develz.org/)** | 2006 | A fork of Linley's Dungeon Crawl | [Moria](https://en.wikipedia.org/wiki/Moria_(1983_video_game)), Hack, and NetHack |
