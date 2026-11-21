@@ -183,9 +183,9 @@ The Windows GUI with the Nevanda tileset, which has 32x32-pixel tiles:
 
 ### Dungeon Crawl Stone Soup
 
-The tiles version 0.27.1 on Windows. Screenshot by Darkwolf812, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), from [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:DCSS_Tiles_Screenshot.png), converted to WebP:
-
 ![Dungeon Crawl Stone Soup Tiles Version on Windows](/uploads/Roguelike%20Comparison/dcss-windows-screenshot-q85.webp)
+<small>***Source:** The tiles version 0.27.1 on Windows. Screenshot by Darkwolf812, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), from [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:DCSS_Tiles_Screenshot.png), converted to WebP.*</small>
+
 
 ## 📖 See Also
 
