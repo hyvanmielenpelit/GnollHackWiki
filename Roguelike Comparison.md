@@ -93,38 +93,40 @@ All website downloads are free. None of the five games has an iOS download outsi
 | **Shattered Pixel Dungeon** | ✅ | ✅ | ❌ | ✅ |
 | **Dungeon Crawl Stone Soup** | ⚠️<sup>2</sup> | ❌<sup>3</sup> | ❌ | ⚠️<sup>4</sup> |
 
-### Help and Guidance
-
-| Game | Item Information | In-Game Hints | Game Advisor | Difficulty Levels |
-| :--- | :--------------: | :-----------: | :----------: | :---------------: |
-| **NetHack** | ❌ | ✅<sup>5</sup> | ❌ | ❌ |
-| **GnollHack** | ✅ | ✅ | ✅<sup>6</sup> | ✅ |
-| **Pathos** | ✅ | ✅ | ❌ | ❓<sup>7</sup> |
-| **Shattered Pixel Dungeon** | ✅ | ✅ | ❌ | ❌ |
-| **Dungeon Crawl Stone Soup** | ✅ | ✅<sup>8</sup> | ❌ | ❌ |
-
-### Ways to Play
-
-| Game | Full Mobile UI<sup>9</sup> | Web Browser | Party Play and Co-op | Real-Time Mode | Map Editor |
-| :--- | :------------------------: | :---------: | :------------------: | :------------: | :--------: |
-| **NetHack** | ❌ | ✅<sup>10</sup> | ❌ | ❌ | ❌ |
-| **GnollHack** | ✅ | ❌ | ❌ | ❌ | ❌ |
-| **Pathos** | ✅ | ✅ | ✅<sup>11</sup> | ✅ | ✅ |
-| **Shattered Pixel Dungeon** | ✅ | ❌ | ❌ | ❌ | ❌ |
-| **Dungeon Crawl Stone Soup** | ❌ | ✅<sup>12</sup> | ❌ | ❌ | ❌ |
-
 - <sup>1</sup> NetHack 5.0 has only a few sound effects (musical instruments, squeaky boards, gaining or losing a level), and no music. GnollHack, Pathos, and Shattered Pixel Dungeon have both sound effects and music.
 - <sup>2</sup> Animations for spells, ranged attacks, and abilities, and animated water, altars, and torches, but the monster and character tiles are still images.
 - <sup>3</sup> No music, and no sound effects out of the box: a player can set the game to play their own sound files when chosen messages appear.
 - <sup>4</sup> Partial translations into 19 languages, mostly of longer texts such as god and monster descriptions. The rest of the text stays in English.
-- <sup>5</sup> But consulting the [[/Monsters/Oracle]] costs gold.
-- <sup>6</sup> The [[Gnoll Overseer]] uses frontier AI models for its advice.
-- <sup>7</sup> Steam lists Pathos under Adjustable Difficulty, but its store pages do not describe a difficulty setting.
-- <sup>8</sup> A tutorial, and a hints mode that gives help as you play.
-- <sup>9</sup> No on-screen keyboard.
-- <sup>10</sup> On public servers such as NAO and Hardfought, in a web terminal.
-- <sup>11</sup> A party of up to six heroes, split-screen co-op, and co-op over a network.
-- <sup>12</sup> In WebTiles, on public servers such as crawl.akrasiac.org and cbro.berotato.org.
+
+### Help and Guidance
+
+| Game | Item Information | In-Game Hints | Game Advisor | Difficulty Levels |
+| :--- | :--------------: | :-----------: | :----------: | :---------------: |
+| **NetHack** | ❌ | ✅<sup>1</sup> | ❌ | ❌ |
+| **GnollHack** | ✅ | ✅ | ✅<sup>2</sup> | ✅ |
+| **Pathos** | ✅ | ✅ | ❌ | ❓<sup>3</sup> |
+| **Shattered Pixel Dungeon** | ✅ | ✅ | ❌ | ❌ |
+| **Dungeon Crawl Stone Soup** | ✅ | ✅<sup>4</sup> | ❌ | ❌ |
+
+- <sup>1</sup> But consulting the [[/Monsters/Oracle]] costs gold.
+- <sup>2</sup> The [[Gnoll Overseer]] uses frontier AI models for its advice.
+- <sup>3</sup> Steam lists Pathos under Adjustable Difficulty, but its store pages do not describe a difficulty setting.
+- <sup>4</sup> A tutorial, and a hints mode that gives help as you play.
+
+### Ways to Play
+
+| Game | Full Mobile UI<sup>1</sup> | Web Browser | Party Play and Co-op | Real-Time Mode | Map Editor |
+| :--- | :------------------------: | :---------: | :------------------: | :------------: | :--------: |
+| **NetHack** | ❌ | ✅<sup>2</sup> | ❌ | ❌ | ❌ |
+| **GnollHack** | ✅ | ❌ | ❌ | ❌ | ❌ |
+| **Pathos** | ✅ | ✅ | ✅<sup>3</sup> | ✅ | ✅ |
+| **Shattered Pixel Dungeon** | ✅ | ❌ | ❌ | ❌ | ❌ |
+| **Dungeon Crawl Stone Soup** | ❌ | ✅<sup>4</sup> | ❌ | ❌ | ❌ |
+
+- <sup>1</sup> No on-screen keyboard.
+- <sup>2</sup> On public servers such as NAO and Hardfought, in a web terminal.
+- <sup>3</sup> A party of up to six heroes, split-screen co-op, and co-op over a network.
+- <sup>4</sup> In WebTiles, on public servers such as crawl.akrasiac.org and cbro.berotato.org.
 
 ## 🎮 Controller Support
 
