@@ -24,7 +24,7 @@
 
 #### Mobile
 
-| Game | Android (Google Play) | iOS (App Store) | Notes |
+| Game | Android<br />(Google Play) | iOS & iPadOS<br />(App Store) | Notes |
 | :--- | :-------------------: | :-------------: | :---- |
 | **NetHack** | ❌ | ✅🆓 | Unofficial iOS port: [iNethack2](https://apps.apple.com/us/app/inethack2/id962114968) |
 | **GnollHack** | ✅🆓 | ✅🆓 | |
@@ -32,9 +32,12 @@
 | **Shattered Pixel Dungeon** | ✅🆓 | ✅💲 | |
 | **Dungeon Crawl Stone Soup** | ✅🆓 | ❌ | Also on [F-Droid](https://f-droid.org/packages/org.develz.crawl/) |
 
+- 🆓 Free
+- 💲 Paid
+
 #### Desktop and Console
 
-| Game | Steam: Windows | Steam: macOS | Steam: Linux | Steam Deck |
+| Game | Windows<br />(Steam) | macOS<br />(Steam) | Linux<br />(Steam) | Steam Deck<br />(Steam) |
 | :--- | :------------: | :----------: | :----------: | :--------: |
 | **NetHack**<sup>1</sup> | ✅💲 | ✅💲 | ✅💲 | ✅💲 |
 | **GnollHack** | ✅🆓 | ✅🆓 | ✅🆓 | ✅🆓 |
@@ -44,7 +47,7 @@
 
 - 🆓 Free
 - 💲 Paid
-- ⚠️ Not a native version: the Windows version runs through Proton
+- ⚠️ Not a native version: The Windows version runs through Proton.
 - <sup>1</sup> An unofficial port, [NetHack: Legacy](https://store.steampowered.com/app/837200/NetHack_Legacy/).
 - <sup>2</sup> Pathos also runs on Xbox.
 
