@@ -85,18 +85,19 @@ All website downloads are free. None of the five games has an iOS download outsi
 
 ### Presentation
 
-| Game | Animations | Music | Voiceovers | Several Languages |
-| :--- | :--------: | :---: | :--------: | :---------------: |
-| **NetHack** | ❌ | ❌<sup>1</sup> | ❌ | ❌ |
-| **GnollHack** | ✅ | ✅ | ✅ | ❌ |
-| **Pathos** | ✅ | ✅ | ❌ | ✅ |
-| **Shattered Pixel Dungeon** | ✅ | ✅ | ❌ | ✅ |
-| **Dungeon Crawl Stone Soup** | ⚠️<sup>2</sup> | ❌<sup>3</sup> | ❌ | ⚠️<sup>4</sup> |
+| Game | Animations | Music | Voiceovers | Several Languages | Full Mobile UI<sup>1</sup> |
+| :--- | :--------: | :---: | :--------: | :---------------: | :------------------------: |
+| **NetHack** | ❌ | ❌<sup>2</sup> | ❌ | ❌ | ❌ |
+| **GnollHack** | ✅ | ✅ | ✅ | ❌ | ✅ |
+| **Pathos** | ✅ | ✅ | ❌ | ✅ | ✅ |
+| **Shattered Pixel Dungeon** | ✅ | ✅ | ❌ | ✅ | ✅ |
+| **Dungeon Crawl Stone Soup** | ⚠️<sup>3</sup> | ❌<sup>4</sup> | ❌ | ⚠️<sup>5</sup> | ❌ |
 
-- <sup>1</sup> NetHack 5.0 has only a few sound effects (musical instruments, squeaky boards, gaining or losing a level), and no music. GnollHack, Pathos, and Shattered Pixel Dungeon have both sound effects and music.
-- <sup>2</sup> Animations for spells, ranged attacks, and abilities, and animated water, altars, and torches, but the monster and character tiles are still images.
-- <sup>3</sup> No music, and no sound effects out of the box: a player can set the game to play their own sound files when chosen messages appear.
-- <sup>4</sup> Partial translations into 19 languages, mostly of longer texts such as god and monster descriptions. The rest of the text stays in English.
+- <sup>1</sup> No on-screen keyboard.
+- <sup>2</sup> NetHack 5.0 has only a few sound effects (musical instruments, squeaky boards, gaining or losing a level), and no music. GnollHack, Pathos, and Shattered Pixel Dungeon have both sound effects and music.
+- <sup>3</sup> Animations for spells, ranged attacks, and abilities, and animated water, altars, and torches, but the monster and character tiles are still images.
+- <sup>4</sup> No music, and no sound effects out of the box: a player can set the game to play their own sound files when chosen messages appear.
+- <sup>5</sup> Partial translations into 19 languages, mostly of longer texts such as god and monster descriptions. The rest of the text stays in English.
 
 ### Help and Guidance
 
@@ -115,18 +116,17 @@ All website downloads are free. None of the five games has an iOS download outsi
 
 ### Ways to Play
 
-| Game | Full Mobile UI<sup>1</sup> | Web Browser | Party Play and Co-op | Real-Time Mode | Map Editor |
-| :--- | :------------------------: | :---------: | :------------------: | :------------: | :--------: |
-| **NetHack** | ❌ | ✅<sup>2</sup> | ❌ | ❌ | ❌ |
-| **GnollHack** | ✅ | ❌ | ❌ | ❌ | ❌ |
-| **Pathos** | ✅ | ✅ | ✅<sup>3</sup> | ✅ | ✅ |
-| **Shattered Pixel Dungeon** | ✅ | ❌ | ❌ | ❌ | ❌ |
-| **Dungeon Crawl Stone Soup** | ❌ | ✅<sup>4</sup> | ❌ | ❌ | ❌ |
+| Game | Web Browser | Party Play and Co-op | Real-Time Mode | Map Editor |
+| :--- | :---------: | :------------------: | :------------: | :--------: |
+| **NetHack** | ✅<sup>1</sup> | ❌ | ❌ | ❌ |
+| **GnollHack** | ❌ | ❌ | ❌ | ❌ |
+| **Pathos** | ✅ | ✅<sup>2</sup> | ✅ | ✅ |
+| **Shattered Pixel Dungeon** | ❌ | ❌ | ❌ | ❌ |
+| **Dungeon Crawl Stone Soup** | ✅<sup>3</sup> | ❌ | ❌ | ❌ |
 
-- <sup>1</sup> No on-screen keyboard.
-- <sup>2</sup> On public servers such as NAO and Hardfought, in a web terminal.
-- <sup>3</sup> A party of up to six heroes, split-screen co-op, and co-op over a network.
-- <sup>4</sup> In WebTiles, on public servers such as crawl.akrasiac.org and cbro.berotato.org.
+- <sup>1</sup> On public servers such as NAO and Hardfought, in a web terminal.
+- <sup>2</sup> A party of up to six heroes, split-screen co-op, and co-op over a network.
+- <sup>3</sup> In WebTiles, on public servers such as crawl.akrasiac.org and cbro.berotato.org.
 
 ## 🎮 Controller Support
 
