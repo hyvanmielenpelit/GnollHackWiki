@@ -66,7 +66,7 @@ Pathos is the only one of the three with party play, local and network co-op, a 
 
 Vanilla NetHack is still the way to play the 1980s original on a physical keyboard, in a terminal or on public servers such as Hardfought, with the community wiki for reference.
 
-For NetHack 5.0 in particular, see [[NetHack 5.0 vs. GnollHack Release 3]]. [[Roguelike Comparison]] adds Shattered Pixel Dungeon to these three.
+For NetHack 5.0 in particular, see [[NetHack 5.0 vs. GnollHack Release 3]]. [[Roguelike Comparison]] adds Shattered Pixel Dungeon and Dungeon Crawl Stone Soup to these three.
 
 ## 📖 See Also
 

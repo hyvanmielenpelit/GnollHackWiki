@@ -12,4 +12,4 @@
 ## 🎲 Other Roguelikes
 
 - **[[GnollHack vs. Pathos vs. NetHack]]** — Pathos: NetHack Codex uses NetHack's monsters and items but was written from scratch, with rules of its own.
-- **[[Roguelike Comparison]]** — Adds Shattered Pixel Dungeon to NetHack, GnollHack, and Pathos, with prices per store and controller support.
+- **[[Roguelike Comparison]]** — Adds Shattered Pixel Dungeon and Dungeon Crawl Stone Soup to NetHack, GnollHack, and Pathos, with prices per store and controller support.
