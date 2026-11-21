@@ -163,6 +163,16 @@ A game has real controller support when it reads the controller itself and has a
 | **Shattered Pixel Dungeon** | ✅ Dedicated | Built into the game since 2022, with an analog stick cursor, button bindings, and radial menus. |
 | **Dungeon Crawl Stone Soup** | ❌ None | Keyboard and mouse on desktop, and touch with a virtual keyboard on Android. |
 
+## 💾 Moving a Game Between Devices
+
+| Game | Cross-Device Saves | Details |
+| :--- | :----------------- | :------ |
+| **NetHack** | ⚠️ Public servers and Steam | On public servers, the game is saved on the server, so you can continue it from another device. NetHack: Legacy on Steam has Steam Cloud saves. Other offline saves are local files. |
+| **GnollHack** | ✅ All platforms | [[Save File Transfer]] moves a saved game through the cloud between Android, iOS, Linux, macOS, Steam Deck, and Windows, for example from a phone to a PC. It needs a [[GnollHack Account]] and works for saves from version 3.1 on. |
+| **Pathos** | ⚠️ Steam only | Steam Cloud sync on the Steam version; local saves elsewhere. |
+| **Shattered Pixel Dungeon** | ⚠️ Steam only | Steam Cloud on the Steam version. Its developer has said that runs in progress will not get a backup or export feature, because it could be used to cheat. |
+| **Dungeon Crawl Stone Soup** | ⚠️ Public servers only | On public servers, the game is saved on the server, so you can continue it in WebTiles or a terminal from another device. Offline saves are local files. |
+
 ## 🖼️ Screenshots
 
 ### NetHack
@@ -197,4 +207,4 @@ The Windows GUI with the Nevanda tileset, which has 32x32-pixel tiles:
 
 ## 📅 Validity
 
-The GnollHack details are valid for GnollHack 3.39 (4.3.0 Build 39), checked on November 8, 2026, except for controller support, which is as of version 3.43, checked on November 21, 2026. The store listings, prices, and platforms of NetHack, Pathos, and Shattered Pixel Dungeon were checked on the same day. The Pathos features follow its developer's list of differences from NetHack, as of November 20, 2026. The Dungeon Crawl Stone Soup details are valid for version 0.34.1, checked on November 21, 2026.
+The GnollHack details are valid for GnollHack 3.39 (4.3.0 Build 39), checked on November 8, 2026, except for controller support and cross-device saves, which are as of version 3.43, checked on November 21, 2026. The store listings, prices, and platforms of NetHack, Pathos, and Shattered Pixel Dungeon were checked on the same day. The Pathos features follow its developer's list of differences from NetHack, as of November 20, 2026. The Dungeon Crawl Stone Soup details are valid for version 0.34.1, checked on November 21, 2026. The cross-device saves of the other four games were checked on November 21, 2026.

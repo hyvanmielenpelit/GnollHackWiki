@@ -35,6 +35,7 @@ GnollHack can also be viewed as a NetHack remaster, adding the following modern 
 - **Cross-platform support**
     - Android, iOS, Linux, macOS, Windows, and Steam Deck
     - Native macOS version is on Steam *(Macs with an M1 or later processor)*
+    - [[Save File Transfer]] moves a game in progress between devices and platforms through the cloud, for example from a phone to the Steam Deck
 - **Modern UI**
     - Mobile touch-based UI on Android and iOS
     - Modern UI for desktop, adapted from the mobile UI
