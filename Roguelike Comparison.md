@@ -114,17 +114,18 @@ Three of the five games can be played in a web browser for free, with nothing to
 
 ### Help and Guidance
 
-| Game | Item Information | In-Game Hints | Game Advisor |
-| :--- | :--------------: | :-----------: | :----------: |
-| **NetHack** | ❌ | ✅<sup>1</sup> | ❌ |
-| **GnollHack** | ✅ | ✅ | ✅<sup>2</sup> |
-| **Pathos** | ✅ | ✅ | ❌ |
-| **Shattered Pixel Dungeon** | ✅ | ✅ | ❌ |
-| **Dungeon Crawl Stone Soup** | ✅ | ✅<sup>3</sup> | ❌ |
+| Game | Item Information | In-Game Hints | In-Game Tutorial | Game Advisor |
+| :--- | :--------------: | :-----------: | :--------------: | :----------: |
+| **NetHack** | ❌ | ✅<sup>1</sup> | ✅<sup>2</sup> | ❌ |
+| **GnollHack** | ✅ | ✅ | ❌ | ✅<sup>3</sup> |
+| **Pathos** | ✅ | ✅ | ❌ | ❌ |
+| **Shattered Pixel Dungeon** | ✅ | ✅ | ✅ | ❌ |
+| **Dungeon Crawl Stone Soup** | ✅ | ✅<sup>4</sup> | ✅ | ❌ |
 
 - <sup>1</sup> But consulting the [[/Monsters/Oracle]] costs gold.
-- <sup>2</sup> The [[Gnoll Overseer]] uses frontier AI models for its advice.
-- <sup>3</sup> A tutorial, and a hints mode that gives help as you play.
+- <sup>2</sup> Since NetHack 5.0, which offers a tutorial level at the start of the game.
+- <sup>3</sup> The [[Gnoll Overseer]] uses frontier AI models for its advice.
+- <sup>4</sup> A hints mode that gives help as you play.
 
 ### Ways to Play
 
