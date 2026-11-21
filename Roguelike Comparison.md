@@ -37,19 +37,18 @@
 
 #### Desktop and Console
 
-| Game | Windows<br />(Steam) | macOS<br />(Steam) | Linux<br />(Steam) | Steam Deck<br />(Steam) |
-| :--- | :------------: | :----------: | :----------: | :--------: |
-| **NetHack**<sup>1</sup> | ✅💲 | ✅💲 | ✅💲 | ✅💲 |
-| **GnollHack** | ✅🆓 | ✅🆓 | ✅🆓 | ✅🆓 |
-| **Pathos**<sup>2</sup> | ✅💲 | ❌ | ⚠️💲 | ⚠️💲 |
-| **Shattered Pixel Dungeon** | ✅💲 | ✅💲 | ✅💲 | ✅💲 |
-| **Dungeon Crawl Stone Soup** | ❌ | ❌ | ❌ | ❌ |
+| Game | Windows<br />(Steam) | macOS<br />(Steam) | Linux<br />(Steam) | Steam Deck<br />(Steam) | Xbox |
+| :--- | :------------: | :----------: | :----------: | :--------: | :--------: |
+| **NetHack**<sup>1</sup> | ✅💲 | ✅💲 | ✅💲 | ✅💲 | ❌ |
+| **GnollHack** | ✅🆓 | ✅🆓 | ✅🆓 | ✅🆓 | ❌ |
+| **Pathos** | ✅💲 | ❌ | ⚠️💲 | ⚠️💲 | ✅🆓 |
+| **Shattered Pixel Dungeon** | ✅💲 | ✅💲 | ✅💲 | ✅💲 | ❌ |
+| **Dungeon Crawl Stone Soup** | ❌ | ❌ | ❌ | ❌ | ❌ |
 
 - 🆓 Free
 - 💲 Paid
 - ⚠️ Not a native version: The Windows version runs through Proton.
 - <sup>1</sup> An unofficial port, [NetHack: Legacy](https://store.steampowered.com/app/837200/NetHack_Legacy/).
-- <sup>2</sup> Pathos also runs on Xbox.
 
 ### GitHub
 
