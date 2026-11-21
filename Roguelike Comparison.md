@@ -110,30 +110,42 @@ Three of the five games can be played in a web browser for free, with nothing to
 
 ### Help and Guidance
 
-| Game | Item Information | In-Game Hints | Game Advisor | Difficulty Levels |
-| :--- | :--------------: | :-----------: | :----------: | :---------------: |
-| **NetHack** | ❌ | ✅<sup>1</sup> | ❌ | ❌ |
-| **GnollHack** | ✅ | ✅ | ✅<sup>2</sup> | ✅ |
-| **Pathos** | ✅ | ✅ | ❌ | ❓<sup>3</sup> |
-| **Shattered Pixel Dungeon** | ✅ | ✅ | ❌ | ❌ |
-| **Dungeon Crawl Stone Soup** | ✅ | ✅<sup>4</sup> | ❌ | ❌ |
+| Game | Item Information | In-Game Hints | Game Advisor |
+| :--- | :--------------: | :-----------: | :----------: |
+| **NetHack** | ❌ | ✅<sup>1</sup> | ❌ |
+| **GnollHack** | ✅ | ✅ | ✅<sup>2</sup> |
+| **Pathos** | ✅ | ✅ | ❌ |
+| **Shattered Pixel Dungeon** | ✅ | ✅ | ❌ |
+| **Dungeon Crawl Stone Soup** | ✅ | ✅<sup>3</sup> | ❌ |
 
 - <sup>1</sup> But consulting the [[/Monsters/Oracle]] costs gold.
 - <sup>2</sup> The [[Gnoll Overseer]] uses frontier AI models for its advice.
-- <sup>3</sup> Steam lists Pathos under Adjustable Difficulty, but its store pages do not describe a difficulty setting.
-- <sup>4</sup> A tutorial, and a hints mode that gives help as you play.
+- <sup>3</sup> A tutorial, and a hints mode that gives help as you play.
 
 ### Ways to Play
 
-| Game | Party Play and Co-op | Real-Time Mode | Map Editor |
-| :--- | :------------------: | :------------: | :--------: |
-| **NetHack** | ❌ | ❌ | ❌ |
-| **GnollHack** | ❌ | ❌ | ❌ |
-| **Pathos** | ✅<sup>1</sup> | ✅ | ✅ |
-| **Shattered Pixel Dungeon** | ❌ | ❌ | ❌ |
-| **Dungeon Crawl Stone Soup** | ❌ | ❌ | ❌ |
+| Game | Difficulty Levels | Party Play and Co-op | Real-Time Mode | Map Editor |
+| :--- | :---------------: | :------------------: | :------------: | :--------: |
+| **NetHack** | ❌ | ❌ | ❌ | ❌ |
+| **GnollHack** | ✅<sup>1</sup> | ❌ | ❌ | ❌ |
+| **Pathos** | ❓<sup>2</sup> | ✅<sup>3</sup> | ✅ | ✅ |
+| **Shattered Pixel Dungeon** | ❌ | ❌ | ❌ | ❌ |
+| **Dungeon Crawl Stone Soup** | ❌ | ❌ | ❌ | ❌ |
 
-- <sup>1</sup> A party of up to six heroes, split-screen co-op, and co-op over a network.
+- <sup>1</sup> Seven [[difficulty levels]], from [[/Difficulties/Standard]] to [[/Difficulties/Grand Master]].
+- <sup>2</sup> Steam lists Pathos under Adjustable Difficulty, but its store pages do not describe a difficulty setting.
+- <sup>3</sup> A party of up to six heroes, split-screen co-op, and co-op over a network.
+
+GnollHack also lets you choose whether death is permanent, with two toggles in its settings:
+
+| Mode | Permadeath | Saved Game Loading |
+| :--- | :--------: | :----------------- |
+| [[Modern Mode]] | ❌<sup>1</sup> | Only once |
+| [[Casual Mode]] | ❌<sup>1</sup> | Multiple times |
+| [[Classic Mode]] | ✅ | Only once |
+| [[Casual-Classic Mode]] | ✅ | Multiple times |
+
+- <sup>1</sup> A character who dies resurrects at the starting altar or another checkpoint.
 
 ## 🎮 Controller Support
 
