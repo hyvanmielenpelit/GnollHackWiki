@@ -1,4 +1,4 @@
-> 👉 **GnollHack runs on NetHack's own code, Pathos borrows only its monsters and items, and Shattered Pixel Dungeon and Dungeon Crawl Stone Soup come from other families of games, Pixel Dungeon and Linley's Dungeon Crawl.**
+> 👉 **GnollHack is a fork of NetHack 3.6.2 and runs NetHack's own code. Pathos (2015) was written from scratch, with monsters and items from NetHack and SLASH'EM but rules of its own. Shattered Pixel Dungeon (2014) and Dungeon Crawl Stone Soup (2006) are forks of Pixel Dungeon and Linley's Dungeon Crawl, games written independently of NetHack.**
 
 ## 📖 Overview
 
