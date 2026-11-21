@@ -24,5 +24,6 @@ This is the timeline of important events in GnollHack development.
 | 30 Oct 2026 | Steam Deck's built-in controls supported | 4.3.0 Build 32 | Steam Input + evdev | ✅ |
 | 2 Nov 2026 | Game controllers supported on Windows and desktop Linux | 4.3.0 Build 35 | XInput + evdev | ✅ |
 | **5 Nov 2026** | **Native macOS version released on Steam** | 4.3.0 Build 37 | .NET MAUI on Avalonia UI + SkiaSharp | ✅ |
+| 18 Nov 2026 | Game controllers supported on Android and iOS | 4.3.0 Build 42 | Android input events + Apple GameController | ✅ |
 
 - <sup>1</sup> If generative AI was used in the development of the feature, such as ChatGPT (OpenAI), Gemini (Google), or Claude (Anthropic).

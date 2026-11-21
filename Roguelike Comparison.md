@@ -154,7 +154,7 @@ A game has real controller support when it reads the controller itself and has a
 | Game | Controller Support | Details |
 | :--- | :----------------- | :------ |
 | **NetHack** | ❌ None | Keyboard and mouse only. NetHack: Legacy on Steam has no controller support either. |
-| **GnollHack** | ✅ Dedicated | Radial menus, on-screen button hints, and controller navigation of every menu, the settings, this wiki, and the [[Gnoll Overseer]]. Works with the Steam Deck's built-in controls and with controllers such as Xbox controllers on Windows, Linux, and macOS. Not available on Android or iOS. See [[Steam Deck Controls]]. |
+| **GnollHack** | ✅ Dedicated | Radial menus, on-screen button hints, and controller navigation of every menu, the settings, this wiki, and the [[Gnoll Overseer]]. Works with the Steam Deck's built-in controls, with controllers such as Xbox controllers on Windows, Linux, and macOS, and with USB, Bluetooth, and clip-on controllers on Android and iOS since version 3.42. See [[Steam Deck Controls]]. |
 | **Pathos** | ⚠️ Partial | Steam lists partial controller support, and the [Steam page](https://store.steampowered.com/app/5062560/Pathos/) mentions controller support on the Steam Deck. The interface is designed for touch first. |
 | **Shattered Pixel Dungeon** | ✅ Dedicated | Built into the game since 2022, with an analog stick cursor, button bindings, and radial menus. |
 | **Dungeon Crawl Stone Soup** | ❌ None | Keyboard and mouse on desktop, and touch with a virtual keyboard on Android. |
@@ -193,4 +193,4 @@ The Windows GUI with the Nevanda tileset, which has 32x32-pixel tiles:
 
 ## 📅 Validity
 
-The GnollHack details are valid for GnollHack 3.39 (4.3.0 Build 39), checked on November 8, 2026. The store listings, prices, and platforms of NetHack, Pathos, and Shattered Pixel Dungeon were checked on the same day. The Pathos features follow its developer's list of differences from NetHack, as of November 20, 2026. The Dungeon Crawl Stone Soup details are valid for version 0.34.1, checked on November 21, 2026.
+The GnollHack details are valid for GnollHack 3.39 (4.3.0 Build 39), checked on November 8, 2026, except for controller support, which is as of version 3.43, checked on November 21, 2026. The store listings, prices, and platforms of NetHack, Pathos, and Shattered Pixel Dungeon were checked on the same day. The Pathos features follow its developer's list of differences from NetHack, as of November 20, 2026. The Dungeon Crawl Stone Soup details are valid for version 0.34.1, checked on November 21, 2026.
