@@ -67,11 +67,19 @@ All GitHub downloads are free.
 
 ### Website
 
-- None of the five games has an iOS download outside the App Store.
-- NetHack, Pathos, and Dungeon Crawl Stone Soup also offer downloads on their own websites:
-    - NetHack for Windows.
-    - Pathos for Windows and Android, along with a version that runs in a web browser.
-    - Dungeon Crawl Stone Soup for Windows, macOS, and Linux, from its GitHub releases, along with its own package repository for Debian and Ubuntu.
+All website downloads are free. None of the five games has an iOS download outside the App Store.
+
+| Game | Windows | macOS | Linux | Android | Web Browser |
+| :--- | :-----: | :---: | :---: | :-----: | :---------: |
+| **NetHack** | ✅ | ❌ | ❌ | ❌ | ❌ |
+| **GnollHack** | ❌ | ❌ | ❌ | ❌ | ❌ |
+| **Pathos** | ✅ | ❌ | ❌ | ✅ | ✅ |
+| **Shattered Pixel Dungeon** | ❌ | ❌ | ❌ | ❌ | ❌ |
+| **Dungeon Crawl Stone Soup**<sup>1</sup> | ✅ | ✅ | ✅<sup>2</sup> | ❌ | ✅<sup>3</sup> |
+
+- <sup>1</sup> The website's download links point to its GitHub releases.
+- <sup>2</sup> Also its own package repository for Debian and Ubuntu.
+- <sup>3</sup> On public servers listed on its website.
 
 ## ✨ Features
 
