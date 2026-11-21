@@ -69,17 +69,28 @@ All GitHub downloads are free.
 
 All website downloads are free. None of the five games has an iOS download outside the App Store.
 
-| Game | Windows | macOS | Linux | Android | Web Browser |
-| :--- | :-----: | :---: | :---: | :-----: | :---------: |
-| **NetHack** | ✅ | ❌ | ❌ | ❌ | ❌ |
-| **GnollHack** | ❌ | ❌ | ❌ | ❌ | ❌ |
-| **Pathos** | ✅ | ❌ | ❌ | ✅ | ✅ |
-| **Shattered Pixel Dungeon** | ❌ | ❌ | ❌ | ❌ | ❌ |
-| **Dungeon Crawl Stone Soup**<sup>1</sup> | ✅ | ✅ | ✅<sup>2</sup> | ❌ | ✅<sup>3</sup> |
+| Game | Windows | macOS | Linux | Android |
+| :--- | :-----: | :---: | :---: | :-----: |
+| **NetHack** | ✅ | ❌ | ❌ | ❌ |
+| **GnollHack** | ❌ | ❌ | ❌ | ❌ |
+| **Pathos** | ✅ | ❌ | ❌ | ✅ |
+| **Shattered Pixel Dungeon** | ❌ | ❌ | ❌ | ❌ |
+| **Dungeon Crawl Stone Soup**<sup>1</sup> | ✅ | ✅ | ✅<sup>2</sup> | ❌ |
 
 - <sup>1</sup> The website's download links point to its GitHub releases.
 - <sup>2</sup> Also its own package repository for Debian and Ubuntu.
-- <sup>3</sup> On public servers listed on its website.
+
+### Web Browser
+
+Three of the five games can be played in a web browser for free, with nothing to install.
+
+| Game | Web Browser | Where to Play |
+| :--- | :---------: | :------------ |
+| **NetHack** | ✅ | On public servers such as NAO and Hardfought, in a web terminal |
+| **GnollHack** | ❌ | |
+| **Pathos** | ✅ | On its website |
+| **Shattered Pixel Dungeon** | ❌ | |
+| **Dungeon Crawl Stone Soup** | ✅ | In WebTiles, on public servers listed on its website, such as crawl.akrasiac.org and cbro.berotato.org |
 
 ## ✨ Features
 
@@ -116,17 +127,15 @@ All website downloads are free. None of the five games has an iOS download outsi
 
 ### Ways to Play
 
-| Game | Web Browser | Party Play and Co-op | Real-Time Mode | Map Editor |
-| :--- | :---------: | :------------------: | :------------: | :--------: |
-| **NetHack** | ✅<sup>1</sup> | ❌ | ❌ | ❌ |
-| **GnollHack** | ❌ | ❌ | ❌ | ❌ |
-| **Pathos** | ✅ | ✅<sup>2</sup> | ✅ | ✅ |
-| **Shattered Pixel Dungeon** | ❌ | ❌ | ❌ | ❌ |
-| **Dungeon Crawl Stone Soup** | ✅<sup>3</sup> | ❌ | ❌ | ❌ |
+| Game | Party Play and Co-op | Real-Time Mode | Map Editor |
+| :--- | :------------------: | :------------: | :--------: |
+| **NetHack** | ❌ | ❌ | ❌ |
+| **GnollHack** | ❌ | ❌ | ❌ |
+| **Pathos** | ✅<sup>1</sup> | ✅ | ✅ |
+| **Shattered Pixel Dungeon** | ❌ | ❌ | ❌ |
+| **Dungeon Crawl Stone Soup** | ❌ | ❌ | ❌ |
 
-- <sup>1</sup> On public servers such as NAO and Hardfought, in a web terminal.
-- <sup>2</sup> A party of up to six heroes, split-screen co-op, and co-op over a network.
-- <sup>3</sup> In WebTiles, on public servers such as crawl.akrasiac.org and cbro.berotato.org.
+- <sup>1</sup> A party of up to six heroes, split-screen co-op, and co-op over a network.
 
 ## 🎮 Controller Support
 
