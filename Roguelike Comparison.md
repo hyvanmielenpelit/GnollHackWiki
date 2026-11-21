@@ -4,16 +4,16 @@
 
 | Game | First Release | Based On | Main Inspiration |
 | :--- | :------------ | :------- | :--------------- |
-| **[NetHack](https://www.nethack.org/)** | 1987 | Hack | Rogue |
+| **[NetHack](https://www.nethack.org/)** | 1987 | [Hack](https://en.wikipedia.org/wiki/Hack_(video_game)) | [Rogue](https://en.wikipedia.org/wiki/Rogue_(video_game)) |
 | **[GnollHack](https://gnollhack.com/)** | 2023, on mobile; developed since July 2019 | A fork of NetHack 3.6.2 | NetHack |
-| **[Pathos](https://pathos-game.onrender.com/)** | 2015 | Written from scratch, with [[its own rules|GnollHack vs. Pathos vs. NetHack]] | NetHack and SLASH'EM |
-| **[Shattered Pixel Dungeon](https://shatteredpixel.com/)** | 2014 | A fork of Pixel Dungeon | Brogue |
-| **[Dungeon Crawl Stone Soup](https://crawl.develz.org/)** | 2006 | A fork of Linley's Dungeon Crawl | Moria, Hack, and NetHack |
+| **[Pathos](https://pathos-game.onrender.com/)** | 2015 | Written from scratch, with [[its own rules|GnollHack vs. Pathos vs. NetHack]] | NetHack and [SLASH'EM](https://nethackwiki.com/wiki/SLASH%27EM) |
+| **[Shattered Pixel Dungeon](https://shatteredpixel.com/)** | 2014 | A fork of [Pixel Dungeon](https://en.wikipedia.org/wiki/Pixel_Dungeon) | [Brogue](https://en.wikipedia.org/wiki/Brogue_(video_game)) |
+| **[Dungeon Crawl Stone Soup](https://crawl.develz.org/)** | 2006 | A fork of Linley's Dungeon Crawl | [Moria](https://en.wikipedia.org/wiki/Moria_(1983_video_game)), Hack, and NetHack |
 
 | Game | Graphics | Complexity |
 | :--- | :------- | :--------- |
-| **NetHack** | ASCII text; tiles in some interfaces, such as the Windows GUI, released in 2002 | Hardcore |
-| **GnollHack** | Animated high-resolution tiles | Hardcore–Midcore |
+| **NetHack** | ASCII text; tiles in [[some interfaces|Graphical NetHack Ports and Variants]], such as the [[Windows GUI|Comparison of NetHack GUIs]], released in 2002 | Hardcore |
+| **GnollHack** | [[Animated|Animations]] high-resolution tiles | Hardcore–Midcore |
 | **Pathos** | 2D tiles; the Steam edition has four tile sets: two in pixel art, one semi-realistic, and one ASCII-style | Midcore |
 | **Shattered Pixel Dungeon** | Pixel art | Midcore–Casual |
 | **Dungeon Crawl Stone Soup** | ASCII text in the console version; 2D tiles in the tiles version and in a web browser | Hardcore–Midcore |
@@ -26,11 +26,11 @@ Shattered Pixel Dungeon has six heroes, each with two subclasses and over 25 tal
 
 | Game | Android (Google Play) | iOS (App Store) | Notes |
 | :--- | :-------------------: | :-------------: | :---- |
-| **NetHack** | ❌ | ✅🆓 | Unofficial iOS port: iNethack2 |
+| **NetHack** | ❌ | ✅🆓 | Unofficial iOS port: [iNethack2](https://apps.apple.com/us/app/inethack2/id962114968) |
 | **GnollHack** | ✅🆓 | ✅🆓 | |
 | **Pathos** | ✅🆓 | ✅🆓 | |
 | **Shattered Pixel Dungeon** | ✅🆓 | ✅💲 | |
-| **Dungeon Crawl Stone Soup** | ✅🆓 | ❌ | Also on F-Droid |
+| **Dungeon Crawl Stone Soup** | ✅🆓 | ❌ | Also on [F-Droid](https://f-droid.org/packages/org.develz.crawl/) |
 
 | Game | Steam: Windows | Steam: macOS | Steam: Linux | Steam Deck |
 | :--- | :------------: | :----------: | :----------: | :--------: |
@@ -43,11 +43,11 @@ Shattered Pixel Dungeon has six heroes, each with two subclasses and over 25 tal
 - 🆓 Free
 - 💲 Paid
 - ⚠️ Not a native version: the Windows version runs through Proton
-- <sup>1</sup> An unofficial port, NetHack: Legacy.
+- <sup>1</sup> An unofficial port, [NetHack: Legacy](https://store.steampowered.com/app/837200/NetHack_Legacy/).
 
-Pathos's Steam edition was released on November 4, 2026. Pathos is free on Google Play, the App Store, the Microsoft Store, and its website, and it also runs on Xbox.
+Pathos's [Steam edition](https://store.steampowered.com/app/5062560/Pathos/) was released on November 4, 2026. Pathos is free on Google Play, the App Store, the Microsoft Store, and its website, and it also runs on Xbox.
 
-> ℹ️ **Note:** **Proton**, Valve's compatibility layer, runs most Windows games from Steam on Linux and the Steam Deck, but not on macOS. GnollHack's Windows version does not run on Proton; the Steam Deck runs its native [[Linux Version]] instead.
+> ℹ️ **Note:** **[Proton](https://github.com/ValveSoftware/Proton)**, Valve's compatibility layer, runs most Windows games from Steam on Linux and the Steam Deck, but not on macOS. GnollHack's [[Windows version|Modern Windows Version]] does not run on Proton; the Steam Deck runs its native [[Linux Version]] instead.
 
 ### GitHub
 
@@ -86,11 +86,11 @@ Three of the five games can be played in a web browser for free, with nothing to
 
 | Game | Web Browser | Where to Play |
 | :--- | :---------: | :------------ |
-| **NetHack** | ✅ | On public servers such as NAO and Hardfought, in a web terminal |
+| **NetHack** | ✅ | On public servers such as [NAO](https://alt.org/nethack/) and [Hardfought](https://www.hardfought.org/), in a web terminal |
 | **GnollHack** | ❌ | |
 | **Pathos** | ✅ | On its website |
 | **Shattered Pixel Dungeon** | ❌ | |
-| **Dungeon Crawl Stone Soup** | ✅ | In WebTiles, on public servers listed on its website, such as crawl.akrasiac.org and cbro.berotato.org |
+| **Dungeon Crawl Stone Soup** | ✅ | In WebTiles, on public servers [listed on its website](https://crawl.develz.org/play.htm), such as [crawl.akrasiac.org](https://crawl.akrasiac.org/) and [cbro.berotato.org](https://cbro.berotato.org/) |
 
 ## ✨ Features
 
@@ -105,7 +105,7 @@ Three of the five games can be played in a web browser for free, with nothing to
 | **Dungeon Crawl Stone Soup** | ⚠️<sup>3</sup> | ❌<sup>4</sup> | ❌ | ⚠️<sup>5</sup> | ❌ |
 
 - <sup>1</sup> No on-screen keyboard.
-- <sup>2</sup> NetHack 5.0 has only a few sound effects (musical instruments, squeaky boards, gaining or losing a level), and no music. GnollHack, Pathos, and Shattered Pixel Dungeon have both sound effects and music.
+- <sup>2</sup> [[NetHack 5.0|NetHack 5.0 vs. GnollHack Release 3]] has only a few sound effects (musical instruments, squeaky boards, gaining or losing a level), and no music. GnollHack, Pathos, and Shattered Pixel Dungeon have both sound effects and music.
 - <sup>3</sup> Animations for spells, ranged attacks, and abilities, and animated water, altars, and torches, but the monster and character tiles are still images.
 - <sup>4</sup> No music, and no sound effects out of the box: a player can set the game to play their own sound files when chosen messages appear.
 - <sup>5</sup> Partial translations into 19 languages, mostly of longer texts such as god and monster descriptions. The rest of the text stays in English.
@@ -145,7 +145,7 @@ A game has real controller support when it reads the controller itself and has a
 | :--- | :----------------- | :------ |
 | **NetHack** | ❌ None | Keyboard and mouse only. NetHack: Legacy on Steam has no controller support either. |
 | **GnollHack** | ✅ Dedicated | Radial menus, on-screen button hints, and controller navigation of every menu, the settings, this wiki, and the [[Gnoll Overseer]]. Works with the Steam Deck's built-in controls and with controllers such as Xbox controllers on Windows, Linux, and macOS. Not available on Android or iOS. See [[Steam Deck Controls]]. |
-| **Pathos** | ⚠️ Partial | Steam lists partial controller support, and the Steam page mentions controller support on the Steam Deck. The interface is designed for touch first. |
+| **Pathos** | ⚠️ Partial | Steam lists partial controller support, and the [Steam page](https://store.steampowered.com/app/5062560/Pathos/) mentions controller support on the Steam Deck. The interface is designed for touch first. |
 | **Shattered Pixel Dungeon** | ✅ Dedicated | Built into the game since 2022, with an analog stick cursor, button bindings, and radial menus. |
 | **Dungeon Crawl Stone Soup** | ❌ None | Keyboard and mouse on desktop, and touch with a virtual keyboard on Android. |
 
