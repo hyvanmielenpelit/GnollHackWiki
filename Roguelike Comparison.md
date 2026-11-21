@@ -98,7 +98,7 @@ Three of the five games can be played in a web browser for free, with nothing to
 
 ### Presentation
 
-| Game | Animations | Music | Voiceovers | Several Languages | Full Mobile UI<sup>1</sup> |
+| Game | Animations | Sound & Music | Voiceovers | Several Languages | Full Mobile UI<sup>1</sup> |
 | :--- | :--------: | :---: | :--------: | :---------------: | :------------------------: |
 | **NetHack** | ❌ | ❌<sup>2</sup> | ❌ | ❌ | ❌ |
 | **GnollHack** | ✅ | ✅ | ✅ | ❌ | ✅ |
@@ -107,7 +107,7 @@ Three of the five games can be played in a web browser for free, with nothing to
 | **Dungeon Crawl Stone Soup** | ⚠️<sup>3</sup> | ❌<sup>4</sup> | ❌ | ⚠️<sup>5</sup> | ❌ |
 
 - <sup>1</sup> No on-screen keyboard.
-- <sup>2</sup> [[NetHack 5.0|NetHack 5.0 vs. GnollHack Release 3]] has only a few sound effects (musical instruments, squeaky boards, gaining or losing a level), and no music. GnollHack, Pathos, and Shattered Pixel Dungeon have both sound effects and music.
+- <sup>2</sup> [[NetHack 5.0|NetHack 5.0 vs. GnollHack Release 3]] has only a few sound effects (musical instruments, squeaky boards, gaining or losing a level), and no music.
 - <sup>3</sup> Animations for spells, ranged attacks, and abilities, and animated water, altars, and torches, but the monster and character tiles are still images.
 - <sup>4</sup> No music, and no sound effects out of the box: a player can set the game to play their own sound files when chosen messages appear.
 - <sup>5</sup> Partial translations into 19 languages, mostly of longer texts such as god and monster descriptions. The rest of the text stays in English.
