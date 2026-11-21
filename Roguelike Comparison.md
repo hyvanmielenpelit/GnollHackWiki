@@ -22,6 +22,8 @@
 
 ### Stores
 
+#### Mobile
+
 | Game | Android (Google Play) | iOS (App Store) | Notes |
 | :--- | :-------------------: | :-------------: | :---- |
 | **NetHack** | ❌ | ✅🆓 | Unofficial iOS port: [iNethack2](https://apps.apple.com/us/app/inethack2/id962114968) |
@@ -30,11 +32,13 @@
 | **Shattered Pixel Dungeon** | ✅🆓 | ✅💲 | |
 | **Dungeon Crawl Stone Soup** | ✅🆓 | ❌ | Also on [F-Droid](https://f-droid.org/packages/org.develz.crawl/) |
 
+#### Desktop and Console
+
 | Game | Steam: Windows | Steam: macOS | Steam: Linux | Steam Deck |
 | :--- | :------------: | :----------: | :----------: | :--------: |
 | **NetHack**<sup>1</sup> | ✅💲 | ✅💲 | ✅💲 | ✅💲 |
 | **GnollHack** | ✅🆓 | ✅🆓 | ✅🆓 | ✅🆓 |
-| **Pathos** | ✅💲 | ❌ | ⚠️💲 | ⚠️💲 |
+| **Pathos**<sup>2</sup> | ✅💲 | ❌ | ⚠️💲 | ⚠️💲 |
 | **Shattered Pixel Dungeon** | ✅💲 | ✅💲 | ✅💲 | ✅💲 |
 | **Dungeon Crawl Stone Soup** | ❌ | ❌ | ❌ | ❌ |
 
@@ -42,10 +46,7 @@
 - 💲 Paid
 - ⚠️ Not a native version: the Windows version runs through Proton
 - <sup>1</sup> An unofficial port, [NetHack: Legacy](https://store.steampowered.com/app/837200/NetHack_Legacy/).
-
-Pathos's [Steam edition](https://store.steampowered.com/app/5062560/Pathos/) was released on November 4, 2026. Pathos is free on Google Play, the App Store, the Microsoft Store, and its website, and it also runs on Xbox.
-
-> ℹ️ **Note:** **[Proton](https://github.com/ValveSoftware/Proton)**, Valve's compatibility layer, runs most Windows games from Steam on Linux and the Steam Deck, but not on macOS. GnollHack's [[Windows version|Modern Windows Version]] does not run on Proton; the Steam Deck runs its native [[Linux Version]] instead.
+- <sup>2</sup> Pathos also runs on Xbox.
 
 ### GitHub
 
