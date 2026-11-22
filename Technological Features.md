@@ -44,6 +44,7 @@ Because one wrong answer can end a permadeath game, [[GnollBench]] tests candida
 
 ## 📖 Learn More
 
+- [[How GnollHack is Engineered]] — How the engine, the client, the servers, and the tools fit together, for beginning developers.
 - [[/Guides/GnollHack, Gnoll Overseer, and GnollBench for Software Engineers]] — A technical overview of how GnollHack, the Gnoll Overseer, and GnollBench are built and tested.
 - [[/Guides/Technological Overview of Gnoll Overseer]] — Architecture and tools of the Gnoll Overseer service.
 - [[/Guides/Technological Overview of GnollBench]] — Scoring model, grading panel, and statistics of GnollBench.

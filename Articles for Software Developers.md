@@ -2,6 +2,8 @@
 
 > 👉 **How GnollHack's C game engine runs inside .NET clients on mobile and desktop, and how its AI advisor and benchmark are built.**
 
+- **[[How GnollHack is Engineered]]** · *November 2026*<br />
+  The technologies, architecture, infrastructure, and tools behind the game, explained for beginning developers
 - **[[Shipping a Cross-Platform Roguelike and Its AI Advisor with .NET MAUI, Avalonia UI, and Frontier AI Models|/Guides/GnollHack, Gnoll Overseer, and GnollBench for Software Engineers]]** · *November 2026*<br />
   How a 500,000-line C game engine runs inside .NET MAUI and Avalonia UI, and how the AI advisor and its benchmark are built
 - **[[/Development/Mobile Version Development History (Xamarin.Forms)]]** · *July 2022, revised June 2026*<br />
