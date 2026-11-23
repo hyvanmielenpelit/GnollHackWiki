@@ -38,6 +38,7 @@ Entries are in alphabetical order within each section. A project with a listing 
 | [[NetHack Android|#nethack-android]] | 💾 | 🟢 | 🔇 | Free | Android |
 | [[NetHack Browser Edition|#nethack-browser-edition]] | 🌍 | 🟡 | 🔇 | Free | Desktop and mobile web browsers |
 | [[NetHack Cocoa|#nethack-cocoa]] | 💾 | 🟢 | 🔇 | Free | macOS 12 or later |
+| [[NetHack Modern|#nethack-modern]] | 💾 | 🧪 | 🎵 | Free | Windows, Linux |
 | [[NetHack Tiles Client|#nethack-tiles-client]] | 💾 | 🧪 | 🔇 | Free | Windows, macOS, Linux |
 | [[nethack.app|#nethack-app]] | 🌍 | 🧪 | 🔇 | Free | Web browsers |
 | [[NetHackJP|#nethackjp]] | 💾 | 🧪 | 🔇 | Free | Windows, Linux |
@@ -143,6 +144,14 @@ A NetHack 5.0 update of the long-standing Android port of vanilla NetHack, with 
 A native Mac app for vanilla NetHack 5.0, with a painted tile set in 64- and 128-pixel sizes and the classic tiles.
 
 - [GitHub](https://github.com/glorat/nethack-cocoa/releases): macOS 12 or later
+
+### NetHack Modern
+
+🧪 **Experiment** · Free · 🎵
+
+A fork of vanilla NetHack 5.0 that keeps the rules and saves unchanged and adds a dark interface, floating damage numbers, health bars, animations, particle effects, lighting, sound effects, level ambience, and music on the menu screens. It comes with a new GPU-drawn SDL window on Windows and Linux and a restyled version of NetHack's own Windows tiles interface.
+
+- [GitHub](https://github.com/TheMetabee/NethackModern/releases): Windows, Linux (AppImage)
 
 ### NetHack Tiles Client
 
@@ -315,9 +324,10 @@ In each list, the projects under Most Developed Interfaces come first, then the 
 6. [[BlissHack|#blisshack]]
 7. [[DartHack|#darthack]]
 8. [[neohack|#neohack]]
-9. [[nethack.app|#nethack-app]]
-10. [[VectHack|#vecthack]]
-11. [[WebHack|#webhack]]
+9. [[NetHack Modern|#nethack-modern]]
+10. [[nethack.app|#nethack-app]]
+11. [[VectHack|#vecthack]]
+12. [[WebHack|#webhack]]
 
 **A NetHack variant**
 
@@ -338,7 +348,8 @@ In each list, the projects under Most Developed Interfaces come first, then the 
 
 1. [[GnollHack|#gnollhack]]
 2. [[ZeldHack for NetHack|#zeldhack-for-nethack]]
-3. [[VoxHack|#voxhack]]
+3. [[NetHack Modern|#nethack-modern]]
+4. [[VoxHack|#voxhack]]
 
 **Virtual reality or first-person 3D**
 
