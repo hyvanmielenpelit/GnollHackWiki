@@ -2,6 +2,8 @@ The copiable prompt for these instructions is on the [[/Development/AI Instructi
 
 These instructions describe how to create a Steam event for GnollHack, such as a Major Update or a news announcement. The result is the event text, ready to paste into the Steam event editor, and two event images: the 800×450 cover image and the 1920×622 header image.
 
+For the store and library images, see [[/Development/AI/Steam Store Assets]].
+
 ## Inputs to Collect
 
 Collect the following before writing anything:
