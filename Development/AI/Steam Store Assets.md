@@ -40,6 +40,7 @@ Follow the style of [[/Development/AI/Steam Events and Announcements]], with the
   - **Horizontal:** The shield on the left, the name on the right, centered on the shield. Used for the Small Capsule and the Library Logo.
   - **Stacked:** The shield above the name, centered. Used for the Header Capsule, the Main and Vertical Capsules, the Library Capsule, and the Library Header.
 - **Shield file.** The GnollHack repository's `win/win32/xpl/GnollHackM/Assets/AppIcon/gnollhack-icon-v2-512-1240_x_1240.png`. It is the same shield as the event images' logo file, at 1171×1160 visible pixels, so it is never upscaled.
+- **Name size.** Make the name as large as the art and the margins allow. Players see most capsules at a fraction of their uploaded size, and the name is what they need to read and remember. In a stacked lockup, the name sets the width, so a smaller shield makes the lockup shorter without making the name smaller.
 - **No taglines.** The name is the only text on any image.
 - **Margins.** Keep the lockup at least 5% of the image's width away from every edge.
 - **Grading.** Contrast ×1.08 and saturation ×1.05, then a warm near-black overlay (RGB 14, 9, 6) that fades out from the lockup's side, and slightly darker edges. The subject stays bright. The Small Capsule and the Page Background use their own grading, described below.
@@ -56,7 +57,7 @@ All nine images of the current set:
 
 ### Header Capsule
 
-DwarfWarrior, with his face right of the center (at 70% of the width) and the art zoomed to 110% of the size that covers the image. The left side is darkened. The stacked lockup, 380 pixels wide, is centered at 25% of the width. Check that the name is readable at 460×215.
+DwarfWarrior, with his face at 76% of the width and the art at the size that covers the image, which leaves room for a large name on the left. The left side is darkened. The stacked lockup, 465 pixels wide with a shield 2.2 times the font size, is centered at 30.6% of the width. Check that the name is readable at 460×215.
 
 ### Small Capsule
 
@@ -64,11 +65,11 @@ DwarfWarrior as a background texture only: brightness ×0.36 and a 1.5-pixel blu
 
 ### Main Capsule
 
-WomanRanger on the left, not mirrored: a mirrored archer looks wrong. The right side is darkened. The stacked lockup, 500 pixels wide, is centered at 72.5% of the width and in the middle of the height.
+WomanRanger on the left, not mirrored: a mirrored archer looks wrong. Her face is at 25% of the width. The right side is darkened. The stacked lockup, 580 pixels wide with a shield 2.3 times the font size, is centered at 71% of the width and in the middle of the height. The name must not cross the bow. Steam shows this image at about 616×353 in the front-page carousel, so check that the name is readable at that size.
 
 ### Vertical Capsule
 
-WomanRanger, with her face in the upper quarter of the image. The art is moved up, and the gap at the bottom is filled with mirrored, blurred art, which the bottom darkening covers. The stacked lockup, 540 pixels wide, is centered at 80% of the height. Its shield is smaller than in the other stacked lockups (2.1 times the font size instead of 2.6), so that it does not cover the subject.
+WomanRanger, with her face in the upper quarter of the image. The art is moved up, and the gap at the bottom is filled with mirrored, blurred art, which the bottom darkening covers. The stacked lockup, 540 pixels wide, is centered at 80% of the height. Its shield is the smallest of the stacked lockups (2.1 times the font size), so that it does not cover the subject.
 
 ### Page Background
 
@@ -88,15 +89,19 @@ The same composition as the Vertical Capsule, with a 450-pixel lockup. Check tha
 
 ### Library Header
 
-The same composition as the Main Capsule, with a 370-pixel lockup.
+The same composition as the Main Capsule, with a 430-pixel lockup centered at 70% of the width.
 
 ### Library Hero
 
-DwarfWarrior, with no text and no logo. His face, from the forehead to the mouth, must be entirely inside the safe area, so the art is scaled down to 44% of the size that covers the image and centered on his face. The art then covers only the middle of the image:
+DwarfWarrior, with no text and no logo. His face, from the forehead to the mouth, must be entirely inside the safe area, so the art is scaled down to 40% of the size that covers the image.
 
-- At the left and right, extend it by stretching the colors of the art's outermost columns sideways and blurring them. Do not mirror the art there: a mirrored copy repeats the dwarf at both sides.
-- At the top and bottom, extend it with mirrored, blurred art, and darken both edges.
-- Darken the lower-left corner a little, so that the logo stays legible there.
+The Steam client shows the Library Logo larger than the uploaded file: at the bottom-left position, it spanned about 47% of the hero's width, up to about column 1980. A face in the middle of the safe area (columns 1810–2030 in the first version of the set) was then under the logo. So place the face against the right edge of the safe area: its center at 58.5% of the width, which puts the face box at columns 2147–2346.
+
+The art then covers only part of the image:
+
+- Extend it on every side by stretching the colors of the art's outermost columns and rows outward and blurring them. Do not mirror the art: a mirrored copy repeats the dwarf, or blurred parts of his hair and beard, at the edges.
+- Darken the left side, so that the logo reads over the art there, and darken the top and bottom edges.
+- Darken the lower-left corner a little more.
 
 The check image draws the safe area in green and the face in yellow:
 
@@ -106,7 +111,7 @@ The check image draws the safe area in green and the face in yellow:
 
 ### Library Logo
 
-The horizontal lockup, 1280 pixels wide including its shadow, with the height trimmed to the lockup and its shadow (337 pixels in the current set). Its shadow is 1.6 times as wide as in the other lockups and is part of the transparency, so that the logo stays legible over both the light and the dark parts of the hero. The logo over the hero at the bottom-left position:
+The horizontal lockup, 1280 pixels wide including its shadow, with the height trimmed to the lockup and its shadow (337 pixels in the current set). Its shadow is 1.6 times as wide as in the other lockups and is part of the transparency, so that the logo stays legible over both the light and the dark parts of the hero. Set its position to bottom left in Steamworks. The check image shows it at the size and place the Steam client used (see [[Check Images|#check-images]]), and it must not cover the hero's face:
 
 ![Example Library Logo over the Library Hero at the bottom-left position, downscaled to 960×310](/uploads/Development/AI/Steam%20Store%20Assets/example_logo_over_hero.jpg)
 
@@ -161,7 +166,7 @@ Two tables at the top of the script set every image, so a change of portrait or 
 | **`focus`** | The point of the portrait, as fractions, that is placed at `at`. The default is the face's center |
 | **`at`** | Where the focus point lands on the image, as fractions of its width and height |
 | **`zoom`** | The art's scale in relation to the smallest scale that covers the image. Below 1, the art is extended at the sides |
-| **`extend`** | How the art is extended: `mirror` (the default) or `smear`, which stretches the outermost columns sideways |
+| **`extend`** | How the art is extended: `mirror` (the default) or `smear`, which stretches the outermost columns and rows outward |
 | **`grade`** | Contrast, saturation, brightness, blur, highlight compression, the darkened side, and the darkened edges and corner |
 | **`lockup`** | The variant (`horizontal` or `stacked`), the visible width in pixels, the center as fractions of the image, and optionally the shield size in relation to the font size and the shadow strength |
 
@@ -170,6 +175,7 @@ The script stops if a portrait would be upscaled. It checks the size and color m
 - a lockup is closer than 5% of the image's width to an edge;
 - a lockup covers the face (the Small Capsule is allowed to);
 - the hero's face is not inside the safe area;
+- the logo covers the hero's face at the position set in Steamworks (`LOGO_POSITION`);
 - the shield would be upscaled.
 
 ### Check Images
@@ -180,7 +186,7 @@ The script writes these into the checks folder:
 |------|-------|
 | **`downscale_*.png`** | The Header Capsule at 460×215, the Small Capsule at 184×69 and 120×45, the Library Capsule at 300×450, and the hero at 1920×620. `downscale_smallcapsule_120x45_zoomed.png` shows the 120×45 version enlarged four times |
 | **`hero_safe_area.png`** | The hero with the safe area (green) and the face (yellow) |
-| **`logo_over_hero_*.png`** | The logo over the hero at the four positions of Steamworks, at 1920×620 |
+| **`logo_over_hero_*.png`** | The logo over the hero at the four positions of Steamworks, at 1920×620. The logo is shown as the Steam client showed it at bottom left in a 2000-pixel-wide library view on November 23, 2026 (`LOGO_VIEW` in the script): 47% of the hero's width, its left edge at 4.6%, and its center at 55.5% of the height. The other three positions are estimates. Steam's library also covers the bottom of the hero with its Play bar |
 | **`page_background_simulated.png`** | The Page Background with a blue tint and faded edges, as a stand-in for Steam's undocumented template, with the store page's 940-pixel content column outlined in blue |
 | **`contact_sheet.png`** | All nine images in one sheet |
 
@@ -192,7 +198,7 @@ Before delivering:
 2. Check that the script printed no warnings. If it did, change the parameters and run it again.
 3. Check that the name is readable in every downscaled version, including the Small Capsule at 120×45.
 4. Check that no image has any text other than "GnollHack", and that the hero and the Page Background have none at all.
-5. Check that the hero's face is inside the safe area and that no lockup covers a face.
+5. Check that the hero's face is inside the safe area, that the Library Logo does not cover it in `logo_over_hero_bottom_left.png`, and that no lockup covers a face.
 6. Check the edges of every image for unfinished art or a visible seam where the art was extended.
 7. Check that the images look like one family with the event images.
 
@@ -200,7 +206,7 @@ Then deliver to the user:
 
 - the full paths of the nine images, and the contact sheet sent directly if your tools can send files;
 - a list of the images that changed, if only some were rebuilt;
-- a reminder that the user uploads the images in Steamworks (Store Assets and Library Assets), positions the Library Logo over the hero, and checks the Page Background in the store preview before publishing.
+- a reminder that the user uploads the images in Steamworks (Store Assets and Library Assets), sets the Library Logo's position to bottom left, checks in the Steam library that the logo does not cover the hero's face, and checks the Page Background in the store preview before publishing.
 
 ## Example Image License
 

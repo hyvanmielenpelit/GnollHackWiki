@@ -47,17 +47,17 @@ PORTRAITS = {
 #   and the center of the visible lockup as canvas fractions; over_face allows it over the face.
 ASSETS = [
     {"name": "storeheader", "file": r"STORE\GH_STEAM_ASSET_STOREHEADER.png", "size": (920, 430),
-     "art": "DwarfWarrior", "at": (0.70, 0.47), "zoom": 1.1,
+     "art": "DwarfWarrior", "at": (0.76, 0.47), "zoom": 1.0,
      "grade": {"side": ("left", 0.66, 235), "edges": (60, 110, 0, 40)},
-     "lockup": {"variant": "stacked", "width": 380, "center": (0.255, 0.5)}},
+     "lockup": {"variant": "stacked", "width": 465, "center": (0.306, 0.5), "shield": 2.2}},
     {"name": "smallcapsule", "file": r"STORE\GH_STEAM_ASSET_STORE_SMALLCAPSULE.png", "size": (462, 174),
      "art": "DwarfWarrior", "at": (0.62, 0.45), "zoom": 1.0,
      "grade": {"brightness": 0.36, "blur": 1.5, "edges": (40, 60, 40, 40)},
      "lockup": {"variant": "horizontal", "width": 406, "center": (0.5, 0.5), "shield": 1.25, "over_face": True}},
     {"name": "maincapsule", "file": r"STORE\GH_STEAM_ASSET_STORE_MAINCAPSULE.png", "size": (1232, 706),
-     "art": "WomanRanger", "at": (0.27, 0.26), "zoom": 1.05,
+     "art": "WomanRanger", "at": (0.25, 0.26), "zoom": 1.05,
      "grade": {"side": ("right", 0.62, 215), "edges": (50, 120, 30, 0)},
-     "lockup": {"variant": "stacked", "width": 500, "center": (0.725, 0.5)}},
+     "lockup": {"variant": "stacked", "width": 580, "center": (0.71, 0.5), "shield": 2.3}},
     {"name": "verticalcapsule", "file": r"STORE\GH_STEAM_ASSET_STORE_VERTICALCAPSULE.png", "size": (748, 896),
      "art": "WomanRanger", "focus": (0.43, 0.235), "at": (0.5, 0.17), "zoom": 1.0,
      "grade": {"side": ("bottom", 0.6, 245), "edges": (50, 0, 40, 40)},
@@ -71,12 +71,12 @@ ASSETS = [
      "grade": {"side": ("bottom", 0.6, 245), "edges": (50, 0, 40, 40)},
      "lockup": {"variant": "stacked", "width": 450, "center": (0.5, 0.8), "shield": 2.1}},
     {"name": "libraryheader", "file": r"LIBRARY\GH_STEAM_ASSET_LIBRARYHEADER.png", "size": (920, 430),
-     "art": "WomanRanger", "at": (0.27, 0.26), "zoom": 1.05,
+     "art": "WomanRanger", "at": (0.25, 0.26), "zoom": 1.05,
      "grade": {"side": ("right", 0.62, 215), "edges": (50, 120, 30, 0)},
-     "lockup": {"variant": "stacked", "width": 370, "center": (0.715, 0.5)}},
+     "lockup": {"variant": "stacked", "width": 430, "center": (0.70, 0.5), "shield": 2.3}},
     {"name": "libraryhero", "file": r"LIBRARY\GH_STEAM_ASSET_LIBRARYHERO.png", "size": (3840, 1240),
-     "art": "DwarfWarrior", "at": (0.5, 0.5), "zoom": 0.44, "extend": "smear",
-     "grade": {"edges": (120, 140, 60, 60), "corner": (150, 0.45, 0.55)}},
+     "art": "DwarfWarrior", "at": (0.585, 0.5), "zoom": 0.40, "extend": "smear",
+     "grade": {"side": ("left", 0.5, 140), "edges": (190, 200, 60, 60), "corner": (150, 0.45, 0.55)}},
     {"name": "librarylogo", "file": r"LIBRARY\GH_STEAM_ASSET_LIBRARYLOGO.png", "size": (1280, None),
      "lockup": {"variant": "horizontal", "width": 1280, "shadow": 1.6}},
 ]
@@ -89,8 +89,14 @@ DOWNSCALES = {
     "libraryhero": [(1920, 620)],
 }
 
-# Library Logo positions that Steamworks offers over the hero
+# Library Logo positions that Steamworks offers over the hero, and the one set in Steamworks
 LOGO_POSITIONS = ("bottom_left", "top_center", "center", "bottom_center")
+LOGO_POSITION = "bottom_left"
+
+# The Library Logo as the Steam client showed it at bottom left in a 2000-pixel-wide library view
+# (November 23, 2026), as fractions of the hero: visible width, left edge, and vertical center.
+# The client shows the logo larger than the uploaded file. The other positions are estimates.
+LOGO_VIEW = {"width": 0.47, "left": 0.046, "center_y": 0.555}
 
 
 def find_cinzel(style):
@@ -114,9 +120,9 @@ def ramp(size, horizontal, func):
 def extend(src, box, mode="mirror"):
     """Returns the source padded so that box fits, and box in its coordinates.
 
-    mode "mirror" pads with mirrored art. "smear" stretches the colors of the leftmost and rightmost
-    columns sideways instead, for art whose subject would show up again in a mirrored copy, and
-    mirrors at the top and bottom. The padding is blurred.
+    mode "mirror" pads with mirrored art. "smear" stretches the colors of the outermost columns and
+    rows outward instead, for art whose subject would show up again in a mirrored copy. The padding
+    is blurred.
     """
     sw, sh = src.size
     x0, y0, x1, y1 = box
@@ -141,10 +147,17 @@ def extend(src, box, mode="mirror"):
         img.paste(strip((left, top, left + (edge if mode == "smear" else left), top + sh), (left, sh)), (0, top))
     if right:
         img.paste(strip((left + sw - (edge if mode == "smear" else right), top, left + sw, top + sh), (right, sh)), (left + sw, top))
+    def rows(region, height):
+        part = img.crop(region)
+        if mode == "smear":
+            line = part.resize((w, 1), Image.BOX).filter(ImageFilter.GaussianBlur(0.02 * w))
+            return line.resize((w, height), Image.BILINEAR)
+        return part.transpose(Image.FLIP_TOP_BOTTOM)
+
     if top:
-        img.paste(img.crop((0, top, w, 2 * top)).transpose(Image.FLIP_TOP_BOTTOM), (0, 0))
+        img.paste(rows((0, top, w, top + (edge if mode == "smear" else top)), top), (0, 0))
     if bottom:
-        img.paste(img.crop((0, top + sh - bottom, w, top + sh)).transpose(Image.FLIP_TOP_BOTTOM), (0, top + sh))
+        img.paste(rows((0, top + sh - (edge if mode == "smear" else bottom), w, top + sh), bottom), (0, top + sh))
     feather = 0.04 * sw
     blurred = img.reduce(8).filter(ImageFilter.GaussianBlur(0.025 * sw / 8)).resize((w, h), Image.BICUBIC)
     across = ramp((w, h), True, lambda t: max(left - t * w, t * w - left - sw) / feather)
@@ -153,24 +166,31 @@ def extend(src, box, mode="mirror"):
     return img, (x0 + left, y0 + top, x1 + left, y1 + top)
 
 
-def place_art(art_dir, spec):
-    """Scales the portrait in one Lanczos step onto the canvas; returns the image and the face box on it."""
-    name = spec["art"]
-    src = Image.open(os.path.join(art_dir, name + ".png")).convert("RGB")
+def art_geometry(art_dir, spec):
+    """Returns the scale, the source point at the canvas origin, and the face box on the canvas."""
+    with Image.open(os.path.join(art_dir, spec["art"] + ".png")) as src:
+        sw, sh = src.size
     w, h = spec["size"]
-    face = PORTRAITS[name]["face"]
+    face = PORTRAITS[spec["art"]]["face"]
     fx, fy = spec.get("focus", ((face[0] + face[2]) / 2, (face[1] + face[3]) / 2))
     ax, ay = spec["at"]
-    scale = spec["zoom"] * max(w / src.width, h / src.height)
+    scale = spec["zoom"] * max(w / sw, h / sh)
     if scale > 1:
         raise SystemExit(spec["name"] + ": the art would be upscaled; lower the zoom")
-    x0 = fx * src.width - ax * w / scale
-    y0 = fy * src.height - ay * h / scale
+    x0 = fx * sw - ax * w / scale
+    y0 = fy * sh - ay * h / scale
+    face_box = (round((face[0] * sw - x0) * scale), round((face[1] * sh - y0) * scale),
+                round((face[2] * sw - x0) * scale), round((face[3] * sh - y0) * scale))
+    return scale, x0, y0, face_box
+
+
+def place_art(art_dir, spec):
+    """Scales the portrait in one Lanczos step onto the canvas; returns the image and the face box on it."""
+    scale, x0, y0, face_box = art_geometry(art_dir, spec)
+    w, h = spec["size"]
+    src = Image.open(os.path.join(art_dir, spec["art"] + ".png")).convert("RGB")
     img, box = extend(src, (x0, y0, x0 + w / scale, y0 + h / scale), spec.get("extend", "mirror"))
-    out = img.resize((w, h), Image.LANCZOS, box=box)
-    face_box = tuple(round(((face[i] * (src.width if i % 2 == 0 else src.height)) - (x0 if i % 2 == 0 else y0))
-                           * scale) for i in range(4))
-    return out, face_box
+    return img.resize((w, h), Image.LANCZOS, box=box), face_box
 
 
 def grade(img, g):
@@ -404,18 +424,34 @@ def write_checks(images, faces, checks_dir, examples_dir):
     over = {}
     if "libraryhero" in images and "librarylogo" in images:
         hero, logo = images["libraryhero"], images["librarylogo"]
-        mx, my = round(hero.width * 0.04), round(hero.height * 0.08)
+        ink = logo.getchannel("A").point(lambda v: 255 if v >= 128 else 0).getbbox()
+        k = LOGO_VIEW["width"] * hero.width / (ink[2] - ink[0])
+        logo = logo.resize((round(logo.width * k), round(logo.height * k)), Image.LANCZOS)
+        ink = tuple(round(v * k) for v in ink)
+        iw, ih = ink[2] - ink[0], ink[3] - ink[1]
+        left = round(LOGO_VIEW["left"] * hero.width)
+        middle = round(LOGO_VIEW["center_y"] * hero.height)
         spots = {
-            "bottom_left": (mx, hero.height - my - logo.height),
-            "top_center": ((hero.width - logo.width) // 2, my),
-            "center": ((hero.width - logo.width) // 2, (hero.height - logo.height) // 2),
-            "bottom_center": ((hero.width - logo.width) // 2, hero.height - my - logo.height),
+            "bottom_left": (left, middle - ih // 2),
+            "top_center": ((hero.width - iw) // 2, round(hero.height * 0.12)),
+            "center": ((hero.width - iw) // 2, (hero.height - ih) // 2),
+            "bottom_center": ((hero.width - iw) // 2, middle - ih // 2),
         }
+        face = faces.get("libraryhero")
         for pos in LOGO_POSITIONS:
+            x, y = spots[pos][0] - ink[0], spots[pos][1] - ink[1]
             img = hero.convert("RGBA")
-            img.alpha_composite(logo, spots[pos])
+            full = Image.new("RGBA", img.size, (0, 0, 0, 0))
+            full.paste(logo, (x, y))
+            img.alpha_composite(full)
             over[pos] = img.convert("RGB")
             save(over[pos].resize((1920, 620), Image.LANCZOS), "logo_over_hero_%s.png" % pos)
+            if pos == LOGO_POSITION and face:
+                vis = (spots[pos][0], spots[pos][1], spots[pos][0] + iw, spots[pos][1] + ih)
+                clear = vis[2] <= face[0] or vis[0] >= face[2] or vis[3] <= face[1] or vis[1] >= face[3]
+                print("  logo %s at %s is %s the hero face %s" % (vis, pos, "clear of" if clear else "OVER", face))
+                if not clear:
+                    print("WARNING: libraryhero: the logo covers the face at " + pos)
 
     if "pagebackground" in images:
         bg = images["pagebackground"]
@@ -515,14 +551,15 @@ def main():
         raise SystemExit("These outputs exist; use --force to overwrite them:\n  " + "\n  ".join(existing))
 
     lockup = Lockup(args.gnollhack_repo)
-    images, faces = {}, {}
+    images = {}
+    faces = {a["name"]: art_geometry(args.art_dir, a)[3] for a in ASSETS if "art" in a}
     for spec in todo:
-        img, face, vis = make_asset(spec, args, lockup)
+        img, _, vis = make_asset(spec, args, lockup)
         check(spec, img)
         path = os.path.join(args.out_dir, spec["file"])
         os.makedirs(os.path.dirname(path), exist_ok=True)
         img.save(path)
-        images[spec["name"]], faces[spec["name"]] = img, face
+        images[spec["name"]] = img
         print("%-16s %-48s %dx%d %s%s" % (spec["name"], spec["file"], img.width, img.height, img.mode,
                                          "  lockup %s" % (vis,) if vis else ""))
     for spec in ASSETS:
