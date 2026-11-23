@@ -22,10 +22,12 @@
 
 | Level | Intrinsic |
 | :---: | :--- |
+| 3 | Knight jumping ♞ |
 | 7 | Speed 👟 |
 | 11 | Warning of undead ⚠️ |
-| 14 | Warning of demons ⚠️ |
+| 15 | Warning of demons ⚠️ |
 | 19 | Curse resistance 💀 |
+| 23 | Magical jumping 🦘 |
 
 ## ❤️ Hit Points and Mana
 
