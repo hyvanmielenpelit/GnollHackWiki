@@ -67,7 +67,7 @@ ASSETS = [
      "grade": {"contrast": 0.8, "saturation": 0.9, "brightness": 0.7, "blur": 2, "highlight": 150,
                "shade": STEAM_PAGE, "edges": (120, 150, 110, 110)}},
     {"name": "librarycapsule", "file": r"LIBRARY\GH_STEAM_ASSET_LIBRARYCAPSULE.png", "size": (600, 900),
-     "art": "WomanRanger", "focus": (0.43, 0.235), "at": (0.5, 0.17), "zoom": 1.0,
+     "art": "WomanRanger", "focus": (0.43, 0.235), "at": (0.535, 0.17), "zoom": 0.94,
      "grade": {"side": ("bottom", 0.6, 245), "edges": (50, 0, 40, 40)},
      "lockup": {"variant": "stacked", "width": 450, "center": (0.5, 0.8), "shield": 2.1}},
     {"name": "libraryheader", "file": r"LIBRARY\GH_STEAM_ASSET_LIBRARYHEADER.png", "size": (920, 430),

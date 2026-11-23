@@ -8,8 +8,8 @@ The images use the same style as the Steam event images: the fonts, the shield, 
 
 Collect the following before running anything:
 
-1. **Portrait folder.** Ask the user for the folder that contains the portrait PNG files. The script needs `DwarfWarrior.png` and `WomanRanger.png` from Matt Forsyth's Art Pack #1 Fantasy Character Portraits (5000×2813 pixels). Always use the PNG files, not the JPG files.
-2. **Output folder.** Ask the user where the images go. Never write over existing images without asking first.
+1. **Portrait folder.** The script needs `DwarfWarrior.png` and `WomanRanger.png` from Matt Forsyth's Art Pack #1 Fantasy Character Portraits (5000×2813 pixels). They are on Hyvän mielen pelit's shared Google Drive, in `G:\Shared drives\Hyvän mielen pelit projektit\Pictures\Matt Forsyth\Art Pack #1 Fantasy Character Portraits`. If that folder is not there, ask the user for it. Always use the PNG files, not the JPG files.
+2. **Output folder.** The current set is on the same shared drive, in `G:\Shared drives\Hyvän mielen pelit projektit\GnollHack\Steam\ASSETIT\v2`, in its `STORE` and `LIBRARY` subfolders, with a `README.txt` that names the portraits. Build into a temporary folder first, compare the new images with that set, and then copy only the changed images there. Ask the user whether to update the `v2` folder or to start a new version folder, and never write over existing images without asking first.
 3. **What to change.** Ask which images to rebuild, and whether any portrait is to be replaced. If the user names no changes, rebuild all nine.
 
 ## Valve's Rules
@@ -85,7 +85,7 @@ Tell the user to check the Page Background in the Steamworks store preview. If i
 
 ### Library Capsule
 
-The same composition as the Vertical Capsule, with a 450-pixel lockup. Check that the name is readable at 300×450.
+The same composition as the Vertical Capsule, with a 450-pixel lockup. The image is narrower, so the art is zoomed out to 94% and its focus point is moved right to 53.5% of the width: otherwise her hood touches the left edge. Leave a visible gap between the hood and the edge. Check that the name is readable at 300×450.
 
 ### Library Header
 
