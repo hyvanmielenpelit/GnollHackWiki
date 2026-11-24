@@ -81,10 +81,10 @@ See [[Races]], [[Character Classes]], and [[Difficulty Levels]].
 
 ## 🎮 Steam Deck and Game Controllers
 
-- Play the whole game with the Steam Deck's built-in controls, starting from version 3.32, or with a game controller on Windows, Linux, and macOS.
+- Play the whole game with the Steam Deck's built-in controls, starting from version 3.32, or with a game controller on Windows, Linux, macOS, Android, and iOS.
 - Radial menus put every command within reach, and a strip of button hints at the bottom of the screen always shows what each button does.
 - The controller also works in menus, settings, the in-app wiki, and the Gnoll Overseer chat.
-- Xbox controllers work on all three desktop platforms, and PlayStation controllers are also supported on macOS.
+- Xbox controllers work on all of these platforms, and PlayStation controllers are also supported on macOS, Android, and iOS. On Android and iOS, USB, Bluetooth, and clip-on controllers work.
 
 See [[Steam Deck and Controller Support|Steam Deck Controls]].
 
