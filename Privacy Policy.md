@@ -8,7 +8,7 @@ Please review the privacy policies relevant to the services you use:
 
 Our privacy policy for the GnollHack game applications covers data collection, optional features, and integrations across all supported platforms.
 
-* **[[GnollHack App Privacy Policy]]** — The primary privacy policy that covers all our applications (Android, iOS, and Modern Windows/Steam ports).
+* **[[GnollHack App Privacy Policy]]** — The primary privacy policy that covers all our applications (Android, iOS, Windows, Linux, Steam Deck, and macOS ports).
 
 ### Platform-Specific Policies
 
