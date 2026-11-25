@@ -31,6 +31,7 @@ In the platform lists, macOS means a native Mac app. Apple silicon Mac means an 
 
 | Port or Variant | Get It | Status | Audio | Price | Runs On |
 | :-- | :-: | :-: | :-: | :-- | :-- |
+| [[Amphitere|#amphitere]] | 💾 | 🧪 | 🔇 | Free | Android |
 | [[BlissHack|#blisshack]] | 💾 [[🌍|#blisshack-web-version]] | 🧪 | 🔇 | Free | Windows, macOS (Apple silicon), desktop and mobile web browsers ⚠️ |
 | [[DartHack|#darthack]] | 🏪 | 🧪 | 🔇 | Free, with ads | Android ⌨️ |
 | [[EvilHack|#evilhack]] | 💾 | 🟢 | 🔇 | Free | Windows |
@@ -101,6 +102,14 @@ A ready-to-play Windows package of vanilla NetHack 3.6.7 with music, sound effec
 - [itch.io](https://lspixel.itch.io/zeldhack-for-nethack-ready-to-play): Windows
 
 ## 💾 Install on Your Device
+
+### Amphitere
+
+🧪 **Experiment** · Free · 🔇
+
+An Android port of vanilla NetHack 5.0, built for touch screens, gamepads, and dual-screen devices, with several tile sets and an ASCII mode. You move by tapping the map and give commands from a palette of buttons, and an overlay editor lets you move nearly every on-screen element, with separate layouts for portrait and landscape. Each release also includes Amphitere Classic, which plays NetHack 3.6.7. Requires Android 13 or later. In alpha.
+
+- [GitHub](https://github.com/fancypantalons/Amphitere/releases): Android
 
 ### BlissHack
 
@@ -298,12 +307,13 @@ In each list, the projects under Most Developed Interfaces come first, then the 
 
 1. [[GnollHack|#gnollhack]]
 2. [[NetHack 3D|#nethack-3d]]
-3. [[DartHack|#darthack]] ⌨️
-4. [[NetHack 3D (web version)|#nethack-3d-web-version]] ⚠️
-5. [[NetHack Android|#nethack-android]] ⌨️ ⚠️
-6. [[NetHack Browser Edition|#nethack-browser-edition]] ⚠️
-7. [[BlissHack (web version)|#blisshack-web-version]] ⚠️
-8. [[neohack|#neohack]] ⌨️ ⚠️
+3. [[Amphitere|#amphitere]]
+4. [[DartHack|#darthack]] ⌨️
+5. [[NetHack 3D (web version)|#nethack-3d-web-version]] ⚠️
+6. [[NetHack Android|#nethack-android]] ⌨️ ⚠️
+7. [[NetHack Browser Edition|#nethack-browser-edition]] ⚠️
+8. [[BlissHack (web version)|#blisshack-web-version]] ⚠️
+9. [[neohack|#neohack]] ⌨️ ⚠️
 
 **Mac (Apple silicon)**
 
@@ -359,14 +369,15 @@ In each list, the projects under Most Developed Interfaces come first, then the 
 2. [[NAO web terminal|#nao-web-terminal]]
 3. [[NetHack 5.0 (official)|#nethack-5-0-official]]
 4. [[NetHack Cocoa|#nethack-cocoa]]
-5. [[BlissHack|#blisshack]]
-6. [[DartHack|#darthack]]
-7. [[NetHack Modern|#nethack-modern]]
-8. [[WebHack|#webhack]]
-9. [[NetHack Android|#nethack-android]] ⚠️
-10. [[neohack|#neohack]] ⚠️
-11. [[nethack.app|#nethack-app]] ⚠️
-12. [[VectHack|#vecthack]] ⚠️
+5. [[Amphitere|#amphitere]]
+6. [[BlissHack|#blisshack]]
+7. [[DartHack|#darthack]]
+8. [[NetHack Modern|#nethack-modern]]
+9. [[WebHack|#webhack]]
+10. [[NetHack Android|#nethack-android]] ⚠️
+11. [[neohack|#neohack]] ⚠️
+12. [[nethack.app|#nethack-app]] ⚠️
+13. [[VectHack|#vecthack]] ⚠️
 
 **An older version of vanilla NetHack**
 
@@ -374,8 +385,9 @@ In each list, the projects under Most Developed Interfaces come first, then the 
 2. [[iNethack2|#inethack2]] (NetHack 3.6.7)
 3. [[NAO web terminal|#nao-web-terminal]] (NetHack 3.6)
 4. [[ZeldHack for NetHack|#zeldhack-for-nethack]] (NetHack 3.6.7)
-5. [[VoxHack|#voxhack]] (NetHack 3.7)
-6. [[NetHack Browser Edition|#nethack-browser-edition]] (NetHack 3.6.7) ⚠️
+5. [[Amphitere|#amphitere]] (Amphitere Classic, NetHack 3.6.7)
+6. [[VoxHack|#voxhack]] (NetHack 3.7)
+7. [[NetHack Browser Edition|#nethack-browser-edition]] (NetHack 3.6.7) ⚠️
 
 **A NetHack variant**
 
