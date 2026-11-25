@@ -22,9 +22,9 @@ In the platform lists, macOS means a native Mac app. Apple silicon Mac means an 
 | 🔴 | **Unmaintained**: No update in over two years. Such ports are listed only in the closing section. |
 | 🎵 | Has both sound effects and music. |
 | 🔇 | Has only sound effects, only music, a few sound cues, or no audio at all. |
-| ⚠️ | Saved games can be lost: Safari can delete browser saves, as explained under [[Play in a Web Browser|#play-in-a-web-browser]], and NetHack Android can leave a save file that cannot be loaded; see [[NetHack Android|#nethack-android]]. In the At a Glance table, it follows the affected platform. |
-| 📱 | Runs on a Mac with Apple silicon only as the iPhone and iPad app, not as a native Mac app. In the At a Glance table, it follows the affected platform. |
-| ⌨️ | Not a full mobile port: On a phone or tablet, it shows an on-screen keypad for moving, or uses an on-screen keyboard for commands. Mobile ports without this icon are played by touch alone: You move by tapping the map and give commands from menus and buttons. In the At a Glance table, it follows the affected platform. |
+| 📱 | Runs on a Mac with Apple silicon only as the iPhone and iPad app, not as a native Mac app. It follows the audio icon in an entry, and the affected platform in the At a Glance table. |
+| ⌨️ | Not a full mobile port: On a phone or tablet, it shows an on-screen keypad for moving, or uses an on-screen keyboard for commands. Mobile ports without this icon are played by touch alone: You move by tapping the map and give commands from menus and buttons. It follows the audio icon in an entry, and the affected platform in the At a Glance table. |
+| ⚠️ | Saved games can be lost: Safari can delete browser saves, as explained under [[Play in a Web Browser|#play-in-a-web-browser]], and NetHack Android can leave a save file that cannot be loaded; see [[NetHack Android|#nethack-android]]. It follows the audio icon in an entry, and the affected platform in the At a Glance table. |
 
 ## 📋 At a Glance
 
@@ -57,7 +57,7 @@ In the platform lists, macOS means a native Mac app. Apple silicon Mac means an 
 
 ### DartHack
 
-🧪 **Experiment** · Free, with ads · 🔇
+🧪 **Experiment** · Free, with ads · 🔇 · ⌨️
 
 A touch-optimized Android port of vanilla NetHack 5.0 with support for custom tile sets, and English and Japanese text. Its customizable virtual gamepad is an on-screen direction pad with a shortcut keypad, shown by default, which can be switched to a full on-screen keyboard.
 
@@ -76,7 +76,7 @@ A NetHack variant with an animated, high-resolution 2D interface, voice acting, 
 
 ### iNethack2
 
-🟡 Maintained · Free · 🔇
+🟡 Maintained · Free · 🔇 · 📱 ⌨️
 
 An iOS port of vanilla NetHack 3.6.7 with several tile sets and an ASCII mode. You move by tapping the map, and commands come from a shortcut bar and from the iOS keyboard, which the bar opens; a direction keypad appears when the game asks for a direction. It has no native macOS version; on a Mac with Apple silicon, it runs as the iPhone and iPad app. Last updated in March 2025.
 
@@ -136,7 +136,7 @@ The NetHack DevTeam's current release, published in May 2026. The Windows downlo
 
 ### NetHack Android
 
-🟢 **In active development** · Free · 🔇
+🟢 **In active development** · Free · 🔇 · ⌨️ ⚠️
 
 A NetHack 5.0 update of the long-standing Android port of vanilla NetHack, with tile graphics. You move by tapping the map, and commands come from a row of buttons and from an on-screen keyboard that the row opens; a direction keypad appears when the game asks for a direction. Distributed as APK files.
 
@@ -190,7 +190,7 @@ A NetHack variant that refines and expands the vanilla game. The Windows downloa
 
 ### BlissHack (web version)
 
-🧪 **Experiment** · Free · 🔇
+🧪 **Experiment** · Free · 🔇 · ⚠️
 
 The browser version of [[BlissHack|#blisshack]]. It plays vanilla NetHack 5.0 with tiles, and there is nothing to install. On a phone, you move by tapping the map and give commands from its action bar. Saves are kept in the browser, and a save can be exported to a file and imported again.
 
@@ -214,7 +214,7 @@ Browser play on the nethack.alt.org (NAO) public server, with vanilla NetHack 5.
 
 ### neohack
 
-🧪 **Experiment** · Free · 🔇
+🧪 **Experiment** · Free · 🔇 · ⌨️ ⚠️
 
 Vanilla NetHack 5.0 in the web browser, drawn with animated pixel-art sprites, with a switch to classic NetHack symbols and touch controls for phones, which include an on-screen keypad for moving. It adds a few helpers that vanilla NetHack does not have, such as auto-explore and clicking a square to walk there, and AI agents and player-written bots can play it too. It can be installed as a web app for offline play. Saves are kept in the browser, and the game can also keep a copy on its server. In alpha.
 
@@ -222,7 +222,7 @@ Vanilla NetHack 5.0 in the web browser, drawn with animated pixel-art sprites, w
 
 ### NetHack 3D (web version)
 
-⭐ 🟢 **In active development** · Free · 🔇
+⭐ 🟢 **In active development** · Free · 🔇 · ⚠️
 
 The browser version of [[NetHack 3D|#nethack-3d]]. It plays vanilla NetHack 5.0, NetHack 3.6.7, or SLASH'EM in 3D without installing anything. On a phone or tablet, you move by tapping or swiping the map and give commands from a bar of buttons and an action menu. Saves are kept in the browser, and the save settings can export each save to a file and import it again.
 
@@ -230,7 +230,7 @@ The browser version of [[NetHack 3D|#nethack-3d]]. It plays vanilla NetHack 5.0,
 
 ### NetHack Browser Edition
 
-🟡 Maintained · Free · 🔇
+🟡 Maintained · Free · 🔇 · ⚠️
 
 Vanilla NetHack 3.6.7 in the web browser, with several tile sets and a text mode. It has a few sound effects but no music. The site is made for desktop play and calls its mobile version a limited preview, but a phone can play it by touch: You move by tapping the map and give commands from a drawer of buttons. Saves are kept in the browser unless you sign in with a Google account to use cloud saves, and a save can be exported to a file.
 
@@ -238,7 +238,7 @@ Vanilla NetHack 3.6.7 in the web browser, with several tile sets and a text mode
 
 ### nethack.app
 
-🧪 **Experiment** · Free · 🔇
+🧪 **Experiment** · Free · 🔇 · ⚠️
 
 An unofficial web port of vanilla NetHack 5.0 with the layout of NetHack Cocoa and a choice of painted 64-pixel tiles, the classic tiles, or ASCII. On a tablet held sideways, it can be played by touch alone, but phones are not supported. It works offline once loaded, and offline games are kept only in the browser, with no backup. An online mode, in beta, keeps your games on its server, available across devices once you sign in, and adds them to public high scores.
 
@@ -246,7 +246,7 @@ An unofficial web port of vanilla NetHack 5.0 with the layout of NetHack Cocoa a
 
 ### VectHack
 
-🧪 **Experiment** · Free · 🔇
+🧪 **Experiment** · Free · 🔇 · ⚠️
 
 Vanilla NetHack 5.0 in the web browser, drawn as glowing arcade vector graphics: monsters are rotating letterforms and dungeons are wireframe geometry, seen through an orbital or a first-person camera. The same site also plays Angband, Larn, and Moria. It is played with a keyboard and has no touch controls, so on a phone or tablet it can only show the game playing itself. Saves are kept in the browser, one per game, and the Saves button downloads a copy.
 
