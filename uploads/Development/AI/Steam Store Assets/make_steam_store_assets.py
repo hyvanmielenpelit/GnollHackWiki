@@ -6,6 +6,7 @@ background, and a contact sheet) into --checks-dir. The tables PORTRAITS and ASS
 set the art, crop, grading and lockup of every image.
 
 Instructions: https://wiki.gnollhack.com/Development/AI/Steam%20Store%20Assets
+Also loaded as a module by ..\\Google Play Store Assets\\make_google_play_assets.py.
 
 Usage:
     python make_steam_store_assets.py --art-dir <portrait folder> --out-dir <output folder>

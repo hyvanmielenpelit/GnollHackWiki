@@ -1,4 +1,4 @@
-> 👉 **AI agents that assist with the development and release of GnollHack follow written instructions for five recurring tasks: Steam patch notes, Steam events, Steam store and library images, the scan of graphical NetHack ports, and the analysis of website traffic.**
+> 👉 **AI agents that assist with the development and release of GnollHack follow written instructions for six recurring tasks: Steam patch notes, Steam events, Steam store and library images, the Google Play feature graphic, the scan of graphical NetHack ports, and the analysis of website traffic.**
 
 Each instruction page tells an AI agent, step by step, how to carry out one recurring task. To start a task, copy its prompt from [[Copiable Prompts|#copiable-prompts]], fill in the bracketed parts, and paste it to your AI agent. The agent needs access to the GnollHackWiki repository, and for some tasks also to the GnollHack repository.
 
@@ -9,6 +9,7 @@ Each instruction page tells an AI agent, step by step, how to carry out one recu
 | [[/Development/AI/Steam Patch Notes]] | A title and a BBCode list of changes for a Steam patch notes post, based on a GitHub release |
 | [[/Development/AI/Steam Events and Announcements]] | The event type, title, subtitle, summary, and BBCode body for a Steam event, and its 800×450 cover image and 1920×622 header image |
 | [[/Development/AI/Steam Store Assets]] | The nine Steam store and library images as PNG files, made with the generator script, and check images |
+| [[/Development/AI/Google Play Store Assets]] | The Google Play feature graphic as a PNG file, made with the generator script, and check images |
 | [[/Development/AI/Graphical NetHack Ports Scan]] | An updated [[/Graphical NetHack Ports and Variants]] page, with new projects added, statuses and save risks rechecked, and the last web scan date set, and a report of the changes and their sources |
 | [[/Development/AI/Website Traffic Analysis]] | A report on the visitors of wiki.gnollhack.com, gnollhack.com, and account.gnollhack.com for a date range: data quality, automated traffic, audience, acquisition, behavior, the account registration funnel, and recommendations for marketing, content, and tracking |
 
@@ -41,6 +42,16 @@ Please create new Steam store and library images for GnollHack. Use the process 
 ```
 
 The agent asks before writing over existing images. You upload the images yourself in Steamworks.
+
+### 📱 Google Play Store Assets
+
+Replace the first placeholder with the folder that contains the portrait PNG files. Describe what to change in place of the second placeholder, or delete that sentence to rebuild the image as it is:
+
+```text
+Please create a new Google Play feature graphic for GnollHack. Use the process detailed in "Development/AI/Google Play Store Assets.md" in the GnollHackWiki repository. Portraits: [PATH TO THE PORTRAIT FOLDER]. Changes: [WHAT TO CHANGE, OR DELETE THIS SENTENCE].
+```
+
+The agent asks before writing over an existing image. You upload the image and its alt text yourself in Play Console.
 
 ### 🔍 Graphical NetHack Ports Scan
 

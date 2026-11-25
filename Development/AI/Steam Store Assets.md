@@ -2,7 +2,7 @@ The copiable prompt for these instructions is on the [[/Development/AI Instructi
 
 These instructions describe how to create GnollHack's Steam store and library images: the nine images that Steam shows on the store page, in store lists, and in the Steam library. A Python script in this wiki makes all of them from two character portraits. The result is nine image files for the user to upload in Steamworks. Never upload or publish anything on Steam yourself.
 
-The images use the same style as the Steam event images: the fonts, the shield, the gold colors, and the grading are described in [[/Development/AI/Steam Events and Announcements]]. This page covers only what differs for store and library images.
+The images use the same style as the Steam event images: the fonts, the shield, the gold colors, and the grading are described in [[/Development/AI/Steam Events and Announcements]]. This page covers only what differs for store and library images. The Google Play feature graphic uses the same style and the same code: see [[/Development/AI/Google Play Store Assets]].
 
 ## Inputs to Collect
 
