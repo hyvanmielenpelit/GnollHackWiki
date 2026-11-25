@@ -24,6 +24,7 @@ In the platform lists, macOS means a native Mac app. Apple silicon Mac means an 
 | 🔇 | Has only sound effects, only music, a few sound cues, or no audio at all. |
 | 📱 | Runs on a Mac with Apple silicon only as the iPhone and iPad app, not as a native Mac app. It follows the audio icon in an entry, and the affected platform in the At a Glance table. |
 | ⌨️ | Not a full mobile port: On a phone or tablet, it shows an on-screen keypad for moving, or uses an on-screen keyboard for commands. Mobile ports without this icon are played by touch alone: You move by tapping the map and give commands from menus and buttons. It follows the audio icon in an entry, and the affected platform in the At a Glance table. |
+| 🖥️ | Desktop only: A browser version that is played with a keyboard or mouse and has no touch controls for phones or tablets. It follows the audio icon in an entry, and the affected platform in the At a Glance table. |
 | ⚠️ | Saved games can be lost: Safari can delete browser saves, as explained under [[Play in a Web Browser|#play-in-a-web-browser]], and NetHack Android can leave a save file that cannot be loaded; see [[NetHack Android|#nethack-android]]. It follows the audio icon in an entry, and the affected platform in the At a Glance table. |
 
 ## 📋 At a Glance
@@ -34,9 +35,9 @@ In the platform lists, macOS means a native Mac app. Apple silicon Mac means an 
 | [[DartHack|#darthack]] | 🏪 | 🧪 | 🔇 | Free, with ads | Android ⌨️ |
 | [[EvilHack|#evilhack]] | 💾 | 🟢 | 🔇 | Free | Windows |
 | [[GnollHack|#gnollhack]] ⭐ | 🏪 💾 | 🟢 | 🎵 | Free | Windows, macOS, Linux, Steam Deck, Android, iPhone, iPad |
-| [[Hardfought web terminal|#hardfought-web-terminal]] | 🌍 | 🟢 | 🔇 | Free | Desktop web browsers |
+| [[Hardfought web terminal|#hardfought-web-terminal]] | 🌍 | 🟢 | 🔇 | Free | Desktop web browsers 🖥️ |
 | [[iNethack2|#inethack2]] | 🏪 | 🟡 | 🔇 | Free | iPhone ⌨️, iPad ⌨️, Apple silicon Mac 📱 |
-| [[NAO web terminal|#nao-web-terminal]] | 🌍 | 🟢 | 🔇 | Free | Desktop web browsers |
+| [[NAO web terminal|#nao-web-terminal]] | 🌍 | 🟢 | 🔇 | Free | Desktop web browsers 🖥️ |
 | [[neohack|#neohack]] | 🌍 | 🧪 | 🔇 | Free | Desktop and mobile web browsers ⌨️ ⚠️ |
 | [[NetHack 3D|#nethack-3d]] ⭐ | 💾 [[🌍|#nethack-3d-web-version]] | 🟢 | 🔇 | Free | Windows, macOS, Linux, Steam Deck, Android, Meta Quest, desktop and mobile web browsers ⚠️ |
 | [[NetHack 5.0 (official)|#nethack-5-0-official]] | 💾 | 🟢 | 🔇 | Free | Windows, MS-DOS |
@@ -47,9 +48,9 @@ In the platform lists, macOS means a native Mac app. Apple silicon Mac means an 
 | [[NetHack Tiles Client|#nethack-tiles-client]] | 💾 | 🧪 | 🔇 | Free | Windows, macOS, Linux |
 | [[nethack.app|#nethack-app]] | 🌍 | 🧪 | 🔇 | Free | Desktop web browsers, tablets held sideways ⚠️ |
 | [[NetHackJP|#nethackjp]] | 💾 | 🧪 | 🔇 | Free | Windows, Linux |
-| [[VectHack|#vecthack]] | 🌍 | 🧪 | 🔇 | Free | Desktop web browsers ⚠️ |
+| [[VectHack|#vecthack]] | 🌍 | 🧪 | 🔇 | Free | Desktop web browsers 🖥️ ⚠️ |
 | [[VoxHack|#voxhack]] | 🏪 💾 | 🧪 | 🎵 | Free, or pay what you want | Windows |
-| [[WebHack|#webhack]] | 🌍 | 🧪 | 🔇 | Free | Desktop web browsers |
+| [[WebHack|#webhack]] | 🌍 | 🧪 | 🔇 | Free | Desktop web browsers 🖥️ |
 | [[xNetHack|#xnethack]] | 💾 | 🟢 | 🔇 | Free | Windows |
 | [[ZeldHack for NetHack|#zeldhack-for-nethack]] | 🏪 | 🟡 | 🎵 | Free | Windows |
 
@@ -198,7 +199,7 @@ The browser version of [[BlissHack|#blisshack]]. It plays vanilla NetHack 5.0 wi
 
 ### Hardfought web terminal
 
-🟢 **In active development** · Free · 🔇
+🟢 **In active development** · Free · 🔇 · 🖥️
 
 Browser play on the Hardfought public servers in North America, Europe, and Australia. Tiles are available for several variants, including xNetHack, EvilHack, SpliceHack, and UnNetHack, when `OPTIONS=vt_tiledata` is set in the options file. It is a terminal played with a keyboard, with no touch controls. Requires a free account.
 
@@ -206,7 +207,7 @@ Browser play on the Hardfought public servers in North America, Europe, and Aust
 
 ### NAO web terminal
 
-🟢 **In active development** · Free · 🔇
+🟢 **In active development** · Free · 🔇 · 🖥️
 
 Browser play on the nethack.alt.org (NAO) public server, with vanilla NetHack 5.0 and 3.6 and a choice of tile sets. It is a terminal played with a keyboard, with no touch controls. Requires a free account.
 
@@ -246,7 +247,7 @@ An unofficial web port of vanilla NetHack 5.0 with the layout of NetHack Cocoa a
 
 ### VectHack
 
-🧪 **Experiment** · Free · 🔇 · ⚠️
+🧪 **Experiment** · Free · 🔇 · 🖥️ ⚠️
 
 Vanilla NetHack 5.0 in the web browser, drawn as glowing arcade vector graphics: monsters are rotating letterforms and dungeons are wireframe geometry, seen through an orbital or a first-person camera. The same site also plays Angband, Larn, and Moria. It is played with a keyboard and has no touch controls, so on a phone or tablet it can only show the game playing itself. Saves are kept in the browser, one per game, and the Saves button downloads a copy.
 
@@ -254,7 +255,7 @@ Vanilla NetHack 5.0 in the web browser, drawn as glowing arcade vector graphics:
 
 ### WebHack
 
-🧪 **Experiment** · Free · 🔇
+🧪 **Experiment** · Free · 🔇 · 🖥️
 
 A browser interface for vanilla NetHack 5.0 that reinterprets the classic ASCII art in first-person 3D. It is played with a keyboard, with no touch controls. The games run on its own server, which keeps a global high score ladder. In open beta.
 
@@ -280,7 +281,7 @@ Counting only the work on the graphical interface itself, not gameplay changes o
 
 ## 💡 Which One to Pick?
 
-In each list, the projects under Most Developed Interfaces come first, then the other established projects, then the experiments. Projects marked 📱, which run on a Mac only as the iPhone and iPad app, and projects marked ⌨️, which use an on-screen keypad or keyboard on a phone or tablet, come after them, and projects marked ⚠️, whose saved games can be lost, come last, each in that same order.
+In each list, the projects under Most Developed Interfaces come first, then the other established projects, then the experiments. Projects marked 📱, which run on a Mac only as the iPhone and iPad app, and projects marked ⌨️, which use an on-screen keypad or keyboard on a phone or tablet, come after them, and projects marked ⚠️, whose saved games can be lost, come last, each in that same order. In the web browser list, 🖥️ marks a version that needs a desktop computer; it does not change the order.
 
 ### By Device
 
@@ -342,13 +343,13 @@ In each list, the projects under Most Developed Interfaces come first, then the 
 
 **Web browser, with nothing to install**
 
-1. [[WebHack|#webhack]]
+1. [[WebHack|#webhack]] 🖥️
 2. [[NetHack 3D (web version)|#nethack-3d-web-version]] ⚠️
 3. [[NetHack Browser Edition|#nethack-browser-edition]] ⚠️
 4. [[BlissHack (web version)|#blisshack-web-version]] ⚠️
 5. [[neohack|#neohack]] ⚠️
 6. [[nethack.app|#nethack-app]] ⚠️
-7. [[VectHack|#vecthack]] ⚠️
+7. [[VectHack|#vecthack]] 🖥️ ⚠️
 
 ### By Game and Language
 
