@@ -43,7 +43,7 @@ PORTRAITS = {
 #   art: portrait file name without .png; focus: source point (fractions, default the face center)
 #   that lands at canvas point "at"; zoom: scale relative to the smallest scale that covers the canvas.
 #   Art that does not cover the canvas is extended with mirrored, blurred art.
-#   grade: see grade(). lockup: variant "horizontal" or "stacked", visible width in px,
+#   grade: see grade(). lockup: variant "horizontal", "stacked" or "name" (no shield), visible width in px,
 #   and the center of the visible lockup as canvas fractions; over_face allows it over the face.
 ASSETS = [
     {"name": "storeheader", "file": r"STORE\GH_STEAM_ASSET_STOREHEADER.png", "size": (920, 430),
@@ -53,7 +53,7 @@ ASSETS = [
     {"name": "smallcapsule", "file": r"STORE\GH_STEAM_ASSET_STORE_SMALLCAPSULE.png", "size": (462, 174),
      "art": "DwarfWarrior", "at": (0.62, 0.45), "zoom": 1.0,
      "grade": {"brightness": 0.36, "blur": 1.5, "edges": (40, 60, 40, 40)},
-     "lockup": {"variant": "horizontal", "width": 406, "center": (0.5, 0.5), "shield": 1.25, "over_face": True}},
+     "lockup": {"variant": "name", "width": 410, "center": (0.5, 0.5), "over_face": True}},
     {"name": "maincapsule", "file": r"STORE\GH_STEAM_ASSET_STORE_MAINCAPSULE.png", "size": (1232, 706),
      "art": "WomanRanger", "at": (0.25, 0.26), "zoom": 1.05,
      "grade": {"side": ("right", 0.62, 215), "edges": (50, 120, 30, 0)},
@@ -237,7 +237,7 @@ def grade(img, g):
 
 
 class Lockup:
-    """The GnollHack shield and the gold game name, rendered on a transparent layer."""
+    """The GnollHack shield and the gold game name, or the name alone, rendered on a transparent layer."""
 
     def __init__(self, gnollhack_repo):
         self.font_path = find_cinzel("Black")
@@ -251,6 +251,15 @@ class Lockup:
 
         width is the visible width in px; shield is the shield height per px of font size.
         """
+        if variant == "name":
+            size = int(width / self.name_width)
+            fnt = ImageFont.truetype(self.font_path, size)
+            bb = fnt.getbbox(GAME_NAME)
+            tw, th = bb[2] - bb[0], bb[3] - bb[1]
+            pad = round(size * 0.6 * shadow)
+            layer = Image.new("RGBA", (tw + 2 * pad, th + 2 * pad), (0, 0, 0, 0))
+            self._name(layer, fnt, pad - bb[0], pad - bb[1], size, shadow)
+            return layer, (pad, pad, pad + tw, pad + th)
         aspect = self.shield.width / self.shield.height
         if variant == "horizontal":
             shield = shield or 1.5

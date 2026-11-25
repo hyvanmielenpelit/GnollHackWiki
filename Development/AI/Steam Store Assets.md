@@ -36,9 +36,10 @@ Rules for all of them:
 
 Follow the style of [[/Development/AI/Steam Events and Announcements]], with these differences:
 
-- **Lockup.** The shield and the game name together. The name is "GnollHack" in **Cinzel Black** (Cinzel draws the lowercase letters as small capitals), with the gold gradient, a soft warm glow, and a soft dark drop shadow. The shield gets a soft drop shadow. There are two variants:
-  - **Horizontal:** The shield on the left, the name on the right, centered on the shield. Used for the Small Capsule and the Library Logo.
+- **Lockup.** The shield and the game name together. The name is "GnollHack" in **Cinzel Black** (Cinzel draws the lowercase letters as small capitals), with the gold gradient, a soft warm glow, and a soft dark drop shadow. The shield gets a soft drop shadow. There are three variants:
+  - **Horizontal:** The shield on the left, the name on the right, centered on the shield. Used for the Library Logo.
   - **Stacked:** The shield above the name, centered. Used for the Header Capsule, the Main and Vertical Capsules, the Library Capsule, and the Library Header.
+  - **Name:** The name alone, without the shield. Used for the Small Capsule.
 - **Shield file.** The GnollHack repository's `win/win32/xpl/GnollHackM/Assets/AppIcon/gnollhack-icon-v2-512-1240_x_1240.png`. It is the same shield as the event images' logo file, at 1171×1160 visible pixels, so it is never upscaled.
 - **Name size.** Make the name as large as the art and the margins allow. Players see most capsules at a fraction of their uploaded size, and the name is what they need to read and remember. In a stacked lockup, the name sets the width, so a smaller shield makes the lockup shorter without making the name smaller.
 - **No taglines.** The name is the only text on any image.
@@ -61,7 +62,7 @@ DwarfWarrior, with his face at 76% of the width and the art at the size that cov
 
 ### Small Capsule
 
-DwarfWarrior as a background texture only: brightness ×0.36 and a 1.5-pixel blur, so that the art does not compete with the name. The horizontal lockup spans 88% of the width (406 pixels) and is centered. The shield is smaller in relation to the name than in the other lockups (1.25 times the font size), so that the name can be as large as possible. Check that the name is readable at 120×45. If it is not, leave the shield out.
+DwarfWarrior as a background texture only: brightness ×0.36 and a 1.5-pixel blur, so that the art does not compete with the name. The name lockup, without the shield, is centered and spans 410 pixels, as wide as the 5% margins allow. At 120×45, a shield would be about 12 pixels tall and unrecognizable, and it would take a quarter of the width from the name. Check that the name is readable at 120×45.
 
 ### Main Capsule
 
@@ -168,7 +169,7 @@ Two tables at the top of the script set every image, so a change of portrait or 
 | **`zoom`** | The art's scale in relation to the smallest scale that covers the image. Below 1, the art is extended at the sides |
 | **`extend`** | How the art is extended: `mirror` (the default) or `smear`, which stretches the outermost columns and rows outward |
 | **`grade`** | Contrast, saturation, brightness, blur, highlight compression, the darkened side, and the darkened edges and corner |
-| **`lockup`** | The variant (`horizontal` or `stacked`), the visible width in pixels, the center as fractions of the image, and optionally the shield size in relation to the font size and the shadow strength |
+| **`lockup`** | The variant (`horizontal`, `stacked`, or `name`), the visible width in pixels, the center as fractions of the image, and optionally the shield size in relation to the font size and the shadow strength |
 
 The script stops if a portrait would be upscaled. It checks the size and color mode of every image it writes, and it prints a warning when:
 
