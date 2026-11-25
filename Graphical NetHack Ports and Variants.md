@@ -135,6 +135,8 @@ The NetHack DevTeam's current release, published in May 2026. The Windows downlo
 
 A NetHack 5.0 update of the long-standing Android port of vanilla NetHack, with tile graphics. Distributed as APK files.
 
+> ⚠️ **Warning:** Android can close an app in the background at any time, and this port writes its save file in place. If Android closes it in the middle of saving, the save file is cut short and cannot be loaded; players have lost games this way, and the original port by gurrhack has the same problem. The developer recommends setting the app's battery usage to Unrestricted in Android's app settings. The update also keeps a copy of the save, made when the game was last loaded, with the `.bak` extension.
+
 - [GitHub](https://github.com/JodiJodington/NetHack-Android/releases): Android
 
 ### NetHack Cocoa
@@ -179,11 +181,13 @@ A NetHack variant that refines and expands the vanilla game. The Windows downloa
 
 ## 🌍 Play in a Web Browser
 
+> ⚠️ **Warning:** Most of these ports keep your saved games only in the browser's own storage on your device. Safari, on iPhone, iPad, and Mac, deletes everything a site has stored after seven days of Safari use without you playing on that site, saved games included. A site added to the Home Screen on iPhone or iPad, or to the Dock on a Mac, and opened from there is exempt, but it does not see the saves made in a Safari tab. Other iPhone and iPad browsers use Safari's engine and may delete data the same way. In any browser, clearing the site's data deletes the saves, so export them where the port allows it. The Hardfought and NAO web terminals and WebHack keep games on their servers and are not affected.
+
 ### BlissHack (web version)
 
 🧪 **Experiment** · Free · 🔇
 
-The browser version of [[BlissHack|#blisshack]]. It plays vanilla NetHack 5.0 with tiles, and there is nothing to install.
+The browser version of [[BlissHack|#blisshack]]. It plays vanilla NetHack 5.0 with tiles, and there is nothing to install. Saves are kept in the browser, and a save can be exported to a file and imported again.
 
 - [BlissHack](https://lightmain.github.io/BlissHack/): Web browsers
 
@@ -207,7 +211,7 @@ Browser play on the nethack.alt.org (NAO) public server, with vanilla NetHack 5.
 
 🧪 **Experiment** · Free · 🔇
 
-Vanilla NetHack 5.0 in the web browser, drawn with animated pixel-art sprites, with a switch to classic NetHack symbols and touch controls for phones. It adds a few helpers that vanilla NetHack does not have, such as auto-explore and clicking a square to walk there, and AI agents and player-written bots can play it too. It can be installed as a web app for offline play. In alpha.
+Vanilla NetHack 5.0 in the web browser, drawn with animated pixel-art sprites, with a switch to classic NetHack symbols and touch controls for phones. It adds a few helpers that vanilla NetHack does not have, such as auto-explore and clicking a square to walk there, and AI agents and player-written bots can play it too. It can be installed as a web app for offline play. Saves are kept in the browser, and the game can also keep a copy on its server. In alpha.
 
 - [neohack.dev](https://neohack.dev/): Desktop and mobile web browsers
 
@@ -215,7 +219,7 @@ Vanilla NetHack 5.0 in the web browser, drawn with animated pixel-art sprites, w
 
 ⭐ 🟢 **In active development** · Free · 🔇
 
-The browser version of [[NetHack 3D|#nethack-3d]]. It plays vanilla NetHack 5.0, NetHack 3.6.7, or SLASH'EM in 3D without installing anything.
+The browser version of [[NetHack 3D|#nethack-3d]]. It plays vanilla NetHack 5.0, NetHack 3.6.7, or SLASH'EM in 3D without installing anything. Saves are kept in the browser, and the save settings can export each save to a file and import it again.
 
 - [NetHack 3D](https://jamesiv4.github.io/nethack-3d/): Web browsers, including mobile
 
@@ -223,7 +227,7 @@ The browser version of [[NetHack 3D|#nethack-3d]]. It plays vanilla NetHack 5.0,
 
 🟡 Maintained · Free · 🔇
 
-Vanilla NetHack 3.6.7 in the web browser, with several tile sets, a text mode, and optional cloud saves. It has a few sound effects but no music.
+Vanilla NetHack 3.6.7 in the web browser, with several tile sets and a text mode. It has a few sound effects but no music. Saves are kept in the browser unless you sign in with a Google account to use cloud saves, and a save can be exported to a file.
 
 - [roguelike.run](https://roguelike.run/): Desktop and mobile web browsers
 
@@ -231,7 +235,7 @@ Vanilla NetHack 3.6.7 in the web browser, with several tile sets, a text mode, a
 
 🧪 **Experiment** · Free · 🔇
 
-An unofficial web port of vanilla NetHack 5.0 with the layout of NetHack Cocoa and a choice of painted 64-pixel tiles, the classic tiles, or ASCII. It works offline once loaded, and an online mode, in beta, keeps your games available across devices and adds them to public high scores.
+An unofficial web port of vanilla NetHack 5.0 with the layout of NetHack Cocoa and a choice of painted 64-pixel tiles, the classic tiles, or ASCII. It works offline once loaded, and offline games are kept only in the browser, with no backup. An online mode, in beta, keeps your games on its server, available across devices once you sign in, and adds them to public high scores.
 
 - [nethack.app](https://nethack.app/offline/): Web browsers
 
@@ -239,7 +243,7 @@ An unofficial web port of vanilla NetHack 5.0 with the layout of NetHack Cocoa a
 
 🧪 **Experiment** · Free · 🔇
 
-Vanilla NetHack 5.0 in the web browser, drawn as glowing arcade vector graphics: monsters are rotating letterforms and dungeons are wireframe geometry, seen through an orbital or a first-person camera. The same site also plays Angband, Larn, and Moria.
+Vanilla NetHack 5.0 in the web browser, drawn as glowing arcade vector graphics: monsters are rotating letterforms and dungeons are wireframe geometry, seen through an orbital or a first-person camera. The same site also plays Angband, Larn, and Moria. Saves are kept in the browser, one per game, and the Saves button downloads a copy.
 
 - [vecthack.net](https://vecthack.net/): Web browsers
 
