@@ -297,6 +297,28 @@ In each list, the projects under Most Developed Interfaces come first, then the 
 4. [[NetHack Cocoa|#nethack-cocoa]]
 5. [[BlissHack|#blisshack]]
 
+**Windows PC**
+
+1. [[GnollHack|#gnollhack]]
+2. [[NetHack 3D|#nethack-3d]]
+3. [[EvilHack|#evilhack]]
+4. [[NetHack 5.0 (official)|#nethack-5-0-official]]
+5. [[xNetHack|#xnethack]]
+6. [[ZeldHack for NetHack|#zeldhack-for-nethack]]
+7. [[BlissHack|#blisshack]]
+8. [[NetHack Modern|#nethack-modern]]
+9. [[NetHack Tiles Client|#nethack-tiles-client]]
+10. [[NetHackJP|#nethackjp]]
+11. [[VoxHack|#voxhack]]
+
+**Linux PC**
+
+1. [[GnollHack|#gnollhack]]
+2. [[NetHack 3D|#nethack-3d]]
+3. [[NetHack Modern|#nethack-modern]]
+4. [[NetHack Tiles Client|#nethack-tiles-client]]
+5. [[NetHackJP|#nethackjp]]
+
 **Steam Deck**
 
 1. [[GnollHack|#gnollhack]]
@@ -328,6 +350,15 @@ In each list, the projects under Most Developed Interfaces come first, then the 
 10. [[nethack.app|#nethack-app]]
 11. [[VectHack|#vecthack]]
 12. [[WebHack|#webhack]]
+
+**An older version of vanilla NetHack**
+
+1. [[NetHack 3D|#nethack-3d]] (NetHack 3.6.7)
+2. [[iNethack2|#inethack2]] (NetHack 3.6.7)
+3. [[NAO web terminal|#nao-web-terminal]] (NetHack 3.6)
+4. [[NetHack Browser Edition|#nethack-browser-edition]] (NetHack 3.6.7)
+5. [[ZeldHack for NetHack|#zeldhack-for-nethack]] (NetHack 3.6.7)
+6. [[VoxHack|#voxhack]] (NetHack 3.7)
 
 **A NetHack variant**
 
