@@ -41,6 +41,19 @@ Decide each project's status from the facts on the scan date. Evaluate the rows 
 - A project that returns from the closing table is evaluated like any other.
 - In an entry's first line, the status is the icon copied from the page's "Icons Used on This Page" table, followed by the status name: bold for In active development and Experiment, plain for Maintained. In the At a Glance table, the Status and Audio cells hold the icon only. Copy the exact form of an existing entry. In the closing table, copy the form of the existing Unmaintained rows, including their icon.
 
+## Save Risk
+
+The ⚠️ icon marks a version of a project whose saved games can be lost. Two risks are marked:
+
+1. **Browser saves.** A browser version that keeps saved games in the browser's own storage on the player's device, such as IndexedDB, localStorage, Emscripten IDBFS, or the origin private file system, is marked, even when it also offers cloud saves or a copy on its server. Safari deletes all of a site's stored data after seven days of Safari use without interaction on the site, unless the site was opened from the Home Screen or the Dock. A browser version whose games run on, and are saved on, its own server, such as WebHack and the Hardfought and NAO web terminals, is not marked.
+   - Find where the saves are kept from the site's own text and settings, and from the source code where it is public: search the repository for `IDBFS`, `indexedDB`, `localStorage`, `syncfs`, and `navigator.storage.persist`. Without public source, search the site's deployed JavaScript files for the same names.
+   - Note whether the version can export a save to a file, or offers cloud saves, so that its entry can say so.
+2. **Saves cut short on Android.** An Android build is marked when its own pages, its developer, or reports in its issue tracker say that a save could not be loaded after Android closed the app while it was saving. Search the issue tracker, open and closed, for terms such as save, corrupt, lost, truncated, killed, and recover. Never mark a build only because the problem is possible in theory.
+
+Report any other documented way of losing saves, with its URL, and suggest a change instead of marking it. Remove a mark when the project's own release notes or code show that the risk is gone, for example because saves now go to a server or a save is written to a temporary file and renamed into place, and update the entry's text to match.
+
+On every scan, also open WebKit's tracking prevention page, `https://webkit.org/tracking-prevention/`, and WebKit's blog. If the rule that deletes a site's stored data has changed, update the warning at the start of the Play in a Web Browser section and report the change with its URL.
+
 ## Step 1: Recheck the Listed Entries
 
 For every entry in the main sections and in the Scoreboards and Tournaments list:
@@ -50,6 +63,7 @@ For every entry in the main sections and in the Scoreboards and Tournaments list
 3. Find the date of the latest build and the date of the first public build.
 4. Confirm the price and the platforms.
 5. Apply the Status Rules.
+6. Check the save risk of each version of the project, following Save Risk.
 
 Do not re-test sound and music; change the audio icon only when the project's own pages say that its audio changed. Fix a broken link if the project moved, and report it if the project vanished.
 
@@ -76,16 +90,16 @@ Keep a list of every candidate you find, with where you found it.
 
 ## Step 4: Evaluate the Candidates
 
-Check each candidate against the Listing Criteria on the project's own pages, never from a post or a screenshot alone. A candidate that has only a video, a source repository, or a "coming soon" store page is not listed; name it in the report as one to watch. Determine the date of its first public build and apply the Status Rules. Most new projects are Experiments.
+Check each candidate against the Listing Criteria on the project's own pages, never from a post or a screenshot alone. A candidate that has only a video, a source repository, or a "coming soon" store page is not listed; name it in the report as one to watch. Determine the date of its first public build and apply the Status Rules. Most new projects are Experiments. Check its save risk, following Save Risk.
 
 ## Step 5: Update the Page
 
 - Put each installable project in Online Stores if it has a listing in an online store, such as Steam, itch.io, Google Play, or the App Store, and otherwise in Install on Your Device. A project with a browser version also gets an entry in Play in a Web Browser. Keep the entries in alphabetical order within each section. A project distributed in several ways has one entry per section, listing every place to get it, so a store entry also lists the project's GitHub or website downloads.
-- Write each entry in the form of the existing ones: a `###` heading with the name, a first line `[⭐ ]Status · Price · Audio icon`, a description of one or two sentences, and a list of links in the form `- [Store or site](URL): Platforms`. The description says what the project is, which NetHack version or variant it plays, and what is special about its graphics.
-- The At a Glance table has one row per project, in alphabetical order. Add a row for each new project and remove the row of a dropped one. Its first cell links to the heading anchor of the project's installable entry, or of its browser entry if it has no other (`wiki_editing` section 2). The Get It cell holds one icon for each way to get the project, as defined in the Icons table: 🏪 for a store listing, 💾 for a download without a store, and 🌍 for a browser version. When a project has both an installable entry and a browser entry, its 🌍 icon links to the browser entry. The Runs On cell lists the platforms of all the project's entries.
+- Write each entry in the form of the existing ones: a `###` heading with the name, a first line `[⭐ ]Status · Price · Audio icon`, a description of one or two sentences, and a list of links in the form `- [Store or site](URL): Platforms`. The description says what the project is, which NetHack version or variant it plays, and what is special about its graphics. A browser entry also says where its saves are kept and, when the project allows it, how to export them or use cloud saves. An entry with any other marked risk, such as NetHack Android, gets a `> ⚠️ **Warning:**` callout after its description that explains the risk and any workaround its developer gives.
+- The At a Glance table has one row per project, in alphabetical order. Add a row for each new project and remove the row of a dropped one. Its first cell links to the heading anchor of the project's installable entry, or of its browser entry if it has no other (`wiki_editing` section 2). The Get It cell holds one icon for each way to get the project, as defined in the Icons table: 🏪 for a store listing, 💾 for a download without a store, and 🌍 for a browser version. When a project has both an installable entry and a browser entry, its 🌍 icon links to the browser entry. The Runs On cell lists the platforms of all the project's entries, with the ⚠️ icon after each platform whose version is marked under Save Risk, such as `Windows, web browsers ⚠️` or `Android ⚠️`. The ⚠️ icon goes nowhere else in the row.
 - Never invent facts. Write only what the project's own pages state.
-- Update every other place on the page that names projects: the At a Glance table, the Scoreboards and Tournaments list and the paragraph under it, the "Which One to Pick?" section, and the closing table.
-- In "Which One to Pick?", add each new or returning project to every numbered list it fits, and remove a dropped project from every list. Order each list by group: the projects in "Most Developed Interfaces" first, then the other In active development and Maintained projects, and then the Experiments, in alphabetical order within each group. When a project's status changes, move it to its new group. A project that plays an older version of vanilla NetHack goes to the older-version list, with that version in parentheses, such as "(NetHack 3.6.7)"; when it moves to the current version, move it to that version's list. Add any other note in parentheses only when the list needs it, such as "(web version)", "(Apple silicon)", or the variant a project plays. Each name links to its entry, as in the existing items. Do not add or remove lists or headings; suggest changes in the report instead.
+- Update every other place on the page that names projects: the At a Glance table, the Scoreboards and Tournaments list and the paragraph under it, the "Which One to Pick?" section, the closing table, and the warning at the start of the Play in a Web Browser section, which names the browser versions that keep their games on a server.
+- In "Which One to Pick?", add each new or returning project to every numbered list it fits, and remove a dropped project from every list. Order each list by group: the projects in "Most Developed Interfaces" first, then the other In active development and Maintained projects, and then the Experiments, in alphabetical order within each group. Items that link to a version marked under Save Risk come last, after all three groups, in the same group order, and end with ` ⚠️`, such as `4. [[NetHack Android|#nethack-android]] ⚠️`. Mark an item only when it links to the marked version: an item that links to a project's installable entry is not marked for a risk of its browser version. When a project's status or save risk changes, move it to its new place. A project that plays an older version of vanilla NetHack goes to the older-version list, with that version in parentheses, such as "(NetHack 3.6.7)"; when it moves to the current version, move it to that version's list. Add any other note in parentheses only when the list needs it, such as "(web version)", "(Apple silicon)", or the variant a project plays. Each name links to its entry, as in the existing items. Do not add or remove lists or headings; suggest changes in the report instead.
 - "Most Developed Interfaces" is a judgment. Do not add projects to it or remove projects from it; suggest changes in the report instead.
 - Set the date on the `**Last web scan:**` line in the `## 📅 Validity` section to the scan date, in the form `Month D, YYYY`.
 - In the first paragraph of "About This List", change the month and year in "has been updated since [Month Year]" to two years before the scan date.
@@ -98,11 +112,12 @@ Check each candidate against the Listing Criteria on the project's own pages, ne
 Report in the chat, not on any page:
 
 1. Every change, one line each, with the URL that proves it. List grammar and capitalization fixes separately, without URLs.
-2. Every status change, with the dates it rests on, and a table of the first-build and latest-build dates and the status of every entry in the main sections, including the public servers and web versions.
-3. The candidates that were not listed, with the reason, and the candidates to watch.
-4. The sources that could not be read.
-5. Suggestions for "Most Developed Interfaces", if any.
-6. The output of the `wiki_editing` section 18 closing step.
-7. A suggested commit message and the `git` commands for the user to run.
+2. Every status change, with the dates it rests on, and a table of the first-build and latest-build dates, the status, and the save risk of every entry in the main sections, including the public servers and web versions.
+3. Every save risk mark added or removed, with the evidence: a URL, or the file and the name searched for in the source code.
+4. The candidates that were not listed, with the reason, and the candidates to watch.
+5. The sources that could not be read.
+6. Suggestions for "Most Developed Interfaces", if any.
+7. The output of the `wiki_editing` section 18 closing step.
+8. A suggested commit message and the `git` commands for the user to run.
 
 Never commit, push, or post anything yourself.

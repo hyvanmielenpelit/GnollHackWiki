@@ -9,7 +9,7 @@ Each instruction page tells an AI agent, step by step, how to carry out one recu
 | [[/Development/AI/Steam Patch Notes]] | A title and a BBCode list of changes for a Steam patch notes post, based on a GitHub release |
 | [[/Development/AI/Steam Events and Announcements]] | The event type, title, subtitle, summary, and BBCode body for a Steam event, and its 800×450 cover image and 1920×622 header image |
 | [[/Development/AI/Steam Store Assets]] | The nine Steam store and library images as PNG files, made with the generator script, and check images |
-| [[/Development/AI/Graphical NetHack Ports Scan]] | An updated [[/Graphical NetHack Ports and Variants]] page, with new projects added, statuses rechecked, and the last web scan date set, and a report of the changes and their sources |
+| [[/Development/AI/Graphical NetHack Ports Scan]] | An updated [[/Graphical NetHack Ports and Variants]] page, with new projects added, statuses and save risks rechecked, and the last web scan date set, and a report of the changes and their sources |
 | [[/Development/AI/Website Traffic Analysis]] | A report on the visitors of wiki.gnollhack.com, gnollhack.com, and account.gnollhack.com for a date range: data quality, automated traffic, audience, acquisition, behavior, the account registration funnel, and recommendations for marketing, content, and tracking |
 
 ## ⌨️ Copiable Prompts
