@@ -20,29 +20,30 @@ Entries are in alphabetical order within each section. A project with a listing 
 | 🔴 | **Unmaintained**: No update in over two years. Such ports are listed only in the closing section. |
 | 🎵 | Has both sound effects and music. |
 | 🔇 | Has only sound effects, only music, a few sound cues, or no audio at all. |
+| ⚠️ | Saved games can be lost: Safari can delete browser saves, as explained under [[Play in a Web Browser|#play-in-a-web-browser]], and NetHack Android can leave a save file that cannot be loaded; see [[NetHack Android|#nethack-android]]. In the At a Glance table, it follows the affected platform. |
 
 ## 📋 At a Glance
 
 | Port or Variant | Get It | Status | Audio | Price | Runs On |
 | :-- | :-: | :-: | :-: | :-- | :-- |
-| [[BlissHack|#blisshack]] | 💾 [[🌍|#blisshack-web-version]] | 🧪 | 🔇 | Free | Windows, macOS (Apple silicon), web browsers |
+| [[BlissHack|#blisshack]] | 💾 [[🌍|#blisshack-web-version]] | 🧪 | 🔇 | Free | Windows, macOS (Apple silicon), web browsers ⚠️ |
 | [[DartHack|#darthack]] | 🏪 | 🧪 | 🔇 | Free, with ads | Android |
 | [[EvilHack|#evilhack]] | 💾 | 🟢 | 🔇 | Free | Windows |
 | [[GnollHack|#gnollhack]] ⭐ | 🏪 💾 | 🟢 | 🎵 | Free | Windows, macOS, Linux, Steam Deck, Android, iPhone, iPad |
 | [[Hardfought web terminal|#hardfought-web-terminal]] | 🌍 | 🟢 | 🔇 | Free | Web browsers |
 | [[iNethack2|#inethack2]] | 🏪 | 🟡 | 🔇 | Free | iPhone, iPad, Apple silicon Mac |
 | [[NAO web terminal|#nao-web-terminal]] | 🌍 | 🟢 | 🔇 | Free | Web browsers |
-| [[neohack|#neohack]] | 🌍 | 🧪 | 🔇 | Free | Desktop and mobile web browsers |
-| [[NetHack 3D|#nethack-3d]] ⭐ | 💾 [[🌍|#nethack-3d-web-version]] | 🟢 | 🔇 | Free | Windows, macOS, Linux, Steam Deck, Android, Meta Quest, web browsers (including mobile) |
+| [[neohack|#neohack]] | 🌍 | 🧪 | 🔇 | Free | Desktop and mobile web browsers ⚠️ |
+| [[NetHack 3D|#nethack-3d]] ⭐ | 💾 [[🌍|#nethack-3d-web-version]] | 🟢 | 🔇 | Free | Windows, macOS, Linux, Steam Deck, Android, Meta Quest, web browsers (including mobile) ⚠️ |
 | [[NetHack 5.0 (official)|#nethack-5-0-official]] | 💾 | 🟢 | 🔇 | Free | Windows, MS-DOS |
-| [[NetHack Android|#nethack-android]] | 💾 | 🟢 | 🔇 | Free | Android |
-| [[NetHack Browser Edition|#nethack-browser-edition]] | 🌍 | 🟡 | 🔇 | Free | Desktop and mobile web browsers |
+| [[NetHack Android|#nethack-android]] | 💾 | 🟢 | 🔇 | Free | Android ⚠️ |
+| [[NetHack Browser Edition|#nethack-browser-edition]] | 🌍 | 🟡 | 🔇 | Free | Desktop and mobile web browsers ⚠️ |
 | [[NetHack Cocoa|#nethack-cocoa]] | 💾 | 🟢 | 🔇 | Free | macOS 12 or later |
 | [[NetHack Modern|#nethack-modern]] | 💾 | 🧪 | 🎵 | Free | Windows, Linux |
 | [[NetHack Tiles Client|#nethack-tiles-client]] | 💾 | 🧪 | 🔇 | Free | Windows, macOS, Linux |
-| [[nethack.app|#nethack-app]] | 🌍 | 🧪 | 🔇 | Free | Web browsers |
+| [[nethack.app|#nethack-app]] | 🌍 | 🧪 | 🔇 | Free | Web browsers ⚠️ |
 | [[NetHackJP|#nethackjp]] | 💾 | 🧪 | 🔇 | Free | Windows, Linux |
-| [[VectHack|#vecthack]] | 🌍 | 🧪 | 🔇 | Free | Web browsers |
+| [[VectHack|#vecthack]] | 🌍 | 🧪 | 🔇 | Free | Web browsers ⚠️ |
 | [[VoxHack|#voxhack]] | 🏪 💾 | 🧪 | 🎵 | Free, or pay what you want | Windows |
 | [[WebHack|#webhack]] | 🌍 | 🧪 | 🔇 | Free | Web browsers |
 | [[xNetHack|#xnethack]] | 💾 | 🟢 | 🔇 | Free | Windows |
@@ -275,23 +276,23 @@ Counting only the work on the graphical interface itself, not gameplay changes o
 
 ## 💡 Which One to Pick?
 
-In each list, the projects under Most Developed Interfaces come first, then the other established projects, then the experiments.
+In each list, the projects under Most Developed Interfaces come first, then the other established projects, then the experiments. Projects marked ⚠️, whose saved games can be lost, come last in that same order.
 
 ### By Device
 
 **iPhone or iPad**
 
 1. [[GnollHack|#gnollhack]]
-2. [[NetHack 3D (web version)|#nethack-3d-web-version]]
-3. [[iNethack2|#inethack2]]
-4. [[NetHack Browser Edition|#nethack-browser-edition]]
+2. [[iNethack2|#inethack2]]
+3. [[NetHack 3D (web version)|#nethack-3d-web-version]] ⚠️
+4. [[NetHack Browser Edition|#nethack-browser-edition]] ⚠️
 
 **Android phone or tablet**
 
 1. [[GnollHack|#gnollhack]]
 2. [[NetHack 3D|#nethack-3d]]
-3. [[NetHack Android|#nethack-android]]
-4. [[DartHack|#darthack]]
+3. [[DartHack|#darthack]]
+4. [[NetHack Android|#nethack-android]] ⚠️
 
 **Mac (Apple silicon)**
 
@@ -330,13 +331,13 @@ In each list, the projects under Most Developed Interfaces come first, then the 
 
 **Web browser, with nothing to install**
 
-1. [[NetHack 3D (web version)|#nethack-3d-web-version]]
-2. [[NetHack Browser Edition|#nethack-browser-edition]]
-3. [[BlissHack (web version)|#blisshack-web-version]]
-4. [[neohack|#neohack]]
-5. [[nethack.app|#nethack-app]]
-6. [[VectHack|#vecthack]]
-7. [[WebHack|#webhack]]
+1. [[WebHack|#webhack]]
+2. [[NetHack 3D (web version)|#nethack-3d-web-version]] ⚠️
+3. [[NetHack Browser Edition|#nethack-browser-edition]] ⚠️
+4. [[BlissHack (web version)|#blisshack-web-version]] ⚠️
+5. [[neohack|#neohack]] ⚠️
+6. [[nethack.app|#nethack-app]] ⚠️
+7. [[VectHack|#vecthack]] ⚠️
 
 ### By Game and Language
 
@@ -345,24 +346,24 @@ In each list, the projects under Most Developed Interfaces come first, then the 
 1. [[NetHack 3D|#nethack-3d]]
 2. [[NAO web terminal|#nao-web-terminal]]
 3. [[NetHack 5.0 (official)|#nethack-5-0-official]]
-4. [[NetHack Android|#nethack-android]]
-5. [[NetHack Cocoa|#nethack-cocoa]]
-6. [[BlissHack|#blisshack]]
-7. [[DartHack|#darthack]]
-8. [[neohack|#neohack]]
-9. [[NetHack Modern|#nethack-modern]]
-10. [[nethack.app|#nethack-app]]
-11. [[VectHack|#vecthack]]
-12. [[WebHack|#webhack]]
+4. [[NetHack Cocoa|#nethack-cocoa]]
+5. [[BlissHack|#blisshack]]
+6. [[DartHack|#darthack]]
+7. [[NetHack Modern|#nethack-modern]]
+8. [[WebHack|#webhack]]
+9. [[NetHack Android|#nethack-android]] ⚠️
+10. [[neohack|#neohack]] ⚠️
+11. [[nethack.app|#nethack-app]] ⚠️
+12. [[VectHack|#vecthack]] ⚠️
 
 **An older version of vanilla NetHack**
 
 1. [[NetHack 3D|#nethack-3d]] (NetHack 3.6.7)
 2. [[iNethack2|#inethack2]] (NetHack 3.6.7)
 3. [[NAO web terminal|#nao-web-terminal]] (NetHack 3.6)
-4. [[NetHack Browser Edition|#nethack-browser-edition]] (NetHack 3.6.7)
-5. [[ZeldHack for NetHack|#zeldhack-for-nethack]] (NetHack 3.6.7)
-6. [[VoxHack|#voxhack]] (NetHack 3.7)
+4. [[ZeldHack for NetHack|#zeldhack-for-nethack]] (NetHack 3.6.7)
+5. [[VoxHack|#voxhack]] (NetHack 3.7)
+6. [[NetHack Browser Edition|#nethack-browser-edition]] (NetHack 3.6.7) ⚠️
 
 **A NetHack variant**
 
@@ -389,9 +390,9 @@ In each list, the projects under Most Developed Interfaces come first, then the 
 **Virtual reality or first-person 3D**
 
 1. [[NetHack 3D|#nethack-3d]] (virtual reality on Meta Quest)
-2. [[VectHack|#vecthack]]
-3. [[VoxHack|#voxhack]]
-4. [[WebHack|#webhack]]
+2. [[VoxHack|#voxhack]]
+3. [[WebHack|#webhack]]
+4. [[VectHack|#vecthack]] ⚠️
 
 ### Online Play
 
