@@ -6,6 +6,8 @@ Every entry runs on the NetHack code base, shows the game with graphics such as 
 
 Entries are in alphabetical order within each section. A project with a listing in an online store is under Online Stores, together with its other downloads. A project that has both an installable version and a browser version has an entry in each section.
 
+In the platform lists, macOS means a native Mac app. Apple silicon Mac means an iPhone and iPad app from the App Store, which Macs with Apple silicon can also run, and the 📱 icon marks a project that runs on a Mac only this way.
+
 ## 🔣 Icons Used on This Page
 
 | Icon | Meaning |
@@ -21,6 +23,7 @@ Entries are in alphabetical order within each section. A project with a listing 
 | 🎵 | Has both sound effects and music. |
 | 🔇 | Has only sound effects, only music, a few sound cues, or no audio at all. |
 | ⚠️ | Saved games can be lost: Safari can delete browser saves, as explained under [[Play in a Web Browser|#play-in-a-web-browser]], and NetHack Android can leave a save file that cannot be loaded; see [[NetHack Android|#nethack-android]]. In the At a Glance table, it follows the affected platform. |
+| 📱 | Runs on a Mac with Apple silicon only as the iPhone and iPad app, not as a native Mac app. In the At a Glance table, it follows the affected platform. |
 
 ## 📋 At a Glance
 
@@ -31,7 +34,7 @@ Entries are in alphabetical order within each section. A project with a listing 
 | [[EvilHack|#evilhack]] | 💾 | 🟢 | 🔇 | Free | Windows |
 | [[GnollHack|#gnollhack]] ⭐ | 🏪 💾 | 🟢 | 🎵 | Free | Windows, macOS, Linux, Steam Deck, Android, iPhone, iPad |
 | [[Hardfought web terminal|#hardfought-web-terminal]] | 🌍 | 🟢 | 🔇 | Free | Web browsers |
-| [[iNethack2|#inethack2]] | 🏪 | 🟡 | 🔇 | Free | iPhone, iPad, Apple silicon Mac |
+| [[iNethack2|#inethack2]] | 🏪 | 🟡 | 🔇 | Free | iPhone, iPad, Apple silicon Mac 📱 |
 | [[NAO web terminal|#nao-web-terminal]] | 🌍 | 🟢 | 🔇 | Free | Web browsers |
 | [[neohack|#neohack]] | 🌍 | 🧪 | 🔇 | Free | Desktop and mobile web browsers ⚠️ |
 | [[NetHack 3D|#nethack-3d]] ⭐ | 💾 [[🌍|#nethack-3d-web-version]] | 🟢 | 🔇 | Free | Windows, macOS, Linux, Steam Deck, Android, Meta Quest, web browsers (including mobile) ⚠️ |
@@ -67,14 +70,14 @@ A NetHack variant with an animated, high-resolution 2D interface, voice acting, 
 
 - [Steam](https://store.steampowered.com/app/3558190/GnollHack/?utm_source=wiki): Windows, macOS, Linux, Steam Deck
 - [Google Play](https://play.google.com/store/apps/details?id=com.soundmindentertainment.gnollhack): Android
-- [App Store](https://apps.apple.com/app/gnollhack/id1626979951): iPhone, iPad, Mac
+- [App Store](https://apps.apple.com/app/gnollhack/id1626979951): iPhone, iPad, Apple silicon Mac (the iOS version; the native macOS version is on Steam and GitHub)
 - [GitHub](https://github.com/hyvanmielenpelit/GnollHack/releases): Windows, macOS, Linux, with builds that do not need a store: an MSIX installer and a legacy version for Windows, and an AppImage and an archive for Linux
 
 ### iNethack2
 
 🟡 Maintained · Free · 🔇
 
-An iOS port of vanilla NetHack 3.6.7 with several tile sets and an ASCII mode. Last updated in March 2025.
+An iOS port of vanilla NetHack 3.6.7 with several tile sets and an ASCII mode. It has no native macOS version; on a Mac with Apple silicon, it runs as the iPhone and iPad app. Last updated in March 2025.
 
 - [App Store](https://apps.apple.com/app/inethack2/id962114968): iPhone, iPad, Apple silicon Mac
 
@@ -276,7 +279,7 @@ Counting only the work on the graphical interface itself, not gameplay changes o
 
 ## 💡 Which One to Pick?
 
-In each list, the projects under Most Developed Interfaces come first, then the other established projects, then the experiments. Projects marked ⚠️, whose saved games can be lost, come last in that same order.
+In each list, the projects under Most Developed Interfaces come first, then the other established projects, then the experiments. Projects marked 📱, which run on a Mac only as the iPhone and iPad app, come after them, and projects marked ⚠️, whose saved games can be lost, come last, each in that same order.
 
 ### By Device
 
@@ -298,9 +301,10 @@ In each list, the projects under Most Developed Interfaces come first, then the 
 
 1. [[GnollHack|#gnollhack]]
 2. [[NetHack 3D|#nethack-3d]]
-3. [[iNethack2|#inethack2]]
-4. [[NetHack Cocoa|#nethack-cocoa]]
-5. [[BlissHack|#blisshack]]
+3. [[NetHack Cocoa|#nethack-cocoa]]
+4. [[BlissHack|#blisshack]]
+5. [[NetHack Tiles Client|#nethack-tiles-client]]
+6. [[iNethack2|#inethack2]] 📱
 
 **Windows PC**
 
