@@ -10,19 +10,43 @@ In the platform lists, macOS means a native Mac app. Apple silicon Mac means an 
 
 ## 🔣 Icons Used on This Page
 
+The icons are grouped by the column of the [[At a Glance|#at-a-glance]] table they appear in.
+
+### Port or Variant
+
 | Icon | Meaning |
 | :-: | :-- |
 | ⭐ | One of the projects with the most work put into its graphical interface; see [[Most Developed Interfaces|#most-developed-interfaces]]. |
 | ⚡ | **One-click install and auto-update**: Installs from Steam, Google Play, or the App Store, which keep it updated. Not used for itch.io, whose downloads you install or unzip yourself. |
+
+### Get It
+
+| Icon | Meaning |
+| :-: | :-- |
 | 🏪 | Listed in an online store, such as Steam, itch.io, Google Play, or the App Store; see [[Online Stores|#online-stores]]. |
 | 💾 | Can be downloaded and installed without a store, for example from GitHub or the project's website; see [[Install on Your Device|#install-on-your-device]]. |
 | 🌍 | Can be played in a web browser; see [[Play in a Web Browser|#play-in-a-web-browser]]. |
+
+### Status
+
+| Icon | Meaning |
+| :-: | :-- |
 | 🟢 | **In active development**: An established project, with public builds for at least nine months, new builds within the last six months, and ongoing feature work. |
 | 🧪 | **Experiment**: A new project whose first public build is less than nine months old. It may grow into an established project or be abandoned quickly; experiments that keep getting updates move to In active development after nine months. |
 | 🟡 | **Maintained**: Updated within the last two years, but only occasionally, such as bug fix releases. |
 | 🔴 | **Unmaintained**: No update in over two years. Such ports are listed only in the closing section. |
+
+### Audio
+
+| Icon | Meaning |
+| :-: | :-- |
 | 🎵 | Has both sound effects and music. |
 | 🔇 | Has only sound effects, only music, a few sound cues, or no audio at all. |
+
+### Runs On
+
+| Icon | Meaning |
+| :-: | :-- |
 | 📱 | Runs on a Mac with Apple silicon only as the iPhone and iPad app, not as a native Mac app. |
 | ⌨️ | Not a full mobile port: On a phone or tablet, it shows an on-screen keypad for moving, or uses an on-screen keyboard for commands. Mobile ports without this icon are played by touch alone: You move by tapping the map and give commands from menus and buttons. |
 | 🖥️ | Desktop only: A browser version that is played with a keyboard or mouse and has no touch controls for phones or tablets. |
