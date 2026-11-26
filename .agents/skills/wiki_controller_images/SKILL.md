@@ -18,7 +18,8 @@ Use this skill when one of these changes in the game or on `Steam Deck Controls.
 - The "Controls on the Map" table.
 - The trigger defaults, the secondary trigger defaults, or the Quick radial defaults.
 - The hint strip on the map.
-- A radial menu.
+- A radial menu, including the Spells radial and its Actions radial.
+- A spell or command tile in the `GnollHackTileSet` repository that the Spells radial images show.
 - A button badge.
 
 Update the matching template (see the Files table), rebuild only what changed, and look at each
@@ -28,7 +29,8 @@ PNG under `<output directory>\png\` before copying the WebP files.
 
 Needs Google Chrome at `C:\Program Files\Google\Chrome\Application\chrome.exe`, Python 3 with
 Pillow, a clone of `hyvanmielenpelit/GnollHack` at `C:\hmp\GnollHack` (game fonts and icons),
-and the wiki at `C:\hmp\GnollHackWiki` (wiki fonts). Run it from this skill's directory, with an
+a clone of `hyvanmielenpelit/GnollHackTileSet` at `C:\hmp\GnollHackTileSet` (spell and command
+tiles of the Spells radial), and the wiki at `C:\hmp\GnollHackWiki` (wiki fonts). Run it from this skill's directory, with an
 output directory outside every repository, such as the session scratch directory:
 
 ```powershell
@@ -72,12 +74,20 @@ purged by hand, so an image whose content changes gets a new name instead:
 | `radial-toggles.html` | `radial-toggles.webp` | `GamePage.Gamepad.cs`, `BuildGamepadTogglesRadial`; `Pages\Game\GamePage.Radial.cs`, `DrawRadialOrbIcon` |
 | `radial-quick.html` | `radial-quick.webp` | `GamePage.Gamepad.cs`, `BuildGamepadQuickRadial`; `GHApp.cs`, `_defaultGamepadLTSlots`, `_defaultGamepadRTSlots`, `SelectableShortcutButtons` |
 | `radial-direction.html` | `radial-direction.webp` | `GamePage.Gamepad.cs`, `BuildGamepadDirectionRadial` |
+| `spells.js` | The Spells radial on top of `gh.js`: set tabs, glyph tiles, slot badges, hub runs with symbols, the description band, the fixed hub item; the example spells and the Steam Deck screen frame (800 x 500 CSS pixels at a device-independent pixel scale of 1.25). Spell and command tiles load from `UI\spell-tile\` and `UI\command-tile\` of the `GnollHackTileSet` repository | `Radial\GHRadialMenuRenderer.cs`, `Radial\GHRadialGeometry.cs`, `Pages\Game\GamePage.SpellRadial.cs`, `Spells\GHSpellHotbar.cs`; the example spells' levels and mana costs follow the wiki's spell pages |
+| `radial-spells-favorites.html` | `radial-spells-favorites.webp`: Favorites 1/3 with Fireball highlighted, a NEW badge, a spell cooling down, an empty slot | `GamePage.SpellRadial.cs`, `BuildGamepadSpellBrowseDefinition` |
+| `radial-spells-known.html` | `radial-spells-known.webp`: the Known Spells ring of schools, Arcane highlighted | `GamePage.SpellRadial.cs`, `AddGamepadSpellKnownPages` |
+| `radial-spells-actions.html` | `radial-spells-actions.webp`: the Actions radial of a favorite, Move in Favorites highlighted | `GamePage.SpellRadial.cs`, `BuildGamepadSpellActionsDefinition`; `src\spell.c`, `doaltspellmenu` |
 
 ## Conventions
 
 - Templates draw in device pixels: the SVG `viewBox` is twice the page's CSS size.
 - Radial renders use the Steam Deck's proportions, an outer radius of 320 device-independent
-  pixels (`GH.radialGeometry`), scaled to the image.
+  pixels (`GH.radialGeometry`), scaled to the image. The Spells radial images instead size the
+  ring for a full 1280 x 800 Steam Deck screen, with the rows the tabs and the description band
+  reserve (`SP.geometry`).
+- Spell and command tiles load from the `GnollHackTileSet` repository by `file:///` URL in the
+  same way.
 - Icons and orb art load from `Assets\UI\` of the game by `file:///` URL, so Chrome runs with
   `--allow-file-access-from-files` and a profile of its own under the output directory.
 - The templates, like every file in this repository, are UTF-8 without a BOM, with CRLF line

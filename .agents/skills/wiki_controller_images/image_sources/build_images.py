@@ -53,6 +53,9 @@ FIGURES = [
     ("radial-toggles.html", "", 600, 600, "radial-toggles.webp", False),
     ("radial-quick.html", "", 860, 450, "radial-quick.webp", False),
     ("radial-direction.html", "", 600, 600, "radial-direction.webp", False),
+    ("radial-spells-favorites.html", "", 800, 500, "radial-spells-favorites.webp", False),
+    ("radial-spells-known.html", "", 800, 500, "radial-spells-known.webp", False),
+    ("radial-spells-actions.html", "", 800, 500, "radial-spells-actions.webp", False),
 ]
 
 

@@ -78,7 +78,7 @@ L1 and R1 do nothing on their own. They are hold modifiers that change what the 
 | <img src="/uploads/Steam%20Deck%20Controls/glyph-b.webp" alt="B" height="22" style="vertical-align: middle" /> | Search (`s`); first closes an open overlay, and interrupts an ongoing activity | Search 20 times | |
 | <img src="/uploads/Steam%20Deck%20Controls/glyph-x.webp" alt="X" height="22" style="vertical-align: middle" /> | Pick Up (`,`) | Pick Up and Stash (`;`) | |
 | <img src="/uploads/Steam%20Deck%20Controls/glyph-y.webp" alt="Y" height="22" style="vertical-align: middle" /> | Repeat (`Ctrl+a`) | Wait (`.`) | |
-| <img src="/uploads/Steam%20Deck%20Controls/glyph-r2.webp" alt="R2" height="22" style="vertical-align: middle" /> | R2's command, by default By Role: Cast Quick for spellcasters, Polearm for Knights, Fire for the others | L1 + R2 Action, by default Cast (`Shift+z`) | |
+| <img src="/uploads/Steam%20Deck%20Controls/glyph-r2.webp" alt="R2" height="22" style="vertical-align: middle" /> | R2's command, by default By Role: Cast Quick for spellcasters, Polearm for Knights, Fire for the others | L1 + R2 Action, by default Cast (`Shift+z`), which opens the [[Spells radial menu|#spells-radial]] | |
 | <img src="/uploads/Steam%20Deck%20Controls/glyph-l2.webp" alt="L2" height="22" style="vertical-align: middle" /> | L2's command, by default Kick (`k`) | | R1 + L2 Action, by default Throw (`t`) |
 | <img src="/uploads/Steam%20Deck%20Controls/glyph-r1.webp" alt="R1" height="22" style="vertical-align: middle" /> | Hold modifier | Right Quick radial menu, when you release a shoulder button | |
 | <img src="/uploads/Steam%20Deck%20Controls/glyph-l1.webp" alt="L1" height="22" style="vertical-align: middle" /> | Hold modifier | | Left Quick radial menu, when you release a shoulder button |
@@ -171,6 +171,41 @@ The radial menus on the map are:
   *The Toggles radial menu, with Auto-Center selected.*
 
 - **Left Quick and Right Quick:** The radial menus described in [[Quick Radials|#quick-radials]].
+- **Spells:** The Cast menu while you use the controller, described in [[Spells Radial|#spells-radial]].
+
+### 🔮 Spells Radial
+
+While you use the controller, the Cast menu (`Shift+z`) opens as the **Spells** radial menu instead of a list, whether you open it with L1 + R2 or another way, such as Cast in the Right Quick radial menu. After you touch the screen, use the mouse, or press a key, it is the usual list again. With the **spell_table_format** option on, described in [[Options]], the Cast menu stays a list.
+
+The radial menu has two tabs, and X switches between them:
+
+- **Favorites:** Three pages of eight slots, 24 in all, named 1A to 3H: the number is the page, and the letters run clockwise from A at the top. A spell stays in its slot, and so in the same stick direction, until you move it. Press A or Y on an empty slot to choose a spell for it from your known spells. The radial menu opens on the Favorites page you used last, or on Known Spells while you have no favorites.
+- **Known Spells:** Every spell you know, eight to a page, by school, level, and name. If you know more than 16 spells, the first page is a ring of the twelve spell schools with the number of spells in each. A opens a school's pages, and B goes back to the ring. The **Spell Commands** page after the spells or the ring has View Spells, Mix Spells, Sort Spells, Reorder Spells, and Set Quick Spell.
+
+![The Spells radial menu on its first Favorites page, with Fireball selected, Sleep newly learned, Minor healing cooling down, and an empty slot](/uploads/Steam%20Deck%20Controls/radial-spells-favorites.webp)
+
+The center shows the selected spell's success chance, mana cost, cooldown, and castings left, and below the ring are its school, level, and description. On the Known Spells pages, a gold star marks a favorite. NEW marks a spell you learned since you last opened the radial menu. A spell you cannot cast now has a gray icon and a tinted slice, and the center says why: Cooling down, No chance of success, No castings prepared, Not enough mana, or Forgotten.
+
+| Control | Action |
+| :------ | :----- |
+| <img src="/uploads/Steam%20Deck%20Controls/glyph-a.webp" alt="A" height="22" style="vertical-align: middle" /> | Cast the selected spell; a forgotten spell or one that is cooling down cannot be cast |
+| <img src="/uploads/Steam%20Deck%20Controls/glyph-y.webp" alt="Y" height="22" style="vertical-align: middle" /> | Open the selected spell's **Actions** radial menu |
+| <img src="/uploads/Steam%20Deck%20Controls/glyph-x.webp" alt="X" height="22" style="vertical-align: middle" /> | Switch between Favorites and Known Spells |
+| <img src="/uploads/Steam%20Deck%20Controls/glyph-l1.webp" alt="L1" height="22" style="vertical-align: middle" /> <img src="/uploads/Steam%20Deck%20Controls/glyph-r1.webp" alt="R1" height="22" style="vertical-align: middle" /> | Previous and next page in the same tab, or in the same school |
+| <img src="/uploads/Steam%20Deck%20Controls/glyph-menu.webp" alt="Menu" height="22" style="vertical-align: middle" /> **Menu** | Show the Cast menu as a list; Menu in the list brings the radial menu back |
+| <img src="/uploads/Steam%20Deck%20Controls/glyph-b.webp" alt="B" height="22" style="vertical-align: middle" /> | Close the radial menu |
+
+The **Actions** radial menu has View Information, Mix Reagents, Move to Top and Move to Bottom (for a spell that is not a favorite), Set as Quick Spell, Forget, Add to Favorites (Move in Favorites for a favorite), and Remove from Favorites. B goes back to the Spells radial menu. After View Information, Move to Top, Move to Bottom, Forget, and the Favorites actions, the Spells radial menu comes back on the same spell.
+
+![The Actions radial menu for Fireball, a favorite, with Move in Favorites selected](/uploads/Steam%20Deck%20Controls/radial-spells-actions.webp)
+
+Add to Favorites and Move in Favorites show the Favorites pages with the spell. Select a slot and press A to put the spell there. If the slot already has a spell, the center says what happens: a spell you add replaces it, and a favorite you move swaps places with it. While you move a favorite, Y removes it from Favorites. B goes back to the Actions radial menu.
+
+![The Known Spells tab of a character who knows more than 16 spells: the ring of spell schools, with Arcane selected](/uploads/Steam%20Deck%20Controls/radial-spells-known.webp)
+
+With **Add New Spells to Favorites** on in [[Settings]], under Controller, each spell you learn goes to the first empty Favorites slot, and the game tells you so. When all 24 slots are full, it tells you that the spell is in Known Spells. A new character's starting spells go to Favorites too. The setting is on by default and works only while Use Controller is on. Your favorites are saved with your character.
+
+Favorites also show in the spell lists. The Cast, Mix Spells, View Spells, and Set Quick Spell lists put your favorites first, under a Favorites heading in slot order, and the other spells under Spells. Hold A on a spell in the Cast list, or long-press it on a touch screen, for Mark as Favorite or Unmark as Favorite, and for a favorite, Move First and Move Last. A list that you open with the controller ends each favorite's row with its slot, from 1A to 3H.
 
 ## 📜 Menus and Dialogs
 

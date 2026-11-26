@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Spells radial, Actions</title>
+<link rel="stylesheet" href="common.css">
+<script src="gh.js"></script>
+<script src="spells.js"></script>
+</head>
+<body>
+<!-- Y on Fireball, which is in Favorites: its command menu as the Actions radial, Move in Favorites highlighted.
+     A favorite has no Move to Top and Move to Bottom, so slots 5 and 6 stay empty. -->
+<svg id="figure" xmlns="http://www.w3.org/2000/svg"></svg>
+<script>
+GH.mount(SP.FRAME.css[0], SP.FRAME.css[1], () => {
+  const g = SP.geometry(SP.FRAME.W, SP.FRAME.H, SP.FRAME.dip, 3, true);
+  const fb = SP.SPELLS.fireball;
+  const cmd = (label, tile) => ({ label, tile: SP.commandTile(tile) });
+  const slots = [
+    cmd("View Information", "view-spell"), cmd("Mix Reagents", "mix-spell"),
+    cmd("Set as Quick Spell", "set-quick-spell"), cmd("Forget", "forget-spell"),
+    null, null,
+    { label: "Move in Favorites", icon: "arrow_left.png" },
+    { label: "Remove from Favorites", icon: "remove.png" }
+  ];
+  const hub = { label: fb.name, tile: SP.spellTile(fb.tile), footerTitle: [{ symbol: fb.symbol, text: fb.level }], footerText: fb.desc };
+  return GH.panel(0, 0, SP.FRAME.W, SP.FRAME.H) + SP.radial({
+    id: "act", title: "Actions", tabs: SP.TABS, activeTab: 0, switchEnabled: false,
+    slots, highlight: 6, fixedHub: hub, labelMaxLines: 2, hubTitleMaxLines: 2,
+    hints: [["a", "Select"], ["b", "Back"], ["menu", "List"]]
+  }, g);
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Spells radial, Known Spells school ring</title>
+<link rel="stylesheet" href="common.css">
+<script src="gh.js"></script>
+<script src="spells.js"></script>
+</head>
+<body>
+<!-- Known Spells with more than 16 spells: the ring of the twelve schools with counts, Arcane highlighted -->
+<svg id="figure" xmlns="http://www.w3.org/2000/svg"></svg>
+<script>
+const SCHOOLS = [["Arcane", 9], ["Clerical", 0], ["Healing", 2], ["Divination", 4], ["Abjuration", 1], ["Movement", 2],
+  ["Transmutation", 1], ["Enchantment", 2], ["Conjuration", 0], ["Celestial", 0], ["Nature", 0], ["Necromancy", 0]];
+
+GH.mount(SP.FRAME.css[0], SP.FRAME.css[1], () => {
+  const g = SP.geometry(SP.FRAME.W, SP.FRAME.H, SP.FRAME.dip, 3, true);
+  const slots = SCHOOLS.map(sc => ({
+    label: sc[0], icon: "symbol-spell-" + sc[0].toLowerCase() + ".png", enabled: sc[1] > 0,
+    badge: sc[1] > 0 ? "count" : null, badgeText: String(sc[1]),
+    hubLines: [[{ text: sc[1] === 0 ? "No spells known" : sc[1] === 1 ? "1 spell" : sc[1] + " spells" }]],
+    footerText: ""
+  }));
+  return GH.panel(0, 0, SP.FRAME.W, SP.FRAME.H) + SP.radial({
+    id: "known", title: "Known Spells", tabs: SP.TABS, activeTab: 1, switchEnabled: true,
+    dots: { count: 2, current: 0 }, chips: { next: "Spell Commands" },
+    slots, highlight: 0, labelMaxLines: 2, hubTitleMaxLines: 2, hubLineMinScale: 0.5, hubLinesGapOfFont: 0.5,
+    hints: [["a", "Cast"], ["b", "Close"], ["menu", "List"]]
+  }, g);
+});
+</script>
+</body>
+</html>

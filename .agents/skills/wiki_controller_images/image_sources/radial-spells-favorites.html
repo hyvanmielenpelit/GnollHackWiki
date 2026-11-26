@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Spells radial, Favorites</title>
+<link rel="stylesheet" href="common.css">
+<script src="gh.js"></script>
+<script src="spells.js"></script>
+</head>
+<body>
+<!-- The Spells radial on Favorites 1/3, with Fireball highlighted; Sleep was learned since the radial was last
+     opened, Minor healing is cooling down, and the Northwest slot is empty -->
+<svg id="figure" xmlns="http://www.w3.org/2000/svg"></svg>
+<script>
+GH.mount(SP.FRAME.css[0], SP.FRAME.css[1], () => {
+  const g = SP.geometry(SP.FRAME.W, SP.FRAME.H, SP.FRAME.dip, 3, true);
+  const S = SP.SPELLS;
+  const slots = [
+    SP.spell(S.forcebolt), SP.spell(S.magicmissile), SP.spell(S.firebolt), SP.spell(S.fireball),
+    SP.spell(S.sleep, { badge: "new" }), SP.spell(S.minorhealing), SP.spell(S.identify),
+    { placeholder: true, label: null }
+  ];
+  return GH.panel(0, 0, SP.FRAME.W, SP.FRAME.H) + SP.radial({
+    id: "fav", title: "Favorites 1/3", tabs: SP.TABS, activeTab: 0, switchEnabled: true,
+    dots: { count: 3, current: 0 }, chips: { next: "Favorites 2/3" },
+    slots, highlight: 3, labelMaxLines: 2, hubTitleMaxLines: 2, hubLineMinScale: 0.5, hubLinesGapOfFont: 0.5,
+    hints: [["a", "Cast"], ["b", "Close"], ["y", "Actions"], ["menu", "List"]]
+  }, g);
+});
+</script>
+</body>
+</html>
