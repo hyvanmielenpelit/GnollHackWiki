@@ -14,6 +14,7 @@ In the platform lists, macOS means a native Mac app. Apple silicon Mac means an 
 | :-: | :-- |
 | ⭐ | One of the projects with the most work put into its graphical interface; see [[Most Developed Interfaces|#most-developed-interfaces]]. |
 | 🏪 | Listed in an online store, such as Steam, itch.io, Google Play, or the App Store; see [[Online Stores|#online-stores]]. |
+| ⚡ | One-click install: Installs from Steam, Google Play, or the App Store, which also keep it updated. Not used for itch.io, whose downloads you install or unzip yourself. |
 | 💾 | Can be downloaded and installed without a store, for example from GitHub or the project's website; see [[Install on Your Device|#install-on-your-device]]. |
 | 🌍 | Can be played in a web browser; see [[Play in a Web Browser|#play-in-a-web-browser]]. |
 | 🟢 | **In active development**: An established project, with public builds for at least nine months, new builds within the last six months, and ongoing feature work. |
@@ -22,10 +23,10 @@ In the platform lists, macOS means a native Mac app. Apple silicon Mac means an 
 | 🔴 | **Unmaintained**: No update in over two years. Such ports are listed only in the closing section. |
 | 🎵 | Has both sound effects and music. |
 | 🔇 | Has only sound effects, only music, a few sound cues, or no audio at all. |
-| 📱 | Runs on a Mac with Apple silicon only as the iPhone and iPad app, not as a native Mac app. It follows the audio icon in an entry, and the affected platform in the At a Glance table. |
-| ⌨️ | Not a full mobile port: On a phone or tablet, it shows an on-screen keypad for moving, or uses an on-screen keyboard for commands. Mobile ports without this icon are played by touch alone: You move by tapping the map and give commands from menus and buttons. It follows the audio icon in an entry, and the affected platform in the At a Glance table. |
-| 🖥️ | Desktop only: A browser version that is played with a keyboard or mouse and has no touch controls for phones or tablets. It follows the audio icon in an entry, and the affected platform in the At a Glance table. |
-| ⚠️ | Saved games can be lost: Safari can delete browser saves, as explained under [[Play in a Web Browser|#play-in-a-web-browser]], and NetHack Android can leave a save file that cannot be loaded; see [[NetHack Android|#nethack-android]]. It follows the audio icon in an entry, and the affected platform in the At a Glance table. |
+| 📱 | Runs on a Mac with Apple silicon only as the iPhone and iPad app, not as a native Mac app. |
+| ⌨️ | Not a full mobile port: On a phone or tablet, it shows an on-screen keypad for moving, or uses an on-screen keyboard for commands. Mobile ports without this icon are played by touch alone: You move by tapping the map and give commands from menus and buttons. |
+| 🖥️ | Desktop only: A browser version that is played with a keyboard or mouse and has no touch controls for phones or tablets. |
+| ⚠️ | Saved games can be lost: Safari can delete browser saves, as explained under [[Play in a Web Browser|#play-in-a-web-browser]], and NetHack Android can leave a save file that cannot be loaded; see [[NetHack Android|#nethack-android]]. |
 
 ## 📋 At a Glance
 
@@ -33,11 +34,11 @@ In the platform lists, macOS means a native Mac app. Apple silicon Mac means an 
 | :-- | :-: | :-: | :-: | :-- | :-- |
 | [[Amphitere|#amphitere]] | 💾 | 🧪 | 🔇 | Free | Android |
 | [[BlissHack|#blisshack]] | 💾 [[🌍|#blisshack-web-version]] | 🧪 | 🔇 | Free | Windows, macOS (Apple silicon), desktop and mobile web browsers ⚠️ |
-| [[DartHack|#darthack]] | 🏪 | 🧪 | 🔇 | Free, with ads | Android ⌨️ |
+| [[DartHack|#darthack]] ⚡ | 🏪 | 🧪 | 🔇 | Free, with ads | Android ⌨️ |
 | [[EvilHack|#evilhack]] | 💾 | 🟢 | 🔇 | Free | Windows |
-| [[GnollHack|#gnollhack]] ⭐ | 🏪 💾 | 🟢 | 🎵 | Free | Windows, macOS, Linux, Steam Deck, Android, iPhone, iPad |
+| [[GnollHack|#gnollhack]] ⭐ ⚡ | 🏪 💾 | 🟢 | 🎵 | Free | Windows, macOS, Linux, Steam Deck, Android, iPhone, iPad |
 | [[Hardfought web terminal|#hardfought-web-terminal]] | 🌍 | 🟢 | 🔇 | Free | Desktop web browsers 🖥️ |
-| [[iNethack2|#inethack2]] | 🏪 | 🟡 | 🔇 | Free | iPhone ⌨️, iPad ⌨️, Apple silicon Mac 📱 |
+| [[iNethack2|#inethack2]] ⚡ | 🏪 | 🟡 | 🔇 | Free | iPhone ⌨️, iPad ⌨️, Apple silicon Mac 📱 |
 | [[NAO web terminal|#nao-web-terminal]] | 🌍 | 🟢 | 🔇 | Free | Desktop web browsers 🖥️ |
 | [[neohack|#neohack]] | 🌍 | 🧪 | 🔇 | Free | Desktop and mobile web browsers ⌨️ ⚠️ |
 | [[NetHack 3D|#nethack-3d]] ⭐ | 💾 [[🌍|#nethack-3d-web-version]] | 🟢 | 🔇 | Free | Windows, macOS, Linux, Steam Deck, Android, Meta Quest, desktop and mobile web browsers ⚠️ |
@@ -59,7 +60,7 @@ In the platform lists, macOS means a native Mac app. Apple silicon Mac means an 
 
 ### DartHack
 
-🧪 **Experiment** · Free, with ads · 🔇 · ⌨️
+⚡ 🧪 **Experiment** · Free, with ads · 🔇 · ⌨️
 
 A touch-optimized Android port of vanilla NetHack 5.0 with support for custom tile sets, and English and Japanese text. Its customizable virtual gamepad is an on-screen direction pad with a shortcut keypad, shown by default, which can be switched to a full on-screen keyboard.
 
@@ -67,7 +68,7 @@ A touch-optimized Android port of vanilla NetHack 5.0 with support for custom ti
 
 ### GnollHack
 
-⭐ 🟢 **In active development** · Free · 🎵
+⭐ ⚡ 🟢 **In active development** · Free · 🎵
 
 A NetHack variant with an animated, high-resolution 2D interface, voice acting, and support for touch, mouse, keyboard, and game controllers.
 
@@ -78,7 +79,7 @@ A NetHack variant with an animated, high-resolution 2D interface, voice acting, 
 
 ### iNethack2
 
-🟡 Maintained · Free · 🔇 · 📱 ⌨️
+⚡ 🟡 Maintained · Free · 🔇 · 📱 ⌨️
 
 An iOS port of vanilla NetHack 3.6.7 with several tile sets and an ASCII mode. You move by tapping the map, and commands come from a shortcut bar and from the iOS keyboard, which the bar opens; a direction keypad appears when the game asks for a direction. It has no native macOS version; on a Mac with Apple silicon, it runs as the iPhone and iPad app. Last updated in March 2025.
 
@@ -290,14 +291,14 @@ Counting only the work on the graphical interface itself, not gameplay changes o
 
 ## 💡 Which One to Pick?
 
-In each list, the projects under Most Developed Interfaces come first, then the other established projects, then the experiments. Projects marked 📱, which run on a Mac only as the iPhone and iPad app, and projects marked ⌨️, which use an on-screen keypad or keyboard on a phone or tablet, come after them, and projects marked ⚠️, whose saved games can be lost, come last, each in that same order. In the web browser list, 🖥️ marks a version that needs a desktop computer; it does not change the order.
+In each list, the projects under Most Developed Interfaces come first, then the other established projects, then the experiments. Projects marked 📱, which run on a Mac only as the iPhone and iPad app, and projects marked ⌨️, which use an on-screen keypad or keyboard on a phone or tablet, come after them, and projects marked ⚠️, whose saved games can be lost, come last, each in that same order. In the web browser list, 🖥️ marks a version that needs a desktop computer; it does not change the order. ⚡ marks a project that installs from Steam, Google Play, or the App Store in one click; it does not change the order either.
 
 ### By Device
 
 **iPhone or iPad**
 
-1. [[GnollHack|#gnollhack]]
-2. [[iNethack2|#inethack2]] ⌨️
+1. [[GnollHack|#gnollhack]] ⚡
+2. [[iNethack2|#inethack2]] ⚡ ⌨️
 3. [[NetHack 3D (web version)|#nethack-3d-web-version]] ⚠️
 4. [[NetHack Browser Edition|#nethack-browser-edition]] ⚠️
 5. [[BlissHack (web version)|#blisshack-web-version]] ⚠️
@@ -305,10 +306,10 @@ In each list, the projects under Most Developed Interfaces come first, then the 
 
 **Android phone or tablet**
 
-1. [[GnollHack|#gnollhack]]
+1. [[GnollHack|#gnollhack]] ⚡
 2. [[NetHack 3D|#nethack-3d]]
 3. [[Amphitere|#amphitere]]
-4. [[DartHack|#darthack]] ⌨️
+4. [[DartHack|#darthack]] ⚡ ⌨️
 5. [[NetHack 3D (web version)|#nethack-3d-web-version]] ⚠️
 6. [[NetHack Android|#nethack-android]] ⌨️ ⚠️
 7. [[NetHack Browser Edition|#nethack-browser-edition]] ⚠️
@@ -317,16 +318,16 @@ In each list, the projects under Most Developed Interfaces come first, then the 
 
 **Mac (Apple silicon)**
 
-1. [[GnollHack|#gnollhack]]
+1. [[GnollHack|#gnollhack]] ⚡
 2. [[NetHack 3D|#nethack-3d]]
 3. [[NetHack Cocoa|#nethack-cocoa]]
 4. [[BlissHack|#blisshack]]
 5. [[NetHack Tiles Client|#nethack-tiles-client]]
-6. [[iNethack2|#inethack2]] 📱
+6. [[iNethack2|#inethack2]] ⚡ 📱
 
 **Windows PC**
 
-1. [[GnollHack|#gnollhack]]
+1. [[GnollHack|#gnollhack]] ⚡
 2. [[NetHack 3D|#nethack-3d]]
 3. [[EvilHack|#evilhack]]
 4. [[NetHack 5.0 (official)|#nethack-5-0-official]]
@@ -340,7 +341,7 @@ In each list, the projects under Most Developed Interfaces come first, then the 
 
 **Linux PC**
 
-1. [[GnollHack|#gnollhack]]
+1. [[GnollHack|#gnollhack]] ⚡
 2. [[NetHack 3D|#nethack-3d]]
 3. [[NetHack Modern|#nethack-modern]]
 4. [[NetHack Tiles Client|#nethack-tiles-client]]
@@ -348,7 +349,7 @@ In each list, the projects under Most Developed Interfaces come first, then the 
 
 **Steam Deck**
 
-1. [[GnollHack|#gnollhack]]
+1. [[GnollHack|#gnollhack]] ⚡
 2. [[NetHack 3D|#nethack-3d]]
 
 **Web browser, with nothing to install**
@@ -371,7 +372,7 @@ In each list, the projects under Most Developed Interfaces come first, then the 
 4. [[NetHack Cocoa|#nethack-cocoa]]
 5. [[Amphitere|#amphitere]]
 6. [[BlissHack|#blisshack]]
-7. [[DartHack|#darthack]]
+7. [[DartHack|#darthack]] ⚡
 8. [[NetHack Modern|#nethack-modern]]
 9. [[WebHack|#webhack]]
 10. [[NetHack Android|#nethack-android]] ⚠️
@@ -382,7 +383,7 @@ In each list, the projects under Most Developed Interfaces come first, then the 
 **An older version of vanilla NetHack**
 
 1. [[NetHack 3D|#nethack-3d]] (NetHack 3.6.7)
-2. [[iNethack2|#inethack2]] (NetHack 3.6.7)
+2. [[iNethack2|#inethack2]] (NetHack 3.6.7) ⚡
 3. [[NAO web terminal|#nao-web-terminal]] (NetHack 3.6)
 4. [[ZeldHack for NetHack|#zeldhack-for-nethack]] (NetHack 3.6.7)
 5. [[Amphitere|#amphitere]] (Amphitere Classic, NetHack 3.6.7)
@@ -391,7 +392,7 @@ In each list, the projects under Most Developed Interfaces come first, then the 
 
 **A NetHack variant**
 
-1. [[GnollHack|#gnollhack]]
+1. [[GnollHack|#gnollhack]] ⚡
 2. [[NetHack 3D|#nethack-3d]] (SLASH'EM)
 3. [[EvilHack|#evilhack]]
 4. [[Hardfought web terminal|#hardfought-web-terminal]] (several variants with tiles, including SpliceHack and UnNetHack)
@@ -399,14 +400,14 @@ In each list, the projects under Most Developed Interfaces come first, then the 
 
 **Japanese text**
 
-1. [[DartHack|#darthack]]
+1. [[DartHack|#darthack]] ⚡
 2. [[NetHackJP|#nethackjp]]
 
 ### By Look and Sound
 
 **Both music and sound effects**
 
-1. [[GnollHack|#gnollhack]]
+1. [[GnollHack|#gnollhack]] ⚡
 2. [[ZeldHack for NetHack|#zeldhack-for-nethack]]
 3. [[NetHack Modern|#nethack-modern]]
 4. [[VoxHack|#voxhack]]
@@ -428,7 +429,7 @@ In each list, the projects under Most Developed Interfaces come first, then the 
 
 **Competing on the NetHack Scoreboard or in Junethack**
 
-1. [[GnollHack|#gnollhack]]
+1. [[GnollHack|#gnollhack]] ⚡
 2. [[Hardfought web terminal|#hardfought-web-terminal]]
 3. [[NAO web terminal|#nao-web-terminal]]
 4. [[NetHack Tiles Client|#nethack-tiles-client]]
