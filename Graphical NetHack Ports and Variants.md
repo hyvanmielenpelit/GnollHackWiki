@@ -291,7 +291,7 @@ Counting only the work on the graphical interface itself, not gameplay changes o
 
 ## 💡 Which One to Pick?
 
-In each list, the projects under Most Developed Interfaces come first, then the other established projects, then the experiments. Projects marked 📱, which run on a Mac only as the iPhone and iPad app, and projects marked ⌨️, which use an on-screen keypad or keyboard on a phone or tablet, come after them, and projects marked ⚠️, whose saved games can be lost, come last, each in that same order. In the web browser list, 🖥️ marks a version that needs a desktop computer; it does not change the order. ⚡ marks a project that installs from Steam, Google Play, or the App Store in one click; it does not change the order either.
+In each list, the projects under Most Developed Interfaces come first, then the other established projects, then the experiments. Projects marked 📱, which run on a Mac only as the iPhone and iPad app, and projects marked ⌨️, which use an on-screen keypad or keyboard on a phone or tablet, come after them, and projects marked ⚠️, whose saved games can be lost, come last, each in that same order. ⚡ marks a project that installs from Steam, Google Play, or the App Store in one click. Outside the device lists, 🌍 marks a browser version with nothing to install. In the web browser list and after 🌍, 🖥️ marks a browser version that needs a desktop computer. None of these three icons changes the order.
 
 ### By Device
 
@@ -367,35 +367,35 @@ In each list, the projects under Most Developed Interfaces come first, then the 
 **Vanilla NetHack 5.0**
 
 1. [[NetHack 3D|#nethack-3d]]
-2. [[NAO web terminal|#nao-web-terminal]]
+2. [[NAO web terminal|#nao-web-terminal]] 🌍 🖥️
 3. [[NetHack 5.0 (official)|#nethack-5-0-official]]
 4. [[NetHack Cocoa|#nethack-cocoa]]
 5. [[Amphitere|#amphitere]]
 6. [[BlissHack|#blisshack]]
 7. [[DartHack|#darthack]] ⚡
 8. [[NetHack Modern|#nethack-modern]]
-9. [[WebHack|#webhack]]
+9. [[WebHack|#webhack]] 🌍 🖥️
 10. [[NetHack Android|#nethack-android]] ⚠️
-11. [[neohack|#neohack]] ⚠️
-12. [[nethack.app|#nethack-app]] ⚠️
-13. [[VectHack|#vecthack]] ⚠️
+11. [[neohack|#neohack]] 🌍 ⚠️
+12. [[nethack.app|#nethack-app]] 🌍 ⚠️
+13. [[VectHack|#vecthack]] 🌍 🖥️ ⚠️
 
 **An older version of vanilla NetHack**
 
 1. [[NetHack 3D|#nethack-3d]] (NetHack 3.6.7)
 2. [[iNethack2|#inethack2]] (NetHack 3.6.7) ⚡
-3. [[NAO web terminal|#nao-web-terminal]] (NetHack 3.6)
+3. [[NAO web terminal|#nao-web-terminal]] (NetHack 3.6) 🌍 🖥️
 4. [[ZeldHack for NetHack|#zeldhack-for-nethack]] (NetHack 3.6.7)
 5. [[Amphitere|#amphitere]] (Amphitere Classic, NetHack 3.6.7)
 6. [[VoxHack|#voxhack]] (NetHack 3.7)
-7. [[NetHack Browser Edition|#nethack-browser-edition]] (NetHack 3.6.7) ⚠️
+7. [[NetHack Browser Edition|#nethack-browser-edition]] (NetHack 3.6.7) 🌍 ⚠️
 
 **A NetHack variant**
 
 1. [[GnollHack|#gnollhack]] ⚡
 2. [[NetHack 3D|#nethack-3d]] (SLASH'EM)
 3. [[EvilHack|#evilhack]]
-4. [[Hardfought web terminal|#hardfought-web-terminal]] (several variants with tiles, including SpliceHack and UnNetHack)
+4. [[Hardfought web terminal|#hardfought-web-terminal]] (several variants with tiles, including SpliceHack and UnNetHack) 🌍 🖥️
 5. [[xNetHack|#xnethack]]
 
 **Japanese text**
@@ -416,22 +416,22 @@ In each list, the projects under Most Developed Interfaces come first, then the 
 
 1. [[NetHack 3D|#nethack-3d]] (virtual reality on Meta Quest)
 2. [[VoxHack|#voxhack]]
-3. [[WebHack|#webhack]]
-4. [[VectHack|#vecthack]] ⚠️
+3. [[WebHack|#webhack]] 🌍 🖥️
+4. [[VectHack|#vecthack]] 🌍 🖥️ ⚠️
 
 ### Online Play
 
 **Playing on a public server**
 
-1. [[Hardfought web terminal|#hardfought-web-terminal]]
-2. [[NAO web terminal|#nao-web-terminal]]
+1. [[Hardfought web terminal|#hardfought-web-terminal]] 🌍 🖥️
+2. [[NAO web terminal|#nao-web-terminal]] 🌍 🖥️
 3. [[NetHack Tiles Client|#nethack-tiles-client]]
 
 **Competing on the NetHack Scoreboard or in Junethack**
 
 1. [[GnollHack|#gnollhack]] ⚡
-2. [[Hardfought web terminal|#hardfought-web-terminal]]
-3. [[NAO web terminal|#nao-web-terminal]]
+2. [[Hardfought web terminal|#hardfought-web-terminal]] 🌍 🖥️
+3. [[NAO web terminal|#nao-web-terminal]] 🌍 🖥️
 4. [[NetHack Tiles Client|#nethack-tiles-client]]
 
 ## 🔴 Unmaintained and Not Listed
