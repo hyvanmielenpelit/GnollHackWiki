@@ -291,7 +291,7 @@ Counting only the work on the graphical interface itself, not gameplay changes o
 
 ## 💡 Which One to Pick?
 
-In each list, the projects under Most Developed Interfaces come first, then the other established projects, then the experiments. Projects marked 📱, which run on a Mac only as the iPhone and iPad app, and projects marked ⌨️, which use an on-screen keypad or keyboard on a phone or tablet, come after them, and projects marked ⚠️, whose saved games can be lost, come last, each in that same order. ⚡ marks a project that installs from Steam, Google Play, or the App Store in one click. Outside the device lists, 🌍 marks a browser version with nothing to install. In the web browser list and after 🌍, 🖥️ marks a browser version that needs a desktop computer. None of these three icons changes the order.
+In each list, the projects under Most Developed Interfaces come first, then the other established projects, then the experiments. Projects marked 📱, which run on a Mac only as the iPhone and iPad app, and projects marked ⌨️, which use an on-screen keypad or keyboard on a phone or tablet, come after them, and projects marked ⚠️, whose saved games can be lost, come last, each in that same order. ⚡ marks a project that installs from Steam, Google Play, or the App Store in one click. 🌍 marks a browser version with nothing to install, and 🖥️ after it marks one that needs a desktop computer. None of these three icons changes the order.
 
 ### By Device
 
@@ -299,10 +299,10 @@ In each list, the projects under Most Developed Interfaces come first, then the 
 
 1. [[GnollHack|#gnollhack]] ⚡
 2. [[iNethack2|#inethack2]] ⚡ ⌨️
-3. [[NetHack 3D (web version)|#nethack-3d-web-version]] ⚠️
-4. [[NetHack Browser Edition|#nethack-browser-edition]] ⚠️
-5. [[BlissHack (web version)|#blisshack-web-version]] ⚠️
-6. [[neohack|#neohack]] ⌨️ ⚠️
+3. [[NetHack 3D (web version)|#nethack-3d-web-version]] 🌍 ⚠️
+4. [[NetHack Browser Edition|#nethack-browser-edition]] 🌍 ⚠️
+5. [[BlissHack (web version)|#blisshack-web-version]] 🌍 ⚠️
+6. [[neohack|#neohack]] 🌍 ⌨️ ⚠️
 
 **Android phone or tablet**
 
@@ -310,11 +310,11 @@ In each list, the projects under Most Developed Interfaces come first, then the 
 2. [[NetHack 3D|#nethack-3d]]
 3. [[Amphitere|#amphitere]]
 4. [[DartHack|#darthack]] ⚡ ⌨️
-5. [[NetHack 3D (web version)|#nethack-3d-web-version]] ⚠️
+5. [[NetHack 3D (web version)|#nethack-3d-web-version]] 🌍 ⚠️
 6. [[NetHack Android|#nethack-android]] ⌨️ ⚠️
-7. [[NetHack Browser Edition|#nethack-browser-edition]] ⚠️
-8. [[BlissHack (web version)|#blisshack-web-version]] ⚠️
-9. [[neohack|#neohack]] ⌨️ ⚠️
+7. [[NetHack Browser Edition|#nethack-browser-edition]] 🌍 ⚠️
+8. [[BlissHack (web version)|#blisshack-web-version]] 🌍 ⚠️
+9. [[neohack|#neohack]] 🌍 ⌨️ ⚠️
 
 **Mac (Apple silicon)**
 
@@ -354,13 +354,13 @@ In each list, the projects under Most Developed Interfaces come first, then the 
 
 **Web browser, with nothing to install**
 
-1. [[WebHack|#webhack]] 🖥️
-2. [[NetHack 3D (web version)|#nethack-3d-web-version]] ⚠️
-3. [[NetHack Browser Edition|#nethack-browser-edition]] ⚠️
-4. [[BlissHack (web version)|#blisshack-web-version]] ⚠️
-5. [[neohack|#neohack]] ⚠️
-6. [[nethack.app|#nethack-app]] ⚠️
-7. [[VectHack|#vecthack]] 🖥️ ⚠️
+1. [[WebHack|#webhack]] 🌍 🖥️
+2. [[NetHack 3D (web version)|#nethack-3d-web-version]] 🌍 ⚠️
+3. [[NetHack Browser Edition|#nethack-browser-edition]] 🌍 ⚠️
+4. [[BlissHack (web version)|#blisshack-web-version]] 🌍 ⚠️
+5. [[neohack|#neohack]] 🌍 ⚠️
+6. [[nethack.app|#nethack-app]] 🌍 ⚠️
+7. [[VectHack|#vecthack]] 🌍 🖥️ ⚠️
 
 ### By Game and Language
 
