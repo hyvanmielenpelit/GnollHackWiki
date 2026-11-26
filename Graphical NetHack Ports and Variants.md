@@ -295,7 +295,7 @@ Counting only the work on the graphical interface itself, not gameplay changes o
 
 The port lists below are ordered as follows:
 
-1. Projects with most developed interfaces.
+1. Projects marked ⭐, which have the most developed interfaces.
 2. Other established projects.
 3. Experiments.
 4. Projects marked 📱, which run on a Mac only as an iPad app.
@@ -307,28 +307,29 @@ The port lists below are ordered as follows:
 - ⚡ marks a project that installs from Steam, Google Play, or the App Store in one click.
 - 🌍 marks a browser version with nothing to install.
 - 🖥️ marks a browser version that needs a desktop computer (no touch support).
+- 🎵 marks a project with both sound effects and music.
 
-The desktop and mobile web browser lists hold only browser versions, so their items carry neither 🌍 nor 🖥️.
+The desktop and mobile web browser lists hold only browser versions, so their items carry neither 🌍 nor 🖥️, and the items in the music and sound effects list do not carry 🎵.
 
 ### By Device
 
 **iPhone or iPad**
 
-1. [[GnollHack|#gnollhack]] ⚡
+1. [[GnollHack|#gnollhack]] ⭐ ⚡ 🎵
 2. [[iNethack2|#inethack2]] ⚡ ⌨️
 
 **Android phone or tablet**
 
-1. [[GnollHack|#gnollhack]] ⚡
-2. [[NetHack 3D|#nethack-3d]]
+1. [[GnollHack|#gnollhack]] ⭐ ⚡ 🎵
+2. [[NetHack 3D|#nethack-3d]] ⭐
 3. [[Amphitere|#amphitere]]
 4. [[DartHack|#darthack]] ⚡ ⌨️
 5. [[NetHack Android|#nethack-android]] ⌨️ ⚠️
 
 **Mac (Apple silicon)**
 
-1. [[GnollHack|#gnollhack]] ⚡
-2. [[NetHack 3D|#nethack-3d]]
+1. [[GnollHack|#gnollhack]] ⭐ ⚡ 🎵
+2. [[NetHack 3D|#nethack-3d]] ⭐
 3. [[NetHack Cocoa|#nethack-cocoa]]
 4. [[BlissHack|#blisshack]]
 5. [[NetHack Tiles Client|#nethack-tiles-client]]
@@ -336,35 +337,35 @@ The desktop and mobile web browser lists hold only browser versions, so their it
 
 **Windows PC**
 
-1. [[GnollHack|#gnollhack]] ⚡
-2. [[NetHack 3D|#nethack-3d]]
+1. [[GnollHack|#gnollhack]] ⭐ ⚡ 🎵
+2. [[NetHack 3D|#nethack-3d]] ⭐
 3. [[EvilHack|#evilhack]]
 4. [[NetHack 5.0 (official)|#nethack-5-0-official]]
 5. [[xNetHack|#xnethack]]
-6. [[ZeldHack for NetHack|#zeldhack-for-nethack]]
+6. [[ZeldHack for NetHack|#zeldhack-for-nethack]] 🎵
 7. [[BlissHack|#blisshack]]
-8. [[NetHack Modern|#nethack-modern]]
+8. [[NetHack Modern|#nethack-modern]] 🎵
 9. [[NetHack Tiles Client|#nethack-tiles-client]]
 10. [[NetHackJP|#nethackjp]]
-11. [[VoxHack|#voxhack]]
+11. [[VoxHack|#voxhack]] 🎵
 
 **Linux PC**
 
-1. [[GnollHack|#gnollhack]] ⚡
-2. [[NetHack 3D|#nethack-3d]]
-3. [[NetHack Modern|#nethack-modern]]
+1. [[GnollHack|#gnollhack]] ⭐ ⚡ 🎵
+2. [[NetHack 3D|#nethack-3d]] ⭐
+3. [[NetHack Modern|#nethack-modern]] 🎵
 4. [[NetHack Tiles Client|#nethack-tiles-client]]
 5. [[NetHackJP|#nethackjp]]
 
 **Steam Deck**
 
-1. [[GnollHack|#gnollhack]] ⚡
-2. [[NetHack 3D|#nethack-3d]]
+1. [[GnollHack|#gnollhack]] ⭐ ⚡ 🎵
+2. [[NetHack 3D|#nethack-3d]] ⭐
 
 **Desktop web browser**
 
 1. [[WebHack|#webhack]]
-2. [[NetHack 3D (web version)|#nethack-3d-web-version]] ⚠️
+2. [[NetHack 3D (web version)|#nethack-3d-web-version]] ⭐ ⚠️
 3. [[NetHack Browser Edition|#nethack-browser-edition]] ⚠️
 4. [[BlissHack (web version)|#blisshack-web-version]] ⚠️
 5. [[neohack|#neohack]] ⚠️
@@ -373,7 +374,7 @@ The desktop and mobile web browser lists hold only browser versions, so their it
 
 **Mobile web browser**
 
-1. [[NetHack 3D (web version)|#nethack-3d-web-version]] ⚠️
+1. [[NetHack 3D (web version)|#nethack-3d-web-version]] ⭐ ⚠️
 2. [[NetHack Browser Edition|#nethack-browser-edition]] ⚠️
 3. [[BlissHack (web version)|#blisshack-web-version]] ⚠️
 4. [[neohack|#neohack]] ⌨️ ⚠️
@@ -383,14 +384,14 @@ The desktop and mobile web browser lists hold only browser versions, so their it
 
 **Vanilla NetHack 5.0**
 
-1. [[NetHack 3D|#nethack-3d]]
+1. [[NetHack 3D|#nethack-3d]] ⭐
 2. [[NAO web terminal|#nao-web-terminal]] 🌍 🖥️
 3. [[NetHack 5.0 (official)|#nethack-5-0-official]]
 4. [[NetHack Cocoa|#nethack-cocoa]]
 5. [[Amphitere|#amphitere]]
 6. [[BlissHack|#blisshack]]
 7. [[DartHack|#darthack]] ⚡
-8. [[NetHack Modern|#nethack-modern]]
+8. [[NetHack Modern|#nethack-modern]] 🎵
 9. [[WebHack|#webhack]] 🌍 🖥️
 10. [[NetHack Android|#nethack-android]] ⚠️
 11. [[neohack|#neohack]] 🌍 ⚠️
@@ -399,18 +400,18 @@ The desktop and mobile web browser lists hold only browser versions, so their it
 
 **An older version of vanilla NetHack**
 
-1. [[NetHack 3D|#nethack-3d]] (NetHack 3.6.7)
+1. [[NetHack 3D|#nethack-3d]] (NetHack 3.6.7) ⭐
 2. [[iNethack2|#inethack2]] (NetHack 3.6.7) ⚡
 3. [[NAO web terminal|#nao-web-terminal]] (NetHack 3.6) 🌍 🖥️
-4. [[ZeldHack for NetHack|#zeldhack-for-nethack]] (NetHack 3.6.7)
+4. [[ZeldHack for NetHack|#zeldhack-for-nethack]] (NetHack 3.6.7) 🎵
 5. [[Amphitere|#amphitere]] (Amphitere Classic, NetHack 3.6.7)
-6. [[VoxHack|#voxhack]] (NetHack 3.7)
+6. [[VoxHack|#voxhack]] (NetHack 3.7) 🎵
 7. [[NetHack Browser Edition|#nethack-browser-edition]] (NetHack 3.6.7) 🌍 ⚠️
 
 **A NetHack variant**
 
-1. [[GnollHack|#gnollhack]] ⚡
-2. [[NetHack 3D|#nethack-3d]] (SLASH'EM)
+1. [[GnollHack|#gnollhack]] ⭐ ⚡ 🎵
+2. [[NetHack 3D|#nethack-3d]] (SLASH'EM) ⭐
 3. [[EvilHack|#evilhack]]
 4. [[Hardfought web terminal|#hardfought-web-terminal]] (several variants with tiles, including SpliceHack and UnNetHack) 🌍 🖥️
 5. [[xNetHack|#xnethack]]
@@ -424,15 +425,15 @@ The desktop and mobile web browser lists hold only browser versions, so their it
 
 **Both music and sound effects**
 
-1. [[GnollHack|#gnollhack]] ⚡
+1. [[GnollHack|#gnollhack]] ⭐ ⚡
 2. [[ZeldHack for NetHack|#zeldhack-for-nethack]]
 3. [[NetHack Modern|#nethack-modern]]
 4. [[VoxHack|#voxhack]]
 
 **Virtual reality or first-person 3D**
 
-1. [[NetHack 3D|#nethack-3d]] (virtual reality on Meta Quest)
-2. [[VoxHack|#voxhack]]
+1. [[NetHack 3D|#nethack-3d]] (virtual reality on Meta Quest) ⭐
+2. [[VoxHack|#voxhack]] 🎵
 3. [[WebHack|#webhack]] 🌍 🖥️
 4. [[VectHack|#vecthack]] 🌍 🖥️ ⚠️
 
@@ -446,7 +447,7 @@ The desktop and mobile web browser lists hold only browser versions, so their it
 
 **Competing on the NetHack Scoreboard or in Junethack**
 
-1. [[GnollHack|#gnollhack]] ⚡
+1. [[GnollHack|#gnollhack]] ⭐ ⚡ 🎵
 2. [[Hardfought web terminal|#hardfought-web-terminal]] 🌍 🖥️
 3. [[NAO web terminal|#nao-web-terminal]] 🌍 🖥️
 4. [[NetHack Tiles Client|#nethack-tiles-client]]
