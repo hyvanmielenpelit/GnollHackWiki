@@ -68,7 +68,7 @@ The icons are grouped by the column of the [[At a Glance|#at-a-glance]] table th
 | [[DartHack|#darthack]] ⚡ | Vanilla 5.0 ✅ | 🏪 | 🧪 | 🔇 | Free, with ads | Android ⌨️ |
 | [[EvilHack|#evilhack]] | Variant | 💾 | 🟢 | 🔇 | Free | Windows |
 | [[GnollHack|#gnollhack]] ⭐ ⚡ | Variant | 🏪 💾 | 🟢 | 🎵 | Free | Windows, macOS, Linux, Steam Deck, Android, iPhone, iPad |
-| [[Hardfought web terminal|#hardfought-web-terminal]] | Vanilla & variants | 🌍 | 🟢 | 🔇 | Free | Desktop web browsers 🖥️ |
+| [[Hardfought web terminal|#hardfought-web-terminal]] | Vanilla 5.0 ✅, variants | 🌍 | 🟢 | 🔇 | Free | Desktop web browsers 🖥️ |
 | [[iNethack2|#inethack2]] ⚡ | Vanilla 3.6.7 🕰️ | 🏪 | 🟡 | 🔇 | Free | iPhone ⌨️, iPad ⌨️, Apple silicon Mac 📱 |
 | [[NAO web terminal|#nao-web-terminal]] | Vanilla 5.0 ✅, 3.6 🕰️ | 🌍 | 🟢 | 🔇 | Free | Desktop web browsers 🖥️ |
 | [[neohack|#neohack]] | Vanilla 5.0 ✅ | 🌍 | 🧪 | 🔇 | Free | Desktop and mobile web browsers ⌨️ ⚠️ |
@@ -78,7 +78,7 @@ The icons are grouped by the column of the [[At a Glance|#at-a-glance]] table th
 | [[NetHack Browser Edition|#nethack-browser-edition]] | Vanilla 3.6.7 🕰️ | 🌍 | 🟡 | 🔇 | Free | Desktop and mobile web browsers ⚠️ |
 | [[NetHack Cocoa|#nethack-cocoa]] | Vanilla 5.0 ✅ | 💾 | 🟢 | 🔇 | Free | macOS 12 or later |
 | [[NetHack Modern|#nethack-modern]] | Vanilla 5.0 ✅ | 💾 | 🧪 | 🎵 | Free | Windows, Linux |
-| [[NetHack Tiles Client|#nethack-tiles-client]] | Vanilla & variants | 💾 | 🧪 | 🔇 | Free | Windows, macOS, Linux |
+| [[NetHack Tiles Client|#nethack-tiles-client]] | Vanilla 5.0 ✅, 3.6 🕰️ | 💾 | 🧪 | 🔇 | Free | Windows, macOS, Linux |
 | [[nethack.app|#nethack-app]] | Vanilla 5.0 ✅ | 🌍 | 🧪 | 🔇 | Free | Desktop web browsers, tablets held sideways ⚠️ |
 | [[NetHackJP|#nethackjp]] | Vanilla 5.0 ✅ (Japanese) | 💾 | 🧪 | 🔇 | Free | Windows, Linux |
 | [[VectHack|#vecthack]] | Vanilla 5.0 ✅ | 🌍 | 🧪 | 🔇 | Free | Desktop web browsers 🖥️ ⚠️ |
@@ -206,7 +206,7 @@ A fork of vanilla NetHack 5.0 ✅ that keeps the rules and saves unchanged and a
 
 🧪 **Experiment** · Free · 🔇
 
-A desktop client that connects to the NAO and Hardfought public servers and draws the game with tiles instead of text.
+A desktop client that connects to the NAO and Hardfought public servers and draws the game with tiles instead of text. It comes with tile sets only for vanilla NetHack 5.0 ✅ and 3.6.7 🕰️, so NetHack 3.4.3 and the variants on those servers are shown as text. Tiles need `OPTIONS=vt_tiledata` and `OPTIONS=windowtype:tty` in the options file on the server.
 
 - [GitHub](https://github.com/statico/nethack-tiles-client/releases): Windows, macOS, Linux
 
@@ -242,7 +242,7 @@ The browser version of [[BlissHack|#blisshack]]. It plays vanilla NetHack 5.0 �
 
 🟢 **In active development** · Free · 🔇 · 🖥️
 
-Browser play on the Hardfought public servers in North America, Europe, and Australia. Tiles are available for several variants, including xNetHack, EvilHack, SpliceHack, and UnNetHack, when `OPTIONS=vt_tiledata` is set in the options file. It is a terminal played with a keyboard, with no touch controls. Requires a free account.
+Browser play on the Hardfought public servers in North America, Europe, and Australia, with vanilla NetHack 5.0 ✅ and many variants. Tile sets are offered for vanilla NetHack 5.0 and for EvilHack, SpliceHack, TNNT, UnNetHack, and xNetHack, when `OPTIONS=vt_tiledata` is set in the options file. The servers also host the older vanilla versions 3.6 and 3.4.3 and other variants, such as GnollHack, but the web terminal shows them as text only. It is a terminal played with a keyboard, with no touch controls. Requires a free account.
 
 - [Hardfought](https://www.hardfought.org/hterm/): Desktop web browsers
 
@@ -342,7 +342,7 @@ The port lists below are ordered as follows:
 - 🖥️ marks a browser version that needs a desktop computer (no touch support).
 - 🎵 marks a project with both sound effects and music.
 
-A project carries the same signs in every list it appears in.
+A project carries the same signs in every list it appears in, except for the signs that matter only on some devices: 📱 appears only in the Mac list, ⌨️ only in the lists for phones, tablets, and mobile web browsers, and 🖥️ only in the desktop web browser list. Projects are ordered by 📱 and ⌨️ only in the lists that show these signs. In the lists for one version of vanilla NetHack, a project that plays several versions shows only the sign for that version.
 
 ### By Device
 
@@ -354,60 +354,62 @@ A project carries the same signs in every list it appears in.
 **Android phone or tablet**
 
 1. [[GnollHack|#gnollhack]] ⭐ ⚡ 🎵
-2. [[NetHack 3D|#nethack-3d]] ⭐ ✅
-3. [[Amphitere|#amphitere]] ✅
+2. [[NetHack 3D|#nethack-3d]] ⭐ ✅ 🕰️
+3. [[Amphitere|#amphitere]] ✅ 🕰️
 4. [[DartHack|#darthack]] ⚡ ✅ ⌨️
 5. [[NetHack Android|#nethack-android]] ✅ ⌨️ ⚠️
 
 **Mac (Apple silicon)**
 
 1. [[GnollHack|#gnollhack]] ⭐ ⚡ 🎵
-2. [[NetHack 3D|#nethack-3d]] ⭐ ✅
+2. [[NetHack 3D|#nethack-3d]] ⭐ ✅ 🕰️
 3. [[NetHack Cocoa|#nethack-cocoa]] ✅
 4. [[BlissHack|#blisshack]] ✅
-5. [[NetHack Tiles Client|#nethack-tiles-client]] ✅
-6. [[iNethack2|#inethack2]] ⚡ 🕰️ 📱 ⌨️
+5. [[NetHack Tiles Client|#nethack-tiles-client]] ✅ 🕰️
+6. [[iNethack2|#inethack2]] ⚡ 🕰️ 📱
 
 **Windows PC**
 
 1. [[GnollHack|#gnollhack]] ⭐ ⚡ 🎵
-2. [[NetHack 3D|#nethack-3d]] ⭐ ✅
+2. [[NetHack 3D|#nethack-3d]] ⭐ ✅ 🕰️
 3. [[EvilHack|#evilhack]]
 4. [[NetHack 5.0 (official)|#nethack-5-0-official]] ✅
 5. [[xNetHack|#xnethack]]
 6. [[ZeldHack for NetHack|#zeldhack-for-nethack]] 🕰️ 🎵
 7. [[BlissHack|#blisshack]] ✅
 8. [[NetHack Modern|#nethack-modern]] ✅ 🎵
-9. [[NetHack Tiles Client|#nethack-tiles-client]] ✅
+9. [[NetHack Tiles Client|#nethack-tiles-client]] ✅ 🕰️
 10. [[NetHackJP|#nethackjp]] ✅
 11. [[VoxHack|#voxhack]] 🕰️ 🎵
 
 **Linux PC**
 
 1. [[GnollHack|#gnollhack]] ⭐ ⚡ 🎵
-2. [[NetHack 3D|#nethack-3d]] ⭐ ✅
+2. [[NetHack 3D|#nethack-3d]] ⭐ ✅ 🕰️
 3. [[NetHack Modern|#nethack-modern]] ✅ 🎵
-4. [[NetHack Tiles Client|#nethack-tiles-client]] ✅
+4. [[NetHack Tiles Client|#nethack-tiles-client]] ✅ 🕰️
 5. [[NetHackJP|#nethackjp]] ✅
 
 **Steam Deck**
 
 1. [[GnollHack|#gnollhack]] ⭐ ⚡ 🎵
-2. [[NetHack 3D|#nethack-3d]] ⭐ ✅
+2. [[NetHack 3D|#nethack-3d]] ⭐ ✅ 🕰️
 
 **Desktop web browser**
 
-1. [[WebHack|#webhack]] ✅ 🌍 🖥️
-2. [[NetHack 3D (web version)|#nethack-3d-web-version]] ⭐ ✅ 🌍 ⚠️
-3. [[NetHack Browser Edition|#nethack-browser-edition]] 🕰️ 🌍 ⚠️
-4. [[BlissHack (web version)|#blisshack-web-version]] ✅ 🌍 ⚠️
-5. [[neohack|#neohack]] ✅ 🌍 ⌨️ ⚠️
-6. [[nethack.app|#nethack-app]] ✅ 🌍 ⚠️
-7. [[VectHack|#vecthack]] ✅ 🌍 🖥️ ⚠️
+1. [[Hardfought web terminal|#hardfought-web-terminal]] ✅ 🌍 🖥️
+2. [[NAO web terminal|#nao-web-terminal]] ✅ 🕰️ 🌍 🖥️
+3. [[WebHack|#webhack]] ✅ 🌍 🖥️
+4. [[NetHack 3D (web version)|#nethack-3d-web-version]] ⭐ ✅ 🕰️ 🌍 ⚠️
+5. [[NetHack Browser Edition|#nethack-browser-edition]] 🕰️ 🌍 ⚠️
+6. [[BlissHack (web version)|#blisshack-web-version]] ✅ 🌍 ⚠️
+7. [[neohack|#neohack]] ✅ 🌍 ⚠️
+8. [[nethack.app|#nethack-app]] ✅ 🌍 ⚠️
+9. [[VectHack|#vecthack]] ✅ 🌍 🖥️ ⚠️
 
 **Mobile web browser**
 
-1. [[NetHack 3D (web version)|#nethack-3d-web-version]] ⭐ ✅ 🌍 ⚠️
+1. [[NetHack 3D (web version)|#nethack-3d-web-version]] ⭐ ✅ 🕰️ 🌍 ⚠️
 2. [[NetHack Browser Edition|#nethack-browser-edition]] 🕰️ 🌍 ⚠️
 3. [[BlissHack (web version)|#blisshack-web-version]] ✅ 🌍 ⚠️
 4. [[neohack|#neohack]] ✅ 🌍 ⌨️ ⚠️
@@ -418,41 +420,46 @@ A project carries the same signs in every list it appears in.
 **Vanilla NetHack 5.0**
 
 1. [[NetHack 3D|#nethack-3d]] ⭐ ✅
-2. [[NAO web terminal|#nao-web-terminal]] ✅ 🌍 🖥️
-3. [[NetHack 5.0 (official)|#nethack-5-0-official]] ✅
-4. [[NetHack Cocoa|#nethack-cocoa]] ✅
-5. [[Amphitere|#amphitere]] ✅
-6. [[BlissHack|#blisshack]] ✅
-7. [[NetHack Modern|#nethack-modern]] ✅ 🎵
-8. [[WebHack|#webhack]] ✅ 🌍 🖥️
-9. [[DartHack|#darthack]] ⚡ ✅ ⌨️
-10. [[NetHack Android|#nethack-android]] ✅ ⌨️ ⚠️
-11. [[neohack|#neohack]] ✅ 🌍 ⌨️ ⚠️
-12. [[nethack.app|#nethack-app]] ✅ 🌍 ⚠️
-13. [[VectHack|#vecthack]] ✅ 🌍 🖥️ ⚠️
+2. [[Hardfought web terminal|#hardfought-web-terminal]] ✅ 🌍
+3. [[NAO web terminal|#nao-web-terminal]] ✅ 🌍
+4. [[NetHack 5.0 (official)|#nethack-5-0-official]] ✅
+5. [[NetHack Cocoa|#nethack-cocoa]] ✅
+6. [[Amphitere|#amphitere]] ✅
+7. [[BlissHack|#blisshack]] ✅
+8. [[DartHack|#darthack]] ⚡ ✅
+9. [[NetHack Modern|#nethack-modern]] ✅ 🎵
+10. [[NetHack Tiles Client|#nethack-tiles-client]] ✅
+11. [[WebHack|#webhack]] ✅ 🌍
+12. [[NetHack Android|#nethack-android]] ✅ ⚠️
+13. [[neohack|#neohack]] ✅ 🌍 ⚠️
+14. [[nethack.app|#nethack-app]] ✅ 🌍 ⚠️
+15. [[VectHack|#vecthack]] ✅ 🌍 ⚠️
 
 **An older version of vanilla NetHack**
 
 1. [[NetHack 3D|#nethack-3d]] (NetHack 3.6.7) ⭐ 🕰️
-2. [[NAO web terminal|#nao-web-terminal]] (NetHack 3.6) 🕰️ 🌍 🖥️
-3. [[ZeldHack for NetHack|#zeldhack-for-nethack]] (NetHack 3.6.7) 🕰️ 🎵
-4. [[Amphitere|#amphitere]] (Amphitere Classic, NetHack 3.6.7) 🕰️
-5. [[VoxHack|#voxhack]] (NetHack 3.7) 🕰️ 🎵
-6. [[iNethack2|#inethack2]] (NetHack 3.6.7) ⚡ 🕰️ 📱 ⌨️
-7. [[NetHack Browser Edition|#nethack-browser-edition]] (NetHack 3.6.7) 🕰️ 🌍 ⚠️
+2. [[iNethack2|#inethack2]] (NetHack 3.6.7) ⚡ 🕰️
+3. [[NAO web terminal|#nao-web-terminal]] (NetHack 3.6) 🕰️ 🌍
+4. [[ZeldHack for NetHack|#zeldhack-for-nethack]] (NetHack 3.6.7) 🕰️ 🎵
+5. [[Amphitere|#amphitere]] (Amphitere Classic, NetHack 3.6.7) 🕰️
+6. [[NetHack Tiles Client|#nethack-tiles-client]] (NetHack 3.6) 🕰️
+7. [[VoxHack|#voxhack]] (NetHack 3.7) 🕰️ 🎵
+8. [[NetHack Browser Edition|#nethack-browser-edition]] (NetHack 3.6.7) 🕰️ 🌍 ⚠️
+
+The [[Hardfought web terminal|#hardfought-web-terminal]] also hosts NetHack 3.6 and 3.4.3, but it has no tile sets for them and shows them as text only, so it is not listed here.
 
 **A NetHack variant**
 
 1. [[GnollHack|#gnollhack]] ⭐ ⚡ 🎵
 2. [[NetHack 3D|#nethack-3d]] (SLASH'EM) ⭐
 3. [[EvilHack|#evilhack]]
-4. [[Hardfought web terminal|#hardfought-web-terminal]] (several variants with tiles, including SpliceHack and UnNetHack) 🌍 🖥️
+4. [[Hardfought web terminal|#hardfought-web-terminal]] (EvilHack, SpliceHack, TNNT, UnNetHack, and xNetHack with tiles) 🌍
 5. [[xNetHack|#xnethack]]
 
 **Japanese text**
 
-1. [[NetHackJP|#nethackjp]] ✅
-2. [[DartHack|#darthack]] ⚡ ✅ ⌨️
+1. [[DartHack|#darthack]] ⚡ ✅
+2. [[NetHackJP|#nethackjp]] ✅
 
 ### By Look and Sound
 
@@ -465,25 +472,25 @@ A project carries the same signs in every list it appears in.
 
 **Virtual reality or first-person 3D**
 
-1. [[NetHack 3D|#nethack-3d]] (virtual reality on Meta Quest) ⭐ ✅
+1. [[NetHack 3D|#nethack-3d]] (virtual reality on Meta Quest) ⭐ ✅ 🕰️
 2. [[VoxHack|#voxhack]] 🕰️ 🎵
-3. [[WebHack|#webhack]] ✅ 🌍 🖥️
-4. [[VectHack|#vecthack]] ✅ 🌍 🖥️ ⚠️
+3. [[WebHack|#webhack]] ✅ 🌍
+4. [[VectHack|#vecthack]] ✅ 🌍 ⚠️
 
 ### Online Play
 
 **Playing on a public server**
 
-1. [[Hardfought web terminal|#hardfought-web-terminal]] 🌍 🖥️
-2. [[NAO web terminal|#nao-web-terminal]] ✅ 🌍 🖥️
-3. [[NetHack Tiles Client|#nethack-tiles-client]]
+1. [[Hardfought web terminal|#hardfought-web-terminal]] ✅ 🌍
+2. [[NAO web terminal|#nao-web-terminal]] ✅ 🕰️ 🌍
+3. [[NetHack Tiles Client|#nethack-tiles-client]] ✅ 🕰️
 
 **Competing on the NetHack Scoreboard or in Junethack**
 
 1. [[GnollHack|#gnollhack]] ⭐ ⚡ 🎵
-2. [[Hardfought web terminal|#hardfought-web-terminal]] 🌍 🖥️
-3. [[NAO web terminal|#nao-web-terminal]] ✅ 🌍 🖥️
-4. [[NetHack Tiles Client|#nethack-tiles-client]]
+2. [[Hardfought web terminal|#hardfought-web-terminal]] ✅ 🌍
+3. [[NAO web terminal|#nao-web-terminal]] ✅ 🕰️ 🌍
+4. [[NetHack Tiles Client|#nethack-tiles-client]] ✅ 🕰️
 
 ## 🔴 Unmaintained and Not Listed
 
