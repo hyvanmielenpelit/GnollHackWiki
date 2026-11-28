@@ -54,31 +54,31 @@ The icons are grouped by the column of the [[At a Glance|#at-a-glance]] table th
 
 ## 📋 At a Glance
 
-| Port or Variant | Get It | Status | Audio | Price | Runs On |
-| :-- | :-: | :-: | :-: | :-- | :-- |
-| [[Amphitere|#amphitere]] | 💾 | 🧪 | 🔇 | Free | Android |
-| [[BlissHack|#blisshack]] | 💾 [[🌍|#blisshack-web-version]] | 🧪 | 🔇 | Free | Windows, macOS (Apple silicon), desktop and mobile web browsers ⚠️ |
-| [[DartHack|#darthack]] ⚡ | 🏪 | 🧪 | 🔇 | Free, with ads | Android ⌨️ |
-| [[EvilHack|#evilhack]] | 💾 | 🟢 | 🔇 | Free | Windows |
-| [[GnollHack|#gnollhack]] ⭐ ⚡ | 🏪 💾 | 🟢 | 🎵 | Free | Windows, macOS, Linux, Steam Deck, Android, iPhone, iPad |
-| [[Hardfought web terminal|#hardfought-web-terminal]] | 🌍 | 🟢 | 🔇 | Free | Desktop web browsers 🖥️ |
-| [[iNethack2|#inethack2]] ⚡ | 🏪 | 🟡 | 🔇 | Free | iPhone ⌨️, iPad ⌨️, Apple silicon Mac 📱 |
-| [[NAO web terminal|#nao-web-terminal]] | 🌍 | 🟢 | 🔇 | Free | Desktop web browsers 🖥️ |
-| [[neohack|#neohack]] | 🌍 | 🧪 | 🔇 | Free | Desktop and mobile web browsers ⌨️ ⚠️ |
-| [[NetHack 3D|#nethack-3d]] ⭐ | 💾 [[🌍|#nethack-3d-web-version]] | 🟢 | 🔇 | Free | Windows, macOS, Linux, Steam Deck, Android, Meta Quest, desktop and mobile web browsers ⚠️ |
-| [[NetHack 5.0 (official)|#nethack-5-0-official]] | 💾 | 🟢 | 🔇 | Free | Windows, MS-DOS |
-| [[NetHack Android|#nethack-android]] | 💾 | 🟢 | 🔇 | Free | Android ⌨️ ⚠️ |
-| [[NetHack Browser Edition|#nethack-browser-edition]] | 🌍 | 🟡 | 🔇 | Free | Desktop and mobile web browsers ⚠️ |
-| [[NetHack Cocoa|#nethack-cocoa]] | 💾 | 🟢 | 🔇 | Free | macOS 12 or later |
-| [[NetHack Modern|#nethack-modern]] | 💾 | 🧪 | 🎵 | Free | Windows, Linux |
-| [[NetHack Tiles Client|#nethack-tiles-client]] | 💾 | 🧪 | 🔇 | Free | Windows, macOS, Linux |
-| [[nethack.app|#nethack-app]] | 🌍 | 🧪 | 🔇 | Free | Desktop web browsers, tablets held sideways ⚠️ |
-| [[NetHackJP|#nethackjp]] | 💾 | 🧪 | 🔇 | Free | Windows, Linux |
-| [[VectHack|#vecthack]] | 🌍 | 🧪 | 🔇 | Free | Desktop web browsers 🖥️ ⚠️ |
-| [[VoxHack|#voxhack]] | 🏪 💾 | 🧪 | 🎵 | Free, or pay what you want | Windows |
-| [[WebHack|#webhack]] | 🌍 | 🧪 | 🔇 | Free | Desktop web browsers 🖥️ |
-| [[xNetHack|#xnethack]] | 💾 | 🟢 | 🔇 | Free | Windows |
-| [[ZeldHack for NetHack|#zeldhack-for-nethack]] | 🏪 | 🟡 | 🎵 | Free | Windows |
+| Port or Variant | Game | Get It | Status | Audio | Price | Runs On |
+| :-- | :-- | :-: | :-: | :-: | :-- | :-- |
+| [[Amphitere|#amphitere]] | Vanilla 5.0, 3.6.7 | 💾 | 🧪 | 🔇 | Free | Android |
+| [[BlissHack|#blisshack]] | Vanilla 5.0 | 💾 [[🌍|#blisshack-web-version]] | 🧪 | 🔇 | Free | Windows, macOS (Apple silicon), desktop and mobile web browsers ⚠️ |
+| [[DartHack|#darthack]] ⚡ | Vanilla 5.0 | 🏪 | 🧪 | 🔇 | Free, with ads | Android ⌨️ |
+| [[EvilHack|#evilhack]] | Variant | 💾 | 🟢 | 🔇 | Free | Windows |
+| [[GnollHack|#gnollhack]] ⭐ ⚡ | Variant | 🏪 💾 | 🟢 | 🎵 | Free | Windows, macOS, Linux, Steam Deck, Android, iPhone, iPad |
+| [[Hardfought web terminal|#hardfought-web-terminal]] | Vanilla & variants | 🌍 | 🟢 | 🔇 | Free | Desktop web browsers 🖥️ |
+| [[iNethack2|#inethack2]] ⚡ | Vanilla 3.6.7 | 🏪 | 🟡 | 🔇 | Free | iPhone ⌨️, iPad ⌨️, Apple silicon Mac 📱 |
+| [[NAO web terminal|#nao-web-terminal]] | Vanilla 5.0, 3.6 | 🌍 | 🟢 | 🔇 | Free | Desktop web browsers 🖥️ |
+| [[neohack|#neohack]] | Vanilla 5.0 | 🌍 | 🧪 | 🔇 | Free | Desktop and mobile web browsers ⌨️ ⚠️ |
+| [[NetHack 3D|#nethack-3d]] ⭐ | Vanilla 5.0, 3.6.7, SLASH'EM | 💾 [[🌍|#nethack-3d-web-version]] | 🟢 | 🔇 | Free | Windows, macOS, Linux, Steam Deck, Android, Meta Quest, desktop and mobile web browsers ⚠️ |
+| [[NetHack 5.0 (official)|#nethack-5-0-official]] | Vanilla 5.0 | 💾 | 🟢 | 🔇 | Free | Windows, MS-DOS |
+| [[NetHack Android|#nethack-android]] | Vanilla 5.0 | 💾 | 🟢 | 🔇 | Free | Android ⌨️ ⚠️ |
+| [[NetHack Browser Edition|#nethack-browser-edition]] | Vanilla 3.6.7 | 🌍 | 🟡 | 🔇 | Free | Desktop and mobile web browsers ⚠️ |
+| [[NetHack Cocoa|#nethack-cocoa]] | Vanilla 5.0 | 💾 | 🟢 | 🔇 | Free | macOS 12 or later |
+| [[NetHack Modern|#nethack-modern]] | Vanilla 5.0 | 💾 | 🧪 | 🎵 | Free | Windows, Linux |
+| [[NetHack Tiles Client|#nethack-tiles-client]] | Vanilla & variants | 💾 | 🧪 | 🔇 | Free | Windows, macOS, Linux |
+| [[nethack.app|#nethack-app]] | Vanilla 5.0 | 🌍 | 🧪 | 🔇 | Free | Desktop web browsers, tablets held sideways ⚠️ |
+| [[NetHackJP|#nethackjp]] | Vanilla 5.0 (Japanese) | 💾 | 🧪 | 🔇 | Free | Windows, Linux |
+| [[VectHack|#vecthack]] | Vanilla 5.0 | 🌍 | 🧪 | 🔇 | Free | Desktop web browsers 🖥️ ⚠️ |
+| [[VoxHack|#voxhack]] | Vanilla 3.7 | 🏪 💾 | 🧪 | 🎵 | Free, or pay what you want | Windows |
+| [[WebHack|#webhack]] | Vanilla 5.0 | 🌍 | 🧪 | 🔇 | Free | Desktop web browsers 🖥️ |
+| [[xNetHack|#xnethack]] | Variant | 💾 | 🟢 | 🔇 | Free | Windows |
+| [[ZeldHack for NetHack|#zeldhack-for-nethack]] | Vanilla 3.6.7 | 🏪 | 🟡 | 🎵 | Free | Windows |
 
 ## 🏪 Online Stores
 
