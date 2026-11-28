@@ -66,11 +66,13 @@
 | :----- | :----- | :--------: | :---: |
 | Asgardian | +25% max hit points | All | Common |
 | Atlantean | Mana regeneration | All | Common |
+| Bishop's | See blessedness: Shows whether items are blessed, uncursed, or cursed | Helmets | Common |
 | Cimmerian | Constitution 18 + Enchantment bonus | Body armor | Common |
 | Elysian | Hit point regeneration | All | Common |
 | Hallowed | Curse resistance, cannot be cursed, counts as silver against silver-vulnerable monsters | All except infernal, primordial, and demonic items | Common |
 | Herculean | Strength 18/** + Enchantment bonus | Body armor | Common |
 | Hyperborean | +25% max mana, confers +50% plus 5% per enchantment level to all spell casting, and can be enchanted 50% more than normal | All | Common |
+| Knight's | Confers jumping like a chess knight | Boots | Common |
 | Melnibonean | Mana regeneration, hit point regeneration, confers +50% plus 5% per enchantment level to all spell casting, and can be enchanted 50% more than normal | All | Rare |
 | Sorcerer's<sup>1</sup> | Sets the spell casting penalty to 0% | All | Common |
 | Stygian | Death and drain resistance | All | Rare |
