@@ -349,7 +349,7 @@ A project carries the same signs in every list it appears in.
 **iPhone or iPad**
 
 1. [[GnollHack|#gnollhack]] ⭐ ⚡ 🎵
-2. [[iNethack2|#inethack2]] ⚡ 🕰️ 📱 ⌨️
+2. [[iNethack2|#inethack2]] ⚡ 🕰️ ⌨️
 
 **Android phone or tablet**
 
@@ -365,7 +365,7 @@ A project carries the same signs in every list it appears in.
 2. [[NetHack 3D|#nethack-3d]] ⭐ ✅
 3. [[NetHack Cocoa|#nethack-cocoa]] ✅
 4. [[BlissHack|#blisshack]] ✅
-5. [[NetHack Tiles Client|#nethack-tiles-client]]
+5. [[NetHack Tiles Client|#nethack-tiles-client]] ✅
 6. [[iNethack2|#inethack2]] ⚡ 🕰️ 📱 ⌨️
 
 **Windows PC**
@@ -378,7 +378,7 @@ A project carries the same signs in every list it appears in.
 6. [[ZeldHack for NetHack|#zeldhack-for-nethack]] 🕰️ 🎵
 7. [[BlissHack|#blisshack]] ✅
 8. [[NetHack Modern|#nethack-modern]] ✅ 🎵
-9. [[NetHack Tiles Client|#nethack-tiles-client]]
+9. [[NetHack Tiles Client|#nethack-tiles-client]] ✅
 10. [[NetHackJP|#nethackjp]] ✅
 11. [[VoxHack|#voxhack]] 🕰️ 🎵
 
@@ -387,7 +387,7 @@ A project carries the same signs in every list it appears in.
 1. [[GnollHack|#gnollhack]] ⭐ ⚡ 🎵
 2. [[NetHack 3D|#nethack-3d]] ⭐ ✅
 3. [[NetHack Modern|#nethack-modern]] ✅ 🎵
-4. [[NetHack Tiles Client|#nethack-tiles-client]]
+4. [[NetHack Tiles Client|#nethack-tiles-client]] ✅
 5. [[NetHackJP|#nethackjp]] ✅
 
 **Steam Deck**
