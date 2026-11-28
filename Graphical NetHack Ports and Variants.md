@@ -458,10 +458,10 @@ The desktop and mobile web browser lists hold only browser versions, so their it
 
 **Both music and sound effects**
 
-1. [[GnollHack|#gnollhack]] ⭐ ⚡
-2. [[ZeldHack for NetHack|#zeldhack-for-nethack]] 🕰️
-3. [[NetHack Modern|#nethack-modern]] ✅
-4. [[VoxHack|#voxhack]] 🕰️
+1. [[GnollHack|#gnollhack]] ⭐ ⚡ 🎵
+2. [[ZeldHack for NetHack|#zeldhack-for-nethack]] 🕰️ 🎵
+3. [[NetHack Modern|#nethack-modern]] ✅ 🎵
+4. [[VoxHack|#voxhack]] 🕰️ 🎵
 
 **Virtual reality or first-person 3D**
 
