@@ -342,7 +342,7 @@ The port lists below are ordered as follows:
 - 🖥️ marks a browser version that needs a desktop computer (no touch support).
 - 🎵 marks a project with both sound effects and music.
 
-A project carries the same signs in every list it appears in, except for the signs that matter only on some devices: 📱 appears only in the Mac list, ⌨️ only in the lists for phones, tablets, and mobile web browsers, and 🖥️ only in the desktop web browser list. Projects are ordered by 📱 and ⌨️ only in the lists that show these signs. In the lists for one version of vanilla NetHack, a project that plays several versions shows only the sign for that version.
+A project carries the same signs in every list it appears in, except for the signs that matter only on some devices: 📱 appears only in the Mac list, and ⌨️ only in the lists for phones, tablets, and mobile web browsers. Projects are ordered by 📱 and ⌨️ only in the lists that show these signs. In the lists for one version of vanilla NetHack, a project that plays several versions shows only the sign for that version.
 
 ### By Device
 
@@ -420,8 +420,8 @@ A project carries the same signs in every list it appears in, except for the sig
 **Vanilla NetHack 5.0**
 
 1. [[NetHack 3D|#nethack-3d]] ⭐ ✅
-2. [[Hardfought web terminal|#hardfought-web-terminal]] ✅ 🌍
-3. [[NAO web terminal|#nao-web-terminal]] ✅ 🌍
+2. [[Hardfought web terminal|#hardfought-web-terminal]] ✅ 🌍 🖥️
+3. [[NAO web terminal|#nao-web-terminal]] ✅ 🌍 🖥️
 4. [[NetHack 5.0 (official)|#nethack-5-0-official]] ✅
 5. [[NetHack Cocoa|#nethack-cocoa]] ✅
 6. [[Amphitere|#amphitere]] ✅
@@ -429,17 +429,17 @@ A project carries the same signs in every list it appears in, except for the sig
 8. [[DartHack|#darthack]] ⚡ ✅
 9. [[NetHack Modern|#nethack-modern]] ✅ 🎵
 10. [[NetHack Tiles Client|#nethack-tiles-client]] ✅
-11. [[WebHack|#webhack]] ✅ 🌍
+11. [[WebHack|#webhack]] ✅ 🌍 🖥️
 12. [[NetHack Android|#nethack-android]] ✅ ⚠️
 13. [[neohack|#neohack]] ✅ 🌍 ⚠️
 14. [[nethack.app|#nethack-app]] ✅ 🌍 ⚠️
-15. [[VectHack|#vecthack]] ✅ 🌍 ⚠️
+15. [[VectHack|#vecthack]] ✅ 🌍 🖥️ ⚠️
 
 **An older version of vanilla NetHack**
 
 1. [[NetHack 3D|#nethack-3d]] (NetHack 3.6.7) ⭐ 🕰️
 2. [[iNethack2|#inethack2]] (NetHack 3.6.7) ⚡ 🕰️
-3. [[NAO web terminal|#nao-web-terminal]] (NetHack 3.6) 🕰️ 🌍
+3. [[NAO web terminal|#nao-web-terminal]] (NetHack 3.6) 🕰️ 🌍 🖥️
 4. [[ZeldHack for NetHack|#zeldhack-for-nethack]] (NetHack 3.6.7) 🕰️ 🎵
 5. [[Amphitere|#amphitere]] (Amphitere Classic, NetHack 3.6.7) 🕰️
 6. [[NetHack Tiles Client|#nethack-tiles-client]] (NetHack 3.6) 🕰️
@@ -453,7 +453,7 @@ The [[Hardfought web terminal|#hardfought-web-terminal]] also hosts NetHack 3.6 
 1. [[GnollHack|#gnollhack]] ⭐ ⚡ 🎵
 2. [[NetHack 3D|#nethack-3d]] (SLASH'EM) ⭐
 3. [[EvilHack|#evilhack]]
-4. [[Hardfought web terminal|#hardfought-web-terminal]] (EvilHack, SpliceHack, TNNT, UnNetHack, and xNetHack with tiles) 🌍
+4. [[Hardfought web terminal|#hardfought-web-terminal]] (EvilHack, SpliceHack, TNNT, UnNetHack, and xNetHack with tiles) 🌍 🖥️
 5. [[xNetHack|#xnethack]]
 
 **Japanese text**
@@ -474,22 +474,22 @@ The [[Hardfought web terminal|#hardfought-web-terminal]] also hosts NetHack 3.6 
 
 1. [[NetHack 3D|#nethack-3d]] (virtual reality on Meta Quest) ⭐ ✅ 🕰️
 2. [[VoxHack|#voxhack]] 🕰️ 🎵
-3. [[WebHack|#webhack]] ✅ 🌍
-4. [[VectHack|#vecthack]] ✅ 🌍 ⚠️
+3. [[WebHack|#webhack]] ✅ 🌍 🖥️
+4. [[VectHack|#vecthack]] ✅ 🌍 🖥️ ⚠️
 
 ### Online Play
 
 **Playing on a public server**
 
-1. [[Hardfought web terminal|#hardfought-web-terminal]] ✅ 🌍
-2. [[NAO web terminal|#nao-web-terminal]] ✅ 🕰️ 🌍
+1. [[Hardfought web terminal|#hardfought-web-terminal]] ✅ 🌍 🖥️
+2. [[NAO web terminal|#nao-web-terminal]] ✅ 🕰️ 🌍 🖥️
 3. [[NetHack Tiles Client|#nethack-tiles-client]] ✅ 🕰️
 
 **Competing on the NetHack Scoreboard or in Junethack**
 
 1. [[GnollHack|#gnollhack]] ⭐ ⚡ 🎵
-2. [[Hardfought web terminal|#hardfought-web-terminal]] ✅ 🌍
-3. [[NAO web terminal|#nao-web-terminal]] ✅ 🕰️ 🌍
+2. [[Hardfought web terminal|#hardfought-web-terminal]] ✅ 🌍 🖥️
+3. [[NAO web terminal|#nao-web-terminal]] ✅ 🕰️ 🌍 🖥️
 4. [[NetHack Tiles Client|#nethack-tiles-client]] ✅ 🕰️
 
 ## 🔴 Unmaintained and Not Listed
