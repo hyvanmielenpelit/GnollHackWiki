@@ -36,15 +36,16 @@ Rules for all of them:
 
 Follow the style of [[/Development/AI/Steam Events and Announcements]], with these differences:
 
-- **Lockup.** The shield and the game name together. The name is "GnollHack" in **Cinzel Black** (Cinzel draws the lowercase letters as small capitals), with the gold gradient, a soft warm glow, and a soft dark drop shadow. The shield gets a soft drop shadow. There are three variants:
+- **Lockup.** The shield and the game name together. The name is "GnollHack" in **Cinzel Black** (Cinzel draws the lowercase letters as small capitals), with the gold gradient, a soft warm glow, and a soft dark drop shadow. The shield gets a soft drop shadow. There are four variants:
   - **Horizontal:** The shield on the left, the name on the right, centered on the shield. Used for the Library Logo.
   - **Stacked:** The shield above the name, centered. Used for the Header Capsule, the Main and Vertical Capsules, the Library Capsule, and the Library Header.
-  - **Name:** The name alone, without the shield. Used for the Small Capsule.
+  - **Two-line:** The shield on the left, and the name in two lines on the right, "Gnoll" above "Hack", in the same font size and centered on each other. Used for the Small Capsule.
+  - **Name:** The name alone, without the shield. Used for the Google Play feature graphic (see [[/Development/AI/Google Play Store Assets]]).
 - **Shield file.** The GnollHack repository's `win/win32/xpl/GnollHackM/Assets/AppIcon/gnollhack-icon-v2-512-1240_x_1240.png`. It is the same shield as the event images' logo file, at 1171×1160 visible pixels, so it is never upscaled.
 - **Name size.** Make the name as large as the art and the margins allow. Players see most capsules at a fraction of their uploaded size, and the name is what they need to read and remember. In a stacked lockup, the name sets the width, so a smaller shield makes the lockup shorter without making the name smaller.
 - **No taglines.** The name is the only text on any image.
 - **Margins.** Keep the lockup at least 5% of the image's width away from every edge.
-- **Grading.** Contrast ×1.08 and saturation ×1.05, then a warm near-black overlay (RGB 14, 9, 6) that fades out from the lockup's side, and slightly darker edges. The subject stays bright. The Small Capsule and the Page Background use their own grading, described below.
+- **Grading.** Contrast ×1.08 and saturation ×1.05, then a warm near-black overlay (RGB 14, 9, 6) that fades out from the lockup's side, and slightly darker edges. The subject stays bright. The Page Background uses its own grading, and the Small Capsule has no art; both are described below.
 - **Scaling.** Scale the 5000×2813 portrait in one Lanczos step to each final size, and never upscale it. When the art does not cover the image, extend it with blurred art at the sides, as described for each image below.
 - **Files.** PNG, sRGB, 8 bits per channel, RGB without an alpha channel. Only the Library Logo is RGBA, with real transparency.
 
@@ -62,7 +63,9 @@ DwarfWarrior, with his face at 76% of the width and the art at the size that cov
 
 ### Small Capsule
 
-DwarfWarrior as a background texture only: brightness ×0.36 and a 1.5-pixel blur, so that the art does not compete with the name. The name lockup, without the shield, is centered and spans 410 pixels, as wide as the 5% margins allow. At 120×45, a shield would be about 12 pixels tall and unrecognizable, and it would take a quarter of the width from the name. Check that the name is readable at 120×45.
+No portrait: at list sizes, a portrait behind the name reads as dark noise. The background is a deep red glow, RGB 104, 20, 18 at 42% of the width and in the middle of the height, fading to RGB 26, 5, 7 toward the edges. The red is deliberate: it separates the capsule from Steam's dark blue-gray lists, and it makes this the one image of the set that is not warm near-black. Do not change it to match the other images.
+
+The two-line lockup, 410 pixels wide with a shield 1.68 times the font size, is centered. The font size is 75, and the shield is 126 pixels tall, which leaves 24 pixels above and below it. Two lines use the capsule's height: the letters are larger than those of a one-line name across the full width (font size 63), and the shield is still about 33 pixels tall and recognizable at 120×45. A one-line name beside a shield leaves much smaller letters (font size 46 with a 104-pixel shield). Both lines keep the same font size: do not enlarge or letter-space "Hack" to the width of "Gnoll". Check that the name and the shield are readable at 120×45.
 
 ### Main Capsule
 
@@ -163,18 +166,19 @@ Two tables at the top of the script set every image, so a change of portrait or 
 
 | Key | Meaning |
 |-----|---------|
-| **`art`** | The portrait's file name without `.png` |
+| **`art`** | The portrait's file name without `.png`. An image without art has `background` instead |
+| **`background`** | The colors of the glow's center and edge, the center as fractions of the image, and the radius in relation to the image's width |
 | **`focus`** | The point of the portrait, as fractions, that is placed at `at`. The default is the face's center |
 | **`at`** | Where the focus point lands on the image, as fractions of its width and height |
 | **`zoom`** | The art's scale in relation to the smallest scale that covers the image. Below 1, the art is extended at the sides |
 | **`extend`** | How the art is extended: `mirror` (the default) or `smear`, which stretches the outermost columns and rows outward |
 | **`grade`** | Contrast, saturation, brightness, blur, highlight compression, the darkened side, and the darkened edges and corner |
-| **`lockup`** | The variant (`horizontal`, `stacked`, or `name`), the visible width in pixels, the center as fractions of the image, and optionally the shield size in relation to the font size and the shadow strength |
+| **`lockup`** | The variant (`horizontal`, `stacked`, `twoline`, or `name`), the visible width in pixels, the center as fractions of the image, and optionally the shield size in relation to the font size and the shadow strength |
 
 The script stops if a portrait would be upscaled. It checks the size and color mode of every image it writes, and it prints a warning when:
 
 - a lockup is closer than 5% of the image's width to an edge;
-- a lockup covers the face (the Small Capsule is allowed to);
+- a lockup covers the face;
 - the hero's face is not inside the safe area;
 - the logo covers the hero's face at the position set in Steamworks (`LOGO_POSITION`);
 - the shield would be upscaled.

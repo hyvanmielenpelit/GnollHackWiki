@@ -23,6 +23,7 @@ import tempfile
 from PIL import Image, ImageChops, ImageDraw, ImageEnhance, ImageFilter, ImageFont
 
 GAME_NAME = "GnollHack"
+NAME_LINES = ("Gnoll", "Hack")                # the game name in two lines, for the "twoline" lockup
 SHIELD = r"win\win32\xpl\GnollHackM\Assets\AppIcon\gnollhack-icon-v2-512-1240_x_1240.png"
 
 GOLD = ((255, 226, 140), (196, 132, 48))      # vertical gradient of the game name, top to bottom
@@ -44,7 +45,9 @@ PORTRAITS = {
 #   art: portrait file name without .png; focus: source point (fractions, default the face center)
 #   that lands at canvas point "at"; zoom: scale relative to the smallest scale that covers the canvas.
 #   Art that does not cover the canvas is extended with mirrored, blurred art.
-#   grade: see grade(). lockup: variant "horizontal", "stacked" or "name" (no shield), visible width in px,
+#   An entry without art has background instead: see background().
+#   grade: see grade(). lockup: variant "horizontal", "stacked", "twoline" (the shield on the left and
+#   the name in two lines on the right) or "name" (no shield), visible width in px,
 #   and the center of the visible lockup as canvas fractions; over_face allows it over the face.
 ASSETS = [
     {"name": "storeheader", "file": r"STORE\GH_STEAM_ASSET_STOREHEADER.png", "size": (920, 430),
@@ -52,9 +55,8 @@ ASSETS = [
      "grade": {"side": ("left", 0.66, 235), "edges": (60, 110, 0, 40)},
      "lockup": {"variant": "stacked", "width": 465, "center": (0.306, 0.5), "shield": 2.2}},
     {"name": "smallcapsule", "file": r"STORE\GH_STEAM_ASSET_STORE_SMALLCAPSULE.png", "size": (462, 174),
-     "art": "DwarfWarrior", "at": (0.62, 0.45), "zoom": 1.0,
-     "grade": {"brightness": 0.36, "blur": 1.5, "edges": (40, 60, 40, 40)},
-     "lockup": {"variant": "name", "width": 410, "center": (0.5, 0.5), "over_face": True}},
+     "background": {"inner": (104, 20, 18), "outer": (26, 5, 7), "center": (0.42, 0.5), "radius": 0.75},
+     "lockup": {"variant": "twoline", "width": 410, "center": (0.5, 0.5), "shield": 1.68}},
     {"name": "maincapsule", "file": r"STORE\GH_STEAM_ASSET_STORE_MAINCAPSULE.png", "size": (1232, 706),
      "art": "WomanRanger", "at": (0.25, 0.26), "zoom": 1.05,
      "grade": {"side": ("right", 0.62, 215), "edges": (50, 120, 30, 0)},
@@ -237,6 +239,26 @@ def grade(img, g):
     return out
 
 
+def background(size, b):
+    """Returns an RGBA canvas with no art: a glow of b["inner"] that fades to b["outer"].
+
+    b keys: inner and outer colors, center (fractions of the image), and radius (x image width).
+    The glow is 1.6 times as wide as it is tall.
+    """
+    w, h = size
+    cx, cy = b["center"][0] * w, b["center"][1] * h
+    r = b["radius"] * w
+    inner, outer = b["inner"], b["outer"]
+    data = []
+    for y in range(h):
+        for x in range(w):
+            t = min(1.0, math.hypot(x - cx, (y - cy) * 1.6) / r) ** 1.4
+            data.append(tuple(round(inner[i] + (outer[i] - inner[i]) * t) for i in range(3)))
+    img = Image.new("RGB", size)
+    img.putdata(data)
+    return img.convert("RGBA")
+
+
 class Lockup:
     """The GnollHack shield and the gold game name, or the name alone, rendered on a transparent layer."""
 
@@ -246,6 +268,8 @@ class Lockup:
         self.shield = shield.crop(shield.getchannel("A").getbbox())
         bb = ImageFont.truetype(self.font_path, 1000).getbbox(GAME_NAME)
         self.name_width = (bb[2] - bb[0]) / 1000     # ink width per px of font size
+        boxes = [ImageFont.truetype(self.font_path, 1000).getbbox(t) for t in NAME_LINES]
+        self.line_width = max(b[2] - b[0] for b in boxes) / 1000   # widest of NAME_LINES, per px of font size
 
     def render(self, variant, width, shield=None, shadow=1.0):
         """Returns (layer, box): the RGBA layer and the box of the visible shield and letters on it.
@@ -261,6 +285,30 @@ class Lockup:
             layer = Image.new("RGBA", (tw + 2 * pad, th + 2 * pad), (0, 0, 0, 0))
             self._name(layer, fnt, pad - bb[0], pad - bb[1], size, shadow)
             return layer, (pad, pad, pad + tw, pad + th)
+        if variant == "twoline":
+            shield = shield or 1.7
+            aspect = self.shield.width / self.shield.height
+            size = int(width / (aspect * shield + 0.22 + self.line_width))
+            fnt = ImageFont.truetype(self.font_path, size)
+            boxes = [fnt.getbbox(t) for t in NAME_LINES]
+            tw = max(b[2] - b[0] for b in boxes)
+            line_gap = round(0.16 * size)
+            th = sum(b[3] - b[1] for b in boxes) + line_gap * (len(boxes) - 1)
+            sh = round(shield * size)
+            if sh > self.shield.height:
+                print("WARNING: the shield is upscaled to %d px" % sh)
+            logo = self.shield.resize((round(sh * aspect), sh), Image.LANCZOS)
+            g = round(0.22 * size)
+            w, h = logo.width + g + tw, max(sh, th)
+            pad = round(max(sh * 0.35, size * 0.6) * shadow)
+            layer = Image.new("RGBA", (w + 2 * pad, h + 2 * pad), (0, 0, 0, 0))
+            self._shield(layer, logo, pad, pad + (h - sh) // 2, shadow)
+            y = pad + (h - th) // 2
+            for text, b in zip(NAME_LINES, boxes):
+                x = pad + logo.width + g + (tw - (b[2] - b[0])) // 2
+                self._name(layer, fnt, x - b[0], y - b[1], size, shadow, text)
+                y += b[3] - b[1] + line_gap
+            return layer, (pad, pad, pad + w, pad + h)
         aspect = self.shield.width / self.shield.height
         if variant == "horizontal":
             shield = shield or 1.5
@@ -303,9 +351,9 @@ class Lockup:
         layer.alpha_composite(logo, (x, y))
 
     @staticmethod
-    def _name(layer, fnt, x, y, size, shadow):
+    def _name(layer, fnt, x, y, size, shadow, text=GAME_NAME):
         mask = Image.new("L", layer.size, 0)
-        ImageDraw.Draw(mask).text((x, y), GAME_NAME, font=fnt, fill=255)
+        ImageDraw.Draw(mask).text((x, y), text, font=fnt, fill=255)
         box = mask.getbbox()
         blur = max(1, round(size * 0.1 * shadow))
         dark = Image.new("L", layer.size, 0)
@@ -368,8 +416,11 @@ def make_asset(spec, args, lockup):
     """Returns (image, face box, lockup box) of one asset."""
     if spec["name"] == "librarylogo":
         return make_logo(lockup, spec), None, None
-    art, face_box = place_art(args.art_dir, spec)
-    base = grade(art, spec["grade"])
+    if "art" in spec:
+        art, face_box = place_art(args.art_dir, spec)
+        base = grade(art, spec["grade"])
+    else:
+        base, face_box = background(spec["size"], spec["background"]), None
     vis = place_lockup(base, lockup, spec["lockup"], face_box, spec["name"]) if "lockup" in spec else None
     return base.convert("RGB"), face_box, vis
 
