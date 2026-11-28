@@ -337,19 +337,19 @@ The port lists below are ordered as follows:
 
 - ⚡ marks a project that installs from Steam, Google Play, or the App Store in one click.
 - ✅ marks a project that plays the current version of vanilla NetHack, 5.0.
-- 🕰️ marks an older version.
+- 🕰️ marks an older version of vanilla NetHack.
 - 🌍 marks a browser version with nothing to install.
 - 🖥️ marks a browser version that needs a desktop computer (no touch support).
 - 🎵 marks a project with both sound effects and music.
 
-The desktop and mobile web browser lists hold only browser versions, so their items carry neither 🌍 nor 🖥️, and the items in the music and sound effects list do not carry 🎵.
+A project carries the same signs in every list it appears in.
 
 ### By Device
 
 **iPhone or iPad**
 
 1. [[GnollHack|#gnollhack]] ⭐ ⚡ 🎵
-2. [[iNethack2|#inethack2]] ⚡ 🕰️ ⌨️
+2. [[iNethack2|#inethack2]] ⚡ 🕰️ 📱 ⌨️
 
 **Android phone or tablet**
 
@@ -366,7 +366,7 @@ The desktop and mobile web browser lists hold only browser versions, so their it
 3. [[NetHack Cocoa|#nethack-cocoa]] ✅
 4. [[BlissHack|#blisshack]] ✅
 5. [[NetHack Tiles Client|#nethack-tiles-client]]
-6. [[iNethack2|#inethack2]] ⚡ 🕰️ 📱
+6. [[iNethack2|#inethack2]] ⚡ 🕰️ 📱 ⌨️
 
 **Windows PC**
 
@@ -397,21 +397,21 @@ The desktop and mobile web browser lists hold only browser versions, so their it
 
 **Desktop web browser**
 
-1. [[WebHack|#webhack]] ✅
-2. [[NetHack 3D (web version)|#nethack-3d-web-version]] ⭐ ✅ ⚠️
-3. [[NetHack Browser Edition|#nethack-browser-edition]] 🕰️ ⚠️
-4. [[BlissHack (web version)|#blisshack-web-version]] ✅ ⚠️
-5. [[neohack|#neohack]] ✅ ⚠️
-6. [[nethack.app|#nethack-app]] ✅ ⚠️
-7. [[VectHack|#vecthack]] ✅ ⚠️
+1. [[WebHack|#webhack]] ✅ 🌍 🖥️
+2. [[NetHack 3D (web version)|#nethack-3d-web-version]] ⭐ ✅ 🌍 ⚠️
+3. [[NetHack Browser Edition|#nethack-browser-edition]] 🕰️ 🌍 ⚠️
+4. [[BlissHack (web version)|#blisshack-web-version]] ✅ 🌍 ⚠️
+5. [[neohack|#neohack]] ✅ 🌍 ⌨️ ⚠️
+6. [[nethack.app|#nethack-app]] ✅ 🌍 ⚠️
+7. [[VectHack|#vecthack]] ✅ 🌍 🖥️ ⚠️
 
 **Mobile web browser**
 
-1. [[NetHack 3D (web version)|#nethack-3d-web-version]] ⭐ ✅ ⚠️
-2. [[NetHack Browser Edition|#nethack-browser-edition]] 🕰️ ⚠️
-3. [[BlissHack (web version)|#blisshack-web-version]] ✅ ⚠️
-4. [[neohack|#neohack]] ✅ ⌨️ ⚠️
-5. [[nethack.app|#nethack-app]] (tablets held sideways, not phones) ✅ ⚠️
+1. [[NetHack 3D (web version)|#nethack-3d-web-version]] ⭐ ✅ 🌍 ⚠️
+2. [[NetHack Browser Edition|#nethack-browser-edition]] 🕰️ 🌍 ⚠️
+3. [[BlissHack (web version)|#blisshack-web-version]] ✅ 🌍 ⚠️
+4. [[neohack|#neohack]] ✅ 🌍 ⌨️ ⚠️
+5. [[nethack.app|#nethack-app]] (tablets held sideways, not phones) ✅ 🌍 ⚠️
 
 ### By Game and Language
 
@@ -423,22 +423,22 @@ The desktop and mobile web browser lists hold only browser versions, so their it
 4. [[NetHack Cocoa|#nethack-cocoa]] ✅
 5. [[Amphitere|#amphitere]] ✅
 6. [[BlissHack|#blisshack]] ✅
-7. [[DartHack|#darthack]] ⚡ ✅
-8. [[NetHack Modern|#nethack-modern]] ✅ 🎵
-9. [[WebHack|#webhack]] ✅ 🌍 🖥️
-10. [[NetHack Android|#nethack-android]] ✅ ⚠️
-11. [[neohack|#neohack]] ✅ 🌍 ⚠️
+7. [[NetHack Modern|#nethack-modern]] ✅ 🎵
+8. [[WebHack|#webhack]] ✅ 🌍 🖥️
+9. [[DartHack|#darthack]] ⚡ ✅ ⌨️
+10. [[NetHack Android|#nethack-android]] ✅ ⌨️ ⚠️
+11. [[neohack|#neohack]] ✅ 🌍 ⌨️ ⚠️
 12. [[nethack.app|#nethack-app]] ✅ 🌍 ⚠️
 13. [[VectHack|#vecthack]] ✅ 🌍 🖥️ ⚠️
 
 **An older version of vanilla NetHack**
 
 1. [[NetHack 3D|#nethack-3d]] (NetHack 3.6.7) ⭐ 🕰️
-2. [[iNethack2|#inethack2]] (NetHack 3.6.7) ⚡ 🕰️
-3. [[NAO web terminal|#nao-web-terminal]] (NetHack 3.6) 🕰️ 🌍 🖥️
-4. [[ZeldHack for NetHack|#zeldhack-for-nethack]] (NetHack 3.6.7) 🕰️ 🎵
-5. [[Amphitere|#amphitere]] (Amphitere Classic, NetHack 3.6.7) 🕰️
-6. [[VoxHack|#voxhack]] (NetHack 3.7) 🕰️ 🎵
+2. [[NAO web terminal|#nao-web-terminal]] (NetHack 3.6) 🕰️ 🌍 🖥️
+3. [[ZeldHack for NetHack|#zeldhack-for-nethack]] (NetHack 3.6.7) 🕰️ 🎵
+4. [[Amphitere|#amphitere]] (Amphitere Classic, NetHack 3.6.7) 🕰️
+5. [[VoxHack|#voxhack]] (NetHack 3.7) 🕰️ 🎵
+6. [[iNethack2|#inethack2]] (NetHack 3.6.7) ⚡ 🕰️ 📱 ⌨️
 7. [[NetHack Browser Edition|#nethack-browser-edition]] (NetHack 3.6.7) 🕰️ 🌍 ⚠️
 
 **A NetHack variant**
@@ -451,8 +451,8 @@ The desktop and mobile web browser lists hold only browser versions, so their it
 
 **Japanese text**
 
-1. [[DartHack|#darthack]] ⚡ ✅
-2. [[NetHackJP|#nethackjp]] ✅
+1. [[NetHackJP|#nethackjp]] ✅
+2. [[DartHack|#darthack]] ⚡ ✅ ⌨️
 
 ### By Look and Sound
 
